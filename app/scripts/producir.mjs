@@ -129,7 +129,7 @@ const render = (formato) => {
   const destino = join(salida, `${formato}.mp4`);
   console.log(`🎬 renderizando ${comp}…`);
   const t0 = Date.now();
-  execFileSync("npx", ["remotion", "render", comp, destino, `--props=${JSON.stringify({ slug })}`, "--concurrency=4", "--crf=22", "--x264-preset=veryfast", "--log=error", "--timeout=120000"], { cwd: APP, stdio: "inherit" });
+  execFileSync("npx", ["remotion", "render", comp, destino, `--props=${JSON.stringify({ slug })}`, "--concurrency=4", "--crf=24", "--x264-preset=medium", "--log=error", "--timeout=120000"], { cwd: APP, stdio: "inherit" });
   console.log(`   ✔ ${destino} (${((Date.now() - t0) / 60000).toFixed(1)} min)`);
 };
 

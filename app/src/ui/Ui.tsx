@@ -19,7 +19,7 @@ export const Grano: React.FC = () => {
   return (
     <AbsoluteFill style={{ pointerEvents: "none" }}>
       <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 45%, rgba(0,0,0,0) 55%, rgba(0,0,0,0.5) 100%)" }} />
-      <AbsoluteFill style={{ backgroundImage: `url(${staticFile("textura/grano.png")})`, backgroundPosition: `${(f * 137) % 256}px ${(f * 59) % 256}px`, opacity: 0.07, mixBlendMode: "overlay" }} />
+      <AbsoluteFill style={{ backgroundImage: `url(${staticFile("textura/grano.png")})`, opacity: 0.05, mixBlendMode: "overlay" }} />
     </AbsoluteFill>
   );
 };
