@@ -1,0 +1,7 @@
+node_modules/
+.venv/
+voces/*.onnx
+voces/*.onnx.json
+app/public/obras/
+salida/
+*.log

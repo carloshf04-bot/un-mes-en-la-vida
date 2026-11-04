@@ -1,0 +1,360 @@
+import React from "react";
+
+// Objetos de decorado. Origen = punto de apoyo en el suelo; se dibujan hacia arriba (y negativa).
+// Para añadir uno nuevo: añade un `case` y documéntalo en oficina/GUIA_GUION.md
+export const PROPS_DISPONIBLES = [
+  "arbol", "pino", "palmera", "casa", "cabana", "faro", "barco", "velero", "cohete", "farola", "carro", "puesto",
+  "roca", "valla", "pozo", "tumba", "hoguera", "tienda", "bandera", "mesa", "estanteria", "chimenea", "cama",
+  "antorcha", "cuadro", "consola", "maquina", "barril", "cajas", "planta", "telescopio", "yunque", "piramide", "columna", "reloj",
+] as const;
+
+const Brillo: React.FC<{ r: number; o: number; color?: string; cx?: number; cy?: number }> = ({ r, o, color = "#ffb347", cx = 0, cy = 0 }) => (
+  <g>
+    <defs>
+      <radialGradient id={`brillo-${color.slice(1)}`}>
+        <stop offset="0%" stopColor={color} stopOpacity={1} />
+        <stop offset="100%" stopColor={color} stopOpacity={0} />
+      </radialGradient>
+    </defs>
+    <circle cx={cx} cy={cy} r={r} fill={`url(#brillo-${color.slice(1)})`} opacity={o} />
+  </g>
+);
+
+export const Prop: React.FC<{ tipo: string; f: number; noche: boolean }> = ({ tipo, f, noche }) => {
+  const llama = (x: number, y: number, s = 1) => (
+    <g transform={`translate(${x} ${y}) scale(${s * (1 + Math.sin(f / 2.3) * 0.08)} ${s * (1 + Math.cos(f / 1.9) * 0.1)})`}>
+      <Brillo r={160} o={0.35} />
+      <path d="M0 -70 C30 -30 34 0 0 14 C-34 0 -30 -30 0 -70Z" fill="#ff7b2f" />
+      <path d="M0 -36 C14 -16 16 0 0 8 C-16 0 -14 -16 0 -36Z" fill="#ffe07a" />
+    </g>
+  );
+  switch (tipo) {
+    case "arbol":
+      return (
+        <g>
+          <rect x={-22} y={-300} width={44} height={300} fill="#5a3d28" />
+          <circle cx={0} cy={-380} r={150} fill="#3f6e3a" />
+          <circle cx={-100} cy={-300} r={100} fill="#4a7d43" />
+          <circle cx={100} cy={-310} r={105} fill="#36612f" />
+        </g>
+      );
+    case "pino":
+      return (
+        <g>
+          <rect x={-18} y={-120} width={36} height={120} fill="#4a3220" />
+          {[0, 1, 2].map((i) => <polygon key={i} points={`0,${-560 + i * 130} ${-150 + i * -20},${-260 + i * 90} ${150 + i * 20},${-260 + i * 90}`} fill={["#2f5a3a", "#294f33", "#23452c"][i]} />)}
+        </g>
+      );
+    case "palmera":
+      return (
+        <g>
+          <path d="M-10 0 Q-40 -260 20 -520 L44 -520 Q-10 -260 20 0Z" fill="#8a6a44" />
+          {[-60, -25, 15, 50, 85, 130].map((a, i) => (
+            <path key={i} d="M0 0 Q90 -40 210 30 Q90 -10 0 0Z" fill="#3f8a3a" transform={`translate(32 -520) rotate(${a + Math.sin(f / 20 + i) * 3})`} />
+          ))}
+        </g>
+      );
+    case "casa":
+    case "cabana": {
+      const cab = tipo === "cabana";
+      return (
+        <g>
+          <rect x={-200} y={-300} width={400} height={300} fill={cab ? "#7a5234" : "#d8c3a0"} />
+          {cab && [0, 1, 2, 3, 4].map((i) => <rect key={i} x={-200} y={-300 + i * 60} width={400} height={6} fill="#5a3a22" />)}
+          <polygon points="-240,-300 0,-480 240,-300" fill={cab ? "#4a3220" : "#9a3b2a"} />
+          <rect x={-40} y={-150} width={80} height={150} fill="#4a3426" />
+          <rect x={-160} y={-230} width={80} height={70} fill={noche ? "#ffd27a" : "#5a6b7a"} stroke="#4a3426" strokeWidth={8} />
+          <rect x={80} y={-230} width={80} height={70} fill={noche ? "#ffd27a" : "#5a6b7a"} stroke="#4a3426" strokeWidth={8} />
+          <rect x={110} y={-470} width={50} height={110} fill="#5a4a42" />
+          <circle cx={135} cy={-500 - (f % 60)} r={20 + (f % 60) / 3} fill="#bbb" opacity={0.4 - (f % 60) / 160} />
+        </g>
+      );
+    }
+    case "faro": {
+      const g = (f * 2.2) % 360;
+      const c = Math.cos((g * Math.PI) / 180);
+      return (
+        <g>
+          {noche && (
+            <g transform="translate(0 -660)">
+              <polygon points="0,0 2000,-200 2000,200" fill="#fff3c4" opacity={0.22 * Math.abs(c)} transform={`scale(${c >= 0 ? 1 : -1} 1)`} />
+              <circle r={120} fill="#fff3c4" opacity={0.25} />
+            </g>
+          )}
+          <polygon points="-110,0 110,0 70,-560 -70,-560" fill="#f1ece2" />
+          {[0, 1, 2].map((i) => <polygon key={i} points={`${-104 + i * 13},${-70 - i * 170} ${104 - i * 13},${-70 - i * 170} ${98 - i * 13},${-150 - i * 170} ${-98 + i * 13},${-150 - i * 170}`} fill="#b8322d" />)}
+          <rect x={-90} y={-585} width={180} height={28} fill="#2b2b2b" />
+          <rect x={-58} y={-690} width={116} height={105} fill={noche ? "#ffe9a3" : "#cfe6f0"} stroke="#2b2b2b" strokeWidth={10} />
+          <polygon points="-78,-690 78,-690 0,-760" fill="#2b2b2b" />
+        </g>
+      );
+    }
+    case "barco":
+      return (
+        <g transform={`translate(0 ${Math.sin(f / 12) * 8 - 60}) rotate(${Math.sin(f / 16) * 2.5})`}>
+          <path d="M-320 0 L320 0 L260 110 L-280 110 Z" fill="#1d1d24" />
+          <rect x={-200} y={-90} width={330} height={90} fill="#2c2c36" />
+          <rect x={-100} y={-240} width={60} height={150} fill="#8a2b22" />
+          <rect x={20} y={-210} width={60} height={120} fill="#8a2b22" />
+          {[0, 1, 2, 3, 4, 5].map((i) => <circle key={i} cx={-170 + i * 56} cy={-45} r={11} fill={noche ? "#ffd27a" : "#9ab"} />)}
+          <circle cx={-70} cy={-270 - (f % 50)} r={30 + (f % 50) / 2} fill="#aaa" opacity={0.4 - (f % 50) / 130} />
+        </g>
+      );
+    case "velero":
+      return (
+        <g transform={`translate(0 ${Math.sin(f / 12) * 8 - 40}) rotate(${Math.sin(f / 16) * 3})`}>
+          <path d="M-260 0 L260 0 L200 90 L-220 90Z" fill="#6b4226" />
+          <rect x={-10} y={-520} width={20} height={520} fill="#4a2e1a" />
+          <path d="M10 -500 Q200 -300 10 -60Z" fill="#efe6d2" />
+          <path d="M-10 -460 Q-180 -280 -10 -80Z" fill="#e2d6bd" />
+          <rect x={10} y={-530} width={80} height={40} fill="#b8322d" />
+        </g>
+      );
+    case "cohete":
+      return (
+        <g>
+          <path d="M-90 -100 L-90 -620 Q0 -820 90 -620 L90 -100Z" fill="#e9edf2" />
+          <circle cx={0} cy={-560} r={40} fill="#5ab0e8" stroke="#7d8794" strokeWidth={10} />
+          <path d="M-90 -260 L-180 -80 L-90 -100Z M90 -260 L180 -80 L90 -100Z" fill="#c8402f" />
+          <rect x={-60} y={-100} width={120} height={60} fill="#7d8794" />
+          <rect x={-90} y={-380} width={180} height={24} fill="#c8402f" />
+        </g>
+      );
+    case "farola":
+      return (
+        <g>
+          <rect x={-10} y={-460} width={20} height={460} fill="#2b2b30" />
+          <rect x={-40} y={-540} width={80} height={90} fill={noche ? "#ffe39a" : "#c9d6dc"} stroke="#2b2b30" strokeWidth={10} />
+          {noche && <Brillo cy={-495} r={260} o={0.4} color="#ffd27a" />}
+          <polygon points="-55,-540 55,-540 0,-590" fill="#2b2b30" />
+        </g>
+      );
+    case "carro":
+      return (
+        <g>
+          <rect x={-200} y={-200} width={400} height={110} fill="#7a5234" />
+          <rect x={-200} y={-210} width={400} height={20} fill="#5a3a22" />
+          {[-130, 130].map((x) => (
+            <g key={x} transform={`translate(${x} -80)`}>
+              <circle r={80} fill="none" stroke="#4a3220" strokeWidth={16} />
+              {[0, 45, 90, 135].map((a) => <line key={a} x1={-80} y1={0} x2={80} y2={0} stroke="#4a3220" strokeWidth={8} transform={`rotate(${a})`} />)}
+            </g>
+          ))}
+          <rect x={200} y={-150} width={200} height={14} fill="#5a3a22" />
+        </g>
+      );
+    case "puesto":
+      return (
+        <g>
+          <rect x={-220} y={-200} width={440} height={200} fill="#8a5a3a" />
+          {[-180, 180].map((x) => <rect key={x} x={x - 10} y={-460} width={20} height={260} fill="#5a3a22" />)}
+          {[0, 1, 2, 3, 4, 5].map((i) => <path key={i} d={`M${-240 + i * 80} -460 h80 v60 q-40 30 -80 0z`} fill={i % 2 ? "#f2efe6" : "#c8402f"} />)}
+          {["🍎", "🥖", "🧀", "🐟"].map((e, i) => <text key={i} x={-160 + i * 105} y={-215} fontSize={70} textAnchor="middle" style={{ fontFamily: "'Noto Color Emoji'" }}>{e}</text>)}
+        </g>
+      );
+    case "roca":
+      return <path d="M-180 0 Q-200 -120 -90 -170 Q20 -220 120 -150 Q200 -90 180 0Z" fill="#6b6560" />;
+    case "valla":
+      return (
+        <g fill="#8a6a44">
+          {[-240, -120, 0, 120, 240].map((x) => <rect key={x} x={x - 12} y={-160} width={24} height={160} />)}
+          <rect x={-260} y={-130} width={520} height={18} />
+          <rect x={-260} y={-60} width={520} height={18} />
+        </g>
+      );
+    case "pozo":
+      return (
+        <g>
+          <rect x={-130} y={-140} width={260} height={140} rx={20} fill="#8a8178" />
+          {[0, 1].map((i) => <rect key={i} x={-130} y={-140 + i * 70} width={260} height={8} fill="#6b635b" />)}
+          <rect x={-120} y={-360} width={18} height={220} fill="#5a3a22" />
+          <rect x={102} y={-360} width={18} height={220} fill="#5a3a22" />
+          <polygon points="-160,-350 0,-440 160,-350" fill="#6b3a2a" />
+        </g>
+      );
+    case "tumba":
+      return (
+        <g>
+          <path d="M-70 0 L-70 -160 Q0 -240 70 -160 L70 0Z" fill="#9a9590" />
+          <rect x={-8} y={-190} width={16} height={90} fill="#77726d" />
+          <rect x={-35} y={-160} width={70} height={16} fill="#77726d" />
+        </g>
+      );
+    case "hoguera":
+      return (
+        <g>
+          <rect x={-110} y={-30} width={220} height={30} rx={14} fill="#5a3a22" transform="rotate(12)" />
+          <rect x={-110} y={-30} width={220} height={30} rx={14} fill="#4a3220" transform="rotate(-12)" />
+          {llama(0, -40, 1.6)}
+        </g>
+      );
+    case "tienda":
+      return (
+        <g>
+          <polygon points="-260,0 0,-340 260,0" fill="#c9a76a" />
+          <polygon points="-50,0 0,-280 50,0" fill="#4a3426" />
+          <line x1={0} y1={-340} x2={0} y2={-400} stroke="#5a3a22" strokeWidth={10} />
+        </g>
+      );
+    case "bandera":
+      return (
+        <g>
+          <rect x={-8} y={-560} width={16} height={560} fill="#9a9a9a" />
+          <path d={`M8 -550 Q90 ${-570 + Math.sin(f / 6) * 20} 200 -550 L200 -430 Q90 ${-450 + Math.sin(f / 6 + 1) * 20} 8 -430Z`} fill="#c8402f" />
+        </g>
+      );
+    case "mesa":
+      return (
+        <g>
+          <rect x={-240} y={-230} width={480} height={30} fill="#6b4a32" />
+          <rect x={-220} y={-200} width={26} height={200} fill="#5a3d28" />
+          <rect x={194} y={-200} width={26} height={200} fill="#5a3d28" />
+          <rect x={-150} y={-260} width={120} height={30} fill="#e9dcc0" />
+          <rect x={60} y={-300} width={40} height={70} fill="#c9b18f" />
+        </g>
+      );
+    case "estanteria":
+      return (
+        <g>
+          <rect x={-190} y={-620} width={380} height={620} fill="#5a3d28" />
+          {[0, 1, 2, 3].map((r) => (
+            <g key={r}>
+              <rect x={-170} y={-600 + r * 150} width={340} height={130} fill="#3a2718" />
+              {[0, 1, 2, 3, 4, 5, 6].map((i) => <rect key={i} x={-160 + i * 46} y={-590 + r * 150 + (i % 3) * 8} width={38} height={120 - (i % 3) * 8} fill={["#8a2b22", "#2f4a6b", "#c9a24a", "#3f6e3a", "#6b3a6b"][(i + r) % 5]} />)}
+            </g>
+          ))}
+        </g>
+      );
+    case "chimenea":
+      return (
+        <g>
+          <rect x={-240} y={-420} width={480} height={420} fill="#8a8178" />
+          <rect x={-280} y={-450} width={560} height={40} fill="#6b635b" />
+          <path d="M-140 0 L-140 -200 Q0 -300 140 -200 L140 0Z" fill="#1b1512" />
+          {llama(0, -40, 1.3)}
+          <Brillo cy={-100} r={520} o={0.22 + Math.sin(f / 4) * 0.04} color="#ff9a3c" />
+        </g>
+      );
+    case "cama":
+      return (
+        <g>
+          <rect x={-300} y={-160} width={600} height={100} fill="#f0e6d2" />
+          <rect x={-300} y={-150} width={420} height={90} fill="#7a3b3b" />
+          <rect x={-320} y={-60} width={640} height={30} fill="#5a3d28" />
+          <rect x={-320} y={-300} width={34} height={300} fill="#5a3d28" />
+          <rect x={286} y={-220} width={34} height={220} fill="#5a3d28" />
+          <ellipse cx={210} cy={-180} rx={70} ry={34} fill="#fff" />
+        </g>
+      );
+    case "antorcha":
+      return (
+        <g transform="translate(0 -520)">
+          <rect x={-12} y={0} width={24} height={140} fill="#5a3a22" transform="rotate(-10)" />
+          {llama(0, -10, 0.9)}
+        </g>
+      );
+    case "cuadro":
+      return (
+        <g transform="translate(0 -700)">
+          <rect x={-150} y={-110} width={300} height={220} fill="#c9a24a" />
+          <rect x={-125} y={-85} width={250} height={170} fill="#3d5a6b" />
+          <circle cx={40} cy={-30} r={30} fill="#f2c26a" />
+          <path d="M-125 85 L-40 -10 L30 60 L80 20 L125 85Z" fill="#2f4a3a" />
+        </g>
+      );
+    case "consola":
+      return (
+        <g>
+          <path d="M-280 0 L-280 -220 L-220 -320 L220 -320 L280 -220 L280 0Z" fill="#3a414b" />
+          <rect x={-200} y={-300} width={400} height={70} fill="#0b1a26" />
+          {Array.from({ length: 8 }).map((_, i) => <rect key={i} x={-190 + i * 48} y={-290 + ((f / 3 + i * 7) % 40)} width={30} height={8} fill="#5ef2ff" opacity={0.8} />)}
+          {[0, 1, 2, 3, 4].map((i) => <circle key={i} cx={-180 + i * 90} cy={-180} r={16} fill={["#ff5a5a", "#5ef2a0", "#ffd25e", "#5ef2ff", "#ff4fd8"][i]} opacity={(f + i * 9) % 30 < 20 ? 1 : 0.3} />)}
+        </g>
+      );
+    case "maquina":
+      return (
+        <g>
+          <rect x={-260} y={-400} width={520} height={400} fill="#5a5f66" />
+          <circle cx={-110} cy={-230} r={110} fill="#7d8794" />
+          <g transform={`translate(-110 -230) rotate(${f * 4})`}>{[0, 60, 120].map((a) => <rect key={a} x={-100} y={-12} width={200} height={24} fill="#3a414b" transform={`rotate(${a})`} />)}</g>
+          <rect x={60} y={-360} width={160} height={120} fill="#2b2f35" />
+          <rect x={120} y={-560} width={60} height={160} fill="#3a414b" />
+          <circle cx={150} cy={-590 - (f % 40)} r={24 + (f % 40) / 2} fill="#999" opacity={0.45 - (f % 40) / 100} />
+        </g>
+      );
+    case "barril":
+      return (
+        <g>
+          <path d="M-90 0 Q-120 -130 -90 -260 L90 -260 Q120 -130 90 0Z" fill="#8a5a3a" />
+          {[-220, -130, -40].map((y) => <rect key={y} x={-105} y={y} width={210} height={14} fill="#4a4a4a" />)}
+        </g>
+      );
+    case "cajas":
+      return (
+        <g>
+          {[[-130, 0], [100, 0], [-20, -200]].map(([x, y], i) => (
+            <g key={i} transform={`translate(${x} ${y})`}>
+              <rect x={-100} y={-200} width={200} height={200} fill="#b48a5a" stroke="#7a5a3a" strokeWidth={10} />
+              <path d="M-100 -200 L100 0 M100 -200 L-100 0" stroke="#7a5a3a" strokeWidth={8} />
+            </g>
+          ))}
+        </g>
+      );
+    case "planta":
+      return (
+        <g>
+          <path d="M-70 0 L-90 -130 L90 -130 L70 0Z" fill="#b5653f" />
+          {[-40, -15, 10, 35].map((a, i) => <ellipse key={i} cx={0} cy={-230} rx={30} ry={110} fill="#3f7a3a" transform={`rotate(${a + Math.sin(f / 25 + i) * 3} 0 -130)`} />)}
+        </g>
+      );
+    case "telescopio":
+      return (
+        <g>
+          {[-30, 0, 30].map((a) => <rect key={a} x={-6} y={-300} width={12} height={300} fill="#5a3d28" transform={`rotate(${a} 0 -300)`} />)}
+          <rect x={-40} y={-360} width={320} height={70} rx={20} fill="#c9a24a" transform="rotate(-30 0 -320)" />
+        </g>
+      );
+    case "yunque":
+      return (
+        <g>
+          <rect x={-60} y={-120} width={120} height={120} fill="#3a3a40" />
+          <path d="M-180 -200 L160 -200 Q220 -190 230 -160 L100 -160 L80 -120 L-80 -120 L-100 -160 L-180 -160Z" fill="#4a4a52" />
+          {f % 18 < 3 && [0, 1, 2, 3].map((i) => <circle key={i} cx={-20 + i * 20} cy={-230 - i * 12} r={6} fill="#ffb347" />)}
+        </g>
+      );
+    case "piramide":
+      return (
+        <g transform="scale(1.6)">
+          <polygon points="-420,0 0,-420 420,0" fill="#d9b37a" />
+          <polygon points="0,-420 420,0 120,0" fill="#b8925a" />
+        </g>
+      );
+    case "columna":
+      return (
+        <g>
+          <rect x={-70} y={-700} width={140} height={700} fill="#e6dfd2" />
+          {[-40, -10, 20, 50].map((x) => <rect key={x} x={x - 6} y={-680} width={12} height={660} fill="#c9c1b2" />)}
+          <rect x={-100} y={-740} width={200} height={50} fill="#d6cfc2" />
+          <rect x={-100} y={-30} width={200} height={30} fill="#d6cfc2" />
+        </g>
+      );
+    case "reloj":
+      return (
+        <g>
+          <rect x={-90} y={-720} width={180} height={720} fill="#5a3d28" />
+          <circle cx={0} cy={-580} r={70} fill="#f0e6d2" />
+          <line x1={0} y1={-580} x2={0} y2={-630} stroke="#222" strokeWidth={8} transform={`rotate(${f * 0.5} 0 -580)`} />
+          <line x1={0} y1={-580} x2={40} y2={-580} stroke="#222" strokeWidth={8} />
+          <line x1={0} y1={-480} x2={0} y2={-220} stroke="#c9a24a" strokeWidth={8} transform={`rotate(${Math.sin(f / 8) * 14} 0 -480)`} />
+          <circle cx={Math.sin((Math.sin(f / 8) * 14 * Math.PI) / 180) * -260} cy={-480 + Math.cos((Math.sin(f / 8) * 14 * Math.PI) / 180) * 260} r={24} fill="#c9a24a" />
+        </g>
+      );
+    default:
+      // cualquier otra cosa: emoji gigante
+      return (
+        <text x={0} y={-20} fontSize={260} textAnchor="middle" style={{ fontFamily: "'Noto Color Emoji'" }}>
+          {tipo}
+        </text>
+      );
+  }
+};

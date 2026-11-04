@@ -1,0 +1,1718 @@
+{
+  "slug": "farero-1890",
+  "titulo": "un farero",
+  "lugar": "Cabo Vilán, Galicia",
+  "epoca": "Noviembre de 1890",
+  "categoria": "profesion",
+  "voz": "es_MX-claude-high",
+  "velocidad": 0.95,
+  "musica": "nostalgia",
+  "paleta": {
+    "acento": "#f2b544",
+    "texto": "#f5efe0",
+    "fondo": "#0c1424",
+    "papel": "#f3e9d2"
+  },
+  "reparto": {
+    "manuel": {
+      "piel": "#e3ad84",
+      "pelo": "#3a2a1e",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#24364f",
+        "color2": "#2b2b33",
+        "detalle": "#c9a24a"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#1a2638"
+    },
+    "carmen": {
+      "piel": "#f1c7a3",
+      "pelo": "#5a2e18",
+      "peinado": "largo",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#6b2d3a",
+        "color2": "#3d2a2a"
+      },
+      "sombrero": "panuelo",
+      "colorSombrero": "#2b2b33"
+    },
+    "xan": {
+      "piel": "#f0c09a",
+      "pelo": "#6b3b1d",
+      "peinado": "corto",
+      "altura": 0.62,
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#c9b18f",
+        "color2": "#4a3a2a",
+        "detalle": "#7a5a3a"
+      },
+      "sombrero": "boina",
+      "colorSombrero": "#3a3a40"
+    },
+    "cura": {
+      "piel": "#e8bf9a",
+      "pelo": "#bbb",
+      "peinado": "rapado",
+      "gafas": true,
+      "ropa": {
+        "tipo": "bata",
+        "color": "#1d1d22",
+        "color2": "#1d1d22",
+        "detalle": "#eee"
+      }
+    },
+    "pescador": {
+      "piel": "#c98f66",
+      "pelo": "#888",
+      "barba": "larga",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#4a5a3a",
+        "color2": "#3a3a30",
+        "detalle": "#2a2a20"
+      },
+      "sombrero": "boina",
+      "colorSombrero": "#2a2a30"
+    },
+    "gould": {
+      "piel": "#f3d2b8",
+      "pelo": "#c9a060",
+      "peinado": "corto",
+      "ropa": {
+        "tipo": "harapos",
+        "color": "#e8e2d4",
+        "color2": "#2a3a5a",
+        "detalle": "#999"
+      }
+    },
+    "inspector": {
+      "piel": "#ebc29e",
+      "pelo": "#222",
+      "barba": "bigote",
+      "gafas": true,
+      "ropa": {
+        "tipo": "traje",
+        "color": "#2b2b30",
+        "color2": "#2b2b30",
+        "detalle": "#7a1f1f"
+      },
+      "sombrero": "copa",
+      "colorSombrero": "#151518"
+    }
+  },
+  "short": {
+    "escenas": [
+      {
+        "texto": "Esta noche, ciento setenta y dos hombres van a morir frente a mi faro. Y yo lo voy a ver todo.",
+        "fondo": {
+          "lugar": "mar",
+          "hora": "noche",
+          "clima": "tormenta",
+          "props": [
+            {
+              "tipo": "faro",
+              "x": -1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": 0.25,
+            "accion": "senalar",
+            "emocion": "miedo",
+            "mirar": 1
+          }
+        ]
+      },
+      {
+        "dia": 1,
+        "texto": "Me llamo Manuel. Soy torrero en Cabo Vilán, en la Costa da Morte. Mi trabajo es que la luz no se apague nunca.",
+        "fondo": {
+          "lugar": "mar",
+          "hora": "atardecer",
+          "props": [
+            {
+              "tipo": "faro",
+              "x": -1.35
+            },
+            {
+              "tipo": "casa",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": 0,
+            "accion": "hablar",
+            "emocion": "neutral"
+          }
+        ]
+      },
+      {
+        "dia": 2,
+        "texto": "Cada tres horas subo ciento veinte escalones para recortar la mecha y echar aceite. Toda la noche. Todas las noches.",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "120",
+          "etiqueta": "escalones cada tres horas",
+          "icono": "🪜"
+        }
+      },
+      {
+        "dia": 10,
+        "texto": "El diez de noviembre, entre la lluvia, vi las luces de un buque de guerra inglés. Iba directo a las rocas.",
+        "fondo": {
+          "lugar": "mar",
+          "hora": "noche",
+          "clima": "tormenta",
+          "props": [
+            {
+              "tipo": "barco",
+              "x": 1.1
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": -0.6,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": 1
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 11,
+        "texto": "Era el Serpent. De ciento setenta y cinco marineros, solo tres llegaron vivos a la playa.",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "3",
+          "etiqueta": "supervivientes de 175",
+          "icono": "🕯️"
+        }
+      },
+      {
+        "dia": 14,
+        "texto": "Los vecinos los enterraron junto al mar. Hoy todavía lo llaman el cementerio de los ingleses.",
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "niebla",
+          "props": [
+            "tumba",
+            "tumba",
+            {
+              "tipo": "tumba",
+              "x": 0.75
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": -0.3,
+            "accion": "triste",
+            "emocion": "triste"
+          },
+          {
+            "quien": "carmen",
+            "x": 0.4,
+            "accion": "triste",
+            "emocion": "triste",
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 30,
+        "texto": "Lo que pasó después cambió los faros de España para siempre. Te lo cuento en el mes completo.",
+        "fondo": {
+          "lugar": "mar",
+          "hora": "noche",
+          "props": [
+            {
+              "tipo": "faro",
+              "x": -1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": 0.2,
+            "accion": "pensar",
+            "emocion": "neutral"
+          }
+        ],
+        "camara": "cerca"
+      }
+    ]
+  },
+  "largo": {
+    "escenas": [
+      {
+        "texto": "Esta noche, ciento setenta y dos hombres van a morir frente a mi faro. Yo estaré ahí arriba, con la lámpara encendida, mirando. Y no podré hacer nada.",
+        "fondo": {
+          "lugar": "mar",
+          "hora": "noche",
+          "clima": "tormenta",
+          "props": [
+            {
+              "tipo": "faro",
+              "x": -1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": 0.55,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Pero para entender esa noche, tienes que vivir conmigo el mes entero. Treinta días en la vida de un farero, en el lugar más peligroso de Europa para un barco.",
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": 0.3,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 1,
+        "capitulo": "La luz que no se apaga",
+        "texto": "Primero de noviembre de mil ochocientos noventa. Me llamo Manuel, tengo treinta y cuatro años, y soy torrero de faros del Estado.",
+        "fondo": {
+          "lugar": "mar",
+          "hora": "amanecer",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "faro",
+              "x": -1.35
+            },
+            {
+              "tipo": "casa",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": 0,
+            "accion": "hablar",
+            "entra": "izq"
+          }
+        ]
+      },
+      {
+        "dia": 1,
+        "texto": "Mi faro está en Cabo Vilán, junto al pueblo de Camariñas, en Galicia. Los marineros llaman a esta costa la Costa da Morte. La costa de la muerte.",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Cabo Vilán",
+          "detalle": "Costa da Morte · Galicia",
+          "icono": "📍"
+        }
+      },
+      {
+        "dia": 1,
+        "texto": "Y no es una exageración. En estas rocas se han hundido cientos de barcos. Cada familia del pueblo tiene a alguien que el mar se llevó.",
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": 1.2
+            },
+            {
+              "tipo": "roca",
+              "x": -1.6,
+              "escala": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": -0.2,
+            "accion": "senalar",
+            "mirar": 1
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 1,
+        "texto": "Vivo en la casa del faro con mi mujer, Carmen, y con nuestro hijo Xan, que tiene ocho años y quiere ser marinero. Eso a su madre no le hace ninguna gracia.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "dia",
+          "props": [
+            "chimenea",
+            {
+              "tipo": "mesa",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": -0.55,
+            "accion": "hablar"
+          },
+          {
+            "quien": "carmen",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "habla": false
+          },
+          {
+            "quien": "xan",
+            "x": 0.85,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 2,
+        "texto": "Mi trabajo parece sencillo. Al ponerse el sol, enciendo la lámpara. Al salir el sol, la apago. Entre medias, no puedo dormir.",
+        "fondo": {
+          "lugar": "mar",
+          "hora": "atardecer",
+          "props": [
+            {
+              "tipo": "faro",
+              "x": -1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": 0.2,
+            "accion": "cargar",
+            "objeto": "🪔"
+          }
+        ]
+      },
+      {
+        "dia": 2,
+        "texto": "Cada tres horas subo los ciento veinte escalones de la torre para recortar la mecha, limpiar el hollín y echar aceite de parafina.",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "120",
+          "etiqueta": "escalones cada tres horas",
+          "icono": "🪜"
+        }
+      },
+      {
+        "dia": 2,
+        "texto": "Si la llama se ahuma, la luz pierde fuerza. Si la luz pierde fuerza, un capitán puede confundir mi faro con otro. Y un error así, aquí, se paga con vidas.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "antorcha",
+              "x": -1.3
+            },
+            {
+              "tipo": "antorcha",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": 0,
+            "accion": "trabajar",
+            "objeto": "✂️",
+            "emocion": "cansado"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 3,
+        "texto": "Esto es lo que llevo encima cada noche de guardia.",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Mi noche de guardia",
+          "items": [
+            {
+              "icono": "🫙",
+              "nombre": "Aceite de parafina"
+            },
+            {
+              "icono": "✂️",
+              "nombre": "Tijeras de mecha"
+            },
+            {
+              "icono": "🧽",
+              "nombre": "Gamuza para la lente"
+            },
+            {
+              "icono": "📖",
+              "nombre": "Libro de servicio"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 3,
+        "texto": "El libro de servicio es sagrado. Cada noche apunto la hora de encendido, el estado del mar, el viento y cualquier barco que vea pasar. Si un día hay un naufragio, ese libro será mi testigo.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "noche",
+          "props": [
+            "estanteria",
+            {
+              "tipo": "mesa",
+              "x": 1.1
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": 0.3,
+            "accion": "escribir",
+            "emocion": "cansado"
+          }
+        ]
+      },
+      {
+        "dia": 4,
+        "texto": "Por la mañana, cuando por fin puedo dormir un poco, Carmen ya lleva horas trabajando. Ella es palilleira. Hace encaje con bolillos, como casi todas las mujeres de Camariñas.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "props": [
+            "estanteria",
+            {
+              "tipo": "mesa",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carmen",
+            "x": 0,
+            "accion": "escribir",
+            "emocion": "feliz"
+          },
+          {
+            "quien": "manuel",
+            "x": -0.8,
+            "accion": "dormir",
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 4,
+        "texto": "Sus manos mueven cuarenta bolillos a la vez, sin mirar. Un buen mantel le lleva un mes entero. Lo que ella gana vendiendo encaje a veces es más que mi sueldo.",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "40",
+          "etiqueta": "bolillos a la vez",
+          "icono": "🧵"
+        }
+      },
+      {
+        "dia": 5,
+        "texto": "Mi sueldo de torrero es pequeño. Da para pan, sardinas, patatas y poco más. El Estado nos da casa, aceite y la obligación de no movernos de aquí nunca.",
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "props": [
+            "puesto",
+            {
+              "tipo": "carro",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": -0.4,
+            "accion": "cargar",
+            "objeto": "🐟"
+          },
+          {
+            "quien": "pescador",
+            "x": 0.5,
+            "accion": "hablar",
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 5,
+        "texto": "En el mercado me encuentro con Ramón, un pescador viejo que conoce el mar mejor que nadie. Me dice que noviembre viene malo. Que el mar está con hambre.",
+        "personajes": [
+          {
+            "quien": "pescador",
+            "x": 0.4,
+            "accion": "senalar",
+            "emocion": "enfado",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "manuel",
+            "x": -0.4,
+            "accion": "pensar"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 6,
+        "texto": "Esa tarde Xan me pide subir conmigo a la linterna. Le enseño a limpiar la lente con la gamuza, en círculos, sin dejar ni una huella.",
+        "fondo": {
+          "lugar": "mar",
+          "hora": "atardecer",
+          "props": [
+            {
+              "tipo": "faro",
+              "x": -1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": -0.1,
+            "accion": "hablar"
+          },
+          {
+            "quien": "xan",
+            "x": 0.6,
+            "accion": "trabajar",
+            "objeto": "🧽",
+            "emocion": "feliz",
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 6,
+        "texto": "Desde arriba se ve todo. Los cabos, los islotes, la espuma rompiendo sobre las piedras. Xan me pregunta por qué los barcos se acercan tanto. Le digo la verdad. Porque a veces no ven nada.",
+        "camara": "subir",
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": -0.1,
+            "accion": "senalar",
+            "mirar": 1
+          },
+          {
+            "quien": "xan",
+            "x": 0.6,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 7,
+        "texto": "El domingo bajamos a misa. Don Xosé, el cura, reza por los marineros como cada semana. Aquí la iglesia siempre está llena en invierno.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "dia",
+          "props": [
+            "cuadro",
+            {
+              "tipo": "antorcha",
+              "x": -1.4
+            },
+            {
+              "tipo": "antorcha",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "cura",
+            "x": 0,
+            "accion": "hablar",
+            "habla": false
+          },
+          {
+            "quien": "carmen",
+            "x": -0.8,
+            "accion": "quieto",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "manuel",
+            "x": 0.85,
+            "accion": "quieto",
+            "mirar": -1
+          }
+        ]
+      },
+      {
+        "dia": 8,
+        "capitulo": "El mar tiene hambre",
+        "texto": "El ocho de noviembre el barómetro empieza a bajar. Y no deja de bajar en todo el día.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "dia",
+          "props": [
+            {
+              "tipo": "reloj",
+              "x": 1.3
+            },
+            "estanteria"
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": 0.1,
+            "accion": "pensar",
+            "emocion": "miedo"
+          }
+        ]
+      },
+      {
+        "dia": 8,
+        "texto": "Lo que yo no sabía es que ese mismo día, a cientos de kilómetros, en el puerto inglés de Plymouth, un barco de guerra levaba anclas rumbo a África.",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Plymouth → Sierra Leona",
+          "detalle": "8 de noviembre de 1890",
+          "icono": "🚢"
+        }
+      },
+      {
+        "dia": 8,
+        "texto": "Se llamaba Serpent. Un crucero torpedero nuevo, rápido, con ciento setenta y cinco hombres a bordo. La mayoría eran chavales que nunca habían navegado lejos de casa.",
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barco",
+              "x": 0.2
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "dia": 9,
+        "texto": "El nueve, el viento ya sopla con furia del suroeste. La lluvia golpea los cristales de la linterna como si alguien tirara piedras.",
+        "fondo": {
+          "lugar": "mar",
+          "hora": "atardecer",
+          "clima": "tormenta",
+          "props": [
+            {
+              "tipo": "faro",
+              "x": -1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": 0.3,
+            "accion": "caminar",
+            "emocion": "miedo",
+            "objeto": "🪔"
+          }
+        ]
+      },
+      {
+        "dia": 9,
+        "texto": "Esa noche no duermo nada. Subo cada hora en lugar de cada tres. Carmen me deja un caldo en la mesa y no me dice nada. Sabe que en noches así no se habla.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "noche",
+          "props": [
+            "chimenea",
+            {
+              "tipo": "mesa",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carmen",
+            "x": 0.5,
+            "accion": "cargar",
+            "objeto": "🍲",
+            "emocion": "triste",
+            "habla": false
+          },
+          {
+            "quien": "manuel",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "cansado"
+          }
+        ]
+      },
+      {
+        "dia": 10,
+        "texto": "Diez de noviembre. A media tarde, la tormenta es tan fuerte que el mar y el cielo tienen el mismo color. Gris. Todo gris.",
+        "fondo": {
+          "lugar": "mar",
+          "hora": "atardecer",
+          "clima": "tormenta",
+          "props": [
+            {
+              "tipo": "faro",
+              "x": -1.35
+            },
+            {
+              "tipo": "roca",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "general"
+      },
+      {
+        "dia": 10,
+        "texto": "Enciendo la lámpara antes de tiempo. La llama tiembla con cada golpe de viento que se cuela por las juntas. Me paso la noche protegiéndola con el cuerpo.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "noche",
+          "clima": "lluvia",
+          "props": [
+            {
+              "tipo": "antorcha",
+              "x": -1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": 0,
+            "accion": "cargar",
+            "objeto": "🪔",
+            "emocion": "miedo"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 10,
+        "texto": "Pasadas las diez y media de la noche, entre dos cortinas de lluvia, veo algo que me hiela la sangre. Luces. Luces de un barco grande. Demasiado cerca de la costa.",
+        "fondo": {
+          "lugar": "mar",
+          "hora": "noche",
+          "clima": "tormenta",
+          "props": [
+            {
+              "tipo": "barco",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": -0.6,
+            "accion": "senalar",
+            "emocion": "miedo",
+            "mirar": 1
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 10,
+        "texto": "Les hago señales con el farol. Grito, aunque sé que nadie me oye. El barco sigue avanzando hacia la Punta do Boi, un muro de roca que el mar esconde bajo la espuma.",
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": -0.5,
+            "accion": "saludar",
+            "emocion": "miedo",
+            "objeto": "🏮",
+            "mirar": 1
+          }
+        ]
+      },
+      {
+        "dia": 10,
+        "texto": "Y entonces, el golpe. Un crujido de hierro que se oyó por encima de la tormenta. Las luces del barco se inclinan. Y una a una, se apagan.",
+        "fondo": {
+          "lugar": "mar",
+          "hora": "noche",
+          "clima": "tormenta",
+          "props": []
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": 0,
+            "accion": "asustado",
+            "emocion": "miedo"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 10,
+        "texto": "Bajo los escalones corriendo y despierto a Carmen. Ella baja al pueblo a dar la alarma. Yo no puedo abandonar el faro. Esa es la ley. Pase lo que pase, la luz no se apaga.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "noche",
+          "props": [
+            "chimenea"
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "miedo"
+          },
+          {
+            "quien": "carmen",
+            "x": 0.4,
+            "accion": "correr",
+            "emocion": "miedo",
+            "sale": "der",
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 10,
+        "texto": "Fue la noche más larga de mi vida. Escribí en el libro de servicio con las manos temblando.",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "La luz estuvo encendida toda la noche. No fue suficiente.",
+          "firma": "Libro de servicio, 10 de noviembre"
+        }
+      },
+      {
+        "dia": 11,
+        "texto": "Al amanecer, el mar se había calmado como si no hubiera pasado nada. Pero la playa estaba llena de maderas, barriles, cuerdas. Y cuerpos.",
+        "fondo": {
+          "lugar": "playa",
+          "hora": "amanecer",
+          "clima": "niebla",
+          "props": [
+            "barril",
+            {
+              "tipo": "cajas",
+              "x": 1.4
+            },
+            {
+              "tipo": "roca",
+              "x": -1.6
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": -0.2,
+            "accion": "triste",
+            "emocion": "triste",
+            "entra": "izq"
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 11,
+        "texto": "Los vecinos de Xaviña y de Camariñas bajaron con mantas, con carros, con lo que tenían. Nadie preguntó si eran ingleses o españoles. Eran marineros.",
+        "personajes": [
+          {
+            "quien": "pescador",
+            "x": -0.6,
+            "accion": "cargar",
+            "objeto": "🧺",
+            "habla": false
+          },
+          {
+            "quien": "manuel",
+            "x": 0.1,
+            "accion": "trabajar"
+          },
+          {
+            "quien": "carmen",
+            "x": 0.75,
+            "accion": "cargar",
+            "objeto": "🧣",
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 11,
+        "texto": "Entre los restos encontramos a tres hombres vivos. Tres. De ciento setenta y cinco.",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "3",
+          "etiqueta": "supervivientes de 175",
+          "icono": "🕯️"
+        }
+      },
+      {
+        "dia": 11,
+        "texto": "Uno de ellos se llamaba Frederick Gould. Temblaba tanto que no podía ni decir su nombre. Lo llevamos a la casa más cercana y Carmen le dio el caldo que yo no había tomado.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "props": [
+            "chimenea",
+            {
+              "tipo": "cama",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "gould",
+            "x": 0.35,
+            "accion": "sentado",
+            "emocion": "miedo",
+            "habla": false
+          },
+          {
+            "quien": "carmen",
+            "x": -0.4,
+            "accion": "cargar",
+            "objeto": "🍲",
+            "habla": false
+          },
+          {
+            "quien": "manuel",
+            "x": -0.95,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": 1
+          }
+        ]
+      },
+      {
+        "dia": 12,
+        "capitulo": "El cementerio de los ingleses",
+        "texto": "Los días siguientes fueron de silencio. El mar seguía devolviendo cuerpos a la orilla, uno tras otro, como si quisiera pedir perdón.",
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": 0.2,
+            "accion": "triste",
+            "emocion": "triste"
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 13,
+        "texto": "No había sitio en el cementerio del pueblo para tantos. Así que los vecinos levantaron un cementerio nuevo, allí mismo, junto a la playa, mirando al mar donde murieron.",
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "niebla",
+          "props": [
+            "tumba",
+            "tumba",
+            "tumba",
+            "tumba",
+            "valla"
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "pescador",
+            "x": -0.4,
+            "accion": "trabajar",
+            "objeto": "⛏️",
+            "habla": false
+          },
+          {
+            "quien": "manuel",
+            "x": 0.4,
+            "accion": "trabajar",
+            "objeto": "⛏️"
+          }
+        ]
+      },
+      {
+        "dia": 14,
+        "texto": "Don Xosé bendijo cada tumba. No sabía rezar en inglés, así que rezó en latín, que para Dios es lo mismo.",
+        "personajes": [
+          {
+            "quien": "cura",
+            "x": 0,
+            "accion": "hablar",
+            "habla": false
+          },
+          {
+            "quien": "manuel",
+            "x": -0.7,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": 1
+          },
+          {
+            "quien": "carmen",
+            "x": 0.75,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 14,
+        "texto": "Desde entonces, en Camariñas a ese lugar lo llaman o Cemiterio dos Ingleses. El cementerio de los ingleses. Todavía hoy sigue ahí.",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Cemiterio dos Ingleses",
+          "detalle": "Punta do Boi · Camariñas",
+          "icono": "✝️"
+        }
+      },
+      {
+        "dia": 15,
+        "texto": "Gould se recuperó poco a poco. Una tarde vino al faro. Quería ver el sitio desde donde lo habíamos visto. No hablábamos el mismo idioma, pero nos entendimos.",
+        "fondo": {
+          "lugar": "mar",
+          "hora": "atardecer",
+          "props": [
+            {
+              "tipo": "faro",
+              "x": -1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "gould",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false,
+            "entra": "der"
+          },
+          {
+            "quien": "manuel",
+            "x": -0.35,
+            "accion": "hablar",
+            "mirar": 1
+          }
+        ]
+      },
+      {
+        "dia": 15,
+        "texto": "Me contó con gestos que no vieron la luz hasta que fue tarde. Que la lluvia era una pared. Que el capitán creía que estaban mucho más lejos de la costa.",
+        "personajes": [
+          {
+            "quien": "gould",
+            "x": 0.45,
+            "accion": "senalar",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "manuel",
+            "x": -0.35,
+            "accion": "pensar",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 16,
+        "texto": "Esa noche, por primera vez en doce años de servicio, pensé que mi luz no bastaba. Que una lámpara de aceite no puede contra una tormenta así.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "noche",
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 1.1
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": 0.2,
+            "accion": "sentado",
+            "emocion": "triste"
+          }
+        ]
+      },
+      {
+        "dia": 17,
+        "texto": "Llegaron periodistas de La Coruña y oficiales de la Marina británica. Hicieron preguntas, tomaron notas, revisaron mi libro de servicio línea por línea.",
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "props": [
+            "farola",
+            {
+              "tipo": "carro",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "inspector",
+            "x": 0.4,
+            "accion": "escribir",
+            "habla": false,
+            "mirar": -1
+          },
+          {
+            "quien": "manuel",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "cansado"
+          }
+        ]
+      },
+      {
+        "dia": 18,
+        "texto": "Todo estaba en orden. Cada encendido, cada revisión, cada hora. La luz de Vilán no falló. Pero eso no me consolaba.",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Encendido a las cinco y diez. Mar muy gruesa. Viento duro del suroeste. Luz en perfecto estado.",
+          "firma": "Libro de servicio"
+        }
+      },
+      {
+        "dia": 19,
+        "texto": "Los tres supervivientes se marcharon a Inglaterra. Antes de irse, Gould me estrechó la mano en el muelle. No dijo nada. No hacía falta.",
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "props": [
+            {
+              "tipo": "velero",
+              "x": 1.2
+            },
+            {
+              "tipo": "barril",
+              "x": -1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "gould",
+            "x": 0.3,
+            "accion": "saludar",
+            "mirar": -1,
+            "habla": false,
+            "sale": "der"
+          },
+          {
+            "quien": "manuel",
+            "x": -0.4,
+            "accion": "saludar",
+            "emocion": "triste",
+            "mirar": 1
+          }
+        ]
+      },
+      {
+        "dia": 20,
+        "texto": "Más tarde supimos que la Marina inglesa quiso dar las gracias al pueblo. Al cura le regalaron una escopeta, y a Camariñas, un barómetro. Para que nadie volviera a sorprenderse por una tormenta.",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Regalos de la Marina británica",
+          "items": [
+            {
+              "icono": "🌡️",
+              "nombre": "Un barómetro para el pueblo"
+            },
+            {
+              "icono": "🎯",
+              "nombre": "Una escopeta para el cura"
+            },
+            {
+              "icono": "📜",
+              "nombre": "Una carta de gratitud"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 21,
+        "texto": "Xan ya no habla de ser marinero. Ahora dice que quiere ser torrero, como yo. Carmen me mira y no sé si está orgullosa o asustada.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "atardecer",
+          "props": [
+            "chimenea",
+            {
+              "tipo": "mesa",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "xan",
+            "x": 0.1,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "habla": false
+          },
+          {
+            "quien": "carmen",
+            "x": 0.75,
+            "accion": "pensar",
+            "habla": false,
+            "mirar": -1
+          },
+          {
+            "quien": "manuel",
+            "x": -0.6,
+            "accion": "hablar",
+            "emocion": "feliz"
+          }
+        ]
+      },
+      {
+        "dia": 22,
+        "capitulo": "Más luz",
+        "texto": "Decidí hacer algo que un torrero nunca hace. Escribir directamente a Madrid, a la Comisión de Faros, saltándome a mis superiores.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "noche",
+          "props": [
+            "estanteria",
+            {
+              "tipo": "mesa",
+              "x": 1.1
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": 0.3,
+            "accion": "escribir",
+            "emocion": "enfado"
+          }
+        ]
+      },
+      {
+        "dia": 22,
+        "texto": "Les pedí lo que se pedía en toda la costa. Una luz más potente, más alta, que se viera más lejos. Una luz que atravesara la lluvia.",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Con la luz que tenemos, esta costa seguirá cobrándose barcos. Necesitamos una luz que se vea desde más lejos.",
+          "firma": "Carta a la Comisión de Faros"
+        }
+      },
+      {
+        "dia": 23,
+        "texto": "Mientras esperaba respuesta, la vida siguió. Las guardias, el aceite, la mecha, los escalones. El faro no entiende de tragedias. Solo entiende de horarios.",
+        "fondo": {
+          "lugar": "mar",
+          "hora": "noche",
+          "clima": "lluvia",
+          "props": [
+            {
+              "tipo": "faro",
+              "x": -1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": 0.3,
+            "accion": "caminar",
+            "objeto": "🪔",
+            "emocion": "cansado"
+          }
+        ]
+      },
+      {
+        "dia": 24,
+        "texto": "Ramón el pescador vino a verme con una botella de aguardiente. Me dijo que llevaba cincuenta años en el mar y que nunca había visto al pueblo tan unido. Brindamos por los muertos.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "props": [
+            "chimenea",
+            {
+              "tipo": "barril",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "pescador",
+            "x": 0.4,
+            "accion": "sentado",
+            "objeto": "🍶",
+            "habla": false,
+            "mirar": -1
+          },
+          {
+            "quien": "manuel",
+            "x": -0.4,
+            "accion": "sentado",
+            "objeto": "🥃"
+          }
+        ]
+      },
+      {
+        "dia": 25,
+        "texto": "El veinticinco llegó un inspector de Madrid. Traje negro, sombrero de copa y unas gafas muy pequeñas. Subió los ciento veinte escalones resoplando.",
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "props": [
+            {
+              "tipo": "faro",
+              "x": -1.35
+            },
+            {
+              "tipo": "casa",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "inspector",
+            "x": 0.3,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "habla": false,
+            "entra": "der"
+          },
+          {
+            "quien": "manuel",
+            "x": -0.5,
+            "accion": "quieto",
+            "mirar": 1
+          }
+        ]
+      },
+      {
+        "dia": 25,
+        "texto": "Me escuchó, tomó notas, y al final dijo una frase que nunca olvidaré. Usted tiene razón, torrero. Pero la razón cuesta dinero.",
+        "personajes": [
+          {
+            "quien": "inspector",
+            "x": 0.3,
+            "accion": "hablar",
+            "habla": false,
+            "mirar": -1
+          },
+          {
+            "quien": "manuel",
+            "x": -0.5,
+            "accion": "pensar",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 26,
+        "texto": "Pero algo se había movido. En Madrid se empezó a hablar de un invento que ya iluminaba algunas ciudades. La electricidad. Una luz sin llama, que no se ahumaba nunca.",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1886",
+          "etiqueta": "Girona, primera ciudad de España con calles iluminadas por electricidad",
+          "icono": "💡"
+        }
+      },
+      {
+        "dia": 27,
+        "texto": "A mí me parecía cosa de magia. Una lámpara que no hay que subir a llenar cada tres horas. Carmen se reía. Me decía que entonces me quedaría sin trabajo.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "dia",
+          "props": [
+            "chimenea",
+            {
+              "tipo": "mesa",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carmen",
+            "x": 0.4,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "habla": false,
+            "mirar": -1
+          },
+          {
+            "quien": "manuel",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "feliz"
+          }
+        ]
+      },
+      {
+        "dia": 28,
+        "texto": "Una noche de calma subí a la linterna con Xan y le dejé encender la lámpara él solo. Le temblaban las manos. Pero la llama prendió a la primera.",
+        "fondo": {
+          "lugar": "mar",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "faro",
+              "x": -1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "xan",
+            "x": 0.4,
+            "accion": "cargar",
+            "objeto": "🪔",
+            "emocion": "sorpresa",
+            "habla": false
+          },
+          {
+            "quien": "manuel",
+            "x": -0.3,
+            "accion": "hablar",
+            "emocion": "feliz"
+          }
+        ]
+      },
+      {
+        "dia": 29,
+        "texto": "Volví al cementerio de los ingleses. Alguien había dejado flores frescas en las tumbas. Nunca supe quién fue. En Camariñas, nadie lo dijo nunca.",
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            "tumba",
+            "tumba",
+            "tumba",
+            "tumba",
+            {
+              "tipo": "🌼",
+              "x": 0.6,
+              "escala": 0.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": -0.2,
+            "accion": "triste",
+            "emocion": "triste"
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 30,
+        "texto": "Treinta de noviembre. Treinta noches de guardia. Doscientas cuarenta subidas a la linterna. Ni una sola vez se apagó la luz.",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "240",
+          "etiqueta": "subidas a la linterna este mes",
+          "icono": "🪜"
+        }
+      },
+      {
+        "dia": 30,
+        "texto": "Lo que no sabía entonces es que mi carta no cayó en saco roto. Seis años después, en mil ochocientos noventa y seis, se levantó en Cabo Vilán una torre nueva.",
+        "fondo": {
+          "lugar": "mar",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "faro",
+              "x": -1.2,
+              "escala": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": 0.45,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": -1
+          }
+        ],
+        "camara": "subir"
+      },
+      {
+        "dia": 30,
+        "texto": "Fue el primer faro eléctrico de toda España. Su luz se veía a decenas de kilómetros mar adentro. Dicen que la tragedia del Serpent tuvo mucho que ver.",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1896",
+          "etiqueta": "primer faro eléctrico de España",
+          "icono": "⚡"
+        }
+      },
+      {
+        "dia": 30,
+        "texto": "Ciento setenta y dos hombres murieron frente a mi faro. No pude salvarlos. Pero quizás ayudé a que otros, muchos otros, volvieran a casa.",
+        "fondo": {
+          "lugar": "mar",
+          "hora": "noche",
+          "props": [
+            {
+              "tipo": "faro",
+              "x": -1.2,
+              "escala": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "xan",
+            "x": 0.9,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Manuel es un personaje inventado, pero el Serpent, sus tres supervivientes y el cementerio de los ingleses son reales. ¿De quién quieres vivir el próximo mes? Déjalo en los comentarios y suscríbete.",
+        "fondo": {
+          "lugar": "mar",
+          "hora": "amanecer",
+          "props": [
+            {
+              "tipo": "faro",
+              "x": -1.2,
+              "escala": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "manuel",
+            "x": 0.3,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": -1
+          }
+        ]
+      }
+    ]
+  },
+  "publicacion": {
+    "tituloLargo": "Un mes en la vida de un FARERO en la Costa da Morte (1890) | El naufragio del HMS Serpent",
+    "tituloShort": "172 hombres murieron frente a su faro 🌊 #historia",
+    "descripcion": "Treinta días en la vida de Manuel, torrero del faro de Cabo Vilán (Camariñas, Galicia), durante noviembre de 1890: el mes en que el crucero británico HMS Serpent naufragó en la Punta do Boi con 175 hombres a bordo. Solo sobrevivieron tres.\n\nManuel y su familia son personajes ficticios; el naufragio del Serpent (10/11/1890), sus tres supervivientes, el Cemiterio dos Ingleses y el faro eléctrico de Cabo Vilán (1896) son hechos reales.\n\n00:00 La noche del naufragio\n— Semana 1: La luz que no se apaga\n— Semana 2: El mar tiene hambre\n— Semana 3: El cementerio de los ingleses\n— Semana 4: Más luz",
+    "etiquetas": [
+      "un mes en la vida de",
+      "historia",
+      "farero",
+      "Costa da Morte",
+      "HMS Serpent",
+      "Camariñas",
+      "naufragio",
+      "Galicia",
+      "siglo XIX",
+      "historia de España",
+      "animación"
+    ]
+  }
+}
