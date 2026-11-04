@@ -4,12 +4,12 @@ export type Look = {
   peinado?: "corto" | "largo" | "calvo" | "mono" | "rizado" | "coleta" | "trenzas" | "rapado";
   barba?: "ninguna" | "bigote" | "corta" | "larga";
   ropa: {
-    tipo: "camisa" | "tunica" | "vestido" | "abrigo" | "mono" | "armadura" | "traje" | "bata" | "uniforme" | "harapos";
+    tipo: "camisa" | "tunica" | "vestido" | "abrigo" | "mono" | "armadura" | "traje" | "bata" | "uniforme" | "harapos" | "galabiya";
     color: string; // parte de arriba
     color2: string; // pantalón / falda
     detalle?: string; // cinturón, botones, cuello
   };
-  sombrero?: "ninguno" | "gorra" | "copa" | "ala" | "casco" | "corona" | "capucha" | "panuelo" | "espacial" | "boina" | "tricornio" | "yelmo";
+  sombrero?: "ninguno" | "gorra" | "copa" | "ala" | "casco" | "corona" | "capucha" | "panuelo" | "espacial" | "boina" | "tricornio" | "yelmo" | "turbante" | "fez" | "salacot";
   colorSombrero?: string;
   gafas?: boolean;
   altura?: number; // 1 = adulto, 0.65 = niño

@@ -6,6 +6,7 @@ export const PROPS_DISPONIBLES = [
   "arbol", "pino", "palmera", "casa", "cabana", "faro", "barco", "velero", "cohete", "farola", "carro", "puesto",
   "roca", "valla", "pozo", "tumba", "hoguera", "tienda", "bandera", "mesa", "estanteria", "chimenea", "cama",
   "antorcha", "cuadro", "consola", "maquina", "barril", "cajas", "planta", "telescopio", "yunque", "piramide", "columna", "reloj",
+  "escalera", "puerta", "tesoro", "sarcofago", "mascara", "estatua", "jarron", "carro-dorado",
 ] as const;
 
 const Brillo: React.FC<{ r: number; o: number; color?: string; cx?: number; cy?: number }> = ({ r, o, color = "#ffb347", cx = 0, cy = 0 }) => (
@@ -347,6 +348,103 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean }> = ({ ti
           <line x1={0} y1={-580} x2={40} y2={-580} stroke="#222" strokeWidth={8} />
           <line x1={0} y1={-480} x2={0} y2={-220} stroke="#c9a24a" strokeWidth={8} transform={`rotate(${Math.sin(f / 8) * 14} 0 -480)`} />
           <circle cx={Math.sin((Math.sin(f / 8) * 14 * Math.PI) / 180) * -260} cy={-480 + Math.cos((Math.sin(f / 8) * 14 * Math.PI) / 180) * 260} r={24} fill="#c9a24a" />
+        </g>
+      );
+    case "escalera":
+      // escalones excavados que bajan hacia la tumba (se ven desde arriba en perspectiva)
+      return (
+        <g>
+          <path d="M-260 30 L260 30 L200 -60 L-200 -60Z" fill="#7a5a36" />
+          {[0, 1, 2, 3, 4, 5].map((i) => (
+            <rect key={i} x={-190 + i * 14} y={-50 + i * 12} width={380 - i * 28} height={10} fill={i % 2 ? "#c9a26a" : "#b08a56"} />
+          ))}
+          <path d="M-200 -60 L-150 30 M200 -60 L150 30" stroke="#5a3e22" strokeWidth={8} />
+        </g>
+      );
+    case "puerta": {
+      // puerta tapiada con yeso y sellos ovalados de la necrópolis
+      return (
+        <g>
+          <rect x={-230} y={-620} width={460} height={620} fill="#6b4a2a" />
+          <rect x={-190} y={-580} width={380} height={580} fill="#d8c9a8" />
+          {Array.from({ length: 14 }).map((_, i) => (
+            <g key={i} transform={`translate(${-140 + (i % 4) * 95} ${-520 + Math.floor(i / 4) * 140})`}>
+              <ellipse rx={34} ry={46} fill="none" stroke="#9a7a4a" strokeWidth={5} />
+              <path d="M-14 -16 L14 -16 M0 -24 L0 20 M-12 10 L12 10" stroke="#9a7a4a" strokeWidth={4} />
+            </g>
+          ))}
+          <path d="M-60 -300 l40 30 l-20 40 l50 60" stroke="#b8a888" strokeWidth={6} fill="none" />
+        </g>
+      );
+    }
+    case "tesoro":
+      return (
+        <g>
+          <ellipse cx={0} cy={0} rx={320} ry={30} fill="#00000044" />
+          <path d="M-300 0 L-240 -150 L-120 -160 L-60 -60 L40 -200 L180 -180 L300 0Z" fill="#c9962e" />
+          {Array.from({ length: 18 }).map((_, i) => (
+            <circle key={i} cx={-250 + (i * 31) % 520} cy={-30 - ((i * 47) % 140)} r={14} fill="#f2cf5a" opacity={0.6 + 0.4 * Math.sin(f / 6 + i)} />
+          ))}
+          <rect x={-200} y={-260} width={120} height={110} fill="#e0b040" stroke="#8a6a1a" strokeWidth={6} />
+          <rect x={60} y={-330} width={60} height={160} rx={20} fill="#2a8a8a" stroke="#f2cf5a" strokeWidth={6} />
+          <path d="M-20 -230 q40 -60 80 0" stroke="#f2cf5a" strokeWidth={10} fill="none" />
+          {[0, 1, 2].map((i) => <path key={i} d={`M${-240 + i * 180} ${-120 - i * 30} l12 -24 l12 24 l-12 24z`} fill="#fff8d0" opacity={(f + i * 13) % 40 < 6 ? 1 : 0} />)}
+        </g>
+      );
+    case "sarcofago":
+      return (
+        <g>
+          <rect x={-340} y={-300} width={680} height={300} fill="#b8a07a" stroke="#7a6a4a" strokeWidth={8} />
+          <path d="M-320 -300 L320 -300 L300 -360 L-300 -360Z" fill="#a08a64" />
+          {[-240, -120, 0, 120, 240].map((x) => <path key={x} d={`M${x - 30} -240 q30 -40 60 0 v120 h-60z`} fill="none" stroke="#7a6a4a" strokeWidth={5} />)}
+        </g>
+      );
+    case "mascara":
+      return (
+        <g transform="translate(0 -40)">
+          <rect x={-40} y={-80} width={80} height={80} fill="#7a5a3a" />
+          <path d="M-170 -110 L-150 -420 Q0 -470 150 -420 L170 -110 Q0 -60 -170 -110Z" fill="#2a4a8a" />
+          {[0, 1, 2, 3, 4, 5, 6].map((i) => <rect key={i} x={-165} y={-400 + i * 42} width={330} height={16} fill="#e8b830" />)}
+          <path d="M-100 -380 Q0 -440 100 -380 L95 -220 Q0 -140 -95 -220Z" fill="#f2c040" />
+          {[-1, 1].map((s2) => <path key={s2} d={`M${s2 * 60 - 26} -310 q26 -14 52 0 q-26 14 -52 0`} fill="#fff" stroke="#1a1a2a" strokeWidth={8} />)}
+          {[-1, 1].map((s2) => <circle key={s2} cx={s2 * 60} cy={-310} r={9} fill="#1a1a2a" />)}
+          <path d="M-12 -260 q12 30 24 0" stroke="#c99a20" strokeWidth={6} fill="none" />
+          <path d="M-30 -225 q30 12 60 0" stroke="#a0401a" strokeWidth={8} fill="none" />
+          <path d="M-16 -200 L16 -200 L10 -110 L-10 -110Z" fill="#2a4a8a" stroke="#e8b830" strokeWidth={5} />
+          <path d="M-30 -420 q30 -50 60 0" fill="#e8b830" />
+          <circle cx={0} cy={-300} r={260} fill="#fff3b0" opacity={0.06 + 0.04 * Math.sin(f / 8)} />
+        </g>
+      );
+    case "estatua":
+      return (
+        <g>
+          <rect x={-90} y={-60} width={180} height={60} fill="#3a2a1a" />
+          <rect x={-55} y={-420} width={110} height={360} rx={20} fill="#15151a" />
+          <rect x={-60} y={-260} width={120} height={70} fill="#e0b040" />
+          <circle cx={0} cy={-470} r={55} fill="#15151a" />
+          <path d="M-70 -520 L70 -520 L60 -420 L-60 -420Z" fill="#e0b040" />
+          {[-1, 1].map((s2) => <rect key={s2} x={s2 * 70 - 20} y={-400} width={40} height={180} rx={18} fill="#15151a" />)}
+          <rect x={58} y={-400} width={14} height={400} fill="#e0b040" />
+          {[-1, 1].map((s2) => <circle key={s2} cx={s2 * 20} cy={-475} r={7} fill="#fff" />)}
+        </g>
+      );
+    case "jarron":
+      return (
+        <g>
+          <path d="M-60 0 Q-110 -120 -50 -220 L50 -220 Q110 -120 60 0Z" fill="#e6dccb" />
+          <rect x={-50} y={-250} width={100} height={30} fill="#d6ccbb" />
+          <path d="M-70 -130 h140" stroke="#2a8a8a" strokeWidth={10} />
+        </g>
+      );
+    case "carro-dorado":
+      return (
+        <g>
+          <path d="M-220 -120 L160 -120 L200 -300 L-160 -300Z" fill="#d9a830" stroke="#8a6a1a" strokeWidth={8} />
+          <g transform="translate(-40 -100)">
+            <circle r={110} fill="none" stroke="#c9962e" strokeWidth={18} />
+            {[0, 30, 60, 90, 120, 150].map((a) => <line key={a} x1={-110} x2={110} stroke="#c9962e" strokeWidth={8} transform={`rotate(${a})`} />)}
+          </g>
+          <rect x={160} y={-220} width={260} height={14} fill="#8a6a1a" />
         </g>
       );
     default:

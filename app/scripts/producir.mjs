@@ -5,6 +5,7 @@
 import { execFileSync, spawnSync } from "node:child_process";
 import { readFileSync, writeFileSync, mkdirSync, existsSync, rmSync } from "node:fs";
 import { join, dirname } from "node:path";
+import { createHash } from "node:crypto";
 import { fileURLToPath } from "node:url";
 import { sintetizar } from "./musica.mjs";
 
@@ -19,10 +20,12 @@ const FPS = 24;
 const COLCHON = 0.5;
 
 const guion = JSON.parse(readFileSync(join(ESTUDIO, "guiones", `${slug}.json`), "utf8"));
-const voz = guion.voz ?? "es_MX-claude-high";
-const modelo = join(ESTUDIO, "voces", `${voz}.onnx`);
+// Motor de voz: "chatterbox" (por defecto, expresivo, clona la voz de referencia) o "piper" (rápido, plano)
+const motor = guion.motor ?? "chatterbox";
+const voz = guion.voz ?? (motor === "chatterbox" ? "narrador-es" : "es_ES-davefx-medium");
+const modelo = motor === "chatterbox" ? join(ESTUDIO, "voces", "referencia", `${voz}.wav`) : join(ESTUDIO, "voces", `${voz}.onnx`);
 if (!existsSync(modelo)) throw new Error(`Falta la voz ${modelo}. Ejecuta ./preparar.sh`);
-const PY = join(ESTUDIO, ".venv", "bin", "python");
+const PY = join(ESTUDIO, motor === "chatterbox" ? ".venv-cb" : ".venv", "bin", "python");
 const obra = join(APP, "public", "obras", slug);
 const salida = join(ESTUDIO, "salida", slug);
 mkdirSync(salida, { recursive: true });
@@ -95,19 +98,29 @@ const producirPieza = (formato) => {
   const escenas = validar(guion[formato], formato);
   console.log(`\n=== ${formato.toUpperCase()}: ${escenas.length} escenas ===`);
 
-  // 1) voces
-  const trabajos = escenas.map((e, i) => ({ texto: e.texto, salida: join(dir, `crudo-${i}.wav`) }));
-  const tj = join(dir, "trabajos.json");
-  writeFileSync(tj, JSON.stringify(trabajos));
-  const r = spawnSync(PY, [join(APP, "scripts", "voz.py"), modelo, String(guion.velocidad ?? 1.0), tj], { stdio: ["ignore", "ignore", "inherit"] });
-  if (r.status !== 0) throw new Error("Falló la síntesis de voz");
+  // 1) voces (con caché por texto: si se corta el proceso, no se repite lo ya generado)
+  const cache = join(obra, "cache-voz");
+  mkdirSync(cache, { recursive: true });
+  const dramaBase = guion.drama ?? 0.65;
+  const clave = (e) => createHash("sha1").update(`${motor}|${voz}|${guion.velocidad ?? 1}|${e.drama ?? dramaBase}|${e.texto}`).digest("hex").slice(0, 16);
+  const trabajos = escenas.map((e) => ({ texto: e.texto, drama: e.drama ?? dramaBase, salida: join(cache, `${clave(e)}.wav`) }));
+  const pendientes = trabajos.filter((t) => !existsSync(t.salida));
+  if (pendientes.length) {
+    console.log(`🎙️  generando ${pendientes.length} locuciones con ${motor}…`);
+    const tj = join(dir, "trabajos.json");
+    writeFileSync(tj, JSON.stringify(pendientes));
+    const r = motor === "chatterbox"
+      ? spawnSync(PY, [join(APP, "scripts", "voz_chatterbox.py"), modelo, tj], { stdio: ["ignore", "inherit", "inherit"] })
+      : spawnSync(PY, [join(APP, "scripts", "voz.py"), modelo, String(guion.velocidad ?? 1.0), tj], { stdio: ["ignore", "ignore", "inherit"] });
+    if (r.status !== 0) throw new Error("Falló la síntesis de voz");
+    rmSync(tj);
+  }
+  const tempo = motor === "chatterbox" && guion.velocidad && guion.velocidad !== 1 ? `,atempo=${guion.velocidad}` : "";
   const audios = escenas.map((e, i) => {
     const archivo = `voz-${String(i).padStart(3, "0")}.wav`;
-    execFileSync("ffmpeg", ["-y", "-v", "error", "-i", trabajos[i].salida, "-af", "highpass=f=70,bass=g=3:f=150,acompressor=threshold=-18dB:ratio=3,loudnorm=I=-16:TP=-1.5", "-ar", "44100", join(dir, archivo)]);
-    rmSync(trabajos[i].salida);
+    execFileSync("ffmpeg", ["-y", "-v", "error", "-i", trabajos[i].salida, "-af", `silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse${tempo},highpass=f=70,bass=g=3:f=150,acompressor=threshold=-18dB:ratio=3,loudnorm=I=-16:TP=-1.5`, "-ar", "44100", join(dir, archivo)]);
     return { archivo, duracion: ffprobeDur(join(dir, archivo)), env: envolvente(join(dir, archivo)) };
   });
-  rmSync(tj);
   const total = audios.reduce((a, b) => a + b.duracion + COLCHON, 0) + 2;
   console.log(`🎙️  ${audios.length} locuciones · duración total ${(total / 60).toFixed(1)} min`);
 

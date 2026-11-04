@@ -214,6 +214,28 @@ const Sombrero: React.FC<{ look: Look }> = ({ look }) => {
           <rect x={-8} y={-30} width={16} height={58} fill="#7d858e" />
         </g>
       );
+    case "turbante":
+      return (
+        <g fill={look.colorSombrero ?? "#f2efe6"}>
+          <path d="M-88 -10 C-96 -120 96 -120 88 -10 Q0 -40 -88 -10Z" />
+          {[0, 1, 2].map((i) => <path key={i} d={`M-86 ${-24 - i * 26} Q0 ${-60 - i * 26} 86 ${-24 - i * 26}`} stroke="#00000022" strokeWidth={6} fill="none" />)}
+        </g>
+      );
+    case "fez":
+      return (
+        <g>
+          <path d="M-56 -50 L-44 -150 L44 -150 L56 -50Z" fill={look.colorSombrero ?? "#a0201a"} />
+          <path d="M0 -150 q30 20 26 70" stroke="#1a1a1a" strokeWidth={5} fill="none" />
+        </g>
+      );
+    case "salacot":
+      return (
+        <g fill={look.colorSombrero ?? "#e6dcc0"}>
+          <ellipse cx={0} cy={-46} rx={130} ry={24} />
+          <path d="M-86 -46 C-86 -150 86 -150 86 -46Z" />
+          <rect x={-86} y={-62} width={172} height={12} fill="#8a7a5a" />
+        </g>
+      );
     case "capucha":
       return <path d="M-104 70 C-120 -140 120 -140 104 70 L84 70 C92 -70 -92 -70 -84 70Z" fill={c} />;
     case "espacial":
@@ -324,10 +346,10 @@ const Torso: React.FC<{ look: Look }> = ({ look }) => {
 
 const Falda: React.FC<{ look: Look; vaiven: number }> = ({ look, vaiven }) => {
   const { tipo, color, color2 } = look.ropa;
-  const largo = { vestido: 230, tunica: 150, abrigo: 150, bata: 170, harapos: 130 }[tipo as string];
+  const largo = { vestido: 230, tunica: 150, abrigo: 150, bata: 170, harapos: 130, galabiya: 250 }[tipo as string];
   if (!largo) return null;
   const c = tipo === "vestido" ? color2 : color;
-  const ancho = tipo === "vestido" ? 130 : 92;
+  const ancho = tipo === "vestido" ? 130 : tipo === "galabiya" ? 110 : 92;
   const y0 = CADERA_Y - 14;
   return (
     <path
@@ -353,7 +375,7 @@ export const Personaje: React.FC<{
   const cAntebrazo = mangaCorta ? piel : color;
   const cBrazoTras = oscurecer(color, 0.15);
   const zapato = look.zapatos ?? "#2a211c";
-  const sinPantalon = tipo === "vestido";
+  const sinPantalon = tipo === "vestido" || tipo === "galabiya";
   const cPierna = sinPantalon ? oscurecer(piel, 0.05) : color2;
   const parpadeo = (f + Math.floor(random(`b${semilla}`) * 90)) % 98 < 4;
   const dormido = accion === "dormir";

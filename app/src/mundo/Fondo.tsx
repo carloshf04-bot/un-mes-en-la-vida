@@ -7,14 +7,14 @@ export type Hora = "amanecer" | "dia" | "atardecer" | "noche";
 export type Clima = "despejado" | "lluvia" | "nieve" | "niebla" | "tormenta" | "polvo" | "ceniza";
 export type Lugar =
   | "mar" | "playa" | "montanas" | "hielo" | "ciudad" | "futurista" | "desierto" | "campo"
-  | "bosque" | "espacio" | "luna" | "calle" | "selva" | "interior";
+  | "bosque" | "espacio" | "luna" | "calle" | "selva" | "valle" | "interior";
 export type PropEnEscena = string | { tipo: string; x?: number; escala?: number; detras?: boolean };
 
 export type Fondo = {
   lugar: Lugar;
   hora?: Hora;
   clima?: Clima;
-  pared?: "piedra" | "madera" | "ladrillo" | "metal" | "papel" | "tela" | "roca";
+  pared?: "piedra" | "madera" | "ladrillo" | "metal" | "papel" | "tela" | "roca" | "jeroglificos";
   colorPared?: string;
   props?: PropEnEscena[];
   ventana?: boolean;
@@ -42,7 +42,7 @@ const TINTE: Record<Hora, { c: string; o: number }> = {
 
 const SUELOS: Partial<Record<Lugar, string>> = {
   mar: "#4d4a44", playa: "#d8bd8a", montanas: "#4f6b3e", hielo: "#e8f0f6", ciudad: "#5b5d63", futurista: "#2a2d3a",
-  desierto: "#d2a062", campo: "#6f9a4a", bosque: "#3f5f32", espacio: "#3a3f4f", luna: "#9a9aa2", calle: "#7a6e62", selva: "#2f5a2a",
+  desierto: "#d2a062", valle: "#c99a62", campo: "#6f9a4a", bosque: "#3f5f32", espacio: "#3a3f4f", luna: "#9a9aa2", calle: "#7a6e62", selva: "#2f5a2a",
 };
 
 const cresta = (s: string, y: number, amp: number, picos: number) => {
@@ -212,6 +212,19 @@ const Exterior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string }> = 
         </g>
       );
       break;
+    case "valle":
+      // acantilados de caliza del Valle de los Reyes
+      lejos = (
+        <g>
+          <path d={cresta(`v1${id}`, HORIZONTE - 280, 260, 9)} fill={hora === "noche" ? c[0] : "#d8a670"} transform={`translate(${-deriva * 0.15} 0)`} />
+          <path d={cresta(`v2${id}`, HORIZONTE - 60, 200, 13)} fill={hora === "noche" ? c[1] : "#bf8a52"} transform={`translate(${-deriva * 0.3} 0)`} />
+          {Array.from({ length: 12 }).map((_, i) => (
+            <rect key={i} x={i * 170 + 30} y={HORIZONTE - 160 + random(`vr${i}`) * 120} width={8} height={120 + random(`vh${i}`) * 100} fill="#00000018" />
+          ))}
+          <path d={colinas(HORIZONTE + 120, 70, 300, 2)} fill={hora === "noche" ? c[2] : "#d7ad78"} />
+        </g>
+      );
+      break;
     case "campo":
       lejos = (
         <g>
@@ -294,7 +307,7 @@ const Exterior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string }> = 
   );
 };
 
-const PAREDES: Record<string, string> = { piedra: "#8a8178", madera: "#8a5a3a", ladrillo: "#9a4f3a", metal: "#5d6673", papel: "#d9cdb2", tela: "#7a5a7a", roca: "#5a4e44" };
+const PAREDES: Record<string, string> = { jeroglificos: "#d9c49a", piedra: "#8a8178", madera: "#8a5a3a", ladrillo: "#9a4f3a", metal: "#5d6673", papel: "#d9cdb2", tela: "#7a5a7a", roca: "#5a4e44" };
 
 const Interior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string }> = ({ fondo, hora, f, id }) => {
   const tipo = fondo.pared ?? "madera";
@@ -311,6 +324,29 @@ const Interior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string }> = 
       {tipo === "ladrillo" &&
         Array.from({ length: 160 }).map((_, i) => (
           <rect key={i} x={(i % 16) * 125 + (Math.floor(i / 16) % 2) * 62 - 40} y={200 + Math.floor(i / 16) * 70} width={115} height={60} fill={oscurecer(col, 0.05 + random(`l${i}`) * 0.15)} />
+        ))}
+      {tipo === "jeroglificos" &&
+        Array.from({ length: 5 }).map((_, fila) => (
+          <g key={fila}>
+            <rect x={0} y={260 + fila * 190} width={MW} height={6} fill="#8a6a3a" opacity={0.5} />
+            {Array.from({ length: 22 }).map((__, i) => {
+              const t = Math.floor(random(`jg${fila}-${i}`) * 6);
+              const x = 40 + i * 88;
+              const y = 290 + fila * 190;
+              const col = ["#3a5a8a", "#8a3a2a", "#2a6a5a", "#3a2a1a"][Math.floor(random(`jc${fila}${i}`) * 4)];
+              return (
+                <g key={i} fill={col} stroke={col} strokeWidth={5} transform={`translate(${x} ${y})`}>
+                  {t === 0 && <ellipse cx={30} cy={60} rx={26} ry={16} fill="none" />}
+                  {t === 0 && <circle cx={30} cy={60} r={7} />}
+                  {t === 1 && <path d="M10 120 L30 20 L50 120" fill="none" />}
+                  {t === 2 && <path d="M8 100 q20 -80 44 -40 q-10 30 -40 30" fill="none" />}
+                  {t === 3 && <rect x={14} y={40} width={34} height={70} fill="none" />}
+                  {t === 4 && <path d="M8 70 h46 M30 30 v80" fill="none" />}
+                  {t === 5 && <circle cx={30} cy={60} r={22} fill="none" />}
+                </g>
+              );
+            })}
+          </g>
         ))}
       {tipo === "madera" && Array.from({ length: 16 }).map((_, i) => <rect key={i} x={i * 122} y={0} width={6} height={SUELO} fill={oscurecer(col, 0.25)} />)}
       {tipo === "metal" &&
@@ -343,7 +379,7 @@ const Interior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string }> = 
         </g>
       )}
       <rect x={0} y={SUELO - 50} width={MW} height={40} fill={oscurecer(col, 0.35)} />
-      <rect x={0} y={SUELO - 10} width={MW} height={MH} fill={tipo === "metal" ? "#2b3038" : tipo === "piedra" || tipo === "roca" ? "#4a443e" : "#5a3d28"} />
+      <rect x={0} y={SUELO - 10} width={MW} height={MH} fill={tipo === "metal" ? "#2b3038" : tipo === "piedra" || tipo === "roca" ? "#4a443e" : tipo === "jeroglificos" ? "#8a6a42" : "#5a3d28"} />
       {Array.from({ length: 10 }).map((_, i) => (
         <line key={i} x1={i * 200} y1={SUELO} x2={i * 200 - 300} y2={MH} stroke="#00000022" strokeWidth={6} />
       ))}

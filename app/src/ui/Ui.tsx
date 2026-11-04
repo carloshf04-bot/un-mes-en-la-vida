@@ -11,11 +11,10 @@ const useU = () => {
 
 export const Fundido: React.FC<{ dur: number; entrada?: number; children: React.ReactNode }> = ({ dur, entrada = 8, children }) => {
   const f = useCurrentFrame();
-  return <AbsoluteFill style={{ opacity: interpolate(f, [0, entrada, dur - 5, dur], [0, 1, 1, 0], clamp) }}>{children}</AbsoluteFill>;
+  return <AbsoluteFill style={{ opacity: interpolate(f, [0, entrada, Math.max(entrada + 1, dur - 5), Math.max(entrada + 2, dur)], [0, 1, 1, 0], clamp) }}>{children}</AbsoluteFill>;
 };
 
 export const Grano: React.FC = () => {
-  const f = useCurrentFrame();
   return (
     <AbsoluteFill style={{ pointerEvents: "none" }}>
       <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 45%, rgba(0,0,0,0) 55%, rgba(0,0,0,0.5) 100%)" }} />

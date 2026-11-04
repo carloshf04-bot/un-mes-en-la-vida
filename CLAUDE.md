@@ -1,6 +1,6 @@
 # Estudio "Un mes en la vida de": manual de la oficina
 
-Esta carpeta es un estudio de animación automatizado. **Cada día se produce un episodio**: un vídeo horizontal de 10 a 13 minutos para YouTube y un Short vertical de 45 a 60 segundos. Todo se hace con código: personajes y fondos en SVG animados con Remotion, voz en off con Piper (local) y música y ambientes sintetizados (sin copyright).
+Esta carpeta es un estudio de animación automatizado. **Cada día se produce un episodio**: un vídeo horizontal de 10 a 13 minutos para YouTube y un Short vertical de 45 a 60 segundos. Todo se hace con código: personajes y fondos en SVG animados con Remotion, voz en off con **Chatterbox** (narrador masculino de España, expresivo; Piper como respaldo rápido) y música y ambientes sintetizados (sin copyright).
 
 ## Preparar el entorno (sesión nueva)
 
@@ -8,7 +8,7 @@ Esta carpeta es un estudio de animación automatizado. **Cada día se produce un
 ./preparar.sh
 ```
 
-Instala Piper, descarga las voces y ejecuta `npm ci`. Tarda unos 2 minutos.
+Instala Piper y Chatterbox, descarga las voces y ejecuta `npm ci`. Tarda unos 10 minutos (Chatterbox ocupa ~6 GB). La voz de un largo con Chatterbox tarda ~1 h en CPU: se cachea en `app/public/obras/<slug>/cache-voz/`, así que si el proceso se corta, al relanzarlo continúa donde iba.
 
 ## Puestos de la oficina
 
@@ -41,7 +41,7 @@ Quien abre la sesión es el **Director**. El Director lanza a cada puesto como *
 ## Mapa del código
 
 ```
-estudio/
+un-mes-en-la-vida/
 ├── CLAUDE.md               ← este manual
 ├── preparar.sh             ← instala dependencias
 ├── oficina/GUIA_GUION.md   ← formato del guion y catálogo de props/acciones

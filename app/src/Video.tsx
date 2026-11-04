@@ -57,13 +57,13 @@ export const Video: React.FC<{ slug: string; manifiesto?: Manifiesto }> = ({ slu
             {ultimo && <LlamadaFinal texto={m.formato === "short" ? "▶ El mes completo, en el canal" : "Suscríbete para el próximo mes"} paleta={m.paleta} />}
             <Subtitulos texto={e.texto} duracionAudio={audio.duracion} paleta={m.paleta} />
             <Audio src={staticFile(`${base}/${audio.archivo}`)} />
-            {amb && <Audio src={staticFile(`obras/${slug}/${amb}`)} loop volume={(fr) => interpolate(fr, [0, 12, dur - 12, dur], [0, 0.35, 0.35, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} />}
+            {amb && <Audio src={staticFile(`obras/${slug}/${amb}`)} loop volume={(fr) => interpolate(fr, [0, 12, Math.max(13, dur - 12), Math.max(14, dur)], [0, 0.35, 0.35, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} />}
           </Sequence>
         );
       })}
       <Audio
         src={staticFile(`${base}/${m.musica_archivo}`)}
-        volume={(f) => interpolate(f, [0, fps * 2, durationInFrames - fps * 2, durationInFrames], [0, 0.2, 0.2, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}
+        volume={(f) => interpolate(f, [0, fps * 2, Math.max(fps * 2 + 1, durationInFrames - fps * 2), Math.max(fps * 2 + 2, durationInFrames)], [0, 0.2, 0.2, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}
       />
       <Grano />
     </AbsoluteFill>

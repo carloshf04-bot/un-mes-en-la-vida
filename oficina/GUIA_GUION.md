@@ -7,7 +7,7 @@ Cada episodio es **un archivo JSON** en `guiones/<slug>.json`. De ese archivo sa
 | `largo` | Horizontal 1920×1080 (YouTube) | **10–13 min** | 55–75 | 1.600–2.000 |
 | `short` | Vertical 1080×1920 (Shorts/TikTok/Reels) | **45–60 s** | 6–9 | 120–160 |
 
-La voz lee unas 155 palabras por minuto a velocidad 0.95. Para comprobarlo, ejecuta `node scripts/producir.mjs <slug> --sin-render` y mira la línea "duración total".
+La voz (Chatterbox, narrador de España) lee unas 140–150 palabras por minuto. Para comprobarlo, ejecuta `node scripts/producir.mjs <slug> --sin-render` y mira la línea "duración total".
 
 ## Reglas de escritura
 
@@ -35,8 +35,9 @@ La voz lee unas 155 palabras por minuto a velocidad 0.95. Para comprobarlo, ejec
   "lugar": "Cabo Vilán, Galicia",
   "epoca": "Noviembre de 1890",
   "categoria": "epoca | persona | profesion | futuro",
-  "voz": "es_MX-claude-high",         // ver voces/ (es_MX-ald-medium = hombre MX, es_ES-davefx-medium = hombre ES, es_ES-sharvard-medium)
-  "velocidad": 0.95,
+  // VOZ: por defecto Chatterbox con el narrador masculino de España (voces/referencia/narrador-es.wav). No cambiar salvo petición expresa.
+  "drama": 0.65,                      // expresividad global de la voz (0.4 sereno · 0.65 documental · 0.85 muy dramático)
+  "velocidad": 1.0,
   "musica": "calma | nostalgia | tension | epico | futuro | misterio",
   "paleta": { "acento": "#f2b544", "texto": "#f5efe0", "fondo": "#0c1424", "papel": "#f3e9d2" },
   "reparto": { "<id>": Look, ... },
@@ -53,6 +54,7 @@ La voz lee unas 155 palabras por minuto a velocidad 0.95. Para comprobarlo, ejec
   "dia": 5,                    // contador "DÍA 5 / 30" (omitir en la primera escena del largo y en el cierre)
   "capitulo": "El mar tiene hambre", // sólo en la 1ª escena de cada semana (sale cartela "SEMANA N")
   "texto": "Lo que dice la voz.",
+  "drama": 0.8,                // opcional: sube en clímax (0.8–0.9), baja en momentos íntimos (0.45)
   "fondo": Fondo,              // si se omite, HEREDA el de la escena anterior
   "personajes": [EnEscena],    // si se omite, HEREDA; [] = escena vacía
   "camara": "lenta | cerca | paneo | general | subir",
@@ -73,8 +75,9 @@ La voz lee unas 155 palabras por minuto a velocidad 0.95. Para comprobarlo, ejec
   "props": ["chimenea", { "tipo": "faro", "x": -1.35, "escala": 1.2, "detras": true }] }
 ```
 
-- **lugar:** `mar`, `playa`, `montanas`, `hielo`, `ciudad`, `futurista`, `desierto`, `campo`, `bosque`, `selva`, `espacio`, `luna`, `calle` (calle antigua empedrada) o `interior`.
-- **props:** `arbol`, `pino`, `palmera`, `casa`, `cabana`, `faro`, `barco` (vapor), `velero`, `cohete`, `farola`, `carro`, `puesto` (de mercado), `roca`, `valla`, `pozo`, `tumba`, `hoguera`, `tienda` (de campaña), `bandera`, `mesa`, `estanteria`, `chimenea`, `cama`, `antorcha`, `cuadro`, `consola` (sci-fi), `maquina` (industrial), `barril`, `cajas`, `planta`, `telescopio`, `yunque`, `piramide`, `columna` y `reloj`.
+- **lugar:** `mar`, `playa`, `montanas`, `hielo`, `ciudad`, `futurista`, `desierto`, `valle` (acantilados de caliza, tipo Valle de los Reyes), `campo`, `bosque`, `selva`, `espacio`, `luna`, `calle` (calle antigua empedrada) o `interior`.
+- **pared** (interior): `piedra`, `madera`, `ladrillo`, `metal`, `papel`, `tela`, `roca` o `jeroglificos` (tumba egipcia pintada).
+- **props:** `arbol`, `pino`, `palmera`, `casa`, `cabana`, `faro`, `barco` (vapor), `velero`, `cohete`, `farola`, `carro`, `puesto` (de mercado), `roca`, `valla`, `pozo`, `tumba`, `hoguera`, `tienda` (de campaña), `bandera`, `mesa`, `estanteria`, `chimenea`, `cama`, `antorcha`, `cuadro`, `consola` (sci-fi), `maquina` (industrial), `barril`, `cajas`, `planta`, `telescopio`, `yunque`, `piramide`, `columna`, `reloj`, `escalera` (escalones excavados que bajan), `puerta` (puerta tapiada con sellos), `tesoro` (montón de oro y objetos), `sarcofago`, `mascara` (máscara funeraria de oro), `estatua` (guardián negro y oro), `jarron` (de alabastro) y `carro-dorado`.
 - **Emoji como prop:** cualquier otro texto en `tipo` se dibuja como emoji gigante (`{ "tipo": "🌼", "x": 0.6, "escala": 0.5 }`).
 - **Posición `x` de los props:** sin `x` se reparten solos. Con `x` entre −1.5 y 1.5, el vertical los acerca al centro automáticamente.
 - **Ambiente sonoro:** se elige solo según lugar, clima y props (lluvia, mar, viento, fuego, zumbido, ciudad).
@@ -85,8 +88,8 @@ La voz lee unas 155 palabras por minuto a velocidad 0.95. Para comprobarlo, ejec
 { "piel": "#e3ad84", "pelo": "#3a2a1e",
   "peinado": "corto|largo|calvo|mono|rizado|coleta|trenzas|rapado",
   "barba": "ninguna|bigote|corta|larga",
-  "ropa": { "tipo": "camisa|tunica|vestido|abrigo|mono|armadura|traje|bata|uniforme|harapos", "color": "#", "color2": "#", "detalle": "#" },
-  "sombrero": "ninguno|gorra|copa|ala|casco|corona|capucha|panuelo|espacial|boina|tricornio|yelmo", "colorSombrero": "#",
+  "ropa": { "tipo": "camisa|tunica|vestido|abrigo|mono|armadura|traje|bata|uniforme|harapos|galabiya", "color": "#", "color2": "#", "detalle": "#" },
+  "sombrero": "ninguno|gorra|copa|ala|casco|corona|capucha|panuelo|espacial|boina|tricornio|yelmo|turbante|fez|salacot", "colorSombrero": "#",
   "gafas": false, "altura": 1 /* 0.6 niño */, "zapatos": "#" }
 ```
 
