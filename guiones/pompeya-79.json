@@ -1,0 +1,2065 @@
+{
+  "slug": "pompeya-79",
+  "titulo": "un panadero de Pompeya",
+  "lugar": "Pompeya, Campania",
+  "epoca": "Otoño del año 79",
+  "categoria": "epoca",
+  "drama": 0.7,
+  "velocidad": 1.15,
+  "musica": "tension",
+  "paleta": {
+    "acento": "#ff7a3a",
+    "texto": "#f8eadb",
+    "fondo": "#1a0f0a",
+    "papel": "#f1e3c8"
+  },
+  "reparto": {
+    "felix": {
+      "piel": "#d9a77c",
+      "pelo": "#2e2118",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#b9894a",
+        "color2": "#a87a3e",
+        "detalle": "#6b4a2a"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#cfb187"
+    },
+    "tercia": {
+      "piel": "#e6b892",
+      "pelo": "#3a2418",
+      "peinado": "mono",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#9e3b2e",
+        "color2": "#8a3226",
+        "detalle": "#e0c48a"
+      },
+      "sombrero": "panuelo",
+      "colorSombrero": "#d9c7a3",
+      "zapatos": "#cfb187"
+    },
+    "lucio": {
+      "piel": "#e3ad84",
+      "pelo": "#3a2a1e",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "altura": 0.62,
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#e2d4b4",
+        "color2": "#d6c6a2",
+        "detalle": "#9e3b2e"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#cfb187"
+    },
+    "onesimo": {
+      "piel": "#c48d65",
+      "pelo": "#c9c1b6",
+      "peinado": "calvo",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "harapos",
+        "color": "#8a7a62",
+        "color2": "#7a6a52",
+        "detalle": "#5a4a36"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#b8996e"
+    },
+    "dama": {
+      "piel": "#a8714c",
+      "pelo": "#1e1a16",
+      "peinado": "rizado",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#9a8a6a",
+        "color2": "#8a7a5a",
+        "detalle": "#5a4a36"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#b8996e"
+    },
+    "edil": {
+      "piel": "#ebc29e",
+      "pelo": "#4a3a2a",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#f2eee4",
+        "color2": "#e8e2d4",
+        "detalle": "#8a2a2a"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#ddcdb0"
+    },
+    "obrero": {
+      "piel": "#c08a60",
+      "pelo": "#2a2018",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#8a6a4a",
+        "color2": "#7a5c3e",
+        "detalle": "#d8d0c0"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#b8996e"
+    }
+  },
+  "short": {
+    "escenas": [
+      {
+        "texto": "Soy panadero en Pompeya. Y esta tarde, la montaña que veo detrás de mi horno va a reventar.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "volcan",
+              "x": 1.3,
+              "escala": 2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.1,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1
+          }
+        ]
+      },
+      {
+        "dia": 1,
+        "texto": "Hace un mes todo era normal. Mi burro molía, mi hijo sellaba los panes y la tierra temblaba un poco.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "molino",
+              "x": -0.95
+            },
+            {
+              "tipo": "horno",
+              "x": 0.95
+            },
+            {
+              "tipo": "anfora",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": 0.2,
+            "accion": "trabajar",
+            "mirar": -1
+          },
+          {
+            "quien": "lucio",
+            "x": -0.35,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 29,
+        "texto": "Hacia la una, sobre el Vesubio sube una nube con forma de pino. Altísima.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "termopolio",
+              "x": -1.0
+            },
+            {
+              "tipo": "volcan-erupcion",
+              "x": 1.3,
+              "escala": 2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.1,
+            "accion": "senalar",
+            "emocion": "miedo",
+            "mirar": 1
+          }
+        ],
+        "camara": "subir"
+      },
+      {
+        "dia": 29,
+        "texto": "Luego llueve piedra. Blanca, ligera. Un palmo cada hora. Los tejados empiezan a hundirse.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "atardecer",
+          "clima": "ceniza",
+          "props": [
+            {
+              "tipo": "anfora",
+              "x": -1.0
+            },
+            {
+              "tipo": "volcan-erupcion",
+              "x": 1.3,
+              "escala": 2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": 0,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": 1
+          }
+        ]
+      },
+      {
+        "dia": 29,
+        "texto": "Tengo que elegir: huir con mi familia, o quedarme a guardar todo lo que tengo.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "molino",
+              "x": -0.95
+            },
+            {
+              "tipo": "horno",
+              "x": 0.95
+            },
+            {
+              "tipo": "anfora",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": 0.15,
+            "accion": "pensar",
+            "emocion": "miedo",
+            "mirar": -1
+          },
+          {
+            "quien": "tercia",
+            "x": -0.35,
+            "accion": "hablar",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 29,
+        "texto": "Antes de salir, meto la última hornada y cierro el horno con la tapa de hierro.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": 0.2,
+            "accion": "trabajar",
+            "emocion": "triste",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Casi mil ochocientos años después, encontraron un horno así, con ochenta y un panes dentro. ¿Y el panadero? Te lo cuento en el mes completo.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "noche",
+          "clima": "ceniza",
+          "props": [
+            {
+              "tipo": "volcan-erupcion",
+              "x": 1.3,
+              "escala": 2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.1,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": 1
+          }
+        ]
+      }
+    ]
+  },
+  "largo": {
+    "escenas": [
+      {
+        "texto": "Me llamo Félix y hago pan en Pompeya. Dentro de treinta días, la montaña verde que veo cada mañana va a enterrar mi ciudad. Y nadie aquí sabe que esa montaña es un volcán.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "volcan",
+              "x": 1.3,
+              "escala": 2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Esta no es la historia de los que se quedaron. Es la de un panadero que tuvo que decidir, bajo una lluvia de piedras, qué salvar. Y qué dejar atrás.",
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": 0.35,
+            "accion": "hablar",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 1,
+        "capitulo": "Pan y polvo de obra",
+        "texto": "Mi nombre completo es Lucio Popidio Félix. Hace doce años era esclavo y empujaba un molino. Hoy el molino es mío. Bueno, casi: lo pago a medias con mi antiguo amo.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "amanecer",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "molino",
+              "x": -0.95
+            },
+            {
+              "tipo": "horno",
+              "x": 0.95
+            },
+            {
+              "tipo": "anfora",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": 0,
+            "accion": "hablar",
+            "mirar": 1
+          }
+        ]
+      },
+      {
+        "dia": 1,
+        "texto": "Vivo al pie del Vesubio, junto al río Sarno. Somos entre once mil y veinte mil vecinos, según quién cuente, y nos protege una diosa: Venus.",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Pompeya",
+          "detalle": "Campania · otoño del año 79",
+          "icono": "📍"
+        }
+      },
+      {
+        "dia": 1,
+        "texto": "Mi jornada empieza cuando la de los demás termina. De noche se muele, de madrugada se amasa, y antes del alba el horno ya ruge.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "molino",
+              "x": -0.95
+            },
+            {
+              "tipo": "horno",
+              "x": 0.95
+            },
+            {
+              "tipo": "anfora",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": 0.35,
+            "accion": "trabajar",
+            "mirar": 1
+          },
+          {
+            "quien": "onesimo",
+            "x": -0.45,
+            "accion": "trabajar",
+            "mirar": 1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 1,
+        "texto": "Mi burro da vueltas al molino con los ojos tapados, para que no se maree. Yo también di esas vueltas. Por eso le hablo bajito.",
+        "drama": 0.5,
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": 0.1,
+            "accion": "pensar",
+            "emocion": "cansado",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 1,
+        "texto": "Onésimo, mi esclavo viejo, empuja el otro molino. Dama, el joven, echa el grano por arriba. La harina cae alrededor como una nieve gris.",
+        "personajes": [
+          {
+            "quien": "onesimo",
+            "x": -0.5,
+            "accion": "trabajar",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "dama",
+            "x": 0.45,
+            "accion": "cargar",
+            "objeto": "🌾",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 2,
+        "texto": "Al amanecer sale la hornada. Pan redondo, marcado en ocho porciones para partirlo con las manos. Cada pieza, uno o dos ases.",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1–2 ases",
+          "etiqueta": "una pieza de pan corriente",
+          "icono": "🍞"
+        }
+      },
+      {
+        "dia": 2,
+        "texto": "Mi mujer, Tercia, vende en el mostrador. Mi hijo Lucio, de ocho años, estampa el sello de casa en la masa. Dice que así se sabe que el pan es nuestro.",
+        "fondo": {
+          "lugar": "calle",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "termopolio",
+              "x": -1.0
+            },
+            {
+              "tipo": "anfora",
+              "x": 0.95
+            },
+            {
+              "tipo": "volcan",
+              "x": 1.3,
+              "escala": 2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.6,
+            "accion": "hablar",
+            "mirar": 1
+          },
+          {
+            "quien": "tercia",
+            "x": 0.1,
+            "accion": "trabajar",
+            "objeto": "🍞",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "lucio",
+            "x": 0.65,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 3,
+        "texto": "Tercer día. Subo al foro a comprar grano. Al fondo, el templo de Júpiter sigue con andamios. Un terremoto lo rompió hace dieciséis o diecisiete años.",
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "columna",
+              "x": -1.2
+            },
+            {
+              "tipo": "columna",
+              "x": 0
+            },
+            {
+              "tipo": "columna",
+              "x": 1.2
+            },
+            {
+              "tipo": "volcan",
+              "x": 0.7,
+              "escala": 2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.5,
+            "accion": "caminar",
+            "entra": "izq",
+            "mirar": 1
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 3,
+        "texto": "Toda la ciudad está en obras. Andamios, montones de cal, paredes a medio pintar. Aquí la tierra tiembla a menudo, y ya nadie se asusta.",
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.3,
+            "accion": "senalar",
+            "mirar": 1
+          }
+        ]
+      },
+      {
+        "dia": 3,
+        "texto": "En las fachadas siguen frescos los carteles de las elecciones de marzo. Mi favorito lo pintaron para Cayo Julio Polibio.",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "A Cayo Julio Polibio, edil, os pido que lo votéis. Trae buen pan.",
+          "firma": "Cartel electoral de Pompeya (CIL IV 429)"
+        }
+      },
+      {
+        "dia": 4,
+        "texto": "Cuarto día. Llevo pan a una villa de las afueras. La vendimia ha terminado, y los esclavos sellan las tinajas llenas de mosto.",
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "volcan",
+              "x": 1.3,
+              "escala": 2
+            },
+            {
+              "tipo": "anfora",
+              "x": -1.1
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.3,
+            "accion": "cargar",
+            "objeto": "🧺",
+            "mirar": 1
+          }
+        ]
+      },
+      {
+        "dia": 4,
+        "texto": "Detrás de las viñas está el Vesubio, verde hasta la cima. Dicen que es el monte de Baco. Nadie recuerda que haya escupido fuego jamás.",
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.4,
+            "accion": "pensar",
+            "mirar": 1
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 6,
+        "texto": "Sexto día. Al caer la tarde, comemos en el termopolio de la esquina. Tinajas empotradas en el mostrador, guiso caliente y vino con agua.",
+        "fondo": {
+          "lugar": "calle",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "termopolio",
+              "x": -1.0
+            },
+            {
+              "tipo": "anfora",
+              "x": 0.95
+            },
+            {
+              "tipo": "volcan",
+              "x": 1.3,
+              "escala": 2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.15,
+            "accion": "hablar",
+            "mirar": -1
+          },
+          {
+            "quien": "tercia",
+            "x": -0.7,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "lucio",
+            "x": 0.45,
+            "accion": "quieto",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 6,
+        "texto": "Pido habas cocidas en vino. Lucio pide caracoles. Tercia se ríe. El vino de un as es agrio. El de cuatro, dicen, es Falerno.",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "80",
+          "etiqueta": "termopolios en Pompeya: comida caliente en la calle",
+          "icono": "🍲"
+        }
+      },
+      {
+        "dia": 7,
+        "texto": "Séptimo día. Esta noche la mesa tiembla. Un temblor pequeño, casi nada. En la Campania pasa tanto que nadie le da importancia.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.9
+            },
+            {
+              "tipo": "🪔",
+              "x": -1.2,
+              "escala": 0.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": 0.2,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 8,
+        "capitulo": "El encargo",
+        "texto": "Octavo día. Un edil me encarga cuatrocientos panes para los juegos del anfiteatro. Cuatrocientos. Tendremos que moler día y noche.",
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "termopolio",
+              "x": -1.0
+            },
+            {
+              "tipo": "anfora",
+              "x": 0.95
+            },
+            {
+              "tipo": "volcan",
+              "x": 1.3,
+              "escala": 2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.45,
+            "accion": "hablar",
+            "emocion": "sorpresa",
+            "mirar": 1
+          },
+          {
+            "quien": "edil",
+            "x": 0.45,
+            "accion": "senalar",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 8,
+        "texto": "Hace veinte años, una pelea con los de Nuceria acabó en muertos, y el Senado nos prohibió los juegos durante diez años. Ahora han vuelto, y Pompeya entera quiere ir.",
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.45,
+            "accion": "hablar",
+            "mirar": 1
+          },
+          {
+            "quien": "edil",
+            "x": 0.45,
+            "accion": "quieto",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 9,
+        "texto": "Molemos sin parar. El burro, Onésimo y Dama, por turnos. Yo sé lo que es eso: los hombros que arden y un suelo que nunca se acaba.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "molino",
+              "x": -0.95
+            },
+            {
+              "tipo": "horno",
+              "x": 0.95
+            },
+            {
+              "tipo": "anfora",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": 0.5,
+            "accion": "pensar",
+            "emocion": "cansado",
+            "mirar": -1
+          },
+          {
+            "quien": "onesimo",
+            "x": -0.4,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 10,
+        "texto": "Décimo día. Hago cuentas para el encargo. Trigo, sal, leña y sarmientos de las viñas para el horno. El grano ha subido. Dicen que es por los juegos.",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Para cuatrocientos panes",
+          "items": [
+            {
+              "icono": "🌾",
+              "nombre": "Trigo"
+            },
+            {
+              "icono": "🧂",
+              "nombre": "Sal"
+            },
+            {
+              "icono": "🪵",
+              "nombre": "Leña y sarmientos"
+            },
+            {
+              "icono": "🫙",
+              "nombre": "Masa madre"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 11,
+        "texto": "Undécimo día. El jergón de Dama está vacío y la puerta del establo, abierta. Se ha ido de noche.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": 0,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1
+          }
+        ]
+      },
+      {
+        "dia": 11,
+        "texto": "Lo encuentro al amanecer, junto a una puerta de la muralla. No ha huido. Quiere comprar su libertad y ha ido a pedir un préstamo.",
+        "fondo": {
+          "lugar": "calle",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "carro",
+              "x": 1.1
+            },
+            {
+              "tipo": "volcan",
+              "x": 1.3,
+              "escala": 2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.45,
+            "accion": "hablar",
+            "emocion": "enfado",
+            "mirar": 1
+          },
+          {
+            "quien": "dama",
+            "x": 0.45,
+            "accion": "triste",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 11,
+        "texto": "Yo hice lo mismo hace años. Le digo la verdad: le falta mucho. Pero le prometo que, si me ayuda con el encargo, le daré parte de lo que gane.",
+        "drama": 0.5,
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1
+          },
+          {
+            "quien": "dama",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 13,
+        "texto": "Decimotercer día. Día de juegos. Llevamos los panes en el carro hasta el anfiteatro. Hoy parece que ha venido el mundo entero.",
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "carro",
+              "x": -1.0
+            },
+            {
+              "tipo": "puesto",
+              "x": 1.0
+            },
+            {
+              "tipo": "volcan",
+              "x": 1.3,
+              "escala": 2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.2,
+            "accion": "cargar",
+            "objeto": "🍞",
+            "mirar": 1
+          },
+          {
+            "quien": "dama",
+            "x": 0.5,
+            "accion": "cargar",
+            "objeto": "🧺",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 13,
+        "texto": "Es el anfiteatro de piedra más antiguo que se conoce. En Roma están acabando uno mucho más grande, pero todavía no se ha inaugurado.",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "20.000",
+          "etiqueta": "plazas en el anfiteatro de Pompeya",
+          "icono": "🏟"
+        }
+      },
+      {
+        "dia": 14,
+        "texto": "Decimocuarto día. Esta noche, otro temblor, algo más fuerte. Se desprende un trozo del enlucido recién pintado. Onésimo besa el amuleto que lleva al cuello.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "molino",
+              "x": -0.95
+            },
+            {
+              "tipo": "horno",
+              "x": 0.95
+            },
+            {
+              "tipo": "anfora",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": 0.45,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1
+          },
+          {
+            "quien": "onesimo",
+            "x": -0.45,
+            "accion": "pensar",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 15,
+        "capitulo": "El olor del otoño",
+        "texto": "Decimoquinto día. Lucio me pregunta por qué la cima de la montaña es gris, como de piedra quemada. No sé qué contestarle. Le digo que es muy vieja.",
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "volcan",
+              "x": 1.3,
+              "escala": 2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.45,
+            "accion": "quieto",
+            "mirar": 1
+          },
+          {
+            "quien": "lucio",
+            "x": 0.15,
+            "accion": "senalar",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 16,
+        "texto": "En el mercado ya hay granadas, nueces, castañas e higos secos. Es otoño. Tercia compra una granada, y Lucio se pone las manos rojas.",
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "puesto",
+              "x": -0.95
+            },
+            {
+              "tipo": "anfora",
+              "x": 1.0
+            },
+            {
+              "tipo": "volcan",
+              "x": 1.3,
+              "escala": 2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.6,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1
+          },
+          {
+            "quien": "tercia",
+            "x": 0.05,
+            "accion": "hablar",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "lucio",
+            "x": 0.65,
+            "accion": "celebrar",
+            "objeto": "🍎",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 17,
+        "texto": "Las monedas nuevas llevan la cara de Tito. Es emperador desde junio, tras la muerte de su padre, Vespasiano.",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "79",
+          "etiqueta": "Tito, emperador desde junio de este año",
+          "icono": "🪙"
+        }
+      },
+      {
+        "dia": 18,
+        "texto": "Por las noches refresca. Encendemos el primer brasero. Lucio se duerme hablando de gladiadores. Yo pienso en el préstamo de Dama, en el grano, en las deudas.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.9
+            },
+            {
+              "tipo": "🪔",
+              "x": -1.2,
+              "escala": 0.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": 0.35,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1
+          },
+          {
+            "quien": "lucio",
+            "x": -0.4,
+            "accion": "dormir",
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 20,
+        "texto": "Vigésimo día. Me encargan pan para los obreros de una casa en reforma. Pintores, estucadores, peones. Comen mucho y pagan tarde.",
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "cajas",
+              "x": -1.0
+            },
+            {
+              "tipo": "anfora",
+              "x": 0.95
+            },
+            {
+              "tipo": "volcan",
+              "x": 1.3,
+              "escala": 2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.45,
+            "accion": "cargar",
+            "objeto": "🧺",
+            "mirar": 1
+          },
+          {
+            "quien": "obrero",
+            "x": 0.45,
+            "accion": "saludar",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 22,
+        "capitulo": "La montaña se abre",
+        "texto": "Vigesimosegundo día. Al dejarles el pan, veo a uno escribir con carbón en la pared. Dieciséis días antes de las calendas de noviembre. Es decir, diecisiete de octubre.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "cajas",
+              "x": 1.2
+            },
+            {
+              "tipo": "anfora",
+              "x": -1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.45,
+            "accion": "quieto",
+            "mirar": 1
+          },
+          {
+            "quien": "obrero",
+            "x": 0.4,
+            "accion": "escribir",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 22,
+        "texto": "Un garabato sin importancia. No sé que, dentro de casi dos mil años, alguien lo encontrará y discutirá por él.",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "XVI K NOV",
+          "firma": "Inscripción a carboncillo, Casa del Jardín (Regio V)"
+        }
+      },
+      {
+        "dia": 22,
+        "texto": "Durante siglos se dirá que todo pasó el veinticuatro de agosto, por una carta de Plinio el Joven. Pero granadas, mosto ya embodegado y este carbón harán pensar a muchos en finales de octubre. El debate sigue abierto.",
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.2,
+            "accion": "pensar",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 24,
+        "texto": "Vigesimocuarto día. El burro se para en mitad de la vuelta y no quiere seguir. Lo achaco al cansancio. Onésimo dice que los animales oyen cosas. Supersticiones de viejo.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "molino",
+              "x": -0.95
+            },
+            {
+              "tipo": "horno",
+              "x": 0.95
+            },
+            {
+              "tipo": "anfora",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": 0.45,
+            "accion": "hablar",
+            "mirar": -1
+          },
+          {
+            "quien": "onesimo",
+            "x": -0.45,
+            "accion": "senalar",
+            "mirar": 1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 25,
+        "texto": "Vigesimoquinto día. Dejo pan, vino e incienso en el larario, ante Vesta, la diosa de los panaderos. No sé muy bien qué le pido. Que todo siga igual.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.9
+            },
+            {
+              "tipo": "🪔",
+              "x": -1.2,
+              "escala": 0.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": 0,
+            "accion": "pensar",
+            "objeto": "🍞",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 27,
+        "texto": "Ahora tiembla casi cada día. Poco, pero sin parar. En la calle se comenta, se bromea, y se sigue trabajando.",
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "termopolio",
+              "x": -1.0
+            },
+            {
+              "tipo": "anfora",
+              "x": 0.95
+            },
+            {
+              "tipo": "volcan",
+              "x": 1.3,
+              "escala": 2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.45,
+            "accion": "hablar",
+            "mirar": 1
+          },
+          {
+            "quien": "tercia",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Durante muchos días antes hubo temblores de tierra, poco alarmantes porque son frecuentes en Campania.",
+          "firma": "Plinio el Joven, Cartas, 6.20"
+        }
+      },
+      {
+        "dia": 29,
+        "texto": "Vigesimonoveno día. Una mañana normal. El pan está a la venta, Lucio juega en la calle y los vecinos discuten de precios. Nadie mira a la montaña.",
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "termopolio",
+              "x": -1.0
+            },
+            {
+              "tipo": "anfora",
+              "x": 0.95
+            },
+            {
+              "tipo": "volcan",
+              "x": 1.3,
+              "escala": 2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.6,
+            "accion": "trabajar",
+            "objeto": "🍞",
+            "mirar": 1
+          },
+          {
+            "quien": "tercia",
+            "x": 0.05,
+            "accion": "hablar",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "lucio",
+            "x": 0.65,
+            "accion": "correr",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 29,
+        "texto": "Hacia la una de la tarde, la hora séptima, un estruendo. Sobre el Vesubio sube una nube enorme. Un tronco altísimo que luego se abre en ramas, como un pino.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "termopolio",
+              "x": -1.0
+            },
+            {
+              "tipo": "volcan-erupcion",
+              "x": 1.3,
+              "escala": 2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.4,
+            "accion": "senalar",
+            "emocion": "miedo",
+            "mirar": 1
+          },
+          {
+            "quien": "lucio",
+            "x": 0.35,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "subir"
+      },
+      {
+        "dia": 29,
+        "texto": "Esa columna sube a más de treinta kilómetros. Al otro lado de la bahía, en Miseno, un muchacho de diecisiete años la está mirando. Se llama Plinio.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "volcan-erupcion",
+              "x": 1.3,
+              "escala": 2
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "dia": 29,
+        "texto": "Al poco empieza a caer piedra pómez. Piedrecitas blancas, ligeras, que rebotan en las tejas. Después, ceniza. El cielo se oscurece en pleno día.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "atardecer",
+          "clima": "ceniza",
+          "props": [
+            {
+              "tipo": "termopolio",
+              "x": -1.0
+            },
+            {
+              "tipo": "volcan-erupcion",
+              "x": 1.3,
+              "escala": 2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.6,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": 1
+          },
+          {
+            "quien": "tercia",
+            "x": 0.05,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "lucio",
+            "x": 0.65,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "insercion": {
+          "tipo": "dato",
+          "valor": "10–15 cm",
+          "etiqueta": "de piedra pómez por hora sobre Pompeya",
+          "icono": "⏳"
+        }
+      },
+      {
+        "dia": 29,
+        "texto": "Tercia quiere irse ya. Yo dudo. Aquí está todo lo que tengo: el molino, el horno, doce años de trabajo. Si nos vamos, ¿quién lo guarda?",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "molino",
+              "x": -0.95
+            },
+            {
+              "tipo": "horno",
+              "x": 0.95
+            },
+            {
+              "tipo": "anfora",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": 0.45,
+            "accion": "pensar",
+            "emocion": "miedo",
+            "mirar": -1
+          },
+          {
+            "quien": "tercia",
+            "x": -0.45,
+            "accion": "hablar",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 29,
+        "texto": "Los vecinos se dividen. Unos cargan lo que pueden y corren hacia las puertas. Otros se encierran en casa a esperar que pare. Nadie sabe qué es esto.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "noche",
+          "clima": "ceniza",
+          "props": [
+            {
+              "tipo": "anfora",
+              "x": -1.0
+            },
+            {
+              "tipo": "volcan-erupcion",
+              "x": 1.3,
+              "escala": 2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "obrero",
+            "x": -0.3,
+            "accion": "correr",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "dama",
+            "x": 0.4,
+            "accion": "cargar",
+            "objeto": "🧺",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 29,
+        "texto": "Al anochecer, un tejado de nuestra calle se hunde con un ruido sordo. Es el peso de la piedra. Eso me decide. Nos vamos.",
+        "drama": 0.9,
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.2,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 29,
+        "texto": "Cojo lo que cabe en las manos. La bolsa de monedas, una lámpara, el pan de ayer. Y almohadas para atarnos a la cabeza, contra las piedras.",
+        "drama": 0.8,
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Lo que me llevo",
+          "items": [
+            {
+              "icono": "💰",
+              "nombre": "La bolsa de monedas"
+            },
+            {
+              "icono": "🪔",
+              "nombre": "Una lámpara de aceite"
+            },
+            {
+              "icono": "🍞",
+              "nombre": "El pan de ayer"
+            },
+            {
+              "icono": "🐴",
+              "nombre": "El burro"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 29,
+        "texto": "Antes de salir, hago algo que no sé explicar. Meto la última hornada en el horno y cierro la boca con la tapa de hierro. Como si fuéramos a volver mañana.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "molino",
+              "x": -0.95
+            },
+            {
+              "tipo": "horno",
+              "x": 0.95
+            },
+            {
+              "tipo": "anfora",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": 0.3,
+            "accion": "trabajar",
+            "emocion": "triste",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 29,
+        "texto": "Onésimo no quiere venir. Dice que es viejo, que no aguantará el camino, que alguien tiene que guardar la casa. Le suplico. Se queda sentado junto al horno.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.45,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": 1
+          },
+          {
+            "quien": "onesimo",
+            "x": 0.45,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 29,
+        "texto": "Tercia, Lucio, Dama y yo salimos con el burro. Las lámparas casi no alumbran. Caminamos hacia la puerta de Nuceria, sobre piedras que crujen.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "noche",
+          "clima": "ceniza",
+          "props": [
+            {
+              "tipo": "anfora",
+              "x": -1.1
+            },
+            {
+              "tipo": "volcan-erupcion",
+              "x": 1.3,
+              "escala": 2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.6,
+            "accion": "caminar",
+            "objeto": "🪔",
+            "emocion": "miedo",
+            "mirar": 1
+          },
+          {
+            "quien": "tercia",
+            "x": -0.05,
+            "accion": "caminar",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "lucio",
+            "x": 0.45,
+            "accion": "caminar",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "dama",
+            "x": 0.85,
+            "accion": "cargar",
+            "objeto": "🧺",
+            "mirar": 1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 29,
+        "texto": "Fuera de las murallas, el camino está lleno de gente. Solo se oye la piedra cayendo sobre la piedra, y a lo lejos, niños que lloran.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "noche",
+          "clima": "ceniza",
+          "props": [
+            {
+              "tipo": "volcan-erupcion",
+              "x": 1.3,
+              "escala": 2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.3,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": 1
+          },
+          {
+            "quien": "lucio",
+            "x": 0.3,
+            "accion": "caminar",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 30,
+        "texto": "Trigésimo día. Al amanecer llegamos a una loma, lejos de la ciudad. Me vuelvo. Una nube negra baja por la ladera, rodando, más deprisa que un caballo al galope.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "amanecer",
+          "clima": "ceniza",
+          "props": [
+            {
+              "tipo": "volcan-erupcion",
+              "x": -1.3,
+              "escala": 2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": 0.45,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1
+          },
+          {
+            "quien": "tercia",
+            "x": -0.05,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "lucio",
+            "x": -0.5,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 30,
+        "texto": "Llega a Pompeya entre las seis y media y las siete y media de la mañana. Gas y ceniza a doscientos o trescientos grados. Nadie que siga allí puede sobrevivir.",
+        "drama": 0.9,
+        "insercion": {
+          "tipo": "dato",
+          "valor": "200–300 °C",
+          "etiqueta": "la oleada de gas y ceniza que cubrió Pompeya",
+          "icono": "🌋"
+        }
+      },
+      {
+        "dia": 30,
+        "texto": "Pienso en Onésimo, sentado junto al horno. Tercia me coge la mano. Lucio no entiende por qué lloro.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": 0.3,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1
+          },
+          {
+            "quien": "tercia",
+            "x": -0.3,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Llegamos a Nuceria con el burro y la ropa gris de ceniza. Somos de los que huyeron: la mayoría de Pompeya escapó a tiempo. De Onésimo nunca supe nada.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "volcan",
+              "x": 1.3,
+              "escala": 2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.45,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": 1
+          },
+          {
+            "quien": "lucio",
+            "x": 0.05,
+            "accion": "caminar",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "dama",
+            "x": 0.55,
+            "accion": "caminar",
+            "mirar": 1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "texto": "Al otro lado de la bahía, el almirante Plinio el Viejo zarpó para ayudar. Murió en la playa de Estabia, probablemente por los gases. Su sobrino lo contó todo en dos cartas.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "atardecer",
+          "clima": "ceniza",
+          "props": [
+            {
+              "tipo": "velero",
+              "x": -1.0
+            },
+            {
+              "tipo": "volcan-erupcion",
+              "x": 1.3,
+              "escala": 1.8
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "texto": "Pompeya durmió casi mil setecientos años bajo cuatro a seis metros de piedra y ceniza. En mil setecientos cuarenta y ocho, el ingeniero español Roque Joaquín de Alcubierre empezó a excavarla.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "columna",
+              "x": -1.2
+            },
+            {
+              "tipo": "columna",
+              "x": 0
+            },
+            {
+              "tipo": "columna",
+              "x": 1.2
+            },
+            {
+              "tipo": "volcan",
+              "x": 0.7,
+              "escala": 2
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "texto": "En mil ochocientos sesenta y dos, en otra panadería, la que hoy llaman de Modesto, apareció un horno cerrado. Dentro había ochenta y un panes carbonizados.",
+        "drama": 0.7,
+        "insercion": {
+          "tipo": "dato",
+          "valor": "81",
+          "etiqueta": "panes carbonizados en el horno de la Panadería de Modesto (1862)",
+          "icono": "🍞"
+        }
+      },
+      {
+        "texto": "Nadie sabe si se estaban cociendo o si alguien los guardó antes de huir. Yo creo saber lo que sintió aquel panadero.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "molino",
+              "x": -0.95
+            },
+            {
+              "tipo": "horno",
+              "x": 0.95
+            },
+            {
+              "tipo": "anfora",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": 0,
+            "accion": "pensar",
+            "emocion": "triste",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Félix, Tercia, Lucio, Dama y Onésimo son inventados; la erupción, los carteles y los panes son reales. ¿De quién quieres vivir el próximo mes? Déjalo en los comentarios y suscríbete.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "volcan",
+              "x": 1.3,
+              "escala": 2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "felix",
+            "x": -0.3,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": 1
+          }
+        ]
+      }
+    ]
+  },
+  "publicacion": {
+    "tituloLargo": "Un mes en la vida de UN PANADERO DE POMPEYA (año 79) | Los 30 días antes del VESUBIO",
+    "tituloShort": "La montaña detrás de mi horno iba a reventar 🌋 #historia",
+    "descripcion": "Treinta días en la vida de Félix, un panadero liberto de Pompeya, en el otoño del año 79, hasta la erupción del Vesubio: la molienda nocturna con su burro y sus esclavos, los carteles electorales («trae buen pan»), el termopolio, los juegos del anfiteatro, los temblores que nadie temía, la nube con forma de pino descrita por Plinio el Joven, la lluvia de piedra pómez y la huida hacia Nuceria.\n\nFélix, su familia y sus esclavos son PERSONAJES INVENTADOS dentro de un hecho real. Son reales la erupción y sus fases (pómez durante la tarde y la noche, oleadas piroclásticas a la mañana siguiente, de unos 200–300 °C en Pompeya), el cartel de Cayo Julio Polibio (CIL IV 429), la inscripción a carboncillo «XVI K NOV» de la Casa del Jardín, la muerte de Plinio el Viejo en Estabia, las excavaciones de Roque Joaquín de Alcubierre (1748) y los 81 panes carbonizados de la Panadería de Modesto (1862). En Pompeya no hubo ríos de lava, y la mayoría de sus habitantes logró huir.\n\nSobre la fecha: la tradición, por una carta de Plinio el Joven, dice 24 de agosto; granadas, mosto ya embodegado y la inscripción al carboncillo llevan a muchos arqueólogos a proponer finales de octubre. El debate sigue abierto.\n\n00:00 La montaña verde\n— Semana 1: Pan y polvo de obra\n— Semana 2: El encargo\n— Semana 3: El olor del otoño\n— Semana 4: La montaña se abre\n— Epílogo: Plinio, Alcubierre y los 81 panes\n\nFuentes: Plinio el Joven, Cartas 6.16 y 6.20; Séneca, Cuestiones naturales VI; Tácito, Anales XIV, 17; CIL IV 429 y 1679; Parque Arqueológico de Pompeya (Regio V, 2018; Regio IX, 2023); Getty Museum, «When did Vesuvius erupt?».",
+    "etiquetas": [
+      "un mes en la vida de",
+      "historia",
+      "Pompeya",
+      "Vesubio",
+      "año 79",
+      "Roma antigua",
+      "panadero romano",
+      "Plinio el Joven",
+      "erupción del Vesubio",
+      "arqueología",
+      "vida cotidiana",
+      "animación"
+    ]
+  }
+}
