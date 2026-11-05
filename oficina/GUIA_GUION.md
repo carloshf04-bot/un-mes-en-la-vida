@@ -108,6 +108,7 @@ La voz (Chatterbox, narrador de España, con `"velocidad": 1.15`) lee unas **120
 - **x:** de −1 (izquierda) a 1 (derecha). Con dos personajes, ±0.4 o más; con tres, −0.7 / 0 / 0.7.
 - **accion:** `quieto`, `hablar`, `caminar`, `correr`, `trabajar`, `saludar`, `sentado`, `escribir`, `pensar`, `celebrar`, `triste`, `senalar`, `cargar` (el objeto va en las manos), `dormir` y `asustado`.
 - **emocion:** `neutral`, `feliz`, `triste`, `miedo`, `enfado`, `sorpresa` y `cansado`.
+- **dormir:** el personaje se tumba en el suelo a su izquierda; no lo uses con niños pequeños ni bebés (parece que se han caído). Para ellos usa `sentado` con `emocion: "cansado"`.
 - **habla:** el primer personaje mueve la boca con la voz por defecto. Pon `"habla": false` a los demás (y al protagonista si duerme o si la voz es pensamiento).
 - **mirar:** 1 = derecha, −1 = izquierda. Que se miren entre ellos.
 

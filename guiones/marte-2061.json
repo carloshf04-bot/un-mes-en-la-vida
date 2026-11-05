@@ -353,8 +353,8 @@
           {
             "quien": "bebe",
             "x": 0.35,
-            "accion": "dormir",
-            "emocion": "triste",
+            "accion": "sentado",
+            "emocion": "cansado",
             "mirar": -1,
             "habla": false
           }
@@ -1545,8 +1545,8 @@
           {
             "quien": "bebe",
             "x": 0.5,
-            "accion": "dormir",
-            "emocion": "triste",
+            "accion": "sentado",
+            "emocion": "cansado",
             "mirar": -1,
             "habla": false
           }
@@ -1569,8 +1569,8 @@
           {
             "quien": "bebe",
             "x": 0.5,
-            "accion": "dormir",
-            "emocion": "triste",
+            "accion": "sentado",
+            "emocion": "cansado",
             "mirar": -1,
             "habla": false
           }
@@ -1646,8 +1646,8 @@
           {
             "quien": "lia",
             "x": 0.4,
-            "accion": "dormir",
-            "emocion": "neutral",
+            "accion": "sentado",
+            "emocion": "cansado",
             "mirar": -1,
             "habla": false
           }
@@ -1804,8 +1804,8 @@
           {
             "quien": "bebe",
             "x": 0.5,
-            "accion": "dormir",
-            "emocion": "neutral",
+            "accion": "sentado",
+            "emocion": "cansado",
             "mirar": -1,
             "habla": false
           }
