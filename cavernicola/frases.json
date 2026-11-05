@@ -1,0 +1,1074 @@
+[
+ {
+  "i": 1,
+  "text": "Tienes treinta días para sobrevivir.",
+  "start": 0.0,
+  "end": 2.16,
+  "sim": 1.0,
+  "oido": "Tienes 30 días para sobrevivir."
+ },
+ {
+  "i": 2,
+  "text": "No hay casa, no hay comida guardada y fuera hace un frío que corta la piel.",
+  "start": 2.46,
+  "end": 6.479,
+  "sim": 1.0,
+  "oido": "No hay casa, no hay comida guardada y fuera hace un frío que corta la piel."
+ },
+ {
+  "i": 3,
+  "text": "Bienvenido al mundo de hace quince mil años.",
+  "start": 6.779,
+  "end": 9.308,
+  "sim": 1.0,
+  "oido": "Bienvenido al mundo de hace 15.000 años."
+ },
+ {
+  "i": 4,
+  "text": "Esto es un mes en la vida de un cavernícola, con lo bueno, con lo malo y con lo que casi nadie te cuenta.",
+  "start": 9.608,
+  "end": 16.373,
+  "sim": 1.0,
+  "oido": "Esto es un mes en la vida de un cavernícola, con lo bueno, con lo malo y con lo que casi nadie te cuenta."
+ },
+ {
+  "i": 5,
+  "text": "Él es Tarko. Tiene veinticinco años y es uno de los cazadores de su grupo.",
+  "start": 17.773,
+  "end": 22.286,
+  "sim": 0.933,
+  "oido": "Él es Tarco, tiene 25 años y es uno de los cazadores de su grupo."
+ },
+ {
+  "i": 6,
+  "text": "Vive en lo que hoy es el sur de Francia, al final de la última glaciación.",
+  "start": 22.586,
+  "end": 26.807,
+  "sim": 1.0,
+  "oido": "vive en lo que hoy es el sur de Francia, al final de la última glaciación."
+ },
+ {
+  "i": 7,
+  "text": "En su mundo hay renos, caballos salvajes, bisontes y mamuts.",
+  "start": 27.107,
+  "end": 31.027,
+  "sim": 1.0,
+  "oido": "En su mundo hay renos, caballos salvajes, bisontes y mamuts."
+ },
+ {
+  "i": 8,
+  "text": "Y también leones de las cavernas, osos y hienas.",
+  "start": 31.327,
+  "end": 34.761,
+  "sim": 1.0,
+  "oido": "y también leones de las cavernas, osos y hienas."
+ },
+ {
+  "i": 9,
+  "text": "Tarko no vive solo. Su grupo son unas pocas familias, entre veinte y treinta personas.",
+  "start": 35.061,
+  "end": 40.234,
+  "sim": 0.933,
+  "oido": "Darko no vive solo. Su grupo son unas pocas familias, entre 20 y 30 personas."
+ },
+ {
+  "i": 10,
+  "text": "Está Lía, que conoce cada planta del valle.",
+  "start": 40.534,
+  "end": 45.054,
+  "sim": 1.0,
+  "oido": "Está Lía, que conoce cada planta del valle."
+ },
+ {
+  "i": 11,
+  "text": "Está Nima, su hija de seis años.",
+  "start": 45.354,
+  "end": 49.834,
+  "sim": 1.0,
+  "oido": "Está Nima, su hija de 6 años."
+ },
+ {
+  "i": 12,
+  "text": "Está Ama, la abuela, que guarda todas las historias.",
+  "start": 50.134,
+  "end": 54.094,
+  "sim": 1.0,
+  "oido": "Está Ama, la abuela, que guarda todas las historias."
+ },
+ {
+  "i": 13,
+  "text": "Y está Gris, un lobo que ya casi es un perro.",
+  "start": 54.394,
+  "end": 57.201,
+  "sim": 1.0,
+  "oido": "Y está gris, un lobo que ya casi es un perro."
+ },
+ {
+  "i": 14,
+  "text": "Primera sorpresa: casi nadie vivía al fondo de una cueva.",
+  "start": 57.501,
+  "end": 60.986,
+  "sim": 1.0,
+  "oido": "Primera sorpresa, casi nadie vivía al fondo de una cueva."
+ },
+ {
+  "i": 15,
+  "text": "Vivían en la entrada, bajo salientes de roca o en tiendas de pieles.",
+  "start": 61.286,
+  "end": 65.513,
+  "sim": 1.0,
+  "oido": "vivían en la entrada, bajo salientes de roca o en tiendas de pieles."
+ },
+ {
+  "i": 16,
+  "text": "Al fondo de las cuevas iban a hacer otra cosa. Y eso lo veremos al final.",
+  "start": 65.813,
+  "end": 70.362,
+  "sim": 0.938,
+  "oido": "Al fondo de las cuevas iban a ser otra cosa, y eso lo veremos al final."
+ },
+ {
+  "i": 17,
+  "text": "¿Y cómo sabemos todo esto si no dejaron nada escrito? Por sus huesos, sus herramientas, sus hogueras y sus pinturas.",
+  "start": 70.662,
+  "end": 77.943,
+  "sim": 1.0,
+  "oido": "¿Y cómo sabemos todo esto si no dejaron nada escrito? Por sus huesos, sus herramientas, sus hogueras y sus pinturas."
+ },
+ {
+  "i": 18,
+  "text": "Y una cosa más antes de empezar: los científicos no los llaman cavernícolas. Los llaman cazadores-recolectores del Paleolítico.",
+  "start": 78.243,
+  "end": 85.458,
+  "sim": 1.0,
+  "oido": "Y una cosa más antes de empezar, los científicos no los llaman cavernícolas, los llaman cazadores-recolectores del Paleolítico."
+ },
+ {
+  "i": 19,
+  "text": "Pero aquí, entre amigos, vamos a seguir llamándolos cavernícolas.",
+  "start": 85.758,
+  "end": 89.739,
+  "sim": 1.0,
+  "oido": "Pero aquí, entre amigos, vamos a seguir llamándolos cavernícolas."
+ },
+ {
+  "i": 20,
+  "text": "Semana uno. Luna nueva.",
+  "start": 91.139,
+  "end": 93.031,
+  "sim": 1.0,
+  "oido": "Semana 1. Luna Nueva."
+ },
+ {
+  "i": 21,
+  "text": "El día empieza antes que el sol.",
+  "start": 93.631,
+  "end": 95.567,
+  "sim": 1.0,
+  "oido": "El día empieza antes que el sol."
+ },
+ {
+  "i": 22,
+  "text": "Hace tanto frío que el agua amanece helada, y romper el hielo para beber es la primera tarea del día.",
+  "start": 95.867,
+  "end": 101.608,
+  "sim": 1.0,
+  "oido": "Hace tanto frío que el agua amanece helada y romper el hielo para beber es la primera tarea del día."
+ },
+ {
+  "i": 23,
+  "text": "Lo primero es el fuego. Si se apaga por la noche, se apaga todo.",
+  "start": 101.908,
+  "end": 105.514,
+  "sim": 1.0,
+  "oido": "Lo primero es el fuego. Si se apaga por la noche, se apaga todo."
+ },
+ {
+  "i": 24,
+  "text": "Saben encenderlo golpeando piedras o frotando madera, pero cuesta mucho.",
+  "start": 105.814,
+  "end": 110.262,
+  "sim": 1.0,
+  "oido": "Saben encenderlo golpeando piedras o frotando madera, pero cuesta mucho."
+ },
+ {
+  "i": 25,
+  "text": "Por eso las brasas se cuidan como un tesoro.",
+  "start": 110.562,
+  "end": 113.408,
+  "sim": 1.0,
+  "oido": "Por eso las brasas se cuidan como un tesoro."
+ },
+ {
+  "i": 26,
+  "text": "El fuego da calor, da luz, espanta a las fieras y cocina la carne.",
+  "start": 113.708,
+  "end": 117.634,
+  "sim": 1.0,
+  "oido": "El fuego da calor, da luz, espanta a las fieras y cocina la carne."
+ },
+ {
+  "i": 27,
+  "text": "Y cocinar lo cambia todo: la comida se mastica mejor y se digiere mejor.",
+  "start": 117.934,
+  "end": 122.488,
+  "sim": 0.889,
+  "oido": "y cocinarlo cambia todo. La comida se mastica mejor y se digiere mejor."
+ },
+ {
+  "i": 28,
+  "text": "Por la noche, el fuego es también el sitio donde se habla, se enseña y se decide qué hacer mañana.",
+  "start": 122.788,
+  "end": 128.026,
+  "sim": 1.0,
+  "oido": "Por la noche, el fuego es también el sitio donde se habla, se enseña y se decide qué hacer mañana."
+ },
+ {
+  "i": 29,
+  "text": "Lo malo es el humo. Dentro del refugio el aire se llena de hollín, y los ojos y los pulmones lo pagan.",
+  "start": 128.326,
+  "end": 133.965,
+  "sim": 1.0,
+  "oido": "Lo malo es el humo. Dentro del refugio el aire se llena de hollín y los ojos y los pulmones lo pagan."
+ },
+ {
+  "i": 30,
+  "text": "Otra cosa: la ropa no es un taparrabos. Eso es de las películas.",
+  "start": 134.265,
+  "end": 137.835,
+  "sim": 1.0,
+  "oido": "Otra cosa, la ropa no es un taparrabos, eso es de las películas."
+ },
+ {
+  "i": 31,
+  "text": "Llevan túnicas, pantalones y botas de piel bien cosidas.",
+  "start": 138.135,
+  "end": 141.643,
+  "sim": 1.0,
+  "oido": "Llevan túnicas, pantalones y botas de piel bien cosidas."
+ },
+ {
+  "i": 32,
+  "text": "Las cosen con agujas de hueso con ojo, como las de tu casa.",
+  "start": 141.943,
+  "end": 145.263,
+  "sim": 1.0,
+  "oido": "Las cosen con agujas de hueso con ojo, como las de tu casa."
+ },
+ {
+  "i": 33,
+  "text": "Y el hilo son tendones secos de animal.",
+  "start": 145.563,
+  "end": 147.6,
+  "sim": 1.0,
+  "oido": "y el hilo son tendones secos de animal."
+ },
+ {
+  "i": 34,
+  "text": "Coser una sola bota puede llevar horas. Y si una costura se abre en mitad de la nieve, los dedos se congelan.",
+  "start": 147.9,
+  "end": 154.177,
+  "sim": 1.0,
+  "oido": "Coser una sola bota puede llevar horas, y si una costura se abre en mitad de la nieve, los dedos se congelan."
+ },
+ {
+  "i": 35,
+  "text": "Por la noche duermen todos juntos, sobre pieles, para compartir el calor.",
+  "start": 154.477,
+  "end": 158.277,
+  "sim": 1.0,
+  "oido": "Por la noche duermen todos juntos sobre pieles para compartir el calor."
+ },
+ {
+  "i": 36,
+  "text": "Las herramientas son de piedra. Golpe a golpe, Tarko saca lascas de sílex que cortan como cuchillas.",
+  "start": 158.577,
+  "end": 164.883,
+  "sim": 1.0,
+  "oido": "Las herramientas son de piedra. Golpe a golpe, Tarko saca lascas de sílex que cortan como cuchillas."
+ },
+ {
+  "i": 37,
+  "text": "Las lascas se pegan a mangos de madera con resina y se convierten en cuchillos, raspadores y puntas.",
+  "start": 165.183,
+  "end": 171.257,
+  "sim": 1.0,
+  "oido": "Las lascas se pegan a mangos de madera con resina y se convierten en cuchillos, raspadores y puntas."
+ },
+ {
+  "i": 38,
+  "text": "Un mal golpe y la piedra se rompe por donde no quieres. Aprender a tallar bien lleva años.",
+  "start": 171.557,
+  "end": 176.789,
+  "sim": 1.0,
+  "oido": "Un mal golpe y la piedra se rompe por donde no quieres. Aprender a tallar bien lleva años."
+ },
+ {
+  "i": 39,
+  "text": "Por la mañana, Lía y Nima salen a buscar comida cerca del campamento.",
+  "start": 177.089,
+  "end": 181.874,
+  "sim": 1.0,
+  "oido": "Por la mañana, Lía y Nima salen a buscar comida cerca del campamento."
+ },
+ {
+  "i": 40,
+  "text": "Raíces, piñones, avellanas secas, setas y algún huevo.",
+  "start": 182.174,
+  "end": 187.061,
+  "sim": 1.0,
+  "oido": "raíces, piñones, avellanas secas, setas y algún huevo."
+ },
+ {
+  "i": 41,
+  "text": "Lía sabe qué bayas son comida y cuáles son veneno. Equivocarse una sola vez puede costar la vida.",
+  "start": 187.361,
+  "end": 193.233,
+  "sim": 0.944,
+  "oido": "Lía sabe qué vallas son comida y cuáles son veneno. Equivocarse una sola vez puede costar la vida."
+ },
+ {
+  "i": 42,
+  "text": "Pero en invierno hay muy pocas plantas, y ese es el primer problema.",
+  "start": 193.533,
+  "end": 197.498,
+  "sim": 1.0,
+  "oido": "Pero en invierno hay muy pocas plantas y ese es el primer problema."
+ },
+ {
+  "i": 43,
+  "text": "Si la caza falla, el grupo pasa hambre. No hay despensa que dure un mes.",
+  "start": 197.798,
+  "end": 202.048,
+  "sim": 0.933,
+  "oido": "Si la casa falla, el grupo pasa hambre. No hay despensa que dure un mes."
+ },
+ {
+  "i": 44,
+  "text": "Al final de la primera semana, la carne seca se está acabando.",
+  "start": 202.348,
+  "end": 205.87,
+  "sim": 1.0,
+  "oido": "Al final de la primera semana, la carne seca se está acabando."
+ },
+ {
+  "i": 45,
+  "text": "Hay que salir a cazar.",
+  "start": 206.17,
+  "end": 208.258,
+  "sim": 1.0,
+  "oido": "Hay que salir a cazar."
+ },
+ {
+  "i": 46,
+  "text": "Semana dos. La luna crece, y los renos cruzan el valle.",
+  "start": 209.658,
+  "end": 213.306,
+  "sim": 1.0,
+  "oido": "Semana 2. La luna crece y los renos cruzan el valle."
+ },
+ {
+  "i": 47,
+  "text": "Los cazadores leen el terreno como tú lees un mapa en el móvil.",
+  "start": 213.906,
+  "end": 217.613,
+  "sim": 1.0,
+  "oido": "Los cazadores leen el terreno como tú lees un mapa en el móvil."
+ },
+ {
+  "i": 48,
+  "text": "Huellas, excrementos, ramas rotas. Todo es información.",
+  "start": 217.913,
+  "end": 222.047,
+  "sim": 1.0,
+  "oido": "Huellas, excrementos, ramas rotas, todo es información."
+ },
+ {
+  "i": 49,
+  "text": "Un buen cazador sabe por una huella si el animal es joven o viejo, y si pasó hace una hora o hace un día.",
+  "start": 222.347,
+  "end": 228.112,
+  "sim": 1.0,
+  "oido": "Un buen cazador sabe por una huella, si el animal es joven o viejo, y si pasó hace una hora o hace un día."
+ },
+ {
+  "i": 50,
+  "text": "Cazan en equipo. Unos asustan a los renos y otros esperan escondidos en el paso estrecho.",
+  "start": 228.412,
+  "end": 233.858,
+  "sim": 1.0,
+  "oido": "Cazan en equipo. Unos asustan a los renos y otros esperan escondidos en el paso estrecho."
+ },
+ {
+  "i": 51,
+  "text": "Tarko no lanza la lanza solo con la mano. Usa un propulsor.",
+  "start": 234.158,
+  "end": 238.756,
+  "sim": 1.0,
+  "oido": "Tarko no lanza la lanza solo con la mano, usa un propulsor."
+ },
+ {
+  "i": 52,
+  "text": "Es un palo con un gancho que funciona como un brazo más largo.",
+  "start": 239.056,
+  "end": 242.142,
+  "sim": 1.0,
+  "oido": "Es un palo con un gancho que funciona como un brazo más largo."
+ },
+ {
+  "i": 53,
+  "text": "Con él, la lanza sale mucho más rápida y llega mucho más lejos.",
+  "start": 242.442,
+  "end": 247.282,
+  "sim": 1.0,
+  "oido": "Con él, la lanza sale mucho más rápida y llega mucho más lejos."
+ },
+ {
+  "i": 54,
+  "text": "Y no siempre aciertan. Muchas cacerías terminan con las manos vacías y las piernas destrozadas de andar.",
+  "start": 247.582,
+  "end": 253.29,
+  "sim": 1.0,
+  "oido": "y no siempre aciertan. Muchas cacerías terminan con las manos vacías y las piernas destrozadas de andar."
+ },
+ {
+  "i": 55,
+  "text": "Las puntas son de sílex, y en algunos grupos también de hueso o asta.",
+  "start": 253.59,
+  "end": 258.07,
+  "sim": 0.929,
+  "oido": "Las puntas son de sílex y en algunos grupos también de hueso o hasta."
+ },
+ {
+  "i": 56,
+  "text": "Cazar es lo más peligroso del mes.",
+  "start": 258.37,
+  "end": 260.527,
+  "sim": 0.857,
+  "oido": "Casar es lo más peligroso del mes."
+ },
+ {
+  "i": 57,
+  "text": "Un reno herido cocea. Un bisonte embiste. Un mal paso en el hielo y te rompes una pierna.",
+  "start": 260.827,
+  "end": 266.675,
+  "sim": 0.944,
+  "oido": "un reno herido cosea, un bisonte embiste, un mal paso en el hielo y te rompes una pierna,"
+ },
+ {
+  "i": 58,
+  "text": "Hay esqueletos de esta época con fracturas que se curaron.",
+  "start": 266.975,
+  "end": 270.231,
+  "sim": 1.0,
+  "oido": "Hay esqueletos de esta época con fracturas que se curaron."
+ },
+ {
+  "i": 59,
+  "text": "Y eso cuenta dos cosas: que se hacían mucho daño, y que alguien los cuidaba mientras se curaban.",
+  "start": 270.531,
+  "end": 275.598,
+  "sim": 1.0,
+  "oido": "Y eso cuenta dos cosas, que se hacían mucho daño y que alguien los cuidaba mientras se curaban."
+ },
+ {
+  "i": 60,
+  "text": "Esta vez sale bien. Un reno grande.",
+  "start": 275.898,
+  "end": 278.006,
+  "sim": 1.0,
+  "oido": "Esta vez sale bien, un reno grande."
+ },
+ {
+  "i": 61,
+  "text": "Antes de comer hay que llevar la carne al campamento: decenas de kilos a la espalda durante horas.",
+  "start": 278.306,
+  "end": 283.869,
+  "sim": 1.0,
+  "oido": "Antes de comer, hay que llevar la carne al campamento, decenas de kilos a la espalda durante horas."
+ },
+ {
+  "i": 62,
+  "text": "Y aquí no se tira nada.",
+  "start": 284.169,
+  "end": 285.638,
+  "sim": 1.0,
+  "oido": "Y aquí no se tira nada."
+ },
+ {
+  "i": 63,
+  "text": "La carne se come y se seca. La piel es ropa y tiendas. Los huesos son herramientas. Los tendones, hilo. La grasa, combustible para lámparas.",
+  "start": 285.938,
+  "end": 295.009,
+  "sim": 1.0,
+  "oido": "La carne se come y se seca, la piel es ropa y tiendas, los huesos son herramientas, los tendones, hilo, la grasa combustible para lámparas."
+ },
+ {
+  "i": 64,
+  "text": "Y es probable que, como hacen otros pueblos cazadores, usaran el cerebro del propio animal para curtir la piel.",
+  "start": 295.309,
+  "end": 301.689,
+  "sim": 1.0,
+  "oido": "Y es probable que, como hacen otros pueblos cazadores, usaran el cerebro del propio animal para curtir la piel."
+ },
+ {
+  "i": 65,
+  "text": "La carne que sobra se corta en tiras y se seca al aire o al humo, para que dure semanas.",
+  "start": 301.989,
+  "end": 307.379,
+  "sim": 1.0,
+  "oido": "La carne que sobra se corta en tiras y se seca al aire o al humo para que dure semanas."
+ },
+ {
+  "i": 66,
+  "text": "Esa noche hay fiesta junto al fuego. Tuétano caliente, carne asada y risas.",
+  "start": 307.679,
+  "end": 312.61,
+  "sim": 1.0,
+  "oido": "Esa noche hay fiesta junto al fuego, tuétano caliente, carne asada y risas."
+ },
+ {
+  "i": 67,
+  "text": "El tuétano es de lo más preciado: pura grasa y energía en pleno invierno.",
+  "start": 312.91,
+  "end": 317.421,
+  "sim": 1.0,
+  "oido": "El tuétano es de lo más preciado, pura grasa y energía en pleno invierno."
+ },
+ {
+  "i": 68,
+  "text": "Los niños también ayudan. Nima raspa pieles y aprende mirando a los mayores.",
+  "start": 317.721,
+  "end": 322.34,
+  "sim": 1.0,
+  "oido": "Los niños también ayudan: Nima raspa pieles y aprende mirando a los mayores,"
+ },
+ {
+  "i": 69,
+  "text": "Lo bueno: hoy comen como reyes. Lo malo: puede que en diez días no vuelvan a comer así.",
+  "start": 322.64,
+  "end": 329.235,
+  "sim": 1.0,
+  "oido": "Lo bueno, hoy comen como reyes. Lo malo, puede que en 10 días no vuelvan a comer así."
+ },
+ {
+  "i": 70,
+  "text": "Semana tres. Luna llena. Y es la peor semana del mes.",
+  "start": 330.635,
+  "end": 334.439,
+  "sim": 1.0,
+  "oido": "Semana 3. Luna llena y es la peor semana del mes."
+ },
+ {
+  "i": 71,
+  "text": "Nima tiene fiebre.",
+  "start": 335.039,
+  "end": 336.207,
+  "sim": 1.0,
+  "oido": "Nima tiene fiebre."
+ },
+ {
+  "i": 72,
+  "text": "Nadie sabe qué es un virus ni una bacteria. Para ellos, la enfermedad es un misterio.",
+  "start": 336.807,
+  "end": 343.367,
+  "sim": 1.0,
+  "oido": "Nadie sabe qué es un virus ni una bacteria. Para ellos, la enfermedad es un misterio."
+ },
+ {
+  "i": 73,
+  "text": "No hay médicos ni antibióticos. Una herida infectada o una diarrea pueden matar a un niño.",
+  "start": 343.667,
+  "end": 349.25,
+  "sim": 1.0,
+  "oido": "no hay médicos ni antibióticos, una herida infectada o una diarrea pueden matar a un niño,"
+ },
+ {
+  "i": 74,
+  "text": "Tampoco hay dentistas. Una muela infectada puede doler durante semanas.",
+  "start": 349.55,
+  "end": 353.976,
+  "sim": 1.0,
+  "oido": "Tampoco hay dentistas. Una muela infectada puede doler durante semanas."
+ },
+ {
+  "i": 75,
+  "text": "En los pueblos cazadores-recolectores actuales, cerca de la mitad de los niños no llegan a los quince años.",
+  "start": 354.276,
+  "end": 360.199,
+  "sim": 1.0,
+  "oido": "En los pueblos cazadores-recolectores actuales, cerca de la mitad de los niños no llegan a los 15 años."
+ },
+ {
+  "i": 76,
+  "text": "Por eso la esperanza de vida al nacer era de unos treinta años.",
+  "start": 360.499,
+  "end": 365.104,
+  "sim": 1.0,
+  "oido": "Por eso la esperanza de vida al nacer era de unos 30 años."
+ },
+ {
+  "i": 77,
+  "text": "Y para las madres, cada parto es un riesgo enorme, sin ninguna ayuda médica.",
+  "start": 365.404,
+  "end": 370.039,
+  "sim": 1.0,
+  "oido": "Y para las madres, cada parto es un riesgo enorme, sin ninguna ayuda médica."
+ },
+ {
+  "i": 78,
+  "text": "Pero cuidado con ese dato. No significa que la gente muriera a los treinta.",
+  "start": 370.339,
+  "end": 374.553,
+  "sim": 1.0,
+  "oido": "Pero cuidado con ese dato. No significa que la gente muriera a los 30."
+ },
+ {
+  "i": 79,
+  "text": "Si sobrevivías a la infancia, podías llegar a los cincuenta, a los sesenta o más. Como Ama.",
+  "start": 374.853,
+  "end": 381.176,
+  "sim": 1.0,
+  "oido": "Si sobrevivías a la infancia, podías llegar a los 50, a los 60 o más, como ama."
+ },
+ {
+  "i": 80,
+  "text": "Ama sabe qué cortezas y qué hojas alivian la fiebre o el dolor de tripa.",
+  "start": 381.476,
+  "end": 385.681,
+  "sim": 1.0,
+  "oido": "AMA sabe qué cortezas y qué hojas alivian la fiebre o el dolor de tripa."
+ },
+ {
+  "i": 81,
+  "text": "Lía abriga a Nima, el grupo le guarda la mejor comida y Gris no se separa de su lado.",
+  "start": 385.981,
+  "end": 391.524,
+  "sim": 1.0,
+  "oido": "Lía abriga a Nima. El grupo le guarda la mejor comida y Gris no se separa de su lado."
+ },
+ {
+  "i": 82,
+  "text": "Y hablando de Gris.",
+  "start": 391.824,
+  "end": 393.063,
+  "sim": 1.0,
+  "oido": "Y hablando de gris..."
+ },
+ {
+  "i": 83,
+  "text": "En Alemania hay una tumba de hace unos catorce mil años con un hombre, una mujer y sus perros.",
+  "start": 393.363,
+  "end": 398.907,
+  "sim": 1.0,
+  "oido": "En Alemania hay una tumba de hace unos 14.000 años con un hombre, una mujer y sus perros."
+ },
+ {
+  "i": 84,
+  "text": "Uno era un cachorro que había estado muy enfermo, y aguantó semanas porque alguien lo cuidó.",
+  "start": 399.207,
+  "end": 404.275,
+  "sim": 1.0,
+  "oido": "Uno era un cachorro que había estado muy enfermo y aguantó semanas porque alguien lo cuidó."
+ },
+ {
+  "i": 85,
+  "text": "Al tercer día, la fiebre de Nima baja.",
+  "start": 404.575,
+  "end": 407.022,
+  "sim": 1.0,
+  "oido": "Al tercer día, la fiebre de Nima baja."
+ },
+ {
+  "i": 86,
+  "text": "Pero esa misma noche, algo ronda el campamento.",
+  "start": 407.322,
+  "end": 409.874,
+  "sim": 1.0,
+  "oido": "pero esa misma noche algo ronda el campamento."
+ },
+ {
+  "i": 87,
+  "text": "Las hienas también rondan, y los osos buscan las mismas cuevas para pasar el invierno.",
+  "start": 410.174,
+  "end": 415.264,
+  "sim": 1.0,
+  "oido": "Las hienas también rondan y los osos buscan las mismas cuevas para pasar el invierno."
+ },
+ {
+  "i": 88,
+  "text": "Un león de las cavernas, algo más grande que los leones de hoy.",
+  "start": 415.564,
+  "end": 418.886,
+  "sim": 1.0,
+  "oido": "Un león de las cavernas, algo más grande que los leones de hoy."
+ },
+ {
+  "i": 89,
+  "text": "Tarko y los demás agitan antorchas y gritan. Gris ladra.",
+  "start": 419.186,
+  "end": 424.119,
+  "sim": 0.952,
+  "oido": "Tarko y los demás agitan antorchas y gritan. Gris ladra. Peyo."
+ },
+ {
+  "i": 90,
+  "text": "Y el fuego, otra vez, les salva la vida.",
+  "start": 424.419,
+  "end": 427.111,
+  "sim": 1.0,
+  "oido": "Y el fuego, otra vez, les salva la vida."
+ },
+ {
+  "i": 91,
+  "text": "Al amanecer encuentran sus huellas a pocos pasos del refugio. Ese día, nadie se aleja solo.",
+  "start": 427.411,
+  "end": 432.499,
+  "sim": 1.0,
+  "oido": "Al amanecer encuentran sus huellas a pocos pasos del refugio. Ese día, nadie se aleja solo."
+ },
+ {
+  "i": 92,
+  "text": "Nadie duerme mucho esa noche. Se turnan para vigilar el fuego hasta que amanece.",
+  "start": 432.799,
+  "end": 438.239,
+  "sim": 1.0,
+  "oido": "Nadie duerme mucho esa noche. Se turnan para vigilar el fuego hasta que amanece."
+ },
+ {
+  "i": 93,
+  "text": "Semana cuatro. Por fin, algo de calma.",
+  "start": 439.639,
+  "end": 442.212,
+  "sim": 1.0,
+  "oido": "Semana 4. Por fin, algo de calma."
+ },
+ {
+  "i": 94,
+  "text": "El frío afloja un poco, y los niños vuelven a correr por la estepa.",
+  "start": 442.812,
+  "end": 446.732,
+  "sim": 1.0,
+  "oido": "El frío afloja un poco y los niños vuelven a correr por la estepa,"
+ },
+ {
+  "i": 95,
+  "text": "¿Y cuántas horas trabaja un cavernícola?",
+  "start": 447.032,
+  "end": 449.264,
+  "sim": 1.0,
+  "oido": "¿Y cuántas horas trabaja un cavernícola?"
+ },
+ {
+  "i": 96,
+  "text": "En algunos pueblos cazadores actuales, buscar comida lleva solo unas horas al día, aunque es un dato muy discutido.",
+  "start": 449.714,
+  "end": 456.32,
+  "sim": 1.0,
+  "oido": "En algunos pueblos cazadores actuales, buscar comida lleva solo unas horas al día, aunque es un dato muy discutido."
+ },
+ {
+  "i": 97,
+  "text": "Pero hay que sumar tallar piedra, coser, curtir pieles y cuidar el fuego. Tiempo libre, lo que se dice libre, no sobra tanto.",
+  "start": 456.62,
+  "end": 464.092,
+  "sim": 1.0,
+  "oido": "Pero hay que sumar tallar piedra, coser, curtir pieles y cuidar el fuego. Tiempo libre, lo que se dice libre, no sobra tanto."
+ },
+ {
+  "i": 98,
+  "text": "Lo que sí tienen es tiempo juntos.",
+  "start": 464.392,
+  "end": 466.464,
+  "sim": 1.0,
+  "oido": "lo que sí tienen es tiempo juntos."
+ },
+ {
+  "i": 99,
+  "text": "Juegan, cantan y se gastan bromas. Las risas no dejan huella en los huesos, pero seguro que las había.",
+  "start": 466.764,
+  "end": 472.867,
+  "sim": 1.0,
+  "oido": "Juegan, cantan y se gastan bromas. Las risas no dejan huella en los huesos, pero seguro que las había."
+ },
+ {
+  "i": 100,
+  "text": "Se adornan con collares de conchas y dientes de animal, y algunas conchas vienen del mar, a cientos de kilómetros.",
+  "start": 473.167,
+  "end": 479.269,
+  "sim": 1.0,
+  "oido": "Se adornan con collares de conchas y dientes de animal, y algunas conchas vienen del mar, a cientos de kilómetros."
+ },
+ {
+  "i": 101,
+  "text": "Un collar no da calor ni comida. Pero seguramente decía quién eras y a qué grupo pertenecías.",
+  "start": 479.569,
+  "end": 485.014,
+  "sim": 1.0,
+  "oido": "Un collar no da calor ni comida, pero seguramente decía quién eras y a qué grupo pertenecías."
+ },
+ {
+  "i": 102,
+  "text": "Y ahora sí: ¿qué hacían al fondo de las cuevas?",
+  "start": 485.314,
+  "end": 488.149,
+  "sim": 1.0,
+  "oido": "Y ahora sí, ¿qué hacían al fondo de las cuevas?"
+ },
+ {
+  "i": 103,
+  "text": "Pintar.",
+  "start": 488.599,
+  "end": 489.33,
+  "sim": 1.0,
+  "oido": "Pintar."
+ },
+ {
+  "i": 104,
+  "text": "Algunas pinturas están tan escondidas que hay que arrastrarse por túneles estrechos para llegar.",
+  "start": 489.93,
+  "end": 495.247,
+  "sim": 1.0,
+  "oido": "Algunas pinturas están tan escondidas que hay que arrastrarse por túneles estrechos para llegar."
+ },
+ {
+  "i": 105,
+  "text": "Entran en la oscuridad total con lámparas de piedra que queman grasa de animal.",
+  "start": 495.547,
+  "end": 499.836,
+  "sim": 1.0,
+  "oido": "Entran en la oscuridad total con lámparas de piedra, que queman grasa de animal."
+ },
+ {
+  "i": 106,
+  "text": "Mezclan ocre rojo y carbón, y pintan bisontes, caballos y renos.",
+  "start": 500.136,
+  "end": 504.506,
+  "sim": 1.0,
+  "oido": "Mezclan ocre, rojo y carbón y pintan bisontes, caballos y renos."
+ },
+ {
+  "i": 107,
+  "text": "Cuevas como Lascaux o Altamira tienen pinturas de hace unos quince mil años o más, y parecen hechas ayer.",
+  "start": 504.806,
+  "end": 511.018,
+  "sim": 1.0,
+  "oido": "Cuevas como Lascaux o Altamira tienen pinturas de hace unos 15.000 años o más y parecen hechas ayer."
+ },
+ {
+  "i": 108,
+  "text": "Nadie sabe seguro por qué lo hacían. ¿Magia para la caza? ¿Rituales? ¿Historias?",
+  "start": 511.318,
+  "end": 516.654,
+  "sim": 1.0,
+  "oido": "nadie sabe seguro por qué lo hacían. Magia para la caza, rituales, historias…"
+ },
+ {
+  "i": 109,
+  "text": "Nima apoya la mano en la roca, y Ama sopla pintura alrededor.",
+  "start": 517.104,
+  "end": 521.383,
+  "sim": 1.0,
+  "oido": "Nima apoya la mano en la roca y Ama sopla pintura alrededor."
+ },
+ {
+  "i": 110,
+  "text": "Esa mano se quedará ahí miles de años.",
+  "start": 521.683,
+  "end": 525.643,
+  "sim": 1.0,
+  "oido": "Esa mano se quedará ahí miles de años."
+ },
+ {
+  "i": 111,
+  "text": "Y no solo hay huellas de adultos. También hay marcas de manos y dedos de niños, pequeñas como las de Nima.",
+  "start": 525.943,
+  "end": 531.996,
+  "sim": 1.0,
+  "oido": "Y no solo hay huellas de adultos. También hay marcas de manos y dedos de niños, pequeñas como las de Nima."
+ },
+ {
+  "i": 112,
+  "text": "Por la noche, Ama cuenta historias. Sin escritura, la memoria del grupo vive en su voz.",
+  "start": 532.296,
+  "end": 538.113,
+  "sim": 1.0,
+  "oido": "Por la noche, Ama cuenta historias. Sin escritura, la memoria del grupo vive en su voz."
+ },
+ {
+  "i": 113,
+  "text": "Así pasan de abuelos a nietos qué plantas curan, dónde hay agua y por dónde pasan los renos.",
+  "start": 538.413,
+  "end": 543.684,
+  "sim": 1.0,
+  "oido": "Así pasan de abuelos a nietos qué plantas curan, dónde hay agua y por dónde pasan los renos."
+ },
+ {
+  "i": 114,
+  "text": "También hay música. Se han encontrado flautas de hueso de hace más de treinta y cinco mil años.",
+  "start": 543.984,
+  "end": 549.407,
+  "sim": 1.0,
+  "oido": "También hay música. Se han encontrado flautas de hueso de hace más de 35.000 años."
+ },
+ {
+  "i": 115,
+  "text": "Probablemente se reunían con otros grupos para intercambiar cosas, contarse noticias y encontrar pareja.",
+  "start": 549.707,
+  "end": 557.064,
+  "sim": 1.0,
+  "oido": "Probablemente se reunían con otros grupos para intercambiar cosas, contarse noticias y encontrar pareja."
+ },
+ {
+  "i": 116,
+  "text": "El mes se acaba. La luna vuelve a desaparecer.",
+  "start": 557.364,
+  "end": 561.012,
+  "sim": 1.0,
+  "oido": "El mes se acaba. La luna vuelve a desaparecer."
+ },
+ {
+  "i": 117,
+  "text": "Los renos se alejan, y el grupo decide moverse.",
+  "start": 561.312,
+  "end": 564.086,
+  "sim": 1.0,
+  "oido": "Los renos se alejan y el grupo decide moverse."
+ },
+ {
+  "i": 118,
+  "text": "Lo cargan todo a la espalda y caminan hacia otro valle.",
+  "start": 564.386,
+  "end": 567.426,
+  "sim": 1.0,
+  "oido": "Lo cargan todo a la espalda y caminan hacia otro valle."
+ },
+ {
+  "i": 119,
+  "text": "Llevan solo lo imprescindible: pieles, herramientas, brasas y un poco de carne seca.",
+  "start": 567.726,
+  "end": 573.205,
+  "sim": 0.963,
+  "oido": "Llevan solo lo imprescindible, pieles, herramientas, brasas y un poco de carne seca. Sheep."
+ },
+ {
+  "i": 120,
+  "text": "Muchos grupos se movían a lo largo del año, siguiendo a los animales y a las estaciones.",
+  "start": 573.505,
+  "end": 578.01,
+  "sim": 1.0,
+  "oido": "Muchos grupos se movían a lo largo del año, siguiendo a los animales y a las estaciones."
+ },
+ {
+  "i": 121,
+  "text": "Entonces, ¿era una vida buena o una vida mala?",
+  "start": 579.41,
+  "end": 582.474,
+  "sim": 1.0,
+  "oido": "Entonces, ¿era una vida buena o una vida mala?"
+ },
+ {
+  "i": 122,
+  "text": "Lo malo: frío, hambre, enfermedades sin cura, depredadores y muchos niños que no llegaban a crecer.",
+  "start": 582.924,
+  "end": 588.789,
+  "sim": 1.0,
+  "oido": "Lo malo, frío, hambre, enfermedades sin cura, depredadores y muchos niños que no llegaban a crecer."
+ },
+ {
+  "i": 123,
+  "text": "Lo bueno: mucho ejercicio, una dieta variada, un mundo salvaje enorme y un grupo que te cuidaba de verdad.",
+  "start": 589.089,
+  "end": 595.184,
+  "sim": 1.0,
+  "oido": "Lo bueno, mucho ejercicio, una dieta variada, un mundo salvaje enorme y un grupo que te cuidaba de verdad."
+ },
+ {
+  "i": 124,
+  "text": "Sin ciudades ni ganado, muchas enfermedades que llegaron después todavía no existían.",
+  "start": 595.484,
+  "end": 600.501,
+  "sim": 1.0,
+  "oido": "Sin ciudades, ni ganado, muchas enfermedades que llegaron después todavía no existían."
+ },
+ {
+  "i": 125,
+  "text": "Y un dato curioso: muchos eran más altos y fuertes que los primeros agricultores que llegaron después.",
+  "start": 600.801,
+  "end": 606.752,
+  "sim": 1.0,
+  "oido": "Y un dato curioso, muchos eran más altos y fuertes que los primeros agricultores que llegaron después."
+ },
+ {
+  "i": 126,
+  "text": "Y el dato más fuerte de todos.",
+  "start": 607.052,
+  "end": 609.061,
+  "sim": 1.0,
+  "oido": "Y el dato más fuerte de todos."
+ },
+ {
+  "i": 127,
+  "text": "Tu cerebro y tu cuerpo son prácticamente los mismos que los de Tarko.",
+  "start": 609.661,
+  "end": 614.379,
+  "sim": 0.923,
+  "oido": "Tu cerebro y tu cuerpo son prácticamente los mismos que los de Tarco."
+ },
+ {
+  "i": 128,
+  "text": "No era un ser primitivo. Era como tú, con otras herramientas.",
+  "start": 614.679,
+  "end": 618.572,
+  "sim": 1.0,
+  "oido": "No era un ser primitivo, era como tú, con otras herramientas."
+ },
+ {
+  "i": 129,
+  "text": "Él tenía un fuego y un grupo. Tú tienes un móvil. Y espero que también un grupo.",
+  "start": 618.872,
+  "end": 624.105,
+  "sim": 1.0,
+  "oido": "Él tenía un fuego y un grupo, tú tienes un móvil, y espero que también un grupo."
+ },
+ {
+  "i": 130,
+  "text": "Quince mil años después, seguimos sentándonos alrededor de una luz para contarnos historias. Solo que ahora la luz es una pantalla.",
+  "start": 624.405,
+  "end": 632.658,
+  "sim": 1.0,
+  "oido": "15.000 años después, seguimos sentándonos alrededor de una luz para contarnos historias, solo que ahora la luz es una pantalla."
+ },
+ {
+  "i": 131,
+  "text": "Si te ha gustado este viaje, suscríbete y dale a me gusta.",
+  "start": 634.058,
+  "end": 637.371,
+  "sim": 1.0,
+  "oido": "Si te ha gustado este viaje, suscríbete y dale a me gusta."
+ },
+ {
+  "i": 132,
+  "text": "Escribe en los comentarios la palabra cavernícola, y dime qué semana te habría costado más sobrevivir.",
+  "start": 637.671,
+  "end": 643.733,
+  "sim": 1.0,
+  "oido": "Escribe en los comentarios la palabra cavernícola y dime qué semana te habría costado más sobrevivir."
+ },
+ {
+  "i": 133,
+  "text": "Y mándaselo a ese amigo que no duraría ni una noche sin wifi.",
+  "start": 644.033,
+  "end": 647.265,
+  "sim": 0.889,
+  "oido": "Y mándaselo a ese amigo que no duraría ni una noche sin Wi-Fi."
+ },
+ {
+  "i": 134,
+  "text": "Nos vemos en el próximo viaje en el tiempo.",
+  "start": 647.565,
+  "end": 650.029,
+  "sim": 1.0,
+  "oido": "Nos vemos en el próximo viaje en el tiempo."
+ }
+]

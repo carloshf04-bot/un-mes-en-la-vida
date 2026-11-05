@@ -1,0 +1,5 @@
+*.mp4
+*.wav
+hf-*/
+node_modules/
+.hyperframes/
