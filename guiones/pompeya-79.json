@@ -214,7 +214,7 @@
       },
       {
         "dia": 29,
-        "texto": "Luego llueve piedra. Blanca, ligera. Un palmo cada hora. Los tejados empiezan a hundirse.",
+        "texto": "Luego llueve piedra. Blanca, ligera. Medio palmo cada hora. Los tejados empiezan a hundirse.",
         "drama": 0.85,
         "fondo": {
           "lugar": "calle",
@@ -356,7 +356,7 @@
         "camara": "general"
       },
       {
-        "texto": "Esta no es la historia de los que se quedaron. Es la de un panadero que tuvo que decidir, bajo una lluvia de piedras, qué salvar. Y qué dejar atrás.",
+        "texto": "Esta no es la historia de los que se quedaron. Es la de un panadero que tuvo que decidir, bajo una lluvia de piedras, qué salvar y qué dejar atrás.",
         "personajes": [
           {
             "quien": "felix",
@@ -596,7 +596,7 @@
       },
       {
         "dia": 3,
-        "texto": "En las fachadas siguen frescos los carteles de las elecciones de marzo. Mi favorito lo pintaron para Cayo Julio Polibio.",
+        "texto": "En las fachadas siguen frescos los carteles de las elecciones de marzo, junto a otros más viejos. Mi favorito es uno de Cayo Julio Polibio.",
         "insercion": {
           "tipo": "cita",
           "frase": "A Cayo Julio Polibio, edil, os pido que lo votéis. Trae buen pan.",
@@ -634,7 +634,7 @@
       },
       {
         "dia": 4,
-        "texto": "Detrás de las viñas está el Vesubio, verde hasta la cima. Dicen que es el monte de Baco. Nadie recuerda que haya escupido fuego jamás.",
+        "texto": "Detrás de las viñas está el Vesubio, verde y cubierto de cepas. Es tierra de Baco. Nadie recuerda que haya escupido fuego jamás.",
         "personajes": [
           {
             "quien": "felix",
@@ -777,7 +777,7 @@
       },
       {
         "dia": 8,
-        "texto": "Hace veinte años, una pelea con los de Nuceria acabó en muertos, y el Senado nos prohibió los juegos durante diez años. Ahora han vuelto, y Pompeya entera quiere ir.",
+        "texto": "Hace veinte años, una pelea con los de Nuceria acabó en muertos, y el Senado nos prohibió los juegos durante diez años. Ahora han vuelto.",
         "personajes": [
           {
             "quien": "felix",
@@ -856,7 +856,7 @@
               "nombre": "Leña y sarmientos"
             },
             {
-              "icono": "🫙",
+              "icono": "🏺",
               "nombre": "Masa madre"
             }
           ]
@@ -979,7 +979,7 @@
       },
       {
         "dia": 13,
-        "texto": "Es el anfiteatro de piedra más antiguo que se conoce. En Roma están acabando uno mucho más grande, pero todavía no se ha inaugurado.",
+        "texto": "Lo construyeron hace casi siglo y medio, todo de piedra. En Roma están acabando uno mucho más grande, pero todavía no se ha inaugurado.",
         "insercion": {
           "tipo": "dato",
           "valor": "20.000",
@@ -1200,9 +1200,9 @@
         ]
       },
       {
-        "dia": 22,
+        "dia": 23,
         "capitulo": "La montaña se abre",
-        "texto": "Vigesimosegundo día. Al dejarles el pan, veo a uno escribir con carbón en la pared. Dieciséis días antes de las calendas de noviembre. Es decir, diecisiete de octubre.",
+        "texto": "Vigesimotercer día. Al dejarles el pan, veo a uno escribir con carbón en la pared. Dieciséis días antes de las calendas de noviembre. Es decir, diecisiete de octubre.",
         "fondo": {
           "lugar": "interior",
           "pared": "ladrillo",
@@ -1236,26 +1236,13 @@
         ]
       },
       {
-        "dia": 22,
-        "texto": "Un garabato sin importancia. No sé que, dentro de casi dos mil años, alguien lo encontrará y discutirá por él.",
+        "dia": 23,
+        "texto": "Un garabato de obrero, una fecha cualquiera. Lo miro un momento, recojo la cesta y me voy.",
         "insercion": {
           "tipo": "cita",
           "frase": "XVI K NOV",
           "firma": "Inscripción a carboncillo, Casa del Jardín (Regio V)"
         }
-      },
-      {
-        "dia": 22,
-        "texto": "Durante siglos se dirá que todo pasó el veinticuatro de agosto, por una carta de Plinio el Joven. Pero granadas, mosto ya embodegado y este carbón harán pensar a muchos en finales de octubre. El debate sigue abierto.",
-        "personajes": [
-          {
-            "quien": "felix",
-            "x": -0.2,
-            "accion": "pensar",
-            "mirar": 1
-          }
-        ],
-        "camara": "cerca"
       },
       {
         "dia": 24,
@@ -1462,7 +1449,7 @@
       },
       {
         "dia": 29,
-        "texto": "Esa columna sube a más de treinta kilómetros. Al otro lado de la bahía, en Miseno, un muchacho de diecisiete años la está mirando. Se llama Plinio.",
+        "texto": "Es más alta que cualquier montaña. A ratos blanca, a ratos sucia de tierra y ceniza. Nadie habla: todos miramos arriba.",
         "drama": 0.8,
         "fondo": {
           "lugar": "campo",
@@ -1849,7 +1836,7 @@
       },
       {
         "dia": 30,
-        "texto": "Llega a Pompeya entre las seis y media y las siete y media de la mañana. Gas y ceniza a doscientos o trescientos grados. Nadie que siga allí puede sobrevivir.",
+        "texto": "Desde la loma veo cómo la nube alcanza Pompeya, con el sol apenas salido. Gas y ceniza ardiendo. Quien siga allí no puede sobrevivir.",
         "drama": 0.9,
         "insercion": {
           "tipo": "dato",
@@ -1882,7 +1869,7 @@
         "camara": "cerca"
       },
       {
-        "texto": "Llegamos a Nuceria con el burro y la ropa gris de ceniza. Somos de los que huyeron: la mayoría de Pompeya escapó a tiempo. De Onésimo nunca supe nada.",
+        "texto": "Llegamos a Nuceria con el burro y la ropa gris de ceniza. Allí encontramos a muchos vecinos, huidos como nosotros. De Onésimo nunca supe nada.",
         "drama": 0.6,
         "fondo": {
           "lugar": "campo",
@@ -1921,7 +1908,7 @@
         ]
       },
       {
-        "texto": "Al otro lado de la bahía, el almirante Plinio el Viejo zarpó para ayudar. Murió en la playa de Estabia, probablemente por los gases. Su sobrino lo contó todo en dos cartas.",
+        "texto": "Siglos después se supo el resto. Se cree que la mayoría de los pompeyanos escapó. El almirante Plinio el Viejo zarpó para ayudar y murió en la playa de Estabia.",
         "drama": 0.6,
         "fondo": {
           "lugar": "playa",
@@ -1941,6 +1928,37 @@
         },
         "personajes": [],
         "camara": "paneo"
+      },
+      {
+        "drama": 0.6,
+        "texto": "Su sobrino, Plinio el Joven, de diecisiete años, lo vio todo desde Miseno. Unos veinticinco años después lo contó en dos cartas: el primer relato de una erupción hecho por un testigo.",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Se elevaba a gran altura como un tronco y luego se abría en ramas.",
+          "firma": "Plinio el Joven, Cartas, 6.16"
+        }
+      },
+      {
+        "drama": 0.6,
+        "texto": "Por esas cartas se dijo durante siglos que todo pasó el veinticuatro de agosto. Pero las granadas, el mosto embodegado y aquel garabato de carbón hacen pensar a muchos en finales de octubre. El debate sigue abierto.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "cajas",
+              "x": 1.2
+            },
+            {
+              "tipo": "anfora",
+              "x": -1.3
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
       },
       {
         "texto": "Pompeya durmió casi mil setecientos años bajo cuatro a seis metros de piedra y ceniza. En mil setecientos cuarenta y ocho, el ingeniero español Roque Joaquín de Alcubierre empezó a excavarla.",
