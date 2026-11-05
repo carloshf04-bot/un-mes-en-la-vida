@@ -200,6 +200,23 @@
       "gafas": false,
       "altura": 0.4,
       "zapatos": "#f5e6a8"
+    },
+    "colono_casa": {
+      "piel": "#f0cfb0",
+      "pelo": "#8a6a4a",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "mono",
+        "color": "#d8d6d2",
+        "color2": "#7a7e86",
+        "detalle": "#e0c040"
+      },
+      "sombrero": "ninguno",
+      "colorSombrero": "#f0eee8",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#3e4248"
     }
   },
   "short": {
@@ -264,7 +281,7 @@
         ]
       },
       {
-        "texto": "Entonces llegó la tormenta. Polvo sobre el planeta entero. A mediodía, era de noche.",
+        "texto": "Entonces llegó la tormenta. Polvo sobre el planeta entero. A mediodía, parecía de noche.",
         "drama": 0.85,
         "fondo": {
           "lugar": "marte",
@@ -287,8 +304,16 @@
         },
         "personajes": [
           {
+            "quien": "padre",
+            "x": -0.45,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
             "quien": "vega",
-            "x": 0,
+            "x": 0.3,
             "accion": "asustado",
             "emocion": "miedo",
             "mirar": -1,
@@ -476,7 +501,7 @@
         "fondo": {
           "lugar": "interior",
           "pared": "metal",
-          "hora": "noche",
+          "hora": "amanecer",
           "ventana": false,
           "props": [
             {
@@ -512,7 +537,7 @@
       },
       {
         "dia": 1,
-        "texto": "Vivíamos enterrados bajo tres metros de tierra roja. Marte no tiene un campo magnético que lo proteja, y la radiación de la superficie es unas cien veces la de la Tierra.",
+        "texto": "Vivíamos enterrados bajo tres metros de regolito ocre. Marte no tiene un campo magnético que lo proteja, y la radiación de la superficie es unas cien veces la de la Tierra.",
         "personajes": [
           {
             "quien": "vega_casa",
@@ -694,12 +719,12 @@
       },
       {
         "dia": 3,
-        "texto": "Fuera, a mediodía, el aire estaba a veinte bajo cero. Por la noche bajaría a ochenta y tres bajo cero. Sesenta grados de diferencia en un solo sol.",
+        "texto": "Fuera, a mediodía, el aire estaba a veintidós bajo cero. Por la noche bajaría a ochenta y tres bajo cero. Sesenta grados de diferencia en un solo sol.",
         "insercion": {
           "tipo": "dato",
           "valor": "−83 °C",
           "etiqueta": "mínima medida en Jezero por Perseverance",
-          "icono": "🌡"
+          "icono": "🌡️"
         }
       },
       {
@@ -961,6 +986,14 @@
             "emocion": "neutral",
             "mirar": -1,
             "habla": false
+          },
+          {
+            "quien": "madre",
+            "x": -0.5,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
           }
         ],
         "camara": "lenta"
@@ -1010,7 +1043,7 @@
           "tipo": "mapa",
           "lugar": "Cuenca de Hellas",
           "detalle": "Sur de Marte · nace la tormenta",
-          "icono": "🌪"
+          "icono": "🌪️"
         },
         "fondo": {
           "lugar": "interior",
@@ -1127,7 +1160,7 @@
       },
       {
         "dia": 10,
-        "texto": "Mis huesos eran más largos y finos de lo normal. Mis piernas, débiles para la gravedad terrestre. Mi corazón, acostumbrado a bombear contra muy poco peso.",
+        "texto": "Según las pruebas, mis huesos eran más largos y finos de lo normal. Mis piernas, débiles para la gravedad terrestre. Mi corazón, acostumbrado a bombear contra muy poco peso.",
         "drama": 0.5,
         "personajes": [
           {
@@ -1148,7 +1181,7 @@
           "tipo": "dato",
           "valor": "38 %",
           "etiqueta": "la gravedad de Marte frente a la de la Tierra",
-          "icono": "⚖"
+          "icono": "⚖️"
         }
       },
       {
@@ -1244,7 +1277,7 @@
         },
         "personajes": [
           {
-            "quien": "vega",
+            "quien": "padre",
             "x": 0.3,
             "accion": "quieto",
             "emocion": "miedo",
@@ -1411,7 +1444,7 @@
         "texto": "Sol quince. Reunión en el comedor. Había que elegir qué apagar: calor, aire, agua o comida. Se apagó medio invernadero.",
         "personajes": [
           {
-            "quien": "colono",
+            "quien": "colono_casa",
             "x": -0.7,
             "accion": "hablar",
             "emocion": "enfado",
@@ -1522,7 +1555,7 @@
       },
       {
         "dia": 16,
-        "texto": "La doctora necesitaba consultar a un pediatra de la Tierra. Pero la antena estaba rota, y la de reserva, pequeña, no lograba atravesar tanto polvo.",
+        "texto": "La doctora necesitaba consultar a un pediatra de la Tierra. Pero la antena estaba rota, y la de reserva, pequeña, no tenía potencia para llegar tan lejos.",
         "drama": 0.8,
         "personajes": [
           {
@@ -1545,11 +1578,11 @@
       },
       {
         "dia": 17,
-        "texto": "Sol diecisiete. Bajamos aún más el consumo para mantener caliente la enfermería. Afuera, a mediodía, apenas llegaba luz al suelo.",
+        "texto": "Sol diecisiete. Bajamos aún más el consumo para mantener caliente la enfermería. Fuera, a mediodía, apenas llegaba luz al suelo.",
         "insercion": {
           "tipo": "dato",
           "valor": "1–5 %",
-          "etiqueta": "de la luz del Sol llega al suelo en una tormenta global",
+          "etiqueta": "de la luz normal llegaba al suelo de la Base",
           "icono": "🌑"
         }
       },
@@ -1626,7 +1659,7 @@
         "fondo": {
           "lugar": "interior",
           "pared": "metal",
-          "hora": "dia",
+          "hora": "noche",
           "ventana": false,
           "props": [
             {
@@ -1731,7 +1764,7 @@
       },
       {
         "dia": 20,
-        "texto": "Sol veinte. Tras horas de trabajo a ciegas, la antena giró. Apuntó a un cielo que no veíamos. Y un cuarto de hora después llegó la respuesta de una pediatra de la Tierra.",
+        "texto": "Sol veinte. Tras horas de trabajo a ciegas, la antena giró. Apuntó a un cielo que no veíamos. Media hora después llegó la respuesta de una pediatra de la Tierra.",
         "drama": 0.8,
         "insercion": {
           "tipo": "cita",
@@ -1746,7 +1779,7 @@
         "fondo": {
           "lugar": "interior",
           "pared": "metal",
-          "hora": "dia",
+          "hora": "noche",
           "ventana": false,
           "props": [
             {
@@ -1780,11 +1813,11 @@
       },
       {
         "dia": 21,
-        "texto": "Sol veintiuno. A mediodía, mi sombra apareció en el suelo, pálida, por primera vez en dos semanas. Nos quedamos todos mirándola.",
+        "texto": "Sol veintiuno. A mediodía, mi sombra apareció en el suelo, pálida, por primera vez en una semana. La tormenta no había acabado, pero aflojaba. Nos quedamos todos mirándola.",
         "fondo": {
           "lugar": "marte",
           "hora": "dia",
-          "clima": "despejado",
+          "clima": "polvo",
           "props": [
             {
               "tipo": "habitat",
@@ -1819,7 +1852,7 @@
       {
         "dia": 22,
         "capitulo": "Un lucero azul",
-        "texto": "Sol veintidós. Llegó de golpe una avalancha de mensajes. Preguntas viejas, felicitaciones adelantadas, abuelos asustados. Me reí hasta llorar.",
+        "texto": "Sol veintidós. Con el enlace ya estable, llegaron de golpe dos semanas de mensajes atrasados. Preguntas viejas, abuelos asustados. Me reí hasta llorar.",
         "fondo": {
           "lugar": "interior",
           "pared": "metal",
@@ -2004,7 +2037,7 @@
       },
       {
         "dia": 29,
-        "texto": "Sol veintinueve. Con el aire por fin limpio, subimos al borde del cráter. El cielo se volvió azul alrededor del Sol poniente.",
+        "texto": "Sol veintinueve. El polvo alto tardaría meses en irse, pero aquella tarde el aire estaba más limpio. Subimos al borde del cráter. El cielo se volvió azul alrededor del Sol poniente.",
         "drama": 0.7,
         "fondo": {
           "lugar": "marte",
@@ -2088,6 +2121,14 @@
         "drama": 0.5,
         "personajes": [
           {
+            "quien": "madre",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
             "quien": "vega",
             "x": 0.2,
             "accion": "quieto",
@@ -2160,7 +2201,7 @@
         "camara": "lenta"
       },
       {
-        "texto": "Vega y la Base Jezero son inventadas; la ciencia de Marte que has visto es real. ¿Qué mes del futuro quieres vivir? Déjalo en los comentarios y suscríbete.",
+        "texto": "Vega y la Base Jezero son inventadas. La ciencia de Marte es real; lo que le pasaría a su cuerpo, nadie lo sabe aún. ¿Qué mes del futuro quieres vivir? Cuéntamelo y suscríbete.",
         "drama": 0.6,
         "fondo": {
           "lugar": "marte",
@@ -2193,7 +2234,7 @@
   "publicacion": {
     "tituloLargo": "Un mes en la vida de LA PRIMERA NIÑA NACIDA EN MARTE (2061) | Una tormenta de polvo apaga la colonia",
     "tituloShort": "Nací en Marte… y quizá nunca pueda ir a la Tierra 🔴 #marte",
-    "descripcion": "Treinta soles en la vida de Vega, la primera niña nacida en Marte, en una colonia del cráter Jezero en el año 2061. Un mes de clases en diferido, tomates polinizados con pincel, un paseo atada a una cuerda por el delta de un lago muerto hace más de 3.500 millones de años… y una tormenta de polvo global que tapa los paneles solares, rompe la antena y deja a la colonia sin luz y sin voz justo cuando el bebé de la base enferma.\n\nAVISO: Vega, su familia, la Base Jezero y todo lo que ocurre en 2061 son FICCIÓN. La ciencia de partida es real: la gravedad marciana (38 %), el sol de 24 h 39 min, el cielo caramelo y el atardecer azul (Curiosity, 2015), las temperaturas medidas por MEDA en Jezero, la radiación medida por RAD, el retraso de 3 a 22 minutos de las comunicaciones, la tormenta global de 2018 que acabó con Opportunity, los 72 vuelos de Ingenuity, MOXIE y los reactores Kilopower, y la Tierra vista desde Marte como un lucero (PIA17936). Lo que les pasaría a los huesos y al corazón de una niña nacida en gravedad marciana NADIE lo sabe todavía: en el vídeo es un temor de los médicos, no un hecho probado.\n\n00:00 La primera niña de Marte\n— Semana 1: Nacida en el Delta\n— Semana 2: El cielo se apaga\n— Semana 3: La noche a mediodía\n— Semana 4: Un lucero azul\n— Epílogo\n\nFuentes: NASA Mars Facts; NASA/JPL (Perseverance, Ingenuity, MOXIE, PIA17936); Hassler et al., Science (2013); MEDA, Nature Geoscience (2022); MIT EAPS sobre el lago de Jezero; NASA, Kilopower/KRUSTY; Communications Biology (2023) sobre gravedad parcial.",
+    "descripcion": "Treinta soles en la vida de Vega, la primera niña nacida en Marte, en una colonia del cráter Jezero en el año 2061. Un mes de clases en diferido, tomates polinizados con pincel, un paseo atada a una cuerda por el delta de un lago muerto hace más de 3.500 millones de años… y una tormenta de polvo global que tapa los paneles solares, avería la antena principal y deja a la colonia sin luz y sin voz justo cuando el bebé de la base enferma.\n\nAVISO: Vega, su familia, la Base Jezero y todo lo que ocurre en 2061 son FICCIÓN. La ciencia de partida es real: la gravedad marciana (38 %), el sol de 24 h 39 min, el cielo caramelo y el atardecer azul (Curiosity, 2015), las temperaturas medidas por MEDA en Jezero, la radiación medida por RAD, el retraso de 3 a 22 minutos de las comunicaciones, la tormenta global de 2018 que acabó con Opportunity, los 72 vuelos de Ingenuity, los reactores tipo Kilopower, y la Tierra vista desde Marte como un lucero (PIA17936). Lo que les pasaría a los huesos y al corazón de una niña nacida en gravedad marciana NADIE lo sabe todavía: en el vídeo es un temor de los médicos, no un hecho probado.\n\n00:00 La primera niña de Marte\n— Semana 1: Nacida en el Delta\n— Semana 2: El cielo se apaga\n— Semana 3: La noche a mediodía\n— Semana 4: Un lucero azul\n— Epílogo\n\nFuentes: NASA Mars Facts; NASA/JPL (Perseverance, Ingenuity, MOXIE, PIA17936); Hassler et al., Science (2013); MEDA, Nature Geoscience (2022); MIT EAPS sobre el lago de Jezero; NASA, Kilopower/KRUSTY; Communications Biology (2023) sobre gravedad parcial.",
     "etiquetas": [
       "un mes en la vida de",
       "Marte",
