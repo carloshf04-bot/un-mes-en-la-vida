@@ -2078,6 +2078,13 @@
       "arqueología",
       "vida cotidiana",
       "animación"
-    ]
+    ],
+    "miniatura": {
+      "texto": "EL VESUBIO DESPIERTA",
+      "escena": 43,
+      "quien": "felix",
+      "emocion": "miedo",
+      "icono": "🌋"
+    }
   }
 }

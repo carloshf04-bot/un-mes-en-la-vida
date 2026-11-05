@@ -1,7 +1,7 @@
 import type { Fondo } from "./mundo/Fondo";
 import type { EnEscena, Look } from "./personajes/tipos";
 
-export type Camara = "lenta" | "cerca" | "paneo" | "general" | "subir";
+export type Camara = "lenta" | "cerca" | "paneo" | "general" | "subir" | "retrato";
 export type Insercion =
   | { tipo: "dato"; valor: string; etiqueta: string; icono?: string }
   | { tipo: "cita"; frase: string; firma?: string }
@@ -35,9 +35,22 @@ export type Guion = {
   reparto: Record<string, Look>;
   largo: Pieza;
   short: Pieza;
-  publicacion?: { tituloLargo: string; tituloShort: string; descripcion: string; etiquetas: string[] };
+  publicacion?: {
+    tituloLargo: string; tituloShort: string; descripcion: string; etiquetas: string[];
+    miniatura?: Miniatura;
+  };
 };
 
 export type Audio = { archivo: string; duracion: number; env: number[] };
 export type PiezaLista = { escenas: Escena[]; audios: Audio[]; ambientes: (string | null)[] };
 export type Manifiesto = Omit<Guion, "largo" | "short"> & { fps: number; formato: "largo" | "short"; pieza: PiezaLista; musica_archivo: string };
+
+// Miniatura de YouTube (1280x720) y portada del Short (1080x1920)
+export type Miniatura = {
+  texto: string; // 2–4 palabras en mayúsculas, el gancho ("¡SE HUNDE!")
+  escena?: number; // índice de la escena del largo que sirve de fondo
+  quien?: string; // personaje en primer plano (por defecto el primero de la escena)
+  emocion?: "neutral" | "feliz" | "triste" | "miedo" | "enfado" | "sorpresa" | "cansado";
+  accion?: string;
+  icono?: string; // emoji grande opcional junto al personaje
+};

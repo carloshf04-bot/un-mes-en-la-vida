@@ -1713,7 +1713,14 @@
       "siglo XIX",
       "historia de España",
       "animación"
-    ]
+    ],
+    "miniatura": {
+      "texto": "172 MUERTOS",
+      "escena": 0,
+      "quien": "manuel",
+      "emocion": "miedo",
+      "icono": "🌊"
+    }
   },
   "motor": "piper"
 }

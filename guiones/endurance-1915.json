@@ -2136,6 +2136,13 @@
       "1915",
       "isla Elefante",
       "animación"
-    ]
+    ],
+    "miniatura": {
+      "texto": "¡SE HUNDE!",
+      "escena": 0,
+      "quien": "blackborow",
+      "emocion": "miedo",
+      "icono": "🧊"
+    }
   }
 }

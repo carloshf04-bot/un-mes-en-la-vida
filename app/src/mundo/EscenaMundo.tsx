@@ -31,6 +31,11 @@ export const EscenaMundo: React.FC<{
     s = 1.42 + 0.06 * ease;
     fx = xMundo(prota?.x ?? 0, kP);
     fy = SUELO - 430;
+  } else if (cam === "retrato") {
+    // para miniaturas: protagonista grande y desplazado a la derecha (horizontal) o abajo (vertical)
+    s = horizontal ? 1.7 : 1.6;
+    fx = xMundo(prota?.x ?? 0, kP) - (horizontal ? 300 : 0);
+    fy = horizontal ? SUELO - 500 : SUELO - 640;
   } else if (cam === "paneo") {
     s = 1.12;
     fx = CX + interpolate(ease, [0, 1], [-110, 110]);

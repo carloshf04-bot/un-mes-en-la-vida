@@ -48,7 +48,7 @@ Por qué funciona cada idea: tiene **un mes concreto con un acontecimiento dram�
 
 | Estado | Slug | Un mes en la vida de… | Lugar y año | Gancho |
 |---|---|---|---|---|
-| [~] | `marte-2061` | la primera niña nacida en Marte | Colonia Jezero, 2061 | No puede ir a la Tierra: su cuerpo no aguantaría la gravedad. |
+| [x] | `marte-2061` | la primera niña nacida en Marte | Colonia Jezero, 2061 | No puede ir a la Tierra: su cuerpo no aguantaría la gravedad. |
 | [ ] | `asteroides-2089` | un minero de asteroides | Cinturón, 2089 | Un asteroide vale más que la economía de un país. |
 | [ ] | `madrid-2070` | un granjero vertical | Madrid, 2070 | Verano a 50 °C. Se cultiva dentro de rascacielos. |
 | [ ] | `camionero-2042` | el último camionero humano | Ruta 66, 2042 | El último viaje antes de la prohibición. |

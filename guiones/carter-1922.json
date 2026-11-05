@@ -1998,6 +1998,13 @@
       "maldición de Tutankamón",
       "1922",
       "animación"
-    ]
+    ],
+    "miniatura": {
+      "texto": "COSAS MARAVILLOSAS",
+      "escena": 50,
+      "quien": "carter",
+      "emocion": "sorpresa",
+      "icono": "🏺"
+    }
   }
 }

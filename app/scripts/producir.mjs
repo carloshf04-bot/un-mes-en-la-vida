@@ -1,7 +1,7 @@
 // Produce un episodio completo de "Un mes en la vida de".
 // Uso: node scripts/producir.mjs <slug> [--solo largo|short] [--sin-render] [--muestras]
 //   Lee   ../guiones/<slug>.json
-//   Crea  ../salida/<slug>/{largo.mp4, short.mp4, miniatura.png, publicacion.md}
+//   Crea  ../salida/<slug>/{largo.mp4, short.mp4, miniatura.png, miniatura-short.png, publicacion.md}
 import { execFileSync, spawnSync } from "node:child_process";
 import { readFileSync, writeFileSync, mkdirSync, existsSync, rmSync } from "node:fs";
 import { join, dirname } from "node:path";
@@ -170,8 +170,11 @@ for (const formato of formatos) {
 }
 
 if (!opt("--sin-render") && formatos.includes("largo")) {
-  execFileSync("npx", ["remotion", "still", "Largo", join(salida, "miniatura.png"), "--frame=60", `--props=${JSON.stringify({ slug })}`, "--scale=0.6667", "--log=error"], { cwd: APP });
-  console.log("🖼️  miniatura.png");
+  // miniaturas diseñadas: YouTube 1280x720 y portada vertical del Short (config en publicacion.miniatura)
+  for (const [comp, archivo] of [["MiniaturaLargo", "miniatura.png"], ["MiniaturaShort", "miniatura-short.png"]]) {
+    execFileSync("npx", ["remotion", "still", comp, join(salida, archivo), "--frame=30", `--props=${JSON.stringify({ slug })}`, "--log=error"], { cwd: APP });
+  }
+  console.log("🖼️  miniatura.png + miniatura-short.png");
 }
 if (guion.publicacion) {
   const p = guion.publicacion;
