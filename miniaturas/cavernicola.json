@@ -1,0 +1,6 @@
+{"character":"tarko","props":{},"titleFont":"RubikDirt-Regular.ttf","top":"UN MES EN LA VIDA DE UN","who":"CAVERNÍCOLA",
+ "hook":"¿SOBREVIVIRÍAS <b>30 DÍAS</b>?","badge":"HACE 15.000 AÑOS",
+ "theme":{"glow":"#ffb35c","mid":"#c0592b","dark":"#2a1a2e","ground":"#e8eef5","accent":"#ffd34d","title":"#f4e6cf","badge":"#d93a3a"},
+ "extras":[{"icon":"fire","size":170,"color":"#ff9b3d","pos":["left:600px;top:440px","left:80px;top:1150px"]},
+           {"icon":"snowflake","size":90,"color":"#ffffff","pos":["left:560px;top:240px","left:860px;top:820px"]},
+           {"icon":"paw-print","size":110,"color":"#3a2a20","pos":["left:40px;top:470px","left:90px;top:860px"]}]}

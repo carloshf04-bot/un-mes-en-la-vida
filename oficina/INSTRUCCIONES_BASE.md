@@ -26,7 +26,13 @@ Además: **atrezo de la época** en cada escena (al menos 6 objetos distintos), 
 2. `video-FINAL-vertical.mp4`: 1080×1920, completo, para TikTok.
 3. `video-SIN-SUBTITULOS-horizontal.mp4` y `video-SIN-SUBTITULOS-vertical.mp4`.
 4. `shorts/parte-N-de-M.mp4`: el vertical cortado al final de cada capítulo, cada parte de menos de 3:00, con «PARTE n/M», el título al empezar y «SIGUE EN LA PARTE…» al final.
-5. `COMO-REHACERLO.md`.
+5. **Miniaturas** (obligatorias en cada vídeo): `miniatura-youtube.png` (1280×720) y `miniatura-vertical.png` (1080×1920, portada de TikTok o Reels). Se hacen con `node scripts/miniatura.mjs miniaturas/<id>.json <salida>` y llevan:
+   - El protagonista grande, con la cara sorprendida bien visible.
+   - Una pregunta-gancho de 3 a 5 palabras en blanco enorme, con la palabra clave en amarillo y contorno negro.
+   - Un sello con el dato más llamativo.
+   - El título de la serie con la fuente de su época.
+   - Rayos de luz detrás y 2 o 3 iconos del tema.
+6. `COMO-REHACERLO.md`.
 
 ## Reglas del primer brief que siguen vigentes
 - Gancho en los 2 primeros segundos. Frases cortas, una idea por frase y algo nuevo en pantalla cada 3-5 segundos.
