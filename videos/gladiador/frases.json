@@ -1,0 +1,346 @@
+[
+ {
+  "i": 1,
+  "text": "Hoy vas a luchar delante de cincuenta mil personas. Y no puedes decir que no.",
+  "start": 0.0,
+  "end": 4.063,
+  "sim": 1.0,
+  "oido": "Hoy vas a luchar delante de 50 mil personas, y no puedes decir que no."
+ },
+ {
+  "i": 2,
+  "text": "Roma, año ochenta. Esto es un día en la vida de un gladiador.",
+  "start": 4.363,
+  "end": 7.732,
+  "sim": 1.0,
+  "oido": "Roma, año 80. Esto es un día en la vida de un gladiador."
+ },
+ {
+  "i": 3,
+  "text": "Él es Félix. Su nombre significa afortunado. Y hoy lo va a necesitar.",
+  "start": 8.932,
+  "end": 13.537,
+  "sim": 1.0,
+  "oido": "Él es Félix, su nombre significa afortunado, y hoy lo va a necesitar."
+ },
+ {
+  "i": 4,
+  "text": "Era un prisionero de guerra. Lo vendieron como esclavo a una escuela de gladiadores.",
+  "start": 13.837,
+  "end": 18.409,
+  "sim": 1.0,
+  "oido": "Era un prisionero de guerra. Lo vendieron como esclavo a una escuela de gladiadores."
+ },
+ {
+  "i": 5,
+  "text": "Su día empieza al amanecer, con un entrenador que no sabe sonreír.",
+  "start": 18.709,
+  "end": 23.122,
+  "sim": 1.0,
+  "oido": "Su día empieza al amanecer con un entrenador que no sabe sonreír."
+ },
+ {
+  "i": 6,
+  "text": "Golpe tras golpe, practica con una espada de madera contra un poste.",
+  "start": 23.422,
+  "end": 27.175,
+  "sim": 1.0,
+  "oido": "Golpe tras golpe, practica con una espada de madera contra un poste."
+ },
+ {
+  "i": 7,
+  "text": "Y aquí va el primer dato raro: los gladiadores no estaban secos y marcados.",
+  "start": 27.475,
+  "end": 31.711,
+  "sim": 1.0,
+  "oido": "Y aquí va el primer dato raro, los gladiadores no estaban secos y marcados."
+ },
+ {
+  "i": 8,
+  "text": "Comían tanta cebada que los llamaban así: los comedores de cebada.",
+  "start": 32.011,
+  "end": 36.02,
+  "sim": 1.0,
+  "oido": "Comían tanta cebada que los llamaban así, los comedores de cebada."
+ },
+ {
+  "i": 9,
+  "text": "Y para los huesos, tomaban una bebida hecha con ceniza de plantas. Sí, ceniza.",
+  "start": 36.32,
+  "end": 41.546,
+  "sim": 1.0,
+  "oido": "Y para los huesos, tomaban una bebida hecha con ceniza de plantas. Sí, ceniza."
+ },
+ {
+  "i": 10,
+  "text": "Pero hoy no es un día normal. Hoy hay juegos en el anfiteatro.",
+  "start": 42.746,
+  "end": 47.588,
+  "sim": 1.0,
+  "oido": "Pero hoy no es un día normal. Hoy hay juegos en el anfiteatro."
+ },
+ {
+  "i": 11,
+  "text": "Es el Coliseo, recién estrenado, y la entrada es gratis.",
+  "start": 47.888,
+  "end": 51.445,
+  "sim": 1.0,
+  "oido": "Es el Coliseo, recién estrenado, y la entrada es gratis."
+ },
+ {
+  "i": 12,
+  "text": "Por la mañana salen los animales: leones, osos y hasta avestruces.",
+  "start": 51.745,
+  "end": 55.528,
+  "sim": 1.0,
+  "oido": "Por la mañana salen los animales, leones, osos y hasta avestruces."
+ },
+ {
+  "i": 13,
+  "text": "Félix espera en los túneles, bajo la arena, escuchando rugir al público.",
+  "start": 55.828,
+  "end": 60.748,
+  "sim": 1.0,
+  "oido": "Félix espera en los túneles, bajo la arena, escuchando rugir al público."
+ },
+ {
+  "i": 14,
+  "text": "Ahora, ¿contra quién va a luchar?",
+  "start": 61.048,
+  "end": 62.982,
+  "sim": 1.0,
+  "oido": "Ahora, ¿contra quién va a luchar?"
+ },
+ {
+  "i": 15,
+  "text": "Félix es un mirmillón: casco con un pez encima, escudo enorme y espada corta.",
+  "start": 63.432,
+  "end": 69.472,
+  "sim": 1.0,
+  "oido": "Félix es un mirmillón, casco con un pez encima, escudo enorme y espada corta."
+ },
+ {
+  "i": 16,
+  "text": "Su rival es un reciario: sin casco y sin escudo. Solo una red, un tridente y un puñal.",
+  "start": 69.772,
+  "end": 75.646,
+  "sim": 0.944,
+  "oido": "Su rival es un resiario, sin casco y sin escudo, solo una red, un tridente y un puñal."
+ },
+ {
+  "i": 17,
+  "text": "Parece injusto, pero el reciario es mucho más rápido. Y si te atrapa la red, se acabó.",
+  "start": 75.946,
+  "end": 81.005,
+  "sim": 0.941,
+  "oido": "Parece injusto, pero el reshario es mucho más rápido, y si te atrapa la red, se acabó."
+ },
+ {
+  "i": 18,
+  "text": "Y atención: hay árbitro. Con un palo largo para separarlos.",
+  "start": 81.305,
+  "end": 86.136,
+  "sim": 1.0,
+  "oido": "Y atención, hay árbitro, con un palo largo para separarlos."
+ },
+ {
+  "i": 19,
+  "text": "Empieza el combate.",
+  "start": 87.336,
+  "end": 88.607,
+  "sim": 1.0,
+  "oido": "Empieza el combate."
+ },
+ {
+  "i": 20,
+  "text": "El reciario lanza la red. Falla. Félix ataca.",
+  "start": 89.307,
+  "end": 92.371,
+  "sim": 0.875,
+  "oido": "El resiario lanza la red. Falla. Félix ataca."
+ },
+ {
+  "i": 21,
+  "text": "El tridente le roza el brazo. Félix tropieza y cae.",
+  "start": 92.671,
+  "end": 96.561,
+  "sim": 1.0,
+  "oido": "El tridente le roza el brazo. Félix tropieza y cae."
+ },
+ {
+  "i": 22,
+  "text": "Cincuenta mil personas gritan a la vez.",
+  "start": 96.861,
+  "end": 99.555,
+  "sim": 1.0,
+  "oido": "50.000 personas gritan a la vez."
+ },
+ {
+  "i": 23,
+  "text": "El reciario levanta el tridente. ¿Es el final?",
+  "start": 100.255,
+  "end": 103.189,
+  "sim": 1.0,
+  "oido": "El reciario levanta el tridente. ¿Es el final?"
+ },
+ {
+  "i": 24,
+  "text": "Félix levanta un dedo. Es la señal para pedir piedad.",
+  "start": 103.889,
+  "end": 107.109,
+  "sim": 1.0,
+  "oido": "Félix levanta un dedo. Es la señal para pedir piedad."
+ },
+ {
+  "i": 25,
+  "text": "Y aquí viene el gran mito: el pulgar hacia abajo.",
+  "start": 107.409,
+  "end": 111.09,
+  "sim": 1.0,
+  "oido": "Y aquí viene el gran mito, el pulgar hacia abajo."
+ },
+ {
+  "i": 26,
+  "text": "En realidad, nadie sabe seguro qué gesto pedía la muerte.",
+  "start": 111.39,
+  "end": 115.79,
+  "sim": 1.0,
+  "oido": "En realidad, nadie sabe seguro qué gesto pedía la muerte."
+ },
+ {
+  "i": 27,
+  "text": "Hoy el público grita otra cosa: que viva.",
+  "start": 116.09,
+  "end": 120.25,
+  "sim": 1.0,
+  "oido": "Hoy el público grita otra cosa, que viva."
+ },
+ {
+  "i": 28,
+  "text": "Porque un gladiador costaba muchísimo dinero, y su dueño no quería perderlo.",
+  "start": 120.55,
+  "end": 124.98,
+  "sim": 1.0,
+  "oido": "porque un gladiador costaba muchísimo dinero y su dueño no quería perderlo."
+ },
+ {
+  "i": 29,
+  "text": "En el siglo primero, la mayoría de los combates no acababan en muerte.",
+  "start": 125.28,
+  "end": 129.525,
+  "sim": 0.923,
+  "oido": "En el siglo I, la mayoría de los combates no acababan en muerte."
+ },
+ {
+  "i": 30,
+  "text": "Peligroso, sí. Pero no la carnicería de las películas.",
+  "start": 129.825,
+  "end": 134.037,
+  "sim": 1.0,
+  "oido": "Peligroso sí, pero no la carnicería de las películas."
+ },
+ {
+  "i": 31,
+  "text": "Por la tarde, un médico cose la herida de Félix.",
+  "start": 135.237,
+  "end": 138.437,
+  "sim": 1.0,
+  "oido": "Por la tarde, un médico cose la herida de Félix."
+ },
+ {
+  "i": 32,
+  "text": "Décadas después, otro médico de gladiadores, Galeno, fue médico de un emperador.",
+  "start": 138.737,
+  "end": 143.826,
+  "sim": 1.0,
+  "oido": "Décadas después, otro médico de gladiadores, Galeno, fue médico de un emperador."
+ },
+ {
+  "i": 33,
+  "text": "Y por la noche, sorpresa: los gladiadores eran estrellas.",
+  "start": 144.126,
+  "end": 147.764,
+  "sim": 1.0,
+  "oido": "Y por la noche, sorpresa, los gladiadores eran estrellas."
+ },
+ {
+  "i": 34,
+  "text": "En Pompeya hay pintadas que llaman a un gladiador el suspiro de las chicas.",
+  "start": 148.065,
+  "end": 153.224,
+  "sim": 1.0,
+  "oido": "En Pompeya hay pintadas que llaman a un gladiador el suspiro de las chicas."
+ },
+ {
+  "i": 35,
+  "text": "Y lo más asqueroso: algunos romanos bebían sangre de gladiador para curar la epilepsia.",
+  "start": 153.524,
+  "end": 158.46,
+  "sim": 1.0,
+  "oido": "Y lo más asqueroso, algunos romanos bebían sangre de gladiador para curar la epilepsia."
+ },
+ {
+  "i": 36,
+  "text": "Ah, y también hubo mujeres gladiadoras.",
+  "start": 158.76,
+  "end": 161.112,
+  "sim": 1.0,
+  "oido": "Ah, y también hubo mujeres gladiadoras."
+ },
+ {
+  "i": 37,
+  "text": "¿Y el final feliz? Si sobrevivía años, podía recibir una espada de madera: la rudis.",
+  "start": 161.412,
+  "end": 166.769,
+  "sim": 1.0,
+  "oido": "Y el final feliz, si sobrevivía años, podía recibir una espada de madera, la rudis."
+ },
+ {
+  "i": 38,
+  "text": "Era su jubilación. Y a veces, la libertad.",
+  "start": 167.069,
+  "end": 169.667,
+  "sim": 1.0,
+  "oido": "era su jubilación y a veces la libertad."
+ },
+ {
+  "i": 39,
+  "text": "Así que ya sabes: comían cebada, tenían árbitro y eran famosos como estrellas del rock.",
+  "start": 170.867,
+  "end": 175.974,
+  "sim": 1.0,
+  "oido": "Así que ya sabes, comían cebada, tenían árbitro y eran famosos como estrellas del rock."
+ },
+ {
+  "i": 40,
+  "text": "Si te ha gustado, suscríbete y dale a me gusta.",
+  "start": 176.274,
+  "end": 179.414,
+  "sim": 1.0,
+  "oido": "Si te ha gustado, suscríbete y dale a me gusta."
+ },
+ {
+  "i": 41,
+  "text": "Y comenta: ¿mirmillón o reciario?",
+  "start": 179.714,
+  "end": 181.599,
+  "sim": 0.4,
+  "oido": "Y comenta mi millón horaciario."
+ },
+ {
+  "i": 42,
+  "text": "Mándaselo a ese amigo que se cree gladiador en el gimnasio.",
+  "start": 182.049,
+  "end": 185.852,
+  "sim": 1.0,
+  "oido": "Mándaselo a ese amigo que se cree gladiador en el gimnasio."
+ },
+ {
+  "i": 43,
+  "text": "Nos vemos en el próximo viaje en el tiempo.",
+  "start": 186.152,
+  "end": 188.654,
+  "sim": 1.0,
+  "oido": "Nos vemos en el próximo viaje en el tiempo."
+ }
+]
