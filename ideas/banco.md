@@ -63,12 +63,12 @@ Por qué funciona cada idea: tiene **un mes concreto con un acontecimiento dram�
 
 | Estado | Slug | Un mes en la vida de… | Mes | Gancho |
 |---|---|---|---|---|
-| [ ] | `carter-1922` | Howard Carter | Noviembre de 1922 | El 4 de noviembre aparece el primer escalón de la tumba de Tutankamón. **Efeméride de noviembre.** |
+| [x] | `carter-1922` | Howard Carter | Noviembre de 1922 | El 4 de noviembre aparece el primer escalón de la tumba de Tutankamón. **Efeméride de noviembre.** |
 | [ ] | `newton-1666` | Isaac Newton | 1666 | Encerrado por la peste, inventa medio mundo moderno. |
 | [ ] | `curie-1898` | Marie Curie | Diciembre de 1898 | El descubrimiento del radio en un cobertizo. |
 | [ ] | `colon-1492` | Cristóbal Colón | Octubre de 1492 | La tripulación al borde del motín. |
 | [ ] | `juana-arco-1429` | Juana de Arco | Mayo de 1429 | Orleans, con 17 años. |
-| [ ] | `shackleton-1915` | Ernest Shackleton | Noviembre de 1915 | El hielo hunde el Endurance (21 de noviembre). **Efeméride de noviembre.** |
+| [~] | `shackleton-1915` | Ernest Shackleton | Noviembre de 1915 | El hielo hunde el Endurance (21 de noviembre). **Efeméride de noviembre.** |
 | [ ] | `galileo-1610` | Galileo Galilei | Enero de 1610 | Descubre las lunas de Júpiter. |
 | [ ] | `da-vinci-1497` | Leonardo da Vinci | 1497 | Pintando La Última Cena. |
 | [ ] | `lovelace-1843` | Ada Lovelace | 1843 | El primer programa de ordenador. |
