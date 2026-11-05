@@ -48,6 +48,23 @@
       "altura": 0.62,
       "zapatos": "#7a7e86"
     },
+    "vega_adulta": {
+      "piel": "#e8b48e",
+      "pelo": "#5a3420",
+      "peinado": "trenzas",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "mono",
+        "color": "#ff7a2e",
+        "color2": "#f0ece6",
+        "detalle": "#ffffff"
+      },
+      "sombrero": "espacial",
+      "colorSombrero": "#f4f2ee",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#d8d4ce"
+    },
     "madre": {
       "piel": "#e6b896",
       "pelo": "#3a2418",
@@ -188,7 +205,7 @@
   "short": {
     "escenas": [
       {
-        "texto": "Soy la primera persona nacida en Marte. Y aquel mes, los médicos me dijeron que quizá nunca podría pisar la Tierra.",
+        "texto": "Fui la primera persona nacida en Marte. Y aquel mes, los médicos me dijeron que quizá nunca podría pisar la Tierra.",
         "drama": 0.8,
         "fondo": {
           "lugar": "marte",
@@ -2132,7 +2149,7 @@
         },
         "personajes": [
           {
-            "quien": "madre",
+            "quien": "vega_adulta",
             "x": 0.2,
             "accion": "quieto",
             "emocion": "feliz",
