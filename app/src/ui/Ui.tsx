@@ -74,7 +74,7 @@ export const Subtitulos: React.FC<{ texto: string; duracionAudio: number; paleta
   const pop = interpolate(t - tiempos[grupo[0]], [0, 0.12], [0.92, 1], clamp);
   return (
     <div style={{ position: "absolute", left: 80 * u, right: 80 * u, ...(vertical ? { top: 1380 * u } : { bottom: 70 * u }), display: "flex", justifyContent: "center" }}>
-      <div style={{ textAlign: "center", fontFamily: sans, fontWeight: 900, fontSize: (vertical ? 70 : 50) * u, lineHeight: 1.18, textTransform: vertical ? "uppercase" : "none", scale: pop }}>
+      <div style={{ textAlign: "center", fontFamily: sans, fontWeight: 900, fontSize: (vertical ? 70 : 50) * u, lineHeight: 1.18, textTransform: vertical ? "uppercase" : "none", scale: pop, background: "rgba(8,10,16,0.42)", borderRadius: 22 * u, padding: `${10 * u}px ${18 * u}px ${10 * u}px ${34 * u}px`, boxShadow: "0 8px 30px rgba(0,0,0,0.25)" }}>
         {grupo.map((i) => (
           <span key={i} style={{ color: i === actual ? paleta.acento : "#fff", WebkitTextStroke: `${(vertical ? 3 : 2.4) * u}px rgba(0,0,0,0.85)`, paintOrder: "stroke fill", textShadow: "0 6px 18px rgba(0,0,0,0.6)", marginRight: 16 * u, display: "inline-block" }}>
             {palabras[i]}
@@ -114,7 +114,7 @@ export const Titulo: React.FC<{ titulo: string; lugar: string; epoca: string; pa
       : { alignItems: "flex-start", justifyContent: "center", paddingLeft: 110 * u, paddingBottom: 120 * u, opacity: fuera, background: "linear-gradient(90deg, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 55%)" }}>
       <div style={{ fontFamily: sans, fontWeight: 900, fontSize: 42 * u, letterSpacing: 10 * u, color: paleta.acento, opacity: s1 }}>UN MES EN LA VIDA DE</div>
       <div style={{ fontFamily: serif, fontWeight: 900, fontSize: (titulo.length > 18 ? 110 : 140) * u, lineHeight: 1.02, color: "#fff", marginTop: 14 * u, textAlign: vertical ? "center" : "left", maxWidth: (vertical ? 1000 : 900) * u, textShadow: "0 12px 40px rgba(0,0,0,0.6)", scale: interpolate(s2, [0, 1], [0.7, 1]), opacity: s2 }}>{titulo}</div>
-      <div style={{ fontFamily: sans, fontWeight: 800, fontSize: 36 * u, color: "#fff", opacity: s1 * 0.9, marginTop: 20 * u, letterSpacing: 3, textTransform: "uppercase" }}>{lugar} · {epoca}</div>
+      <div style={{ fontFamily: sans, fontWeight: 800, fontSize: (vertical ? 32 : 36) * u, color: "#fff", opacity: s1 * 0.9, marginTop: 20 * u, letterSpacing: 3, textTransform: "uppercase", textAlign: vertical ? "center" : "left", maxWidth: (vertical ? 900 : 900) * u, lineHeight: 1.35, textShadow: "0 4px 14px rgba(0,0,0,0.7)" }}>{lugar} · {epoca}</div>
     </AbsoluteFill>
   );
 };

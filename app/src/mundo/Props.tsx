@@ -7,7 +7,7 @@ export const PROPS_DISPONIBLES = [
   "roca", "valla", "pozo", "tumba", "hoguera", "tienda", "bandera", "mesa", "estanteria", "chimenea", "cama",
   "antorcha", "cuadro", "consola", "maquina", "barril", "cajas", "planta", "telescopio", "yunque", "piramide", "columna", "reloj",
   "bergantin", "bergantin-hundido", "bote",
-  "habitat", "invernadero", "rover", "panel-solar", "antena",
+  "casa-adobe", "habitat", "invernadero", "rover", "panel-solar", "antena",
   "escalera", "puerta", "tesoro", "sarcofago", "mascara", "estatua", "jarron", "carro-dorado",
 ] as const;
 
@@ -381,6 +381,18 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean }> = ({ ti
         </g>
       );
     }
+    case "casa-adobe":
+      // casa de adobe encalada con cúpula, típica de Egipto / Oriente Próximo
+      return (
+        <g>
+          <rect x={-240} y={-260} width={480} height={260} fill="#d8b98a" />
+          <path d="M-120 -260 A120 110 0 0 1 120 -260Z" fill="#cfae7c" />
+          <rect x={-240} y={-275} width={480} height={18} fill="#c49e6a" />
+          <path d="M-40 0 L-40 -130 Q0 -170 40 -130 L40 0Z" fill="#5a3e26" />
+          {[-170, 130].map((x) => <rect key={x} x={x} y={-200} width={44} height={56} fill={noche ? "#ffd27a" : "#4a3626"} />)}
+          {[-200, 200].map((x) => <rect key={`v${x}`} x={x - 6} y={-290} width={12} height={40} fill="#8a6a42" />)}
+        </g>
+      );
     case "habitat":
       return (
         <g>
