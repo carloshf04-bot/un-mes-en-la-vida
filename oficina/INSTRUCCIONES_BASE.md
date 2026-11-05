@@ -11,6 +11,16 @@ Son las mismas que las del primer vídeo, «Un mes en la vida de un cavernícola
 - **Estilo**: 2D plano, fondos propios de la época y del momento que se cuenta, personajes SVG articulados, una sola cámara en un mundo continuo y subtítulos palabra a palabra con la palabra clave resaltada.
 - **Título**: «UN MES EN LA VIDA DE UN» en Inter Black y el personaje en una fuente de su época (piedra, romana, rúnica…).
 
+## Fondos detallados (obligatorio)
+Cada escenario tiene al menos **5 capas**, y ninguna puede ser un plano liso:
+1. **Cielo**: degradado, sol o luna con halo, nubes con sombra y algo que se mueva (pájaros, humo, estrellas que titilan).
+2. **Lejos**: siluetas de la época reconocibles (montañas, edificios, monumentos) con perspectiva atmosférica, es decir, más claras cuanto más lejos.
+3. **Medio**: arquitectura o naturaleza con detalle (columnas con capitel, tejas, ventanas, árboles, rocas con brillo y sombra).
+4. **Suelo**: textura (arena con huellas y ondas, losas, hierba, nieve con roca) y sombras de contacto bajo los personajes.
+5. **Primer plano**: objetos delante de la cámara (plantas, columnas, ánforas, antorchas) que se mueven más rápido que la cámara (paralaje mayor que 1), algo desenfocados.
+
+Además: **atrezo de la época** en cada escena (al menos 6 objetos distintos), una **luz** que cuente el momento del día (rayos, brillos de antorchas, viñeteado de noche) y **elementos vivos** (llamas, telas que ondean, polvo, agua). Ningún escenario se repite tal cual: cambia el atrezo o la luz.
+
 ## Entregas
 1. `video-FINAL-horizontal.mp4`: 1920×1080, completo, para YouTube.
 2. `video-FINAL-vertical.mp4`: 1080×1920, completo, para TikTok.
