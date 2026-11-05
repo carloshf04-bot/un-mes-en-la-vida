@@ -9,7 +9,7 @@ Por qué funciona cada idea: tiene **un mes concreto con un acontecimiento dram�
 
 | Estado | Slug | Un mes en la vida de… | Lugar y mes | Gancho / clímax |
 |---|---|---|---|---|
-| [ ] | `pompeya-79` | un panadero de Pompeya | Pompeya, otoño del 79 | El Vesubio. Los panes carbonizados que aún existen. |
+| [~] | `pompeya-79` | un panadero de Pompeya | Pompeya, otoño del 79 | El Vesubio. Los panes carbonizados que aún existen. |
 | [ ] | `piramide-2560ac` | un obrero de la Gran Pirámide | Guiza, c. 2560 a.C. | El diario de Merer, el papiro más antiguo conocido, describe el transporte de piedra. |
 | [ ] | `coliseo-80` | un gladiador | Roma, año 80 | Los 100 días de juegos de la inauguración del Coliseo. |
 | [ ] | `londres-1666` | un panadero de Pudding Lane | Londres, septiembre de 1666 | El Gran Incendio empezó en una panadería. |
@@ -48,7 +48,7 @@ Por qué funciona cada idea: tiene **un mes concreto con un acontecimiento dram�
 
 | Estado | Slug | Un mes en la vida de… | Lugar y año | Gancho |
 |---|---|---|---|---|
-| [ ] | `marte-2061` | la primera niña nacida en Marte | Colonia Jezero, 2061 | No puede ir a la Tierra: su cuerpo no aguantaría la gravedad. |
+| [~] | `marte-2061` | la primera niña nacida en Marte | Colonia Jezero, 2061 | No puede ir a la Tierra: su cuerpo no aguantaría la gravedad. |
 | [ ] | `asteroides-2089` | un minero de asteroides | Cinturón, 2089 | Un asteroide vale más que la economía de un país. |
 | [ ] | `madrid-2070` | un granjero vertical | Madrid, 2070 | Verano a 50 °C. Se cultiva dentro de rascacielos. |
 | [ ] | `camionero-2042` | el último camionero humano | Ruta 66, 2042 | El último viaje antes de la prohibición. |
@@ -68,7 +68,7 @@ Por qué funciona cada idea: tiene **un mes concreto con un acontecimiento dram�
 | [ ] | `curie-1898` | Marie Curie | Diciembre de 1898 | El descubrimiento del radio en un cobertizo. |
 | [ ] | `colon-1492` | Cristóbal Colón | Octubre de 1492 | La tripulación al borde del motín. |
 | [ ] | `juana-arco-1429` | Juana de Arco | Mayo de 1429 | Orleans, con 17 años. |
-| [~] | `shackleton-1915` | Ernest Shackleton | Noviembre de 1915 | El hielo hunde el Endurance (21 de noviembre). **Efeméride de noviembre.** |
+| [x] | `shackleton-1915` | Ernest Shackleton | Noviembre de 1915 | El hielo hunde el Endurance (21 de noviembre). **Efeméride de noviembre.** |
 | [ ] | `galileo-1610` | Galileo Galilei | Enero de 1610 | Descubre las lunas de Júpiter. |
 | [ ] | `da-vinci-1497` | Leonardo da Vinci | 1497 | Pintando La Última Cena. |
 | [ ] | `lovelace-1843` | Ada Lovelace | 1843 | El primer programa de ordenador. |
