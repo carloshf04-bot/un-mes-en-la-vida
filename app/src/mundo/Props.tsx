@@ -7,6 +7,7 @@ export const PROPS_DISPONIBLES = [
   "roca", "valla", "pozo", "tumba", "hoguera", "tienda", "bandera", "mesa", "estanteria", "chimenea", "cama",
   "antorcha", "cuadro", "consola", "maquina", "barril", "cajas", "planta", "telescopio", "yunque", "piramide", "columna", "reloj",
   "bergantin", "bergantin-hundido", "bote",
+  "habitat", "invernadero", "rover", "panel-solar", "antena",
   "escalera", "puerta", "tesoro", "sarcofago", "mascara", "estatua", "jarron", "carro-dorado",
 ] as const;
 
@@ -380,6 +381,65 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean }> = ({ ti
         </g>
       );
     }
+    case "habitat":
+      return (
+        <g>
+          <path d="M-360 0 A360 300 0 0 1 360 0Z" fill="#d9d4cc" />
+          <path d="M-360 0 A360 300 0 0 1 360 0" fill="none" stroke="#a8a29a" strokeWidth={10} />
+          {[-200, 0, 200].map((x) => <path key={x} d={`M${x} 0 Q${x * 0.6} -200 0 -300`} stroke="#b8b2aa" strokeWidth={6} fill="none" />)}
+          <rect x={-70} y={-140} width={140} height={140} rx={20} fill="#6b737d" />
+          <rect x={-50} y={-120} width={100} height={60} rx={10} fill={noche ? "#ffd27a" : "#2a3a4a"} />
+          {[-250, 250].map((x) => <circle key={x} cx={x} cy={-110} r={34} fill={noche ? "#ffd27a" : "#2a3a4a"} stroke="#8a8f96" strokeWidth={8} />)}
+          <rect x={-380} y={-10} width={760} height={30} fill="#7a6a5e" />
+        </g>
+      );
+    case "invernadero":
+      return (
+        <g>
+          <path d="M-320 0 L-320 -180 Q0 -380 320 -180 L320 0Z" fill="#bfe6d0" opacity={0.45} stroke="#e6f2ec" strokeWidth={8} />
+          {Array.from({ length: 9 }).map((_, i) => <circle key={i} cx={-260 + i * 65} cy={-60 - (i % 2) * 30} r={36} fill="#3f9a4a" />)}
+          {Array.from({ length: 6 }).map((_, i) => <line key={`l${i}`} x1={-300 + i * 120} y1={-200} x2={-300 + i * 120} y2={-150} stroke="#ff4fd8" strokeWidth={8} opacity={0.7} />)}
+          <circle cx={0} cy={-150} r={260} fill="#ff4fd8" opacity={0.05} />
+        </g>
+      );
+    case "rover":
+      return (
+        <g transform={`translate(${Math.sin(f / 40) * 6} 0)`}>
+          <rect x={-260} y={-230} width={520} height={130} rx={30} fill="#e8e4dc" />
+          <rect x={-200} y={-210} width={160} height={70} rx={14} fill="#2a3a4a" />
+          <rect x={-280} y={-110} width={560} height={24} fill="#8a8f96" />
+          {[-200, 0, 200].map((x) => (
+            <g key={x} transform={`translate(${x} -60)`}>
+              <circle r={62} fill="#2b2b30" />
+              <circle r={30} fill="#7d8794" />
+            </g>
+          ))}
+          <rect x={150} y={-330} width={14} height={100} fill="#8a8f96" />
+          <circle cx={157} cy={-340} r={20} fill="#c8402f" />
+        </g>
+      );
+    case "panel-solar":
+      return (
+        <g>
+          <rect x={-10} y={-200} width={20} height={200} fill="#7d8794" />
+          <g transform="translate(0 -210) rotate(-12)">
+            <rect x={-220} y={-80} width={440} height={160} fill="#1d3b6e" stroke="#c9d6dc" strokeWidth={6} />
+            {[-110, 0, 110].map((x) => <line key={x} x1={x} y1={-80} x2={x} y2={80} stroke="#5a7aa8" strokeWidth={4} />)}
+            <line x1={-220} y1={0} x2={220} y2={0} stroke="#5a7aa8" strokeWidth={4} />
+          </g>
+        </g>
+      );
+    case "antena":
+      return (
+        <g>
+          <polygon points="-60,0 60,0 12,-380 -12,-380" fill="#8a8f96" />
+          <g transform="translate(0 -400) rotate(-25)">
+            <path d="M-170 0 Q0 120 170 0Z" fill="#e8e4dc" stroke="#a8a29a" strokeWidth={6} />
+            <line x1={0} y1={50} x2={0} y2={-80} stroke="#7d8794" strokeWidth={8} />
+          </g>
+          <circle cx={0} cy={-480} r={10} fill="#ff5a5a" opacity={f % 30 < 15 ? 1 : 0.2} />
+        </g>
+      );
     case "bote":
       return (
         <g>

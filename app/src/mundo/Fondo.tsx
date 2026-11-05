@@ -7,7 +7,7 @@ export type Hora = "amanecer" | "dia" | "atardecer" | "noche";
 export type Clima = "despejado" | "lluvia" | "nieve" | "niebla" | "tormenta" | "polvo" | "ceniza";
 export type Lugar =
   | "mar" | "playa" | "montanas" | "hielo" | "ciudad" | "futurista" | "desierto" | "campo"
-  | "bosque" | "espacio" | "luna" | "calle" | "selva" | "valle" | "interior";
+  | "bosque" | "espacio" | "luna" | "calle" | "selva" | "valle" | "marte" | "interior";
 export type PropEnEscena = string | { tipo: string; x?: number; escala?: number; detras?: boolean };
 
 export type Fondo = {
@@ -42,7 +42,7 @@ const TINTE: Record<Hora, { c: string; o: number }> = {
 
 const SUELOS: Partial<Record<Lugar, string>> = {
   mar: "#4d4a44", playa: "#d8bd8a", montanas: "#4f6b3e", hielo: "#e8f0f6", ciudad: "#5b5d63", futurista: "#2a2d3a",
-  desierto: "#d2a062", valle: "#c99a62", campo: "#6f9a4a", bosque: "#3f5f32", espacio: "#3a3f4f", luna: "#9a9aa2", calle: "#7a6e62", selva: "#2f5a2a",
+  desierto: "#d2a062", valle: "#c99a62", marte: "#9a4a2a", campo: "#6f9a4a", bosque: "#3f5f32", espacio: "#3a3f4f", luna: "#9a9aa2", calle: "#7a6e62", selva: "#2f5a2a",
 };
 
 const cresta = (s: string, y: number, amp: number, picos: number) => {
@@ -61,8 +61,15 @@ const ola = (y: number, amp: number, largo: number, fase: number) => {
   return d + ` L${MW} ${MH} Z`;
 };
 
-const Cielo: React.FC<{ hora: Hora; f: number; dur: number; espacio?: boolean; id: string }> = ({ hora, f, dur, espacio, id }) => {
-  const cielo = espacio ? ["#000", "#03040a", "#070b1a", "#0d1630"] : CIELOS[hora];
+const CIELOS_MARTE: Record<Hora, string[]> = {
+  amanecer: ["#1a1420", "#4a3a4a", "#8a8aa0", "#b8c4d8"],
+  dia: ["#8a6a4a", "#b88a5e", "#d6a97a", "#e8c49a"],
+  atardecer: ["#120e18", "#2a2a44", "#3f5a8a", "#7fa6d6"],
+  noche: ["#020203", "#06060a", "#0c0a10", "#141018"],
+};
+
+const Cielo: React.FC<{ hora: Hora; f: number; dur: number; espacio?: boolean; marte?: boolean; id: string }> = ({ hora, f, dur, espacio, marte, id }) => {
+  const cielo = espacio ? ["#000", "#03040a", "#070b1a", "#0d1630"] : marte ? CIELOS_MARTE[hora] : CIELOS[hora];
   const estrellas = espacio || hora === "noche" || hora === "amanecer";
   const prog = f / Math.max(1, dur);
   const ax = 520 + prog * 880;
@@ -87,9 +94,9 @@ const Cielo: React.FC<{ hora: Hora; f: number; dur: number; espacio?: boolean; i
       {!espacio && (
         <g>
           <circle cx={ax} cy={ay} r={300} fill={`url(#halo${id})`} />
-          <circle cx={ax} cy={ay} r={hora === "noche" ? 64 : 88} fill={hora === "noche" ? "#f1ecd8" : hora === "dia" ? "#fff8e0" : "#ffcf87"} />
-          {hora === "noche" && [[-18, -14, 14], [20, 10, 10], [-4, 24, 8]].map(([dx, dy, r], k) => <circle key={k} cx={ax + dx} cy={ay + dy} r={r} fill="#d8d2bc" />)}
-          {hora === "dia" &&
+          <circle cx={ax} cy={ay} r={marte ? (hora === "noche" ? 22 : 58) : hora === "noche" ? 64 : 88} fill={marte ? (hora === "noche" ? "#d8c8b0" : hora === "atardecer" ? "#e6f0ff" : "#fff2dc") : hora === "noche" ? "#f1ecd8" : hora === "dia" ? "#fff8e0" : "#ffcf87"} />
+          {hora === "noche" && !marte && [[-18, -14, 14], [20, 10, 10], [-4, 24, 8]].map(([dx, dy, r], k) => <circle key={k} cx={ax + dx} cy={ay + dy} r={r} fill="#d8d2bc" />)}
+          {hora === "dia" && !marte &&
             [0, 1, 2].map((i) => {
               const x = ((random(`nx${i}`) * MW + f * (0.4 + i * 0.2)) % (MW + 600)) - 300;
               const y = 520 + i * 110;
@@ -222,6 +229,19 @@ const Exterior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string }> = 
             <rect key={i} x={i * 170 + 30} y={HORIZONTE - 160 + random(`vr${i}`) * 120} width={8} height={120 + random(`vh${i}`) * 100} fill="#00000018" />
           ))}
           <path d={colinas(HORIZONTE + 120, 70, 300, 2)} fill={hora === "noche" ? c[2] : "#d7ad78"} />
+        </g>
+      );
+      break;
+    case "marte":
+      lejos = (
+        <g>
+          {hora === "noche" && <circle cx={1500} cy={520} r={5} fill="#7fb8ff" />}
+          {hora === "noche" && <text x={1515} y={510} fontSize={26} fill="#9fc8ff" opacity={0.8}>Tierra</text>}
+          <path d={cresta(`mt1${id}`, HORIZONTE - 90, 220, 10)} fill={hora === "noche" ? "#1a0e0a" : "#a8644a"} transform={`translate(${-deriva * 0.12} 0)`} />
+          <path d={colinas(HORIZONTE + 60, 120, 260, 1.5 - deriva / 900)} fill={hora === "noche" ? "#24120c" : "#8e4a30"} />
+          {Array.from({ length: 14 }).map((_, i) => (
+            <ellipse key={i} cx={random(`mr${i}`) * MW} cy={SUELO + 40 + random(`my${i}`) * 420} rx={20 + random(`ms${i}`) * 60} ry={10 + random(`ms${i}`) * 18} fill="#5a2a18" />
+          ))}
         </g>
       );
       break;
@@ -439,7 +459,7 @@ export const DibujarFondo: React.FC<{ fondo: Fondo; f: number; dur: number; id: 
         <Interior fondo={fondo} hora={hora} f={f} id={id} />
       ) : (
         <g>
-          <Cielo hora={hora} f={f} dur={dur} espacio={fondo.lugar === "espacio" || fondo.lugar === "luna"} id={id} />
+          <Cielo hora={hora} f={f} dur={dur} espacio={fondo.lugar === "espacio" || fondo.lugar === "luna"} marte={fondo.lugar === "marte"} id={id} />
           <Exterior fondo={fondo} hora={hora} f={f} id={id} />
         </g>
       )}
