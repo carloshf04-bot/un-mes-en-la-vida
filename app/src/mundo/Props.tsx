@@ -7,6 +7,7 @@ export const PROPS_DISPONIBLES = [
   "roca", "valla", "pozo", "tumba", "hoguera", "tienda", "bandera", "mesa", "estanteria", "chimenea", "cama",
   "antorcha", "cuadro", "consola", "maquina", "barril", "cajas", "planta", "telescopio", "yunque", "piramide", "columna", "reloj",
   "bergantin", "bergantin-hundido", "bote",
+  "volcan", "volcan-erupcion", "horno", "molino", "anfora", "termopolio",
   "casa-adobe", "habitat", "invernadero", "rover", "panel-solar", "antena",
   "escalera", "puerta", "tesoro", "sarcofago", "mascara", "estatua", "jarron", "carro-dorado",
 ] as const;
@@ -381,6 +382,76 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean }> = ({ ti
         </g>
       );
     }
+    case "volcan":
+    case "volcan-erupcion": {
+      // el Vesubio al fondo (se dibuja grande: usa "escala" 1.5–2.5 y x lejos del centro)
+      const erup = tipo === "volcan-erupcion";
+      const h = Math.min(1, f / 90);
+      return (
+        <g>
+          <path d="M-700 0 L-180 -520 Q0 -560 180 -520 L700 0Z" fill="#5a5560" />
+          <path d="M-180 -520 Q-60 -470 0 -540 Q60 -470 180 -520" fill="#47434c" />
+          {!erup && <ellipse cx={0} cy={-600} rx={60} ry={24} fill="#cfcfd6" opacity={0.35} />}
+          {erup && (
+            <g>
+              {/* columna "como un pino" (Plinio el Joven) */}
+              <path d={`M-60 -540 Q-40 ${-900 * h} -20 ${-1300 * h} L20 ${-1300 * h} Q40 ${-900 * h} 60 -540Z`} fill="#6b6460" />
+              {Array.from({ length: 9 }).map((_, i) => (
+                <circle key={i} cx={-380 + i * 95 + Math.sin(f / 20 + i) * 20} cy={-1300 * h - 80 + Math.sin(i * 1.7) * 60} r={(130 + (i % 3) * 40) * h} fill={i % 2 ? "#5a5450" : "#7a7470"} />
+              ))}
+              <path d="M-120 -520 Q0 -600 120 -520" stroke="#ff6a2a" strokeWidth={18} fill="none" opacity={0.6 + 0.3 * Math.sin(f / 3)} />
+              {Array.from({ length: 6 }).map((_, i) => <circle key={`r${i}`} cx={-80 + i * 32} cy={-560 - ((f * 6 + i * 50) % 300)} r={8} fill="#ff8a3a" opacity={0.8} />)}
+            </g>
+          )}
+        </g>
+      );
+    }
+    case "horno":
+      return (
+        <g>
+          <rect x={-260} y={-320} width={520} height={320} fill="#b07a52" />
+          {Array.from({ length: 24 }).map((_, i) => <rect key={i} x={-260 + (i % 8) * 65} y={-320 + Math.floor(i / 8) * 40} width={60} height={34} fill="#9a6644" />)}
+          <path d="M-130 -40 L-130 -160 Q0 -270 130 -160 L130 -40Z" fill="#1b1210" />
+          <ellipse cx={0} cy={-100} rx={100} ry={50} fill="#ff7b2f" opacity={0.35 + 0.15 * Math.sin(f / 4)} />
+          {[-60, 0, 60].map((x) => <circle key={x} cx={x} cy={-80} r={26} fill="#8a5a2a" />)}
+          <rect x={-300} y={-40} width={600} height={40} fill="#8a6a4a" />
+        </g>
+      );
+    case "molino":
+      // molino de lava pompeyano (meta + catillus) con un burro dando vueltas
+      return (
+        <g>
+          <path d="M-90 -40 L-60 -260 L60 -260 L90 -40Z" fill="#4a4448" />
+          <path d="M-60 -260 L-90 -420 L90 -420 L60 -260Z" fill="#3a3438" />
+          <rect x={-120} y={-40} width={240} height={40} fill="#5a5458" />
+          <rect x={-220} y={-300} width={440} height={16} fill="#6b4a2e" transform={`rotate(${Math.sin(f / 15) * 8} 0 -292)`} />
+          <text x={180 + Math.cos(f / 30) * 40} y={-40} fontSize={150} textAnchor="middle" style={{ fontFamily: "'Noto Color Emoji'" }}>🐴</text>
+        </g>
+      );
+    case "anfora":
+      return (
+        <g>
+          {[-80, 0, 80].map((x, i) => (
+            <g key={x} transform={`translate(${x} 0) rotate(${(i - 1) * 6})`}>
+              <path d="M-40 -40 Q-70 -180 -30 -280 L30 -280 Q70 -180 40 -40 L0 0Z" fill="#c07a4a" />
+              <rect x={-20} y={-320} width={40} height={40} fill="#a8653a" />
+              <path d="M-20 -300 q-40 10 -30 50 M20 -300 q40 10 30 50" stroke="#a8653a" strokeWidth={10} fill="none" />
+            </g>
+          ))}
+        </g>
+      );
+    case "termopolio":
+      // mostrador con dolia (vasijas empotradas) y frescos
+      return (
+        <g>
+          <rect x={-320} y={-220} width={640} height={220} fill="#d9c49a" />
+          <rect x={-320} y={-240} width={640} height={30} fill="#8a3a2a" />
+          {[-200, 0, 200].map((x) => <ellipse key={x} cx={x} cy={-240} rx={60} ry={16} fill="#3a2a1a" />)}
+          <path d="M-280 -180 q60 -40 120 0 q60 40 120 0" stroke="#3a6a5a" strokeWidth={10} fill="none" />
+          <circle cx={180} cy={-120} r={40} fill="#c84a2a" opacity={0.8} />
+          <rect x={-300} y={-60} width={600} height={14} fill="#a8853a" />
+        </g>
+      );
     case "casa-adobe":
       // casa de adobe encalada con cúpula, típica de Egipto / Oriente Próximo
       return (
