@@ -1,16 +1,17 @@
 # Guía del guion
 
 ## Formato
-- **Título**: «UN <TIEMPO> EN LA VIDA DE UN <PERSONAJE>». La primera parte en Inter Black; el personaje, en una fuente de su época.
-- **Duración**: entre 2:30 y 2:55, para que el vertical entero sirva como Short, Reel o TikTok (máximo 3:00). Una versión larga, si se pide, entre 8 y 12 minutos.
+- **Norma general**: `oficina/INSTRUCCIONES_BASE.md`, que son las del primer vídeo.
+- **Título**: «UN MES EN LA VIDA DE UN <PERSONAJE>».
+- **Duración**: entre 10 y 15 minutos, unas 1.800-2.000 palabras, en capítulos: gancho, intro, semanas 1 a 4, balance y cierre. Cada capítulo tiene que caber en un Short de menos de 3:00.
 - **Una frase por línea** en `guion.txt` y sin saltos de línea dentro de una frase, porque la voz hace pausas raras.
-- **Unas 470 palabras** dan unos 2:50 con la voz actual.
+- Con la voz actual salen unas 166 palabras por minuto, pausas incluidas.
 
 ## Estructura
 1. **Gancho en los 2 primeros segundos**: una frase que choque, en segunda persona («Hoy vas a…»). Nada de «hola».
 2. **Situación**: lugar y año en una frase, más el título.
 3. **Protagonista** con nombre, y un chiste o un giro sobre él.
-4. **De 3 a 5 bloques** que sigan su día o su mes, cada uno con un dato curioso.
+4. **Cuatro semanas** (luna nueva, creciente, llena y menguante, o el ciclo que encaje con la época), cada una con 4-6 datos curiosos y un momento de tensión.
 5. **Clímax**: un momento de tensión con cliffhanger («¿Es el final?») y su giro.
 6. **Mitos frente a realidad**: al menos uno («En realidad…»).
 7. **Resumen en una frase**: tres datos y una comparación moderna.
