@@ -1,0 +1,2195 @@
+{
+  "slug": "marte-2061",
+  "titulo": "la primera niña de Marte",
+  "lugar": "Cráter Jezero, Marte",
+  "epoca": "Año 2061",
+  "categoria": "futuro",
+  "drama": 0.65,
+  "velocidad": 1.15,
+  "musica": "futuro",
+  "paleta": {
+    "acento": "#ff8a4c",
+    "texto": "#fbefe6",
+    "fondo": "#140a08",
+    "papel": "#f4ece4"
+  },
+  "reparto": {
+    "vega": {
+      "piel": "#e8b48e",
+      "pelo": "#5a3420",
+      "peinado": "trenzas",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "mono",
+        "color": "#ff7a2e",
+        "color2": "#f0ece6",
+        "detalle": "#ffffff"
+      },
+      "sombrero": "espacial",
+      "colorSombrero": "#f4f2ee",
+      "gafas": false,
+      "altura": 0.62,
+      "zapatos": "#d8d4ce"
+    },
+    "vega_casa": {
+      "piel": "#e8b48e",
+      "pelo": "#5a3420",
+      "peinado": "trenzas",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "mono",
+        "color": "#ff7a2e",
+        "color2": "#f0ece6",
+        "detalle": "#ffffff"
+      },
+      "sombrero": "ninguno",
+      "colorSombrero": "#f4f2ee",
+      "gafas": false,
+      "altura": 0.62,
+      "zapatos": "#7a7e86"
+    },
+    "madre": {
+      "piel": "#e6b896",
+      "pelo": "#3a2418",
+      "peinado": "coleta",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "mono",
+        "color": "#eceae6",
+        "color2": "#cfcbc4",
+        "detalle": "#3a7bd5"
+      },
+      "sombrero": "espacial",
+      "colorSombrero": "#f4f2ee",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#d8d4ce"
+    },
+    "madre_casa": {
+      "piel": "#e6b896",
+      "pelo": "#3a2418",
+      "peinado": "coleta",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "mono",
+        "color": "#eceae6",
+        "color2": "#9a9ea6",
+        "detalle": "#3a7bd5"
+      },
+      "sombrero": "ninguno",
+      "colorSombrero": "#f0eee8",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#5a5e66"
+    },
+    "padre": {
+      "piel": "#c9906a",
+      "pelo": "#2a1e16",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "mono",
+        "color": "#8a8f96",
+        "color2": "#6a6f76",
+        "detalle": "#ff8a4c"
+      },
+      "sombrero": "espacial",
+      "colorSombrero": "#e6e4e0",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#d8d4ce"
+    },
+    "padre_casa": {
+      "piel": "#c9906a",
+      "pelo": "#2a1e16",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "mono",
+        "color": "#8a8f96",
+        "color2": "#6a6f76",
+        "detalle": "#ff8a4c"
+      },
+      "sombrero": "ninguno",
+      "colorSombrero": "#f0eee8",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#3e4248"
+    },
+    "medico": {
+      "piel": "#6b4630",
+      "pelo": "#1a1410",
+      "peinado": "rizado",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "bata",
+        "color": "#f4f4f2",
+        "color2": "#5a6a7a",
+        "detalle": "#4ab0a0"
+      },
+      "sombrero": "ninguno",
+      "colorSombrero": "#f0eee8",
+      "gafas": true,
+      "altura": 1,
+      "zapatos": "#2e3238"
+    },
+    "colono": {
+      "piel": "#f0cfb0",
+      "pelo": "#8a6a4a",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "mono",
+        "color": "#d8d6d2",
+        "color2": "#7a7e86",
+        "detalle": "#e0c040"
+      },
+      "sombrero": "espacial",
+      "colorSombrero": "#e6e4e0",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#d8d4ce"
+    },
+    "lia": {
+      "piel": "#d9a27a",
+      "pelo": "#2a1a12",
+      "peinado": "rizado",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "mono",
+        "color": "#9ec7e6",
+        "color2": "#7a8ea0",
+        "detalle": "#ffffff"
+      },
+      "sombrero": "ninguno",
+      "colorSombrero": "#f0eee8",
+      "gafas": false,
+      "altura": 0.5,
+      "zapatos": "#6a7280"
+    },
+    "bebe": {
+      "piel": "#d9a27a",
+      "pelo": "#2a1a12",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "mono",
+        "color": "#f5e6a8",
+        "color2": "#f5e6a8",
+        "detalle": "#ffffff"
+      },
+      "sombrero": "ninguno",
+      "colorSombrero": "#f0eee8",
+      "gafas": false,
+      "altura": 0.4,
+      "zapatos": "#f5e6a8"
+    }
+  },
+  "short": {
+    "escenas": [
+      {
+        "texto": "Soy la primera persona nacida en Marte. Y aquel mes, los médicos me dijeron que quizá nunca podría pisar la Tierra.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "marte",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "habitat",
+              "x": -1.1
+            },
+            {
+              "tipo": "antena",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega",
+            "x": 0,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Tenía nueve años. Vivía bajo tres metros de roca, en el cráter Jezero. Fuera, sin casco, pierdes el sentido en quince segundos.",
+        "fondo": {
+          "lugar": "marte",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "habitat",
+              "x": -1.1
+            },
+            {
+              "tipo": "rover",
+              "x": 1.1
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega",
+            "x": 0,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "entra": "izq"
+          }
+        ]
+      },
+      {
+        "texto": "Entonces llegó la tormenta. Polvo sobre el planeta entero. A mediodía, era de noche.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "marte",
+          "hora": "dia",
+          "clima": "polvo",
+          "props": [
+            {
+              "tipo": "panel-solar",
+              "x": -1.0
+            },
+            {
+              "tipo": "panel-solar",
+              "x": -0.4
+            },
+            {
+              "tipo": "habitat",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega",
+            "x": 0,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "subir"
+      },
+      {
+        "texto": "Los paneles se apagaron. La antena se rompió. Y el bebé de la colonia ardía de fiebre.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "consola",
+              "x": -0.9
+            },
+            {
+              "tipo": "cama",
+              "x": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "medico",
+            "x": -0.3,
+            "accion": "trabajar",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "bebe",
+            "x": 0.35,
+            "accion": "dormir",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "texto": "Sin luz. Sin voz. Sin un médico en la Tierra al que poder preguntar.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "marte",
+          "hora": "dia",
+          "clima": "polvo",
+          "props": [
+            {
+              "tipo": "antena",
+              "x": 0.9,
+              "escala": 1.2
+            },
+            {
+              "tipo": "rover",
+              "x": -0.9
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Yo tenía un cuaderno lleno de números. Y vi algo que los adultos no habían visto.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "barril",
+              "x": -1.2
+            },
+            {
+              "tipo": "barril",
+              "x": 1.2
+            },
+            {
+              "tipo": "cama",
+              "x": 0.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega_casa",
+            "x": 0,
+            "accion": "escribir",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Lo que pasó después, y lo que vi en el cielo al final, te lo cuento en el mes completo.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "marte",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.1
+            },
+            {
+              "tipo": "rover",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega",
+            "x": 0,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "subir"
+      }
+    ]
+  },
+  "largo": {
+    "escenas": [
+      {
+        "texto": "Nací en un planeta donde, sin casco, pierdes el sentido en quince segundos. Fui la primera. Y aquel mes, una tormenta del tamaño de un mundo vino a apagarnos.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "marte",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "habitat",
+              "x": -1.1
+            },
+            {
+              "tipo": "antena",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Yo tenía nueve años terrestres. Cinco marcianos. Y estaba a punto de saber que quizá nunca podría pisar la Tierra de mis abuelos.",
+        "personajes": [
+          {
+            "quien": "vega",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 1,
+        "capitulo": "Nacida en el Delta",
+        "texto": "Sol uno. Me llamo Vega. Nací en la Base Jezero, en Marte, en diciembre de dos mil cincuenta y uno. La primera persona nacida fuera de la Tierra.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -0.9
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.1
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega_casa",
+            "x": 0.1,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 1,
+        "texto": "Mi casa estaba al pie de un delta fósil. Hace más de tres mil quinientos millones de años, aquí hubo un lago. Ahora solo quedaba la roca.",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Cráter Jezero",
+          "detalle": "Marte · 18° N · Año 2061",
+          "icono": "📍"
+        }
+      },
+      {
+        "dia": 1,
+        "texto": "Vivíamos enterrados bajo tres metros de tierra roja. Marte no tiene un campo magnético que lo proteja, y la radiación de la superficie es unas cien veces la de la Tierra.",
+        "personajes": [
+          {
+            "quien": "vega_casa",
+            "x": -0.2,
+            "accion": "senalar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 1,
+        "texto": "Por la mañana miraba el cielo por el periscopio de mi cuarto. Era color caramelo. Yo creía que todos los cielos del universo eran así.",
+        "personajes": [
+          {
+            "quien": "vega_casa",
+            "x": -0.2,
+            "accion": "pensar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 2,
+        "texto": "Un sol, el día marciano, dura veinticuatro horas y treinta y nueve minutos. A esos minutos de más los llamábamos el rato perdido. Yo los usaba para leer.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0
+            },
+            {
+              "tipo": "cajas",
+              "x": -1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega_casa",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "madre_casa",
+            "x": 0.45,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 2,
+        "texto": "Desayunábamos gachas de trigo enano con fresas del invernadero. Mi madre, geóloga de Granada, decía que el cráter era su Sierra Nevada al revés.",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "24 h 39 min",
+          "etiqueta": "dura un sol, el día de Marte",
+          "icono": "⏰"
+        }
+      },
+      {
+        "dia": 2,
+        "texto": "Por las mañanas, clase grabada desde la Tierra. Con tantos minutos de retraso no podía preguntar nada. Apuntaba mis dudas en un cuaderno.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "consola",
+              "x": 0.8
+            },
+            {
+              "tipo": "mesa",
+              "x": -0.6
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega_casa",
+            "x": -0.3,
+            "accion": "escribir",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 2,
+        "texto": "Por la tarde, botánica. En Marte no hay abejas, así que yo polinizaba las flores de tomate con un pincel, bajo una luz rosa y violeta.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "invernadero",
+              "x": 0
+            },
+            {
+              "tipo": "planta",
+              "x": -1.1
+            },
+            {
+              "tipo": "planta",
+              "x": 1.1
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega_casa",
+            "x": 0.5,
+            "accion": "trabajar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 3,
+        "texto": "Al tercer sol salí con mi madre. Traje naranja, visor dorado y una cuerda de veinte metros atada a la cintura. Los niños nunca salíamos solos.",
+        "fondo": {
+          "lugar": "marte",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "habitat",
+              "x": -1.1
+            },
+            {
+              "tipo": "rover",
+              "x": 1.1
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "madre",
+            "x": -0.4,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "entra": "izq"
+          },
+          {
+            "quien": "vega",
+            "x": 0.3,
+            "accion": "caminar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false,
+            "entra": "izq"
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 3,
+        "texto": "Fuera, a mediodía, el aire estaba a veinte bajo cero. Por la noche bajaría a ochenta y tres bajo cero. Sesenta grados de diferencia en un solo sol.",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "−83 °C",
+          "etiqueta": "mínima medida en Jezero por Perseverance",
+          "icono": "🌡"
+        }
+      },
+      {
+        "dia": 3,
+        "texto": "En el escarpe del delta encontré un canto rodado, liso como un huevo. Lo había pulido un río. Un río de verdad, en Marte, hace muchísimo tiempo.",
+        "fondo": {
+          "lugar": "marte",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -0.9
+            },
+            {
+              "tipo": "roca",
+              "x": 1.2,
+              "escala": 0.7
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega",
+            "x": -0.2,
+            "accion": "cargar",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "🪨"
+          },
+          {
+            "quien": "madre",
+            "x": 0.5,
+            "accion": "senalar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 4,
+        "texto": "Cuarto sol. Dos horas de cinta con un chaleco lastrado. En Marte yo pesaba poco más de un tercio de lo que pesaría en la Tierra.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "consola",
+              "x": -0.9
+            },
+            {
+              "tipo": "cama",
+              "x": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega_casa",
+            "x": -0.3,
+            "accion": "correr",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 4,
+        "texto": "Después, revisión. La máquina me fotografió los huesos. La doctora Adeyemi miró la pantalla y frunció el ceño. No dijo nada.",
+        "personajes": [
+          {
+            "quien": "medico",
+            "x": -0.5,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "vega_casa",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 4,
+        "texto": "Esa noche le pregunté a mi madre si algún día podría ir a ver el mar. Ella me acarició el pelo. Tampoco dijo nada.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -0.9
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.1
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega_casa",
+            "x": -0.3,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "madre_casa",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 5,
+        "texto": "Quinto sol. Llegó un vídeo de mis abuelos. La abuela me enseñó la lluvia en su ventana. Contestaba a una pregunta mía de hacía dos semanas.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "consola",
+              "x": 0.8
+            },
+            {
+              "tipo": "mesa",
+              "x": -0.6
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega_casa",
+            "x": -0.3,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 5,
+        "texto": "Nunca había hablado en directo con nadie de la Tierra. Cada mensaje tardaba entre tres y veintidós minutos en llegar. Toda mi familia era un eco.",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "3–22 min",
+          "etiqueta": "tarda la luz entre Marte y la Tierra",
+          "icono": "📡"
+        }
+      },
+      {
+        "dia": 6,
+        "texto": "Sexto sol. Fuimos al museo. Así llamábamos a Ingenuity, el pequeño helicóptero que llegó en dos mil veintiuno. Seguía allí, polvoriento, con una pala rota.",
+        "fondo": {
+          "lugar": "marte",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "🚁",
+              "x": 0.9,
+              "escala": 0.35
+            },
+            {
+              "tipo": "roca",
+              "x": -1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega",
+            "x": -0.1,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "padre",
+            "x": -0.6,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 6,
+        "texto": "Lo diseñaron para cinco vuelos. Hizo setenta y dos. Mi padre, ingeniero de energía, decía que era el abuelo de nuestro dron de carga.",
+        "personajes": [
+          {
+            "quien": "padre",
+            "x": -0.5,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "vega",
+            "x": 0.2,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 7,
+        "texto": "Sol siete. Al atardecer, el cielo se volvió azul alrededor del Sol. Fobos salió por el oeste, deforme como una patata. Todo parecía en calma. Fue la última tarde tranquila.",
+        "fondo": {
+          "lugar": "marte",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "habitat",
+              "x": -1.1
+            },
+            {
+              "tipo": "antena",
+              "x": 1.2
+            }
+          ]
+        },
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "vega",
+            "x": 0.2,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 8,
+        "capitulo": "El cielo se apaga",
+        "texto": "Sol ocho. Yo cuidaba MEDA dos, la estación meteorológica de la colonia. Aquella mañana, la presión y el polvo en el aire habían cambiado.",
+        "fondo": {
+          "lugar": "marte",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "antena",
+              "x": 1.0
+            },
+            {
+              "tipo": "panel-solar",
+              "x": -1.0
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega",
+            "x": -0.3,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "padre",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 8,
+        "texto": "Los satélites lo confirmaron: una tormenta de polvo en la cuenca de Hellas, en el sur. Regional, dijeron los adultos. Lejos. Sin peligro.",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Cuenca de Hellas",
+          "detalle": "Sur de Marte · nace la tormenta",
+          "icono": "🌪"
+        },
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "consola",
+              "x": 0.8
+            },
+            {
+              "tipo": "mesa",
+              "x": -0.6
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "padre_casa",
+            "x": -0.4,
+            "accion": "senalar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "vega_casa",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 9,
+        "texto": "Pero en Marte una tormenta así puede crecer hasta tapar el planeta entero. En dos mil dieciocho, una de ellas dejó sin luz al rover Opportunity.",
+        "personajes": [
+          {
+            "quien": "vega_casa",
+            "x": 0.3,
+            "accion": "pensar",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 9,
+        "texto": "Sus paneles se cubrieron de polvo y nunca volvió a hablar. Dicen que su último mensaje fue: mi batería está baja y se está haciendo de noche. No es literal. Pero yo me lo sabía de memoria.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "vega_casa",
+            "x": 0.3,
+            "accion": "triste",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 10,
+        "texto": "Sol diez. La doctora Adeyemi me llamó a la enfermería con mi madre. Esta vez sí habló.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "consola",
+              "x": -0.9
+            },
+            {
+              "tipo": "cama",
+              "x": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "medico",
+            "x": -0.6,
+            "accion": "hablar",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "vega_casa",
+            "x": 0.1,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "madre_casa",
+            "x": 0.7,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 10,
+        "texto": "Mis huesos eran más largos y finos de lo normal. Mis piernas, débiles para la gravedad terrestre. Mi corazón, acostumbrado a bombear contra muy poco peso.",
+        "drama": 0.5,
+        "personajes": [
+          {
+            "quien": "vega_casa",
+            "x": 0.1,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 10,
+        "texto": "Los médicos temían que, en la Tierra, pesaría casi tres veces más. Que me rompería al caer. Que me desmayaría al ponerme de pie.",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "38 %",
+          "etiqueta": "la gravedad de Marte frente a la de la Tierra",
+          "icono": "⚖"
+        }
+      },
+      {
+        "dia": 10,
+        "texto": "Nadie lo había comprobado. Nadie había nacido aquí antes que yo. Pero la doctora dijo dos palabras que no he olvidado: quizá nunca.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "medico",
+            "x": -0.6,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "vega_casa",
+            "x": 0.1,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "madre_casa",
+            "x": 0.7,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 10,
+        "texto": "No lloré delante de ellas. Me escondí en el invernadero, entre las patatas, bajo la luz violeta. Y allí sí lloré.",
+        "drama": 0.45,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "invernadero",
+              "x": 0
+            },
+            {
+              "tipo": "planta",
+              "x": -1.1
+            },
+            {
+              "tipo": "planta",
+              "x": 1.1
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega_casa",
+            "x": 0.3,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 11,
+        "texto": "Sol once. La tormenta de Hellas se unió a otras. El cielo pasó del caramelo al marrón. Y empezó a oscurecer.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "marte",
+          "hora": "dia",
+          "clima": "polvo",
+          "props": [
+            {
+              "tipo": "panel-solar",
+              "x": -1.0
+            },
+            {
+              "tipo": "panel-solar",
+              "x": -0.4
+            },
+            {
+              "tipo": "habitat",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 12,
+        "texto": "Sol doce. Los paneles solares se cubrieron de polvo y la electricidad cayó a la mitad. Duchas suspendidas. Calefacción a dieciséis grados.",
+        "personajes": [
+          {
+            "quien": "padre",
+            "x": -0.2,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 12,
+        "texto": "Nos quedaban cuatro reactores nucleares pequeños, enterrados a un kilómetro. Diez kilovatios cada uno. Sin Sol, eran lo único que nos mantenía vivos.",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "40 kW",
+          "etiqueta": "de energía nuclear para toda la colonia",
+          "icono": "⚡"
+        }
+      },
+      {
+        "dia": 13,
+        "texto": "Sol trece. La tormenta ya era global. A mediodía parecía el anochecer. Yo medía la opacidad del cielo desde la claraboya, cada hora, y la apuntaba.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "dia",
+          "ventana": true,
+          "clima": "polvo",
+          "props": [
+            {
+              "tipo": "consola",
+              "x": -1.0
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega_casa",
+            "x": 0.4,
+            "accion": "escribir",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 14,
+        "texto": "Sol catorce. Un chirrido en la radio. Luego, silencio. La antena principal había dejado de moverse.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "marte",
+          "hora": "dia",
+          "clima": "polvo",
+          "props": [
+            {
+              "tipo": "antena",
+              "x": 0.9,
+              "escala": 1.2
+            },
+            {
+              "tipo": "rover",
+              "x": -0.9
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "subir"
+      },
+      {
+        "dia": 14,
+        "texto": "El polvo, fino como el talco, se había metido en su motor, y el frío de la noche partió una pieza. Ya no podía apuntar a la Tierra.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0
+            },
+            {
+              "tipo": "cajas",
+              "x": -1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "padre_casa",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "madre_casa",
+            "x": 0.4,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 14,
+        "texto": "Sesenta y cuatro adultos y tres niños. Sin luz. Sin voz. Y nadie en la Tierra sabía lo que nos estaba pasando.",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "67",
+          "etiqueta": "personas en la Base Jezero: 64 adultos y 3 niños",
+          "icono": "👥"
+        },
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "padre_casa",
+            "x": -0.7,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "vega_casa",
+            "x": 0,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "madre_casa",
+            "x": 0.7,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 15,
+        "capitulo": "La noche a mediodía",
+        "texto": "Sol quince. Reunión en el comedor. Había que elegir qué apagar: calor, aire, agua o comida. Se apagó medio invernadero.",
+        "personajes": [
+          {
+            "quien": "colono",
+            "x": -0.7,
+            "accion": "hablar",
+            "emocion": "enfado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "padre_casa",
+            "x": 0,
+            "accion": "pensar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "madre_casa",
+            "x": 0.7,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 15,
+        "texto": "Los niños trasladamos bandejas de plantas a la zona caliente. Fresas, lechugas, tomates. Cada bandeja salvada era comida para otra semana.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "invernadero",
+              "x": 0
+            },
+            {
+              "tipo": "planta",
+              "x": -1.1
+            },
+            {
+              "tipo": "planta",
+              "x": 1.1
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega_casa",
+            "x": -0.2,
+            "accion": "cargar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "🌱"
+          },
+          {
+            "quien": "lia",
+            "x": 0.5,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "🍓"
+          }
+        ]
+      },
+      {
+        "dia": 16,
+        "texto": "Sol dieciséis. Nilo, el bebé de la colonia, empezó a arder de fiebre. Tenía un año. Respiraba mal. Muy mal.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "consola",
+              "x": -0.9
+            },
+            {
+              "tipo": "cama",
+              "x": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "medico",
+            "x": -0.5,
+            "accion": "trabajar",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "bebe",
+            "x": 0.5,
+            "accion": "dormir",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 16,
+        "texto": "La doctora necesitaba consultar a un pediatra de la Tierra. Pero la antena estaba rota, y la de reserva, pequeña, no lograba atravesar tanto polvo.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "medico",
+            "x": -0.5,
+            "accion": "pensar",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "bebe",
+            "x": 0.5,
+            "accion": "dormir",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 17,
+        "texto": "Sol diecisiete. Bajamos aún más el consumo para mantener caliente la enfermería. Afuera, a mediodía, apenas llegaba luz al suelo.",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1–5 %",
+          "etiqueta": "de la luz del Sol llega al suelo en una tormenta global",
+          "icono": "🌑"
+        }
+      },
+      {
+        "dia": 18,
+        "texto": "Sol dieciocho. Hacía tanto frío que dormimos todos en el refugio central, rodeados de tanques de agua. Yo leía cuentos a Lía, la hermana de Nilo, para que no oyera toser a su hermano.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "barril",
+              "x": -1.2
+            },
+            {
+              "tipo": "barril",
+              "x": 1.2
+            },
+            {
+              "tipo": "cama",
+              "x": 0.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega_casa",
+            "x": -0.3,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "lia",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 18,
+        "texto": "Entre cuento y cuento repasaba mis apuntes. Y vi algo. La opacidad había dejado de subir. Hacia el norte, empezaba a bajar.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "vega_casa",
+            "x": -0.3,
+            "accion": "escribir",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "lia",
+            "x": 0.4,
+            "accion": "dormir",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 18,
+        "texto": "Corrí a saltos de canguro hasta mi padre. Si mis números eran buenos, en un sol habría un hueco de cielo más claro. Lo justo para salir.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "consola",
+              "x": 0.8
+            },
+            {
+              "tipo": "mesa",
+              "x": -0.6
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega_casa",
+            "x": -0.5,
+            "accion": "correr",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false,
+            "entra": "izq"
+          },
+          {
+            "quien": "padre_casa",
+            "x": 0.5,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 19,
+        "texto": "Sol diecinueve. Los adultos comprobaron mis datos. Y me creyeron. Mi padre y otros dos ingenieros salieron en el rover hacia la antena.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "marte",
+          "hora": "dia",
+          "clima": "polvo",
+          "props": [
+            {
+              "tipo": "antena",
+              "x": 0.9,
+              "escala": 1.2
+            },
+            {
+              "tipo": "rover",
+              "x": -0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "padre",
+            "x": -0.2,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "entra": "izq"
+          },
+          {
+            "quien": "colono",
+            "x": 0.35,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "entra": "izq"
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 19,
+        "texto": "Yo me quedé en la esclusa, con la nariz pegada al cristal. El viento de Marte no tumba a nadie. El peligro era el frío. Y la oscuridad.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "dia",
+          "ventana": true,
+          "clima": "polvo",
+          "props": [
+            {
+              "tipo": "consola",
+              "x": -1.0
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega_casa",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 20,
+        "texto": "Sol veinte. Tras horas de trabajo a ciegas, la antena giró. Apuntó a un cielo que no veíamos. Y un cuarto de hora después llegó la respuesta de una pediatra de la Tierra.",
+        "drama": 0.8,
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Recibido. Os ayudamos. Contadme cómo respira.",
+          "firma": "Mensaje de la Tierra, sol 20 (imaginado)"
+        }
+      },
+      {
+        "dia": 20,
+        "texto": "Con mensajes que tardaban un cuarto de hora en cada sentido, la doctora ajustó el tratamiento. Esa noche, la fiebre de Nilo empezó a bajar.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "consola",
+              "x": -0.9
+            },
+            {
+              "tipo": "cama",
+              "x": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "medico",
+            "x": -0.5,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "bebe",
+            "x": 0.5,
+            "accion": "dormir",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 21,
+        "texto": "Sol veintiuno. A mediodía, mi sombra apareció en el suelo, pálida, por primera vez en dos semanas. Nos quedamos todos mirándola.",
+        "fondo": {
+          "lugar": "marte",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "habitat",
+              "x": -1.1
+            },
+            {
+              "tipo": "rover",
+              "x": 1.1
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega",
+            "x": 0,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "madre",
+            "x": -0.6,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 22,
+        "capitulo": "Un lucero azul",
+        "texto": "Sol veintidós. Llegó de golpe una avalancha de mensajes. Preguntas viejas, felicitaciones adelantadas, abuelos asustados. Me reí hasta llorar.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "consola",
+              "x": 0.8
+            },
+            {
+              "tipo": "mesa",
+              "x": -0.6
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega_casa",
+            "x": 0,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 23,
+        "texto": "Sol veintitrés. Limpiamos los paneles con robots escoba y escobas de mano. Yo, atada a mi cuerda naranja, frotaba el polvo de los bordes.",
+        "fondo": {
+          "lugar": "marte",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "panel-solar",
+              "x": -1.0
+            },
+            {
+              "tipo": "panel-solar",
+              "x": -0.4
+            },
+            {
+              "tipo": "antena",
+              "x": 1.1
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega",
+            "x": -0.3,
+            "accion": "trabajar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "padre",
+            "x": 0.4,
+            "accion": "trabajar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 25,
+        "texto": "Sol veinticinco. La doctora Adeyemi me propuso un plan: dormir en la centrifugadora, entrenar, esperar. Quizá algún día. Le dije que ahora no: quería saber qué escondía el delta bajo mis pies.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "consola",
+              "x": -0.9
+            },
+            {
+              "tipo": "cama",
+              "x": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "medico",
+            "x": -0.5,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "vega_casa",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 27,
+        "texto": "Sol veintisiete. Mi quinto cumpleaños marciano. Tarta de boniato con chocolate, la moneda más valiosa de la colonia. Y un regalo escondido.",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Mi quinto cumpleaños marciano",
+          "items": [
+            {
+              "icono": "🍠",
+              "nombre": "Tarta de boniato"
+            },
+            {
+              "icono": "🍫",
+              "nombre": "Chocolate de la última nave"
+            },
+            {
+              "icono": "🧡",
+              "nombre": "Mi primer traje de talla adulta"
+            },
+            {
+              "icono": "💧",
+              "nombre": "Un frasco secreto"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 27,
+        "texto": "Mi padre me dio un frasco de cristal. Agua del Mediterráneo, de la playa de Almuñécar. Mis abuelos la habían mandado en la última nave. Era mi primer mar.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0
+            },
+            {
+              "tipo": "cajas",
+              "x": -1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "padre_casa",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "vega_casa",
+            "x": 0.35,
+            "accion": "cargar",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "💧"
+          },
+          {
+            "quien": "madre_casa",
+            "x": 0.8,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 29,
+        "texto": "Sol veintinueve. Con el aire por fin limpio, subimos al borde del cráter. El cielo se volvió azul alrededor del Sol poniente.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "marte",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.1
+            },
+            {
+              "tipo": "rover",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "madre",
+            "x": -0.4,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "entra": "izq"
+          },
+          {
+            "quien": "vega",
+            "x": 0.25,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "entra": "izq"
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 29,
+        "texto": "Cuando el Sol se puso, mi madre señaló un punto. Un lucero azulado, muy brillante, sobre el horizonte. No era una estrella. Era la Tierra.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "marte",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.1
+            },
+            {
+              "tipo": "rover",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "madre",
+            "x": -0.4,
+            "accion": "senalar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "vega",
+            "x": 0.25,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "subir"
+      },
+      {
+        "dia": 29,
+        "texto": "Allí estaban mis abuelos. La lluvia. El mar. Y entendí que se puede querer un sitio sin haberlo pisado nunca.",
+        "drama": 0.5,
+        "personajes": [
+          {
+            "quien": "vega",
+            "x": 0.2,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 30,
+        "texto": "Sol treinta. Escribí en mi diario: yo nací aquí. Esto es mi casa. Y aquel punto azul, también.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -0.9
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.1
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega_casa",
+            "x": 0,
+            "accion": "escribir",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "texto": "Hoy soy geóloga, como mi madre. Nunca he pisado la Tierra. Pero aquel frasco de mar sigue en mi mesa, junto a un canto rodado del delta.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "marte",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "habitat",
+              "x": -1.1
+            },
+            {
+              "tipo": "antena",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "madre",
+            "x": 0.2,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Vega y la Base Jezero son inventadas; la ciencia de Marte que has visto es real. ¿Qué mes del futuro quieres vivir? Déjalo en los comentarios y suscríbete.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "marte",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "habitat",
+              "x": -1.1
+            },
+            {
+              "tipo": "rover",
+              "x": 1.1
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vega",
+            "x": 0.3,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      }
+    ]
+  },
+  "publicacion": {
+    "tituloLargo": "Un mes en la vida de LA PRIMERA NIÑA NACIDA EN MARTE (2061) | Una tormenta de polvo apaga la colonia",
+    "tituloShort": "Nací en Marte… y quizá nunca pueda ir a la Tierra 🔴 #marte",
+    "descripcion": "Treinta soles en la vida de Vega, la primera niña nacida en Marte, en una colonia del cráter Jezero en el año 2061. Un mes de clases en diferido, tomates polinizados con pincel, un paseo atada a una cuerda por el delta de un lago muerto hace más de 3.500 millones de años… y una tormenta de polvo global que tapa los paneles solares, rompe la antena y deja a la colonia sin luz y sin voz justo cuando el bebé de la base enferma.\n\nAVISO: Vega, su familia, la Base Jezero y todo lo que ocurre en 2061 son FICCIÓN. La ciencia de partida es real: la gravedad marciana (38 %), el sol de 24 h 39 min, el cielo caramelo y el atardecer azul (Curiosity, 2015), las temperaturas medidas por MEDA en Jezero, la radiación medida por RAD, el retraso de 3 a 22 minutos de las comunicaciones, la tormenta global de 2018 que acabó con Opportunity, los 72 vuelos de Ingenuity, MOXIE y los reactores Kilopower, y la Tierra vista desde Marte como un lucero (PIA17936). Lo que les pasaría a los huesos y al corazón de una niña nacida en gravedad marciana NADIE lo sabe todavía: en el vídeo es un temor de los médicos, no un hecho probado.\n\n00:00 La primera niña de Marte\n— Semana 1: Nacida en el Delta\n— Semana 2: El cielo se apaga\n— Semana 3: La noche a mediodía\n— Semana 4: Un lucero azul\n— Epílogo\n\nFuentes: NASA Mars Facts; NASA/JPL (Perseverance, Ingenuity, MOXIE, PIA17936); Hassler et al., Science (2013); MEDA, Nature Geoscience (2022); MIT EAPS sobre el lago de Jezero; NASA, Kilopower/KRUSTY; Communications Biology (2023) sobre gravedad parcial.",
+    "etiquetas": [
+      "un mes en la vida de",
+      "Marte",
+      "colonia en Marte",
+      "cráter Jezero",
+      "ciencia ficción",
+      "futuro",
+      "Perseverance",
+      "Ingenuity",
+      "tormenta de polvo",
+      "astronomía",
+      "2061",
+      "animación"
+    ]
+  }
+}
