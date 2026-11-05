@@ -1,0 +1,2022 @@
+{
+  "slug": "carter-1922",
+  "titulo": "Howard Carter",
+  "lugar": "Valle de los Reyes, Egipto",
+  "epoca": "Noviembre de 1922",
+  "categoria": "persona",
+  "drama": 0.7,
+  "velocidad": 1.15,
+  "musica": "misterio",
+  "paleta": {
+    "acento": "#e8b830",
+    "texto": "#f7ecd4",
+    "fondo": "#1a1208",
+    "papel": "#efe2c4"
+  },
+  "reparto": {
+    "carter": {
+      "piel": "#ebc29e",
+      "pelo": "#3a2a1e",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#2b2a2e",
+        "color2": "#2b2a2e",
+        "detalle": "#7a1f1f"
+      },
+      "sombrero": "ala",
+      "colorSombrero": "#5a4a3a",
+      "zapatos": "#2a1e14"
+    },
+    "carnarvon": {
+      "piel": "#f1d0b4",
+      "pelo": "#8a7a6a",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#d8cdb4",
+        "color2": "#c9bda2",
+        "detalle": "#4a3a2a"
+      },
+      "sombrero": "ala",
+      "colorSombrero": "#e6dcc4",
+      "gafas": false,
+      "zapatos": "#5a3a22"
+    },
+    "evelyn": {
+      "piel": "#f3d2b8",
+      "pelo": "#3a2418",
+      "peinado": "corto",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#ece0cb",
+        "color2": "#d8ccb4",
+        "detalle": "#b08a4a"
+      },
+      "sombrero": "ala",
+      "colorSombrero": "#c9b89a",
+      "zapatos": "#7a5a3a"
+    },
+    "gerigar": {
+      "piel": "#9a6a48",
+      "pelo": "#222",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "galabiya",
+        "color": "#e8e0d0",
+        "color2": "#e8e0d0",
+        "detalle": "#8a7a5a"
+      },
+      "sombrero": "turbante",
+      "colorSombrero": "#f5f0e6",
+      "zapatos": "#6a4a2a"
+    },
+    "aguador": {
+      "piel": "#a8714c",
+      "pelo": "#1e1a16",
+      "peinado": "rapado",
+      "altura": 0.62,
+      "ropa": {
+        "tipo": "galabiya",
+        "color": "#b8a080",
+        "color2": "#b8a080",
+        "detalle": "#7a6448"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#a8714c"
+    },
+    "callender": {
+      "piel": "#e8bf9a",
+      "pelo": "#9a8a7a",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#cfc3a8",
+        "color2": "#bfb398",
+        "detalle": "#5a4a3a"
+      },
+      "sombrero": "salacot",
+      "colorSombrero": "#e6dcc4",
+      "zapatos": "#5a3a22"
+    },
+    "obrero": {
+      "piel": "#8f5e3e",
+      "pelo": "#1a1a1a",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "galabiya",
+        "color": "#4a5a6e",
+        "color2": "#4a5a6e",
+        "detalle": "#2e3a48"
+      },
+      "sombrero": "turbante",
+      "colorSombrero": "#efe8da",
+      "zapatos": "#8f5e3e"
+    },
+    "mudir": {
+      "piel": "#b88a64",
+      "pelo": "#222",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#1e1e24",
+        "color2": "#1e1e24",
+        "detalle": "#c9a24a"
+      },
+      "sombrero": "fez",
+      "colorSombrero": "#9a1f1f",
+      "zapatos": "#111"
+    }
+  },
+  "short": {
+    "escenas": [
+      {
+        "texto": "Seis años cavando en el Valle de los Reyes. Ni una tumba. Y mi mecenas me concede una última temporada para encontrar algo.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "valle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tumba",
+              "x": -1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": 0.2,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": -1
+          }
+        ]
+      },
+      {
+        "dia": 4,
+        "texto": "Al cuarto día, bajo unas cabañas de obreros de hace tres mil años, aparece un escalón tallado en la roca.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "valle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "escalera",
+              "x": 0
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.3,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1
+          },
+          {
+            "quien": "gerigar",
+            "x": 0.35,
+            "accion": "senalar",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 5,
+        "texto": "Doce escalones más abajo, una puerta. Tapiada. Con los sellos de la necrópolis real intactos.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "roca",
+          "hora": "noche",
+          "props": [
+            {
+              "tipo": "puerta",
+              "x": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.3,
+            "accion": "quieto",
+            "objeto": "🔦",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 6,
+        "texto": "Y hago algo que nadie entiende. La vuelvo a enterrar. Y mando un telegrama a Inglaterra.",
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "velero",
+              "x": -1.1
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": 0,
+            "accion": "quieto",
+            "objeto": "📜"
+          }
+        ]
+      },
+      {
+        "dia": 24,
+        "texto": "Diecisiete días de espera. Cuando por fin despejamos la puerta, aparece un nombre en los sellos. Tutankamón.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "roca",
+          "hora": "dia",
+          "props": [
+            {
+              "tipo": "puerta",
+              "x": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.3,
+            "accion": "senalar",
+            "mirar": 1
+          }
+        ]
+      },
+      {
+        "dia": 26,
+        "texto": "Dos días después, al fondo de un corredor, otra puerta. Abro un agujero. Acerco una vela. La llama tiembla.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.25,
+            "accion": "quieto",
+            "objeto": "🕯",
+            "emocion": "miedo",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 26,
+        "texto": "Detrás de mí, Lord Carnarvon pregunta si veo algo. Y yo apenas puedo hablar.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "roca",
+          "hora": "noche",
+          "props": [
+            "tesoro",
+            {
+              "tipo": "estatua",
+              "x": -1.25
+            },
+            {
+              "tipo": "estatua",
+              "x": 1.25
+            },
+            {
+              "tipo": "carro-dorado",
+              "x": -0.6,
+              "detras": true
+            },
+            {
+              "tipo": "jarron",
+              "x": 0.6
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": 0,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Lo que vi aquella tarde cambió mi vida. Lo que pasó después, todavía más. Y lo que escribí en mi diario no fue lo que conté al mundo. Te lo cuento en el mes completo.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "valle",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "escalera",
+              "x": 0.6
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.1,
+            "accion": "quieto",
+            "mirar": 1
+          }
+        ]
+      }
+    ]
+  },
+  "largo": {
+    "escenas": [
+      {
+        "texto": "Durante seis años he cavado en este valle. Y no he encontrado nada. Me queda una última temporada. Si fracaso, todo habrá terminado.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "valle",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tumba",
+              "x": -1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": 0.5,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": -1
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Este es el mes en que el valle me devolvió el nombre de un rey. Pero yo todavía no lo sé. Ahora mismo, solo soy un hombre al que se le acaba el tiempo.",
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": 0.35,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 1,
+        "capitulo": "El primer escalón",
+        "texto": "Primero de noviembre de mil novecientos veintidós. Me llamo Howard Carter. Tengo cuarenta y ocho años, y llevo treinta y uno en Egipto.",
+        "fondo": {
+          "lugar": "valle",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tumba",
+              "x": -1.2
+            },
+            {
+              "tipo": "🐴",
+              "x": 1.3,
+              "escala": 0.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": 0,
+            "accion": "caminar",
+            "entra": "izq"
+          }
+        ]
+      },
+      {
+        "dia": 1,
+        "texto": "Estoy en el Valle de los Reyes, en la orilla oeste del Nilo, frente a Luxor. Aquí enterraron a los faraones. Y aquí, casi todo fue saqueado hace siglos.",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Valle de los Reyes",
+          "detalle": "Luxor · Egipto · 1922",
+          "icono": "📍"
+        }
+      },
+      {
+        "dia": 1,
+        "texto": "Llegué con diecisiete años, para copiar las pinturas de las tumbas. No fui a la universidad. Algunos sabios todavía me miran por encima del hombro.",
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": 0.2,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 1,
+        "texto": "Desde mil novecientos siete trabajo para Lord Carnarvon. Él pone el dinero. Yo pongo la paciencia. Y la terquedad.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.9
+            },
+            {
+              "tipo": "estanteria",
+              "x": -1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.3,
+            "accion": "hablar",
+            "mirar": 1
+          }
+        ]
+      },
+      {
+        "dia": 1,
+        "texto": "Este verano, en su castillo de Highclere, me dijo que lo dejaba. Demasiado gasto. Demasiados años en blanco. Le convencí de pagar una temporada más. La última.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.3,
+            "accion": "pensar",
+            "emocion": "cansado",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 1,
+        "texto": "Seis temporadas en este valle. Y lo mejor que he sacado son trece jarras de alabastro. Ni una tumba. Ni un rey.",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "6",
+          "etiqueta": "temporadas sin un gran hallazgo (1917–1922)",
+          "icono": "⛏"
+        }
+      },
+      {
+        "dia": 1,
+        "texto": "Pero me queda un rincón. Junto a la tumba de Ramsés Sexto hay unas cabañas viejas de obreros, de hace tres mil años. Nadie ha mirado debajo.",
+        "fondo": {
+          "lugar": "valle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tumba",
+              "x": -1.25
+            },
+            {
+              "tipo": "cabana",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.4,
+            "accion": "senalar",
+            "mirar": 1
+          },
+          {
+            "quien": "gerigar",
+            "x": 0.45,
+            "accion": "quieto",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 1,
+        "texto": "Mi capataz, el reis Ahmed Gerigar, da las órdenes en árabe. Los hombres pican. Los chicos se llevan la tierra en cestos, cantando.",
+        "personajes": [
+          {
+            "quien": "gerigar",
+            "x": -0.6,
+            "accion": "hablar",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "obrero",
+            "x": 0.1,
+            "accion": "trabajar",
+            "habla": false
+          },
+          {
+            "quien": "aguador",
+            "x": 0.7,
+            "accion": "cargar",
+            "objeto": "🧺",
+            "habla": false,
+            "mirar": -1
+          }
+        ]
+      },
+      {
+        "dia": 3,
+        "texto": "Día dos. Día tres. Polvo, sol y cestos. Por las noches refresca, y yo apunto en mi diario lo mismo de siempre. Nada.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.9
+            },
+            {
+              "tipo": "estanteria",
+              "x": -1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": 0.2,
+            "accion": "escribir",
+            "emocion": "cansado",
+            "habla": false
+          }
+        ],
+        "drama": 0.55
+      },
+      {
+        "dia": 4,
+        "texto": "Cuatro de noviembre. Llego al valle por la mañana y algo va mal. No se oye nada. Ni picos. Ni canciones. Un silencio que no es normal.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "valle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "cabana",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.5,
+            "accion": "caminar",
+            "entra": "izq",
+            "emocion": "miedo"
+          },
+          {
+            "quien": "obrero",
+            "x": 0.5,
+            "accion": "quieto",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 4,
+        "texto": "Bajo la primera cabaña han encontrado un escalón. Un escalón tallado en la roca.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "valle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "escalera",
+              "x": 0
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.55,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1
+          },
+          {
+            "quien": "gerigar",
+            "x": 0.55,
+            "accion": "senalar",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 4,
+        "texto": "Años después, en Qurna, contarían que lo halló un niño aguador, al cavar para asentar sus jarras. Yo nunca lo escribí. Pero la historia sigue viva.",
+        "drama": 0.5,
+        "personajes": [
+          {
+            "quien": "aguador",
+            "x": 0.45,
+            "accion": "quieto",
+            "objeto": "🏺",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "carter",
+            "x": -0.45,
+            "accion": "quieto",
+            "mirar": 1,
+            "habla": true
+          }
+        ]
+      },
+      {
+        "dia": 4,
+        "texto": "Esa noche, en mi diario de bolsillo, solo cabe una línea.",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Encontrados los primeros escalones de la tumba.",
+          "firma": "Diario de Carter, 4 de noviembre de 1922"
+        }
+      },
+      {
+        "dia": 5,
+        "texto": "Cinco de noviembre. Cavamos todo el día. Un escalón. Otro. Otro más. Cuando se pone el sol, ya vamos por el duodécimo.",
+        "fondo": {
+          "lugar": "valle",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "escalera",
+              "x": 0.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.6,
+            "accion": "hablar",
+            "mirar": 1
+          },
+          {
+            "quien": "obrero",
+            "x": 0.6,
+            "accion": "trabajar",
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 5,
+        "texto": "Y entonces aparece. La parte de arriba de una puerta. Tapiada. Enlucida. Y sellada.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "roca",
+          "hora": "noche",
+          "props": [
+            {
+              "tipo": "puerta",
+              "x": 0.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.5,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 5,
+        "texto": "Los sellos muestran un chacal sobre nueve prisioneros atados. Es el sello de la necrópolis real. Esto no es la tumba de cualquiera.",
+        "drama": 0.8,
+        "insercion": {
+          "tipo": "dato",
+          "valor": "9",
+          "etiqueta": "cautivos bajo el chacal: sello de la necrópolis real",
+          "icono": "🔏"
+        }
+      },
+      {
+        "dia": 5,
+        "texto": "Hago un agujerito bajo el dintel. Meto la linterna eléctrica. Al otro lado, un pasillo lleno de cascotes hasta el techo. Y no sé de quién es.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.2,
+            "accion": "trabajar",
+            "objeto": "🔦",
+            "mirar": 1
+          }
+        ]
+      },
+      {
+        "dia": 5,
+        "texto": "Podría seguir. Nadie me lo impediría. Pero esta tumba no es solo mía. Tengo que esperar a Carnarvon.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.2,
+            "accion": "pensar",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 6,
+        "texto": "Seis de noviembre. Hago algo que parece una locura. Mando llenar otra vez la escalera de arena y piedras. Y pongo guardias de confianza.",
+        "fondo": {
+          "lugar": "valle",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": 0.1
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.6,
+            "accion": "hablar",
+            "mirar": 1
+          },
+          {
+            "quien": "gerigar",
+            "x": 0.1,
+            "accion": "quieto",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "obrero",
+            "x": 0.7,
+            "accion": "cargar",
+            "objeto": "🧺",
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 6,
+        "texto": "Luego cruzo el Nilo en barca hasta Luxor, hasta la oficina de telégrafos. No hay puente. Solo agua lenta y velas blancas.",
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "velero",
+              "x": -1.1
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": 0.3,
+            "accion": "caminar",
+            "entra": "izq",
+            "mirar": 1
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 6,
+        "texto": "Allí escribo el telegrama más importante de mi vida.",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Por fin he hecho un descubrimiento maravilloso en el Valle; una tumba magnífica con los sellos intactos; la he vuelto a tapar hasta su llegada; felicidades.",
+          "firma": "Telegrama a Lord Carnarvon, 6 de noviembre de 1922"
+        }
+      },
+      {
+        "dia": 7,
+        "texto": "Pronto llega su respuesta, en estilo telegráfico: «Posiblemente vaya pronto». Y poco después, otra: «Propongo llegar a Alejandría el veinte».",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.9
+            },
+            {
+              "tipo": "estanteria",
+              "x": -1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": 0.1,
+            "accion": "quieto",
+            "objeto": "📜",
+            "emocion": "feliz"
+          }
+        ]
+      },
+      {
+        "dia": 7,
+        "texto": "El día veinte. Dos semanas de espera, con un secreto enterrado a dos pasos del camino de los turistas.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": 0.1,
+            "accion": "pensar",
+            "emocion": "neutral"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 8,
+        "capitulo": "La espera",
+        "texto": "La espera es lo peor. Cada mañana subo al valle y miro el montón de arena. Parece nada. Debajo puede estar todo.",
+        "fondo": {
+          "lugar": "valle",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": 0.2
+            },
+            {
+              "tipo": "tumba",
+              "x": -1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.4,
+            "accion": "quieto",
+            "mirar": 1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 9,
+        "texto": "Vivo en una casa de adobe con cúpula que yo mismo diseñé, a la entrada del camino del valle. Me sirven té. Yo apenas duermo.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.9
+            },
+            {
+              "tipo": "estanteria",
+              "x": -1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": 0.2,
+            "accion": "sentado",
+            "objeto": "🫖",
+            "emocion": "cansado"
+          }
+        ],
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1910",
+          "etiqueta": "año en que construí mi casa a la entrada del valle",
+          "icono": "🏠"
+        }
+      },
+      {
+        "dia": 10,
+        "texto": "Diez de noviembre. Llega Arthur Callender, al que todos llaman Pecky. Es ingeniero de ferrocarriles retirado, y amigo mío. Lo he llamado yo.",
+        "fondo": {
+          "lugar": "valle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": 0.1
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.5,
+            "accion": "saludar",
+            "mirar": 1
+          },
+          {
+            "quien": "callender",
+            "x": 0.5,
+            "accion": "caminar",
+            "entra": "der",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 10,
+        "texto": "Le enseño el montón de arena. Él no ve nada. Yo veo una puerta sellada.",
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.5,
+            "accion": "senalar",
+            "mirar": 1
+          },
+          {
+            "quien": "callender",
+            "x": 0.5,
+            "accion": "pensar",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 12,
+        "texto": "Noviembre es la estación fresca en Luxor. Días templados, un sol que ciega sobre la caliza y noches frías. Por eso excavamos en invierno.",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "25–30 °C",
+          "etiqueta": "de día en noviembre; de noche, frío",
+          "icono": "☀"
+        }
+      },
+      {
+        "dia": 13,
+        "texto": "Los guardias vigilan día y noche. En el pueblo ya se habla de la tumba. Se contará que yo traje un canario en una jaula dorada, y que los obreros la llamaron la tumba del pájaro de oro.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "valle",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "hoguera",
+              "x": 0
+            },
+            {
+              "tipo": "🐦",
+              "x": 1.3,
+              "escala": 0.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "gerigar",
+            "x": -0.5,
+            "accion": "quieto",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "obrero",
+            "x": 0.5,
+            "accion": "sentado",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 14,
+        "texto": "Repaso mis notas una y otra vez. Los sellos son reales. Pero la entrada es estrecha. ¿Y si es solo un escondrijo? ¿Y si los ladrones llegaron antes?",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.9
+            },
+            {
+              "tipo": "estanteria",
+              "x": -1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": 0.1,
+            "accion": "escribir",
+            "emocion": "miedo",
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 16,
+        "texto": "Pienso en Theodore Davis, el americano que tuvo este permiso antes que nosotros. Lo dejó en mil novecientos catorce, convencido de que el valle estaba agotado.",
+        "fondo": {
+          "lugar": "valle",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tumba",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.3,
+            "accion": "pensar",
+            "mirar": 1
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 16,
+        "texto": "Si tenía razón, he vuelto a enterrar una ilusión. Si se equivocó, la historia está a punto de cambiar.",
+        "drama": 0.6,
+        "camara": "cerca"
+      },
+      {
+        "dia": 18,
+        "texto": "Hacia mediados de mes viajo a El Cairo para recibir a Carnarvon y comprar material. Tren nocturno, coche cama, más de seiscientos kilómetros hacia el norte.",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Luxor → El Cairo",
+          "detalle": "unos 650 km en tren nocturno",
+          "icono": "🚂"
+        }
+      },
+      {
+        "dia": 19,
+        "texto": "Compro lo necesario para proteger lo que aún no he visto. Cajas, madera, material para una puerta de seguridad.",
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "dia",
+          "clima": "polvo",
+          "props": [
+            {
+              "tipo": "cajas",
+              "x": 0.9
+            },
+            {
+              "tipo": "puesto",
+              "x": -1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.2,
+            "accion": "cargar",
+            "objeto": "📦",
+            "mirar": 1
+          }
+        ]
+      },
+      {
+        "dia": 20,
+        "texto": "Mientras, Carnarvon cruza el mar hasta Alejandría. Casi dos semanas de viaje desde Inglaterra. Todo por un telegrama mío.",
+        "fondo": {
+          "lugar": "playa",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barco",
+              "x": -1.0,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carnarvon",
+            "x": 0.4,
+            "accion": "quieto",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 21,
+        "capitulo": "El nombre del rey",
+        "texto": "Veintiuno de noviembre. Vuelvo a Luxor. Y en pocos días, Callender y los hombres se ponen a vaciar otra vez la escalera que yo mandé tapar.",
+        "fondo": {
+          "lugar": "valle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "escalera",
+              "x": 0.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.6,
+            "accion": "hablar",
+            "mirar": 1
+          },
+          {
+            "quien": "callender",
+            "x": 0.6,
+            "accion": "trabajar",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 23,
+        "texto": "Veintitrés de noviembre. Lord Carnarvon llega a Luxor. Y no viene solo. Le acompaña su hija, Lady Evelyn, de veintiún años.",
+        "fondo": {
+          "lugar": "playa",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "velero",
+              "x": -1.1
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.6,
+            "accion": "saludar",
+            "mirar": 1
+          },
+          {
+            "quien": "carnarvon",
+            "x": 0.2,
+            "accion": "saludar",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "evelyn",
+            "x": 0.75,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 23,
+        "texto": "Carnarvon tiene cincuenta y seis años y la salud frágil desde un accidente de coche. Le aprieto la mano. Los dos sabemos lo que nos jugamos.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.4,
+            "accion": "quieto",
+            "mirar": 1
+          },
+          {
+            "quien": "carnarvon",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 24,
+        "texto": "Veinticuatro de noviembre. La escalera queda limpia. Dieciséis escalones. Y en la parte baja de la puerta, por fin, aparece un nombre.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "roca",
+          "hora": "dia",
+          "props": [
+            {
+              "tipo": "puerta",
+              "x": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.6,
+            "accion": "senalar",
+            "mirar": 1
+          },
+          {
+            "quien": "carnarvon",
+            "x": 0.85,
+            "accion": "quieto",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 24,
+        "texto": "Los sellos llevan el cartucho de un rey casi olvidado. Nebjeperura. Tutankamón. Un rey niño, de reinado breve.",
+        "drama": 0.8,
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Nebjeperura · Tutankamón",
+          "firma": "Sellos de la puerta, 24 de noviembre de 1922"
+        }
+      },
+      {
+        "dia": 24,
+        "texto": "Pero hay algo más. La puerta fue abierta y vuelta a sellar en la Antigüedad. Los ladrones estuvieron aquí. La pregunta es cuánto se llevaron.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.3,
+            "accion": "pensar",
+            "emocion": "miedo",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 24,
+        "texto": "Entre los escombros salen nombres de otros reyes. Akenatón. Tutmosis Tercero. Callender me mira. ¿Y si solo es un almacén de restos?",
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.5,
+            "accion": "hablar",
+            "mirar": 1
+          },
+          {
+            "quien": "callender",
+            "x": 0.5,
+            "accion": "pensar",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 25,
+        "texto": "Veinticinco de noviembre. Registramos los sellos y desmontamos la primera puerta. Detrás, un corredor que baja, relleno de piedra caliza.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "roca",
+          "hora": "dia",
+          "props": [
+            {
+              "tipo": "cajas",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.55,
+            "accion": "hablar",
+            "mirar": 1
+          },
+          {
+            "quien": "obrero",
+            "x": 0.4,
+            "accion": "cargar",
+            "objeto": "🧺",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 25,
+        "texto": "Lo vaciamos cesto a cesto. Salen trozos de cerámica, sellos de jarras, vasos de alabastro. Los ladrones abrieron un túnel. Alguien lo rellenó después.",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "En el corredor",
+          "items": [
+            {
+              "icono": "🏺",
+              "nombre": "Cerámica rota"
+            },
+            {
+              "icono": "🔏",
+              "nombre": "Sellos de jarras"
+            },
+            {
+              "icono": "⚱",
+              "nombre": "Vasos de alabastro"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 26,
+        "texto": "Veintiséis de noviembre. Domingo. El día de los días. Al fondo del corredor, a unos ocho metros, aparece otra puerta sellada.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "roca",
+          "hora": "noche",
+          "props": [
+            {
+              "tipo": "puerta",
+              "x": 0.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.15,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1
+          },
+          {
+            "quien": "carnarvon",
+            "x": -0.7,
+            "accion": "quieto",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "evelyn",
+            "x": 0.8,
+            "accion": "quieto",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 26,
+        "texto": "Me tiemblan las manos. Hacia las tres menos cuarto de la tarde, abro un agujero pequeño en la esquina de arriba, a la izquierda.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.1,
+            "accion": "trabajar",
+            "mirar": 1
+          },
+          {
+            "quien": "callender",
+            "x": -0.75,
+            "accion": "quieto",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 26,
+        "texto": "Acerco una vela. Si hay gases, la llama me avisará. La llama tiembla. Pero no se apaga.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.1,
+            "accion": "quieto",
+            "objeto": "🕯",
+            "emocion": "miedo",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 26,
+        "texto": "Agrando el agujero. Meto la vela. Y miro. Al principio, no veo nada. El aire caliente que sale de dentro hace bailar la llama.",
+        "drama": 0.9,
+        "camara": "cerca"
+      },
+      {
+        "dia": 26,
+        "texto": "Luego, poco a poco, mis ojos se acostumbran. Y de la penumbra salen formas. Animales extraños. Estatuas. Y oro. Por todas partes, el brillo del oro.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "roca",
+          "hora": "noche",
+          "props": [
+            "tesoro",
+            {
+              "tipo": "estatua",
+              "x": -1.25
+            },
+            {
+              "tipo": "estatua",
+              "x": 1.25
+            },
+            {
+              "tipo": "carro-dorado",
+              "x": -0.6,
+              "detras": true
+            },
+            {
+              "tipo": "jarron",
+              "x": 0.6
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": 0,
+            "accion": "quieto",
+            "objeto": "🕯",
+            "emocion": "sorpresa",
+            "mirar": 1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 26,
+        "texto": "Detrás de mí, Carnarvon ya no aguanta más el suspense.",
+        "drama": 0.9,
+        "insercion": {
+          "tipo": "cita",
+          "frase": "—¿Ve usted algo?\n—Sí, cosas maravillosas.",
+          "firma": "Según lo contó Carter en su libro (1923)"
+        }
+      },
+      {
+        "dia": 26,
+        "texto": "Así lo conté después en mi libro. Pero en mi diario de excavación, aquel día, escribí algo más sencillo. Sí, es maravilloso.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.9
+            },
+            {
+              "tipo": "estanteria",
+              "x": -1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": 0.1,
+            "accion": "escribir",
+            "emocion": "feliz",
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 26,
+        "texto": "Es la antecámara. Tres lechos funerarios con cabezas de animales. Carros desmontados. Un trono dorado. Y dos estatuas negras y oro, guardando una puerta sellada.",
+        "drama": 0.75,
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "La antecámara",
+          "items": [
+            {
+              "icono": "🛏",
+              "nombre": "Tres lechos funerarios"
+            },
+            {
+              "icono": "🐎",
+              "nombre": "Carros desmontados"
+            },
+            {
+              "icono": "🪑",
+              "nombre": "Un trono dorado"
+            },
+            {
+              "icono": "👑",
+              "nombre": "Dos estatuas del rey"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 26,
+        "texto": "Se ha dicho que esa misma noche volvimos los cuatro en secreto, y que pasamos más allá del muro sellado. Muchos egiptólogos lo creen. En mis diarios no hay ni una palabra.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "roca",
+          "hora": "noche",
+          "props": [
+            "tesoro",
+            {
+              "tipo": "estatua",
+              "x": -1.25
+            },
+            {
+              "tipo": "estatua",
+              "x": 1.25
+            },
+            {
+              "tipo": "carro-dorado",
+              "x": -0.6,
+              "detras": true
+            },
+            {
+              "tipo": "jarron",
+              "x": 0.6
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.5,
+            "accion": "quieto",
+            "mirar": 1
+          },
+          {
+            "quien": "evelyn",
+            "x": 0.1,
+            "accion": "quieto",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "callender",
+            "x": 0.7,
+            "accion": "quieto",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 27,
+        "capitulo": "El mundo llega",
+        "texto": "Veintisiete de noviembre. Callender instala luz eléctrica, conectada a la red que ya alumbra las tumbas de los turistas. Ahora sí lo vemos todo.",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "roca",
+          "hora": "dia",
+          "props": [
+            "tesoro",
+            {
+              "tipo": "estatua",
+              "x": -1.25
+            },
+            {
+              "tipo": "estatua",
+              "x": 1.25
+            },
+            {
+              "tipo": "carro-dorado",
+              "x": -0.6,
+              "detras": true
+            },
+            {
+              "tipo": "jarron",
+              "x": 0.6
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "callender",
+            "x": -0.5,
+            "accion": "trabajar",
+            "objeto": "💡",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "carter",
+            "x": 0.45,
+            "accion": "hablar",
+            "mirar": -1,
+            "habla": true
+          }
+        ]
+      },
+      {
+        "dia": 27,
+        "texto": "Bajo uno de los lechos, un agujero de ladrones lleva a otra cámara más. Y entre los dos guardianes, la puerta sellada sigue esperando.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "roca",
+          "hora": "dia",
+          "props": [
+            {
+              "tipo": "puerta",
+              "x": 0
+            },
+            {
+              "tipo": "estatua",
+              "x": -0.9
+            },
+            {
+              "tipo": "estatua",
+              "x": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.45,
+            "accion": "senalar",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 28,
+        "texto": "Contamos, anotamos, dibujamos. Cada objeto, un número. Cada número, una ficha. Si lo hacemos mal, se pierde para siempre.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.9
+            },
+            {
+              "tipo": "estanteria",
+              "x": -1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.3,
+            "accion": "escribir",
+            "mirar": 1
+          },
+          {
+            "quien": "callender",
+            "x": 0.55,
+            "accion": "sentado",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 29,
+        "texto": "Veintinueve de noviembre. Apertura oficial. Llegan Lady Allenby, esposa del Alto Comisionado británico, y el mudir, el gobernador de Qena. Y Arthur Merton, de The Times. Lo que escriba esta noche dará la vuelta al mundo.",
+        "fondo": {
+          "lugar": "valle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tienda",
+              "x": 1.25
+            },
+            {
+              "tipo": "bandera",
+              "x": -1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "mudir",
+            "x": -0.6,
+            "accion": "saludar",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "carnarvon",
+            "x": 0,
+            "accion": "hablar",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "carter",
+            "x": 0.6,
+            "accion": "hablar",
+            "mirar": -1,
+            "habla": true
+          }
+        ]
+      },
+      {
+        "dia": 30,
+        "texto": "Treinta de noviembre. The Times publica la crónica. De golpe, el valle se llena de curiosos, de periodistas, de telegramas.",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "30/11/1922",
+          "etiqueta": "The Times cuenta el hallazgo al mundo",
+          "icono": "📰"
+        }
+      },
+      {
+        "dia": 30,
+        "texto": "Hace un mes, era un hombre al que se le acababa el tiempo. Hoy, el mundo entero pronuncia un nombre que nadie recordaba. Y aún no he abierto la última puerta.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "valle",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "escalera",
+              "x": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.3,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Lo que vino después fue todavía más grande. El dieciséis de febrero de mil novecientos veintitrés abrimos la cámara funeraria. Detrás del muro, una capilla de madera dorada.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "jeroglificos",
+          "hora": "noche",
+          "props": [
+            {
+              "tipo": "puerta",
+              "x": 0.6
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.5,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1
+          }
+        ]
+      },
+      {
+        "texto": "Carnarvon no lo vio terminar. Murió el cinco de abril de ese año, en El Cairo. Se cortó al afeitarse una picadura de mosquito, se le infectó, y después llegó una neumonía.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "desierto",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "piramide",
+              "x": 1.2,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.2,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Los periódicos hablaron de una maldición. Que se apagaron las luces de El Cairo, aunque allí los apagones eran frecuentes. Que había una inscripción terrible en la tumba. Esa inscripción nunca existió.",
+        "drama": 0.7,
+        "insercion": {
+          "tipo": "dato",
+          "valor": "0",
+          "etiqueta": "inscripciones de maldición en la tumba",
+          "icono": "📜"
+        }
+      },
+      {
+        "texto": "Yo viví dieciséis años más. Lady Evelyn, que entró el primer día, vivió hasta mil novecientos ochenta. Mucho después, un estudio médico no halló maldición alguna.",
+        "fondo": {
+          "lugar": "valle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tumba",
+              "x": -1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.4,
+            "accion": "hablar",
+            "mirar": 1
+          },
+          {
+            "quien": "evelyn",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "texto": "Y el veintiocho de octubre de mil novecientos veinticinco, al abrir el último ataúd, de oro macizo, lo vi por fin. La máscara de oro del rey.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "jeroglificos",
+          "hora": "noche",
+          "props": [
+            {
+              "tipo": "sarcofago",
+              "x": 0.55
+            },
+            {
+              "tipo": "mascara",
+              "x": 0.55,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": -0.5,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Tardamos diez años en vaciar la tumba. Cinco mil trescientos noventa y ocho objetos, uno a uno. Y todo empezó con un solo escalón.",
+        "drama": 0.7,
+        "insercion": {
+          "tipo": "dato",
+          "valor": "5.398",
+          "etiqueta": "objetos en diez años de trabajo (1922–1932)",
+          "icono": "🏺"
+        }
+      },
+      {
+        "texto": "Carter, Carnarvon, Evelyn, Callender y Gerigar existieron de verdad; sus pensamientos y algunas escenas son imaginados. ¿De quién quieres vivir el próximo mes? Déjalo en los comentarios y suscríbete.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "valle",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "escalera",
+              "x": -0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carter",
+            "x": 0.3,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": -1
+          }
+        ]
+      }
+    ]
+  },
+  "publicacion": {
+    "tituloLargo": "Un mes en la vida de HOWARD CARTER (1922) | El mes que encontró la tumba de TUTANKAMÓN",
+    "tituloShort": "Le quedaba un mes… y encontró a Tutankamón 🏺 #historia",
+    "descripcion": "Treinta días en la vida de Howard Carter durante noviembre de 1922, el mes en que, tras seis temporadas sin éxito en el Valle de los Reyes, encontró la tumba de Tutankamón: el primer escalón (4 de noviembre), la puerta sellada, el telegrama a Lord Carnarvon y el agujero con la vela del 26 de noviembre.\n\nLos protagonistas son reales (Howard Carter, Lord Carnarvon, Lady Evelyn Herbert, Arthur Callender y el reis Ahmed Gerigar); los obreros y el niño aguador representan a personas sin nombre documentado (Howard Carter, Lord Carnarvon, Lady Evelyn Herbert, Arthur Callender y el reis Ahmed Gerigar), pero es una DRAMATIZACIÓN: los pensamientos y algunas escenas están imaginados. La historia del niño aguador, el canario y la entrada secreta de la noche del 26 se presentan como tradición o hipótesis, no como hechos probados. La «maldición» de Tutankamón está desmentida.\n\n00:00 Una última temporada\n— Semana 1: El primer escalón\n— Semana 2: La espera\n— Semana 3: El nombre del rey\n— Semana 4: El mundo llega\n— Epílogo: la cámara funeraria, la muerte de Carnarvon, la «maldición» y la máscara de oro (1925)\n\nFuentes: diario y journal de Howard Carter (Griffith Institute, Oxford); H. Carter, The Tomb of Tut.ankh.Amen, vol. I (1923); M. R. Nelson, BMJ (2002).",
+    "etiquetas": [
+      "un mes en la vida de",
+      "historia",
+      "Howard Carter",
+      "Tutankamón",
+      "Valle de los Reyes",
+      "Egipto",
+      "arqueología",
+      "Lord Carnarvon",
+      "antiguo Egipto",
+      "maldición de Tutankamón",
+      "1922",
+      "animación"
+    ]
+  }
+}

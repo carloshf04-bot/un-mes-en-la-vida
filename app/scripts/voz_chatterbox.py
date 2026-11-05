@@ -6,7 +6,7 @@ import json, re, sys, os, time
 os.environ.setdefault("HF_HUB_DISABLE_XET", "1")
 import torch, torchaudio as ta
 
-torch.set_num_threads(os.cpu_count() or 4)
+torch.set_num_threads(int(os.environ.get("HILOS", os.cpu_count() or 4)))
 from chatterbox.mtl_tts import ChatterboxMultilingualTTS
 
 ref, trabajos = sys.argv[1], json.load(open(sys.argv[2]))

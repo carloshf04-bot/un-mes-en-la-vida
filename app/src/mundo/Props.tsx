@@ -6,6 +6,7 @@ export const PROPS_DISPONIBLES = [
   "arbol", "pino", "palmera", "casa", "cabana", "faro", "barco", "velero", "cohete", "farola", "carro", "puesto",
   "roca", "valla", "pozo", "tumba", "hoguera", "tienda", "bandera", "mesa", "estanteria", "chimenea", "cama",
   "antorcha", "cuadro", "consola", "maquina", "barril", "cajas", "planta", "telescopio", "yunque", "piramide", "columna", "reloj",
+  "bergantin", "bergantin-hundido", "bote",
   "escalera", "puerta", "tesoro", "sarcofago", "mascara", "estatua", "jarron", "carro-dorado",
 ] as const;
 
@@ -348,6 +349,45 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean }> = ({ ti
           <line x1={0} y1={-580} x2={40} y2={-580} stroke="#222" strokeWidth={8} />
           <line x1={0} y1={-480} x2={0} y2={-220} stroke="#c9a24a" strokeWidth={8} transform={`rotate(${Math.sin(f / 8) * 14} 0 -480)`} />
           <circle cx={Math.sin((Math.sin(f / 8) * 14 * Math.PI) / 180) * -260} cy={-480 + Math.cos((Math.sin(f / 8) * 14 * Math.PI) / 180) * 260} r={24} fill="#c9a24a" />
+        </g>
+      );
+    case "bergantin":
+    case "bergantin-hundido": {
+      // barco de tres palos atrapado en el hielo (tipo Endurance); la versión hundida está escorada y medio tragada
+      const hundido = tipo === "bergantin-hundido";
+      const casco = (
+        <g>
+          <path d="M-420 0 L420 0 L360 140 L-380 140Z" fill="#2a1e18" />
+          <rect x={-400} y={-30} width={800} height={34} fill="#4a3426" />
+          {[-280, 0, 260].map((x, i) => (
+            <g key={x}>
+              <rect x={x - 9} y={-620 + i * 40} width={18} height={620 - i * 40} fill="#3a2a1e" />
+              {[0, 1, 2].map((k) => <rect key={k} x={x - 120 + k * 10} y={-560 + i * 40 + k * 150} width={240 - k * 20} height={8} fill="#3a2a1e" />)}
+            </g>
+          ))}
+          {[-280, 0, 260].map((x) => <line key={`c${x}`} x1={x} y1={-600} x2={-420} y2={-20} stroke="#3a2a1e" strokeWidth={3} opacity={0.6} />)}
+          <path d="M-420 -10 L-560 -160" stroke="#3a2a1e" strokeWidth={14} />
+          {/* hielo apretando el casco */}
+          {[-460, -300, 300, 460].map((x, i) => <polygon key={i} points={`${x - 80},150 ${x},${-40 - (i % 2) * 40} ${x + 90},150`} fill="#dfeaf3" stroke="#a9c3d6" strokeWidth={6} />)}
+        </g>
+      );
+      if (!hundido) return <g transform={`rotate(${Math.sin(f / 50) * 0.6})`}>{casco}</g>;
+      return (
+        <g>
+          <g transform={`translate(0 ${120 + f * 0.25}) rotate(${-18 - f * 0.02})`}>{casco}</g>
+          <rect x={-700} y={60} width={1400} height={400} fill="#e8f0f6" />
+          {[-500, -200, 150, 420].map((x, i) => <polygon key={i} points={`${x - 120},70 ${x},${-30 - i * 10} ${x + 130},70`} fill="#f4f8fb" stroke="#b9cfe0" strokeWidth={6} />)}
+        </g>
+      );
+    }
+    case "bote":
+      return (
+        <g>
+          <path d="M-300 -40 Q0 40 300 -40 L250 -140 L-250 -140Z" fill="#6b4a2e" />
+          <path d="M-250 -140 L250 -140" stroke="#3a2a1a" strokeWidth={14} />
+          {[-150, 0, 150].map((x) => <rect key={x} x={x - 8} y={-140} width={16} height={60} fill="#3a2a1a" />)}
+          <rect x={-8} y={-460} width={16} height={330} fill="#3a2a1a" />
+          <path d="M8 -450 Q140 -320 8 -170Z" fill="#d9cfb8" />
         </g>
       );
     case "escalera":

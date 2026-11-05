@@ -102,7 +102,7 @@ const producirPieza = (formato) => {
   const cache = join(obra, "cache-voz");
   mkdirSync(cache, { recursive: true });
   const dramaBase = guion.drama ?? 0.65;
-  const clave = (e) => createHash("sha1").update(`${motor}|${voz}|${guion.velocidad ?? 1}|${e.drama ?? dramaBase}|${e.texto}`).digest("hex").slice(0, 16);
+  const clave = (e) => createHash("sha1").update(`${motor}|${voz}|${motor === "chatterbox" ? 1 : guion.velocidad ?? 1}|${e.drama ?? dramaBase}|${e.texto}`).digest("hex").slice(0, 16);
   const trabajos = escenas.map((e) => ({ texto: e.texto, drama: e.drama ?? dramaBase, salida: join(cache, `${clave(e)}.wav`) }));
   const pendientes = trabajos.filter((t) => !existsSync(t.salida));
   if (pendientes.length) {

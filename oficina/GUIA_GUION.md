@@ -4,10 +4,10 @@ Cada episodio es **un archivo JSON** en `guiones/<slug>.json`. De ese archivo sa
 
 | Pieza | Formato | Duración | Escenas | Palabras |
 |---|---|---|---|---|
-| `largo` | Horizontal 1920×1080 (YouTube) | **10–13 min** | 55–75 | 1.600–2.000 |
-| `short` | Vertical 1080×1920 (Shorts/TikTok/Reels) | **45–60 s** | 6–9 | 120–160 |
+| `largo` | Horizontal 1920×1080 (YouTube) | **10–13 min** | 50–65 | 1.350–1.550 |
+| `short` | Vertical 1080×1920 (Shorts/TikTok/Reels) | **45–60 s** | 6–8 | 100–125 |
 
-La voz (Chatterbox, narrador de España) lee unas 140–150 palabras por minuto. Para comprobarlo, ejecuta `node scripts/producir.mjs <slug> --sin-render` y mira la línea "duración total".
+La voz (Chatterbox, narrador de España, con `"velocidad": 1.15`) lee unas **120 palabras por minuto**: el largo ideal tiene **1.350–1.550 palabras** (unos 12 min) y el Short **100–125**. Para comprobarlo, ejecuta `node scripts/producir.mjs <slug> --sin-render` y mira la línea "duración total".
 
 ## Reglas de escritura
 
@@ -37,7 +37,7 @@ La voz (Chatterbox, narrador de España) lee unas 140–150 palabras por minuto.
   "categoria": "epoca | persona | profesion | futuro",
   // VOZ: por defecto Chatterbox con el narrador masculino de España (voces/referencia/narrador-es.wav). No cambiar salvo petición expresa.
   "drama": 0.65,                      // expresividad global de la voz (0.4 sereno · 0.65 documental · 0.85 muy dramático)
-  "velocidad": 1.0,
+  "velocidad": 1.15,                  // con Chatterbox: acelera el audio sin cambiar el tono (recomendado 1.15)
   "musica": "calma | nostalgia | tension | epico | futuro | misterio",
   "paleta": { "acento": "#f2b544", "texto": "#f5efe0", "fondo": "#0c1424", "papel": "#f3e9d2" },
   "reparto": { "<id>": Look, ... },
@@ -77,7 +77,7 @@ La voz (Chatterbox, narrador de España) lee unas 140–150 palabras por minuto.
 
 - **lugar:** `mar`, `playa`, `montanas`, `hielo`, `ciudad`, `futurista`, `desierto`, `valle` (acantilados de caliza, tipo Valle de los Reyes), `campo`, `bosque`, `selva`, `espacio`, `luna`, `calle` (calle antigua empedrada) o `interior`.
 - **pared** (interior): `piedra`, `madera`, `ladrillo`, `metal`, `papel`, `tela`, `roca` o `jeroglificos` (tumba egipcia pintada).
-- **props:** `arbol`, `pino`, `palmera`, `casa`, `cabana`, `faro`, `barco` (vapor), `velero`, `cohete`, `farola`, `carro`, `puesto` (de mercado), `roca`, `valla`, `pozo`, `tumba`, `hoguera`, `tienda` (de campaña), `bandera`, `mesa`, `estanteria`, `chimenea`, `cama`, `antorcha`, `cuadro`, `consola` (sci-fi), `maquina` (industrial), `barril`, `cajas`, `planta`, `telescopio`, `yunque`, `piramide`, `columna`, `reloj`, `escalera` (escalones excavados que bajan), `puerta` (puerta tapiada con sellos), `tesoro` (montón de oro y objetos), `sarcofago`, `mascara` (máscara funeraria de oro), `estatua` (guardián negro y oro), `jarron` (de alabastro) y `carro-dorado`.
+- **props:** `arbol`, `pino`, `palmera`, `casa`, `cabana`, `faro`, `barco` (vapor), `velero`, `cohete`, `farola`, `carro`, `puesto` (de mercado), `roca`, `valla`, `pozo`, `tumba`, `hoguera`, `tienda` (de campaña), `bandera`, `mesa`, `estanteria`, `chimenea`, `cama`, `antorcha`, `cuadro`, `consola` (sci-fi), `maquina` (industrial), `barril`, `cajas`, `planta`, `telescopio`, `yunque`, `piramide`, `columna`, `reloj`, `escalera` (escalones excavados que bajan), `puerta` (puerta tapiada con sellos), `tesoro` (montón de oro y objetos), `sarcofago`, `mascara` (máscara funeraria de oro), `estatua` (guardián negro y oro), `jarron` (de alabastro), `carro-dorado`, `bergantin` (barco de tres palos atrapado en hielo), `bergantin-hundido` (escorado, se hunde lentamente) y `bote` (bote salvavidas con vela).
 - **Emoji como prop:** cualquier otro texto en `tipo` se dibuja como emoji gigante (`{ "tipo": "🌼", "x": 0.6, "escala": 0.5 }`).
 - **Posición `x` de los props:** sin `x` se reparten solos. Con `x` entre −1.5 y 1.5, el vertical los acerca al centro automáticamente.
 - **Ambiente sonoro:** se elige solo según lugar, clima y props (lluvia, mar, viento, fuego, zumbido, ciudad).

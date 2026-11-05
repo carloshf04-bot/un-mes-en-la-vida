@@ -1,0 +1,2229 @@
+{
+  "slug": "endurance-1915",
+  "titulo": "un polizón en la Antártida",
+  "lugar": "Mar de Weddell, Antártida",
+  "epoca": "Noviembre de 1915",
+  "categoria": "epoca",
+  "drama": 0.7,
+  "velocidad": 1.15,
+  "musica": "tension",
+  "paleta": {
+    "acento": "#7fd3ff",
+    "texto": "#eef6fb",
+    "fondo": "#071423",
+    "papel": "#eef3f7"
+  },
+  "reparto": {
+    "blackborow": {
+      "piel": "#f1c7a3",
+      "pelo": "#4a3020",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#7a6648",
+        "color2": "#3e3a36",
+        "detalle": "#b59a6a"
+      },
+      "sombrero": "capucha",
+      "colorSombrero": "#a8916a",
+      "zapatos": "#5a4632"
+    },
+    "green": {
+      "piel": "#ebc29e",
+      "pelo": "#2e2620",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "bata",
+        "color": "#cfc6b4",
+        "color2": "#3a3a40",
+        "detalle": "#4a4038"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#3a3632",
+      "zapatos": "#4a3a2a"
+    },
+    "shackleton": {
+      "piel": "#e8b896",
+      "pelo": "#3a3028",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#4a4f58",
+        "color2": "#2f3238",
+        "detalle": "#8a8f98"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#2a2e36",
+      "zapatos": "#5a4632"
+    },
+    "worsley": {
+      "piel": "#e3ad84",
+      "pelo": "#5a4a3a",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#24364f",
+        "color2": "#2b2f38",
+        "detalle": "#c9a24a"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#1a2638",
+      "zapatos": "#3a2e24"
+    },
+    "hurley": {
+      "piel": "#e6b48e",
+      "pelo": "#2a221c",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#8a7650",
+        "color2": "#40403a",
+        "detalle": "#5a4a32"
+      },
+      "sombrero": "boina",
+      "colorSombrero": "#4a4a44",
+      "zapatos": "#5a4632"
+    },
+    "hussey": {
+      "piel": "#f0c4a0",
+      "pelo": "#6b4a2a",
+      "peinado": "rizado",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#5e6a58",
+        "color2": "#38383a",
+        "detalle": "#a89a7a"
+      },
+      "sombrero": "boina",
+      "colorSombrero": "#6a3a2e",
+      "zapatos": "#4a3a2a"
+    },
+    "bakewell": {
+      "piel": "#e9bb94",
+      "pelo": "#8a6a3a",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#6a5440",
+        "color2": "#34343a",
+        "detalle": "#9a8460"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#4a3e32",
+      "zapatos": "#5a4632"
+    },
+    "mcnish": {
+      "piel": "#e0aa86",
+      "pelo": "#9a9590",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#5a4a3e",
+        "color2": "#30302e",
+        "detalle": "#8a7a62"
+      },
+      "sombrero": "boina",
+      "colorSombrero": "#2e2e30",
+      "zapatos": "#4a3a2a"
+    },
+    "crean": {
+      "piel": "#e4a882",
+      "pelo": "#2a2420",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#3e4652",
+        "color2": "#2a2c30",
+        "detalle": "#7a8290"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#2a2a2e",
+      "zapatos": "#4a3a2a"
+    }
+  },
+  "short": {
+    "escenas": [
+      {
+        "texto": "Esta tarde he visto hundirse el barco que debía llevarnos a casa. Somos veintiocho hombres sobre un trozo de hielo. Y nadie sabe que estamos aquí.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "velero",
+              "x": 0.95,
+              "escala": 1.1,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": -0.3,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": 1
+          }
+        ]
+      },
+      {
+        "dia": 1,
+        "texto": "Me llamo Perce Blackborow y soy un polizón. Subí al Endurance escondido en una taquilla. Ahora ayudo al cocinero en el mar de Weddell.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "nieve",
+          "props": [
+            {
+              "tipo": "hoguera",
+              "x": -0.95
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.3
+            },
+            {
+              "tipo": "barril",
+              "x": 0.95,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": 0.35,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "green",
+            "x": -0.4,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "objeto": "🍲",
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 3,
+        "texto": "Cocinamos con grasa de foca. Comemos foca, pingüino y hoosh. La comida buena no se toca: es para los botes.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "🦭",
+              "x": 1.1,
+              "escala": 0.6
+            },
+            {
+              "tipo": "🐧",
+              "x": -1.2,
+              "escala": 0.45
+            },
+            {
+              "tipo": "🐧",
+              "x": -0.95,
+              "escala": 0.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": 0,
+            "accion": "senalar",
+            "emocion": "neutral",
+            "mirar": 1
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 9,
+        "texto": "El fotógrafo rompió unas cuatrocientas placas en el hielo. No cabían en los botes.",
+        "drama": 0.7,
+        "insercion": {
+          "tipo": "dato",
+          "valor": "400",
+          "etiqueta": "placas de vidrio rotas en el hielo",
+          "icono": "📷"
+        }
+      },
+      {
+        "dia": 21,
+        "texto": "Veintiuno de noviembre, cinco de la tarde. Shackleton grita: ¡Se va, muchachos!",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tienda",
+              "x": -1.35
+            },
+            {
+              "tipo": "bandera",
+              "x": -0.75
+            },
+            {
+              "tipo": "velero",
+              "x": 1.05,
+              "escala": 1.1,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "shackleton",
+            "x": -0.35,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "blackborow",
+            "x": 0.25,
+            "accion": "correr",
+            "emocion": "miedo",
+            "mirar": 1
+          }
+        ]
+      },
+      {
+        "dia": 21,
+        "texto": "La popa se levanta, apunta al cielo y desaparece bajo el hielo. En pocos minutos, no queda nada.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tienda",
+              "x": -1.35
+            },
+            {
+              "tipo": "bandera",
+              "x": -0.75
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": 0,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 22,
+        "texto": "Sin barco. Sin radio. Sin tierra a la vista. Solo tres botes y el hielo.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "atardecer",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "tienda",
+              "x": -1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": 0,
+            "accion": "pensar",
+            "emocion": "miedo"
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 30,
+        "texto": "Lo que hicimos para volver a casa es una de las mayores historias de supervivencia jamás contadas. Te lo cuento en el mes completo.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": 0,
+            "accion": "quieto",
+            "emocion": "neutral"
+          }
+        ],
+        "camara": "cerca"
+      }
+    ]
+  },
+  "largo": {
+    "escenas": [
+      {
+        "texto": "Ese barco era nuestra casa. Ahora lo veo morir poco a poco desde el hielo. Veintiocho hombres a la deriva en un mar helado. Y nadie en el mundo sabe dónde estamos.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "velero",
+              "x": -1.1,
+              "escala": 1.2,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Me llamo Perce Blackborow. Soy el más joven de la expedición, y en realidad no debería estar aquí. Subí a bordo escondido. Soy el polizón.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": 0.3,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 1,
+        "capitulo": "El barco fantasma",
+        "texto": "Primero de noviembre de mil novecientos quince. Llevamos casi diez meses atrapados en el hielo. Y desde hace cinco días vivimos fuera del barco.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tienda",
+              "x": -1.25
+            },
+            {
+              "tipo": "tienda",
+              "x": -0.55,
+              "escala": 0.85
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": 0.2,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "entra": "izq"
+          }
+        ]
+      },
+      {
+        "dia": 1,
+        "texto": "Estamos en mitad del mar de Weddell, sobre un témpano que flota y se mueve con nosotros encima. A este campamento lo llamamos Ocean Camp.",
+        "drama": 0.7,
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Ocean Camp",
+          "detalle": "Mar de Weddell · Antártida · 1915",
+          "icono": "📍"
+        }
+      },
+      {
+        "dia": 1,
+        "texto": "Cinco tiendas de lona fina sobre un bloque de hielo grueso y llano. A milla y media está el Endurance, escorado, con la proa hundida.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "tienda",
+              "x": -1.3
+            },
+            {
+              "tipo": "velero",
+              "x": 1.15,
+              "escala": 1.1,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": 0.1,
+            "accion": "senalar",
+            "emocion": "triste",
+            "mirar": 1
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 2,
+        "texto": "Te cuento cómo llegué. Soy de Newport, en Gales. En Buenos Aires, mi amigo Bakewell consiguió plaza en el Endurance. A mí no me quisieron.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "tela",
+          "ventana": false,
+          "hora": "noche",
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.3
+            },
+            {
+              "tipo": "barril",
+              "x": 1.35,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": 1
+          },
+          {
+            "quien": "bakewell",
+            "x": 0.45,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 2,
+        "texto": "Así que Bakewell y otro marinero, Walter How, me escondieron en una taquilla, entre la ropa. Me descubrieron tres días después, ya en alta mar.",
+        "drama": 0.55,
+        "camara": "cerca"
+      },
+      {
+        "dia": 2,
+        "texto": "Me llevaron delante de Shackleton, el jefe de la expedición. Me echó una bronca que todavía me zumba en los oídos. Y luego, muy serio, me dijo algo así.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 1.3
+            },
+            {
+              "tipo": "barril",
+              "x": -1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "shackleton",
+            "x": 0.4,
+            "accion": "senalar",
+            "emocion": "enfado",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "blackborow",
+            "x": -0.45,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": 1
+          }
+        ]
+      },
+      {
+        "dia": 2,
+        "texto": "En las expediciones polares, los polizones son los primeros a los que se comen. Después me apuntaron como mayordomo. En realidad, soy el ayudante del cocinero.",
+        "drama": 0.7,
+        "insercion": {
+          "tipo": "cita",
+          "frase": "En las expediciones polares, los polizones son los primeros a los que se comen.",
+          "firma": "Shackleton, según el recuerdo de la tripulación"
+        }
+      },
+      {
+        "dia": 3,
+        "texto": "El cocinero es Charles Green. Inglés, panadero de oficio, y también subió al barco en Buenos Aires. Dicen que le llaman Doughballs. Bolas de masa.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "nieve",
+          "props": [
+            {
+              "tipo": "hoguera",
+              "x": -0.95
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.3
+            },
+            {
+              "tipo": "barril",
+              "x": 0.95,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "green",
+            "x": -0.35,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "🍲",
+            "habla": false
+          },
+          {
+            "quien": "blackborow",
+            "x": 0.45,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": -1
+          }
+        ]
+      },
+      {
+        "dia": 3,
+        "texto": "Nuestra cocina es una estufa que fabricó el fotógrafo Hurley con un cubo de cenizas del barco. Arde con grasa de foca y echa un humo negro que lo mancha todo.",
+        "drama": 0.7,
+        "camara": "cerca"
+      },
+      {
+        "dia": 4,
+        "texto": "Cada día salen partidas al barco con trineos y perros. Dentro quedan lonas, cuerdas, maderas, libros. Y sobre todo, comida.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "🐕",
+              "x": -1.0,
+              "escala": 0.5
+            },
+            {
+              "tipo": "🐕",
+              "x": -1.35,
+              "escala": 0.4
+            },
+            {
+              "tipo": "velero",
+              "x": 1.15,
+              "escala": 1.1,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": -0.2,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "📦"
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 4,
+        "texto": "El barco zarpó con sesenta y nueve perros de trineo traídos de Canadá. Ahora son nuestras piernas. Sin ellos, no podríamos arrastrar nada por esta nieve blanda.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tienda",
+              "x": -1.3
+            },
+            {
+              "tipo": "🐕",
+              "x": 0.95,
+              "escala": 0.5
+            },
+            {
+              "tipo": "🐕",
+              "x": 1.3,
+              "escala": 0.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1
+          }
+        ]
+      },
+      {
+        "dia": 5,
+        "texto": "Los víveres estaban abajo, en la cubierta inundada. Así que abrimos un agujero en la cubierta principal a hachazos. Las cajas salen flotando y las vamos pescando una a una.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "velero",
+              "x": 0.9,
+              "escala": 1.3,
+              "detras": true
+            },
+            {
+              "tipo": "barril",
+              "x": -1.3
+            },
+            {
+              "tipo": "cajas",
+              "x": -0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "bakewell",
+            "x": -0.5,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "objeto": "🪓",
+            "habla": false
+          },
+          {
+            "quien": "blackborow",
+            "x": 0.15,
+            "accion": "cargar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "objeto": "📦"
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 6,
+        "texto": "Al final rescataremos unas tres toneladas y media de provisiones. Harina, azúcar, galletas, pemmican. Cada caja es un día más de vida.",
+        "drama": 0.7,
+        "insercion": {
+          "tipo": "dato",
+          "valor": "3,5 t",
+          "etiqueta": "de víveres rescatados de un barco medio hundido",
+          "icono": "📦"
+        }
+      },
+      {
+        "dia": 6,
+        "texto": "Pero las provisiones de trineo no se tocan. Son para los botes, por si hay que huir. Aquí comemos lo que cazamos. Focas y pingüinos.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "🦭",
+              "x": 1.1,
+              "escala": 0.6
+            },
+            {
+              "tipo": "🐧",
+              "x": -1.2,
+              "escala": 0.45
+            },
+            {
+              "tipo": "🐧",
+              "x": -0.95,
+              "escala": 0.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": 0.1,
+            "accion": "senalar",
+            "emocion": "neutral",
+            "mirar": 1
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 7,
+        "texto": "El plato de cada día es el hoosh. Un guiso espeso de foca o de pemmican, con galleta machacada. Green lo sirve caliente en treinta y cinco minutos desde que prende el fuego.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "nieve",
+          "props": [
+            {
+              "tipo": "hoguera",
+              "x": -0.95
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.3
+            },
+            {
+              "tipo": "barril",
+              "x": 0.95,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "green",
+            "x": -0.3,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "objeto": "🍲",
+            "habla": false
+          },
+          {
+            "quien": "blackborow",
+            "x": 0.45,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "objeto": "🫖"
+          }
+        ]
+      },
+      {
+        "dia": 7,
+        "texto": "Shackleton dice que es una proeza. Yo le miro las manos. Negras de hollín, rojas de frío. Nunca le he oído quejarse.",
+        "drama": 0.5,
+        "camara": "cerca"
+      },
+      {
+        "dia": 8,
+        "capitulo": "Lo que cabe en un bote",
+        "texto": "Ocho de noviembre. Ya nadie habla de volver al barco para quedarse. La pregunta ahora es otra. ¿Qué nos llevamos cuando el hielo se abra?",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "tela",
+          "ventana": false,
+          "hora": "noche",
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.3
+            },
+            {
+              "tipo": "barril",
+              "x": 1.35,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": 0,
+            "accion": "sentado",
+            "emocion": "neutral"
+          }
+        ]
+      },
+      {
+        "dia": 8,
+        "texto": "Antes de dejar el barco, Shackleton nos permitió llevar solo dos libras de peso por cabeza. Menos de un kilo. Él mismo tiró al hielo sus monedas de oro y su reloj.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": 0,
+            "accion": "pensar",
+            "emocion": "neutral"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 8,
+        "texto": "Yo apenas tenía nada que salvar. Unos calcetines, unas manoplas, una cuchara. Un polizón viaja ligero.",
+        "drama": 0.5,
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Mis dos libras",
+          "items": [
+            {
+              "icono": "🧦",
+              "nombre": "Calcetines de lana"
+            },
+            {
+              "icono": "🧤",
+              "nombre": "Manoplas"
+            },
+            {
+              "icono": "🥄",
+              "nombre": "Una cuchara"
+            },
+            {
+              "icono": "🧣",
+              "nombre": "Una bufanda"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 9,
+        "texto": "También arrancó de una Biblia, regalo de la reina Alejandra, la página del Libro de Job que habla del hielo y la escarcha. El resto lo dejó en la nieve.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "nieve",
+          "props": [
+            {
+              "tipo": "tienda",
+              "x": -1.25
+            },
+            {
+              "tipo": "tienda",
+              "x": 1.25
+            },
+            {
+              "tipo": "cajas",
+              "x": 0.75,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "shackleton",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "triste",
+            "mirar": -1,
+            "objeto": "📖",
+            "habla": false
+          },
+          {
+            "quien": "blackborow",
+            "x": -0.45,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1
+          }
+        ]
+      },
+      {
+        "dia": 9,
+        "texto": "Hoy le toca elegir a Hurley. Tiene cientos de placas de vidrio con fotos de todo el viaje. Dicen que se metió hasta el pecho en el agua helada del barco para sacarlas.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tienda",
+              "x": -1.25
+            },
+            {
+              "tipo": "tienda",
+              "x": -0.55,
+              "escala": 0.85
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "hurley",
+            "x": 0.35,
+            "accion": "cargar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "objeto": "📷",
+            "habla": false
+          },
+          {
+            "quien": "blackborow",
+            "x": -0.45,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1
+          }
+        ]
+      },
+      {
+        "dia": 9,
+        "texto": "Con Shackleton a su lado, las mira una a una. Se queda con unas ciento veinte. Las demás las estrella contra el hielo, para no tener la tentación de volver a por ellas.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "hurley",
+            "x": 0.1,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "shackleton",
+            "x": 0.75,
+            "accion": "senalar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "blackborow",
+            "x": -0.7,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 9,
+        "texto": "Unas cuatrocientas placas hechas pedazos. Años de trabajo convertidos en cristales a nuestros pies. Hurley no dijo una palabra en toda la tarde.",
+        "drama": 0.6,
+        "insercion": {
+          "tipo": "dato",
+          "valor": "400",
+          "etiqueta": "placas de vidrio rotas en el hielo",
+          "icono": "📷"
+        }
+      },
+      {
+        "dia": 10,
+        "texto": "Lo que sí se queda es el banjo de Hussey, el meteorólogo. Pesa unas doce libras, seis veces lo permitido. Shackleton dijo algo así como que era medicina para la mente.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "tela",
+          "ventana": false,
+          "hora": "noche",
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.3
+            },
+            {
+              "tipo": "barril",
+              "x": 1.35,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "hussey",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": -1,
+            "objeto": "🪕",
+            "habla": false
+          },
+          {
+            "quien": "blackborow",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": 1
+          }
+        ]
+      },
+      {
+        "dia": 10,
+        "texto": "Por las noches lo toca dentro de la tienda y cantamos. Con el frío desafina un poco. A nadie le importa.",
+        "drama": 0.5,
+        "personajes": [
+          {
+            "quien": "hussey",
+            "x": 0.4,
+            "accion": "trabajar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "objeto": "🪕",
+            "habla": false
+          },
+          {
+            "quien": "blackborow",
+            "x": -0.4,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 11,
+        "texto": "Me acuerdo mucho de Mrs Chippy, el gato del carpintero McNish. Se paseaba por las barandillas del barco como si fuera el capitán.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "tienda",
+              "x": -1.3
+            },
+            {
+              "tipo": "velero",
+              "x": 1.15,
+              "escala": 1.1,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": -0.1,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": 1
+          }
+        ]
+      },
+      {
+        "dia": 11,
+        "texto": "El veintinueve de octubre hubo que sacrificarlo, junto a algunos perros que no podían seguir. McNish no se lo ha perdonado a Shackleton.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "mcnish",
+            "x": 0.45,
+            "accion": "triste",
+            "emocion": "enfado",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "blackborow",
+            "x": -0.45,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 12,
+        "texto": "Somos veintiocho. Veintisiete enrolados y un polizón. Lo que no sé todavía es cuántos volveremos a casa.",
+        "drama": 0.65,
+        "insercion": {
+          "tipo": "dato",
+          "valor": "28",
+          "etiqueta": "hombres a la deriva, uno de ellos polizón",
+          "icono": "🧊"
+        }
+      },
+      {
+        "dia": 12,
+        "texto": "Aquí el frío es traicionero. Algunos mediodías la nieve se ablanda y lo empapa todo: botas, ropa, sacos de dormir. Por la noche, todo eso se congela.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "nieve",
+          "props": [
+            {
+              "tipo": "tienda",
+              "x": -1.25
+            },
+            {
+              "tipo": "tienda",
+              "x": 1.25
+            },
+            {
+              "tipo": "cajas",
+              "x": 0.75,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": 0.2,
+            "accion": "caminar",
+            "emocion": "cansado"
+          }
+        ]
+      },
+      {
+        "dia": 13,
+        "texto": "Los mejores sacos son de piel de reno, pero no había para todos. Se sortearon. Dicen que el sorteo se arregló para que les tocaran a los marineros.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "tela",
+          "ventana": false,
+          "hora": "noche",
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.3
+            },
+            {
+              "tipo": "barril",
+              "x": 1.35,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": 1
+          },
+          {
+            "quien": "bakewell",
+            "x": 0.5,
+            "accion": "dormir",
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 13,
+        "texto": "Casi no hay noche. El sol apenas se esconde y vuelve a salir. Se duerme mal con luz, con hambre y con el hielo crujiendo debajo.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": 0,
+            "accion": "sentado",
+            "emocion": "cansado"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 14,
+        "texto": "Porque el hielo cruje. Puede partirse justo debajo del campamento. Shackleton ha dejado por escrito órdenes de evacuación, y hay guardias toda la noche.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "atardecer",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "tienda",
+              "x": -1.25
+            },
+            {
+              "tipo": "tienda",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": -0.3,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": 1
+          },
+          {
+            "quien": "bakewell",
+            "x": 0.45,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 14,
+        "texto": "El barco se llama así por el lema de la familia de Shackleton. Por la resistencia venceremos. Estos días empiezo a entender por qué.",
+        "drama": 0.7,
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Fortitudine vincimus. Por la resistencia venceremos.",
+          "firma": "Lema de la familia Shackleton"
+        }
+      },
+      {
+        "dia": 15,
+        "capitulo": "¡Se va, muchachos!",
+        "texto": "Quince de noviembre. Con maderas del barco hemos levantado una plataforma de vigía. Arriba ondea una bandera.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tienda",
+              "x": -1.35
+            },
+            {
+              "tipo": "bandera",
+              "x": -0.75
+            },
+            {
+              "tipo": "velero",
+              "x": 1.05,
+              "escala": 1.1,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": 0.3,
+            "accion": "senalar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ]
+      },
+      {
+        "dia": 15,
+        "texto": "Desde ahí se buscan focas, se vigila el hielo y se mira el barco. Cada día está un poco más hundido. Cada día cruje más.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": -0.2,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": 1
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 16,
+        "texto": "Que nadie se confunda. Shackleton es el jefe, pero el capitán del Endurance es Frank Worsley. Cuando sale el sol, él y el físico James calculan con el sextante dónde estamos.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tienda",
+              "x": -1.25
+            },
+            {
+              "tipo": "tienda",
+              "x": -0.55,
+              "escala": 0.85
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "worsley",
+            "x": -0.35,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "🧭",
+            "habla": false
+          },
+          {
+            "quien": "blackborow",
+            "x": 0.45,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ]
+      },
+      {
+        "dia": 16,
+        "texto": "El hielo nos arrastra hacia el norte, muy despacio. La esperanza es acercarnos a la isla Paulet, donde hay un depósito de víveres de hace más de doce años.",
+        "drama": 0.7,
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Isla Paulet",
+          "detalle": "Depósito de víveres de 1902-1903",
+          "icono": "📍"
+        }
+      },
+      {
+        "dia": 17,
+        "texto": "No tenemos radio para pedir ayuda. Nadie sabe dónde estamos. Si salimos de aquí, será por nuestro propio pie.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "niebla",
+          "props": []
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": 0,
+            "accion": "pensar",
+            "emocion": "miedo"
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 18,
+        "texto": "En la tienda pasan de mano en mano los libros que se salvaron del barco. Leemos, jugamos a las cartas, fumamos en pipa lo poco que queda de tabaco.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "tela",
+          "ventana": false,
+          "hora": "noche",
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.3
+            },
+            {
+              "tipo": "barril",
+              "x": 1.35,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "hussey",
+            "x": -0.7,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": 1,
+            "objeto": "📖",
+            "habla": false
+          },
+          {
+            "quien": "blackborow",
+            "x": 0,
+            "accion": "sentado",
+            "emocion": "neutral"
+          },
+          {
+            "quien": "bakewell",
+            "x": 0.7,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 19,
+        "texto": "Con Green trabajo desde que me levanto. Derrito hielo viejo, que casi no tiene sal, para el agua. Corto grasa para la estufa. Sirvo el té y el cacao.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "nieve",
+          "props": [
+            {
+              "tipo": "hoguera",
+              "x": -0.95
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.3
+            },
+            {
+              "tipo": "barril",
+              "x": 0.95,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "green",
+            "x": -0.35,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "objeto": "🍲",
+            "habla": false
+          },
+          {
+            "quien": "blackborow",
+            "x": 0.4,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "objeto": "🫖"
+          }
+        ]
+      },
+      {
+        "dia": 20,
+        "texto": "El barco lleva trescientos siete días preso del hielo. Green dice que no aguantará mucho más, que lo oye gemir como un animal herido. Imagino que tiene razón.",
+        "drama": 0.65,
+        "insercion": {
+          "tipo": "dato",
+          "valor": "307",
+          "etiqueta": "días atrapado el Endurance en el hielo",
+          "icono": "🧊"
+        }
+      },
+      {
+        "dia": 21,
+        "texto": "Veintiuno de noviembre. Es por la tarde y hay luz, como siempre. Estoy en la cocina con Green cuando oigo la voz de Shackleton.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "nieve",
+          "props": [
+            {
+              "tipo": "hoguera",
+              "x": -0.95
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.3
+            },
+            {
+              "tipo": "barril",
+              "x": 0.95,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1
+          },
+          {
+            "quien": "green",
+            "x": -0.35,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "🍲",
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 21,
+        "texto": "¡Se va, muchachos! Eso grita. Salimos todos corriendo y trepamos a la plataforma de vigía.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tienda",
+              "x": -1.35
+            },
+            {
+              "tipo": "bandera",
+              "x": -0.75
+            },
+            {
+              "tipo": "velero",
+              "x": 1.05,
+              "escala": 1.1,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "shackleton",
+            "x": -0.45,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "blackborow",
+            "x": 0.25,
+            "accion": "correr",
+            "emocion": "miedo",
+            "mirar": 1,
+            "entra": "izq"
+          },
+          {
+            "quien": "green",
+            "x": 0.75,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 21,
+        "texto": "A lo lejos, la popa del Endurance se levanta. Se queda un momento quieta, apuntando al cielo, como si se despidiera. Y se hunde de proa bajo el hielo.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "velero",
+              "x": 0.2,
+              "escala": 1.4,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "dia": 21,
+        "texto": "En pocos minutos, ya no está. Donde estaba nuestra casa solo queda un hueco negro en el hielo, que se va cerrando.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": []
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": -0.25,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": 1
+          },
+          {
+            "quien": "green",
+            "x": 0.5,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 21,
+        "texto": "Eran más o menos las cinco de la tarde. Nadie dijo nada. Dicen que Shackleton apuntó la hora en su diario y que no fue capaz de escribir más.",
+        "drama": 0.85,
+        "insercion": {
+          "tipo": "cita",
+          "frase": "¡Se va, muchachos!",
+          "firma": "Ernest Shackleton, 21 de noviembre de 1915, hacia las cinco de la tarde"
+        }
+      },
+      {
+        "dia": 22,
+        "capitulo": "Solos en el hielo",
+        "texto": "Veintidós de noviembre. El hielo se ha cerrado del todo. Del Endurance no queda ni rastro. Worsley ha apuntado la posición, por si alguien quiere buscarlo algún día.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tienda",
+              "x": -1.35
+            },
+            {
+              "tipo": "bandera",
+              "x": -0.75
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "worsley",
+            "x": -0.3,
+            "accion": "escribir",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "blackborow",
+            "x": 0.4,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ]
+      },
+      {
+        "dia": 23,
+        "texto": "Es raro. Ya sabíamos que estaba perdido. Pero mientras se veía, teníamos una casa a la que mirar. Ahora solo hay blanco en todas direcciones.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tienda",
+              "x": -1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": 0.1,
+            "accion": "pensar",
+            "emocion": "triste"
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 24,
+        "texto": "Green no ha dejado de cocinar ni un solo día. Hoy le sale un hoosh más espeso que de costumbre. Nadie lo dice, pero todos sabemos por qué.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "nieve",
+          "props": [
+            {
+              "tipo": "hoguera",
+              "x": -0.95
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.3
+            },
+            {
+              "tipo": "barril",
+              "x": 0.95,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "green",
+            "x": -0.3,
+            "accion": "trabajar",
+            "emocion": "triste",
+            "mirar": 1,
+            "objeto": "🍲",
+            "habla": false
+          },
+          {
+            "quien": "blackborow",
+            "x": 0.45,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "objeto": "🍲"
+          }
+        ]
+      },
+      {
+        "dia": 25,
+        "texto": "Los perros también comen foca y pingüino. Cada equipo tiene sus cuidadores, y los cuidan como a hermanos. Mientras haya caza, ellos vivirán.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tienda",
+              "x": -1.3
+            },
+            {
+              "tipo": "🐕",
+              "x": 0.95,
+              "escala": 0.5
+            },
+            {
+              "tipo": "🐕",
+              "x": 1.3,
+              "escala": 0.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": -0.35,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "🥩"
+          }
+        ]
+      },
+      {
+        "dia": 26,
+        "texto": "Si me preguntas qué nos mantiene vivos, lo tengo claro. La foca, el pingüino, el hoosh de Green. Y el banjo de Hussey por las noches.",
+        "drama": 0.55,
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Lo que nos mantiene vivos",
+          "items": [
+            {
+              "icono": "🦭",
+              "nombre": "Carne y grasa de foca"
+            },
+            {
+              "icono": "🐧",
+              "nombre": "Pingüinos"
+            },
+            {
+              "icono": "🍲",
+              "nombre": "El hoosh de Green"
+            },
+            {
+              "icono": "🪕",
+              "nombre": "El banjo de Hussey"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 27,
+        "texto": "Allá lejos hay una guerra. Empezó cuando el barco salió de Inglaterra. Desde hace casi un año no sabemos nada. Ni quién va ganando, ni quién ha muerto.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "tela",
+          "ventana": false,
+          "hora": "noche",
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.3
+            },
+            {
+              "tipo": "barril",
+              "x": 1.35,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": 0,
+            "accion": "sentado",
+            "emocion": "triste"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 28,
+        "texto": "McNish, el carpintero, trabaja en los botes con tablas del barco. Les sube la borda para que aguanten el mar abierto.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "cajas",
+              "x": -1.3
+            },
+            {
+              "tipo": "barril",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "mcnish",
+            "x": -0.35,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "🔨",
+            "habla": false
+          },
+          {
+            "quien": "blackborow",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ]
+      },
+      {
+        "dia": 29,
+        "texto": "Tres botes para veintiocho hombres. James Caird, Dudley Docker y Stancomb Wills, por los nombres de quienes pagaron la expedición. Ahora son nuestra única salida.",
+        "drama": 0.7,
+        "camara": "cerca"
+      },
+      {
+        "dia": 30,
+        "texto": "Treinta de noviembre. Seguimos a la deriva, sin barco, sin radio y sin tierra a la vista. Pero seguimos siendo veintiocho.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tienda",
+              "x": -1.25
+            },
+            {
+              "tipo": "tienda",
+              "x": 1.3
+            },
+            {
+              "tipo": "bandera",
+              "x": -0.7
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": -0.25,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1
+          },
+          {
+            "quien": "green",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 30,
+        "texto": "Todavía no lo sabía, pero nos quedaban meses de hielo. En total pasaríamos cuatrocientos noventa y siete días sin pisar tierra firme.",
+        "drama": 0.7,
+        "insercion": {
+          "tipo": "dato",
+          "valor": "497",
+          "etiqueta": "días sin pisar tierra",
+          "icono": "⚓"
+        }
+      },
+      {
+        "dia": 30,
+        "texto": "En abril de mil novecientos dieciséis el témpano se rompió y nos lanzamos a los botes. Siete días entre hielo y olas hasta la isla Elefante.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "tormenta",
+          "props": []
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "dia": 30,
+        "texto": "Shackleton quería que yo fuera el primero en pisarla. Pero llevaba botas de cuero y se me habían congelado los pies. No me tuve en pie. Me senté en la orilla.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "nieve",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": 1.3
+            },
+            {
+              "tipo": "roca",
+              "x": -1.4,
+              "escala": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": -0.3,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": 1
+          },
+          {
+            "quien": "shackleton",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 30,
+        "texto": "Shackleton, Worsley, Crean y otros tres se fueron en el James Caird a buscar ayuda a Georgia del Sur. Unos mil trescientos kilómetros de océano en un bote de siete metros.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "atardecer",
+          "clima": "tormenta",
+          "props": [
+            {
+              "tipo": "velero",
+              "x": 0.3,
+              "escala": 0.6
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "dia": 30,
+        "texto": "Luego cruzaron a pie las montañas heladas de la isla, sin mapas, en unas treinta y seis horas, hasta la estación ballenera de Stromness.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "dia",
+          "clima": "nieve",
+          "props": []
+        },
+        "personajes": [
+          {
+            "quien": "shackleton",
+            "x": -0.6,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": 1
+          },
+          {
+            "quien": "worsley",
+            "x": 0,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "crean",
+            "x": 0.6,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 30,
+        "texto": "Mientras, el quince de junio, bajo dos botes volcados, el doctor McIlroy me amputó los dedos del pie izquierdo. Macklin me durmió con cloroformo.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "ventana": false,
+          "hora": "noche",
+          "props": [
+            {
+              "tipo": "hoguera",
+              "x": 1.2,
+              "escala": 0.7
+            },
+            {
+              "tipo": "cajas",
+              "x": -1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": 0,
+            "accion": "dormir",
+            "emocion": "cansado",
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 30,
+        "texto": "El treinta de agosto, el remolcador chileno Yelcho, del piloto Luis Pardo, nos sacó de allí. Éramos veintiocho. Y sobrevivimos los veintiocho.",
+        "drama": 0.8,
+        "insercion": {
+          "tipo": "dato",
+          "valor": "28 de 28",
+          "etiqueta": "hombres del Endurance que volvieron a casa",
+          "icono": "🕯️"
+        }
+      },
+      {
+        "dia": 30,
+        "texto": "¿Y el Endurance? En dos mil veintidós lo encontraron a tres mil ocho metros de profundidad, casi intacto. En la popa todavía se lee su nombre.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "velero",
+              "x": 0.0,
+              "escala": 1.2
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "subir"
+      },
+      {
+        "texto": "Perce Blackborow, Charles Green y todos los demás existieron de verdad. Sus pensamientos y algunas frases están dramatizados. ¿De quién quieres vivir el próximo mes? Déjalo en los comentarios y suscríbete.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tienda",
+              "x": -1.25
+            },
+            {
+              "tipo": "tienda",
+              "x": -0.55,
+              "escala": 0.85
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "blackborow",
+            "x": 0.3,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": -1
+          }
+        ]
+      }
+    ]
+  },
+  "publicacion": {
+    "tituloLargo": "Un mes en la vida de un POLIZÓN en la Antártida (1915) | El hundimiento del Endurance de Shackleton",
+    "tituloShort": "Vio hundirse su barco en mitad del hielo 🧊 #historia",
+    "descripcion": "Treinta días en la vida de Perce Blackborow, el polizón del Endurance, durante noviembre de 1915 en Ocean Camp: un campamento de cinco tiendas sobre un témpano a la deriva en el mar de Weddell. Junto al cocinero Charles Green, sobrevive a base de foca, pingüino y hoosh mientras el barco atrapado en el hielo agoniza... hasta que el 21 de noviembre, hacia las cinco de la tarde, Shackleton grita: \"¡Se va, muchachos!\".\n\nPerce Blackborow, Charles Green, Ernest Shackleton, Frank Worsley, Frank Hurley, Leonard Hussey y el resto de la tripulación son personas reales. Los hechos principales están documentados en diarios y fuentes históricas; sus pensamientos y algunos diálogos están dramatizados, y los detalles dudosos se presentan como tales.\n\n00:00 Veintiocho hombres en el hielo\n— Semana 1: El barco fantasma\n— Semana 2: Lo que cabe en un bote\n— Semana 3: ¡Se va, muchachos!\n— Semana 4: Solos en el hielo\n— Epílogo: isla Elefante, el James Caird, el rescate del Yelcho (30/08/1916) y el pecio hallado en 2022 a 3.008 m\n\nLos 28 hombres del Endurance sobrevivieron.",
+    "etiquetas": [
+      "un mes en la vida de",
+      "historia",
+      "Endurance",
+      "Shackleton",
+      "Antártida",
+      "polizón",
+      "Perce Blackborow",
+      "mar de Weddell",
+      "supervivencia",
+      "expedición polar",
+      "1915",
+      "isla Elefante",
+      "animación"
+    ]
+  }
+}
