@@ -333,7 +333,7 @@ const Interior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string }> = 
   const tipo = fondo.pared ?? "madera";
   const col = fondo.colorPared ?? PAREDES[tipo];
   const noche = hora === "noche" || hora === "atardecer";
-  const ventana = fondo.ventana ?? true;
+  const ventana = fondo.ventana ?? !(tipo === "roca" || tipo === "jeroglificos");
   return (
     <g>
       <rect width={MW} height={SUELO} fill={col} />

@@ -289,7 +289,7 @@
               "x": -0.75
             },
             {
-              "tipo": "velero",
+              "tipo": "bergantin-hundido",
               "x": 1.05,
               "escala": 1.1,
               "detras": true
@@ -397,7 +397,7 @@
           "clima": "niebla",
           "props": [
             {
-              "tipo": "velero",
+              "tipo": "bergantin-hundido",
               "x": -1.1,
               "escala": 1.2,
               "detras": true
@@ -489,7 +489,7 @@
               "x": -1.3
             },
             {
-              "tipo": "velero",
+              "tipo": "bergantin",
               "x": 1.15,
               "escala": 1.1,
               "detras": true
@@ -671,7 +671,7 @@
               "escala": 0.4
             },
             {
-              "tipo": "velero",
+              "tipo": "bergantin",
               "x": 1.15,
               "escala": 1.1,
               "detras": true
@@ -735,7 +735,7 @@
           "clima": "niebla",
           "props": [
             {
-              "tipo": "velero",
+              "tipo": "bergantin",
               "x": 0.9,
               "escala": 1.3,
               "detras": true
@@ -1121,7 +1121,7 @@
               "x": -1.3
             },
             {
-              "tipo": "velero",
+              "tipo": "bergantin",
               "x": 1.15,
               "escala": 1.1,
               "detras": true
@@ -1323,7 +1323,7 @@
               "x": -0.75
             },
             {
-              "tipo": "velero",
+              "tipo": "bergantin",
               "x": 1.05,
               "escala": 1.1,
               "detras": true
@@ -1580,7 +1580,7 @@
               "x": -0.75
             },
             {
-              "tipo": "velero",
+              "tipo": "bergantin-hundido",
               "x": 1.05,
               "escala": 1.1,
               "detras": true
@@ -1625,7 +1625,7 @@
           "clima": "despejado",
           "props": [
             {
-              "tipo": "velero",
+              "tipo": "bergantin-hundido",
               "x": 0.2,
               "escala": 1.4,
               "detras": true
@@ -1979,7 +1979,7 @@
           "clima": "tormenta",
           "props": [
             {
-              "tipo": "velero",
+              "tipo": "bote",
               "x": 0.3,
               "escala": 0.6
             }
@@ -2074,7 +2074,7 @@
           "clima": "despejado",
           "props": [
             {
-              "tipo": "velero",
+              "tipo": "bergantin",
               "x": 0.0,
               "escala": 1.2
             }

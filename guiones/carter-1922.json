@@ -143,12 +143,7 @@
           "lugar": "valle",
           "hora": "dia",
           "clima": "despejado",
-          "props": [
-            {
-              "tipo": "tumba",
-              "x": -1.2
-            }
-          ]
+          "props": []
         },
         "personajes": [
           {
@@ -205,7 +200,8 @@
               "tipo": "puerta",
               "x": 0.3
             }
-          ]
+          ],
+          "ventana": false
         },
         "personajes": [
           {
@@ -258,7 +254,8 @@
               "tipo": "puerta",
               "x": 0.3
             }
-          ]
+          ],
+          "ventana": false
         },
         "personajes": [
           {
@@ -312,7 +309,8 @@
               "tipo": "jarron",
               "x": 0.6
             }
-          ]
+          ],
+          "ventana": false
         },
         "personajes": [
           {
@@ -359,12 +357,7 @@
           "lugar": "valle",
           "hora": "noche",
           "clima": "despejado",
-          "props": [
-            {
-              "tipo": "tumba",
-              "x": -1.2
-            }
-          ]
+          "props": []
         },
         "personajes": [
           {
@@ -399,10 +392,6 @@
           "hora": "amanecer",
           "clima": "despejado",
           "props": [
-            {
-              "tipo": "tumba",
-              "x": -1.2
-            },
             {
               "tipo": "🐴",
               "x": 1.3,
@@ -504,10 +493,6 @@
           "hora": "dia",
           "clima": "despejado",
           "props": [
-            {
-              "tipo": "tumba",
-              "x": -1.25
-            },
             {
               "tipo": "cabana",
               "x": 1.2
@@ -727,7 +712,8 @@
               "tipo": "puerta",
               "x": 0.4
             }
-          ]
+          ],
+          "ventana": false
         },
         "personajes": [
           {
@@ -909,10 +895,6 @@
             {
               "tipo": "roca",
               "x": 0.2
-            },
-            {
-              "tipo": "tumba",
-              "x": -1.25
             }
           ]
         },
@@ -1096,12 +1078,7 @@
           "lugar": "valle",
           "hora": "atardecer",
           "clima": "despejado",
-          "props": [
-            {
-              "tipo": "tumba",
-              "x": 1.2
-            }
-          ]
+          "props": []
         },
         "personajes": [
           {
@@ -1291,7 +1268,8 @@
               "tipo": "puerta",
               "x": 0.3
             }
-          ]
+          ],
+          "ventana": false
         },
         "personajes": [
           {
@@ -1365,7 +1343,8 @@
               "tipo": "cajas",
               "x": 1.2
             }
-          ]
+          ],
+          "ventana": false
         },
         "personajes": [
           {
@@ -1419,7 +1398,8 @@
               "tipo": "puerta",
               "x": 0.2
             }
-          ]
+          ],
+          "ventana": false
         },
         "personajes": [
           {
@@ -1515,7 +1495,8 @@
               "tipo": "jarron",
               "x": 0.6
             }
-          ]
+          ],
+          "ventana": false
         },
         "personajes": [
           {
@@ -1624,7 +1605,8 @@
               "tipo": "jarron",
               "x": 0.6
             }
-          ]
+          ],
+          "ventana": false
         },
         "personajes": [
           {
@@ -1677,7 +1659,8 @@
               "tipo": "jarron",
               "x": 0.6
             }
-          ]
+          ],
+          "ventana": false
         },
         "personajes": [
           {
@@ -1718,7 +1701,8 @@
               "tipo": "estatua",
               "x": 0.9
             }
-          ]
+          ],
+          "ventana": false
         },
         "personajes": [
           {
@@ -1856,7 +1840,8 @@
               "tipo": "puerta",
               "x": 0.6
             }
-          ]
+          ],
+          "ventana": false
         },
         "personajes": [
           {
@@ -1910,12 +1895,7 @@
           "lugar": "valle",
           "hora": "dia",
           "clima": "despejado",
-          "props": [
-            {
-              "tipo": "tumba",
-              "x": -1.25
-            }
-          ]
+          "props": []
         },
         "personajes": [
           {
@@ -1951,7 +1931,8 @@
               "x": 0.55,
               "escala": 0.8
             }
-          ]
+          ],
+          "ventana": false
         },
         "personajes": [
           {
