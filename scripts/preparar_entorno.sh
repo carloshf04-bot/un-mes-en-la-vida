@@ -15,5 +15,12 @@ if [ ! -f $REPO/oficina/voz/piper_sharvard_0.wav ]; then
   echo "Hoy vas a remar durante días por un mar helado, y no hay vuelta atrás. Esto es un mes en la vida de un vikingo." \
     | (cd piper-voces && /home/user/venv-cb/bin/python -m piper -m es_ES-sharvard-medium -s 0 -f $REPO/oficina/voz/piper_sharvard_0.wav)
 fi
-# 4) whisper large-v3 (se instala con la primera transcripción)
-(cd /tmp && npx -y hyperframes@0.9.12 transcribe -e whisper -m large-v3 -l es --timeout 1200000 $REPO/oficina/voz/piper_sharvard_0.wav)
+# 4) whisper.cpp (lo compila HyperFrames) y el modelo large-v3 (con curl: la descarga de HyperFrames no pasa por el proxy)
+(cd /tmp && npx -y hyperframes@0.9.12 transcribe -e whisper -m small -l es $REPO/oficina/voz/piper_sharvard_0.wav || true)
+M=~/.cache/hyperframes/whisper/models/ggml-large-v3.bin
+if [ ! -s $M ]; then
+  mkdir -p $(dirname $M)
+  curl -sSL --fail -o $M.part https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3.bin && mv $M.part $M
+fi
+~/.cache/hyperframes/whisper/whisper.cpp/build/bin/whisper-cli -m $M -l es -f $REPO/oficina/voz/piper_sharvard_0.wav 2>/dev/null | tail -2
+# Red necesaria: huggingface.co y sus CDN (us.gcp.cdn.hf.co, cas-bridge.xethub.hf.co…), ya en el entorno «un-mes-en-la-vida».
