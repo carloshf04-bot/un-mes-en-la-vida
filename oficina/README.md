@@ -13,6 +13,8 @@ Cada vídeo pasa por seis puestos, en este orden. Ningún puesto pasa el trabajo
 
 El estado de cada idea está en `oficina/IDEAS.md` (pendiente, en curso, hecho).
 
+La voz del canal (a quién le hablamos, cómo suena el narrador, qué palabras usamos y cuáles no) está en `oficina/VOZ.md`. El Guionista y el Verificador la leen siempre. Para los skills `yt-*`, cópiala a `~/.claude/youtube/voice.md`.
+
 ## Herramientas comunes
 - `scripts/`: el generador de HyperFrames (`gen.mjs`, `lib.mjs`, `lib2.mjs`, `fondos.mjs`), la voz (`voz_cb.py`), la alineación (`alinear.py`), el sonido (`audio.py`) y los Shorts (`shorts.py`).
 - La voz es Chatterbox Multilingual (licencia MIT) en modo dramático. La música se compone por código y los efectos son el paquete Pixabay de HyperFrames. Todo se puede usar comercialmente.
