@@ -1,0 +1,6 @@
+{"character":"ulf","props":{"T":"cloak","F":"shieldRound","B":"axe"},"titleFont":"UncialAntiqua-Regular.woff2","top":"UN MES EN LA VIDA DE UN","who":"VIKINGO",
+ "hook":"¿TE IRÍAS DE <b>VIKINGO</b>?","badge":"0 CUERNOS",
+ "theme":{"glow":"#ffd08a","mid":"#3f6a8a","dark":"#16223f","ground":"#6f8f4a","accent":"#ffd34d","title":"#dfe4ea","badge":"#9e3a2a"},
+ "extras":[{"icon":"sailboat","size":160,"color":"#dfe4ea","pos":["left:600px;top:430px","left:80px;top:1140px"]},
+           {"icon":"axe","size":110,"color":"#c9ced6","pos":["left:40px;top:470px","left:860px;top:840px"]},
+           {"icon":"scales","size":100,"color":"#d9a72b","pos":["left:560px;top:240px","left:880px;top:1150px"]}]}

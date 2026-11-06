@@ -10,3 +10,4 @@
 2026-11-06 · — · usuario · los Shorts son el vídeo largo partido en partes, nada más · añadido a INSTRUCCIONES_BASE
 2026-11-06 · 2 · control-calidad · APROBADO en la vuelta 2 (queda menor: museumCase en dos filas, aceptado) · paso 2 cerrado
 2026-11-06 · 4 (adelanto) · Dirección · copiado el rig del gladiador a videos/vikingo/scripts y fuentes Inter y Uncial Antiqua (woff2, de Google Fonts) a videos/vikingo/fonts
+2026-11-06 · 5 (adelanto) · Dirección · miniaturas/vikingo.json sacado del diseño (fuente en woff2); se genera cuando estén ulf y su GEAR
