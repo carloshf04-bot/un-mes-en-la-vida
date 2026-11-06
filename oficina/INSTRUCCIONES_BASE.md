@@ -22,9 +22,13 @@ Cada escenario tiene al menos **5 capas**, y ninguna puede ser un plano liso:
 Además: **atrezo de la época** en cada escena (al menos 6 objetos distintos), una **luz** que cuente el momento del día (rayos, brillos de antorchas, viñeteado de noche) y **elementos vivos** (llamas, telas que ondean, polvo, agua). Ningún escenario se repite tal cual: cambia el atrezo o la luz.
 
 ## Entregas
-1. `video-FINAL-horizontal.mp4`: 1920×1080, completo, para YouTube.
-2. `video-FINAL-vertical.mp4`: 1080×1920, completo, para TikTok.
-3. `video-SIN-SUBTITULOS-horizontal.mp4` y `video-SIN-SUBTITULOS-vertical.mp4`.
+Al usuario solo se le entrega esto:
+1. `video-FINAL-horizontal.mp4`: 1920×1080, completo, **con subtítulos**, para YouTube.
+2. `shorts/parte-N-de-M.mp4` (punto 4).
+3. Las miniaturas (punto 5).
+
+**No se entregan**: el horizontal sin subtítulos ni el vertical entero, con o sin subtítulos. El vertical entero con subtítulos se renderiza solo como paso interno para cortar los Shorts. Las versiones sin subtítulos no se hacen.
+
 4. `shorts/parte-N-de-M.mp4`: el mismo vertical partido en **partes de 1 minuto como máximo**, cortadas al final de una frase (`SHORTS_MIN=60 python scripts/shorts.py …`), con «PARTE n/M», el título al empezar y «SIGUE EN LA PARTE…» al final.
    - **Los Shorts son el mismo vídeo largo partido en partes, en orden y sin saltarse nada**: al unirlos se tiene el vídeo entero. No se hacen Shorts nuevos, ni recortes de «mejores momentos», ni ganchos reescritos (no se usa `/yt-shorts`).
 5. **Miniaturas** (obligatorias en cada vídeo): `miniatura-youtube.png` (1280×720) y `miniatura-vertical.png` (1080×1920, portada de TikTok o Reels). Se hacen con `node scripts/miniatura.mjs miniaturas/<id>.json <salida>` y llevan:
