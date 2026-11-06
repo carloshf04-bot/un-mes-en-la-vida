@@ -8,3 +8,4 @@
 2026-11-06 · 2 · disenador · diseno.md (6 principales y 7 figurantes, 29 escenarios, Uncial Antiqua, miniatura «¿TE IRÍAS DE VIKINGO?») · a revisión, puerta 2
 2026-11-06 · 2 · control-calidad · CAMBIOS (2 graves: carretilla anacrónica; ins_museo e ins_volga sin 5 capas; 11 menores) · devuelto al diseñador, vuelta 1
 2026-11-06 · — · usuario · los Shorts son el vídeo largo partido en partes, nada más · añadido a INSTRUCCIONES_BASE
+2026-11-06 · 2 · control-calidad · APROBADO en la vuelta 2 (queda menor: museumCase en dos filas, aceptado) · paso 2 cerrado
