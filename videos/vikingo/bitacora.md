@@ -4,3 +4,4 @@
 2026-11-06 · 1 · investigador · investigacion.md (25 hechos, 5 mitos; Ulf, Vestfold, 890, mes lunar) · a revisión, puerta 1
 2026-11-06 · — · Dirección · entorno: la red bloqueaba las descargas de Hugging Face; creado el entorno «un-mes-en-la-vida» con esos hosts
 2026-11-06 · 1 · control-calidad · CAMBIOS (1 grave: dientes limados situados en Hedeby; 8 menores) · devuelto al investigador, vuelta 1
+2026-11-06 · 1 · control-calidad · APROBADO en la vuelta 2 · paso 1 cerrado

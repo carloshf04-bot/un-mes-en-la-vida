@@ -34,3 +34,23 @@ Nota: desde esta sesión no hay salida a la red (todas las URL devuelven código
 Hay un problema grave: el punto 3 de «NO USAR» deja que los dientes limados de Suecia salgan en el Hedeby de Ulf en el 890. Se arregla cambiando una frase. Los demás problemas son menores y conviene arreglarlos en la misma pasada (sobre todo los n.º 2, 3 y 4, porque dejan bien marcados los datos de otro lugar o de otra fecha).
 
 **CAMBIOS**
+
+## Vuelta 2
+
+He comparado `investigacion.md` con la versión del investigador (commit 209409c). Solo han cambiado las líneas de los 9 problemas de arriba. No hay datos nuevos ni filas borradas.
+
+| # | Estado | Comprobación |
+|---|---|---|
+| 1 (grave) | Resuelto | El punto 3 de «NO USAR» dice ahora: «Ulf no los tiene y tampoco se puede decir que los vea en Hedeby. El guion lo cuenta como dato aparte: "En Suecia se han encontrado…"». |
+| 2 | Resuelto | La columna «Época» de la fila 22 pone: «800-1050; Suecia y Dinamarca, no Noruega ni Hedeby». |
+| 3 | Resuelto | En «Posteriores» se ha añadido: «Los dientes limados (Suecia y Dinamarca, 800-1050): solo como "en Suecia…"». |
+| 4 | Resuelto | M2 dice ahora: «en una letrina de Viborg (Dinamarca), un siglo después, hay huevos de lombrices». |
+| 5 | Resuelto | La semana 4 es solo el mercado de Hedeby. La vuelta se cuenta en el cierre o el mes acaba en Hedeby. |
+| 6 | Resuelto | La fila 2 enlaza a `en.wikipedia.org/wiki/Kaupang` y cita a Skre (ed.), 2007. Ya no está el enlace de youscribe. |
+| 7 | Resuelto | Las filas 1 y 16 usan `en.wikipedia.org` (`Ohthere_of_H%C3%A5logaland` y `Trade_during_the_Viking_Age`). |
+| 8 | Resuelto | El texto del enlace de la fila 18 dice ahora «Medieval Histories (medieval.eu)». |
+| 9 | Resuelto | La fila 4 dice: «un hombre de unos 40-50 años **[COMPROBAR]**». |
+
+No hay problemas nuevos, ni graves ni menores. Siguen bien marcados Ibn Fadlan (921-922, en el Volga), la letrina de Viborg (1018-1030) y los dientes limados (Suecia y Dinamarca).
+
+**APROBADO**
