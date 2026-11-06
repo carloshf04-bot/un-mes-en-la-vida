@@ -9,3 +9,4 @@
 2026-11-06 · 2 · control-calidad · CAMBIOS (2 graves: carretilla anacrónica; ins_museo e ins_volga sin 5 capas; 11 menores) · devuelto al diseñador, vuelta 1
 2026-11-06 · — · usuario · los Shorts son el vídeo largo partido en partes, nada más · añadido a INSTRUCCIONES_BASE
 2026-11-06 · 2 · control-calidad · APROBADO en la vuelta 2 (queda menor: museumCase en dos filas, aceptado) · paso 2 cerrado
+2026-11-06 · 4 (adelanto) · Dirección · copiado el rig del gladiador a videos/vikingo/scripts y fuentes Inter y Uncial Antiqua (woff2, de Google Fonts) a videos/vikingo/fonts

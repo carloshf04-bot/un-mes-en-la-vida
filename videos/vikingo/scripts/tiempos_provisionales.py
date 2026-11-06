@@ -1,0 +1,30 @@
+# Tiempos PROVISIONALES para ir maquetando mientras se genera la voz:
+# usa la duración real de las frases ya generadas y estima el resto; reparte las
+# palabras de cada frase según su número de letras. Se sustituyen por los reales
+# (whisper + alinear.py) antes del render final.
+import hashlib, json, os, re, soundfile as sf
+REF = "pruebas/piper_sharvard_0.wav"; EXAG, CFG = 0.8, 0.3
+key = lambda t: hashlib.sha1(f"{t}|{EXAG}|{CFG}|{REF}".encode()).hexdigest()[:12]
+FIN_CAP = ("Roma, año ochenta.", "Y para los huesos,", "Y atención: hay árbitro.", "Peligroso, sí.", "Era su jubilación.")
+def pa(t):
+    if t.startswith(FIN_CAP): return 1.2
+    if t in ("Empieza el combate.", "El reciario levanta el tridente. ¿Es el final?", "Cincuenta mil personas gritan a la vez."): return 0.7
+    return 0.45 if t.endswith("?") else 0.3
+import unicodedata
+norm = lambda w: re.sub(r"[^a-z0-9]", "", "".join(c for c in unicodedata.normalize("NFD", w.lower()) if unicodedata.category(c) != "Mn"))
+lines = [l.strip() for l in open("guion.txt", encoding="utf-8") if l.strip()]
+fr, ws, t = [], [], 0.0
+for i, l in enumerate(lines):
+    p = f"voz/lineas/{key(l)}.wav"
+    d = sf.info(p).duration if os.path.exists(p) else len(l) * 0.068
+    fr.append({"i": i + 1, "text": l, "start": round(t, 3), "end": round(t + d, 3)})
+    toks = [w for x in l.split() for w in x.split("-") if norm(w)]
+    tot = sum(len(norm(w)) + 2 for w in toks); c = t
+    for w in toks:
+        dd = d * (len(norm(w)) + 2) / tot
+        ws.append({"line": i + 1, "w": w, "n": norm(w), "start": round(c, 3), "end": round(c + dd, 3)}); c += dd
+    t += d + pa(l)
+os.makedirs("voz", exist_ok=True)
+json.dump(fr, open("voz/frases_est.json", "w", encoding="utf-8"), ensure_ascii=False)
+json.dump(ws, open("voz/palabras_est.json", "w", encoding="utf-8"), ensure_ascii=False)
+print("duración estimada", round(t, 1), "s")
