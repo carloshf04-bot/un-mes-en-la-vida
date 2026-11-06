@@ -47,7 +47,7 @@ for n, trabajo in enumerate(trabajos):
             wav = modelo.generate(
                 frase,
                 language_id="es",
-                audio_prompt_path=ref,
+                audio_prompt_path=trabajo.get("ref", ref),
                 exaggeration=drama,
                 cfg_weight=0.35 if drama >= 0.6 else 0.5,  # cfg bajo = ritmo más pausado y dramático
                 temperature=0.75,

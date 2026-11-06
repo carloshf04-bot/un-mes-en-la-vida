@@ -29,7 +29,8 @@
       "colorSombrero": "#f4f2ee",
       "gafas": false,
       "altura": 0.62,
-      "zapatos": "#d8d4ce"
+      "zapatos": "#d8d4ce",
+      "voz": "narradora-es"
     },
     "vega_casa": {
       "piel": "#e8b48e",
@@ -46,7 +47,8 @@
       "colorSombrero": "#f4f2ee",
       "gafas": false,
       "altura": 0.62,
-      "zapatos": "#7a7e86"
+      "zapatos": "#7a7e86",
+      "voz": "narradora-es"
     },
     "vega_adulta": {
       "piel": "#e8b48e",
@@ -63,7 +65,8 @@
       "colorSombrero": "#f4f2ee",
       "gafas": false,
       "altura": 1,
-      "zapatos": "#d8d4ce"
+      "zapatos": "#d8d4ce",
+      "voz": "narradora-es"
     },
     "madre": {
       "piel": "#e6b896",
@@ -80,7 +83,8 @@
       "colorSombrero": "#f4f2ee",
       "gafas": false,
       "altura": 1,
-      "zapatos": "#d8d4ce"
+      "zapatos": "#d8d4ce",
+      "voz": "narradora-es"
     },
     "madre_casa": {
       "piel": "#e6b896",
@@ -97,7 +101,8 @@
       "colorSombrero": "#f0eee8",
       "gafas": false,
       "altura": 1,
-      "zapatos": "#5a5e66"
+      "zapatos": "#5a5e66",
+      "voz": "narradora-es"
     },
     "padre": {
       "piel": "#c9906a",
@@ -148,7 +153,8 @@
       "colorSombrero": "#f0eee8",
       "gafas": true,
       "altura": 1,
-      "zapatos": "#2e3238"
+      "zapatos": "#2e3238",
+      "voz": "narradora-es"
     },
     "colono": {
       "piel": "#f0cfb0",
@@ -182,7 +188,8 @@
       "colorSombrero": "#f0eee8",
       "gafas": false,
       "altura": 0.5,
-      "zapatos": "#6a7280"
+      "zapatos": "#6a7280",
+      "voz": "narradora-es"
     },
     "bebe": {
       "piel": "#d9a27a",
@@ -2256,5 +2263,6 @@
       "emocion": "sorpresa",
       "icono": "🚀"
     }
-  }
+  },
+  "voz": "narradora-es"
 }

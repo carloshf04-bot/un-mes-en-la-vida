@@ -102,8 +102,20 @@ const producirPieza = (formato) => {
   const cache = join(obra, "cache-voz");
   mkdirSync(cache, { recursive: true });
   const dramaBase = guion.drama ?? 0.65;
-  const clave = (e) => createHash("sha1").update(`${motor}|${voz}|${motor === "chatterbox" ? 1 : guion.velocidad ?? 1}|${e.drama ?? dramaBase}|${e.texto}`).digest("hex").slice(0, 16);
-  const trabajos = escenas.map((e) => ({ texto: e.texto, drama: e.drama ?? dramaBase, salida: join(cache, `${clave(e)}.wav`) }));
+  // Voz por escena: escena.voz > voz del personaje que habla (reparto[quien].voz) > voz del guion.
+  // Así una narradora o un personaje femenino suenan con voz femenina.
+  const vozDe = (e) => {
+    if (e.voz) return e.voz;
+    const hablante = (e.personajes ?? []).find((p, i) => p.habla === true || (p.habla === undefined && i === 0));
+    return (hablante && guion.reparto[hablante.quien]?.voz) || voz;
+  };
+  const refDe = (v) => {
+    const r = motor === "chatterbox" ? join(ESTUDIO, "voces", "referencia", `${v}.wav`) : join(ESTUDIO, "voces", `${v}.onnx`);
+    if (!existsSync(r)) throw new Error(`Falta la voz ${r}`);
+    return r;
+  };
+  const clave = (e) => createHash("sha1").update(`${motor}|${vozDe(e)}|${motor === "chatterbox" ? 1 : guion.velocidad ?? 1}|${e.drama ?? dramaBase}|${e.texto}`).digest("hex").slice(0, 16);
+  const trabajos = escenas.map((e) => ({ texto: e.texto, drama: e.drama ?? dramaBase, ref: refDe(vozDe(e)), salida: join(cache, `${clave(e)}.wav`) }));
   const pendientes = trabajos.filter((t) => !existsSync(t.salida));
   if (pendientes.length) {
     console.log(`🎙️  generando ${pendientes.length} locuciones con ${motor}…`);

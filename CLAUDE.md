@@ -32,6 +32,7 @@ Quien abre la sesión es el **Director**. El Director lanza a cada puesto como *
 
 ## Reglas de la casa
 
+- **Voces:** narrador masculino de España (`narrador-es`) por defecto. Si la protagonista que narra es mujer o niña, el guion lleva `"voz": "narradora-es"`, y los personajes femeninos llevan `"voz": "narradora-es"` en el reparto.
 - **Calidad antes que velocidad.** Si un episodio no está a la altura, mejor retrasarlo un día.
 - **Nada de imitar marcas ni personajes con copyright.** Todo se dibuja con nuestro propio sistema.
 - **Personaje inventado en un hecho real:** se dice en el cierre del vídeo y en la descripción.

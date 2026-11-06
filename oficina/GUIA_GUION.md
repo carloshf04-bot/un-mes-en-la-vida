@@ -35,7 +35,9 @@ La voz (Chatterbox, narrador de España, con `"velocidad": 1.15`) lee unas **120
   "lugar": "Cabo Vilán, Galicia",
   "epoca": "Noviembre de 1890",
   "categoria": "epoca | persona | profesion | futuro",
-  // VOZ: por defecto Chatterbox con el narrador masculino de España (voces/referencia/narrador-es.wav). No cambiar salvo petición expresa.
+  // VOZ: Chatterbox. Narrador masculino de España por defecto ("narrador-es").
+  // Si quien narra es MUJER o NIÑA: "voz": "narradora-es" (obligatorio).
+  "voz": "narradora-es",
   "drama": 0.65,                      // expresividad global de la voz (0.4 sereno · 0.65 documental · 0.85 muy dramático)
   "velocidad": 1.15,                  // con Chatterbox: acelera el audio sin cambiar el tono (recomendado 1.15)
   "musica": "calma | nostalgia | tension | epico | futuro | misterio",
@@ -96,6 +98,7 @@ La voz (Chatterbox, narrador de España, con `"velocidad": 1.15`) lee unas **120
 ```
 
 - `ropa.color` es la parte de arriba y `color2` el pantalón o la falda.
+- **Voz del personaje:** a todo personaje femenino ponle `"voz": "narradora-es"` en su Look. Cuando una escena la "hable" ella (su boca se mueve, con `habla`), esa escena sale con voz femenina. También se puede forzar con `"voz"` en una escena concreta.
 - Para un astronauta: `mono` + `espacial`. Para un caballero: `armadura` + `yelmo`. Para un monje: `bata` + `capucha`. Para un romano: `tunica` + sandalias claras (`zapatos`).
 
 ### EnEscena
