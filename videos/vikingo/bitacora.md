@@ -5,3 +5,4 @@
 2026-11-06 · — · Dirección · entorno: la red bloqueaba las descargas de Hugging Face; creado el entorno «un-mes-en-la-vida» con esos hosts
 2026-11-06 · 1 · control-calidad · CAMBIOS (1 grave: dientes limados situados en Hedeby; 8 menores) · devuelto al investigador, vuelta 1
 2026-11-06 · 1 · control-calidad · APROBADO en la vuelta 2 · paso 1 cerrado
+2026-11-06 · 2 · disenador · diseno.md (6 principales y 7 figurantes, 29 escenarios, Uncial Antiqua, miniatura «¿TE IRÍAS DE VIKINGO?») · a revisión, puerta 2
