@@ -16,6 +16,7 @@ Si choca con `oficina/INSTRUCCIONES_BASE.md` o con `oficina/GUIA_GUION.md`, mand
 - **Comparación moderna con giro**: «Como una rifa, pero a lo bestia.» / «Como la camiseta de tu jugador favorito, pero en vidrio.»
 - **El protagonista tiene nombre y un chiste propio** que vuelve al final: Félix significa afortunado → «Al final, su nombre no mentía.»
 - **Las fuentes se dicen en la frase**: «Lo contó Plinio.» / «Lo contó un poeta que estaba allí.» / «según un historiador posterior».
+- Los fragmentos de abajo enseñan el tono. **No se copian**: cada guion se escribe desde cero (`GUIA_GUION.md`).
 - Fragmentos de ejemplo (de `videos/gladiador-mes/guion.txt`):
   > Sí, un pescado. Nadie dijo que fuera elegante.
   > Félix no tiene mujer ni esclavos. Así que se come también lo de su compañero.

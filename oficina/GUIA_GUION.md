@@ -18,6 +18,7 @@
 8. **Llamada a la acción**: suscribirse, dar a me gusta, comentar una pregunta de dos opciones y mandárselo a un amigo, con una broma.
 
 ## Estilo
+- **Guion nuevo siempre**: los guiones que ya hay en el repositorio (`cavernicola`, `gladiador`, `gladiador-mes`) son solo referencia del estilo. No se copia ni se adapta ninguna frase, chiste, gancho ni estructura de frase de ellos: cada vídeo se escribe desde cero.
 - Frases cortas y para decir en voz alta. Una idea por frase.
 - Algo nuevo en pantalla cada 3-5 segundos.
 - Datos concretos mejor que adjetivos. Si un dato no está seguro, se marca **[COMPROBAR]** y nunca se inventa.

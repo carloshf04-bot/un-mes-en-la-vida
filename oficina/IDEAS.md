@@ -4,8 +4,8 @@
 |---|---|---|---|---|
 | cavernicola | Un mes en la vida de un cavernícola | hecho | 10:52 (y 6 Shorts) | 2026-11-04 |
 | gladiador-corto | Un día en la vida de un gladiador (versión corta, antes de la norma) | hecho | 3:10 (y 2 Shorts) | 2026-11-05 |
-| gladiador-mes | Un mes en la vida de un gladiador | en curso | 10-15 min | |
-| vikingo | Un mes en la vida de un vikingo | pendiente | | |
+| gladiador-mes | Un mes en la vida de un gladiador | aparcado (el usuario pidió guiones nuevos) | 10-15 min | |
+| vikingo | Un mes en la vida de un vikingo | en curso | | |
 | piramide | Un mes en la vida de un constructor de pirámides | pendiente | | |
 | samurai | Un mes en la vida de un samurái | pendiente | | |
 | pirata | Un mes en la vida de un pirata | pendiente | | |
