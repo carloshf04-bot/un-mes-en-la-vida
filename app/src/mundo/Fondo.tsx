@@ -436,6 +436,9 @@ const Particulas: React.FC<{ clima: Clima; f: number }> = ({ clima, f }) => {
   );
 };
 
+// Decorados que siempre están lejos, detrás de todo el paisaje
+const LEJANOS = ["volcan", "volcan-erupcion", "piramide"];
+
 // Ranuras automáticas para props sin x (repartidas detrás de los personajes)
 const RANURAS = [-1.45, 1.45, -0.75, 0.8, -1.9, 1.9, 0];
 
@@ -460,10 +463,16 @@ export const DibujarFondo: React.FC<{ fondo: Fondo; f: number; dur: number; id: 
       ) : (
         <g>
           <Cielo hora={hora} f={f} dur={dur} espacio={fondo.lugar === "espacio" || fondo.lugar === "luna"} marte={fondo.lugar === "marte"} id={id} />
+          {/* decorados LEJANOS (volcanes, pirámides): detrás del paisaje, apoyados en el horizonte y con bruma */}
+          {props.filter((p) => LEJANOS.includes(p.tipo)).map((p, i) => (
+            <g key={`l${i}`} opacity={0.92} transform={`translate(${xMundo(p.x, k)} ${HORIZONTE + 60}) scale(${Math.min(p.escala ?? 1, 1.6) * 0.75})`}>
+              <Prop tipo={p.tipo} f={f} noche={noche} />
+            </g>
+          ))}
           <Exterior fondo={fondo} hora={hora} f={f} id={id} />
         </g>
       )}
-      {props.filter((p) => p.detras !== false).map((p, i) => (
+      {props.filter((p) => p.detras !== false && (fondo.lugar === "interior" || !LEJANOS.includes(p.tipo))).map((p, i) => (
         <g key={i} transform={`translate(${xMundo(p.x, k)} ${SUELO - 20}) scale(${p.escala})`}><Prop tipo={p.tipo} f={f} noche={noche} /></g>
       ))}
     </g>
