@@ -25,8 +25,8 @@ Además: **atrezo de la época** en cada escena (al menos 6 objetos distintos), 
 1. `video-FINAL-horizontal.mp4`: 1920×1080, completo, para YouTube.
 2. `video-FINAL-vertical.mp4`: 1080×1920, completo, para TikTok.
 3. `video-SIN-SUBTITULOS-horizontal.mp4` y `video-SIN-SUBTITULOS-vertical.mp4`.
-4. `shorts/parte-N-de-M.mp4`: el vertical cortado al final de cada capítulo, cada parte de menos de 3:00, con «PARTE n/M», el título al empezar y «SIGUE EN LA PARTE…» al final.
-   - **Los Shorts son el mismo vídeo largo partido en partes, en orden y sin saltarse nada**: al unirlos se tiene el vídeo entero. No se hacen Shorts nuevos, ni recortes de «mejores momentos», ni ganchos reescritos (no se usa `/yt-shorts`). Solo se añaden «PARTE n/M», el título al empezar y «SIGUE EN LA PARTE…» al final.
+4. `shorts/parte-N-de-M.mp4`: el mismo vertical partido en **partes de 1 minuto como máximo**, cortadas al final de una frase (`SHORTS_MIN=60 python scripts/shorts.py …`), con «PARTE n/M», el título al empezar y «SIGUE EN LA PARTE…» al final.
+   - **Los Shorts son el mismo vídeo largo partido en partes, en orden y sin saltarse nada**: al unirlos se tiene el vídeo entero. No se hacen Shorts nuevos, ni recortes de «mejores momentos», ni ganchos reescritos (no se usa `/yt-shorts`).
 5. **Miniaturas** (obligatorias en cada vídeo): `miniatura-youtube.png` (1280×720) y `miniatura-vertical.png` (1080×1920, portada de TikTok o Reels). Se hacen con `node scripts/miniatura.mjs miniaturas/<id>.json <salida>` y llevan:
    - El protagonista grande, con la cara sorprendida bien visible.
    - Una pregunta-gancho de 3 a 5 palabras en blanco enorme, con la palabra clave en amarillo y contorno negro.
