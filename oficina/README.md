@@ -1,5 +1,7 @@
 # La oficina
 
+La oficina trabaja sola: la **Dirección** (la sesión principal, ver `oficina/DIRECCION.md`) encarga cada paso, lo manda revisar y decide sin preguntar. El usuario solo ve el vídeo final y pide detalles con `/cambio`.
+
 Cada vídeo pasa por seis puestos, en este orden. Ningún puesto pasa el trabajo al siguiente sin dejar su parte por escrito en la carpeta del vídeo (`videos/<id>/`).
 
 | Puesto | Qué hace | Entrega | Agente |
@@ -9,7 +11,10 @@ Cada vídeo pasa por seis puestos, en este orden. Ningún puesto pasa el trabajo
 | 3. Guionista | Escribe el guion siguiendo `oficina/GUIA_GUION.md` | `guion.txt` y `guion_visual.md` | `.claude/agents/guionista.md` |
 | 4. Verificador | Comprueba los datos, que no haya anacronismos y la duración | `verificacion.md`: OK o lista de cambios | `.claude/agents/verificador.md` |
 | 5. Producción | Revisa unos fotogramas de muestra y después renderiza | `produccion.md`, capturas y MP4 | `.claude/agents/produccion.md` |
+| Revisión | `control-calidad` revisa cada entrega (puertas 1-5) y `espectador` ve el vídeo final como el público | `calidad-puerta-N.md` y `espectador.md`: APROBADO/APTO o lista de cambios | `.claude/agents/control-calidad.md`, `.claude/agents/espectador.md` |
 | 6. Publicación y archivo | Entrega los vídeos y marca la idea como hecha | Archivos enviados e `IDEAS.md` actualizado | `.claude/agents/publicacion.md` |
+
+Todo el proyecto de un vídeo vive en `videos/<id>/` (también los scripts y los tiempos de la voz) y se sube al terminar cada paso. Lo que queda fuera del repositorio se pierde al cerrar la sesión.
 
 El estado de cada idea está en `oficina/IDEAS.md` (pendiente, en curso, hecho).
 
