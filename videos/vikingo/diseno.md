@@ -12,7 +12,7 @@ Vestfold (sur de Noruega) y Hedeby, **hacia el 890 d. C.**, un mes lunar de prim
 | Tema | Decisión | Por qué (investigación) |
 |---|---|---|
 | Cascos | **Nadie lleva casco en la historia de Ulf.** Ulf usa un gorro de lana (`capWool`) o va con la cabeza descubierta. El casco con cuernos (`hornHelmet`) solo sale en el inserto del mito, sobre un cantante de ópera de 1876 y tachado con `stampX`. El casco de Gjermundbu (`gjermundbu`) solo sale en una vitrina de museo con el rótulo «SIGLO X · AÑOS DESPUÉS». | M1. El único casco vikingo casi completo es del s. X, posterior al 890 |
-| Barco | **Barco de Gokstad**: 16 remos por banda (32), casco de tingladillo (tablas solapadas), mástil y una vela cuadrada, timón lateral a estribor (lado derecho mirando a proa) y escudos amarillos y negros en la borda **solo en puerto**. La roda acaba en **espiral lisa, sin cabeza de dragón**: en Gokstad no se conserva ninguna cabeza. La vela es **lisa, de color ocre rojizo, con costuras de paños**: el rayado rojo y blanco es una reconstrucción moderna | n.º 3 |
+| Barco | **Barco de Gokstad**: 16 remos por banda (32), casco de tingladillo (tablas solapadas), mástil y una vela cuadrada, timón lateral a estribor (lado derecho mirando a proa) y escudos amarillos y negros en la borda **solo en puerto**. La roda acaba en **espiral lisa, sin cabeza de dragón** (decisión de dibujo). La vela es **lisa, de color ocre rojizo, con costuras de paños**: es una **elección visual**, porque el color de la vela de Gokstad no está en la investigación. El guion no habla del color de la vela | n.º 3 |
 | Hedeby | **Sin la gran muralla semicircular** (es de la segunda mitad del s. X). Tampoco hay empalizada en el puerto ni muralla de enlace con el Danevirke. Se ven casas de madera con tejado a dos aguas, pasarelas de tablones, el arroyo entablado y los muelles | Anacronismos |
 | Navegación | Sin brújula y sin «piedra solar». Ulf navega viendo la costa (rocas, islas y la orilla siempre en cuadro) | n.º 6, M5 |
 | Joyas y símbolos | Ni martillos de Thor de colgante (abundan en el s. X), ni piedras rúnicas grandes como las de Jelling, ni cruces en Vestfold. En Hedeby puede verse, como mucho, una pequeña cruz de madera en un rincón (n.º 20) | Prudencia: s. X |
@@ -59,7 +59,7 @@ Vestfold (sur de Noruega) y Hedeby, **hacia el 890 d. C.**, un mes lunar de prim
   // Remeros y vecinos: dos variantes de lana natural (clonar y cambiar el pelo si hace falta)
   remero1: { skin: "#e4b48e", skinS: "#c39068", hair: "#8a5a2a", tunic: "#8a7a5e", tunic2: "#5a4c38", fur: "#d8cbb0", pants: "#6b5a46", boot: "#4a3220", beard: true, h: 1.02 },
   remero2: { skin: "#d8a47e", skinS: "#b8845e", hair: "#c9a060", tunic: "#7a5a3a", tunic2: "#54402a", fur: "#d8cbb0", pants: "#5a4c38", boot: "#3a2414", h: 0.98 },
-  // Esclava cautiva en Hedeby (n.º 18): lana basta sin teñir; collar de hierro (GEAR.ironCollar)
+  // Esclava cautiva en Hedeby (n.º 18): lana basta sin teñir; lleva grilletes (GEAR.shackle)
   thrall: { skin: "#e0b48c", skinS: "#c0926a", hair: "#5a3a22", tunic: "#b8ab90", tunic2: "#8a7e66", fur: "#b8ab90", pants: "#b8ab90", boot: "#8a6a4a", braid: true, h: 0.93 },
   // Inserto «921 · VOLGA» (n.º 21): un rus tatuado y el viajero Ibn Fadlan
   rus: { skin: "#e6b896", skinS: "#c59470", hair: "#9a6a32", tunic: "#e6b896", tunic2: "#5a3b22", fur: "#e6b896", pants: "#7a6a52", boot: "#4a3220", bare: true, beard: true, h: 1.05 },
@@ -84,8 +84,6 @@ Coordenadas del personaje: mano delantera en `(31,-164)`, torso de `y = -302` a 
   smokkr: `<g><path d="M-44,-272 L46,-272 L50,-160 L-48,-160Z" fill="#3f5f7a" stroke="${C.ink}" stroke-width="4"/><path d="M-30,-300 L-28,-272 M32,-300 L30,-272" stroke="#3f5f7a" stroke-width="8"/><ellipse cx="-28" cy="-280" rx="15" ry="11" fill="#c9a24a" stroke="${C.ink}" stroke-width="3.5"/><ellipse cx="30" cy="-280" rx="15" ry="11" fill="#c9a24a" stroke="${C.ink}" stroke-width="3.5"/><path d="M-34,-282 l12,0 M24,-282 l12,0 M-28,-288 l0,12 M30,-288 l0,12" stroke="#8f6a2a" stroke-width="2"/>${["#d98a2b", "#3f8a6a", "#2f5f9a", "#d98a2b", "#e6dcc6", "#3f8a6a", "#2f5f9a"].map((c, i) => { const x = -18 + i * 6.3, y = -268 + Math.sin((i / 6) * Math.PI) * 14; return `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="4" fill="${c}" stroke="${C.ink}" stroke-width="1.5"/>`; }).join("")}</g>`,
   // llaves y tijeras colgadas del cinto (Ása)
   keys: `<g><path d="M36,-206 L38,-168 M44,-206 L50,-172" stroke="#5a3b22" stroke-width="3"/><path d="M38,-170 L38,-150 M38,-156 l7,0 M38,-150 l5,0" stroke="#7a7f86" stroke-width="4" stroke-linecap="round"/><path d="M50,-174 L56,-148 M50,-174 L44,-150" stroke="#7a7f86" stroke-width="3.5" stroke-linecap="round"/></g>`,
-  // collar de hierro de la esclava (n.º 18)
-  ironCollar: `<g><path d="M-22,-308 C-10,-298 18,-298 30,-308" stroke="#5b5f66" stroke-width="10" fill="none" stroke-linecap="round"/><path d="M-22,-308 C-10,-298 18,-298 30,-308" stroke="${C.ink}" stroke-width="2.5" fill="none"/><circle cx="4" cy="-298" r="6" fill="none" stroke="#5b5f66" stroke-width="4"/></g>`,
   // tatuajes del rus del Volga (inserto 921): líneas verde oscuro sobre el pecho (T)
   tattoo: `<g stroke="#2f4a3a" stroke-width="3.5" fill="none" stroke-linecap="round" opacity=".85"><path d="M-30,-286 C-20,-270 -20,-250 -32,-236 M34,-286 C24,-270 24,-250 36,-236"/><path d="M-12,-276 q16,12 32,0 M-14,-252 q18,12 36,0"/><circle cx="-26" cy="-214" r="6"/><circle cx="34" cy="-214" r="6"/></g>`,
 
@@ -136,7 +134,7 @@ export const cloakOf = (c) => GEAR.cloak.replaceAll("#6b4a2e", c);
 // Poses (grados por articulación; ajustar con capturas)
 export const POSE = {
   remar:      { armF: -70, foreF: -20, armB: -60, foreB: -30, legF: -30, legB: 20 },  // sentado en el arcón, tirando del remo
-  vapnatak:   { armF: -150, foreF: -10, mouth: "open" },                            // arma en alto: chocar las armas en el thing
+  vapnatak:   { armF: -150, foreF: -10, mouth: "open" },                            // la lanza (en F) en alto: chocar las armas en el thing
   pesar:      { armF: -60, foreF: -30, head: 6, brows: -2 },                        // balanza a la altura de los ojos
   hilar:      { armF: -40, foreF: -70, armB: -120, foreB: -20 },                    // Ása con el huso
   peinarse:   { armF: -150, foreF: -90, head: -4 },                                 // el peine en el pelo
@@ -151,23 +149,23 @@ export const POSE = {
 
 | personaje | momento | props |
 |---|---|---|
-| Ulf | granja (semana 1) | `ulf` + `F: spade` o `knife`; en el *dagmál*, `F: bowl` (ya existe) |
+| Ulf | granja (semana 1) | `ulf` + `F: spade` o `knife`; en el *dagmál*, `F: bowl` (copiar `GEAR.bowl` de `videos/gladiador-mes/diseno.md`) |
 | Ulf | aseo (n.º 24-25) | `F: comb`, `POSE.peinarse` |
-| Ulf | *thing* (semana 2) | `T: cloak`, `F: shieldRound`, `B: back(prop("spear"))`; en el *vápnatak*, `POSE.vapnatak` con la lanza en alto |
+| Ulf | *thing* (semana 2) | `T: cloak`, `F: prop("spear","ulf-spear")`, `B: back(GEAR.shieldRound)`; en el *vápnatak*, `POSE.vapnatak` sube `armF`, la mano de la lanza (cada personaje con su propio id: `prop("spear","<id>-spear")`) |
 | Ulf | varadero y travesía (semanas 2-3) | `H: capWool`, `F: oar` (`POSE.remar`) o `stockfish`; de noche, `POSE.dormir` bajo la piel |
 | Ulf | Hedeby (semana 4) | `T: cloak`, `B: back(GEAR.axe)`, `F: hacksilver` o `scales` (`POSE.pesar`) |
 | Ulf | brindis de vuelta / mito M4 | `F: hornDrink` |
 | Ása | granja | `T: smokkr+keys`, `F: spindle` (`POSE.hilar`) o `PROP.basket` |
 | Kári | granja y despedida | `F: PROP.stone` (espantar cuervos) o nada; corre con el perro |
 | Geirmund | *thing* y barco | `T: cloakOf("#2f4f7a")`, `F: swordVk`; al timón, mano en la caña del timón (forma parte del barco) |
-| Hallvard | *thing* | `T: cloakOf("#6b5a46")`, `F: staff` (ya existe); habla con `talk` y la mano libre alzada |
-| Poppo | mercado | `T: cloakOf("#3a3a44")`, `F: scales`, `B: back(GEAR.purse)` |
-| Esclava | Hedeby (n.º 18), escena sombría | `thrall` + `T: ironCollar`, `F: shackle` (ya existe); **sin poses cómicas** |
+| Hallvard | *thing* | `T: cloakOf("#6b5a46")`, `F: staff` (ya está en `GEAR`); habla con `talk` y la mano libre alzada |
+| Poppo | mercado | `T: cloakOf("#3a3a44")`, `F: scales`, `B: back(GEAR.purse)` (copiar `GEAR.purse` de `videos/gladiador-mes/diseno.md`) |
+| Esclava | Hedeby (n.º 18), escena sombría | `thrall` + `F: shackle` (grilletes, como los de Birka; copiar `GEAR.shackle` de `videos/gladiador-mes/diseno.md`); **sin collar y sin poses cómicas** |
 | Remeros | barco | `remero1` / `remero2` + `F: oar`, `POSE.remar` |
 | Rus del Volga | inserto «921 · VOLGA» | `rus` + `T: tattoo`, `F: basin`, `F: comb` |
-| Ibn Fadlan | inserto «921 · VOLGA» | `fadlan` + `F: scroll` (ya existe) |
+| Ibn Fadlan | inserto «921 · VOLGA» | `fadlan` + `F: scroll` (copiar `GEAR.scroll` de `videos/gladiador-mes/diseno.md`) |
 | Cantante 1876 | inserto del mito M1 | `opera` + `H: hornHelmet`, y encima `stampX` |
-| Perro de la granja | semana 1 y despedida | `wolf()` («gris») con el pelaje en `#a07a4a` (perro pardo) |
+| Perro de la granja | semana 1 y despedida | `wolf()` («gris») pasado a perro pardo. `wolf()` tiene el color escrito a mano: en `vk_fondos` se usa `wolf(id).replaceAll("#8d9099","#a07a4a").replaceAll("#6c6f78","#7a5a34")`, o se cambia a `wolf(id, fur = "#8d9099", furD = "#6c6f78")` |
 
 ---
 
@@ -200,7 +198,7 @@ La luna de cada semana sale con `moonBadge` (de `lib2.mjs`): `0` nueva, `0.5` cr
 | semana1 | `s1_granja` | `nordicSky("manana")` + luna nueva invisible | `fjordFar`, `birchRow` | `longhouse`, `fieldFurrows`, `fenceWattle`, `animal(vaca/oveja)` | sol bajo de mañana, sombras largas |
 | semana1 | `s1_dagmal` | — (interior) | — | `longhouseIn` (hogar, bancos, telar) | hogar naranja y haz por el agujero del humo |
 | semana1 | `s1_noche` | `nordicSky("noche", { moon: 0 })` | `fjordFar(night)` | `longhouse` con luz en la puerta | azul noche, sin luna, viñeteado |
-| semana1 | `s1_sabado` (n.º 25) | `nordicSky("dia")` | `fjordFar` | `stream` con tina y piedras calientes | luz alegre, vapor |
+| semana1 | `s1_sabado` (n.º 24-25) | `nordicSky("dia")` | `fjordFar` | `stream`: Ulf se lava en el arroyo y se peina con `comb`; pinzas y cucharilla para las orejas en una piedra | luz alegre, agua brillante |
 | semana2 | `s2_thing` | `nordicSky("dia")` + luna creciente pálida | `fjordFar`, `thingMound` | `hazelRopes`, `thingCrowd` | mediodía claro, sombras cortas |
 | semana2 | `s2_vapnatak` (n.º 14) | igual | igual | `burst` de chispas metálicas y rótulo «AÑOS DESPUÉS, LAS LEYES CUENTAN…» | igual, con `sunRays` |
 | semana2 | `s2_varadero` | `nordicSky("tarde")` | `fjordFar`, `kaupang` | `naust`, `gokstad` varado, `tarPot`, `logRollers` | tarde cálida, brea humeante |
@@ -210,7 +208,7 @@ La luna de cada semana sale con `moonBadge` (de `lib2.mjs`): `0` nueva, `0.5` cr
 | semana3 | `s3_noche_mar` | `nordicSky("noche", { moon: 1 })` | `coastLine(night)` | `gokstad` fondeado, `moonPath` sobre el agua | luna llena azul plata, viñeteado |
 | semana3 | `s3_campamento` | `nordicSky("noche", { moon: 1 })` | `coastLine(night)` | `tent` (lib2, en tonos lana) en la orilla, `fire` | fuego naranja contra azul |
 | semana3 | `s3_schlei` (llegada) | `nordicSky("manana")` | orillas bajas y verdes del Schlei | `gokstad` entrando despacio | mañana tibia, juncos |
-| semana4 | `s4_puerto` | `nordicSky("dia", { moon: -0.5 })` | `hedebyFar` | `jetty`, barcos mercantes, `cranes` de mano | luz de día con humo de talleres |
+| semana4 | `s4_puerto` | `nordicSky("dia", { moon: -0.5 })` | `hedebyFar` | `jetty`, barcos mercantes, hombres con fardos y una pasarela de tablones | luz de día con humo de talleres |
 | semana4 | `s4_mercado` | `nordicSky("dia")` | `hedebyFar` | `hedebyStreet`, `stalls` | día animado |
 | semana4 | `s4_plata` (n.º 16-17) | — | `hedebyStreet` desenfocado | balanza grande en primer término, `hacksilver` en un paño | foco cálido sobre la balanza |
 | semana4 | `s4_esclavos` (n.º 18-19) | `nordicSky("nublado")` | `hedebyFar` | rincón del muelle con `shackle` | desaturado, frío, sin música alegre |
@@ -218,14 +216,15 @@ La luna de cada semana sale con `moonBadge` (de `lib2.mjs`): `0` nueva, `0.5` cr
 | semana4 | `s4_noche` | `nordicSky("noche", { moon: -0.5 })` | `hedebyFar(night)` | `hedebyStreet(night)`, braseros | menguante, luz de lámparas |
 | inserto | `ins_volga` (n.º 21) | `nordicSky("manana")` | `volgaBank` | rótulo «921 · RÍO VOLGA · 30 AÑOS DESPUÉS» | fría y ajena, `tint("despues")` |
 | inserto | `ins_1876` (M1) | — | — | `operaStage` (telón, candilejas, decorado pintado) | candilejas amarillas desde abajo |
-| inserto | `ins_museo` (M1, n.º 22) | — | — | `museumCase` (Veksø, Gjermundbu o cráneo «EN SUECIA») | foco de museo frío |
+| inserto | `ins_museo` (M1, n.º 22) | pared del fondo con degradado y foco | vitrinas lejanas desenfocadas | `museumCase` (Veksø, Gjermundbu o cráneo «EN SUECIA»); ver 2.5 | foco de museo frío |
+| inserto | `ins_viborg` (n.º 23, M2) | igual que `ins_museo` | igual que `ins_museo` | `museumCase` con un frasco de muestras de tierra y la cartela «VIBORG · DINAMARCA · 1018-1030» | foco de museo frío. Si el guion no le da plano propio, el dato va en un `iconCard` sobre la escena del momento |
 | inserto | `ins_gokstad` (n.º 4-5) | `nordicSky("tarde")` | `fjordFar` | túmulo con hierba y rótulo «POCOS AÑOS DESPUÉS» | dorada del recuerdo |
-| balance | `balance` | `nordicSky("atardecer", { moon: 0 })` | `fjordFar` | `farmstead`, `gokstad` lejos, `bigScale` (ya existe en el diseño del gladiador; si no está, se dibuja como `scales` grande) | contraluz rosado |
-| cierre | `cierre` | `nordicSky("noche", { moon: 0 })` | `fjordFar(night)` | `longhouse` con puerta encendida, `aurora` suave | azul noche, ventana cálida |
+| balance | `balance` | `nordicSky("atardecer", { moon: 0 })` | `fjordFar` | `farmstead`, `gokstad` lejos, `bigScale` (nueva, dibujar: `GEAR.scales` a escala 4 sobre un poste) | contraluz rosado |
+| cierre | `cierre` | `nordicSky("noche", { moon: 0 })` | `fjordFar(night)` | `longhouse` con puerta encendida, estrellas y humo | azul noche, ventana cálida |
 
 ### 2.3 Piezas nuevas (para `vk_fondos.mjs` y `lib2.mjs`)
 
-Todas tienen el mismo formato que las del gladiador: SVG plano con trazo `C.ink`, semilla `rng()` fija, animaciones con `S.tw()` a lo largo de `S.t1 - S.t0`, y `S.parallax` con `far` 0,12, `mid` 0,35 y `fg` 1,35.
+**Todas son nuevas, hay que dibujarlas**: no están en `videos/gladiador/scripts/`. Tienen el mismo formato que las del gladiador: SVG plano con trazo `C.ink`, semilla `rng()` fija, animaciones con `S.tw()` a lo largo de `S.t1 - S.t0`, y `S.parallax` con `far` 0,12, `mid` 0,35 y `fg` 1,35.
 
 | función | qué dibuja | vivo |
 |---|---|---|
@@ -237,7 +236,7 @@ Todas tienen el mismo formato que las del gladiador: SVG plano con trazo `C.ink`
 | `fieldFurrows(S, x, w)` | campo recién sembrado: surcos en diagonal de tierra parda con brotes verdes pequeños, **arado de madera** (*ard*) apoyado en la cerca | brotes que tiemblan, cuervos que picotean (siluetas que saltan) |
 | `fenceWattle(S, x, w)` | cerca de varas entretejidas | — |
 | AN `vaca`, `oveja` (lib2) | vaca pequeña de la época (color pardo rojizo `#8a5a3a`, cuernos cortos) y oveja de lana gris y cara oscura (`#b8b0a0`, cabeza `#3a2a20`) con el formato de `AN` | `animalIdle`: cabeza que pace, cola |
-| `stream(S, x)` | arroyo con piedras, tina de madera y piedras calientes en un fuego pequeño | vapor que sube, agua que corre |
+| `stream(S, x)` | arroyo con piedras y una piedra plana con el peine de asta, las pinzas, la cucharilla para las orejas (n.º 24) y un paño de lana | agua que corre, brillos, salpicaduras al lavarse |
 | `thingMound(S, x)` | prado abierto con un **pequeño montículo** en el centro y piedras planas alrededor, en una llanura junto al fiordo | — |
 | `hazelRopes(S, x, w)` | varas de avellano clavadas con cuerdas que marcan el espacio del juicio (reconstrucción basada en las sagas: decirlo así si se nombra) | cuerdas que se balancean |
 | `thingCrowd(S, x, w)` | dos o tres filas de hombres libres en silueta (variantes de `remero1`/`remero2` sin rig, solo SVG plano), lanzas y escudos | se mueven por turnos; en el *vápnatak* alzan las armas a la vez |
@@ -252,18 +251,23 @@ Todas tienen el mismo formato que las del gladiador: SVG plano con trazo `C.ink`
 | `hedebyFar(S, { night })` | casas de madera bajas y apiñadas con tejados de paja a dos aguas, humo de muchos talleres, mástiles de barcos en el puerto y **ninguna muralla** | humo, banderolas de tela en los mástiles |
 | `hedebyStreet(S, x, w, { night })` | calle de **tablones** con el **arroyo entablado** al lado, casas de entramado de varas y barro con tejado de paja, cercas de varas entre parcelas, talleres (peinero con astas, cuentero con cuentas de vidrio, herrero) | humo, chispas del herrero, cuentas que brillan |
 | `stalls(S, x)` | puestos con toldo de lana: pieles, cuentas de vidrio, piedras de afilar, peines, tela, ollas, jarras renanas | toldos que ondean |
-| `cranes` | (opcional) grúa de mano en el muelle: polea y cuerda | cuerda que oscila |
 | `volgaBank(S)` | orilla ancha y llana del Volga con casas de madera grandes y barcas (inserto) | río que fluye |
 | `operaStage(S)` | escenario de 1876: telón rojo, candilejas, decorado pintado de rocas y un fresno | telón que se abre, candilejas que titilan |
 | `museumCase(S, kind)` | vitrina con peana y cartela («VEKSØ · h. 900 a. C.», «GJERMUNDBU · s. X», «SUECIA · 800-1050») | brillo que cruza el cristal |
-| `aurora(S)` | cortina verde muy suave en el cielo del cierre (es primavera: tenue) | ondulación lenta |
+| `farmstead(S, x)` | la granja vista de lejos en la ladera: `longhouse` a escala 0,3, granero sobre postes, cerca de varas y dos o tres manchas de animales | humo del tejado |
+| `smoke(S, id, x, y)` | columna de humo: 5-6 círculos grises semitransparentes que suben, crecen y se desvanecen en bucle con desfase | sube y se dobla con el viento |
+| `spray(S, x, y)` | salpicaduras de espuma: gotas blancas (como `burst` de `lib.mjs`, en `#f4f8fa`) que saltan en la proa en bucle | gotas |
+| `gulls` (dentro de `nordicSky`) | como los pájaros en V de `romanSky`, pero de uno en uno: «M» blanca de 40 px con las puntas negras | aleteo (`scaleY`) y vuelo |
+| `tint(S, kind)` | capa de color encima de todo con `mix-blend-mode: multiply`: `sepia` (#c9a06a, 0,5), `despues` (#8fa2b8, 0,45), `frio` (#7f8a96, 0,4), `noche` (#24324e, 0,55) | — |
+| `sunRays(S, x, y, color)` | abanico de rayos (`repeating-conic-gradient`, como los de `romanSky`) con máscara radial, encima del medio | giro lento |
+| `museumCase(S, kind)` con `ins_viborg` | `kind: "viborg"`: frasco de vidrio con tierra parda y una lupa al lado | brillo que cruza el cristal |
 
 ### 2.4 El barco de Gokstad (`gokstad`)
 
 Medidas para el dibujo: unos 23 m de largo; con el actor a escala 1 (unos 480 px = 1,80 m), el barco mide unos **6.000 px**. Para los planos generales se usa `s ≈ 0,35`.
-- **Casco**: perfil largo y bajo con proa y popa altas y simétricas, **tablas solapadas** (9-10 tracas con una línea más oscura en cada solape, `#a0703c` / `#7a5030`). La roda y el codaste acaban en **espiral lisa**, sin cabeza de animal.
+- **Casco**: perfil largo y bajo con proa y popa altas y simétricas, **tablas solapadas** (9-10 tracas con una línea más oscura en cada solape, `#a0703c` / `#7a5030`). La roda y el codaste acaban en **espiral lisa**, sin cabeza de animal (decisión de dibujo).
 - **Remos**: 16 portillas redondas por banda en la traca alta (con tapas que se abren). Con `oars: true`, salen 16 remos que bogan en grupo (`rotation` en bucle con desfase pequeño).
-- **Mástil y vela**: mástil en el centro, una verga y una **vela cuadrada de lana** ocre rojizo (`#b8643a`) con costuras de paños verticales más oscuras. Las escotas van a la borda. Animación: `scaleX` 0,94 → 1,04 en bucle y la vela que «respira».
+- **Mástil y vela**: mástil en el centro, una verga y una **vela cuadrada de lana** ocre rojizo (`#b8643a`; elección visual, el guion no nombra el color) con costuras de paños verticales más oscuras. Las escotas van a la borda. Animación: `scaleX` 0,94 → 1,04 en bucle y la vela que «respira».
 - **Timón**: remo-timón grande en el lado de **estribor**, en popa, con su caña. Geirmund o Ulf lo manejan.
 - **Escudos**: con `shields: true`, 32 escudos por banda en la regala, **alternando amarillo y negro**. Solo en puerto y en la despedida; **en el mar abierto, sin escudos**.
 - **A bordo**: arcones de remero (Ulf se sienta en el suyo), barriles de agua, sacos de harina, pescado seco colgado, pieles enrolladas y un cubo para achicar. No hay camarotes ni cubierta techada.
@@ -271,7 +275,10 @@ Medidas para el dibujo: unos 23 m de largo; con el actor a escala 1 (unos 480 px
 
 ### 2.5 Descripción de las escenas principales (5 capas, atrezo, luz y vivos)
 
-Las variantes que no salen aquí repiten las capas de su escena principal y cambian el atrezo o la luz, como dice la tabla 2.2. Ninguna escena se repite igual.
+Las variantes que no salen aquí repiten las capas de su escena principal y cambian el atrezo o la luz, como dice la tabla 2.2. Ninguna escena se repite igual. Tres variantes cambian además el suelo y el primer plano:
+- `s4_puerto`: suelo de tablones del muelle sobre pilotes y agua del puerto; primer plano de amarras y cestos desenfocados.
+- `s3_campamento`: suelo de guijarros con algas en la orilla; primer plano de brasas y remos apoyados, desenfocados.
+- `s3_schlei`: agua mansa del Schlei con orillas de juncos; primer plano de juncos desenfocados.
 
 **gancho · el barco a toda vela, tarde**
 1. Cielo: `nordicSky("tarde")`, degradado violeta-naranja-dorado con el sol bajo y halo, rayos que giran, nubes con sombra y gaviotas.
@@ -289,7 +296,7 @@ Las variantes que no salen aquí repiten las capas de su escena principal y camb
 3. Medio: la ladera con la granja de Ulf (`longhouse`, granero sobre postes), abedules de hojas nuevas y una cerca de varas.
 4. Suelo: prado de primavera (`#6f8f4a` → `#4f6b3a`) con flores pequeñas, piedras con brillo, un sendero de tierra y las sombras de contacto.
 5. Primer plano: helechos y piedras grandes con musgo, desenfocados.
-- Atrezo: casa larga, granero, pila de leña, cerca de varas, arado de madera, carretilla de mano, vacas y ovejas.
+- Atrezo: casa larga, granero, pila de leña, cerca de varas, arado de madera, carro de madera de dos ruedas (como el de Oseberg), vacas y ovejas.
 - Luz: mañana fría con niebla baja sobre el agua.
 - Vivos: humo de la granja y de Kaupang, niebla, hierba y animales que pacen.
 
@@ -369,7 +376,7 @@ Las variantes que no salen aquí repiten las capas de su escena principal y camb
 3. Medio: el extremo del muelle con un cobertizo y un poste.
 4. Suelo: tablones mojados con charcos.
 5. Primer plano: cuerdas y un barril, desenfocados y oscuros.
-- Atrezo: grilletes (`shackle`), collar de hierro, cadena en el poste, balanza en un barril, cuerda y un manto raído.
+- Atrezo: grilletes (`shackle`), cadena en el poste, balanza en un barril, cuerda y un manto raído.
 - Luz: desaturada y fría (`tint("frio")`), sin brillos.
 - Vivos: lluvia fina o llovizna (líneas diagonales lentas), agua en los charcos y una cuerda que se balancea.
 - Tono: respeto. Nada de gags. La esclava mira a cámara un instante.
@@ -384,6 +391,26 @@ Las variantes que no salen aquí repiten las capas de su escena principal y camb
 - Luz: candilejas amarillas desde abajo.
 - Vivos: telón que se abre, candilejas que titilan y el cantante que abre la boca (`talk`). Al terminar la frase: `stampX` rojo sobre el casco.
 
+**inserto · el museo (`ins_museo`, M1 y n.º 22; también `ins_viborg`, n.º 23)**
+1. Cielo (fondo): pared de sala con degradado gris azulado (`#2a3140` → `#4a5568`) y el cono de luz de un foco desde arriba.
+2. Lejos: otras vitrinas y cartelas desenfocadas (blur 4 px), más claras por la distancia.
+3. Medio: la vitrina principal sobre su peana, con el objeto (los cascos de Veksø, el casco de Gjermundbu, el cráneo «EN SUECIA» o el frasco de Viborg) y su cartela con la fecha.
+4. Suelo: tarima de madera oscura con el reflejo de la vitrina y la sombra de la peana.
+5. Primer plano: cordón de visita entre dos postes y cabezas de visitantes en silueta, desenfocados (paralaje 1,35).
+- Atrezo: vitrina de cristal, peana, cartela con fecha, foco del techo, cordón con postes, banco de sala, cartel de la sala y la flecha de recorrido.
+- Luz: foco de museo frío sobre la vitrina; el resto, en penumbra.
+- Vivos: brillo que cruza el cristal, motas de polvo en el cono del foco y un visitante que pasa en silueta.
+
+**inserto · el Volga, 921 (`ins_volga`, n.º 21)**
+1. Cielo: `nordicSky("manana")`, frío y pálido, con nubes con sombra y aves que cruzan.
+2. Lejos: la otra orilla del Volga, llana y muy clara por la distancia, con una línea de árboles.
+3. Medio: casas grandes de madera de los *rus* en la orilla y sus barcas varadas, con humo.
+4. Suelo: barro de la orilla con huellas, charcos y tablas para pisar.
+5. Primer plano: juncos desenfocados (paralaje 1,35).
+- Atrezo: barcas varadas, la palangana de madera (`basin`) que pasa de mano en mano, peine (`comb`), un paño, un cubo, fardos de pieles y el rollo de Ibn Fadlan (`scroll`).
+- Luz: fría de mañana con `tint("despues")` y el rótulo «921 · RÍO VOLGA · 30 AÑOS DESPUÉS».
+- Vivos: el río que corre, el humo de las casas, los juncos que se mecen y el agua de la palangana que se agita.
+
 **balance · la granja al atardecer (`balance`)**
 1. Cielo: `nordicSky("atardecer")` con el sol bajo y gaviotas que vuelven.
 2. Lejos: el fiordo rosado con el barco de Gokstad pequeño, ya varado.
@@ -395,14 +422,14 @@ Las variantes que no salen aquí repiten las capas de su escena principal y camb
 - Vivos: humo, brotes, gaviotas y los platillos de la balanza que oscilan antes de quedarse quietos.
 
 **cierre · la granja de noche (`cierre`)**
-1. Cielo: `nordicSky("noche", { moon: 0 })`, sin luna, con estrellas y una aurora suave.
+1. Cielo: `nordicSky("noche", { moon: 0 })`, sin luna, con estrellas que titilan y el humo de la casa.
 2. Lejos: el fiordo y las montañas en negro azulado.
 3. Medio: la casa larga con la puerta abierta y la luz del hogar saliendo.
 4. Suelo: prado azulado con la sombra larga de la puerta.
 5. Primer plano: cerca y abedul en silueta.
-- Atrezo: casa, leña, cerca, carretilla, el escudo colgado junto a la puerta, el perro tumbado y el barco a lo lejos.
+- Atrezo: casa, leña, cerca, narria de madera (trineo de arrastre), el escudo colgado junto a la puerta, el perro tumbado y el barco a lo lejos.
 - Luz: azul noche con el rectángulo cálido de la puerta y viñeteado.
-- Vivos: estrellas, aurora, humo y la cola del perro.
+- Vivos: estrellas, humo y la cola del perro.
 
 ---
 
@@ -468,4 +495,5 @@ Notas para Producción:
 - `miniatura.mjs` coge una sola clave de `GEAR` por ranura: `cloak`, `shieldRound` y `axe` tienen que estar ya en `GEAR` (apartado 1.3).
 - El hacha va en `B` sin `back()`: la pose de sorpresa sube el brazo trasero y así se ve. Si tapa la cara en la captura, se cambia a `"B":"knife"`.
 - Comprobar que los tres iconos existen en `build/node_modules/@phosphor-icons/core/assets/fill/` (`sailboat-fill.svg`, `axe-fill.svg` y `scales-fill.svg`). Si alguno falta, se usa `boat`, `sword` o `coins`.
-- `UncialAntiqua-Regular.ttf` va en `fonts/`.
+- `scripts/miniatura.mjs` importa `./lib.mjs` de la carpeta `scripts/` de la raíz, que no tiene ese archivo. Hay que copiar a `scripts/lib.mjs` de la raíz el `lib.mjs` del vikingo con los `CAST` y `GEAR` nuevos, o lanzar `miniatura.mjs` desde `videos/vikingo/scripts/`.
+- `Inter.ttf` y `UncialAntiqua-Regular.ttf` van en `fonts/`, que todavía no existe.

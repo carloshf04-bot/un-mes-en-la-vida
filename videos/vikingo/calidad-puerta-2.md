@@ -33,3 +33,33 @@ Revisado: `videos/vikingo/diseno.md` frente a `investigacion.md` (aprobada en la
 Hay 2 problemas graves: la carretilla, que es un anacronismo visible en la intro y en el cierre, y los insertos del museo y del Volga, que no tienen las 5 capas ni el resto de lo obligatorio. Los dos se arreglan en el texto del diseño, sin rehacer nada más.
 
 **CAMBIOS**
+
+---
+
+## Vuelta 2
+
+He comprobado los cambios con `git diff abbc90d -- videos/vikingo/diseno.md` y con `grep` para buscar lo que quedara de cada problema.
+
+| # | Estado | Comprobación |
+|---|---|---|
+| 1 (grave) | Resuelto | Ya no aparece «carretilla» en el documento. En la intro pone «carro de madera de dos ruedas (como el de Oseberg)» y en el cierre, «narria de madera (trineo de arrastre)». Las dos escenas siguen teniendo 7 objetos |
+| 2 (grave) | Resuelto | En 2.5 hay bloques nuevos para `ins_museo` e `ins_volga`, con las 5 capas, 8 y 7 objetos, la luz y los elementos vivos. En la tabla 2.2, la fila de `ins_museo` ya no tiene «—» en cielo ni en lejos |
+| 3 | Resuelto | `s4_puerto`, `s3_campamento` y `s3_schlei` tienen ahora suelo y primer plano propios (inicio de 2.5) |
+| 4 | Resuelto | En el *thing*, Ulf lleva `F: prop("spear","ulf-spear")` y `B: back(GEAR.shieldRound)`, así que `POSE.vapnatak` sube la lanza. También se indica un id propio por personaje |
+| 5 | Resuelto | `bowl`, `purse`, `shackle` y `scroll` remiten a `videos/gladiador-mes/diseno.md`. `staff` dice ahora «ya está en `GEAR`» (es cierto). `bigScale` se dibuja como `GEAR.scales` a escala 4. `tint`, `sunRays`, `smoke`, `spray`, `gulls` y `farmstead` están descritos en 2.3 como piezas nuevas. El `drum()` que el apartado 4 da por existente sí está en `videos/gladiador/scripts/audio.py:69` |
+| 6 | Resuelto | Se explica cómo cambiar el color del perro con `replaceAll` o con un parámetro en `wolf()` |
+| 7 | Resuelto | Se ha quitado `GEAR.ironCollar`. La esclava lleva solo `shackle` («sin collar») y el collar ya no está en el atrezo de `s4_esclavos` |
+| 8 | Resuelto | La vela ocre y la roda en espiral aparecen como «elección visual» o «decisión de dibujo», y se añade que el guion no nombra el color (apartados 0 y 2.4) |
+| 9 | Resuelto | `s1_sabado` y `stream` ya no tienen tina ni piedras calientes. Ahora sale el lavado en el arroyo con peine, pinzas y cucharilla (n.º 24-25) |
+| 10 | Resuelto | Se ha quitado la aurora de 2.2, 2.3 y del cierre |
+| 11 | Resuelto | Se ha quitado `cranes`. En `s4_puerto` hay ahora hombres con fardos y una pasarela |
+| 12 | Resuelto | Hay un inserto nuevo, `ins_viborg`: vitrina con el frasco de muestras y la cartela «VIBORG · DINAMARCA · 1018-1030», o un `iconCard` si no tiene plano propio |
+| 13 | Resuelto | Las notas de la miniatura explican cómo conseguir `scripts/lib.mjs` y que hay que poner `Inter.ttf` y `UncialAntiqua-Regular.ttf` en `fonts/` |
+
+**Lo nuevo de esta vuelta.** No hay nada grave. El reparto, `GEAR`, la miniatura y las fechas de los insertos están igual o mejor. Hay un detalle menor que no impide aprobar:
+
+| Dónde | Problema | Gravedad | Arreglo exacto |
+|---|---|---|---|
+| 2.3, tabla de piezas | `museumCase` sale dos veces: la fila de siempre y otra nueva, «`museumCase(S, kind)` con `ins_viborg`» | menor | Juntar las dos filas en una sola, con `kind`: `vekso`, `gjermundbu`, `suecia` o `viborg` |
+
+**APROBADO**
