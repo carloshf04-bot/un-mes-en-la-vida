@@ -98,3 +98,36 @@ Están bien y tienen respaldo en `investigacion.md`:
 Hay que corregir dos datos de gravedad media (puntos 1 y 2: el origen de los cuernos y la frase de los dírhams). Los cambios de gravedad baja (puntos 3 a 12) se recomiendan, pero no bloquean. Con los dos primeros corregidos, el guion pasa.
 
 **CAMBIOS NECESARIOS**
+
+---
+
+# Vuelta 2
+
+Revisado: `guion.txt` (238 líneas) contra `git diff HEAD~1`.
+
+## Duración
+Son 1.998 palabras, unos **12:02** a 166 palabras por minuto. Entra en los 10-15 minutos. Por capítulos: gancho 0:17, intro 1:13, semana 1 2:12, semana 2 1:53, semana 3 1:58, semana 4 2:29, balance 1:38 y cierre 0:23.
+
+## Los dos cambios de gravedad media
+| Línea | Frase nueva | Estado |
+|---|---|---|
+| 225 | «Los cuernos los hizo famosos un figurinista en el estreno de una ópera de Wagner, en mil ochocientos setenta y seis.» | Corregido. Ahora coincide con M1 («los popularizó Doepler»). |
+| 190 | «Y muchos expertos creen que buena parte de esos dírhams se pagó por esclavos.» | Corregido. Ahora coincide con n.º 17 («se interpretan como prueba de un gran comercio de esclavos») y se presenta como opinión de expertos, no como hecho. |
+
+## Frases nuevas o reescritas
+| Línea | Frase | Comprobación | Estado |
+|---|---|---|---|
+| 58-60 | «Siglos después, un cronista inglés se quejaba de los daneses.» / «Se peinaban a diario y se bañaban los sábados.» / «Y así les quitaban las novias a los ingleses.» | Está en `investigacion.md`, n.º 25: es la crónica atribuida a **Juan de Wallingford, del siglo XIII**, y habla de los daneses en Inglaterra hacia el año 1000. Su fiabilidad es media porque es una fuente tardía y hostil. Desde el 890 son más de tres siglos, así que «Siglos después» es correcto y marca bien que es posterior. El «se quejaba» deja claro que es la opinión de un cronista. «Les quitaban las novias» suaviza el original (seducir a mujeres e hijas de nobles), pero no lo exagera. «Les» ya está corregido. | OK |
+| 84 | «Siglos después, las leyes de Noruega cuentan que los asuntos se aprobaban chocando las armas.» | Coincide con n.º 14 y con la lista de anacronismos: las leyes del Gulating son posteriores. | OK |
+| 88 | «Como levantar la mano en clase, pero con un hacha.» | Es una comparación moderna marcada con «Como». No afirma ningún dato. | OK |
+| 98 | «Pocos años después, aquí al lado, enterraron a un hombre importante dentro de ese barco, bajo un montículo de tierra.» | Coincide con n.º 3 (entierro hacia 895-905) y con el túmulo de Gokstad, que está en Vestfold, a unos 20 km de Kaupang. | OK |
+| 103 | «Pero tenía varios cortes de armas en las piernas.» | Coincide con Holck (2009): cinco o seis cortes en las dos piernas. No dice que muriera en batalla, así que cumple el punto 7 de «NO USAR». | OK |
+| 155 | «Óttar acertó de lleno.» | Se refiere a los cinco días de la travesía (n.º 1). | OK |
+| 196-197 | «En Suecia y Dinamarca se han estudiado más de quinientos esqueletos de la época vikinga.» / «Veinticuatro hombres tenían surcos limados en los dientes de arriba.» | Coincide con n.º 22 (24 de 557, Arcini 2005). Sigue presentado como dato «de otro lugar» y con «Ulf no los tiene». | OK |
+| 18, 47, 49, 80, 229 | «tiene su chiste», «golosina», «colgando», «no votan», «ni un solo cuerno» | Los cambios de seseo están aplicados y no alteran ningún dato. | OK |
+| 233-236 | La nueva llamada a la acción | Sigue teniendo todo: suscribirse, dar a me gusta, la palabra «víking», la pregunta de dos opciones y mandárselo a un amigo con una broma. | OK |
+
+## Anacronismos, «NO USAR» y voz
+Las frases nuevas no meten ningún anacronismo ni nada de la lista «NO USAR». Tampoco usan ninguna de las «Palabras que nunca usamos». Ibn Fadlán, Viborg, Gjermundbu, Veksø y los dientes limados siguen como en la vuelta 1, bien marcados.
+
+**OK**
