@@ -9,7 +9,7 @@ Por qué funciona cada idea: tiene **un mes concreto con un acontecimiento dram�
 
 | Estado | Slug | Un mes en la vida de… | Lugar y mes | Gancho / clímax |
 |---|---|---|---|---|
-| [~] | `pompeya-79` | un panadero de Pompeya | Pompeya, otoño del 79 | El Vesubio. Los panes carbonizados que aún existen. |
+| [x] | `pompeya-79` | un panadero de Pompeya | Pompeya, otoño del 79 | El Vesubio. Los panes carbonizados que aún existen. |
 | [ ] | `piramide-2560ac` | un obrero de la Gran Pirámide | Guiza, c. 2560 a.C. | El diario de Merer, el papiro más antiguo conocido, describe el transporte de piedra. |
 | [ ] | `coliseo-80` | un gladiador | Roma, año 80 | Los 100 días de juegos de la inauguración del Coliseo. |
 | [ ] | `londres-1666` | un panadero de Pudding Lane | Londres, septiembre de 1666 | El Gran Incendio empezó en una panadería. |
