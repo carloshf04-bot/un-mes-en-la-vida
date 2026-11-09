@@ -111,6 +111,10 @@ const VB = {
   net: "-25 -195 100 90", pugio: "0 -245 60 80", hoplon: "-30 -256 120 120", cup: "-5 -228 75 92", lamp: "-12 -205 110 64",
   palm: "-30 -430 150 280", strigil: "15 -275 85 125", tabula: "-6 -232 100 90", scroll: "-20 -212 108 92", secutor: "-70 -440 145 160",
   scutumGal: "-35 -316 130 270", wicker: "-50 -318 160 276", manica: "8 -244 46 78", bowl: "-10 -190 82 56", shackle: "8 -196 48 116",
+  // vikingo
+  hacksilver: "-5 -200 80 60", scales: "-45 -170 150 90", comb: "-5 -200 75 45", axe: "0 -360 100 230", shieldRound: "-72 -298 204 204", spade: "5 -170 60 220",
+  stockfish: "5 -300 55 130", oar: "-75 -430 200 450", hornDrink: "5 -270 80 115", swordVk: "5 -380 55 245", hornHelmet: "-110 -500 225 140", gjermundbu: "-65 -450 135 120",
+  knife: "15 -245 35 100", basin: "-20 -195 105 70", silverBag: "-5 -200 70 95", earspoon: "20 -250 55 90", file: "15 -255 35 110", bundle: "-15 -210 95 65", furRoll: "-20 -205 105 55", crown: "-50 -440 110 60",
 };
 export function gearCard(S, id, x, y, size, key, lb = "", { bg = C.bone, color = C.ink, lsize = null, z = 7 } = {}) {
   const { ls, w } = cardW(size, lb, lsize), hh = size + (String(lb).split("<br>").length - 1) * ls;

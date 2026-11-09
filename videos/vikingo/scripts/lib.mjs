@@ -152,6 +152,32 @@ export const CAST = {
   gallus: { skin: "#e0b48c", skinS: "#c0926a", hair: "#a8582a", tunic: "#e0b48c", tunic2: "#4a6a3a", fur: "#e0b48c", pants: "#8a6a3a", boot: "#5a3b22", bare: true, h: 1.03 },
   // Figuras «de piedra» del relieve de Halicarnaso (frase 116): todo en tonos de piedra
   lapis: { skin: "#c9bda4", skinS: "#a89c84", hair: "#a89c84", tunic: "#bfb39a", tunic2: "#9a8e78", fur: "#c9bda4", pants: "#c9bda4", boot: "#9a8e78", braid: true, h: 0.97 },
+
+  // ---- Un mes en la vida de un vikingo (Vestfold y Hedeby, h. 890) ----
+  // Ulf: túnica azul glasto desvaída, ribete y vendas de pierna de lana cruda, pantalón pardo, zapatos de cuero
+  ulf: { skin: "#e8b893", skinS: "#c7936c", hair: "#b07a3a", tunic: "#5f7a8c", tunic2: "#3f5566", fur: "#d8cbb0", pants: "#8a7a5e", boot: "#4a3220", beard: true, h: 1 },
+  // Ása: vestido de lino crudo bajo el delantal-vestido azul (pants = color del vestido largo)
+  asa: { skin: "#efc6a2", skinS: "#cfa07a", hair: "#d9b46a", tunic: "#e6dcc6", tunic2: "#3f5f7a", fur: "#e6dcc6", pants: "#3f5f7a", boot: "#4a3220", braid: true, h: 0.95 },
+  // Kári: lana sin teñir
+  kari: { skin: "#efc29c", skinS: "#cf9e78", hair: "#e3c88a", tunic: "#a8946a", tunic2: "#6b5a3a", fur: "#d8cbb0", pants: "#7a6a4e", boot: "#4a3220", kid: true, h: 0.62 },
+  // Geirmund: rojo de rubia con ribete amarillo de tablillas; pantalón gris oscuro
+  geirmund: { skin: "#e0ae88", skinS: "#bf8c66", hair: "#6b4a2a", tunic: "#9e3a2a", tunic2: "#6b241a", fur: "#d9a72b", pants: "#4a4a55", boot: "#3a2414", beard: true, h: 1.08 },
+  // Hallvard: anciano, verde apagado (gualda + glasto)
+  hallvard: { skin: "#dcae8c", skinS: "#bb8c6a", hair: "#e6e1d6", tunic: "#6f7f52", tunic2: "#4f5a3a", fur: "#d8cbb0", pants: "#6b5a46", boot: "#4a3220", beard: true, old: true, h: 1 },
+  // Poppo: mercader frisón, beis y pardo oscuro, sin barba
+  poppo: { skin: "#d9a882", skinS: "#b88762", hair: "#3b2a1a", tunic: "#c9b48a", tunic2: "#5a4632", fur: "#8a6a4a", pants: "#5a4632", boot: "#3a2414", h: 0.98 },
+
+  // ---- Figurantes ----
+  // Remeros y vecinos: dos variantes de lana natural (clonar y cambiar el pelo si hace falta)
+  remero1: { skin: "#e4b48e", skinS: "#c39068", hair: "#8a5a2a", tunic: "#8a7a5e", tunic2: "#5a4c38", fur: "#d8cbb0", pants: "#6b5a46", boot: "#4a3220", beard: true, h: 1.02 },
+  remero2: { skin: "#d8a47e", skinS: "#b8845e", hair: "#c9a060", tunic: "#7a5a3a", tunic2: "#54402a", fur: "#d8cbb0", pants: "#5a4c38", boot: "#3a2414", h: 0.98 },
+  // Esclava cautiva en Hedeby (n.º 18): lana basta sin teñir; lleva grilletes (GEAR.shackle)
+  thrall: { skin: "#e0b48c", skinS: "#c0926a", hair: "#5a3a22", tunic: "#b8ab90", tunic2: "#8a7e66", fur: "#b8ab90", pants: "#b8ab90", boot: "#8a6a4a", braid: true, h: 0.93 },
+  // Inserto «921 · VOLGA» (n.º 21): un rus tatuado y el viajero Ibn Fadlan
+  rus: { skin: "#e6b896", skinS: "#c59470", hair: "#9a6a32", tunic: "#e6b896", tunic2: "#5a3b22", fur: "#e6b896", pants: "#7a6a52", boot: "#4a3220", bare: true, beard: true, h: 1.05 },
+  fadlan: { skin: "#b9845c", skinS: "#98663f", hair: "#1e140c", tunic: "#2f4f6a", tunic2: "#d9a72b", fur: "#efe6d2", pants: "#2f4f6a", boot: "#5a3b22", beard: true, h: 0.98 },
+  // Inserto «1876 · BAYREUTH» (M1): el cantante de ópera con el traje de Doepler
+  opera: { skin: "#f0c8a8", skinS: "#d0a080", hair: "#c9a060", tunic: "#7a6a9a", tunic2: "#c9a24a", fur: "#d9c9a8", pants: "#5a4a6a", boot: "#8a5a35", beard: true, h: 1.05 },
   hunter2: { skin: "#b9805a", skinS: "#986344", hair: "#1e140c", tunic: "#6f6a3a", tunic2: "#54502b", fur: "#bfa57a", pants: "#4b3a22", boot: "#33220f", h: 1.02 },
 };
 
@@ -236,8 +262,7 @@ export const JOINT = {
 };
 
 // Lobo-perro (Gris), origen en las patas
-export function wolf(id) {
-  const fur = "#8d9099", furD = "#6c6f78", belly = "#c9ccd2";
+export function wolf(id, fur = "#8d9099", furD = "#6c6f78", belly = "#c9ccd2") {
   const legW = (s, x, d) => `<g id="${id}-leg${s}"><rect x="${x - 10}" y="-78" width="20" height="78" rx="9" fill="${d ? furD : fur}" stroke="${OUT}" stroke-width="4"/><ellipse cx="${x + 4}" cy="-4" rx="14" ry="7" fill="${d ? furD : fur}" stroke="${OUT}" stroke-width="3.5"/></g>`;
   return `<g id="${id}-rig"><g id="${id}-body">
     <g id="${id}-tail"><path d="M-92,-112 C-140,-128 -158,-96 -150,-70 C-136,-92 -118,-100 -92,-96Z" fill="${fur}" stroke="${OUT}" stroke-width="4" stroke-linejoin="round"/></g>
@@ -259,14 +284,14 @@ export const WJOINT = { tail: "-92 -104", legBB: "-60 -74", legFB: "54 -74", leg
 
 // Coloca un actor (div con su SVG) en el mundo. x,y = pies en coordenadas del mundo.
 export function actor(S, id, kind, x, y, { scale = 1, flip = false, z = 5, props = {} } = {}) {
-  const isWolf = kind === "gris";
+  const isWolf = kind === "gris" || kind === "perro" || kind === "lobo";
   const hh = isWolf ? 220 : 480 * (CAST[kind]?.h || 1);
   const ww = isWolf ? 360 : 260;
   const s = scale * (isWolf ? 1 : CAST[kind].h);
   const vb = isWolf ? "-180 -200 360 210" : `-130 -470 260 480`;
   const w = ww * (isWolf ? scale : s), h = (isWolf ? 210 : 480) * (isWolf ? scale : s);
   S.add(`<div id="${id}" class="actor" style="left:${r3(x - w / 2)}px;top:${r3(y - h)}px;width:${r3(w)}px;height:${r3(h)}px;z-index:${z}">
-  <div id="${id}-flip" style="width:100%;height:100%"><svg viewBox="${vb}" width="100%" height="100%" overflow="visible">${isWolf ? wolf(id) : person(id, kind, props)}</svg></div></div>`);
+  <div id="${id}-flip" style="width:100%;height:100%"><svg viewBox="${vb}" width="100%" height="100%" overflow="visible">${isWolf ? (kind === "perro" ? wolf(id, "#a07a4a", "#7a5a34", "#d9c09a") : wolf(id)) : person(id, kind, props)}</svg></div></div>`);
   if (flip) S.tw(`tl.set("#${id}-flip",{scaleX:-1},0);`);
   if (isWolf) S.tw(`tl.set("#${id}-lid",{scaleY:0,svgOrigin:"0 -133"},0);`);
   else S.tw(`tl.set("#${id}-lidL,#${id}-lidR",{scaleY:0,svgOrigin:"0 -369"},0);`);
@@ -448,6 +473,70 @@ export const GEAR = {
   purse: `<g><path d="M14,-176 C0,-150 4,-120 31,-116 C58,-120 62,-150 48,-176Z" fill="#8a5a35" stroke="${C.ink}" stroke-width="4"/><path d="M14,-178 L48,-178" stroke="#5a3b22" stroke-width="6" stroke-linecap="round"/><circle cx="40" cy="-150" r="6" fill="#d9a72b" stroke="${C.ink}" stroke-width="2"/></g>`,
   // dedo alzado para pedir la missio (frase 98)
   finger: `<path d="M31,-176 L31,-212" stroke="#d9a273" stroke-width="11" stroke-linecap="round"/><path d="M31,-176 L31,-212" stroke="${C.ink}" stroke-width="2" opacity=".0"/>`,
+
+  // --- Ropa y adornos ---
+  // capa rectangular de lana sujeta con broche anular en el hombro derecho (la posición del broche es reconstrucción, n.º 11)
+  cloak: `<g><path d="M-52,-306 C-72,-250 -74,-190 -62,-150 L-40,-158 C-46,-210 -40,-262 -26,-300Z" fill="#6b4a2e" stroke="${C.ink}" stroke-width="4" stroke-linejoin="round"/><path d="M-36,-306 C-4,-298 22,-298 38,-298" stroke="#6b4a2e" stroke-width="15" stroke-linecap="round"/><path d="M-36,-306 C-4,-298 22,-298 38,-298" stroke="${C.ink}" stroke-width="2.5" fill="none" opacity=".35"/><circle cx="38" cy="-298" r="11" fill="#c9ced6" stroke="${C.ink}" stroke-width="3.5"/><circle cx="38" cy="-298" r="4.5" fill="#6b4a2e" stroke="${C.ink}" stroke-width="2"/><path d="M30,-306 L48,-288" stroke="#9aa3ad" stroke-width="3" stroke-linecap="round"/></g>`,
+  // gorro redondo de lana (Ulf de viaje). NO es un casco
+  capWool: `<g><path d="M-50,-370 C-54,-432 60,-438 58,-370 C28,-380 -20,-380 -50,-370Z" fill="#7a5a3a" stroke="${C.ink}" stroke-width="4"/><path d="M-50,-370 C-20,-382 30,-382 58,-370" stroke="#5a3e26" stroke-width="7" fill="none" stroke-linecap="round"/><path d="M-20,-414 C-4,-424 20,-424 34,-414" stroke="#9a7a52" stroke-width="4" fill="none" stroke-linecap="round"/></g>`,
+  // Ása: delantal-vestido azul con dos broches ovalados, sarta de cuentas entre ellos y tirantes
+  smokkr: `<g><path d="M-44,-272 L46,-272 L50,-160 L-48,-160Z" fill="#3f5f7a" stroke="${C.ink}" stroke-width="4"/><path d="M-30,-300 L-28,-272 M32,-300 L30,-272" stroke="#3f5f7a" stroke-width="8"/><ellipse cx="-28" cy="-280" rx="15" ry="11" fill="#c9a24a" stroke="${C.ink}" stroke-width="3.5"/><ellipse cx="30" cy="-280" rx="15" ry="11" fill="#c9a24a" stroke="${C.ink}" stroke-width="3.5"/><path d="M-34,-282 l12,0 M24,-282 l12,0 M-28,-288 l0,12 M30,-288 l0,12" stroke="#8f6a2a" stroke-width="2"/>${["#d98a2b", "#3f8a6a", "#2f5f9a", "#d98a2b", "#e6dcc6", "#3f8a6a", "#2f5f9a"].map((c, i) => { const x = -18 + i * 6.3, y = -268 + Math.sin((i / 6) * Math.PI) * 14; return `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="4" fill="${c}" stroke="${C.ink}" stroke-width="1.5"/>`; }).join("")}</g>`,
+  // llaves y tijeras colgadas del cinto (Ása)
+  keys: `<g><path d="M36,-206 L38,-168 M44,-206 L50,-172" stroke="#5a3b22" stroke-width="3"/><path d="M38,-170 L38,-150 M38,-156 l7,0 M38,-150 l5,0" stroke="#7a7f86" stroke-width="4" stroke-linecap="round"/><path d="M50,-174 L56,-148 M50,-174 L44,-150" stroke="#7a7f86" stroke-width="3.5" stroke-linecap="round"/></g>`,
+  // tatuajes del rus del Volga (inserto 921): líneas verde oscuro sobre el pecho (T)
+  tattoo: `<g stroke="#2f4a3a" stroke-width="3.5" fill="none" stroke-linecap="round" opacity=".85"><path d="M-30,-286 C-20,-270 -20,-250 -32,-236 M34,-286 C24,-270 24,-250 36,-236"/><path d="M-12,-276 q16,12 32,0 M-14,-252 q18,12 36,0"/><circle cx="-26" cy="-214" r="6"/><circle cx="34" cy="-214" r="6"/></g>`,
+
+  // --- Armas (sin casco) ---
+  // escudo redondo de tablas, pintado en dos mitades amarilla y negra como los de Gokstad, con umbo de hierro (≈80 cm)
+  shieldRound: `<g><circle cx="30" cy="-196" r="96" fill="#d9a72b" stroke="${C.ink}" stroke-width="6"/><path d="M30,-292 A96,96 0 0 1 30,-100Z" fill="#2b2622"/>${[-36, -4, 64, 96].map((x) => `<path d="M${x},${-196 - Math.sqrt(96 * 96 - (x - 30) ** 2).toFixed(0)} L${x},${-196 + +Math.sqrt(96 * 96 - (x - 30) ** 2).toFixed(0)}" stroke="#8a6a38" stroke-width="2.5" opacity=".45"/>`).join("")}<circle cx="30" cy="-196" r="96" fill="none" stroke="${C.ink}" stroke-width="6"/><circle cx="30" cy="-196" r="25" fill="#8f979f" stroke="${C.ink}" stroke-width="4"/><circle cx="23" cy="-203" r="7" fill="#e6ebf0"/></g>`,
+  // hacha barbada de granjero (mango de fresno)
+  axe: `<g><path d="M31,-140 L31,-334" stroke="#8a6232" stroke-width="11" stroke-linecap="round"/><path d="M27,-336 L27,-308 L50,-302 C58,-284 68,-272 82,-266 C86,-294 86,-324 78,-350 C66,-340 54,-334 40,-336Z" fill="#9aa3ad" stroke="${C.ink}" stroke-width="4" stroke-linejoin="round"/><path d="M78,-346 C84,-320 84,-292 80,-272" stroke="#e6ebf0" stroke-width="3" fill="none"/></g>`,
+  // espada del jefe (pomo lobulado y guarda corta), solo Geirmund
+  swordVk: `<g><path d="M31,-182 L31,-372" stroke="#c9ced6" stroke-width="13" stroke-linecap="round"/><path d="M31,-182 L31,-360" stroke="#9aa3ad" stroke-width="3"/><path d="M14,-176 L48,-176" stroke="#c9a24a" stroke-width="9" stroke-linecap="round"/><path d="M31,-176 L31,-150" stroke="#5a3b22" stroke-width="10"/><path d="M18,-146 C18,-136 44,-136 44,-146 C40,-154 22,-154 18,-146Z" fill="#c9a24a" stroke="${C.ink}" stroke-width="3"/></g>`,
+  // cuchillo largo (para comer y trabajar)
+  knife: `<g><path d="M31,-172 L31,-232" stroke="#c9ced6" stroke-width="10" stroke-linecap="round"/><path d="M31,-240 L36,-226 L26,-226Z" fill="#c9ced6"/><path d="M31,-170 L31,-148" stroke="#7a4a22" stroke-width="10" stroke-linecap="round"/></g>`,
+
+  // --- Trabajo, viaje y comercio ---
+  // remo de pino (frase de los 32 remos)
+  oar: `<g><path d="M-40,-60 L110,-420" stroke="#b08a5a" stroke-width="12" stroke-linecap="round"/><path d="M-40,-60 L-62,-4 C-70,14 -50,22 -42,6 L-24,-50Z" fill="#c9a06a" stroke="${C.ink}" stroke-width="4"/></g>`,
+  // pala de madera con filo de hierro (granja)
+  spade: `<g><path d="M31,-150 L31,-20" stroke="#8a6232" stroke-width="10" stroke-linecap="round"/><path d="M14,-24 L48,-24 L44,30 C40,42 22,42 18,30Z" fill="#a0703c" stroke="${C.ink}" stroke-width="4"/><path d="M18,28 C22,42 40,42 44,28" stroke="#9aa3ad" stroke-width="6" fill="none"/><path d="M18,-160 L44,-160" stroke="#8a6232" stroke-width="8" stroke-linecap="round"/></g>`,
+  // huso con tortera de piedra (Ása hila)
+  spindle: `<g><path d="M31,-170 L31,-90" stroke="#a0703c" stroke-width="5" stroke-linecap="round"/><ellipse cx="31" cy="-104" rx="13" ry="6" fill="#8c8f96" stroke="${C.ink}" stroke-width="3"/><path d="M31,-170 C40,-200 30,-230 60,-260" stroke="#efe6d2" stroke-width="3" fill="none"/><path d="M50,-262 C56,-290 84,-290 86,-262 C84,-246 56,-246 50,-262Z" fill="#efe6d2" stroke="${C.ink}" stroke-width="3"/></g>`,
+  // peine de asta con remaches (n.º 24)
+  comb: `<g><rect x="2" y="-196" width="62" height="18" rx="4" fill="#e6d2b0" stroke="${C.ink}" stroke-width="3"/>${[...Array(11)].map((_, k) => `<path d="M${6 + k * 5.4},-178 L${6 + k * 5.4},-162" stroke="#e6d2b0" stroke-width="3"/>`).join("")}<path d="M2,-162 L64,-162" stroke="${C.ink}" stroke-width="1.5" opacity=".4"/>${[12, 33, 54].map((x) => `<circle cx="${x}" cy="-187" r="2.5" fill="#7a5a3a"/>`).join("")}</g>`,
+  // cuerno para beber (M4: cuernos, no cráneos)
+  hornDrink: `<g><path d="M20,-176 C10,-210 30,-250 74,-262 C70,-250 66,-236 46,-170 C40,-160 24,-162 20,-176Z" fill="#e6d2b0" stroke="${C.ink}" stroke-width="4"/><path d="M22,-178 C30,-164 44,-164 46,-172" stroke="#c9a24a" stroke-width="6" fill="none"/><path d="M60,-252 L74,-262" stroke="#c9a24a" stroke-width="6" stroke-linecap="round"/></g>`,
+  // pescado seco (comida a bordo, n.º 8)
+  stockfish: `<g><path d="M31,-176 L31,-190 C20,-200 14,-250 26,-290 L36,-290 C48,-250 42,-200 31,-190" fill="#c9b48a" stroke="${C.ink}" stroke-width="3.5"/><path d="M22,-296 L31,-284 L40,-296" fill="#a8946a" stroke="${C.ink}" stroke-width="3"/><path d="M26,-240 L36,-240 M26,-220 L36,-220" stroke="#a8946a" stroke-width="2.5"/></g>`,
+  // balanza plegable de bronce: la mano sujeta la anilla y la balanza cuelga (n.º 16)
+  scales: `<g><path d="M31,-164 L31,-140" stroke="#8f6a2a" stroke-width="3"/><path d="M-21,-138 L83,-138" stroke="#b08a36" stroke-width="5" stroke-linecap="round"/><path d="M31,-146 L31,-128" stroke="#b08a36" stroke-width="5"/><path d="M-21,-138 L-33,-96 M-21,-138 L-9,-96 M83,-138 L71,-96 M83,-138 L95,-96" stroke="#8f6a2a" stroke-width="2"/><path d="M-37,-96 C-33,-84 -5,-84 -1,-96Z M67,-96 C71,-84 95,-84 99,-96Z" fill="#c9a24a" stroke="${C.ink}" stroke-width="3"/><path d="M-27,-98 l6,-6 l8,4 l-4,5Z" fill="#e6ebf0" stroke="${C.ink}" stroke-width="1.5"/><rect x="76" y="-104" width="10" height="8" rx="2" fill="#7a7f86" stroke="${C.ink}" stroke-width="1.5"/></g>`,
+  // plata picada en la palma: trozo de dírham, de brazalete y de lingote (n.º 16 y 17)
+  hacksilver: `<g><path d="M14,-176 A18,18 0 0 1 48,-176 L31,-176Z" fill="#dfe4ea" stroke="${C.ink}" stroke-width="3"/><path d="M20,-178 l6,-6 M28,-182 l8,0" stroke="#8f979f" stroke-width="1.5"/><path d="M40,-160 C48,-168 62,-166 66,-156" stroke="#c9ced6" stroke-width="7" fill="none" stroke-linecap="round"/><rect x="2" y="-166" width="20" height="9" rx="2" fill="#c9ced6" stroke="${C.ink}" stroke-width="2.5" transform="rotate(-12 12 -162)"/></g>`,
+  // palangana de madera (inserto 921, n.º 21)
+  basin: `<g><path d="M-14,-178 L76,-178 C72,-140 52,-132 31,-132 C10,-132 -10,-140 -14,-178Z" fill="#a0703c" stroke="${C.ink}" stroke-width="4"/><ellipse cx="31" cy="-178" rx="45" ry="9" fill="#8fb0b8" stroke="${C.ink}" stroke-width="3"/><path d="M-6,-160 L68,-160" stroke="#7a5030" stroke-width="3"/></g>`,
+
+  // --- Solo para el mito (M1) ---
+  // casco con cuernos de ópera (1876): SIEMPRE con stampX encima
+  hornHelmet: `<g><path d="M-54,-372 C-56,-432 64,-438 62,-372Z" fill="#9aa3ad" stroke="${C.ink}" stroke-width="5"/><path d="M-60,-372 L68,-372" stroke="#7a7f86" stroke-width="9" stroke-linecap="round"/><path d="M-50,-400 C-90,-410 -110,-450 -98,-492 C-84,-462 -70,-440 -44,-424Z" fill="#efe6d2" stroke="${C.ink}" stroke-width="4"/><path d="M56,-404 C96,-414 116,-454 104,-496 C90,-466 76,-444 50,-428Z" fill="#efe6d2" stroke="${C.ink}" stroke-width="4"/></g>`,
+  // casco de Gjermundbu (s. X): redondo con anteojeras. Solo en vitrina o con rótulo «SIGLO X»
+  gjermundbu: `<g><path d="M-54,-362 C-58,-436 64,-442 60,-362Z" fill="#8f979f" stroke="${C.ink}" stroke-width="5"/><path d="M4,-438 L4,-362 M-56,-386 L62,-386" stroke="#6b7178" stroke-width="8"/><circle cx="4" cy="-440" r="6" fill="#6b7178" stroke="${C.ink}" stroke-width="2.5"/><path d="M-26,-370 C-30,-350 -16,-338 -2,-344 L4,-366 L10,-344 C24,-338 38,-350 34,-370Z" fill="none" stroke="#6b7178" stroke-width="7" stroke-linejoin="round"/></g>`,
+  // --- Piezas extra de Producción ---
+  // piel enrollada (despedida, frase 106) y piel untada que tapa al durmiente (en T, con POSE.dormir)
+  furRoll: `<g><ellipse cx="31" cy="-176" rx="44" ry="22" fill="#8a6a4a" stroke="${C.ink}" stroke-width="4"/><path d="M-8,-176 C10,-168 52,-168 70,-176" stroke="#6b4e32" stroke-width="4" fill="none"/><path d="M10,-188 l6,8 M34,-192 l4,8 M54,-188 l-4,8" stroke="#a8875e" stroke-width="3"/></g>`,
+  hide: `<g><path d="M-70,-300 C-40,-320 60,-322 92,-296 L96,-150 C60,-130 -40,-130 -74,-150Z" fill="#8a6a4a" stroke="${C.ink}" stroke-width="5" stroke-linejoin="round"/><path d="M-50,-280 l20,10 M10,-292 l12,14 M60,-280 l-10,16 M-30,-200 l18,8 M40,-190 l12,10" stroke="#6b4e32" stroke-width="5" stroke-linecap="round"/><path d="M-60,-296 C-20,-312 50,-312 84,-292" stroke="#fff" stroke-width="5" opacity=".55" fill="none"/></g>`,
+  // saquito de plata (frase 26)
+  silverBag: `<g><path d="M14,-176 C0,-150 4,-116 31,-112 C58,-116 62,-150 48,-176Z" fill="#c9b48a" stroke="${C.ink}" stroke-width="4"/><path d="M14,-178 L48,-178" stroke="#7a5a3a" stroke-width="6" stroke-linecap="round"/><circle cx="24" cy="-186" r="7" fill="#dfe4ea" stroke="${C.ink}" stroke-width="2"/><circle cx="38" cy="-190" r="6" fill="#dfe4ea" stroke="${C.ink}" stroke-width="2"/></g>`,
+  // fardo de pieles para cambiar (frase 181)
+  bundle: `<g><rect x="-10" y="-206" width="86" height="56" rx="14" fill="#a07a4a" stroke="${C.ink}" stroke-width="4"/><path d="M8,-206 L8,-150 M58,-206 L58,-150" stroke="#5a3b22" stroke-width="6"/></g>`,
+  // cucharilla de hueso para las orejas (frase 57)
+  earspoon: `<g><path d="M31,-170 L58,-232" stroke="#efe6d2" stroke-width="7" stroke-linecap="round"/><ellipse cx="60" cy="-238" rx="7" ry="5" fill="#efe6d2" stroke="${C.ink}" stroke-width="2"/></g>`,
+  // corona (rey Alfredo, frase 116)
+  crown: `<g><path d="M-44,-386 L-44,-420 L-24,-400 L4,-432 L32,-400 L52,-420 L52,-386Z" fill="#d9a72b" stroke="${C.ink}" stroke-width="4" stroke-linejoin="round"/><circle cx="4" cy="-404" r="5" fill="#9e3a2a"/></g>`,
+  // lima (frase 198)
+  file: `<g><path d="M31,-170 L31,-246" stroke="#8f979f" stroke-width="10" stroke-linecap="round"/><path d="M26,-236 l10,0 M26,-224 l10,0 M26,-212 l10,0 M26,-200 l10,0" stroke="#5b5f66" stroke-width="2"/><path d="M31,-170 L31,-148" stroke="#7a4a22" stroke-width="10" stroke-linecap="round"/></g>`,
+  // mochila moderna (frase 230, HOY)
+  backpack: `<g><rect x="-80" y="-300" width="70" height="120" rx="20" fill="#3f6fb5" stroke="${C.ink}" stroke-width="4"/><rect x="-74" y="-240" width="56" height="40" rx="8" fill="#2f548c" stroke="${C.ink}" stroke-width="3"/></g>`,
 };
 // Equipo en la mano trasera (desplaza un objeto pensado para la mano delantera)
 export const back = (g) => `<g transform="translate(-60,0)">${g}</g>`;
@@ -455,9 +544,17 @@ export const back = (g) => `<g transform="translate(-60,0)">${g}</g>`;
 export const galea = (pluma) => GEAR.galea.replace("PLUMA", pluma);
 // Poses (grados de cada articulación; ajustar en la captura)
 export const POSE = {
-  brazosCruzados: { armF: -10, foreF: 100, armB: -10, foreB: -80, brows: 4 },   // el doctor «que no sabe sonreír»
-  juramento: { armF: -160, foreF: -10, brows: 2 },                              // la mano en alto ante el lanista
-  missio: { armF: -150, foreF: -20, head: -6, mouth: "sad" },                   // con GEAR.finger en F
-  guardia: { armF: -50, foreF: -60, armB: -30, foreB: -40, legF: -10, legB: 8 },
-  soplar: { armF: -95, foreF: -60, mouth: "open" },                             // tuba y cornu
+  brazosCruzados: { armF: -10, foreF: 100, armB: -10, foreB: -80, brows: 4 },
+  remar:      { armF: -70, foreF: -20, armB: -60, foreB: -30, legF: -30, legB: 20 },  // sentado en el arcón, tirando del remo
+  vapnatak:   { armF: -150, foreF: -10, mouth: "open" },                            // la lanza (en F) en alto: chocar las armas en el thing
+  pesar:      { armF: -60, foreF: -30, head: 6, brows: -2 },                        // balanza a la altura de los ojos
+  hilar:      { armF: -40, foreF: -70, armB: -120, foreB: -20 },                    // Ása con el huso
+  peinarse:   { armF: -150, foreF: -90, head: -4 },                                 // el peine en el pelo
+  mirarLejos: { armF: -130, foreF: -100, head: -8 },                                // la mano de visera: buscar la costa
+  dormir:     { body: -90 },                                                        // tumbado bajo la piel, en cubierta
+  mareo:      { head: 10, brows: 6, mouth: "sad", armF: -20, foreF: -110 },         // la mano a la barriga
+  manoAlta:   { armF: -165, foreF: -5, mouth: "open" },
+  silencio:   { armF: -120, foreF: -150, head: 4 },                                 // dedo en los labios
 };
+// Capa de otro color (Geirmund: azul #2f4f7a; Hallvard: pardo #6b5a46; Poppo: #3a3a44)
+export const cloakOf = (c) => GEAR.cloak.replaceAll("#6b4a2e", c);

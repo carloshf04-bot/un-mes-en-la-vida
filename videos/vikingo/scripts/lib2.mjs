@@ -101,7 +101,7 @@ export function bar(S, id, x, y, w, { label: lb = "", ic = null, color = C.green
   S.tw(`tl.fromTo("#${id}",{opacity:0,y:30},{opacity:1,y:0,duration:0.35,ease:"power3.out"},${r3(show ?? t - 0.4)});`);
   S.tw(`tl.fromTo("#${id}-f",{scaleX:${from}},{scaleX:${to},duration:${dur},ease:"power2.inOut"},${r3(t)});`);
 }
-export function counter(S, id, x, y, { from = 0, to = 100, t = 0, dur = 1, size = 160, pre = "", suf = "", dirt = true, color = C.bone, w = 1000, dec = 0, sep = true } = {}) {
+export function counter(S, id, x, y, { from = 0, to = 100, t = 0, dur = 1, size = 160, pre = "", suf = "", dirt = false, color = C.bone, w = 1000, dec = 0, sep = true } = {}) {
   S.cue(t, "tick");
   const fmtN = (v) => { const s = dec ? v.toFixed(dec) : Math.round(v).toString(); return sep ? s.replace(/\B(?=(\d{3})+(?!\d))/g, ".") : s; };
   S.add(`<div id="${id}" class="wtext ${dirt ? "dirt" : ""}" style="left:${r3(x - w / 2)}px;top:${r3(y - size * 0.6)}px;width:${w}px;font-size:${size}px;${dirt ? "" : "font-family:Inter;font-weight:900;"}color:${color};text-align:center;z-index:9;opacity:0;text-shadow:0 ${r3(size * 0.05)}px 0 ${C.ink}">${pre}<span id="${id}-n">${fmtN(from)}</span>${suf}</div>`);
@@ -191,6 +191,9 @@ const AN = {
   mamut: { fill: "#6b3f2a", dark: "#55301f", belly: "#7f4d34", w: 1.6, tusk: true, extra: () => "" },
   leon: { fill: "#c79a5e", dark: "#a67e48", belly: "#e3c896", w: 1.2, cat: true, extra: () => "" },
   hiena: { fill: "#9a8a6a", dark: "#7a6c50", belly: "#c8b994", w: 0.95, spots: true, extra: () => "" },
+  // vaca pequeña de la época (pardo rojizo, cuernos cortos) y oveja de lana gris con la cara oscura (diseño 2.3)
+  vaca: { fill: "#8a5a3a", dark: "#6b4428", belly: "#c9a27a", w: 1.05, extra: () => `<path d="M120,-196 C112,-214 118,-224 128,-222 M146,-198 C152,-216 146,-226 138,-224" stroke="#efe6d2" stroke-width="7" fill="none" stroke-linecap="round"/><path d="M-40,-150 C-20,-160 10,-156 20,-140 C0,-128 -30,-130 -40,-150Z" fill="#efe6d2" opacity=".85"/><ellipse cx="0" cy="-86" rx="22" ry="12" fill="#e8b0a0" stroke="${C.ink}" stroke-width="3"/>` },
+  oveja: { fill: "#c9c1b0", dark: "#a89f8c", belly: "#e0d8c6", w: 0.9, extra: () => `<path d="M86,-140 C90,-176 108,-196 128,-200 C150,-202 170,-170 180,-150 C186,-136 176,-126 162,-128 L130,-132 C112,-118 92,-118 86,-140Z" fill="#3a2a20" stroke="${C.ink}" stroke-width="5"/><circle cx="138" cy="-174" r="6" fill="#fff"/><circle cx="139" cy="-174" r="3" fill="${C.ink}"/>${[[-80, -150], [-40, -160], [0, -158], [40, -150], [-60, -120], [20, -118]].map(([a, b]) => `<circle cx="${a}" cy="${b}" r="22" fill="#d6cebd" stroke="${C.ink}" stroke-width="2.5"/>`).join("")}` },
   oso: { fill: "#4b3426", dark: "#382619", belly: "#5e4331", w: 1.35, bear: true, extra: () => "" },
 };
 export function animal(S, id, kind, x, y, { s = 1, flip = false, z = 5 } = {}) {
