@@ -1,0 +1,6 @@
+{"character":"felix","props":{"T":"loin","H":"helmet","F":"shield","B":"sword"},"titleFont":"Cinzel.ttf","top":"UN MES EN LA VIDA DE UN","who":"GLADIADOR",
+ "hook":"¿AGUANTARÍAS <b>UN MES</b>?","badge":"ROMA · AÑO 80",
+ "theme":{"glow":"#ffd08a","mid":"#b8432a","dark":"#2a0f1a","ground":"#e3c48a","accent":"#ffd34d","title":"#d9a72b","badge":"#6b2d5c"},
+ "extras":[{"icon":"thumbs-down","size":150,"color":"#e5484d","pos":["left:620px;top:420px","left:70px;top:1120px"]},
+           {"icon":"crown-simple","size":110,"color":"#d9a72b","pos":["left:560px;top:230px","left:860px;top:800px"]},
+           {"icon":"coins","size":110,"color":"#ffd34d","pos":["left:40px;top:470px","left:880px;top:1150px"]}]}

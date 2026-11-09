@@ -1,0 +1,13267 @@
+[
+{
+"line": 1,
+"w": "Hoy",
+"n": "hoy",
+"start": 0.1,
+"end": 0.2
+},
+{
+"line": 1,
+"w": "vas",
+"n": "vas",
+"start": 0.2,
+"end": 0.4
+},
+{
+"line": 1,
+"w": "a",
+"n": "a",
+"start": 0.4,
+"end": 0.46
+},
+{
+"line": 1,
+"w": "luchar",
+"n": "luchar",
+"start": 0.46,
+"end": 0.85
+},
+{
+"line": 1,
+"w": "delante",
+"n": "delante",
+"start": 0.85,
+"end": 1.31
+},
+{
+"line": 1,
+"w": "de",
+"n": "de",
+"start": 1.31,
+"end": 1.44
+},
+{
+"line": 1,
+"w": "cincuenta",
+"n": "cincuenta",
+"start": 1.44,
+"end": 1.86
+},
+{
+"line": 1,
+"w": "mil",
+"n": "mil",
+"start": 1.86,
+"end": 2.04
+},
+{
+"line": 1,
+"w": "personas.",
+"n": "personas",
+"start": 2.04,
+"end": 2.81
+},
+{
+"line": 1,
+"w": "Y",
+"n": "y",
+"start": 2.81,
+"end": 2.89
+},
+{
+"line": 1,
+"w": "no",
+"n": "no",
+"start": 2.89,
+"end": 2.94
+},
+{
+"line": 1,
+"w": "puedes",
+"n": "puedes",
+"start": 2.94,
+"end": 3.34
+},
+{
+"line": 1,
+"w": "negarte.",
+"n": "negarte",
+"start": 3.34,
+"end": 3.84
+},
+{
+"line": 2,
+"w": "Tienes",
+"n": "tienes",
+"start": 4.408,
+"end": 4.908
+},
+{
+"line": 2,
+"w": "un",
+"n": "un",
+"start": 4.908,
+"end": 4.968
+},
+{
+"line": 2,
+"w": "mes,",
+"n": "mes",
+"start": 4.968,
+"end": 5.388
+},
+{
+"line": 2,
+"w": "una",
+"n": "una",
+"start": 5.388,
+"end": 5.628
+},
+{
+"line": 2,
+"w": "espada",
+"n": "espada",
+"start": 5.628,
+"end": 6.108
+},
+{
+"line": 2,
+"w": "de",
+"n": "de",
+"start": 6.108,
+"end": 6.268
+},
+{
+"line": 2,
+"w": "madera",
+"n": "madera",
+"start": 6.268,
+"end": 6.788
+},
+{
+"line": 2,
+"w": "y",
+"n": "y",
+"start": 6.788,
+"end": 7.008
+},
+{
+"line": 2,
+"w": "un",
+"n": "un",
+"start": 7.008,
+"end": 7.058
+},
+{
+"line": 2,
+"w": "entrenador",
+"n": "entrenador",
+"start": 7.028,
+"end": 7.828
+},
+{
+"line": 2,
+"w": "que",
+"n": "que",
+"start": 7.828,
+"end": 8.068
+},
+{
+"line": 2,
+"w": "no",
+"n": "no",
+"start": 8.068,
+"end": 8.228
+},
+{
+"line": 2,
+"w": "sabe",
+"n": "sabe",
+"start": 8.228,
+"end": 8.548
+},
+{
+"line": 2,
+"w": "sonreír.",
+"n": "sonreir",
+"start": 8.548,
+"end": 9.148
+},
+{
+"line": 3,
+"w": "Bienvenido",
+"n": "bienvenido",
+"start": 9.677,
+"end": 10.217
+},
+{
+"line": 3,
+"w": "a",
+"n": "a",
+"start": 10.217,
+"end": 10.287
+},
+{
+"line": 3,
+"w": "Roma,",
+"n": "roma",
+"start": 10.287,
+"end": 10.977
+},
+{
+"line": 3,
+"w": "año",
+"n": "ano",
+"start": 10.977,
+"end": 11.567
+},
+{
+"line": 3,
+"w": "ochenta.",
+"n": "ochenta",
+"start": 11.567,
+"end": 12.817
+},
+{
+"line": 4,
+"w": "Esto",
+"n": "esto",
+"start": 13.123,
+"end": 13.353
+},
+{
+"line": 4,
+"w": "es",
+"n": "es",
+"start": 13.353,
+"end": 13.453
+},
+{
+"line": 4,
+"w": "un",
+"n": "un",
+"start": 13.453,
+"end": 13.573
+},
+{
+"line": 4,
+"w": "mes",
+"n": "mes",
+"start": 13.573,
+"end": 13.753
+},
+{
+"line": 4,
+"w": "en",
+"n": "en",
+"start": 13.753,
+"end": 13.873
+},
+{
+"line": 4,
+"w": "la",
+"n": "la",
+"start": 13.873,
+"end": 13.993
+},
+{
+"line": 4,
+"w": "vida",
+"n": "vida",
+"start": 13.993,
+"end": 14.233
+},
+{
+"line": 4,
+"w": "de",
+"n": "de",
+"start": 14.233,
+"end": 14.353
+},
+{
+"line": 4,
+"w": "un",
+"n": "un",
+"start": 14.353,
+"end": 14.473
+},
+{
+"line": 4,
+"w": "gladiador,",
+"n": "gladiador",
+"start": 14.473,
+"end": 15.243
+},
+{
+"line": 4,
+"w": "con",
+"n": "con",
+"start": 15.243,
+"end": 15.363
+},
+{
+"line": 4,
+"w": "lo",
+"n": "lo",
+"start": 15.363,
+"end": 15.483
+},
+{
+"line": 4,
+"w": "bueno,",
+"n": "bueno",
+"start": 15.483,
+"end": 15.913
+},
+{
+"line": 4,
+"w": "con",
+"n": "con",
+"start": 15.913,
+"end": 16.103
+},
+{
+"line": 4,
+"w": "lo",
+"n": "lo",
+"start": 16.103,
+"end": 16.223
+},
+{
+"line": 4,
+"w": "malo",
+"n": "malo",
+"start": 16.223,
+"end": 16.673
+},
+{
+"line": 4,
+"w": "y",
+"n": "y",
+"start": 16.673,
+"end": 16.723
+},
+{
+"line": 4,
+"w": "con",
+"n": "con",
+"start": 16.713,
+"end": 16.843
+},
+{
+"line": 4,
+"w": "lo",
+"n": "lo",
+"start": 16.843,
+"end": 16.953
+},
+{
+"line": 4,
+"w": "que",
+"n": "que",
+"start": 16.953,
+"end": 17.123
+},
+{
+"line": 4,
+"w": "las",
+"n": "las",
+"start": 17.123,
+"end": 17.343
+},
+{
+"line": 4,
+"w": "películas",
+"n": "peliculas",
+"start": 17.343,
+"end": 17.763
+},
+{
+"line": 4,
+"w": "no",
+"n": "no",
+"start": 17.763,
+"end": 17.873
+},
+{
+"line": 4,
+"w": "te",
+"n": "te",
+"start": 17.873,
+"end": 17.993
+},
+{
+"line": 4,
+"w": "cuentan.",
+"n": "cuentan",
+"start": 17.993,
+"end": 18.513
+},
+{
+"line": 5,
+"w": "Él",
+"n": "el",
+"start": 20.134,
+"end": 20.184
+},
+{
+"line": 5,
+"w": "es",
+"n": "es",
+"start": 20.184,
+"end": 20.364
+},
+{
+"line": 5,
+"w": "Félix.",
+"n": "felix",
+"start": 20.364,
+"end": 21.154
+},
+{
+"line": 5,
+"w": "Su",
+"n": "su",
+"start": 21.154,
+"end": 21.204
+},
+{
+"line": 5,
+"w": "nombre",
+"n": "nombre",
+"start": 21.204,
+"end": 21.614
+},
+{
+"line": 5,
+"w": "significa",
+"n": "significa",
+"start": 21.614,
+"end": 22.254
+},
+{
+"line": 5,
+"w": "afortunado,",
+"n": "afortunado",
+"start": 22.254,
+"end": 23.114
+},
+{
+"line": 5,
+"w": "y",
+"n": "y",
+"start": 23.114,
+"end": 23.164
+},
+{
+"line": 5,
+"w": "vamos",
+"n": "vamos",
+"start": 23.164,
+"end": 23.454
+},
+{
+"line": 5,
+"w": "a",
+"n": "a",
+"start": 23.454,
+"end": 23.504
+},
+{
+"line": 5,
+"w": "ver",
+"n": "ver",
+"start": 23.504,
+"end": 23.674
+},
+{
+"line": 5,
+"w": "si",
+"n": "si",
+"start": 23.674,
+"end": 23.774
+},
+{
+"line": 5,
+"w": "es",
+"n": "es",
+"start": 23.774,
+"end": 23.894
+},
+{
+"line": 5,
+"w": "verdad.",
+"n": "verdad",
+"start": 23.894,
+"end": 24.464
+},
+{
+"line": 6,
+"w": "Félix",
+"n": "felix",
+"start": 25.029,
+"end": 25.499
+},
+{
+"line": 6,
+"w": "es",
+"n": "es",
+"start": 25.499,
+"end": 25.639
+},
+{
+"line": 6,
+"w": "galo",
+"n": "galo",
+"start": 25.639,
+"end": 25.999
+},
+{
+"line": 6,
+"w": "y",
+"n": "y",
+"start": 25.999,
+"end": 26.089
+},
+{
+"line": 6,
+"w": "esclavo.",
+"n": "esclavo",
+"start": 26.089,
+"end": 26.939
+},
+{
+"line": 6,
+"w": "Su",
+"n": "su",
+"start": 26.939,
+"end": 27.049
+},
+{
+"line": 6,
+"w": "dueño",
+"n": "dueno",
+"start": 27.049,
+"end": 27.329
+},
+{
+"line": 6,
+"w": "lo",
+"n": "lo",
+"start": 27.329,
+"end": 27.439
+},
+{
+"line": 6,
+"w": "ha",
+"n": "ha",
+"start": 27.439,
+"end": 27.549
+},
+{
+"line": 6,
+"w": "vendido",
+"n": "vendido",
+"start": 27.549,
+"end": 27.939
+},
+{
+"line": 6,
+"w": "a",
+"n": "a",
+"start": 27.939,
+"end": 27.989
+},
+{
+"line": 6,
+"w": "una",
+"n": "una",
+"start": 27.989,
+"end": 28.159
+},
+{
+"line": 6,
+"w": "escuela",
+"n": "escuela",
+"start": 28.159,
+"end": 28.549
+},
+{
+"line": 6,
+"w": "de",
+"n": "de",
+"start": 28.549,
+"end": 28.659
+},
+{
+"line": 6,
+"w": "gladiadores",
+"n": "gladiadores",
+"start": 28.659,
+"end": 29.269
+},
+{
+"line": 6,
+"w": "de",
+"n": "de",
+"start": 29.269,
+"end": 29.379
+},
+{
+"line": 6,
+"w": "Roma.",
+"n": "roma",
+"start": 29.379,
+"end": 29.849
+},
+{
+"line": 7,
+"w": "Y",
+"n": "y",
+"start": 30.357,
+"end": 30.407
+},
+{
+"line": 7,
+"w": "aquí",
+"n": "aqui",
+"start": 30.407,
+"end": 30.737
+},
+{
+"line": 7,
+"w": "va",
+"n": "va",
+"start": 30.737,
+"end": 30.827
+},
+{
+"line": 7,
+"w": "la",
+"n": "la",
+"start": 30.827,
+"end": 30.967
+},
+{
+"line": 7,
+"w": "primera",
+"n": "primera",
+"start": 30.967,
+"end": 31.457
+},
+{
+"line": 7,
+"w": "sorpresa:",
+"n": "sorpresa",
+"start": 31.457,
+"end": 32.297
+},
+{
+"line": 7,
+"w": "no",
+"n": "no",
+"start": 32.297,
+"end": 32.357
+},
+{
+"line": 7,
+"w": "todos",
+"n": "todos",
+"start": 32.357,
+"end": 32.677
+},
+{
+"line": 7,
+"w": "los",
+"n": "los",
+"start": 32.677,
+"end": 32.867
+},
+{
+"line": 7,
+"w": "gladiadores",
+"n": "gladiadores",
+"start": 32.867,
+"end": 33.577
+},
+{
+"line": 7,
+"w": "eran",
+"n": "eran",
+"start": 33.577,
+"end": 33.837
+},
+{
+"line": 7,
+"w": "esclavos.",
+"n": "esclavos",
+"start": 33.837,
+"end": 34.577
+},
+{
+"line": 8,
+"w": "Algunos",
+"n": "algunos",
+"start": 35.316,
+"end": 35.596
+},
+{
+"line": 8,
+"w": "hombres",
+"n": "hombres",
+"start": 35.596,
+"end": 35.986
+},
+{
+"line": 8,
+"w": "libres",
+"n": "libres",
+"start": 35.986,
+"end": 36.306
+},
+{
+"line": 8,
+"w": "se",
+"n": "se",
+"start": 36.306,
+"end": 36.406
+},
+{
+"line": 8,
+"w": "vendían",
+"n": "vendian",
+"start": 36.406,
+"end": 36.796
+},
+{
+"line": 8,
+"w": "a",
+"n": "a",
+"start": 36.796,
+"end": 36.846
+},
+{
+"line": 8,
+"w": "una",
+"n": "una",
+"start": 36.846,
+"end": 37.006
+},
+{
+"line": 8,
+"w": "escuela",
+"n": "escuela",
+"start": 37.006,
+"end": 37.466
+},
+{
+"line": 8,
+"w": "por",
+"n": "por",
+"start": 37.466,
+"end": 37.626
+},
+{
+"line": 8,
+"w": "un",
+"n": "un",
+"start": 37.626,
+"end": 37.736
+},
+{
+"line": 8,
+"w": "tiempo",
+"n": "tiempo",
+"start": 37.736,
+"end": 38.096
+},
+{
+"line": 8,
+"w": "y",
+"n": "y",
+"start": 38.096,
+"end": 38.146
+},
+{
+"line": 8,
+"w": "un",
+"n": "un",
+"start": 38.116,
+"end": 38.226
+},
+{
+"line": 8,
+"w": "dinero.",
+"n": "dinero",
+"start": 38.226,
+"end": 38.706
+},
+{
+"line": 8,
+"w": "Casi",
+"n": "casi",
+"start": 38.706,
+"end": 38.946
+},
+{
+"line": 8,
+"w": "siempre,",
+"n": "siempre",
+"start": 38.946,
+"end": 39.506
+},
+{
+"line": 8,
+"w": "porque",
+"n": "porque",
+"start": 39.506,
+"end": 40.046
+},
+{
+"line": 8,
+"w": "eran",
+"n": "eran",
+"start": 40.046,
+"end": 40.316
+},
+{
+"line": 8,
+"w": "pobres.",
+"n": "pobres",
+"start": 40.316,
+"end": 40.726
+},
+{
+"line": 9,
+"w": "Félix",
+"n": "felix",
+"start": 41.306,
+"end": 41.586
+},
+{
+"line": 9,
+"w": "no",
+"n": "no",
+"start": 41.586,
+"end": 41.726
+},
+{
+"line": 9,
+"w": "eligió",
+"n": "eligio",
+"start": 41.726,
+"end": 42.136
+},
+{
+"line": 9,
+"w": "nada.",
+"n": "nada",
+"start": 42.136,
+"end": 42.666
+},
+{
+"line": 9,
+"w": "A",
+"n": "a",
+"start": 42.666,
+"end": 42.866
+},
+{
+"line": 9,
+"w": "él",
+"n": "el",
+"start": 42.866,
+"end": 42.916
+},
+{
+"line": 9,
+"w": "lo",
+"n": "lo",
+"start": 42.906,
+"end": 42.996
+},
+{
+"line": 9,
+"w": "trajeron",
+"n": "trajeron",
+"start": 42.996,
+"end": 43.576
+},
+{
+"line": 9,
+"w": "encadenado.",
+"n": "encadenado",
+"start": 43.576,
+"end": 44.436
+},
+{
+"line": 10,
+"w": "Segunda",
+"n": "segunda",
+"start": 44.956,
+"end": 45.396
+},
+{
+"line": 10,
+"w": "sorpresa:",
+"n": "sorpresa",
+"start": 45.396,
+"end": 46.256
+},
+{
+"line": 10,
+"w": "Félix",
+"n": "felix",
+"start": 46.256,
+"end": 46.556
+},
+{
+"line": 10,
+"w": "es",
+"n": "es",
+"start": 46.556,
+"end": 46.716
+},
+{
+"line": 10,
+"w": "galo,",
+"n": "galo",
+"start": 46.716,
+"end": 47.206
+},
+{
+"line": 10,
+"w": "pero",
+"n": "pero",
+"start": 47.206,
+"end": 47.356
+},
+{
+"line": 10,
+"w": "no",
+"n": "no",
+"start": 47.356,
+"end": 47.476
+},
+{
+"line": 10,
+"w": "va",
+"n": "va",
+"start": 47.476,
+"end": 47.596
+},
+{
+"line": 10,
+"w": "a",
+"n": "a",
+"start": 47.596,
+"end": 47.656
+},
+{
+"line": 10,
+"w": "luchar",
+"n": "luchar",
+"start": 47.656,
+"end": 48.026
+},
+{
+"line": 10,
+"w": "como",
+"n": "como",
+"start": 48.026,
+"end": 48.276
+},
+{
+"line": 10,
+"w": "un",
+"n": "un",
+"start": 48.276,
+"end": 48.396
+},
+{
+"line": 10,
+"w": "galo.",
+"n": "galo",
+"start": 48.396,
+"end": 48.686
+},
+{
+"line": 11,
+"w": "Antes",
+"n": "antes",
+"start": 49.012,
+"end": 49.372
+},
+{
+"line": 11,
+"w": "existía",
+"n": "existia",
+"start": 49.372,
+"end": 49.912
+},
+{
+"line": 11,
+"w": "un",
+"n": "un",
+"start": 49.912,
+"end": 50.062
+},
+{
+"line": 11,
+"w": "gladiador",
+"n": "gladiador",
+"start": 50.062,
+"end": 50.742
+},
+{
+"line": 11,
+"w": "llamado",
+"n": "llamado",
+"start": 50.742,
+"end": 51.302
+},
+{
+"line": 11,
+"w": "así,",
+"n": "asi",
+"start": 51.302,
+"end": 51.722
+},
+{
+"line": 11,
+"w": "el",
+"n": "el",
+"start": 51.722,
+"end": 51.872
+},
+{
+"line": 11,
+"w": "galo,",
+"n": "galo",
+"start": 51.872,
+"end": 52.392
+},
+{
+"line": 11,
+"w": "que",
+"n": "que",
+"start": 52.392,
+"end": 52.452
+},
+{
+"line": 11,
+"w": "salía",
+"n": "salia",
+"start": 52.452,
+"end": 52.722
+},
+{
+"line": 11,
+"w": "a",
+"n": "a",
+"start": 52.722,
+"end": 52.772
+},
+{
+"line": 11,
+"w": "la",
+"n": "la",
+"start": 52.772,
+"end": 52.882
+},
+{
+"line": 11,
+"w": "arena",
+"n": "arena",
+"start": 52.882,
+"end": 53.182
+},
+{
+"line": 11,
+"w": "vestido",
+"n": "vestido",
+"start": 53.182,
+"end": 53.632
+},
+{
+"line": 11,
+"w": "de",
+"n": "de",
+"start": 53.632,
+"end": 53.782
+},
+{
+"line": 11,
+"w": "enemigo",
+"n": "enemigo",
+"start": 53.782,
+"end": 54.162
+},
+{
+"line": 11,
+"w": "de",
+"n": "de",
+"start": 54.162,
+"end": 54.252
+},
+{
+"line": 11,
+"w": "Roma.",
+"n": "roma",
+"start": 54.252,
+"end": 54.582
+},
+{
+"line": 12,
+"w": "Pero",
+"n": "pero",
+"start": 56.022,
+"end": 56.262
+},
+{
+"line": 12,
+"w": "la",
+"n": "la",
+"start": 56.262,
+"end": 56.392
+},
+{
+"line": 12,
+"w": "Galia",
+"n": "galia",
+"start": 56.392,
+"end": 56.762
+},
+{
+"line": 12,
+"w": "ya",
+"n": "ya",
+"start": 56.762,
+"end": 56.852
+},
+{
+"line": 12,
+"w": "es",
+"n": "es",
+"start": 56.852,
+"end": 56.982
+},
+{
+"line": 12,
+"w": "parte",
+"n": "parte",
+"start": 56.982,
+"end": 57.312
+},
+{
+"line": 12,
+"w": "del",
+"n": "del",
+"start": 57.312,
+"end": 57.512
+},
+{
+"line": 12,
+"w": "imperio,",
+"n": "imperio",
+"start": 57.512,
+"end": 57.992
+},
+{
+"line": 12,
+"w": "y",
+"n": "y",
+"start": 57.992,
+"end": 58.332
+},
+{
+"line": 12,
+"w": "quedaba",
+"n": "quedaba",
+"start": 58.332,
+"end": 58.532
+},
+{
+"line": 12,
+"w": "feo",
+"n": "feo",
+"start": 58.532,
+"end": 58.722
+},
+{
+"line": 12,
+"w": "sacar",
+"n": "sacar",
+"start": 58.722,
+"end": 59.062
+},
+{
+"line": 12,
+"w": "a",
+"n": "a",
+"start": 59.062,
+"end": 59.162
+},
+{
+"line": 12,
+"w": "los",
+"n": "los",
+"start": 59.162,
+"end": 59.322
+},
+{
+"line": 12,
+"w": "galos",
+"n": "galos",
+"start": 59.322,
+"end": 59.702
+},
+{
+"line": 12,
+"w": "como",
+"n": "como",
+"start": 59.702,
+"end": 59.922
+},
+{
+"line": 12,
+"w": "enemigos.",
+"n": "enemigos",
+"start": 59.922,
+"end": 60.762
+},
+{
+"line": 13,
+"w": "Así",
+"n": "asi",
+"start": 61.313,
+"end": 61.403
+},
+{
+"line": 13,
+"w": "que",
+"n": "que",
+"start": 61.403,
+"end": 61.643
+},
+{
+"line": 13,
+"w": "lo",
+"n": "lo",
+"start": 61.643,
+"end": 61.703
+},
+{
+"line": 13,
+"w": "cambiaron",
+"n": "cambiaron",
+"start": 61.703,
+"end": 62.243
+},
+{
+"line": 13,
+"w": "por",
+"n": "por",
+"start": 62.243,
+"end": 62.423
+},
+{
+"line": 13,
+"w": "otro",
+"n": "otro",
+"start": 62.423,
+"end": 62.733
+},
+{
+"line": 13,
+"w": "tipo",
+"n": "tipo",
+"start": 62.733,
+"end": 62.903
+},
+{
+"line": 13,
+"w": "de",
+"n": "de",
+"start": 62.903,
+"end": 63.023
+},
+{
+"line": 13,
+"w": "gladiador.",
+"n": "gladiador",
+"start": 63.023,
+"end": 63.743
+},
+{
+"line": 13,
+"w": "Y",
+"n": "y",
+"start": 63.743,
+"end": 64.003
+},
+{
+"line": 13,
+"w": "ese",
+"n": "ese",
+"start": 64.003,
+"end": 64.093
+},
+{
+"line": 13,
+"w": "va",
+"n": "va",
+"start": 64.093,
+"end": 64.263
+},
+{
+"line": 13,
+"w": "a",
+"n": "a",
+"start": 64.263,
+"end": 64.343
+},
+{
+"line": 13,
+"w": "ser",
+"n": "ser",
+"start": 64.343,
+"end": 64.603
+},
+{
+"line": 13,
+"w": "el",
+"n": "el",
+"start": 64.603,
+"end": 64.773
+},
+{
+"line": 13,
+"w": "de",
+"n": "de",
+"start": 64.773,
+"end": 65.013
+},
+{
+"line": 13,
+"w": "Félix.",
+"n": "felix",
+"start": 65.013,
+"end": 65.663
+},
+{
+"line": 14,
+"w": "Una",
+"n": "una",
+"start": 66.244,
+"end": 66.334
+},
+{
+"line": 14,
+"w": "cosa",
+"n": "cosa",
+"start": 66.334,
+"end": 66.604
+},
+{
+"line": 14,
+"w": "más",
+"n": "mas",
+"start": 66.604,
+"end": 66.804
+},
+{
+"line": 14,
+"w": "antes",
+"n": "antes",
+"start": 66.804,
+"end": 67.134
+},
+{
+"line": 14,
+"w": "de",
+"n": "de",
+"start": 67.134,
+"end": 67.264
+},
+{
+"line": 14,
+"w": "arrancar.",
+"n": "arrancar",
+"start": 67.264,
+"end": 67.834
+},
+{
+"line": 14,
+"w": "Para",
+"n": "para",
+"start": 68.074,
+"end": 68.184
+},
+{
+"line": 14,
+"w": "la",
+"n": "la",
+"start": 68.184,
+"end": 68.254
+},
+{
+"line": 14,
+"w": "ley",
+"n": "ley",
+"start": 68.254,
+"end": 68.464
+},
+{
+"line": 14,
+"w": "romana,",
+"n": "romana",
+"start": 68.464,
+"end": 69.034
+},
+{
+"line": 14,
+"w": "los",
+"n": "los",
+"start": 69.034,
+"end": 69.214
+},
+{
+"line": 14,
+"w": "gladiadores",
+"n": "gladiadores",
+"start": 69.214,
+"end": 70.014
+},
+{
+"line": 14,
+"w": "están",
+"n": "estan",
+"start": 70.014,
+"end": 70.174
+},
+{
+"line": 14,
+"w": "al",
+"n": "al",
+"start": 70.174,
+"end": 70.294
+},
+{
+"line": 14,
+"w": "nivel",
+"n": "nivel",
+"start": 70.294,
+"end": 70.594
+},
+{
+"line": 14,
+"w": "de",
+"n": "de",
+"start": 70.594,
+"end": 70.714
+},
+{
+"line": 14,
+"w": "los",
+"n": "los",
+"start": 70.714,
+"end": 70.884
+},
+{
+"line": 14,
+"w": "actores",
+"n": "actores",
+"start": 70.884,
+"end": 71.374
+},
+{
+"line": 14,
+"w": "y",
+"n": "y",
+"start": 71.374,
+"end": 71.424
+},
+{
+"line": 14,
+"w": "las",
+"n": "las",
+"start": 71.374,
+"end": 71.554
+},
+{
+"line": 14,
+"w": "prostitutas.",
+"n": "prostitutas",
+"start": 71.554,
+"end": 72.434
+},
+{
+"line": 15,
+"w": "Pero",
+"n": "pero",
+"start": 73.781,
+"end": 73.941
+},
+{
+"line": 15,
+"w": "el",
+"n": "el",
+"start": 73.941,
+"end": 74.121
+},
+{
+"line": 15,
+"w": "público",
+"n": "publico",
+"start": 74.121,
+"end": 74.551
+},
+{
+"line": 15,
+"w": "los",
+"n": "los",
+"start": 74.551,
+"end": 74.751
+},
+{
+"line": 15,
+"w": "adora",
+"n": "adora",
+"start": 74.751,
+"end": 75.111
+},
+{
+"line": 15,
+"w": "como",
+"n": "como",
+"start": 75.111,
+"end": 75.351
+},
+{
+"line": 15,
+"w": "a",
+"n": "a",
+"start": 75.351,
+"end": 75.411
+},
+{
+"line": 15,
+"w": "estrellas.",
+"n": "estrellas",
+"start": 75.411,
+"end": 76.091
+},
+{
+"line": 16,
+"w": "Esa",
+"n": "esa",
+"start": 76.497,
+"end": 76.577
+},
+{
+"line": 16,
+"w": "es",
+"n": "es",
+"start": 76.577,
+"end": 76.707
+},
+{
+"line": 16,
+"w": "la",
+"n": "la",
+"start": 76.707,
+"end": 76.837
+},
+{
+"line": 16,
+"w": "gran",
+"n": "gran",
+"start": 76.837,
+"end": 77.097
+},
+{
+"line": 16,
+"w": "paradoja",
+"n": "paradoja",
+"start": 77.097,
+"end": 77.647
+},
+{
+"line": 16,
+"w": "del",
+"n": "del",
+"start": 77.647,
+"end": 77.797
+},
+{
+"line": 16,
+"w": "gladiador:",
+"n": "gladiador",
+"start": 77.797,
+"end": 78.447
+},
+{
+"line": 16,
+"w": "nadie",
+"n": "nadie",
+"start": 78.847,
+"end": 78.957
+},
+{
+"line": 16,
+"w": "quiere",
+"n": "quiere",
+"start": 78.957,
+"end": 79.227
+},
+{
+"line": 16,
+"w": "ser",
+"n": "ser",
+"start": 79.227,
+"end": 79.437
+},
+{
+"line": 16,
+"w": "uno,",
+"n": "uno",
+"start": 79.437,
+"end": 79.827
+},
+{
+"line": 16,
+"w": "pero",
+"n": "pero",
+"start": 79.827,
+"end": 80.107
+},
+{
+"line": 16,
+"w": "todos",
+"n": "todos",
+"start": 80.107,
+"end": 80.367
+},
+{
+"line": 16,
+"w": "quieren",
+"n": "quieren",
+"start": 80.367,
+"end": 80.757
+},
+{
+"line": 16,
+"w": "verlo.",
+"n": "verlo",
+"start": 80.757,
+"end": 81.247
+},
+{
+"line": 17,
+"w": "Semana",
+"n": "semana",
+"start": 83.49,
+"end": 83.83
+},
+{
+"line": 17,
+"w": "uno.",
+"n": "uno",
+"start": 83.83,
+"end": 84.51
+},
+{
+"line": 17,
+"w": "Luna",
+"n": "luna",
+"start": 84.51,
+"end": 84.83
+},
+{
+"line": 17,
+"w": "nueva.",
+"n": "nueva",
+"start": 84.83,
+"end": 85.48
+},
+{
+"line": 18,
+"w": "Félix",
+"n": "felix",
+"start": 85.965,
+"end": 86.275
+},
+{
+"line": 18,
+"w": "llega",
+"n": "llega",
+"start": 86.275,
+"end": 86.735
+},
+{
+"line": 18,
+"w": "a",
+"n": "a",
+"start": 86.735,
+"end": 86.805
+},
+{
+"line": 18,
+"w": "la",
+"n": "la",
+"start": 86.805,
+"end": 86.935
+},
+{
+"line": 18,
+"w": "escuela",
+"n": "escuela",
+"start": 86.935,
+"end": 87.515
+},
+{
+"line": 18,
+"w": "atado",
+"n": "atado",
+"start": 87.515,
+"end": 87.935
+},
+{
+"line": 18,
+"w": "a",
+"n": "a",
+"start": 87.935,
+"end": 88.005
+},
+{
+"line": 18,
+"w": "otros",
+"n": "otros",
+"start": 88.005,
+"end": 88.415
+},
+{
+"line": 18,
+"w": "prisioneros.",
+"n": "prisioneros",
+"start": 88.415,
+"end": 89.405
+},
+{
+"line": 19,
+"w": "El",
+"n": "el",
+"start": 89.976,
+"end": 90.076
+},
+{
+"line": 19,
+"w": "dueño",
+"n": "dueno",
+"start": 90.076,
+"end": 90.406
+},
+{
+"line": 19,
+"w": "de",
+"n": "de",
+"start": 90.406,
+"end": 90.536
+},
+{
+"line": 19,
+"w": "la",
+"n": "la",
+"start": 90.536,
+"end": 90.666
+},
+{
+"line": 19,
+"w": "escuela",
+"n": "escuela",
+"start": 90.666,
+"end": 91.126
+},
+{
+"line": 19,
+"w": "es",
+"n": "es",
+"start": 91.126,
+"end": 91.296
+},
+{
+"line": 19,
+"w": "el",
+"n": "el",
+"start": 91.296,
+"end": 91.386
+},
+{
+"line": 19,
+"w": "lanista.",
+"n": "lanista",
+"start": 91.386,
+"end": 92.086
+},
+{
+"line": 19,
+"w": "A",
+"n": "a",
+"start": 92.086,
+"end": 92.346
+},
+{
+"line": 19,
+"w": "menudo",
+"n": "menudo",
+"start": 92.346,
+"end": 92.616
+},
+{
+"line": 19,
+"w": "es",
+"n": "es",
+"start": 92.616,
+"end": 92.766
+},
+{
+"line": 19,
+"w": "un",
+"n": "un",
+"start": 92.766,
+"end": 92.976
+},
+{
+"line": 19,
+"w": "antiguo",
+"n": "antiguo",
+"start": 92.976,
+"end": 93.446
+},
+{
+"line": 19,
+"w": "gladiador,",
+"n": "gladiador",
+"start": 93.446,
+"end": 94.206
+},
+{
+"line": 19,
+"w": "y",
+"n": "y",
+"start": 94.206,
+"end": 94.366
+},
+{
+"line": 19,
+"w": "ahora",
+"n": "ahora",
+"start": 94.366,
+"end": 94.686
+},
+{
+"line": 19,
+"w": "vive",
+"n": "vive",
+"start": 94.686,
+"end": 94.946
+},
+{
+"line": 19,
+"w": "de",
+"n": "de",
+"start": 94.946,
+"end": 95.036
+},
+{
+"line": 19,
+"w": "alquilar",
+"n": "alquilar",
+"start": 95.036,
+"end": 95.406
+},
+{
+"line": 19,
+"w": "a",
+"n": "a",
+"start": 95.406,
+"end": 95.456
+},
+{
+"line": 19,
+"w": "los",
+"n": "los",
+"start": 95.456,
+"end": 95.616
+},
+{
+"line": 19,
+"w": "suyos.",
+"n": "suyos",
+"start": 95.616,
+"end": 96.066
+},
+{
+"line": 20,
+"w": "Para",
+"n": "para",
+"start": 96.559,
+"end": 96.819
+},
+{
+"line": 20,
+"w": "él,",
+"n": "el",
+"start": 96.819,
+"end": 97.099
+},
+{
+"line": 20,
+"w": "Félix",
+"n": "felix",
+"start": 97.099,
+"end": 97.449
+},
+{
+"line": 20,
+"w": "no",
+"n": "no",
+"start": 97.449,
+"end": 97.589
+},
+{
+"line": 20,
+"w": "es",
+"n": "es",
+"start": 97.589,
+"end": 97.729
+},
+{
+"line": 20,
+"w": "una",
+"n": "una",
+"start": 97.729,
+"end": 97.939
+},
+{
+"line": 20,
+"w": "persona.",
+"n": "persona",
+"start": 97.939,
+"end": 98.619
+},
+{
+"line": 20,
+"w": "Es",
+"n": "es",
+"start": 98.619,
+"end": 98.889
+},
+{
+"line": 20,
+"w": "una",
+"n": "una",
+"start": 98.889,
+"end": 98.939
+},
+{
+"line": 20,
+"w": "inversión.",
+"n": "inversion",
+"start": 98.929,
+"end": 99.699
+},
+{
+"line": 21,
+"w": "Lo",
+"n": "lo",
+"start": 100.29,
+"end": 100.34
+},
+{
+"line": 21,
+"w": "primero",
+"n": "primero",
+"start": 100.32,
+"end": 100.79
+},
+{
+"line": 21,
+"w": "es",
+"n": "es",
+"start": 100.79,
+"end": 100.91
+},
+{
+"line": 21,
+"w": "el",
+"n": "el",
+"start": 100.91,
+"end": 101.04
+},
+{
+"line": 21,
+"w": "juramento.",
+"n": "juramento",
+"start": 101.04,
+"end": 101.98
+},
+{
+"line": 21,
+"w": "Lo",
+"n": "lo",
+"start": 101.98,
+"end": 102.03
+},
+{
+"line": 21,
+"w": "llaman",
+"n": "llaman",
+"start": 102.0,
+"end": 102.38
+},
+{
+"line": 21,
+"w": "sacramentum.",
+"n": "sacramentum",
+"start": 102.38,
+"end": 103.39
+},
+{
+"line": 22,
+"w": "Félix",
+"n": "felix",
+"start": 103.709,
+"end": 103.989
+},
+{
+"line": 22,
+"w": "jura",
+"n": "jura",
+"start": 103.989,
+"end": 104.259
+},
+{
+"line": 22,
+"w": "dejarse",
+"n": "dejarse",
+"start": 104.259,
+"end": 104.709
+},
+{
+"line": 22,
+"w": "quemar,",
+"n": "quemar",
+"start": 104.709,
+"end": 105.429
+},
+{
+"line": 22,
+"w": "encadenar,",
+"n": "encadenar",
+"start": 105.429,
+"end": 106.239
+},
+{
+"line": 22,
+"w": "golpear",
+"n": "golpear",
+"start": 106.239,
+"end": 106.829
+},
+{
+"line": 22,
+"w": "y",
+"n": "y",
+"start": 106.829,
+"end": 106.879
+},
+{
+"line": 22,
+"w": "matar",
+"n": "matar",
+"start": 106.849,
+"end": 107.509
+},
+{
+"line": 22,
+"w": "a",
+"n": "a",
+"start": 107.509,
+"end": 107.939
+},
+{
+"line": 22,
+"w": "hierro.",
+"n": "hierro",
+"start": 107.939,
+"end": 108.519
+},
+{
+"line": 23,
+"w": "El",
+"n": "el",
+"start": 108.849,
+"end": 108.939
+},
+{
+"line": 23,
+"w": "filósofo",
+"n": "filosofo",
+"start": 108.939,
+"end": 109.419
+},
+{
+"line": 23,
+"w": "Séneca",
+"n": "seneca",
+"start": 109.419,
+"end": 109.869
+},
+{
+"line": 23,
+"w": "dijo",
+"n": "dijo",
+"start": 109.869,
+"end": 110.039
+},
+{
+"line": 23,
+"w": "que",
+"n": "que",
+"start": 110.039,
+"end": 110.299
+},
+{
+"line": 23,
+"w": "eran",
+"n": "eran",
+"start": 110.299,
+"end": 110.469
+},
+{
+"line": 23,
+"w": "las",
+"n": "las",
+"start": 110.469,
+"end": 110.649
+},
+{
+"line": 23,
+"w": "palabras",
+"n": "palabras",
+"start": 110.649,
+"end": 111.169
+},
+{
+"line": 23,
+"w": "del",
+"n": "del",
+"start": 111.169,
+"end": 111.339
+},
+{
+"line": 23,
+"w": "contrato",
+"n": "contrato",
+"start": 111.339,
+"end": 111.819
+},
+{
+"line": 23,
+"w": "más",
+"n": "mas",
+"start": 111.819,
+"end": 111.989
+},
+{
+"line": 23,
+"w": "deshonroso.",
+"n": "deshonroso",
+"start": 111.989,
+"end": 112.719
+},
+{
+"line": 24,
+"w": "Desde",
+"n": "desde",
+"start": 113.178,
+"end": 113.448
+},
+{
+"line": 24,
+"w": "ese",
+"n": "ese",
+"start": 113.448,
+"end": 113.658
+},
+{
+"line": 24,
+"w": "momento,",
+"n": "momento",
+"start": 113.658,
+"end": 114.138
+},
+{
+"line": 24,
+"w": "su",
+"n": "su",
+"start": 114.138,
+"end": 114.278
+},
+{
+"line": 24,
+"w": "cuerpo",
+"n": "cuerpo",
+"start": 114.278,
+"end": 114.688
+},
+{
+"line": 24,
+"w": "es",
+"n": "es",
+"start": 114.688,
+"end": 114.828
+},
+{
+"line": 24,
+"w": "de",
+"n": "de",
+"start": 114.828,
+"end": 114.968
+},
+{
+"line": 24,
+"w": "la",
+"n": "la",
+"start": 114.968,
+"end": 115.108
+},
+{
+"line": 24,
+"w": "escuela.",
+"n": "escuela",
+"start": 115.108,
+"end": 115.628
+},
+{
+"line": 25,
+"w": "Luego",
+"n": "luego",
+"start": 116.043,
+"end": 116.223
+},
+{
+"line": 25,
+"w": "le",
+"n": "le",
+"start": 116.223,
+"end": 116.343
+},
+{
+"line": 25,
+"w": "enseñan",
+"n": "ensenan",
+"start": 116.343,
+"end": 116.763
+},
+{
+"line": 25,
+"w": "dónde",
+"n": "donde",
+"start": 116.763,
+"end": 117.073
+},
+{
+"line": 25,
+"w": "va",
+"n": "va",
+"start": 117.073,
+"end": 117.183
+},
+{
+"line": 25,
+"w": "a",
+"n": "a",
+"start": 117.183,
+"end": 117.243
+},
+{
+"line": 25,
+"w": "dormir.",
+"n": "dormir",
+"start": 117.243,
+"end": 117.843
+},
+{
+"line": 26,
+"w": "Es",
+"n": "es",
+"start": 118.356,
+"end": 118.436
+},
+{
+"line": 26,
+"w": "un",
+"n": "un",
+"start": 118.436,
+"end": 118.536
+},
+{
+"line": 26,
+"w": "cuarto",
+"n": "cuarto",
+"start": 118.536,
+"end": 118.866
+},
+{
+"line": 26,
+"w": "diminuto,",
+"n": "diminuto",
+"start": 118.866,
+"end": 119.416
+},
+{
+"line": 26,
+"w": "uno",
+"n": "uno",
+"start": 119.416,
+"end": 119.716
+},
+{
+"line": 26,
+"w": "de",
+"n": "de",
+"start": 119.716,
+"end": 119.836
+},
+{
+"line": 26,
+"w": "muchos",
+"n": "muchos",
+"start": 119.836,
+"end": 120.076
+},
+{
+"line": 26,
+"w": "alrededor",
+"n": "alrededor",
+"start": 120.076,
+"end": 120.616
+},
+{
+"line": 26,
+"w": "de",
+"n": "de",
+"start": 120.616,
+"end": 120.736
+},
+{
+"line": 26,
+"w": "un",
+"n": "un",
+"start": 120.736,
+"end": 120.856
+},
+{
+"line": 26,
+"w": "patio",
+"n": "patio",
+"start": 120.856,
+"end": 121.236
+},
+{
+"line": 26,
+"w": "de",
+"n": "de",
+"start": 121.236,
+"end": 121.286
+},
+{
+"line": 26,
+"w": "entrenamiento.",
+"n": "entrenamiento",
+"start": 121.276,
+"end": 122.276
+},
+{
+"line": 27,
+"w": "¿Y",
+"n": "y",
+"start": 122.794,
+"end": 122.844
+},
+{
+"line": 27,
+"w": "cómo",
+"n": "como",
+"start": 122.794,
+"end": 122.984
+},
+{
+"line": 27,
+"w": "lo",
+"n": "lo",
+"start": 122.984,
+"end": 123.074
+},
+{
+"line": 27,
+"w": "sabemos?",
+"n": "sabemos",
+"start": 123.074,
+"end": 123.534
+},
+{
+"line": 27,
+"w": "Por",
+"n": "por",
+"start": 123.534,
+"end": 123.984
+},
+{
+"line": 27,
+"w": "Pompeya.",
+"n": "pompeya",
+"start": 123.984,
+"end": 124.654
+},
+{
+"line": 28,
+"w": "El",
+"n": "el",
+"start": 127.49,
+"end": 127.6
+},
+{
+"line": 28,
+"w": "año",
+"n": "ano",
+"start": 127.6,
+"end": 127.87
+},
+{
+"line": 28,
+"w": "pasado,",
+"n": "pasado",
+"start": 127.87,
+"end": 128.53
+},
+{
+"line": 28,
+"w": "el",
+"n": "el",
+"start": 128.53,
+"end": 128.58
+},
+{
+"line": 28,
+"w": "Vesubio",
+"n": "vesubio",
+"start": 128.56,
+"end": 129.02
+},
+{
+"line": 28,
+"w": "sepultó",
+"n": "sepulto",
+"start": 129.02,
+"end": 129.51
+},
+{
+"line": 28,
+"w": "Pompeya,",
+"n": "pompeya",
+"start": 129.51,
+"end": 130.09
+},
+{
+"line": 28,
+"w": "y",
+"n": "y",
+"start": 130.09,
+"end": 130.34
+},
+{
+"line": 28,
+"w": "con",
+"n": "con",
+"start": 130.34,
+"end": 130.44
+},
+{
+"line": 28,
+"w": "ella",
+"n": "ella",
+"start": 130.44,
+"end": 130.58
+},
+{
+"line": 28,
+"w": "su",
+"n": "su",
+"start": 130.58,
+"end": 130.7
+},
+{
+"line": 28,
+"w": "cuartel",
+"n": "cuartel",
+"start": 130.7,
+"end": 131.12
+},
+{
+"line": 28,
+"w": "de",
+"n": "de",
+"start": 131.12,
+"end": 131.22
+},
+{
+"line": 28,
+"w": "gladiadores.",
+"n": "gladiadores",
+"start": 131.22,
+"end": 132.08
+},
+{
+"line": 29,
+"w": "Los",
+"n": "los",
+"start": 133.201,
+"end": 133.341
+},
+{
+"line": 29,
+"w": "arqueólogos",
+"n": "arqueologos",
+"start": 133.341,
+"end": 133.951
+},
+{
+"line": 29,
+"w": "han",
+"n": "han",
+"start": 133.951,
+"end": 134.121
+},
+{
+"line": 29,
+"w": "encontrado",
+"n": "encontrado",
+"start": 134.121,
+"end": 134.701
+},
+{
+"line": 29,
+"w": "allí",
+"n": "alli",
+"start": 134.701,
+"end": 134.931
+},
+{
+"line": 29,
+"w": "cuartos",
+"n": "cuartos",
+"start": 134.931,
+"end": 135.321
+},
+{
+"line": 29,
+"w": "como",
+"n": "como",
+"start": 135.321,
+"end": 135.551
+},
+{
+"line": 29,
+"w": "este,",
+"n": "este",
+"start": 135.551,
+"end": 135.991
+},
+{
+"line": 29,
+"w": "grafitis",
+"n": "grafitis",
+"start": 135.991,
+"end": 136.621
+},
+{
+"line": 29,
+"w": "de",
+"n": "de",
+"start": 136.621,
+"end": 136.801
+},
+{
+"line": 29,
+"w": "gladiadores",
+"n": "gladiadores",
+"start": 136.801,
+"end": 137.631
+},
+{
+"line": 29,
+"w": "y",
+"n": "y",
+"start": 137.631,
+"end": 137.861
+},
+{
+"line": 29,
+"w": "unos",
+"n": "unos",
+"start": 137.861,
+"end": 138.191
+},
+{
+"line": 29,
+"w": "hierros",
+"n": "hierros",
+"start": 138.191,
+"end": 138.701
+},
+{
+"line": 29,
+"w": "para",
+"n": "para",
+"start": 138.701,
+"end": 138.831
+},
+{
+"line": 29,
+"w": "atar",
+"n": "atar",
+"start": 138.831,
+"end": 139.051
+},
+{
+"line": 29,
+"w": "los",
+"n": "los",
+"start": 139.051,
+"end": 139.221
+},
+{
+"line": 29,
+"w": "pies",
+"n": "pies",
+"start": 139.221,
+"end": 139.451
+},
+{
+"line": 29,
+"w": "a",
+"n": "a",
+"start": 139.451,
+"end": 139.501
+},
+{
+"line": 29,
+"w": "los",
+"n": "los",
+"start": 139.501,
+"end": 139.671
+},
+{
+"line": 29,
+"w": "castigados.",
+"n": "castigados",
+"start": 139.671,
+"end": 140.451
+},
+{
+"line": 30,
+"w": "Porque",
+"n": "porque",
+"start": 140.964,
+"end": 141.324
+},
+{
+"line": 30,
+"w": "aquí",
+"n": "aqui",
+"start": 141.324,
+"end": 141.434
+},
+{
+"line": 30,
+"w": "las",
+"n": "las",
+"start": 141.434,
+"end": 141.574
+},
+{
+"line": 30,
+"w": "normas",
+"n": "normas",
+"start": 141.574,
+"end": 141.934
+},
+{
+"line": 30,
+"w": "son",
+"n": "son",
+"start": 141.934,
+"end": 142.034
+},
+{
+"line": 30,
+"w": "duras.",
+"n": "duras",
+"start": 142.034,
+"end": 142.444
+},
+{
+"line": 30,
+"w": "A",
+"n": "a",
+"start": 142.444,
+"end": 142.734
+},
+{
+"line": 30,
+"w": "los",
+"n": "los",
+"start": 142.734,
+"end": 142.854
+},
+{
+"line": 30,
+"w": "gladiadores",
+"n": "gladiadores",
+"start": 142.854,
+"end": 143.504
+},
+{
+"line": 30,
+"w": "los",
+"n": "los",
+"start": 143.504,
+"end": 143.734
+},
+{
+"line": 30,
+"w": "vigilan",
+"n": "vigilan",
+"start": 143.734,
+"end": 144.214
+},
+{
+"line": 30,
+"w": "día",
+"n": "dia",
+"start": 144.214,
+"end": 144.414
+},
+{
+"line": 30,
+"w": "y",
+"n": "y",
+"start": 144.414,
+"end": 144.504
+},
+{
+"line": 30,
+"w": "noche.",
+"n": "noche",
+"start": 144.504,
+"end": 145.074
+},
+{
+"line": 31,
+"w": "Algunos",
+"n": "algunos",
+"start": 145.663,
+"end": 146.013
+},
+{
+"line": 31,
+"w": "intentan",
+"n": "intentan",
+"start": 146.013,
+"end": 146.513
+},
+{
+"line": 31,
+"w": "escapar,",
+"n": "escapar",
+"start": 146.513,
+"end": 146.953
+},
+{
+"line": 31,
+"w": "y",
+"n": "y",
+"start": 146.953,
+"end": 147.153
+},
+{
+"line": 31,
+"w": "otros",
+"n": "otros",
+"start": 147.153,
+"end": 147.333
+},
+{
+"line": 31,
+"w": "prefieren",
+"n": "prefieren",
+"start": 147.333,
+"end": 147.903
+},
+{
+"line": 31,
+"w": "morir",
+"n": "morir",
+"start": 147.903,
+"end": 148.213
+},
+{
+"line": 31,
+"w": "antes",
+"n": "antes",
+"start": 148.213,
+"end": 148.533
+},
+{
+"line": 31,
+"w": "que",
+"n": "que",
+"start": 148.533,
+"end": 148.723
+},
+{
+"line": 31,
+"w": "salir",
+"n": "salir",
+"start": 148.723,
+"end": 149.043
+},
+{
+"line": 31,
+"w": "a",
+"n": "a",
+"start": 149.043,
+"end": 149.103
+},
+{
+"line": 31,
+"w": "la",
+"n": "la",
+"start": 149.103,
+"end": 149.333
+},
+{
+"line": 31,
+"w": "arena.",
+"n": "arena",
+"start": 149.333,
+"end": 149.613
+},
+{
+"line": 32,
+"w": "Y",
+"n": "y",
+"start": 150.749,
+"end": 150.799
+},
+{
+"line": 32,
+"w": "en",
+"n": "en",
+"start": 150.769,
+"end": 150.889
+},
+{
+"line": 32,
+"w": "Roma",
+"n": "roma",
+"start": 150.889,
+"end": 151.169
+},
+{
+"line": 32,
+"w": "nadie",
+"n": "nadie",
+"start": 151.169,
+"end": 151.519
+},
+{
+"line": 32,
+"w": "olvida",
+"n": "olvida",
+"start": 151.519,
+"end": 151.939
+},
+{
+"line": 32,
+"w": "a",
+"n": "a",
+"start": 151.939,
+"end": 152.009
+},
+{
+"line": 32,
+"w": "Espartaco.",
+"n": "espartaco",
+"start": 152.009,
+"end": 152.859
+},
+{
+"line": 32,
+"w": "Siglo",
+"n": "siglo",
+"start": 152.859,
+"end": 153.129
+},
+{
+"line": 32,
+"w": "y",
+"n": "y",
+"start": 153.129,
+"end": 153.179
+},
+{
+"line": 32,
+"w": "medio",
+"n": "medio",
+"start": 153.179,
+"end": 153.469
+},
+{
+"line": 32,
+"w": "antes,",
+"n": "antes",
+"start": 153.469,
+"end": 153.919
+},
+{
+"line": 32,
+"w": "escapó",
+"n": "escapo",
+"start": 153.919,
+"end": 154.279
+},
+{
+"line": 32,
+"w": "de",
+"n": "de",
+"start": 154.279,
+"end": 154.399
+},
+{
+"line": 32,
+"w": "una",
+"n": "una",
+"start": 154.399,
+"end": 154.589
+},
+{
+"line": 32,
+"w": "escuela",
+"n": "escuela",
+"start": 154.589,
+"end": 155.059
+},
+{
+"line": 32,
+"w": "de",
+"n": "de",
+"start": 155.059,
+"end": 155.309
+},
+{
+"line": 32,
+"w": "Capua",
+"n": "capua",
+"start": 155.309,
+"end": 155.619
+},
+{
+"line": 32,
+"w": "con",
+"n": "con",
+"start": 155.619,
+"end": 155.799
+},
+{
+"line": 32,
+"w": "unos",
+"n": "unos",
+"start": 155.799,
+"end": 156.049
+},
+{
+"line": 32,
+"w": "setenta",
+"n": "setenta",
+"start": 156.049,
+"end": 156.419
+},
+{
+"line": 32,
+"w": "compañeros,",
+"n": "companeros",
+"start": 156.419,
+"end": 157.159
+},
+{
+"line": 32,
+"w": "armados",
+"n": "armados",
+"start": 157.159,
+"end": 157.589
+},
+{
+"line": 32,
+"w": "con",
+"n": "con",
+"start": 157.589,
+"end": 157.769
+},
+{
+"line": 32,
+"w": "cuchillos",
+"n": "cuchillos",
+"start": 157.769,
+"end": 158.319
+},
+{
+"line": 32,
+"w": "y",
+"n": "y",
+"start": 158.319,
+"end": 158.379
+},
+{
+"line": 32,
+"w": "pinchos",
+"n": "pinchos",
+"start": 158.379,
+"end": 158.809
+},
+{
+"line": 32,
+"w": "de",
+"n": "de",
+"start": 158.809,
+"end": 158.969
+},
+{
+"line": 32,
+"w": "asar.",
+"n": "asar",
+"start": 158.969,
+"end": 159.459
+},
+{
+"line": 33,
+"w": "Aquello",
+"n": "aquello",
+"start": 160.535,
+"end": 160.945
+},
+{
+"line": 33,
+"w": "acabó",
+"n": "acabo",
+"start": 160.945,
+"end": 161.295
+},
+{
+"line": 33,
+"w": "en",
+"n": "en",
+"start": 161.295,
+"end": 161.435
+},
+{
+"line": 33,
+"w": "una",
+"n": "una",
+"start": 161.435,
+"end": 161.645
+},
+{
+"line": 33,
+"w": "guerra,",
+"n": "guerra",
+"start": 161.645,
+"end": 162.225
+},
+{
+"line": 33,
+"w": "y",
+"n": "y",
+"start": 162.225,
+"end": 162.315
+},
+{
+"line": 33,
+"w": "con",
+"n": "con",
+"start": 162.315,
+"end": 162.465
+},
+{
+"line": 33,
+"w": "unos",
+"n": "unos",
+"start": 162.465,
+"end": 162.705
+},
+{
+"line": 33,
+"w": "seis",
+"n": "seis",
+"start": 162.705,
+"end": 163.14
+},
+{
+"line": 33,
+"w": "mil",
+"n": "mil",
+"start": 163.14,
+"end": 163.575
+},
+{
+"line": 33,
+"w": "rebeldes",
+"n": "rebeldes",
+"start": 163.575,
+"end": 164.045
+},
+{
+"line": 33,
+"w": "ejecutados",
+"n": "ejecutados",
+"start": 164.045,
+"end": 164.625
+},
+{
+"line": 33,
+"w": "a",
+"n": "a",
+"start": 164.625,
+"end": 164.685
+},
+{
+"line": 33,
+"w": "lo",
+"n": "lo",
+"start": 164.685,
+"end": 164.805
+},
+{
+"line": 33,
+"w": "largo",
+"n": "largo",
+"start": 164.805,
+"end": 165.095
+},
+{
+"line": 33,
+"w": "de",
+"n": "de",
+"start": 165.095,
+"end": 165.215
+},
+{
+"line": 33,
+"w": "la",
+"n": "la",
+"start": 165.215,
+"end": 165.325
+},
+{
+"line": 33,
+"w": "vía",
+"n": "via",
+"start": 165.325,
+"end": 165.585
+},
+{
+"line": 33,
+"w": "Apia.",
+"n": "apia",
+"start": 165.585,
+"end": 165.635
+},
+{
+"line": 34,
+"w": "Ahora,",
+"n": "ahora",
+"start": 165.917,
+"end": 166.397
+},
+{
+"line": 34,
+"w": "la",
+"n": "la",
+"start": 166.397,
+"end": 166.447
+},
+{
+"line": 34,
+"w": "comida.",
+"n": "comida",
+"start": 166.427,
+"end": 166.877
+},
+{
+"line": 34,
+"w": "Y",
+"n": "y",
+"start": 166.877,
+"end": 167.167
+},
+{
+"line": 34,
+"w": "aquí",
+"n": "aqui",
+"start": 167.167,
+"end": 167.217
+},
+{
+"line": 34,
+"w": "viene",
+"n": "viene",
+"start": 167.217,
+"end": 167.547
+},
+{
+"line": 34,
+"w": "el",
+"n": "el",
+"start": 167.547,
+"end": 167.677
+},
+{
+"line": 34,
+"w": "primer",
+"n": "primer",
+"start": 167.677,
+"end": 168.077
+},
+{
+"line": 34,
+"w": "dato",
+"n": "dato",
+"start": 168.077,
+"end": 168.347
+},
+{
+"line": 34,
+"w": "raro.",
+"n": "raro",
+"start": 168.347,
+"end": 168.847
+},
+{
+"line": 35,
+"w": "Los",
+"n": "los",
+"start": 169.4,
+"end": 169.52
+},
+{
+"line": 35,
+"w": "gladiadores",
+"n": "gladiadores",
+"start": 169.52,
+"end": 170.29
+},
+{
+"line": 35,
+"w": "no",
+"n": "no",
+"start": 170.29,
+"end": 170.43
+},
+{
+"line": 35,
+"w": "estaban",
+"n": "estaban",
+"start": 170.43,
+"end": 170.92
+},
+{
+"line": 35,
+"w": "secos",
+"n": "secos",
+"start": 170.92,
+"end": 171.34
+},
+{
+"line": 35,
+"w": "y",
+"n": "y",
+"start": 171.34,
+"end": 171.39
+},
+{
+"line": 35,
+"w": "marcados",
+"n": "marcados",
+"start": 171.34,
+"end": 171.89
+},
+{
+"line": 35,
+"w": "como",
+"n": "como",
+"start": 171.89,
+"end": 172.18
+},
+{
+"line": 35,
+"w": "en",
+"n": "en",
+"start": 172.18,
+"end": 172.32
+},
+{
+"line": 35,
+"w": "las",
+"n": "las",
+"start": 172.32,
+"end": 172.53
+},
+{
+"line": 35,
+"w": "películas.",
+"n": "peliculas",
+"start": 172.53,
+"end": 173.21
+},
+{
+"line": 36,
+"w": "Comían",
+"n": "comian",
+"start": 173.616,
+"end": 173.906
+},
+{
+"line": 36,
+"w": "tanta",
+"n": "tanta",
+"start": 173.906,
+"end": 174.246
+},
+{
+"line": 36,
+"w": "cebada",
+"n": "cebada",
+"start": 174.246,
+"end": 174.636
+},
+{
+"line": 36,
+"w": "y",
+"n": "y",
+"start": 174.636,
+"end": 174.696
+},
+{
+"line": 36,
+"w": "tantas",
+"n": "tantas",
+"start": 174.696,
+"end": 175.096
+},
+{
+"line": 36,
+"w": "legumbres",
+"n": "legumbres",
+"start": 175.096,
+"end": 175.776
+},
+{
+"line": 36,
+"w": "que",
+"n": "que",
+"start": 175.776,
+"end": 175.946
+},
+{
+"line": 36,
+"w": "los",
+"n": "los",
+"start": 175.946,
+"end": 176.156
+},
+{
+"line": 36,
+"w": "llamaban",
+"n": "llamaban",
+"start": 176.156,
+"end": 176.516
+},
+{
+"line": 36,
+"w": "así:",
+"n": "asi",
+"start": 176.516,
+"end": 176.826
+},
+{
+"line": 36,
+"w": "los",
+"n": "los",
+"start": 176.826,
+"end": 177.066
+},
+{
+"line": 36,
+"w": "de",
+"n": "de",
+"start": 177.066,
+"end": 177.176
+},
+{
+"line": 36,
+"w": "la",
+"n": "la",
+"start": 177.176,
+"end": 177.316
+},
+{
+"line": 36,
+"w": "cebada.",
+"n": "cebada",
+"start": 177.316,
+"end": 177.946
+},
+{
+"line": 37,
+"w": "Esa",
+"n": "esa",
+"start": 179.01,
+"end": 179.13
+},
+{
+"line": 37,
+"w": "dieta",
+"n": "dieta",
+"start": 179.13,
+"end": 179.42
+},
+{
+"line": 37,
+"w": "les",
+"n": "les",
+"start": 179.42,
+"end": 179.59
+},
+{
+"line": 37,
+"w": "ponía",
+"n": "ponia",
+"start": 179.59,
+"end": 179.87
+},
+{
+"line": 37,
+"w": "una",
+"n": "una",
+"start": 179.87,
+"end": 180.04
+},
+{
+"line": 37,
+"w": "capa",
+"n": "capa",
+"start": 180.04,
+"end": 180.26
+},
+{
+"line": 37,
+"w": "de",
+"n": "de",
+"start": 180.26,
+"end": 180.41
+},
+{
+"line": 37,
+"w": "grasa",
+"n": "grasa",
+"start": 180.41,
+"end": 180.65
+},
+{
+"line": 37,
+"w": "sobre",
+"n": "sobre",
+"start": 180.65,
+"end": 180.94
+},
+{
+"line": 37,
+"w": "el",
+"n": "el",
+"start": 180.94,
+"end": 181.05
+},
+{
+"line": 37,
+"w": "músculo.",
+"n": "musculo",
+"start": 181.05,
+"end": 181.71
+},
+{
+"line": 38,
+"w": "Y",
+"n": "y",
+"start": 182.217,
+"end": 182.267
+},
+{
+"line": 38,
+"w": "para",
+"n": "para",
+"start": 182.257,
+"end": 182.487
+},
+{
+"line": 38,
+"w": "los",
+"n": "los",
+"start": 182.487,
+"end": 182.687
+},
+{
+"line": 38,
+"w": "huesos,",
+"n": "huesos",
+"start": 182.687,
+"end": 183.237
+},
+{
+"line": 38,
+"w": "tomaban",
+"n": "tomaban",
+"start": 183.237,
+"end": 183.717
+},
+{
+"line": 38,
+"w": "una",
+"n": "una",
+"start": 183.717,
+"end": 183.927
+},
+{
+"line": 38,
+"w": "bebida",
+"n": "bebida",
+"start": 183.927,
+"end": 184.337
+},
+{
+"line": 38,
+"w": "hecha",
+"n": "hecha",
+"start": 184.337,
+"end": 184.677
+},
+{
+"line": 38,
+"w": "con",
+"n": "con",
+"start": 184.677,
+"end": 184.887
+},
+{
+"line": 38,
+"w": "polvo",
+"n": "polvo",
+"start": 184.887,
+"end": 185.227
+},
+{
+"line": 38,
+"w": "de",
+"n": "de",
+"start": 185.227,
+"end": 185.367
+},
+{
+"line": 38,
+"w": "plantas",
+"n": "plantas",
+"start": 185.367,
+"end": 185.847
+},
+{
+"line": 38,
+"w": "quemadas.",
+"n": "quemadas",
+"start": 185.847,
+"end": 186.457
+},
+{
+"line": 39,
+"w": "Un",
+"n": "un",
+"start": 187.699,
+"end": 187.799
+},
+{
+"line": 39,
+"w": "estudio",
+"n": "estudio",
+"start": 187.799,
+"end": 188.269
+},
+{
+"line": 39,
+"w": "moderno",
+"n": "moderno",
+"start": 188.269,
+"end": 188.729
+},
+{
+"line": 39,
+"w": "de",
+"n": "de",
+"start": 188.729,
+"end": 188.859
+},
+{
+"line": 39,
+"w": "huesos",
+"n": "huesos",
+"start": 188.859,
+"end": 189.249
+},
+{
+"line": 39,
+"w": "de",
+"n": "de",
+"start": 189.249,
+"end": 189.379
+},
+{
+"line": 39,
+"w": "gladiadores",
+"n": "gladiadores",
+"start": 189.379,
+"end": 190.189
+},
+{
+"line": 39,
+"w": "apunta",
+"n": "apunta",
+"start": 190.189,
+"end": 190.559
+},
+{
+"line": 39,
+"w": "a",
+"n": "a",
+"start": 190.559,
+"end": 190.619
+},
+{
+"line": 39,
+"w": "lo",
+"n": "lo",
+"start": 190.619,
+"end": 190.739
+},
+{
+"line": 39,
+"w": "mismo.",
+"n": "mismo",
+"start": 190.739,
+"end": 191.289
+},
+{
+"line": 40,
+"w": "Félix",
+"n": "felix",
+"start": 191.76,
+"end": 191.99
+},
+{
+"line": 40,
+"w": "prueba",
+"n": "prueba",
+"start": 191.99,
+"end": 192.31
+},
+{
+"line": 40,
+"w": "la",
+"n": "la",
+"start": 192.31,
+"end": 192.41
+},
+{
+"line": 40,
+"w": "bebida.",
+"n": "bebida",
+"start": 192.41,
+"end": 192.93
+},
+{
+"line": 40,
+"w": "Sabe",
+"n": "sabe",
+"start": 192.93,
+"end": 193.23
+},
+{
+"line": 40,
+"w": "a",
+"n": "a",
+"start": 193.23,
+"end": 193.28
+},
+{
+"line": 40,
+"w": "hoguera",
+"n": "hoguera",
+"start": 193.26,
+"end": 193.69
+},
+{
+"line": 40,
+"w": "apagada.",
+"n": "apagada",
+"start": 193.69,
+"end": 194.38
+},
+{
+"line": 41,
+"w": "Y",
+"n": "y",
+"start": 194.879,
+"end": 194.929
+},
+{
+"line": 41,
+"w": "después",
+"n": "despues",
+"start": 194.929,
+"end": 195.299
+},
+{
+"line": 41,
+"w": "llega",
+"n": "llega",
+"start": 195.299,
+"end": 195.559
+},
+{
+"line": 41,
+"w": "el",
+"n": "el",
+"start": 195.559,
+"end": 195.659
+},
+{
+"line": 41,
+"w": "primer",
+"n": "primer",
+"start": 195.659,
+"end": 195.999
+},
+{
+"line": 41,
+"w": "entrenamiento.",
+"n": "entrenamiento",
+"start": 195.999,
+"end": 196.929
+},
+{
+"line": 42,
+"w": "Le",
+"n": "le",
+"start": 197.487,
+"end": 197.537
+},
+{
+"line": 42,
+"w": "dan",
+"n": "dan",
+"start": 197.517,
+"end": 197.707
+},
+{
+"line": 42,
+"w": "una",
+"n": "una",
+"start": 197.707,
+"end": 197.897
+},
+{
+"line": 42,
+"w": "espada",
+"n": "espada",
+"start": 197.897,
+"end": 198.277
+},
+{
+"line": 42,
+"w": "de",
+"n": "de",
+"start": 198.277,
+"end": 198.397
+},
+{
+"line": 42,
+"w": "madera",
+"n": "madera",
+"start": 198.397,
+"end": 198.847
+},
+{
+"line": 42,
+"w": "y",
+"n": "y",
+"start": 198.847,
+"end": 198.997
+},
+{
+"line": 42,
+"w": "un",
+"n": "un",
+"start": 198.997,
+"end": 199.047
+},
+{
+"line": 42,
+"w": "escudo",
+"n": "escudo",
+"start": 199.007,
+"end": 199.377
+},
+{
+"line": 42,
+"w": "de",
+"n": "de",
+"start": 199.377,
+"end": 199.457
+},
+{
+"line": 42,
+"w": "mimbre.",
+"n": "mimbre",
+"start": 199.457,
+"end": 199.987
+},
+{
+"line": 43,
+"w": "Y",
+"n": "y",
+"start": 200.469,
+"end": 200.519
+},
+{
+"line": 43,
+"w": "le",
+"n": "le",
+"start": 200.519,
+"end": 200.599
+},
+{
+"line": 43,
+"w": "señalan",
+"n": "senalan",
+"start": 200.599,
+"end": 201.029
+},
+{
+"line": 43,
+"w": "un",
+"n": "un",
+"start": 201.029,
+"end": 201.149
+},
+{
+"line": 43,
+"w": "poste",
+"n": "poste",
+"start": 201.149,
+"end": 201.459
+},
+{
+"line": 43,
+"w": "de",
+"n": "de",
+"start": 201.459,
+"end": 201.579
+},
+{
+"line": 43,
+"w": "madera",
+"n": "madera",
+"start": 201.579,
+"end": 201.939
+},
+{
+"line": 43,
+"w": "clavado",
+"n": "clavado",
+"start": 201.939,
+"end": 202.359
+},
+{
+"line": 43,
+"w": "en",
+"n": "en",
+"start": 202.359,
+"end": 202.479
+},
+{
+"line": 43,
+"w": "el",
+"n": "el",
+"start": 202.479,
+"end": 202.599
+},
+{
+"line": 43,
+"w": "suelo,",
+"n": "suelo",
+"start": 202.599,
+"end": 203.089
+},
+{
+"line": 43,
+"w": "más",
+"n": "mas",
+"start": 203.089,
+"end": 203.239
+},
+{
+"line": 43,
+"w": "o",
+"n": "o",
+"start": 203.239,
+"end": 203.309
+},
+{
+"line": 43,
+"w": "menos",
+"n": "menos",
+"start": 203.309,
+"end": 203.529
+},
+{
+"line": 43,
+"w": "de",
+"n": "de",
+"start": 203.529,
+"end": 203.629
+},
+{
+"line": 43,
+"w": "su",
+"n": "su",
+"start": 203.629,
+"end": 203.719
+},
+{
+"line": 43,
+"w": "altura.",
+"n": "altura",
+"start": 203.719,
+"end": 204.199
+},
+{
+"line": 44,
+"w": "Ese",
+"n": "ese",
+"start": 204.732,
+"end": 204.882
+},
+{
+"line": 44,
+"w": "poste",
+"n": "poste",
+"start": 204.882,
+"end": 205.272
+},
+{
+"line": 44,
+"w": "se",
+"n": "se",
+"start": 205.272,
+"end": 205.342
+},
+{
+"line": 44,
+"w": "llama",
+"n": "llama",
+"start": 205.342,
+"end": 205.682
+},
+{
+"line": 44,
+"w": "palus.",
+"n": "palus",
+"start": 205.682,
+"end": 206.012
+},
+{
+"line": 44,
+"w": "Y",
+"n": "y",
+"start": 206.012,
+"end": 206.062
+},
+{
+"line": 44,
+"w": "va",
+"n": "va",
+"start": 206.062,
+"end": 206.192
+},
+{
+"line": 44,
+"w": "a",
+"n": "a",
+"start": 206.192,
+"end": 206.262
+},
+{
+"line": 44,
+"w": "ser",
+"n": "ser",
+"start": 206.262,
+"end": 206.502
+},
+{
+"line": 44,
+"w": "su",
+"n": "su",
+"start": 206.502,
+"end": 206.592
+},
+{
+"line": 44,
+"w": "rival",
+"n": "rival",
+"start": 206.592,
+"end": 206.932
+},
+{
+"line": 44,
+"w": "durante",
+"n": "durante",
+"start": 206.932,
+"end": 207.402
+},
+{
+"line": 44,
+"w": "semanas.",
+"n": "semanas",
+"start": 207.402,
+"end": 208.172
+},
+{
+"line": 45,
+"w": "Al",
+"n": "al",
+"start": 208.756,
+"end": 208.846
+},
+{
+"line": 45,
+"w": "terminar",
+"n": "terminar",
+"start": 208.846,
+"end": 209.316
+},
+{
+"line": 45,
+"w": "el",
+"n": "el",
+"start": 209.316,
+"end": 209.436
+},
+{
+"line": 45,
+"w": "día,",
+"n": "dia",
+"start": 209.436,
+"end": 209.746
+},
+{
+"line": 45,
+"w": "se",
+"n": "se",
+"start": 209.746,
+"end": 209.896
+},
+{
+"line": 45,
+"w": "rascan",
+"n": "rascan",
+"start": 209.896,
+"end": 210.396
+},
+{
+"line": 45,
+"w": "el",
+"n": "el",
+"start": 210.396,
+"end": 210.576
+},
+{
+"line": 45,
+"w": "sudor,",
+"n": "sudor",
+"start": 210.576,
+"end": 211.186
+},
+{
+"line": 45,
+"w": "el",
+"n": "el",
+"start": 211.186,
+"end": 211.356
+},
+{
+"line": 45,
+"w": "aceite",
+"n": "aceite",
+"start": 211.356,
+"end": 211.866
+},
+{
+"line": 45,
+"w": "y",
+"n": "y",
+"start": 211.866,
+"end": 211.946
+},
+{
+"line": 45,
+"w": "la",
+"n": "la",
+"start": 211.946,
+"end": 212.106
+},
+{
+"line": 45,
+"w": "arena",
+"n": "arena",
+"start": 212.106,
+"end": 212.526
+},
+{
+"line": 45,
+"w": "con",
+"n": "con",
+"start": 212.526,
+"end": 212.706
+},
+{
+"line": 45,
+"w": "el",
+"n": "el",
+"start": 212.706,
+"end": 212.826
+},
+{
+"line": 45,
+"w": "estrígilo,",
+"n": "estrigilo",
+"start": 212.826,
+"end": 213.586
+},
+{
+"line": 45,
+"w": "una",
+"n": "una",
+"start": 213.586,
+"end": 213.676
+},
+{
+"line": 45,
+"w": "rasqueta",
+"n": "rasqueta",
+"start": 213.676,
+"end": 214.166
+},
+{
+"line": 45,
+"w": "curva",
+"n": "curva",
+"start": 214.166,
+"end": 214.436
+},
+{
+"line": 45,
+"w": "de",
+"n": "de",
+"start": 214.436,
+"end": 214.546
+},
+{
+"line": 45,
+"w": "metal.",
+"n": "metal",
+"start": 214.546,
+"end": 215.006
+},
+{
+"line": 46,
+"w": "Félix",
+"n": "felix",
+"start": 215.506,
+"end": 215.786
+},
+{
+"line": 46,
+"w": "se",
+"n": "se",
+"start": 215.786,
+"end": 215.936
+},
+{
+"line": 46,
+"w": "tumba",
+"n": "tumba",
+"start": 215.936,
+"end": 216.206
+},
+{
+"line": 46,
+"w": "en",
+"n": "en",
+"start": 216.206,
+"end": 216.326
+},
+{
+"line": 46,
+"w": "su",
+"n": "su",
+"start": 216.326,
+"end": 216.446
+},
+{
+"line": 46,
+"w": "cuarto.",
+"n": "cuarto",
+"start": 216.446,
+"end": 217.016
+},
+{
+"line": 46,
+"w": "Le",
+"n": "le",
+"start": 217.016,
+"end": 217.266
+},
+{
+"line": 46,
+"w": "duele",
+"n": "duele",
+"start": 217.266,
+"end": 217.486
+},
+{
+"line": 46,
+"w": "todo.",
+"n": "todo",
+"start": 217.486,
+"end": 217.756
+},
+{
+"line": 46,
+"w": "Y",
+"n": "y",
+"start": 217.756,
+"end": 217.816
+},
+{
+"line": 46,
+"w": "solo",
+"n": "solo",
+"start": 217.816,
+"end": 218.146
+},
+{
+"line": 46,
+"w": "es",
+"n": "es",
+"start": 218.146,
+"end": 218.216
+},
+{
+"line": 46,
+"w": "el",
+"n": "el",
+"start": 218.216,
+"end": 218.346
+},
+{
+"line": 46,
+"w": "primer",
+"n": "primer",
+"start": 218.346,
+"end": 218.766
+},
+{
+"line": 46,
+"w": "día.",
+"n": "dia",
+"start": 218.766,
+"end": 219.226
+},
+{
+"line": 47,
+"w": "Semana",
+"n": "semana",
+"start": 220.922,
+"end": 221.562
+},
+{
+"line": 47,
+"w": "dos.",
+"n": "dos",
+"start": 221.562,
+"end": 222.132
+},
+{
+"line": 47,
+"w": "La",
+"n": "la",
+"start": 222.132,
+"end": 222.212
+},
+{
+"line": 47,
+"w": "luna",
+"n": "luna",
+"start": 222.212,
+"end": 222.532
+},
+{
+"line": 47,
+"w": "engorda.",
+"n": "engorda",
+"start": 222.532,
+"end": 223.222
+},
+{
+"line": 47,
+"w": "Y",
+"n": "y",
+"start": 223.222,
+"end": 223.272
+},
+{
+"line": 47,
+"w": "Félix,",
+"n": "felix",
+"start": 223.252,
+"end": 223.752
+},
+{
+"line": 47,
+"w": "con",
+"n": "con",
+"start": 223.752,
+"end": 223.992
+},
+{
+"line": 47,
+"w": "tanta",
+"n": "tanta",
+"start": 223.992,
+"end": 224.352
+},
+{
+"line": 47,
+"w": "cebada,",
+"n": "cebada",
+"start": 224.352,
+"end": 224.842
+},
+{
+"line": 47,
+"w": "también.",
+"n": "tambien",
+"start": 224.842,
+"end": 225.312
+},
+{
+"line": 48,
+"w": "Cada",
+"n": "cada",
+"start": 225.788,
+"end": 225.918
+},
+{
+"line": 48,
+"w": "mañana,",
+"n": "manana",
+"start": 225.918,
+"end": 226.428
+},
+{
+"line": 48,
+"w": "golpe",
+"n": "golpe",
+"start": 226.428,
+"end": 226.758
+},
+{
+"line": 48,
+"w": "tras",
+"n": "tras",
+"start": 226.758,
+"end": 227.058
+},
+{
+"line": 48,
+"w": "golpe",
+"n": "golpe",
+"start": 227.058,
+"end": 227.338
+},
+{
+"line": 48,
+"w": "contra",
+"n": "contra",
+"start": 227.338,
+"end": 227.728
+},
+{
+"line": 48,
+"w": "el",
+"n": "el",
+"start": 227.728,
+"end": 227.858
+},
+{
+"line": 48,
+"w": "palus.",
+"n": "palus",
+"start": 227.858,
+"end": 228.418
+},
+{
+"line": 49,
+"w": "Según",
+"n": "segun",
+"start": 228.994,
+"end": 229.214
+},
+{
+"line": 49,
+"w": "un",
+"n": "un",
+"start": 229.214,
+"end": 229.334
+},
+{
+"line": 49,
+"w": "manual",
+"n": "manual",
+"start": 229.334,
+"end": 229.714
+},
+{
+"line": 49,
+"w": "militar",
+"n": "militar",
+"start": 229.714,
+"end": 230.184
+},
+{
+"line": 49,
+"w": "romano,",
+"n": "romano",
+"start": 230.184,
+"end": 230.684
+},
+{
+"line": 49,
+"w": "en",
+"n": "en",
+"start": 230.684,
+"end": 230.954
+},
+{
+"line": 49,
+"w": "el",
+"n": "el",
+"start": 230.954,
+"end": 231.004
+},
+{
+"line": 49,
+"w": "palus",
+"n": "palus",
+"start": 230.984,
+"end": 231.284
+},
+{
+"line": 49,
+"w": "se",
+"n": "se",
+"start": 231.284,
+"end": 231.414
+},
+{
+"line": 49,
+"w": "entrenaba",
+"n": "entrenaba",
+"start": 231.414,
+"end": 232.064
+},
+{
+"line": 49,
+"w": "con",
+"n": "con",
+"start": 232.064,
+"end": 232.224
+},
+{
+"line": 49,
+"w": "armas",
+"n": "armas",
+"start": 232.224,
+"end": 232.504
+},
+{
+"line": 49,
+"w": "más",
+"n": "mas",
+"start": 232.504,
+"end": 232.874
+},
+{
+"line": 49,
+"w": "pesadas",
+"n": "pesadas",
+"start": 232.874,
+"end": 233.264
+},
+{
+"line": 49,
+"w": "que",
+"n": "que",
+"start": 233.264,
+"end": 233.414
+},
+{
+"line": 49,
+"w": "las",
+"n": "las",
+"start": 233.414,
+"end": 233.594
+},
+{
+"line": 49,
+"w": "de",
+"n": "de",
+"start": 233.594,
+"end": 233.684
+},
+{
+"line": 49,
+"w": "verdad.",
+"n": "verdad",
+"start": 233.684,
+"end": 233.944
+},
+{
+"line": 49,
+"w": "Así,",
+"n": "asi",
+"start": 234.404,
+"end": 234.454
+},
+{
+"line": 49,
+"w": "el",
+"n": "el",
+"start": 234.424,
+"end": 234.494
+},
+{
+"line": 49,
+"w": "día",
+"n": "dia",
+"start": 234.494,
+"end": 234.684
+},
+{
+"line": 49,
+"w": "del",
+"n": "del",
+"start": 234.684,
+"end": 234.904
+},
+{
+"line": 49,
+"w": "combate,",
+"n": "combate",
+"start": 234.904,
+"end": 235.574
+},
+{
+"line": 49,
+"w": "la",
+"n": "la",
+"start": 235.574,
+"end": 235.724
+},
+{
+"line": 49,
+"w": "espada",
+"n": "espada",
+"start": 235.724,
+"end": 236.164
+},
+{
+"line": 49,
+"w": "de",
+"n": "de",
+"start": 236.164,
+"end": 236.484
+},
+{
+"line": 49,
+"w": "verdad",
+"n": "verdad",
+"start": 236.484,
+"end": 236.764
+},
+{
+"line": 49,
+"w": "se",
+"n": "se",
+"start": 236.764,
+"end": 236.914
+},
+{
+"line": 49,
+"w": "nota",
+"n": "nota",
+"start": 236.914,
+"end": 237.244
+},
+{
+"line": 49,
+"w": "ligera.",
+"n": "ligera",
+"start": 237.244,
+"end": 237.944
+},
+{
+"line": 50,
+"w": "Le",
+"n": "le",
+"start": 238.435,
+"end": 238.555
+},
+{
+"line": 50,
+"w": "entrenan",
+"n": "entrenan",
+"start": 238.555,
+"end": 239.225
+},
+{
+"line": 50,
+"w": "los",
+"n": "los",
+"start": 239.225,
+"end": 239.425
+},
+{
+"line": 50,
+"w": "doctores.",
+"n": "doctores",
+"start": 239.425,
+"end": 240.215
+},
+{
+"line": 50,
+"w": "No",
+"n": "no",
+"start": 240.215,
+"end": 240.395
+},
+{
+"line": 50,
+"w": "son",
+"n": "son",
+"start": 240.395,
+"end": 240.585
+},
+{
+"line": 50,
+"w": "médicos:",
+"n": "medicos",
+"start": 240.585,
+"end": 241.345
+},
+{
+"line": 50,
+"w": "son",
+"n": "son",
+"start": 241.345,
+"end": 241.485
+},
+{
+"line": 50,
+"w": "maestros,",
+"n": "maestros",
+"start": 241.485,
+"end": 242.185
+},
+{
+"line": 50,
+"w": "casi",
+"n": "casi",
+"start": 242.185,
+"end": 242.515
+},
+{
+"line": 50,
+"w": "siempre",
+"n": "siempre",
+"start": 242.515,
+"end": 243.105
+},
+{
+"line": 50,
+"w": "antiguos",
+"n": "antiguos",
+"start": 243.105,
+"end": 243.765
+},
+{
+"line": 50,
+"w": "gladiadores.",
+"n": "gladiadores",
+"start": 243.765,
+"end": 244.725
+},
+{
+"line": 51,
+"w": "Porque",
+"n": "porque",
+"start": 245.065,
+"end": 245.375
+},
+{
+"line": 51,
+"w": "en",
+"n": "en",
+"start": 245.375,
+"end": 245.485
+},
+{
+"line": 51,
+"w": "la",
+"n": "la",
+"start": 245.485,
+"end": 245.595
+},
+{
+"line": 51,
+"w": "arena",
+"n": "arena",
+"start": 245.595,
+"end": 245.955
+},
+{
+"line": 51,
+"w": "hay",
+"n": "hay",
+"start": 245.955,
+"end": 246.055
+},
+{
+"line": 51,
+"w": "muchos",
+"n": "muchos",
+"start": 246.055,
+"end": 246.495
+},
+{
+"line": 51,
+"w": "tipos",
+"n": "tipos",
+"start": 246.495,
+"end": 246.695
+},
+{
+"line": 51,
+"w": "de",
+"n": "de",
+"start": 246.695,
+"end": 246.805
+},
+{
+"line": 51,
+"w": "gladiador,",
+"n": "gladiador",
+"start": 246.805,
+"end": 247.515
+},
+{
+"line": 51,
+"w": "y",
+"n": "y",
+"start": 247.515,
+"end": 247.775
+},
+{
+"line": 51,
+"w": "cada",
+"n": "cada",
+"start": 247.775,
+"end": 247.845
+},
+{
+"line": 51,
+"w": "tipo",
+"n": "tipo",
+"start": 247.845,
+"end": 248.115
+},
+{
+"line": 51,
+"w": "tiene",
+"n": "tiene",
+"start": 248.115,
+"end": 248.455
+},
+{
+"line": 51,
+"w": "sus",
+"n": "sus",
+"start": 248.455,
+"end": 248.655
+},
+{
+"line": 51,
+"w": "propios",
+"n": "propios",
+"start": 248.655,
+"end": 249.125
+},
+{
+"line": 51,
+"w": "maestros.",
+"n": "maestros",
+"start": 249.125,
+"end": 249.925
+},
+{
+"line": 52,
+"w": "El",
+"n": "el",
+"start": 250.409,
+"end": 250.509
+},
+{
+"line": 52,
+"w": "hoplómaco",
+"n": "hoplomaco",
+"start": 250.509,
+"end": 250.989
+},
+{
+"line": 52,
+"w": "va",
+"n": "va",
+"start": 250.989,
+"end": 251.109
+},
+{
+"line": 52,
+"w": "vestido",
+"n": "vestido",
+"start": 251.109,
+"end": 251.529
+},
+{
+"line": 52,
+"w": "de",
+"n": "de",
+"start": 251.529,
+"end": 251.649
+},
+{
+"line": 52,
+"w": "soldado",
+"n": "soldado",
+"start": 251.649,
+"end": 252.069
+},
+{
+"line": 52,
+"w": "griego,",
+"n": "griego",
+"start": 252.069,
+"end": 252.629
+},
+{
+"line": 52,
+"w": "con",
+"n": "con",
+"start": 252.629,
+"end": 252.869
+},
+{
+"line": 52,
+"w": "un",
+"n": "un",
+"start": 252.869,
+"end": 252.929
+},
+{
+"line": 52,
+"w": "escudo",
+"n": "escudo",
+"start": 252.929,
+"end": 253.289
+},
+{
+"line": 52,
+"w": "redondo",
+"n": "redondo",
+"start": 253.289,
+"end": 253.689
+},
+{
+"line": 52,
+"w": "y",
+"n": "y",
+"start": 253.689,
+"end": 253.749
+},
+{
+"line": 52,
+"w": "pequeño.",
+"n": "pequeno",
+"start": 253.749,
+"end": 254.369
+},
+{
+"line": 53,
+"w": "El",
+"n": "el",
+"start": 254.869,
+"end": 254.999
+},
+{
+"line": 53,
+"w": "secutor",
+"n": "secutor",
+"start": 254.999,
+"end": 255.559
+},
+{
+"line": 53,
+"w": "lleva",
+"n": "lleva",
+"start": 255.559,
+"end": 255.959
+},
+{
+"line": 53,
+"w": "un",
+"n": "un",
+"start": 255.959,
+"end": 256.119
+},
+{
+"line": 53,
+"w": "casco",
+"n": "casco",
+"start": 256.119,
+"end": 256.519
+},
+{
+"line": 53,
+"w": "liso",
+"n": "liso",
+"start": 256.519,
+"end": 256.839
+},
+{
+"line": 53,
+"w": "y",
+"n": "y",
+"start": 256.839,
+"end": 256.919
+},
+{
+"line": 53,
+"w": "redondo,",
+"n": "redondo",
+"start": 256.919,
+"end": 257.649
+},
+{
+"line": 53,
+"w": "con",
+"n": "con",
+"start": 257.649,
+"end": 257.819
+},
+{
+"line": 53,
+"w": "dos",
+"n": "dos",
+"start": 257.819,
+"end": 257.989
+},
+{
+"line": 53,
+"w": "agujeros",
+"n": "agujeros",
+"start": 257.989,
+"end": 258.529
+},
+{
+"line": 53,
+"w": "diminutos",
+"n": "diminutos",
+"start": 258.529,
+"end": 259.129
+},
+{
+"line": 53,
+"w": "para",
+"n": "para",
+"start": 259.129,
+"end": 259.369
+},
+{
+"line": 53,
+"w": "ver.",
+"n": "ver",
+"start": 259.369,
+"end": 259.749
+},
+{
+"line": 53,
+"w": "Así",
+"n": "asi",
+"start": 259.749,
+"end": 259.919
+},
+{
+"line": 53,
+"w": "no",
+"n": "no",
+"start": 259.919,
+"end": 260.079
+},
+{
+"line": 53,
+"w": "se",
+"n": "se",
+"start": 260.079,
+"end": 260.189
+},
+{
+"line": 53,
+"w": "le",
+"n": "le",
+"start": 260.189,
+"end": 260.299
+},
+{
+"line": 53,
+"w": "engancha",
+"n": "engancha",
+"start": 260.299,
+"end": 260.729
+},
+{
+"line": 53,
+"w": "la",
+"n": "la",
+"start": 260.729,
+"end": 260.839
+},
+{
+"line": 53,
+"w": "red.",
+"n": "red",
+"start": 260.839,
+"end": 261.199
+},
+{
+"line": 54,
+"w": "Y",
+"n": "y",
+"start": 262.389,
+"end": 262.469
+},
+{
+"line": 54,
+"w": "hay",
+"n": "hay",
+"start": 262.469,
+"end": 262.579
+},
+{
+"line": 54,
+"w": "gladiadores",
+"n": "gladiadores",
+"start": 262.579,
+"end": 263.249
+},
+{
+"line": 54,
+"w": "que",
+"n": "que",
+"start": 263.249,
+"end": 263.439
+},
+{
+"line": 54,
+"w": "salen",
+"n": "salen",
+"start": 263.439,
+"end": 263.729
+},
+{
+"line": 54,
+"w": "a",
+"n": "a",
+"start": 263.729,
+"end": 263.789
+},
+{
+"line": 54,
+"w": "caballo,",
+"n": "caballo",
+"start": 263.789,
+"end": 264.239
+},
+{
+"line": 54,
+"w": "y",
+"n": "y",
+"start": 264.239,
+"end": 264.689
+},
+{
+"line": 54,
+"w": "otros",
+"n": "otros",
+"start": 264.689,
+"end": 264.739
+},
+{
+"line": 54,
+"w": "que",
+"n": "que",
+"start": 264.739,
+"end": 264.909
+},
+{
+"line": 54,
+"w": "entran",
+"n": "entran",
+"start": 264.909,
+"end": 265.349
+},
+{
+"line": 54,
+"w": "en",
+"n": "en",
+"start": 265.349,
+"end": 265.499
+},
+{
+"line": 54,
+"w": "un",
+"n": "un",
+"start": 265.499,
+"end": 265.629
+},
+{
+"line": 54,
+"w": "carro",
+"n": "carro",
+"start": 265.629,
+"end": 265.989
+},
+{
+"line": 54,
+"w": "de",
+"n": "de",
+"start": 265.989,
+"end": 266.129
+},
+{
+"line": 54,
+"w": "guerra.",
+"n": "guerra",
+"start": 266.129,
+"end": 266.619
+},
+{
+"line": 55,
+"w": "¿Y",
+"n": "y",
+"start": 267.185,
+"end": 267.235
+},
+{
+"line": 55,
+"w": "Félix?",
+"n": "felix",
+"start": 267.195,
+"end": 267.775
+},
+{
+"line": 55,
+"w": "Félix",
+"n": "felix",
+"start": 267.775,
+"end": 268.185
+},
+{
+"line": 55,
+"w": "será",
+"n": "sera",
+"start": 268.185,
+"end": 268.515
+},
+{
+"line": 55,
+"w": "mirmillón.",
+"n": "mirmillon",
+"start": 268.515,
+"end": 269.285
+},
+{
+"line": 56,
+"w": "Un",
+"n": "un",
+"start": 272.244,
+"end": 272.294
+},
+{
+"line": 56,
+"w": "casco",
+"n": "casco",
+"start": 272.294,
+"end": 272.624
+},
+{
+"line": 56,
+"w": "enorme",
+"n": "enorme",
+"start": 272.624,
+"end": 273.024
+},
+{
+"line": 56,
+"w": "con",
+"n": "con",
+"start": 273.024,
+"end": 273.274
+},
+{
+"line": 56,
+"w": "un",
+"n": "un",
+"start": 273.274,
+"end": 273.354
+},
+{
+"line": 56,
+"w": "pescado",
+"n": "pescado",
+"start": 273.354,
+"end": 273.814
+},
+{
+"line": 56,
+"w": "en",
+"n": "en",
+"start": 273.814,
+"end": 273.944
+},
+{
+"line": 56,
+"w": "lo",
+"n": "lo",
+"start": 273.944,
+"end": 274.074
+},
+{
+"line": 56,
+"w": "alto,",
+"n": "alto",
+"start": 274.074,
+"end": 274.504
+},
+{
+"line": 56,
+"w": "un",
+"n": "un",
+"start": 274.504,
+"end": 274.674
+},
+{
+"line": 56,
+"w": "escudo",
+"n": "escudo",
+"start": 274.674,
+"end": 275.064
+},
+{
+"line": 56,
+"w": "grande",
+"n": "grande",
+"start": 275.064,
+"end": 275.484
+},
+{
+"line": 56,
+"w": "y",
+"n": "y",
+"start": 275.484,
+"end": 275.554
+},
+{
+"line": 56,
+"w": "rectangular",
+"n": "rectangular",
+"start": 275.554,
+"end": 276.334
+},
+{
+"line": 56,
+"w": "y",
+"n": "y",
+"start": 276.334,
+"end": 276.404
+},
+{
+"line": 56,
+"w": "una",
+"n": "una",
+"start": 276.404,
+"end": 276.614
+},
+{
+"line": 56,
+"w": "espada",
+"n": "espada",
+"start": 276.614,
+"end": 277.064
+},
+{
+"line": 56,
+"w": "corta.",
+"n": "corta",
+"start": 277.064,
+"end": 277.564
+},
+{
+"line": 57,
+"w": "Sí,",
+"n": "si",
+"start": 278.022,
+"end": 278.332
+},
+{
+"line": 57,
+"w": "un",
+"n": "un",
+"start": 278.332,
+"end": 278.692
+},
+{
+"line": 57,
+"w": "pescado.",
+"n": "pescado",
+"start": 278.692,
+"end": 279.332
+},
+{
+"line": 57,
+"w": "Nadie",
+"n": "nadie",
+"start": 279.332,
+"end": 279.832
+},
+{
+"line": 57,
+"w": "dijo",
+"n": "dijo",
+"start": 279.832,
+"end": 279.972
+},
+{
+"line": 57,
+"w": "que",
+"n": "que",
+"start": 279.972,
+"end": 280.172
+},
+{
+"line": 57,
+"w": "fuera",
+"n": "fuera",
+"start": 280.172,
+"end": 280.502
+},
+{
+"line": 57,
+"w": "elegante.",
+"n": "elegante",
+"start": 280.502,
+"end": 281.272
+},
+{
+"line": 58,
+"w": "Y",
+"n": "y",
+"start": 281.831,
+"end": 281.881
+},
+{
+"line": 58,
+"w": "su",
+"n": "su",
+"start": 281.851,
+"end": 281.971
+},
+{
+"line": 58,
+"w": "rival",
+"n": "rival",
+"start": 281.971,
+"end": 282.321
+},
+{
+"line": 58,
+"w": "va",
+"n": "va",
+"start": 282.321,
+"end": 282.461
+},
+{
+"line": 58,
+"w": "a",
+"n": "a",
+"start": 282.461,
+"end": 282.531
+},
+{
+"line": 58,
+"w": "ser",
+"n": "ser",
+"start": 282.531,
+"end": 282.761
+},
+{
+"line": 58,
+"w": "el",
+"n": "el",
+"start": 282.761,
+"end": 282.881
+},
+{
+"line": 58,
+"w": "más",
+"n": "mas",
+"start": 282.881,
+"end": 283.091
+},
+{
+"line": 58,
+"w": "raro",
+"n": "raro",
+"start": 283.091,
+"end": 283.371
+},
+{
+"line": 58,
+"w": "de",
+"n": "de",
+"start": 283.371,
+"end": 283.511
+},
+{
+"line": 58,
+"w": "todos:",
+"n": "todos",
+"start": 283.511,
+"end": 284.151
+},
+{
+"line": 58,
+"w": "el",
+"n": "el",
+"start": 284.151,
+"end": 284.201
+},
+{
+"line": 58,
+"w": "reciario.",
+"n": "reciario",
+"start": 284.161,
+"end": 284.821
+},
+{
+"line": 59,
+"w": "Sin",
+"n": "sin",
+"start": 285.377,
+"end": 285.557
+},
+{
+"line": 59,
+"w": "casco",
+"n": "casco",
+"start": 285.557,
+"end": 285.997
+},
+{
+"line": 59,
+"w": "y",
+"n": "y",
+"start": 285.997,
+"end": 286.047
+},
+{
+"line": 59,
+"w": "sin",
+"n": "sin",
+"start": 286.047,
+"end": 286.297
+},
+{
+"line": 59,
+"w": "escudo.",
+"n": "escudo",
+"start": 286.297,
+"end": 287.017
+},
+{
+"line": 59,
+"w": "Solo",
+"n": "solo",
+"start": 287.017,
+"end": 287.197
+},
+{
+"line": 59,
+"w": "una",
+"n": "una",
+"start": 287.197,
+"end": 287.397
+},
+{
+"line": 59,
+"w": "red,",
+"n": "red",
+"start": 287.397,
+"end": 287.857
+},
+{
+"line": 59,
+"w": "un",
+"n": "un",
+"start": 287.857,
+"end": 287.907
+},
+{
+"line": 59,
+"w": "tridente",
+"n": "tridente",
+"start": 287.897,
+"end": 288.497
+},
+{
+"line": 59,
+"w": "y",
+"n": "y",
+"start": 288.497,
+"end": 288.567
+},
+{
+"line": 59,
+"w": "un",
+"n": "un",
+"start": 288.567,
+"end": 288.767
+},
+{
+"line": 59,
+"w": "puñal.",
+"n": "punal",
+"start": 288.767,
+"end": 289.127
+},
+{
+"line": 60,
+"w": "Suena",
+"n": "suena",
+"start": 290.171,
+"end": 290.451
+},
+{
+"line": 60,
+"w": "injusto.",
+"n": "injusto",
+"start": 290.451,
+"end": 291.041
+},
+{
+"line": 60,
+"w": "Pero",
+"n": "pero",
+"start": 291.041,
+"end": 291.441
+},
+{
+"line": 60,
+"w": "el",
+"n": "el",
+"start": 291.441,
+"end": 291.491
+},
+{
+"line": 60,
+"w": "reciario",
+"n": "reciario",
+"start": 291.451,
+"end": 291.971
+},
+{
+"line": 60,
+"w": "es",
+"n": "es",
+"start": 291.971,
+"end": 292.101
+},
+{
+"line": 60,
+"w": "mucho",
+"n": "mucho",
+"start": 292.101,
+"end": 292.441
+},
+{
+"line": 60,
+"w": "más",
+"n": "mas",
+"start": 292.441,
+"end": 292.641
+},
+{
+"line": 60,
+"w": "rápido,",
+"n": "rapido",
+"start": 292.641,
+"end": 293.121
+},
+{
+"line": 60,
+"w": "y",
+"n": "y",
+"start": 293.121,
+"end": 293.181
+},
+{
+"line": 60,
+"w": "si",
+"n": "si",
+"start": 293.181,
+"end": 293.451
+},
+{
+"line": 60,
+"w": "te",
+"n": "te",
+"start": 293.451,
+"end": 293.501
+},
+{
+"line": 60,
+"w": "atrapa",
+"n": "atrapa",
+"start": 293.471,
+"end": 293.901
+},
+{
+"line": 60,
+"w": "la",
+"n": "la",
+"start": 293.901,
+"end": 294.091
+},
+{
+"line": 60,
+"w": "red,",
+"n": "red",
+"start": 294.091,
+"end": 294.261
+},
+{
+"line": 60,
+"w": "se",
+"n": "se",
+"start": 294.261,
+"end": 294.401
+},
+{
+"line": 60,
+"w": "acabó.",
+"n": "acabo",
+"start": 294.401,
+"end": 295.061
+},
+{
+"line": 61,
+"w": "Años",
+"n": "anos",
+"start": 296.529,
+"end": 296.819
+},
+{
+"line": 61,
+"w": "después,",
+"n": "despues",
+"start": 296.819,
+"end": 297.629
+},
+{
+"line": 61,
+"w": "los",
+"n": "los",
+"start": 297.629,
+"end": 297.789
+},
+{
+"line": 61,
+"w": "mejores",
+"n": "mejores",
+"start": 297.789,
+"end": 298.219
+},
+{
+"line": 61,
+"w": "gladiadores",
+"n": "gladiadores",
+"start": 298.219,
+"end": 298.899
+},
+{
+"line": 61,
+"w": "presumían",
+"n": "presumian",
+"start": 298.899,
+"end": 299.339
+},
+{
+"line": 61,
+"w": "en",
+"n": "en",
+"start": 299.339,
+"end": 299.459
+},
+{
+"line": 61,
+"w": "sus",
+"n": "sus",
+"start": 299.459,
+"end": 299.669
+},
+{
+"line": 61,
+"w": "lápidas",
+"n": "lapidas",
+"start": 299.669,
+"end": 300.079
+},
+{
+"line": 61,
+"w": "de",
+"n": "de",
+"start": 300.079,
+"end": 300.199
+},
+{
+"line": 61,
+"w": "ser",
+"n": "ser",
+"start": 300.199,
+"end": 300.399
+},
+{
+"line": 61,
+"w": "del",
+"n": "del",
+"start": 300.399,
+"end": 300.559
+},
+{
+"line": 61,
+"w": "primer",
+"n": "primer",
+"start": 300.559,
+"end": 301.009
+},
+{
+"line": 61,
+"w": "palo,",
+"n": "palo",
+"start": 301.009,
+"end": 301.279
+},
+{
+"line": 61,
+"w": "la",
+"n": "la",
+"start": 301.559,
+"end": 301.669
+},
+{
+"line": 61,
+"w": "categoría",
+"n": "categoria",
+"start": 301.669,
+"end": 302.039
+},
+{
+"line": 61,
+"w": "más",
+"n": "mas",
+"start": 302.039,
+"end": 302.279
+},
+{
+"line": 61,
+"w": "alta.",
+"n": "alta",
+"start": 302.279,
+"end": 302.719
+},
+{
+"line": 61,
+"w": "Félix,",
+"n": "felix",
+"start": 302.999,
+"end": 303.169
+},
+{
+"line": 61,
+"w": "de",
+"n": "de",
+"start": 303.169,
+"end": 303.299
+},
+{
+"line": 61,
+"w": "momento,",
+"n": "momento",
+"start": 303.299,
+"end": 303.889
+},
+{
+"line": 61,
+"w": "es",
+"n": "es",
+"start": 303.889,
+"end": 304.009
+},
+{
+"line": 61,
+"w": "del",
+"n": "del",
+"start": 304.009,
+"end": 304.209
+},
+{
+"line": 61,
+"w": "último",
+"n": "ultimo",
+"start": 304.209,
+"end": 304.599
+},
+{
+"line": 61,
+"w": "palo.",
+"n": "palo",
+"start": 304.599,
+"end": 305.099
+},
+{
+"line": 62,
+"w": "Entrenar",
+"n": "entrenar",
+"start": 305.626,
+"end": 306.136
+},
+{
+"line": 62,
+"w": "duele.",
+"n": "duele",
+"start": 306.136,
+"end": 306.706
+},
+{
+"line": 62,
+"w": "Hay",
+"n": "hay",
+"start": 306.706,
+"end": 306.946
+},
+{
+"line": 62,
+"w": "cortes,",
+"n": "cortes",
+"start": 306.946,
+"end": 307.346
+},
+{
+"line": 62,
+"w": "moratones",
+"n": "moratones",
+"start": 307.346,
+"end": 307.886
+},
+{
+"line": 62,
+"w": "y",
+"n": "y",
+"start": 307.886,
+"end": 307.946
+},
+{
+"line": 62,
+"w": "golpes",
+"n": "golpes",
+"start": 307.946,
+"end": 308.306
+},
+{
+"line": 62,
+"w": "en",
+"n": "en",
+"start": 308.306,
+"end": 308.476
+},
+{
+"line": 62,
+"w": "la",
+"n": "la",
+"start": 308.476,
+"end": 308.546
+},
+{
+"line": 62,
+"w": "frente.",
+"n": "frente",
+"start": 308.546,
+"end": 309.146
+},
+{
+"line": 63,
+"w": "Pero",
+"n": "pero",
+"start": 309.751,
+"end": 309.881
+},
+{
+"line": 63,
+"w": "un",
+"n": "un",
+"start": 309.881,
+"end": 309.991
+},
+{
+"line": 63,
+"w": "gladiador",
+"n": "gladiador",
+"start": 309.991,
+"end": 310.491
+},
+{
+"line": 63,
+"w": "vale",
+"n": "vale",
+"start": 310.491,
+"end": 310.721
+},
+{
+"line": 63,
+"w": "mucho",
+"n": "mucho",
+"start": 310.721,
+"end": 311.021
+},
+{
+"line": 63,
+"w": "dinero,",
+"n": "dinero",
+"start": 311.021,
+"end": 311.491
+},
+{
+"line": 63,
+"w": "así",
+"n": "asi",
+"start": 311.491,
+"end": 311.851
+},
+{
+"line": 63,
+"w": "que",
+"n": "que",
+"start": 311.851,
+"end": 311.931
+},
+{
+"line": 63,
+"w": "el",
+"n": "el",
+"start": 311.931,
+"end": 312.071
+},
+{
+"line": 63,
+"w": "lanista",
+"n": "lanista",
+"start": 312.071,
+"end": 312.581
+},
+{
+"line": 63,
+"w": "lo",
+"n": "lo",
+"start": 312.581,
+"end": 312.761
+},
+{
+"line": 63,
+"w": "cuida.",
+"n": "cuida",
+"start": 312.761,
+"end": 313.491
+},
+{
+"line": 63,
+"w": "Hay",
+"n": "hay",
+"start": 313.491,
+"end": 313.551
+},
+{
+"line": 63,
+"w": "masajistas,",
+"n": "masajistas",
+"start": 313.551,
+"end": 314.501
+},
+{
+"line": 63,
+"w": "y",
+"n": "y",
+"start": 314.501,
+"end": 314.591
+},
+{
+"line": 63,
+"w": "hay",
+"n": "hay",
+"start": 314.591,
+"end": 314.751
+},
+{
+"line": 63,
+"w": "médicos.",
+"n": "medicos",
+"start": 314.751,
+"end": 315.191
+},
+{
+"line": 64,
+"w": "En",
+"n": "en",
+"start": 315.744,
+"end": 315.814
+},
+{
+"line": 64,
+"w": "Éfeso",
+"n": "efeso",
+"start": 315.814,
+"end": 316.094
+},
+{
+"line": 64,
+"w": "hay",
+"n": "hay",
+"start": 316.094,
+"end": 316.274
+},
+{
+"line": 64,
+"w": "tumbas",
+"n": "tumbas",
+"start": 316.274,
+"end": 316.624
+},
+{
+"line": 64,
+"w": "de",
+"n": "de",
+"start": 316.624,
+"end": 316.744
+},
+{
+"line": 64,
+"w": "gladiadores",
+"n": "gladiadores",
+"start": 316.744,
+"end": 317.384
+},
+{
+"line": 64,
+"w": "de",
+"n": "de",
+"start": 317.384,
+"end": 317.504
+},
+{
+"line": 64,
+"w": "un",
+"n": "un",
+"start": 317.504,
+"end": 317.624
+},
+{
+"line": 64,
+"w": "siglo",
+"n": "siglo",
+"start": 317.624,
+"end": 317.914
+},
+{
+"line": 64,
+"w": "después.",
+"n": "despues",
+"start": 317.914,
+"end": 318.574
+},
+{
+"line": 65,
+"w": "Casi",
+"n": "casi",
+"start": 319.305,
+"end": 319.515
+},
+{
+"line": 65,
+"w": "todos",
+"n": "todos",
+"start": 319.515,
+"end": 319.845
+},
+{
+"line": 65,
+"w": "tenían",
+"n": "tenian",
+"start": 319.845,
+"end": 320.255
+},
+{
+"line": 65,
+"w": "entre",
+"n": "entre",
+"start": 320.255,
+"end": 320.595
+},
+{
+"line": 65,
+"w": "veinte",
+"n": "veinte",
+"start": 320.595,
+"end": 321.005
+},
+{
+"line": 65,
+"w": "y",
+"n": "y",
+"start": 321.005,
+"end": 321.135
+},
+{
+"line": 65,
+"w": "treinta",
+"n": "treinta",
+"start": 321.135,
+"end": 321.475
+},
+{
+"line": 65,
+"w": "años.",
+"n": "anos",
+"start": 321.475,
+"end": 321.985
+},
+{
+"line": 65,
+"w": "Y",
+"n": "y",
+"start": 321.985,
+"end": 322.045
+},
+{
+"line": 65,
+"w": "muchos",
+"n": "muchos",
+"start": 322.045,
+"end": 322.345
+},
+{
+"line": 65,
+"w": "llevaban",
+"n": "llevaban",
+"start": 322.345,
+"end": 322.815
+},
+{
+"line": 65,
+"w": "heridas",
+"n": "heridas",
+"start": 322.815,
+"end": 323.285
+},
+{
+"line": 65,
+"w": "bien",
+"n": "bien",
+"start": 323.285,
+"end": 323.485
+},
+{
+"line": 65,
+"w": "curadas.",
+"n": "curadas",
+"start": 323.485,
+"end": 323.945
+},
+{
+"line": 66,
+"w": "Eso",
+"n": "eso",
+"start": 324.571,
+"end": 324.651
+},
+{
+"line": 66,
+"w": "significa",
+"n": "significa",
+"start": 324.651,
+"end": 325.291
+},
+{
+"line": 66,
+"w": "que",
+"n": "que",
+"start": 325.291,
+"end": 325.461
+},
+{
+"line": 66,
+"w": "tenían",
+"n": "tenian",
+"start": 325.461,
+"end": 325.871
+},
+{
+"line": 66,
+"w": "buenos",
+"n": "buenos",
+"start": 325.871,
+"end": 326.281
+},
+{
+"line": 66,
+"w": "médicos.",
+"n": "medicos",
+"start": 326.281,
+"end": 326.791
+},
+{
+"line": 67,
+"w": "Pero",
+"n": "pero",
+"start": 327.154,
+"end": 327.304
+},
+{
+"line": 67,
+"w": "en",
+"n": "en",
+"start": 327.304,
+"end": 327.414
+},
+{
+"line": 67,
+"w": "una",
+"n": "una",
+"start": 327.414,
+"end": 327.584
+},
+{
+"line": 67,
+"w": "de",
+"n": "de",
+"start": 327.584,
+"end": 327.694
+},
+{
+"line": 67,
+"w": "esas",
+"n": "esas",
+"start": 327.694,
+"end": 327.914
+},
+{
+"line": 67,
+"w": "tumbas",
+"n": "tumbas",
+"start": 327.914,
+"end": 328.244
+},
+{
+"line": 67,
+"w": "hay",
+"n": "hay",
+"start": 328.244,
+"end": 328.414
+},
+{
+"line": 67,
+"w": "un",
+"n": "un",
+"start": 328.414,
+"end": 328.524
+},
+{
+"line": 67,
+"w": "cráneo",
+"n": "craneo",
+"start": 328.524,
+"end": 328.924
+},
+{
+"line": 67,
+"w": "con",
+"n": "con",
+"start": 328.924,
+"end": 329.084
+},
+{
+"line": 67,
+"w": "tres",
+"n": "tres",
+"start": 329.084,
+"end": 329.304
+},
+{
+"line": 67,
+"w": "agujeros",
+"n": "agujeros",
+"start": 329.304,
+"end": 329.744
+},
+{
+"line": 67,
+"w": "en",
+"n": "en",
+"start": 329.744,
+"end": 329.854
+},
+{
+"line": 67,
+"w": "línea.",
+"n": "linea",
+"start": 329.854,
+"end": 330.304
+},
+{
+"line": 67,
+"w": "Los",
+"n": "los",
+"start": 330.604,
+"end": 330.664
+},
+{
+"line": 67,
+"w": "dejó",
+"n": "dejo",
+"start": 330.664,
+"end": 330.724
+},
+{
+"line": 67,
+"w": "un",
+"n": "un",
+"start": 330.724,
+"end": 330.844
+},
+{
+"line": 67,
+"w": "tridente.",
+"n": "tridente",
+"start": 330.844,
+"end": 331.544
+},
+{
+"line": 68,
+"w": "Décadas",
+"n": "decadas",
+"start": 332.587,
+"end": 333.157
+},
+{
+"line": 68,
+"w": "después,",
+"n": "despues",
+"start": 333.157,
+"end": 333.937
+},
+{
+"line": 68,
+"w": "el",
+"n": "el",
+"start": 333.937,
+"end": 333.987
+},
+{
+"line": 68,
+"w": "médico",
+"n": "medico",
+"start": 333.987,
+"end": 334.387
+},
+{
+"line": 68,
+"w": "de",
+"n": "de",
+"start": 334.387,
+"end": 334.437
+},
+{
+"line": 68,
+"w": "los",
+"n": "los",
+"start": 334.427,
+"end": 334.587
+},
+{
+"line": 68,
+"w": "gladiadores",
+"n": "gladiadores",
+"start": 334.587,
+"end": 335.187
+},
+{
+"line": 68,
+"w": "de",
+"n": "de",
+"start": 335.187,
+"end": 335.287
+},
+{
+"line": 68,
+"w": "Pérgamo,",
+"n": "pergamo",
+"start": 335.287,
+"end": 335.827
+},
+{
+"line": 68,
+"w": "Galeno,",
+"n": "galeno",
+"start": 335.827,
+"end": 336.457
+},
+{
+"line": 68,
+"w": "acabó",
+"n": "acabo",
+"start": 336.817,
+"end": 336.907
+},
+{
+"line": 68,
+"w": "siendo",
+"n": "siendo",
+"start": 336.907,
+"end": 337.127
+},
+{
+"line": 68,
+"w": "médico",
+"n": "medico",
+"start": 337.127,
+"end": 337.467
+},
+{
+"line": 68,
+"w": "del",
+"n": "del",
+"start": 337.467,
+"end": 337.657
+},
+{
+"line": 68,
+"w": "emperador",
+"n": "emperador",
+"start": 337.657,
+"end": 338.197
+},
+{
+"line": 68,
+"w": "Marco",
+"n": "marco",
+"start": 338.197,
+"end": 338.497
+},
+{
+"line": 68,
+"w": "Aurelio.",
+"n": "aurelio",
+"start": 338.497,
+"end": 339.137
+},
+{
+"line": 69,
+"w": "Y",
+"n": "y",
+"start": 339.65,
+"end": 339.7
+},
+{
+"line": 69,
+"w": "ahora,",
+"n": "ahora",
+"start": 339.7,
+"end": 340.08
+},
+{
+"line": 69,
+"w": "un",
+"n": "un",
+"start": 340.08,
+"end": 340.26
+},
+{
+"line": 69,
+"w": "remedio",
+"n": "remedio",
+"start": 340.26,
+"end": 340.63
+},
+{
+"line": 69,
+"w": "muy",
+"n": "muy",
+"start": 340.63,
+"end": 340.81
+},
+{
+"line": 69,
+"w": "romano:",
+"n": "romano",
+"start": 340.81,
+"end": 341.35
+},
+{
+"line": 69,
+"w": "algunos",
+"n": "algunos",
+"start": 341.35,
+"end": 341.8
+},
+{
+"line": 69,
+"w": "bebían",
+"n": "bebian",
+"start": 341.8,
+"end": 342.18
+},
+{
+"line": 69,
+"w": "sangre",
+"n": "sangre",
+"start": 342.18,
+"end": 342.57
+},
+{
+"line": 69,
+"w": "de",
+"n": "de",
+"start": 342.57,
+"end": 342.7
+},
+{
+"line": 69,
+"w": "gladiador",
+"n": "gladiador",
+"start": 342.7,
+"end": 343.31
+},
+{
+"line": 69,
+"w": "para",
+"n": "para",
+"start": 343.31,
+"end": 343.55
+},
+{
+"line": 69,
+"w": "curar",
+"n": "curar",
+"start": 343.55,
+"end": 343.85
+},
+{
+"line": 69,
+"w": "la",
+"n": "la",
+"start": 343.85,
+"end": 343.97
+},
+{
+"line": 69,
+"w": "epilepsia.",
+"n": "epilepsia",
+"start": 343.97,
+"end": 344.64
+},
+{
+"line": 69,
+"w": "Lo",
+"n": "lo",
+"start": 344.64,
+"end": 345.06
+},
+{
+"line": 69,
+"w": "contó",
+"n": "conto",
+"start": 345.06,
+"end": 345.29
+},
+{
+"line": 69,
+"w": "Plinio.",
+"n": "plinio",
+"start": 345.29,
+"end": 345.87
+},
+{
+"line": 70,
+"w": "Félix,",
+"n": "felix",
+"start": 347.156,
+"end": 347.506
+},
+{
+"line": 70,
+"w": "de",
+"n": "de",
+"start": 347.506,
+"end": 347.746
+},
+{
+"line": 70,
+"w": "momento,",
+"n": "momento",
+"start": 347.746,
+"end": 348.106
+},
+{
+"line": 70,
+"w": "prefiere",
+"n": "prefiere",
+"start": 348.106,
+"end": 348.566
+},
+{
+"line": 70,
+"w": "guardarse",
+"n": "guardarse",
+"start": 348.566,
+"end": 349.026
+},
+{
+"line": 70,
+"w": "la",
+"n": "la",
+"start": 349.026,
+"end": 349.136
+},
+{
+"line": 70,
+"w": "suya.",
+"n": "suya",
+"start": 349.136,
+"end": 349.566
+},
+{
+"line": 71,
+"w": "Al",
+"n": "al",
+"start": 350.045,
+"end": 350.105
+},
+{
+"line": 71,
+"w": "final",
+"n": "final",
+"start": 350.105,
+"end": 350.375
+},
+{
+"line": 71,
+"w": "de",
+"n": "de",
+"start": 350.375,
+"end": 350.475
+},
+{
+"line": 71,
+"w": "la",
+"n": "la",
+"start": 350.475,
+"end": 350.575
+},
+{
+"line": 71,
+"w": "semana,",
+"n": "semana",
+"start": 350.575,
+"end": 351.045
+},
+{
+"line": 71,
+"w": "el",
+"n": "el",
+"start": 351.045,
+"end": 351.345
+},
+{
+"line": 71,
+"w": "lanista",
+"n": "lanista",
+"start": 351.345,
+"end": 351.585
+},
+{
+"line": 71,
+"w": "entra",
+"n": "entra",
+"start": 351.585,
+"end": 351.895
+},
+{
+"line": 71,
+"w": "en",
+"n": "en",
+"start": 351.895,
+"end": 352.015
+},
+{
+"line": 71,
+"w": "el",
+"n": "el",
+"start": 352.015,
+"end": 352.135
+},
+{
+"line": 71,
+"w": "patio",
+"n": "patio",
+"start": 352.135,
+"end": 352.445
+},
+{
+"line": 71,
+"w": "con",
+"n": "con",
+"start": 352.445,
+"end": 352.625
+},
+{
+"line": 71,
+"w": "una",
+"n": "una",
+"start": 352.625,
+"end": 352.805
+},
+{
+"line": 71,
+"w": "novedad.",
+"n": "novedad",
+"start": 352.805,
+"end": 353.485
+},
+{
+"line": 71,
+"w": "Hay",
+"n": "hay",
+"start": 353.765,
+"end": 353.815
+},
+{
+"line": 71,
+"w": "juegos.",
+"n": "juegos",
+"start": 353.805,
+"end": 354.115
+},
+{
+"line": 71,
+"w": "Y",
+"n": "y",
+"start": 354.115,
+"end": 354.165
+},
+{
+"line": 71,
+"w": "no",
+"n": "no",
+"start": 354.165,
+"end": 354.275
+},
+{
+"line": 71,
+"w": "unos",
+"n": "unos",
+"start": 354.275,
+"end": 354.505
+},
+{
+"line": 71,
+"w": "juegos",
+"n": "juegos",
+"start": 354.505,
+"end": 355.085
+},
+{
+"line": 71,
+"w": "cualquiera.",
+"n": "cualquiera",
+"start": 355.085,
+"end": 355.645
+},
+{
+"line": 72,
+"w": "Semana",
+"n": "semana",
+"start": 357.696,
+"end": 358.226
+},
+{
+"line": 72,
+"w": "tres.",
+"n": "tres",
+"start": 358.226,
+"end": 358.936
+},
+{
+"line": 72,
+"w": "Luna",
+"n": "luna",
+"start": 358.936,
+"end": 358.996
+},
+{
+"line": 72,
+"w": "llena.",
+"n": "llena",
+"start": 358.996,
+"end": 359.346
+},
+{
+"line": 72,
+"w": "Y",
+"n": "y",
+"start": 359.346,
+"end": 359.416
+},
+{
+"line": 72,
+"w": "es",
+"n": "es",
+"start": 359.416,
+"end": 359.556
+},
+{
+"line": 72,
+"w": "la",
+"n": "la",
+"start": 359.556,
+"end": 359.926
+},
+{
+"line": 72,
+"w": "semana",
+"n": "semana",
+"start": 359.926,
+"end": 360.126
+},
+{
+"line": 72,
+"w": "más",
+"n": "mas",
+"start": 360.126,
+"end": 360.336
+},
+{
+"line": 72,
+"w": "importante",
+"n": "importante",
+"start": 360.336,
+"end": 361.126
+},
+{
+"line": 72,
+"w": "de",
+"n": "de",
+"start": 361.126,
+"end": 361.196
+},
+{
+"line": 72,
+"w": "su",
+"n": "su",
+"start": 361.196,
+"end": 361.336
+},
+{
+"line": 72,
+"w": "vida.",
+"n": "vida",
+"start": 361.336,
+"end": 361.916
+},
+{
+"line": 73,
+"w": "Por",
+"n": "por",
+"start": 362.498,
+"end": 362.578
+},
+{
+"line": 73,
+"w": "las",
+"n": "las",
+"start": 362.578,
+"end": 362.828
+},
+{
+"line": 73,
+"w": "paredes",
+"n": "paredes",
+"start": 362.828,
+"end": 363.188
+},
+{
+"line": 73,
+"w": "de",
+"n": "de",
+"start": 363.188,
+"end": 363.318
+},
+{
+"line": 73,
+"w": "Roma",
+"n": "roma",
+"start": 363.318,
+"end": 363.568
+},
+{
+"line": 73,
+"w": "hay",
+"n": "hay",
+"start": 363.568,
+"end": 363.758
+},
+{
+"line": 73,
+"w": "carteles",
+"n": "carteles",
+"start": 363.758,
+"end": 364.258
+},
+{
+"line": 73,
+"w": "nuevos,",
+"n": "nuevos",
+"start": 364.258,
+"end": 364.808
+},
+{
+"line": 73,
+"w": "pintados",
+"n": "pintados",
+"start": 364.808,
+"end": 365.328
+},
+{
+"line": 73,
+"w": "a",
+"n": "a",
+"start": 365.328,
+"end": 365.388
+},
+{
+"line": 73,
+"w": "mano.",
+"n": "mano",
+"start": 365.388,
+"end": 365.868
+},
+{
+"line": 74,
+"w": "Así",
+"n": "asi",
+"start": 367.093,
+"end": 367.183
+},
+{
+"line": 74,
+"w": "se",
+"n": "se",
+"start": 367.183,
+"end": 367.303
+},
+{
+"line": 74,
+"w": "avisaba",
+"n": "avisaba",
+"start": 367.303,
+"end": 367.723
+},
+{
+"line": 74,
+"w": "de",
+"n": "de",
+"start": 367.723,
+"end": 367.843
+},
+{
+"line": 74,
+"w": "los",
+"n": "los",
+"start": 367.843,
+"end": 368.013
+},
+{
+"line": 74,
+"w": "juegos:",
+"n": "juegos",
+"start": 368.013,
+"end": 368.693
+},
+{
+"line": 74,
+"w": "quién",
+"n": "quien",
+"start": 368.693,
+"end": 368.793
+},
+{
+"line": 74,
+"w": "pagaba,",
+"n": "pagaba",
+"start": 368.793,
+"end": 369.263
+},
+{
+"line": 74,
+"w": "cuántas",
+"n": "cuantas",
+"start": 369.263,
+"end": 369.673
+},
+{
+"line": 74,
+"w": "parejas",
+"n": "parejas",
+"start": 369.673,
+"end": 370.083
+},
+{
+"line": 74,
+"w": "luchaban",
+"n": "luchaban",
+"start": 370.083,
+"end": 370.543
+},
+{
+"line": 74,
+"w": "y",
+"n": "y",
+"start": 370.543,
+"end": 370.603
+},
+{
+"line": 74,
+"w": "los",
+"n": "los",
+"start": 370.603,
+"end": 370.803
+},
+{
+"line": 74,
+"w": "extras.",
+"n": "extras",
+"start": 370.803,
+"end": 371.363
+},
+{
+"line": 75,
+"w": "En",
+"n": "en",
+"start": 372.065,
+"end": 372.115
+},
+{
+"line": 75,
+"w": "Pompeya",
+"n": "pompeya",
+"start": 372.115,
+"end": 372.645
+},
+{
+"line": 75,
+"w": "se",
+"n": "se",
+"start": 372.645,
+"end": 372.795
+},
+{
+"line": 75,
+"w": "conservan",
+"n": "conservan",
+"start": 372.795,
+"end": 373.465
+},
+{
+"line": 75,
+"w": "muchos.",
+"n": "muchos",
+"start": 373.465,
+"end": 374.145
+},
+{
+"line": 75,
+"w": "Uno",
+"n": "uno",
+"start": 374.145,
+"end": 374.325
+},
+{
+"line": 75,
+"w": "promete",
+"n": "promete",
+"start": 374.325,
+"end": 374.775
+},
+{
+"line": 75,
+"w": "fieras",
+"n": "fieras",
+"start": 374.775,
+"end": 375.165
+},
+{
+"line": 75,
+"w": "y",
+"n": "y",
+"start": 375.165,
+"end": 375.215
+},
+{
+"line": 75,
+"w": "toldos",
+"n": "toldos",
+"start": 375.175,
+"end": 375.535
+},
+{
+"line": 75,
+"w": "para",
+"n": "para",
+"start": 375.535,
+"end": 375.775
+},
+{
+"line": 75,
+"w": "la",
+"n": "la",
+"start": 375.775,
+"end": 375.895
+},
+{
+"line": 75,
+"w": "sombra.",
+"n": "sombra",
+"start": 375.895,
+"end": 376.325
+},
+{
+"line": 76,
+"w": "Pero",
+"n": "pero",
+"start": 376.876,
+"end": 377.076
+},
+{
+"line": 76,
+"w": "este",
+"n": "este",
+"start": 377.076,
+"end": 377.376
+},
+{
+"line": 76,
+"w": "cartel",
+"n": "cartel",
+"start": 377.376,
+"end": 377.836
+},
+{
+"line": 76,
+"w": "es",
+"n": "es",
+"start": 377.836,
+"end": 378.056
+},
+{
+"line": 76,
+"w": "distinto.",
+"n": "distinto",
+"start": 378.056,
+"end": 378.766
+},
+{
+"line": 76,
+"w": "El",
+"n": "el",
+"start": 378.766,
+"end": 378.886
+},
+{
+"line": 76,
+"w": "emperador",
+"n": "emperador",
+"start": 378.886,
+"end": 379.466
+},
+{
+"line": 76,
+"w": "Tito",
+"n": "tito",
+"start": 379.466,
+"end": 379.736
+},
+{
+"line": 76,
+"w": "estrena",
+"n": "estrena",
+"start": 379.736,
+"end": 380.176
+},
+{
+"line": 76,
+"w": "el",
+"n": "el",
+"start": 380.176,
+"end": 380.296
+},
+{
+"line": 76,
+"w": "anfiteatro",
+"n": "anfiteatro",
+"start": 380.296,
+"end": 380.876
+},
+{
+"line": 76,
+"w": "Flavio.",
+"n": "flavio",
+"start": 380.876,
+"end": 381.416
+},
+{
+"line": 76,
+"w": "Nosotros",
+"n": "nosotros",
+"start": 381.416,
+"end": 382.146
+},
+{
+"line": 76,
+"w": "lo",
+"n": "lo",
+"start": 382.146,
+"end": 382.326
+},
+{
+"line": 76,
+"w": "llamamos",
+"n": "llamamos",
+"start": 382.326,
+"end": 383.086
+},
+{
+"line": 76,
+"w": "Coliseo.",
+"n": "coliseo",
+"start": 383.086,
+"end": 384.056
+},
+{
+"line": 77,
+"w": "Caben",
+"n": "caben",
+"start": 384.476,
+"end": 384.636
+},
+{
+"line": 77,
+"w": "unas",
+"n": "unas",
+"start": 384.636,
+"end": 384.866
+},
+{
+"line": 77,
+"w": "cincuenta",
+"n": "cincuenta",
+"start": 384.866,
+"end": 385.356
+},
+{
+"line": 77,
+"w": "mil",
+"n": "mil",
+"start": 385.356,
+"end": 385.846
+},
+{
+"line": 77,
+"w": "personas,",
+"n": "personas",
+"start": 385.846,
+"end": 386.506
+},
+{
+"line": 77,
+"w": "la",
+"n": "la",
+"start": 386.506,
+"end": 386.656
+},
+{
+"line": 77,
+"w": "entrada",
+"n": "entrada",
+"start": 386.656,
+"end": 387.186
+},
+{
+"line": 77,
+"w": "es",
+"n": "es",
+"start": 387.186,
+"end": 387.336
+},
+{
+"line": 77,
+"w": "gratis",
+"n": "gratis",
+"start": 387.336,
+"end": 387.866
+},
+{
+"line": 77,
+"w": "y",
+"n": "y",
+"start": 387.866,
+"end": 387.916
+},
+{
+"line": 77,
+"w": "la",
+"n": "la",
+"start": 387.916,
+"end": 388.006
+},
+{
+"line": 77,
+"w": "fiesta",
+"n": "fiesta",
+"start": 388.006,
+"end": 388.436
+},
+{
+"line": 77,
+"w": "dura",
+"n": "dura",
+"start": 388.436,
+"end": 388.726
+},
+{
+"line": 77,
+"w": "más",
+"n": "mas",
+"start": 388.726,
+"end": 388.946
+},
+{
+"line": 77,
+"w": "de",
+"n": "de",
+"start": 388.946,
+"end": 389.096
+},
+{
+"line": 77,
+"w": "tres",
+"n": "tres",
+"start": 389.096,
+"end": 389.426
+},
+{
+"line": 77,
+"w": "meses.",
+"n": "meses",
+"start": 389.426,
+"end": 389.796
+},
+{
+"line": 78,
+"w": "La",
+"n": "la",
+"start": 390.446,
+"end": 390.496
+},
+{
+"line": 78,
+"w": "víspera,",
+"n": "vispera",
+"start": 390.486,
+"end": 390.936
+},
+{
+"line": 78,
+"w": "hay",
+"n": "hay",
+"start": 390.936,
+"end": 391.216
+},
+{
+"line": 78,
+"w": "un",
+"n": "un",
+"start": 391.216,
+"end": 391.266
+},
+{
+"line": 78,
+"w": "banquete",
+"n": "banquete",
+"start": 391.266,
+"end": 391.796
+},
+{
+"line": 78,
+"w": "público",
+"n": "publico",
+"start": 391.796,
+"end": 392.316
+},
+{
+"line": 78,
+"w": "para",
+"n": "para",
+"start": 392.316,
+"end": 392.546
+},
+{
+"line": 78,
+"w": "los",
+"n": "los",
+"start": 392.546,
+"end": 392.716
+},
+{
+"line": 78,
+"w": "gladiadores.",
+"n": "gladiadores",
+"start": 392.716,
+"end": 393.566
+},
+{
+"line": 78,
+"w": "Se",
+"n": "se",
+"start": 393.566,
+"end": 393.666
+},
+{
+"line": 78,
+"w": "llama",
+"n": "llama",
+"start": 393.666,
+"end": 393.976
+},
+{
+"line": 78,
+"w": "cena",
+"n": "cena",
+"start": 393.976,
+"end": 394.226
+},
+{
+"line": 78,
+"w": "libera.",
+"n": "libera",
+"start": 394.226,
+"end": 394.816
+},
+{
+"line": 79,
+"w": "La",
+"n": "la",
+"start": 395.275,
+"end": 395.355
+},
+{
+"line": 79,
+"w": "gente",
+"n": "gente",
+"start": 395.355,
+"end": 395.665
+},
+{
+"line": 79,
+"w": "entra",
+"n": "entra",
+"start": 395.665,
+"end": 395.915
+},
+{
+"line": 79,
+"w": "a",
+"n": "a",
+"start": 395.915,
+"end": 395.965
+},
+{
+"line": 79,
+"w": "mirar",
+"n": "mirar",
+"start": 395.965,
+"end": 396.235
+},
+{
+"line": 79,
+"w": "a",
+"n": "a",
+"start": 396.235,
+"end": 396.285
+},
+{
+"line": 79,
+"w": "los",
+"n": "los",
+"start": 396.285,
+"end": 396.445
+},
+{
+"line": 79,
+"w": "gladiadores",
+"n": "gladiadores",
+"start": 396.445,
+"end": 397.105
+},
+{
+"line": 79,
+"w": "mientras",
+"n": "mientras",
+"start": 397.105,
+"end": 397.695
+},
+{
+"line": 79,
+"w": "comen,",
+"n": "comen",
+"start": 397.695,
+"end": 397.925
+},
+{
+"line": 79,
+"w": "como",
+"n": "como",
+"start": 397.925,
+"end": 398.285
+},
+{
+"line": 79,
+"w": "quien",
+"n": "quien",
+"start": 398.285,
+"end": 398.565
+},
+{
+"line": 79,
+"w": "mira",
+"n": "mira",
+"start": 398.565,
+"end": 398.785
+},
+{
+"line": 79,
+"w": "animales",
+"n": "animales",
+"start": 398.785,
+"end": 399.245
+},
+{
+"line": 79,
+"w": "en",
+"n": "en",
+"start": 399.245,
+"end": 399.405
+},
+{
+"line": 79,
+"w": "una",
+"n": "una",
+"start": 399.405,
+"end": 399.545
+},
+{
+"line": 79,
+"w": "jaula.",
+"n": "jaula",
+"start": 399.545,
+"end": 399.945
+},
+{
+"line": 80,
+"w": "Hay",
+"n": "hay",
+"start": 400.495,
+"end": 400.565
+},
+{
+"line": 80,
+"w": "comida",
+"n": "comida",
+"start": 400.565,
+"end": 400.885
+},
+{
+"line": 80,
+"w": "buena,",
+"n": "buena",
+"start": 400.885,
+"end": 401.235
+},
+{
+"line": 80,
+"w": "la",
+"n": "la",
+"start": 401.235,
+"end": 401.415
+},
+{
+"line": 80,
+"w": "primera",
+"n": "primera",
+"start": 401.415,
+"end": 401.715
+},
+{
+"line": 80,
+"w": "en",
+"n": "en",
+"start": 401.715,
+"end": 401.815
+},
+{
+"line": 80,
+"w": "semanas.",
+"n": "semanas",
+"start": 401.815,
+"end": 402.335
+},
+{
+"line": 80,
+"w": "Pero",
+"n": "pero",
+"start": 402.335,
+"end": 402.645
+},
+{
+"line": 80,
+"w": "muchos",
+"n": "muchos",
+"start": 402.645,
+"end": 403.135
+},
+{
+"line": 80,
+"w": "casi",
+"n": "casi",
+"start": 403.135,
+"end": 403.395
+},
+{
+"line": 80,
+"w": "no",
+"n": "no",
+"start": 403.395,
+"end": 403.545
+},
+{
+"line": 80,
+"w": "la",
+"n": "la",
+"start": 403.545,
+"end": 403.695
+},
+{
+"line": 80,
+"w": "tocan.",
+"n": "tocan",
+"start": 403.695,
+"end": 404.085
+},
+{
+"line": 81,
+"w": "Aprovechan",
+"n": "aprovechan",
+"start": 404.408,
+"end": 404.938
+},
+{
+"line": 81,
+"w": "para",
+"n": "para",
+"start": 404.938,
+"end": 405.158
+},
+{
+"line": 81,
+"w": "despedirse,",
+"n": "despedirse",
+"start": 405.158,
+"end": 405.848
+},
+{
+"line": 81,
+"w": "dejar",
+"n": "dejar",
+"start": 405.848,
+"end": 406.178
+},
+{
+"line": 81,
+"w": "a",
+"n": "a",
+"start": 406.178,
+"end": 406.258
+},
+{
+"line": 81,
+"w": "su",
+"n": "su",
+"start": 406.258,
+"end": 406.368
+},
+{
+"line": 81,
+"w": "mujer",
+"n": "mujer",
+"start": 406.368,
+"end": 406.748
+},
+{
+"line": 81,
+"w": "al",
+"n": "al",
+"start": 406.748,
+"end": 406.828
+},
+{
+"line": 81,
+"w": "cuidado",
+"n": "cuidado",
+"start": 406.828,
+"end": 407.288
+},
+{
+"line": 81,
+"w": "de",
+"n": "de",
+"start": 407.288,
+"end": 407.418
+},
+{
+"line": 81,
+"w": "un",
+"n": "un",
+"start": 407.418,
+"end": 407.548
+},
+{
+"line": 81,
+"w": "amigo",
+"n": "amigo",
+"start": 407.548,
+"end": 407.908
+},
+{
+"line": 81,
+"w": "y",
+"n": "y",
+"start": 407.908,
+"end": 407.988
+},
+{
+"line": 81,
+"w": "liberar",
+"n": "liberar",
+"start": 407.988,
+"end": 408.548
+},
+{
+"line": 81,
+"w": "a",
+"n": "a",
+"start": 408.548,
+"end": 408.628
+},
+{
+"line": 81,
+"w": "sus",
+"n": "sus",
+"start": 408.628,
+"end": 408.868
+},
+{
+"line": 81,
+"w": "esclavos.",
+"n": "esclavos",
+"start": 408.868,
+"end": 409.528
+},
+{
+"line": 82,
+"w": "Félix",
+"n": "felix",
+"start": 409.886,
+"end": 410.106
+},
+{
+"line": 82,
+"w": "no",
+"n": "no",
+"start": 410.106,
+"end": 410.266
+},
+{
+"line": 82,
+"w": "tiene",
+"n": "tiene",
+"start": 410.266,
+"end": 410.506
+},
+{
+"line": 82,
+"w": "mujer",
+"n": "mujer",
+"start": 410.506,
+"end": 410.796
+},
+{
+"line": 82,
+"w": "ni",
+"n": "ni",
+"start": 410.796,
+"end": 410.906
+},
+{
+"line": 82,
+"w": "esclavos.",
+"n": "esclavos",
+"start": 410.906,
+"end": 411.556
+},
+{
+"line": 82,
+"w": "Así",
+"n": "asi",
+"start": 411.556,
+"end": 411.726
+},
+{
+"line": 82,
+"w": "que",
+"n": "que",
+"start": 411.726,
+"end": 411.936
+},
+{
+"line": 82,
+"w": "se",
+"n": "se",
+"start": 411.936,
+"end": 412.006
+},
+{
+"line": 82,
+"w": "come",
+"n": "come",
+"start": 412.006,
+"end": 412.236
+},
+{
+"line": 82,
+"w": "también",
+"n": "tambien",
+"start": 412.236,
+"end": 412.646
+},
+{
+"line": 82,
+"w": "lo",
+"n": "lo",
+"start": 412.646,
+"end": 412.756
+},
+{
+"line": 82,
+"w": "de",
+"n": "de",
+"start": 412.756,
+"end": 412.866
+},
+{
+"line": 82,
+"w": "su",
+"n": "su",
+"start": 412.866,
+"end": 412.976
+},
+{
+"line": 82,
+"w": "compañero.",
+"n": "companero",
+"start": 412.976,
+"end": 413.576
+},
+{
+"line": 83,
+"w": "Al",
+"n": "al",
+"start": 414.046,
+"end": 414.146
+},
+{
+"line": 83,
+"w": "día",
+"n": "dia",
+"start": 414.146,
+"end": 414.326
+},
+{
+"line": 83,
+"w": "siguiente,",
+"n": "siguiente",
+"start": 414.326,
+"end": 415.086
+},
+{
+"line": 83,
+"w": "desfile.",
+"n": "desfile",
+"start": 415.086,
+"end": 415.606
+},
+{
+"line": 83,
+"w": "Lo",
+"n": "lo",
+"start": 415.606,
+"end": 415.796
+},
+{
+"line": 83,
+"w": "llaman",
+"n": "llaman",
+"start": 415.796,
+"end": 416.056
+},
+{
+"line": 83,
+"w": "la",
+"n": "la",
+"start": 416.056,
+"end": 416.166
+},
+{
+"line": 83,
+"w": "pompa.",
+"n": "pompa",
+"start": 416.166,
+"end": 416.646
+},
+{
+"line": 84,
+"w": "Entran",
+"n": "entran",
+"start": 417.131,
+"end": 417.421
+},
+{
+"line": 84,
+"w": "los",
+"n": "los",
+"start": 417.421,
+"end": 417.581
+},
+{
+"line": 84,
+"w": "gladiadores",
+"n": "gladiadores",
+"start": 417.581,
+"end": 418.121
+},
+{
+"line": 84,
+"w": "y",
+"n": "y",
+"start": 418.121,
+"end": 418.171
+},
+{
+"line": 84,
+"w": "el",
+"n": "el",
+"start": 418.171,
+"end": 418.281
+},
+{
+"line": 84,
+"w": "hombre",
+"n": "hombre",
+"start": 418.281,
+"end": 418.611
+},
+{
+"line": 84,
+"w": "que",
+"n": "que",
+"start": 418.611,
+"end": 418.781
+},
+{
+"line": 84,
+"w": "paga",
+"n": "paga",
+"start": 418.781,
+"end": 418.981
+},
+{
+"line": 84,
+"w": "los",
+"n": "los",
+"start": 418.981,
+"end": 419.141
+},
+{
+"line": 84,
+"w": "juegos,",
+"n": "juegos",
+"start": 419.141,
+"end": 419.851
+},
+{
+"line": 84,
+"w": "con",
+"n": "con",
+"start": 419.851,
+"end": 419.901
+},
+{
+"line": 84,
+"w": "trompetas,",
+"n": "trompetas",
+"start": 419.881,
+"end": 420.561
+},
+{
+"line": 84,
+"w": "cuernos",
+"n": "cuernos",
+"start": 420.561,
+"end": 420.951
+},
+{
+"line": 84,
+"w": "gigantes",
+"n": "gigantes",
+"start": 420.951,
+"end": 421.421
+},
+{
+"line": 84,
+"w": "y",
+"n": "y",
+"start": 421.421,
+"end": 421.481
+},
+{
+"line": 84,
+"w": "un",
+"n": "un",
+"start": 421.481,
+"end": 421.601
+},
+{
+"line": 84,
+"w": "órgano",
+"n": "organo",
+"start": 421.601,
+"end": 421.951
+},
+{
+"line": 84,
+"w": "que",
+"n": "que",
+"start": 421.951,
+"end": 422.121
+},
+{
+"line": 84,
+"w": "suena",
+"n": "suena",
+"start": 422.121,
+"end": 422.421
+},
+{
+"line": 84,
+"w": "con",
+"n": "con",
+"start": 422.421,
+"end": 422.601
+},
+{
+"line": 84,
+"w": "agua.",
+"n": "agua",
+"start": 422.601,
+"end": 422.861
+},
+{
+"line": 85,
+"w": "Sí,",
+"n": "si",
+"start": 423.467,
+"end": 423.607
+},
+{
+"line": 85,
+"w": "la",
+"n": "la",
+"start": 423.607,
+"end": 424.007
+},
+{
+"line": 85,
+"w": "arena",
+"n": "arena",
+"start": 424.007,
+"end": 424.107
+},
+{
+"line": 85,
+"w": "tenía",
+"n": "tenia",
+"start": 424.107,
+"end": 424.527
+},
+{
+"line": 85,
+"w": "banda",
+"n": "banda",
+"start": 424.527,
+"end": 424.817
+},
+{
+"line": 85,
+"w": "sonora.",
+"n": "sonora",
+"start": 424.817,
+"end": 425.527
+},
+{
+"line": 86,
+"w": "Por",
+"n": "por",
+"start": 426.023,
+"end": 426.203
+},
+{
+"line": 86,
+"w": "la",
+"n": "la",
+"start": 426.203,
+"end": 426.343
+},
+{
+"line": 86,
+"w": "mañana",
+"n": "manana",
+"start": 426.343,
+"end": 426.763
+},
+{
+"line": 86,
+"w": "salen",
+"n": "salen",
+"start": 426.763,
+"end": 427.103
+},
+{
+"line": 86,
+"w": "las",
+"n": "las",
+"start": 427.103,
+"end": 427.283
+},
+{
+"line": 86,
+"w": "fieras:",
+"n": "fieras",
+"start": 427.283,
+"end": 427.853
+},
+{
+"line": 86,
+"w": "leones,",
+"n": "leones",
+"start": 427.853,
+"end": 428.493
+},
+{
+"line": 86,
+"w": "osos",
+"n": "osos",
+"start": 428.493,
+"end": 428.623
+},
+{
+"line": 86,
+"w": "y",
+"n": "y",
+"start": 428.623,
+"end": 428.703
+},
+{
+"line": 86,
+"w": "animales",
+"n": "animales",
+"start": 428.703,
+"end": 429.243
+},
+{
+"line": 86,
+"w": "de",
+"n": "de",
+"start": 429.243,
+"end": 429.383
+},
+{
+"line": 86,
+"w": "todo",
+"n": "todo",
+"start": 429.383,
+"end": 429.733
+},
+{
+"line": 86,
+"w": "tipo.",
+"n": "tipo",
+"start": 429.733,
+"end": 430.263
+},
+{
+"line": 87,
+"w": "En",
+"n": "en",
+"start": 430.882,
+"end": 430.932
+},
+{
+"line": 87,
+"w": "estos",
+"n": "estos",
+"start": 430.902,
+"end": 431.232
+},
+{
+"line": 87,
+"w": "juegos",
+"n": "juegos",
+"start": 431.232,
+"end": 431.632
+},
+{
+"line": 87,
+"w": "de",
+"n": "de",
+"start": 431.632,
+"end": 431.762
+},
+{
+"line": 87,
+"w": "estreno",
+"n": "estreno",
+"start": 431.762,
+"end": 432.222
+},
+{
+"line": 87,
+"w": "mueren",
+"n": "mueren",
+"start": 432.222,
+"end": 432.612
+},
+{
+"line": 87,
+"w": "miles",
+"n": "miles",
+"start": 432.612,
+"end": 432.932
+},
+{
+"line": 87,
+"w": "de",
+"n": "de",
+"start": 432.932,
+"end": 433.072
+},
+{
+"line": 87,
+"w": "animales.",
+"n": "animales",
+"start": 433.072,
+"end": 433.672
+},
+{
+"line": 88,
+"w": "Y",
+"n": "y",
+"start": 434.023,
+"end": 434.073
+},
+{
+"line": 88,
+"w": "Tito",
+"n": "tito",
+"start": 434.073,
+"end": 434.283
+},
+{
+"line": 88,
+"w": "tira",
+"n": "tira",
+"start": 434.283,
+"end": 434.613
+},
+{
+"line": 88,
+"w": "al",
+"n": "al",
+"start": 434.613,
+"end": 434.663
+},
+{
+"line": 88,
+"w": "público",
+"n": "publico",
+"start": 434.663,
+"end": 435.123
+},
+{
+"line": 88,
+"w": "bolitas",
+"n": "bolitas",
+"start": 435.123,
+"end": 435.603
+},
+{
+"line": 88,
+"w": "de",
+"n": "de",
+"start": 435.603,
+"end": 435.713
+},
+{
+"line": 88,
+"w": "madera",
+"n": "madera",
+"start": 435.713,
+"end": 436.173
+},
+{
+"line": 88,
+"w": "con",
+"n": "con",
+"start": 436.173,
+"end": 436.393
+},
+{
+"line": 88,
+"w": "premios",
+"n": "premios",
+"start": 436.393,
+"end": 436.933
+},
+{
+"line": 88,
+"w": "escritos:",
+"n": "escritos",
+"start": 436.933,
+"end": 437.573
+},
+{
+"line": 88,
+"w": "comida,",
+"n": "comida",
+"start": 437.573,
+"end": 438.163
+},
+{
+"line": 88,
+"w": "ropa,",
+"n": "ropa",
+"start": 438.163,
+"end": 438.413
+},
+{
+"line": 88,
+"w": "platos",
+"n": "platos",
+"start": 438.413,
+"end": 438.833
+},
+{
+"line": 88,
+"w": "de",
+"n": "de",
+"start": 438.833,
+"end": 439.013
+},
+{
+"line": 88,
+"w": "plata,",
+"n": "plata",
+"start": 439.013,
+"end": 439.653
+},
+{
+"line": 88,
+"w": "caballos",
+"n": "caballos",
+"start": 439.653,
+"end": 440.373
+},
+{
+"line": 88,
+"w": "y",
+"n": "y",
+"start": 440.373,
+"end": 440.463
+},
+{
+"line": 88,
+"w": "hasta",
+"n": "hasta",
+"start": 440.463,
+"end": 440.923
+},
+{
+"line": 88,
+"w": "esclavos.",
+"n": "esclavos",
+"start": 440.923,
+"end": 441.693
+},
+{
+"line": 89,
+"w": "Quien",
+"n": "quien",
+"start": 442.083,
+"end": 442.373
+},
+{
+"line": 89,
+"w": "la",
+"n": "la",
+"start": 442.373,
+"end": 442.523
+},
+{
+"line": 89,
+"w": "atrapa,",
+"n": "atrapa",
+"start": 442.523,
+"end": 442.973
+},
+{
+"line": 89,
+"w": "se",
+"n": "se",
+"start": 442.973,
+"end": 443.213
+},
+{
+"line": 89,
+"w": "lleva",
+"n": "lleva",
+"start": 443.213,
+"end": 443.513
+},
+{
+"line": 89,
+"w": "el",
+"n": "el",
+"start": 443.513,
+"end": 443.663
+},
+{
+"line": 89,
+"w": "regalo.",
+"n": "regalo",
+"start": 443.663,
+"end": 444.413
+},
+{
+"line": 89,
+"w": "Como",
+"n": "como",
+"start": 444.413,
+"end": 444.593
+},
+{
+"line": 89,
+"w": "una",
+"n": "una",
+"start": 444.593,
+"end": 444.793
+},
+{
+"line": 89,
+"w": "rifa,",
+"n": "rifa",
+"start": 444.793,
+"end": 445.183
+},
+{
+"line": 89,
+"w": "pero",
+"n": "pero",
+"start": 445.183,
+"end": 445.513
+},
+{
+"line": 89,
+"w": "a",
+"n": "a",
+"start": 445.513,
+"end": 445.563
+},
+{
+"line": 89,
+"w": "lo",
+"n": "lo",
+"start": 445.513,
+"end": 445.643
+},
+{
+"line": 89,
+"w": "bestia.",
+"n": "bestia",
+"start": 445.643,
+"end": 446.313
+},
+{
+"line": 90,
+"w": "A",
+"n": "a",
+"start": 446.806,
+"end": 446.856
+},
+{
+"line": 90,
+"w": "mediodía",
+"n": "mediodia",
+"start": 446.836,
+"end": 447.396
+},
+{
+"line": 90,
+"w": "matan",
+"n": "matan",
+"start": 447.396,
+"end": 447.746
+},
+{
+"line": 90,
+"w": "a",
+"n": "a",
+"start": 447.746,
+"end": 447.806
+},
+{
+"line": 90,
+"w": "los",
+"n": "los",
+"start": 447.806,
+"end": 448.026
+},
+{
+"line": 90,
+"w": "condenados",
+"n": "condenados",
+"start": 448.026,
+"end": 448.726
+},
+{
+"line": 90,
+"w": "a",
+"n": "a",
+"start": 448.726,
+"end": 448.796
+},
+{
+"line": 90,
+"w": "muerte.",
+"n": "muerte",
+"start": 448.796,
+"end": 449.636
+},
+{
+"line": 90,
+"w": "Séneca",
+"n": "seneca",
+"start": 449.636,
+"end": 449.916
+},
+{
+"line": 90,
+"w": "lo",
+"n": "lo",
+"start": 449.916,
+"end": 450.056
+},
+{
+"line": 90,
+"w": "llamó",
+"n": "llamo",
+"start": 450.056,
+"end": 450.406
+},
+{
+"line": 90,
+"w": "puro",
+"n": "puro",
+"start": 450.406,
+"end": 450.686
+},
+{
+"line": 90,
+"w": "asesinato.",
+"n": "asesinato",
+"start": 450.686,
+"end": 451.546
+},
+{
+"line": 91,
+"w": "Y",
+"n": "y",
+"start": 452.093,
+"end": 452.143
+},
+{
+"line": 91,
+"w": "por",
+"n": "por",
+"start": 452.123,
+"end": 452.303
+},
+{
+"line": 91,
+"w": "la",
+"n": "la",
+"start": 452.303,
+"end": 452.443
+},
+{
+"line": 91,
+"w": "tarde,",
+"n": "tarde",
+"start": 452.443,
+"end": 452.943
+},
+{
+"line": 91,
+"w": "por",
+"n": "por",
+"start": 452.943,
+"end": 453.163
+},
+{
+"line": 91,
+"w": "fin,",
+"n": "fin",
+"start": 453.163,
+"end": 453.503
+},
+{
+"line": 91,
+"w": "los",
+"n": "los",
+"start": 453.503,
+"end": 453.713
+},
+{
+"line": 91,
+"w": "gladiadores.",
+"n": "gladiadores",
+"start": 453.713,
+"end": 454.813
+},
+{
+"line": 91,
+"w": "Félix",
+"n": "felix",
+"start": 454.813,
+"end": 455.283
+},
+{
+"line": 91,
+"w": "espera",
+"n": "espera",
+"start": 455.283,
+"end": 455.573
+},
+{
+"line": 91,
+"w": "junto",
+"n": "junto",
+"start": 455.573,
+"end": 455.943
+},
+{
+"line": 91,
+"w": "a",
+"n": "a",
+"start": 455.943,
+"end": 456.073
+},
+{
+"line": 91,
+"w": "la",
+"n": "la",
+"start": 456.073,
+"end": 456.153
+},
+{
+"line": 91,
+"w": "puerta,",
+"n": "puerta",
+"start": 456.153,
+"end": 456.783
+},
+{
+"line": 91,
+"w": "escuchando",
+"n": "escuchando",
+"start": 456.783,
+"end": 457.653
+},
+{
+"line": 91,
+"w": "rugir",
+"n": "rugir",
+"start": 457.653,
+"end": 458.083
+},
+{
+"line": 91,
+"w": "al",
+"n": "al",
+"start": 458.083,
+"end": 458.343
+},
+{
+"line": 91,
+"w": "público.",
+"n": "publico",
+"start": 458.343,
+"end": 458.683
+},
+{
+"line": 92,
+"w": "Suena",
+"n": "suena",
+"start": 460.1,
+"end": 460.33
+},
+{
+"line": 92,
+"w": "el",
+"n": "el",
+"start": 460.33,
+"end": 460.46
+},
+{
+"line": 92,
+"w": "cuerno.",
+"n": "cuerno",
+"start": 460.46,
+"end": 461.15
+},
+{
+"line": 92,
+"w": "Félix",
+"n": "felix",
+"start": 461.15,
+"end": 461.5
+},
+{
+"line": 92,
+"w": "sale",
+"n": "sale",
+"start": 461.5,
+"end": 461.76
+},
+{
+"line": 92,
+"w": "a",
+"n": "a",
+"start": 461.76,
+"end": 461.81
+},
+{
+"line": 92,
+"w": "la",
+"n": "la",
+"start": 461.8,
+"end": 461.95
+},
+{
+"line": 92,
+"w": "arena.",
+"n": "arena",
+"start": 461.95,
+"end": 462.57
+},
+{
+"line": 92,
+"w": "Delante,",
+"n": "delante",
+"start": 462.57,
+"end": 463.24
+},
+{
+"line": 92,
+"w": "el",
+"n": "el",
+"start": 463.24,
+"end": 463.35
+},
+{
+"line": 92,
+"w": "reciario.",
+"n": "reciario",
+"start": 463.35,
+"end": 464.14
+},
+{
+"line": 93,
+"w": "Y",
+"n": "y",
+"start": 464.723,
+"end": 464.773
+},
+{
+"line": 93,
+"w": "en",
+"n": "en",
+"start": 464.743,
+"end": 464.883
+},
+{
+"line": 93,
+"w": "medio,",
+"n": "medio",
+"start": 464.883,
+"end": 465.303
+},
+{
+"line": 93,
+"w": "el",
+"n": "el",
+"start": 465.303,
+"end": 465.483
+},
+{
+"line": 93,
+"w": "árbitro,",
+"n": "arbitro",
+"start": 465.483,
+"end": 466.153
+},
+{
+"line": 93,
+"w": "con",
+"n": "con",
+"start": 466.153,
+"end": 466.273
+},
+{
+"line": 93,
+"w": "una",
+"n": "una",
+"start": 466.273,
+"end": 466.463
+},
+{
+"line": 93,
+"w": "vara",
+"n": "vara",
+"start": 466.463,
+"end": 466.713
+},
+{
+"line": 93,
+"w": "larga",
+"n": "larga",
+"start": 466.713,
+"end": 467.043
+},
+{
+"line": 93,
+"w": "para",
+"n": "para",
+"start": 467.043,
+"end": 467.343
+},
+{
+"line": 93,
+"w": "separarlos.",
+"n": "separarlos",
+"start": 467.343,
+"end": 468.123
+},
+{
+"line": 94,
+"w": "El",
+"n": "el",
+"start": 468.456,
+"end": 468.566
+},
+{
+"line": 94,
+"w": "reciario",
+"n": "reciario",
+"start": 468.566,
+"end": 469.136
+},
+{
+"line": 94,
+"w": "tira",
+"n": "tira",
+"start": 469.136,
+"end": 469.416
+},
+{
+"line": 94,
+"w": "la",
+"n": "la",
+"start": 469.486,
+"end": 469.626
+},
+{
+"line": 94,
+"w": "red.",
+"n": "red",
+"start": 469.626,
+"end": 470.156
+},
+{
+"line": 94,
+"w": "Falla.",
+"n": "falla",
+"start": 470.156,
+"end": 470.556
+},
+{
+"line": 94,
+"w": "Félix",
+"n": "felix",
+"start": 470.556,
+"end": 470.866
+},
+{
+"line": 94,
+"w": "ataca.",
+"n": "ataca",
+"start": 470.866,
+"end": 471.426
+},
+{
+"line": 95,
+"w": "El",
+"n": "el",
+"start": 472.433,
+"end": 472.603
+},
+{
+"line": 95,
+"w": "tridente",
+"n": "tridente",
+"start": 472.603,
+"end": 473.003
+},
+{
+"line": 95,
+"w": "le",
+"n": "le",
+"start": 473.003,
+"end": 473.123
+},
+{
+"line": 95,
+"w": "araña",
+"n": "arana",
+"start": 473.123,
+"end": 473.423
+},
+{
+"line": 95,
+"w": "el",
+"n": "el",
+"start": 473.423,
+"end": 473.543
+},
+{
+"line": 95,
+"w": "hombro.",
+"n": "hombro",
+"start": 473.543,
+"end": 474.123
+},
+{
+"line": 95,
+"w": "Félix",
+"n": "felix",
+"start": 474.383,
+"end": 474.583
+},
+{
+"line": 95,
+"w": "resbala",
+"n": "resbala",
+"start": 474.583,
+"end": 475.083
+},
+{
+"line": 95,
+"w": "y",
+"n": "y",
+"start": 475.083,
+"end": 475.163
+},
+{
+"line": 95,
+"w": "cae.",
+"n": "cae",
+"start": 475.163,
+"end": 475.703
+},
+{
+"line": 96,
+"w": "La",
+"n": "la",
+"start": 476.177,
+"end": 476.277
+},
+{
+"line": 96,
+"w": "red",
+"n": "red",
+"start": 476.277,
+"end": 476.507
+},
+{
+"line": 96,
+"w": "le",
+"n": "le",
+"start": 476.507,
+"end": 476.657
+},
+{
+"line": 96,
+"w": "atrapa",
+"n": "atrapa",
+"start": 476.657,
+"end": 477.107
+},
+{
+"line": 96,
+"w": "el",
+"n": "el",
+"start": 477.107,
+"end": 477.257
+},
+{
+"line": 96,
+"w": "escudo.",
+"n": "escudo",
+"start": 477.257,
+"end": 478.187
+},
+{
+"line": 96,
+"w": "Todo",
+"n": "todo",
+"start": 478.187,
+"end": 478.257
+},
+{
+"line": 96,
+"w": "el",
+"n": "el",
+"start": 478.257,
+"end": 478.307
+},
+{
+"line": 96,
+"w": "anfiteatro",
+"n": "anfiteatro",
+"start": 478.307,
+"end": 478.927
+},
+{
+"line": 96,
+"w": "grita",
+"n": "grita",
+"start": 478.927,
+"end": 479.247
+},
+{
+"line": 96,
+"w": "al",
+"n": "al",
+"start": 479.247,
+"end": 479.367
+},
+{
+"line": 96,
+"w": "mismo",
+"n": "mismo",
+"start": 479.367,
+"end": 479.687
+},
+{
+"line": 96,
+"w": "tiempo.",
+"n": "tiempo",
+"start": 479.687,
+"end": 480.327
+},
+{
+"line": 97,
+"w": "El",
+"n": "el",
+"start": 480.942,
+"end": 480.992
+},
+{
+"line": 97,
+"w": "reciario",
+"n": "reciario",
+"start": 480.972,
+"end": 481.552
+},
+{
+"line": 97,
+"w": "levanta",
+"n": "levanta",
+"start": 481.552,
+"end": 482.062
+},
+{
+"line": 97,
+"w": "el",
+"n": "el",
+"start": 482.062,
+"end": 482.202
+},
+{
+"line": 97,
+"w": "tridente.",
+"n": "tridente",
+"start": 482.202,
+"end": 482.972
+},
+{
+"line": 97,
+"w": "¿Es",
+"n": "es",
+"start": 482.972,
+"end": 483.152
+},
+{
+"line": 97,
+"w": "el",
+"n": "el",
+"start": 483.152,
+"end": 483.352
+},
+{
+"line": 97,
+"w": "final?",
+"n": "final",
+"start": 483.352,
+"end": 483.832
+},
+{
+"line": 98,
+"w": "Félix",
+"n": "felix",
+"start": 484.586,
+"end": 484.826
+},
+{
+"line": 98,
+"w": "levanta",
+"n": "levanta",
+"start": 484.826,
+"end": 485.206
+},
+{
+"line": 98,
+"w": "un",
+"n": "un",
+"start": 485.206,
+"end": 485.296
+},
+{
+"line": 98,
+"w": "dedo.",
+"n": "dedo",
+"start": 485.296,
+"end": 485.796
+},
+{
+"line": 98,
+"w": "Es",
+"n": "es",
+"start": 485.796,
+"end": 485.846
+},
+{
+"line": 98,
+"w": "la",
+"n": "la",
+"start": 485.806,
+"end": 485.916
+},
+{
+"line": 98,
+"w": "señal",
+"n": "senal",
+"start": 485.916,
+"end": 486.196
+},
+{
+"line": 98,
+"w": "para",
+"n": "para",
+"start": 486.196,
+"end": 486.416
+},
+{
+"line": 98,
+"w": "pedir",
+"n": "pedir",
+"start": 486.416,
+"end": 486.686
+},
+{
+"line": 98,
+"w": "piedad.",
+"n": "piedad",
+"start": 486.686,
+"end": 487.306
+},
+{
+"line": 98,
+"w": "Se",
+"n": "se",
+"start": 487.306,
+"end": 487.396
+},
+{
+"line": 98,
+"w": "llama",
+"n": "llama",
+"start": 487.396,
+"end": 487.626
+},
+{
+"line": 98,
+"w": "missio.",
+"n": "missio",
+"start": 487.626,
+"end": 488.096
+},
+{
+"line": 99,
+"w": "Y",
+"n": "y",
+"start": 488.62,
+"end": 488.67
+},
+{
+"line": 99,
+"w": "aquí",
+"n": "aqui",
+"start": 488.63,
+"end": 488.93
+},
+{
+"line": 99,
+"w": "viene",
+"n": "viene",
+"start": 488.93,
+"end": 489.32
+},
+{
+"line": 99,
+"w": "el",
+"n": "el",
+"start": 489.32,
+"end": 489.48
+},
+{
+"line": 99,
+"w": "gran",
+"n": "gran",
+"start": 489.48,
+"end": 489.79
+},
+{
+"line": 99,
+"w": "mito:",
+"n": "mito",
+"start": 489.79,
+"end": 490.3
+},
+{
+"line": 99,
+"w": "el",
+"n": "el",
+"start": 490.3,
+"end": 490.38
+},
+{
+"line": 99,
+"w": "pulgar",
+"n": "pulgar",
+"start": 490.38,
+"end": 490.91
+},
+{
+"line": 99,
+"w": "para",
+"n": "para",
+"start": 490.91,
+"end": 491.17
+},
+{
+"line": 99,
+"w": "abajo.",
+"n": "abajo",
+"start": 491.17,
+"end": 491.58
+},
+{
+"line": 100,
+"w": "En",
+"n": "en",
+"start": 491.965,
+"end": 492.025
+},
+{
+"line": 100,
+"w": "realidad,",
+"n": "realidad",
+"start": 492.025,
+"end": 492.865
+},
+{
+"line": 100,
+"w": "nadie",
+"n": "nadie",
+"start": 492.865,
+"end": 493.125
+},
+{
+"line": 100,
+"w": "sabe",
+"n": "sabe",
+"start": 493.125,
+"end": 493.415
+},
+{
+"line": 100,
+"w": "seguro",
+"n": "seguro",
+"start": 493.415,
+"end": 493.895
+},
+{
+"line": 100,
+"w": "qué",
+"n": "que",
+"start": 493.895,
+"end": 494.095
+},
+{
+"line": 100,
+"w": "gesto",
+"n": "gesto",
+"start": 494.095,
+"end": 494.425
+},
+{
+"line": 100,
+"w": "pedía",
+"n": "pedia",
+"start": 494.425,
+"end": 494.755
+},
+{
+"line": 100,
+"w": "la",
+"n": "la",
+"start": 494.755,
+"end": 494.885
+},
+{
+"line": 100,
+"w": "muerte,",
+"n": "muerte",
+"start": 494.885,
+"end": 495.595
+},
+{
+"line": 100,
+"w": "ni",
+"n": "ni",
+"start": 495.595,
+"end": 495.695
+},
+{
+"line": 100,
+"w": "si",
+"n": "si",
+"start": 495.695,
+"end": 495.745
+},
+{
+"line": 100,
+"w": "era",
+"n": "era",
+"start": 495.735,
+"end": 495.945
+},
+{
+"line": 100,
+"w": "el",
+"n": "el",
+"start": 495.945,
+"end": 496.085
+},
+{
+"line": 100,
+"w": "pulgar",
+"n": "pulgar",
+"start": 496.085,
+"end": 496.505
+},
+{
+"line": 100,
+"w": "arriba",
+"n": "arriba",
+"start": 496.505,
+"end": 496.975
+},
+{
+"line": 100,
+"w": "o",
+"n": "o",
+"start": 496.975,
+"end": 497.025
+},
+{
+"line": 100,
+"w": "abajo.",
+"n": "abajo",
+"start": 497.025,
+"end": 497.475
+},
+{
+"line": 101,
+"w": "Hoy",
+"n": "hoy",
+"start": 498.063,
+"end": 498.223
+},
+{
+"line": 101,
+"w": "el",
+"n": "el",
+"start": 498.223,
+"end": 498.403
+},
+{
+"line": 101,
+"w": "público",
+"n": "publico",
+"start": 498.403,
+"end": 498.933
+},
+{
+"line": 101,
+"w": "grita",
+"n": "grita",
+"start": 498.933,
+"end": 499.323
+},
+{
+"line": 101,
+"w": "otra",
+"n": "otra",
+"start": 499.323,
+"end": 499.693
+},
+{
+"line": 101,
+"w": "cosa:",
+"n": "cosa",
+"start": 499.693,
+"end": 500.203
+},
+{
+"line": 101,
+"w": "que",
+"n": "que",
+"start": 500.203,
+"end": 500.253
+},
+{
+"line": 101,
+"w": "viva.",
+"n": "viva",
+"start": 500.243,
+"end": 500.583
+},
+{
+"line": 101,
+"w": "Y",
+"n": "y",
+"start": 500.583,
+"end": 500.803
+},
+{
+"line": 101,
+"w": "el",
+"n": "el",
+"start": 500.803,
+"end": 500.853
+},
+{
+"line": 101,
+"w": "emperador",
+"n": "emperador",
+"start": 500.803,
+"end": 501.473
+},
+{
+"line": 101,
+"w": "asiente.",
+"n": "asiente",
+"start": 501.473,
+"end": 502.263
+},
+{
+"line": 102,
+"w": "Félix",
+"n": "felix",
+"start": 504.182,
+"end": 504.432
+},
+{
+"line": 102,
+"w": "ha",
+"n": "ha",
+"start": 504.432,
+"end": 504.572
+},
+{
+"line": 102,
+"w": "perdido.",
+"n": "perdido",
+"start": 504.572,
+"end": 505.032
+},
+{
+"line": 102,
+"w": "Pero",
+"n": "pero",
+"start": 505.032,
+"end": 505.252
+},
+{
+"line": 102,
+"w": "sigue",
+"n": "sigue",
+"start": 505.252,
+"end": 505.532
+},
+{
+"line": 102,
+"w": "vivo.",
+"n": "vivo",
+"start": 505.532,
+"end": 505.952
+},
+{
+"line": 102,
+"w": "Al",
+"n": "al",
+"start": 505.952,
+"end": 506.102
+},
+{
+"line": 102,
+"w": "final,",
+"n": "final",
+"start": 506.102,
+"end": 506.462
+},
+{
+"line": 102,
+"w": "su",
+"n": "su",
+"start": 506.462,
+"end": 506.702
+},
+{
+"line": 102,
+"w": "nombre",
+"n": "nombre",
+"start": 506.702,
+"end": 506.912
+},
+{
+"line": 102,
+"w": "no",
+"n": "no",
+"start": 506.912,
+"end": 507.022
+},
+{
+"line": 102,
+"w": "mentía.",
+"n": "mentia",
+"start": 507.022,
+"end": 507.582
+},
+{
+"line": 103,
+"w": "Y",
+"n": "y",
+"start": 508.079,
+"end": 508.139
+},
+{
+"line": 103,
+"w": "esa",
+"n": "esa",
+"start": 508.139,
+"end": 508.289
+},
+{
+"line": 103,
+"w": "misma",
+"n": "misma",
+"start": 508.289,
+"end": 508.589
+},
+{
+"line": 103,
+"w": "tarde,",
+"n": "tarde",
+"start": 508.589,
+"end": 509.009
+},
+{
+"line": 103,
+"w": "otro",
+"n": "otro",
+"start": 509.009,
+"end": 509.349
+},
+{
+"line": 103,
+"w": "combate",
+"n": "combate",
+"start": 509.349,
+"end": 509.669
+},
+{
+"line": 103,
+"w": "va",
+"n": "va",
+"start": 509.669,
+"end": 509.789
+},
+{
+"line": 103,
+"w": "a",
+"n": "a",
+"start": 509.789,
+"end": 509.849
+},
+{
+"line": 103,
+"w": "pasar",
+"n": "pasar",
+"start": 509.849,
+"end": 510.149
+},
+{
+"line": 103,
+"w": "a",
+"n": "a",
+"start": 510.149,
+"end": 510.209
+},
+{
+"line": 103,
+"w": "la",
+"n": "la",
+"start": 510.209,
+"end": 510.329
+},
+{
+"line": 103,
+"w": "historia.",
+"n": "historia",
+"start": 510.329,
+"end": 511.069
+},
+{
+"line": 104,
+"w": "Semana",
+"n": "semana",
+"start": 512.852,
+"end": 513.292
+},
+{
+"line": 104,
+"w": "cuatro.",
+"n": "cuatro",
+"start": 513.292,
+"end": 513.932
+},
+{
+"line": 104,
+"w": "La",
+"n": "la",
+"start": 513.932,
+"end": 513.992
+},
+{
+"line": 104,
+"w": "luna",
+"n": "luna",
+"start": 513.992,
+"end": 514.212
+},
+{
+"line": 104,
+"w": "mengua,",
+"n": "mengua",
+"start": 514.212,
+"end": 514.632
+},
+{
+"line": 104,
+"w": "y",
+"n": "y",
+"start": 514.632,
+"end": 514.702
+},
+{
+"line": 104,
+"w": "la",
+"n": "la",
+"start": 514.702,
+"end": 514.942
+},
+{
+"line": 104,
+"w": "herida",
+"n": "herida",
+"start": 514.942,
+"end": 515.262
+},
+{
+"line": 104,
+"w": "de",
+"n": "de",
+"start": 515.262,
+"end": 515.402
+},
+{
+"line": 104,
+"w": "Félix",
+"n": "felix",
+"start": 515.402,
+"end": 515.752
+},
+{
+"line": 104,
+"w": "se",
+"n": "se",
+"start": 515.752,
+"end": 515.892
+},
+{
+"line": 104,
+"w": "cura.",
+"n": "cura",
+"start": 515.892,
+"end": 516.422
+},
+{
+"line": 105,
+"w": "Ha",
+"n": "ha",
+"start": 517.642,
+"end": 517.692
+},
+{
+"line": 105,
+"w": "perdido,",
+"n": "perdido",
+"start": 517.662,
+"end": 518.212
+},
+{
+"line": 105,
+"w": "pero",
+"n": "pero",
+"start": 518.212,
+"end": 518.462
+},
+{
+"line": 105,
+"w": "el",
+"n": "el",
+"start": 518.462,
+"end": 518.582
+},
+{
+"line": 105,
+"w": "público",
+"n": "publico",
+"start": 518.582,
+"end": 519.022
+},
+{
+"line": 105,
+"w": "lo",
+"n": "lo",
+"start": 519.022,
+"end": 519.142
+},
+{
+"line": 105,
+"w": "vio",
+"n": "vio",
+"start": 519.142,
+"end": 519.322
+},
+{
+"line": 105,
+"w": "aguantar.",
+"n": "aguantar",
+"start": 519.322,
+"end": 519.882
+},
+{
+"line": 105,
+"w": "Y",
+"n": "y",
+"start": 520.242,
+"end": 520.292
+},
+{
+"line": 105,
+"w": "en",
+"n": "en",
+"start": 520.242,
+"end": 520.342
+},
+{
+"line": 105,
+"w": "Roma,",
+"n": "roma",
+"start": 520.342,
+"end": 520.532
+},
+{
+"line": 105,
+"w": "eso",
+"n": "eso",
+"start": 520.532,
+"end": 520.742
+},
+{
+"line": 105,
+"w": "da",
+"n": "da",
+"start": 520.742,
+"end": 520.912
+},
+{
+"line": 105,
+"w": "fama.",
+"n": "fama",
+"start": 520.912,
+"end": 521.562
+},
+{
+"line": 106,
+"w": "Porque",
+"n": "porque",
+"start": 522.454,
+"end": 522.714
+},
+{
+"line": 106,
+"w": "los",
+"n": "los",
+"start": 522.714,
+"end": 522.894
+},
+{
+"line": 106,
+"w": "gladiadores",
+"n": "gladiadores",
+"start": 522.894,
+"end": 523.574
+},
+{
+"line": 106,
+"w": "eran",
+"n": "eran",
+"start": 523.574,
+"end": 523.824
+},
+{
+"line": 106,
+"w": "estrellas.",
+"n": "estrellas",
+"start": 523.824,
+"end": 524.424
+},
+{
+"line": 106,
+"w": "En",
+"n": "en",
+"start": 524.664,
+"end": 524.774
+},
+{
+"line": 106,
+"w": "Pompeya",
+"n": "pompeya",
+"start": 524.774,
+"end": 525.214
+},
+{
+"line": 106,
+"w": "hay",
+"n": "hay",
+"start": 525.214,
+"end": 525.344
+},
+{
+"line": 106,
+"w": "pintadas",
+"n": "pintadas",
+"start": 525.344,
+"end": 526.004
+},
+{
+"line": 106,
+"w": "que",
+"n": "que",
+"start": 526.004,
+"end": 526.164
+},
+{
+"line": 106,
+"w": "llaman",
+"n": "llaman",
+"start": 526.164,
+"end": 526.474
+},
+{
+"line": 106,
+"w": "a",
+"n": "a",
+"start": 526.474,
+"end": 526.524
+},
+{
+"line": 106,
+"w": "un",
+"n": "un",
+"start": 526.524,
+"end": 526.614
+},
+{
+"line": 106,
+"w": "gladiador",
+"n": "gladiador",
+"start": 526.614,
+"end": 527.144
+},
+{
+"line": 106,
+"w": "el",
+"n": "el",
+"start": 527.144,
+"end": 527.234
+},
+{
+"line": 106,
+"w": "suspiro",
+"n": "suspiro",
+"start": 527.234,
+"end": 527.604
+},
+{
+"line": 106,
+"w": "de",
+"n": "de",
+"start": 527.604,
+"end": 527.744
+},
+{
+"line": 106,
+"w": "las",
+"n": "las",
+"start": 527.744,
+"end": 527.914
+},
+{
+"line": 106,
+"w": "chicas.",
+"n": "chicas",
+"start": 527.914,
+"end": 528.424
+},
+{
+"line": 107,
+"w": "Los",
+"n": "los",
+"start": 529.088,
+"end": 529.168
+},
+{
+"line": 107,
+"w": "hinchas",
+"n": "hinchas",
+"start": 529.168,
+"end": 529.568
+},
+{
+"line": 107,
+"w": "pedían",
+"n": "pedian",
+"start": 529.568,
+"end": 529.918
+},
+{
+"line": 107,
+"w": "el",
+"n": "el",
+"start": 529.918,
+"end": 530.038
+},
+{
+"line": 107,
+"w": "programa",
+"n": "programa",
+"start": 530.038,
+"end": 530.508
+},
+{
+"line": 107,
+"w": "de",
+"n": "de",
+"start": 530.508,
+"end": 530.618
+},
+{
+"line": 107,
+"w": "los",
+"n": "los",
+"start": 530.618,
+"end": 530.878
+},
+{
+"line": 107,
+"w": "combates",
+"n": "combates",
+"start": 530.878,
+"end": 531.308
+},
+{
+"line": 107,
+"w": "y",
+"n": "y",
+"start": 531.308,
+"end": 531.388
+},
+{
+"line": 107,
+"w": "apostaban",
+"n": "apostaban",
+"start": 531.388,
+"end": 531.948
+},
+{
+"line": 107,
+"w": "por",
+"n": "por",
+"start": 531.948,
+"end": 532.168
+},
+{
+"line": 107,
+"w": "su",
+"n": "su",
+"start": 532.168,
+"end": 532.268
+},
+{
+"line": 107,
+"w": "favorito.",
+"n": "favorito",
+"start": 532.268,
+"end": 532.988
+},
+{
+"line": 108,
+"w": "Y",
+"n": "y",
+"start": 533.482,
+"end": 533.542
+},
+{
+"line": 108,
+"w": "había",
+"n": "habia",
+"start": 533.542,
+"end": 533.882
+},
+{
+"line": 108,
+"w": "recuerdos",
+"n": "recuerdos",
+"start": 533.882,
+"end": 534.522
+},
+{
+"line": 108,
+"w": "para",
+"n": "para",
+"start": 534.522,
+"end": 534.862
+},
+{
+"line": 108,
+"w": "los",
+"n": "los",
+"start": 534.862,
+"end": 535.012
+},
+{
+"line": 108,
+"w": "fans:",
+"n": "fans",
+"start": 535.012,
+"end": 535.462
+},
+{
+"line": 108,
+"w": "vasos",
+"n": "vasos",
+"start": 535.462,
+"end": 535.752
+},
+{
+"line": 108,
+"w": "de",
+"n": "de",
+"start": 535.752,
+"end": 535.852
+},
+{
+"line": 108,
+"w": "vidrio",
+"n": "vidrio",
+"start": 535.852,
+"end": 536.192
+},
+{
+"line": 108,
+"w": "con",
+"n": "con",
+"start": 536.192,
+"end": 536.372
+},
+{
+"line": 108,
+"w": "nombres",
+"n": "nombres",
+"start": 536.372,
+"end": 536.792
+},
+{
+"line": 108,
+"w": "de",
+"n": "de",
+"start": 536.792,
+"end": 536.892
+},
+{
+"line": 108,
+"w": "gladiadores",
+"n": "gladiadores",
+"start": 536.892,
+"end": 537.452
+},
+{
+"line": 108,
+"w": "famosos",
+"n": "famosos",
+"start": 537.452,
+"end": 538.012
+},
+{
+"line": 108,
+"w": "y",
+"n": "y",
+"start": 538.012,
+"end": 538.232
+},
+{
+"line": 108,
+"w": "lámparas",
+"n": "lamparas",
+"start": 538.232,
+"end": 538.682
+},
+{
+"line": 108,
+"w": "de",
+"n": "de",
+"start": 538.682,
+"end": 538.782
+},
+{
+"line": 108,
+"w": "barro",
+"n": "barro",
+"start": 538.782,
+"end": 539.092
+},
+{
+"line": 108,
+"w": "con",
+"n": "con",
+"start": 539.092,
+"end": 539.282
+},
+{
+"line": 108,
+"w": "combates.",
+"n": "combates",
+"start": 539.282,
+"end": 539.772
+},
+{
+"line": 109,
+"w": "Como",
+"n": "como",
+"start": 540.414,
+"end": 540.534
+},
+{
+"line": 109,
+"w": "la",
+"n": "la",
+"start": 540.534,
+"end": 540.654
+},
+{
+"line": 109,
+"w": "camiseta",
+"n": "camiseta",
+"start": 540.654,
+"end": 541.134
+},
+{
+"line": 109,
+"w": "de",
+"n": "de",
+"start": 541.134,
+"end": 541.254
+},
+{
+"line": 109,
+"w": "tu",
+"n": "tu",
+"start": 541.254,
+"end": 541.464
+},
+{
+"line": 109,
+"w": "jugador",
+"n": "jugador",
+"start": 541.464,
+"end": 541.844
+},
+{
+"line": 109,
+"w": "favorito,",
+"n": "favorito",
+"start": 541.844,
+"end": 542.534
+},
+{
+"line": 109,
+"w": "pero",
+"n": "pero",
+"start": 542.534,
+"end": 542.594
+},
+{
+"line": 109,
+"w": "en",
+"n": "en",
+"start": 542.594,
+"end": 542.694
+},
+{
+"line": 109,
+"w": "vidrio.",
+"n": "vidrio",
+"start": 542.694,
+"end": 543.174
+},
+{
+"line": 110,
+"w": "Ahora,",
+"n": "ahora",
+"start": 543.64,
+"end": 544.08
+},
+{
+"line": 110,
+"w": "un",
+"n": "un",
+"start": 544.08,
+"end": 544.13
+},
+{
+"line": 110,
+"w": "mito:",
+"n": "mito",
+"start": 544.12,
+"end": 544.55
+},
+{
+"line": 110,
+"w": "cuentan",
+"n": "cuentan",
+"start": 544.73,
+"end": 544.94
+},
+{
+"line": 110,
+"w": "que",
+"n": "que",
+"start": 544.94,
+"end": 545.21
+},
+{
+"line": 110,
+"w": "las",
+"n": "las",
+"start": 545.21,
+"end": 545.28
+},
+{
+"line": 110,
+"w": "romanas",
+"n": "romanas",
+"start": 545.28,
+"end": 545.87
+},
+{
+"line": 110,
+"w": "compraban",
+"n": "compraban",
+"start": 545.87,
+"end": 546.24
+},
+{
+"line": 110,
+"w": "el",
+"n": "el",
+"start": 546.24,
+"end": 546.35
+},
+{
+"line": 110,
+"w": "sudor",
+"n": "sudor",
+"start": 546.35,
+"end": 546.65
+},
+{
+"line": 110,
+"w": "de",
+"n": "de",
+"start": 546.65,
+"end": 546.74
+},
+{
+"line": 110,
+"w": "los",
+"n": "los",
+"start": 546.74,
+"end": 546.92
+},
+{
+"line": 110,
+"w": "gladiadores",
+"n": "gladiadores",
+"start": 546.92,
+"end": 547.41
+},
+{
+"line": 110,
+"w": "como",
+"n": "como",
+"start": 547.41,
+"end": 547.63
+},
+{
+"line": 110,
+"w": "perfume.",
+"n": "perfume",
+"start": 547.63,
+"end": 548.17
+},
+{
+"line": 111,
+"w": "En",
+"n": "en",
+"start": 548.752,
+"end": 548.802
+},
+{
+"line": 111,
+"w": "realidad,",
+"n": "realidad",
+"start": 548.782,
+"end": 549.672
+},
+{
+"line": 111,
+"w": "ninguna",
+"n": "ninguna",
+"start": 549.672,
+"end": 549.722
+},
+{
+"line": 111,
+"w": "fuente",
+"n": "fuente",
+"start": 549.712,
+"end": 550.062
+},
+{
+"line": 111,
+"w": "antigua",
+"n": "antigua",
+"start": 550.062,
+"end": 550.432
+},
+{
+"line": 111,
+"w": "lo",
+"n": "lo",
+"start": 550.432,
+"end": 550.532
+},
+{
+"line": 111,
+"w": "cuenta.",
+"n": "cuenta",
+"start": 550.532,
+"end": 551.052
+},
+{
+"line": 111,
+"w": "Lo",
+"n": "lo",
+"start": 551.512,
+"end": 551.562
+},
+{
+"line": 111,
+"w": "que",
+"n": "que",
+"start": 551.512,
+"end": 551.572
+},
+{
+"line": 111,
+"w": "sí",
+"n": "si",
+"start": 551.572,
+"end": 551.622
+},
+{
+"line": 111,
+"w": "se",
+"n": "se",
+"start": 551.592,
+"end": 551.742
+},
+{
+"line": 111,
+"w": "vendía",
+"n": "vendia",
+"start": 551.742,
+"end": 552.472
+},
+{
+"line": 111,
+"w": "como",
+"n": "como",
+"start": 552.472,
+"end": 552.522
+},
+{
+"line": 111,
+"w": "remedio",
+"n": "remedio",
+"start": 552.512,
+"end": 553.032
+},
+{
+"line": 111,
+"w": "era",
+"n": "era",
+"start": 553.032,
+"end": 553.272
+},
+{
+"line": 111,
+"w": "la",
+"n": "la",
+"start": 553.272,
+"end": 553.362
+},
+{
+"line": 111,
+"w": "mugre",
+"n": "mugre",
+"start": 553.362,
+"end": 553.692
+},
+{
+"line": 111,
+"w": "de",
+"n": "de",
+"start": 553.692,
+"end": 553.842
+},
+{
+"line": 111,
+"w": "los",
+"n": "los",
+"start": 553.842,
+"end": 554.012
+},
+{
+"line": 111,
+"w": "atletas.",
+"n": "atletas",
+"start": 554.012,
+"end": 554.732
+},
+{
+"line": 112,
+"w": "¿Y",
+"n": "y",
+"start": 556.069,
+"end": 556.119
+},
+{
+"line": 112,
+"w": "el",
+"n": "el",
+"start": 556.109,
+"end": 556.199
+},
+{
+"line": 112,
+"w": "dinero?",
+"n": "dinero",
+"start": 556.199,
+"end": 556.729
+},
+{
+"line": 112,
+"w": "El",
+"n": "el",
+"start": 556.729,
+"end": 556.999
+},
+{
+"line": 112,
+"w": "que",
+"n": "que",
+"start": 556.999,
+"end": 557.059
+},
+{
+"line": 112,
+"w": "gana",
+"n": "gana",
+"start": 557.059,
+"end": 557.319
+},
+{
+"line": 112,
+"w": "se",
+"n": "se",
+"start": 557.319,
+"end": 557.449
+},
+{
+"line": 112,
+"w": "lleva",
+"n": "lleva",
+"start": 557.449,
+"end": 557.779
+},
+{
+"line": 112,
+"w": "una",
+"n": "una",
+"start": 557.779,
+"end": 557.979
+},
+{
+"line": 112,
+"w": "palma",
+"n": "palma",
+"start": 557.979,
+"end": 558.369
+},
+{
+"line": 112,
+"w": "y",
+"n": "y",
+"start": 558.369,
+"end": 558.419
+},
+{
+"line": 112,
+"w": "monedas",
+"n": "monedas",
+"start": 558.419,
+"end": 558.769
+},
+{
+"line": 112,
+"w": "de",
+"n": "de",
+"start": 558.769,
+"end": 558.919
+},
+{
+"line": 112,
+"w": "oro.",
+"n": "oro",
+"start": 558.919,
+"end": 559.209
+},
+{
+"line": 113,
+"w": "El",
+"n": "el",
+"start": 559.776,
+"end": 559.826
+},
+{
+"line": 113,
+"w": "emperador",
+"n": "emperador",
+"start": 559.806,
+"end": 560.356
+},
+{
+"line": 113,
+"w": "Claudio",
+"n": "claudio",
+"start": 560.356,
+"end": 560.786
+},
+{
+"line": 113,
+"w": "contaba",
+"n": "contaba",
+"start": 560.786,
+"end": 561.216
+},
+{
+"line": 113,
+"w": "esas",
+"n": "esas",
+"start": 561.216,
+"end": 561.466
+},
+{
+"line": 113,
+"w": "monedas",
+"n": "monedas",
+"start": 561.466,
+"end": 562.026
+},
+{
+"line": 113,
+"w": "con",
+"n": "con",
+"start": 562.026,
+"end": 562.156
+},
+{
+"line": 113,
+"w": "los",
+"n": "los",
+"start": 562.156,
+"end": 562.346
+},
+{
+"line": 113,
+"w": "dedos,",
+"n": "dedos",
+"start": 562.346,
+"end": 562.836
+},
+{
+"line": 113,
+"w": "a",
+"n": "a",
+"start": 562.836,
+"end": 562.896
+},
+{
+"line": 113,
+"w": "gritos,",
+"n": "gritos",
+"start": 562.896,
+"end": 563.586
+},
+{
+"line": 113,
+"w": "junto",
+"n": "junto",
+"start": 563.586,
+"end": 563.896
+},
+{
+"line": 113,
+"w": "con",
+"n": "con",
+"start": 563.896,
+"end": 564.056
+},
+{
+"line": 113,
+"w": "el",
+"n": "el",
+"start": 564.056,
+"end": 564.186
+},
+{
+"line": 113,
+"w": "público.",
+"n": "publico",
+"start": 564.186,
+"end": 564.766
+},
+{
+"line": 114,
+"w": "Y",
+"n": "y",
+"start": 565.132,
+"end": 565.182
+},
+{
+"line": 114,
+"w": "Nerón",
+"n": "neron",
+"start": 565.182,
+"end": 565.492
+},
+{
+"line": 114,
+"w": "regaló",
+"n": "regalo",
+"start": 565.492,
+"end": 565.912
+},
+{
+"line": 114,
+"w": "al",
+"n": "al",
+"start": 565.912,
+"end": 566.062
+},
+{
+"line": 114,
+"w": "gladiador",
+"n": "gladiador",
+"start": 566.062,
+"end": 566.712
+},
+{
+"line": 114,
+"w": "Espículo",
+"n": "espiculo",
+"start": 566.712,
+"end": 567.322
+},
+{
+"line": 114,
+"w": "casas",
+"n": "casas",
+"start": 567.322,
+"end": 567.652
+},
+{
+"line": 114,
+"w": "y",
+"n": "y",
+"start": 567.652,
+"end": 567.722
+},
+{
+"line": 114,
+"w": "fincas,",
+"n": "fincas",
+"start": 567.722,
+"end": 568.412
+},
+{
+"line": 114,
+"w": "como",
+"n": "como",
+"start": 568.412,
+"end": 568.582
+},
+{
+"line": 114,
+"w": "las",
+"n": "las",
+"start": 568.582,
+"end": 568.822
+},
+{
+"line": 114,
+"w": "de",
+"n": "de",
+"start": 568.822,
+"end": 568.872
+},
+{
+"line": 114,
+"w": "un",
+"n": "un",
+"start": 568.862,
+"end": 568.972
+},
+{
+"line": 114,
+"w": "general",
+"n": "general",
+"start": 568.972,
+"end": 569.422
+},
+{
+"line": 114,
+"w": "victorioso.",
+"n": "victorioso",
+"start": 569.422,
+"end": 570.142
+},
+{
+"line": 115,
+"w": "Y",
+"n": "y",
+"start": 570.989,
+"end": 571.039
+},
+{
+"line": 115,
+"w": "no",
+"n": "no",
+"start": 571.019,
+"end": 571.129
+},
+{
+"line": 115,
+"w": "todo",
+"n": "todo",
+"start": 571.129,
+"end": 571.419
+},
+{
+"line": 115,
+"w": "eran",
+"n": "eran",
+"start": 571.419,
+"end": 571.709
+},
+{
+"line": 115,
+"w": "hombres.",
+"n": "hombres",
+"start": 571.709,
+"end": 572.459
+},
+{
+"line": 115,
+"w": "En",
+"n": "en",
+"start": 572.459,
+"end": 572.599
+},
+{
+"line": 115,
+"w": "estos",
+"n": "estos",
+"start": 572.599,
+"end": 572.959
+},
+{
+"line": 115,
+"w": "mismos",
+"n": "mismos",
+"start": 572.959,
+"end": 573.399
+},
+{
+"line": 115,
+"w": "juegos,",
+"n": "juegos",
+"start": 573.399,
+"end": 574.089
+},
+{
+"line": 115,
+"w": "según",
+"n": "segun",
+"start": 574.089,
+"end": 574.309
+},
+{
+"line": 115,
+"w": "un",
+"n": "un",
+"start": 574.309,
+"end": 574.439
+},
+{
+"line": 115,
+"w": "historiador",
+"n": "historiador",
+"start": 574.439,
+"end": 575.149
+},
+{
+"line": 115,
+"w": "posterior,",
+"n": "posterior",
+"start": 575.149,
+"end": 575.759
+},
+{
+"line": 115,
+"w": "hubo",
+"n": "hubo",
+"start": 575.759,
+"end": 576.049
+},
+{
+"line": 115,
+"w": "mujeres",
+"n": "mujeres",
+"start": 576.049,
+"end": 576.559
+},
+{
+"line": 115,
+"w": "que",
+"n": "que",
+"start": 576.559,
+"end": 576.779
+},
+{
+"line": 115,
+"w": "mataron",
+"n": "mataron",
+"start": 576.779,
+"end": 577.389
+},
+{
+"line": 115,
+"w": "fieras.",
+"n": "fieras",
+"start": 577.389,
+"end": 577.759
+},
+{
+"line": 116,
+"w": "Y",
+"n": "y",
+"start": 578.13,
+"end": 578.18
+},
+{
+"line": 116,
+"w": "en",
+"n": "en",
+"start": 578.15,
+"end": 578.26
+},
+{
+"line": 116,
+"w": "un",
+"n": "un",
+"start": 578.26,
+"end": 578.39
+},
+{
+"line": 116,
+"w": "relieve",
+"n": "relieve",
+"start": 578.39,
+"end": 578.85
+},
+{
+"line": 116,
+"w": "de",
+"n": "de",
+"start": 578.85,
+"end": 578.98
+},
+{
+"line": 116,
+"w": "Halicarnaso",
+"n": "halicarnaso",
+"start": 578.98,
+"end": 579.8
+},
+{
+"line": 116,
+"w": "salen",
+"n": "salen",
+"start": 579.8,
+"end": 579.98
+},
+{
+"line": 116,
+"w": "dos",
+"n": "dos",
+"start": 579.98,
+"end": 580.18
+},
+{
+"line": 116,
+"w": "mujeres",
+"n": "mujeres",
+"start": 580.18,
+"end": 580.65
+},
+{
+"line": 116,
+"w": "gladiadoras.",
+"n": "gladiadoras",
+"start": 580.65,
+"end": 581.41
+},
+{
+"line": 117,
+"w": "Y",
+"n": "y",
+"start": 581.932,
+"end": 581.982
+},
+{
+"line": 117,
+"w": "ahora,",
+"n": "ahora",
+"start": 581.982,
+"end": 582.392
+},
+{
+"line": 117,
+"w": "el",
+"n": "el",
+"start": 582.392,
+"end": 582.712
+},
+{
+"line": 117,
+"w": "combate",
+"n": "combate",
+"start": 582.712,
+"end": 583.002
+},
+{
+"line": 117,
+"w": "que",
+"n": "que",
+"start": 583.002,
+"end": 583.242
+},
+{
+"line": 117,
+"w": "Félix",
+"n": "felix",
+"start": 583.242,
+"end": 583.572
+},
+{
+"line": 117,
+"w": "vio",
+"n": "vio",
+"start": 583.572,
+"end": 583.712
+},
+{
+"line": 117,
+"w": "aquella",
+"n": "aquella",
+"start": 583.712,
+"end": 584.182
+},
+{
+"line": 117,
+"w": "misma",
+"n": "misma",
+"start": 584.182,
+"end": 584.522
+},
+{
+"line": 117,
+"w": "tarde.",
+"n": "tarde",
+"start": 584.522,
+"end": 585.152
+},
+{
+"line": 118,
+"w": "Dos",
+"n": "dos",
+"start": 585.756,
+"end": 585.806
+},
+{
+"line": 118,
+"w": "gladiadores,",
+"n": "gladiadores",
+"start": 585.806,
+"end": 586.606
+},
+{
+"line": 118,
+"w": "Prisco",
+"n": "prisco",
+"start": 586.606,
+"end": 586.976
+},
+{
+"line": 118,
+"w": "y",
+"n": "y",
+"start": 586.976,
+"end": 587.066
+},
+{
+"line": 118,
+"w": "Vero,",
+"n": "vero",
+"start": 587.066,
+"end": 587.446
+},
+{
+"line": 118,
+"w": "lucharon",
+"n": "lucharon",
+"start": 587.446,
+"end": 587.986
+},
+{
+"line": 118,
+"w": "tanto",
+"n": "tanto",
+"start": 587.986,
+"end": 588.336
+},
+{
+"line": 118,
+"w": "tiempo",
+"n": "tiempo",
+"start": 588.336,
+"end": 588.766
+},
+{
+"line": 118,
+"w": "y",
+"n": "y",
+"start": 588.766,
+"end": 588.936
+},
+{
+"line": 118,
+"w": "tan",
+"n": "tan",
+"start": 588.936,
+"end": 589.066
+},
+{
+"line": 118,
+"w": "igualados",
+"n": "igualados",
+"start": 589.066,
+"end": 589.656
+},
+{
+"line": 118,
+"w": "que",
+"n": "que",
+"start": 589.656,
+"end": 589.836
+},
+{
+"line": 118,
+"w": "ninguno",
+"n": "ninguno",
+"start": 589.836,
+"end": 590.186
+},
+{
+"line": 118,
+"w": "lograba",
+"n": "lograba",
+"start": 590.186,
+"end": 590.566
+},
+{
+"line": 118,
+"w": "ganar.",
+"n": "ganar",
+"start": 590.566,
+"end": 590.886
+},
+{
+"line": 119,
+"w": "Al",
+"n": "al",
+"start": 591.4,
+"end": 591.45
+},
+{
+"line": 119,
+"w": "final,",
+"n": "final",
+"start": 591.45,
+"end": 592.05
+},
+{
+"line": 119,
+"w": "Tito",
+"n": "tito",
+"start": 592.05,
+"end": 592.35
+},
+{
+"line": 119,
+"w": "les",
+"n": "les",
+"start": 592.35,
+"end": 592.51
+},
+{
+"line": 119,
+"w": "dio",
+"n": "dio",
+"start": 592.51,
+"end": 592.79
+},
+{
+"line": 119,
+"w": "la",
+"n": "la",
+"start": 592.79,
+"end": 592.89
+},
+{
+"line": 119,
+"w": "palma",
+"n": "palma",
+"start": 592.89,
+"end": 593.27
+},
+{
+"line": 119,
+"w": "a",
+"n": "a",
+"start": 593.27,
+"end": 593.33
+},
+{
+"line": 119,
+"w": "los",
+"n": "los",
+"start": 593.33,
+"end": 593.61
+},
+{
+"line": 119,
+"w": "dos.",
+"n": "dos",
+"start": 593.61,
+"end": 593.84
+},
+{
+"line": 119,
+"w": "Y",
+"n": "y",
+"start": 593.84,
+"end": 594.03
+},
+{
+"line": 119,
+"w": "también",
+"n": "tambien",
+"start": 594.03,
+"end": 594.33
+},
+{
+"line": 119,
+"w": "la",
+"n": "la",
+"start": 594.33,
+"end": 594.45
+},
+{
+"line": 119,
+"w": "rudis,",
+"n": "rudis",
+"start": 594.45,
+"end": 594.87
+},
+{
+"line": 119,
+"w": "la",
+"n": "la",
+"start": 594.87,
+"end": 594.99
+},
+{
+"line": 119,
+"w": "espada",
+"n": "espada",
+"start": 594.99,
+"end": 595.38
+},
+{
+"line": 119,
+"w": "de",
+"n": "de",
+"start": 595.38,
+"end": 595.47
+},
+{
+"line": 119,
+"w": "madera.",
+"n": "madera",
+"start": 595.47,
+"end": 596.06
+},
+{
+"line": 120,
+"w": "Un",
+"n": "un",
+"start": 596.603,
+"end": 596.683
+},
+{
+"line": 120,
+"w": "empate.",
+"n": "empate",
+"start": 596.683,
+"end": 597.193
+},
+{
+"line": 120,
+"w": "En",
+"n": "en",
+"start": 597.193,
+"end": 597.403
+},
+{
+"line": 120,
+"w": "la",
+"n": "la",
+"start": 597.403,
+"end": 597.513
+},
+{
+"line": 120,
+"w": "arena.",
+"n": "arena",
+"start": 597.513,
+"end": 597.913
+},
+{
+"line": 120,
+"w": "Delante",
+"n": "delante",
+"start": 597.913,
+"end": 598.423
+},
+{
+"line": 120,
+"w": "del",
+"n": "del",
+"start": 598.423,
+"end": 598.643
+},
+{
+"line": 120,
+"w": "emperador.",
+"n": "emperador",
+"start": 598.643,
+"end": 599.313
+},
+{
+"line": 121,
+"w": "Lo",
+"n": "lo",
+"start": 599.707,
+"end": 599.757
+},
+{
+"line": 121,
+"w": "contó",
+"n": "conto",
+"start": 599.737,
+"end": 600.067
+},
+{
+"line": 121,
+"w": "un",
+"n": "un",
+"start": 600.067,
+"end": 600.167
+},
+{
+"line": 121,
+"w": "poeta",
+"n": "poeta",
+"start": 600.167,
+"end": 600.477
+},
+{
+"line": 121,
+"w": "que",
+"n": "que",
+"start": 600.477,
+"end": 600.667
+},
+{
+"line": 121,
+"w": "estaba",
+"n": "estaba",
+"start": 600.667,
+"end": 601.047
+},
+{
+"line": 121,
+"w": "allí.",
+"n": "alli",
+"start": 601.047,
+"end": 601.357
+},
+{
+"line": 121,
+"w": "Es",
+"n": "es",
+"start": 601.617,
+"end": 601.667
+},
+{
+"line": 121,
+"w": "el",
+"n": "el",
+"start": 601.617,
+"end": 601.707
+},
+{
+"line": 121,
+"w": "único",
+"n": "unico",
+"start": 601.707,
+"end": 601.947
+},
+{
+"line": 121,
+"w": "combate",
+"n": "combate",
+"start": 601.947,
+"end": 602.407
+},
+{
+"line": 121,
+"w": "de",
+"n": "de",
+"start": 602.407,
+"end": 602.537
+},
+{
+"line": 121,
+"w": "gladiadores",
+"n": "gladiadores",
+"start": 602.537,
+"end": 603.297
+},
+{
+"line": 121,
+"w": "contado",
+"n": "contado",
+"start": 603.297,
+"end": 603.697
+},
+{
+"line": 121,
+"w": "con",
+"n": "con",
+"start": 603.697,
+"end": 603.867
+},
+{
+"line": 121,
+"w": "detalle",
+"n": "detalle",
+"start": 603.867,
+"end": 604.297
+},
+{
+"line": 121,
+"w": "que",
+"n": "que",
+"start": 604.297,
+"end": 604.417
+},
+{
+"line": 121,
+"w": "ha",
+"n": "ha",
+"start": 604.417,
+"end": 604.567
+},
+{
+"line": 121,
+"w": "llegado",
+"n": "llegado",
+"start": 604.567,
+"end": 604.777
+},
+{
+"line": 121,
+"w": "hasta",
+"n": "hasta",
+"start": 604.777,
+"end": 604.977
+},
+{
+"line": 121,
+"w": "hoy.",
+"n": "hoy",
+"start": 604.977,
+"end": 605.237
+},
+{
+"line": 122,
+"w": "La",
+"n": "la",
+"start": 605.72,
+"end": 605.78
+},
+{
+"line": 122,
+"w": "rudis",
+"n": "rudis",
+"start": 605.78,
+"end": 606.19
+},
+{
+"line": 122,
+"w": "era",
+"n": "era",
+"start": 606.19,
+"end": 606.37
+},
+{
+"line": 122,
+"w": "el",
+"n": "el",
+"start": 606.37,
+"end": 606.48
+},
+{
+"line": 122,
+"w": "retiro:",
+"n": "retiro",
+"start": 606.48,
+"end": 606.97
+},
+{
+"line": 122,
+"w": "ya",
+"n": "ya",
+"start": 606.97,
+"end": 607.21
+},
+{
+"line": 122,
+"w": "no",
+"n": "no",
+"start": 607.21,
+"end": 607.26
+},
+{
+"line": 122,
+"w": "tenías",
+"n": "tenias",
+"start": 607.24,
+"end": 607.56
+},
+{
+"line": 122,
+"w": "que",
+"n": "que",
+"start": 607.56,
+"end": 607.74
+},
+{
+"line": 122,
+"w": "volver",
+"n": "volver",
+"start": 607.74,
+"end": 608.09
+},
+{
+"line": 122,
+"w": "a",
+"n": "a",
+"start": 608.09,
+"end": 608.15
+},
+{
+"line": 122,
+"w": "luchar.",
+"n": "luchar",
+"start": 608.15,
+"end": 608.71
+},
+{
+"line": 122,
+"w": "Y",
+"n": "y",
+"start": 608.71,
+"end": 608.78
+},
+{
+"line": 122,
+"w": "en",
+"n": "en",
+"start": 608.78,
+"end": 608.83
+},
+{
+"line": 122,
+"w": "algunos",
+"n": "algunos",
+"start": 608.83,
+"end": 609.24
+},
+{
+"line": 122,
+"w": "casos,",
+"n": "casos",
+"start": 609.24,
+"end": 609.65
+},
+{
+"line": 122,
+"w": "la",
+"n": "la",
+"start": 609.65,
+"end": 609.84
+},
+{
+"line": 122,
+"w": "libertad.",
+"n": "libertad",
+"start": 609.84,
+"end": 610.46
+},
+{
+"line": 123,
+"w": "Félix",
+"n": "felix",
+"start": 610.904,
+"end": 611.254
+},
+{
+"line": 123,
+"w": "mira",
+"n": "mira",
+"start": 611.254,
+"end": 611.504
+},
+{
+"line": 123,
+"w": "esas",
+"n": "esas",
+"start": 611.504,
+"end": 611.744
+},
+{
+"line": 123,
+"w": "dos",
+"n": "dos",
+"start": 611.744,
+"end": 611.924
+},
+{
+"line": 123,
+"w": "espadas",
+"n": "espadas",
+"start": 611.924,
+"end": 612.344
+},
+{
+"line": 123,
+"w": "de",
+"n": "de",
+"start": 612.344,
+"end": 612.464
+},
+{
+"line": 123,
+"w": "madera.",
+"n": "madera",
+"start": 612.464,
+"end": 612.964
+},
+{
+"line": 123,
+"w": "Él",
+"n": "el",
+"start": 612.964,
+"end": 613.154
+},
+{
+"line": 123,
+"w": "también",
+"n": "tambien",
+"start": 613.154,
+"end": 613.464
+},
+{
+"line": 123,
+"w": "quiere",
+"n": "quiere",
+"start": 613.464,
+"end": 613.804
+},
+{
+"line": 123,
+"w": "una.",
+"n": "una",
+"start": 613.804,
+"end": 614.164
+},
+{
+"line": 124,
+"w": "Así",
+"n": "asi",
+"start": 614.775,
+"end": 614.865
+},
+{
+"line": 124,
+"w": "que,",
+"n": "que",
+"start": 614.865,
+"end": 615.105
+},
+{
+"line": 124,
+"w": "al",
+"n": "al",
+"start": 615.105,
+"end": 615.195
+},
+{
+"line": 124,
+"w": "día",
+"n": "dia",
+"start": 615.195,
+"end": 615.395
+},
+{
+"line": 124,
+"w": "siguiente,",
+"n": "siguiente",
+"start": 615.395,
+"end": 616.335
+},
+{
+"line": 124,
+"w": "vuelve",
+"n": "vuelve",
+"start": 616.335,
+"end": 616.595
+},
+{
+"line": 124,
+"w": "al",
+"n": "al",
+"start": 616.595,
+"end": 616.735
+},
+{
+"line": 124,
+"w": "palus.",
+"n": "palus",
+"start": 616.735,
+"end": 617.075
+},
+{
+"line": 124,
+"w": "Y",
+"n": "y",
+"start": 617.075,
+"end": 617.285
+},
+{
+"line": 124,
+"w": "la",
+"n": "la",
+"start": 617.285,
+"end": 617.335
+},
+{
+"line": 124,
+"w": "luna",
+"n": "luna",
+"start": 617.325,
+"end": 617.575
+},
+{
+"line": 124,
+"w": "se",
+"n": "se",
+"start": 617.575,
+"end": 617.695
+},
+{
+"line": 124,
+"w": "apaga.",
+"n": "apaga",
+"start": 617.695,
+"end": 618.245
+},
+{
+"line": 125,
+"w": "Y",
+"n": "y",
+"start": 620.583,
+"end": 620.633
+},
+{
+"line": 125,
+"w": "bien,",
+"n": "bien",
+"start": 620.613,
+"end": 621.033
+},
+{
+"line": 125,
+"w": "¿era",
+"n": "era",
+"start": 621.033,
+"end": 621.343
+},
+{
+"line": 125,
+"w": "una",
+"n": "una",
+"start": 621.343,
+"end": 621.523
+},
+{
+"line": 125,
+"w": "buena",
+"n": "buena",
+"start": 621.523,
+"end": 621.873
+},
+{
+"line": 125,
+"w": "vida",
+"n": "vida",
+"start": 621.873,
+"end": 622.153
+},
+{
+"line": 125,
+"w": "o",
+"n": "o",
+"start": 622.153,
+"end": 622.223
+},
+{
+"line": 125,
+"w": "una",
+"n": "una",
+"start": 622.223,
+"end": 622.453
+},
+{
+"line": 125,
+"w": "mala",
+"n": "mala",
+"start": 622.453,
+"end": 622.713
+},
+{
+"line": 125,
+"w": "vida?",
+"n": "vida",
+"start": 622.713,
+"end": 623.243
+},
+{
+"line": 126,
+"w": "Lo",
+"n": "lo",
+"start": 625.023,
+"end": 625.073
+},
+{
+"line": 126,
+"w": "malo:",
+"n": "malo",
+"start": 625.073,
+"end": 625.513
+},
+{
+"line": 126,
+"w": "eras",
+"n": "eras",
+"start": 625.513,
+"end": 625.953
+},
+{
+"line": 126,
+"w": "propiedad",
+"n": "propiedad",
+"start": 625.953,
+"end": 626.483
+},
+{
+"line": 126,
+"w": "de",
+"n": "de",
+"start": 626.483,
+"end": 626.633
+},
+{
+"line": 126,
+"w": "otro,",
+"n": "otro",
+"start": 626.633,
+"end": 627.103
+},
+{
+"line": 126,
+"w": "la",
+"n": "la",
+"start": 627.103,
+"end": 627.393
+},
+{
+"line": 126,
+"w": "ley",
+"n": "ley",
+"start": 627.393,
+"end": 627.483
+},
+{
+"line": 126,
+"w": "te",
+"n": "te",
+"start": 627.483,
+"end": 627.633
+},
+{
+"line": 126,
+"w": "trataba",
+"n": "trataba",
+"start": 627.633,
+"end": 628.173
+},
+{
+"line": 126,
+"w": "como",
+"n": "como",
+"start": 628.173,
+"end": 628.503
+},
+{
+"line": 126,
+"w": "basura",
+"n": "basura",
+"start": 628.503,
+"end": 629.143
+},
+{
+"line": 126,
+"w": "y",
+"n": "y",
+"start": 629.143,
+"end": 629.243
+},
+{
+"line": 126,
+"w": "muchos",
+"n": "muchos",
+"start": 629.243,
+"end": 629.533
+},
+{
+"line": 126,
+"w": "morían",
+"n": "morian",
+"start": 629.533,
+"end": 629.873
+},
+{
+"line": 126,
+"w": "entre",
+"n": "entre",
+"start": 629.873,
+"end": 630.223
+},
+{
+"line": 126,
+"w": "los",
+"n": "los",
+"start": 630.223,
+"end": 630.383
+},
+{
+"line": 126,
+"w": "veinte",
+"n": "veinte",
+"start": 630.383,
+"end": 630.723
+},
+{
+"line": 126,
+"w": "y",
+"n": "y",
+"start": 630.723,
+"end": 630.773
+},
+{
+"line": 126,
+"w": "los",
+"n": "los",
+"start": 630.763,
+"end": 631.003
+},
+{
+"line": 126,
+"w": "treinta",
+"n": "treinta",
+"start": 631.003,
+"end": 631.253
+},
+{
+"line": 126,
+"w": "años.",
+"n": "anos",
+"start": 631.253,
+"end": 631.663
+},
+{
+"line": 127,
+"w": "Lo",
+"n": "lo",
+"start": 632.66,
+"end": 632.77
+},
+{
+"line": 127,
+"w": "bueno:",
+"n": "bueno",
+"start": 632.77,
+"end": 633.47
+},
+{
+"line": 127,
+"w": "comida",
+"n": "comida",
+"start": 633.47,
+"end": 633.65
+},
+{
+"line": 127,
+"w": "segura,",
+"n": "segura",
+"start": 633.65,
+"end": 634.43
+},
+{
+"line": 127,
+"w": "médicos,",
+"n": "medicos",
+"start": 634.43,
+"end": 634.84
+},
+{
+"line": 127,
+"w": "entrenadores,",
+"n": "entrenadores",
+"start": 634.84,
+"end": 635.8
+},
+{
+"line": 127,
+"w": "fama,",
+"n": "fama",
+"start": 635.8,
+"end": 636.41
+},
+{
+"line": 127,
+"w": "premios",
+"n": "premios",
+"start": 636.41,
+"end": 636.84
+},
+{
+"line": 127,
+"w": "y",
+"n": "y",
+"start": 636.84,
+"end": 636.96
+},
+{
+"line": 127,
+"w": "el",
+"n": "el",
+"start": 636.96,
+"end": 637.06
+},
+{
+"line": 127,
+"w": "sueño",
+"n": "sueno",
+"start": 637.06,
+"end": 637.44
+},
+{
+"line": 127,
+"w": "de",
+"n": "de",
+"start": 637.44,
+"end": 637.59
+},
+{
+"line": 127,
+"w": "la",
+"n": "la",
+"start": 637.59,
+"end": 637.74
+},
+{
+"line": 127,
+"w": "rudis.",
+"n": "rudis",
+"start": 637.74,
+"end": 638.16
+},
+{
+"line": 128,
+"w": "Y",
+"n": "y",
+"start": 638.734,
+"end": 638.784
+},
+{
+"line": 128,
+"w": "el",
+"n": "el",
+"start": 638.774,
+"end": 638.844
+},
+{
+"line": 128,
+"w": "dato",
+"n": "dato",
+"start": 638.844,
+"end": 639.064
+},
+{
+"line": 128,
+"w": "más",
+"n": "mas",
+"start": 639.064,
+"end": 639.234
+},
+{
+"line": 128,
+"w": "fuerte",
+"n": "fuerte",
+"start": 639.234,
+"end": 639.574
+},
+{
+"line": 128,
+"w": "de",
+"n": "de",
+"start": 639.574,
+"end": 639.684
+},
+{
+"line": 128,
+"w": "todos.",
+"n": "todos",
+"start": 639.684,
+"end": 640.164
+},
+{
+"line": 128,
+"w": "En",
+"n": "en",
+"start": 640.164,
+"end": 640.294
+},
+{
+"line": 128,
+"w": "tiempos",
+"n": "tiempos",
+"start": 640.294,
+"end": 640.844
+},
+{
+"line": 128,
+"w": "de",
+"n": "de",
+"start": 640.844,
+"end": 640.944
+},
+{
+"line": 128,
+"w": "Félix,",
+"n": "felix",
+"start": 640.944,
+"end": 641.434
+},
+{
+"line": 128,
+"w": "la",
+"n": "la",
+"start": 641.434,
+"end": 641.574
+},
+{
+"line": 128,
+"w": "mayoría",
+"n": "mayoria",
+"start": 641.574,
+"end": 642.084
+},
+{
+"line": 128,
+"w": "de",
+"n": "de",
+"start": 642.084,
+"end": 642.224
+},
+{
+"line": 128,
+"w": "los",
+"n": "los",
+"start": 642.224,
+"end": 642.444
+},
+{
+"line": 128,
+"w": "combates",
+"n": "combates",
+"start": 642.444,
+"end": 643.024
+},
+{
+"line": 128,
+"w": "no",
+"n": "no",
+"start": 643.024,
+"end": 643.284
+},
+{
+"line": 128,
+"w": "acababa",
+"n": "acababa",
+"start": 643.284,
+"end": 643.704
+},
+{
+"line": 128,
+"w": "en",
+"n": "en",
+"start": 643.704,
+"end": 643.774
+},
+{
+"line": 128,
+"w": "muerte.",
+"n": "muerte",
+"start": 643.774,
+"end": 644.144
+},
+{
+"line": 129,
+"w": "Y",
+"n": "y",
+"start": 644.696,
+"end": 644.746
+},
+{
+"line": 129,
+"w": "un",
+"n": "un",
+"start": 644.726,
+"end": 644.826
+},
+{
+"line": 129,
+"w": "gladiador",
+"n": "gladiador",
+"start": 644.826,
+"end": 645.426
+},
+{
+"line": 129,
+"w": "solo",
+"n": "solo",
+"start": 645.426,
+"end": 645.696
+},
+{
+"line": 129,
+"w": "luchaba",
+"n": "luchaba",
+"start": 645.696,
+"end": 646.216
+},
+{
+"line": 129,
+"w": "dos",
+"n": "dos",
+"start": 646.216,
+"end": 646.436
+},
+{
+"line": 129,
+"w": "o",
+"n": "o",
+"start": 646.436,
+"end": 646.506
+},
+{
+"line": 129,
+"w": "tres",
+"n": "tres",
+"start": 646.506,
+"end": 646.846
+},
+{
+"line": 129,
+"w": "combates",
+"n": "combates",
+"start": 646.846,
+"end": 647.376
+},
+{
+"line": 129,
+"w": "al",
+"n": "al",
+"start": 647.376,
+"end": 647.516
+},
+{
+"line": 129,
+"w": "año.",
+"n": "ano",
+"start": 647.516,
+"end": 647.776
+},
+{
+"line": 130,
+"w": "O",
+"n": "o",
+"start": 648.102,
+"end": 648.172
+},
+{
+"line": 130,
+"w": "sea:",
+"n": "sea",
+"start": 648.172,
+"end": 648.502
+},
+{
+"line": 130,
+"w": "su",
+"n": "su",
+"start": 648.502,
+"end": 648.752
+},
+{
+"line": 130,
+"w": "mes",
+"n": "mes",
+"start": 648.752,
+"end": 648.872
+},
+{
+"line": 130,
+"w": "era",
+"n": "era",
+"start": 648.872,
+"end": 649.092
+},
+{
+"line": 130,
+"w": "casi",
+"n": "casi",
+"start": 649.092,
+"end": 649.452
+},
+{
+"line": 130,
+"w": "todo",
+"n": "todo",
+"start": 649.452,
+"end": 649.692
+},
+{
+"line": 130,
+"w": "entrenar,",
+"n": "entrenar",
+"start": 649.692,
+"end": 650.822
+},
+{
+"line": 130,
+"w": "comer",
+"n": "comer",
+"start": 650.822,
+"end": 650.892
+},
+{
+"line": 130,
+"w": "cebada",
+"n": "cebada",
+"start": 650.892,
+"end": 651.382
+},
+{
+"line": 130,
+"w": "y",
+"n": "y",
+"start": 651.382,
+"end": 651.462
+},
+{
+"line": 130,
+"w": "esperar.",
+"n": "esperar",
+"start": 651.462,
+"end": 652.112
+},
+{
+"line": 131,
+"w": "Hoy",
+"n": "hoy",
+"start": 652.658,
+"end": 652.768
+},
+{
+"line": 131,
+"w": "lo",
+"n": "lo",
+"start": 652.768,
+"end": 652.908
+},
+{
+"line": 131,
+"w": "compararíamos",
+"n": "comparariamos",
+"start": 652.908,
+"end": 653.868
+},
+{
+"line": 131,
+"w": "con",
+"n": "con",
+"start": 653.868,
+"end": 654.028
+},
+{
+"line": 131,
+"w": "un",
+"n": "un",
+"start": 654.028,
+"end": 654.168
+},
+{
+"line": 131,
+"w": "boxeador",
+"n": "boxeador",
+"start": 654.168,
+"end": 654.738
+},
+{
+"line": 131,
+"w": "profesional.",
+"n": "profesional",
+"start": 654.738,
+"end": 655.728
+},
+{
+"line": 131,
+"w": "Solo",
+"n": "solo",
+"start": 655.728,
+"end": 655.888
+},
+{
+"line": 131,
+"w": "que",
+"n": "que",
+"start": 655.888,
+"end": 656.058
+},
+{
+"line": 131,
+"w": "él",
+"n": "el",
+"start": 656.058,
+"end": 656.168
+},
+{
+"line": 131,
+"w": "nunca",
+"n": "nunca",
+"start": 656.168,
+"end": 656.448
+},
+{
+"line": 131,
+"w": "eligió",
+"n": "eligio",
+"start": 656.448,
+"end": 656.828
+},
+{
+"line": 131,
+"w": "subir",
+"n": "subir",
+"start": 656.828,
+"end": 657.058
+},
+{
+"line": 131,
+"w": "al",
+"n": "al",
+"start": 657.058,
+"end": 657.168
+},
+{
+"line": 131,
+"w": "ring.",
+"n": "ring",
+"start": 657.168,
+"end": 657.618
+},
+{
+"line": 132,
+"w": "Así",
+"n": "asi",
+"start": 658.187,
+"end": 658.307
+},
+{
+"line": 132,
+"w": "que",
+"n": "que",
+"start": 658.307,
+"end": 658.567
+},
+{
+"line": 132,
+"w": "ya",
+"n": "ya",
+"start": 658.567,
+"end": 658.667
+},
+{
+"line": 132,
+"w": "sabes:",
+"n": "sabes",
+"start": 658.667,
+"end": 659.177
+},
+{
+"line": 132,
+"w": "comían",
+"n": "comian",
+"start": 659.177,
+"end": 659.617
+},
+{
+"line": 132,
+"w": "cebada,",
+"n": "cebada",
+"start": 659.617,
+"end": 660.237
+},
+{
+"line": 132,
+"w": "tenían",
+"n": "tenian",
+"start": 660.237,
+"end": 660.867
+},
+{
+"line": 132,
+"w": "árbitro",
+"n": "arbitro",
+"start": 660.867,
+"end": 661.607
+},
+{
+"line": 132,
+"w": "y",
+"n": "y",
+"start": 661.607,
+"end": 661.747
+},
+{
+"line": 132,
+"w": "eran",
+"n": "eran",
+"start": 661.747,
+"end": 661.927
+},
+{
+"line": 132,
+"w": "famosos",
+"n": "famosos",
+"start": 661.927,
+"end": 662.377
+},
+{
+"line": 132,
+"w": "como",
+"n": "como",
+"start": 662.377,
+"end": 662.637
+},
+{
+"line": 132,
+"w": "estrellas",
+"n": "estrellas",
+"start": 662.637,
+"end": 663.217
+},
+{
+"line": 132,
+"w": "del",
+"n": "del",
+"start": 663.217,
+"end": 663.437
+},
+{
+"line": 132,
+"w": "rock.",
+"n": "rock",
+"start": 663.437,
+"end": 663.727
+},
+{
+"line": 133,
+"w": "Y",
+"n": "y",
+"start": 664.899,
+"end": 664.949
+},
+{
+"line": 133,
+"w": "cuando",
+"n": "cuando",
+"start": 664.929,
+"end": 665.289
+},
+{
+"line": 133,
+"w": "veas",
+"n": "veas",
+"start": 665.289,
+"end": 665.569
+},
+{
+"line": 133,
+"w": "en",
+"n": "en",
+"start": 665.569,
+"end": 665.669
+},
+{
+"line": 133,
+"w": "una",
+"n": "una",
+"start": 665.669,
+"end": 665.879
+},
+{
+"line": 133,
+"w": "película",
+"n": "pelicula",
+"start": 665.879,
+"end": 666.389
+},
+{
+"line": 133,
+"w": "un",
+"n": "un",
+"start": 666.389,
+"end": 666.519
+},
+{
+"line": 133,
+"w": "pulgar",
+"n": "pulgar",
+"start": 666.519,
+"end": 666.899
+},
+{
+"line": 133,
+"w": "para",
+"n": "para",
+"start": 666.899,
+"end": 667.159
+},
+{
+"line": 133,
+"w": "abajo,",
+"n": "abajo",
+"start": 667.159,
+"end": 667.649
+},
+{
+"line": 133,
+"w": "acuérdate",
+"n": "acuerdate",
+"start": 667.649,
+"end": 668.139
+},
+{
+"line": 133,
+"w": "de",
+"n": "de",
+"start": 668.139,
+"end": 668.249
+},
+{
+"line": 133,
+"w": "Félix.",
+"n": "felix",
+"start": 668.249,
+"end": 668.699
+},
+{
+"line": 134,
+"w": "Si",
+"n": "si",
+"start": 670.361,
+"end": 670.411
+},
+{
+"line": 134,
+"w": "te",
+"n": "te",
+"start": 670.411,
+"end": 670.561
+},
+{
+"line": 134,
+"w": "ha",
+"n": "ha",
+"start": 670.561,
+"end": 670.661
+},
+{
+"line": 134,
+"w": "gustado",
+"n": "gustado",
+"start": 670.661,
+"end": 671.121
+},
+{
+"line": 134,
+"w": "este",
+"n": "este",
+"start": 671.121,
+"end": 671.381
+},
+{
+"line": 134,
+"w": "viaje,",
+"n": "viaje",
+"start": 671.381,
+"end": 671.901
+},
+{
+"line": 134,
+"w": "suscríbete",
+"n": "suscribete",
+"start": 671.901,
+"end": 672.531
+},
+{
+"line": 134,
+"w": "y",
+"n": "y",
+"start": 672.531,
+"end": 672.581
+},
+{
+"line": 134,
+"w": "dale",
+"n": "dale",
+"start": 672.551,
+"end": 672.791
+},
+{
+"line": 134,
+"w": "a",
+"n": "a",
+"start": 672.791,
+"end": 672.851
+},
+{
+"line": 134,
+"w": "me",
+"n": "me",
+"start": 672.851,
+"end": 672.981
+},
+{
+"line": 134,
+"w": "gusta.",
+"n": "gusta",
+"start": 672.981,
+"end": 673.571
+},
+{
+"line": 135,
+"w": "Escribe",
+"n": "escribe",
+"start": 674.095,
+"end": 674.495
+},
+{
+"line": 135,
+"w": "en",
+"n": "en",
+"start": 674.495,
+"end": 674.615
+},
+{
+"line": 135,
+"w": "los",
+"n": "los",
+"start": 674.615,
+"end": 674.805
+},
+{
+"line": 135,
+"w": "comentarios",
+"n": "comentarios",
+"start": 674.805,
+"end": 675.545
+},
+{
+"line": 135,
+"w": "la",
+"n": "la",
+"start": 675.545,
+"end": 675.625
+},
+{
+"line": 135,
+"w": "palabra",
+"n": "palabra",
+"start": 675.625,
+"end": 676.055
+},
+{
+"line": 135,
+"w": "gladiador.",
+"n": "gladiador",
+"start": 676.055,
+"end": 676.685
+},
+{
+"line": 135,
+"w": "Y",
+"n": "y",
+"start": 676.685,
+"end": 677.075
+},
+{
+"line": 135,
+"w": "dime:",
+"n": "dime",
+"start": 677.075,
+"end": 677.435
+},
+{
+"line": 135,
+"w": "¿mirmillón",
+"n": "mirmillon",
+"start": 677.435,
+"end": 678.175
+},
+{
+"line": 135,
+"w": "o",
+"n": "o",
+"start": 678.175,
+"end": 678.245
+},
+{
+"line": 135,
+"w": "reciario?",
+"n": "reciario",
+"start": 678.245,
+"end": 679.105
+},
+{
+"line": 136,
+"w": "Y",
+"n": "y",
+"start": 679.823,
+"end": 679.903
+},
+{
+"line": 136,
+"w": "mándaselo",
+"n": "mandaselo",
+"start": 679.903,
+"end": 680.443
+},
+{
+"line": 136,
+"w": "a",
+"n": "a",
+"start": 680.443,
+"end": 680.503
+},
+{
+"line": 136,
+"w": "ese",
+"n": "ese",
+"start": 680.503,
+"end": 680.703
+},
+{
+"line": 136,
+"w": "amigo",
+"n": "amigo",
+"start": 680.703,
+"end": 681.033
+},
+{
+"line": 136,
+"w": "que",
+"n": "que",
+"start": 681.033,
+"end": 681.233
+},
+{
+"line": 136,
+"w": "se",
+"n": "se",
+"start": 681.233,
+"end": 681.363
+},
+{
+"line": 136,
+"w": "cree",
+"n": "cree",
+"start": 681.363,
+"end": 681.623
+},
+{
+"line": 136,
+"w": "gladiador",
+"n": "gladiador",
+"start": 681.623,
+"end": 682.203
+},
+{
+"line": 136,
+"w": "en",
+"n": "en",
+"start": 682.203,
+"end": 682.333
+},
+{
+"line": 136,
+"w": "el",
+"n": "el",
+"start": 682.333,
+"end": 682.463
+},
+{
+"line": 136,
+"w": "gimnasio,",
+"n": "gimnasio",
+"start": 682.463,
+"end": 683.353
+},
+{
+"line": 136,
+"w": "pero",
+"n": "pero",
+"start": 683.353,
+"end": 683.443
+},
+{
+"line": 136,
+"w": "no",
+"n": "no",
+"start": 683.443,
+"end": 683.563
+},
+{
+"line": 136,
+"w": "aguantaría",
+"n": "aguantaria",
+"start": 683.563,
+"end": 684.163
+},
+{
+"line": 136,
+"w": "ni",
+"n": "ni",
+"start": 684.163,
+"end": 684.283
+},
+{
+"line": 136,
+"w": "una",
+"n": "una",
+"start": 684.283,
+"end": 684.513
+},
+{
+"line": 136,
+"w": "semana",
+"n": "semana",
+"start": 684.513,
+"end": 684.923
+},
+{
+"line": 136,
+"w": "de",
+"n": "de",
+"start": 684.923,
+"end": 685.073
+},
+{
+"line": 136,
+"w": "palus.",
+"n": "palus",
+"start": 685.073,
+"end": 685.413
+},
+{
+"line": 137,
+"w": "Nos",
+"n": "nos",
+"start": 685.913,
+"end": 686.103
+},
+{
+"line": 137,
+"w": "vemos",
+"n": "vemos",
+"start": 686.103,
+"end": 686.443
+},
+{
+"line": 137,
+"w": "en",
+"n": "en",
+"start": 686.443,
+"end": 686.593
+},
+{
+"line": 137,
+"w": "el",
+"n": "el",
+"start": 686.593,
+"end": 686.723
+},
+{
+"line": 137,
+"w": "próximo",
+"n": "proximo",
+"start": 686.723,
+"end": 687.203
+},
+{
+"line": 137,
+"w": "viaje",
+"n": "viaje",
+"start": 687.203,
+"end": 687.543
+},
+{
+"line": 137,
+"w": "en",
+"n": "en",
+"start": 687.543,
+"end": 687.673
+},
+{
+"line": 137,
+"w": "el",
+"n": "el",
+"start": 687.673,
+"end": 687.823
+},
+{
+"line": 137,
+"w": "tiempo.",
+"n": "tiempo",
+"start": 687.823,
+"end": 688.273
+}
+]

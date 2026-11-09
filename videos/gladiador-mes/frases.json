@@ -1,0 +1,1098 @@
+[
+ {
+  "i": 1,
+  "text": "Hoy vas a luchar delante de cincuenta mil personas. Y no puedes negarte.",
+  "start": 0.0,
+  "end": 4.028,
+  "sim": 1.0,
+  "oido": "Hoy vas a luchar delante de 50 mil personas, y no puedes negarte."
+ },
+ {
+  "i": 2,
+  "text": "Tienes un mes, una espada de madera y un entrenador que no sabe sonreír.",
+  "start": 4.328,
+  "end": 9.277,
+  "sim": 1.0,
+  "oido": "Tienes un mes, una espada de madera y un entrenador que no sabe sonreír."
+ },
+ {
+  "i": 3,
+  "text": "Bienvenido a Roma, año ochenta.",
+  "start": 9.577,
+  "end": 12.793,
+  "sim": 1.0,
+  "oido": "Bienvenido a Roma, año 80."
+ },
+ {
+  "i": 4,
+  "text": "Esto es un mes en la vida de un gladiador, con lo bueno, con lo malo y con lo que las películas no te cuentan.",
+  "start": 13.093,
+  "end": 18.604,
+  "sim": 1.0,
+  "oido": "Esto es un mes en la vida de un gladiador, con lo bueno, con lo malo, y con lo que las películas no te cuentan."
+ },
+ {
+  "i": 5,
+  "text": "Él es Félix. Su nombre significa afortunado, y vamos a ver si es verdad.",
+  "start": 20.004,
+  "end": 24.709,
+  "sim": 1.0,
+  "oido": "Él es Félix, su nombre significa afortunado, y vamos a ver si es verdad."
+ },
+ {
+  "i": 6,
+  "text": "Félix es galo y esclavo. Su dueño lo ha vendido a una escuela de gladiadores de Roma.",
+  "start": 25.009,
+  "end": 30.037,
+  "sim": 1.0,
+  "oido": "Félix es galo y esclavo. Su dueño lo ha vendido a una escuela de gladiadores de Roma."
+ },
+ {
+  "i": 7,
+  "text": "Y aquí va la primera sorpresa: no todos los gladiadores eran esclavos.",
+  "start": 30.337,
+  "end": 34.906,
+  "sim": 1.0,
+  "oido": "Y aquí va la primera sorpresa. No todos los gladiadores eran esclavos."
+ },
+ {
+  "i": 8,
+  "text": "Algunos hombres libres se vendían a una escuela por un tiempo y un dinero. Casi siempre, porque eran pobres.",
+  "start": 35.206,
+  "end": 40.936,
+  "sim": 1.0,
+  "oido": "Algunos hombres libres se vendían a una escuela por un tiempo y un dinero, casi siempre, porque eran pobres."
+ },
+ {
+  "i": 9,
+  "text": "Félix no eligió nada. A él lo trajeron encadenado.",
+  "start": 41.236,
+  "end": 44.546,
+  "sim": 1.0,
+  "oido": "Félix no eligió nada. A él lo trajeron encadenado."
+ },
+ {
+  "i": 10,
+  "text": "Segunda sorpresa: Félix es galo, pero no va a luchar como un galo.",
+  "start": 44.846,
+  "end": 48.682,
+  "sim": 1.0,
+  "oido": "Segunda sorpresa, Félix es galo, pero no va a luchar como un galo."
+ },
+ {
+  "i": 11,
+  "text": "Antes existía un gladiador llamado así, el galo, que salía a la arena vestido de enemigo de Roma.",
+  "start": 48.982,
+  "end": 55.702,
+  "sim": 1.0,
+  "oido": "Antes existía un gladiador llamado así, el galo, que salía a la arena vestido de enemigo de Roma."
+ },
+ {
+  "i": 12,
+  "text": "Pero la Galia ya es parte del imperio, y quedaba feo sacar a los galos como enemigos.",
+  "start": 56.002,
+  "end": 60.923,
+  "sim": 1.0,
+  "oido": "pero la Galia ya es parte del imperio y quedaba feo sacar a los galos como enemigos."
+ },
+ {
+  "i": 13,
+  "text": "Así que lo cambiaron por otro tipo de gladiador. Y ese va a ser el de Félix.",
+  "start": 61.223,
+  "end": 65.834,
+  "sim": 1.0,
+  "oido": "Así que lo cambiaron por otro tipo de gladiador, y ese va a ser el de Félix."
+ },
+ {
+  "i": 14,
+  "text": "Una cosa más antes de arrancar. Para la ley romana, los gladiadores están al nivel de los actores y las prostitutas.",
+  "start": 66.134,
+  "end": 73.371,
+  "sim": 1.0,
+  "oido": "Una cosa más antes de arrancar. Para la ley romana, los gladiadores están al nivel de los actores y las prostitutas."
+ },
+ {
+  "i": 15,
+  "text": "Pero el público los adora como a estrellas.",
+  "start": 73.671,
+  "end": 76.087,
+  "sim": 1.0,
+  "oido": "pero el público los adora como a estrellas."
+ },
+ {
+  "i": 16,
+  "text": "Esa es la gran paradoja del gladiador: nadie quiere ser uno, pero todos quieren verlo.",
+  "start": 76.387,
+  "end": 81.92,
+  "sim": 1.0,
+  "oido": "Esa es la gran paradoja del gladiador. Nadie quiere ser uno, pero todos quieren verlo."
+ },
+ {
+  "i": 17,
+  "text": "Semana uno. Luna nueva.",
+  "start": 83.32,
+  "end": 85.585,
+  "sim": 1.0,
+  "oido": "Semana 1: Luna Nueva."
+ },
+ {
+  "i": 18,
+  "text": "Félix llega a la escuela atado a otros prisioneros.",
+  "start": 85.885,
+  "end": 89.646,
+  "sim": 1.0,
+  "oido": "Félix llega a la escuela atado a otros prisioneros."
+ },
+ {
+  "i": 19,
+  "text": "El dueño de la escuela es el lanista. A menudo es un antiguo gladiador, y ahora vive de alquilar a los suyos.",
+  "start": 89.946,
+  "end": 96.239,
+  "sim": 1.0,
+  "oido": "El dueño de la escuela es el lanista. A menudo es un antiguo gladiador y ahora vive de alquilar a los suyos."
+ },
+ {
+  "i": 20,
+  "text": "Para él, Félix no es una persona. Es una inversión.",
+  "start": 96.539,
+  "end": 99.89,
+  "sim": 1.0,
+  "oido": "Para él, Félix no es una persona, es una inversión."
+ },
+ {
+  "i": 21,
+  "text": "Lo primero es el juramento. Lo llaman sacramentum.",
+  "start": 100.19,
+  "end": 103.379,
+  "sim": 1.0,
+  "oido": "Lo primero es el juramento. Lo llaman sacramentum."
+ },
+ {
+  "i": 22,
+  "text": "Félix jura dejarse quemar, encadenar, golpear y matar a hierro.",
+  "start": 103.679,
+  "end": 108.519,
+  "sim": 1.0,
+  "oido": "Félix jura dejarse quemar, encadenar, golpear y matar a Hierro."
+ },
+ {
+  "i": 23,
+  "text": "El filósofo Séneca dijo que eran las palabras del contrato más deshonroso.",
+  "start": 108.819,
+  "end": 112.808,
+  "sim": 1.0,
+  "oido": "El filósofo Seneca dijo que eran las palabras del contrato más deshonroso."
+ },
+ {
+  "i": 24,
+  "text": "Desde ese momento, su cuerpo es de la escuela.",
+  "start": 113.108,
+  "end": 115.623,
+  "sim": 1.0,
+  "oido": "Desde ese momento su cuerpo es de la escuela."
+ },
+ {
+  "i": 25,
+  "text": "Luego le enseñan dónde va a dormir.",
+  "start": 115.923,
+  "end": 118.036,
+  "sim": 1.0,
+  "oido": "Luego le enseñan dónde va a dormir."
+ },
+ {
+  "i": 26,
+  "text": "Es un cuarto diminuto, uno de muchos alrededor de un patio de entrenamiento.",
+  "start": 118.336,
+  "end": 122.454,
+  "sim": 1.0,
+  "oido": "Es un cuarto diminuto, uno de muchos alrededor de un patio de entrenamiento."
+ },
+ {
+  "i": 27,
+  "text": "¿Y cómo lo sabemos? Por Pompeya.",
+  "start": 122.754,
+  "end": 127.16,
+  "sim": 1.0,
+  "oido": "Y como lo sabemos, por Pompeya."
+ },
+ {
+  "i": 28,
+  "text": "El año pasado, el Vesubio sepultó Pompeya, y con ella su cuartel de gladiadores.",
+  "start": 127.46,
+  "end": 132.871,
+  "sim": 1.0,
+  "oido": "El año pasado, el Vesubio sepultó Pompeya y con ella su cuartel de gladiadores."
+ },
+ {
+  "i": 29,
+  "text": "Los arqueólogos han encontrado allí cuartos como este, grafitis de gladiadores y unos hierros para atar los pies a los castigados.",
+  "start": 133.171,
+  "end": 140.634,
+  "sim": 1.0,
+  "oido": "Los arqueólogos han encontrado allí cuartos como este, grafitis de gladiadores y unos hierros para atar los pies a los castigados."
+ },
+ {
+  "i": 30,
+  "text": "Porque aquí las normas son duras. A los gladiadores los vigilan día y noche.",
+  "start": 140.934,
+  "end": 145.273,
+  "sim": 0.929,
+  "oido": "porque aquí las normas son duras. A los gladiadores nos vigilan día y noche."
+ },
+ {
+  "i": 31,
+  "text": "Algunos intentan escapar, y otros prefieren morir antes que salir a la arena.",
+  "start": 145.573,
+  "end": 150.379,
+  "sim": 1.0,
+  "oido": "Algunos intentan escapar y otros prefieren morir antes que salir a la arena."
+ },
+ {
+  "i": 32,
+  "text": "Y en Roma nadie olvida a Espartaco. Siglo y medio antes, escapó de una escuela de Capua con unos setenta compañeros, armados con cuchillos y pinchos de asar.",
+  "start": 150.679,
+  "end": 160.155,
+  "sim": 0.964,
+  "oido": "y en Roma nadie olvida a Espartaco. Siglo y medio antes, escapó de una escuela de capua con unos 70 compañeros, armados con cuchillos y pinchos de azar."
+ },
+ {
+  "i": 33,
+  "text": "Aquello acabó en una guerra, y con unos seis mil rebeldes ejecutados a lo largo de la vía Apia.",
+  "start": 160.455,
+  "end": 165.587,
+  "sim": 1.0,
+  "oido": "Aquello acabó en una guerra, y con unos 6.000 rebeldes ejecutados a lo largo de la vía Apia,"
+ },
+ {
+  "i": 34,
+  "text": "Ahora, la comida. Y aquí viene el primer dato raro.",
+  "start": 165.887,
+  "end": 169.01,
+  "sim": 1.0,
+  "oido": "Ahora, la comida, y aquí viene el primer dato raro."
+ },
+ {
+  "i": 35,
+  "text": "Los gladiadores no estaban secos y marcados como en las películas.",
+  "start": 169.31,
+  "end": 173.206,
+  "sim": 1.0,
+  "oido": "Los gladiadores no estaban secos y marcados como en las películas."
+ },
+ {
+  "i": 36,
+  "text": "Comían tanta cebada y tantas legumbres que los llamaban así: los de la cebada.",
+  "start": 173.506,
+  "end": 178.67,
+  "sim": 1.0,
+  "oido": "Comían tanta cebada y tantas legumbres que los llamaban así, los de la cebada."
+ },
+ {
+  "i": 37,
+  "text": "Esa dieta les ponía una capa de grasa sobre el músculo.",
+  "start": 178.97,
+  "end": 181.857,
+  "sim": 1.0,
+  "oido": "Esa dieta les ponía una capa de grasa sobre el músculo."
+ },
+ {
+  "i": 38,
+  "text": "Y para los huesos, tomaban una bebida hecha con polvo de plantas quemadas.",
+  "start": 182.157,
+  "end": 187.369,
+  "sim": 1.0,
+  "oido": "Y para los huesos, tomaban una bebida hecha con polvo de plantas quemadas."
+ },
+ {
+  "i": 39,
+  "text": "Un estudio moderno de huesos de gladiadores apunta a lo mismo.",
+  "start": 187.669,
+  "end": 191.44,
+  "sim": 1.0,
+  "oido": "Un estudio moderno de huesos de gladiadores apunta a lo mismo."
+ },
+ {
+  "i": 40,
+  "text": "Félix prueba la bebida. Sabe a hoguera apagada.",
+  "start": 191.74,
+  "end": 194.529,
+  "sim": 1.0,
+  "oido": "Félix prueba la bebida. Sabe a hoguera apagada."
+ },
+ {
+  "i": 41,
+  "text": "Y después llega el primer entrenamiento.",
+  "start": 194.829,
+  "end": 197.087,
+  "sim": 1.0,
+  "oido": "Y después llega el primer entrenamiento."
+ },
+ {
+  "i": 42,
+  "text": "Le dan una espada de madera y un escudo de mimbre.",
+  "start": 197.387,
+  "end": 200.119,
+  "sim": 1.0,
+  "oido": "Le dan una espada de madera y un escudo de mimbre."
+ },
+ {
+  "i": 43,
+  "text": "Y le señalan un poste de madera clavado en el suelo, más o menos de su altura.",
+  "start": 200.419,
+  "end": 204.392,
+  "sim": 1.0,
+  "oido": "y le señalan un poste de madera clavado en el suelo, más o menos de su altura."
+ },
+ {
+  "i": 44,
+  "text": "Ese poste se llama palus. Y va a ser su rival durante semanas.",
+  "start": 204.692,
+  "end": 208.426,
+  "sim": 1.0,
+  "oido": "Ese poste se llama Palus y va a ser su rival durante semanas."
+ },
+ {
+  "i": 45,
+  "text": "Al terminar el día, se rascan el sudor, el aceite y la arena con el estrígilo, una rasqueta curva de metal.",
+  "start": 208.726,
+  "end": 215.186,
+  "sim": 1.0,
+  "oido": "Al terminar el día, se rascan el sudor, el aceite y la arena con el estrígilo, una rasqueta curva de metal."
+ },
+ {
+  "i": 46,
+  "text": "Félix se tumba en su cuarto. Le duele todo. Y solo es el primer día.",
+  "start": 215.486,
+  "end": 219.412,
+  "sim": 1.0,
+  "oido": "Félix se tumba en su cuarto. Le duele todo y solo es el primer día."
+ },
+ {
+  "i": 47,
+  "text": "Semana dos. La luna engorda. Y Félix, con tanta cebada, también.",
+  "start": 220.812,
+  "end": 225.358,
+  "sim": 1.0,
+  "oido": "semana 2 la luna engorda y félix con tanta cebada también"
+ },
+ {
+  "i": 48,
+  "text": "Cada mañana, golpe tras golpe contra el palus.",
+  "start": 225.658,
+  "end": 228.604,
+  "sim": 1.0,
+  "oido": "Cada mañana, golpe tras golpe contra el palus."
+ },
+ {
+  "i": 49,
+  "text": "Según un manual militar romano, en el palus se entrenaba con armas más pesadas que las de verdad. Así, el día del combate, la espada de verdad se nota ligera.",
+  "start": 228.904,
+  "end": 238.105,
+  "sim": 1.0,
+  "oido": "según un manual militar romano, en el palus se entrenaba con armas más pesadas que las de verdad. Así, el día del combate, la espada de verdad se nota ligera."
+ },
+ {
+  "i": 50,
+  "text": "Le entrenan los doctores. No son médicos: son maestros, casi siempre antiguos gladiadores.",
+  "start": 238.405,
+  "end": 244.725,
+  "sim": 1.0,
+  "oido": "le entrenan los doctores, no son médicos, son maestros, casi siempre antiguos gladiadores."
+ },
+ {
+  "i": 51,
+  "text": "Porque en la arena hay muchos tipos de gladiador, y cada tipo tiene sus propios maestros.",
+  "start": 245.025,
+  "end": 250.089,
+  "sim": 1.0,
+  "oido": "porque en la arena hay muchos tipos de gladiador, y cada tipo tiene sus propios maestros."
+ },
+ {
+  "i": 52,
+  "text": "El hoplómaco va vestido de soldado griego, con un escudo redondo y pequeño.",
+  "start": 250.389,
+  "end": 254.539,
+  "sim": 0.923,
+  "oido": "El oplómaco va vestido de soldado griego, con un escudo redondo y pequeño."
+ },
+ {
+  "i": 53,
+  "text": "El secutor lleva un casco liso y redondo, con dos agujeros diminutos para ver. Así no se le engancha la red.",
+  "start": 254.839,
+  "end": 262.039,
+  "sim": 1.0,
+  "oido": "El secutor lleva un casco liso y redondo, con dos agujeros diminutos para ver, así no se le engancha la red."
+ },
+ {
+  "i": 54,
+  "text": "Y hay gladiadores que salen a caballo, y otros que entran en un carro de guerra.",
+  "start": 262.339,
+  "end": 266.805,
+  "sim": 1.0,
+  "oido": "Y hay gladiadores que salen a caballo y otros que entran en un carro de guerra."
+ },
+ {
+  "i": 55,
+  "text": "¿Y Félix? Félix será mirmillón.",
+  "start": 267.105,
+  "end": 271.864,
+  "sim": 1.0,
+  "oido": "Y Félix, Félix será mirmillón."
+ },
+ {
+  "i": 56,
+  "text": "Un casco enorme con un pescado en lo alto, un escudo grande y rectangular y una espada corta.",
+  "start": 272.164,
+  "end": 277.692,
+  "sim": 1.0,
+  "oido": "Un casco enorme con un pescado en lo alto, un escudo grande y rectangular y una espada corta."
+ },
+ {
+  "i": 57,
+  "text": "Sí, un pescado. Nadie dijo que fuera elegante.",
+  "start": 277.992,
+  "end": 281.461,
+  "sim": 1.0,
+  "oido": "Sí, un pescado. Nadie dijo que fuera elegante."
+ },
+ {
+  "i": 58,
+  "text": "Y su rival va a ser el más raro de todos: el reciario.",
+  "start": 281.761,
+  "end": 285.007,
+  "sim": 1.0,
+  "oido": "Y su rival va a ser el más raro de todos, el reciario."
+ },
+ {
+  "i": 59,
+  "text": "Sin casco y sin escudo. Solo una red, un tridente y un puñal.",
+  "start": 285.307,
+  "end": 289.821,
+  "sim": 1.0,
+  "oido": "sin casco y sin escudo, solo una red, un tridente y un puñal."
+ },
+ {
+  "i": 60,
+  "text": "Suena injusto. Pero el reciario es mucho más rápido, y si te atrapa la red, se acabó.",
+  "start": 290.121,
+  "end": 296.139,
+  "sim": 0.941,
+  "oido": "Suena injusto, pero el resiario es mucho más rápido y si te atrapa la red se acabó."
+ },
+ {
+  "i": 61,
+  "text": "Años después, los mejores gladiadores presumían en sus lápidas de ser del primer palo, la categoría más alta. Félix, de momento, es del último palo.",
+  "start": 296.439,
+  "end": 305.226,
+  "sim": 1.0,
+  "oido": "Años después, los mejores gladiadores presumían en sus lápidas de ser del primer palo, la categoría más alta. Félix, de momento, es del último palo."
+ },
+ {
+  "i": 62,
+  "text": "Entrenar duele. Hay cortes, moratones y golpes en la frente.",
+  "start": 305.526,
+  "end": 309.351,
+  "sim": 1.0,
+  "oido": "Entrenar duele. Hay cortes, moratones y golpes en la frente."
+ },
+ {
+  "i": 63,
+  "text": "Pero un gladiador vale mucho dinero, así que el lanista lo cuida. Hay masajistas, y hay médicos.",
+  "start": 309.651,
+  "end": 315.394,
+  "sim": 1.0,
+  "oido": "Pero un gladiador vale mucho dinero, así que el lanista lo cuida, hay masajistas y hay médicos."
+ },
+ {
+  "i": 64,
+  "text": "En Éfeso hay tumbas de gladiadores de un siglo después.",
+  "start": 315.694,
+  "end": 318.945,
+  "sim": 1.0,
+  "oido": "En Éfeso hay tumbas de gladiadores de un siglo después."
+ },
+ {
+  "i": 65,
+  "text": "Casi todos tenían entre veinte y treinta años. Y muchos llevaban heridas bien curadas.",
+  "start": 319.245,
+  "end": 324.151,
+  "sim": 1.0,
+  "oido": "Casi todos tenían entre 20 y 30 años, y muchos llevaban heridas bien curadas."
+ },
+ {
+  "i": 66,
+  "text": "Eso significa que tenían buenos médicos.",
+  "start": 324.451,
+  "end": 326.784,
+  "sim": 1.0,
+  "oido": "Eso significa que tenían buenos médicos."
+ },
+ {
+  "i": 67,
+  "text": "Pero en una de esas tumbas hay un cráneo con tres agujeros en línea. Los dejó un tridente.",
+  "start": 327.084,
+  "end": 332.257,
+  "sim": 1.0,
+  "oido": "Pero en una de esas tumbas hay un cráneo con tres agujeros en línea. Los dejó un tridente."
+ },
+ {
+  "i": 68,
+  "text": "Décadas después, el médico de los gladiadores de Pérgamo, Galeno, acabó siendo médico del emperador Marco Aurelio.",
+  "start": 332.557,
+  "end": 339.29,
+  "sim": 1.0,
+  "oido": "Décadas después, el médico de los gladiadores de Pérgamo, Galeno, acabó siendo médico del emperador Marco Aurelio."
+ },
+ {
+  "i": 69,
+  "text": "Y ahora, un remedio muy romano: algunos bebían sangre de gladiador para curar la epilepsia. Lo contó Plinio.",
+  "start": 339.59,
+  "end": 346.826,
+  "sim": 1.0,
+  "oido": "Y ahora, un remedio muy romano, algunos bebían sangre de gladiador para curar la epilepsia, lo contó Plinio."
+ },
+ {
+  "i": 70,
+  "text": "Félix, de momento, prefiere guardarse la suya.",
+  "start": 347.126,
+  "end": 349.705,
+  "sim": 1.0,
+  "oido": "Félix, de momento, prefiere guardarse la suya."
+ },
+ {
+  "i": 71,
+  "text": "Al final de la semana, el lanista entra en el patio con una novedad. Hay juegos. Y no unos juegos cualquiera.",
+  "start": 350.005,
+  "end": 356.216,
+  "sim": 1.0,
+  "oido": "Al final de la semana, el lanista entra en el patio con una novedad. Hay juegos, y no unos juegos cualquiera."
+ },
+ {
+  "i": 72,
+  "text": "Semana tres. Luna llena. Y es la semana más importante de su vida.",
+  "start": 357.616,
+  "end": 362.088,
+  "sim": 1.0,
+  "oido": "Semana 3. Luna llena y es la semana más importante de su vida."
+ },
+ {
+  "i": 73,
+  "text": "Por las paredes de Roma hay carteles nuevos, pintados a mano.",
+  "start": 362.388,
+  "end": 366.703,
+  "sim": 1.0,
+  "oido": "Por las paredes de Roma hay carteles nuevos, pintados a mano."
+ },
+ {
+  "i": 74,
+  "text": "Así se avisaba de los juegos: quién pagaba, cuántas parejas luchaban y los extras.",
+  "start": 367.003,
+  "end": 371.665,
+  "sim": 1.0,
+  "oido": "Así se avisaba de los juegos, quién pagaba, cuántas parejas luchaban y los extras."
+ },
+ {
+  "i": 75,
+  "text": "En Pompeya se conservan muchos. Uno promete fieras y toldos para la sombra.",
+  "start": 371.965,
+  "end": 376.476,
+  "sim": 1.0,
+  "oido": "En Pompeya se conservan muchos. Uno promete fieras y toldos para la sombra."
+ },
+ {
+  "i": 76,
+  "text": "Pero este cartel es distinto. El emperador Tito estrena el anfiteatro Flavio. Nosotros lo llamamos Coliseo.",
+  "start": 376.776,
+  "end": 384.056,
+  "sim": 1.0,
+  "oido": "Pero este cartel es distinto. El emperador Tito estrena el anfiteatro Flavio. Nosotros lo llamamos Coliseo."
+ },
+ {
+  "i": 77,
+  "text": "Caben unas cincuenta mil personas, la entrada es gratis y la fiesta dura más de tres meses.",
+  "start": 384.356,
+  "end": 390.056,
+  "sim": 1.0,
+  "oido": "caben unas 50,000 personas, la entrada es gratis y la fiesta dura más de tres meses."
+ },
+ {
+  "i": 78,
+  "text": "La víspera, hay un banquete público para los gladiadores. Se llama cena libera.",
+  "start": 390.356,
+  "end": 394.945,
+  "sim": 1.0,
+  "oido": "La víspera hay un banquete público para los gladiadores. Se llama Cena Libera."
+ },
+ {
+  "i": 79,
+  "text": "La gente entra a mirar a los gladiadores mientras comen, como quien mira animales en una jaula.",
+  "start": 395.245,
+  "end": 400.105,
+  "sim": 1.0,
+  "oido": "La gente entra a mirar a los gladiadores mientras comen como quien mira animales en una jaula."
+ },
+ {
+  "i": 80,
+  "text": "Hay comida buena, la primera en semanas. Pero muchos casi no la tocan.",
+  "start": 400.405,
+  "end": 404.088,
+  "sim": 1.0,
+  "oido": "Hay comida buena, la primera en semanas, pero muchos casi no la tocan."
+ },
+ {
+  "i": 81,
+  "text": "Aprovechan para despedirse, dejar a su mujer al cuidado de un amigo y liberar a sus esclavos.",
+  "start": 404.388,
+  "end": 409.536,
+  "sim": 1.0,
+  "oido": "Aprovechan para despedirse, dejar a su mujer al cuidado de un amigo y liberar a sus esclavos."
+ },
+ {
+  "i": 82,
+  "text": "Félix no tiene mujer ni esclavos. Así que se come también lo de su compañero.",
+  "start": 409.836,
+  "end": 413.726,
+  "sim": 1.0,
+  "oido": "Félix no tiene mujer ni esclavos, así que se come también lo de su compañero."
+ },
+ {
+  "i": 83,
+  "text": "Al día siguiente, desfile. Lo llaman la pompa.",
+  "start": 414.026,
+  "end": 416.801,
+  "sim": 1.0,
+  "oido": "Al día siguiente, desfile. Lo llaman la pompa."
+ },
+ {
+  "i": 84,
+  "text": "Entran los gladiadores y el hombre que paga los juegos, con trompetas, cuernos gigantes y un órgano que suena con agua.",
+  "start": 417.101,
+  "end": 423.027,
+  "sim": 0.952,
+  "oido": "Entran los lareadores y el hombre que paga los juegos, con trompetas, cuernos gigantes y un órgano que suena con agua."
+ },
+ {
+  "i": 85,
+  "text": "Sí, la arena tenía banda sonora.",
+  "start": 423.327,
+  "end": 425.703,
+  "sim": 1.0,
+  "oido": "Sí, la arena tenía banda sonora."
+ },
+ {
+  "i": 86,
+  "text": "Por la mañana salen las fieras: leones, osos y animales de todo tipo.",
+  "start": 426.003,
+  "end": 430.472,
+  "sim": 1.0,
+  "oido": "Por la mañana salen las fieras, leones, osos y animales de todo tipo."
+ },
+ {
+  "i": 87,
+  "text": "En estos juegos de estreno mueren miles de animales.",
+  "start": 430.772,
+  "end": 433.673,
+  "sim": 1.0,
+  "oido": "En estos juegos de estreno mueren miles de animales."
+ },
+ {
+  "i": 88,
+  "text": "Y Tito tira al público bolitas de madera con premios escritos: comida, ropa, platos de plata, caballos y hasta esclavos.",
+  "start": 433.973,
+  "end": 441.693,
+  "sim": 1.0,
+  "oido": "Y Tito tira al público bolitas de madera con premios escritos: comida, ropa, platos de plata, caballos y hasta esclavos."
+ },
+ {
+  "i": 89,
+  "text": "Quien la atrapa, se lleva el regalo. Como una rifa, pero a lo bestia.",
+  "start": 441.993,
+  "end": 446.466,
+  "sim": 1.0,
+  "oido": "Quien la atrapa se lleva el regalo, como una rifa, pero a lo bestia."
+ },
+ {
+  "i": 90,
+  "text": "A mediodía matan a los condenados a muerte. Séneca lo llamó puro asesinato.",
+  "start": 446.766,
+  "end": 451.723,
+  "sim": 1.0,
+  "oido": "a mediodía matan a los condenados a muerte. Séneca lo llamó puro asesinato."
+ },
+ {
+  "i": 91,
+  "text": "Y por la tarde, por fin, los gladiadores. Félix espera junto a la puerta, escuchando rugir al público.",
+  "start": 452.023,
+  "end": 459.7,
+  "sim": 0.944,
+  "oido": "Y por la tarde, por fin, los glariadores. Félix espera junto a la puerta, escuchando rugir al público."
+ },
+ {
+  "i": 92,
+  "text": "Suena el cuerno. Félix sale a la arena. Delante, el reciario.",
+  "start": 460.0,
+  "end": 464.343,
+  "sim": 0.909,
+  "oido": "Suena el cuerno. Félix sale a la arena. Delante, el resiario."
+ },
+ {
+  "i": 93,
+  "text": "Y en medio, el árbitro, con una vara larga para separarlos.",
+  "start": 464.643,
+  "end": 468.126,
+  "sim": 1.0,
+  "oido": "y en medio el árbitro con una vara larga para separarlos."
+ },
+ {
+  "i": 94,
+  "text": "El reciario tira la red. Falla. Félix ataca.",
+  "start": 468.426,
+  "end": 472.103,
+  "sim": 0.824,
+  "oido": "El resiario tira a la red. Falla. Félix ataca."
+ },
+ {
+  "i": 95,
+  "text": "El tridente le araña el hombro. Félix resbala y cae.",
+  "start": 472.403,
+  "end": 475.827,
+  "sim": 1.0,
+  "oido": "El tridente le araña el hombro. Félix resbala y cae."
+ },
+ {
+  "i": 96,
+  "text": "La red le atrapa el escudo. Todo el anfiteatro grita al mismo tiempo.",
+  "start": 476.127,
+  "end": 480.532,
+  "sim": 1.0,
+  "oido": "La red le atrapa el escudo. Todo el anfiteatro grita al mismo tiempo."
+ },
+ {
+  "i": 97,
+  "text": "El reciario levanta el tridente. ¿Es el final?",
+  "start": 480.832,
+  "end": 483.836,
+  "sim": 0.875,
+  "oido": "El resiario levanta el tridente, ¿es el final?"
+ },
+ {
+  "i": 98,
+  "text": "Félix levanta un dedo. Es la señal para pedir piedad. Se llama missio.",
+  "start": 484.536,
+  "end": 488.24,
+  "sim": 0.923,
+  "oido": "Félix levanta un dedo. Es la señal para pedir piedad. Se llama Micio."
+ },
+ {
+  "i": 99,
+  "text": "Y aquí viene el gran mito: el pulgar para abajo.",
+  "start": 488.54,
+  "end": 491.575,
+  "sim": 1.0,
+  "oido": "Y aquí viene el gran mito: el pulgar para abajo."
+ },
+ {
+  "i": 100,
+  "text": "En realidad, nadie sabe seguro qué gesto pedía la muerte, ni si era el pulgar arriba o abajo.",
+  "start": 491.875,
+  "end": 497.683,
+  "sim": 1.0,
+  "oido": "En realidad, nadie sabe seguro qué gesto pedía la muerte, ni si era el pulgar arriba o abajo."
+ },
+ {
+  "i": 101,
+  "text": "Hoy el público grita otra cosa: que viva. Y el emperador asiente.",
+  "start": 497.983,
+  "end": 503.862,
+  "sim": 1.0,
+  "oido": "Hoy el público grita otra cosa, que viva, y el emperador asiente."
+ },
+ {
+  "i": 102,
+  "text": "Félix ha perdido. Pero sigue vivo. Al final, su nombre no mentía.",
+  "start": 504.162,
+  "end": 507.749,
+  "sim": 1.0,
+  "oido": "Félix ha perdido, pero sigue vivo. Al final, su nombre no mentía."
+ },
+ {
+  "i": 103,
+  "text": "Y esa misma tarde, otro combate va a pasar a la historia.",
+  "start": 508.049,
+  "end": 511.323,
+  "sim": 1.0,
+  "oido": "Y esa misma tarde, otro combate va a pasar a la historia."
+ },
+ {
+  "i": 104,
+  "text": "Semana cuatro. La luna mengua, y la herida de Félix se cura.",
+  "start": 512.723,
+  "end": 517.242,
+  "sim": 1.0,
+  "oido": "Semana 4. La luna mengua y la herida de Félix se cura."
+ },
+ {
+  "i": 105,
+  "text": "Ha perdido, pero el público lo vio aguantar. Y en Roma, eso da fama.",
+  "start": 517.542,
+  "end": 522.044,
+  "sim": 1.0,
+  "oido": "Ha perdido, pero el público lo vio aguantar. Y en Roma eso da fama."
+ },
+ {
+  "i": 106,
+  "text": "Porque los gladiadores eran estrellas. En Pompeya hay pintadas que llaman a un gladiador el suspiro de las chicas.",
+  "start": 522.344,
+  "end": 528.688,
+  "sim": 1.0,
+  "oido": "Porque los gladiadores eran estrellas. En Pompeya hay pintadas que llaman a un gladiador el suspiro de las chicas."
+ },
+ {
+  "i": 107,
+  "text": "Los hinchas pedían el programa de los combates y apostaban por su favorito.",
+  "start": 528.988,
+  "end": 533.152,
+  "sim": 1.0,
+  "oido": "Los hinchas pedían el programa de los combates y apostaban por su favorito."
+ },
+ {
+  "i": 108,
+  "text": "Y había recuerdos para los fans: vasos de vidrio con nombres de gladiadores famosos y lámparas de barro con combates.",
+  "start": 533.452,
+  "end": 539.994,
+  "sim": 1.0,
+  "oido": "Y había recuerdos para los fans, vasos de vidrio con nombres de gladiadores famosos y lámparas de barro con combates."
+ },
+ {
+  "i": 109,
+  "text": "Como la camiseta de tu jugador favorito, pero en vidrio.",
+  "start": 540.294,
+  "end": 543.31,
+  "sim": 1.0,
+  "oido": "como la camiseta de tu jugador favorito, pero en vidrio."
+ },
+ {
+  "i": 110,
+  "text": "Ahora, un mito: cuentan que las romanas compraban el sudor de los gladiadores como perfume.",
+  "start": 543.61,
+  "end": 548.372,
+  "sim": 1.0,
+  "oido": "Ahora, un mito. Cuentan que las romanas compraban el sudor de los gladiadores como perfume."
+ },
+ {
+  "i": 111,
+  "text": "En realidad, ninguna fuente antigua lo cuenta. Lo que sí se vendía como remedio era la mugre de los atletas.",
+  "start": 548.672,
+  "end": 555.709,
+  "sim": 1.0,
+  "oido": "En realidad, ninguna fuente antigua lo cuenta. Lo que sí se vendía como remedio era la mugre de los atletas."
+ },
+ {
+  "i": 112,
+  "text": "¿Y el dinero? El que gana se lleva una palma y monedas de oro.",
+  "start": 556.009,
+  "end": 559.386,
+  "sim": 1.0,
+  "oido": "Y el dinero, el que gana se lleva una palma y monedas de oro."
+ },
+ {
+  "i": 113,
+  "text": "El emperador Claudio contaba esas monedas con los dedos, a gritos, junto con el público.",
+  "start": 559.686,
+  "end": 564.762,
+  "sim": 1.0,
+  "oido": "El emperador Claudio contaba esas monedas con los dedos, a gritos, junto con el público."
+ },
+ {
+  "i": 114,
+  "text": "Y Nerón regaló al gladiador Espículo casas y fincas, como las de un general victorioso.",
+  "start": 565.062,
+  "end": 570.619,
+  "sim": 1.0,
+  "oido": "Y Nerón regaló al gladiador espículo casas y fincas, como las de un general victorioso."
+ },
+ {
+  "i": 115,
+  "text": "Y no todo eran hombres. En estos mismos juegos, según un historiador posterior, hubo mujeres que mataron fieras.",
+  "start": 570.919,
+  "end": 577.77,
+  "sim": 1.0,
+  "oido": "y no todo eran hombres. En estos mismos juegos, según un historiador posterior, hubo mujeres que mataron fieras."
+ },
+ {
+  "i": 116,
+  "text": "Y en un relieve de Halicarnaso salen dos mujeres gladiadoras.",
+  "start": 578.07,
+  "end": 581.572,
+  "sim": 0.9,
+  "oido": "Y en un relieve de alicarnazo salen dos mujeres gladiadoras."
+ },
+ {
+  "i": 117,
+  "text": "Y ahora, el combate que Félix vio aquella misma tarde.",
+  "start": 581.872,
+  "end": 585.326,
+  "sim": 1.0,
+  "oido": "Y ahora, el combate que Félix vio aquella misma tarde."
+ },
+ {
+  "i": 118,
+  "text": "Dos gladiadores, Prisco y Vero, lucharon tanto tiempo y tan igualados que ninguno lograba ganar.",
+  "start": 585.626,
+  "end": 591.0,
+  "sim": 1.0,
+  "oido": "Dos gladiadores, Prisco y Vero, lucharon tanto tiempo y tan igualados que ninguno lograba ganar."
+ },
+ {
+  "i": 119,
+  "text": "Al final, Tito les dio la palma a los dos. Y también la rudis, la espada de madera.",
+  "start": 591.3,
+  "end": 596.213,
+  "sim": 1.0,
+  "oido": "Al final, Tito les dio la palma a los dos y también la rudis, la espada de madera."
+ },
+ {
+  "i": 120,
+  "text": "Un empate. En la arena. Delante del emperador.",
+  "start": 596.513,
+  "end": 599.317,
+  "sim": 1.0,
+  "oido": "Un empate en la arena delante del emperador"
+ },
+ {
+  "i": 121,
+  "text": "Lo contó un poeta que estaba allí. Es el único combate de gladiadores contado con detalle que ha llegado hasta hoy.",
+  "start": 599.617,
+  "end": 605.36,
+  "sim": 1.0,
+  "oido": "Lo contó un poeta que estaba allí. Es el único combate de gladiadores contado con detalle que ha llegado hasta hoy."
+ },
+ {
+  "i": 122,
+  "text": "La rudis era el retiro: ya no tenías que volver a luchar. Y en algunos casos, la libertad.",
+  "start": 605.66,
+  "end": 610.544,
+  "sim": 0.944,
+  "oido": "la rudicia era el retiro, ya no tenías que volver a luchar, y en algunos casos, la libertad."
+ },
+ {
+  "i": 123,
+  "text": "Félix mira esas dos espadas de madera. Él también quiere una.",
+  "start": 610.844,
+  "end": 614.365,
+  "sim": 1.0,
+  "oido": "Félix, mira esas dos espadas de madera, él también quiere una."
+ },
+ {
+  "i": 124,
+  "text": "Así que, al día siguiente, vuelve al palus. Y la luna se apaga.",
+  "start": 614.665,
+  "end": 619.143,
+  "sim": 0.963,
+  "oido": "Así que al día siguiente, vuelve al Palus y la luna se apaga. Eikinip."
+ },
+ {
+  "i": 125,
+  "text": "Y bien, ¿era una buena vida o una mala vida?",
+  "start": 620.543,
+  "end": 624.473,
+  "sim": 1.0,
+  "oido": "Y bien, ¿era una buena vida o una mala vida?"
+ },
+ {
+  "i": 126,
+  "text": "Lo malo: eras propiedad de otro, la ley te trataba como basura y muchos morían entre los veinte y los treinta años.",
+  "start": 624.923,
+  "end": 632.34,
+  "sim": 1.0,
+  "oido": "Lo malo, eras propiedad de otro, la ley te trataba como basura, y muchos morían entre los 20 y los 30 años."
+ },
+ {
+  "i": 127,
+  "text": "Lo bueno: comida segura, médicos, entrenadores, fama, premios y el sueño de la rudis.",
+  "start": 632.64,
+  "end": 638.384,
+  "sim": 1.0,
+  "oido": "Lo bueno, comida segura, médicos, entrenadores, fama, premios y el sueño de la rudis."
+ },
+ {
+  "i": 128,
+  "text": "Y el dato más fuerte de todos. En tiempos de Félix, la mayoría de los combates no acababa en muerte.",
+  "start": 638.684,
+  "end": 644.336,
+  "sim": 1.0,
+  "oido": "Y el dato más fuerte de todos. En tiempos de Félix, la mayoría de los combates no acababa en muerte."
+ },
+ {
+  "i": 129,
+  "text": "Y un gladiador solo luchaba dos o tres combates al año.",
+  "start": 644.636,
+  "end": 647.772,
+  "sim": 1.0,
+  "oido": "y un gladiador solo luchaba dos o tres combates al año."
+ },
+ {
+  "i": 130,
+  "text": "O sea: su mes era casi todo entrenar, comer cebada y esperar.",
+  "start": 648.072,
+  "end": 652.258,
+  "sim": 1.0,
+  "oido": "O sea, su mes era casi todo entrenar, comer cebada y esperar."
+ },
+ {
+  "i": 131,
+  "text": "Hoy lo compararíamos con un boxeador profesional. Solo que él nunca eligió subir al ring.",
+  "start": 652.558,
+  "end": 657.787,
+  "sim": 1.0,
+  "oido": "Hoy lo compararíamos con un boxeador profesional, solo que él nunca eligió subir al ring."
+ },
+ {
+  "i": 132,
+  "text": "Así que ya sabes: comían cebada, tenían árbitro y eran famosos como estrellas del rock.",
+  "start": 658.087,
+  "end": 664.539,
+  "sim": 1.0,
+  "oido": "Así que ya sabes, comían cebada, tenían árbitro y eran famosos como estrellas del rock."
+ },
+ {
+  "i": 133,
+  "text": "Y cuando veas en una película un pulgar para abajo, acuérdate de Félix.",
+  "start": 664.839,
+  "end": 668.871,
+  "sim": 1.0,
+  "oido": "Y cuando veas en una película un pulgar para abajo, acuérdate de Félix."
+ },
+ {
+  "i": 134,
+  "text": "Si te ha gustado este viaje, suscríbete y dale a me gusta.",
+  "start": 670.271,
+  "end": 673.765,
+  "sim": 1.0,
+  "oido": "Si te ha gustado este viaje, suscríbete y dale a me gusta."
+ },
+ {
+  "i": 135,
+  "text": "Escribe en los comentarios la palabra gladiador. Y dime: ¿mirmillón o reciario?",
+  "start": 674.065,
+  "end": 679.343,
+  "sim": 1.0,
+  "oido": "Escribe en los comentarios la palabra gladiador y dime, ¿Mirmillón o Reciario?"
+ },
+ {
+  "i": 136,
+  "text": "Y mándaselo a ese amigo que se cree gladiador en el gimnasio, pero no aguantaría ni una semana de palus.",
+  "start": 679.793,
+  "end": 685.593,
+  "sim": 1.0,
+  "oido": "Y mándaselo a ese amigo que se cree gladiador en el gimnasio, pero no aguantaría ni una semana de palus."
+ },
+ {
+  "i": 137,
+  "text": "Nos vemos en el próximo viaje en el tiempo.",
+  "start": 685.893,
+  "end": 688.518,
+  "sim": 1.0,
+  "oido": "Nos vemos en el próximo viaje en el tiempo."
+ }
+]
