@@ -15,3 +15,4 @@
 2026-11-09 · 4 (adelanto) · Dirección · el proyecto del gladiador-mes no se había perdido (otra sesión lo subió); el rig del vikingo pasa a ser el de gladiador-mes (gm_lib, gl_fondos2, miniatura.mjs) y shorts.py de 1 minuto
 2026-11-09 · 3 · control-calidad · CAMBIOS (3 graves: frases copiadas en 17, 230, 231; 6 menores) · espero al verificador para devolver todo junto
 2026-11-09 · 3 · verificador · CAMBIOS NECESARIOS (2 de gravedad media: líneas 188 y 223; varios recomendados) · devuelto al guionista con lo de calidad, vuelta 1
+2026-11-09 · 3 · guionista · vuelta 1 aplicada (1.998 palabras, 238 líneas) · a re-revisión
