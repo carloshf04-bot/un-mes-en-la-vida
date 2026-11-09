@@ -16,3 +16,5 @@
 2026-11-09 · 3 · control-calidad · CAMBIOS (3 graves: frases copiadas en 17, 230, 231; 6 menores) · espero al verificador para devolver todo junto
 2026-11-09 · 3 · verificador · CAMBIOS NECESARIOS (2 de gravedad media: líneas 188 y 223; varios recomendados) · devuelto al guionista con lo de calidad, vuelta 1
 2026-11-09 · 3 · guionista · vuelta 1 aplicada (1.998 palabras, 238 líneas) · a re-revisión
+2026-11-09 · 3 · verificador + control-calidad · OK y APROBADO en la vuelta 2 (1.998 palabras, ~12:02) · paso 3 cerrado
+2026-11-09 · 4 · Dirección · voz lanzada en segundo plano (voz_cb.py adaptado: voz de referencia de oficina/voz y finales de capítulo leídos de guion_visual.md)

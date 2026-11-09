@@ -38,3 +38,30 @@ El balance de palabras no cambia: con los arreglos sigue en unas 1.980 palabras 
 ## Resultado
 
 **CAMBIOS**: hay tres graves (1, 2 y 3), porque son frases copiadas o adaptadas de otros guiones del repositorio. Se arreglan con los cambios de una línea de arriba, en `guion.txt` y en `guion_visual.md` a la vez. Los menores se pueden hacer en la misma pasada.
+
+## Vuelta 2
+
+He revisado `git diff HEAD~1` de `guion.txt` y `guion_visual.md`. Ahora `guion.txt` tiene 238 líneas.
+
+| # | Estado |
+|---|---|
+| 1 (línea 230, ahora 233) | Resuelto: «Si has llegado hasta aquí sin marearte, suscríbete y dale a me gusta.» |
+| 2 (línea 231, ahora 234) | Resuelto: «Y deja en los comentarios una sola palabra: víking.» |
+| 3 (línea 17) | Resuelto: «Ulf quiere decir lobo.», con la aparición en «lobo» |
+| 4 (ahora 236) | Resuelto: «Y pásaselo a ese amigo…» |
+| 5 (ahora 88) | Resuelto: «Como levantar la mano en clase, pero con un hacha.», con la aparición en «clase» y la etiqueta HOY |
+| 6 (ahora 155) | Resuelto: «Óttar acertó de lleno.» |
+| 7 (ahora 221) | Resuelto: «Y el dato que más pesa.», con la aparición en «pesa» |
+| 8 (ahora 229) | Resuelto: «ni un solo cuerno», con la aparición en «cuerno». Ya no queda «cero» |
+| 9 (ahora 58-60) | Resuelto: la frase está partida en tres, «les» va en plural y las apariciones están repartidas |
+
+**Comprobaciones**:
+- **Copias**: `grep -F -x -f` contra `cavernicola/guion.txt`, `videos/gladiador/guion.txt` y `videos/gladiador-mes/guion.txt` solo encuentra la despedida fija («Nos vemos en el próximo viaje en el tiempo.»), que está permitida. Las frases nuevas del verificador (17-18, 47, 49, 82, 84, 98, 103, 190, 195-196 y 226) no copian ni adaptan ninguna frase de otros guiones.
+- **Guion visual**: las 238 frases tienen su línea, con el mismo número y el mismo texto. Todas las palabras de aparición existen en su frase, ninguna línea se queda sin aparición y no sobra ninguna. Lo he comprobado con un script.
+- **Palabras**: la tabla de capítulos coincide con `wc -w` (46, 201, 366, 312, 327, 384, 298 y 64).
+- **Duración**: `wc -w` da 1.998 palabras. A 166 por minuto salen unos **12:02**, dentro de los 10-15 minutos.
+- **Seseo**: las palabras nuevas («golosina», «chocando», «colgando», «votan») no tienen «z», «ce» ni «ci».
+
+No hay problemas graves ni menores pendientes.
+
+**APROBADO**
