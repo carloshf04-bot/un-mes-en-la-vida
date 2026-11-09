@@ -126,6 +126,32 @@ export const CAST = {
   galeno: { skin: "#d6a07a", skinS: "#b5805a", hair: "#9a958c", tunic: "#e9e2d0", tunic2: "#6b2d5c", fur: "#e9e2d0", pants: "#e9e2d0", boot: "#6b4226", beard: true, old: false, h: 1 },
   gladia: { skin: "#c98f62", skinS: "#a8724a", hair: "#3b1a0a", tunic: "#b5532f", tunic2: "#7a2e18", fur: "#d9a72b", pants: "#c98f62", boot: "#6b4226", braid: true, h: 0.97 },
   moderno: { skin: C.skin, skinS: C.skinS, hair: "#2b1a10", tunic: "#3f6fb5", tunic2: "#2f548c", fur: "#3f6fb5", pants: "#2e4a7a", boot: "#f2f2f2", beard: true, h: 1 },
+  // ---- Un mes en la vida de un gladiador (año 80) ----
+  // Félix cautivo (intro y llegada): túnica raída; pies blanqueados con yeso, como los esclavos recién traídos (Plinio, HN 35.199)
+  felixcap: { skin: "#d9a273", skinS: "#b97f52", hair: "#3b2211", tunic: "#8c7b62", tunic2: "#6b5c46", fur: "#a8957a", pants: "#d9a273", boot: "#e6dfd2", h: 1 },
+  // El doctor: exgladiador, canoso, robusto, túnica parda de trabajo. Lleva la rudis de retirado
+  doctor: { skin: "#c58c5e", skinS: "#a36e45", hair: "#77726a", tunic: "#7a5a3a", tunic2: "#54402a", fur: "#b89a74", pants: "#c58c5e", boot: "#4a3220", beard: true, h: 1.08 },
+  // Tito: afeitado (como en sus retratos), toga blanca con franja púrpura y calzado rojo
+  tito: { skin: "#e0b08a", skinS: "#bf8e68", hair: "#3a2a1e", tunic: "#f3eee2", tunic2: "#6b2d5c", fur: "#f3eee2", pants: "#f3eee2", boot: "#8a2e2a", h: 1 },
+  // Prisco y Vero: se distinguen por el cinturón (azul o verde) y el penacho de la galea
+  prisco: { skin: "#d0976a", skinS: "#ae7a50", hair: "#2b1a10", tunic: "#d0976a", tunic2: "#3f5f8a", fur: "#d0976a", pants: "#d0976a", boot: "#6b4226", bare: true, h: 1.02 },
+  vero: { skin: "#b9805a", skinS: "#986344", hair: "#1e140c", tunic: "#b9805a", tunic2: "#7a8a4a", fur: "#b9805a", pants: "#b9805a", boot: "#6b4226", bare: true, beard: true, h: 0.99 },
+  // Médico de la escuela (año 80); no es Galeno
+  medicus: { skin: "#d6a07a", skinS: "#b5805a", hair: "#4a3424", tunic: "#e9e2d0", tunic2: "#3f6a6a", fur: "#e9e2d0", pants: "#d6a07a", boot: "#6b4226", beard: true, h: 0.98 },
+  // Aficionada en la grada: túnica larga azul y manto ocre
+  fan: { skin: "#e0b48c", skinS: "#c0926a", hair: "#5a2e14", tunic: "#4a6fa5", tunic2: "#2f4f7a", fur: "#d9a72b", pants: "#4a6fa5", boot: "#7a4a22", braid: true, h: 0.94 },
+  // Vendedor de recuerdos (vasos y lámparas)
+  vendedor: { skin: "#c98f62", skinS: "#a8724a", hair: "#9a958c", tunic: "#7a8a4a", tunic2: "#56633a", fur: "#d9c9a8", pants: "#c98f62", boot: "#5a3b22", beard: true, old: true, h: 0.95 },
+  // Guardia de la escuela (no es legionario: túnica y lanza)
+  custos: { skin: "#c08a60", skinS: "#9e6c46", hair: "#2b1a10", tunic: "#8a3a2a", tunic2: "#5a2620", fur: "#9a8a6a", pants: "#c08a60", boot: "#4a3220", h: 1.04 },
+  // Rotulista de anuncios: el cuello y las bandas de las piernas, manchados de rojo
+  pictor: { skin: "#d9a273", skinS: "#b97f52", hair: "#5a3b22", tunic: "#c9b38a", tunic2: "#a0703c", fur: "#b3261e", pants: "#d9a273", boot: "#6b4226", h: 0.97 },
+  // Músico de la arena (tuba, cornu): túnica blanca con franjas rojas
+  musico: { skin: "#c98f62", skinS: "#a8724a", hair: "#2b1a10", tunic: "#efe9df", tunic2: "#b5532f", fur: "#efe9df", pants: "#c98f62", boot: "#6b4226", h: 1 },
+  // El antiguo «galo» (frase 11, pasado, en sepia): pelo rojizo, bigote y escudo galo
+  gallus: { skin: "#e0b48c", skinS: "#c0926a", hair: "#a8582a", tunic: "#e0b48c", tunic2: "#4a6a3a", fur: "#e0b48c", pants: "#8a6a3a", boot: "#5a3b22", bare: true, h: 1.03 },
+  // Figuras «de piedra» del relieve de Halicarnaso (frase 116): todo en tonos de piedra
+  lapis: { skin: "#c9bda4", skinS: "#a89c84", hair: "#a89c84", tunic: "#bfb39a", tunic2: "#9a8e78", fur: "#c9bda4", pants: "#c9bda4", boot: "#9a8e78", braid: true, h: 0.97 },
   hunter2: { skin: "#b9805a", skinS: "#986344", hair: "#1e140c", tunic: "#6f6a3a", tunic2: "#54502b", fur: "#bfa57a", pants: "#4b3a22", boot: "#33220f", h: 1.02 },
 };
 
@@ -195,6 +221,7 @@ export function person(id, k, props = {}) {
         <ellipse class="m-open" opacity="0" cx="8" cy="-316" rx="9" ry="11" fill="#5a1e14" stroke="${OUT}" stroke-width="3.5"/>
         <path class="m-sad" opacity="0" d="M-6,-312 Q8,-324 22,-312" stroke="${OUT}" stroke-width="4" fill="none" stroke-linecap="round"/>
       </g>
+      ${props.V || ""}
      </g>
     </g>
     ${arm("F", 30)}
@@ -371,4 +398,66 @@ export const GEAR = {
   trident: `<g><path d="M31,-40 L31,-420" stroke="#7a5030" stroke-width="10" stroke-linecap="round"/><path d="M5,-430 L5,-470 M31,-430 L31,-480 M57,-430 L57,-470 M5,-430 L57,-430" stroke="#c9ced6" stroke-width="9" stroke-linecap="round" fill="none"/></g>`,
   net: `<g><circle cx="20" cy="-150" r="36" fill="rgba(230,220,190,.25)" stroke="#d8c9a0" stroke-width="5"/><path d="M-12,-170 L52,-130 M-12,-130 L52,-170 M20,-186 L20,-114" stroke="#d8c9a0" stroke-width="4"/></g>`,
   staff: `<g><path d="M31,-60 L31,-470" stroke="#8a6232" stroke-width="10" stroke-linecap="round"/></g>`,
+  // --- Félix: melena y bigote galo caído (H). Orden: galhair + mustache (+ helmet)
+  galhair: `<g fill="#3b2211" stroke="${C.ink}" stroke-width="3.5" stroke-linejoin="round"><path d="M-50,-350 C-66,-300 -62,-252 -44,-236 C-40,-270 -38,-312 -40,-342Z"/><path d="M50,-362 C64,-322 62,-280 50,-262 C47,-292 45,-328 43,-350Z"/></g>`,
+  mustache: `<g><path d="M-16,-327 C-6,-336 4,-334 8,-329 C12,-334 24,-336 34,-327 C40,-318 42,-306 38,-298 C32,-310 22,-316 8,-320 C-6,-316 -16,-310 -22,-298 C-26,-306 -22,-318 -16,-327Z" fill="#3b2211" stroke="${C.ink}" stroke-width="3" stroke-linejoin="round"/></g>`,
+  // cicatrices (H en la cara; para el lanista y el doctor)
+  scarFace: `<path d="M30,-386 L42,-338 M33,-372 l8,-3 M36,-358 l8,-3" stroke="#9a4a2e" stroke-width="4" stroke-linecap="round"/>`,
+  // mirmillón: manga acolchada en el brazo de la espada (F; en B, envolver con back())
+  manica: `<g><rect x="16" y="-236" width="30" height="62" rx="10" fill="#e6dccb" stroke="${C.ink}" stroke-width="4"/><path d="M16,-220 L46,-220 M16,-204 L46,-204 M16,-188 L46,-188" stroke="#a89880" stroke-width="4"/></g>`,
+  // reciario: hombrera de bronce (T) y puñal (F)
+  galerus: `<g><path d="M-74,-296 L-80,-350 C-68,-358 -52,-354 -46,-342 L-40,-298Z" fill="#c9a24a" stroke="${C.ink}" stroke-width="4"/><path d="M-72,-320 L-44,-318" stroke="#8f6a2a" stroke-width="4"/></g>`,
+  pugio: `<g><path d="M31,-176 L31,-230" stroke="#c9ced6" stroke-width="10" stroke-linecap="round"/><path d="M31,-238 L25,-226 L37,-226Z" fill="#c9ced6"/><path d="M20,-172 L42,-172" stroke="#7a4a22" stroke-width="8" stroke-linecap="round"/></g>`,
+  // secutor: casco liso y redondo con dos agujeros (ranura V: tapa ojos, cejas y boca)
+  secutor: `<g><path d="M-54,-330 C-62,-424 66,-432 60,-330 C58,-298 40,-288 4,-288 C-36,-288 -52,-300 -54,-330Z" fill="#c9ced6" stroke="${C.ink}" stroke-width="5"/><path d="M-26,-410 C0,-430 32,-428 52,-404" stroke="#9aa3ad" stroke-width="10" fill="none" stroke-linecap="round"/><path d="M-60,-300 C-30,-286 40,-286 66,-300" stroke="#9aa3ad" stroke-width="10" fill="none" stroke-linecap="round"/><circle cx="-10" cy="-356" r="6" fill="${C.ink}"/><circle cx="22" cy="-356" r="6" fill="${C.ink}"/><path d="M-30,-390 C-20,-400 0,-404 14,-402" stroke="#fff" stroke-width="5" opacity=".6" fill="none" stroke-linecap="round"/></g>`,
+  // tracio: casco de ala con cresta de grifo (H). Solo para el abanico de tipos de la frase 51
+  thraex: `<g><path d="M-56,-372 C-58,-432 66,-440 64,-372Z" fill="#c9a24a" stroke="${C.ink}" stroke-width="5"/><path d="M-70,-372 L78,-372 L72,-360 L-64,-360Z" fill="#b08a36" stroke="${C.ink}" stroke-width="4"/><path d="M-20,-428 C-10,-470 40,-480 64,-452 L80,-458 L70,-438 C50,-452 20,-450 -20,-428Z" fill="#c9a24a" stroke="${C.ink}" stroke-width="4"/><circle cx="52" cy="-454" r="3.5" fill="${C.ink}"/></g>`,
+  // casco genérico con penacho, para Prisco y Vero. Color del penacho: reemplazar PLUMA
+  galea: `<g><path d="M-56,-372 C-58,-434 66,-440 64,-372Z" fill="#b8b2a6" stroke="${C.ink}" stroke-width="5"/><path d="M-68,-372 L76,-372 L70,-360 L-62,-360Z" fill="#9aa3ad" stroke="${C.ink}" stroke-width="4"/><path d="M-10,-430 C-20,-480 0,-500 10,-470 M30,-436 C40,-486 60,-490 50,-458" stroke="PLUMA" stroke-width="12" fill="none" stroke-linecap="round"/></g>`,
+  sica: `<g><path d="M31,-176 C30,-226 46,-262 76,-280" stroke="#c9ced6" stroke-width="12" fill="none" stroke-linecap="round"/><path d="M18,-170 L44,-170" stroke="#7a4a22" stroke-width="9" stroke-linecap="round"/></g>`,
+  parmula: `<g><rect x="-10" y="-232" width="84" height="96" rx="8" fill="#4a6fa5" stroke="${C.ink}" stroke-width="5"/><rect x="2" y="-220" width="60" height="72" fill="none" stroke="#d9a72b" stroke-width="4"/></g>`,
+  hoplon: `<g><circle cx="30" cy="-196" r="54" fill="#c9a24a" stroke="${C.ink}" stroke-width="6"/><circle cx="30" cy="-196" r="38" fill="none" stroke="#8f6a2a" stroke-width="5"/><circle cx="30" cy="-196" r="10" fill="#8f6a2a" stroke="${C.ink}" stroke-width="3"/></g>`,
+  // escudo galo ovalado con espina y umbo (frases 10 y 11)
+  scutumGal: `<g><ellipse cx="30" cy="-180" rx="58" ry="130" fill="#4a6a3a" stroke="${C.ink}" stroke-width="6"/><path d="M30,-306 L30,-54" stroke="#8a6232" stroke-width="10"/><ellipse cx="30" cy="-180" rx="22" ry="30" fill="#9aa3ad" stroke="${C.ink}" stroke-width="4"/><path d="M-10,-250 C10,-230 10,-210 -10,-190 M70,-160 C50,-140 50,-120 70,-100" stroke="#d9a72b" stroke-width="5" fill="none"/></g>`,
+  // escudo de mimbre de práctica (frase 42)
+  wicker: `<g><path d="M-40,-300 C-20,-308 80,-308 100,-300 L100,-60 C80,-52 -20,-52 -40,-60Z" fill="#c9a467" stroke="${C.ink}" stroke-width="6"/>${[...Array(8)].map((_, k) => `<path d="M-40,${-280 + k * 28} L100,${-280 + k * 28}" stroke="#a07e48" stroke-width="5"/>`).join("")}${[...Array(5)].map((_, k) => `<path d="M${-20 + k * 30},-300 L${-20 + k * 30},-60" stroke="#8a6a38" stroke-width="4" stroke-dasharray="14 14"/>`).join("")}</g>`,
+  // Tito: corona de laurel (H) y toga con franja púrpura (T)
+  laurel: `<g><path d="M-48,-376 C-30,-404 40,-406 58,-378" stroke="#4f6b3a" stroke-width="6" fill="none"/>${[-40, -24, -8, 8, 24, 40, 54].map((x, i) => { const y = -392 + Math.abs(x - 5) * 0.28; return `<ellipse cx="${x}" cy="${y}" rx="12" ry="6" transform="rotate(${i % 2 ? 30 : -30} ${x} ${y})" fill="#6f9a4a" stroke="${C.ink}" stroke-width="2.5"/>`; }).join("")}</g>`,
+  toga: `<g><path d="M-46,-304 C-10,-292 30,-246 50,-168 L36,-156 C18,-226 -14,-268 -48,-282Z" fill="#f3eee2" stroke="${C.ink}" stroke-width="4"/><path d="M-46,-298 C-12,-286 26,-242 44,-170" stroke="#6b2d5c" stroke-width="7" fill="none"/></g>`,
+  // objetos de mano
+  palm: `<g><path d="M31,-160 C34,-260 50,-350 70,-420" stroke="#4f6b3a" stroke-width="7" fill="none" stroke-linecap="round"/>${[...Array(9)].map((_, k) => { const y = -220 - k * 22, x = 36 + k * 3.8; return `<path d="M${x},${y} q-36,8 -50,34 M${x},${y} q36,4 52,30" stroke="#6f9a4a" stroke-width="6" fill="none" stroke-linecap="round"/>`; }).join("")}</g>`,
+  scroll: `<g><rect x="-6" y="-200" width="80" height="64" fill="#efe3c8" stroke="${C.ink}" stroke-width="4"/><rect x="-14" y="-206" width="14" height="76" rx="6" fill="#a0703c" stroke="${C.ink}" stroke-width="3"/><rect x="68" y="-206" width="14" height="76" rx="6" fill="#a0703c" stroke="${C.ink}" stroke-width="3"/><path d="M8,-184 L60,-184 M8,-170 L54,-170 M8,-156 L58,-156" stroke="#5a4a38" stroke-width="3"/><circle cx="34" cy="-140" r="11" fill="#b3261e" stroke="${C.ink}" stroke-width="3"/></g>`,
+  tabula: `<g><rect x="0" y="-214" width="72" height="56" rx="4" fill="#a0703c" stroke="${C.ink}" stroke-width="4"/><rect x="8" y="-206" width="56" height="40" fill="#3a2a1e"/><path d="M14,-196 L50,-196 M14,-184 L44,-184 M14,-172 L52,-172" stroke="#d9c7a0" stroke-width="3"/><path d="M60,-150 L88,-226" stroke="#c9a24a" stroke-width="5" stroke-linecap="round"/></g>`,
+  // vaso de vidrio soplado en molde con nombres (como el de Montagnole: GAMVS, MEROPS, CALAMVS)
+  cup: `<g><path d="M8,-222 L56,-222 L52,-150 C50,-142 14,-142 12,-150Z" fill="rgba(150,205,175,.55)" stroke="${C.ink}" stroke-width="4"/><path d="M10,-204 L54,-204 M11,-176 L53,-176" stroke="#5a8a6a" stroke-width="3"/><path d="M18,-196 l6,12 l6,-12 M36,-196 l0,12 M42,-196 l6,0 l-6,12 l6,0" stroke="#2f5a3a" stroke-width="2.5" fill="none"/><path d="M16,-218 L18,-160" stroke="#fff" stroke-width="4" opacity=".6"/></g>`,
+  lamp: `<g><path d="M-6,-170 C-6,-196 50,-196 52,-178 L80,-178 C88,-172 84,-162 74,-162 L50,-162 C44,-150 0,-150 -6,-170Z" fill="#b8643a" stroke="${C.ink}" stroke-width="4"/><circle cx="22" cy="-178" r="10" fill="#a0502c" stroke="${C.ink}" stroke-width="2.5"/></g>`,
+  brush: `<g><path d="M31,-160 L31,-260" stroke="#a0703c" stroke-width="8" stroke-linecap="round"/><path d="M24,-262 L38,-262 L36,-292 C34,-300 28,-300 26,-292Z" fill="#b3261e" stroke="${C.ink}" stroke-width="3"/></g>`,
+  strigil: `<g><path d="M31,-158 L31,-196 C31,-246 70,-262 86,-232" stroke="#b08a36" stroke-width="10" fill="none" stroke-linecap="round"/><path d="M31,-196 C31,-238 64,-250 78,-232" stroke="#e0c070" stroke-width="3" fill="none"/></g>`,
+  shackle: `<g><rect x="14" y="-190" width="34" height="16" rx="6" fill="#5b5f66" stroke="${C.ink}" stroke-width="4"/><path d="M31,-176 q-8,16 0,30 q8,16 0,30 q-8,16 0,30" stroke="#6b6f76" stroke-width="7" fill="none" stroke-dasharray="12 6"/></g>`,
+  // cartel de venta colgado del cuello (titulus), en T
+  titulus: `<g><path d="M-24,-300 L-20,-258 M32,-300 L28,-258" stroke="#8a6232" stroke-width="3"/><rect x="-36" y="-262" width="80" height="50" rx="4" fill="#efe3c8" stroke="${C.ink}" stroke-width="4"/><path d="M-26,-246 L34,-246 M-26,-232 L24,-232" stroke="#5a4a38" stroke-width="3"/></g>`,
+  // bolitas de madera con premio (frases 88 y 89)
+  ball: `<g><circle cx="31" cy="-178" r="13" fill="#c9a467" stroke="${C.ink}" stroke-width="3"/><path d="M24,-180 l14,0 M26,-174 l10,0" stroke="#5a4a38" stroke-width="2"/></g>`,
+  // instrumentos de la pompa (pose: brazo delantero levantado hasta la boca)
+  cornu: `<g><circle cx="10" cy="-270" r="96" fill="none" stroke="#c9a24a" stroke-width="12"/><circle cx="10" cy="-270" r="96" fill="none" stroke="${C.ink}" stroke-width="2.5"/><path d="M-30,-180 L80,-340" stroke="#8a6232" stroke-width="9" stroke-linecap="round"/><path d="M90,-330 L130,-370 L140,-350Z" fill="#c9a24a" stroke="${C.ink}" stroke-width="4"/></g>`,
+  tuba: `<g><path d="M20,-320 L220,-420" stroke="#c9a24a" stroke-width="10" stroke-linecap="round"/><path d="M210,-430 L250,-460 L262,-416 L220,-408Z" fill="#c9a24a" stroke="${C.ink}" stroke-width="4"/></g>`,
+  bowl: `<g><path d="M-4,-176 L66,-176 C62,-146 46,-140 31,-140 C16,-140 0,-146 -4,-176Z" fill="#b8936a" stroke="${C.ink}" stroke-width="4"/><ellipse cx="31" cy="-176" rx="35" ry="8" fill="#d9c27a" stroke="${C.ink}" stroke-width="3"/></g>`,
+  // gorro de liberto (H, frase 81)
+  pileus: `<g><path d="M-48,-372 C-44,-446 52,-446 58,-372Z" fill="#c9b38a" stroke="${C.ink}" stroke-width="4"/><path d="M-50,-372 L60,-372" stroke="#a8946a" stroke-width="6"/></g>`,
+  cloth: `<g><path d="M31,-176 C50,-230 90,-220 110,-250 L118,-200 C96,-180 60,-190 38,-160Z" fill="#efe9df" stroke="${C.ink}" stroke-width="4"/></g>`,
+  purse: `<g><path d="M14,-176 C0,-150 4,-120 31,-116 C58,-120 62,-150 48,-176Z" fill="#8a5a35" stroke="${C.ink}" stroke-width="4"/><path d="M14,-178 L48,-178" stroke="#5a3b22" stroke-width="6" stroke-linecap="round"/><circle cx="40" cy="-150" r="6" fill="#d9a72b" stroke="${C.ink}" stroke-width="2"/></g>`,
+  // dedo alzado para pedir la missio (frase 98)
+  finger: `<path d="M31,-176 L31,-212" stroke="#d9a273" stroke-width="11" stroke-linecap="round"/><path d="M31,-176 L31,-212" stroke="${C.ink}" stroke-width="2" opacity=".0"/>`,
+};
+// Equipo en la mano trasera (desplaza un objeto pensado para la mano delantera)
+export const back = (g) => `<g transform="translate(-60,0)">${g}</g>`;
+// Casco con el color del penacho
+export const galea = (pluma) => GEAR.galea.replace("PLUMA", pluma);
+// Poses (grados de cada articulación; ajustar en la captura)
+export const POSE = {
+  brazosCruzados: { armF: -10, foreF: 100, armB: -10, foreB: -80, brows: 4 },   // el doctor «que no sabe sonreír»
+  juramento: { armF: -160, foreF: -10, brows: 2 },                              // la mano en alto ante el lanista
+  missio: { armF: -150, foreF: -20, head: -6, mouth: "sad" },                   // con GEAR.finger en F
+  guardia: { armF: -50, foreF: -60, armB: -30, foreB: -40, legF: -10, legB: 8 },
+  soplar: { armF: -95, foreF: -60, mouth: "open" },                             // tuba y cornu
 };

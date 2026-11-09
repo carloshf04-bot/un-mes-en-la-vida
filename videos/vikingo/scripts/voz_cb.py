@@ -19,10 +19,10 @@ MAX_TRIES = 4
 lines = [l.strip() for l in open("guion.txt", encoding="utf-8") if l.strip()]
 
 # Pausa más larga al acabar cada capítulo: la cámara se aleja y viaja al siguiente
-FIN_CAP = ("Roma, año ochenta.", "Y para los huesos,", "Y atención: hay árbitro.", "Peligroso, sí.", "Era su jubilación.")
+FIN_CAP = ('Esto es un mes en la vida de u', 'Esa es la gran paradoja del gl', 'Félix se tumba en su cuarto. L', 'Al final de la semana, el lani', 'Y esa misma tarde, otro combat', 'Así que, al día siguiente, vue', 'Y cuando veas en una película ')
 def pause_after(t):
     if t.startswith(FIN_CAP):
-        return 1.2
+        return 1.4
     if t in ("Empieza el combate.", "El reciario levanta el tridente. ¿Es el final?", "Cincuenta mil personas gritan a la vez."):
         return 0.7
     if t.endswith("?"):

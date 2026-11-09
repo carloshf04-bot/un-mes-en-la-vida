@@ -1,6 +1,6 @@
 # Producción: «Un mes en la vida de un gladiador»
 
-> **AVISO (2026-11-06):** el proyecto de producción estaba en `/home/user/video-gladiador-mes`, fuera del repositorio, y se perdió al cerrarse la sesión: `gm_caps.mjs`, `gm_lib.mjs`, `gl_fondos.mjs`, `gl_fondos2.mjs`, los cambios de `lib.mjs` y la voz de referencia (`pruebas/piper_sharvard_0.wav`). Este documento sirve como plano para reconstruirlo dentro de `videos/gladiador-mes/`. Desde ahora todo se guarda en el repo (`oficina/DIRECCION.md`).
+> **Nota (2026-11-09):** el aviso del 2026-11-06 de que este proyecto se había perdido era un error. Otra sesión lo tenía y lo ha subido completo a `videos/gladiador-mes/scripts/` (commit 24ded4d).
 
 Proyecto: `/home/user/video-gladiador-mes`. **Estado: animación construida y revisada con tiempos PROVISIONALES. No hay render.** La voz (Chatterbox) se estaba generando en segundo plano; no se ha tocado `voz_cb.py`, `voz/` ni el proceso.
 

@@ -17,13 +17,30 @@ starts = [0.0] + [round(fr[i - 1]["start"] - 0.15, 3) for i in CAPS]
 caps = [(starts[k], starts[k + 1] if k + 1 < len(starts) else dur) for k in range(len(starts))]
 MAX = 178.0 if len(sys.argv) <= 8 else float(sys.argv[8])
 parts, cur = [], None
+if os.environ.get("SHORTS_MIN"):
+    # partes de 1 minuto como máximo, cortadas siempre al acabar una frase (en mitad de la pausa)
+    LIM = float(os.environ["SHORTS_MIN"])
+    cuts = [0.0] + [round((fr[i]["end"] + fr[i + 1]["start"]) / 2, 3) for i in range(len(fr) - 1)] + [dur]
+    import math
+    n = math.ceil(dur / LIM)
+    while True:
+        a0, out_ok, tmp = 0.0, True, []
+        for k in range(1, n):
+            ok = [c for c in cuts if a0 + 15 < c <= a0 + LIM]
+            if not ok: out_ok = False; break
+            c = min(ok, key=lambda c: abs(c - k * dur / n))
+            tmp.append((a0, c)); a0 = c
+        if out_ok and dur - a0 <= LIM:
+            parts = tmp + [(a0, dur)]; break
+        n += 1
+    caps = []
 for a, b in caps:
     if cur and b - cur[0] <= MAX:
         cur = (cur[0], b)
     else:
         if cur: parts.append(cur)
         cur = (a, b)
-parts.append(cur)
+if cur: parts.append(cur)
 for a, b in parts:
     assert b - a <= 179.5, f"una parte dura {b - a:.1f} s"
 N = len(parts)
