@@ -11,3 +11,4 @@
 2026-11-06 · 2 · control-calidad · APROBADO en la vuelta 2 (queda menor: museumCase en dos filas, aceptado) · paso 2 cerrado
 2026-11-06 · 4 (adelanto) · Dirección · copiado el rig del gladiador a videos/vikingo/scripts y fuentes Inter y Uncial Antiqua (woff2, de Google Fonts) a videos/vikingo/fonts
 2026-11-06 · 5 (adelanto) · Dirección · miniaturas/vikingo.json sacado del diseño (fuente en woff2); se genera cuando estén ulf y su GEAR
+2026-11-09 · 3 · guionista · guion.txt (1.982 palabras, ~11:56) y guion_visual.md · a verificación y puerta 3
