@@ -14,3 +14,4 @@
 2026-11-09 · 3 · guionista · guion.txt (1.982 palabras, ~11:56) y guion_visual.md · a verificación y puerta 3
 2026-11-09 · 4 (adelanto) · Dirección · el proyecto del gladiador-mes no se había perdido (otra sesión lo subió); el rig del vikingo pasa a ser el de gladiador-mes (gm_lib, gl_fondos2, miniatura.mjs) y shorts.py de 1 minuto
 2026-11-09 · 3 · control-calidad · CAMBIOS (3 graves: frases copiadas en 17, 230, 231; 6 menores) · espero al verificador para devolver todo junto
+2026-11-09 · 3 · verificador · CAMBIOS NECESARIOS (2 de gravedad media: líneas 188 y 223; varios recomendados) · devuelto al guionista con lo de calidad, vuelta 1
