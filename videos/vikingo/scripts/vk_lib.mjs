@@ -22,6 +22,7 @@ export function actorK(K, name, kind, k, o = {}) {
   const x = Math.abs(k) < 10 ? K.ax(k) : k;
   const a = who(K.S, `${K.S.id}-${name}${++K.k}`, kind, x, { seed: K.k, ...o });
   if (o.hid) hidden(K.S, a);
+  else if (K.tcut) K.S.tw(`tl.set("#${a.id}${a.sh ? `,#${a.id}-sh` : ""}",{opacity:0},0);tl.set("#${a.id}${a.sh ? `,#${a.id}-sh` : ""}",{opacity:1},${r3(K.tcut)});`);
   K.A[name] = a;
   return a;
 }
@@ -38,7 +39,7 @@ export function say(K, n, items, o = {}) {
     if (ty === "t") { // rótulo: ["t", palabra, texto, {c, size, u (uncial), fx, x, y, dt, w}]
       const [, w, str, op = {}] = it, size = op.size || F(84, 74), ww = op.w || F(1150, 1000);
       tx(S, id, op.x ?? K.ix(), op.y ?? K.sy(s), str, T(w, op.dt || 0), { size, color: op.c || C.bone, roman: op.u, fx: op.fx || "slam", w: ww });
-      if (op.y === undefined) s += lines(str, size, ww) > 2 ? 2 : 1;
+      if (op.y === undefined) { const nl = lines(str, size, ww); s += nl > 2 ? 2.2 : nl === 2 ? 1.5 : 1; }
       if (!op.stay) P(`#${id}`);
     } else if (ty === "c" || ty === "i") { // tarjetas: ["c", [[icono, etiqueta, palabra, marca, fondo]...], {size, cols, y}] · ["i", palabra, icono, etiqueta, marca, {..}]
       const list = ty === "c" ? it[1] : [[it[2], it[3], it[1], it[4], it[5]?.bg]];
@@ -50,7 +51,7 @@ export function say(K, n, items, o = {}) {
       P(all(id, list.length, true));
     } else if (ty === "n") { // número: ["n", palabra, hasta, sufijo, {from, size, bw}]
       const [, w, to, suf = "", op = {}] = it;
-      P(num(S, id, op.x ?? K.ix(), op.y ?? K.sy(s) + 10, { from: op.from || 0, to, t: T(w), suf, size: op.size || F(140, 120), w: F(1200, 1000), bw: op.bw || F(760, 720), dur: op.dur || 0.9 }));
+      P(num(S, id, op.x ?? K.ix(), op.y ?? K.sy(s) + 10, { from: op.from || 0, to, t: T(w), suf, size: op.size || F(140, 120), w: F(1200, 1000), bw: op.bw || F(760, 720), dur: op.dur || 0.6 }));
       if (op.y === undefined) s++;
     } else if (ty === "x" || ty === "ok") { // marca sobre un hueco: ["x", palabra, {s, x, y, size}]
       const [, w, op = {}] = it;
@@ -67,7 +68,7 @@ export function say(K, n, items, o = {}) {
     else if (ty === "wob") { const [, w, sel, nn = 4, deg = 6] = it; wobble(S, sel.startsWith("#") ? sel : `#${K.A[sel].id}`, T(w), nn, deg); }
     else if (ty === "pulse") { const [, w, sel] = it; pulse(S, sel, T(w)); }
     else if (ty === "cam") { const [, w, k = 1, dx = 0, dy = 0, d = 0.8, dt = -0.1] = it; const b = spotBox(S, K.x + dx, k); b.y += dy; camTo(S, T(w, dt), b, { dur: d, ease: "power2.inOut" }); }
-    else if (ty === "cut") { const [, w, name, dt = -0.5, x = null] = it; const t = T(w, dt); if (K.prev.length) { gone(S, K.prev.join(","), r3(t - 0.1)); K.prev = []; } cut(S, t, name, { x }); K.x = x ?? S.escs[name].x; }
+    else if (ty === "cut") { const [, w, name, dt = -0.5, x = null] = it; const t = T(w, dt); if (K.prev.length) { gone(S, K.prev.join(","), r3(t - 0.1)); K.prev = []; } cut(S, t, name, { x }); K.x = x ?? S.escs[name].x; K.tcut = r3(t + 0.5); }
     else if (ty === "mv") { const [, w, x1, dt = -0.4] = it; move(S, T(w, dt), x1); K.x = x1; }
     else if (ty === "sfx") { const [, w, k, g = 1] = it; S.cue(T(w), k, g); }
     else if (ty === "shake") { const [, w, amp = 14] = it; shake(S, T(w), amp, 0.4); }

@@ -11,7 +11,7 @@ import { spotBox, goSpot, pop, slam, fadeUp, mark, label, cardW, grid, moonBadge
 // ---------- Escenarios intercambiables ----------
 export function esc(S, name, fn, x, { filter = "" } = {}) {
   const P = Object.create(S);
-  P.id = `${S.id}-${name}`; P.parallax = [];
+  P.id = `${S.id}-${name}`; P.parallax = []; P.x0 = x;
   const b0 = S.bg.length, o0 = S.over.length, h0 = S.html.length;
   subsuelo(P, x);
   fn(P, x);
@@ -102,7 +102,7 @@ export function Z(S, x) {
 export function tx(S, id, x, y, str, t, { size = null, color = C.bone, w = null, roman = false, fx = "slam", z = 9 } = {}) {
   const F = S.fmt.F;
   const plate = `<span style="background:rgba(24,14,8,.62);border-radius:20px;padding:0 24px 6px;-webkit-box-decoration-break:clone;box-decoration-break:clone">${str}</span>`;
-  label(S, id, x, y, roman ? `<span class="roman">${str}</span>` : plate, { size: size || F(86, 76), color, w: w || F(1500, 1000), z });
+  label(S, id, x, y, roman ? `<span class="roman" style="background:rgba(24,14,8,.55);border-radius:20px;padding:0 28px 8px">${str}</span>` : plate, { size: size || F(86, 76), color, w: w || F(1500, 1000), z });
   if (fx === "slam") slam(S, `#${id}`, t); else if (fx === "pop") pop(S, `#${id}`, t); else fadeUp(S, `#${id}`, t);
 }
 // Dibujos del equipo (GEAR) dentro de una tarjeta: [viewBox]

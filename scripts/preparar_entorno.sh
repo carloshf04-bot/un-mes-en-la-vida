@@ -24,3 +24,7 @@ if [ ! -s $M ]; then
 fi
 ~/.cache/hyperframes/whisper/whisper.cpp/build/bin/whisper-cli -m $M -l es -f $REPO/oficina/voz/piper_sharvard_0.wav 2>/dev/null | tail -2
 # Red necesaria: huggingface.co y sus CDN (us.gcp.cdn.hf.co, cas-bridge.xethub.hf.co…), ya en el entorno «un-mes-en-la-vida».
+# 5) Dependencias de cada vídeo (gsap, iconos Phosphor y la plantilla de HyperFrames), probado el 2026-11-09 con el vikingo:
+#    cd videos/<id>/build && npm install          (package.json con gsap ^3.12.5 y @phosphor-icons/core ^2.1.1)
+#    la plantilla (hyperframes.json, package.json, meta.json) sale de: npx -y hyperframes@0.9.12 init plant --example blank --non-interactive --skip-skills
+#    Chrome del sistema (/usr/bin/google-chrome) lo encuentra solo: npx hyperframes@0.9.12 doctor

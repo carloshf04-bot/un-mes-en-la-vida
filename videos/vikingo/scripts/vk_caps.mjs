@@ -40,11 +40,11 @@ export function gancho(S) {
   S.cue(K.W(1, "salir"), "wind");
   say(K, 1, [["c", [["house", "TECHO", "techo", false], ["compass", "BRÚJULA", "brújula", false], ["toilet", "BAÑO", "baño", false]], { size: F(210, 190) }]]);
   // 2 · dormir en cubierta bajo una piel untada de grasa
-  const D = actorK(K, "dorm", "ulf", A + F(420, 260), { g: { T: ["hide"], H: ["capWool"] }, off: ["hide"], scale: 1.1, hid: true, shadow: false, z: 9, y: G - 70 });
+  const D = actorK(K, "dorm", "ulf", A + F(420, 260), { g: { T: ["hide"], H: ["capWool"] }, off: ["hide"], scale: 1.1, hid: true, shadow: false, z: 9, y: G - 140 });
   pose(S, D, 0, { body: -90 }, 0.01);
   art(K, `${S.id}-chest`, A + F(150, 0), G - 20, 640, 120, "0 0 640 120", `<rect x="0" y="10" width="640" height="110" rx="10" fill="#8a6232" stroke="${C.ink}" stroke-width="7"/><path d="M80,10 L80,120 M560,10 L560,120" stroke="#5b5f66" stroke-width="10"/>`, { z: 9 });
   say(K, 2, [["cam", "dormir", 0.62, F(150, 0), 60, 0.7], ["in", "dormir", "dorm"], ["f", (T) => { vis(S, `#${S.id}-chest`, T("dormir", -0.1), 1, 0.3); }], ["p", "dormir", "dorm", { mouth: "open" }],
-    ["g", "piel", "dorm", "hide"], ["b", "piel", A + F(150, 0), G - 230, { color: "#f0dca0", n: 10, up: 60, dt: 0.3 }], ["t", "piel", "UNTADA DE GRASA", { c: AMB, size: F(76, 70), y: G - F(560, 640), x: A + F(150, 0), fx: "up" }]]);
+    ["g", "piel", "dorm", "hide"], ["b", "piel", A + F(150, 0), G - 230, { color: "#f0dca0", n: 10, up: 60, dt: 0.3 }], ["t", "piel", "UNTADA DE GRASA", { c: AMB, size: F(76, 70), y: G - F(430, 470), x: A + F(150, 0), fx: "up" }]]);
   // 3 · pagar con plata partida a cachos
   say(K, 3, [["out", "pagar", "dorm", -0.3], ["f", (T) => { vis(S, `#${S.id}-chest`, T("pagar", -0.3), 0, 0.2); }], ["cam", "pagar", 1, 0, 0, 0.6, -0.4],
     ["i", "pagar", "g:hacksilver", "PLATA", null, { size: F(250, 230) }],
@@ -113,7 +113,7 @@ export function intro(S) {
   // 19-20 · Vestfold, la granja, Ása y Kári
   say(K, 19, [["fx", "Vive", "ulf3", "none"], ["p", "Vive", "ulf3", { head: 0, brows: 0, mouth: "neutral", armF: 0, foreF: 0 }], ["f", (T, id) => mapa(K, id, K.ix(), K.sy(0) + F(270, 280), T("Vestfold", -0.3), [["VESTFOLD", 360, 352, T("Vestfold")], ["FIORDO DE OSLO", 410, 290, T("Oslo")]], { regions: [[395, 300, 60, "#3f8ac9", T("Oslo")]], w: F(900, 860) })]]);
   say(K, 20, [["t", "granja", "LA GRANJA", { c: VERDEC }], ["in", "Ása", "asa"], ["p", "Ása", "asa", POSE.hilar], nameTag(K, "asa", "ÁSA", "Ása"),
-    ["in", "Kári", "kari"], ["go", "Kári", "kari", A2 - 470, 0.6, true, -0.6], ["in", "Kári", "perro", -0.5], nameTag(K, "kari", "KÁRI · 8 AÑOS", "Kári", { hy: 520 })]);
+    ["in", "Kári", "kari"], ["go", "Kári", "kari", A2 - 470, 0.6, true, -0.6], ["in", "Kári", "perro", -0.5], nameTag(K, "kari", "KÁRI · 8 AÑOS", "Kári", { hy: F(900, 860) })]);
   // 21-24 · Kaupang y Geirmund
   say(K, 21, [["out", "Al", "asa", -0.1], ["out", "Al", "kari", -0.1], ["out", "Al", "perro", -0.1], ["t", "Kaupang", "KAUPANG", { u: true, c: AMB, size: F(110, 96) }], ["t", "mercado", "PUERTO DE MERCADO", { size: F(70, 64) }], ["i", "barcos", "sailboat", "BARCOS", null, { size: F(200, 180) }], ["p", "Kaupang", "ulf3", POSE.mirarLejos]]);
   say(K, 22, [["p", "manda", "ulf3", { armF: 0, foreF: 0, head: 0 }], ["in", "Geirmund", "geir"], nameTag(K, "geir", "GEIRMUND", "Geirmund", { hy: 800 }), ["t", "jefe", "EL JEFE LOCAL", { c: AMB }]]);
@@ -142,8 +142,8 @@ export function semana1(S) {
   say(K, 29, [["t", "Luna", "LUNA NUEVA", { y: K.sy(2), c: "#c9d4f0" }]], { keep: true });
   const U = actorK(K, "ulf", "ulf", 0, { g: { F: ["spade"], B: ["axe"] }, hid: true });
   // 30-35 · primavera, siembra, saga
-  say(K, 30, [["t", "primavera", "PRIMAVERA", { c: VERDEC, size: F(100, 90) }], ["i", "siembra", "plant", "SIEMBRA HECHA", true, { size: F(210, 190) }], ["cam", "siembra", 1, -700, 0, 0.9]]);
-  say(K, 31, [["cam", "Porque", 1, 0, 0, 0.7, -0.2], ["in", "granjero", "ulf"], ["t", "guerrero", "ANTES QUE GUERRERO…", { size: F(74, 66) }], ["t", "granjero", "…GRANJERO", { c: VERDEC, size: F(100, 90) }]]);
+  say(K, 30, [["t", "primavera", "PRIMAVERA", { c: VERDEC, size: F(100, 90) }], ["i", "siembra", "plant", "SIEMBRA HECHA", true, { size: F(210, 190) }]]);
+  say(K, 31, [["in", "granjero", "ulf"], ["t", "guerrero", "ANTES QUE GUERRERO…", { size: F(74, 66) }], ["t", "granjero", "…GRANJERO", { c: VERDEC, size: F(100, 90) }]]);
   say(K, 32, [["c", [["plant", "SIEMBRA", "siembra"], ["sailboat", "VIAJE", "viaje"], ["grains", "COSECHA", "cosecha"]], { size: F(210, 190), cols: 3 }]]);
   say(K, 33, [["c", [["g:scroll", "SAGA DE LAS<br>ORCADAS", "saga"]], { size: F(260, 240) }], ["t", "siglos", "SIGLO XIII", { c: AMB, size: F(80, 70) }]]);
   say(K, 34, [["t", "primavera", "«VIAJE DE PRIMAVERA»", { c: AMB, size: F(84, 70) }], ["p", "primavera", "ulf", { mouth: "smile", brows: -4 }]]);
@@ -209,7 +209,7 @@ export function semana2(S) {
   const K = kit(S), { F, h } = K, A = 3000, Bx = 10000, Cx = 16000, Dx = 22000;
   const Pt = esc(S, "thing", FONDO.s2_thing, A);
   const Pv = esc(S, "varadero", FONDO.s2_varadero, Bx);
-  const Pm = esc(S, "tumulo", (P, x) => { FONDO.ins_gokstad(P, x); peacock(P, `${S.id}-pv`, x + 900, G - 40, 1.2); }, Cx, { filter: "sepia(.35) saturate(.9)" });
+  const Pm = esc(S, "tumulo", (P, x) => { FONDO.ins_gokstad(P, x); peacock(P, `${S.id}-pv`, x + F(1050, 450), G, 1.8); }, Cx, { filter: "sepia(.35) saturate(.9)" });
   const Pd = esc(S, "muelle", FONDO.s2_despedida, Dx);
   on(S, "thing", 0); K.x = A;
   enter(S, spotBox(S, A));
@@ -218,15 +218,15 @@ export function semana2(S) {
   say(K, 70, [["f", (T, id) => semana(S, id, K.ix(), K.sy(0) + 80, 0.5, "SEMANA 2", T("Semana"))]]);
   say(K, 71, [["t", "luna", "MEDIA LUNA", { y: K.sy(2), c: "#c9d4f0" }]], { keep: true });
   const U = actorK(K, "ulf", "ulf", 0, { g: { T: ["cloak"], F: [prop("spear", `${S.id}-usp`)], B: ["shieldRound"] } });
-  const Hv = actorK(K, "hall", "hallvard", A - 300, { g: HALL, hid: true, y: G - 130, z: 3, flip: true, shadow: false });
-  say(K, 72, [["cam", "thing", 1.35, 0, 0, 1], ["t", "thing", "THING", { u: true, c: AMB, size: F(140, 120), y: G - F(1080, 1500) }]]);
+  const Hv = actorK(K, "hall", "hallvard", A + F(-300, 250), { g: HALL, hid: true, y: G - 130, z: 3, flip: true, shadow: false });
+  say(K, 72, [["cam", "thing", 1.35, 0, 0, 1], ["t", "thing", "THING", { u: true, c: AMB, size: F(140, 120), y: G - F(980, 1380) }]]);
   say(K, 73, [["cam", "asamblea", 1, 0, 0, 0.8, -0.3], ["t", "asamblea", "LA ASAMBLEA", { size: F(80, 70) }], ["t", "libres", "DE LOS HOMBRES LIBRES", { c: AMB, size: F(74, 66) }]]);
   say(K, 74, [["c", [["scroll", "LEYES", "leyes"], ["users", "PLEITOS", "pleitos"], ["coins", "MULTAS", "multas"]], { size: F(210, 190), cols: 3 }]]);
   say(K, 75, [["t", "atención", "PERO ATENCIÓN", { c: AMB, size: F(74, 66) }], ["i", "pena", "gavel", "LA PENA", false, { size: F(230, 210) }]]);
   say(K, 76, [["c", [["users-three", "LA FAMILIA", "familia"]], { size: F(240, 220) }], ["t", "ofendido", "DEL OFENDIDO", { size: F(72, 64) }]]);
   say(K, 77, [["p", "ganas", "ulf", POSE.manoAlta], ["c", [["trophy", "GANAS", "ganas", true], ["hand-coins", "Y COBRAS TÚ", "cobrar"]], { size: F(210, 190), cols: 2 }], ["p", "cobrar", "ulf", { armF: -80, foreF: -10, armB: 0, mouth: "sad", brows: 6, head: 6 }]]);
   // 78-83 · Hallvard, el hombre de la ley
-  say(K, 78, [["p", "En", "ulf", { armF: 0, foreF: 0, mouth: "neutral", brows: 0, head: 0 }], ["in", "Hallvard", "hall"], ["t", "Hallvard", "HALLVARD", { x: A - 300, y: G - F(940, 940), c: AMB, size: F(76, 68), fx: "up", w: F(700, 600) }], ["t", "ley", "EL HOMBRE DE LA LEY", { size: F(76, 68) }]]);
+  say(K, 78, [["p", "En", "ulf", { armF: 0, foreF: 0, mouth: "neutral", brows: 0, head: 0 }], ["in", "Hallvard", "hall"], ["t", "Hallvard", "HALLVARD", { x: A + F(-300, 250), y: G - F(940, 940), c: AMB, size: F(76, 68), fx: "up", w: F(700, 600) }], ["t", "ley", "EL HOMBRE DE LA LEY", { size: F(76, 68) }]]);
   say(K, 79, [["i", "libros", "book-open", "LIBROS", false, { size: F(230, 210) }]]);
   say(K, 80, [["talk", "sabe", "hall", 2.6], ["p", "memoria", "hall", { armB: -150, foreB: -20, mouth: "open" }], ["t", "memoria", "DE MEMORIA", { c: AMB, size: F(100, 88) }], ["t", "alto", "Y EN ALTO", { size: F(72, 64) }]]);
   say(K, 81, [["i", "chuleta", "note", "CHULETA", false, { size: F(230, 210) }], ["t", "todos", "DELANTE DE TODOS", { size: F(70, 62), y: K.sy(2) + 40 }]]);
@@ -241,7 +241,7 @@ export function semana2(S) {
     ["f", (T, id, s) => { box(S, id, K.ix(), K.sy(s) + 30, F(640, 600), F(170, 160), `<div style="font:900 ${F(90, 80)}px Inter;color:#fff;letter-spacing:4px">APROBADO</div>`, T("aprobado"), { bg: C.greenD, fx: "slam" }); return { sel: `#${id}`, s: s + 1 }; }], ["shake", "aprobado", 12]]);
   say(K, 88, [["p", "Como", "ulf", { armF: 0, foreF: 0, mouth: "neutral" }], ["c", [["chalkboard-teacher", "EN CLASE", "clase"], ["g:axe", "CON HACHA", "hacha"]], { size: F(220, 200), cols: 2 }], ["t", "clase", `${HOY}`, { size: F(70, 62), y: K.sy(0) - F(150, 140) }]]);
   // 89-91 · Geirmund pide remeros
-  const Gm = actorK(K, "geir", "geirmund", A - 300, { g: GEIR, hid: true, y: G - 130, z: 3, flip: true, shadow: false });
+  const Gm = actorK(K, "geir", "geirmund", A + F(-300, 250), { g: GEIR, hid: true, y: G - 130, z: 3, flip: true, shadow: false });
   say(K, 89, [["out", "Geirmund", "hall", -0.3], ["in", "Geirmund", "geir"], ["c", [["g:oar", "SE BUSCAN<br>REMEROS", "remeros"]], { size: F(260, 240) }], ["talk", "avisa", "geir", 1.6]]);
   say(K, 90, [["p", "apunta", "ulf", POSE.manoAlta], ["t", "apunta", "¡YO!", { c: AMB, x: U.x, y: G - F(820, 840), size: F(110, 96), w: F(500, 400) }]]);
   say(K, 91, [["p", "arrepiente", "ulf", { armF: 0, foreF: 0, mouth: "sad", brows: 6, head: 8 }], ["fx", "arrepiente", "ulf", VERDE], ["t", "acto", "…Y SE ARREPIENTE", { c: VERDEC }]]);
@@ -258,8 +258,8 @@ export function semana2(S) {
   const MO = `${S.id}-tumulo-mo`;
   say(K, 98, [["cut", "Pocos", "tumulo", -0.5], ["t", "Pocos", "POCOS AÑOS DESPUÉS", { c: AMB, dt: 0.4, y: G - F(1000, 1250) }], ["f", (T) => { vis(S, `#${MO}-cut`, T("barco", -0.1), 1); vis(S, `#${MO}-top`, T("montículo"), 1, 0.8); S.cue(T("montículo"), "impact", 0.6); }], ["cam", "barco", 0.85, 200, 0, 0.8]]);
   say(K, 99, [["cam", "Con", 1, 0, 0, 0.7, -0.3], ["n", "caballos", 12, " CABALLOS", { bw: F(900, 860), size: F(120, 100) }], ["c", [["dog", "PERROS", "perros"], ["squares-four", "TABLERO", "tablero"]], { size: F(190, 170), cols: 2 }], ["f", (T) => { vis(S, `#${S.id}-pv`, T("pavos", -0.2), 1, 0.3); fanOpen(S, `${S.id}-pv`, T("pavos")); S.cue(T("pavos"), "pop"); }]]);
-  say(K, 100, [["pulse", "Pavos", `#${S.id}-pv`], ["t", "Pavos", "PAVOS REALES", { c: "#7fd0c0", size: F(110, 96) }], ["cam", "Pavos", 0.75, 900, 0, 0.6]]);
-  say(K, 101, [["b", "Noruega", Cx + 900, G - 700, { color: "#fff", n: 18, up: -60, spread: 300, size: 16, dur: 1.6 }], ["b", "Noruega", Cx + 700, G - 760, { color: "#fff", n: 14, up: -40, spread: 300, size: 14, dur: 1.6, seed: 4 }], ["t", "Noruega", "EN NORUEGA", { c: "#e8f2f8", x: Cx + 900, y: G - F(860, 900), size: F(84, 74) }]]);
+  say(K, 100, [["pulse", "Pavos", `#${S.id}-pv`], ["t", "Pavos", "PAVOS REALES", { c: "#7fd0c0", size: F(110, 96) }], ["cam", "Pavos", 0.8, F(800, 400), 0, 0.6]]);
+  say(K, 101, [["b", "Noruega", Cx + F(1050, 450), G - 500, { color: "#fff", n: 18, up: -60, spread: 300, size: 16, dur: 1.6 }], ["b", "Noruega", Cx + F(850, 300), G - 560, { color: "#fff", n: 14, up: -40, spread: 300, size: 14, dur: 1.6, seed: 4 }], ["t", "Noruega", "EN NORUEGA", { c: "#e8f2f8", x: Cx + F(1050, 300), y: G - F(860, 900), size: F(84, 74) }]]);
   say(K, 102, [["cam", "Nadie", 1, 0, 0, 0.6, -0.2], ["i", "Nadie", "question", "¿QUIÉN ERA?", null, { size: F(240, 220) }]]);
   say(K, 103, [["c", [["bandaids", "CORTES EN<br>LAS PIERNAS", "cortes"], ["knife", "DE ARMAS", "armas"]], { size: F(210, 190), cols: 2 }]]);
   // 104-110 · la despedida
@@ -292,7 +292,7 @@ export function semana3(S) {
   const shA = Pa.ship;
   const deck = G - 20;
   const U = actorK(K, "ulf", "ulf", A - F(300, 250), { g: { H: ["capWool"], F: ["stockfish"] }, off: ["stockfish"], shadow: false, y: deck });
-  const Gm = actorK(K, "geir", "geirmund", A + 1300, { g: { T: [cloakOf("#2f4f7a")] }, shadow: false, y: deck, flip: false });
+  const Gm = actorK(K, "geir", "geirmund", A + F(1000, 430), { g: { T: [cloakOf("#2f4f7a")] }, shadow: false, y: deck, flip: false });
   const R1 = actorK(K, "r1", "remero1", A - 900, { g: { H: ["capWool"] }, shadow: false, y: deck, flip: true });
   [U, Gm, R1].forEach((a) => aboard(S, shA, a));
   say(K, 111, [["f", (T, id) => semana(S, id, K.ix(), K.sy(0) + 80, 1, "SEMANA 3", T("Semana"))]]);
@@ -309,7 +309,7 @@ export function semana3(S) {
   gone(S, `[id^='${S.id}-f115']`, r3(K.L(117).start - 0.3));
   // 118-126 · sorpresas: sin brújula, sin comida caliente
   say(K, 118, [["t", "sorpresa", "PRIMERA SORPRESA", { c: AMB, size: F(84, 74) }], ["i", "brújula", "compass", "BRÚJULA", false, { size: F(230, 210) }]]);
-  say(K, 119, [["cam", "costa", 1.3, 0, 0, 1], ["t", "costa", "VIENDO LA COSTA", { y: G - F(1200, 1600), size: F(90, 80) }], ["t", "tierra", "TIERRA ↑", { c: VERDEC, y: G - F(1060, 1460), x: K.x - F(500, 250), size: F(84, 74), w: 700 }], ["t", "mar", "MAR ↓", { c: "#9fc0e0", y: G + F(140, 200), x: K.x + F(500, 250), size: F(84, 74), w: 600 }], ["p", "costa", "ulf", POSE.mirarLejos]]);
+  say(K, 119, [["cam", "costa", 1.3, 0, 0, 1], ["t", "costa", "VIENDO LA COSTA", { y: G - F(1200, 1600), size: F(90, 80) }], ["t", "tierra", "TIERRA ↑", { c: VERDEC, y: G - F(1060, 1460), x: K.x - F(500, 250), size: F(84, 74), w: 700 }], ["t", "mar", "MAR ↓", { c: "#9fc0e0", y: G - F(130, 150), x: K.x + F(450, 250), size: F(84, 74), w: 600 }], ["p", "costa", "ulf", POSE.mirarLejos]]);
   say(K, 120, [["cam", "Y", 1, 0, 0, 0.8, -0.3], ["p", "Y", "ulf", { armF: 0, foreF: 0, head: 0 }], ["i", "piedra", "diamond", "¿PIEDRA SOLAR?", null, { size: F(240, 220), bg: "#fff3c4" }], ["t", "sagas", "DE LAS SAGAS", { size: F(66, 60) }]]);
   say(K, 121, [["f", (T, id) => { box(S, id, K.ix(), K.sy(1), F(820, 760), F(170, 160), `<div style="font:900 ${F(76, 68)}px Inter;color:#fff">NO ENCONTRADA</div>`, T("Nunca"), { bg: C.redD, fx: "slam" }); return `#${id}`; }], ["shake", "Nunca", 10]]);
   say(K, 122, [["t", "Segunda", "SEGUNDA SORPRESA", { c: AMB, size: F(84, 74) }], ["i", "caliente", "flame", "COMIDA CALIENTE", false, { size: F(230, 210) }]]);
@@ -325,7 +325,7 @@ export function semana3(S) {
   say(K, 131, [["i", "mar", "waves", "DE MAR", false, { size: F(220, 200), bg: "#a8d8f0" }]], { keep: true, slot: 1 });
   // 132-135 · la noche fondeados
   say(K, 132, [["cut", "Por", "noche", -0.5], ["t", "camas", "NO HAY CAMAS", { c: "#c9d4f0" }]]);
-  const dk = G - 210;
+  const dk = G - 250;
   const ch = (x) => art(K, `${S.id}-ch${x}`, x, G - 140, 560, 110, "0 0 560 110", `<rect x="0" y="10" width="560" height="100" rx="10" fill="#6b4a2e" stroke="${C.ink}" stroke-width="6"/>`, { z: 8 });
   const sleepers = [Bx - F(300, 160), Bx + F(450, 420)].map((x, i) => { ch(x - 230); const a = actorK(K, `d${i}`, i ? "remero1" : "ulf", x, { g: { T: ["hide"], H: ["capWool"] }, off: ["hide"], shadow: false, y: dk, z: 9, scale: 1.05, live: true }); pose(S, a, 0, { body: -90 }, 0.01); return a; });
   S.tw(`tl.set("#${S.id}-ch${Bx - F(300, 160) - 230},#${S.id}-ch${Bx + F(450, 420) - 230}",{opacity:1},0);`);
@@ -337,7 +337,7 @@ export function semana3(S) {
   say(K, 137, [["cut", "Al", "niebla", -0.5], ["t", "niebla", "NIEBLA", { c: "#ffffff", size: F(120, 100), u: true }]]);
   const shR = Pr.ship;
   const U2 = actorK(K, "ulf2", "ulf", Cx - F(300, 250), { g: { H: ["capWool"] }, shadow: false, y: G - 20 });
-  const G2 = actorK(K, "geir2", "geirmund", Cx + 1300, { g: { T: [cloakOf("#2f4f7a")] }, shadow: false, y: G - 20 });
+  const G2 = actorK(K, "geir2", "geirmund", Cx + F(1000, 430), { g: { T: [cloakOf("#2f4f7a")] }, shadow: false, y: G - 20 });
   const R2 = actorK(K, "r2", "remero2", Cx - 900, { g: { H: ["capWool"] }, shadow: false, y: G - 20, flip: true });
   [U2, G2, R2].forEach((a) => aboard(S, shR, a));
   say(K, 138, [["f", (T) => { sailTo(Pr, shR, T("vela"), "slack"); }], ["cam", "vela", 1.3, 0, 0, 0.9], ["t", "muerta", "LA VELA CUELGA", { y: G - F(1300, 1650) }]]);
@@ -376,10 +376,10 @@ export function semana4(S) {
   const K = kit(S), { F, h } = K, A = 3000, Bx = 9000, Cx = 15000, Dx = 21000, Ex = 27000, Fx = 33000, Gx = 39000;
   esc(S, "puerto", FONDO.s4_puerto, A);
   esc(S, "calle", FONDO.s4_mercado, Bx);
-  const Pp = esc(S, "plata", (P, x) => { FONDO.s4_plata(P, x); bigScale(P, `${S.id}-bs`, x + F(700, 0), G); }, Cx);
+  const Pp = esc(S, "plata", (P, x) => { FONDO.s4_plata(P, x); bigScale(P, `${S.id}-bs`, x + F(820, 0), G); }, Cx);
   esc(S, "esclavos", FONDO.s4_esclavos, Dx);
   esc(S, "ansgario", FONDO.s4_ansgario, Ex, { filter: SEPIA });
-  esc(S, "museo", (P, x) => { FONDO.ins_museo(P, x); museumCase(P, `${S.id}-cr`, x + F(380, 0), "craneo", "SUECIA<br>800-1050"); }, Fx);
+  esc(S, "museo", (P, x) => { FONDO.ins_museo(P, x); museumCase(P, `${S.id}-cr`, x + F(-300, 0), "craneo", "SUECIA<br>800-1050"); }, Fx);
   esc(S, "noche", FONDO.s4_noche, Gx);
   on(S, "puerto", 0); K.x = A;
   enter(S, spotBox(S, A));
@@ -396,7 +396,7 @@ export function semana4(S) {
   say(K, 166, [["cut", "Calles", "calle", -0.5], ["t", "Calles", "CALLES DE TABLONES", { size: F(76, 68), dt: 0.3 }], ["t", "arroyo", "UN ARROYO ENTABLADO", { size: F(70, 62), c: "#9fc0e0" }], ["t", "talleres", "TALLERES", { c: AMB }]]);
   const U2 = actorK(K, "ulf2", "ulf", 0, { g: { T: ["cloak"], B: ["axe"] } });
   const Po = actorK(K, "poppo", "poppo", 1, { g: POPPO, hid: true, flip: true });
-  say(K, 167, [["c", [["g:comb", "PEINES", "Peines"], ["circles-three", "CUENTAS DE VIDRIO", "cuentas"], ["hammer", "HERREROS", "herreros"]], { size: F(200, 180), cols: 3 }], ["sfx", "herreros", "hammer"]]);
+  say(K, 167, [["c", [["g:comb", "PEINES", "Peines"], ["circles-three", "CUENTAS", "cuentas"], ["hammer", "HERREROS", "herreros"]], { size: F(200, 180), cols: 3 }], ["sfx", "herreros", "hammer"]]);
   say(K, 168, [["f", (T, id) => { S.add(`<div id="${id}" class="prop" style="left:${K.x - 2000}px;top:${G - 1600}px;width:4000px;height:1700px;z-index:9;opacity:0;background:radial-gradient(ellipse at 40% 60%,rgba(150,145,140,.85),rgba(150,145,140,0) 70%)"></div>`); S.tw(`tl.fromTo("#${id}",{opacity:0,x:-600},{opacity:1,x:0,duration:0.9},${T("humo", -0.2)});`); return `#${id}`; }], ["t", "humo", "Y HUMO", { c: "#ddd", size: F(110, 96) }]]);
   say(K, 169, [["p", "Mucho", "ulf2", { head: 12, body: 6, mouth: "open", brows: 6 }], ["shiver", "Mucho", "ulf2", 1.2], ["t", "Mucho", "MUCHO HUMO", { c: "#ddd", size: F(100, 90) }], ["sfx", "Mucho", "cough"]], { keep: true });
   say(K, 170, [["p", "Ulf", "ulf2", { head: 0, body: 0, mouth: "neutral", brows: 0 }], ["in", "Poppo", "poppo"], nameTag(K, "poppo", "POPPO · FRISÓN", "Poppo", { hy: 780 }), ["t", "mercader", "UN MERCADER", { c: AMB }]]);
@@ -406,19 +406,19 @@ export function semana4(S) {
   say(K, 173, [["cut", "pesan", "plata", -0.6], ["t", "pesan", "SE PESAN", { c: AMB, size: F(130, 110), u: true, dt: 0.3 }]]);
   const Po2 = actorK(K, "poppo2", "poppo", F(Cx - 300, Cx + 160), { g: POPPO, flip: true });
   const U3 = actorK(K, "ulf3", "ulf", F(Cx - 640, Cx - 330), { g: { T: ["cloak"], F: ["bundle", "hacksilver"] }, off: ["bundle", "hacksilver"] });
-  say(K, 174, [["p", "platillos", "poppo2", POSE.pesar], ["sfx", "platillos", "silver", 0.6], ["t", "platillos", "PLATILLOS DE BRONCE", { size: F(70, 62), x: Cx + F(700, 0), y: G - F(950, 1250) }], ["t", "pesas", "Y PESAS", { c: AMB, size: F(80, 70), x: Cx + F(700, 0), y: G - F(830, 1130) }]]);
-  say(K, 175, [["c", [["coin", "MONEDAS", "Monedas"], ["circle-notch", "JOYAS", "joyas"], ["rectangle", "LINGOTES", "lingotes"]], { size: F(190, 170), cols: 3, x: Cx + F(700, 0), y: G - F(900, 1230) }], ["sfx", "cachos", "silver"], ["b", "cachos", Cx + F(700, 0), G - F(900, 1230), { color: "#dfe4ea", n: 16, size: 14 }], ["f", (T) => { vis(S, `[id^='${S.id}-bs']`, T("platillo", -0.4), 1, 0.3); tilt(S, `${S.id}-bs`, T("platillo"), 8); }]]);
-  say(K, 176, [["t", "plata", "PLATA PICADA", { c: "#dfe4ea", size: F(120, 100), u: true, x: Cx + F(700, 0), y: G - F(900, 1230) }]]);
-  say(K, 177, [["c", [["map-pin", "DE AQUÍ", "dónde"], ["map-pin", "DE ALLÁ", "venga"], ["map-pin", "DE LEJOS", "plata"]], { size: F(170, 160), cols: 3, x: Cx + F(700, 0), y: G - F(920, 1230) }]]);
-  say(K, 178, [["f", (T) => tilt(S, `${S.id}-bs`, T("pesa"), 0)], ["t", "pesa", "SOLO IMPORTA EL PESO", { c: AMB, size: F(80, 70), x: Cx + F(700, 0), y: G - F(920, 1230) }]]);
-  say(K, 179, [["f", (T, id) => mapa(K, id, Cx + F(500, 0), G - F(640, 1000), T("este", -0.3), [["HEDEBY", 345, 610, T("este")], ["ESTE", 930, 420, T("este", 0.2)]], { routes: [[1, 0, T("este", 0.3)]], w: F(820, 760) })], ["i", "dírhams", "coin", "DÍRHAM ÁRABE", null, { size: F(180, 170), bg: "#e8eef4", x: Cx + F(1150, 300), y: G - F(380, 560) }]]);
-  say(K, 180, [["c", [["bread", "EL PAN", "pan"], ["scissors", "UN CACHO DE PULSERA", "pulsera"]], { size: F(200, 180), cols: 2, x: Cx + F(700, 0), y: G - F(880, 1200) }], ["t", "Imagina", `${HOY} IMAGINA…`, { size: F(70, 62), x: Cx + F(700, 0), y: G - F(1080, 1400) }]]);
-  say(K, 181, [["g", "cambia", "ulf3", "bundle"], ["p", "cambia", "ulf3", { armF: -70, foreF: -20 }], ["G", "plata", "ulf3", "bundle", -0.3], ["g", "plata", "ulf3", "hacksilver"], ["p", "plata", "ulf3", { armF: -60, foreF: -50, mouth: "smile" }], ["b", "plata", U3.x + 60, G - 420, { color: "#dfe4ea", n: 8 }], ["t", "puñado", "UN PUÑADO DE PLATA", { c: "#dfe4ea", x: Cx + F(700, 0), y: G - F(920, 1230) }]]);
+  say(K, 174, [["p", "platillos", "poppo2", POSE.pesar], ["sfx", "platillos", "silver", 0.6], ["t", "platillos", "PLATILLOS DE BRONCE", { size: F(70, 62) }], ["t", "pesas", "Y PESAS", { c: AMB, size: F(80, 70) }]]);
+  say(K, 175, [["c", [["coin", "MONEDAS", "Monedas"], ["circle-notch", "JOYAS", "joyas"], ["rectangle", "LINGOTES", "lingotes"]], { size: F(190, 170), cols: 3 }], ["sfx", "cachos", "silver"], ["b", "cachos", Cx + F(380, 0), G - F(800, 1210), { color: "#dfe4ea", n: 16, size: 14 }], ["f", (T) => { vis(S, `[id^='${S.id}-bs']`, T("platillo", -0.4), 1, 0.3); tilt(S, `${S.id}-bs`, T("platillo"), 8); }]]);
+  say(K, 176, [["t", "plata", "PLATA PICADA", { c: "#dfe4ea", size: F(120, 100), u: true }]]);
+  say(K, 177, [["c", [["map-pin", "DE AQUÍ", "dónde"], ["map-pin", "DE ALLÁ", "venga"], ["map-pin", "DE LEJOS", "plata"]], { size: F(170, 160), cols: 3 }]]);
+  say(K, 178, [["f", (T) => tilt(S, `${S.id}-bs`, T("pesa"), 0)], ["t", "pesa", "SOLO IMPORTA EL PESO", { c: AMB, size: F(80, 70) }]]);
+  say(K, 179, [["f", (T, id) => mapa(K, id, K.ix(), K.sy(0) + F(240, 260), T("este", -0.3), [["HEDEBY", 345, 610, T("este")], ["ESTE", 930, 420, T("este", 0.2)]], { routes: [[1, 0, T("este", 0.3)]], w: F(820, 760) })], ["i", "dírhams", "coin", "DÍRHAM ÁRABE", null, { size: F(170, 160), bg: "#e8eef4", y: K.sy(2) + F(120, 90) }]]);
+  say(K, 180, [["c", [["bread", "EL PAN", "pan"], ["scissors", "UN CACHO DE PULSERA", "pulsera"]], { size: F(200, 180), cols: 2 }], ["t", "Imagina", `${HOY} IMAGINA…`, { size: F(70, 62) }]]);
+  say(K, 181, [["g", "cambia", "ulf3", "bundle"], ["p", "cambia", "ulf3", { armF: -70, foreF: -20 }], ["G", "plata", "ulf3", "bundle", -0.3], ["g", "plata", "ulf3", "hacksilver"], ["p", "plata", "ulf3", { armF: -60, foreF: -50, mouth: "smile" }], ["b", "plata", U3.x + 60, G - 420, { color: "#dfe4ea", n: 8 }], ["t", "puñado", "UN PUÑADO DE PLATA", { c: "#dfe4ea" }]]);
   // 182-191 · esclavos (sin bromas)
   say(K, 182, [["cut", "muelle", "esclavos", -0.6], ["t", "cosa", "OTRA COSA", { c: "#c9d0d6" }]]);
   const Th = actorK(K, "esclava", "thrall", 1, { g: { F: ["shackle"] }, hid: true, flip: true });
   say(K, 183, [["in", "Personas", "esclava"], ["t", "Personas", "PERSONAS", { c: "#e6e8ec", size: F(110, 96) }], ["p", "Personas", "esclava", { head: 8, mouth: "sad", brows: 5 }]]);
-  say(K, 184, [["t", "Esclavos", "ESCLAVOS", { c: "#e6e8ec", size: F(110, 96) }], ["cam", "Esclavos", 0.55, F(-310, 0), F(-200, -150), 0.7], ["sfx", "Esclavos", "chain"]]);
+  say(K, 184, [["t", "Esclavos", "ESCLAVOS", { c: "#e6e8ec", size: F(84, 74), x: Dx + F(170, 0), y: G - F(760, 820), w: F(700, 640) }], ["cam", "Esclavos", 0.7, F(-310, 0), F(-120, -120), 0.7], ["sfx", "Esclavos", "chain"]]);
   say(K, 185, [["cam", "Según", 1, 0, 0, 0.7, -0.3], ["t", "Museo", "MUSEO NACIONAL<br>DE DINAMARCA", { size: F(70, 62) }], ["t", "importantes", "UNA DE LAS COSAS MÁS VENDIDAS", { c: "#c9d0d6", size: F(62, 56) }]]);
   say(K, 186, [["f", (T, id) => mapa(K, id, K.ix(), K.sy(0) + F(270, 280), T("capturaban", -0.2), [["EUROPA DEL ESTE", 860, 560, T("Este")], ["ISLAS BRITÁNICAS", 50, 430, T("británicas")]], { regions: [[860, 560, 140, "#c9707a", T("Este")], [60, 500, 110, "#c9707a", T("británicas")]], w: F(900, 860) })]]);
   say(K, 187, [["c", [["hand-grabbing", "ROBAR", "robar"], ["knife", "MATAR", "matar"]], { size: F(210, 190), cols: 2 }], ["t", "castigo", "COMO CASTIGO", { c: "#c9d0d6" }]]);
@@ -434,7 +434,7 @@ export function semana4(S) {
   // 194-198 · dientes limados (en Suecia)
   say(K, 194, [["t", "otro", "OTRO DATO RARO…", { c: AMB, size: F(84, 74) }], ["cut", "lugar", "museo", -0.3], ["t", "lugar", "EN SUECIA", { c: "#e6e8ec", size: F(110, 96), dt: 0.5 }]]);
   say(K, 195, [["cam", "Suecia", 1, 0, 0, 0.6], ["t", "Suecia", "SUECIA Y DINAMARCA", { size: F(72, 64) }], ["n", "quinientos", 557, " ESQUELETOS", { bw: F(1000, 940), size: F(110, 92) }]]);
-  say(K, 196, [["n", "Veinticuatro", 24, " HOMBRES", { bw: F(860, 820), size: F(120, 100) }], ["t", "dientes", "DIENTES LIMADOS", { c: AMB }], ["cam", "dientes", 0.42, F(380, 0), F(-260, -330), 0.7]]);
+  say(K, 196, [["n", "Veinticuatro", 24, " HOMBRES", { bw: F(860, 820), size: F(120, 100), y: G - F(800, 1150) }], ["t", "dientes", "DIENTES LIMADOS", { c: AMB, x: Fx + F(-300, 0), y: G - F(960, 1000), size: F(64, 58), w: F(800, 700) }], ["cam", "dientes", 0.9, F(-150, 0), F(-60, -60), 0.7]]);
   const U4 = actorK(K, "ulf4", "ulf", 0, { g: { T: ["cloak"] }, hid: true });
   say(K, 197, [["cam", "Ulf", 1, 0, 0, 0.6, -0.3], ["in", "Ulf", "ulf4"], ["p", "tiene", "ulf4", { mouth: "smile", brows: -6 }], ["i", "tiene", "smiley", "ULF NO", true, { size: F(220, 200) }]]);
   say(K, 198, [["f", (T, id) => { const a = actorK(K, "lima", "remero2", F(Fx - 300, Fx + 330), { g: { F: ["file"] }, hid: true, flip: true }); S.tw(`tl.set("#${a.id}",{filter:"${SOMBRA}"},0);`); appear(S, a, T("alguien", -0.2)); return `#${a.id}`; }], ["i", "idea", "question", "¿BUENA IDEA?", null, { size: F(220, 200) }]]);
@@ -446,7 +446,7 @@ export function semana4(S) {
   say(K, 200, [["g", "cuernos", "ulf5", "hornDrink"], ["p", "cuernos", "ulf5", { armF: -90, foreF: -40, mouth: "smile" }], ["t", "cuernos", "EN CUERNOS", { c: AMB, size: F(110, 96) }]]);
   say(K, 201, [["t", "mito", "OTRO MITO", { c: AMB, size: F(110, 96), u: true }], ["i", "cráneo", "skull", "BEBER EN CRÁNEOS", false, { size: F(220, 200) }]]);
   say(K, 202, [["c", [["student", "ERUDITO DANÉS", "erudito"]], { size: F(200, 180) }], ["t", "Siglos", "SIGLO XVII", { c: AMB, size: F(66, 60), y: K.sy(0) - F(140, 130) }],
-    ["f", (T, id, s) => { box(S, id, K.ix(), K.sy(s) + 30, F(1000, 920), F(200, 200), `<div style="font:900 ${F(54, 50)}px Inter;color:${C.ink};text-align:center;line-height:1.1">«LAS RAMAS CURVAS<br>DE LOS <span id="${id}-k">CRÁNEOS</span>»</div>`, T("ramas", -0.1), { bg: "#efe3c8" }); S.tw(`tl.to("#${id}-k",{color:"${VK.amber}",duration:0.2},${T("cuernos")});`); return { sel: `#${id}`, s: s + 1 }; }], ["t", "cuernos", "= CUERNOS PARA BEBER", { c: AMB, size: F(70, 62) }]]);
+    ["f", (T, id, s) => { box(S, id, K.ix(), K.sy(s) + 10, F(1000, 920), F(180, 180), `<div style="font:900 ${F(54, 50)}px Inter;color:${C.ink};text-align:center;line-height:1.1">«LAS RAMAS CURVAS<br>DE LOS <span id="${id}-k">CRÁNEOS</span>»</div>`, T("ramas", -0.1), { bg: "#efe3c8" }); S.tw(`tl.to("#${id}-k",{color:"${VK.amber}",duration:0.2},${T("cuernos")});`); return { sel: `#${id}`, s: s + 1 }; }], ["t", "cuernos", "= CUERNOS PARA BEBER", { c: AMB, size: F(70, 62) }]]);
   say(K, 203, [["c", [["cow", "VACA", "animal"], ["g:hornDrink", "CUERNO", "cuernos"]], { size: F(210, 190), cols: 2 }], ["t", "cráneo", "LOS CUERNOS SALEN DEL CRÁNEO", { size: F(62, 56) }]]);
   say(K, 204, [["i", "letra", "skull", "AL PIE DE LA LETRA", null, { size: F(230, 210) }], ["p", "letra", "ulf5", { brows: 6, mouth: "open" }]]);
   say(K, 205, [["c", [["g:hornDrink", "CUERNOS", "cuernos"], ["wine", "COPAS", "copas"], ["brandy", "VASOS", "vasos"]], { size: F(200, 180), cols: 3 }], ["p", "cuernos", "ulf5", { mouth: "smile", brows: 0 }]]);
@@ -458,7 +458,7 @@ export function balance(S) {
   const K = kit(S), { F, h } = K, A = 3000, Bx = 10000, Cx = 16000, Dx = 23000;
   const Pb = esc(S, "granja", (P, x) => { FONDO.balance(P, x); bigScale(P, `${S.id}-bs`, x + F(1500, 0) + F(-1300, 0), G); }, A);
   esc(S, "volga", FONDO.ins_volga, Bx, { filter: DESP });
-  esc(S, "museo", (P, x) => { FONDO.ins_museo(P, x); museumCase(P, `${S.id}-vb`, x + F(380, 0), "viborg", "VIBORG<br>1018-1030"); museumCase(P, `${S.id}-gj`, x + 2500 + F(380, 0), "gjermundbu", "GJERMUNDBU<br>SIGLO X"); museumCase(P, `${S.id}-vk`, x + 5000 + F(380, 0), "veksoe", "VEKSØ<br>h. 900 a. C."); }, Cx);
+  esc(S, "museo", (P, x) => { FONDO.ins_museo(P, x); museumCase(P, `${S.id}-vb`, x + F(-300, 0), "viborg", "VIBORG<br>1018-1030"); museumCase(P, `${S.id}-gj`, x + 2500 + F(-300, 0), "gjermundbu", "GJERMUNDBU<br>SIGLO X"); museumCase(P, `${S.id}-vk`, x + 5000 + F(-300, 0), "veksoe", "VEKSØ<br>h. 900 a. C."); }, Cx);
   esc(S, "opera", FONDO.ins_1876, Dx);
   on(S, "granja", 0); K.x = A;
   enter(S, spotBox(S, A));
@@ -477,7 +477,7 @@ export function balance(S) {
   const Ru = actorK(K, "rus", "rus", 1, { g: { T: ["tattoo"], F: ["basin"] }, off: ["basin"], hid: true, flip: true });
   say(K, 212, [["t", "Volga", "921 · RÍO VOLGA", { c: AMB, size: F(90, 80) }], ["t", "Treinta", "30 AÑOS DESPUÉS", { size: F(70, 62), dt: 0.5 }], ["in", "Ibn", "fad"], nameTag(K, "fad", "IBN FADLÁN", "Ibn", { hy: 770 }), ["in", "escandinavos", "rus"]], { keep: true });
   say(K, 213, [["g", "palangana", "rus", "basin"], ["p", "palangana", "rus", { armF: -60, foreF: -30 }], ["i", "palangana", "g:basin", "UNA SOLA PALANGANA", null, { size: F(220, 200) }]]);
-  say(K, 214, [["c", [["drop", "CARA Y PELO", "cara"], ["g:comb", "PEINE", "peinaba"], ["smiley-nervous", "MOCOS", "mocos"], ["drop-half", "ESCUPE", "escupía"]], { size: F(180, 170), cols: F(4, 2) }], ["p", "escupía", "rus", { head: 10, mouth: "open" }], ["t", "siguiente", "¡AL SIGUIENTE!", { c: AMB, size: F(80, 70) }], ["go", "siguiente", "rus", 2, 0.6]]);
+  say(K, 214, [["c", [["drop", "CARA", "cara"], ["g:comb", "PEINE", "peinaba"], ["smiley-nervous", "MOCOS", "mocos"], ["drop-half", "ESCUPE", "escupía"]], { size: F(170, 160), cols: F(4, 2) }], ["p", "escupía", "rus", { head: 10, mouth: "open" }], ["t", "siguiente", "¡AL SIGUIENTE!", { c: AMB, size: F(80, 70) }], ["go", "siguiente", "rus", 2, 0.6]]);
   say(K, 215, [["p", "guarras", "fad", { brows: 8, mouth: "sad", head: -6 }], ["t", "guarras", "«LAS CRIATURAS MÁS GUARRAS»", { c: "#c9c1b0", size: F(70, 62) }]]);
   say(K, 216, [["p", "perfectos", "rus", { armF: -30, armB: -30, foreF: -60, foreB: -60, head: -8, mouth: "smile" }], ["t", "perfectos", "«CUERPOS PERFECTOS»", { c: VERDEC, size: F(74, 66) }], ["i", "palmeras", "tree-palm", "ALTOS COMO PALMERAS", null, { size: F(210, 190) }]]);
   // 217-219 · Viborg
@@ -491,7 +491,7 @@ export function balance(S) {
   say(K, 223, [["shake", "uno", 22], ["t", "uno", "NI UNO", { c: ROJO, size: F(110, 96), y: K.sy(2) + 60 }]], { keep: true });
   // 224-228 · Gjermundbu, la ópera de 1876 y Veksø
   say(K, 224, [["cut", "Gjermundbu", "museo", -0.6, Cx + 2500], ["t", "Gjermundbu", "GJERMUNDBU · SIGLO X", { c: AMB, size: F(74, 66), dt: 0.3 }], ["t", "después", "AÑOS DESPUÉS DE ULF", { size: F(66, 60) }]]);
-  say(K, 225, [["cam", "redondo", 0.5, F(380, 0), F(-350, -380), 0.7], ["f", (T) => { S.tw(`tl.fromTo("#${S.id}-gj-obj",{filter:"drop-shadow(0 0 0 #ffd36b)"},{filter:"drop-shadow(0 0 18px #ffd36b)",duration:0.3,yoyo:true,repeat:3},${T("redondo")});tl.fromTo("#${S.id}-gj-gf",{opacity:1},{opacity:0.3,duration:0.15,yoyo:true,repeat:5},${T("gafas")});`); }], ["t", "gafas", "GAFAS DE HIERRO", { c: AMB, x: K.x + F(380, 0), y: G - F(940, 980), size: F(60, 56), w: F(700, 640) }]]);
+  say(K, 225, [["cam", "redondo", 0.7, F(-300, 0), F(-200, -250), 0.7], ["f", (T) => { S.tw(`tl.fromTo("#${S.id}-gj-obj",{filter:"drop-shadow(0 0 0 #ffd36b)"},{filter:"drop-shadow(0 0 18px #ffd36b)",duration:0.3,yoyo:true,repeat:3},${T("redondo")});tl.fromTo("#${S.id}-gj-gf",{opacity:1},{opacity:0.3,duration:0.15,yoyo:true,repeat:5},${T("gafas")});`); }], ["t", "gafas", "GAFAS DE HIERRO", { c: AMB, x: K.x + F(-300, 0), y: G - F(960, 1010), size: F(64, 58), w: F(760, 660) }]]);
   say(K, 226, [["cut", "figurinista", "opera", -0.6]]);
   const Op = actorK(K, "op", "opera", 0, { g: { H: ["hornHelmet"], F: [prop("spear", `${S.id}-osp`)] }, hid: true, z: 6 });
   say(K, 226, [["f", (T) => curtainOpen(S, `${S.id}-opera-op`, T("figurinista", 0.1))], ["in", "Wagner", "op"], ["talk", "Wagner", "op", 2.4], ["p", "Wagner", "op", { armF: -150, armB: -150, mouth: "open" }], ["t", "setenta", "1876 · ÓPERA DE WAGNER", { c: AMB, size: F(74, 66) }], ["f", (T, id) => { stampXAt(K, id, K.A.op.x, G - 720, F(240, 220), T("setenta", 0.6)); return `#${id}`; }]], { keep: true });

@@ -8,6 +8,9 @@ export const G = 900;
 const INK = C.ink;
 const DUR = (S) => S.t1 - S.t0;
 const REP = (S, d) => Math.max(1, Math.floor(DUR(S) / d));
+// Las capas con paralaje se colocan según la estación del escenario (S.x0), para que no se queden sin dibujo en mundos largos
+import { fit } from "./lib.mjs";
+const lay = (S, f, pad = 3000) => { const x0 = S.x0 ?? 0, b = S.fmt.h ? { x: x0 - 900, y: G - 1010, w: 1800, h: 1050 } : { x: x0 - 560, y: G - 1330, w: 1120, h: 1360 }; return r3(-fit(S.fmt, b).x * f - pad); };
 export const VK = { fjord: "#2f4a66", sky: "#cfe0ea", grass: "#6f8f4a", earth: "#8a6a48", oak: "#a0703c", oakD: "#7a5030", madder: "#9e3a2a", sail: "#b8643a", silver: "#dfe4ea", amber: "#d9a72b" };
 
 // ===================== 1 · CIELO =====================
@@ -77,9 +80,9 @@ function gullsFly(S) {
 }
 // Niebla que se desliza (capa delante; fogTo la espesa o la abre)
 export function fog(S, k = 0.55) {
-  const { W, H } = S.fmt;
-  S.over.push(`<div id="${S.id}-fog" class="layer" style="left:${-W * 0.25}px;width:${W * 1.5}px;height:${H}px;z-index:12;pointer-events:none;opacity:${k};background:repeating-linear-gradient(180deg,rgba(235,240,243,.0) 0 60px,rgba(235,240,243,.55) 60px 200px,rgba(235,240,243,.1) 200px 300px),linear-gradient(180deg,rgba(225,232,236,.5),rgba(225,232,236,.85))"></div>`);
-  S.tw(`tl.fromTo("#${S.id}-fog",{x:0},{immediateRender:false,x:${-W * 0.2},duration:9,yoyo:true,repeat:${REP(S, 9)},ease:"sine.inOut"},0);`);
+  const W = 12000, H = 3200, x0 = (S.x0 ?? 0) - 6000;
+  S.add(`<div id="${S.id}-fog" class="prop" style="left:${x0}px;top:${G - 2400}px;width:${W}px;height:${H}px;z-index:7;pointer-events:none;opacity:${k};background:repeating-linear-gradient(180deg,rgba(235,240,243,.0) 0 60px,rgba(235,240,243,.55) 60px 200px,rgba(235,240,243,.1) 200px 300px),linear-gradient(180deg,rgba(225,232,236,.5),rgba(225,232,236,.85))"></div>`);
+  S.tw(`tl.fromTo("#${S.id}-fog",{x:0},{immediateRender:false,x:-600,duration:9,yoyo:true,repeat:${REP(S, 9)},ease:"sine.inOut"},0);`);
 }
 export function fogTo(S, t, op, d = 1.2) { S.tw(`tl.to("#${S.id}-fog",{opacity:${op},duration:${d},ease:"power1.inOut"},${r3(t)});`); }
 
@@ -114,13 +117,13 @@ export function farLayer(S, { kind = "montes", night = false, seed = 21 } = {}) 
     const R = rng(seed + 7);
     for (let x = 0; x < W0; x += 120 + R() * 90) { const w = 90 + R() * 70, hh = 40 + R() * 30, y = 420; s += `<rect x="${r3(x)}" y="${r3(y - hh)}" width="${r3(w)}" height="${r3(hh)}" fill="${night ? "#2a3048" : "#a89a86"}"/><path d="M${r3(x - 10)},${r3(y - hh)} L${r3(x + w / 2)},${r3(y - hh - 46)} L${r3(x + w + 10)},${r3(y - hh)}Z" fill="${night ? "#363a52" : "#b8a070"}"/>`; if (R() < 0.3) s += `<path d="M${r3(x + w / 2)},${r3(y - hh - 40)} L${r3(x + w / 2)},${r3(y - hh - 230)}" stroke="${night ? "#2a3048" : "#7a6a56"}" stroke-width="5"/>`; }
   }
-  S.bg.push(`<div id="${S.id}-far" class="layer" style="left:-3000px;top:${h ? 260 : 780}px;width:${W0}px;height:${HH}px"><svg width="${W0}" height="${HH}">${s}</svg></div>`);
+  S.bg.push(`<div id="${S.id}-far" class="layer" style="left:${lay(S, 0.12)}px;top:${h ? 260 : 780}px;width:${W0}px;height:${HH}px"><svg width="${W0}" height="${HH}">${s}</svg></div>`);
   S.parallax = [...(S.parallax || []).filter(([q]) => q !== `${S.id}-far`), [`${S.id}-far`, 0.12]];
 }
 
 // ===================== 3a · MEDIO LEJANO (paralaje 0,35): agua del fiordo, orilla, Kaupang, islotes =====================
 export function midLayer(S, { kind = "fjord", night = false, kaupang = false, skerries = false, boats = 0, seed = 31, land = null } = {}) {
-  const { h } = S.fmt, W0 = 16000, HH = h ? 760 : 1100, top = h ? 520 : 1060;
+  const { h } = S.fmt, W0 = 24000, HH = h ? 760 : 1100, top = h ? 520 : 1060;
   const water = night ? ["#1a2742", "#101a2e"] : kind === "sea" ? ["#4f7a98", "#2f4a66"] : ["#7fa3bb", "#3f6a8a"];
   let s = `<defs><linearGradient id="${S.id}-wg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${water[0]}"/><stop offset="1" stop-color="${water[1]}"/></linearGradient></defs>`;
   s += `<rect x="0" y="40" width="${W0}" height="${HH}" fill="url(#${S.id}-wg)"/>`;
@@ -128,7 +131,7 @@ export function midLayer(S, { kind = "fjord", night = false, kaupang = false, sk
   // orilla lejana
   if (kind !== "sea") s += `<path d="${roundRidge(seed + 2, W0, 120, 46, 26, 500)}" fill="${night ? "#1c2840" : kind === "llano" ? "#7f9a6a" : "#6f8a6a"}"/>`;
   // reflejos horizontales que parpadean
-  for (let i = 0; i < 70; i++) s += `<rect id="${S.id}-wr${i}" x="${r3(R() * W0)}" y="${r3(70 + R() * (HH - 120))}" width="${r3(40 + R() * 120)}" height="4" rx="2" fill="${night ? "#c9d4f0" : "#e8f2f8"}" opacity="${r3(0.25 + R() * 0.4)}"/>`;
+  for (let i = 0; i < 100; i++) s += `<rect id="${S.id}-wr${i}" x="${r3(R() * W0)}" y="${r3(70 + R() * (HH - 120))}" width="${r3(40 + R() * 120)}" height="4" rx="2" fill="${night ? "#c9d4f0" : "#e8f2f8"}" opacity="${r3(0.25 + R() * 0.4)}"/>`;
   if (skerries) for (let x = 200; x < W0; x += 700 + R() * 900) { const w = 120 + R() * 220, y = 70 + R() * 80; s += `<path d="M${r3(x)},${r3(y)} C${r3(x + w * 0.1)},${r3(y - 40 - R() * 30)} ${r3(x + w * 0.8)},${r3(y - 50)} ${r3(x + w)},${r3(y)}Z" fill="${night ? "#2a3450" : "#9aa6ae"}" stroke="${night ? "#1a2238" : "#6f7a84"}" stroke-width="3"/><path d="M${r3(x + w * 0.3)},${r3(y - 30)} q${r3(w * 0.2)},-12 ${r3(w * 0.4)},0" stroke="#fff" stroke-width="4" opacity=".4" fill="none"/>`; }
   if (kaupang) for (let x = 600; x < W0; x += 2600) {
     for (let k = 0; k < 9; k++) { const hx = x + k * 70, hw = 56, hh = 26; s += `<rect x="${hx}" y="${46 - hh}" width="${hw}" height="${hh}" fill="${night ? "#2a3048" : "#9a8a76"}"/><path d="M${hx - 6},${46 - hh} L${hx + hw / 2},${46 - hh - 22} L${hx + hw + 6},${46 - hh}Z" fill="${night ? "#363a52" : "#6f8a5a"}"/>`; }
@@ -136,9 +139,9 @@ export function midLayer(S, { kind = "fjord", night = false, kaupang = false, sk
   }
   for (let b = 0; b < boats; b++) { const x = 900 + b * 1700 + R() * 400, y = 120 + R() * 80; s += `<path d="M${r3(x)},${r3(y)} q60,20 120,0 l-12,-14 l-96,0Z" fill="${night ? "#2a3048" : "#6b4a2e"}"/><path d="M${r3(x + 60)},${r3(y - 14)} L${r3(x + 60)},${r3(y - 90)}" stroke="#5a4632" stroke-width="3"/><path d="M${r3(x + 34)},${r3(y - 84)} L${r3(x + 86)},${r3(y - 84)} L${r3(x + 82)},${r3(y - 26)} L${r3(x + 38)},${r3(y - 26)}Z" fill="${night ? "#4a3a3a" : "#b8643a"}" opacity=".9"/>`; }
   if (land) s += `<rect x="0" y="${land}" width="${W0}" height="${HH}" fill="${land_col(night)}"/>`;
-  S.bg.push(`<div id="${S.id}-mid" class="layer" style="left:-3000px;top:${top}px;width:${W0}px;height:${HH + 40}px"><svg width="${W0}" height="${HH + 40}">${s}</svg></div>`);
+  S.bg.push(`<div id="${S.id}-mid" class="layer" style="left:${lay(S, 0.35, 5000)}px;top:${top}px;width:${W0}px;height:${HH + 40}px"><svg width="${W0}" height="${HH + 40}">${s}</svg></div>`);
   S.parallax = [...(S.parallax || []).filter(([q]) => q !== `${S.id}-mid`), [`${S.id}-mid`, 0.35]];
-  for (let i = 0; i < 70; i += 3) S.tw(`tl.fromTo("#${S.id}-wr${i}",{opacity:0.1},{immediateRender:false,opacity:0.7,duration:${r3(0.8 + (i % 5) * 0.3)},yoyo:true,repeat:${REP(S, 1)},ease:"sine.inOut"},${r3((i % 6) * 0.25)});`);
+  for (let i = 0; i < 100; i += 3) S.tw(`tl.fromTo("#${S.id}-wr${i}",{opacity:0.1},{immediateRender:false,opacity:0.7,duration:${r3(0.8 + (i % 5) * 0.3)},yoyo:true,repeat:${REP(S, 1)},ease:"sine.inOut"},${r3((i % 6) * 0.25)});`);
   if (kaupang) for (let k = 0; k < 3; k++) smokeBg(S, `${S.id}-ks${k}`, k);
 }
 const land_col = (night) => (night ? "#1c2840" : "#6f8a5a");
@@ -159,9 +162,9 @@ const GROUND = {
 };
 export function ground(S, kind = "hierba", { x0 = -6000 } = {}) {
   const [a, b, c] = GROUND[kind], R = rng(kind.length * 13 + 5); let m = "";
-  const N = 560;
+  const v = !S.fmt.h, N = v ? 1100 : 560;
   for (let i = 0; i < N; i++) {
-    const x = x0 + i * 120 + R() * 100, y = G + 24 + R() * 300, t = R();
+    const x = x0 + (i % 560) * 120 + R() * 100, y = G + 24 + R() * (v ? 760 : 300), t = R();
     if (kind === "hierba" || kind === "prado" || kind === "noche") {
       if (t < 0.45) m += `<path d="M${r3(x)},${r3(y)} l4,-22 M${r3(x + 8)},${r3(y)} l-2,-26 M${r3(x + 16)},${r3(y)} l6,-18" stroke="${kind === "noche" ? "#3f5868" : "#9fbf62"}" stroke-width="4" stroke-linecap="round"/>`;
       else if (t < 0.6 && kind !== "noche") m += `<circle cx="${r3(x)}" cy="${r3(y)}" r="6" fill="${["#f2e6a0", "#fff", "#c9a0d8", "#f2b48a"][i % 4]}" stroke="${INK}" stroke-width="1.5"/>`;
@@ -273,15 +276,15 @@ export function longhouseIn(S, id, x, w = 4200) {
   // bancos de tierra con tablas y pieles a los dos lados del hogar
   S.add(`<svg class="prop" style="left:${x - w / 2}px;top:${G - 150}px;z-index:3" width="${w}" height="160" overflow="visible"><rect x="0" y="40" width="${w}" height="110" fill="#5a4030" stroke="${INK}" stroke-width="6"/><rect x="0" y="30" width="${w}" height="24" fill="#8a6232" stroke="${INK}" stroke-width="5"/>${[0.12, 0.3, 0.55, 0.8].map((f) => `<path d="M${w * f},30 C${w * f + 40},-10 ${w * f + 200},-10 ${w * f + 240},30Z" fill="#a8875e" stroke="${INK}" stroke-width="4"/><path d="M${w * f + 40},20 l20,-10 M${w * f + 120},16 l14,-12" stroke="#6b4e32" stroke-width="4"/>`).join("")}</svg>`);
   // caldero colgado de su cadena sobre el hogar
-  S.add(`<svg id="${id}-pot" class="prop" style="left:${x - 140}px;top:${G - 700}px;z-index:5" width="280" height="560" overflow="visible"><path d="M140,0 L140,380" stroke="#5b5f66" stroke-width="8" stroke-dasharray="16 6"/><path d="M60,380 C60,520 220,520 220,380Z" fill="#3a3a40" stroke="${INK}" stroke-width="6"/><path d="M50,380 L230,380" stroke="#5b5f66" stroke-width="12" stroke-linecap="round"/><ellipse cx="140" cy="382" rx="80" ry="10" fill="#d9c27a"/>${[0, 1, 2].map((k) => `<circle id="${id}-bub${k}" cx="${110 + k * 30}" cy="380" r="${8 + k * 2}" fill="#efe0a0" stroke="${INK}" stroke-width="2"/>`).join("")}</svg>`);
+  S.add(`<svg id="${id}-pot" class="prop" style="left:${x + 210}px;top:${G - 700}px;z-index:5" width="280" height="560" overflow="visible"><path d="M140,0 L140,380" stroke="#5b5f66" stroke-width="8" stroke-dasharray="16 6"/><path d="M60,380 C60,520 220,520 220,380Z" fill="#3a3a40" stroke="${INK}" stroke-width="6"/><path d="M50,380 L230,380" stroke="#5b5f66" stroke-width="12" stroke-linecap="round"/><ellipse cx="140" cy="382" rx="80" ry="10" fill="#d9c27a"/>${[0, 1, 2].map((k) => `<circle id="${id}-bub${k}" cx="${110 + k * 30}" cy="380" r="${8 + k * 2}" fill="#efe0a0" stroke="${INK}" stroke-width="2"/>`).join("")}</svg>`);
   for (let k = 0; k < 3; k++) S.tw(`tl.fromTo("#${id}-bub${k}",{y:0,opacity:1},{immediateRender:false,y:-26,opacity:0,duration:${r3(0.6 + k * 0.15)},repeat:${REP(S, 0.7)},ease:"power1.out"},${r3(k * 0.2)});`);
   // hogar largo de piedras con fuego
-  S.add(`<svg class="prop" style="left:${x - 520}px;top:${G - 70}px;z-index:5" width="1040" height="90" overflow="visible">${[...Array(13)].map((_, k) => `<ellipse cx="${40 + k * 80}" cy="50" rx="44" ry="28" fill="${k % 2 ? "#8c8f96" : "#7a7f86"}" stroke="${INK}" stroke-width="4"/>`).join("")}</svg>`);
-  fire(S, `${id}-fire`, x - 220, G - 30, 0.9); fire(S, `${id}-fire2`, x + 220, G - 30, 0.75);
+  S.add(`<svg class="prop" style="left:${x - 170}px;top:${G - 70}px;z-index:5" width="1040" height="90" overflow="visible">${[...Array(13)].map((_, k) => `<ellipse cx="${40 + k * 80}" cy="50" rx="44" ry="28" fill="${k % 2 ? "#8c8f96" : "#7a7f86"}" stroke="${INK}" stroke-width="4"/>`).join("")}</svg>`);
+  fire(S, `${id}-fire`, x + 130, G - 30, 0.9); fire(S, `${id}-fire2`, x + 570, G - 30, 0.75);
   // haz de luz del agujero del humo, con motas
   const { W, H: HS } = S.fmt;
   S.over.push(`<div id="${S.id}-beam" class="layer" style="width:${W}px;height:${HS}px;z-index:12;pointer-events:none;mix-blend-mode:screen;background:linear-gradient(105deg,rgba(0,0,0,0) 38%,rgba(190,215,240,.28) 44%,rgba(190,215,240,.28) 52%,rgba(0,0,0,0) 58%);-webkit-mask:linear-gradient(180deg,#000,transparent 90%);mask:linear-gradient(180deg,#000,transparent 90%)"></div>`);
-  smoke(S, `${id}-sm`, x, G - 300, { n: 7, color: "rgba(120,110,105,.35)", size: 80, rise: 700, z: 4 });
+  smoke(S, `${id}-sm`, x + 350, G - 300, { n: 7, color: "rgba(120,110,105,.35)", size: 80, rise: 700, z: 4 });
 }
 // Campo recién sembrado: surcos en diagonal, brotes (crecen con grow) y el arado de madera apoyado
 export function field(S, id, x, w = 2400, { tall = false } = {}) {
@@ -456,15 +459,15 @@ export function mound(S, id, x) {
     <g id="${id}-top" opacity="0"><path d="M200,520 C450,180 1750,180 2000,520Z" fill="#8a6a48" stroke="${INK}" stroke-width="6"/></g></svg>`);
 }
 // Pavo real que abre la cola
-export function peacock(S, id, x, y = G, s = 1) {
+export function peacock(S, id, x, y = G, s = 1.6) {
   const fan = [...Array(13)].map((_, k) => { const a = -170 + k * 13.3; return `<g transform="rotate(${a} 0 0)"><path d="M0,0 L230,0" stroke="#3f8a6a" stroke-width="20"/><ellipse cx="230" cy="0" rx="34" ry="24" fill="#2f6a8a" stroke="${INK}" stroke-width="3"/><circle cx="234" cy="0" r="11" fill="#d9a72b"/></g>`; }).join("");
-  S.add(`<svg id="${id}" class="prop" style="left:${x - 260 * s}px;top:${y - 420 * s}px;z-index:6;opacity:0" width="${520 * s}" height="430" viewBox="-260 -400 520 430" overflow="visible"><g id="${id}-fan" transform="translate(0,-120)">${fan}</g><path d="M-40,-60 C-60,-150 0,-180 20,-140 C30,-200 60,-230 70,-210 C80,-180 60,-150 40,-120 C60,-80 40,-30 0,-30Z" fill="#2f5f9a" stroke="${INK}" stroke-width="5"/><circle cx="62" cy="-205" r="5" fill="#fff"/><path d="M70,-212 L90,-206 L70,-200Z" fill="#d9a72b"/><path d="M58,-226 l-6,-24 M64,-228 l2,-24 M70,-226 l8,-22" stroke="#2f5f9a" stroke-width="3"/><path d="M-10,-30 L-14,10 M14,-30 L18,10" stroke="#8a6232" stroke-width="6"/></svg>`);
+  S.add(`<svg id="${id}" class="prop" style="left:${x - 260 * s}px;top:${y - 400 * s}px;z-index:6;opacity:0" width="${520 * s}" height="${430 * s}" viewBox="-260 -400 520 430" overflow="visible"><g id="${id}-fan" transform="translate(0,-120)">${fan}</g><path d="M-40,-60 C-60,-150 0,-180 20,-140 C30,-200 60,-230 70,-210 C80,-180 60,-150 40,-120 C60,-80 40,-30 0,-30Z" fill="#2f5f9a" stroke="${INK}" stroke-width="5"/><circle cx="62" cy="-205" r="5" fill="#fff"/><path d="M70,-212 L90,-206 L70,-200Z" fill="#d9a72b"/><path d="M58,-226 l-6,-24 M64,-228 l2,-24 M70,-226 l8,-22" stroke="#2f5f9a" stroke-width="3"/><path d="M-10,-30 L-14,10 M14,-30 L18,10" stroke="#8a6232" stroke-width="6"/></svg>`);
 }
 export function fanOpen(S, id, t) { S.tw(`tl.fromTo("#${id}-fan",{scale:0.1,opacity:0},{scale:1,opacity:1,svgOrigin:"0 -120",duration:0.6,ease:"back.out(1.6)"},${r3(t)});`); }
 
 // ===================== 5 · PRIMER PLANO (paralaje 1,35, desenfocado) =====================
 const FG = {
-  fern: [260, 220, `${[...Array(7)].map((_, k) => `<path d="M130,220 C${130 + (k - 3) * 30},140 ${130 + (k - 3) * 60},70 ${130 + (k - 3) * 40},10" stroke="#3f6a2a" stroke-width="10" fill="none"/>${[...Array(5)].map((_, q) => `<ellipse cx="${r3(130 + (k - 3) * (10 + q * 7))}" cy="${200 - q * 36}" rx="18" ry="7" fill="#5f8a3a" stroke="${INK}" stroke-width="2" transform="rotate(${(k - 3) * 15} ${r3(130 + (k - 3) * (10 + q * 7))} ${200 - q * 36})"/>`).join("")}`).join("")}`],
+  fern: [300, 220, `${[-50, -28, -10, 10, 28, 50].map((a, k) => `<g transform="rotate(${a} 150 220)"><path d="M150,220 C140,150 150,80 150,${10 + (k % 2) * 30}" stroke="#3f6a2a" stroke-width="8" fill="none"/>${[0, 1, 2, 3, 4].map((q) => `<path d="M150,${190 - q * 34} q-${34 - q * 5},-6 -${48 - q * 7},-24 q${26 - q * 3},-2 ${48 - q * 7},18Z M150,${190 - q * 34} q${34 - q * 5},-6 ${48 - q * 7},-24 q-${26 - q * 3},-2 -${48 - q * 7},18Z" fill="#5f8a3a" stroke="${INK}" stroke-width="2.5"/>`).join("")}</g>`).join("")}`],
   mossRock: [340, 180, `<path d="M10,180 C0,100 60,40 160,40 C260,30 330,90 330,180Z" fill="#7a7f86" stroke="${INK}" stroke-width="7"/><path d="M40,90 C100,40 220,30 300,80 C240,70 120,70 40,90Z" fill="#5f8a3a"/><path d="M80,70 q40,-20 80,-10" stroke="#fff" stroke-width="6" opacity=".4" fill="none"/>`],
   reeds: [220, 380, `${[...Array(9)].map((_, k) => `<path d="M${20 + k * 22},380 C${20 + k * 22},250 ${10 + k * 26},120 ${30 + k * 20},${20 + (k % 3) * 30}" stroke="#7a8a4a" stroke-width="8" fill="none"/>${k % 3 === 0 ? `<rect x="${24 + k * 21}" y="${60 + (k % 2) * 30}" width="14" height="60" rx="7" fill="#6b4a2e"/>` : ""}`).join("")}`],
   barrel: [180, 230, `<path d="M20,10 C0,80 0,150 20,220 L160,220 C180,150 180,80 160,10Z" fill="#8a6232" stroke="${INK}" stroke-width="7"/><path d="M8,60 L172,60 M4,170 L176,170" stroke="#5b5f66" stroke-width="12"/><path d="M60,10 L56,220 M120,10 L124,220" stroke="#6b4a2e" stroke-width="5"/>`],
@@ -482,11 +485,11 @@ const FG = {
 };
 export function fg(S, list = ["fern", "mossRock"], { blur = 3, k0 = 1.6 } = {}) {
   const { H, h } = S.fmt, R = rng(41), kk = h ? 1 : 1.25; let f = "";
-  for (let x = 160, i = 0; x < 30000; x += 1200 + R() * 900, i++) {
+  for (let x = 160, i = 0; x < 60000; x += 1200 + R() * 900, i++) {
     const key = list[i % list.length], [w, hh, svg] = FG[key], s = Math.min(k0 * kk, (H * 0.42) / hh * 1.25);
     f += `<svg style="position:absolute;left:${r3(x)}px;top:${r3(H - hh * s * 0.8)}px" width="${r3(w * s)}" height="${r3(hh * s)}" viewBox="0 0 ${w} ${hh}" overflow="visible">${svg}</svg>`;
   }
-  S.over.push(`<div id="${S.id}-fgv" class="layer" style="left:0;top:${h ? 90 : 120}px;width:32000px;height:${H}px;z-index:14;filter:blur(${blur}px);opacity:.95">${f}</div>`);
+  S.over.push(`<div id="${S.id}-fgv" class="layer" style="left:${lay(S, 1.35, 20000)}px;top:${h ? 90 : 120}px;width:60000px;height:${H}px;z-index:14;filter:blur(${blur}px);opacity:.95">${f}</div>`);
   S.parallax = [...(S.parallax || []).filter(([q]) => q !== `${S.id}-fgv`), [`${S.id}-fgv`, 1.35]];
 }
 
