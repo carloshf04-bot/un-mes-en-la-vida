@@ -5,7 +5,7 @@
   "lint": {
     "ok": true,
     "errorCount": 0,
-    "warningCount": 115,
+    "warningCount": 104,
     "infoCount": 0,
     "findings": [
       {
@@ -775,182 +775,6 @@
         },
         "time": 0,
         "fixHint": "Split this sub-composition further into smaller .html files, then mount them from the parent with data-composition-src so each file stays small enough to inspect, revise, and validate independently."
-      },
-      {
-        "code": "overlapping_gsap_tweens",
-        "severity": "warning",
-        "message": "GSAP tweens overlap on \"#semana1-world\" for x, y, scale between 53.72s and 54.11s.",
-        "selector": "#semana1-world",
-        "dataAttributes": {},
-        "sourceFile": "/home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/compositions/semana1.html",
-        "bbox": {
-          "x": 0,
-          "y": 0,
-          "width": 0,
-          "height": 0
-        },
-        "time": 0,
-        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
-      },
-      {
-        "code": "overlapping_gsap_tweens",
-        "severity": "warning",
-        "message": "GSAP tweens overlap on \"#semana1-granja-far\" for x, y between 53.72s and 54.11s.",
-        "selector": "#semana1-granja-far",
-        "dataAttributes": {},
-        "sourceFile": "/home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/compositions/semana1.html",
-        "bbox": {
-          "x": 0,
-          "y": 0,
-          "width": 0,
-          "height": 0
-        },
-        "time": 0,
-        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
-      },
-      {
-        "code": "overlapping_gsap_tweens",
-        "severity": "warning",
-        "message": "GSAP tweens overlap on \"#semana1-granja-mid\" for x, y between 53.72s and 54.11s.",
-        "selector": "#semana1-granja-mid",
-        "dataAttributes": {},
-        "sourceFile": "/home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/compositions/semana1.html",
-        "bbox": {
-          "x": 0,
-          "y": 0,
-          "width": 0,
-          "height": 0
-        },
-        "time": 0,
-        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
-      },
-      {
-        "code": "overlapping_gsap_tweens",
-        "severity": "warning",
-        "message": "GSAP tweens overlap on \"#semana1-granja-fgv\" for x, y between 53.72s and 54.11s.",
-        "selector": "#semana1-granja-fgv",
-        "dataAttributes": {},
-        "sourceFile": "/home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/compositions/semana1.html",
-        "bbox": {
-          "x": 0,
-          "y": 0,
-          "width": 0,
-          "height": 0
-        },
-        "time": 0,
-        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
-      },
-      {
-        "code": "overlapping_gsap_tweens",
-        "severity": "warning",
-        "message": "GSAP tweens overlap on \"#semana1-casa-fgv\" for x, y between 53.72s and 54.11s.",
-        "selector": "#semana1-casa-fgv",
-        "dataAttributes": {},
-        "sourceFile": "/home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/compositions/semana1.html",
-        "bbox": {
-          "x": 0,
-          "y": 0,
-          "width": 0,
-          "height": 0
-        },
-        "time": 0,
-        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
-      },
-      {
-        "code": "overlapping_gsap_tweens",
-        "severity": "warning",
-        "message": "GSAP tweens overlap on \"#semana1-arroyo-far\" for x, y between 53.72s and 54.11s.",
-        "selector": "#semana1-arroyo-far",
-        "dataAttributes": {},
-        "sourceFile": "/home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/compositions/semana1.html",
-        "bbox": {
-          "x": 0,
-          "y": 0,
-          "width": 0,
-          "height": 0
-        },
-        "time": 0,
-        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
-      },
-      {
-        "code": "overlapping_gsap_tweens",
-        "severity": "warning",
-        "message": "GSAP tweens overlap on \"#semana1-arroyo-mid\" for x, y between 53.72s and 54.11s.",
-        "selector": "#semana1-arroyo-mid",
-        "dataAttributes": {},
-        "sourceFile": "/home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/compositions/semana1.html",
-        "bbox": {
-          "x": 0,
-          "y": 0,
-          "width": 0,
-          "height": 0
-        },
-        "time": 0,
-        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
-      },
-      {
-        "code": "overlapping_gsap_tweens",
-        "severity": "warning",
-        "message": "GSAP tweens overlap on \"#semana1-arroyo-fgv\" for x, y between 53.72s and 54.11s.",
-        "selector": "#semana1-arroyo-fgv",
-        "dataAttributes": {},
-        "sourceFile": "/home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/compositions/semana1.html",
-        "bbox": {
-          "x": 0,
-          "y": 0,
-          "width": 0,
-          "height": 0
-        },
-        "time": 0,
-        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
-      },
-      {
-        "code": "overlapping_gsap_tweens",
-        "severity": "warning",
-        "message": "GSAP tweens overlap on \"#semana1-noche-far\" for x, y between 53.72s and 54.11s.",
-        "selector": "#semana1-noche-far",
-        "dataAttributes": {},
-        "sourceFile": "/home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/compositions/semana1.html",
-        "bbox": {
-          "x": 0,
-          "y": 0,
-          "width": 0,
-          "height": 0
-        },
-        "time": 0,
-        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
-      },
-      {
-        "code": "overlapping_gsap_tweens",
-        "severity": "warning",
-        "message": "GSAP tweens overlap on \"#semana1-noche-mid\" for x, y between 53.72s and 54.11s.",
-        "selector": "#semana1-noche-mid",
-        "dataAttributes": {},
-        "sourceFile": "/home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/compositions/semana1.html",
-        "bbox": {
-          "x": 0,
-          "y": 0,
-          "width": 0,
-          "height": 0
-        },
-        "time": 0,
-        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
-      },
-      {
-        "code": "overlapping_gsap_tweens",
-        "severity": "warning",
-        "message": "GSAP tweens overlap on \"#semana1-noche-fgv\" for x, y between 53.72s and 54.11s.",
-        "selector": "#semana1-noche-fgv",
-        "dataAttributes": {},
-        "sourceFile": "/home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/compositions/semana1.html",
-        "bbox": {
-          "x": 0,
-          "y": 0,
-          "width": 0,
-          "height": 0
-        },
-        "time": 0,
-        "fixHint": "Shorten the earlier tween, move the later tween, or add `overwrite: \"auto\"`."
       },
       {
         "code": "overlapping_gsap_tweens",
@@ -1819,7 +1643,7 @@
       {
         "code": "composition_file_too_large",
         "severity": "warning",
-        "message": "This HTML composition file has 3798 lines. Smaller sub-compositions are easier to read, iterate on, and diff.",
+        "message": "This HTML composition file has 3799 lines. Smaller sub-compositions are easier to read, iterate on, and diff.",
         "selector": "[data-composition-id]",
         "dataAttributes": {},
         "sourceFile": "/home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/compositions/semana4.html",
@@ -2126,7 +1950,7 @@
       {
         "code": "text_below_floor",
         "severity": "warning",
-        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 4 text elements stay under it for 0.5 s or more, the smallest \"SUECIA\" at 24 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 2 text elements stay under it for 0.5 s or more, the smallest \"SUECIA\" at 24 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
         "text": "SUECIA",
         "selector": "#semana4-cr > text:nth-of-type(1)",
         "dataAttributes": {},
@@ -2139,8 +1963,6 @@
         },
         "time": 612.097,
         "times": [
-          506.517,
-          584.031,
           612.097,
           612.097
         ],
@@ -2161,20 +1983,6 @@
             "fontPx": 23.78,
             "time": 612.097,
             "seconds": 16.037
-          },
-          {
-            "selector": "#semana4-f1648 > div:nth-of-type(1) > span:nth-of-type(1)",
-            "text": "HOY",
-            "fontPx": 23.92,
-            "time": 506.517,
-            "seconds": 2.672
-          },
-          {
-            "selector": "#semana4-f18870-p0 > text:nth-of-type(1)",
-            "text": "BIRKA",
-            "fontPx": 27.2,
-            "time": 584.031,
-            "seconds": 1.336
           }
         ]
       },
@@ -2369,15 +2177,15 @@
     "findingFiles": []
   },
   "saved": {
-    "id": "b6cc7ce5-f24d-475b-8373-1e99e3411082",
-    "revision": "0f657b21-b817-49ae-a9a6-4dcf30744113",
-    "report": "/home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/.hyperframes/artifacts/checks/b6cc7ce5-f24d-475b-8373-1e99e3411082.json",
+    "id": "36cf9503-028a-4026-b69e-e35967be3e3e",
+    "revision": "781b69a0-b840-44f3-ae8f-eabef1f00513",
+    "report": "/home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/.hyperframes/artifacts/checks/36cf9503-028a-4026-b69e-e35967be3e3e.json",
     "attribution": "recorded-revision"
   },
   "_meta": {
     "version": "0.9.12",
-    "latestVersion": "0.9.26",
+    "latestVersion": "0.9.30",
     "updateAvailable": true,
-    "checkedAt": "2026-11-09T14:44:36.221Z"
+    "checkedAt": "2026-11-10T18:07:31.960Z"
   }
 }
