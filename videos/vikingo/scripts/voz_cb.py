@@ -56,16 +56,21 @@ def transcribe(paths):
     wavs = []
     for p in paths:
         w16 = "voz/tmp/" + os.path.basename(p)
-        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", p, "-ar", "16000", "-ac", "1", w16], check=True)
+        if not (os.path.exists(w16) and os.path.getmtime(w16) >= os.path.getmtime(p)):
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", p, "-ar", "16000", "-ac", "1", w16], check=True)
         wavs.append(w16)
     res = {}
-    for i in range(0, len(wavs), 20):
-        chunk = wavs[i:i + 20]
+    # reutiliza las transcripciones que ya existan (si la sesión se corta, no se repiten)
+    hecho = [w for w in wavs if os.path.exists(w + ".json") and os.path.getmtime(w + ".json") >= os.path.getmtime(w)]
+    falta = [w for w in wavs if w not in hecho]
+    for i in range(0, len(falta), 20):
+        chunk = falta[i:i + 20]
         subprocess.run([WHISPER, "-m", WMODEL, "-l", "es", "-t", "4", "-ml", "1", "-sow", "-oj", *sum((["-f", w] for w in chunk), [])],
                        stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
-        for w, p in zip(chunk, paths[i:i + 20]):
-            segs = json.load(open(w + ".json", encoding="utf-8"))["transcription"]
-            res[p] = ("".join(x["text"] for x in segs).strip(), segs)
+        print(f"[whisper] {min(i + 20, len(falta))}/{len(falta)} nuevas transcritas", flush=True)
+    for w, p in zip(wavs, paths):
+        segs = json.load(open(w + ".json", encoding="utf-8"))["transcription"]
+        res[p] = ("".join(x["text"] for x in segs).strip(), segs)
     return res
 
 model = None
