@@ -8,3 +8,4 @@ videos/*/voz/tmp/
 videos/*/pruebas/**/*.png
 videos/*/pruebas/**/*.jpg
 videos/*/pruebas/*.log
+__pycache__/
