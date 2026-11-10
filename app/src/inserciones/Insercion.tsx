@@ -77,7 +77,7 @@ export const Insercion: React.FC<{ ins: Ins; paleta: Paleta; dur: number }> = ({
         </svg>
         <div style={{ position: "absolute", left: 0, right: 0, top: 230 * u, textAlign: "center", fontFamily: emoji, fontSize: 110 * u, translate: `0px ${interpolate(spring({ frame: f - fps, fps }), [0, 1], [-200, 0])}px` }}>{ins.icono ?? "📍"}</div>
         <div style={{ position: "absolute", left: 0, right: 0, bottom: 40 * u, textAlign: "center", fontFamily: serif, fontWeight: 900, fontSize: 64 * u, color: "#3a2a1a" }}>{ins.lugar}</div>
-        {ins.detalle && <div style={{ position: "absolute", left: 0, right: 0, top: 30 * u, textAlign: "center", fontFamily: sans, fontWeight: 800, fontSize: 32 * u, color: "#5a4a32", letterSpacing: 3, textTransform: "uppercase" }}>{ins.detalle}</div>}
+        {ins.detalle && <div style={{ position: "absolute", left: 150 * u, right: 150 * u, top: 30 * u, textAlign: "center", fontFamily: sans, fontWeight: 800, fontSize: 32 * u, color: "#5a4a32", letterSpacing: 3, textTransform: "uppercase" }}>{ins.detalle}</div>}
       </div>
     </AbsoluteFill>
   );
