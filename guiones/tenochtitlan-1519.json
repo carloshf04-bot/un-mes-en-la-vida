@@ -19,7 +19,12 @@
       "pelo": "#16110d",
       "peinado": "corto",
       "barba": "ninguna",
-      "ropa": { "tipo": "tilma", "color": "#d9c9a0", "color2": "#f1ead8", "detalle": "#8a6a3e" },
+      "ropa": {
+        "tipo": "tilma",
+        "color": "#d9c9a0",
+        "color2": "#f1ead8",
+        "detalle": "#8a6a3e"
+      },
       "sombrero": "ninguno",
       "altura": 0.92,
       "zapatos": "#c9a46e"
@@ -29,7 +34,12 @@
       "pelo": "#1a1410",
       "peinado": "corto",
       "barba": "ninguna",
-      "ropa": { "tipo": "tilma", "color": "#bfa57a", "color2": "#ece4d0", "detalle": "#6b4a2a" },
+      "ropa": {
+        "tipo": "tilma",
+        "color": "#bfa57a",
+        "color2": "#ece4d0",
+        "detalle": "#6b4a2a"
+      },
       "sombrero": "ninguno",
       "zapatos": "#c9a46e"
     },
@@ -38,7 +48,12 @@
       "pelo": "#15100c",
       "peinado": "trenzas",
       "barba": "ninguna",
-      "ropa": { "tipo": "vestido", "color": "#f3eee2", "color2": "#3e5c76", "detalle": "#c23b22" },
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#f3eee2",
+        "color2": "#3e5c76",
+        "detalle": "#c23b22"
+      },
       "sombrero": "ninguno",
       "zapatos": "#c9a46e",
       "voz": "narradora-es"
@@ -48,7 +63,12 @@
       "pelo": "#5a5048",
       "peinado": "corto",
       "barba": "ninguna",
-      "ropa": { "tipo": "tilma", "color": "#a3472e", "color2": "#e8e0cc", "detalle": "#2b2b2b" },
+      "ropa": {
+        "tipo": "tilma",
+        "color": "#a3472e",
+        "color2": "#e8e0cc",
+        "detalle": "#2b2b2b"
+      },
       "sombrero": "ninguno",
       "zapatos": "#c9a46e"
     },
@@ -57,7 +77,12 @@
       "pelo": "#0e0c0a",
       "peinado": "largo",
       "barba": "ninguna",
-      "ropa": { "tipo": "tilma", "color": "#1f1d1c", "color2": "#2a2624", "detalle": "#6b1d1d" },
+      "ropa": {
+        "tipo": "tilma",
+        "color": "#1f1d1c",
+        "color2": "#2a2624",
+        "detalle": "#6b1d1d"
+      },
       "sombrero": "ninguno",
       "zapatos": "#8a6a4a"
     },
@@ -66,7 +91,12 @@
       "pelo": "#120e0b",
       "peinado": "corto",
       "barba": "ninguna",
-      "ropa": { "tipo": "tilma", "color": "#1aa39a", "color2": "#f5efe0", "detalle": "#d4a62a" },
+      "ropa": {
+        "tipo": "tilma",
+        "color": "#1aa39a",
+        "color2": "#f5efe0",
+        "detalle": "#d4a62a"
+      },
       "sombrero": "penacho",
       "colorSombrero": "#2e8b57",
       "zapatos": "#d4a62a"
@@ -76,7 +106,12 @@
       "pelo": "#2e2118",
       "peinado": "corto",
       "barba": "corta",
-      "ropa": { "tipo": "armadura", "color": "#8a8a90", "color2": "#3a3030", "detalle": "#6b4a2a" },
+      "ropa": {
+        "tipo": "armadura",
+        "color": "#8a8a90",
+        "color2": "#3a3030",
+        "detalle": "#6b4a2a"
+      },
       "sombrero": "morrion",
       "colorSombrero": "#9a9aa0",
       "zapatos": "#4a3626"
@@ -86,7 +121,12 @@
       "pelo": "#5a3a22",
       "peinado": "corto",
       "barba": "larga",
-      "ropa": { "tipo": "armadura", "color": "#7a7a80", "color2": "#4a3a2a", "detalle": "#5a4a36" },
+      "ropa": {
+        "tipo": "armadura",
+        "color": "#7a7a80",
+        "color2": "#4a3a2a",
+        "detalle": "#5a4a36"
+      },
       "sombrero": "morrion",
       "colorSombrero": "#8a8a90",
       "zapatos": "#4a3626"
@@ -96,7 +136,12 @@
       "pelo": "#120e0b",
       "peinado": "largo",
       "barba": "ninguna",
-      "ropa": { "tipo": "vestido", "color": "#f5ecd6", "color2": "#8a3b2e", "detalle": "#1aa39a" },
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#f5ecd6",
+        "color2": "#8a3b2e",
+        "detalle": "#1aa39a"
+      },
       "sombrero": "ninguno",
       "zapatos": "#c9a46e",
       "voz": "narradora-es"
@@ -113,13 +158,30 @@
           "hora": "amanecer",
           "clima": "despejado",
           "props": [
-            { "tipo": "templo-mayor", "x": -1.2, "escala": 1.6 },
-            { "tipo": "volcan", "x": 1.3, "escala": 2 },
-            { "tipo": "canoa", "x": -0.2 }
+            {
+              "tipo": "templo-mayor",
+              "x": -1.2,
+              "escala": 1.6
+            },
+            {
+              "tipo": "volcan",
+              "x": 1.3,
+              "escala": 2
+            },
+            {
+              "tipo": "canoa",
+              "x": -0.2
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": 0.45, "accion": "quieto", "emocion": "neutral", "mirar": -1 }
+          {
+            "quien": "tochtli",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          }
         ],
         "camara": "general"
       },
@@ -127,7 +189,13 @@
         "texto": "Esta es la historia del mes en que mi mundo cambió de dueño. Y de por qué nadie aquí los tomó por dioses.",
         "drama": 0.7,
         "personajes": [
-          { "quien": "tochtli", "x": 0.4, "accion": "hablar", "emocion": "neutral", "mirar": -1 }
+          {
+            "quien": "tochtli",
+            "x": 0.4,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
         ],
         "camara": "cerca"
       },
@@ -141,15 +209,39 @@
           "hora": "dia",
           "clima": "despejado",
           "props": [
-            { "tipo": "calzada" },
-            { "tipo": "canoa", "x": 0 },
-            { "tipo": "ahuejote", "x": -1.2 },
-            { "tipo": "ahuejote", "x": 1.25 }
+            {
+              "tipo": "calzada"
+            },
+            {
+              "tipo": "canoa",
+              "x": 0
+            },
+            {
+              "tipo": "ahuejote",
+              "x": -1.2
+            },
+            {
+              "tipo": "ahuejote",
+              "x": 1.25
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": -0.4, "accion": "trabajar", "emocion": "feliz", "mirar": 1 },
-          { "quien": "padre", "x": 0.45, "accion": "trabajar", "emocion": "neutral", "mirar": -1, "habla": false }
+          {
+            "quien": "tochtli",
+            "x": -0.4,
+            "accion": "trabajar",
+            "emocion": "feliz",
+            "mirar": 1
+          },
+          {
+            "quien": "padre",
+            "x": 0.45,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "paneo"
       },
@@ -174,15 +266,40 @@
           "hora": "amanecer",
           "clima": "niebla",
           "props": [
-            { "tipo": "chinampa", "x": -0.6 },
-            { "tipo": "ahuejote", "x": -1.2 },
-            { "tipo": "ahuejote", "x": 1.2 },
-            { "tipo": "canoa", "x": 0.4 }
+            {
+              "tipo": "chinampa",
+              "x": -0.6
+            },
+            {
+              "tipo": "ahuejote",
+              "x": -1.2
+            },
+            {
+              "tipo": "ahuejote",
+              "x": 1.2
+            },
+            {
+              "tipo": "canoa",
+              "x": 0.4
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": 0.15, "accion": "trabajar", "emocion": "neutral", "mirar": -1 },
-          { "quien": "padre", "x": 0.75, "accion": "trabajar", "emocion": "cansado", "mirar": -1, "habla": false }
+          {
+            "quien": "tochtli",
+            "x": 0.15,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "padre",
+            "x": 0.75,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "paneo"
       },
@@ -191,8 +308,23 @@
         "texto": "Mi padre recoge del agua una capa verde y viscosa. Es tecuítlatl, pan de algas, y se come tostado. Los extranjeros lo compararán con queso.",
         "drama": 0.5,
         "personajes": [
-          { "quien": "padre", "x": -0.3, "accion": "cargar", "objeto": "🌿", "emocion": "feliz", "mirar": 1, "habla": false },
-          { "quien": "tochtli", "x": 0.45, "accion": "quieto", "emocion": "sorpresa", "mirar": -1, "habla": false }
+          {
+            "quien": "padre",
+            "x": -0.3,
+            "accion": "cargar",
+            "objeto": "🌿",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tochtli",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "cerca"
       },
@@ -205,13 +337,30 @@
           "hora": "dia",
           "clima": "despejado",
           "props": [
-            { "tipo": "chinampa", "x": 0.9 },
-            { "tipo": "ahuejote", "x": -1.25 },
-            { "tipo": "🐟", "x": -0.7, "escala": 0.4 }
+            {
+              "tipo": "chinampa",
+              "x": 0.9
+            },
+            {
+              "tipo": "ahuejote",
+              "x": -1.25
+            },
+            {
+              "tipo": "🐟",
+              "x": -0.7,
+              "escala": 0.4
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": -0.1, "accion": "cargar", "objeto": "🐟", "emocion": "feliz", "mirar": 1 }
+          {
+            "quien": "tochtli",
+            "x": -0.1,
+            "accion": "cargar",
+            "objeto": "🐟",
+            "emocion": "feliz",
+            "mirar": 1
+          }
         ]
       },
       {
@@ -223,14 +372,35 @@
           "hora": "dia",
           "clima": "despejado",
           "props": [
-            { "tipo": "calzada" },
-            { "tipo": "canoa", "x": -0.9 },
-            { "tipo": "canoa", "x": 0.9 }
+            {
+              "tipo": "calzada"
+            },
+            {
+              "tipo": "canoa",
+              "x": -0.9
+            },
+            {
+              "tipo": "canoa",
+              "x": 0.9
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": -0.35, "accion": "asustado", "emocion": "miedo", "mirar": 1 },
-          { "quien": "padre", "x": 0.4, "accion": "hablar", "emocion": "miedo", "mirar": -1, "habla": false }
+          {
+            "quien": "tochtli",
+            "x": -0.35,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": 1
+          },
+          {
+            "quien": "padre",
+            "x": 0.4,
+            "accion": "hablar",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "insercion": {
           "tipo": "dato",
@@ -250,14 +420,36 @@
           "hora": "amanecer",
           "ventana": true,
           "props": [
-            { "tipo": "metate", "x": -0.9 },
-            { "tipo": "petate", "x": 0.8 },
-            { "tipo": "brasero", "x": 1.3 }
+            {
+              "tipo": "metate",
+              "x": -0.9
+            },
+            {
+              "tipo": "petate",
+              "x": 0.8
+            },
+            {
+              "tipo": "brasero",
+              "x": 1.3
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": 0.45, "accion": "sentado", "emocion": "cansado", "mirar": -1 },
-          { "quien": "madre", "x": -0.45, "accion": "trabajar", "emocion": "neutral", "mirar": 1, "habla": false }
+          {
+            "quien": "tochtli",
+            "x": 0.45,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1
+          },
+          {
+            "quien": "madre",
+            "x": -0.45,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
         ]
       },
       {
@@ -269,13 +461,34 @@
           "hora": "dia",
           "clima": "despejado",
           "props": [
-            { "tipo": "casa-adobe", "x": -1.1 },
-            { "tipo": "templo-mayor", "x": 1.2, "escala": 1.5 }
+            {
+              "tipo": "casa-adobe",
+              "x": -1.1
+            },
+            {
+              "tipo": "templo-mayor",
+              "x": 1.2,
+              "escala": 1.5
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": -0.35, "accion": "correr", "emocion": "feliz", "mirar": 1, "entra": "izq" },
-          { "quien": "maestro", "x": 0.5, "accion": "senalar", "emocion": "neutral", "mirar": -1, "habla": false }
+          {
+            "quien": "tochtli",
+            "x": -0.35,
+            "accion": "correr",
+            "emocion": "feliz",
+            "mirar": 1,
+            "entra": "izq"
+          },
+          {
+            "quien": "maestro",
+            "x": 0.5,
+            "accion": "senalar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
         ]
       },
       {
@@ -283,7 +496,13 @@
         "texto": "Mírame la nuca. Llevo el mechón que nos dejan de niños. Solo se corta cuando capturas a tu primer prisionero en la guerra. Yo todavía no he capturado ni un pato.",
         "drama": 0.5,
         "personajes": [
-          { "quien": "tochtli", "x": 0, "accion": "hablar", "emocion": "feliz", "mirar": 1 }
+          {
+            "quien": "tochtli",
+            "x": 0,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": 1
+          }
         ],
         "camara": "cerca"
       },
@@ -297,12 +516,24 @@
           "hora": "noche",
           "ventana": true,
           "props": [
-            { "tipo": "brasero", "x": -0.9 },
-            { "tipo": "petate", "x": 0.9 }
+            {
+              "tipo": "brasero",
+              "x": -0.9
+            },
+            {
+              "tipo": "petate",
+              "x": 0.9
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": 0.2, "accion": "sentado", "emocion": "triste", "mirar": -1 }
+          {
+            "quien": "tochtli",
+            "x": 0.2,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": -1
+          }
         ],
         "insercion": {
           "tipo": "dato",
@@ -321,12 +552,25 @@
           "hora": "dia",
           "clima": "despejado",
           "props": [
-            { "tipo": "casa-adobe", "x": -1.0 },
-            { "tipo": "volcan", "x": 1.3, "escala": 2.2 }
+            {
+              "tipo": "casa-adobe",
+              "x": -1.0
+            },
+            {
+              "tipo": "volcan",
+              "x": 1.3,
+              "escala": 2.2
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": -0.3, "accion": "senalar", "emocion": "sorpresa", "mirar": 1 }
+          {
+            "quien": "tochtli",
+            "x": -0.3,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": 1
+          }
         ],
         "camara": "paneo"
       },
@@ -339,13 +583,35 @@
           "hora": "dia",
           "clima": "nieve",
           "props": [
-            { "tipo": "volcan", "x": -1.3, "escala": 2.3 },
-            { "tipo": "🐎", "x": 1.0, "escala": 0.5 }
+            {
+              "tipo": "volcan",
+              "x": -1.3,
+              "escala": 2.3
+            },
+            {
+              "tipo": "🐎",
+              "x": 1.0,
+              "escala": 0.5
+            }
           ]
         },
         "personajes": [
-          { "quien": "soldado", "x": -0.25, "accion": "caminar", "emocion": "cansado", "mirar": -1, "habla": false },
-          { "quien": "cortes", "x": 0.45, "accion": "caminar", "emocion": "neutral", "mirar": -1, "habla": false }
+          {
+            "quien": "soldado",
+            "x": -0.25,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "cortes",
+            "x": 0.45,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "general"
       },
@@ -358,14 +624,35 @@
           "hora": "atardecer",
           "clima": "despejado",
           "props": [
-            { "tipo": "calzada" },
-            { "tipo": "canoa", "x": 0.8 },
-            { "tipo": "ahuejote", "x": -1.25 }
+            {
+              "tipo": "calzada"
+            },
+            {
+              "tipo": "canoa",
+              "x": 0.8
+            },
+            {
+              "tipo": "ahuejote",
+              "x": -1.25
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": -0.4, "accion": "pensar", "emocion": "miedo", "mirar": 1 },
-          { "quien": "padre", "x": 0.35, "accion": "triste", "emocion": "enfado", "mirar": -1, "habla": false }
+          {
+            "quien": "tochtli",
+            "x": -0.4,
+            "accion": "pensar",
+            "emocion": "miedo",
+            "mirar": 1
+          },
+          {
+            "quien": "padre",
+            "x": 0.35,
+            "accion": "triste",
+            "emocion": "enfado",
+            "mirar": -1,
+            "habla": false
+          }
         ]
       },
       {
@@ -377,12 +664,25 @@
           "hora": "noche",
           "clima": "despejado",
           "props": [
-            { "tipo": "antorcha", "x": -1.1 },
-            { "tipo": "hoguera", "x": 1.2, "escala": 0.6 }
+            {
+              "tipo": "antorcha",
+              "x": -1.1
+            },
+            {
+              "tipo": "hoguera",
+              "x": 1.2,
+              "escala": 0.6
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": -0.2, "accion": "quieto", "emocion": "miedo", "mirar": 1 }
+          {
+            "quien": "tochtli",
+            "x": -0.2,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": 1
+          }
         ],
         "camara": "lenta",
         "insercion": {
@@ -403,15 +703,40 @@
           "hora": "dia",
           "clima": "despejado",
           "props": [
-            { "tipo": "calzada" },
-            { "tipo": "canoa", "x": -1.0 },
-            { "tipo": "canoa", "x": 0.9 },
-            { "tipo": "volcan", "x": 1.3, "escala": 1.8 }
+            {
+              "tipo": "calzada"
+            },
+            {
+              "tipo": "canoa",
+              "x": -1.0
+            },
+            {
+              "tipo": "canoa",
+              "x": 0.9
+            },
+            {
+              "tipo": "volcan",
+              "x": 1.3,
+              "escala": 1.8
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": -0.4, "accion": "senalar", "emocion": "sorpresa", "mirar": 1 },
-          { "quien": "padre", "x": 0.4, "accion": "quieto", "emocion": "miedo", "mirar": 1, "habla": false }
+          {
+            "quien": "tochtli",
+            "x": -0.4,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": 1
+          },
+          {
+            "quien": "padre",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
         ],
         "camara": "general"
       },
@@ -424,13 +749,35 @@
           "hora": "dia",
           "clima": "polvo",
           "props": [
-            { "tipo": "casa-adobe", "x": -1.15 },
-            { "tipo": "🐎", "x": 0.95, "escala": 0.7 }
+            {
+              "tipo": "casa-adobe",
+              "x": -1.15
+            },
+            {
+              "tipo": "🐎",
+              "x": 0.95,
+              "escala": 0.7
+            }
           ]
         },
         "personajes": [
-          { "quien": "cortes", "x": -0.35, "accion": "caminar", "emocion": "neutral", "mirar": 1, "entra": "izq", "habla": false },
-          { "quien": "soldado", "x": 0.3, "accion": "caminar", "emocion": "neutral", "mirar": 1, "habla": false }
+          {
+            "quien": "cortes",
+            "x": -0.35,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "entra": "izq",
+            "habla": false
+          },
+          {
+            "quien": "soldado",
+            "x": 0.3,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
         ],
         "camara": "paneo"
       },
@@ -443,14 +790,37 @@
           "hora": "dia",
           "clima": "despejado",
           "props": [
-            { "tipo": "casa-adobe", "x": -1.1 },
-            { "tipo": "templo-mayor", "x": 1.2, "escala": 1.8 },
-            { "tipo": "petate", "x": 0.3 }
+            {
+              "tipo": "casa-adobe",
+              "x": -1.1
+            },
+            {
+              "tipo": "templo-mayor",
+              "x": 1.2,
+              "escala": 1.8
+            },
+            {
+              "tipo": "petate",
+              "x": 0.3
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": -0.6, "accion": "pensar", "emocion": "sorpresa", "mirar": 1 },
-          { "quien": "moctezuma", "x": 0.35, "accion": "quieto", "emocion": "neutral", "mirar": -1, "habla": false }
+          {
+            "quien": "tochtli",
+            "x": -0.6,
+            "accion": "pensar",
+            "emocion": "sorpresa",
+            "mirar": 1
+          },
+          {
+            "quien": "moctezuma",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "subir"
       },
@@ -459,9 +829,29 @@
         "texto": "Cortés, su capitán, va a estrecharlo contra el pecho. Los señores lo frenan en seco: a nuestro gran señor nadie lo toca ni lo mira a la cara. Yo miro de reojo.",
         "drama": 0.7,
         "personajes": [
-          { "quien": "tochtli", "x": -0.75, "accion": "quieto", "emocion": "sorpresa", "mirar": 1 },
-          { "quien": "cortes", "x": -0.05, "accion": "saludar", "emocion": "feliz", "mirar": 1, "habla": false },
-          { "quien": "moctezuma", "x": 0.7, "accion": "quieto", "emocion": "neutral", "mirar": -1, "habla": false }
+          {
+            "quien": "tochtli",
+            "x": -0.75,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1
+          },
+          {
+            "quien": "cortes",
+            "x": -0.05,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "moctezuma",
+            "x": 0.7,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "cerca"
       },
@@ -475,13 +865,35 @@
           "hora": "atardecer",
           "clima": "despejado",
           "props": [
-            { "tipo": "casa-adobe", "x": -1.1 },
-            { "tipo": "templo-mayor", "x": 1.2, "escala": 1.8 }
+            {
+              "tipo": "casa-adobe",
+              "x": -1.1
+            },
+            {
+              "tipo": "templo-mayor",
+              "x": 1.2,
+              "escala": 1.8
+            }
           ]
         },
         "personajes": [
-          { "quien": "cortes", "x": -0.4, "accion": "cargar", "objeto": "📿", "emocion": "feliz", "mirar": 1, "habla": false },
-          { "quien": "moctezuma", "x": 0.4, "accion": "quieto", "emocion": "neutral", "mirar": -1, "habla": false }
+          {
+            "quien": "cortes",
+            "x": -0.4,
+            "accion": "cargar",
+            "objeto": "📿",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "moctezuma",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
         ]
       },
       {
@@ -493,12 +905,25 @@
           "hora": "atardecer",
           "clima": "despejado",
           "props": [
-            { "tipo": "templo-mayor", "x": -1.2, "escala": 1.6 },
-            { "tipo": "ahuejote", "x": 1.25 }
+            {
+              "tipo": "templo-mayor",
+              "x": -1.2,
+              "escala": 1.6
+            },
+            {
+              "tipo": "ahuejote",
+              "x": 1.25
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": 0.3, "accion": "hablar", "emocion": "enfado", "mirar": -1 }
+          {
+            "quien": "tochtli",
+            "x": 0.3,
+            "accion": "hablar",
+            "emocion": "enfado",
+            "mirar": -1
+          }
         ],
         "camara": "cerca",
         "insercion": {
@@ -517,13 +942,33 @@
           "hora": "atardecer",
           "clima": "despejado",
           "props": [
-            { "tipo": "casa-adobe", "x": -1.1 },
-            { "tipo": "antorcha", "x": 1.1 }
+            {
+              "tipo": "casa-adobe",
+              "x": -1.1
+            },
+            {
+              "tipo": "antorcha",
+              "x": 1.1
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": -0.45, "accion": "pensar", "emocion": "neutral", "mirar": 1 },
-          { "quien": "soldado", "x": 0.45, "accion": "sentado", "objeto": "🌽", "emocion": "cansado", "mirar": -1, "habla": false }
+          {
+            "quien": "tochtli",
+            "x": -0.45,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": 1
+          },
+          {
+            "quien": "soldado",
+            "x": 0.45,
+            "accion": "sentado",
+            "objeto": "🌽",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          }
         ]
       },
       {
@@ -535,13 +980,30 @@
           "hora": "noche",
           "clima": "polvo",
           "props": [
-            { "tipo": "templo-mayor", "x": -1.2, "escala": 1.7 },
-            { "tipo": "antorcha", "x": 1.15 },
-            { "tipo": "💥", "x": 0.7, "escala": 0.6 }
+            {
+              "tipo": "templo-mayor",
+              "x": -1.2,
+              "escala": 1.7
+            },
+            {
+              "tipo": "antorcha",
+              "x": 1.15
+            },
+            {
+              "tipo": "💥",
+              "x": 0.7,
+              "escala": 0.6
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": -0.2, "accion": "asustado", "emocion": "miedo", "mirar": 1 }
+          {
+            "quien": "tochtli",
+            "x": -0.2,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": 1
+          }
         ],
         "camara": "general"
       },
@@ -556,15 +1018,44 @@
           "hora": "dia",
           "ventana": true,
           "props": [
-            { "tipo": "columna", "x": -1.25 },
-            { "tipo": "brasero", "x": 1.2 },
-            { "tipo": "petate", "x": 0.6 }
+            {
+              "tipo": "columna",
+              "x": -1.25
+            },
+            {
+              "tipo": "brasero",
+              "x": 1.2
+            },
+            {
+              "tipo": "petate",
+              "x": 0.6
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": 0.75, "accion": "quieto", "emocion": "sorpresa", "mirar": -1 },
-          { "quien": "malintzin", "x": 0, "accion": "hablar", "emocion": "neutral", "mirar": -1, "habla": false },
-          { "quien": "cortes", "x": -0.7, "accion": "hablar", "emocion": "neutral", "mirar": 1, "habla": false }
+          {
+            "quien": "tochtli",
+            "x": 0.75,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1
+          },
+          {
+            "quien": "malintzin",
+            "x": 0,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "cortes",
+            "x": -0.7,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
         ]
       },
       {
@@ -576,13 +1067,30 @@
           "hora": "dia",
           "clima": "despejado",
           "props": [
-            { "tipo": "puesto", "x": -1.0 },
-            { "tipo": "puesto", "x": 1.0 },
-            { "tipo": "templo-mayor", "x": 1.2, "escala": 1.5 }
+            {
+              "tipo": "puesto",
+              "x": -1.0
+            },
+            {
+              "tipo": "puesto",
+              "x": 1.0
+            },
+            {
+              "tipo": "templo-mayor",
+              "x": 1.2,
+              "escala": 1.5
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": -0.2, "accion": "caminar", "emocion": "feliz", "mirar": 1, "entra": "izq" }
+          {
+            "quien": "tochtli",
+            "x": -0.2,
+            "accion": "caminar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "entra": "izq"
+          }
         ],
         "camara": "paneo",
         "insercion": {
@@ -601,14 +1109,38 @@
           "hora": "dia",
           "clima": "despejado",
           "props": [
-            { "tipo": "puesto", "x": -1.0 },
-            { "tipo": "🪶", "x": 1.05, "escala": 0.4 },
-            { "tipo": "🌶️", "x": 0.7, "escala": 0.35 }
+            {
+              "tipo": "puesto",
+              "x": -1.0
+            },
+            {
+              "tipo": "🪶",
+              "x": 1.05,
+              "escala": 0.4
+            },
+            {
+              "tipo": "🌶️",
+              "x": 0.7,
+              "escala": 0.35
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": -0.45, "accion": "senalar", "emocion": "feliz", "mirar": 1 },
-          { "quien": "soldado", "x": 0.35, "accion": "quieto", "emocion": "sorpresa", "mirar": -1, "habla": false }
+          {
+            "quien": "tochtli",
+            "x": -0.45,
+            "accion": "senalar",
+            "emocion": "feliz",
+            "mirar": 1
+          },
+          {
+            "quien": "soldado",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
         ]
       },
       {
@@ -620,14 +1152,36 @@
           "hora": "dia",
           "clima": "despejado",
           "props": [
-            { "tipo": "canoa", "x": -0.8 },
-            { "tipo": "canoa", "x": 0.7 },
-            { "tipo": "puesto", "x": 1.25 }
+            {
+              "tipo": "canoa",
+              "x": -0.8
+            },
+            {
+              "tipo": "canoa",
+              "x": 0.7
+            },
+            {
+              "tipo": "puesto",
+              "x": 1.25
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": -0.3, "accion": "hablar", "emocion": "feliz", "mirar": 1 },
-          { "quien": "soldado", "x": 0.45, "accion": "asustado", "emocion": "sorpresa", "mirar": -1, "habla": false }
+          {
+            "quien": "tochtli",
+            "x": -0.3,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": 1
+          },
+          {
+            "quien": "soldado",
+            "x": 0.45,
+            "accion": "asustado",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "cerca"
       },
@@ -641,12 +1195,25 @@
           "hora": "dia",
           "clima": "despejado",
           "props": [
-            { "tipo": "templo-mayor", "x": 1.2, "escala": 2 },
-            { "tipo": "brasero", "x": -1.1 }
+            {
+              "tipo": "templo-mayor",
+              "x": 1.2,
+              "escala": 2
+            },
+            {
+              "tipo": "brasero",
+              "x": -1.1
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": -0.5, "accion": "quieto", "emocion": "sorpresa", "mirar": 1 }
+          {
+            "quien": "tochtli",
+            "x": -0.5,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1
+          }
         ],
         "camara": "subir"
       },
@@ -659,15 +1226,46 @@
           "hora": "dia",
           "clima": "despejado",
           "props": [
-            { "tipo": "templo-mayor", "x": -1.2, "escala": 1.8 },
-            { "tipo": "calzada" },
-            { "tipo": "volcan", "x": 1.3, "escala": 1.8 }
+            {
+              "tipo": "templo-mayor",
+              "x": -1.2,
+              "escala": 1.8
+            },
+            {
+              "tipo": "calzada"
+            },
+            {
+              "tipo": "volcan",
+              "x": 1.3,
+              "escala": 1.8
+            }
           ]
         },
         "personajes": [
-          { "quien": "malintzin", "x": -0.75, "accion": "quieto", "emocion": "neutral", "mirar": 1, "habla": false },
-          { "quien": "cortes", "x": -0.1, "accion": "hablar", "emocion": "neutral", "mirar": 1, "habla": false },
-          { "quien": "moctezuma", "x": 0.65, "accion": "quieto", "emocion": "enfado", "mirar": -1, "habla": false }
+          {
+            "quien": "malintzin",
+            "x": -0.75,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "cortes",
+            "x": -0.1,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "moctezuma",
+            "x": 0.65,
+            "accion": "quieto",
+            "emocion": "enfado",
+            "mirar": -1,
+            "habla": false
+          }
         ]
       },
       {
@@ -680,12 +1278,26 @@
           "hora": "noche",
           "ventana": true,
           "props": [
-            { "tipo": "antorcha", "x": -1.15 },
-            { "tipo": "puerta", "x": 0.95 }
+            {
+              "tipo": "antorcha",
+              "x": -1.15
+            },
+            {
+              "tipo": "puerta",
+              "x": 0.95
+            }
           ]
         },
         "personajes": [
-          { "quien": "soldado", "x": -0.1, "accion": "trabajar", "objeto": "🔨", "emocion": "sorpresa", "mirar": 1, "habla": false }
+          {
+            "quien": "soldado",
+            "x": -0.1,
+            "accion": "trabajar",
+            "objeto": "🔨",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          }
         ],
         "camara": "lenta"
       },
@@ -699,22 +1311,54 @@
           "hora": "noche",
           "ventana": false,
           "props": [
-            { "tipo": "antorcha", "x": -1.15 },
-            { "tipo": "tesoro", "x": 0.9 }
+            {
+              "tipo": "antorcha",
+              "x": -1.15
+            },
+            {
+              "tipo": "tesoro",
+              "x": 0.9
+            }
           ]
         },
         "personajes": [
-          { "quien": "cortes", "x": -0.4, "accion": "senalar", "emocion": "sorpresa", "mirar": 1, "habla": false },
-          { "quien": "soldado", "x": 0.3, "accion": "quieto", "emocion": "feliz", "mirar": 1, "habla": false }
+          {
+            "quien": "cortes",
+            "x": -0.4,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "soldado",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
         ],
         "insercion": {
           "tipo": "objetos",
           "titulo": "Tras la pared tapiada",
           "items": [
-            { "icono": "💰", "nombre": "Oro" },
-            { "icono": "💎", "nombre": "Joyas" },
-            { "icono": "🪶", "nombre": "Plumas" },
-            { "icono": "🧺", "nombre": "Mantas" }
+            {
+              "icono": "💰",
+              "nombre": "Oro"
+            },
+            {
+              "icono": "💎",
+              "nombre": "Joyas"
+            },
+            {
+              "icono": "🪶",
+              "nombre": "Plumas"
+            },
+            {
+              "icono": "🧺",
+              "nombre": "Mantas"
+            }
           ]
         }
       },
@@ -728,14 +1372,36 @@
           "hora": "atardecer",
           "clima": "despejado",
           "props": [
-            { "tipo": "calzada" },
-            { "tipo": "canoa", "x": 0.85 },
-            { "tipo": "templo-mayor", "x": -1.2, "escala": 1.5 }
+            {
+              "tipo": "calzada"
+            },
+            {
+              "tipo": "canoa",
+              "x": 0.85
+            },
+            {
+              "tipo": "templo-mayor",
+              "x": -1.2,
+              "escala": 1.5
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": -0.35, "accion": "asustado", "emocion": "miedo", "mirar": 1 },
-          { "quien": "padre", "x": 0.4, "accion": "hablar", "emocion": "miedo", "mirar": -1, "habla": false }
+          {
+            "quien": "tochtli",
+            "x": -0.35,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": 1
+          },
+          {
+            "quien": "padre",
+            "x": 0.4,
+            "accion": "hablar",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
         ]
       },
       {
@@ -748,15 +1414,45 @@
           "hora": "dia",
           "ventana": true,
           "props": [
-            { "tipo": "columna", "x": -1.25 },
-            { "tipo": "columna", "x": 1.25 },
-            { "tipo": "petate", "x": 0.7 }
+            {
+              "tipo": "columna",
+              "x": -1.25
+            },
+            {
+              "tipo": "columna",
+              "x": 1.25
+            },
+            {
+              "tipo": "petate",
+              "x": 0.7
+            }
           ]
         },
         "personajes": [
-          { "quien": "soldado", "x": -0.75, "accion": "quieto", "emocion": "enfado", "mirar": 1, "habla": false },
-          { "quien": "cortes", "x": -0.05, "accion": "senalar", "emocion": "enfado", "mirar": 1, "habla": false },
-          { "quien": "moctezuma", "x": 0.7, "accion": "sentado", "emocion": "sorpresa", "mirar": -1, "habla": false }
+          {
+            "quien": "soldado",
+            "x": -0.75,
+            "accion": "quieto",
+            "emocion": "enfado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "cortes",
+            "x": -0.05,
+            "accion": "senalar",
+            "emocion": "enfado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "moctezuma",
+            "x": 0.7,
+            "accion": "sentado",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
         ]
       },
       {
@@ -764,8 +1460,22 @@
         "texto": "Huésped, con guardias. Nuestro gran señor, al que nadie podía mirar a la cara, es prisionero en su propia isla. Yo no entiendo nada.",
         "drama": 0.85,
         "personajes": [
-          { "quien": "soldado", "x": -0.55, "accion": "quieto", "emocion": "neutral", "mirar": 1, "habla": false },
-          { "quien": "moctezuma", "x": 0.25, "accion": "triste", "emocion": "triste", "mirar": -1, "habla": false }
+          {
+            "quien": "soldado",
+            "x": -0.55,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "moctezuma",
+            "x": 0.25,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "cerca",
         "insercion": {
@@ -784,14 +1494,36 @@
           "hora": "noche",
           "clima": "despejado",
           "props": [
-            { "tipo": "canoa", "x": 0.1 },
-            { "tipo": "ahuejote", "x": -1.25 },
-            { "tipo": "antorcha", "x": 1.2 }
+            {
+              "tipo": "canoa",
+              "x": 0.1
+            },
+            {
+              "tipo": "ahuejote",
+              "x": -1.25
+            },
+            {
+              "tipo": "antorcha",
+              "x": 1.2
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": -0.45, "accion": "quieto", "emocion": "miedo", "mirar": 1 },
-          { "quien": "padre", "x": 0.5, "accion": "trabajar", "emocion": "enfado", "mirar": -1, "habla": false }
+          {
+            "quien": "tochtli",
+            "x": -0.45,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": 1
+          },
+          {
+            "quien": "padre",
+            "x": 0.5,
+            "accion": "trabajar",
+            "emocion": "enfado",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "lenta"
       },
@@ -807,14 +1539,38 @@
           "hora": "dia",
           "ventana": true,
           "props": [
-            { "tipo": "columna", "x": -1.25 },
-            { "tipo": "petate", "x": 0.5 },
-            { "tipo": "🌽", "x": 1.15, "escala": 0.4 }
+            {
+              "tipo": "columna",
+              "x": -1.25
+            },
+            {
+              "tipo": "petate",
+              "x": 0.5
+            },
+            {
+              "tipo": "🌽",
+              "x": 1.15,
+              "escala": 0.4
+            }
           ]
         },
         "personajes": [
-          { "quien": "moctezuma", "x": 0.35, "accion": "sentado", "emocion": "neutral", "mirar": -1, "habla": false },
-          { "quien": "soldado", "x": -0.6, "accion": "quieto", "emocion": "neutral", "mirar": 1, "habla": false }
+          {
+            "quien": "moctezuma",
+            "x": 0.35,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "soldado",
+            "x": -0.6,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
         ],
         "camara": "general"
       },
@@ -823,7 +1579,15 @@
         "texto": "Y bebe cacao amargo y espumoso en copas de oro. Para nosotros, el cacao es dinero: unos años después, una lista dirá que un aguacate vale un grano. Él se bebe fortunas.",
         "drama": 0.55,
         "personajes": [
-          { "quien": "moctezuma", "x": 0.2, "accion": "sentado", "objeto": "🍫", "emocion": "neutral", "mirar": -1, "habla": false }
+          {
+            "quien": "moctezuma",
+            "x": 0.2,
+            "accion": "sentado",
+            "objeto": "🍫",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "cerca",
         "insercion": {
@@ -842,12 +1606,26 @@
           "hora": "dia",
           "clima": "polvo",
           "props": [
-            { "tipo": "templo-mayor", "x": 1.2, "escala": 1.6 },
-            { "tipo": "brasero", "x": -1.1 }
+            {
+              "tipo": "templo-mayor",
+              "x": 1.2,
+              "escala": 1.6
+            },
+            {
+              "tipo": "brasero",
+              "x": -1.1
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": -0.35, "accion": "trabajar", "objeto": "🪶", "emocion": "enfado", "mirar": 1 }
+          {
+            "quien": "tochtli",
+            "x": -0.35,
+            "accion": "trabajar",
+            "objeto": "🪶",
+            "emocion": "enfado",
+            "mirar": 1
+          }
         ]
       },
       {
@@ -855,8 +1633,21 @@
         "texto": "El maestro, un viejo guerrero, me tira del mechón. Nada de locuras. Ellos tienen cañones. Y algo peor: tienen a nuestro señor en sus manos.",
         "drama": 0.7,
         "personajes": [
-          { "quien": "tochtli", "x": -0.4, "accion": "triste", "emocion": "enfado", "mirar": 1 },
-          { "quien": "maestro", "x": 0.45, "accion": "hablar", "emocion": "enfado", "mirar": -1, "habla": false }
+          {
+            "quien": "tochtli",
+            "x": -0.4,
+            "accion": "triste",
+            "emocion": "enfado",
+            "mirar": 1
+          },
+          {
+            "quien": "maestro",
+            "x": 0.45,
+            "accion": "hablar",
+            "emocion": "enfado",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "cerca"
       },
@@ -871,12 +1662,25 @@
           "hora": "noche",
           "ventana": true,
           "props": [
-            { "tipo": "mesa", "x": 0.9 },
-            { "tipo": "antorcha", "x": -1.1 }
+            {
+              "tipo": "mesa",
+              "x": 0.9
+            },
+            {
+              "tipo": "antorcha",
+              "x": -1.1
+            }
           ]
         },
         "personajes": [
-          { "quien": "cortes", "x": 0.25, "accion": "escribir", "emocion": "neutral", "mirar": 1, "habla": false }
+          {
+            "quien": "cortes",
+            "x": 0.25,
+            "accion": "escribir",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
         ],
         "camara": "lenta"
       },
@@ -889,13 +1693,34 @@
           "hora": "dia",
           "clima": "despejado",
           "props": [
-            { "tipo": "templo-mayor", "x": -1.2, "escala": 1.8 },
-            { "tipo": "brasero", "x": 1.05 }
+            {
+              "tipo": "templo-mayor",
+              "x": -1.2,
+              "escala": 1.8
+            },
+            {
+              "tipo": "brasero",
+              "x": 1.05
+            }
           ]
         },
         "personajes": [
-          { "quien": "sacerdote", "x": -0.35, "accion": "senalar", "emocion": "enfado", "mirar": 1, "habla": false },
-          { "quien": "soldado", "x": 0.45, "accion": "quieto", "emocion": "enfado", "mirar": -1, "habla": false }
+          {
+            "quien": "sacerdote",
+            "x": -0.35,
+            "accion": "senalar",
+            "emocion": "enfado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "soldado",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "enfado",
+            "mirar": -1,
+            "habla": false
+          }
         ]
       },
       {
@@ -907,12 +1732,25 @@
           "hora": "atardecer",
           "clima": "despejado",
           "props": [
-            { "tipo": "templo-mayor", "x": 1.2, "escala": 2 },
-            { "tipo": "antorcha", "x": -1.1 }
+            {
+              "tipo": "templo-mayor",
+              "x": 1.2,
+              "escala": 2
+            },
+            {
+              "tipo": "antorcha",
+              "x": -1.1
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": -0.35, "accion": "pensar", "emocion": "triste", "mirar": 1 }
+          {
+            "quien": "tochtli",
+            "x": -0.35,
+            "accion": "pensar",
+            "emocion": "triste",
+            "mirar": 1
+          }
         ],
         "camara": "lenta"
       },
@@ -941,13 +1779,34 @@
           "hora": "noche",
           "ventana": false,
           "props": [
-            { "tipo": "tesoro", "x": 0.95 },
-            { "tipo": "antorcha", "x": -1.15 }
+            {
+              "tipo": "tesoro",
+              "x": 0.95
+            },
+            {
+              "tipo": "antorcha",
+              "x": -1.15
+            }
           ]
         },
         "personajes": [
-          { "quien": "cortes", "x": -0.35, "accion": "senalar", "emocion": "feliz", "mirar": 1, "habla": false },
-          { "quien": "soldado", "x": 0.35, "accion": "cargar", "objeto": "💰", "emocion": "feliz", "mirar": -1, "habla": false }
+          {
+            "quien": "cortes",
+            "x": -0.35,
+            "accion": "senalar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "soldado",
+            "x": 0.35,
+            "accion": "cargar",
+            "objeto": "💰",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
         ]
       },
       {
@@ -959,14 +1818,38 @@
           "hora": "atardecer",
           "clima": "despejado",
           "props": [
-            { "tipo": "casa-adobe", "x": -1.1 },
-            { "tipo": "templo-mayor", "x": 1.2, "escala": 1.6 },
-            { "tipo": "metate", "x": -0.5 }
+            {
+              "tipo": "casa-adobe",
+              "x": -1.1
+            },
+            {
+              "tipo": "templo-mayor",
+              "x": 1.2,
+              "escala": 1.6
+            },
+            {
+              "tipo": "metate",
+              "x": -0.5
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": 0.4, "accion": "hablar", "emocion": "triste", "mirar": -1 },
-          { "quien": "madre", "x": -0.15, "accion": "trabajar", "objeto": "🫘", "emocion": "triste", "mirar": 1, "habla": false }
+          {
+            "quien": "tochtli",
+            "x": 0.4,
+            "accion": "hablar",
+            "emocion": "triste",
+            "mirar": -1
+          },
+          {
+            "quien": "madre",
+            "x": -0.15,
+            "accion": "trabajar",
+            "objeto": "🫘",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
         ]
       },
       {
@@ -978,13 +1861,33 @@
           "hora": "dia",
           "clima": "polvo",
           "props": [
-            { "tipo": "templo-mayor", "x": -1.2, "escala": 1.8 },
-            { "tipo": "columna", "x": 1.15 }
+            {
+              "tipo": "templo-mayor",
+              "x": -1.2,
+              "escala": 1.8
+            },
+            {
+              "tipo": "columna",
+              "x": 1.15
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": -0.55, "accion": "quieto", "emocion": "miedo", "mirar": 1 },
-          { "quien": "cortes", "x": 0.45, "accion": "senalar", "emocion": "enfado", "mirar": -1, "habla": false }
+          {
+            "quien": "tochtli",
+            "x": -0.55,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": 1
+          },
+          {
+            "quien": "cortes",
+            "x": 0.45,
+            "accion": "senalar",
+            "emocion": "enfado",
+            "mirar": -1,
+            "habla": false
+          }
         ]
       },
       {
@@ -992,8 +1895,22 @@
         "texto": "Los extranjeros sacan las armas de nuestro arsenal, flechas, arcos y escudos, y las apilan delante de todos. No es para luchar. Es leña.",
         "drama": 0.85,
         "personajes": [
-          { "quien": "tochtli", "x": -0.55, "accion": "asustado", "emocion": "miedo", "mirar": 1 },
-          { "quien": "soldado", "x": 0.4, "accion": "cargar", "objeto": "🪵", "emocion": "neutral", "mirar": -1, "habla": false }
+          {
+            "quien": "tochtli",
+            "x": -0.55,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": 1
+          },
+          {
+            "quien": "soldado",
+            "x": 0.4,
+            "accion": "cargar",
+            "objeto": "🪵",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "cerca"
       },
@@ -1007,13 +1924,29 @@
           "hora": "atardecer",
           "clima": "polvo",
           "props": [
-            { "tipo": "templo-mayor", "x": -1.2, "escala": 1.8 },
-            { "tipo": "hoguera", "x": 0.7 },
-            { "tipo": "hoguera", "x": 1.2 }
+            {
+              "tipo": "templo-mayor",
+              "x": -1.2,
+              "escala": 1.8
+            },
+            {
+              "tipo": "hoguera",
+              "x": 0.7
+            },
+            {
+              "tipo": "hoguera",
+              "x": 1.2
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": -0.35, "accion": "triste", "emocion": "triste", "mirar": 1 }
+          {
+            "quien": "tochtli",
+            "x": -0.35,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": 1
+          }
         ],
         "camara": "lenta"
       },
@@ -1027,13 +1960,33 @@
           "hora": "noche",
           "ventana": true,
           "props": [
-            { "tipo": "antorcha", "x": -1.15 },
-            { "tipo": "columna", "x": 1.2 }
+            {
+              "tipo": "antorcha",
+              "x": -1.15
+            },
+            {
+              "tipo": "columna",
+              "x": 1.2
+            }
           ]
         },
         "personajes": [
-          { "quien": "moctezuma", "x": 0.25, "accion": "sentado", "emocion": "triste", "mirar": -1, "habla": false },
-          { "quien": "soldado", "x": -0.55, "accion": "quieto", "emocion": "neutral", "mirar": 1, "habla": false }
+          {
+            "quien": "moctezuma",
+            "x": 0.25,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "soldado",
+            "x": -0.55,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
         ],
         "camara": "cerca",
         "insercion": {
@@ -1053,12 +2006,24 @@
           "hora": "noche",
           "ventana": true,
           "props": [
-            { "tipo": "brasero", "x": -1.0 },
-            { "tipo": "petate", "x": 0.9 }
+            {
+              "tipo": "brasero",
+              "x": -1.0
+            },
+            {
+              "tipo": "petate",
+              "x": 0.9
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": 0.2, "accion": "pensar", "emocion": "enfado", "mirar": -1 }
+          {
+            "quien": "tochtli",
+            "x": 0.2,
+            "accion": "pensar",
+            "emocion": "enfado",
+            "mirar": -1
+          }
         ],
         "camara": "cerca"
       },
@@ -1067,8 +2032,22 @@
         "texto": "Mi madre me ve la cara y no pregunta. Solo me da una tortilla caliente. Afuera, los extranjeros vigilan. Faltan seis meses para que todo estalle.",
         "drama": 0.75,
         "personajes": [
-          { "quien": "tochtli", "x": 0.4, "accion": "sentado", "emocion": "triste", "mirar": -1 },
-          { "quien": "madre", "x": -0.45, "accion": "cargar", "objeto": "🫓", "emocion": "triste", "mirar": 1, "habla": false }
+          {
+            "quien": "tochtli",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": -1
+          },
+          {
+            "quien": "madre",
+            "x": -0.45,
+            "accion": "cargar",
+            "objeto": "🫓",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
         ],
         "camara": "lenta"
       },
@@ -1081,8 +2060,15 @@
           "hora": "dia",
           "clima": "polvo",
           "props": [
-            { "tipo": "templo-mayor", "x": 1.2, "escala": 2 },
-            { "tipo": "brasero", "x": -1.1 }
+            {
+              "tipo": "templo-mayor",
+              "x": 1.2,
+              "escala": 2
+            },
+            {
+              "tipo": "brasero",
+              "x": -1.1
+            }
           ]
         },
         "personajes": [],
@@ -1096,12 +2082,25 @@
           "hora": "noche",
           "clima": "lluvia",
           "props": [
-            { "tipo": "calzada" },
-            { "tipo": "canoa", "x": -0.95 }
+            {
+              "tipo": "calzada"
+            },
+            {
+              "tipo": "canoa",
+              "x": -0.95
+            }
           ]
         },
         "personajes": [
-          { "quien": "soldado", "x": 0.1, "accion": "correr", "objeto": "💰", "emocion": "miedo", "mirar": -1, "habla": false }
+          {
+            "quien": "soldado",
+            "x": 0.1,
+            "accion": "correr",
+            "objeto": "💰",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "insercion": {
           "tipo": "dato",
@@ -1118,8 +2117,15 @@
           "hora": "atardecer",
           "clima": "niebla",
           "props": [
-            { "tipo": "templo-mayor", "x": -1.2, "escala": 1.6 },
-            { "tipo": "casa-adobe", "x": 1.1 }
+            {
+              "tipo": "templo-mayor",
+              "x": -1.2,
+              "escala": 1.6
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": 1.1
+            }
           ]
         },
         "personajes": [],
@@ -1133,13 +2139,29 @@
           "hora": "amanecer",
           "clima": "despejado",
           "props": [
-            { "tipo": "volcan", "x": 1.3, "escala": 2 },
-            { "tipo": "canoa", "x": -0.9 },
-            { "tipo": "ahuejote", "x": -1.3 }
+            {
+              "tipo": "volcan",
+              "x": 1.3,
+              "escala": 2
+            },
+            {
+              "tipo": "canoa",
+              "x": -0.9
+            },
+            {
+              "tipo": "ahuejote",
+              "x": -1.3
+            }
           ]
         },
         "personajes": [
-          { "quien": "tochtli", "x": 0, "accion": "saludar", "emocion": "feliz", "mirar": 1 }
+          {
+            "quien": "tochtli",
+            "x": 0,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": 1
+          }
         ]
       }
     ]
@@ -1226,5 +2248,23 @@
         "descripcion": "Tóxcatl, la huida de los españoles, la viruela y la caída de Tenochtitlan en 1521. #shorts #historia"
       }
     ]
+  },
+  "grafias": {
+    "Ashayácatl": "Axayácatl",
+    "Cuaupopoca": "Cuauhpopoca",
+    "Cuitláuac": "Cuitláhuac",
+    "Istapalapa": "Iztapalapa",
+    "Kechóli": "Quecholli",
+    "Ketsalcóatl": "Quetzalcóatl",
+    "Malíntsin": "Malintzin",
+    "Tlascala": "Tlaxcala",
+    "Tóshcatl": "Tóxcatl",
+    "Uitsilopóchtli": "Huitzilopochtli",
+    "meshica": "mexica",
+    "meshicas": "mexicas",
+    "Meshica": "Mexica",
+    "náuatl": "náhuatl",
+    "tsompántli": "tzompantli",
+    "tecuítlatl": "tecuitlatl"
   }
 }

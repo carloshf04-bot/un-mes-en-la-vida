@@ -27,7 +27,8 @@ La voz (Chatterbox, narrador de España, con `"velocidad": 1.15`) lee unas **120
 7. **Futuro:** se inventa con coherencia interna. Conviene al menos un dato "real" de anclaje (por ejemplo, la tecnología actual de la que parte).
 8. **Personas reales:** solo hechos documentados y nada denigrante. Si se dramatiza un diálogo, se dice "imagino" o se deja como pensamiento.
 9. **Que nunca afloje.** Cada escena empuja a la siguiente (pregunta abierta, cuenta atrás, revelación a medias). Los shorts salen del propio largo, así que cada bloque de 45–60 s necesita su gancho inicial.
-10. **La voz sesea.** Si hay sinónimo, evita palabras con z, ce, ci. Los nombres extranjeros o difíciles se escriben en `texto` como suenan («Guín», «Uiscónsin», «Meshica»); en tarjetas y `publicacion`, con su grafía real.
+10. **Grafías:** cada palabra escrita «como suena» va en `"grafias": { "Guín": "Gein", "Uiscónsin": "Wisconsin" }` (palabra a palabra) para que los subtítulos del largo y de los shorts la muestren bien escrita.
+11. **La voz sesea.** Si hay sinónimo, evita palabras con z, ce, ci. Los nombres extranjeros o difíciles se escriben en `texto` como suenan («Guín», «Uiscónsin», «Meshica»); en tarjetas y `publicacion`, con su grafía real.
 
 ## Esquema del JSON
 

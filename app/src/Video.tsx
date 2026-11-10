@@ -86,7 +86,7 @@ export const Video: React.FC<{ slug: string; manifiesto?: Manifiesto }> = ({ slu
             {e.dia && !e.capitulo && <Calendario dia={e.dia} paleta={m.paleta} cambio={esc[i - 1]?.dia !== e.dia} />}
             {e.capitulo && <Capitulo titulo={e.capitulo} numero={caps[i]} paleta={m.paleta} />}
             {ultimo && <LlamadaFinal texto={m.formato === "short" ? "▶ El mes completo, en el canal" : "Suscríbete para el próximo mes"} paleta={m.paleta} />}
-            {!m.sinSubtitulos && <Subtitulos texto={e.texto} duracionAudio={audio.duracion} paleta={m.paleta} tiempos={audio.tiempos} />}
+            {!m.sinSubtitulos && <Subtitulos texto={e.texto} duracionAudio={audio.duracion} paleta={m.paleta} tiempos={audio.tiempos} grafias={m.grafias} />}
             <Audio src={staticFile(`${base}/${audio.archivo}`)} />
             {amb && <Audio src={staticFile(`obras/${slug}/${amb}`)} loop volume={(fr) => interpolate(fr, [0, 12, Math.max(13, dur - 12), Math.max(14, dur)], [0, 0.3, 0.3, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} />}
           </Sequence>

@@ -209,14 +209,34 @@
           "hora": "atardecer",
           "clima": "niebla",
           "props": [
-            { "tipo": "granja", "x": -0.85, "escala": 1.1 },
-            { "tipo": "granero", "x": -1.45, "detras": true },
-            { "tipo": "pino", "x": 1.3 },
-            { "tipo": "arbol", "x": 0.95 }
+            {
+              "tipo": "granja",
+              "x": -0.85,
+              "escala": 1.1
+            },
+            {
+              "tipo": "granero",
+              "x": -1.45,
+              "detras": true
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "arbol",
+              "x": 0.95
+            }
           ]
         },
         "personajes": [
-          { "quien": "ed", "x": 0.45, "accion": "quieto", "emocion": "neutral", "mirar": -1 }
+          {
+            "quien": "ed",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          }
         ],
         "camara": "general"
       },
@@ -224,7 +244,13 @@
         "texto": "Me llamo Ed Guín. Lo que pienso en este vídeo, lo imaginamos. Lo que hago, está en los archivos. Y no todo lo que hay en los archivos te lo voy a enseñar.",
         "drama": 0.6,
         "personajes": [
-          { "quien": "ed", "x": 0.35, "accion": "hablar", "emocion": "neutral", "mirar": -1 }
+          {
+            "quien": "ed",
+            "x": 0.35,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
         ],
         "camara": "cerca"
       },
@@ -245,15 +271,37 @@
           "hora": "dia",
           "clima": "niebla",
           "props": [
-            { "tipo": "pino", "x": -1.3 },
-            { "tipo": "pino", "x": -0.75 },
-            { "tipo": "arbol", "x": 0.45 },
-            { "tipo": "granja", "x": 1.15, "escala": 0.8 },
-            { "tipo": "coche-antiguo", "x": 0.8 }
+            {
+              "tipo": "pino",
+              "x": -1.3
+            },
+            {
+              "tipo": "pino",
+              "x": -0.75
+            },
+            {
+              "tipo": "arbol",
+              "x": 0.45
+            },
+            {
+              "tipo": "granja",
+              "x": 1.15,
+              "escala": 0.8
+            },
+            {
+              "tipo": "coche-antiguo",
+              "x": 0.8
+            }
           ]
         },
         "personajes": [
-          { "quien": "ed", "x": 0, "accion": "caminar", "entra": "izq", "mirar": 1 }
+          {
+            "quien": "ed",
+            "x": 0,
+            "accion": "caminar",
+            "entra": "izq",
+            "mirar": 1
+          }
         ],
         "camara": "paneo"
       },
@@ -262,7 +310,13 @@
         "texto": "Un pueblo de menos de setecientos habitantes, en una llanura de arena y pinos. Tengo cincuenta y un años y vivo solo en una granja, al final de un camino de tierra.",
         "drama": 0.55,
         "personajes": [
-          { "quien": "ed", "x": -0.2, "accion": "quieto", "emocion": "neutral", "mirar": 1 }
+          {
+            "quien": "ed",
+            "x": -0.2,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1
+          }
         ],
         "insercion": {
           "tipo": "mapa",
@@ -281,15 +335,38 @@
           "hora": "noche",
           "ventana": true,
           "props": [
-            { "tipo": "estufa", "x": -1.05 },
-            { "tipo": "mesa", "x": 0.85 },
-            { "tipo": "cajas", "x": 1.4 },
-            { "tipo": "📻", "x": 0.85, "escala": 0.3 },
-            { "tipo": "🏮", "x": -0.45, "escala": 0.3 }
+            {
+              "tipo": "estufa",
+              "x": -1.05
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.85
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.4
+            },
+            {
+              "tipo": "📻",
+              "x": 0.85,
+              "escala": 0.3
+            },
+            {
+              "tipo": "🏮",
+              "x": -0.45,
+              "escala": 0.3
+            }
           ]
         },
         "personajes": [
-          { "quien": "ed", "x": 0.1, "accion": "sentado", "emocion": "cansado", "mirar": -1 }
+          {
+            "quien": "ed",
+            "x": 0.1,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1
+          }
         ],
         "camara": "lenta"
       },
@@ -298,7 +375,13 @@
         "texto": "La casa es de madera, de dos plantas. Pero yo solo uso dos cuartos de abajo. El resto lleva años clavado con tablas. Luego te cuento por qué.",
         "drama": 0.65,
         "personajes": [
-          { "quien": "ed", "x": 0.2, "accion": "pensar", "emocion": "neutral", "mirar": -1 }
+          {
+            "quien": "ed",
+            "x": 0.2,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
         ],
         "camara": "cerca"
       },
@@ -308,19 +391,53 @@
         "texto": "Si me vieras por la calle, ni te fijarías en mí. Hago trabajillos y cuido a los críos del pueblo. El bueno de Ed, siempre tan callado.",
         "drama": 0.55,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "campo",
           "hora": "dia",
           "clima": "despejado",
           "props": [
-            { "tipo": "casa", "x": -1.25 },
-            { "tipo": "poste", "x": -0.6 },
-            { "tipo": "coche-antiguo", "x": 0.75 },
-            { "tipo": "⛽", "x": 1.3, "escala": 0.45 }
+            {
+              "tipo": "casa",
+              "x": -1.25
+            },
+            {
+              "tipo": "poste",
+              "x": -0.6
+            },
+            {
+              "tipo": "coche-antiguo",
+              "x": 0.75
+            },
+            {
+              "tipo": "casa",
+              "x": 1.5
+            },
+            {
+              "tipo": "pino",
+              "x": -1.9
+            },
+            {
+              "tipo": "⛽",
+              "x": -1.3,
+              "escala": 0.6
+            }
           ]
         },
         "personajes": [
-          { "quien": "ed", "x": -0.35, "accion": "caminar", "entra": "izq", "mirar": 1 },
-          { "quien": "lester", "x": 0.45, "accion": "saludar", "emocion": "feliz", "mirar": -1, "habla": false }
+          {
+            "quien": "ed",
+            "x": -0.35,
+            "accion": "caminar",
+            "entra": "izq",
+            "mirar": 1
+          },
+          {
+            "quien": "lester",
+            "x": 0.45,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "paneo"
       },
@@ -329,7 +446,13 @@
         "texto": "Tengo un Ford granate de mil novecientos cuarenta y nueve. Y ese coche, como yo, acabará en boca de todo el país.",
         "drama": 0.6,
         "personajes": [
-          { "quien": "ed", "x": -0.4, "accion": "quieto", "emocion": "neutral", "mirar": 1 }
+          {
+            "quien": "ed",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1
+          }
         ],
         "insercion": {
           "tipo": "dato",
@@ -348,14 +471,36 @@
           "hora": "dia",
           "ventana": true,
           "props": [
-            { "tipo": "cama", "x": 0.95 },
-            { "tipo": "cuadro", "x": -0.9 },
-            { "tipo": "reloj", "x": -1.35 }
+            {
+              "tipo": "cama",
+              "x": 0.95
+            },
+            {
+              "tipo": "cuadro",
+              "x": -0.9
+            },
+            {
+              "tipo": "reloj",
+              "x": -1.35
+            }
           ]
         },
         "personajes": [
-          { "quien": "ed", "x": -0.45, "accion": "quieto", "emocion": "triste", "mirar": 1 },
-          { "quien": "augusta", "x": 0.45, "accion": "quieto", "emocion": "enfado", "mirar": -1, "habla": false }
+          {
+            "quien": "ed",
+            "x": -0.45,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": 1
+          },
+          {
+            "quien": "augusta",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "enfado",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "lenta"
       },
@@ -364,7 +509,13 @@
         "texto": "Mi padre murió en el cuarenta. Mi hermano Jenri, en el cuarenta y cuatro, en un fuego de matorral. El forense habló de asfixia. Nadie probó nunca otra cosa.",
         "drama": 0.65,
         "personajes": [
-          { "quien": "ed", "x": -0.2, "accion": "pensar", "emocion": "triste", "mirar": 1 }
+          {
+            "quien": "ed",
+            "x": -0.2,
+            "accion": "pensar",
+            "emocion": "triste",
+            "mirar": 1
+          }
         ],
         "camara": "cerca"
       },
@@ -380,15 +531,38 @@
           "hora": "noche",
           "ventana": true,
           "props": [
-            { "tipo": "estufa", "x": -1.05 },
-            { "tipo": "mesa", "x": 0.85 },
-            { "tipo": "cajas", "x": 1.4 },
-            { "tipo": "📻", "x": 0.85, "escala": 0.3 },
-            { "tipo": "🏮", "x": -0.45, "escala": 0.3 }
+            {
+              "tipo": "estufa",
+              "x": -1.05
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.85
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.4
+            },
+            {
+              "tipo": "📻",
+              "x": 0.85,
+              "escala": 0.3
+            },
+            {
+              "tipo": "🏮",
+              "x": -0.45,
+              "escala": 0.3
+            }
           ]
         },
         "personajes": [
-          { "quien": "ed", "x": 0.25, "accion": "sentado", "emocion": "neutral", "mirar": 1 }
+          {
+            "quien": "ed",
+            "x": 0.25,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": 1
+          }
         ],
         "camara": "cerca"
       },
@@ -397,7 +571,13 @@
         "texto": "Cuatro de noviembre. En el pueblo solo se habla de un día: el sábado dieciséis abre la temporada del venado. Nueve días con el rifle al hombro.",
         "drama": 0.6,
         "personajes": [
-          { "quien": "ed", "x": 0.25, "accion": "pensar", "emocion": "neutral", "mirar": 1 }
+          {
+            "quien": "ed",
+            "x": 0.25,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": 1
+          }
         ],
         "insercion": {
           "tipo": "dato",
@@ -416,15 +596,42 @@
           "hora": "dia",
           "ventana": true,
           "props": [
-            { "tipo": "estanteria", "x": -1.25 },
-            { "tipo": "mostrador", "x": 0.55 },
-            { "tipo": "barril", "x": 1.4 },
-            { "tipo": "🛢️", "x": 1.05, "escala": 0.3 }
+            {
+              "tipo": "estanteria",
+              "x": -1.25
+            },
+            {
+              "tipo": "mostrador",
+              "x": 0.55
+            },
+            {
+              "tipo": "barril",
+              "x": 1.4
+            },
+            {
+              "tipo": "🛢️",
+              "x": 1.05,
+              "escala": 0.3
+            }
           ]
         },
         "personajes": [
-          { "quien": "cazador", "x": -0.5, "accion": "quieto", "emocion": "feliz", "mirar": 1, "habla": false },
-          { "quien": "bernice", "x": 0.4, "accion": "trabajar", "emocion": "neutral", "mirar": -1, "habla": false }
+          {
+            "quien": "cazador",
+            "x": -0.5,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "bernice",
+            "x": 0.4,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "general"
       },
@@ -433,8 +640,22 @@
         "texto": "Berníss saca adelante sola la tienda y la maquinaria agrícola. Su hijo, Frank, es ayudante del sheriff. Y ese sábado, como todos, estará en el bosque.",
         "drama": 0.65,
         "personajes": [
-          { "quien": "frank", "x": -0.4, "accion": "hablar", "emocion": "feliz", "mirar": 1, "habla": false },
-          { "quien": "bernice", "x": 0.4, "accion": "quieto", "emocion": "feliz", "mirar": -1, "habla": false }
+          {
+            "quien": "frank",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "bernice",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "cerca"
       },
@@ -449,10 +670,23 @@
           "hora": "noche",
           "ventana": true,
           "props": [
-            { "tipo": "barril", "x": -1.3 },
-            { "tipo": "estanteria", "x": -0.75 },
-            { "tipo": "mesa", "x": 0.9 },
-            { "tipo": "🏮", "x": 0.9, "escala": 0.3 }
+            {
+              "tipo": "barril",
+              "x": -1.3
+            },
+            {
+              "tipo": "estanteria",
+              "x": -0.75
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.9
+            },
+            {
+              "tipo": "🏮",
+              "x": 0.9,
+              "escala": 0.3
+            }
           ]
         },
         "personajes": [],
@@ -463,7 +697,14 @@
         "texto": "Méri Jógan. Unos cincuenta años. Llevaba su propia taberna junto a un camino rural, en Pain Grouv. Según algunos relatos, había nacido en Alemania.",
         "drama": 0.55,
         "personajes": [
-          { "quien": "mary", "x": 0.3, "accion": "trabajar", "emocion": "neutral", "mirar": -1, "habla": false }
+          {
+            "quien": "mary",
+            "x": 0.3,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "insercion": {
           "tipo": "cita",
@@ -483,9 +724,28 @@
         "texto": "Tres años de preguntas sin respuesta. En las tabernas todavía se habla del caso. Imagino que yo escuchaba sin decir nada. La respuesta llegará este mes.",
         "drama": 0.7,
         "personajes": [
-          { "quien": "ed", "x": 0.55, "accion": "sentado", "emocion": "neutral", "mirar": -1, "habla": false },
-          { "quien": "lester", "x": -0.55, "accion": "hablar", "mirar": 1, "habla": false },
-          { "quien": "cazador", "x": -0.05, "accion": "quieto", "mirar": -1, "habla": false }
+          {
+            "quien": "ed",
+            "x": 0.55,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "lester",
+            "x": -0.55,
+            "accion": "hablar",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "cazador",
+            "x": -0.05,
+            "accion": "quieto",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "lenta"
       },
@@ -496,19 +756,53 @@
         "texto": "Lunes. Quedan cinco días para la caza. Llegan coches de fuera con rifles en el asiento de atrás, y en las tabernas cuelgan tablones para apuntar los venados del año.",
         "drama": 0.65,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "campo",
           "hora": "dia",
           "clima": "niebla",
           "props": [
-            { "tipo": "casa", "x": -1.25 },
-            { "tipo": "poste", "x": -0.6 },
-            { "tipo": "coche-antiguo", "x": 0.75 },
-            { "tipo": "⛽", "x": 1.3, "escala": 0.45 }
+            {
+              "tipo": "casa",
+              "x": -1.25
+            },
+            {
+              "tipo": "poste",
+              "x": -0.6
+            },
+            {
+              "tipo": "coche-antiguo",
+              "x": 0.75
+            },
+            {
+              "tipo": "casa",
+              "x": 1.5
+            },
+            {
+              "tipo": "pino",
+              "x": -1.9
+            },
+            {
+              "tipo": "⛽",
+              "x": -1.3,
+              "escala": 0.6
+            }
           ]
         },
         "personajes": [
-          { "quien": "cazador", "x": 0.35, "accion": "caminar", "entra": "der", "mirar": -1, "habla": false },
-          { "quien": "frank", "x": -0.45, "accion": "saludar", "mirar": 1, "habla": false }
+          {
+            "quien": "cazador",
+            "x": 0.35,
+            "accion": "caminar",
+            "entra": "der",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "frank",
+            "x": -0.45,
+            "accion": "saludar",
+            "mirar": 1,
+            "habla": false
+          }
         ],
         "camara": "paneo"
       },
@@ -517,7 +811,13 @@
         "texto": "En mil novecientos cincuenta y seis se vendieron casi trescientos mil permisos en Uiscónsin. Cada otoño, los hombres se van al bosque y dejan atrás pueblos casi desiertos.",
         "drama": 0.6,
         "personajes": [
-          { "quien": "cazador", "x": 0.35, "accion": "quieto", "mirar": -1, "habla": false }
+          {
+            "quien": "cazador",
+            "x": 0.35,
+            "accion": "quieto",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "insercion": {
           "tipo": "dato",
@@ -536,15 +836,41 @@
           "hora": "atardecer",
           "ventana": true,
           "props": [
-            { "tipo": "estanteria", "x": -1.25 },
-            { "tipo": "mostrador", "x": 0.55 },
-            { "tipo": "barril", "x": 1.4 },
-            { "tipo": "🛢️", "x": 1.05, "escala": 0.3 }
+            {
+              "tipo": "estanteria",
+              "x": -1.25
+            },
+            {
+              "tipo": "mostrador",
+              "x": 0.55
+            },
+            {
+              "tipo": "barril",
+              "x": 1.4
+            },
+            {
+              "tipo": "🛢️",
+              "x": 1.05,
+              "escala": 0.3
+            }
           ]
         },
         "personajes": [
-          { "quien": "ed", "x": -0.45, "accion": "caminar", "entra": "izq", "emocion": "neutral", "mirar": 1 },
-          { "quien": "frank", "x": 0.5, "accion": "quieto", "mirar": -1, "habla": false }
+          {
+            "quien": "ed",
+            "x": -0.45,
+            "accion": "caminar",
+            "entra": "izq",
+            "emocion": "neutral",
+            "mirar": 1
+          },
+          {
+            "quien": "frank",
+            "x": 0.5,
+            "accion": "quieto",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "general"
       },
@@ -553,8 +879,20 @@
         "texto": "Le digo que volveré mañana. A por anticongelante. Una frase de las que se olvidan. Frank no la olvidará.",
         "drama": 0.75,
         "personajes": [
-          { "quien": "ed", "x": -0.45, "accion": "hablar", "emocion": "neutral", "mirar": 1 },
-          { "quien": "frank", "x": 0.5, "accion": "quieto", "mirar": -1, "habla": false }
+          {
+            "quien": "ed",
+            "x": -0.45,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1
+          },
+          {
+            "quien": "frank",
+            "x": 0.5,
+            "accion": "quieto",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "cerca"
       },
@@ -568,15 +906,41 @@
           "hora": "amanecer",
           "clima": "niebla",
           "props": [
-            { "tipo": "pino", "x": -1.3 },
-            { "tipo": "pino", "x": 1.35 },
-            { "tipo": "arbol", "x": -0.75 },
-            { "tipo": "🦌", "x": 1.0, "escala": 0.4 }
+            {
+              "tipo": "pino",
+              "x": -1.3
+            },
+            {
+              "tipo": "pino",
+              "x": 1.35
+            },
+            {
+              "tipo": "arbol",
+              "x": -0.75
+            },
+            {
+              "tipo": "🦌",
+              "x": 1.0,
+              "escala": 0.4
+            }
           ]
         },
         "personajes": [
-          { "quien": "frank", "x": -0.35, "accion": "caminar", "entra": "izq", "mirar": 1, "habla": false },
-          { "quien": "cazador", "x": 0.45, "accion": "quieto", "mirar": -1, "habla": false }
+          {
+            "quien": "frank",
+            "x": -0.35,
+            "accion": "caminar",
+            "entra": "izq",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "cazador",
+            "x": 0.45,
+            "accion": "quieto",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "paneo"
       },
@@ -585,7 +949,14 @@
         "texto": "Frank Uórden está en el bosque, vestido de rojo, como manda la ley, igual que casi todos los hombres del pueblo. La calle mayor, desierta. Ni un alma.",
         "drama": 0.65,
         "personajes": [
-          { "quien": "frank", "x": -0.2, "accion": "quieto", "emocion": "neutral", "mirar": 1, "habla": false }
+          {
+            "quien": "frank",
+            "x": -0.2,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
         ],
         "camara": "lenta"
       },
@@ -599,14 +970,34 @@
           "hora": "dia",
           "ventana": true,
           "props": [
-            { "tipo": "estanteria", "x": -1.25 },
-            { "tipo": "mostrador", "x": 0.55 },
-            { "tipo": "barril", "x": 1.4 },
-            { "tipo": "🛢️", "x": 1.05, "escala": 0.3 }
+            {
+              "tipo": "estanteria",
+              "x": -1.25
+            },
+            {
+              "tipo": "mostrador",
+              "x": 0.55
+            },
+            {
+              "tipo": "barril",
+              "x": 1.4
+            },
+            {
+              "tipo": "🛢️",
+              "x": 1.05,
+              "escala": 0.3
+            }
           ]
         },
         "personajes": [
-          { "quien": "bernice", "x": 0.3, "accion": "escribir", "emocion": "neutral", "mirar": -1, "habla": false }
+          {
+            "quien": "bernice",
+            "x": 0.3,
+            "accion": "escribir",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "cerca"
       },
@@ -629,14 +1020,35 @@
         "texto": "Sábado por la mañana. A eso de las nueve y media, alguien ve salir la camioneta de la ferretería por la parte de atrás. A nadie le extraña: es día de rifle.",
         "drama": 0.75,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "campo",
           "hora": "dia",
           "clima": "niebla",
           "props": [
-            { "tipo": "casa", "x": -1.25 },
-            { "tipo": "poste", "x": -0.6 },
-            { "tipo": "poste", "x": 0.6 },
-            { "tipo": "⛽", "x": 1.3, "escala": 0.45 }
+            {
+              "tipo": "casa",
+              "x": -1.25
+            },
+            {
+              "tipo": "poste",
+              "x": -0.6
+            },
+            {
+              "tipo": "poste",
+              "x": 0.6
+            },
+            {
+              "tipo": "casa",
+              "x": 1.5
+            },
+            {
+              "tipo": "pino",
+              "x": -1.9
+            },
+            {
+              "tipo": "⛽",
+              "x": -1.3,
+              "escala": 0.6
+            }
           ]
         },
         "personajes": [],
@@ -647,14 +1059,35 @@
         "texto": "Las horas pasan lentas en un pueblo sin hombres. El viento, algún disparo lejano. Y la tarde que se apaga.",
         "drama": 0.65,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "campo",
           "hora": "atardecer",
           "clima": "niebla",
           "props": [
-            { "tipo": "casa", "x": -1.25 },
-            { "tipo": "poste", "x": -0.6 },
-            { "tipo": "poste", "x": 0.6 },
-            { "tipo": "⛽", "x": 1.3, "escala": 0.45 }
+            {
+              "tipo": "casa",
+              "x": -1.25
+            },
+            {
+              "tipo": "poste",
+              "x": -0.6
+            },
+            {
+              "tipo": "poste",
+              "x": 0.6
+            },
+            {
+              "tipo": "casa",
+              "x": 1.5
+            },
+            {
+              "tipo": "pino",
+              "x": -1.9
+            },
+            {
+              "tipo": "⛽",
+              "x": -1.3,
+              "escala": 0.6
+            }
           ]
         },
         "personajes": [],
@@ -670,14 +1103,35 @@
           "hora": "atardecer",
           "ventana": true,
           "props": [
-            { "tipo": "estanteria", "x": -1.25 },
-            { "tipo": "mostrador", "x": 0.55 },
-            { "tipo": "barril", "x": 1.4 },
-            { "tipo": "🛢️", "x": 1.05, "escala": 0.3 }
+            {
+              "tipo": "estanteria",
+              "x": -1.25
+            },
+            {
+              "tipo": "mostrador",
+              "x": 0.55
+            },
+            {
+              "tipo": "barril",
+              "x": 1.4
+            },
+            {
+              "tipo": "🛢️",
+              "x": 1.05,
+              "escala": 0.3
+            }
           ]
         },
         "personajes": [
-          { "quien": "frank", "x": -0.3, "accion": "asustado", "emocion": "miedo", "entra": "izq", "mirar": 1, "habla": false }
+          {
+            "quien": "frank",
+            "x": -0.3,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "entra": "izq",
+            "mirar": 1,
+            "habla": false
+          }
         ],
         "camara": "cerca"
       },
@@ -686,7 +1140,15 @@
         "texto": "Frank busca en el talonario. Ve el último recibo. Y se acuerda de quién dijo, la víspera, que volvería a por anticongelante. De mí.",
         "drama": 0.85,
         "personajes": [
-          { "quien": "frank", "x": -0.1, "accion": "pensar", "emocion": "sorpresa", "objeto": "🧾", "mirar": 1, "habla": false }
+          {
+            "quien": "frank",
+            "x": -0.1,
+            "accion": "pensar",
+            "emocion": "sorpresa",
+            "objeto": "🧾",
+            "mirar": 1,
+            "habla": false
+          }
         ],
         "camara": "cerca"
       },
@@ -701,15 +1163,45 @@
           "hora": "noche",
           "ventana": true,
           "props": [
-            { "tipo": "mesa", "x": 0 },
-            { "tipo": "reloj", "x": -1.3 },
-            { "tipo": "📻", "x": 1.3, "escala": 0.35 }
+            {
+              "tipo": "mesa",
+              "x": 0
+            },
+            {
+              "tipo": "reloj",
+              "x": -1.3
+            },
+            {
+              "tipo": "📻",
+              "x": 1.3,
+              "escala": 0.35
+            }
           ]
         },
         "personajes": [
-          { "quien": "ed", "x": 0, "accion": "sentado", "emocion": "neutral", "mirar": 1 },
-          { "quien": "lester", "x": -0.65, "accion": "sentado", "emocion": "feliz", "mirar": 1, "habla": false },
-          { "quien": "irene", "x": 0.65, "accion": "quieto", "emocion": "feliz", "mirar": -1, "habla": false }
+          {
+            "quien": "ed",
+            "x": 0,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": 1
+          },
+          {
+            "quien": "lester",
+            "x": -0.65,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "irene",
+            "x": 0.65,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "general",
         "insercion": {
@@ -724,9 +1216,29 @@
         "texto": "Por la ventana entran los faros de un coche. Luego, pasos en el porche. Y alguien llama a la puerta. Preguntan por mí.",
         "drama": 0.75,
         "personajes": [
-          { "quien": "ed", "x": 0, "accion": "sentado", "emocion": "sorpresa", "mirar": -1 },
-          { "quien": "lester", "x": -0.65, "accion": "sentado", "emocion": "sorpresa", "mirar": -1, "habla": false },
-          { "quien": "irene", "x": 0.65, "accion": "quieto", "emocion": "sorpresa", "mirar": -1, "habla": false }
+          {
+            "quien": "ed",
+            "x": 0,
+            "accion": "sentado",
+            "emocion": "sorpresa",
+            "mirar": -1
+          },
+          {
+            "quien": "lester",
+            "x": -0.65,
+            "accion": "sentado",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "irene",
+            "x": 0.65,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "cerca"
       },
@@ -735,9 +1247,29 @@
         "texto": "Me detienen allí mismo, delante de la familia que tantas noches me ha dado de comer. Nadie en esa mesa entiende nada.",
         "drama": 0.85,
         "personajes": [
-          { "quien": "ed", "x": 0.05, "accion": "quieto", "emocion": "neutral", "mirar": -1 },
-          { "quien": "agente", "x": -0.7, "accion": "caminar", "entra": "izq", "mirar": 1, "habla": false },
-          { "quien": "irene", "x": 0.7, "accion": "asustado", "emocion": "miedo", "mirar": -1, "habla": false }
+          {
+            "quien": "ed",
+            "x": 0.05,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "agente",
+            "x": -0.7,
+            "accion": "caminar",
+            "entra": "izq",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "irene",
+            "x": 0.7,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "cerca"
       },
@@ -750,15 +1282,43 @@
           "hora": "noche",
           "clima": "niebla",
           "props": [
-            { "tipo": "granja", "x": 0.95 },
-            { "tipo": "granero", "x": 1.45, "detras": true },
-            { "tipo": "coche-patrulla", "x": -1.0 },
-            { "tipo": "pino", "x": -1.45 }
+            {
+              "tipo": "granja",
+              "x": 0.95
+            },
+            {
+              "tipo": "granero",
+              "x": 1.45,
+              "detras": true
+            },
+            {
+              "tipo": "coche-patrulla",
+              "x": -1.0
+            },
+            {
+              "tipo": "pino",
+              "x": -1.45
+            }
           ]
         },
         "personajes": [
-          { "quien": "schley", "x": -0.35, "accion": "caminar", "entra": "izq", "objeto": "🔦", "mirar": 1, "habla": false },
-          { "quien": "agente", "x": 0.25, "accion": "caminar", "objeto": "🏮", "mirar": 1, "habla": false }
+          {
+            "quien": "schley",
+            "x": -0.35,
+            "accion": "caminar",
+            "entra": "izq",
+            "objeto": "🔦",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "agente",
+            "x": 0.25,
+            "accion": "caminar",
+            "objeto": "🏮",
+            "mirar": 1,
+            "habla": false
+          }
         ],
         "camara": "paneo"
       },
@@ -768,7 +1328,15 @@
         "texto": "Noche del sábado. El sheriff y sus hombres entran en mi casa con linternas, faroles y focos. En un cobertizo encuentran a Berníss Uórden, sin vida. Tenía cincuenta y ocho años.",
         "drama": 0.8,
         "personajes": [
-          { "quien": "schley", "x": -0.5, "accion": "quieto", "emocion": "triste", "objeto": "🔦", "mirar": 1, "habla": false }
+          {
+            "quien": "schley",
+            "x": -0.5,
+            "accion": "quieto",
+            "emocion": "triste",
+            "objeto": "🔦",
+            "mirar": 1,
+            "habla": false
+          }
         ],
         "camara": "general"
       },
@@ -784,14 +1352,39 @@
         "texto": "Antes de seguir, un nombre. Berníss Uórden. Viuda, madre, y al frente de una ferretería en un pueblo de granjeros. Eso es lo que hay que recordar.",
         "drama": 0.55,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "campo",
           "hora": "noche",
           "clima": "niebla",
           "props": [
-            { "tipo": "casa", "x": -1.2 },
-            { "tipo": "poste", "x": -0.5 },
-            { "tipo": "coche-patrulla", "x": 0.8 },
-            { "tipo": "farola", "x": 1.4 }
+            {
+              "tipo": "casa",
+              "x": -1.2
+            },
+            {
+              "tipo": "poste",
+              "x": -0.5
+            },
+            {
+              "tipo": "coche-patrulla",
+              "x": 0.8
+            },
+            {
+              "tipo": "farola",
+              "x": 1.4
+            },
+            {
+              "tipo": "casa",
+              "x": 1.5
+            },
+            {
+              "tipo": "pino",
+              "x": -1.9
+            },
+            {
+              "tipo": "⛽",
+              "x": -1.3,
+              "escala": 0.6
+            }
           ]
         },
         "personajes": [],
@@ -807,7 +1400,14 @@
         "texto": "Esa noche, Pléinfild deja de ser un pueblo cualquiera. Y yo, el bueno de Ed, paso a ser el hombre del que todo el país quiere saber algo.",
         "drama": 0.75,
         "personajes": [
-          { "quien": "cazador", "x": -0.3, "accion": "triste", "emocion": "triste", "mirar": 1, "habla": false }
+          {
+            "quien": "cazador",
+            "x": -0.3,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
         ],
         "camara": "paneo"
       },
@@ -823,14 +1423,35 @@
           "hora": "dia",
           "ventana": true,
           "props": [
-            { "tipo": "maquina", "x": -1.1 },
-            { "tipo": "mesa", "x": 0.1 },
-            { "tipo": "reloj", "x": 1.35 }
+            {
+              "tipo": "maquina",
+              "x": -1.1
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.1
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.35
+            }
           ]
         },
         "personajes": [
-          { "quien": "ed", "x": 0.35, "accion": "sentado", "emocion": "neutral", "mirar": -1 },
-          { "quien": "agente", "x": -0.4, "accion": "escribir", "mirar": 1, "habla": false }
+          {
+            "quien": "ed",
+            "x": 0.35,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "agente",
+            "x": -0.4,
+            "accion": "escribir",
+            "mirar": 1,
+            "habla": false
+          }
         ],
         "camara": "general"
       },
@@ -839,8 +1460,20 @@
         "texto": "Al final, confieso. Dos muertes. Méri Jógan, en mil novecientos cincuenta y cuatro. Y Berníss Uórden. Digo que no maté a nadie más. Cuentan que dije recordarlo todo de forma confusa.",
         "drama": 0.7,
         "personajes": [
-          { "quien": "ed", "x": 0.35, "accion": "sentado", "emocion": "cansado", "mirar": -1 },
-          { "quien": "agente", "x": -0.4, "accion": "escribir", "mirar": 1, "habla": false }
+          {
+            "quien": "ed",
+            "x": 0.35,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1
+          },
+          {
+            "quien": "agente",
+            "x": -0.4,
+            "accion": "escribir",
+            "mirar": 1,
+            "habla": false
+          }
         ],
         "camara": "cerca"
       },
@@ -849,8 +1482,20 @@
         "texto": "Me preguntan por otras personas que se esfumaron en la comarca. Ninguna prueba me unió nunca a esos casos. Lo demás que había en mi casa, confieso, salió de tres camposantos.",
         "drama": 0.65,
         "personajes": [
-          { "quien": "ed", "x": 0.35, "accion": "pensar", "emocion": "neutral", "mirar": -1 },
-          { "quien": "agente", "x": -0.4, "accion": "hablar", "mirar": 1, "habla": false }
+          {
+            "quien": "ed",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "agente",
+            "x": -0.4,
+            "accion": "hablar",
+            "mirar": 1,
+            "habla": false
+          }
         ],
         "insercion": {
           "tipo": "dato",
@@ -870,15 +1515,42 @@
           "hora": "dia",
           "ventana": true,
           "props": [
-            { "tipo": "bandera", "x": -1.3 },
-            { "tipo": "mesa", "x": 0 },
-            { "tipo": "reloj", "x": 1.35 }
+            {
+              "tipo": "bandera",
+              "x": -1.3
+            },
+            {
+              "tipo": "mesa",
+              "x": 0
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.35
+            }
           ]
         },
         "personajes": [
-          { "quien": "ed", "x": 0.1, "accion": "quieto", "emocion": "neutral", "mirar": -1 },
-          { "quien": "schley", "x": -0.6, "accion": "quieto", "mirar": 1, "habla": false },
-          { "quien": "periodista", "x": 0.75, "accion": "trabajar", "mirar": -1, "habla": false }
+          {
+            "quien": "ed",
+            "x": 0.1,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "schley",
+            "x": -0.6,
+            "accion": "quieto",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "periodista",
+            "x": 0.75,
+            "accion": "trabajar",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "general"
       },
@@ -887,8 +1559,20 @@
         "texto": "Mi abogado alega que no soy culpable por locura. Y esa palabra va a frenar mi caso más de una década.",
         "drama": 0.65,
         "personajes": [
-          { "quien": "ed", "x": 0.4, "accion": "quieto", "emocion": "cansado", "mirar": -1 },
-          { "quien": "agente", "x": -0.4, "accion": "hablar", "mirar": 1, "habla": false }
+          {
+            "quien": "ed",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": -1
+          },
+          {
+            "quien": "agente",
+            "x": -0.4,
+            "accion": "hablar",
+            "mirar": 1,
+            "habla": false
+          }
         ],
         "camara": "cerca"
       },
@@ -897,19 +1581,58 @@
         "texto": "Llegan periodistas de todo el país, y hasta de Europa. Fotógrafos con flash preguntan a todo el que pasa.",
         "drama": 0.6,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "campo",
           "hora": "dia",
           "clima": "despejado",
           "props": [
-            { "tipo": "casa", "x": -1.25 },
-            { "tipo": "poste", "x": 0.2 },
-            { "tipo": "coche-antiguo", "x": 1.05 },
-            { "tipo": "📰", "x": -0.6, "escala": 0.35 }
+            {
+              "tipo": "casa",
+              "x": -1.25
+            },
+            {
+              "tipo": "poste",
+              "x": 0.2
+            },
+            {
+              "tipo": "coche-antiguo",
+              "x": 1.05
+            },
+            {
+              "tipo": "📰",
+              "x": -0.6,
+              "escala": 0.35
+            },
+            {
+              "tipo": "casa",
+              "x": 1.5
+            },
+            {
+              "tipo": "pino",
+              "x": -1.9
+            },
+            {
+              "tipo": "⛽",
+              "x": -1.3,
+              "escala": 0.6
+            }
           ]
         },
         "personajes": [
-          { "quien": "periodista", "x": -0.35, "accion": "hablar", "mirar": 1, "habla": false },
-          { "quien": "lester", "x": 0.45, "accion": "quieto", "emocion": "enfado", "mirar": -1, "habla": false }
+          {
+            "quien": "periodista",
+            "x": -0.35,
+            "accion": "hablar",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "lester",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "enfado",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "paneo"
       },
@@ -918,7 +1641,13 @@
         "texto": "La revista Laif le dedica siete páginas. Taim, tres. Hay curiosos que se paran junto a mi granja a mirar por las ventanas.",
         "drama": 0.6,
         "personajes": [
-          { "quien": "periodista", "x": -0.3, "accion": "senalar", "mirar": 1, "habla": false }
+          {
+            "quien": "periodista",
+            "x": -0.3,
+            "accion": "senalar",
+            "mirar": 1,
+            "habla": false
+          }
         ],
         "insercion": {
           "tipo": "dato",
@@ -932,7 +1661,14 @@
         "texto": "Un mes atrás, yo era el bueno de Ed. Hoy, Pléinfild carga con mi nombre, y sus vecinos ya no quieren hablar con nadie. Pero la historia sigue.",
         "drama": 0.7,
         "personajes": [
-          { "quien": "irene", "x": 0.3, "accion": "triste", "emocion": "triste", "mirar": -1, "habla": false }
+          {
+            "quien": "irene",
+            "x": 0.3,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "lenta"
       },
@@ -946,12 +1682,24 @@
           "hora": "dia",
           "ventana": true,
           "props": [
-            { "tipo": "cama", "x": 1.0 },
-            { "tipo": "mesa", "x": -1.0 }
+            {
+              "tipo": "cama",
+              "x": 1.0
+            },
+            {
+              "tipo": "mesa",
+              "x": -1.0
+            }
           ]
         },
         "personajes": [
-          { "quien": "ed", "x": 0.25, "accion": "sentado", "emocion": "cansado", "mirar": -1 }
+          {
+            "quien": "ed",
+            "x": 0.25,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1
+          }
         ],
         "camara": "lenta"
       },
@@ -963,10 +1711,23 @@
           "hora": "noche",
           "clima": "nieve",
           "props": [
-            { "tipo": "granja", "x": 0.6 },
-            { "tipo": "hoguera", "x": 0.6, "escala": 1.6 },
-            { "tipo": "pino", "x": -1.3 },
-            { "tipo": "arbol", "x": -0.6 }
+            {
+              "tipo": "granja",
+              "x": 0.6
+            },
+            {
+              "tipo": "hoguera",
+              "x": 0.6,
+              "escala": 1.6
+            },
+            {
+              "tipo": "pino",
+              "x": -1.3
+            },
+            {
+              "tipo": "arbol",
+              "x": -0.6
+            }
           ]
         },
         "personajes": [],
@@ -993,14 +1754,35 @@
           "hora": "dia",
           "ventana": true,
           "props": [
-            { "tipo": "bandera", "x": -1.3 },
-            { "tipo": "mesa", "x": 0 },
-            { "tipo": "reloj", "x": 1.35 }
+            {
+              "tipo": "bandera",
+              "x": -1.3
+            },
+            {
+              "tipo": "mesa",
+              "x": 0
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.35
+            }
           ]
         },
         "personajes": [
-          { "quien": "ed", "x": 0.4, "accion": "quieto", "emocion": "cansado", "mirar": -1 },
-          { "quien": "gollmar", "x": -0.45, "accion": "sentado", "mirar": 1, "habla": false }
+          {
+            "quien": "ed",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": -1
+          },
+          {
+            "quien": "gollmar",
+            "x": -0.45,
+            "accion": "sentado",
+            "mirar": 1,
+            "habla": false
+          }
         ],
         "camara": "general"
       },
@@ -1008,8 +1790,20 @@
         "texto": "Me declaran culpable de la muerte de Berníss Uórden. Y, en una segunda vista, no responsable por enfermedad mental. Vuelvo al hospital.",
         "drama": 0.65,
         "personajes": [
-          { "quien": "ed", "x": 0.4, "accion": "quieto", "emocion": "neutral", "mirar": -1 },
-          { "quien": "gollmar", "x": -0.45, "accion": "hablar", "mirar": 1, "habla": false }
+          {
+            "quien": "ed",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "gollmar",
+            "x": -0.45,
+            "accion": "hablar",
+            "mirar": 1,
+            "habla": false
+          }
         ],
         "camara": "cerca"
       },
@@ -1022,12 +1816,24 @@
           "hora": "noche",
           "ventana": true,
           "props": [
-            { "tipo": "cama", "x": 1.0 },
-            { "tipo": "mesa", "x": -1.0 }
+            {
+              "tipo": "cama",
+              "x": 1.0
+            },
+            {
+              "tipo": "mesa",
+              "x": -1.0
+            }
           ]
         },
         "personajes": [
-          { "quien": "ed", "x": 0.2, "accion": "sentado", "emocion": "cansado", "mirar": 1 }
+          {
+            "quien": "ed",
+            "x": 0.2,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": 1
+          }
         ],
         "camara": "lenta"
       },
@@ -1039,10 +1845,22 @@
           "hora": "atardecer",
           "clima": "nieve",
           "props": [
-            { "tipo": "tumba", "x": 0.4 },
-            { "tipo": "tumba", "x": 0.95 },
-            { "tipo": "pino", "x": -1.25 },
-            { "tipo": "valla", "x": 1.4 }
+            {
+              "tipo": "tumba",
+              "x": 0.4
+            },
+            {
+              "tipo": "tumba",
+              "x": 0.95
+            },
+            {
+              "tipo": "pino",
+              "x": -1.25
+            },
+            {
+              "tipo": "valla",
+              "x": 1.4
+            }
           ]
         },
         "personajes": [],
@@ -1058,10 +1876,22 @@
           "tipo": "objetos",
           "titulo": "Mito frente a realidad",
           "items": [
-            { "icono": "🛢️", "nombre": "Motosierra: cine de 1974" },
-            { "icono": "📚", "nombre": "Caníbal: sin pruebas" },
-            { "icono": "📰", "nombre": "Víctimas: 2 confesadas, 1 condena" },
-            { "icono": "🏮", "nombre": "Motel: es Psicosis (1960)" }
+            {
+              "icono": "🛢️",
+              "nombre": "Motosierra: cine de 1974"
+            },
+            {
+              "icono": "📚",
+              "nombre": "Caníbal: sin pruebas"
+            },
+            {
+              "icono": "📰",
+              "nombre": "Víctimas: 2 confesadas, 1 condena"
+            },
+            {
+              "icono": "🏮",
+              "nombre": "Motel: es Psicosis (1960)"
+            }
           ]
         }
       },
@@ -1069,17 +1899,45 @@
         "texto": "Psicosis, de Róbert Bloc, y El silencio de los corderos tomaron rasgos míos. Pero inventaron casi todo lo demás.",
         "drama": 0.6,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "campo",
           "hora": "noche",
           "clima": "despejado",
           "props": [
-            { "tipo": "farola", "x": -1.2 },
-            { "tipo": "poste", "x": 0.6 },
-            { "tipo": "casa", "x": 1.2 }
+            {
+              "tipo": "farola",
+              "x": -1.2
+            },
+            {
+              "tipo": "poste",
+              "x": 0.6
+            },
+            {
+              "tipo": "casa",
+              "x": 1.2
+            },
+            {
+              "tipo": "casa",
+              "x": 1.5
+            },
+            {
+              "tipo": "pino",
+              "x": -1.9
+            },
+            {
+              "tipo": "⛽",
+              "x": -1.3,
+              "escala": 0.6
+            }
           ]
         },
         "personajes": [
-          { "quien": "ed", "x": -0.3, "accion": "pensar", "emocion": "neutral", "mirar": 1 }
+          {
+            "quien": "ed",
+            "x": -0.3,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": 1
+          }
         ],
         "camara": "cerca"
       },
@@ -1087,7 +1945,13 @@
         "texto": "La serie de Nétflix de dos mil veinticinco también inventa: nunca ayudé a atrapar a Ted Bándi, y nadie probó que matara a mi hermano.",
         "drama": 0.6,
         "personajes": [
-          { "quien": "ed", "x": -0.3, "accion": "hablar", "emocion": "neutral", "mirar": 1 }
+          {
+            "quien": "ed",
+            "x": -0.3,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1
+          }
         ],
         "camara": "general"
       },
@@ -1099,15 +1963,41 @@
           "hora": "amanecer",
           "clima": "niebla",
           "props": [
-            { "tipo": "pino", "x": -1.3 },
-            { "tipo": "pino", "x": 1.3 },
-            { "tipo": "arbol", "x": 0.85 },
-            { "tipo": "valla", "x": -0.75 }
+            {
+              "tipo": "pino",
+              "x": -1.3
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "arbol",
+              "x": 0.85
+            },
+            {
+              "tipo": "valla",
+              "x": -0.75
+            }
           ]
         },
         "personajes": [
-          { "quien": "bernice", "x": -0.35, "accion": "quieto", "emocion": "neutral", "mirar": 1, "habla": false },
-          { "quien": "mary", "x": 0.35, "accion": "quieto", "emocion": "neutral", "mirar": -1, "habla": false }
+          {
+            "quien": "bernice",
+            "x": -0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "mary",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
         ],
         "camara": "lenta"
       },
@@ -1205,5 +2095,31 @@
         "descripcion": "Lo que el cine y Netflix inventaron sobre Ed Gein, y lo que dicen los archivos. #shorts #truecrime #EdGein"
       }
     ]
+  },
+  "grafias": {
+    "Berníss": "Bernice",
+    "Uórden": "Worden",
+    "Bándi": "Bundy",
+    "Grouv": "Grove",
+    "Guín": "Gein",
+    "Jenri": "Henry",
+    "Jil": "Hill",
+    "Jógan": "Hogan",
+    "Laif": "Life",
+    "Mendóta": "Mendota",
+    "Mádison": "Madison",
+    "Méri": "Mary",
+    "Nétflix": "Netflix",
+    "Pain": "Pine",
+    "Pléinfild": "Plainfield",
+    "Róbert": "Robert",
+    "Shlai": "Schley",
+    "Siátel": "Seattle",
+    "Taim": "Time",
+    "Uest": "West",
+    "Uiscónsin": "Wisconsin",
+    "Uopán": "Waupun",
+    "Uotóma": "Wautoma",
+    "Tejas": "Texas"
   }
 }

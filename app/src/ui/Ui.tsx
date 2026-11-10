@@ -48,7 +48,14 @@ export const Calendario: React.FC<{ dia: number; paleta: Paleta; cambio: boolean
 };
 
 // Subtítulos karaoke. Tiempos estimados por longitud de palabra.
-export const Subtitulos: React.FC<{ texto: string; duracionAudio: number; paleta: Paleta; tiempos?: number[] }> = ({ texto, duracionAudio, paleta, tiempos: reales }) => {
+// Cambia la grafía fonética (como lo dice la voz) por la real en lo que se lee: «Guín» → «Gein»
+export const grafiaReal = (palabra: string, grafias?: Record<string, string>) => {
+  if (!grafias) return palabra;
+  const m = palabra.match(/^([¿¡«"(]*)([\p{L}]+)(.*)$/u);
+  return m && grafias[m[2]] ? m[1] + grafias[m[2]] + m[3] : palabra;
+};
+
+export const Subtitulos: React.FC<{ texto: string; duracionAudio: number; paleta: Paleta; tiempos?: number[]; grafias?: Record<string, string> }> = ({ texto, duracionAudio, paleta, tiempos: reales, grafias }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const { u, vertical } = useU();
@@ -81,7 +88,7 @@ export const Subtitulos: React.FC<{ texto: string; duracionAudio: number; paleta
       <div style={{ textAlign: "center", fontFamily: sans, fontWeight: 900, fontSize: (vertical ? 70 : 50) * u, lineHeight: 1.18, textTransform: vertical ? "uppercase" : "none", scale: pop, background: "rgba(8,10,16,0.42)", borderRadius: 22 * u, padding: `${10 * u}px ${18 * u}px ${10 * u}px ${34 * u}px`, boxShadow: "0 8px 30px rgba(0,0,0,0.25)" }}>
         {grupo.map((i) => (
           <span key={i} style={{ color: i === actual ? paleta.acento : "#fff", WebkitTextStroke: `${(vertical ? 3 : 2.4) * u}px rgba(0,0,0,0.85)`, paintOrder: "stroke fill", textShadow: "0 6px 18px rgba(0,0,0,0.6)", marginRight: 16 * u, display: "inline-block" }}>
-            {palabras[i]}
+            {grafiaReal(palabras[i], grafias)}
           </span>
         ))}
       </div>

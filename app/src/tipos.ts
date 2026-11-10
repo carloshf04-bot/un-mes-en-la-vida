@@ -35,6 +35,7 @@ export type Guion = {
   velocidad?: number;
   musica?: "calma" | "tension" | "epico" | "futuro" | "nostalgia" | "misterio";
   paleta: Paleta;
+  grafias?: Record<string, string>; // palabra como la dice la voz → como se escribe en los subtítulos
   reparto: Record<string, Look>;
   largo: Pieza;
   short?: Pieza;

@@ -105,6 +105,8 @@ const acento = hex(man.paleta?.acento ?? "#f2b544");
 const tiempoASS = (t) => { const h = Math.floor(t / 3600), m = Math.floor((t % 3600) / 60), s = t % 60; return `${h}:${String(m).padStart(2, "0")}:${s.toFixed(2).padStart(5, "0")}`; };
 const tituloCorto = (guion.publicacion?.tituloCorto ?? `Un mes en la vida de ${guion.titulo}`).toUpperCase();
 const escapar = (t) => t.replace(/[{}\\]/g, "");
+const grafias = guion.grafias ?? {};
+const real = (w) => { const m = w.match(/^([¿¡«"(]*)([\p{L}]+)(.*)$/u); return m && grafias[m[2]] ? m[1] + grafias[m[2]] + m[3] : w; };
 const fuentes = join(APP, "public", "fuentes", "ttf");
 
 const assDe = (n, [a, b]) => {
@@ -124,6 +126,7 @@ const assDe = (n, [a, b]) => {
   if (n < total) L.push(`Dialogue: 2,${tiempoASS(Math.max(0, d - 2.6))},${tiempoASS(d)},Sigue,,0,0,0,,{\\fad(200,0)\\pos(540,1180)}SIGUE EN LA PARTE ${n + 1} »`);
   for (let i = a; i < b; i++) {
     const palabras = esc[i].texto.split(/\s+/).filter(Boolean);
+    const leidas = palabras.map(real);
     const audioIni = ini[i] - t0;
     const tiempos = aud[i].tiempos && aud[i].tiempos.length === palabras.length ? aud[i].tiempos : (() => {
       const pesos = palabras.map((p) => p.replace(/[^\p{L}\p{N}]/gu, "").length + 2 + (/[.,;:!?…]$/.test(p) ? 5 : 0));
@@ -142,7 +145,7 @@ const assDe = (n, [a, b]) => {
         const desde = tiempos[k];
         const hasta = ki + 1 < gr.length ? tiempos[gr[ki + 1]] : fin;
         if (hasta - desde < 0.02) return;
-        const texto = gr.map((q) => (q === k ? `{\\c${acento}}${escapar(palabras[q].toUpperCase())}{\\c&H00FFFFFF&}` : escapar(palabras[q].toUpperCase()))).join(" ");
+        const texto = gr.map((q) => (q === k ? `{\\c${acento}}${escapar(leidas[q].toUpperCase())}{\\c&H00FFFFFF&}` : escapar(leidas[q].toUpperCase()))).join(" ");
         L.push(`Dialogue: 0,${tiempoASS(audioIni + desde)},${tiempoASS(audioIni + hasta)},Sub,,0,0,0,,${texto}`);
       });
     });
