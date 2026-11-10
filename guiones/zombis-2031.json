@@ -200,6 +200,57 @@
       "gafas": false,
       "altura": 0.95,
       "zapatos": "#2a2622"
+    },
+    "gris4": {
+      "zombi": true,
+      "piel": "#8c9884",
+      "pelo": "#4a3f33",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "harapos",
+        "color": "#4f5a4a",
+        "color2": "#3a3a36",
+        "detalle": "#2e2e2a"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#2a2a26"
+    },
+    "gris5": {
+      "zombi": true,
+      "piel": "#919c88",
+      "pelo": "#2a2420",
+      "peinado": "coleta",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "harapos",
+        "color": "#7a6a5a",
+        "color2": "#45403a",
+        "detalle": "#33302c"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 0.95,
+      "zapatos": "#2e2a26"
+    },
+    "gris6": {
+      "zombi": true,
+      "piel": "#879280",
+      "pelo": "#5a5a5a",
+      "peinado": "calvo",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "harapos",
+        "color": "#5a5e6a",
+        "color2": "#3c3e44",
+        "detalle": "#2a2c30"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 1.05,
+      "zapatos": "#24242a"
     }
   },
   "largo": {
@@ -327,6 +378,12 @@
             {
               "tipo": "semaforo",
               "x": -0.4
+            },
+            {
+              "tipo": "pilar",
+              "x": 1.3,
+              "escala": 1.5,
+              "detras": true
             }
           ]
         },
@@ -402,16 +459,30 @@
           "ventana": false,
           "props": [
             {
-              "tipo": "estanteria",
-              "x": -1.1
+              "tipo": "cajas",
+              "x": -1.25
             },
             {
-              "tipo": "estanteria",
-              "x": 1.1
+              "tipo": "barril",
+              "x": -0.8
             },
             {
               "tipo": "cajas",
-              "x": 0.5
+              "x": 0.9
+            },
+            {
+              "tipo": "barril",
+              "x": 1.35
+            },
+            {
+              "tipo": "🥫",
+              "x": 0.9,
+              "escala": 0.3
+            },
+            {
+              "tipo": "🥫",
+              "x": -1.25,
+              "escala": 0.3
             }
           ]
         },
@@ -607,6 +678,12 @@
               "tipo": "🔥",
               "x": 0.05,
               "escala": 0.3
+            },
+            {
+              "tipo": "pilar",
+              "x": 1.25,
+              "escala": 1.5,
+              "detras": true
             }
           ]
         },
@@ -773,6 +850,12 @@
             {
               "tipo": "semaforo",
               "x": 0.4
+            },
+            {
+              "tipo": "pilar",
+              "x": -1.25,
+              "escala": 1.7,
+              "detras": true
             }
           ]
         },
@@ -806,6 +889,12 @@
             {
               "tipo": "coche-abandonado",
               "x": -1.0
+            },
+            {
+              "tipo": "pilar",
+              "x": -1.25,
+              "escala": 1.6,
+              "detras": true
             }
           ]
         },
@@ -863,16 +952,30 @@
           "ventana": false,
           "props": [
             {
-              "tipo": "estanteria",
-              "x": -1.1
+              "tipo": "cajas",
+              "x": -1.25
             },
             {
-              "tipo": "estanteria",
-              "x": 1.1
+              "tipo": "barril",
+              "x": -0.8
             },
             {
               "tipo": "cajas",
-              "x": -0.4
+              "x": 0.9
+            },
+            {
+              "tipo": "barril",
+              "x": 1.35
+            },
+            {
+              "tipo": "🥫",
+              "x": 0.9,
+              "escala": 0.3
+            },
+            {
+              "tipo": "🥫",
+              "x": -1.25,
+              "escala": 0.3
             }
           ]
         },
@@ -933,7 +1036,7 @@
             "emocion": "neutral",
             "mirar": -1,
             "habla": false,
-            "objeto": "💧"
+            "objeto": "🪣"
           }
         ],
         "camara": "lenta"
@@ -982,7 +1085,7 @@
             "emocion": "enfado",
             "mirar": 1,
             "habla": false,
-            "objeto": "💧"
+            "objeto": "🪣"
           },
           {
             "quien": "asun",
@@ -1245,6 +1348,12 @@
               "tipo": "bloque",
               "x": 0.5,
               "detras": true
+            },
+            {
+              "tipo": "pilar",
+              "x": -1.25,
+              "escala": 1.5,
+              "detras": true
             }
           ]
         },
@@ -1329,6 +1438,12 @@
               "tipo": "bloque",
               "x": 0.5,
               "detras": true
+            },
+            {
+              "tipo": "pilar",
+              "x": 1.25,
+              "escala": 1.5,
+              "detras": true
             }
           ]
         },
@@ -1377,6 +1492,12 @@
             {
               "tipo": "tienda",
               "x": 0.9
+            },
+            {
+              "tipo": "pilar",
+              "x": -1.25,
+              "escala": 1.5,
+              "detras": true
             }
           ]
         },
@@ -1477,6 +1598,12 @@
             {
               "tipo": "valla",
               "x": 1.1
+            },
+            {
+              "tipo": "pilar",
+              "x": 1.25,
+              "escala": 1.5,
+              "detras": true
             }
           ]
         },
@@ -1606,6 +1733,12 @@
               "tipo": "maquina",
               "x": -0.7,
               "escala": 0.8
+            },
+            {
+              "tipo": "pilar",
+              "x": 1.25,
+              "escala": 1.5,
+              "detras": true
             }
           ]
         },
@@ -1696,6 +1829,16 @@
             {
               "tipo": "bandera",
               "x": -0.8
+            },
+            {
+              "tipo": "bidon-fuego",
+              "x": -0.45
+            },
+            {
+              "tipo": "pilar",
+              "x": 1.25,
+              "escala": 1.5,
+              "detras": true
             }
           ]
         },
@@ -1726,14 +1869,39 @@
             "mirar": -1,
             "habla": false,
             "entra": "der"
+          },
+          {
+            "quien": "gris4",
+            "x": 1.05,
+            "accion": "tambalear",
+            "emocion": "enfado",
+            "mirar": -1,
+            "habla": false,
+            "entra": "der",
+            "escala": 0.85
+          },
+          {
+            "quien": "gris5",
+            "x": 0.05,
+            "accion": "tambalear",
+            "emocion": "enfado",
+            "mirar": -1,
+            "habla": false,
+            "entra": "der",
+            "escala": 0.75
+          },
+          {
+            "quien": "gris6",
+            "x": 0.55,
+            "accion": "tambalear",
+            "emocion": "enfado",
+            "mirar": -1,
+            "habla": false,
+            "entra": "der",
+            "escala": 0.75
           }
         ],
-        "camara": "subir",
-        "insercion": {
-          "tipo": "cita",
-          "frase": "Han entrado por la grava. Repito: han entrado.",
-          "firma": "Radio militar, noche del día 20 (ficción)"
-        }
+        "camara": "subir"
       },
       {
         "dia": 20,
@@ -1876,6 +2044,12 @@
             {
               "tipo": "bandera",
               "x": 1.1
+            },
+            {
+              "tipo": "pilar",
+              "x": 1.25,
+              "escala": 1.6,
+              "detras": true
             }
           ]
         },
@@ -2023,6 +2197,12 @@
             {
               "tipo": "barricada",
               "x": 1.2
+            },
+            {
+              "tipo": "pilar",
+              "x": -1.25,
+              "escala": 1.6,
+              "detras": true
             }
           ]
         },
@@ -2360,7 +2540,7 @@
           {
             "quien": "gris2",
             "x": 0.55,
-            "accion": "caminar",
+            "accion": "tambalear",
             "emocion": "neutral",
             "mirar": 1,
             "habla": false,
@@ -2383,9 +2563,8 @@
               "x": -1.1
             },
             {
-              "tipo": "💧",
-              "x": 0.5,
-              "escala": 0.4
+              "tipo": "charco",
+              "x": 0.45
             },
             {
               "tipo": "coche-abandonado",
@@ -2396,8 +2575,8 @@
         "personajes": [
           {
             "quien": "gris2",
-            "x": 0.15,
-            "accion": "trabajar",
+            "x": 0.05,
+            "accion": "quieto",
             "emocion": "neutral",
             "mirar": 1,
             "habla": false

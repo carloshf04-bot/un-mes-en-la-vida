@@ -145,6 +145,64 @@
       "sombrero": "ninguno",
       "zapatos": "#c9a46e",
       "voz": "narradora-es"
+    },
+    "vecino": {
+      "piel": "#9a6440",
+      "pelo": "#15100c",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "tilma",
+        "color": "#e2d6b8",
+        "color2": "#f1ead8",
+        "detalle": "#6b4a2a"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#c9a46e"
+    },
+    "vecina": {
+      "piel": "#a46b44",
+      "pelo": "#120e0b",
+      "peinado": "trenzas",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#efe7d4",
+        "color2": "#7a5a3a",
+        "detalle": "#2e7d6b"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#c9a46e",
+      "voz": "narradora-es"
+    },
+    "mercader": {
+      "piel": "#8e5a38",
+      "pelo": "#1a1410",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "tilma",
+        "color": "#c9883a",
+        "color2": "#ece4d0",
+        "detalle": "#5a3a22"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#c9a46e"
+    },
+    "senor": {
+      "piel": "#9c6642",
+      "pelo": "#120e0b",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "tilma",
+        "color": "#a8322a",
+        "color2": "#f5efe0",
+        "detalle": "#d4a62a"
+      },
+      "sombrero": "penacho",
+      "colorSombrero": "#c23b22",
+      "zapatos": "#d4a62a"
     }
   },
   "largo": {
@@ -159,9 +217,9 @@
           "clima": "despejado",
           "props": [
             {
-              "tipo": "templo-mayor",
-              "x": -1.2,
-              "escala": 1.6
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.7
             },
             {
               "tipo": "volcan",
@@ -209,6 +267,11 @@
           "hora": "dia",
           "clima": "despejado",
           "props": [
+            {
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.5
+            },
             {
               "tipo": "calzada"
             },
@@ -266,6 +329,11 @@
           "hora": "amanecer",
           "clima": "niebla",
           "props": [
+            {
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.5
+            },
             {
               "tipo": "chinampa",
               "x": -0.6
@@ -333,10 +401,15 @@
         "texto": "Del lago sale casi todo: pescado blanco, ranas, patos y ajolotes, riquísimos en tamales. Y huevos de mosca de agua, que se comen en tortitas.",
         "drama": 0.5,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "rio",
           "hora": "dia",
           "clima": "despejado",
           "props": [
+            {
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.5
+            },
             {
               "tipo": "chinampa",
               "x": 0.9
@@ -372,6 +445,11 @@
           "hora": "dia",
           "clima": "despejado",
           "props": [
+            {
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.5
+            },
             {
               "tipo": "calzada"
             },
@@ -462,25 +540,21 @@
           "clima": "despejado",
           "props": [
             {
-              "tipo": "casa-adobe",
-              "x": -1.1
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.6
             },
             {
-              "tipo": "templo-mayor",
-              "x": 1.2,
-              "escala": 1.5
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": -1.5
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": 1.6
+              "tipo": "chinampa",
+              "x": -1.0
             },
             {
               "tipo": "ahuejote",
-              "x": -1.95
+              "x": -1.6
+            },
+            {
+              "tipo": "ahuejote",
+              "x": 1.6
             }
           ]
         },
@@ -546,13 +620,7 @@
             "emocion": "triste",
             "mirar": -1
           }
-        ],
-        "insercion": {
-          "tipo": "dato",
-          "valor": "11 años",
-          "etiqueta": "edad del castigo del humo de chile (Códice Mendoza)",
-          "icono": "🌶️"
-        }
+        ]
       },
       {
         "corte": true,
@@ -560,35 +628,23 @@
         "texto": "Al sureste, el Popocatépetl echa humo. Y llega un aviso: los extranjeros han subido entre los dos volcanes, con más de mil guerreros de Tlascala, nuestros enemigos.",
         "drama": 0.7,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "rio",
           "hora": "dia",
           "clima": "despejado",
           "props": [
-            {
-              "tipo": "casa-adobe",
-              "x": -1.0
-            },
             {
               "tipo": "volcan",
               "x": 1.3,
               "escala": 2.2
             },
             {
-              "tipo": "templo-mayor",
-              "x": 1.15,
-              "escala": 1.8
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": -1.5
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": 1.6
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.5
             },
             {
               "tipo": "ahuejote",
-              "x": -1.95
+              "x": -1.6
             }
           ]
         },
@@ -620,7 +676,7 @@
             {
               "tipo": "🐎",
               "x": 1.0,
-              "escala": 0.5
+              "escala": 1.6
             }
           ]
         },
@@ -653,6 +709,11 @@
           "hora": "atardecer",
           "clima": "despejado",
           "props": [
+            {
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.5
+            },
             {
               "tipo": "calzada"
             },
@@ -694,6 +755,11 @@
           "clima": "despejado",
           "props": [
             {
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.5
+            },
+            {
               "tipo": "antorcha",
               "x": -1.1
             },
@@ -703,21 +769,8 @@
               "escala": 0.6
             },
             {
-              "tipo": "templo-mayor",
-              "x": 1.15,
-              "escala": 1.8
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": -1.5
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": 1.6
-            },
-            {
               "tipo": "ahuejote",
-              "x": -1.95
+              "x": -1.6
             }
           ]
         },
@@ -750,6 +803,16 @@
           "clima": "despejado",
           "props": [
             {
+              "tipo": "volcan",
+              "x": 1.3,
+              "escala": 1.8
+            },
+            {
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.6
+            },
+            {
               "tipo": "calzada"
             },
             {
@@ -759,11 +822,6 @@
             {
               "tipo": "canoa",
               "x": 0.9
-            },
-            {
-              "tipo": "volcan",
-              "x": 1.3,
-              "escala": 1.8
             }
           ]
         },
@@ -782,6 +840,22 @@
             "emocion": "miedo",
             "mirar": 1,
             "habla": false
+          },
+          {
+            "quien": "vecina",
+            "x": -0.95,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "vecino",
+            "x": 0.95,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
           }
         ],
         "camara": "general"
@@ -796,30 +870,17 @@
           "clima": "polvo",
           "props": [
             {
-              "tipo": "casa-adobe",
-              "x": -1.15
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.6
+            },
+            {
+              "tipo": "calzada"
             },
             {
               "tipo": "🐎",
-              "x": 0.95,
-              "escala": 0.7
-            },
-            {
-              "tipo": "templo-mayor",
-              "x": 1.15,
-              "escala": 1.8
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": -1.5
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": 1.6
-            },
-            {
-              "tipo": "ahuejote",
-              "x": -1.95
+              "x": 1.0,
+              "escala": 1.7
             }
           ]
         },
@@ -849,34 +910,21 @@
         "texto": "Y llega Moctezuma, en andas, bajo un palio de plumas verdes. Los señores barren el suelo y tienden mantas para que no pise la tierra.",
         "drama": 0.75,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "rio",
           "hora": "dia",
           "clima": "despejado",
           "props": [
             {
-              "tipo": "casa-adobe",
-              "x": -1.1
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.6
             },
             {
-              "tipo": "templo-mayor",
-              "x": 1.2,
-              "escala": 1.8
+              "tipo": "calzada"
             },
             {
               "tipo": "petate",
               "x": 0.3
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": -1.5
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": 1.6
-            },
-            {
-              "tipo": "ahuejote",
-              "x": -1.95
             }
           ]
         },
@@ -889,8 +937,16 @@
             "mirar": 1
           },
           {
+            "quien": "senor",
+            "x": -0.05,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
             "quien": "moctezuma",
-            "x": 0.35,
+            "x": 0.55,
             "accion": "quieto",
             "emocion": "neutral",
             "mirar": -1,
@@ -905,27 +961,36 @@
         "drama": 0.7,
         "personajes": [
           {
-            "quien": "tochtli",
-            "x": -0.75,
-            "accion": "quieto",
-            "emocion": "sorpresa",
-            "mirar": 1
-          },
-          {
             "quien": "cortes",
-            "x": -0.05,
+            "x": -0.3,
             "accion": "saludar",
             "emocion": "feliz",
             "mirar": 1,
             "habla": false
           },
           {
+            "quien": "senor",
+            "x": 0.1,
+            "accion": "senalar",
+            "emocion": "enfado",
+            "mirar": -1,
+            "habla": false
+          },
+          {
             "quien": "moctezuma",
-            "x": 0.7,
+            "x": 0.55,
             "accion": "quieto",
             "emocion": "neutral",
             "mirar": -1,
             "habla": false
+          },
+          {
+            "quien": "tochtli",
+            "x": -0.95,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": true
           }
         ],
         "camara": "cerca"
@@ -936,30 +1001,21 @@
         "texto": "Cortés le pone un collar de cuentas de vidrio. Moctezuma le devuelve collares de caracoles rojos con camarones de oro. Un soldado escribirá que creyó vivir un libro de encantamientos.",
         "drama": 0.65,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "rio",
           "hora": "atardecer",
           "clima": "despejado",
           "props": [
             {
-              "tipo": "casa-adobe",
-              "x": -1.1
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.6
             },
             {
-              "tipo": "templo-mayor",
-              "x": 1.2,
-              "escala": 1.8
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": -1.5
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": 1.6
+              "tipo": "calzada"
             },
             {
               "tipo": "ahuejote",
-              "x": -1.95
+              "x": 1.6
             }
           ]
         },
@@ -993,8 +1049,8 @@
           "clima": "despejado",
           "props": [
             {
-              "tipo": "templo-mayor",
-              "x": -1.2,
+              "tipo": "ciudad-lago",
+              "x": 0,
               "escala": 1.6
             },
             {
@@ -1025,34 +1081,22 @@
         "texto": "Los llamamos tetéo, una palabra para lo poderoso o lo extraño. Pero vemos que comen, sudan y se pelean por el oro. Nadie se arrodilla.",
         "drama": 0.6,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "rio",
           "hora": "atardecer",
           "clima": "despejado",
           "props": [
             {
-              "tipo": "casa-adobe",
-              "x": -1.1
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.6
             },
             {
               "tipo": "antorcha",
               "x": 1.1
             },
             {
-              "tipo": "templo-mayor",
-              "x": 1.15,
-              "escala": 1.8
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": -1.5
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": 1.6
-            },
-            {
               "tipo": "ahuejote",
-              "x": -1.95
+              "x": -1.6
             }
           ]
         },
@@ -1085,9 +1129,9 @@
           "clima": "polvo",
           "props": [
             {
-              "tipo": "templo-mayor",
-              "x": -1.2,
-              "escala": 1.7
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.6
             },
             {
               "tipo": "antorcha",
@@ -1097,18 +1141,6 @@
               "tipo": "💥",
               "x": 0.7,
               "escala": 0.6
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": -1.5
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": 1.6
-            },
-            {
-              "tipo": "ahuejote",
-              "x": -1.95
             }
           ]
         },
@@ -1135,16 +1167,16 @@
           "ventana": true,
           "props": [
             {
-              "tipo": "columna",
-              "x": -1.25
-            },
-            {
-              "tipo": "brasero",
-              "x": 1.2
+              "tipo": "antorcha",
+              "x": -1.2
             },
             {
               "tipo": "petate",
               "x": 0.6
+            },
+            {
+              "tipo": "brasero",
+              "x": 1.25
             }
           ]
         },
@@ -1184,29 +1216,25 @@
           "clima": "despejado",
           "props": [
             {
-              "tipo": "puesto",
-              "x": -1.0
-            },
-            {
-              "tipo": "puesto",
-              "x": 1.0
-            },
-            {
-              "tipo": "templo-mayor",
-              "x": 1.2,
+              "tipo": "ciudad-lago",
+              "x": 0,
               "escala": 1.5
             },
             {
-              "tipo": "casa-adobe",
-              "x": -1.5
+              "tipo": "puesto",
+              "x": -1.3
             },
             {
-              "tipo": "casa-adobe",
-              "x": 1.6
+              "tipo": "puesto",
+              "x": -0.55
             },
             {
-              "tipo": "ahuejote",
-              "x": -1.95
+              "tipo": "puesto",
+              "x": 0.55
+            },
+            {
+              "tipo": "puesto",
+              "x": 1.3
             }
           ]
         },
@@ -1218,28 +1246,56 @@
             "emocion": "feliz",
             "mirar": 1,
             "entra": "izq"
+          },
+          {
+            "quien": "mercader",
+            "x": -0.75,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "vecina",
+            "x": 0.45,
+            "accion": "cargar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "🌽"
+          },
+          {
+            "quien": "vecino",
+            "x": 0.95,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
           }
         ],
-        "camara": "paneo",
-        "insercion": {
-          "tipo": "dato",
-          "valor": "60.000",
-          "etiqueta": "personas al día en el mercado de Tlatelolco, según Cortés",
-          "icono": "🌽"
-        }
+        "camara": "paneo"
       },
       {
         "dia": 12,
         "texto": "Cada cosa tiene su calle: plumas, sal, obsidiana, perritos para comer y esclavos atados por el cuello. Soldados que han visto Roma se quedan boquiabiertos.",
         "drama": 0.55,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "rio",
           "hora": "dia",
           "clima": "despejado",
           "props": [
             {
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.5
+            },
+            {
               "tipo": "puesto",
-              "x": -1.0
+              "x": -1.2
+            },
+            {
+              "tipo": "puesto",
+              "x": 1.2
             },
             {
               "tipo": "🪶",
@@ -1248,25 +1304,8 @@
             },
             {
               "tipo": "🌶️",
-              "x": 0.7,
+              "x": -1.1,
               "escala": 0.35
-            },
-            {
-              "tipo": "templo-mayor",
-              "x": 1.15,
-              "escala": 1.8
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": -1.5
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": 1.6
-            },
-            {
-              "tipo": "ahuejote",
-              "x": -1.95
             }
           ]
         },
@@ -1285,6 +1324,23 @@
             "emocion": "sorpresa",
             "mirar": -1,
             "habla": false
+          },
+          {
+            "quien": "mercader",
+            "x": 0.95,
+            "accion": "trabajar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "vecina",
+            "x": -0.95,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "🧺"
           }
         ]
       },
@@ -1297,6 +1353,11 @@
           "hora": "dia",
           "clima": "despejado",
           "props": [
+            {
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.5
+            },
             {
               "tipo": "canoa",
               "x": -0.8
@@ -1336,30 +1397,23 @@
         "texto": "Ese mismo día, los extranjeros suben al Templo Mayor. Ciento catorce escalones, dirá uno de ellos. Arriba, dos santuarios: el rojo de Uitsilopóchtli y el azul de Tláloc.",
         "drama": 0.65,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "rio",
           "hora": "dia",
           "clima": "despejado",
           "props": [
             {
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.5
+            },
+            {
               "tipo": "templo-mayor",
-              "x": 1.2,
-              "escala": 2
+              "x": 0.9,
+              "escala": 2.3
             },
             {
               "tipo": "brasero",
               "x": -1.1
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": -1.5
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": 1.6
-            },
-            {
-              "tipo": "ahuejote",
-              "x": -1.95
             }
           ]
         },
@@ -1384,29 +1438,17 @@
           "clima": "despejado",
           "props": [
             {
-              "tipo": "templo-mayor",
-              "x": -1.2,
-              "escala": 1.8
-            },
-            {
-              "tipo": "calzada"
-            },
-            {
               "tipo": "volcan",
               "x": 1.3,
               "escala": 1.8
             },
             {
-              "tipo": "casa-adobe",
-              "x": -1.5
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.7
             },
             {
-              "tipo": "casa-adobe",
-              "x": 1.6
-            },
-            {
-              "tipo": "ahuejote",
-              "x": -1.95
+              "tipo": "calzada"
             }
           ]
         },
@@ -1542,16 +1584,16 @@
           "clima": "despejado",
           "props": [
             {
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.6
+            },
+            {
               "tipo": "calzada"
             },
             {
               "tipo": "canoa",
               "x": 0.85
-            },
-            {
-              "tipo": "templo-mayor",
-              "x": -1.2,
-              "escala": 1.5
             }
           ]
         },
@@ -1584,16 +1626,16 @@
           "ventana": true,
           "props": [
             {
-              "tipo": "columna",
-              "x": -1.25
-            },
-            {
-              "tipo": "columna",
-              "x": 1.25
+              "tipo": "antorcha",
+              "x": -1.2
             },
             {
               "tipo": "petate",
-              "x": 0.7
+              "x": 0.6
+            },
+            {
+              "tipo": "brasero",
+              "x": 1.25
             }
           ]
         },
@@ -1630,29 +1672,23 @@
         "drama": 0.85,
         "personajes": [
           {
-            "quien": "soldado",
-            "x": -0.55,
-            "accion": "quieto",
-            "emocion": "neutral",
-            "mirar": 1,
-            "habla": false
-          },
-          {
             "quien": "moctezuma",
             "x": 0.25,
             "accion": "triste",
             "emocion": "triste",
             "mirar": -1,
             "habla": false
+          },
+          {
+            "quien": "soldado",
+            "x": -0.55,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
           }
         ],
-        "camara": "cerca",
-        "insercion": {
-          "tipo": "dato",
-          "valor": "6 días",
-          "etiqueta": "del encuentro a la prisión de Moctezuma (14 de noviembre, aprox.)",
-          "icono": "⚔️"
-        }
+        "camara": "cerca"
       },
       {
         "dia": 14,
@@ -1663,6 +1699,11 @@
           "hora": "noche",
           "clima": "despejado",
           "props": [
+            {
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.5
+            },
             {
               "tipo": "canoa",
               "x": 0.1
@@ -1709,17 +1750,21 @@
           "ventana": true,
           "props": [
             {
-              "tipo": "columna",
-              "x": -1.25
+              "tipo": "antorcha",
+              "x": -1.2
             },
             {
               "tipo": "petate",
-              "x": 0.5
+              "x": 0.6
+            },
+            {
+              "tipo": "brasero",
+              "x": 1.25
             },
             {
               "tipo": "🌽",
-              "x": 1.15,
-              "escala": 0.4
+              "x": 0.95,
+              "escala": 0.35
             }
           ]
         },
@@ -1758,43 +1803,30 @@
             "habla": false
           }
         ],
-        "camara": "cerca",
-        "insercion": {
-          "tipo": "dato",
-          "valor": "1 grano",
-          "etiqueta": "de cacao = 1 aguacate (lista de precios de Tlaxcala, 1545)",
-          "icono": "🍫"
-        }
+        "camara": "cerca"
       },
       {
         "dia": 18,
         "texto": "Son los días de Kechóli. En el patio del templo fabricamos flechas y tiramos contra pencas de maguey. Yo pienso en otros blancos.",
         "drama": 0.6,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "rio",
           "hora": "dia",
           "clima": "polvo",
           "props": [
             {
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.5
+            },
+            {
               "tipo": "templo-mayor",
-              "x": 1.2,
-              "escala": 1.6
+              "x": 1.15,
+              "escala": 1.9
             },
             {
               "tipo": "brasero",
               "x": -1.1
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": -1.5
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": 1.6
-            },
-            {
-              "tipo": "ahuejote",
-              "x": -1.95
             }
           ]
         },
@@ -1875,25 +1907,18 @@
           "clima": "despejado",
           "props": [
             {
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.5
+            },
+            {
               "tipo": "templo-mayor",
-              "x": -1.2,
-              "escala": 1.8
+              "x": -1.15,
+              "escala": 1.9
             },
             {
               "tipo": "brasero",
               "x": 1.05
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": -1.5
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": 1.6
-            },
-            {
-              "tipo": "ahuejote",
-              "x": -1.95
             }
           ]
         },
@@ -1921,30 +1946,23 @@
         "texto": "Frente al Templo Mayor está el tsompántli, un altar con los cráneos de los sacrificados. Sí, aquí se sacrifica a prisioneros de guerra. No voy a esconderlo.",
         "drama": 0.65,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "rio",
           "hora": "atardecer",
           "clima": "despejado",
           "props": [
             {
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.5
+            },
+            {
               "tipo": "templo-mayor",
-              "x": 1.2,
-              "escala": 2
+              "x": 1.1,
+              "escala": 2.1
             },
             {
               "tipo": "antorcha",
               "x": -1.1
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": -1.5
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": 1.6
-            },
-            {
-              "tipo": "ahuejote",
-              "x": -1.95
             }
           ]
         },
@@ -1955,6 +1973,14 @@
             "accion": "pensar",
             "emocion": "triste",
             "mirar": 1
+          },
+          {
+            "quien": "sacerdote",
+            "x": 0.55,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
           }
         ],
         "camara": "lenta"
@@ -2024,29 +2050,17 @@
           "clima": "despejado",
           "props": [
             {
-              "tipo": "casa-adobe",
-              "x": -1.1
-            },
-            {
-              "tipo": "templo-mayor",
-              "x": 1.2,
-              "escala": 1.6
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.5
             },
             {
               "tipo": "metate",
               "x": -0.5
             },
             {
-              "tipo": "casa-adobe",
-              "x": -1.5
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": 1.6
-            },
-            {
-              "tipo": "ahuejote",
-              "x": -1.95
+              "tipo": "chinampa",
+              "x": 1.2
             }
           ]
         },
@@ -2074,30 +2088,19 @@
         "texto": "Llegan los presos de la costa: Cuaupopoca, su hijo y otros señores. Los traen ante Cortés. Yo estoy entre la gente, con la garganta seca.",
         "drama": 0.8,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "rio",
           "hora": "dia",
           "clima": "polvo",
           "props": [
             {
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.5
+            },
+            {
               "tipo": "templo-mayor",
-              "x": -1.2,
-              "escala": 1.8
-            },
-            {
-              "tipo": "columna",
-              "x": 1.15
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": -1.5
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": 1.6
-            },
-            {
-              "tipo": "ahuejote",
-              "x": -1.95
+              "x": -1.15,
+              "escala": 1.9
             }
           ]
         },
@@ -2110,9 +2113,33 @@
             "mirar": 1
           },
           {
+            "quien": "vecino",
+            "x": -0.95,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "senor",
+            "x": 0.05,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          },
+          {
             "quien": "cortes",
-            "x": 0.45,
+            "x": 0.55,
             "accion": "senalar",
+            "emocion": "enfado",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "soldado",
+            "x": 0.95,
+            "accion": "quieto",
             "emocion": "enfado",
             "mirar": -1,
             "habla": false
@@ -2149,14 +2176,19 @@
         "texto": "Los extranjeros queman vivos a Cuaupopoca y a los suyos con nuestras propias armas. No voy a contarte más. Solo que el humo sube muy recto, y que nadie en toda la explanada suelta una palabra.",
         "drama": 0.9,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "rio",
           "hora": "atardecer",
           "clima": "polvo",
           "props": [
             {
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.5
+            },
+            {
               "tipo": "templo-mayor",
-              "x": -1.2,
-              "escala": 1.8
+              "x": -1.15,
+              "escala": 1.9
             },
             {
               "tipo": "hoguera",
@@ -2165,18 +2197,6 @@
             {
               "tipo": "hoguera",
               "x": 1.2
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": -1.5
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": 1.6
-            },
-            {
-              "tipo": "ahuejote",
-              "x": -1.95
             }
           ]
         },
@@ -2206,7 +2226,7 @@
               "x": -1.15
             },
             {
-              "tipo": "columna",
+              "tipo": "brasero",
               "x": 1.2
             }
           ]
@@ -2229,13 +2249,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca",
-        "insercion": {
-          "tipo": "dato",
-          "valor": "52 años",
-          "etiqueta": "tenía Moctezuma, gran señor de Tenochtitlan desde 1502",
-          "icono": "🪶"
-        }
+        "camara": "cerca"
       },
       {
         "dia": 30,
@@ -2297,34 +2311,44 @@
         "texto": "Seis meses después, en la fiesta de Tóshcatl, Pedro de Alvarado ataca a los nobles que bailan desarmados. La isla se levanta y Moctezuma muere, nadie sabe a manos de quién.",
         "drama": 0.8,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "rio",
           "hora": "dia",
           "clima": "polvo",
           "props": [
             {
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.5
+            },
+            {
               "tipo": "templo-mayor",
-              "x": 1.2,
-              "escala": 2
+              "x": 1.15,
+              "escala": 2.0
             },
             {
               "tipo": "brasero",
               "x": -1.1
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": -1.5
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": 1.6
-            },
-            {
-              "tipo": "ahuejote",
-              "x": -1.95
             }
           ]
         },
-        "personajes": [],
+        "personajes": [
+          {
+            "quien": "soldado",
+            "x": -0.45,
+            "accion": "correr",
+            "emocion": "enfado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "senor",
+            "x": 0.45,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
         "camara": "paneo"
       },
       {
@@ -2335,6 +2359,11 @@
           "hora": "noche",
           "clima": "lluvia",
           "props": [
+            {
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.5
+            },
             {
               "tipo": "calzada"
             },
@@ -2366,34 +2395,32 @@
         "texto": "Luego llega la viruela, y un año después de este mes llena la isla de muertos. En agosto de mil quinientos veintiuno, tras un largo asedio, Tenochtitlán cae.",
         "drama": 0.8,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "rio",
           "hora": "atardecer",
           "clima": "niebla",
           "props": [
             {
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.5
+            },
+            {
               "tipo": "templo-mayor",
-              "x": -1.2,
-              "escala": 1.6
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": 1.1
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": -1.5
-            },
-            {
-              "tipo": "casa-adobe",
-              "x": 1.6
-            },
-            {
-              "tipo": "ahuejote",
-              "x": -1.95
+              "x": -1.15,
+              "escala": 1.8
             }
           ]
         },
-        "personajes": [],
+        "personajes": [
+          {
+            "quien": "tochtli",
+            "x": 0.3,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
         "camara": "lenta"
       },
       {
@@ -2408,6 +2435,11 @@
               "tipo": "volcan",
               "x": 1.3,
               "escala": 2
+            },
+            {
+              "tipo": "ciudad-lago",
+              "x": 0,
+              "escala": 1.6
             },
             {
               "tipo": "canoa",

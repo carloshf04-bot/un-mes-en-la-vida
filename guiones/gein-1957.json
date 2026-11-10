@@ -20,10 +20,10 @@
       "peinado": "corto",
       "barba": "ninguna",
       "ropa": {
-        "tipo": "abrigo",
-        "color": "#6e5c45",
-        "color2": "#4b4740",
-        "detalle": "#3a3128"
+        "tipo": "cuadros",
+        "color": "#6b5a44",
+        "color2": "#3a2e22",
+        "detalle": "#3a3a40"
       },
       "sombrero": "orejeras",
       "colorSombrero": "#8a4a32",
@@ -257,7 +257,16 @@
       {
         "texto": "Este es el mes en que el mundo entero aprendió el nombre de mi pueblo. Y no por nada bueno. Para entender por qué, hay que volver casi tres semanas atrás.",
         "drama": 0.7,
-        "personajes": [],
+        "personajes": [
+          {
+            "quien": "ed",
+            "x": -0.2,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
         "camara": "paneo"
       },
       {
@@ -331,7 +340,7 @@
         "drama": 0.55,
         "fondo": {
           "lugar": "interior",
-          "pared": "madera",
+          "pared": "papel",
           "hora": "noche",
           "ventana": true,
           "props": [
@@ -527,7 +536,7 @@
         "drama": 0.6,
         "fondo": {
           "lugar": "interior",
-          "pared": "madera",
+          "pared": "papel",
           "hora": "noche",
           "ventana": true,
           "props": [
@@ -597,21 +606,25 @@
           "ventana": true,
           "props": [
             {
-              "tipo": "estanteria",
-              "x": -1.25
+              "tipo": "cajas",
+              "x": -1.35
+            },
+            {
+              "tipo": "barril",
+              "x": -0.9
             },
             {
               "tipo": "mostrador",
               "x": 0.55
             },
             {
-              "tipo": "barril",
-              "x": 1.4
-            },
-            {
               "tipo": "🛢️",
               "x": 1.05,
               "escala": 0.3
+            },
+            {
+              "tipo": "barril",
+              "x": 1.4
             }
           ]
         },
@@ -666,30 +679,52 @@
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
-          "pared": "madera",
+          "pared": "ladrillo",
           "hora": "noche",
           "ventana": true,
           "props": [
             {
               "tipo": "barril",
-              "x": -1.3
+              "x": -1.35
             },
             {
-              "tipo": "estanteria",
-              "x": -0.75
+              "tipo": "barril",
+              "x": -0.95
             },
             {
               "tipo": "mesa",
               "x": 0.9
             },
             {
-              "tipo": "🏮",
+              "tipo": "🍺",
               "x": 0.9,
+              "escala": 0.28
+            },
+            {
+              "tipo": "🏮",
+              "x": -1.15,
               "escala": 0.3
             }
           ]
         },
-        "personajes": [],
+        "personajes": [
+          {
+            "quien": "mary",
+            "x": 0.35,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "cazador",
+            "x": -0.45,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
         "camara": "lenta"
       },
       {
@@ -699,8 +734,8 @@
         "personajes": [
           {
             "quien": "mary",
-            "x": 0.3,
-            "accion": "trabajar",
+            "x": 0.35,
+            "accion": "quieto",
             "emocion": "neutral",
             "mirar": -1,
             "habla": false
@@ -716,7 +751,17 @@
         "dia": 13,
         "texto": "En diciembre de mil novecientos cincuenta y cuatro, alguien entra en su taberna. No hay nadie. Solo manchas de sangre y un casquillo de bala. De Méri, ni rastro.",
         "drama": 0.75,
-        "personajes": [],
+        "personajes": [
+          {
+            "quien": "cazador",
+            "x": -0.3,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "entra": "izq",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
         "camara": "cerca"
       },
       {
@@ -837,21 +882,25 @@
           "ventana": true,
           "props": [
             {
-              "tipo": "estanteria",
-              "x": -1.25
+              "tipo": "cajas",
+              "x": -1.35
+            },
+            {
+              "tipo": "barril",
+              "x": -0.9
             },
             {
               "tipo": "mostrador",
               "x": 0.55
             },
             {
-              "tipo": "barril",
-              "x": 1.4
-            },
-            {
               "tipo": "🛢️",
               "x": 1.05,
               "escala": 0.3
+            },
+            {
+              "tipo": "barril",
+              "x": 1.4
             }
           ]
         },
@@ -971,28 +1020,32 @@
           "ventana": true,
           "props": [
             {
-              "tipo": "estanteria",
-              "x": -1.25
+              "tipo": "cajas",
+              "x": -1.35
+            },
+            {
+              "tipo": "barril",
+              "x": -0.9
             },
             {
               "tipo": "mostrador",
               "x": 0.55
             },
             {
-              "tipo": "barril",
-              "x": 1.4
-            },
-            {
               "tipo": "🛢️",
               "x": 1.05,
               "escala": 0.3
+            },
+            {
+              "tipo": "barril",
+              "x": 1.4
             }
           ]
         },
         "personajes": [
           {
             "quien": "bernice",
-            "x": 0.3,
+            "x": 0.1,
             "accion": "escribir",
             "emocion": "neutral",
             "mirar": -1,
@@ -1048,10 +1101,24 @@
               "tipo": "⛽",
               "x": -1.3,
               "escala": 0.6
+            },
+            {
+              "tipo": "🛻",
+              "x": 0.55,
+              "escala": 0.45
             }
           ]
         },
-        "personajes": [],
+        "personajes": [
+          {
+            "quien": "lester",
+            "x": -0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
         "camara": "paneo"
       },
       {
@@ -1104,21 +1171,25 @@
           "ventana": true,
           "props": [
             {
-              "tipo": "estanteria",
-              "x": -1.25
+              "tipo": "cajas",
+              "x": -1.35
+            },
+            {
+              "tipo": "barril",
+              "x": -0.9
             },
             {
               "tipo": "mostrador",
               "x": 0.55
             },
             {
-              "tipo": "barril",
-              "x": 1.4
-            },
-            {
               "tipo": "🛢️",
               "x": 1.05,
               "escala": 0.3
+            },
+            {
+              "tipo": "barril",
+              "x": 1.4
             }
           ]
         },
@@ -1712,13 +1783,9 @@
           "clima": "nieve",
           "props": [
             {
-              "tipo": "granja",
-              "x": 0.6
-            },
-            {
-              "tipo": "hoguera",
-              "x": 0.6,
-              "escala": 1.6
+              "tipo": "granja-fuego",
+              "x": 0.55,
+              "escala": 1.1
             },
             {
               "tipo": "pino",
@@ -1730,7 +1797,16 @@
             }
           ]
         },
-        "personajes": [],
+        "personajes": [
+          {
+            "quien": "lester",
+            "x": -0.45,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
         "camara": "general"
       },
       {
@@ -1877,7 +1953,7 @@
           "titulo": "Mito frente a realidad",
           "items": [
             {
-              "icono": "🛢️",
+              "icono": "🪚",
               "nombre": "Motosierra: cine de 1974"
             },
             {
