@@ -1,0 +1,770 @@
+{
+  "slug": "zombis-2031",
+  "titulo": "un superviviente del apocalipsis zombi",
+  "lugar": "Zaragoza, Aragón",
+  "epoca": "Octubre y noviembre de 2031",
+  "categoria": "futuro",
+  "drama": 0.7,
+  "velocidad": 1.15,
+  "musica": "tension",
+  "paleta": {
+    "acento": "#c6d46a",
+    "texto": "#eef0e6",
+    "fondo": "#0d1210",
+    "papel": "#e8ead8"
+  },
+  "reparto": {
+    "hugo": {
+      "piel": "#e0ac82", "pelo": "#3a2a1e", "peinado": "corto", "barba": "corta",
+      "ropa": { "tipo": "abrigo", "color": "#1f3350", "color2": "#4a4f55", "detalle": "#f28c28" },
+      "sombrero": "gorra", "colorSombrero": "#6b6f75", "gafas": false, "altura": 1, "zapatos": "#2a2a2a"
+    },
+    "nora": {
+      "piel": "#e8b896", "pelo": "#1c1612", "peinado": "coleta", "barba": "ninguna",
+      "ropa": { "tipo": "abrigo", "color": "#d9a62e", "color2": "#3b5b8a", "detalle": "#8a5a1a" },
+      "sombrero": "ninguno", "gafas": false, "altura": 0.6, "zapatos": "#b03a3a",
+      "voz": "narradora-es"
+    },
+    "asun": {
+      "piel": "#e6bc9c", "pelo": "#cfcfcf", "peinado": "corto", "barba": "ninguna",
+      "ropa": { "tipo": "abrigo", "color": "#7a2b2b", "color2": "#6a6a6a", "detalle": "#d8c8a8" },
+      "sombrero": "ninguno", "gafas": true, "altura": 0.95, "zapatos": "#3a2a22",
+      "voz": "narradora-es"
+    },
+    "marta": {
+      "piel": "#d9a07a", "pelo": "#4a2e1c", "peinado": "coleta", "barba": "ninguna",
+      "ropa": { "tipo": "uniforme", "color": "#e0b422", "color2": "#4f5a3a", "detalle": "#6b7a4a" },
+      "sombrero": "casco", "colorSombrero": "#e0b422", "gafas": false, "altura": 1, "zapatos": "#2a2a22",
+      "voz": "narradora-es"
+    },
+    "samir": {
+      "piel": "#b77e56", "pelo": "#1a1410", "peinado": "corto", "barba": "corta",
+      "ropa": { "tipo": "abrigo", "color": "#3f7a4a", "color2": "#3a3f45", "detalle": "#a8d06a" },
+      "sombrero": "gorra", "colorSombrero": "#2e3a2e", "gafas": false, "altura": 1, "zapatos": "#22262a"
+    },
+    "enfermera": {
+      "piel": "#f0c8a8", "pelo": "#6a4a2a", "peinado": "mono", "barba": "ninguna",
+      "ropa": { "tipo": "bata", "color": "#f2f4f2", "color2": "#7aa0b8", "detalle": "#4ab0a0" },
+      "sombrero": "ninguno", "gafas": false, "altura": 1, "zapatos": "#e6e6e6",
+      "voz": "narradora-es"
+    },
+    "soldado": {
+      "piel": "#d8a47e", "pelo": "#2a1e16", "peinado": "rapado", "barba": "ninguna",
+      "ropa": { "tipo": "uniforme", "color": "#5a6b3e", "color2": "#4a5a32", "detalle": "#e0b422" },
+      "sombrero": "casco", "colorSombrero": "#4a5a32", "gafas": false, "altura": 1, "zapatos": "#22261e"
+    },
+    "hombre": {
+      "piel": "#d9a27a", "pelo": "#6a6a6a", "peinado": "corto", "barba": "bigote",
+      "ropa": { "tipo": "abrigo", "color": "#8a6a4a", "color2": "#3a3a3a", "detalle": "#c8b08a" },
+      "sombrero": "ninguno", "gafas": false, "altura": 1, "zapatos": "#2e2a26"
+    },
+    "gris1": {
+      "zombi": true, "piel": "#8f9a86", "pelo": "#3d3a33", "peinado": "largo", "barba": "ninguna",
+      "ropa": { "tipo": "harapos", "color": "#6d6a5e", "color2": "#4f4d45", "detalle": "#3a3830" },
+      "sombrero": "ninguno", "gafas": false, "altura": 1, "zapatos": "#2e2c28"
+    },
+    "gris2": {
+      "zombi": true, "piel": "#8a9682", "pelo": "#2b2a26", "peinado": "corto", "barba": "corta",
+      "ropa": { "tipo": "harapos", "color": "#5e6a78", "color2": "#3e4048", "detalle": "#2e3038" },
+      "sombrero": "ninguno", "gafas": false, "altura": 1, "zapatos": "#26262a"
+    },
+    "gris3": {
+      "zombi": true, "piel": "#94a08c", "pelo": "#5a4a3a", "peinado": "rizado", "barba": "ninguna",
+      "ropa": { "tipo": "harapos", "color": "#7a5e5a", "color2": "#4a4440", "detalle": "#3a3430" },
+      "sombrero": "ninguno", "gafas": false, "altura": 0.95, "zapatos": "#2a2622"
+    }
+  },
+  "largo": {
+    "escenas": [
+      {
+        "corte": true,
+        "texto": "Hoy he arreglado mi último ascensor. Dentro de un mes, media Zaragoza estará desierta, y sabré que lo único que nos protege es el agua. Hasta que deja de serlo.",
+        "drama": 0.8,
+        "fondo": { "lugar": "ciudad", "hora": "atardecer", "clima": "despejado",
+          "props": [ { "tipo": "pilar", "x": -1.2, "escala": 1.6, "detras": true }, { "tipo": "antena", "x": 1.25 } ] },
+        "personajes": [ { "quien": "hugo", "x": 0.45, "accion": "quieto", "emocion": "miedo", "mirar": -1, "habla": false } ],
+        "camara": "general"
+      },
+      {
+        "texto": "Me llamo Hugo Lasheras, tengo treinta y un años y arreglo ascensores. Vivo en un cuarto piso sin ascensor, en la Magdalena. Sí, el chiste lo pillo.",
+        "drama": 0.55,
+        "personajes": [ { "quien": "hugo", "x": 0.35, "accion": "quieto", "emocion": "feliz", "mirar": -1, "habla": false, "objeto": "🔑" } ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 1,
+        "capitulo": "La fiebre gris",
+        "texto": "Lunes, seis de octubre de dos mil treinta y uno. La radio habla de una rabia rara en Lyon, en Burdeos, en Toulouse. Aquí nadie escucha: llega el Pilar.",
+        "drama": 0.6,
+        "fondo": { "lugar": "interior", "pared": "metal", "hora": "dia", "ventana": false,
+          "props": [ { "tipo": "maquina", "x": -1.0 }, { "tipo": "radio", "x": 1.0 } ] },
+        "personajes": [ { "quien": "hugo", "x": -0.2, "accion": "trabajar", "emocion": "neutral", "mirar": -1, "habla": false } ]
+      },
+      {
+        "dia": 1,
+        "texto": "La rabia es real: un virus que trepa por los nervios y vuelve agresivo al enfermo. Yo no sabía que tenía un pariente nuevo.",
+        "drama": 0.7,
+        "personajes": [ { "quien": "hugo", "x": 0.2, "accion": "pensar", "emocion": "miedo", "mirar": 1, "habla": false } ],
+        "insercion": { "tipo": "dato", "valor": "59.000", "etiqueta": "muertes al año por la rabia en el mundo (estimación de la OMS)", "icono": "🐕" }
+      },
+      {
+        "dia": 2,
+        "corte": true,
+        "texto": "El primer caso de Zaragoza fue un camionero mordido en el cuello en una gasolinera de la autovía. Seis horas después, ya no sabía quién era su mujer.",
+        "drama": 0.8,
+        "fondo": { "lugar": "ciudad", "hora": "noche", "clima": "niebla",
+          "props": [ { "tipo": "coche-abandonado", "x": -1.0 }, { "tipo": "farola", "x": 1.1 }, { "tipo": "semaforo", "x": -0.4 } ] },
+        "personajes": [ { "quien": "gris2", "x": 0.3, "accion": "tambalear", "emocion": "enfado", "mirar": -1, "habla": false, "entra": "der" } ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 2,
+        "texto": "Esa noche tomamos tortilla en el rellano con Asun, la del segundo, y su nieta Nora. Asun dijo que la tele exagera. Nora miraba la calle.",
+        "drama": 0.5,
+        "fondo": { "lugar": "interior", "pared": "ladrillo", "hora": "noche", "ventana": true,
+          "props": [ { "tipo": "mesa", "x": 0 }, { "tipo": "estanteria", "x": 1.2 } ] },
+        "personajes": [
+          { "quien": "hugo", "x": -0.7, "accion": "sentado", "emocion": "feliz", "mirar": 1, "habla": false },
+          { "quien": "asun", "x": 0, "accion": "hablar", "emocion": "feliz", "mirar": -1, "habla": false },
+          { "quien": "nora", "x": 0.7, "accion": "sentado", "emocion": "miedo", "mirar": 1, "habla": false }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 3,
+        "texto": "Al tercer día, estado de alarma, como en dos mil veinte. Suspenden las fiestas del Pilar y en el súper ya no queda ni agua ni pilas.",
+        "drama": 0.65,
+        "fondo": { "lugar": "interior", "pared": "metal", "hora": "dia", "ventana": false,
+          "props": [ { "tipo": "estanteria", "x": -1.1 }, { "tipo": "estanteria", "x": 1.1 }, { "tipo": "cajas", "x": 0.5 } ] },
+        "personajes": [ { "quien": "hugo", "x": -0.3, "accion": "cargar", "emocion": "miedo", "mirar": 1, "habla": false, "objeto": "🥫" } ]
+      },
+      {
+        "dia": 3,
+        "texto": "Yo guardaba algo que valía más que el agua: las llaves maestras de los tejados de media Magdalena. Aún no sabía que eran un salvavidas.",
+        "drama": 0.65,
+        "fondo": { "lugar": "interior", "pared": "madera", "hora": "atardecer", "ventana": true,
+          "props": [ { "tipo": "mesa", "x": -0.8 }, { "tipo": "estanteria", "x": 1.1 } ] },
+        "personajes": [ { "quien": "hugo", "x": 0.2, "accion": "cargar", "emocion": "neutral", "mirar": -1, "habla": false, "objeto": "🔑" } ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 5,
+        "corte": true,
+        "texto": "Al quinto día los vi en la Magdalena, junto a la iglesia. Piel gris, ojos pálidos, la boca brillante. Caminaban a trompicones y, de pronto, corrían tres metros.",
+        "drama": 0.85,
+        "fondo": { "lugar": "calle", "hora": "dia", "clima": "niebla",
+          "props": [ { "tipo": "farola", "x": -1.1 }, { "tipo": "⛪", "x": 1.2, "escala": 0.9 } ] },
+        "personajes": [
+          { "quien": "gris1", "x": -0.35, "accion": "tambalear", "emocion": "enfado", "mirar": 1, "habla": false },
+          { "quien": "gris3", "x": 0.4, "accion": "tambalear", "emocion": "enfado", "mirar": -1, "habla": false }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 5,
+        "texto": "Los llamamos los grises. No están muertos: son personas con fiebre que no duermen y muerden para pasar el virus. La naturaleza ya lo había inventado.",
+        "drama": 0.75,
+        "personajes": [ { "quien": "gris3", "x": 0.2, "accion": "tambalear", "emocion": "enfado", "mirar": -1, "habla": false } ],
+        "insercion": { "tipo": "dato", "valor": "25 cm", "etiqueta": "sobre el suelo y al mediodía: ahí muerden la hoja las hormigas «zombi» que controla un hongo (Tailandia)", "icono": "🐜" }
+      },
+      {
+        "dia": 5,
+        "texto": "Entonces vi algo raro. Un gris iba directo a por un chaval y, al llegar a la fuente, se apartó del agua como si quemara.",
+        "drama": 0.8,
+        "fondo": { "lugar": "calle", "hora": "dia", "clima": "niebla",
+          "props": [ { "tipo": "pozo", "x": 0.6 }, { "tipo": "farola", "x": -1.2 } ] },
+        "personajes": [ { "quien": "gris1", "x": -0.2, "accion": "asustado", "emocion": "miedo", "mirar": 1, "habla": false } ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 5,
+        "texto": "Los grises odian el agua, como los enfermos de rabia de verdad, que sufren espasmos solo con intentar beber. Y el agua estaba a punto de faltarnos.",
+        "drama": 0.75,
+        "fondo": { "lugar": "interior", "pared": "madera", "hora": "noche", "ventana": true,
+          "props": [ { "tipo": "mesa", "x": -0.8 }, { "tipo": "🕯️", "x": -0.8, "escala": 0.3 } ] },
+        "personajes": [ { "quien": "hugo", "x": 0.3, "accion": "escribir", "emocion": "miedo", "mirar": -1, "habla": false } ]
+      },
+      {
+        "dia": 6,
+        "corte": true,
+        "texto": "Sexto día: apagón. Una nevera cerrada aguanta el frío unas cuatro horas, así que Nora y yo montamos un banquete para todo el bloque en el tejado.",
+        "drama": 0.55,
+        "fondo": { "lugar": "ciudad", "hora": "noche", "clima": "despejado",
+          "props": [ { "tipo": "antena", "x": -1.2 }, { "tipo": "cajas", "x": 1.1 }, { "tipo": "🔥", "x": 0.05, "escala": 0.3 } ] },
+        "personajes": [
+          { "quien": "hugo", "x": -0.4, "accion": "trabajar", "emocion": "feliz", "mirar": 1, "habla": false },
+          { "quien": "nora", "x": 0.45, "accion": "cargar", "emocion": "feliz", "mirar": -1, "habla": false, "objeto": "🥫" }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 7,
+        "texto": "Día del Pilar. La explanada que debía llenarse de flores estaba desierta y las torres asomaban entre la niebla. Esa noche murió la última antena de móvil.",
+        "drama": 0.7,
+        "fondo": { "lugar": "ciudad", "hora": "amanecer", "clima": "niebla",
+          "props": [ { "tipo": "pilar", "x": 1.2, "escala": 1.8, "detras": true }, { "tipo": "antena", "x": -1.2 } ] },
+        "personajes": [
+          { "quien": "hugo", "x": -0.35, "accion": "quieto", "emocion": "triste", "mirar": 1, "habla": false },
+          { "quien": "nora", "x": 0.1, "accion": "quieto", "emocion": "triste", "mirar": 1, "habla": false, "objeto": "📻" }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 8,
+        "capitulo": "Cuando sopla el cierzo",
+        "corte": false,
+        "texto": "El octavo día abrí el grifo y solo salió un suspiro de aire. Sin bombas, el agua ya no sube a un cuarto piso.",
+        "drama": 0.7,
+        "fondo": { "lugar": "interior", "pared": "ladrillo", "hora": "dia", "ventana": true,
+          "props": [ { "tipo": "mesa", "x": 0.9 }, { "tipo": "estanteria", "x": -1.2 } ] },
+        "personajes": [ { "quien": "hugo", "x": -0.2, "accion": "quieto", "emocion": "sorpresa", "mirar": 1, "habla": false } ],
+        "insercion": { "tipo": "dato", "valor": "91 %", "etiqueta": "del agua del grifo de Zaragoza llega del Pirineo (2025)", "icono": "💧" }
+      },
+      {
+        "dia": 8,
+        "texto": "Sacamos el agua del termo del calentador y del depósito del váter, y la hervimos un minuto. Cuatro litros por persona y día: nos quedaban tres días de agua.",
+        "drama": 0.7,
+        "fondo": { "lugar": "interior", "pared": "ladrillo", "hora": "atardecer", "ventana": true,
+          "props": [ { "tipo": "barril", "x": 1.1 }, { "tipo": "🔥", "x": -0.9, "escala": 0.3 } ] },
+        "personajes": [
+          { "quien": "hugo", "x": -0.4, "accion": "trabajar", "emocion": "cansado", "mirar": 1, "habla": false },
+          { "quien": "asun", "x": 0.45, "accion": "sentado", "emocion": "miedo", "mirar": -1, "habla": false }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 9,
+        "corte": true,
+        "texto": "En Zaragoza tenemos un viento que tumba motos y arranca toldos. Se llama cierzo, y el día nueve me salvó la vida.",
+        "drama": 0.65,
+        "fondo": { "lugar": "ciudad", "hora": "dia", "clima": "despejado",
+          "props": [ { "tipo": "bandera", "x": -1.1 }, { "tipo": "arbol", "x": 1.2 }, { "tipo": "semaforo", "x": 0.4 } ] },
+        "personajes": [ { "quien": "hugo", "x": -0.2, "accion": "caminar", "emocion": "neutral", "mirar": 1, "habla": false, "entra": "izq", "objeto": "🎒" } ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 9,
+        "texto": "Los grises tienen otro punto débil: el aire en la cara les da espasmos. Con cierzo fuerte, se esconden en portales y garajes, gimiendo.",
+        "drama": 0.7,
+        "fondo": { "lugar": "ciudad", "hora": "dia", "clima": "despejado",
+          "props": [ { "tipo": "bloque", "x": 1.1 }, { "tipo": "coche-abandonado", "x": -1.0 } ] },
+        "personajes": [
+          { "quien": "hugo", "x": -0.35, "accion": "quieto", "emocion": "sorpresa", "mirar": 1, "habla": false },
+          { "quien": "gris2", "x": 0.6, "accion": "asustado", "emocion": "miedo", "mirar": -1, "habla": false }
+        ]
+      },
+      {
+        "dia": 9,
+        "texto": "La calle abierta era segura y los portales, trampas. Bajé a la calle Mayor a por pastillas para Asun, con el viento silbando en las orejas.",
+        "drama": 0.75,
+        "personajes": [ { "quien": "hugo", "x": 0.1, "accion": "correr", "emocion": "miedo", "mirar": 1, "habla": false, "entra": "izq", "objeto": "💊" } ],
+        "camara": "paneo",
+        "insercion": { "tipo": "dato", "valor": "135 km/h", "etiqueta": "racha récord de cierzo en el aeropuerto de Zaragoza (1954)", "icono": "🌬️" }
+      },
+      {
+        "dia": 10,
+        "texto": "En las películas, el fin del mundo es una estampida de saqueadores. En el súper del Coso solo había cuatro personas asustadas, y un hombre me regaló una lata. El peligro estaba en mi propio portal.",
+        "drama": 0.65,
+        "fondo": { "lugar": "interior", "pared": "metal", "hora": "dia", "ventana": false,
+          "props": [ { "tipo": "estanteria", "x": -1.1 }, { "tipo": "estanteria", "x": 1.1 }, { "tipo": "cajas", "x": -0.4 } ] },
+        "personajes": [
+          { "quien": "hugo", "x": -0.45, "accion": "quieto", "emocion": "sorpresa", "mirar": 1, "habla": false },
+          { "quien": "hombre", "x": 0.45, "accion": "cargar", "emocion": "feliz", "mirar": -1, "habla": false, "objeto": "🥫" }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 11,
+        "corte": true,
+        "texto": "Lo peor nunca llega con ruido. Asun bajó a buscar a Nora, que había salido al patio con un cubo. Y el viento había parado.",
+        "drama": 0.8,
+        "fondo": { "lugar": "calle", "hora": "atardecer", "clima": "niebla",
+          "props": [ { "tipo": "bloque", "x": -1.2 }, { "tipo": "barril", "x": 1.1 } ] },
+        "personajes": [
+          { "quien": "asun", "x": -0.4, "accion": "caminar", "emocion": "neutral", "mirar": 1, "habla": false },
+          { "quien": "nora", "x": 0.4, "accion": "cargar", "emocion": "neutral", "mirar": -1, "habla": false, "objeto": "💧" }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 11,
+        "texto": "Oí un grito de Nora y bajé los escalones de cuatro en cuatro. Asun estaba en el suelo, con un gris agarrado a su pierna.",
+        "drama": 0.9,
+        "personajes": [
+          { "quien": "hugo", "x": -0.75, "accion": "correr", "emocion": "miedo", "mirar": 1, "habla": false, "entra": "izq" },
+          { "quien": "gris1", "x": 0.15, "accion": "tambalear", "emocion": "enfado", "mirar": 1, "habla": false },
+          { "quien": "asun", "x": 0.6, "accion": "asustado", "emocion": "miedo", "mirar": -1, "habla": false }
+        ]
+      },
+      {
+        "dia": 11,
+        "texto": "Le eché encima el cubo de Nora. El gris soltó la pierna y huyó, aullando. Pero era tarde: en la pantorrilla de Asun había una marca de dientes.",
+        "drama": 0.85,
+        "personajes": [
+          { "quien": "hugo", "x": -0.4, "accion": "cargar", "emocion": "enfado", "mirar": 1, "habla": false, "objeto": "💧" },
+          { "quien": "asun", "x": 0.2, "accion": "triste", "emocion": "miedo", "mirar": -1, "habla": false },
+          { "quien": "gris1", "x": 0.85, "accion": "asustado", "emocion": "miedo", "mirar": 1, "habla": false, "sale": "der" }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 11,
+        "texto": "Una mordedura en la pierna nos daba dos o tres días antes de la fiebre, porque este virus trepa por los nervios y la pierna está lejos de la cabeza.",
+        "drama": 0.75,
+        "fondo": { "lugar": "interior", "pared": "ladrillo", "hora": "noche", "ventana": false,
+          "props": [ { "tipo": "camilla", "x": 0.6 }, { "tipo": "🕯️", "x": -1.0, "escala": 0.3 } ] },
+        "personajes": [
+          { "quien": "hugo", "x": -0.35, "accion": "pensar", "emocion": "miedo", "mirar": 1, "habla": false },
+          { "quien": "asun", "x": 0.45, "accion": "sentado", "emocion": "triste", "mirar": -1, "habla": false }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 11,
+        "corte": true,
+        "texto": "Un suero puede salvarte, pero solo si llega antes que la fiebre. Quedaba suero en el campamento militar de Ranillas, a cuatro kilómetros, al otro lado del Ebro.",
+        "drama": 0.8,
+        "fondo": { "lugar": "interior", "pared": "madera", "hora": "noche", "ventana": true,
+          "props": [ { "tipo": "mesa", "x": -0.7 }, { "tipo": "radio", "x": 1.1 } ] },
+        "personajes": [
+          { "quien": "hugo", "x": -0.3, "accion": "senalar", "emocion": "miedo", "mirar": 1, "habla": false, "objeto": "🗺️" },
+          { "quien": "nora", "x": 0.45, "accion": "quieto", "emocion": "miedo", "mirar": -1, "habla": false }
+        ],
+        "insercion": { "tipo": "dato", "valor": "1–3 meses", "etiqueta": "incubación habitual de la rabia real: menos cuanto más cerca de la cabeza es la mordedura", "icono": "⏳" }
+      },
+      {
+        "dia": 11,
+        "texto": "Le lavé la herida un cuarto de hora con agua y jabón, como manda el protocolo de la rabia real. Eso solo compra tiempo, y el tiempo corría.",
+        "drama": 0.6,
+        "personajes": [
+          { "quien": "hugo", "x": -0.2, "accion": "trabajar", "emocion": "miedo", "mirar": 1, "habla": false },
+          { "quien": "asun", "x": 0.4, "accion": "sentado", "emocion": "cansado", "mirar": -1, "habla": false }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 12,
+        "texto": "Salimos de madrugada, con frío y con cierzo, la hora en que los grises tiemblan. Asun cojeaba. Nora llevaba la radio y yo, las llaves.",
+        "drama": 0.75,
+        "fondo": { "lugar": "calle", "hora": "amanecer", "clima": "despejado",
+          "props": [ { "tipo": "farola", "x": -1.2 }, { "tipo": "coche-abandonado", "x": 1.1 } ] },
+        "personajes": [
+          { "quien": "nora", "x": -0.55, "accion": "caminar", "emocion": "miedo", "mirar": 1, "habla": false, "entra": "izq", "objeto": "📻" },
+          { "quien": "asun", "x": -0.1, "accion": "caminar", "emocion": "cansado", "mirar": 1, "habla": false, "entra": "izq" },
+          { "quien": "hugo", "x": 0.4, "accion": "caminar", "emocion": "neutral", "mirar": 1, "habla": false, "entra": "izq", "objeto": "🔑" }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 12,
+        "texto": "Pasar a oscuras el puente de Piedra, entre coches abandonados, fue lo más largo de mi vida. Los leones del puente nos miraban. Y al otro lado, el viento se murió.",
+        "drama": 0.85,
+        "fondo": { "lugar": "rio", "hora": "amanecer", "clima": "despejado",
+          "props": [ { "tipo": "puente", "x": 0, "detras": true }, { "tipo": "coche-abandonado", "x": -1.1 }, { "tipo": "pilar", "x": 1.2, "escala": 1.5, "detras": true } ] },
+        "personajes": [
+          { "quien": "nora", "x": -0.5, "accion": "caminar", "emocion": "miedo", "mirar": 1, "habla": false },
+          { "quien": "asun", "x": -0.05, "accion": "caminar", "emocion": "cansado", "mirar": 1, "habla": false },
+          { "quien": "hugo", "x": 0.45, "accion": "caminar", "emocion": "miedo", "mirar": 1, "habla": false, "objeto": "🔦" }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 13,
+        "corte": true,
+        "texto": "Sin viento, una calle tranquila se llena de grises en minutos. Nos colamos en un tejado del Arrabal con mis llaves, y allí nos esperaban dos extraños.",
+        "drama": 0.85,
+        "fondo": { "lugar": "ciudad", "hora": "dia", "clima": "niebla",
+          "props": [ { "tipo": "antena", "x": -1.2 }, { "tipo": "cajas", "x": 1.2 }, { "tipo": "bloque", "x": 0.5, "detras": true } ] },
+        "personajes": [
+          { "quien": "hugo", "x": -0.55, "accion": "asustado", "emocion": "miedo", "mirar": 1, "habla": false },
+          { "quien": "nora", "x": -0.15, "accion": "quieto", "emocion": "miedo", "mirar": 1, "habla": false },
+          { "quien": "marta", "x": 0.6, "accion": "quieto", "emocion": "sorpresa", "mirar": -1, "habla": false }
+        ]
+      },
+      {
+        "dia": 13,
+        "texto": "Marta, una cabo de los militares de emergencias que había perdido a su unidad. Y Samir, un repartidor que se sabía todos los atajos de Zaragoza.",
+        "drama": 0.6,
+        "personajes": [
+          { "quien": "hugo", "x": -0.65, "accion": "quieto", "emocion": "neutral", "mirar": 1, "habla": false },
+          { "quien": "marta", "x": 0.05, "accion": "saludar", "emocion": "neutral", "mirar": -1, "habla": false },
+          { "quien": "samir", "x": 0.65, "accion": "quieto", "emocion": "feliz", "mirar": -1, "habla": false, "objeto": "📦" }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 13,
+        "texto": "Marta me contó que hasta el Mando Estratégico de Estados Unidos escribió en dos mil once un plan contra muertos vivientes. Era un juego de prácticas. Lo nuestro, no.",
+        "drama": 0.6,
+        "fondo": { "lugar": "ciudad", "hora": "atardecer", "clima": "niebla",
+          "props": [ { "tipo": "antena", "x": -1.2 }, { "tipo": "cajas", "x": 1.2 }, { "tipo": "bloque", "x": 0.5, "detras": true } ] },
+        "personajes": [
+          { "quien": "marta", "x": -0.35, "accion": "hablar", "emocion": "feliz", "mirar": 1, "habla": false },
+          { "quien": "hugo", "x": 0.4, "accion": "pensar", "emocion": "neutral", "mirar": -1, "habla": false }
+        ],
+        "insercion": { "tipo": "dato", "valor": "CONPLAN 8888", "etiqueta": "ejercicio de entrenamiento «contra zombis» del Mando Estratégico de EE. UU. (2011)", "icono": "🗺️" }
+      },
+      {
+        "dia": 14,
+        "texto": "Al día siguiente volvió el cierzo y corrimos hasta el control del Pabellón Puente. Asun aún no tenía fiebre. Una enfermera le puso el suero mientras yo contaba los segundos.",
+        "drama": 0.85,
+        "fondo": { "lugar": "ciudad", "hora": "dia", "clima": "despejado",
+          "props": [ { "tipo": "barricada", "x": -1.1 }, { "tipo": "bandera", "x": 1.2 }, { "tipo": "tienda", "x": 0.9 } ] },
+        "personajes": [
+          { "quien": "hugo", "x": -0.6, "accion": "quieto", "emocion": "miedo", "mirar": 1, "habla": false },
+          { "quien": "enfermera", "x": 0.05, "accion": "trabajar", "emocion": "neutral", "mirar": 1, "habla": false },
+          { "quien": "asun", "x": 0.55, "accion": "sentado", "emocion": "cansado", "mirar": -1, "habla": false }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 15,
+        "capitulo": "La noche de Ranillas",
+        "corte": true,
+        "texto": "Durante seis días creí que habíamos ganado. Asun se salvó, y dormimos en tiendas de campaña en los terrenos de la Expo, rodeados de río por tres lados.",
+        "drama": 0.55,
+        "fondo": { "lugar": "campo", "hora": "dia", "clima": "despejado",
+          "props": [ { "tipo": "tienda", "x": -1.1 }, { "tipo": "tienda", "x": 1.0 }, { "tipo": "bandera", "x": 0.3 } ] },
+        "personajes": [
+          { "quien": "hugo", "x": -0.6, "accion": "quieto", "emocion": "feliz", "mirar": 1, "habla": false },
+          { "quien": "asun", "x": 0, "accion": "sentado", "emocion": "feliz", "mirar": 1, "habla": false },
+          { "quien": "nora", "x": 0.55, "accion": "celebrar", "emocion": "feliz", "mirar": -1, "habla": false }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 15,
+        "texto": "El meandro de Ranillas era el castillo perfecto contra un enemigo que odia el agua. Nora iba a una escuela de lona y yo esperaba turno para el agua hervida.",
+        "drama": 0.5,
+        "fondo": { "lugar": "rio", "hora": "dia", "clima": "despejado",
+          "props": [ { "tipo": "tienda", "x": -1.1 }, { "tipo": "valla", "x": 1.1 } ] },
+        "personajes": [
+          { "quien": "hugo", "x": -0.4, "accion": "cargar", "emocion": "neutral", "mirar": 1, "habla": false, "objeto": "💧" },
+          { "quien": "nora", "x": 0.45, "accion": "escribir", "emocion": "feliz", "mirar": -1, "habla": false }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 16,
+        "texto": "Me pusieron a arreglar lo mío: el generador del hospital de campaña. Funcionaba de maravilla. Y rugía tanto que se escuchaba desde la otra orilla.",
+        "drama": 0.7,
+        "fondo": { "lugar": "interior", "pared": "metal", "hora": "dia", "ventana": false,
+          "props": [ { "tipo": "maquina", "x": -0.9 }, { "tipo": "camilla", "x": 1.0 } ] },
+        "personajes": [ { "quien": "hugo", "x": -0.1, "accion": "trabajar", "emocion": "feliz", "mirar": -1, "habla": false } ],
+        "insercion": { "tipo": "mapa", "lugar": "Meandro de Ranillas", "detalle": "Zaragoza · terrenos de la Expo 2008, rodeados por el Ebro", "icono": "📍" }
+      },
+      {
+        "dia": 17,
+        "texto": "Había aviones para salir de Zaragoza, pero no para todos: solo niños y mayores, desde la base aérea. Nora y Asun estaban en la lista. Yo no.",
+        "drama": 0.7,
+        "fondo": { "lugar": "campo", "hora": "atardecer", "clima": "despejado",
+          "props": [ { "tipo": "helicoptero", "x": 1.0 }, { "tipo": "tienda", "x": -1.1 }, { "tipo": "bandera", "x": -0.5 } ] },
+        "personajes": [
+          { "quien": "soldado", "x": -0.6, "accion": "hablar", "emocion": "neutral", "mirar": 1, "habla": false },
+          { "quien": "nora", "x": 0.05, "accion": "quieto", "emocion": "sorpresa", "mirar": 1, "habla": false },
+          { "quien": "hugo", "x": 0.6, "accion": "quieto", "emocion": "triste", "mirar": -1, "habla": false }
+        ]
+      },
+      {
+        "dia": 18,
+        "corte": true,
+        "texto": "La niebla del Ebro es bonita, hasta que sabes lo que esconde. Tres días sin viento, y en la otra orilla se juntaron los grises, atraídos por mi generador.",
+        "drama": 0.8,
+        "fondo": { "lugar": "rio", "hora": "atardecer", "clima": "niebla",
+          "props": [ { "tipo": "tienda", "x": -1.2 }, { "tipo": "maquina", "x": -0.7, "escala": 0.8 } ] },
+        "personajes": [
+          { "quien": "hugo", "x": -0.3, "accion": "quieto", "emocion": "miedo", "mirar": 1, "habla": false },
+          { "quien": "gris1", "x": 0.6, "accion": "tambalear", "emocion": "enfado", "mirar": -1, "habla": false, "escala": 0.7 },
+          { "quien": "gris3", "x": 0.9, "accion": "tambalear", "emocion": "enfado", "mirar": -1, "habla": false, "escala": 0.7 }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 19,
+        "texto": "Y el Ebro, tras un otoño seco, bajaba más flaco que nunca. Al amanecer asomaron lenguas de grava casi secas, de orilla a orilla.",
+        "drama": 0.8,
+        "fondo": { "lugar": "rio", "hora": "amanecer", "clima": "niebla",
+          "props": [ { "tipo": "roca", "x": 0.1 }, { "tipo": "roca", "x": 0.7, "escala": 0.6 }, { "tipo": "roca", "x": -0.5, "escala": 0.5 } ] },
+        "personajes": [ { "quien": "hugo", "x": -0.7, "accion": "senalar", "emocion": "miedo", "mirar": 1, "habla": false } ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 20,
+        "texto": "La noche del día veinte entraron por la grava. Primero fue un murmullo en la niebla. Luego, las sirenas, los gritos y un mar de pasos torpes.",
+        "drama": 0.9,
+        "fondo": { "lugar": "rio", "hora": "noche", "clima": "niebla",
+          "props": [ { "tipo": "roca", "x": 0.1 }, { "tipo": "tienda", "x": -1.2 }, { "tipo": "bandera", "x": -0.8 } ] },
+        "personajes": [
+          { "quien": "gris2", "x": -0.2, "accion": "tambalear", "emocion": "enfado", "mirar": -1, "habla": false, "entra": "der" },
+          { "quien": "gris1", "x": 0.3, "accion": "tambalear", "emocion": "enfado", "mirar": -1, "habla": false, "entra": "der" },
+          { "quien": "gris3", "x": 0.75, "accion": "tambalear", "emocion": "enfado", "mirar": -1, "habla": false, "entra": "der" }
+        ],
+        "camara": "subir",
+        "insercion": { "tipo": "cita", "frase": "Han entrado por la grava. Repito: han entrado.", "firma": "Radio militar, noche del día 20 (ficción)" }
+      },
+      {
+        "dia": 20,
+        "texto": "Apagué mi generador para que, sin ruido, se despistaran. Marta sacó a los niños por el Pabellón Puente. Los conté y los volví a contar, y Nora no estaba.",
+        "drama": 0.9,
+        "fondo": { "lugar": "interior", "pared": "metal", "hora": "noche", "ventana": false,
+          "props": [ { "tipo": "maquina", "x": -0.9 }, { "tipo": "cajas", "x": 1.1 } ] },
+        "personajes": [
+          { "quien": "hugo", "x": -0.3, "accion": "trabajar", "emocion": "miedo", "mirar": -1, "habla": false },
+          { "quien": "marta", "x": 0.5, "accion": "correr", "emocion": "miedo", "mirar": 1, "habla": false, "sale": "der" }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 20,
+        "corte": true,
+        "texto": "Busqué a Nora a oscuras, sin linterna, oyendo pies que se arrastraban a mi alrededor. Solo había un sitio alto donde ella se escondería: la Torre del Agua.",
+        "drama": 0.9,
+        "fondo": { "lugar": "ciudad", "hora": "noche", "clima": "niebla",
+          "props": [ { "tipo": "columna", "x": 1.0, "escala": 1.6 }, { "tipo": "tienda", "x": -1.2 } ] },
+        "personajes": [
+          { "quien": "hugo", "x": -0.3, "accion": "caminar", "emocion": "miedo", "mirar": 1, "habla": false },
+          { "quien": "gris3", "x": 0.55, "accion": "tambalear", "emocion": "enfado", "mirar": -1, "habla": false, "escala": 0.8 }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 21,
+        "texto": "La encontré en un rellano alto, agarrada a la radio de su abuela. Al amanecer se puso a llover, y los grises huyeron a los pabellones, gimiendo.",
+        "drama": 0.7,
+        "fondo": { "lugar": "interior", "pared": "metal", "hora": "amanecer", "ventana": true, "clima": "lluvia",
+          "props": [ { "tipo": "escalera", "x": -0.9 }, { "tipo": "cajas", "x": 1.2 } ] },
+        "personajes": [
+          { "quien": "hugo", "x": -0.3, "accion": "quieto", "emocion": "sorpresa", "mirar": 1, "habla": false },
+          { "quien": "nora", "x": 0.35, "accion": "sentado", "emocion": "miedo", "mirar": -1, "habla": false, "objeto": "📻" }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 21,
+        "texto": "Huimos bajo la lluvia, empapados y vivos. Pero en las listas de los que salieron del meandro, nadie había escrito el nombre de Asun.",
+        "drama": 0.75,
+        "fondo": { "lugar": "ciudad", "hora": "amanecer", "clima": "lluvia",
+          "props": [ { "tipo": "tienda", "x": -1.1 }, { "tipo": "bandera", "x": 1.1 } ] },
+        "personajes": [
+          { "quien": "hugo", "x": -0.25, "accion": "correr", "emocion": "miedo", "mirar": 1, "habla": false },
+          { "quien": "nora", "x": 0.3, "accion": "correr", "emocion": "miedo", "mirar": 1, "habla": false }
+        ],
+        "camara": "paneo",
+        "insercion": { "tipo": "objetos", "titulo": "Lo que salvamos de Ranillas", "items": [
+          { "icono": "📻", "nombre": "La radio de Asun" },
+          { "icono": "🔦", "nombre": "Una linterna" },
+          { "icono": "💧", "nombre": "Dos botellas de agua" },
+          { "icono": "🔑", "nombre": "Mis llaves maestras" }
+        ] }
+      },
+      {
+        "dia": 21,
+        "texto": "Nora me preguntó por su abuela y no supe qué contestarle. Le dije que Asun era la mujer más terca de Aragón, y que las tercas nunca se rinden.",
+        "drama": 0.55,
+        "fondo": { "lugar": "interior", "pared": "metal", "hora": "noche", "ventana": false,
+          "props": [ { "tipo": "cajas", "x": -1.1 }, { "tipo": "bidon-fuego", "x": 1.0 } ] },
+        "personajes": [
+          { "quien": "hugo", "x": -0.35, "accion": "sentado", "emocion": "cansado", "mirar": 1, "habla": false },
+          { "quien": "nora", "x": 0.3, "accion": "sentado", "emocion": "triste", "mirar": -1, "habla": false }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 22,
+        "capitulo": "La pista del transbordador",
+        "corte": true,
+        "texto": "Hay noches que pesan más que el miedo. En una nave del polígono de Cogullada, Nora dejó de hablar, y yo conté agua para tres días.",
+        "drama": 0.6,
+        "fondo": { "lugar": "interior", "pared": "metal", "hora": "dia", "ventana": true,
+          "props": [ { "tipo": "cajas", "x": -1.1 }, { "tipo": "maquina", "x": 1.1 }, { "tipo": "bidon-fuego", "x": 0.5 } ] },
+        "personajes": [
+          { "quien": "hugo", "x": -0.4, "accion": "cargar", "emocion": "cansado", "mirar": 1, "habla": false, "objeto": "💧" },
+          { "quien": "nora", "x": 0.2, "accion": "sentado", "emocion": "triste", "mirar": -1, "habla": false }
+        ]
+      },
+      {
+        "dia": 23,
+        "texto": "Al día siguiente paró en la puerta un convoy de los militares de emergencias. Dentro, envuelta en una manta, estaba Asun.",
+        "drama": 0.65,
+        "fondo": { "lugar": "ciudad", "hora": "dia", "clima": "despejado",
+          "props": [ { "tipo": "coche-abandonado", "x": -1.1 }, { "tipo": "barricada", "x": 1.2 } ] },
+        "personajes": [
+          { "quien": "soldado", "x": -0.55, "accion": "quieto", "emocion": "neutral", "mirar": 1, "habla": false },
+          { "quien": "asun", "x": 0.4, "accion": "caminar", "emocion": "cansado", "mirar": -1, "habla": false, "entra": "der" }
+        ]
+      },
+      {
+        "dia": 23,
+        "texto": "Nora no dijo nada. Solo corrió. Yo las miré, agarradas la una a la otra, y me di cuenta de que llevaba dos semanas sin llorar.",
+        "drama": 0.5,
+        "personajes": [
+          { "quien": "hugo", "x": -0.65, "accion": "triste", "emocion": "feliz", "mirar": 1, "habla": false },
+          { "quien": "nora", "x": 0.05, "accion": "correr", "emocion": "feliz", "mirar": 1, "habla": false, "entra": "izq" },
+          { "quien": "asun", "x": 0.4, "accion": "celebrar", "emocion": "feliz", "mirar": -1, "habla": false }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 24,
+        "texto": "Rumbo a la base aérea, el cierzo volvió a soplar: ni un gris en la autovía, todos escondidos en los portales. Pero el viento, tarde o temprano, siempre para.",
+        "drama": 0.7,
+        "fondo": { "lugar": "campo", "hora": "dia", "clima": "despejado",
+          "props": [ { "tipo": "coche-abandonado", "x": -1.1 }, { "tipo": "semaforo", "x": 1.2 } ] },
+        "personajes": [
+          { "quien": "marta", "x": -0.6, "accion": "caminar", "emocion": "neutral", "mirar": 1, "habla": false, "entra": "izq" },
+          { "quien": "hugo", "x": 0, "accion": "caminar", "emocion": "neutral", "mirar": 1, "habla": false, "entra": "izq", "objeto": "🎒" },
+          { "quien": "nora", "x": 0.55, "accion": "caminar", "emocion": "neutral", "mirar": 1, "habla": false, "entra": "izq" }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 25,
+        "corte": true,
+        "texto": "La base aérea de Zaragoza tiene una pista de casi cuatro kilómetros preparada para el transbordador de la NASA. Nunca vino ninguno.",
+        "drama": 0.6,
+        "fondo": { "lugar": "campo", "hora": "dia", "clima": "despejado",
+          "props": [ { "tipo": "✈️", "x": 0.9, "escala": 0.8 }, { "tipo": "bandera", "x": -1.1 }, { "tipo": "valla", "x": -0.5 } ] },
+        "personajes": [
+          { "quien": "hugo", "x": -0.3, "accion": "senalar", "emocion": "neutral", "mirar": 1, "habla": false },
+          { "quien": "nora", "x": 0.3, "accion": "quieto", "emocion": "triste", "mirar": -1, "habla": false }
+        ],
+        "insercion": { "tipo": "dato", "valor": "3.718 m", "etiqueta": "pista de la base aérea, preparada para el transbordador espacial (ninguno llegó a usarla)", "icono": "✈️" }
+      },
+      {
+        "dia": 25,
+        "texto": "Se lo conté a Nora para distraerla de las colas. Sonrió después de muchos días: si allí nunca tomó tierra una nave, dijo, ya tocaba que despegara algo.",
+        "drama": 0.5,
+        "personajes": [
+          { "quien": "hugo", "x": -0.3, "accion": "quieto", "emocion": "feliz", "mirar": 1, "habla": false },
+          { "quien": "nora", "x": 0.3, "accion": "hablar", "emocion": "feliz", "mirar": -1, "habla": false }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 26,
+        "texto": "Prométeme que vendrás en el próximo avión. Y tráele a la abuela la foto del abuelo, la que se quedó en casa.",
+        "drama": 0.6,
+        "fondo": { "lugar": "campo", "hora": "atardecer", "clima": "despejado",
+          "props": [ { "tipo": "✈️", "x": -1.0, "escala": 0.8 }, { "tipo": "helicoptero", "x": 1.0 } ] },
+        "personajes": [
+          { "quien": "nora", "x": -0.15, "accion": "hablar", "emocion": "triste", "mirar": 1, "habla": true },
+          { "quien": "hugo", "x": 0.4, "accion": "quieto", "emocion": "triste", "mirar": -1, "habla": false },
+          { "quien": "asun", "x": -0.65, "accion": "quieto", "emocion": "triste", "mirar": 1, "habla": false }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 26,
+        "texto": "Nora y Asun subieron al avión. Yo me quedé, porque en la base faltaban manos. Lo que vi al volver a casa no se lo he contado a Nora.",
+        "drama": 0.7,
+        "fondo": { "lugar": "campo", "hora": "noche", "clima": "despejado",
+          "props": [ { "tipo": "bandera", "x": -1.1 }, { "tipo": "valla", "x": 1.0 } ] },
+        "personajes": [ { "quien": "hugo", "x": 0.1, "accion": "sentado", "emocion": "triste", "mirar": 1, "habla": false } ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 29,
+        "corte": true,
+        "texto": "Los grises se fueron apagando de sed, y volví a la Magdalena a por la foto del abuelo de Nora. Sol, cierzo y ni un alma en toda Zaragoza.",
+        "drama": 0.6,
+        "fondo": { "lugar": "calle", "hora": "dia", "clima": "despejado",
+          "props": [ { "tipo": "⛪", "x": -1.1, "escala": 0.9 }, { "tipo": "farola", "x": 1.1 }, { "tipo": "coche-abandonado", "x": 0.5 } ] },
+        "personajes": [ { "quien": "hugo", "x": 0.1, "accion": "caminar", "emocion": "neutral", "mirar": 1, "habla": false, "entra": "izq", "objeto": "🎒" } ],
+        "camara": "paneo",
+        "insercion": { "tipo": "cita", "frase": "Barrios del norte, recuperados. Repito: recuperados.", "firma": "Radio militar, día 29 (ficción)" }
+      },
+      {
+        "dia": 30,
+        "texto": "Día treinta. Se puso a llover y, desde el tejado, vi a un gris que no corría a esconderse. Caminaba despacio, bajo la lluvia, rumbo a un charco.",
+        "drama": 0.85,
+        "fondo": { "lugar": "ciudad", "hora": "atardecer", "clima": "lluvia",
+          "props": [ { "tipo": "antena", "x": -1.2 }, { "tipo": "pilar", "x": 1.2, "escala": 1.6, "detras": true } ] },
+        "personajes": [
+          { "quien": "hugo", "x": -0.45, "accion": "quieto", "emocion": "sorpresa", "mirar": 1, "habla": false },
+          { "quien": "gris2", "x": 0.55, "accion": "caminar", "emocion": "neutral", "mirar": 1, "habla": false, "escala": 0.75 }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 30,
+        "texto": "Se agachó junto al charco y bebió, despacio, sin un solo espasmo. En la radio, alguien hablaba entre chasquidos de casos nuevos en Valencia.",
+        "drama": 0.9,
+        "fondo": { "lugar": "calle", "hora": "atardecer", "clima": "lluvia",
+          "props": [ { "tipo": "farola", "x": -1.1 }, { "tipo": "💧", "x": 0.5, "escala": 0.4 }, { "tipo": "coche-abandonado", "x": 1.2 } ] },
+        "personajes": [ { "quien": "gris2", "x": 0.15, "accion": "trabajar", "emocion": "neutral", "mirar": 1, "habla": false } ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 30,
+        "texto": "Y entonces lo entendí. La fiebre gris había aprendido a beber. Y en Zaragoza, el agua era lo único que nos protegía.",
+        "drama": 0.9,
+        "fondo": { "lugar": "ciudad", "hora": "noche", "clima": "lluvia",
+          "props": [ { "tipo": "antena", "x": -1.2 }, { "tipo": "pilar", "x": 1.2, "escala": 1.6, "detras": true } ] },
+        "personajes": [ { "quien": "hugo", "x": 0, "accion": "asustado", "emocion": "miedo", "mirar": 1, "habla": false, "objeto": "📻" } ],
+        "camara": "subir"
+      },
+      {
+        "corte": true,
+        "texto": "Hugo, Nora y la fiebre gris son inventados. La rabia, las hormigas de Tailandia y la Zaragoza que has visto, no. Y en dos mil once, Estados Unidos publicó una guía contra muertos vivientes.",
+        "drama": 0.6,
+        "fondo": { "lugar": "rio", "hora": "dia", "clima": "despejado",
+          "props": [ { "tipo": "puente", "x": 0, "detras": true }, { "tipo": "pilar", "x": -1.2, "escala": 1.8, "detras": true } ] },
+        "personajes": [
+          { "quien": "asun", "x": -0.6, "accion": "quieto", "emocion": "feliz", "mirar": 1, "habla": false },
+          { "quien": "nora", "x": -0.15, "accion": "quieto", "emocion": "feliz", "mirar": 1, "habla": false },
+          { "quien": "hugo", "x": 0.4, "accion": "quieto", "emocion": "neutral", "mirar": -1, "habla": false }
+        ],
+        "insercion": { "tipo": "dato", "valor": "2011", "etiqueta": "los CDC de EE. UU. publican una guía «contra zombis» para enseñar a preparar un kit de emergencia… y su blog se cae por las visitas", "icono": "🎒" }
+      },
+      {
+        "texto": "¿Tú habrías salido con el cierzo o te habrías quedado en casa? Cuéntamelo en los comentarios y suscríbete, porque la fiebre gris no ha dicho su última palabra.",
+        "drama": 0.65,
+        "fondo": { "lugar": "rio", "hora": "atardecer", "clima": "despejado",
+          "props": [ { "tipo": "puente", "x": 0, "detras": true }, { "tipo": "pilar", "x": -1.2, "escala": 1.6, "detras": true } ] },
+        "personajes": [ { "quien": "hugo", "x": 0.3, "accion": "saludar", "emocion": "neutral", "mirar": -1, "habla": false } ]
+      }
+    ]
+  },
+  "publicacion": {
+    "tituloLargo": "Un mes en la vida de UN SUPERVIVIENTE DEL APOCALIPSIS ZOMBI (Zaragoza, 2031) | El virus que odia el agua",
+    "descripcion": "Treinta días en la vida de Hugo, un técnico de ascensores del barrio de la Magdalena, cuando una pariente nueva de la rabia, «la fiebre gris», llega a Zaragoza en octubre de 2031. Los grises no son muertos: son personas enfermas que no duermen, muerden y odian el agua y el viento. Con una niña de once años, su abuela mordida y un suero que solo sirve antes de la fiebre, Hugo cruza el puente de Piedra, aprende a moverse con el cierzo y llega a la zona segura del meandro de Ranillas… justo antes de que el Ebro baje.\n\nAVISO: es FICCIÓN con ciencia real. Hugo, Nora, Asun, Marta, Samir y el lisavirus LV-31 son inventados. Son reales: la rabia (unas 59.000 muertes al año según la OMS, incubación de 1 a 3 meses, hidrofobia y aerofobia), las hormigas «zombi» de Tailandia y su hongo (BMC Ecology, 2011), el CONPLAN 8888 del Mando Estratégico de EE. UU. (un ejercicio de entrenamiento, no un plan real), la guía «Zombie Apocalypse» de los CDC (2011), el mito del pánico y los saqueos en desastres (Disaster Research Center, Universidad de Delaware), los consejos de agua y nevera en un apagón, el cierzo y su racha récord de 135 km/h, el agua del Pirineo que bebe Zaragoza, el puente de Piedra, los terrenos de la Expo 2008 en Ranillas, el Pabellón Puente y la pista de la base aérea preparada para el transbordador espacial.\n\n— Semana 1: La fiebre gris\n— Semana 2: Cuando sopla el cierzo\n— Semana 3: La noche de Ranillas\n— Semana 4: La pista del transbordador\n— Epílogo: la fiebre gris aprende a beber\n\nFuentes: OMS y CDC (rabia); WHO Rabies Bulletin Europe; Hughes et al., BMC Ecology (2011); USSTRATCOM, CONPLAN 8888-11; CDC, «Preparedness 101: Zombie Apocalypse» (2011); Quarantelli, Disaster Research Center (Universidad de Delaware); CDC y Ready.gov (agua en emergencias); USDA (comida en un apagón); BOE, Real Decreto 463/2020; Ministerio de Defensa (UME); Ayuntamiento de Zaragoza (puente de Piedra, Pabellón Puente, agua de boca); AEMET (cierzo); Aena (historia del aeropuerto de Zaragoza).",
+    "etiquetas": [
+      "un mes en la vida de",
+      "apocalipsis zombi",
+      "zombis",
+      "Zaragoza",
+      "rabia",
+      "ciencia ficción",
+      "supervivencia",
+      "cierzo",
+      "río Ebro",
+      "hormigas zombi",
+      "futuro",
+      "animación"
+    ],
+    "miniatura": {
+      "texto": "ODIAN EL AGUA",
+      "escena": 53,
+      "quien": "hugo",
+      "emocion": "miedo",
+      "icono": "💧"
+    },
+    "shorts": [
+      { "titulo": "Hoy he arreglado mi último ascensor… y empieza el fin 🧟", "descripcion": "Zaragoza, octubre de 2031: la radio habla de una rabia rara en Francia y nadie hace caso. #shorts #zombis #zaragoza" },
+      { "titulo": "El primer caso: un camionero mordido en la autovía", "descripcion": "Seis horas después ya no reconocía a su mujer. Y el Gobierno declara el estado de alarma. #shorts #apocalipsiszombi" },
+      { "titulo": "Vi a un zombi apartarse del agua como si quemara", "descripcion": "No están muertos: son personas con fiebre que no duermen. Y tienen un punto débil. #shorts #zombis #ciencia" },
+      { "titulo": "Una nevera sin luz aguanta 4 horas. ¿Y tu agua?", "descripcion": "Apagón, día del Pilar vacío y un grifo que ya no da agua en un cuarto piso. #shorts #supervivencia" },
+      { "titulo": "El viento de Zaragoza que esconde a los zombis", "descripcion": "Con cierzo fuerte, los grises se meten en los portales. Las películas mienten sobre los saqueos. #shorts #cierzo" },
+      { "titulo": "Lo peor nunca llega con ruido", "descripcion": "El viento se para, Asun baja al patio… y aparece una marca de dientes. La cuenta atrás empieza. #shorts #zombis" },
+      { "titulo": "Un suero que solo sirve antes de la fiebre", "descripcion": "Cuatro kilómetros, un río y el puente de Piedra a oscuras para salvar a Asun. #shorts #rabia #zaragoza" },
+      { "titulo": "EE. UU. tenía un plan real contra zombis", "descripcion": "Lo cuenta Marta en un tejado rodeado de grises, mientras Asun corre contra el reloj. #shorts #conplan8888" },
+      { "titulo": "La zona segura perfecta… tenía un fallo", "descripcion": "Un meandro rodeado por el Ebro y un generador que rugía demasiado. #shorts #apocalipsiszombi" },
+      { "titulo": "Tres días de niebla y el Ebro bajó demasiado", "descripcion": "La noche en que cayó la zona segura de Ranillas, y Nora no estaba. #shorts #zombis #ebro" },
+      { "titulo": "Busqué a una niña a oscuras entre zombis", "descripcion": "La Torre del Agua, una lluvia que llega a tiempo y un nombre que falta en la lista. #shorts #supervivencia" },
+      { "titulo": "Reencuentro en pleno apocalipsis zombi 💧", "descripcion": "Una nave de Cogullada, un convoy militar y el cierzo de vuelta. Pero el viento siempre para. #shorts #zaragoza" },
+      { "titulo": "Zaragoza tiene una pista para el transbordador espacial", "descripcion": "Nunca la usó ninguno. En 2031 sirve para otra cosa: sacar a los niños. #shorts #ciencia #zaragoza" },
+      { "titulo": "El zombi que bebió de un charco", "descripcion": "El final del mes, bajo la lluvia, cuando la fiebre gris aprende algo nuevo. #shorts #zombis #finalabierto" },
+      { "titulo": "¿Qué es real en este apocalipsis zombi?", "descripcion": "La rabia, las hormigas zombi y la guía antizombis de 2011 existen de verdad. ¿Tú qué habrías hecho? #shorts #ciencia" }
+    ]
+  }
+}
