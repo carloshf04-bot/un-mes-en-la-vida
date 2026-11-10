@@ -70,7 +70,7 @@ const igualSonido = (a, b) => sonido(a) === sonido(b);
 // alineamiento por programación dinámica: guion (g) frente a whisper (w)
 const alinear = (g, w) => {
   const m = g.length, n = w.length;
-  const coste = (a, b) => (a === b || igualSonido(a, b) ? 0 : parecido(sonido(a), sonido(b)) >= 0.7 ? 0.3 : 1);
+  const coste = (a, b) => (a === b || igualSonido(a, b) || ALT[a]?.includes(b) ? 0 : parecido(sonido(a), sonido(b)) >= 0.7 || (ALT[a] ?? []).some((r) => parecido(r, b) >= 0.7) ? 0.3 : 1);
   const D = Array.from({ length: m + 1 }, () => new Float64Array(n + 1));
   const P = Array.from({ length: m + 1 }, () => new Uint8Array(n + 1));
   for (let i = 1; i <= m; i++) { D[i][0] = i; P[i][0] = 1; }
@@ -103,6 +103,14 @@ const alinear = (g, w) => {
   }
   return { pares: pares.reverse(), errores: errores.reverse() };
 };
+
+// grafías reales de las palabras escritas como suenan (whisper suele escribir la real: «Guín» → «Gein»)
+const guion = JSON.parse(readFileSync(join(ESTUDIO, "guiones", `${slug}.json`), "utf8"));
+const ALT = {};
+for (const [fon, real] of Object.entries(guion.grafias ?? {})) {
+  const f = tokens(fon)[0];
+  if (f) ALT[f] = [...(ALT[f] ?? []), ...tokens(real)];
+}
 
 // ---------- whisper ----------
 const tmp = join(tmpdir(), `revisar-${slug}`);
