@@ -1,0 +1,1230 @@
+{
+  "slug": "tenochtitlan-1519",
+  "titulo": "un muchacho de Tenochtitlan",
+  "lugar": "Tenochtitlan, lago de Texcoco",
+  "epoca": "Noviembre de 1519",
+  "categoria": "epoca",
+  "drama": 0.65,
+  "velocidad": 1.15,
+  "musica": "epico",
+  "paleta": {
+    "acento": "#1aa39a",
+    "texto": "#f5efe0",
+    "fondo": "#0f2a33",
+    "papel": "#efe2c4"
+  },
+  "reparto": {
+    "tochtli": {
+      "piel": "#a8724c",
+      "pelo": "#16110d",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": { "tipo": "tilma", "color": "#d9c9a0", "color2": "#f1ead8", "detalle": "#8a6a3e" },
+      "sombrero": "ninguno",
+      "altura": 0.92,
+      "zapatos": "#c9a46e"
+    },
+    "padre": {
+      "piel": "#94603c",
+      "pelo": "#1a1410",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": { "tipo": "tilma", "color": "#bfa57a", "color2": "#ece4d0", "detalle": "#6b4a2a" },
+      "sombrero": "ninguno",
+      "zapatos": "#c9a46e"
+    },
+    "madre": {
+      "piel": "#a06a45",
+      "pelo": "#15100c",
+      "peinado": "trenzas",
+      "barba": "ninguna",
+      "ropa": { "tipo": "vestido", "color": "#f3eee2", "color2": "#3e5c76", "detalle": "#c23b22" },
+      "sombrero": "ninguno",
+      "zapatos": "#c9a46e",
+      "voz": "narradora-es"
+    },
+    "maestro": {
+      "piel": "#8e5a38",
+      "pelo": "#5a5048",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": { "tipo": "tilma", "color": "#a3472e", "color2": "#e8e0cc", "detalle": "#2b2b2b" },
+      "sombrero": "ninguno",
+      "zapatos": "#c9a46e"
+    },
+    "sacerdote": {
+      "piel": "#4a4440",
+      "pelo": "#0e0c0a",
+      "peinado": "largo",
+      "barba": "ninguna",
+      "ropa": { "tipo": "tilma", "color": "#1f1d1c", "color2": "#2a2624", "detalle": "#6b1d1d" },
+      "sombrero": "ninguno",
+      "zapatos": "#8a6a4a"
+    },
+    "moctezuma": {
+      "piel": "#a46d48",
+      "pelo": "#120e0b",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": { "tipo": "tilma", "color": "#1aa39a", "color2": "#f5efe0", "detalle": "#d4a62a" },
+      "sombrero": "penacho",
+      "colorSombrero": "#2e8b57",
+      "zapatos": "#d4a62a"
+    },
+    "cortes": {
+      "piel": "#e6c09c",
+      "pelo": "#2e2118",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": { "tipo": "armadura", "color": "#8a8a90", "color2": "#3a3030", "detalle": "#6b4a2a" },
+      "sombrero": "morrion",
+      "colorSombrero": "#9a9aa0",
+      "zapatos": "#4a3626"
+    },
+    "soldado": {
+      "piel": "#e3b48c",
+      "pelo": "#5a3a22",
+      "peinado": "corto",
+      "barba": "larga",
+      "ropa": { "tipo": "armadura", "color": "#7a7a80", "color2": "#4a3a2a", "detalle": "#5a4a36" },
+      "sombrero": "morrion",
+      "colorSombrero": "#8a8a90",
+      "zapatos": "#4a3626"
+    },
+    "malintzin": {
+      "piel": "#b07a52",
+      "pelo": "#120e0b",
+      "peinado": "largo",
+      "barba": "ninguna",
+      "ropa": { "tipo": "vestido", "color": "#f5ecd6", "color2": "#8a3b2e", "detalle": "#1aa39a" },
+      "sombrero": "ninguno",
+      "zapatos": "#c9a46e",
+      "voz": "narradora-es"
+    }
+  },
+  "largo": {
+    "escenas": [
+      {
+        "corte": true,
+        "texto": "Me llamo Tóchtli, que significa conejo, y vivo en una isla en mitad de un lago. Dentro de una semana, unos extranjeros con perros enormes van a caminar sobre el agua hasta mi casa.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            { "tipo": "templo-mayor", "x": -1.2, "escala": 1.6 },
+            { "tipo": "volcan", "x": 1.3, "escala": 2 },
+            { "tipo": "canoa", "x": -0.2 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": 0.45, "accion": "quieto", "emocion": "neutral", "mirar": -1 }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Esta es la historia del mes en que mi mundo cambió de dueño. Y de por qué nadie aquí los tomó por dioses.",
+        "drama": 0.7,
+        "personajes": [
+          { "quien": "tochtli", "x": 0.4, "accion": "hablar", "emocion": "neutral", "mirar": -1 }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 1,
+        "capitulo": "Humo entre los volcanes",
+        "texto": "Soy meshica, hijo de un remero. Mi padre lleva piedra y agua de beber por los canales de Tenochtitlán. Yo empujo la pértiga desde que sé andar.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            { "tipo": "calzada" },
+            { "tipo": "canoa", "x": 0 },
+            { "tipo": "ahuejote", "x": -1.2 },
+            { "tipo": "ahuejote", "x": 1.25 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": -0.4, "accion": "trabajar", "emocion": "feliz", "mirar": 1 },
+          { "quien": "padre", "x": 0.45, "accion": "trabajar", "emocion": "neutral", "mirar": -1, "habla": false }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 1,
+        "texto": "Puede que seamos doscientas mil personas. Tres caminos de piedra nos unen a la orilla, con puentes de madera que se pueden quitar. Nadie entra sin permiso. O eso creía.",
+        "drama": 0.65,
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Tenochtitlan",
+          "detalle": "Lago de Texcoco · noviembre de 1519",
+          "icono": "📍"
+        }
+      },
+      {
+        "corte": true,
+        "dia": 2,
+        "texto": "Antes del alba ya estamos en el agua. Pasamos entre chinampas, huertos ganados al lago con capas de lodo. Los sujetan los auejotes, unos árboles altos y flacos como mi tío.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "amanecer",
+          "clima": "niebla",
+          "props": [
+            { "tipo": "chinampa", "x": -0.6 },
+            { "tipo": "ahuejote", "x": -1.2 },
+            { "tipo": "ahuejote", "x": 1.2 },
+            { "tipo": "canoa", "x": 0.4 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": 0.15, "accion": "trabajar", "emocion": "neutral", "mirar": -1 },
+          { "quien": "padre", "x": 0.75, "accion": "trabajar", "emocion": "cansado", "mirar": -1, "habla": false }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 2,
+        "texto": "Mi padre recoge del agua una capa verde y viscosa. Es tecuítlatl, pan de algas, y se come tostado. Los extranjeros lo compararán con queso.",
+        "drama": 0.5,
+        "personajes": [
+          { "quien": "padre", "x": -0.3, "accion": "cargar", "objeto": "🌿", "emocion": "feliz", "mirar": 1, "habla": false },
+          { "quien": "tochtli", "x": 0.45, "accion": "quieto", "emocion": "sorpresa", "mirar": -1, "habla": false }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 2,
+        "texto": "Del lago sale casi todo: pescado blanco, ranas, patos y ajolotes, riquísimos en tamales. Y huevos de mosca de agua, que se comen en tortitas.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            { "tipo": "chinampa", "x": 0.9 },
+            { "tipo": "ahuejote", "x": -1.25 },
+            { "tipo": "🐟", "x": -0.7, "escala": 0.4 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": -0.1, "accion": "cargar", "objeto": "🐟", "emocion": "feliz", "mirar": 1 }
+        ]
+      },
+      {
+        "dia": 2,
+        "texto": "Pero esa mañana, en el embarcadero, nadie habla de pescado. Hablan de Cholula, donde unos hombres con barba mataron a miles de personas en el patio de un templo.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            { "tipo": "calzada" },
+            { "tipo": "canoa", "x": -0.9 },
+            { "tipo": "canoa", "x": 0.9 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": -0.35, "accion": "asustado", "emocion": "miedo", "mirar": 1 },
+          { "quien": "padre", "x": 0.4, "accion": "hablar", "emocion": "miedo", "mirar": -1, "habla": false }
+        ],
+        "insercion": {
+          "tipo": "dato",
+          "valor": "+3.000",
+          "etiqueta": "muertos en Cholula en dos horas, según el propio Cortés",
+          "icono": "⚔️"
+        }
+      },
+      {
+        "corte": true,
+        "dia": 3,
+        "texto": "Aquí no hay gallos. Me despierta una piedra: mi madre lleva horas ante el metate, moliendo masa para las tortillas. Piedra contra piedra.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "amanecer",
+          "ventana": true,
+          "props": [
+            { "tipo": "metate", "x": -0.9 },
+            { "tipo": "petate", "x": 0.8 },
+            { "tipo": "brasero", "x": 1.3 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": 0.45, "accion": "sentado", "emocion": "cansado", "mirar": -1 },
+          { "quien": "madre", "x": -0.45, "accion": "trabajar", "emocion": "neutral", "mirar": 1, "habla": false }
+        ]
+      },
+      {
+        "dia": 3,
+        "texto": "Luego corro al telpochcáli, la escuela de mi barrio. En mi isla, todos los chicos van a la escuela. Acarreamos leña, limpiamos canales y aprendemos a luchar.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            { "tipo": "casa-adobe", "x": -1.1 },
+            { "tipo": "templo-mayor", "x": 1.2, "escala": 1.5 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": -0.35, "accion": "correr", "emocion": "feliz", "mirar": 1, "entra": "izq" },
+          { "quien": "maestro", "x": 0.5, "accion": "senalar", "emocion": "neutral", "mirar": -1, "habla": false }
+        ]
+      },
+      {
+        "dia": 3,
+        "texto": "Mírame la nuca. Llevo el mechón que nos dejan de niños. Solo se corta cuando capturas a tu primer prisionero en la guerra. Yo todavía no he capturado ni un pato.",
+        "drama": 0.5,
+        "personajes": [
+          { "quien": "tochtli", "x": 0, "accion": "hablar", "emocion": "feliz", "mirar": 1 }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 3,
+        "texto": "Y no me quejo. De pequeño, por desobediente, me pusieron sobre el humo de chiles quemados. Es un castigo corriente. Todavía lloro al recordarlo.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            { "tipo": "brasero", "x": -0.9 },
+            { "tipo": "petate", "x": 0.9 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": 0.2, "accion": "sentado", "emocion": "triste", "mirar": -1 }
+        ],
+        "insercion": {
+          "tipo": "dato",
+          "valor": "11 años",
+          "etiqueta": "edad del castigo del humo de chile (Códice Mendoza)",
+          "icono": "🌶️"
+        }
+      },
+      {
+        "corte": true,
+        "dia": 4,
+        "texto": "Al sureste, el Popocatépetl echa humo. Y llega un aviso: los extranjeros han subido entre los dos volcanes, con más de mil guerreros de Tlascala, nuestros enemigos.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            { "tipo": "casa-adobe", "x": -1.0 },
+            { "tipo": "volcan", "x": 1.3, "escala": 2.2 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": -0.3, "accion": "senalar", "emocion": "sorpresa", "mirar": 1 }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 4,
+        "texto": "Ese paso está a más de tres mil quinientos metros. Uno de ellos, Diego de Ordaz, quiso subir a la boca humeante del volcán solo para ver qué era.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "dia",
+          "clima": "nieve",
+          "props": [
+            { "tipo": "volcan", "x": -1.3, "escala": 2.3 },
+            { "tipo": "🐎", "x": 1.0, "escala": 0.5 }
+          ]
+        },
+        "personajes": [
+          { "quien": "soldado", "x": -0.25, "accion": "caminar", "emocion": "cansado", "mirar": -1, "habla": false },
+          { "quien": "cortes", "x": 0.45, "accion": "caminar", "emocion": "neutral", "mirar": -1, "habla": false }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 5,
+        "texto": "Quinto día. Llega gente de Chalco: sus señores se han quejado a los extranjeros del tributo que nos pagan. El camino hasta aquí se queda sin amigos.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            { "tipo": "calzada" },
+            { "tipo": "canoa", "x": 0.8 },
+            { "tipo": "ahuejote", "x": -1.25 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": -0.4, "accion": "pensar", "emocion": "miedo", "mirar": 1 },
+          { "quien": "padre", "x": 0.35, "accion": "triste", "emocion": "enfado", "mirar": -1, "habla": false }
+        ]
+      },
+      {
+        "dia": 7,
+        "texto": "Nuestro gran señor, Moctezuma, les ha pedido que no sigan. Siguen. Esta noche duermen en Istapalapa, en las casas de su hermano Cuitláuac. Desde mi tejado veo sus hogueras. Mañana entran.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            { "tipo": "antorcha", "x": -1.1 },
+            { "tipo": "hoguera", "x": 1.2, "escala": 0.6 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": -0.2, "accion": "quieto", "emocion": "miedo", "mirar": 1 }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Iztapalapa",
+          "detalle": "7 de noviembre de 1519 · a un día de Tenochtitlan",
+          "icono": "📍"
+        }
+      },
+      {
+        "corte": true,
+        "dia": 8,
+        "capitulo": "Caminan sobre el agua",
+        "texto": "Ocho de noviembre. Toda la isla está en los tejados y en las canoas. Por el camino de Istapalapa vienen unos cuatrocientos extranjeros, y detrás, sus aliados.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            { "tipo": "calzada" },
+            { "tipo": "canoa", "x": -1.0 },
+            { "tipo": "canoa", "x": 0.9 },
+            { "tipo": "volcan", "x": 1.3, "escala": 1.8 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": -0.4, "accion": "senalar", "emocion": "sorpresa", "mirar": 1 },
+          { "quien": "padre", "x": 0.4, "accion": "quieto", "emocion": "miedo", "mirar": 1, "habla": false }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 8,
+        "texto": "Van cubiertos de metal que brilla al sol. Algunos montan venados enormes, sin cuernos, que retumban sobre la piedra. Así llamamos a los caballos.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "polvo",
+          "props": [
+            { "tipo": "casa-adobe", "x": -1.15 },
+            { "tipo": "🐎", "x": 0.95, "escala": 0.7 }
+          ]
+        },
+        "personajes": [
+          { "quien": "cortes", "x": -0.35, "accion": "caminar", "emocion": "neutral", "mirar": 1, "entra": "izq", "habla": false },
+          { "quien": "soldado", "x": 0.3, "accion": "caminar", "emocion": "neutral", "mirar": 1, "habla": false }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 8,
+        "texto": "Entonces llega Moctezuma, en andas, bajo un palio de plumas verdes. Los señores barren el suelo y tienden mantas para que no pise la tierra.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            { "tipo": "casa-adobe", "x": -1.1 },
+            { "tipo": "templo-mayor", "x": 1.2, "escala": 1.8 },
+            { "tipo": "petate", "x": 0.3 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": -0.6, "accion": "pensar", "emocion": "sorpresa", "mirar": 1 },
+          { "quien": "moctezuma", "x": 0.35, "accion": "quieto", "emocion": "neutral", "mirar": -1, "habla": false }
+        ],
+        "camara": "subir"
+      },
+      {
+        "dia": 8,
+        "texto": "Cortés, su capitán, va a estrecharlo contra el pecho. Los señores lo frenan en seco: a nuestro gran señor nadie lo toca ni lo mira a la cara. Yo miro de reojo.",
+        "drama": 0.7,
+        "personajes": [
+          { "quien": "tochtli", "x": -0.75, "accion": "quieto", "emocion": "sorpresa", "mirar": 1 },
+          { "quien": "cortes", "x": -0.05, "accion": "saludar", "emocion": "feliz", "mirar": 1, "habla": false },
+          { "quien": "moctezuma", "x": 0.7, "accion": "quieto", "emocion": "neutral", "mirar": -1, "habla": false }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "corte": true,
+        "dia": 8,
+        "texto": "Cortés le pone un collar de cuentas de vidrio. Moctezuma le devuelve collares de caracoles rojos con camarones de oro. Un soldado escribirá que creyó vivir un libro de encantamientos.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            { "tipo": "casa-adobe", "x": -1.1 },
+            { "tipo": "templo-mayor", "x": 1.2, "escala": 1.8 }
+          ]
+        },
+        "personajes": [
+          { "quien": "cortes", "x": -0.4, "accion": "cargar", "objeto": "📿", "emocion": "feliz", "mirar": 1, "habla": false },
+          { "quien": "moctezuma", "x": 0.4, "accion": "quieto", "emocion": "neutral", "mirar": -1, "habla": false }
+        ]
+      },
+      {
+        "dia": 8,
+        "texto": "Un día contarán que los tomamos por dioses, que creímos que su capitán era Ketsalcóatl, que volvía. Mentira. Esa historia se escribió décadas más tarde.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            { "tipo": "templo-mayor", "x": -1.2, "escala": 1.6 },
+            { "tipo": "ahuejote", "x": 1.25 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": 0.3, "accion": "hablar", "emocion": "enfado", "mirar": -1 }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1552",
+          "etiqueta": "el mito de Quetzalcóatl que vuelve aparece por escrito (López de Gómara), 33 años después",
+          "icono": "🪶"
+        }
+      },
+      {
+        "dia": 8,
+        "texto": "Los llamamos tetéo, una palabra para lo poderoso o lo extraño. Pero vemos que comen, sudan y se pelean por el oro. Nadie se arrodilla.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            { "tipo": "casa-adobe", "x": -1.1 },
+            { "tipo": "antorcha", "x": 1.1 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": -0.45, "accion": "pensar", "emocion": "neutral", "mirar": 1 },
+          { "quien": "soldado", "x": 0.45, "accion": "sentado", "objeto": "🌽", "emocion": "cansado", "mirar": -1, "habla": false }
+        ]
+      },
+      {
+        "dia": 8,
+        "texto": "Se alojan en las casas de Ashayácatl, el padre de Moctezuma. Al caer el sol disparan sus cañones. Un trueno sin nubes. Media isla se tira al suelo.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "noche",
+          "clima": "polvo",
+          "props": [
+            { "tipo": "templo-mayor", "x": -1.2, "escala": 1.7 },
+            { "tipo": "antorcha", "x": 1.15 },
+            { "tipo": "💥", "x": 0.7, "escala": 0.6 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": -0.2, "accion": "asustado", "emocion": "miedo", "mirar": 1 }
+        ],
+        "camara": "general"
+      },
+      {
+        "corte": true,
+        "dia": 9,
+        "texto": "Al día siguiente sé quién habla por ellos: Malíntsin, una mujer que regalaron como esclava. Ahora pone en náhuatl cada palabra de Cortés. Por eso a él lo llamamos Malinche.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            { "tipo": "columna", "x": -1.25 },
+            { "tipo": "brasero", "x": 1.2 },
+            { "tipo": "petate", "x": 0.6 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": 0.75, "accion": "quieto", "emocion": "sorpresa", "mirar": -1 },
+          { "quien": "malintzin", "x": 0, "accion": "hablar", "emocion": "neutral", "mirar": -1, "habla": false },
+          { "quien": "cortes", "x": -0.7, "accion": "hablar", "emocion": "neutral", "mirar": 1, "habla": false }
+        ]
+      },
+      {
+        "dia": 12,
+        "texto": "Cuatro días después del encuentro, Moctezuma los lleva al gran mercado de Tlatelolco. Cortés escribirá que aquí compran y venden más de sesenta mil personas al día.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            { "tipo": "puesto", "x": -1.0 },
+            { "tipo": "puesto", "x": 1.0 },
+            { "tipo": "templo-mayor", "x": 1.2, "escala": 1.5 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": -0.2, "accion": "caminar", "emocion": "feliz", "mirar": 1, "entra": "izq" }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "60.000",
+          "etiqueta": "personas al día en el mercado de Tlatelolco, según Cortés",
+          "icono": "🌽"
+        }
+      },
+      {
+        "dia": 12,
+        "texto": "Cada cosa tiene su calle: plumas, sal, obsidiana, perritos para comer y esclavos atados por el cuello. Soldados que han visto Roma se quedan boquiabiertos.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            { "tipo": "puesto", "x": -1.0 },
+            { "tipo": "🪶", "x": 1.05, "escala": 0.4 },
+            { "tipo": "🌶️", "x": 0.7, "escala": 0.35 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": -0.45, "accion": "senalar", "emocion": "feliz", "mirar": 1 },
+          { "quien": "soldado", "x": 0.35, "accion": "quieto", "emocion": "sorpresa", "mirar": -1, "habla": false }
+        ]
+      },
+      {
+        "dia": 12,
+        "texto": "Y luego, mi favorito: canoas llenas de excremento humano, que se vende para curtir pieles. Las calles se barren cada día. Aquí no se tira nada.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            { "tipo": "canoa", "x": -0.8 },
+            { "tipo": "canoa", "x": 0.7 },
+            { "tipo": "puesto", "x": 1.25 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": -0.3, "accion": "hablar", "emocion": "feliz", "mirar": 1 },
+          { "quien": "soldado", "x": 0.45, "accion": "asustado", "emocion": "sorpresa", "mirar": -1, "habla": false }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "corte": true,
+        "dia": 12,
+        "texto": "Ese mismo día suben al Templo Mayor. Ciento catorce escalones, dirá uno de ellos. Arriba, dos santuarios: el rojo de Uitsilopóchtli y el azul de Tláloc.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            { "tipo": "templo-mayor", "x": 1.2, "escala": 2 },
+            { "tipo": "brasero", "x": -1.1 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": -0.5, "accion": "quieto", "emocion": "sorpresa", "mirar": 1 }
+        ],
+        "camara": "subir"
+      },
+      {
+        "dia": 12,
+        "texto": "Moctezuma los espera allí. Desde lo alto se ven los tres caminos sobre el agua y el acueducto de Chapultepec. Cortés propone colocar una imagen de la Virgen. Moctezuma se ofende.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            { "tipo": "templo-mayor", "x": -1.2, "escala": 1.8 },
+            { "tipo": "calzada" },
+            { "tipo": "volcan", "x": 1.3, "escala": 1.8 }
+          ]
+        },
+        "personajes": [
+          { "quien": "malintzin", "x": -0.75, "accion": "quieto", "emocion": "neutral", "mirar": 1, "habla": false },
+          { "quien": "cortes", "x": -0.1, "accion": "hablar", "emocion": "neutral", "mirar": 1, "habla": false },
+          { "quien": "moctezuma", "x": 0.65, "accion": "quieto", "emocion": "enfado", "mirar": -1, "habla": false }
+        ]
+      },
+      {
+        "dia": 13,
+        "texto": "Entre los sirvientes de Ashayácatl corre un rumor. Un carpintero extranjero, buscando sitio para un altar, ha visto en una pared una puerta tapiada, con la cal aún fresca.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            { "tipo": "antorcha", "x": -1.15 },
+            { "tipo": "puerta", "x": 0.95 }
+          ]
+        },
+        "personajes": [
+          { "quien": "soldado", "x": -0.1, "accion": "trabajar", "objeto": "🔨", "emocion": "sorpresa", "mirar": 1, "habla": false }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 13,
+        "texto": "La abren en secreto. Dentro está el tesoro del padre de Moctezuma: oro, joyas, plumas, mantas. Cortés manda tapiarla otra vez. Por ahora.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            { "tipo": "antorcha", "x": -1.15 },
+            { "tipo": "tesoro", "x": 0.9 }
+          ]
+        },
+        "personajes": [
+          { "quien": "cortes", "x": -0.4, "accion": "senalar", "emocion": "sorpresa", "mirar": 1, "habla": false },
+          { "quien": "soldado", "x": 0.3, "accion": "quieto", "emocion": "feliz", "mirar": 1, "habla": false }
+        ],
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Tras la pared tapiada",
+          "items": [
+            { "icono": "💰", "nombre": "Oro" },
+            { "icono": "💎", "nombre": "Joyas" },
+            { "icono": "🪶", "nombre": "Plumas" },
+            { "icono": "🧺", "nombre": "Mantas" }
+          ]
+        }
+      },
+      {
+        "corte": true,
+        "dia": 13,
+        "texto": "Y entonces llega un mensaje de la costa. Un señor meshica, Cuaupopoca, ha matado a Juan de Escalante y a varios de los suyos. Cortés ya tiene su excusa.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            { "tipo": "calzada" },
+            { "tipo": "canoa", "x": 0.85 },
+            { "tipo": "templo-mayor", "x": -1.2, "escala": 1.5 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": -0.35, "accion": "asustado", "emocion": "miedo", "mirar": 1 },
+          { "quien": "padre", "x": 0.4, "accion": "hablar", "emocion": "miedo", "mirar": -1, "habla": false }
+        ]
+      },
+      {
+        "dia": 14,
+        "texto": "Seis días después del encuentro, Cortés entra con varios capitanes armados en las casas de Moctezuma. Le exige que se traslade con ellos, a las casas de su padre. Como huésped.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            { "tipo": "columna", "x": -1.25 },
+            { "tipo": "columna", "x": 1.25 },
+            { "tipo": "petate", "x": 0.7 }
+          ]
+        },
+        "personajes": [
+          { "quien": "soldado", "x": -0.75, "accion": "quieto", "emocion": "enfado", "mirar": 1, "habla": false },
+          { "quien": "cortes", "x": -0.05, "accion": "senalar", "emocion": "enfado", "mirar": 1, "habla": false },
+          { "quien": "moctezuma", "x": 0.7, "accion": "sentado", "emocion": "sorpresa", "mirar": -1, "habla": false }
+        ]
+      },
+      {
+        "dia": 14,
+        "texto": "Huésped, con guardias. Nuestro gran señor, al que nadie podía mirar a la cara, es prisionero en su propia isla. Yo no entiendo nada.",
+        "drama": 0.85,
+        "personajes": [
+          { "quien": "soldado", "x": -0.55, "accion": "quieto", "emocion": "neutral", "mirar": 1, "habla": false },
+          { "quien": "moctezuma", "x": 0.25, "accion": "triste", "emocion": "triste", "mirar": -1, "habla": false }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "6 días",
+          "etiqueta": "del encuentro a la prisión de Moctezuma (14 de noviembre, aprox.)",
+          "icono": "⚔️"
+        }
+      },
+      {
+        "dia": 14,
+        "texto": "Esa noche, mi padre no amarra la canoa. La deja lista, con la pértiga dentro. Por si hay que huir. O por si hay que luchar.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            { "tipo": "canoa", "x": 0.1 },
+            { "tipo": "ahuejote", "x": -1.25 },
+            { "tipo": "antorcha", "x": 1.2 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": -0.45, "accion": "quieto", "emocion": "miedo", "mirar": 1 },
+          { "quien": "padre", "x": 0.5, "accion": "trabajar", "emocion": "enfado", "mirar": -1, "habla": false }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "corte": true,
+        "dia": 15,
+        "capitulo": "Un rey con guardias",
+        "texto": "Lo raro es que todo sigue. Moctezuma atiende a sus señores y come como siempre: más de trescientos platos, según uno de ellos. Pero a su puerta hay espadas.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            { "tipo": "columna", "x": -1.25 },
+            { "tipo": "petate", "x": 0.5 },
+            { "tipo": "🌽", "x": 1.15, "escala": 0.4 }
+          ]
+        },
+        "personajes": [
+          { "quien": "moctezuma", "x": 0.35, "accion": "sentado", "emocion": "neutral", "mirar": -1, "habla": false },
+          { "quien": "soldado", "x": -0.6, "accion": "quieto", "emocion": "neutral", "mirar": 1, "habla": false }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 16,
+        "texto": "Y bebe cacao amargo y espumoso en copas de oro. Para nosotros, el cacao es dinero: unos años después, una lista dirá que un aguacate vale un grano. Él se bebe fortunas.",
+        "drama": 0.55,
+        "personajes": [
+          { "quien": "moctezuma", "x": 0.2, "accion": "sentado", "objeto": "🍫", "emocion": "neutral", "mirar": -1, "habla": false }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1 grano",
+          "etiqueta": "de cacao = 1 aguacate (lista de precios de Tlaxcala, 1545)",
+          "icono": "🍫"
+        }
+      },
+      {
+        "dia": 18,
+        "texto": "Son los días de Kechóli. En el patio del templo fabricamos flechas y tiramos contra pencas de maguey. Yo pienso en otros blancos.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "polvo",
+          "props": [
+            { "tipo": "templo-mayor", "x": 1.2, "escala": 1.6 },
+            { "tipo": "brasero", "x": -1.1 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": -0.35, "accion": "trabajar", "objeto": "🪶", "emocion": "enfado", "mirar": 1 }
+        ]
+      },
+      {
+        "dia": 18,
+        "texto": "El maestro, un viejo guerrero, me tira del mechón. Nada de locuras. Ellos tienen cañones. Y algo peor: tienen a nuestro señor en sus manos.",
+        "drama": 0.7,
+        "personajes": [
+          { "quien": "tochtli", "x": -0.4, "accion": "triste", "emocion": "enfado", "mirar": 1 },
+          { "quien": "maestro", "x": 0.45, "accion": "hablar", "emocion": "enfado", "mirar": -1, "habla": false }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "corte": true,
+        "dia": 19,
+        "texto": "Cortés escribirá a su rey que Moctezuma le entregó su imperio. Entre nosotros, hablar con humildad es pura cortesía. Si te digo «esta es tu casa», no te la estoy regalando.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            { "tipo": "mesa", "x": 0.9 },
+            { "tipo": "antorcha", "x": -1.1 }
+          ]
+        },
+        "personajes": [
+          { "quien": "cortes", "x": 0.25, "accion": "escribir", "emocion": "neutral", "mirar": 1, "habla": false }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 20,
+        "texto": "Los servidores de los dioses andan furiosos. Llevan el pelo largo, sin cortar ni lavar nunca, y la piel pintada de negro. Los extranjeros les tienen asco. Ellos a los extranjeros, también.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            { "tipo": "templo-mayor", "x": -1.2, "escala": 1.8 },
+            { "tipo": "brasero", "x": 1.05 }
+          ]
+        },
+        "personajes": [
+          { "quien": "sacerdote", "x": -0.35, "accion": "senalar", "emocion": "enfado", "mirar": 1, "habla": false },
+          { "quien": "soldado", "x": 0.45, "accion": "quieto", "emocion": "enfado", "mirar": -1, "habla": false }
+        ]
+      },
+      {
+        "dia": 20,
+        "texto": "Frente al Templo Mayor está el tsompántli, un altar con los cráneos de los sacrificados. Sí, aquí se sacrifica a prisioneros de guerra. No voy a esconderlo.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            { "tipo": "templo-mayor", "x": 1.2, "escala": 2 },
+            { "tipo": "antorcha", "x": -1.1 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": -0.35, "accion": "pensar", "emocion": "triste", "mirar": 1 }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 21,
+        "texto": "Quinientos años después, los arqueólogos contarán más de seiscientos cráneos en una sola torre. Pero ahora, lo que obsesiona a los extranjeros es otra cosa. El oro.",
+        "drama": 0.7,
+        "personajes": [],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "603",
+          "etiqueta": "cráneos contados por el INAH en una torre del Huei Tzompantli (2015–2020)",
+          "icono": "⛏️"
+        }
+      },
+      {
+        "corte": true,
+        "dia": 22,
+        "capitulo": "Oro y hogueras",
+        "texto": "Ahora solo hablan de una cosa: oro. Mandan hombres por todo el reino a buscarlo, y ya piensan en repartirse el tesoro de la pared.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            { "tipo": "tesoro", "x": 0.95 },
+            { "tipo": "antorcha", "x": -1.15 }
+          ]
+        },
+        "personajes": [
+          { "quien": "cortes", "x": -0.35, "accion": "senalar", "emocion": "feliz", "mirar": 1, "habla": false },
+          { "quien": "soldado", "x": 0.35, "accion": "cargar", "objeto": "💰", "emocion": "feliz", "mirar": -1, "habla": false }
+        ]
+      },
+      {
+        "dia": 24,
+        "texto": "Pronto llega la fiesta de Uitsilopóchtli, la de las banderas. Cada año modelamos al dios con masa de amaranto y luego nos lo comemos entre todos. Este año, nadie sabe si habrá fiesta.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            { "tipo": "casa-adobe", "x": -1.1 },
+            { "tipo": "templo-mayor", "x": 1.2, "escala": 1.6 },
+            { "tipo": "metate", "x": -0.5 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": 0.4, "accion": "hablar", "emocion": "triste", "mirar": -1 },
+          { "quien": "madre", "x": -0.15, "accion": "trabajar", "objeto": "🫘", "emocion": "triste", "mirar": 1, "habla": false }
+        ]
+      },
+      {
+        "dia": 27,
+        "texto": "Y entonces llegan los presos de la costa: Cuaupopoca, su hijo y otros señores. Los traen ante Cortés. Yo estoy entre la gente, con la garganta seca.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "dia",
+          "clima": "polvo",
+          "props": [
+            { "tipo": "templo-mayor", "x": -1.2, "escala": 1.8 },
+            { "tipo": "columna", "x": 1.15 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": -0.55, "accion": "quieto", "emocion": "miedo", "mirar": 1 },
+          { "quien": "cortes", "x": 0.45, "accion": "senalar", "emocion": "enfado", "mirar": -1, "habla": false }
+        ]
+      },
+      {
+        "dia": 27,
+        "texto": "Los extranjeros sacan las armas de nuestro arsenal, flechas, arcos y escudos, y las apilan delante de todos. No es para luchar. Es leña.",
+        "drama": 0.85,
+        "personajes": [
+          { "quien": "tochtli", "x": -0.55, "accion": "asustado", "emocion": "miedo", "mirar": 1 },
+          { "quien": "soldado", "x": 0.4, "accion": "cargar", "objeto": "🪵", "emocion": "neutral", "mirar": -1, "habla": false }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "corte": true,
+        "dia": 28,
+        "texto": "Los queman vivos con nuestras propias armas. No voy a contarte más. Solo que el humo sube muy recto, y que nadie en toda la explanada suelta una palabra.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "atardecer",
+          "clima": "polvo",
+          "props": [
+            { "tipo": "templo-mayor", "x": -1.2, "escala": 1.8 },
+            { "tipo": "hoguera", "x": 0.7 },
+            { "tipo": "hoguera", "x": 1.2 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": -0.35, "accion": "triste", "emocion": "triste", "mirar": 1 }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 28,
+        "texto": "Mientras tanto, a Moctezuma le ponen grilletes. A nuestro gran señor. Hierro en los pies del hombre que no podía pisar la tierra.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            { "tipo": "antorcha", "x": -1.15 },
+            { "tipo": "columna", "x": 1.2 }
+          ]
+        },
+        "personajes": [
+          { "quien": "moctezuma", "x": 0.25, "accion": "sentado", "emocion": "triste", "mirar": -1, "habla": false },
+          { "quien": "soldado", "x": -0.55, "accion": "quieto", "emocion": "neutral", "mirar": 1, "habla": false }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "52 años",
+          "etiqueta": "tenía Moctezuma, gran señor de Tenochtitlan desde 1502",
+          "icono": "🪶"
+        }
+      },
+      {
+        "dia": 30,
+        "texto": "Último día del mes. Me paso la mano por el mechón de la nuca. Me lo cortaré cuando capture a mi primer prisionero. Ya sé de qué color tendrá la barba.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            { "tipo": "brasero", "x": -1.0 },
+            { "tipo": "petate", "x": 0.9 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": 0.2, "accion": "pensar", "emocion": "enfado", "mirar": -1 }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 30,
+        "texto": "Mi madre me ve la cara y no pregunta. Solo me da una tortilla caliente. Afuera, los extranjeros vigilan. Faltan seis meses para que todo estalle.",
+        "drama": 0.75,
+        "personajes": [
+          { "quien": "tochtli", "x": 0.4, "accion": "sentado", "emocion": "triste", "mirar": -1 },
+          { "quien": "madre", "x": -0.45, "accion": "cargar", "objeto": "🫓", "emocion": "triste", "mirar": 1, "habla": false }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "corte": true,
+        "texto": "Seis meses después, en la fiesta de Tóshcatl, Pedro de Alvarado ataca a los nobles que bailan desarmados. La isla se levanta y Moctezuma muere, nadie sabe a manos de quién.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "dia",
+          "clima": "polvo",
+          "props": [
+            { "tipo": "templo-mayor", "x": 1.2, "escala": 2 },
+            { "tipo": "brasero", "x": -1.1 }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "texto": "Los extranjeros huyen por el camino de Tlacopan, y muchos se ahogan cargados de oro. Ellos lo llaman la Noche Triste. Para nosotros, es una victoria.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "noche",
+          "clima": "lluvia",
+          "props": [
+            { "tipo": "calzada" },
+            { "tipo": "canoa", "x": -0.95 }
+          ]
+        },
+        "personajes": [
+          { "quien": "soldado", "x": 0.1, "accion": "correr", "objeto": "💰", "emocion": "miedo", "mirar": -1, "habla": false }
+        ],
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1520",
+          "etiqueta": "Noche Triste: mueren cientos de españoles y miles de aliados",
+          "icono": "⚔️"
+        }
+      },
+      {
+        "texto": "Luego llega la viruela, y un año después de este mes llena la isla de muertos. En agosto de mil quinientos veintiuno, tras un largo asedio, Tenochtitlán cae.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "atardecer",
+          "clima": "niebla",
+          "props": [
+            { "tipo": "templo-mayor", "x": -1.2, "escala": 1.6 },
+            { "tipo": "casa-adobe", "x": 1.1 }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Yo, Tóchtli, soy inventado; el mes, la isla y su gente son reales. ¿Dónde me imaginas aquella Noche Triste? Cuéntamelo en los comentarios y suscríbete para vivir el próximo mes.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            { "tipo": "volcan", "x": 1.3, "escala": 2 },
+            { "tipo": "canoa", "x": -0.9 },
+            { "tipo": "ahuejote", "x": -1.3 }
+          ]
+        },
+        "personajes": [
+          { "quien": "tochtli", "x": 0, "accion": "saludar", "emocion": "feliz", "mirar": 1 }
+        ]
+      }
+    ]
+  },
+  "publicacion": {
+    "tituloLargo": "Un mes en la vida de UN MUCHACHO DE TENOCHTITLAN (1519) | La llegada de Cortés vista por un mexica",
+    "descripcion": "Treinta días en la vida de Tóchtli, un muchacho mexica de Tenochtitlan, hijo de un remero y alumno del telpochcalli de su barrio, en noviembre de 1519: los rumores de Cholula, los extranjeros entre los volcanes, la entrada de Cortés por la calzada de Iztapalapa el 8 de noviembre, el mercado de Tlatelolco, el tesoro tapiado de Axayácatl y la prisión de Moctezuma.\n\nTóchtli y su familia son PERSONAJES INVENTADOS dentro de hechos reales. Son reales el encuentro entre Moctezuma y Cortés, el palacio de Axayácatl, la visita al mercado de Tlatelolco y al Templo Mayor, el tesoro tras la pared tapiada, la muerte de Juan de Escalante en la costa, la prisión de Moctezuma (14 de noviembre, aprox.) y el castigo de Cuauhpopoca. Los mexicas no creían que los españoles fueran dioses: el mito del regreso de Quetzalcóatl aparece por escrito décadas después. Las cifras de los cronistas (60.000 personas en el mercado, 300 platos, 114 escalones) son las que ellos dan, no medidas exactas. Las fechas son del calendario juliano, el de las fuentes.\n\n— Semana 1: Humo entre los volcanes\n— Semana 2: Caminan sobre el agua\n— Semana 3: Un rey con guardias\n— Semana 4: Oro y hogueras\n— Epílogo: Tóxcatl, la Noche Triste, la viruela y la caída de Tenochtitlan (13 de agosto de 1521)\n\nFuentes: Bernal Díaz del Castillo, Historia verdadera de la conquista de la Nueva España; Hernán Cortés, Segunda carta de relación (1520); fray Bernardino de Sahagún y colaboradores nahuas, Códice Florentino (libro XII); Códice Mendoza (Bodleian Library); lista de precios de Tlaxcala de 1545 (Anderson, Berdan y Lockhart, Beyond the Codices); INAH, excavaciones del Huei Tzompantli; Miguel León-Portilla, Visión de los vencidos; Camilla Townsend, «Burying the White Gods» (2003); Matthew Restall, When Montezuma Met Cortés (2018).",
+    "etiquetas": [
+      "un mes en la vida de",
+      "historia",
+      "Tenochtitlan",
+      "mexicas",
+      "aztecas",
+      "Moctezuma",
+      "Hernán Cortés",
+      "conquista de México",
+      "1519",
+      "Malintzin",
+      "vida cotidiana",
+      "animación"
+    ],
+    "miniatura": {
+      "texto": "LLEGAN LOS EXTRANJEROS",
+      "escena": 19,
+      "quien": "tochtli",
+      "emocion": "sorpresa",
+      "icono": "🐎"
+    },
+    "shorts": [
+      {
+        "titulo": "Vivo en una isla… y van a llegar unos extranjeros 🛶",
+        "descripcion": "Noviembre de 1519: un muchacho mexica de Tenochtitlan cuenta la semana antes de que Cortés cruce el lago. #shorts #historia"
+      },
+      {
+        "titulo": "Pan de algas y huevos de mosca: el menú del lago de Texcoco",
+        "descripcion": "Así se comía en Tenochtitlan, hasta que en el embarcadero empezaron a hablar de Cholula. #shorts #historia"
+      },
+      {
+        "titulo": "En la escuela mexica, el castigo era humo de chile 🌶️",
+        "descripcion": "El telpochcalli, el mechón de la nuca y un castigo que sale en el Códice Mendoza. #shorts #historia"
+      },
+      {
+        "titulo": "Subió al volcán humeante solo para ver qué era 🌋",
+        "descripcion": "Los extranjeros cruzan entre los volcanes y Moctezuma les pide que no sigan. No le hacen caso. #shorts #historia"
+      },
+      {
+        "titulo": "8 de noviembre de 1519: Moctezuma y Cortés, cara a cara",
+        "descripcion": "Venados sin cuernos, plumas verdes y un abrazo que nadie permitió. #shorts #historia"
+      },
+      {
+        "titulo": "No, los mexicas no creían que los españoles fueran dioses",
+        "descripcion": "El mito de Quetzalcóatl se escribió décadas después. Esa misma tarde, los cañones hicieron temblar la isla. #shorts #historia"
+      },
+      {
+        "titulo": "El mercado que dejó boquiabiertos a los soldados de Cortés",
+        "descripcion": "Tlatelolco: más de sesenta mil personas al día según Cortés… y canoas de excremento. #shorts #historia"
+      },
+      {
+        "titulo": "Un carpintero encontró un tesoro detrás de una pared",
+        "descripcion": "Del Templo Mayor a la puerta recién tapiada del palacio de Axayácatl. #shorts #historia"
+      },
+      {
+        "titulo": "Así se convirtió Moctezuma en prisionero en su propia ciudad",
+        "descripcion": "Seis días después del encuentro, Cortés entró armado en su palacio. #shorts #historia"
+      },
+      {
+        "titulo": "Moctezuma comía 300 platos y bebía cacao en copas de oro 🍫",
+        "descripcion": "Prisionero, pero con su corte intacta. Y fuera, un muchacho afila flechas. #shorts #historia"
+      },
+      {
+        "titulo": "¿Moctezuma regaló su imperio? Lo que Cortés no contó",
+        "descripcion": "Un discurso que solo conocemos por Cortés, y el tzompantli que hoy excava el INAH. #shorts #historia"
+      },
+      {
+        "titulo": "Apilaron nuestras armas… y no era para luchar",
+        "descripcion": "El oro, la fiesta de Huitzilopochtli en el aire y los presos que llegan de la costa. #shorts #historia"
+      },
+      {
+        "titulo": "Grilletes para el hombre que no podía pisar la tierra",
+        "descripcion": "El final de noviembre de 1519 en Tenochtitlan. Faltaban seis meses para que todo estallara. #shorts #historia"
+      },
+      {
+        "titulo": "La Noche Triste no fue triste para todos ⚔️",
+        "descripcion": "Tóxcatl, la huida de los españoles, la viruela y la caída de Tenochtitlan en 1521. #shorts #historia"
+      }
+    ]
+  }
+}

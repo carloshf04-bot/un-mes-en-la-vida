@@ -110,7 +110,7 @@
       {
         "dia": 2,
         "corte": true,
-        "texto": "El primer caso de Zaragoza fue un camionero mordido en el cuello en una gasolinera de la autovía. Seis horas después, ya no sabía quién era su mujer.",
+        "texto": "El primer caso de Zaragoza fue un camionero mordido en el cuello en la autovía. Seis horas después, ya no sabía quién era su mujer.",
         "drama": 0.8,
         "fondo": { "lugar": "ciudad", "hora": "noche", "clima": "niebla",
           "props": [ { "tipo": "coche-abandonado", "x": -1.0 }, { "tipo": "farola", "x": 1.1 }, { "tipo": "semaforo", "x": -0.4 } ] },
@@ -150,7 +150,7 @@
       {
         "dia": 5,
         "corte": true,
-        "texto": "Al quinto día los vi en la Magdalena, junto a la iglesia. Piel gris, ojos pálidos, la boca brillante. Caminaban a trompicones y, de pronto, corrían tres metros.",
+        "texto": "Al quinto día los vi en la Magdalena. Piel gris, ojos pálidos, la boca brillante. Caminaban a trompicones y, de pronto, corrían tres metros.",
         "drama": 0.85,
         "fondo": { "lugar": "calle", "hora": "dia", "clima": "niebla",
           "props": [ { "tipo": "farola", "x": -1.1 }, { "tipo": "⛪", "x": 1.2, "escala": 0.9 } ] },
@@ -212,7 +212,6 @@
       {
         "dia": 8,
         "capitulo": "Cuando sopla el cierzo",
-        "corte": false,
         "texto": "El octavo día abrí el grifo y solo salió un suspiro de aire. Sin bombas, el agua ya no sube a un cuarto piso.",
         "drama": 0.7,
         "fondo": { "lugar": "interior", "pared": "ladrillo", "hora": "dia", "ventana": true,
@@ -263,7 +262,7 @@
       },
       {
         "dia": 10,
-        "texto": "En las películas, el fin del mundo es una estampida de saqueadores. En el súper del Coso solo había cuatro personas asustadas, y un hombre me regaló una lata. El peligro estaba en mi propio portal.",
+        "texto": "En las películas, el fin del mundo es una estampida de saqueadores. En el súper del Coso solo había cuatro personas asustadas, y un hombre me regaló una lata. El peligro estaba en mi portal.",
         "drama": 0.65,
         "fondo": { "lugar": "interior", "pared": "metal", "hora": "dia", "ventana": false,
           "props": [ { "tipo": "estanteria", "x": -1.1 }, { "tipo": "estanteria", "x": 1.1 }, { "tipo": "cajas", "x": -0.4 } ] },
@@ -334,7 +333,7 @@
       },
       {
         "dia": 11,
-        "texto": "Le lavé la herida un cuarto de hora con agua y jabón, como manda el protocolo de la rabia real. Eso solo compra tiempo, y el tiempo corría.",
+        "texto": "Le lavé la herida un cuarto de hora con agua y jabón, como en la rabia real. Eso solo compra tiempo, y el tiempo corría.",
         "drama": 0.6,
         "personajes": [
           { "quien": "hugo", "x": -0.2, "accion": "trabajar", "emocion": "miedo", "mirar": 1, "habla": false },
@@ -357,7 +356,7 @@
       },
       {
         "dia": 12,
-        "texto": "Pasar a oscuras el puente de Piedra, entre coches abandonados, fue lo más largo de mi vida. Los leones del puente nos miraban. Y al otro lado, el viento se murió.",
+        "texto": "Pasar a oscuras el puente de Piedra, entre coches abandonados, fue eterno. Los leones del puente nos miraban. Y al otro lado, el viento se murió.",
         "drama": 0.85,
         "fondo": { "lugar": "rio", "hora": "amanecer", "clima": "despejado",
           "props": [ { "tipo": "puente", "x": 0, "detras": true }, { "tipo": "coche-abandonado", "x": -1.1 }, { "tipo": "pilar", "x": 1.2, "escala": 1.5, "detras": true } ] },
@@ -406,7 +405,7 @@
       },
       {
         "dia": 14,
-        "texto": "Al día siguiente volvió el cierzo y corrimos hasta el control del Pabellón Puente. Asun aún no tenía fiebre. Una enfermera le puso el suero mientras yo contaba los segundos.",
+        "texto": "Con el cierzo de vuelta, corrimos hasta el control del Pabellón Puente. Asun aún no tenía fiebre. Una enfermera le puso el suero mientras yo contaba los segundos.",
         "drama": 0.85,
         "fondo": { "lugar": "ciudad", "hora": "dia", "clima": "despejado",
           "props": [ { "tipo": "barricada", "x": -1.1 }, { "tipo": "bandera", "x": 1.2 }, { "tipo": "tienda", "x": 0.9 } ] },
@@ -434,7 +433,7 @@
       },
       {
         "dia": 15,
-        "texto": "El meandro de Ranillas era el castillo perfecto contra un enemigo que odia el agua. Nora iba a una escuela de lona y yo esperaba turno para el agua hervida.",
+        "texto": "El meandro de Ranillas era el castillo perfecto contra un enemigo que odia el agua. Nora iba a una escuela de lona.",
         "drama": 0.5,
         "fondo": { "lugar": "rio", "hora": "dia", "clima": "despejado",
           "props": [ { "tipo": "tienda", "x": -1.1 }, { "tipo": "valla", "x": 1.1 } ] },
@@ -559,7 +558,7 @@
       },
       {
         "dia": 21,
-        "texto": "Nora me preguntó por su abuela y no supe qué contestarle. Le dije que Asun era la mujer más terca de Aragón, y que las tercas nunca se rinden.",
+        "texto": "Nora me preguntó por su abuela y no supe qué contestarle. Le dije que Asun era la mujer más terca de Aragón. Y las tercas no se rinden.",
         "drama": 0.55,
         "fondo": { "lugar": "interior", "pared": "metal", "hora": "noche", "ventana": false,
           "props": [ { "tipo": "cajas", "x": -1.1 }, { "tipo": "bidon-fuego", "x": 1.0 } ] },
@@ -606,7 +605,7 @@
       },
       {
         "dia": 24,
-        "texto": "Rumbo a la base aérea, el cierzo volvió a soplar: ni un gris en la autovía, todos escondidos en los portales. Pero el viento, tarde o temprano, siempre para.",
+        "texto": "Rumbo a la base aérea, el cierzo volvió a soplar: ni un gris en la autovía, todos escondidos en los portales. Pero el viento siempre para.",
         "drama": 0.7,
         "fondo": { "lugar": "campo", "hora": "dia", "clima": "despejado",
           "props": [ { "tipo": "coche-abandonado", "x": -1.1 }, { "tipo": "semaforo", "x": 1.2 } ] },
@@ -727,7 +726,7 @@
   },
   "publicacion": {
     "tituloLargo": "Un mes en la vida de UN SUPERVIVIENTE DEL APOCALIPSIS ZOMBI (Zaragoza, 2031) | El virus que odia el agua",
-    "descripcion": "Treinta días en la vida de Hugo, un técnico de ascensores del barrio de la Magdalena, cuando una pariente nueva de la rabia, «la fiebre gris», llega a Zaragoza en octubre de 2031. Los grises no son muertos: son personas enfermas que no duermen, muerden y odian el agua y el viento. Con una niña de once años, su abuela mordida y un suero que solo sirve antes de la fiebre, Hugo cruza el puente de Piedra, aprende a moverse con el cierzo y llega a la zona segura del meandro de Ranillas… justo antes de que el Ebro baje.\n\nAVISO: es FICCIÓN con ciencia real. Hugo, Nora, Asun, Marta, Samir y el lisavirus LV-31 son inventados. Son reales: la rabia (unas 59.000 muertes al año según la OMS, incubación de 1 a 3 meses, hidrofobia y aerofobia), las hormigas «zombi» de Tailandia y su hongo (BMC Ecology, 2011), el CONPLAN 8888 del Mando Estratégico de EE. UU. (un ejercicio de entrenamiento, no un plan real), la guía «Zombie Apocalypse» de los CDC (2011), el mito del pánico y los saqueos en desastres (Disaster Research Center, Universidad de Delaware), los consejos de agua y nevera en un apagón, el cierzo y su racha récord de 135 km/h, el agua del Pirineo que bebe Zaragoza, el puente de Piedra, los terrenos de la Expo 2008 en Ranillas, el Pabellón Puente y la pista de la base aérea preparada para el transbordador espacial.\n\n— Semana 1: La fiebre gris\n— Semana 2: Cuando sopla el cierzo\n— Semana 3: La noche de Ranillas\n— Semana 4: La pista del transbordador\n— Epílogo: la fiebre gris aprende a beber\n\nFuentes: OMS y CDC (rabia); WHO Rabies Bulletin Europe; Hughes et al., BMC Ecology (2011); USSTRATCOM, CONPLAN 8888-11; CDC, «Preparedness 101: Zombie Apocalypse» (2011); Quarantelli, Disaster Research Center (Universidad de Delaware); CDC y Ready.gov (agua en emergencias); USDA (comida en un apagón); BOE, Real Decreto 463/2020; Ministerio de Defensa (UME); Ayuntamiento de Zaragoza (puente de Piedra, Pabellón Puente, agua de boca); AEMET (cierzo); Aena (historia del aeropuerto de Zaragoza).",
+    "descripcion": "Treinta días en la vida de Hugo, un técnico de ascensores del barrio de la Magdalena, cuando una pariente nueva de la rabia, «la fiebre gris», llega a Zaragoza en octubre de 2031. Los grises no son muertos: son personas enfermas que no duermen, muerden y odian el agua y el viento. Con una niña de once años, su abuela mordida y un suero que solo sirve antes de la fiebre, Hugo cruza el puente de Piedra, aprende a moverse con el cierzo y llega a la zona segura del meandro de Ranillas… justo antes de que el Ebro baje.\n\nAVISO: es FICCIÓN con ciencia real. Hugo, Nora, Asun, Marta, Samir y el lisavirus LV-31 son inventados. Son reales: la rabia (unas 59.000 muertes al año según la OMS, incubación habitual de 1 a 3 meses, hidrofobia y aerofobia), las hormigas «zombi» de Tailandia y su hongo (BMC Ecology, 2011), el CONPLAN 8888 del Mando Estratégico de EE. UU. (un ejercicio de entrenamiento, no un plan real), la guía «Zombie Apocalypse» de los CDC (2011), el mito del pánico y de los saqueos en los desastres (Disaster Research Center, Universidad de Delaware), los consejos de agua y nevera en un apagón, el cierzo y su racha récord de 135 km/h, el agua del Pirineo que bebe Zaragoza, el puente de Piedra, los terrenos de la Expo 2008 en Ranillas, el Pabellón Puente y la pista de la base aérea preparada para el transbordador espacial.\n\n— Semana 1: La fiebre gris\n— Semana 2: Cuando sopla el cierzo\n— Semana 3: La noche de Ranillas\n— Semana 4: La pista del transbordador\n— Epílogo: la fiebre gris aprende a beber\n\nFuentes: OMS y CDC (rabia); WHO Rabies Bulletin Europe; Hughes et al., BMC Ecology (2011); USSTRATCOM, CONPLAN 8888-11; CDC, «Preparedness 101: Zombie Apocalypse» (2011); Quarantelli, Disaster Research Center (Universidad de Delaware); CDC y Ready.gov (agua en emergencias); USDA (comida en un apagón); BOE, Real Decreto 463/2020; Ministerio de Defensa (UME); Ayuntamiento de Zaragoza (puente de Piedra, Pabellón Puente, agua de boca); AEMET (cierzo); Aena (historia del aeropuerto de Zaragoza).",
     "etiquetas": [
       "un mes en la vida de",
       "apocalipsis zombi",
@@ -750,19 +749,19 @@
       "icono": "💧"
     },
     "shorts": [
-      { "titulo": "Hoy he arreglado mi último ascensor… y empieza el fin 🧟", "descripcion": "Zaragoza, octubre de 2031: la radio habla de una rabia rara en Francia y nadie hace caso. #shorts #zombis #zaragoza" },
-      { "titulo": "El primer caso: un camionero mordido en la autovía", "descripcion": "Seis horas después ya no reconocía a su mujer. Y el Gobierno declara el estado de alarma. #shorts #apocalipsiszombi" },
+      { "titulo": "Hoy he arreglado mi último ascensor… y empieza el fin", "descripcion": "Zaragoza, octubre de 2031: la radio habla de una rabia rara en Francia y nadie hace caso. #shorts #zombis #zaragoza" },
+      { "titulo": "El primer caso: un camionero mordido en la autovía", "descripcion": "Seis horas después ya no sabía quién era su mujer. Y llega el estado de alarma. #shorts #apocalipsiszombi" },
       { "titulo": "Vi a un zombi apartarse del agua como si quemara", "descripcion": "No están muertos: son personas con fiebre que no duermen. Y tienen un punto débil. #shorts #zombis #ciencia" },
-      { "titulo": "Una nevera sin luz aguanta 4 horas. ¿Y tu agua?", "descripcion": "Apagón, día del Pilar vacío y un grifo que ya no da agua en un cuarto piso. #shorts #supervivencia" },
-      { "titulo": "El viento de Zaragoza que esconde a los zombis", "descripcion": "Con cierzo fuerte, los grises se meten en los portales. Las películas mienten sobre los saqueos. #shorts #cierzo" },
-      { "titulo": "Lo peor nunca llega con ruido", "descripcion": "El viento se para, Asun baja al patio… y aparece una marca de dientes. La cuenta atrás empieza. #shorts #zombis" },
+      { "titulo": "Una nevera sin luz aguanta 4 horas. ¿Y tu agua?", "descripcion": "Apagón, un día del Pilar sin nadie y un grifo que ya no da agua en un cuarto piso. #shorts #supervivencia" },
+      { "titulo": "El viento de Zaragoza que esconde a los zombis", "descripcion": "Con cierzo fuerte, los grises se meten en los portales. Y las películas mienten sobre los saqueos. #shorts #cierzo" },
+      { "titulo": "Lo peor nunca llega con ruido", "descripcion": "El viento se para, Asun baja al patio… y aparece una marca de dientes. Empieza la cuenta atrás. #shorts #zombis" },
       { "titulo": "Un suero que solo sirve antes de la fiebre", "descripcion": "Cuatro kilómetros, un río y el puente de Piedra a oscuras para salvar a Asun. #shorts #rabia #zaragoza" },
       { "titulo": "EE. UU. tenía un plan real contra zombis", "descripcion": "Lo cuenta Marta en un tejado rodeado de grises, mientras Asun corre contra el reloj. #shorts #conplan8888" },
       { "titulo": "La zona segura perfecta… tenía un fallo", "descripcion": "Un meandro rodeado por el Ebro y un generador que rugía demasiado. #shorts #apocalipsiszombi" },
-      { "titulo": "Tres días de niebla y el Ebro bajó demasiado", "descripcion": "La noche en que cayó la zona segura de Ranillas, y Nora no estaba. #shorts #zombis #ebro" },
+      { "titulo": "Tres días de niebla y el Ebro bajó demasiado", "descripcion": "La noche en que cayó la zona segura de Ranillas… y Nora no estaba. #shorts #zombis #ebro" },
       { "titulo": "Busqué a una niña a oscuras entre zombis", "descripcion": "La Torre del Agua, una lluvia que llega a tiempo y un nombre que falta en la lista. #shorts #supervivencia" },
-      { "titulo": "Reencuentro en pleno apocalipsis zombi 💧", "descripcion": "Una nave de Cogullada, un convoy militar y el cierzo de vuelta. Pero el viento siempre para. #shorts #zaragoza" },
-      { "titulo": "Zaragoza tiene una pista para el transbordador espacial", "descripcion": "Nunca la usó ninguno. En 2031 sirve para otra cosa: sacar a los niños. #shorts #ciencia #zaragoza" },
+      { "titulo": "Un reencuentro en pleno apocalipsis zombi", "descripcion": "Una nave de Cogullada, un convoy militar y el cierzo de vuelta. Pero el viento siempre para. #shorts #zaragoza" },
+      { "titulo": "Zaragoza tiene una pista para el transbordador espacial", "descripcion": "Ninguno llegó a usarla. En 2031 sirve para otra cosa: sacar a los niños. #shorts #ciencia #zaragoza" },
       { "titulo": "El zombi que bebió de un charco", "descripcion": "El final del mes, bajo la lluvia, cuando la fiebre gris aprende algo nuevo. #shorts #zombis #finalabierto" },
       { "titulo": "¿Qué es real en este apocalipsis zombi?", "descripcion": "La rabia, las hormigas zombi y la guía antizombis de 2011 existen de verdad. ¿Tú qué habrías hecho? #shorts #ciencia" }
     ]

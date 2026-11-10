@@ -1,0 +1,1209 @@
+{
+  "slug": "gein-1957",
+  "titulo": "Ed Gein",
+  "lugar": "Plainfield, Wisconsin",
+  "epoca": "Noviembre de 1957",
+  "categoria": "persona",
+  "drama": 0.65,
+  "velocidad": 1.15,
+  "musica": "misterio",
+  "paleta": {
+    "acento": "#b8433a",
+    "texto": "#efe9df",
+    "fondo": "#141a22",
+    "papel": "#e8e0cf"
+  },
+  "reparto": {
+    "ed": {
+      "piel": "#ecc8ab",
+      "pelo": "#8a6f52",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#6e5c45",
+        "color2": "#4b4740",
+        "detalle": "#3a3128"
+      },
+      "sombrero": "orejeras",
+      "colorSombrero": "#8a4a32",
+      "gafas": false,
+      "zapatos": "#3a2a1e"
+    },
+    "bernice": {
+      "piel": "#f0d4be",
+      "pelo": "#b9b5ae",
+      "peinado": "mono",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#4f6478",
+        "color2": "#3f5266",
+        "detalle": "#e2dccf"
+      },
+      "sombrero": "ninguno",
+      "gafas": true,
+      "zapatos": "#2a2220",
+      "voz": "narradora-es"
+    },
+    "frank": {
+      "piel": "#e8c09e",
+      "pelo": "#4a3524",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "cuadros",
+        "color": "#b3262a",
+        "color2": "#1c1c1c",
+        "detalle": "#3b3b42"
+      },
+      "sombrero": "orejeras",
+      "colorSombrero": "#b3262a",
+      "zapatos": "#3a2a1e"
+    },
+    "cazador": {
+      "piel": "#e2b48e",
+      "pelo": "#2e241c",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "cuadros",
+        "color": "#a8232a",
+        "color2": "#161616",
+        "detalle": "#4a4038"
+      },
+      "sombrero": "orejeras",
+      "colorSombrero": "#a8232a",
+      "zapatos": "#2e2218"
+    },
+    "mary": {
+      "piel": "#efcfb4",
+      "pelo": "#5a3a24",
+      "peinado": "rizado",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#3f5e44",
+        "color2": "#344e39",
+        "detalle": "#e8e0cf"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#2a2220",
+      "voz": "narradora-es"
+    },
+    "augusta": {
+      "piel": "#eed6c4",
+      "pelo": "#9a948c",
+      "peinado": "mono",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#26232a",
+        "color2": "#26232a",
+        "detalle": "#d8d0c4"
+      },
+      "sombrero": "ninguno",
+      "gafas": true,
+      "zapatos": "#1a1a1a",
+      "voz": "narradora-es"
+    },
+    "lester": {
+      "piel": "#e6bc98",
+      "pelo": "#8c8780",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#7a3b2e",
+        "color2": "#3b4a63",
+        "detalle": "#2a2a2a"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#3a2a1e"
+    },
+    "irene": {
+      "piel": "#f0d2b8",
+      "pelo": "#6a4a30",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#8a6a7e",
+        "color2": "#6e5464",
+        "detalle": "#efe6d6"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#3a2a24",
+      "voz": "narradora-es"
+    },
+    "schley": {
+      "piel": "#e4b994",
+      "pelo": "#3a2a1e",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#8c7a58",
+        "color2": "#5c4c36",
+        "detalle": "#c9a24a"
+      },
+      "sombrero": "ala",
+      "colorSombrero": "#5c4c36",
+      "zapatos": "#2a1e14"
+    },
+    "agente": {
+      "piel": "#ebc5a4",
+      "pelo": "#2e2a26",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#3a3d44",
+        "color2": "#3a3d44",
+        "detalle": "#8a2a2a"
+      },
+      "sombrero": "ala",
+      "colorSombrero": "#2f3036",
+      "gafas": true,
+      "zapatos": "#151515"
+    },
+    "periodista": {
+      "piel": "#e8c3a2",
+      "pelo": "#4a3a2a",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#8a7f6a",
+        "color2": "#4a4a4a",
+        "detalle": "#2a2a2a"
+      },
+      "sombrero": "ala",
+      "colorSombrero": "#5a554c",
+      "zapatos": "#1e1a16"
+    },
+    "gollmar": {
+      "piel": "#efcdb0",
+      "pelo": "#bdb7ae",
+      "peinado": "calvo",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "bata",
+        "color": "#1e1e22",
+        "color2": "#1e1e22",
+        "detalle": "#e6e0d6"
+      },
+      "sombrero": "ninguno",
+      "gafas": true,
+      "zapatos": "#111111"
+    }
+  },
+  "largo": {
+    "escenas": [
+      {
+        "corte": true,
+        "texto": "El sábado dieciséis de noviembre, casi todos los hombres de mi pueblo se irán al monte con un rifle. Yo me quedaré. Y un recibo de papel lo va a cambiar todo.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "niebla",
+          "props": [
+            { "tipo": "granja", "x": -0.85, "escala": 1.1 },
+            { "tipo": "granero", "x": -1.45, "detras": true },
+            { "tipo": "pino", "x": 1.3 },
+            { "tipo": "arbol", "x": 0.95 }
+          ]
+        },
+        "personajes": [
+          { "quien": "ed", "x": 0.45, "accion": "quieto", "emocion": "neutral", "mirar": -1 }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Me llamo Ed Guín. Lo que pienso en este vídeo, lo imaginamos. Lo que hago, está en los archivos. Y no todo lo que hay en los archivos te lo voy a enseñar.",
+        "drama": 0.6,
+        "personajes": [
+          { "quien": "ed", "x": 0.35, "accion": "hablar", "emocion": "neutral", "mirar": -1 }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Este es el mes en que el mundo entero aprendió el nombre de mi pueblo. Y no por nada bueno. Para entender por qué, hay que volver casi tres semanas atrás.",
+        "drama": 0.7,
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "dia": 1,
+        "capitulo": "La granja del final del camino",
+        "corte": true,
+        "texto": "Faltan veinte días para el sábado del rifle. Domingo, veintisiete de octubre de mil novecientos cincuenta y siete. Pléinfild, Uiscónsin.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "niebla",
+          "props": [
+            { "tipo": "pino", "x": -1.3 },
+            { "tipo": "pino", "x": -0.75 },
+            { "tipo": "arbol", "x": 0.45 },
+            { "tipo": "granja", "x": 1.15, "escala": 0.8 },
+            { "tipo": "coche-antiguo", "x": 0.8 }
+          ]
+        },
+        "personajes": [
+          { "quien": "ed", "x": 0, "accion": "caminar", "entra": "izq", "mirar": 1 }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 1,
+        "texto": "Un pueblo de menos de setecientos habitantes, en una llanura de arena y pinos. Tengo cincuenta y un años y vivo solo en una granja, al final de un camino de tierra.",
+        "drama": 0.55,
+        "personajes": [
+          { "quien": "ed", "x": -0.2, "accion": "quieto", "emocion": "neutral", "mirar": 1 }
+        ],
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Plainfield, Wisconsin",
+          "detalle": "Condado de Waushara · menos de 700 habitantes · 1957",
+          "icono": "📍"
+        }
+      },
+      {
+        "dia": 1,
+        "texto": "No tengo corriente en casi toda la casa. De noche, un farol de queroseno, la estufa de leña y la radio. Ese es mi mundo.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            { "tipo": "estufa", "x": -1.05 },
+            { "tipo": "mesa", "x": 0.85 },
+            { "tipo": "cajas", "x": 1.4 },
+            { "tipo": "📻", "x": 0.85, "escala": 0.3 },
+            { "tipo": "🏮", "x": -0.45, "escala": 0.3 }
+          ]
+        },
+        "personajes": [
+          { "quien": "ed", "x": 0.1, "accion": "sentado", "emocion": "cansado", "mirar": -1 }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 1,
+        "texto": "La casa es de madera, de dos plantas. Pero yo solo uso dos cuartos de abajo. El resto lleva años clavado con tablas. Luego te cuento por qué.",
+        "drama": 0.65,
+        "personajes": [
+          { "quien": "ed", "x": 0.2, "accion": "pensar", "emocion": "neutral", "mirar": -1 }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 2,
+        "corte": true,
+        "texto": "Si me vieras por la calle, ni te fijarías en mí. Hago trabajillos y cuido a los críos del pueblo. El bueno de Ed, siempre tan callado.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            { "tipo": "casa", "x": -1.25 },
+            { "tipo": "poste", "x": -0.6 },
+            { "tipo": "coche-antiguo", "x": 0.75 },
+            { "tipo": "⛽", "x": 1.3, "escala": 0.45 }
+          ]
+        },
+        "personajes": [
+          { "quien": "ed", "x": -0.35, "accion": "caminar", "entra": "izq", "mirar": 1 },
+          { "quien": "lester", "x": 0.45, "accion": "saludar", "emocion": "feliz", "mirar": -1, "habla": false }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 3,
+        "texto": "Tengo un Ford granate de mil novecientos cuarenta y nueve. En Pléinfild, todos saben que es mío. Y ese coche, como yo, acabará en boca de todo el país.",
+        "drama": 0.6,
+        "personajes": [
+          { "quien": "ed", "x": -0.4, "accion": "quieto", "emocion": "neutral", "mirar": 1 }
+        ],
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1949",
+          "etiqueta": "mi Ford sedán granate",
+          "icono": "🚗"
+        }
+      },
+      {
+        "dia": 5,
+        "texto": "Mi madre, Augusta, era muy religiosa y veía a las mujeres como un peligro. Murió en mil novecientos cuarenta y cinco. Clavé con tablas sus cuartos. Nadie ha vuelto a entrar.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "papel",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            { "tipo": "cama", "x": 0.95 },
+            { "tipo": "cuadro", "x": -0.9 },
+            { "tipo": "reloj", "x": -1.35 }
+          ]
+        },
+        "personajes": [
+          { "quien": "ed", "x": -0.45, "accion": "quieto", "emocion": "triste", "mirar": 1 },
+          { "quien": "augusta", "x": 0.45, "accion": "quieto", "emocion": "enfado", "mirar": -1, "habla": false }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 6,
+        "texto": "Mi padre murió en el cuarenta. Mi hermano Jenri, en el cuarenta y cuatro, en un fuego de matorral. El forense habló de asfixia. Nadie probó nunca otra cosa.",
+        "drama": 0.65,
+        "personajes": [
+          { "quien": "ed", "x": -0.2, "accion": "pensar", "emocion": "triste", "mirar": 1 }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 8,
+        "capitulo": "Los hombres de rojo",
+        "corte": true,
+        "texto": "Domingo, tres de noviembre. La radio solo habla de Laika, una perra rusa en órbita. Medio pueblo levanta la vista. Nadie mira a mi granja. Todavía.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            { "tipo": "estufa", "x": -1.05 },
+            { "tipo": "mesa", "x": 0.85 },
+            { "tipo": "cajas", "x": 1.4 },
+            { "tipo": "📻", "x": 0.85, "escala": 0.3 },
+            { "tipo": "🏮", "x": -0.45, "escala": 0.3 }
+          ]
+        },
+        "personajes": [
+          { "quien": "ed", "x": 0.25, "accion": "sentado", "emocion": "neutral", "mirar": 1 }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 9,
+        "texto": "Cuatro de noviembre. En el pueblo solo se habla de un día: el sábado dieciséis abre la temporada del venado. Nueve días con el rifle al hombro.",
+        "drama": 0.6,
+        "personajes": [
+          { "quien": "ed", "x": 0.25, "accion": "pensar", "emocion": "neutral", "mirar": 1 }
+        ],
+        "insercion": {
+          "tipo": "dato",
+          "valor": "16–24 nov.",
+          "etiqueta": "temporada de caza del ciervo en Wisconsin, 1957",
+          "icono": "🦌"
+        }
+      },
+      {
+        "dia": 10,
+        "texto": "La ferretería del pueblo no da abasto. Balas, ropa roja, faroles. La lleva una viuda de cincuenta y ocho años. Se llama Berníss Uórden.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            { "tipo": "estanteria", "x": -1.25 },
+            { "tipo": "mostrador", "x": 0.55 },
+            { "tipo": "barril", "x": 1.4 },
+            { "tipo": "🛢️", "x": 1.05, "escala": 0.3 }
+          ]
+        },
+        "personajes": [
+          { "quien": "cazador", "x": -0.5, "accion": "quieto", "emocion": "feliz", "mirar": 1, "habla": false },
+          { "quien": "bernice", "x": 0.4, "accion": "trabajar", "emocion": "neutral", "mirar": -1, "habla": false }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 11,
+        "texto": "Berníss saca adelante sola la tienda y la maquinaria agrícola. Su hijo, Frank, es ayudante del sheriff. Y ese sábado, como todos, estará en el monte.",
+        "drama": 0.65,
+        "personajes": [
+          { "quien": "frank", "x": -0.4, "accion": "hablar", "emocion": "feliz", "mirar": 1, "habla": false },
+          { "quien": "bernice", "x": 0.4, "accion": "quieto", "emocion": "feliz", "mirar": -1, "habla": false }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 13,
+        "corte": true,
+        "texto": "Ocho de noviembre. En esta comarca todos recuerdan un nombre. El de una mujer a la que nadie ha vuelto a ver en casi tres años.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            { "tipo": "barril", "x": -1.3 },
+            { "tipo": "estanteria", "x": -0.75 },
+            { "tipo": "mesa", "x": 0.9 },
+            { "tipo": "🏮", "x": 0.9, "escala": 0.3 }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "dia": 13,
+        "texto": "Méri Jógan. Unos cincuenta años. Llevaba su propia taberna junto a un camino rural, en Pain Grouv. Según algunos relatos, había nacido en Alemania.",
+        "drama": 0.55,
+        "personajes": [
+          { "quien": "mary", "x": 0.3, "accion": "trabajar", "emocion": "neutral", "mirar": -1, "habla": false }
+        ],
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Mary Hogan llevaba su propia taberna en Pine Grove. Nadie volvió a verla desde el 8 de diciembre de 1954.",
+          "firma": "En recuerdo de Mary Hogan"
+        }
+      },
+      {
+        "dia": 13,
+        "texto": "En diciembre de mil novecientos cincuenta y cuatro, alguien entra en su taberna. Está vacía. Manchas de sangre. Un casquillo de bala. De Méri, ni rastro.",
+        "drama": 0.75,
+        "personajes": [],
+        "camara": "cerca"
+      },
+      {
+        "dia": 14,
+        "texto": "Tres años de preguntas sin respuesta. En las tabernas todavía se habla del caso. Yo escucho y no digo nada. Este mes, esa pregunta va a tener respuesta.",
+        "drama": 0.7,
+        "personajes": [
+          { "quien": "ed", "x": 0.55, "accion": "sentado", "emocion": "neutral", "mirar": -1, "habla": false },
+          { "quien": "lester", "x": -0.55, "accion": "hablar", "mirar": 1, "habla": false },
+          { "quien": "cazador", "x": -0.05, "accion": "quieto", "mirar": -1, "habla": false }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 16,
+        "capitulo": "El último recibo",
+        "corte": true,
+        "texto": "Lunes. Quedan cinco días. Llegan coches de fuera con rifles en el asiento de atrás, y en las tabernas cuelgan tablones para apuntar los venados del año.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "dia",
+          "clima": "niebla",
+          "props": [
+            { "tipo": "casa", "x": -1.25 },
+            { "tipo": "poste", "x": -0.6 },
+            { "tipo": "coche-antiguo", "x": 0.75 },
+            { "tipo": "⛽", "x": 1.3, "escala": 0.45 }
+          ]
+        },
+        "personajes": [
+          { "quien": "cazador", "x": 0.35, "accion": "caminar", "entra": "der", "mirar": -1, "habla": false },
+          { "quien": "frank", "x": -0.45, "accion": "saludar", "mirar": 1, "habla": false }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 18,
+        "texto": "En mil novecientos cincuenta y seis se vendieron casi trescientos mil permisos en Uiscónsin. Cada otoño, los hombres se van al bosque y dejan atrás pueblos casi vacíos.",
+        "drama": 0.6,
+        "personajes": [
+          { "quien": "cazador", "x": 0.35, "accion": "quieto", "mirar": -1, "habla": false }
+        ],
+        "insercion": {
+          "tipo": "dato",
+          "valor": "294.645",
+          "etiqueta": "permisos de caza del ciervo vendidos en Wisconsin en 1956",
+          "icono": "🦌"
+        }
+      },
+      {
+        "dia": 20,
+        "texto": "Viernes, la víspera. Ya cae la tarde cuando entro en la ferretería Uórden. Detrás del mostrador está Frank, el hijo de Berníss.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "atardecer",
+          "ventana": true,
+          "props": [
+            { "tipo": "estanteria", "x": -1.25 },
+            { "tipo": "mostrador", "x": 0.55 },
+            { "tipo": "barril", "x": 1.4 },
+            { "tipo": "🛢️", "x": 1.05, "escala": 0.3 }
+          ]
+        },
+        "personajes": [
+          { "quien": "ed", "x": -0.45, "accion": "caminar", "entra": "izq", "emocion": "neutral", "mirar": 1 },
+          { "quien": "frank", "x": 0.5, "accion": "quieto", "mirar": -1, "habla": false }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 20,
+        "texto": "Le digo que volveré mañana. A por anticongelante. Una frase de las que se olvidan. Frank no la olvidará.",
+        "drama": 0.75,
+        "personajes": [
+          { "quien": "ed", "x": -0.45, "accion": "hablar", "emocion": "neutral", "mirar": 1 },
+          { "quien": "frank", "x": 0.5, "accion": "quieto", "mirar": -1, "habla": false }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 21,
+        "corte": true,
+        "texto": "Sábado, dieciséis de noviembre. Con el amanecer, ya se oyen los primeros disparos a lo lejos. Ha arrancado la temporada del venado.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "bosque",
+          "hora": "amanecer",
+          "clima": "niebla",
+          "props": [
+            { "tipo": "pino", "x": -1.3 },
+            { "tipo": "pino", "x": 1.35 },
+            { "tipo": "arbol", "x": -0.75 },
+            { "tipo": "🦌", "x": 1.0, "escala": 0.4 }
+          ]
+        },
+        "personajes": [
+          { "quien": "frank", "x": -0.35, "accion": "caminar", "entra": "izq", "mirar": 1, "habla": false },
+          { "quien": "cazador", "x": 0.45, "accion": "quieto", "mirar": -1, "habla": false }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 21,
+        "texto": "Frank Uórden está en el bosque, vestido de rojo, como manda la ley, igual que casi todos los hombres del pueblo. La calle mayor, vacía. Ni un alma.",
+        "drama": 0.65,
+        "personajes": [
+          { "quien": "frank", "x": -0.2, "accion": "quieto", "emocion": "neutral", "mirar": 1, "habla": false }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 21,
+        "texto": "Dentro de la ferretería, apenas entra nadie. Berníss atiende sola. Junto a la caja registradora, su talonario de recibos. Ese talonario va a hablar por ella.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            { "tipo": "estanteria", "x": -1.25 },
+            { "tipo": "mostrador", "x": 0.55 },
+            { "tipo": "barril", "x": 1.4 },
+            { "tipo": "🛢️", "x": 1.05, "escala": 0.3 }
+          ]
+        },
+        "personajes": [
+          { "quien": "bernice", "x": 0.3, "accion": "escribir", "emocion": "neutral", "mirar": -1, "habla": false }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 21,
+        "texto": "Lo que pasó en esa tienda no te lo voy a contar. Solo lo que quedó escrito: el último recibo del día fue de anticongelante.",
+        "drama": 0.75,
+        "personajes": [],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1",
+          "etiqueta": "último recibo del día: anticongelante",
+          "icono": "🧾"
+        }
+      },
+      {
+        "dia": 21,
+        "corte": true,
+        "texto": "A eso de las nueve y media, alguien ve salir la camioneta de la ferretería por la parte de atrás. A nadie le extraña. Es día de rifle.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "dia",
+          "clima": "niebla",
+          "props": [
+            { "tipo": "casa", "x": -1.25 },
+            { "tipo": "poste", "x": -0.6 },
+            { "tipo": "poste", "x": 0.6 },
+            { "tipo": "⛽", "x": 1.3, "escala": 0.45 }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "dia": 21,
+        "texto": "Las horas pasan lentas en un pueblo sin hombres. El viento, algún disparo lejano. Y la tarde que se apaga.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "atardecer",
+          "clima": "niebla",
+          "props": [
+            { "tipo": "casa", "x": -1.25 },
+            { "tipo": "poste", "x": -0.6 },
+            { "tipo": "poste", "x": 0.6 },
+            { "tipo": "⛽", "x": 1.3, "escala": 0.45 }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "dia": 21,
+        "texto": "A eso de las cinco, Frank vuelve del monte. La tienda, desierta. La caja registradora, abierta. Manchas de sangre en el suelo. Y su madre no está.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "atardecer",
+          "ventana": true,
+          "props": [
+            { "tipo": "estanteria", "x": -1.25 },
+            { "tipo": "mostrador", "x": 0.55 },
+            { "tipo": "barril", "x": 1.4 },
+            { "tipo": "🛢️", "x": 1.05, "escala": 0.3 }
+          ]
+        },
+        "personajes": [
+          { "quien": "frank", "x": -0.3, "accion": "asustado", "emocion": "miedo", "entra": "izq", "mirar": 1, "habla": false }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 21,
+        "texto": "Frank busca en el talonario. Ve el último recibo. Y se acuerda de quién dijo, la víspera, que volvería a por anticongelante. De mí.",
+        "drama": 0.85,
+        "personajes": [
+          { "quien": "frank", "x": -0.1, "accion": "pensar", "emocion": "sorpresa", "objeto": "🧾", "mirar": 1, "habla": false }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 21,
+        "corte": true,
+        "texto": "Esa misma tarde, yo estoy sentado a la mesa con los Jil, en Uest Pléinfild. Les hago trabajillos a menudo. Me han guardado un plato caliente.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "papel",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            { "tipo": "mesa", "x": 0 },
+            { "tipo": "reloj", "x": -1.3 },
+            { "tipo": "📻", "x": 1.3, "escala": 0.35 }
+          ]
+        },
+        "personajes": [
+          { "quien": "ed", "x": 0, "accion": "sentado", "emocion": "neutral", "mirar": 1 },
+          { "quien": "lester", "x": -0.65, "accion": "sentado", "emocion": "feliz", "mirar": 1, "habla": false },
+          { "quien": "irene", "x": 0.65, "accion": "quieto", "emocion": "feliz", "mirar": -1, "habla": false }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "West Plainfield",
+          "detalle": "Con la familia Hill · noche del 16 de noviembre de 1957",
+          "icono": "📍"
+        }
+      },
+      {
+        "dia": 21,
+        "texto": "Por la ventana entran los faros de un coche. Luego, pasos en el porche. Y alguien llama a la puerta. Preguntan por mí.",
+        "drama": 0.75,
+        "personajes": [
+          { "quien": "ed", "x": 0, "accion": "sentado", "emocion": "sorpresa", "mirar": -1 },
+          { "quien": "lester", "x": -0.65, "accion": "sentado", "emocion": "sorpresa", "mirar": -1, "habla": false },
+          { "quien": "irene", "x": 0.65, "accion": "quieto", "emocion": "sorpresa", "mirar": -1, "habla": false }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 21,
+        "texto": "Me detienen allí mismo, delante de la familia que tantas noches me ha dado de comer. Nadie en esa mesa entiende nada.",
+        "drama": 0.85,
+        "personajes": [
+          { "quien": "ed", "x": 0.05, "accion": "quieto", "emocion": "neutral", "mirar": -1 },
+          { "quien": "agente", "x": -0.7, "accion": "caminar", "entra": "izq", "mirar": 1, "habla": false },
+          { "quien": "irene", "x": 0.7, "accion": "asustado", "emocion": "miedo", "mirar": -1, "habla": false }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 21,
+        "texto": "Mientras tanto, el sheriff Art Shlai y sus hombres van camino de mi granja. Ya es de noche. Y en mi casa no hay corriente.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "noche",
+          "clima": "niebla",
+          "props": [
+            { "tipo": "granja", "x": 0.95 },
+            { "tipo": "granero", "x": 1.45, "detras": true },
+            { "tipo": "coche-patrulla", "x": -1.0 },
+            { "tipo": "pino", "x": -1.45 }
+          ]
+        },
+        "personajes": [
+          { "quien": "schley", "x": -0.35, "accion": "caminar", "entra": "izq", "objeto": "🔦", "mirar": 1, "habla": false },
+          { "quien": "agente", "x": 0.25, "accion": "caminar", "objeto": "🏮", "mirar": 1, "habla": false }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 21,
+        "corte": true,
+        "texto": "Entran en mi casa con linternas, faroles y focos. En un cobertizo encuentran a Berníss Uórden, sin vida. Tenía cincuenta y ocho años.",
+        "drama": 0.8,
+        "personajes": [
+          { "quien": "schley", "x": -0.5, "accion": "quieto", "emocion": "triste", "objeto": "🔦", "mirar": 1, "habla": false }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 21,
+        "texto": "Lo que encontraron allí dentro llenó los periódicos de todo el país. Tú no tienes por qué verlo.",
+        "drama": 0.7,
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "dia": 21,
+        "texto": "Antes de seguir, un nombre. Berníss Uórden. Viuda, madre, y al frente de una ferretería en un pueblo de granjeros. Eso es lo que hay que recordar.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "noche",
+          "clima": "niebla",
+          "props": [
+            { "tipo": "casa", "x": -1.2 },
+            { "tipo": "poste", "x": -0.5 },
+            { "tipo": "coche-patrulla", "x": 0.8 },
+            { "tipo": "farola", "x": 1.4 }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Bernice Worden, 58 años. Viuda, madre y al frente de la ferretería de Plainfield.",
+          "firma": "En recuerdo de Bernice Worden"
+        }
+      },
+      {
+        "dia": 21,
+        "texto": "Esa noche, Pléinfild deja de ser un pueblo cualquiera. Y yo, el bueno de Ed, paso a ser el hombre del que todo el país quiere saber algo.",
+        "drama": 0.75,
+        "personajes": [
+          { "quien": "cazador", "x": -0.3, "accion": "triste", "emocion": "triste", "mirar": 1, "habla": false }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 22,
+        "capitulo": "El nombre en los periódicos",
+        "corte": true,
+        "texto": "Domingo. Me llevan a Mádison, al laboratorio del estado, y me sientan junto a un detector de mentiras. El resultado, según el director, no es concluyente. Ni la máquina sabe qué pensar de mí.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            { "tipo": "maquina", "x": -1.1 },
+            { "tipo": "mesa", "x": 0.1 },
+            { "tipo": "reloj", "x": 1.35 }
+          ]
+        },
+        "personajes": [
+          { "quien": "ed", "x": 0.35, "accion": "sentado", "emocion": "neutral", "mirar": -1 },
+          { "quien": "agente", "x": -0.4, "accion": "escribir", "mirar": 1, "habla": false }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 24,
+        "texto": "Al final, confieso. Dos muertes. Méri Jógan, en mil novecientos cincuenta y cuatro. Y Berníss Uórden. Digo que no maté a nadie más. Cuentan que dije recordarlo todo de forma confusa.",
+        "drama": 0.7,
+        "personajes": [
+          { "quien": "ed", "x": 0.35, "accion": "sentado", "emocion": "cansado", "mirar": -1 },
+          { "quien": "agente", "x": -0.4, "accion": "escribir", "mirar": 1, "habla": false }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 24,
+        "texto": "Me preguntan por otras personas que se esfumaron en la comarca. Ninguna prueba me unió nunca a esos casos. Lo demás que había en mi casa, confieso, salió de tres camposantos.",
+        "drama": 0.65,
+        "personajes": [
+          { "quien": "ed", "x": 0.35, "accion": "pensar", "emocion": "neutral", "mirar": -1 },
+          { "quien": "agente", "x": -0.4, "accion": "hablar", "mirar": 1, "habla": false }
+        ],
+        "insercion": {
+          "tipo": "dato",
+          "valor": "2",
+          "etiqueta": "muertes confesadas. Ninguna otra se le probó jamás",
+          "icono": "📰"
+        }
+      },
+      {
+        "dia": 26,
+        "corte": true,
+        "texto": "Jueves, veintiuno. En el tribunal de Uotóma, me acusan de asesinato en primer grado por la muerte de Berníss Uórden.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            { "tipo": "bandera", "x": -1.3 },
+            { "tipo": "mesa", "x": 0 },
+            { "tipo": "reloj", "x": 1.35 }
+          ]
+        },
+        "personajes": [
+          { "quien": "ed", "x": 0.1, "accion": "quieto", "emocion": "neutral", "mirar": -1 },
+          { "quien": "schley", "x": -0.6, "accion": "quieto", "mirar": 1, "habla": false },
+          { "quien": "periodista", "x": 0.75, "accion": "trabajar", "mirar": -1, "habla": false }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 26,
+        "texto": "Mi abogado alega que no soy culpable por locura. Y esa palabra va a frenar mi caso más de una década.",
+        "drama": 0.65,
+        "personajes": [
+          { "quien": "ed", "x": 0.4, "accion": "quieto", "emocion": "cansado", "mirar": -1 },
+          { "quien": "agente", "x": -0.4, "accion": "hablar", "mirar": 1, "habla": false }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 28,
+        "texto": "Llegan periodistas de todo el país, y hasta de Europa. Fotógrafos con flash preguntan a todo el que pasa.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            { "tipo": "casa", "x": -1.25 },
+            { "tipo": "poste", "x": 0.2 },
+            { "tipo": "coche-antiguo", "x": 1.05 },
+            { "tipo": "📰", "x": -0.6, "escala": 0.35 }
+          ]
+        },
+        "personajes": [
+          { "quien": "periodista", "x": -0.35, "accion": "hablar", "mirar": 1, "habla": false },
+          { "quien": "lester", "x": 0.45, "accion": "quieto", "emocion": "enfado", "mirar": -1, "habla": false }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 29,
+        "texto": "La revista Laif le dedica siete páginas. Taim, tres. Hay curiosos que se paran junto a mi granja a mirar por las ventanas.",
+        "drama": 0.6,
+        "personajes": [
+          { "quien": "periodista", "x": -0.3, "accion": "senalar", "mirar": 1, "habla": false }
+        ],
+        "insercion": {
+          "tipo": "dato",
+          "valor": "7",
+          "etiqueta": "páginas en la revista Life (Time le dedicó 3)",
+          "icono": "📰"
+        }
+      },
+      {
+        "dia": 30,
+        "texto": "Un mes atrás, yo era el bueno de Ed. Hoy, mi nombre da miedo. Y la historia todavía no ha terminado conmigo.",
+        "drama": 0.7,
+        "personajes": [
+          { "quien": "irene", "x": 0.3, "accion": "triste", "emocion": "triste", "mirar": -1, "habla": false }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "corte": true,
+        "texto": "Seis de enero de mil novecientos cincuenta y ocho. Los médicos hablan de una enfermedad mental grave. De momento, no habrá banquillo. Me mandan a un hospital psiquiátrico, en Uopán.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            { "tipo": "cama", "x": 1.0 },
+            { "tipo": "mesa", "x": -1.0 }
+          ]
+        },
+        "personajes": [
+          { "quien": "ed", "x": 0.25, "accion": "sentado", "emocion": "cansado", "mirar": -1 }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Veinte de marzo, ese mismo año. Días antes de la subasta, mi casa arde. Se sospechó de un fuego provocado. Nunca se supo la verdad. Los cuartos de mi madre, intactos durante años, se vuelven humo.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "noche",
+          "clima": "nieve",
+          "props": [
+            { "tipo": "granja", "x": 0.6 },
+            { "tipo": "hoguera", "x": 0.6, "escala": 1.6 },
+            { "tipo": "pino", "x": -1.3 },
+            { "tipo": "arbol", "x": -0.6 }
+          ]
+        },
+        "personajes": [],
+        "camara": "general"
+      },
+      {
+        "texto": "Mi Ford granate se vende en subasta por setecientos sesenta dólares. Un feriante lo exhibe como el coche del monstruo, a veinticinco centavos la entrada. Hasta que las autoridades lo prohíben.",
+        "drama": 0.6,
+        "personajes": [],
+        "insercion": {
+          "tipo": "dato",
+          "valor": "760 $",
+          "etiqueta": "pagó un feriante por el Ford de 1949 (y cobraba 25 centavos por verlo)",
+          "icono": "🚗"
+        }
+      },
+      {
+        "corte": true,
+        "texto": "Pasa una década. En mil novecientos sesenta y ocho me declaran apto. Por fin hay juicio, sin jurado, en noviembre. Siempre noviembre.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            { "tipo": "bandera", "x": -1.3 },
+            { "tipo": "mesa", "x": 0 },
+            { "tipo": "reloj", "x": 1.35 }
+          ]
+        },
+        "personajes": [
+          { "quien": "ed", "x": 0.4, "accion": "quieto", "emocion": "cansado", "mirar": -1 },
+          { "quien": "gollmar", "x": -0.45, "accion": "sentado", "mirar": 1, "habla": false }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Me declaran culpable de la muerte de Berníss Uórden. Y, en una segunda vista, no responsable por enfermedad mental. Vuelvo al hospital.",
+        "drama": 0.65,
+        "personajes": [
+          { "quien": "ed", "x": 0.4, "accion": "quieto", "emocion": "neutral", "mirar": -1 },
+          { "quien": "gollmar", "x": -0.45, "accion": "hablar", "mirar": 1, "habla": false }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Muero el veintiséis de julio de mil novecientos ochenta y cuatro, en el hospital Mendóta de Mádison, por un fallo respiratorio. Setenta y siete años. Veintisiete de ellos, entre muros de hospital.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            { "tipo": "cama", "x": 1.0 },
+            { "tipo": "mesa", "x": -1.0 }
+          ]
+        },
+        "personajes": [
+          { "quien": "ed", "x": 0.2, "accion": "sentado", "emocion": "cansado", "mirar": 1 }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Me entierran en el camposanto de Pléinfild, junto a mi familia. En el año dos mil, alguien roba mi lápida. La encuentran en Siátel. Hoy, mi tumba no tiene nombre.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "nieve",
+          "props": [
+            { "tipo": "tumba", "x": 0.4 },
+            { "tipo": "tumba", "x": 0.95 },
+            { "tipo": "pino", "x": -1.25 },
+            { "tipo": "valla", "x": 1.4 }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "corte": true,
+        "texto": "¿Y las leyendas? ¿Motosierra? Nunca: eso es de La matanza de Texas. ¿Caníbal? Ninguna prueba. ¿Un montón de víctimas? Confesé dos muertes; me condenaron por una.",
+        "drama": 0.65,
+        "personajes": [],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Mito frente a realidad",
+          "items": [
+            { "icono": "🛢️", "nombre": "Motosierra: cine de 1974" },
+            { "icono": "📚", "nombre": "Caníbal: sin pruebas" },
+            { "icono": "📰", "nombre": "Víctimas: 2 confesadas, 1 condena" },
+            { "icono": "🏮", "nombre": "Motel: es Psicosis (1960)" }
+          ]
+        }
+      },
+      {
+        "texto": "Psicosis, de Róbert Bloc, y El silencio de los corderos tomaron rasgos míos. Pero inventaron casi todo lo demás.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            { "tipo": "farola", "x": -1.2 },
+            { "tipo": "poste", "x": 0.6 },
+            { "tipo": "casa", "x": 1.2 }
+          ]
+        },
+        "personajes": [
+          { "quien": "ed", "x": -0.3, "accion": "pensar", "emocion": "neutral", "mirar": 1 }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "La serie de Nétflix de dos mil veinticinco también inventa: nunca ayudé a atrapar a Ted Bándi, y nadie probó que matara a mi hermano.",
+        "drama": 0.6,
+        "personajes": [
+          { "quien": "ed", "x": -0.3, "accion": "hablar", "emocion": "neutral", "mirar": 1 }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Ed Guín y las personas de este vídeo fueron reales. Los pensamientos y los diálogos son imaginados; los hechos, documentados. Recordamos a Berníss Uórden y a Méri Jógan.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "amanecer",
+          "clima": "niebla",
+          "props": [
+            { "tipo": "pino", "x": -1.3 },
+            { "tipo": "pino", "x": 1.3 },
+            { "tipo": "arbol", "x": 0.85 },
+            { "tipo": "valla", "x": -0.75 }
+          ]
+        },
+        "personajes": [
+          { "quien": "bernice", "x": -0.35, "accion": "quieto", "emocion": "neutral", "mirar": 1, "habla": false },
+          { "quien": "mary", "x": 0.35, "accion": "quieto", "emocion": "neutral", "mirar": -1, "habla": false }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "¿De quién quieres vivir el próximo mes? Déjalo en los comentarios, y suscríbete para no perderte el siguiente.",
+        "drama": 0.6,
+        "personajes": [],
+        "camara": "general"
+      }
+    ]
+  },
+  "publicacion": {
+    "tituloLargo": "Un mes en la vida de ED GEIN (1957) | El recibo que destapó el caso que inspiró Psicosis",
+    "descripcion": "Treinta días en la vida de Ed Gein en Plainfield (Wisconsin), de finales de octubre a finales de noviembre de 1957: un pueblo de menos de 700 habitantes, la apertura de la temporada de caza del ciervo el sábado 16 de noviembre, el último recibo de anticongelante de la ferretería Worden, la detención, las preguntas y el revuelo que dio la vuelta al mundo. Sin escenas gráficas: lo que se encontró en la granja no se muestra ni se describe.\n\n— Semana 1: La granja del final del camino\n— Semana 2: Los hombres de rojo\n— Semana 3: El último recibo\n— Semana 4: El nombre en los periódicos\n— Epílogo: el hospital, el incendio de la casa (1958), el juicio (1968), su muerte (1984) y mito frente a realidad\n\nQué es documentado y qué es imaginado: Ed Gein y las personas que aparecen en este vídeo fueron reales. Sus pensamientos y las conversaciones son imaginados, y las escenas de rutina de las dos primeras semanas son una reconstrucción verosímil; los hechos, las fechas y las cifras están documentados. Lo que no está confirmado se presenta como «cuentan que» o «según algunos relatos». La motosierra, el canibalismo, las «decenas de víctimas» y varios añadidos de la serie de Netflix (2025) son ficción.\n\nRecordamos a Bernice Worden, 58 años, viuda y al frente de la ferretería de Plainfield, y a Mary Hogan, que llevaba su propia taberna en Pine Grove.\n\nAviso: trata un caso real de asesinato y profanación de tumbas. No apto para menores.\n\nFuentes: Wisconsin Historical Society (Dictionary of Wisconsin History y archivo fotográfico); Encyclopaedia Britannica; Registro Administrativo de Wisconsin (temporada de 1957); Consejo Forestal de Wisconsin (cronología de la caza del ciervo); prensa de 1957 (Life, Time, UPI); H. Schechter, Deviant (1989); R. H. Gollmar, Edward Gein: America's Most Bizarre Murderer (1981).",
+    "etiquetas": [
+      "un mes en la vida de",
+      "Ed Gein",
+      "Plainfield",
+      "Wisconsin",
+      "true crime",
+      "Bernice Worden",
+      "Mary Hogan",
+      "Psicosis",
+      "Monster Netflix",
+      "mito y realidad",
+      "1957",
+      "historia"
+    ],
+    "miniatura": {
+      "texto": "EL ÚLTIMO RECIBO",
+      "escena": 0,
+      "quien": "ed",
+      "emocion": "neutral",
+      "icono": "🧾"
+    },
+    "shorts": [
+      {
+        "titulo": "Un recibo de papel cambió para siempre este pueblo",
+        "descripcion": "Noviembre de 1957: todos los hombres de Plainfield se van al monte… y uno se queda. #shorts #truecrime #historia"
+      },
+      {
+        "titulo": "Vivía solo en una granja sin corriente al final del camino",
+        "descripcion": "Plainfield, Wisconsin, 1957: la casa de Ed Gein y los cuartos clavados con tablas. #shorts #truecrime #historia"
+      },
+      {
+        "titulo": "El vecino callado al que todos dejaban a sus hijos",
+        "descripcion": "Nadie sospechaba del «bueno de Ed». Su madre, su hermano y un Ford granate. #shorts #truecrime #EdGein"
+      },
+      {
+        "titulo": "Todos miraban a Laika… nadie miraba aquella granja",
+        "descripcion": "Noviembre de 1957: el Sputnik 2 en la radio y un pueblo que solo piensa en la temporada de caza. #shorts #historia"
+      },
+      {
+        "titulo": "La tabernera que nadie volvió a ver",
+        "descripcion": "En recuerdo de Mary Hogan, desaparecida en diciembre de 1954 en Pine Grove. #shorts #truecrime #historia"
+      },
+      {
+        "titulo": "«Volveré mañana a por anticongelante»",
+        "descripcion": "La frase que Frank Worden recordaría la víspera del 16 de noviembre de 1957. #shorts #truecrime #EdGein"
+      },
+      {
+        "titulo": "El día que todos los hombres del pueblo se fueron al bosque",
+        "descripcion": "Apertura de la caza en Plainfield y una ferretería casi vacía. El último recibo del día. #shorts #truecrime"
+      },
+      {
+        "titulo": "Lo que Frank Worden vio al volver de cazar",
+        "descripcion": "Una tienda desierta, la caja abierta y un recibo que le hizo recordar un nombre. #shorts #truecrime #historia"
+      },
+      {
+        "titulo": "Lo detuvieron en plena cena con sus amigos",
+        "descripcion": "West Plainfield, noche del 16 de noviembre de 1957. Llaman a la puerta. #shorts #truecrime #EdGein"
+      },
+      {
+        "titulo": "La noche que entraron con linternas en su granja",
+        "descripcion": "No te vamos a enseñar lo que encontraron. Sí a quién hay que recordar: Bernice Worden. #shorts #truecrime"
+      },
+      {
+        "titulo": "Ni el detector de mentiras supo qué pensar de él",
+        "descripcion": "Madison, 1957: el polígrafo, la confesión de dos muertes y ninguna prueba de más. #shorts #truecrime #EdGein"
+      },
+      {
+        "titulo": "De pueblo desconocido a portada en todo el país",
+        "descripcion": "Periodistas de toda América y de Europa en Plainfield. Life le dedicó siete páginas. #shorts #historia"
+      },
+      {
+        "titulo": "La casa ardió y su coche acabó en una feria",
+        "descripcion": "1958: un incendio que nunca se aclaró y un Ford vendido por 760 dólares. #shorts #truecrime #historia"
+      },
+      {
+        "titulo": "Once años esperando juicio y una tumba sin nombre",
+        "descripcion": "El juicio de 1968, su muerte en 1984 y la lápida robada. #shorts #truecrime #EdGein"
+      },
+      {
+        "titulo": "Motosierra, caníbal, Psicosis: mito frente a realidad",
+        "descripcion": "Lo que el cine y Netflix inventaron sobre Ed Gein, y lo que dicen los archivos. #shorts #truecrime #EdGein"
+      }
+    ]
+  }
+}
