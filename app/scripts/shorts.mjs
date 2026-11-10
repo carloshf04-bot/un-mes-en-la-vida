@@ -43,7 +43,10 @@ const esc = man.pieza.escenas;
 const aud = man.pieza.audios;
 let acc = 0;
 const ini = aud.map((a) => { const i = acc; acc += Math.ceil((a.duracion + 0.5) * fps); return i / fps; });
-const bordes = [...ini, DUR]; // bordes[i] = inicio de la escena i; el último, el final del vídeo
+// Puntos de corte: en mitad del silencio entre la voz de la escena anterior y la siguiente
+// (así la entrada y salida suaves de 0,2 s nunca se comen una sílaba). El último, el final del vídeo.
+const bordes = [0, ...ini.slice(1).map((t, k) => (ini[k] + aud[k].duracion + t) / 2), DUR];
+const escIni = [...ini, DUR]; // dónde empieza de verdad cada plano (para el encuadre)
 
 // ---------- plan de cortes: programación dinámica sobre los finales de escena ----------
 const marcados = new Set(guion.largo.escenas.map((e, i) => (e.corte ? i : -1)).filter((i) => i > 0));
@@ -154,7 +157,7 @@ const assDe = (n, [a, b]) => {
 };
 
 // ---------- render de cada short ----------
-const firma = JSON.stringify({ plan, encuadre, v: 3 });
+const firma = JSON.stringify({ plan, encuadre, v: 4 });
 const cortesF = join(dir, "cortes.json");
 const previo = existsSync(cortesF) ? readFileSync(cortesF, "utf8") : "";
 const mismoPlan = !rehacer && previo && JSON.parse(previo).firma === firma;
@@ -164,21 +167,22 @@ if (!mismoPlan) for (let n = 1; n <= 40; n++) rmSync(join(dir, `short-${String(n
 const exprX = (a, b) => {
   const t0 = bordes[a];
   let e = String(limitarX(encuadre[b - 1].modo === "recorte" ? encuadre[b - 1].x : 960));
-  for (let i = b - 1; i > a; i--) {
+  const a0 = Math.max(0, a - 1); // los primeros ~0,25 s aún se ve el plano anterior
+  for (let i = b - 1; i > a0; i--) {
     const xi = limitarX(encuadre[i].modo === "recorte" ? encuadre[i].x : 960);
     const xa = limitarX(encuadre[i - 1].modo === "recorte" ? encuadre[i - 1].x : 960);
-    const tb = (bordes[i] - t0).toFixed(3);
+    const tb = (escIni[i] - t0).toFixed(3);
     e = `if(lt(t,${tb}-0.15),XPREV,if(lt(t,${tb}+0.15),${xa}+(${xi}-${xa})*(t-${tb}+0.15)/0.3,${e}))`.replace("XPREV", "XPREV");
     e = e.replace("XPREV", `__${i - 1}__`);
   }
   // sustituye los marcadores por la x de cada escena anterior
-  for (let i = a; i < b; i++) e = e.replace(`__${i}__`, String(limitarX(encuadre[i].modo === "recorte" ? encuadre[i].x : 960)));
+  for (let i = a0; i < b; i++) e = e.replace(`__${i}__`, String(limitarX(encuadre[i].modo === "recorte" ? encuadre[i].x : 960)));
   return e;
 };
 const exprEntero = (a, b) => {
   const t0 = bordes[a];
   const tramos = [];
-  for (let i = a; i < b; i++) if (encuadre[i].modo === "entero") tramos.push(`between(t,${(bordes[i] - t0).toFixed(3)},${(bordes[i + 1] - t0 - 0.001).toFixed(3)})`);
+  for (let i = Math.max(0, a - 1); i < b; i++) if (encuadre[i].modo === "entero") tramos.push(`between(t,${Math.max(0, escIni[i] - t0).toFixed(3)},${(Math.min(escIni[i + 1], bordes[b]) - t0 - 0.001).toFixed(3)})`);
   return tramos.length ? tramos.join("+") : "0";
 };
 
