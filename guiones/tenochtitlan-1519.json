@@ -412,7 +412,7 @@
       {
         "corte": true,
         "dia": 3,
-        "texto": "Aquí no hay gallos. Me despierta una piedra: mi madre lleva horas ante el metate, moliendo masa para las tortillas. Piedra contra piedra.",
+        "texto": "Aquí no hay gallos. Me despierta un ruido de piedra: mi madre lleva horas ante el metate, moliendo masa para las tortillas.",
         "drama": 0.5,
         "fondo": {
           "lugar": "interior",
@@ -2121,7 +2121,7 @@
       },
       {
         "dia": 27,
-        "texto": "Los extranjeros sacan las armas de nuestro arsenal, flechas, arcos y escudos, y las apilan delante de todos. No es para luchar. Es leña.",
+        "texto": "Los extranjeros sacan las armas de nuestro arsenal, flechas, arcos y escudos, y las apilan delante de todos. No es para luchar: van a servir de leña.",
         "drama": 0.85,
         "personajes": [
           {
