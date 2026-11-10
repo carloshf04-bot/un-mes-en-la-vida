@@ -106,7 +106,7 @@
     "escenas": [
       {
         "corte": true,
-        "texto": "Me llamo Tóchtli, que significa conejo, y vivo en una isla en mitad de un lago. Dentro de una semana, unos extranjeros con perros enormes van a caminar sobre el agua hasta mi casa.",
+        "texto": "Me llamo Tóchtli, que significa conejo, y vivo en una isla en mitad de un lago. En una semana, unos extranjeros con perros enormes van a caminar sobre el agua hasta mi casa.",
         "drama": 0.75,
         "fondo": {
           "lugar": "rio",
@@ -262,7 +262,7 @@
       },
       {
         "dia": 3,
-        "texto": "Luego corro al telpochcáli, la escuela de mi barrio. En mi isla, todos los chicos van a la escuela. Acarreamos leña, limpiamos canales y aprendemos a luchar.",
+        "texto": "Luego corro al telpochcáli, la escuela de mi barrio. Aquí todos los chicos van a la escuela. Acarreamos leña, limpiamos canales y aprendemos a luchar.",
         "drama": 0.55,
         "fondo": {
           "lugar": "calle",
@@ -289,7 +289,7 @@
       },
       {
         "dia": 3,
-        "texto": "Y no me quejo. De pequeño, por desobediente, me pusieron sobre el humo de chiles quemados. Es un castigo corriente. Todavía lloro al recordarlo.",
+        "texto": "Y no me quejo. De pequeño, por desobediente, me pusieron sobre el humo de chiles quemados. Así nos corrigen aquí. Todavía lloro al recordarlo.",
         "drama": 0.55,
         "fondo": {
           "lugar": "interior",
@@ -332,7 +332,7 @@
       },
       {
         "dia": 4,
-        "texto": "Ese paso está a más de tres mil quinientos metros. Uno de ellos, Diego de Ordaz, quiso subir a la boca humeante del volcán solo para ver qué era.",
+        "texto": "Ese paso está a más de tres mil quinientos metros. Uno de ellos, Diego de Ordaz, quiso subir a la boca humeante del volcán para ver qué era.",
         "drama": 0.65,
         "fondo": {
           "lugar": "montanas",
@@ -436,7 +436,7 @@
       },
       {
         "dia": 8,
-        "texto": "Entonces llega Moctezuma, en andas, bajo un palio de plumas verdes. Los señores barren el suelo y tienden mantas para que no pise la tierra.",
+        "texto": "Y llega Moctezuma, en andas, bajo un palio de plumas verdes. Los señores barren el suelo y tienden mantas para que no pise la tierra.",
         "drama": 0.75,
         "fondo": {
           "lugar": "ciudad",
@@ -486,7 +486,7 @@
       },
       {
         "dia": 8,
-        "texto": "Un día contarán que los tomamos por dioses, que creímos que su capitán era Ketsalcóatl, que volvía. Mentira. Esa historia se escribió décadas más tarde.",
+        "texto": "Un día contarán que los tomamos por dioses, que creímos que su capitán era Ketsalcóatl, que volvía. Aquí nadie lo cree. Esa historia se escribió décadas más tarde.",
         "drama": 0.7,
         "fondo": {
           "lugar": "rio",
@@ -548,7 +548,7 @@
       {
         "corte": true,
         "dia": 9,
-        "texto": "Al día siguiente sé quién habla por ellos: Malíntsin, una mujer que regalaron como esclava. Ahora pone en náhuatl cada palabra de Cortés. Por eso a él lo llamamos Malinche.",
+        "texto": "Los extranjeros hablan por boca de una mujer: Malíntsin, a la que regalaron como esclava. Ahora pone en náuatl cada palabra de Cortés. Por eso a él lo llamamos Malinche.",
         "drama": 0.6,
         "fondo": {
           "lugar": "interior",
@@ -634,7 +634,7 @@
       {
         "corte": true,
         "dia": 12,
-        "texto": "Ese mismo día suben al Templo Mayor. Ciento catorce escalones, dirá uno de ellos. Arriba, dos santuarios: el rojo de Uitsilopóchtli y el azul de Tláloc.",
+        "texto": "Ese mismo día, los extranjeros suben al Templo Mayor. Ciento catorce escalones, dirá uno de ellos. Arriba, dos santuarios: el rojo de Uitsilopóchtli y el azul de Tláloc.",
         "drama": 0.65,
         "fondo": {
           "lugar": "ciudad",
@@ -691,7 +691,7 @@
       },
       {
         "dia": 13,
-        "texto": "La abren en secreto. Dentro está el tesoro del padre de Moctezuma: oro, joyas, plumas, mantas. Cortés manda tapiarla otra vez. Por ahora.",
+        "texto": "La abren en secreto. Dentro está el tesoro del padre de Moctezuma: oro, joyas, plumas, mantas. Cortés manda tapiarla de nuevo. Por ahora.",
         "drama": 0.75,
         "fondo": {
           "lugar": "interior",
@@ -721,7 +721,7 @@
       {
         "corte": true,
         "dia": 13,
-        "texto": "Y entonces llega un mensaje de la costa. Un señor meshica, Cuaupopoca, ha matado a Juan de Escalante y a varios de los suyos. Cortés ya tiene su excusa.",
+        "texto": "Un mensaje de la costa lo cambia todo. Un señor meshica, Cuaupopoca, ha matado a Juan de Escalante y a varios de los suyos. Cortés ya tiene su excusa.",
         "drama": 0.75,
         "fondo": {
           "lugar": "rio",
@@ -799,7 +799,7 @@
         "corte": true,
         "dia": 15,
         "capitulo": "Un rey con guardias",
-        "texto": "Lo raro es que todo sigue. Moctezuma atiende a sus señores y come como siempre: más de trescientos platos, según uno de ellos. Pero a su puerta hay espadas.",
+        "texto": "Nuestro gran señor es prisionero, y lo raro es que todo sigue. Moctezuma atiende a sus señores y come como siempre: más de trescientos platos, según uno de ellos. Pero a su puerta hay espadas.",
         "drama": 0.6,
         "fondo": {
           "lugar": "interior",
@@ -882,7 +882,7 @@
       },
       {
         "dia": 20,
-        "texto": "Los servidores de los dioses andan furiosos. Llevan el pelo largo, sin cortar ni lavar nunca, y la piel pintada de negro. Los extranjeros les tienen asco. Ellos a los extranjeros, también.",
+        "texto": "Los servidores de los dioses andan furiosos. Llevan el pelo largo, sin cortar ni lavar nunca, y la piel pintada de negro. Los extranjeros les tienen asco, y es mutuo.",
         "drama": 0.55,
         "fondo": {
           "lugar": "ciudad",
@@ -933,7 +933,7 @@
         "corte": true,
         "dia": 22,
         "capitulo": "Oro y hogueras",
-        "texto": "Ahora solo hablan de una cosa: oro. Mandan hombres por todo el reino a buscarlo, y ya piensan en repartirse el tesoro de la pared.",
+        "texto": "Los extranjeros mandan hombres por todo el reino a buscar oro. Y ya hacen cuentas para repartirse el tesoro escondido tras la pared.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -952,7 +952,7 @@
       },
       {
         "dia": 24,
-        "texto": "Pronto llega la fiesta de Uitsilopóchtli, la de las banderas. Cada año modelamos al dios con masa de amaranto y luego nos lo comemos entre todos. Este año, nadie sabe si habrá fiesta.",
+        "texto": "Pronto llega la fiesta de Uitsilopóchtli, la de las banderas. Cada año modelamos al dios con masa de amaranto y luego nos lo comemos. Este año, nadie sabe si habrá fiesta.",
         "drama": 0.6,
         "fondo": {
           "lugar": "calle",
@@ -971,7 +971,7 @@
       },
       {
         "dia": 27,
-        "texto": "Y entonces llegan los presos de la costa: Cuaupopoca, su hijo y otros señores. Los traen ante Cortés. Yo estoy entre la gente, con la garganta seca.",
+        "texto": "Llegan los presos de la costa: Cuaupopoca, su hijo y otros señores. Los traen ante Cortés. Yo estoy entre la gente, con la garganta seca.",
         "drama": 0.8,
         "fondo": {
           "lugar": "ciudad",
@@ -1000,7 +1000,7 @@
       {
         "corte": true,
         "dia": 28,
-        "texto": "Los queman vivos con nuestras propias armas. No voy a contarte más. Solo que el humo sube muy recto, y que nadie en toda la explanada suelta una palabra.",
+        "texto": "Los extranjeros queman vivos a Cuaupopoca y a los suyos con nuestras propias armas. No voy a contarte más. Solo que el humo sube muy recto, y que nadie en toda la explanada suelta una palabra.",
         "drama": 0.9,
         "fondo": {
           "lugar": "ciudad",
@@ -1019,7 +1019,7 @@
       },
       {
         "dia": 28,
-        "texto": "Mientras tanto, a Moctezuma le ponen grilletes. A nuestro gran señor. Hierro en los pies del hombre que no podía pisar la tierra.",
+        "texto": "Y a Moctezuma le ponen grilletes. A nuestro gran señor. Hierro en los pies del hombre que no podía pisar la tierra.",
         "drama": 0.85,
         "fondo": {
           "lugar": "interior",
