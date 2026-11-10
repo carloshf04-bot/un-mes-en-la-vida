@@ -16,7 +16,8 @@ export const PROPS_DISPONIBLES = [
   // Wisconsin rural (1957)
   "granja", "granero", "coche-antiguo", "coche-patrulla", "estufa", "mostrador", "poste",
   // Tenochtitlan (1519)
-  "templo-mayor", "canoa", "ahuejote", "chinampa", "calzada", "brasero", "petate", "metate",
+  "templo-mayor", "canoa", "ahuejote", "chinampa", "calzada", "brasero", "petate", "metate", "ciudad-lago",
+  "granja-fuego", "charco",
 ] as const;
 
 const Brillo: React.FC<{ r: number; o: number; color?: string; cx?: number; cy?: number }> = ({ r, o, color = "#ffb347", cx = 0, cy = 0 }) => (
@@ -919,8 +920,8 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean }> = ({ ti
           </g>
           <g transform="translate(150 -480)">
             <rect x={-95} y={-170} width={190} height={170} fill="#e8e0cc" />
-            <path d="M-110 -170 L-110 -240 L110 -240 L110 -170Z" fill="#a8322a" />
-            {[0, 1, 2, 3].map((i) => <rect key={i} x={-100 + i * 54} y={-268} width={36} height={30} fill="#a8322a" />)}
+            <path d="M-110 -170 L0 -260 L110 -170Z" fill="#a8322a" />
+            {[0, 1, 2].map((i) => <circle key={i} cx={-60 + i * 60} cy={-140} r={12} fill="#f2e6c9" />)}
             <rect x={-40} y={-110} width={80} height={110} fill="#1d2230" />
           </g>
           {[-150, 150].map((x, i) => (
@@ -1000,6 +1001,75 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean }> = ({ ti
           {[-90, 0, 90].map((x) => <path key={x} d={`M${x - 16} -20 L${x} 0 L${x + 16} -20Z`} fill="#3a3438" />)}
           <rect x={-80} y={-96} width={160} height={30} rx={15} fill="#5a5458" />
           <ellipse cx={60} cy={-50} rx={34} ry={10} fill="#e0c050" />
+        </g>
+      );
+
+    case "ciudad-lago": {
+      // Tenochtitlan sobre el lago: casas blancas de azotea, templos escalonados y el Templo Mayor en el centro
+      const casas = Array.from({ length: 34 }).map((_, i) => {
+        const x = -1250 + i * 75 + (random(`cl${i}`) - 0.5) * 30;
+        const h = 60 + random(`ch${i}`) * 70;
+        return <rect key={i} x={x} y={-h} width={70} height={h} fill={random(`cc${i}`) > 0.3 ? "#efe6d2" : "#d8c49c"} stroke="#b8a888" strokeWidth={3} />;
+      });
+      const piramide = (x: number, esc: number, k: string) => (
+        <g key={k} transform={`translate(${x} 0) scale(${esc})`}>
+          {[0, 1, 2, 3].map((i) => <rect key={i} x={-150 + i * 25} y={-60 - i * 55} width={300 - i * 50} height={57} fill={["#d9cdb4", "#cfc2a6", "#c6b899", "#bcae8e"][i]} stroke="#9a8a6a" strokeWidth={3} />)}
+          <rect x={-25} y={-275} width={50} height={275} fill="#b0a282" />
+          <rect x={-45} y={-320} width={90} height={60} fill="#e8e0cc" />
+          <path d="M-52 -320 L0 -360 L52 -320Z" fill="#a8322a" />
+        </g>
+      );
+      return (
+        <g>
+          {casas}
+          {piramide(-760, 0.6, "a")}
+          {piramide(820, 0.55, "b")}
+          {piramide(-280, 0.45, "c")}
+          <g transform="translate(150 -40) scale(0.62)">
+            {[0, 1, 2, 3].map((i) => <rect key={i} x={-460 + i * 70} y={-120 - i * 120} width={920 - i * 140} height={122} fill={["#d9cdb4", "#cfc2a6", "#c6b899", "#bcae8e"][i]} stroke="#9a8a6a" strokeWidth={4} />)}
+            {[-80, 80].map((x) => <rect key={x} x={x - 45} y={-480} width={90} height={480} fill="#b0a282" />)}
+            <g transform="translate(-150 -480)"><rect x={-95} y={-170} width={190} height={170} fill="#e8e0cc" /><path d="M-110 -170 L0 -260 L110 -170Z" fill="#3f6fa8" /></g>
+            <g transform="translate(150 -480)"><rect x={-95} y={-170} width={190} height={170} fill="#e8e0cc" /><path d="M-110 -170 L0 -260 L110 -170Z" fill="#a8322a" /></g>
+          </g>
+          <rect x={-1300} y={-6} width={2600} height={14} fill="#8a9a7a" />
+          {[-900, -300, 500, 1000].map((x, i) => (
+            <g key={x} transform={`translate(${x + ((f * (0.6 + i * 0.2)) % 200) - 100} 30)`}>
+              <path d="M-50 -8 Q0 6 50 -8 Z" fill="#6b4a2a" />
+              <rect x={-2} y={-46} width={4} height={40} fill="#4a3220" />
+            </g>
+          ))}
+          {noche && casas.length > 0 && Array.from({ length: 10 }).map((_, i) => <circle key={i} cx={-1200 + i * 250} cy={-40} r={8} fill="#ffb347" opacity={0.7 + 0.3 * Math.sin(f / 5 + i)} />)}
+        </g>
+      );
+    }
+    case "granja-fuego":
+      return (
+        <g>
+          <Prop tipo="granja" f={f} noche={noche} />
+          <rect x={-300} y={-520} width={600} height={520} fill="#1a0a05" opacity={0.35} />
+          {llama(-200, -480, 2.2)}
+          {llama(60, -600, 2.8)}
+          {llama(220, -400, 2)}
+          {llama(-60, -200, 1.8)}
+          {[0, 1, 2, 3, 4].map((i) => {
+            const t = ((f + i * 30) % 150) / 150;
+            return <circle key={i} cx={Math.sin(f / 13 + i) * 80 - 40 + i * 30} cy={-780 - t * 700} r={70 + t * 140} fill="#3a3030" opacity={0.45 * (1 - t)} />;
+          })}
+          {Array.from({ length: 12 }).map((_, i) => {
+            const t = ((f * 1.5 + i * 23) % 100) / 100;
+            return <circle key={`c${i}`} cx={-250 + random(`ce${i}`) * 500 + Math.sin(f / 7 + i) * 20} cy={-500 - t * 600} r={4} fill="#ffcf6a" opacity={1 - t} />;
+          })}
+        </g>
+      );
+    case "charco":
+      return (
+        <g>
+          <ellipse cx={0} cy={-4} rx={220} ry={34} fill="#5a7088" opacity={0.85} />
+          <ellipse cx={-40} cy={-10} rx={120} ry={12} fill="#c8d8e8" opacity={0.35} />
+          {[0, 1, 2].map((i) => {
+            const t = ((f + i * 25) % 75) / 75;
+            return <ellipse key={i} cx={-60 + i * 70} cy={-4} rx={10 + t * 60} ry={2 + t * 9} fill="none" stroke="#dfe9f2" strokeWidth={3} opacity={0.6 * (1 - t)} />;
+          })}
         </g>
       );
     default:

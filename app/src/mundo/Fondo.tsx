@@ -540,9 +540,9 @@ const PrimerPlano: React.FC<{ fondo: Fondo; f: number; id: string; cam?: Cam }> 
 
 // Decorados que siempre están lejos, detrás de todo el paisaje
 const LEJANOS = ["volcan", "volcan-erupcion", "piramide", "pilar", "templo-mayor"];
-const ESCALA_LEJANA: Record<string, number> = { "templo-mayor": 0.55, pilar: 0.7 };
+const ESCALA_LEJANA: Record<string, number> = { "templo-mayor": 0.8, pilar: 0.75 };
 // Decorados de plano medio: sobre el agua o la llanura, entre el horizonte y el suelo
-const MEDIOS: Record<string, { y: number; k: number }> = { puente: { y: HORIZONTE + 95, k: 0.5 }, calzada: { y: HORIZONTE + 80, k: 0.6 }, canoa: { y: SUELO - 75, k: 0.8 } };
+const MEDIOS: Record<string, { y: number; k: number }> = { "ciudad-lago": { y: HORIZONTE + 40, k: 0.55 }, puente: { y: HORIZONTE + 95, k: 0.5 }, calzada: { y: HORIZONTE + 80, k: 0.6 }, canoa: { y: SUELO - 75, k: 0.8 } };
 
 // Ranuras automáticas para props sin x (repartidas detrás de los personajes)
 const RANURAS = [-1.45, 1.45, -0.75, 0.8, -1.9, 1.9, 0];

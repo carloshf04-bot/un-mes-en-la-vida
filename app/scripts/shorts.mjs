@@ -77,6 +77,7 @@ console.log(`✂️  ${total} shorts: ${plan.map(([a, b]) => (bordes[b] - bordes
 const CX = 960;
 const xMundo = (x = 0) => CX + x * 600;
 const CW = 608, CH = 900, CY = 20; // recorte del horizontal (deja fuera los subtítulos del largo)
+const MW = 1000; // encuadre medio (casi cuadrado) para dos personajes
 const pantallaX = (e, xw) => {
   const cam = e.camara ?? "lenta";
   const prota = e.personajes?.[0];
@@ -97,10 +98,11 @@ const encuadre = esc.map((e, i) => {
   const min = Math.min(...xs.map((p) => p.x)) - ancho / 2;
   const max = Math.max(...xs.map((p) => p.x)) + ancho / 2;
   if (max - min <= CW) return { modo: "recorte", x: (min + max) / 2 };
+  if (max - min <= MW) return { modo: "medio", x: (min + max) / 2 }; // dos personajes: encuadre casi cuadrado
   // no caben todos: si solo hay uno importante (el que habla) y el resto está lejos, se va al entero
   return { modo: "entero" };
 });
-const limitarX = (x) => Math.round(Math.min(1920 - CW, Math.max(0, x - CW / 2)));
+const limitarX = (x, w = CW) => Math.round(Math.min(1920 - w, Math.max(0, x - w / 2)));
 
 // ---------- subtítulos y rótulos (ASS) ----------
 const hex = (c) => { const h = c.replace("#", ""); return `&H00${h.slice(4, 6)}${h.slice(2, 4)}${h.slice(0, 2)}`.toUpperCase(); };
@@ -157,32 +159,30 @@ const assDe = (n, [a, b]) => {
 };
 
 // ---------- render de cada short ----------
-const firma = JSON.stringify({ plan, encuadre, v: 4 });
+const firma = JSON.stringify({ plan, encuadre, v: 5 });
 const cortesF = join(dir, "cortes.json");
 const previo = existsSync(cortesF) ? readFileSync(cortesF, "utf8") : "";
 const mismoPlan = !rehacer && previo && JSON.parse(previo).firma === firma;
 if (!mismoPlan) for (let n = 1; n <= 40; n++) rmSync(join(dir, `short-${String(n).padStart(2, "0")}.mp4`), { force: true });
 
 // expresión de ffmpeg por tramos (con transición suave de 0,3 s entre escenas en el recorte)
-const exprX = (a, b) => {
+const xDe = (i, modo, w) => limitarX(encuadre[i].modo === modo ? encuadre[i].x : 960, w);
+const exprX = (a, b, modo = "recorte", w = CW) => {
   const t0 = bordes[a];
-  let e = String(limitarX(encuadre[b - 1].modo === "recorte" ? encuadre[b - 1].x : 960));
+  let e = String(xDe(b - 1, modo, w));
   const a0 = Math.max(0, a - 1); // los primeros ~0,25 s aún se ve el plano anterior
   for (let i = b - 1; i > a0; i--) {
-    const xi = limitarX(encuadre[i].modo === "recorte" ? encuadre[i].x : 960);
-    const xa = limitarX(encuadre[i - 1].modo === "recorte" ? encuadre[i - 1].x : 960);
+    const xi = xDe(i, modo, w);
+    const xa = xDe(i - 1, modo, w);
     const tb = (escIni[i] - t0).toFixed(3);
-    e = `if(lt(t,${tb}-0.15),XPREV,if(lt(t,${tb}+0.15),${xa}+(${xi}-${xa})*(t-${tb}+0.15)/0.3,${e}))`.replace("XPREV", "XPREV");
-    e = e.replace("XPREV", `__${i - 1}__`);
+    e = `if(lt(t,${tb}-0.15),${xa},if(lt(t,${tb}+0.15),${xa}+(${xi}-${xa})*(t-${tb}+0.15)/0.3,${e}))`;
   }
-  // sustituye los marcadores por la x de cada escena anterior
-  for (let i = a0; i < b; i++) e = e.replace(`__${i}__`, String(limitarX(encuadre[i].modo === "recorte" ? encuadre[i].x : 960)));
   return e;
 };
-const exprEntero = (a, b) => {
+const exprModo = (a, b, modo) => {
   const t0 = bordes[a];
   const tramos = [];
-  for (let i = Math.max(0, a - 1); i < b; i++) if (encuadre[i].modo === "entero") tramos.push(`between(t,${Math.max(0, escIni[i] - t0).toFixed(3)},${(Math.min(escIni[i + 1], bordes[b]) - t0 - 0.001).toFixed(3)})`);
+  for (let i = Math.max(0, a - 1); i < b; i++) if (encuadre[i].modo === modo) tramos.push(`between(t,${Math.max(0, escIni[i] - t0).toFixed(3)},${(Math.min(escIni[i + 1], bordes[b]) - t0 - 0.001).toFixed(3)})`);
   return tramos.length ? tramos.join("+") : "0";
 };
 
@@ -195,13 +195,17 @@ plan.forEach(([a, b], k) => {
   if (existsSync(dest)) { console.log(`   ya existe short ${n}`); return; }
   const ass = join(dir, `short-${String(n).padStart(2, "0")}.ass`);
   writeFileSync(ass, assDe(n, [a, b]));
-  const ent = exprEntero(a, b);
+  const ent = exprModo(a, b, "entero");
+  const med = exprModo(a, b, "medio");
+  const MH = Math.round((CH * 1080) / MW);
   const filtro = [
-    `[0:v]split=3[v1][v2][v3]`,
+    `[0:v]split=4[v1][v2][v3][v4]`,
     `[v1]scale=-2:1920,crop=1080:1920,boxblur=28:2,eq=brightness=-0.18:saturation=0.85[fondo]`,
     `[v2]crop=${CW}:${CH}:x='${exprX(a, b)}':y=${CY},scale=1080:${Math.round((CH * 1080) / CW)}[rec]`,
     `[v3]crop=1920:${CH}:0:${CY},scale=1080:${Math.round((CH * 1080) / 1920)}[ent]`,
-    `[fondo][rec]overlay=0:160:enable='not(${ent})'[f1]`,
+    `[v4]crop=${MW}:${CH}:x='${exprX(a, b, "medio", MW)}':y=${CY},scale=1080:${MH}[med]`,
+    `[fondo][rec]overlay=0:160:enable='not(${ent}+${med})'[f0]`,
+    `[f0][med]overlay=0:(1920-h)/2-60:enable='${med}'[f1]`,
     `[f1][ent]overlay=0:(1920-h)/2-60:enable='${ent}'[f2]`,
     `[f2]subtitles=${ass}:fontsdir=${fuentes}[out]`,
     `[0:a]afade=t=in:d=0.2,afade=t=out:st=${(d - 0.2).toFixed(3)}:d=0.2[a]`,
