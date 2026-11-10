@@ -4,3 +4,4 @@ hf-*/
 node_modules/
 .hyperframes/
 !oficina/voz/*.wav
+videos/*/voz/tmp/
