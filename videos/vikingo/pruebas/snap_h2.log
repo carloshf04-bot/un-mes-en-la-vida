@@ -1,0 +1,41 @@
+◆  Capturing 14 frames at [9.26s, 40.64s, 69.65s, 103.13s, 338.99s, 453.43s, 541.77s, 566.02s, 622.12s, 644.86s, 708.81s, 738.55s, 755.24s, 779.33s] from hf-est-h
+[hyperframes] Using system Chrome at /usr/bin/google-chrome; HeadlessExperimental.beginFrame is unavailable in regular Chrome builds, so the perf-optimized capture path falls back to screenshot mode. Install chrome-headless-shell for the optimized path:
+  npx @puppeteer/browsers install chrome-headless-shell
+(Or set HYPERFRAMES_BROWSER_PATH to point at an existing chrome-headless-shell binary.)
+[hyperframes] browserGpuMode probe → software (WebGL unavailable)
+
+   Fonts: 2 loaded
+[hyperframes] snapshot: frame 1/14 at 9.26s
+[hyperframes] snapshot: frame 2/14 at 40.64s
+[hyperframes] snapshot: frame 3/14 at 69.65s
+[hyperframes] snapshot: frame 4/14 at 103.13s
+[hyperframes] snapshot: frame 5/14 at 338.99s
+[hyperframes] snapshot: frame 6/14 at 453.43s
+[hyperframes] snapshot: frame 7/14 at 541.77s
+[hyperframes] snapshot: frame 8/14 at 566.02s
+[hyperframes] snapshot: frame 9/14 at 622.12s
+[hyperframes] snapshot: frame 10/14 at 644.86s
+[hyperframes] snapshot: frame 11/14 at 708.81s
+[hyperframes] snapshot: frame 12/14 at 738.55s
+[hyperframes] snapshot: frame 13/14 at 755.24s
+[hyperframes] snapshot: frame 14/14 at 779.33s
+   Revision: 2318984d-6fd6-44a9-99fd-69f7613a5330 (recorded-revision)
+   State: /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-h/.hyperframes/video-state.json
+
+◇  14 snapshots saved to /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-h/.hyperframes/artifacts/snapshots/9b71bb00-6c77-4c27-986b-97f5481acd82
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-h/.hyperframes/artifacts/snapshots/9b71bb00-6c77-4c27-986b-97f5481acd82/frame-00-at-9.26s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-h/.hyperframes/artifacts/snapshots/9b71bb00-6c77-4c27-986b-97f5481acd82/frame-01-at-40.64s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-h/.hyperframes/artifacts/snapshots/9b71bb00-6c77-4c27-986b-97f5481acd82/frame-02-at-69.65s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-h/.hyperframes/artifacts/snapshots/9b71bb00-6c77-4c27-986b-97f5481acd82/frame-03-at-103.13s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-h/.hyperframes/artifacts/snapshots/9b71bb00-6c77-4c27-986b-97f5481acd82/frame-04-at-338.99s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-h/.hyperframes/artifacts/snapshots/9b71bb00-6c77-4c27-986b-97f5481acd82/frame-05-at-453.43s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-h/.hyperframes/artifacts/snapshots/9b71bb00-6c77-4c27-986b-97f5481acd82/frame-06-at-541.77s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-h/.hyperframes/artifacts/snapshots/9b71bb00-6c77-4c27-986b-97f5481acd82/frame-07-at-566.02s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-h/.hyperframes/artifacts/snapshots/9b71bb00-6c77-4c27-986b-97f5481acd82/frame-08-at-622.12s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-h/.hyperframes/artifacts/snapshots/9b71bb00-6c77-4c27-986b-97f5481acd82/frame-09-at-644.86s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-h/.hyperframes/artifacts/snapshots/9b71bb00-6c77-4c27-986b-97f5481acd82/frame-10-at-708.81s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-h/.hyperframes/artifacts/snapshots/9b71bb00-6c77-4c27-986b-97f5481acd82/frame-11-at-738.55s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-h/.hyperframes/artifacts/snapshots/9b71bb00-6c77-4c27-986b-97f5481acd82/frame-12-at-755.24s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-h/.hyperframes/artifacts/snapshots/9b71bb00-6c77-4c27-986b-97f5481acd82/frame-13-at-779.33s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-h/.hyperframes/artifacts/snapshots/9b71bb00-6c77-4c27-986b-97f5481acd82/contact-sheet-1.jpg (grid view for AI review)
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-h/.hyperframes/artifacts/snapshots/9b71bb00-6c77-4c27-986b-97f5481acd82/contact-sheet-2.jpg (grid view for AI review)

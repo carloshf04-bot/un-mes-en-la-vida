@@ -1,0 +1,33 @@
+◆  Capturing 10 frames at [9.26s, 69.65s, 271.96s, 338.99s, 463.77s, 566.02s, 622.12s, 689.68s, 708.81s, 738.55s] from hf-est-v
+[hyperframes] Using system Chrome at /usr/bin/google-chrome; HeadlessExperimental.beginFrame is unavailable in regular Chrome builds, so the perf-optimized capture path falls back to screenshot mode. Install chrome-headless-shell for the optimized path:
+  npx @puppeteer/browsers install chrome-headless-shell
+(Or set HYPERFRAMES_BROWSER_PATH to point at an existing chrome-headless-shell binary.)
+[hyperframes] browserGpuMode probe → software (WebGL unavailable)
+
+   Fonts: 2 loaded
+[hyperframes] snapshot: frame 1/10 at 9.26s
+[hyperframes] snapshot: frame 2/10 at 69.65s
+[hyperframes] snapshot: frame 3/10 at 271.96s
+[hyperframes] snapshot: frame 4/10 at 338.99s
+[hyperframes] snapshot: frame 5/10 at 463.77s
+[hyperframes] snapshot: frame 6/10 at 566.02s
+[hyperframes] snapshot: frame 7/10 at 622.12s
+[hyperframes] snapshot: frame 8/10 at 689.68s
+[hyperframes] snapshot: frame 9/10 at 708.81s
+[hyperframes] snapshot: frame 10/10 at 738.55s
+   Revision: b9841802-46a3-44b9-9e3b-fa4be69c5052 (recorded-revision)
+   State: /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/.hyperframes/video-state.json
+
+◇  10 snapshots saved to /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/.hyperframes/artifacts/snapshots/90da96e2-16ab-48f3-935e-cedeade1447f
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/.hyperframes/artifacts/snapshots/90da96e2-16ab-48f3-935e-cedeade1447f/frame-00-at-9.26s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/.hyperframes/artifacts/snapshots/90da96e2-16ab-48f3-935e-cedeade1447f/frame-01-at-69.65s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/.hyperframes/artifacts/snapshots/90da96e2-16ab-48f3-935e-cedeade1447f/frame-02-at-271.96s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/.hyperframes/artifacts/snapshots/90da96e2-16ab-48f3-935e-cedeade1447f/frame-03-at-338.99s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/.hyperframes/artifacts/snapshots/90da96e2-16ab-48f3-935e-cedeade1447f/frame-04-at-463.77s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/.hyperframes/artifacts/snapshots/90da96e2-16ab-48f3-935e-cedeade1447f/frame-05-at-566.02s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/.hyperframes/artifacts/snapshots/90da96e2-16ab-48f3-935e-cedeade1447f/frame-06-at-622.12s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/.hyperframes/artifacts/snapshots/90da96e2-16ab-48f3-935e-cedeade1447f/frame-07-at-689.68s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/.hyperframes/artifacts/snapshots/90da96e2-16ab-48f3-935e-cedeade1447f/frame-08-at-708.81s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/.hyperframes/artifacts/snapshots/90da96e2-16ab-48f3-935e-cedeade1447f/frame-09-at-738.55s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/.hyperframes/artifacts/snapshots/90da96e2-16ab-48f3-935e-cedeade1447f/contact-sheet-1.jpg (grid view for AI review)
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-v/.hyperframes/artifacts/snapshots/90da96e2-16ab-48f3-935e-cedeade1447f/contact-sheet-2.jpg (grid view for AI review)

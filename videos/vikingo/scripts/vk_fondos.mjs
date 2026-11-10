@@ -2,7 +2,7 @@
 // 5 capas por escenario: 1 cielo (S.bg) · 2 lejos (paralaje 0,12) · 3 medio (paralaje 0,35 + piezas del mundo)
 // · 4 suelo con textura (mundo) · 5 primer plano desenfocado (S.over, paralaje 1,35). Más atrezo, luz y elementos vivos.
 import { C, r3, rng } from "./lib.mjs";
-import { smoke, sunRays, motes, vignette } from "./gl_fondos2.mjs";
+import { smoke, sunRays, motes, vignette, shade } from "./gl_fondos2.mjs";
 import { fire, animal, animalIdle, tent } from "./lib2.mjs";
 export const G = 900;
 const INK = C.ink;
@@ -433,11 +433,11 @@ export function operaStage(S, id, x, w = 3600) {
 export function curtainOpen(S, id, t) { S.cue(t, "whoosh"); S.tw(`tl.to("#${id}-cL",{scaleX:0.12,transformOrigin:"0% 50%",duration:1.1,ease:"power2.inOut"},${r3(t)});tl.to("#${id}-cR",{scaleX:0.12,transformOrigin:"100% 50%",duration:1.1,ease:"power2.inOut"},${r3(t)});`); }
 // Sala de museo: pared con degradado, foco, vitrinas lejanas, vitrina principal con su objeto y cartela
 export function museumRoom(S, id, x, w = 4200) {
-  S.add(`<svg class="prop" style="left:${x - w / 2}px;top:${G - 1700}px;z-index:1" width="${w}" height="1710" overflow="visible"><defs><linearGradient id="${id}-wg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a3140"/><stop offset="1" stop-color="#4a5568"/></linearGradient></defs><rect width="${w}" height="1700" fill="url(#${id}-wg)"/>${[...Array(Math.floor(w / 600))].map((_, k) => `<rect x="${k * 600 + 120}" y="1180" width="260" height="380" fill="#5a6578" stroke="#3a4458" stroke-width="6" opacity=".7"/><rect x="${k * 600 + 150}" y="1020" width="200" height="160" fill="rgba(200,220,235,.25)" stroke="#6a7588" stroke-width="5"/>`).join("")}<rect x="0" y="1560" width="${w}" height="140" fill="#3a4250"/><rect x="${w * 0.08}" y="300" width="380" height="120" fill="#e6e8ec" stroke="${INK}" stroke-width="4"/><text x="${w * 0.08 + 190}" y="378" text-anchor="middle" font-family="Inter" font-weight="900" font-size="54" fill="#2a3140">SALA 3</text><path d="M${w * 0.75},420 l120,0 l-30,-30 M${w * 0.75 + 120},420 l-30,30" stroke="#e6e8ec" stroke-width="14" fill="none"/><rect x="${w * 0.7}" y="1460" width="420" height="40" fill="#6b4a2e" stroke="${INK}" stroke-width="4"/><rect x="${w * 0.71}" y="1500" width="30" height="60" fill="#4a3426"/><rect x="${w * 0.7 + 380}" y="1500" width="30" height="60" fill="#4a3426"/></svg>`);
+  S.add(`<svg class="prop" style="left:${x - w / 2}px;top:${G - 1700}px;z-index:1" width="${w}" height="1710" overflow="visible"><defs><linearGradient id="${id}-wg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#232a38"/><stop offset="1" stop-color="#4a5568"/></linearGradient></defs><rect y="-1200" width="${w}" height="2900" fill="url(#${id}-wg)"/><rect y="-1200" width="${w}" height="140" fill="#1c2230"/>${[...Array(Math.floor(w / 900))].map((_, k) => `<rect x="${k * 900 + 300}" y="-1060" width="40" height="200" fill="#2a3140"/><path d="M${k * 900 + 260},-860 l120,0 l-30,60 l-60,0Z" fill="#c9ced6" stroke="${INK}" stroke-width="4"/>`).join("")}${[...Array(Math.floor(w / 600))].map((_, k) => `<rect x="${k * 600 + 120}" y="1180" width="260" height="380" fill="#5a6578" stroke="#3a4458" stroke-width="6" opacity=".7"/><rect x="${k * 600 + 150}" y="1020" width="200" height="160" fill="rgba(200,220,235,.25)" stroke="#6a7588" stroke-width="5"/>`).join("")}<rect x="0" y="1560" width="${w}" height="140" fill="#3a4250"/><rect x="${w * 0.08}" y="300" width="380" height="120" fill="#e6e8ec" stroke="${INK}" stroke-width="4"/><text x="${w * 0.08 + 190}" y="378" text-anchor="middle" font-family="Inter" font-weight="900" font-size="54" fill="#2a3140">SALA 3</text><path d="M${w * 0.75},420 l120,0 l-30,-30 M${w * 0.75 + 120},420 l-30,30" stroke="#e6e8ec" stroke-width="14" fill="none"/><rect x="${w * 0.7}" y="1460" width="420" height="40" fill="#6b4a2e" stroke="${INK}" stroke-width="4"/><rect x="${w * 0.71}" y="1500" width="30" height="60" fill="#4a3426"/><rect x="${w * 0.7 + 380}" y="1500" width="30" height="60" fill="#4a3426"/></svg>`);
   S.over.push(`<div class="layer" style="width:${S.fmt.W}px;height:${S.fmt.H}px;z-index:12;pointer-events:none;background:radial-gradient(ellipse 40% 70% at 50% 0%,rgba(220,235,255,.22),rgba(0,0,0,0) 70%)"></div>`);
 }
 // Vitrina con peana; kind: veksoe | gjermundbu | craneo | viborg | grilletes
-export function museumCase(S, id, x, kind, lbl, { z = 4 } = {}) {
+export function museumCase(S, id, x, kind, lbl, { z = 4, s = S.fmt.h ? 1 : 0.8 } = {}) {
   const obj = {
     veksoe: `<g transform="translate(160,250)">${[-90, 90].map((dx) => `<g transform="translate(${dx},0)"><path d="M-60,0 C-62,-70 62,-70 60,0Z" fill="#b08a36" stroke="${INK}" stroke-width="5"/><path d="M-50,-30 C-110,-60 -120,-130 -90,-170 M50,-30 C110,-60 120,-130 90,-170" stroke="#b08a36" stroke-width="16" fill="none" stroke-linecap="round"/><circle cx="-14" cy="-26" r="10" fill="${INK}"/><circle cx="14" cy="-26" r="10" fill="${INK}"/></g>`).join("")}</g>`,
     gjermundbu: `<g id="${id}-obj" transform="translate(160,330) scale(1.3)"><path d="M-80,0 C-84,-110 84,-116 80,0Z" fill="#8f979f" stroke="${INK}" stroke-width="6"/><path d="M0,-110 L0,0 M-82,-34 L82,-34" stroke="#6b7178" stroke-width="10"/><g id="${id}-gf"><path d="M-46,4 C-52,34 -30,52 -8,42 L0,10 L8,42 C30,52 52,34 46,4Z" fill="none" stroke="#6b7178" stroke-width="10" stroke-linejoin="round"/></g></g>`,
@@ -445,11 +445,11 @@ export function museumCase(S, id, x, kind, lbl, { z = 4 } = {}) {
     viborg: `<g transform="translate(160,330)"><rect x="-60" y="-160" width="120" height="170" rx="20" fill="rgba(200,225,235,.45)" stroke="${INK}" stroke-width="5"/><rect x="-56" y="-80" width="112" height="86" rx="14" fill="#6a5038"/><rect x="-40" y="-190" width="80" height="34" rx="6" fill="#8a6232" stroke="${INK}" stroke-width="4"/><circle cx="100" cy="-20" r="40" fill="rgba(200,225,235,.4)" stroke="${INK}" stroke-width="6"/><path d="M128,8 L170,50" stroke="#6b4a2e" stroke-width="14" stroke-linecap="round"/></g>`,
     grilletes: `<g transform="translate(160,320)"><ellipse cx="-50" cy="-40" rx="40" ry="30" fill="none" stroke="#5b5f66" stroke-width="14"/><ellipse cx="50" cy="-40" rx="40" ry="30" fill="none" stroke="#5b5f66" stroke-width="14"/><path d="M-10,-40 q10,20 20,0" stroke="#6b6f76" stroke-width="10" fill="none"/></g>`,
   }[kind];
-  S.add(`<svg id="${id}" class="prop" style="left:${x - 160}px;top:${G - 900}px;z-index:${z}" width="320" height="910" overflow="visible">
+  S.add(`<svg id="${id}" class="prop" style="left:${r3(x - 160 * s)}px;top:${r3(G - 900 * s)}px;z-index:${z}" width="${r3(320 * s)}" height="${r3(910 * s)}" viewBox="0 0 320 910" overflow="visible">
     <rect x="20" y="460" width="280" height="440" fill="#d8dbe0" stroke="${INK}" stroke-width="6"/><rect x="0" y="440" width="320" height="30" fill="#c0c4cc" stroke="${INK}" stroke-width="5"/>
     ${obj}<rect x="10" y="80" width="300" height="360" fill="rgba(200,225,240,.18)" stroke="#e8f2f8" stroke-width="6"/>
     <rect id="${id}-gl" x="20" y="80" width="40" height="360" fill="rgba(255,255,255,.35)" transform="skewX(-12)"/>
-    <rect x="40" y="560" width="240" height="110" fill="#f4f1ea" stroke="${INK}" stroke-width="4"/>${String(lbl).split("<br>").map((l, i) => `<text x="160" y="${606 + i * 44}" text-anchor="middle" font-family="Inter" font-weight="900" font-size="${l.length > 11 ? 26 : 32}" fill="#2a3140">${l}</text>`).join("")}</svg>`);
+    <rect x="20" y="556" width="280" height="122" fill="#f4f1ea" stroke="${INK}" stroke-width="4"/>${String(lbl).split("<br>").map((l, i) => `<text x="160" y="${604 + i * 48}" text-anchor="middle" font-family="Inter" font-weight="900" font-size="${l.length > 9 ? 31 : 40}" fill="#2a3140">${l}</text>`).join("")}</svg>`);
   S.tw(`tl.fromTo("#${id}-gl",{x:0},{immediateRender:false,x:260,duration:2.4,repeat:${REP(S, 3)},repeatDelay:0.6,ease:"power1.inOut"},0.4);`);
 }
 // Túmulo con hierba; cutTo() abre el corte con el barco dentro; closeTo() lo tapa
@@ -603,7 +603,7 @@ export const FONDO = {
     atz(S, `${S.id}-az`, x - 1700, ["barrel", "sack", "chest", "fishRack", "rope", "seedBasket"], { gap: 20, y: G - 20, z: 4 }); fg(S, ["post", "rope"]);
   },
   s3_mar_dia(S, x) { nordicSky(S, "dia"); farLayer(S, { kind: "costa", seed: 41 }); midLayer(S, { kind: "sea", skerries: true }); sea(S); S.ship = gokstad(S, `${S.id}-sh`, x + 200, G + 40, { s: 1, sail: "up", crew: 0 }); sunRays(S, { k: 0.14 }); fg(S, ["foam", "foam"]); },
-  s3_remo(S, x) { nordicSky(S, "niebla", { gulls: false }); farLayer(S, { kind: "costa", seed: 41 }); midLayer(S, { kind: "sea" }); sea(S, { kind: "calma" }); S.ship = gokstad(S, `${S.id}-sh`, x + 200, G + 40, { s: 1, sail: "up", oars: "off" }); fog(S, 0.45); fg(S, ["foam"], { blur: 5 }); },
+  s3_remo(S, x) { nordicSky(S, "niebla", { gulls: false }); farLayer(S, { kind: "costa", seed: 41 }); midLayer(S, { kind: "sea" }); sea(S, { kind: "calma" }); S.ship = gokstad(S, `${S.id}-sh`, x + 200, G + 40, { s: 1, sail: "up", oars: "off" }); fog(S, 0.45); shade(S, 0.6); fg(S, ["foam"], { blur: 5 }); },
   s3_noche_mar(S, x) {
     nordicSky(S, "noche", { moon: 1 }); farLayer(S, { kind: "costa", night: true, seed: 41 }); midLayer(S, { kind: "sea", night: true }); sea(S, { kind: "calma", night: true });
     moonPath(S); S.ship = gokstad(S, `${S.id}-sh`, x + 200, G + 40, { s: 1, sail: "furled", night: true }); vignette(S, 0.7); fg(S, ["gunwale", "rope"], { blur: 4 });
@@ -629,7 +629,7 @@ export const FONDO = {
     atz(S, `${S.id}-az`, x + 1300, ["shackleProp", "barrel", "rope", "cloth", "sack", "anchor"], { gap: 24, y: G - 20, z: 4 }); fg(S, ["rope", "post"], { blur: 4 }); tintVk(S, "frio"); drizzle(S); vignette(S, 0.45);
   },
   s4_ansgario(S, x) { nordicSky(S, "dia"); farLayer(S, { kind: "hedeby", seed: 53 }); midLayer(S, { kind: "llano" }); ground(S, "barro"); church(S, x + 700); atz(S, `${S.id}-az`, x + 1900, ["bench", "cauldron", "woodpile", "pail", "sack", "jug"], { gap: 24 }); fg(S, ["post", "fern"]); },
-  ins_museo(S, x) { museumRoom(S, `${S.id}-mr`, x, 5200); ground(S, "museo"); atz(S, `${S.id}-az`, x + 1600, ["bench2"], { z: 3 }); fg(S, ["cordon", "heads"], { blur: 4 }); },
+  ins_museo(S, x) { museumRoom(S, `${S.id}-mr`, x + 2500, 13000); ground(S, "museo"); atz(S, `${S.id}-az`, x + 1600, ["bench2"], { z: 3 }); fg(S, ["cordon", "heads"], { blur: 4 }); },
   s4_noche(S, x) {
     nordicSky(S, "noche", { moon: -0.5 }); farLayer(S, { kind: "hedeby", night: true, seed: 55 }); midLayer(S, { kind: "llano", night: true }); ground(S, "tablones"); hedebyStreet(S, `${S.id}-hs`, x, 5600, { night: true }); tintVk(S, "noche");
     fire(S, `${S.id}-b1`, x - 900, G + 40, 0.6); fire(S, `${S.id}-b2`, x + 1300, G + 40, 0.6); atz(S, `${S.id}-az`, x + 2200, ["barrel", "horn", "jug", "bench", "furs", "lamp"], { gap: 20, z: 4 }); vignette(S, 0.6); fg(S, ["barrel", "post"], { blur: 4 });

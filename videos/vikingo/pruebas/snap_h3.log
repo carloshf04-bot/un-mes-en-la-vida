@@ -1,0 +1,20 @@
+◆  Capturing 4 frames at [622.12s, 708.81s, 738.55s, 755.24s] from hf-est-h
+[hyperframes] Using system Chrome at /usr/bin/google-chrome; HeadlessExperimental.beginFrame is unavailable in regular Chrome builds, so the perf-optimized capture path falls back to screenshot mode. Install chrome-headless-shell for the optimized path:
+  npx @puppeteer/browsers install chrome-headless-shell
+(Or set HYPERFRAMES_BROWSER_PATH to point at an existing chrome-headless-shell binary.)
+[hyperframes] browserGpuMode probe → software (WebGL unavailable)
+
+   Fonts: 2 loaded
+[hyperframes] snapshot: frame 1/4 at 622.12s
+[hyperframes] snapshot: frame 2/4 at 708.81s
+[hyperframes] snapshot: frame 3/4 at 738.55s
+[hyperframes] snapshot: frame 4/4 at 755.24s
+   Revision: 0171b370-7046-4c7e-8205-f7bb0ebc92c5 (recorded-revision)
+   State: /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-h/.hyperframes/video-state.json
+
+◇  4 snapshots saved to /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-h/.hyperframes/artifacts/snapshots/ce166d56-7433-4e68-8d0e-a81b20a2e4b4
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-h/.hyperframes/artifacts/snapshots/ce166d56-7433-4e68-8d0e-a81b20a2e4b4/frame-00-at-622.12s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-h/.hyperframes/artifacts/snapshots/ce166d56-7433-4e68-8d0e-a81b20a2e4b4/frame-01-at-708.81s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-h/.hyperframes/artifacts/snapshots/ce166d56-7433-4e68-8d0e-a81b20a2e4b4/frame-02-at-738.55s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-h/.hyperframes/artifacts/snapshots/ce166d56-7433-4e68-8d0e-a81b20a2e4b4/frame-03-at-755.24s.png
+   /home/user/un-mes-en-la-vida/videos/vikingo/hf-est-h/.hyperframes/artifacts/snapshots/ce166d56-7433-4e68-8d0e-a81b20a2e4b4/contact-sheet.jpg (grid view for AI review)
