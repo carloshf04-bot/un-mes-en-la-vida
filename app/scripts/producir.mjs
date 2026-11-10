@@ -170,10 +170,10 @@ const render = (formato) => {
 
 // Mezcla final: sonoridad -14 LUFS y pico real ≤ -1 dBTP (loudnorm en dos pasadas), vídeo sin recodificar
 const mezclaFinal = (entrada, destino) => {
-  const r = spawnSync("ffmpeg", ["-hide_banner", "-i", entrada, "-af", "loudnorm=I=-14:TP=-1.5:LRA=11:print_format=json", "-f", "null", "-"], { encoding: "utf8" });
+  const r = spawnSync("ffmpeg", ["-hide_banner", "-i", entrada, "-af", "loudnorm=I=-14:TP=-2:LRA=11:print_format=json", "-f", "null", "-"], { encoding: "utf8" });
   const js = JSON.parse(r.stderr.slice(r.stderr.lastIndexOf("{"), r.stderr.lastIndexOf("}") + 1));
-  const ln = `loudnorm=I=-14:TP=-1.5:LRA=11:measured_I=${js.input_i}:measured_TP=${js.input_tp}:measured_LRA=${js.input_lra}:measured_thresh=${js.input_thresh}:offset=${js.target_offset}:linear=true`;
-  execFileSync("ffmpeg", ["-y", "-v", "error", "-i", entrada, "-c:v", "copy", "-af", `${ln},alimiter=limit=0.85:level=false`, "-ar", "48000", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", destino]);
+  const ln = `loudnorm=I=-14:TP=-2:LRA=11:measured_I=${js.input_i}:measured_TP=${js.input_tp}:measured_LRA=${js.input_lra}:measured_thresh=${js.input_thresh}:offset=${js.target_offset}:linear=true`;
+  execFileSync("ffmpeg", ["-y", "-v", "error", "-i", entrada, "-c:v", "copy", "-af", `${ln},alimiter=limit=0.75:level=false`, "-ar", "48000", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", destino]);
 };
 
 const muestras = (formato, info) => {
