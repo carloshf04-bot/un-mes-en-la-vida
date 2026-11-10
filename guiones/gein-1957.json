@@ -523,7 +523,7 @@
         "dia": 8,
         "capitulo": "Los hombres de rojo",
         "corte": true,
-        "texto": "Domingo, tres de noviembre. La radio solo habla de Laika, una perra rusa en órbita. Medio pueblo levanta la vista. Nadie mira a mi granja. Todavía.",
+        "texto": "Domingo, tres de noviembre. La radio solo habla de Laika, la perrita rusa que gira alrededor de la Tierra. Medio pueblo mira al cielo. Nadie mira a mi granja. Todavía.",
         "drama": 0.6,
         "fondo": {
           "lugar": "interior",
@@ -714,7 +714,7 @@
       },
       {
         "dia": 13,
-        "texto": "En diciembre de mil novecientos cincuenta y cuatro, alguien entra en su taberna. No hay nadie. Manchas de sangre. Un casquillo de bala. De Méri, ni rastro.",
+        "texto": "En diciembre de mil novecientos cincuenta y cuatro, alguien entra en su taberna. No hay nadie. Solo manchas de sangre y un casquillo de bala. De Méri, ni rastro.",
         "drama": 0.75,
         "personajes": [],
         "camara": "cerca"
@@ -828,7 +828,7 @@
       },
       {
         "dia": 20,
-        "texto": "Viernes, la víspera. Ya cae la tarde cuando entro en la ferretería Uórden. Detrás del mostrador está Frank, el hijo de Berníss.",
+        "texto": "Es viernes, la víspera. Cae la tarde cuando entro en la ferretería Uórden. Detrás del mostrador está Frank, el hijo de Berníss.",
         "drama": 0.7,
         "fondo": {
           "lugar": "interior",
@@ -876,7 +876,7 @@
       },
       {
         "dia": 20,
-        "texto": "Le digo que volveré mañana. A por anticongelante. Una frase de las que se olvidan. Frank no la olvidará.",
+        "texto": "Le digo que volveré mañana a por anticongelante. Una frase de las que se olvidan. Frank no la olvidará.",
         "drama": 0.75,
         "personajes": [
           {
@@ -1155,7 +1155,7 @@
       {
         "dia": 21,
         "corte": true,
-        "texto": "Esa misma tarde, yo estoy sentado a la mesa con los Jil, en Uest Pléinfild. Les hago trabajillos a menudo. Me han guardado un plato caliente.",
+        "texto": "Esa misma tarde, ceno en casa de los Jil, en Uest Pléinfild. Les hago trabajillos a menudo, y me han guardado un plato caliente.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -1275,7 +1275,7 @@
       },
       {
         "dia": 21,
-        "texto": "Mientras tanto, el sheriff Art Shlai y sus hombres van camino de mi granja. Ya es de noche. Y en mi casa no hay corriente.",
+        "texto": "Mientras tanto, el sheriff y sus hombres van camino de mi granja. Ya es de noche, y en mi casa no hay luz eléctrica.",
         "drama": 0.8,
         "fondo": {
           "lugar": "campo",
@@ -1349,7 +1349,7 @@
       },
       {
         "dia": 21,
-        "texto": "Antes de seguir, un nombre. Berníss Uórden. Viuda, madre, y al frente de una ferretería en un pueblo de granjeros. Eso es lo que hay que recordar.",
+        "texto": "Antes de seguir, un nombre que importa. Se llamaba Berníss Uórden. Viuda, madre, y al frente de una ferretería en un pueblo de granjeros. Eso es lo que hay que recordar.",
         "drama": 0.55,
         "fondo": {
           "lugar": "campo",

@@ -64,7 +64,7 @@ const parecido = (a, b) => {
   return 1 - d[m][n] / Math.max(m, n);
 };
 // equivalencias que no son errores de la voz (seseo y grafías)
-const sonido = (x) => x.replace(/z/g, "s").replace(/c([ei])/g, "s$1").replace(/v/g, "b").replace(/h/g, "").replace(/ll/g, "y");
+const sonido = (x) => x.replace(/g([ei])/g, "j$1").replace(/z/g, "s").replace(/c([ei])/g, "s$1").replace(/v/g, "b").replace(/h/g, "").replace(/ll/g, "y");
 const igualSonido = (a, b) => sonido(a) === sonido(b);
 
 // alineamiento por programación dinámica: guion (g) frente a whisper (w)
