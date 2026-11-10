@@ -20,3 +20,4 @@
 2026-11-09 · 4 · Dirección · voz lanzada en segundo plano (voz_cb.py adaptado: voz de referencia de oficina/voz y finales de capítulo leídos de guion_visual.md)
 2026-11-10 · 4 · produccion · animación con tiempos provisionales (8 capítulos, 29 escenarios, check sin errores, 14 arreglos) · a puerta 4; producción sigue con el sonido
 2026-11-10 · 4 · control-calidad · CAMBIOS (4 graves: solape en frase 5, vacas invisibles en 42, 5 DÍAS tapa HEDEBY en 117, etiquetas de mapa < 46 px; 2 menores) · devuelto a producción, vuelta 1
+2026-11-10 · 4 · control-calidad · APROBADO en la vuelta 2 (animación provisional; menor pendiente: ZZZ roza LUNA LLENA en la frase 135) · falta la voz real para cerrar el paso 4

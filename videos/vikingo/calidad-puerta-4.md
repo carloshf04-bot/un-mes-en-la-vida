@@ -46,3 +46,34 @@ Hay 4 cosas graves, y las cuatro se arreglan en `scripts/vk_caps.mjs` y `scripts
 4. Etiquetas de los mapas por debajo de 46 px.
 
 Después hay que regenerar `hf-est-h` y `hf-est-v` y sacar capturas de nuevo en 18,2 s, 151,9-152,3 s, 384 s, 311,7 s y 587 s.
+
+---
+
+## Vuelta 2
+
+Revisado después del commit `f3548db`, sobre `hf-est-h` y `hf-est-v` regenerados.
+
+- **Capturas nuevas**: 14 momentos en cada formato (horizontal y vertical), abiertos con Read en hojas de contactos y recortes a tamaño real.
+  - Los que se pidieron: 18,2 · 151,9 · 152,3 · 311,7 · 384 · 587 · 636,34 · 762,48 s.
+  - Seis más para ver que no se ha roto nada: 4,5 · 69,95 · 226,65 · 440,28 · 541,57 · 746,54 s.
+- **`hyperframes check --json`**:
+  - Horizontal: `ok: true`, **0 errores**. Avisos: 91 `overlapping_gsap_tweens`, 9 `composition_file_too_large`, 4 `svg_round_cap_hidden_dash`, 15 `line_unread`, 1 `text_below_floor` (cartela de la vitrina) y 1 `audio_clip_silent` (el silencio provisional).
+  - Vertical: `ok: true`, **0 errores**, con los mismos avisos y 2 `text_below_floor` (las cartelas de las vitrinas).
+
+| # | Problema de la vuelta 1 | Estado ahora |
+|---|---|---|
+| 1 | Frase 5, rótulos solapados | **Arreglado.** «0 CUERNOS» va en su propio hueco, debajo de «NADIE LLEVA CASCO», en los dos formatos. |
+| 2 | Frase 42, las vacas no se ven | **Arreglado.** A 151,9 y 152,3 s se ven el establo, la vaca sobre el banco y «LAS VACAS, DENTRO» entero, sin cortar: en horizontal a x≈860-1075, y en vertical centrado. |
+| 3 | Frase 117, «5 DÍAS» tapa HEDEBY | **Arreglado.** «5 DÍAS» va debajo del mapa y KAUPANG y HEDEBY se leen enteras. |
+| 4 | Etiquetas de los mapas por debajo de 46 px | **Arreglado.** VESTFOLD (311,7 s), KAUPANG y HEDEBY (384 s) y BIRKA (587 s) se ven más grandes y con contorno, y se leen en los dos formatos. |
+| 5 | Frase 229, tarjetas descolocadas (menor) | **Arreglado.** En horizontal, «SIN BRÚJULA», «A PESO» y «0 CUERNOS» van en una fila por encima de la balanza. En vertical van en dos filas y no tocan la balanza. A 762,48 s la tercera tarjeta todavía está entrando, lo cual es normal. |
+| 6 | Frase 201, rótulos apagados de noche (menor) | **Arreglado.** «OTRO MITO» y «BEBER EN CRÁNEOS» salen con su color sobre la noche. |
+
+**Momentos al azar**: gancho, granja con Kári, noche de las armas, luna llena a bordo, balanza de Hedeby y ópera de 1876. No se ha roto nada:
+- Ningún texto cortado.
+- Ningún personaje fuera de su escena.
+- Los cuernos siguen apareciendo solo en el fantasma tachado y en el cantante de 1876.
+
+Queda un detalle menor que no bloquea: en la frase 135 del horizontal (440,28 s), el «ZZZ» roza por la izquierda la placa «LUNA LLENA». Si se quiere, se arregla bajando el «ZZZ» unos 60 px. En vertical no pasa.
+
+**APROBADO**
