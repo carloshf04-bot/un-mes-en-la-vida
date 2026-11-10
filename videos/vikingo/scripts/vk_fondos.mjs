@@ -631,8 +631,8 @@ export const FONDO = {
   s4_ansgario(S, x) { nordicSky(S, "dia"); farLayer(S, { kind: "hedeby", seed: 53 }); midLayer(S, { kind: "llano" }); ground(S, "barro"); church(S, x + 700); atz(S, `${S.id}-az`, x + 1900, ["bench", "cauldron", "woodpile", "pail", "sack", "jug"], { gap: 24 }); fg(S, ["post", "fern"]); },
   ins_museo(S, x) { museumRoom(S, `${S.id}-mr`, x + 2500, 13000); ground(S, "museo"); atz(S, `${S.id}-az`, x + 1600, ["bench2"], { z: 3 }); fg(S, ["cordon", "heads"], { blur: 4 }); },
   s4_noche(S, x) {
-    nordicSky(S, "noche", { moon: -0.5 }); farLayer(S, { kind: "hedeby", night: true, seed: 55 }); midLayer(S, { kind: "llano", night: true }); ground(S, "tablones"); hedebyStreet(S, `${S.id}-hs`, x, 5600, { night: true }); tintVk(S, "noche");
-    fire(S, `${S.id}-b1`, x - 900, G + 40, 0.6); fire(S, `${S.id}-b2`, x + 1300, G + 40, 0.6); atz(S, `${S.id}-az`, x + 2200, ["barrel", "horn", "jug", "bench", "furs", "lamp"], { gap: 20, z: 4 }); vignette(S, 0.6); fg(S, ["barrel", "post"], { blur: 4 });
+    nordicSky(S, "noche", { moon: -0.5 }); farLayer(S, { kind: "hedeby", night: true, seed: 55 }); midLayer(S, { kind: "llano", night: true }); ground(S, "tablones"); hedebyStreet(S, `${S.id}-hs`, x, 5600, { night: true }); // noche: el escenario va oscurecido con el filtro del escenario (los rótulos quedan por encima)
+    fire(S, `${S.id}-b1`, x - 900, G + 40, 0.6); fire(S, `${S.id}-b2`, x + 1300, G + 40, 0.6); atz(S, `${S.id}-az`, x + 2200, ["barrel", "horn", "jug", "bench", "furs", "lamp"], { gap: 20, z: 4 }); vignette(S, 0.3); fg(S, ["barrel", "post"], { blur: 4 });
   },
   balance(S, x) {
     nordicSky(S, "atardecer"); farLayer(S, { seed: 29 }); midLayer(S, { boats: 1 }); ground(S, "prado"); trees(S, `${S.id}-tr`, x - 2300, 1200, { n: 2, seed: 2 });

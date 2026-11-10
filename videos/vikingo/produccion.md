@@ -55,6 +55,17 @@ Hojas representativas:
 13. Museo: franja lisa encima de la pared en vertical (pared más alta con focos de techo), vitrinas más pequeñas en vertical para no quedar bajo las tarjetas, sala más ancha para las tres vitrinas y «GAFAS DE HIERRO» dentro de cuadro.
 14. Contadores que se veían a medias en frases cortas (95) → más rápidos (0,6 s). Helecho del primer plano redibujado (parecía letras). Cámara de la frase 30 que dejaba «PRIMAVERA» cortado → quitada.
 
+## Puerta 4, vuelta 1 (`calidad-puerta-4.md`): arreglado
+
+1. **Frase 5**: «0 CUERNOS» va al hueco 1, debajo de «NADIE LLEVA CASCO».
+2. **Frase 42**: la cámara va al establo en «fondo» y vuelve en «dos». La vaca está a la altura del banco, aparece en «tabique» y se ve unos 1,5 s. En horizontal la cámara para antes del final del interior.
+3. **Frase 117**: «5 DÍAS» va por debajo del mapa.
+4. **Etiquetas de los mapas**: `mapa()` las pone a `font-size` 84 con contorno de 14. «FIORDO DE OSLO» pasa a «OSLO» para que quepa.
+5. **Frase 229**: tres tarjetas cortas («SIN BRÚJULA», «A PESO», «0 CUERNOS») en una fila en horizontal y en dos filas en vertical, por encima de la balanza.
+6. **Frase 201**: la noche de Hedeby se oscurece con el filtro del escenario, no con un tinte por encima, y el viñeteado baja a 0,3. Los rótulos y las tarjetas quedan encima y con su color.
+
+Capturas (18,2; 151,9; 152,3; 311,7; 384; 587; 636,34 y 762,48 s): `pruebas/p4_h/contact-sheet.jpg` y `pruebas/p4_v/contact-sheet.jpg`. La frase 42 con la cámara final está en `pruebas/p4_h/at-151.9s.png` y `at-152.3s.png`. `check`: ok y 0 errores en los dos formatos; los `text_below_floor` que quedan son solo las cartelas de las vitrinas.
+
 ## Sonido (`scripts/audio.py`)
 
 - Uso: `python scripts/audio.py <sfx_cues.json> <voz.wav> <mezcla.wav> [frases.json]` (sin el cuarto argumento usa `voz/frases.json` y, si no existe, `voz/frases_est.json`). Busca los efectos de interfaz de HyperFrames en `~/.claude/skills/...` o en la caché de `npx`.

@@ -53,7 +53,7 @@ export function gancho(S) {
   // 4-5 · aquí nadie lleva cuernos. Ni uno
   const hh = gearArt(K, `${S.id}-ghost`, "hornHelmet", U.x, G + 10 - F(0.62, 0.52) * 0, F(0.62, 0.52) * 1.15, { op: 0.75, z: 9 });
   say(K, 4, [["t", "nadie", "NADIE LLEVA CASCO", { size: F(80, 70) }], ["f", (T) => { S.tw(`tl.fromTo("${hh}",{opacity:0,y:-80},{opacity:0.85,y:0,duration:0.5,ease:"power2.out"},${T("cuernos", -0.1)});`); S.cue(T("cuernos"), "riser", 0.5); }]]);
-  say(K, 5, [["f", (T, id) => { stampXAt(K, id, U.x, G - F(300, 260), F(260, 220), T("uno")); return `#${id},${hh}`; }], ["t", "uno", "0 CUERNOS", { c: ROJO, size: F(130, 110), u: true }], ["shake", "uno", 16]], { keep: true });
+  say(K, 5, [["f", (T, id) => { stampXAt(K, id, U.x, G - F(300, 260), F(260, 220), T("uno")); return `#${id},${hh}`; }], ["t", "uno", "0 CUERNOS", { c: ROJO, size: F(130, 110), u: true }], ["shake", "uno", 16]], { keep: true, slot: 1 });
   outro(S, 5, A); fin(S);
 }
 function stampXAt(K, id, x, y, size, t) {
@@ -111,7 +111,7 @@ export function intro(S) {
   say(K, 17, [["in", "lobo", "lobo"], ["t", "lobo", "ÚLFR = LOBO", { c: AMB, size: F(96, 84) }]]);
   say(K, 18, [["out", "Y", "lobo", 0], ["fx", "marea", "ulf3", VERDE], ["wob", "marea", "ulf3", 6, 5], ["p", "marea", "ulf3", POSE.mareo], ["i", "marea", "boat", "SE MAREA", null, { size: F(220, 200) }], ["f", (T, id) => { S.tw(`tl.to("[id^='${S.id}-f18'] svg",{rotation:12,yoyo:true,repeat:5,duration:0.3,transformOrigin:"50% 80%"},${T("barco")});`); }]]);
   // 19-20 · Vestfold, la granja, Ása y Kári
-  say(K, 19, [["fx", "Vive", "ulf3", "none"], ["p", "Vive", "ulf3", { head: 0, brows: 0, mouth: "neutral", armF: 0, foreF: 0 }], ["f", (T, id) => mapa(K, id, K.ix(), K.sy(0) + F(270, 280), T("Vestfold", -0.3), [["VESTFOLD", 360, 352, T("Vestfold")], ["FIORDO DE OSLO", 410, 290, T("Oslo")]], { regions: [[395, 300, 60, "#3f8ac9", T("Oslo")]], w: F(900, 860) })]]);
+  say(K, 19, [["fx", "Vive", "ulf3", "none"], ["p", "Vive", "ulf3", { head: 0, brows: 0, mouth: "neutral", armF: 0, foreF: 0 }], ["f", (T, id) => mapa(K, id, K.ix(), K.sy(0) + F(270, 280), T("Vestfold", -0.3), [["VESTFOLD", 360, 352, T("Vestfold")], ["OSLO", 410, 290, T("Oslo")]], { regions: [[395, 300, 60, "#3f8ac9", T("Oslo")]], w: F(900, 860) })]]);
   say(K, 20, [["t", "granja", "LA GRANJA", { c: VERDEC }], ["in", "Ása", "asa"], ["p", "Ása", "asa", POSE.hilar], nameTag(K, "asa", "ÁSA", "Ása"),
     ["in", "Kári", "kari"], ["go", "Kári", "kari", A2 - 470, 0.6, true, -0.6], ["in", "Kári", "perro", -0.5], nameTag(K, "kari", "KÁRI · 8 AÑOS", "Kári", { hy: F(900, 860) })]);
   // 21-24 · Kaupang y Geirmund
@@ -131,7 +131,7 @@ export function intro(S) {
 export function semana1(S) {
   const K = kit(S), { F, h } = K, A = 3000, Bx = 10000, Cx = 16000, Dx = 22000;
   const Pg = esc(S, "granja", FONDO.s1_granja, A);
-  esc(S, "casa", (P, x) => { FONDO.s1_dagmal(P, x); const v = animal(P, `${S.id}-vaca`, "vaca", x + 2236, G - 30, { s: 0.75, z: 1 }); animalIdle(P, v, 0, S.t1 - S.t0); }, Bx);
+  esc(S, "casa", (P, x) => { FONDO.s1_dagmal(P, x); const v = animal(P, `${S.id}-vaca`, "vaca", x + 1750, G - 140, { s: 0.95, z: 2 }); animalIdle(P, v, 0, S.t1 - S.t0); }, Bx);
   esc(S, "arroyo", FONDO.s1_sabado, Cx);
   esc(S, "noche", FONDO.s1_noche, Dx);
   hideAt0(S, `#${S.id}-vaca`);
@@ -160,8 +160,8 @@ export function semana1(S) {
   say(K, 41, [["cut", "En", "casa", -0.6], ["t", "hogar", "HOGAR LARGO", { c: AMB, size: F(100, 90) }]]);
   const U2 = actorK(K, "ulf2", "ulf", 0, { g: { F: ["bowl"], T: ["cloak"] }, off: ["bowl", "cloak"] });
   const Asa = actorK(K, "asa", "asa", 1, { g: ASA, hid: true });
-  say(K, 42, [["f", (T) => { vis(S, `#${S.id}-vaca`, T("vacas", -0.3), 1); S.cue(T("vacas"), "pop"); }], ["cam", "vacas", 1, 1400, 0, 0.9], ["t", "vacas", "LAS VACAS, DENTRO", { x: Bx + 1400 + F(380, 0) }]]);
-  say(K, 43, [["cam", "Aquí", 1, 0, 0, 0.8, -0.3], ["n", "dos", 2, " COMIDAS", { bw: F(860, 820) }], ["t", "día", "AL DÍA", { fx: "up" }]]);
+  say(K, 42, [["f", (T) => { vis(S, `#${S.id}-vaca`, T("tabique", -0.1), 1); S.cue(T("tabique"), "pop"); }], ["cam", "fondo", 1, F(1300, 1500), 0, 0.9], ["t", "vacas", "LAS VACAS, DENTRO", { x: Bx + F(1300 + 250, 1500), y: G - F(760, 1150) }]]);
+  say(K, 43, [["cam", "dos", 1, 0, 0, 0.8, -0.2], ["n", "dos", 2, " COMIDAS", { bw: F(860, 820) }], ["t", "día", "AL DÍA", { fx: "up" }]]);
   say(K, 44, [["t", "dagmal", "DAGMAL · MAÑANA", { c: AMB }], ["g", "dagmal", "ulf2", "bowl"], ["p", "dagmal", "ulf2", { armF: -60, foreF: -40, mouth: "smile" }], ["t", "trabajo", "TRAS UNAS HORAS DE TRABAJO", { size: F(64, 58) }]]);
   say(K, 45, [["t", "natmal", "NATMAL · NOCHE", { c: "#c9d4f0" }], ["f", (T) => { S.tw(`tl.to("#${S.id}-casa-beam",{opacity:0.15,duration:0.6},${T("natmal")});tl.to("#${S.id}-casa-beam",{opacity:1,duration:0.6},${r3(K.L(46).end)});`); }]]);
   say(K, 46, [["c", [["cooking-pot", "GACHAS", "Gachas"], ["bread", "PAN", "pan"], ["fish", "PESCADO", "pescado"], ["bowl-food", "GUISO", "guiso"]], { size: F(200, 180), cols: F(4, 2) }]]);
@@ -305,7 +305,7 @@ export function semana3(S) {
   S.tw(`tl.set("#${Ot.id},#${Al.id}",{filter:"${SOMBRA}"},0);`);
   say(K, 115, [["f", (T, id, s) => { box(S, id, K.ix(), F(G - 470, G - 860), F(1000, 900), F(720, 700), "", T("navegante", -0.3), { bg: "rgba(30,24,40,.55)", z: 7 }); return `#${id}`; }], ["in", "navegante", "ottar"], ["t", "navegante", "UN NAVEGANTE NORUEGO", { size: F(70, 62) }]]);
   say(K, 116, [["t", "Óttar", "ÓTTAR · h. 890", { c: AMB, size: F(84, 74) }], ["in", "Alfredo", "alfredo"], ["t", "Alfredo", "REY ALFREDO", { c: "#ffd38a", size: F(70, 62), y: K.sy(1) }], ["t", "Inglaterra", "INGLATERRA", { size: F(66, 60), y: K.sy(1) + F(90, 90) }]], { keep: true });
-  say(K, 117, [["out", "De", "ottar", -0.3], ["out", "De", "alfredo", -0.3], ["f", (T, id) => mapa(K, id, K.ix(), K.sy(0) + F(220, 230), T("Kaupang", -0.3), [["KAUPANG", 372, 372, T("Kaupang")], ["HEDEBY", 345, 610, T("Hedeby")]], { routes: [[0, 1, T("Hedeby", 0.1)]], w: F(760, 720) })], ["f", (T, id) => { tx(S, id, K.ix(), K.sy(2) + F(70, 60), "5 DÍAS", T("cinco"), { size: F(130, 110), color: AMB }); return `#${id}`; }]]);
+  say(K, 117, [["out", "De", "ottar", -0.3], ["out", "De", "alfredo", -0.3], ["f", (T, id) => mapa(K, id, K.ix(), K.sy(0) + F(220, 230), T("Kaupang", -0.3), [["KAUPANG", 372, 372, T("Kaupang")], ["HEDEBY", 345, 610, T("Hedeby")]], { routes: [[0, 1, T("Hedeby", 0.1)]], w: F(760, 720) })], ["f", (T, id) => { tx(S, id, K.ix(), K.sy(0) + F(220, 230) + 0.35 * F(760, 720) + F(135, 120), "5 DÍAS", T("cinco"), { size: F(130, 110), color: AMB }); return `#${id}`; }]]);
   gone(S, `[id^='${S.id}-f115']`, r3(K.L(117).start - 0.3));
   // 118-126 · sorpresas: sin brújula, sin comida caliente
   say(K, 118, [["t", "sorpresa", "PRIMERA SORPRESA", { c: AMB, size: F(84, 74) }], ["i", "brújula", "compass", "BRÚJULA", false, { size: F(230, 210) }]]);
@@ -380,7 +380,7 @@ export function semana4(S) {
   esc(S, "esclavos", FONDO.s4_esclavos, Dx);
   esc(S, "ansgario", FONDO.s4_ansgario, Ex, { filter: SEPIA });
   esc(S, "museo", (P, x) => { FONDO.ins_museo(P, x); museumCase(P, `${S.id}-cr`, x + F(-300, 0), "craneo", "SUECIA<br>800-1050"); }, Fx);
-  esc(S, "noche", FONDO.s4_noche, Gx);
+  esc(S, "noche", FONDO.s4_noche, Gx, { filter: "brightness(.62) saturate(.7) hue-rotate(8deg)" });
   on(S, "puerto", 0); K.x = A;
   enter(S, spotBox(S, A));
   const U = actorK(K, "ulf", "ulf", 0, { g: { T: ["cloak"], B: ["axe"] }, y: G - 20 });
@@ -498,7 +498,7 @@ export function balance(S) {
   say(K, 227, [["cut", "Dinamarca", "museo", -0.5, Cx + 5000], ["t", "Dinamarca", "¿Y LOS DE DINAMARCA?", { size: F(74, 66) }]]);
   say(K, 228, [["t", "Bronce", "EDAD DEL BRONCE", { c: AMB, size: F(80, 70) }], ["f", (T, id, s) => { box(S, id, K.ix(), K.sy(s) + 50, F(1000, 940), F(230, 230), `<div style="display:flex;align-items:center;gap:20px;font:900 ${F(52, 48)}px Inter;color:${C.ink}"><span>VEKSØ</span><span style="flex:1;min-width:${F(300, 240)}px;border-top:8px dashed ${C.ochre}"></span><span>ULF</span></div><div style="font:900 ${F(62, 56)}px Inter;color:${C.redD}">≈ 1.800 AÑOS</div>`, T("ochocientos", -0.2)); return { sel: `#${id}`, s: s + 2 }; }]]);
   // 229-232 · resumen y vuelta a casa
-  say(K, 229, [["cut", "Así", "granja", -0.5], ["c", [["sailboat", "5 DÍAS SIN BRÚJULA", "cinco"], ["scales", "PLATA A PESO", "plata"], ["prohibit", "0 CUERNOS", "cuerno"]], { size: F(190, 170), cols: F(3, 1) }]]);
+  say(K, 229, [["cut", "Así", "granja", -0.5], ["c", [["sailboat", "SIN BRÚJULA", "cinco"], ["scales", "A PESO", "plata"], ["prohibit", "0 CUERNOS", "cuerno"]], { size: F(170, 150), cols: F(3, 2) }]]);
   say(K, 230, [["g", "trabajo", "ulf", "backpack"], ["t", "trabajo", `${HOY} TRABAJO DE VERANO`, { size: F(70, 62) }], ["c", [["scales", "PAGADO A PESO", "peso"], ["smiley-sad", "MAREO INCLUIDO", "mareo"]], { size: F(190, 170), cols: 2 }], ["fx", "mareo", "ulf", VERDE]]);
   const Lb = actorK(K, "lobo", "lobo", A + F(450, 200), { hid: true, scale: 1.0 });
   say(K, 231, [["G", "lobo", "ulf", "backpack", -0.5], ["fx", "lobo", "ulf", "none"], ["in", "lobo", "lobo"], ["go", "lobo", "ulf", A + F(900, 600), 1.6, false, 0], ["t", "madriguera", "VUELVE A SU MADRIGUERA", { c: AMB, size: F(70, 62) }]]);
