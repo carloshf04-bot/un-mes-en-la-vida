@@ -1277,7 +1277,7 @@
       },
       {
         "dia": 13,
-        "texto": "Así conocimos a Marta, una cabo de los militares de emergencias que había perdido a su unidad. Y a Samir, un repartidor que se sabía todos los atajos de Zaragoza.",
+        "texto": "Así conocimos a Marta, cabo de los militares de emergencias, que había perdido a su unidad. Y a Samir, un repartidor que se sabía todos los atajos de Zaragoza.",
         "drama": 0.6,
         "personajes": [
           {
@@ -2407,7 +2407,7 @@
       },
       {
         "dia": 30,
-        "texto": "Entonces lo entendí. La fiebre gris había aprendido a beber. Y en Zaragoza, el agua era lo único que nos protegía.",
+        "texto": "La fiebre gris había aprendido a beber. Y yo por fin lo entendía: en Zaragoza, el agua era lo único que nos protegía.",
         "drama": 0.9,
         "fondo": {
           "lugar": "ciudad",
