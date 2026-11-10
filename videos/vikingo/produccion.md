@@ -55,10 +55,16 @@ Hojas representativas:
 13. Museo: franja lisa encima de la pared en vertical (pared más alta con focos de techo), vitrinas más pequeñas en vertical para no quedar bajo las tarjetas, sala más ancha para las tres vitrinas y «GAFAS DE HIERRO» dentro de cuadro.
 14. Contadores que se veían a medias en frases cortas (95) → más rápidos (0,6 s). Helecho del primer plano redibujado (parecía letras). Cámara de la frase 30 que dejaba «PRIMAVERA» cortado → quitada.
 
+## Sonido (`scripts/audio.py`)
+
+- Uso: `python scripts/audio.py <sfx_cues.json> <voz.wav> <mezcla.wav> [frases.json]` (sin el cuarto argumento usa `voz/frases.json` y, si no existe, `voz/frases_est.json`). Busca los efectos de interfaz de HyperFrames en `~/.claude/skills/...` o en la caché de `npx`.
+- **Música** compuesta por código en **re dórico** con dron de re y la (vaivén de 23 s), lira pulsada (Karplus-Strong, arpegios re-la-re y do-sol-do cada 2 compases), tambor de marco y flauta de hueso (una octava arriba, vibrato de 5,5 Hz, 6 % de soplo). A **84 BPM** y a **96 en Hedeby** (semana 4, con lira rápida). En los esclavos (182-191) solo suena el dron. Cada capítulo lleva la receta del diseño 4 (gancho: dron y lira; semana 1: flauta y lira; semana 2: tambor más presente; semana 3: dron, tambor en 1 y olas; balance y cierre: dron y flauta). Va a −22 dB y con sidechain bajo la voz.
+- **Efectos sintetizados** (diseño 4.1): `waves`, `wind`, `creak`, `oar`, `clank`, `silver`, `gull`, `chain`, `hammer`, `sheep`/`bleat`, `fireCrackle`/`fire`, más `wood`, `gulp`, `snore` y `cough`, que piden los capítulos. Los de interfaz siguen siendo los de HyperFrames. Si aparece una marca sin sonido en `KIND`, el script **se para** y dice cuál; ya no se ignora ninguna en silencio.
+- Prueba con la mezcla provisional (`hf-est-h/sfx_cues.json` + `pruebas/silencio_est.wav`): se usan las 21 clases de marca que genera `gen.mjs`, sin ninguna ignorada. Salida `pruebas/mezcla_est.wav` (no se sube) de 800,537 s, igual que la voz. `ffmpeg ebur128` da **I = −14,0 LUFS** (LRA 15,3 LU, alto porque la prueba no tiene voz).
+
 ## Lo que queda (cuando llegue la voz real)
 
 - Todo va con tiempos **estimados**. Con `voz/palabras.json` y `voz/frases.json` reales: `node scripts/gen.mjs h --voz voz.wav --out hf-h`, `audio.py` (mezcla a −14 LUFS), `gen` otra vez con `--voz audio/mezcla.wav` (solo con subtítulos: `hf-h` y `hf-v`), `check`, capturas de nuevo y render del horizontal (entrega) y del vertical (interno, para `SHORTS_MIN=60 python scripts/shorts.py`).
 - Si whisper escribe una palabra distinta a la del guion (números en cifras, «víkingr», «laugardagr», «vápnatak», «Óttar», «Schlei», «Fadlán», «Gjermundbu», «dagmal», «natmal»…), `S.W()` falla diciendo frase y palabra: se cambia esa palabra en `vk_caps.mjs`.
-- `audio.py` todavía es el del gladiador: faltan los efectos del diseño 4.1 (`waves`, `wind`, `creak`, `oar`, `clank`, `silver`, `gull`, `chain`, `hammer`, `sheep`, `fireCrackle`, más `gulp`, `snore`, `cough` que usan los capítulos; hoy se ignoran sin error) y la música en re dórico.
 - Miniaturas: `miniaturas/vikingo.json` ya puede generarse (están `ulf`, `cloak`, `shieldRound` y `axe` en el rig).
 - Detalles menores aceptados: personajes a bordo pequeños en el gancho; el pavo real y el corte del túmulo son esquemáticos; el primer plano desaparece en algún zoom muy cerrado de estaciones lejanas.
