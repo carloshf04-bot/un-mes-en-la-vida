@@ -457,7 +457,7 @@
         "texto": "Luego corro al telpochcáli, la escuela de mi barrio. Aquí todos los chicos van a la escuela. Acarreamos leña, limpiamos canales y aprendemos a luchar.",
         "drama": 0.55,
         "fondo": {
-          "lugar": "calle",
+          "lugar": "rio",
           "hora": "dia",
           "clima": "despejado",
           "props": [
@@ -469,6 +469,18 @@
               "tipo": "templo-mayor",
               "x": 1.2,
               "escala": 1.5
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": -1.5
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": 1.6
+            },
+            {
+              "tipo": "ahuejote",
+              "x": -1.95
             }
           ]
         },
@@ -548,7 +560,7 @@
         "texto": "Al sureste, el Popocatépetl echa humo. Y llega un aviso: los extranjeros han subido entre los dos volcanes, con más de mil guerreros de Tlascala, nuestros enemigos.",
         "drama": 0.7,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "campo",
           "hora": "dia",
           "clima": "despejado",
           "props": [
@@ -560,6 +572,23 @@
               "tipo": "volcan",
               "x": 1.3,
               "escala": 2.2
+            },
+            {
+              "tipo": "templo-mayor",
+              "x": 1.15,
+              "escala": 1.8
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": -1.5
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": 1.6
+            },
+            {
+              "tipo": "ahuejote",
+              "x": -1.95
             }
           ]
         },
@@ -660,7 +689,7 @@
         "texto": "Nuestro gran señor, Moctezuma, les ha pedido que no sigan. Siguen. Esta noche duermen en Istapalapa, en las casas de su hermano Cuitláuac. Desde mi tejado veo sus hogueras. Mañana entran.",
         "drama": 0.75,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "rio",
           "hora": "noche",
           "clima": "despejado",
           "props": [
@@ -672,6 +701,23 @@
               "tipo": "hoguera",
               "x": 1.2,
               "escala": 0.6
+            },
+            {
+              "tipo": "templo-mayor",
+              "x": 1.15,
+              "escala": 1.8
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": -1.5
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": 1.6
+            },
+            {
+              "tipo": "ahuejote",
+              "x": -1.95
             }
           ]
         },
@@ -745,7 +791,7 @@
         "texto": "Van cubiertos de metal que brilla al sol. Algunos montan venados enormes, sin cuernos, que retumban sobre la piedra. Así llamamos a los caballos.",
         "drama": 0.8,
         "fondo": {
-          "lugar": "calle",
+          "lugar": "rio",
           "hora": "dia",
           "clima": "polvo",
           "props": [
@@ -757,6 +803,23 @@
               "tipo": "🐎",
               "x": 0.95,
               "escala": 0.7
+            },
+            {
+              "tipo": "templo-mayor",
+              "x": 1.15,
+              "escala": 1.8
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": -1.5
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": 1.6
+            },
+            {
+              "tipo": "ahuejote",
+              "x": -1.95
             }
           ]
         },
@@ -786,7 +849,7 @@
         "texto": "Y llega Moctezuma, en andas, bajo un palio de plumas verdes. Los señores barren el suelo y tienden mantas para que no pise la tierra.",
         "drama": 0.75,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "campo",
           "hora": "dia",
           "clima": "despejado",
           "props": [
@@ -802,6 +865,18 @@
             {
               "tipo": "petate",
               "x": 0.3
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": -1.5
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": 1.6
+            },
+            {
+              "tipo": "ahuejote",
+              "x": -1.95
             }
           ]
         },
@@ -861,7 +936,7 @@
         "texto": "Cortés le pone un collar de cuentas de vidrio. Moctezuma le devuelve collares de caracoles rojos con camarones de oro. Un soldado escribirá que creyó vivir un libro de encantamientos.",
         "drama": 0.65,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "campo",
           "hora": "atardecer",
           "clima": "despejado",
           "props": [
@@ -873,6 +948,18 @@
               "tipo": "templo-mayor",
               "x": 1.2,
               "escala": 1.8
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": -1.5
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": 1.6
+            },
+            {
+              "tipo": "ahuejote",
+              "x": -1.95
             }
           ]
         },
@@ -938,7 +1025,7 @@
         "texto": "Los llamamos tetéo, una palabra para lo poderoso o lo extraño. Pero vemos que comen, sudan y se pelean por el oro. Nadie se arrodilla.",
         "drama": 0.6,
         "fondo": {
-          "lugar": "calle",
+          "lugar": "campo",
           "hora": "atardecer",
           "clima": "despejado",
           "props": [
@@ -949,6 +1036,23 @@
             {
               "tipo": "antorcha",
               "x": 1.1
+            },
+            {
+              "tipo": "templo-mayor",
+              "x": 1.15,
+              "escala": 1.8
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": -1.5
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": 1.6
+            },
+            {
+              "tipo": "ahuejote",
+              "x": -1.95
             }
           ]
         },
@@ -976,7 +1080,7 @@
         "texto": "Se alojan en las casas de Ashayácatl, el padre de Moctezuma. Al caer el sol disparan sus cañones. Un trueno sin nubes. Media isla se tira al suelo.",
         "drama": 0.8,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "rio",
           "hora": "noche",
           "clima": "polvo",
           "props": [
@@ -993,6 +1097,18 @@
               "tipo": "💥",
               "x": 0.7,
               "escala": 0.6
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": -1.5
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": 1.6
+            },
+            {
+              "tipo": "ahuejote",
+              "x": -1.95
             }
           ]
         },
@@ -1063,7 +1179,7 @@
         "texto": "Cuatro días después del encuentro, Moctezuma los lleva al gran mercado de Tlatelolco. Cortés escribirá que aquí compran y venden más de sesenta mil personas al día.",
         "drama": 0.6,
         "fondo": {
-          "lugar": "calle",
+          "lugar": "rio",
           "hora": "dia",
           "clima": "despejado",
           "props": [
@@ -1079,6 +1195,18 @@
               "tipo": "templo-mayor",
               "x": 1.2,
               "escala": 1.5
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": -1.5
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": 1.6
+            },
+            {
+              "tipo": "ahuejote",
+              "x": -1.95
             }
           ]
         },
@@ -1105,7 +1233,7 @@
         "texto": "Cada cosa tiene su calle: plumas, sal, obsidiana, perritos para comer y esclavos atados por el cuello. Soldados que han visto Roma se quedan boquiabiertos.",
         "drama": 0.55,
         "fondo": {
-          "lugar": "calle",
+          "lugar": "campo",
           "hora": "dia",
           "clima": "despejado",
           "props": [
@@ -1122,6 +1250,23 @@
               "tipo": "🌶️",
               "x": 0.7,
               "escala": 0.35
+            },
+            {
+              "tipo": "templo-mayor",
+              "x": 1.15,
+              "escala": 1.8
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": -1.5
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": 1.6
+            },
+            {
+              "tipo": "ahuejote",
+              "x": -1.95
             }
           ]
         },
@@ -1191,7 +1336,7 @@
         "texto": "Ese mismo día, los extranjeros suben al Templo Mayor. Ciento catorce escalones, dirá uno de ellos. Arriba, dos santuarios: el rojo de Uitsilopóchtli y el azul de Tláloc.",
         "drama": 0.65,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "campo",
           "hora": "dia",
           "clima": "despejado",
           "props": [
@@ -1203,6 +1348,18 @@
             {
               "tipo": "brasero",
               "x": -1.1
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": -1.5
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": 1.6
+            },
+            {
+              "tipo": "ahuejote",
+              "x": -1.95
             }
           ]
         },
@@ -1222,7 +1379,7 @@
         "texto": "Moctezuma los espera allí. Desde lo alto se ven los tres caminos sobre el agua y el acueducto de Chapultepec. Cortés propone colocar una imagen de la Virgen. Moctezuma se ofende.",
         "drama": 0.7,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "rio",
           "hora": "dia",
           "clima": "despejado",
           "props": [
@@ -1238,6 +1395,18 @@
               "tipo": "volcan",
               "x": 1.3,
               "escala": 1.8
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": -1.5
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": 1.6
+            },
+            {
+              "tipo": "ahuejote",
+              "x": -1.95
             }
           ]
         },
@@ -1602,7 +1771,7 @@
         "texto": "Son los días de Kechóli. En el patio del templo fabricamos flechas y tiramos contra pencas de maguey. Yo pienso en otros blancos.",
         "drama": 0.6,
         "fondo": {
-          "lugar": "calle",
+          "lugar": "campo",
           "hora": "dia",
           "clima": "polvo",
           "props": [
@@ -1614,6 +1783,18 @@
             {
               "tipo": "brasero",
               "x": -1.1
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": -1.5
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": 1.6
+            },
+            {
+              "tipo": "ahuejote",
+              "x": -1.95
             }
           ]
         },
@@ -1689,7 +1870,7 @@
         "texto": "Los servidores de los dioses andan furiosos. Llevan el pelo largo, sin cortar ni lavar nunca, y la piel pintada de negro. Los extranjeros les tienen asco, y es mutuo.",
         "drama": 0.55,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "rio",
           "hora": "dia",
           "clima": "despejado",
           "props": [
@@ -1701,6 +1882,18 @@
             {
               "tipo": "brasero",
               "x": 1.05
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": -1.5
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": 1.6
+            },
+            {
+              "tipo": "ahuejote",
+              "x": -1.95
             }
           ]
         },
@@ -1728,7 +1921,7 @@
         "texto": "Frente al Templo Mayor está el tsompántli, un altar con los cráneos de los sacrificados. Sí, aquí se sacrifica a prisioneros de guerra. No voy a esconderlo.",
         "drama": 0.65,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "campo",
           "hora": "atardecer",
           "clima": "despejado",
           "props": [
@@ -1740,6 +1933,18 @@
             {
               "tipo": "antorcha",
               "x": -1.1
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": -1.5
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": 1.6
+            },
+            {
+              "tipo": "ahuejote",
+              "x": -1.95
             }
           ]
         },
@@ -1814,7 +2019,7 @@
         "texto": "Pronto llega la fiesta de Uitsilopóchtli, la de las banderas. Cada año modelamos al dios con masa de amaranto y luego nos lo comemos. Este año, nadie sabe si habrá fiesta.",
         "drama": 0.6,
         "fondo": {
-          "lugar": "calle",
+          "lugar": "rio",
           "hora": "atardecer",
           "clima": "despejado",
           "props": [
@@ -1830,6 +2035,18 @@
             {
               "tipo": "metate",
               "x": -0.5
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": -1.5
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": 1.6
+            },
+            {
+              "tipo": "ahuejote",
+              "x": -1.95
             }
           ]
         },
@@ -1857,7 +2074,7 @@
         "texto": "Llegan los presos de la costa: Cuaupopoca, su hijo y otros señores. Los traen ante Cortés. Yo estoy entre la gente, con la garganta seca.",
         "drama": 0.8,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "campo",
           "hora": "dia",
           "clima": "polvo",
           "props": [
@@ -1869,6 +2086,18 @@
             {
               "tipo": "columna",
               "x": 1.15
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": -1.5
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": 1.6
+            },
+            {
+              "tipo": "ahuejote",
+              "x": -1.95
             }
           ]
         },
@@ -1920,7 +2149,7 @@
         "texto": "Los extranjeros queman vivos a Cuaupopoca y a los suyos con nuestras propias armas. No voy a contarte más. Solo que el humo sube muy recto, y que nadie en toda la explanada suelta una palabra.",
         "drama": 0.9,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "campo",
           "hora": "atardecer",
           "clima": "polvo",
           "props": [
@@ -1936,6 +2165,18 @@
             {
               "tipo": "hoguera",
               "x": 1.2
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": -1.5
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": 1.6
+            },
+            {
+              "tipo": "ahuejote",
+              "x": -1.95
             }
           ]
         },
@@ -2056,7 +2297,7 @@
         "texto": "Seis meses después, en la fiesta de Tóshcatl, Pedro de Alvarado ataca a los nobles que bailan desarmados. La isla se levanta y Moctezuma muere, nadie sabe a manos de quién.",
         "drama": 0.8,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "campo",
           "hora": "dia",
           "clima": "polvo",
           "props": [
@@ -2068,6 +2309,18 @@
             {
               "tipo": "brasero",
               "x": -1.1
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": -1.5
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": 1.6
+            },
+            {
+              "tipo": "ahuejote",
+              "x": -1.95
             }
           ]
         },
@@ -2113,7 +2366,7 @@
         "texto": "Luego llega la viruela, y un año después de este mes llena la isla de muertos. En agosto de mil quinientos veintiuno, tras un largo asedio, Tenochtitlán cae.",
         "drama": 0.8,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "campo",
           "hora": "atardecer",
           "clima": "niebla",
           "props": [
@@ -2125,6 +2378,18 @@
             {
               "tipo": "casa-adobe",
               "x": 1.1
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": -1.5
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": 1.6
+            },
+            {
+              "tipo": "ahuejote",
+              "x": -1.95
             }
           ]
         },
