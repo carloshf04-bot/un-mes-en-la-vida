@@ -26,13 +26,15 @@ Lunas: `semana()` con nueva (0), creciente (0,5), llena (1) y menguante (−0,5)
 ## Comprobaciones
 
 - `node scripts/gen.mjs h|v --voz pruebas/silencio_est.wav --palabras voz/palabras_est.json --frases voz/frases_est.json --out hf-est-h|hf-est-v`: OK, 8 capítulos + subtítulos, 800,54 s estimados (11 frases con voz real cuando se calcularon). Todas las palabras de `S.W()` existen en su frase.
-- `npx hyperframes@0.9.12 check --json`: ver el final de este documento (resultado por formato).
+- `npx hyperframes@0.9.12 check --json` (resultados en `pruebas/check_h.json` y `pruebas/check_v.json`): **ok, 0 errores en los dos formatos** (lint, runtime, layout, motion, contrast, craft y audio; navegador activo). Avisos: 102 `overlapping_gsap_tweens` (respiración y parpadeo sobre las poses, inofensivos), 9 `composition_file_too_large`, 4 `svg_round_cap_hidden_dash`, 15 `line_unread` (rótulos cortos que se recogen pronto), `audio_clip_silent` (es el silencio provisional) y 2 `text_below_floor` por formato: las cartelas pequeñas de las vitrinas («SUECIA», «GJERMUNDBU», «h. 900 a. C.»), que son atrezo, porque el dato se dice además en un rótulo grande. La etiqueta «HOY» del sello de Patrimonio (25 px) ya se ha subido a 64.
+- Primera pasada: el `check` daba 3 errores de script (comillas dentro de selectores) y 2 de `fromTo` sin opacidad final; arreglados.
 - Capturas: 56 + 32 + 9 momentos en horizontal y 24 + 6 en vertical, repartidos por los 8 capítulos, revisadas en hojas de contactos.
 
 Hojas representativas:
-- `hf-est-h/.hyperframes/artifacts/snapshots/b8ba26c7-c6fa-4ec3-8037-eb6f612d8666/contact-sheet-2.jpg` (semana 1 y 2, horizontal)
-- `hf-est-h/.hyperframes/artifacts/snapshots/b8ba26c7-c6fa-4ec3-8037-eb6f612d8666/contact-sheet-3.jpg` (niebla, Hedeby, esclavos, Ansgario, horizontal)
-- `hf-est-v/.hyperframes/artifacts/snapshots/d8dd965f-1842-4fa4-a41e-f2c076c88870/contact-sheet-2.jpg` (thing, túmulo, barco, Hedeby, vertical)
+- `hf-est-h/.hyperframes/artifacts/snapshots/9b71bb00-6c77-4c27-986b-97f5481acd82/contact-sheet-1.jpg` (gancho, intro, semana 1, túmulo, niebla, Hedeby, esclavos, museo; horizontal)
+- `hf-est-h/.hyperframes/artifacts/snapshots/9b71bb00-6c77-4c27-986b-97f5481acd82/contact-sheet-2.jpg` (cuernos, Viborg, Gjermundbu, Veksø, cierre; horizontal)
+- `hf-est-v/.hyperframes/artifacts/snapshots/90da96e2-16ab-48f3-935e-cedeade1447f/contact-sheet-1.jpg` (gancho, granja, thing, túmulo, niebla, esclavos, museo, Volga; vertical)
+- Museo tras el último arreglo: `hf-est-h/.hyperframes/artifacts/snapshots/ce166d56-7433-4e68-8d0e-a81b20a2e4b4/contact-sheet.jpg` y `hf-est-v/.hyperframes/artifacts/snapshots/e56a6641-36aa-4b17-afb6-0c478da5324d/contact-sheet.jpg`
 
 (Las carpetas `hf-*` no se suben; se regeneran con los comandos de arriba.)
 
@@ -50,7 +52,8 @@ Hojas representativas:
 10. «MAR ↓» dentro de la zona de subtítulos (119); «THING» cortado arriba (72); «ESCLAVOS» fuera de cuadro en el zoom (184).
 11. Tarjetas de dos filas que se pisaban (167, 214) → etiquetas más cortas; rótulos de dos líneas que pisaban la tarjeta siguiente (11) → ocupan hueco y medio.
 12. Vertical: Hallvard y Geirmund encima de Ulf en el montículo, pavo real y nieve fuera de cuadro, «KÁRI · 8 AÑOS» sobre la cara de Ulf, Geirmund fuera de cuadro en el barco → posiciones propias del vertical; suelo con más textura en la parte baja.
-13. Contadores que se veían a medias en frases cortas (95) → más rápidos (0,6 s). Helecho del primer plano redibujado (parecía letras). Cámara de la frase 30 que dejaba «PRIMAVERA» cortado → quitada.
+13. Museo: franja lisa encima de la pared en vertical (pared más alta con focos de techo), vitrinas más pequeñas en vertical para no quedar bajo las tarjetas, sala más ancha para las tres vitrinas y «GAFAS DE HIERRO» dentro de cuadro.
+14. Contadores que se veían a medias en frases cortas (95) → más rápidos (0,6 s). Helecho del primer plano redibujado (parecía letras). Cámara de la frase 30 que dejaba «PRIMAVERA» cortado → quitada.
 
 ## Lo que queda (cuando llegue la voz real)
 
