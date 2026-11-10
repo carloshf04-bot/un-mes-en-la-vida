@@ -202,7 +202,7 @@
     "escenas": [
       {
         "corte": true,
-        "texto": "El sábado dieciséis de noviembre, casi todos los hombres de mi pueblo se irán al monte con un rifle. Yo me quedaré. Y un recibo de papel lo va a cambiar todo.",
+        "texto": "El sábado dieciséis de noviembre, casi todos los hombres de mi pueblo se irán al bosque con un rifle. Yo me quedaré. Y un recibo de papel lo va a cambiar todo.",
         "drama": 0.75,
         "fondo": {
           "lugar": "campo",
@@ -326,7 +326,7 @@
       },
       {
         "dia": 3,
-        "texto": "Tengo un Ford granate de mil novecientos cuarenta y nueve. En Pléinfild, todos saben que es mío. Y ese coche, como yo, acabará en boca de todo el país.",
+        "texto": "Tengo un Ford granate de mil novecientos cuarenta y nueve. Y ese coche, como yo, acabará en boca de todo el país.",
         "drama": 0.6,
         "personajes": [
           { "quien": "ed", "x": -0.4, "accion": "quieto", "emocion": "neutral", "mirar": 1 }
@@ -430,7 +430,7 @@
       },
       {
         "dia": 11,
-        "texto": "Berníss saca adelante sola la tienda y la maquinaria agrícola. Su hijo, Frank, es ayudante del sheriff. Y ese sábado, como todos, estará en el monte.",
+        "texto": "Berníss saca adelante sola la tienda y la maquinaria agrícola. Su hijo, Frank, es ayudante del sheriff. Y ese sábado, como todos, estará en el bosque.",
         "drama": 0.65,
         "personajes": [
           { "quien": "frank", "x": -0.4, "accion": "hablar", "emocion": "feliz", "mirar": 1, "habla": false },
@@ -473,14 +473,14 @@
       },
       {
         "dia": 13,
-        "texto": "En diciembre de mil novecientos cincuenta y cuatro, alguien entra en su taberna. Está vacía. Manchas de sangre. Un casquillo de bala. De Méri, ni rastro.",
+        "texto": "En diciembre de mil novecientos cincuenta y cuatro, alguien entra en su taberna. No hay nadie. Manchas de sangre. Un casquillo de bala. De Méri, ni rastro.",
         "drama": 0.75,
         "personajes": [],
         "camara": "cerca"
       },
       {
         "dia": 14,
-        "texto": "Tres años de preguntas sin respuesta. En las tabernas todavía se habla del caso. Yo escucho y no digo nada. Este mes, esa pregunta va a tener respuesta.",
+        "texto": "Tres años de preguntas sin respuesta. En las tabernas todavía se habla del caso. Imagino que yo escuchaba sin decir nada. La respuesta llegará este mes.",
         "drama": 0.7,
         "personajes": [
           { "quien": "ed", "x": 0.55, "accion": "sentado", "emocion": "neutral", "mirar": -1, "habla": false },
@@ -493,7 +493,7 @@
         "dia": 16,
         "capitulo": "El último recibo",
         "corte": true,
-        "texto": "Lunes. Quedan cinco días. Llegan coches de fuera con rifles en el asiento de atrás, y en las tabernas cuelgan tablones para apuntar los venados del año.",
+        "texto": "Lunes. Quedan cinco días para la caza. Llegan coches de fuera con rifles en el asiento de atrás, y en las tabernas cuelgan tablones para apuntar los venados del año.",
         "drama": 0.65,
         "fondo": {
           "lugar": "ciudad",
@@ -514,7 +514,7 @@
       },
       {
         "dia": 18,
-        "texto": "En mil novecientos cincuenta y seis se vendieron casi trescientos mil permisos en Uiscónsin. Cada otoño, los hombres se van al bosque y dejan atrás pueblos casi vacíos.",
+        "texto": "En mil novecientos cincuenta y seis se vendieron casi trescientos mil permisos en Uiscónsin. Cada otoño, los hombres se van al bosque y dejan atrás pueblos casi desiertos.",
         "drama": 0.6,
         "personajes": [
           { "quien": "cazador", "x": 0.35, "accion": "quieto", "mirar": -1, "habla": false }
@@ -582,7 +582,7 @@
       },
       {
         "dia": 21,
-        "texto": "Frank Uórden está en el bosque, vestido de rojo, como manda la ley, igual que casi todos los hombres del pueblo. La calle mayor, vacía. Ni un alma.",
+        "texto": "Frank Uórden está en el bosque, vestido de rojo, como manda la ley, igual que casi todos los hombres del pueblo. La calle mayor, desierta. Ni un alma.",
         "drama": 0.65,
         "personajes": [
           { "quien": "frank", "x": -0.2, "accion": "quieto", "emocion": "neutral", "mirar": 1, "habla": false }
@@ -618,15 +618,15 @@
         "camara": "lenta",
         "insercion": {
           "tipo": "dato",
-          "valor": "1",
-          "etiqueta": "último recibo del día: anticongelante",
+          "valor": "1 recibo",
+          "etiqueta": "el último del día en la ferretería: anticongelante",
           "icono": "🧾"
         }
       },
       {
         "dia": 21,
         "corte": true,
-        "texto": "A eso de las nueve y media, alguien ve salir la camioneta de la ferretería por la parte de atrás. A nadie le extraña. Es día de rifle.",
+        "texto": "Sábado por la mañana. A eso de las nueve y media, alguien ve salir la camioneta de la ferretería por la parte de atrás. A nadie le extraña: es día de rifle.",
         "drama": 0.75,
         "fondo": {
           "lugar": "ciudad",
@@ -662,7 +662,7 @@
       },
       {
         "dia": 21,
-        "texto": "A eso de las cinco, Frank vuelve del monte. La tienda, desierta. La caja registradora, abierta. Manchas de sangre en el suelo. Y su madre no está.",
+        "texto": "A eso de las cinco, Frank vuelve del bosque. La tienda, desierta. La caja registradora, abierta. Manchas de sangre en el suelo. Y su madre no está.",
         "drama": 0.85,
         "fondo": {
           "lugar": "interior",
@@ -765,7 +765,7 @@
       {
         "dia": 21,
         "corte": true,
-        "texto": "Entran en mi casa con linternas, faroles y focos. En un cobertizo encuentran a Berníss Uórden, sin vida. Tenía cincuenta y ocho años.",
+        "texto": "Noche del sábado. El sheriff y sus hombres entran en mi casa con linternas, faroles y focos. En un cobertizo encuentran a Berníss Uórden, sin vida. Tenía cincuenta y ocho años.",
         "drama": 0.8,
         "personajes": [
           { "quien": "schley", "x": -0.5, "accion": "quieto", "emocion": "triste", "objeto": "🔦", "mirar": 1, "habla": false }
@@ -862,7 +862,7 @@
       {
         "dia": 26,
         "corte": true,
-        "texto": "Jueves, veintiuno. En el tribunal de Uotóma, me acusan de asesinato en primer grado por la muerte de Berníss Uórden.",
+        "texto": "Jueves, veintiuno de noviembre. En el tribunal de Uotóma, me acusan de asesinato en primer grado por la muerte de Berníss Uórden.",
         "drama": 0.7,
         "fondo": {
           "lugar": "interior",
@@ -929,7 +929,7 @@
       },
       {
         "dia": 30,
-        "texto": "Un mes atrás, yo era el bueno de Ed. Hoy, mi nombre da miedo. Y la historia todavía no ha terminado conmigo.",
+        "texto": "Un mes atrás, yo era el bueno de Ed. Hoy, Pléinfild carga con mi nombre, y sus vecinos ya no quieren hablar con nadie. Pero la historia sigue.",
         "drama": 0.7,
         "personajes": [
           { "quien": "irene", "x": 0.3, "accion": "triste", "emocion": "triste", "mirar": -1, "habla": false }
@@ -1050,7 +1050,7 @@
       },
       {
         "corte": true,
-        "texto": "¿Y las leyendas? ¿Motosierra? Nunca: eso es de La matanza de Texas. ¿Caníbal? Ninguna prueba. ¿Un montón de víctimas? Confesé dos muertes; me condenaron por una.",
+        "texto": "¿Y las leyendas? ¿Motosierra? Nunca: eso es de La matanza de Tejas. ¿Caníbal? Ninguna prueba. ¿Un montón de víctimas? Confesé dos muertes; me condenaron por una.",
         "drama": 0.65,
         "personajes": [],
         "camara": "lenta",
@@ -1146,7 +1146,7 @@
     "shorts": [
       {
         "titulo": "Un recibo de papel cambió para siempre este pueblo",
-        "descripcion": "Noviembre de 1957: todos los hombres de Plainfield se van al monte… y uno se queda. #shorts #truecrime #historia"
+        "descripcion": "Noviembre de 1957: todos los hombres de Plainfield se van al bosque… y uno se queda. #shorts #truecrime #historia"
       },
       {
         "titulo": "Vivía solo en una granja sin corriente al final del camino",

@@ -78,7 +78,7 @@
     "escenas": [
       {
         "corte": true,
-        "texto": "Hoy he arreglado mi último ascensor. Dentro de un mes, media Zaragoza estará desierta, y sabré que lo único que nos protege es el agua. Hasta que deja de serlo.",
+        "texto": "Hoy he arreglado mi último ascensor. En un mes, media Zaragoza estará desierta, y lo único que nos protegerá será el agua. Hasta que deje de serlo.",
         "drama": 0.8,
         "fondo": { "lugar": "ciudad", "hora": "atardecer", "clima": "despejado",
           "props": [ { "tipo": "pilar", "x": -1.2, "escala": 1.6, "detras": true }, { "tipo": "antena", "x": 1.25 } ] },
@@ -94,7 +94,7 @@
       {
         "dia": 1,
         "capitulo": "La fiebre gris",
-        "texto": "Lunes, seis de octubre de dos mil treinta y uno. La radio habla de una rabia rara en Lyon, en Burdeos, en Toulouse. Aquí nadie escucha: llega el Pilar.",
+        "texto": "Lunes, seis de octubre de dos mil treinta y uno. La radio habla de una rabia rara en Lión, en Burdeos, en Tulús. Aquí nadie escucha: llega el Pilar.",
         "drama": 0.6,
         "fondo": { "lugar": "interior", "pared": "metal", "hora": "dia", "ventana": false,
           "props": [ { "tipo": "maquina", "x": -1.0 }, { "tipo": "radio", "x": 1.0 } ] },
@@ -102,7 +102,7 @@
       },
       {
         "dia": 1,
-        "texto": "La rabia es real: un virus que trepa por los nervios y vuelve agresivo al enfermo. Yo no sabía que tenía un pariente nuevo.",
+        "texto": "La rabia es real: un virus que trepa por los nervios y vuelve agresivo al enfermo. Lo que no sabíamos es que tenía un hermano nuevo.",
         "drama": 0.7,
         "personajes": [ { "quien": "hugo", "x": 0.2, "accion": "pensar", "emocion": "miedo", "mirar": 1, "habla": false } ],
         "insercion": { "tipo": "dato", "valor": "59.000", "etiqueta": "muertes al año por la rabia en el mundo (estimación de la OMS)", "icono": "🐕" }
@@ -162,14 +162,14 @@
       },
       {
         "dia": 5,
-        "texto": "Los llamamos los grises. No están muertos: son personas con fiebre que no duermen y muerden para pasar el virus. La naturaleza ya lo había inventado.",
+        "texto": "Los llamamos los grises. No están muertos: son personas con fiebre que no duermen y muerden para pasar el virus. La vida ya lo había inventado.",
         "drama": 0.75,
         "personajes": [ { "quien": "gris3", "x": 0.2, "accion": "tambalear", "emocion": "enfado", "mirar": -1, "habla": false } ],
         "insercion": { "tipo": "dato", "valor": "25 cm", "etiqueta": "sobre el suelo y al mediodía: ahí muerden la hoja las hormigas «zombi» que controla un hongo (Tailandia)", "icono": "🐜" }
       },
       {
         "dia": 5,
-        "texto": "Entonces vi algo raro. Un gris iba directo a por un chaval y, al llegar a la fuente, se apartó del agua como si quemara.",
+        "texto": "Luego vi algo raro. Un gris iba directo a por un chaval y, al llegar a la fuente, se apartó del agua como si quemara.",
         "drama": 0.8,
         "fondo": { "lugar": "calle", "hora": "dia", "clima": "niebla",
           "props": [ { "tipo": "pozo", "x": 0.6 }, { "tipo": "farola", "x": -1.2 } ] },
@@ -187,7 +187,7 @@
       {
         "dia": 6,
         "corte": true,
-        "texto": "Sexto día: apagón. Una nevera cerrada aguanta el frío unas cuatro horas, así que Nora y yo montamos un banquete para todo el bloque en el tejado.",
+        "texto": "Sexto día: apagón. Una nevera sin abrir aguanta el frío unas cuatro horas, así que Nora y yo montamos un banquete para todo el bloque en el tejado.",
         "drama": 0.55,
         "fondo": { "lugar": "ciudad", "hora": "noche", "clima": "despejado",
           "props": [ { "tipo": "antena", "x": -1.2 }, { "tipo": "cajas", "x": 1.1 }, { "tipo": "🔥", "x": 0.05, "escala": 0.3 } ] },
@@ -199,7 +199,7 @@
       },
       {
         "dia": 7,
-        "texto": "Día del Pilar. La explanada que debía llenarse de flores estaba desierta y las torres asomaban entre la niebla. Esa noche murió la última antena de móvil.",
+        "texto": "Día del Pilar. La explanada que debía llenarse de flores estaba desierta y las torres asomaban entre la niebla. Esa noche murió la última antena.",
         "drama": 0.7,
         "fondo": { "lugar": "ciudad", "hora": "amanecer", "clima": "niebla",
           "props": [ { "tipo": "pilar", "x": 1.2, "escala": 1.8, "detras": true }, { "tipo": "antena", "x": -1.2 } ] },
@@ -221,7 +221,7 @@
       },
       {
         "dia": 8,
-        "texto": "Sacamos el agua del termo del calentador y del depósito del váter, y la hervimos un minuto. Cuatro litros por persona y día: nos quedaban tres días de agua.",
+        "texto": "Sacamos el agua del termo y del depósito del váter, y la hervimos un minuto. Cuatro litros por persona y día: nos quedaban tres días de agua.",
         "drama": 0.7,
         "fondo": { "lugar": "interior", "pared": "ladrillo", "hora": "atardecer", "ventana": true,
           "props": [ { "tipo": "barril", "x": 1.1 }, { "tipo": "🔥", "x": -0.9, "escala": 0.3 } ] },
@@ -262,7 +262,7 @@
       },
       {
         "dia": 10,
-        "texto": "En las películas, el fin del mundo es una estampida de saqueadores. En el súper del Coso solo había cuatro personas asustadas, y un hombre me regaló una lata. El peligro estaba en mi portal.",
+        "texto": "En las películas todo son saqueos. En el súper del Coso solo había cuatro personas asustadas, y un hombre me regaló una lata. El peligro estaba en mi portal.",
         "drama": 0.65,
         "fondo": { "lugar": "interior", "pared": "metal", "hora": "dia", "ventana": false,
           "props": [ { "tipo": "estanteria", "x": -1.1 }, { "tipo": "estanteria", "x": 1.1 }, { "tipo": "cajas", "x": -0.4 } ] },
@@ -297,7 +297,7 @@
       },
       {
         "dia": 11,
-        "texto": "Le eché encima el cubo de Nora. El gris soltó la pierna y huyó, aullando. Pero era tarde: en la pantorrilla de Asun había una marca de dientes.",
+        "texto": "Le tiré el cubo de Nora. El gris soltó la pierna y huyó, aullando. Pero era tarde: en la pantorrilla de Asun había una marca de dientes.",
         "drama": 0.85,
         "personajes": [
           { "quien": "hugo", "x": -0.4, "accion": "cargar", "emocion": "enfado", "mirar": 1, "habla": false, "objeto": "💧" },
@@ -393,7 +393,7 @@
       },
       {
         "dia": 13,
-        "texto": "Marta me contó que hasta el Mando Estratégico de Estados Unidos escribió en dos mil once un plan contra muertos vivientes. Era un juego de prácticas. Lo nuestro, no.",
+        "texto": "Marta me contó que hasta el Mando Estratégico de Estados Unidos escribió en dos mil once un plan contra muertos vivientes. Era un simulacro. Lo nuestro, no.",
         "drama": 0.6,
         "fondo": { "lugar": "ciudad", "hora": "atardecer", "clima": "niebla",
           "props": [ { "tipo": "antena", "x": -1.2 }, { "tipo": "cajas", "x": 1.2 }, { "tipo": "bloque", "x": 0.5, "detras": true } ] },
@@ -445,7 +445,7 @@
       },
       {
         "dia": 16,
-        "texto": "Me pusieron a arreglar lo mío: el generador del hospital de campaña. Funcionaba de maravilla. Y rugía tanto que se escuchaba desde la otra orilla.",
+        "texto": "Me pusieron a arreglar lo mío: el generador del hospital de campaña. Iba de maravilla. Y rugía tanto que se escuchaba desde la otra orilla.",
         "drama": 0.7,
         "fondo": { "lugar": "interior", "pared": "metal", "hora": "dia", "ventana": false,
           "props": [ { "tipo": "maquina", "x": -0.9 }, { "tipo": "camilla", "x": 1.0 } ] },
@@ -516,7 +516,7 @@
       {
         "dia": 20,
         "corte": true,
-        "texto": "Busqué a Nora a oscuras, sin linterna, oyendo pies que se arrastraban a mi alrededor. Solo había un sitio alto donde ella se escondería: la Torre del Agua.",
+        "texto": "Busqué a Nora a oscuras, oyendo pies que se arrastraban a mi alrededor. Solo había un sitio alto donde ella se escondería: la Torre del Agua.",
         "drama": 0.9,
         "fondo": { "lugar": "ciudad", "hora": "noche", "clima": "niebla",
           "props": [ { "tipo": "columna", "x": 1.0, "escala": 1.6 }, { "tipo": "tienda", "x": -1.2 } ] },
@@ -572,7 +572,7 @@
         "dia": 22,
         "capitulo": "La pista del transbordador",
         "corte": true,
-        "texto": "Hay noches que pesan más que el miedo. En una nave del polígono de Cogullada, Nora dejó de hablar, y yo conté agua para tres días.",
+        "texto": "Creí que habíamos perdido a Asun para siempre. En una nave del polígono de Cogullada, Nora dejó de hablar, y yo conté el agua: quedaba para tres días.",
         "drama": 0.6,
         "fondo": { "lugar": "interior", "pared": "metal", "hora": "dia", "ventana": true,
           "props": [ { "tipo": "cajas", "x": -1.1 }, { "tipo": "maquina", "x": 1.1 }, { "tipo": "bidon-fuego", "x": 0.5 } ] },
@@ -583,7 +583,7 @@
       },
       {
         "dia": 23,
-        "texto": "Al día siguiente paró en la puerta un convoy de los militares de emergencias. Dentro, envuelta en una manta, estaba Asun.",
+        "texto": "Al día siguiente paró en la puerta un convoy de los militares de emergencias. Dentro, envuelta en una manta y viva, estaba Asun.",
         "drama": 0.65,
         "fondo": { "lugar": "ciudad", "hora": "dia", "clima": "despejado",
           "props": [ { "tipo": "coche-abandonado", "x": -1.1 }, { "tipo": "barricada", "x": 1.2 } ] },
@@ -594,7 +594,7 @@
       },
       {
         "dia": 23,
-        "texto": "Nora no dijo nada. Solo corrió. Yo las miré, agarradas la una a la otra, y me di cuenta de que llevaba dos semanas sin llorar.",
+        "texto": "Nora no dijo nada. Solo corrió. Yo las miré, agarradas, y lloré por primera vez en dos semanas.",
         "drama": 0.5,
         "personajes": [
           { "quien": "hugo", "x": -0.65, "accion": "triste", "emocion": "feliz", "mirar": 1, "habla": false },
@@ -674,7 +674,7 @@
       },
       {
         "dia": 30,
-        "texto": "Día treinta. Se puso a llover y, desde el tejado, vi a un gris que no corría a esconderse. Caminaba despacio, bajo la lluvia, rumbo a un charco.",
+        "texto": "Día treinta. Se puso a llover y, desde el tejado, vi a un gris que no corría a esconderse. Caminaba lento, bajo la lluvia, rumbo a un charco.",
         "drama": 0.85,
         "fondo": { "lugar": "ciudad", "hora": "atardecer", "clima": "lluvia",
           "props": [ { "tipo": "antena", "x": -1.2 }, { "tipo": "pilar", "x": 1.2, "escala": 1.6, "detras": true } ] },
@@ -686,7 +686,7 @@
       },
       {
         "dia": 30,
-        "texto": "Se agachó junto al charco y bebió, despacio, sin un solo espasmo. En la radio, alguien hablaba entre chasquidos de casos nuevos en Valencia.",
+        "texto": "Se agachó junto al charco y bebió, tranquilo, sin un solo espasmo. En la radio, alguien hablaba entre chasquidos de casos nuevos en Valencia.",
         "drama": 0.9,
         "fondo": { "lugar": "calle", "hora": "atardecer", "clima": "lluvia",
           "props": [ { "tipo": "farola", "x": -1.1 }, { "tipo": "💧", "x": 0.5, "escala": 0.4 }, { "tipo": "coche-abandonado", "x": 1.2 } ] },
@@ -695,7 +695,7 @@
       },
       {
         "dia": 30,
-        "texto": "Y entonces lo entendí. La fiebre gris había aprendido a beber. Y en Zaragoza, el agua era lo único que nos protegía.",
+        "texto": "Y lo entendí. La fiebre gris había aprendido a beber. Y en Zaragoza, el agua era lo único que nos protegía.",
         "drama": 0.9,
         "fondo": { "lugar": "ciudad", "hora": "noche", "clima": "lluvia",
           "props": [ { "tipo": "antena", "x": -1.2 }, { "tipo": "pilar", "x": 1.2, "escala": 1.6, "detras": true } ] },
@@ -704,7 +704,7 @@
       },
       {
         "corte": true,
-        "texto": "Hugo, Nora y la fiebre gris son inventados. La rabia, las hormigas de Tailandia y la Zaragoza que has visto, no. Y en dos mil once, Estados Unidos publicó una guía contra muertos vivientes.",
+        "texto": "¿Qué parte de esta historia es real? Hugo, Nora, Asun y la fiebre gris son inventados. La rabia y su miedo al agua y al aire en la cara, no.",
         "drama": 0.6,
         "fondo": { "lugar": "rio", "hora": "dia", "clima": "despejado",
           "props": [ { "tipo": "puente", "x": 0, "detras": true }, { "tipo": "pilar", "x": -1.2, "escala": 1.8, "detras": true } ] },
@@ -712,7 +712,11 @@
           { "quien": "asun", "x": -0.6, "accion": "quieto", "emocion": "feliz", "mirar": 1, "habla": false },
           { "quien": "nora", "x": -0.15, "accion": "quieto", "emocion": "feliz", "mirar": 1, "habla": false },
           { "quien": "hugo", "x": 0.4, "accion": "quieto", "emocion": "neutral", "mirar": -1, "habla": false }
-        ],
+        ]
+      },
+      {
+        "texto": "Las hormigas zombi de Tailandia existen de verdad, igual que el cierzo y la pista del transbordador. Y en dos mil once, la sanidad de Estados Unidos publicó una guía contra muertos vivientes, y su web se cayó.",
+        "drama": 0.6,
         "insercion": { "tipo": "dato", "valor": "2011", "etiqueta": "los CDC de EE. UU. publican una guía «contra zombis» para enseñar a preparar un kit de emergencia… y su blog se cae por las visitas", "icono": "🎒" }
       },
       {
