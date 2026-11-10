@@ -64,15 +64,13 @@ const parecido = (a, b) => {
   return 1 - d[m][n] / Math.max(m, n);
 };
 // equivalencias que no son errores de la voz (seseo y grafías)
-const igualSonido = (a, b) => {
-  const s = (x) => x.replace(/z/g, "s").replace(/c([ei])/g, "s$1").replace(/v/g, "b").replace(/h/g, "").replace(/ll/g, "y");
-  return s(a) === s(b);
-};
+const sonido = (x) => x.replace(/z/g, "s").replace(/c([ei])/g, "s$1").replace(/v/g, "b").replace(/h/g, "").replace(/ll/g, "y");
+const igualSonido = (a, b) => sonido(a) === sonido(b);
 
 // alineamiento por programación dinámica: guion (g) frente a whisper (w)
 const alinear = (g, w) => {
   const m = g.length, n = w.length;
-  const coste = (a, b) => (a === b || igualSonido(a, b) ? 0 : parecido(a, b) >= 0.7 ? 0.3 : 1);
+  const coste = (a, b) => (a === b || igualSonido(a, b) ? 0 : parecido(sonido(a), sonido(b)) >= 0.7 ? 0.3 : 1);
   const D = Array.from({ length: m + 1 }, () => new Float64Array(n + 1));
   const P = Array.from({ length: m + 1 }, () => new Uint8Array(n + 1));
   for (let i = 1; i <= m; i++) { D[i][0] = i; P[i][0] = 1; }
