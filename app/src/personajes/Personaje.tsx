@@ -1,7 +1,7 @@
 import React from "react";
 import { random } from "remotion";
 import type { Accion, Emocion, Look } from "./tipos";
-import { oscurecer } from "../mundo/constantes";
+import { oscurecer, FPS } from "../mundo/constantes";
 
 // Personaje vectorial articulado. Origen = punto entre los pies. Mira a la derecha (+x).
 // Medidas base (altura 1): cadera y=-260, hombros y=-450, cabeza centro y=-560.
@@ -29,17 +29,19 @@ type Pose = {
 
 const BASE: Pose = { hD: -8, cD: -6, hI: 8, cI: 6, pD: 0, rD: 0, pI: 0, rI: 0, y: 0, x: 0, incl: 0, cabeza: 0, cabezaY: 0 };
 
-export const calcularPose = (accion: Accion, f: number, semilla: number): Pose => {
-  const t = f / 24 + semilla * 1.7;
-  const resp = Math.sin(t * 2.2);
-  const p: Pose = { ...BASE, hD: -8 + resp * 2, hI: 8 - resp * 2, y: resp * 1.5 };
+export const calcularPose = (accion: Accion, f: number, semilla: number, fase?: number): Pose => {
+  const t = f / FPS + semilla * 1.7;
+  // respiración (~16 por minuto) + leve balanceo de cabeza para que nadie se quede congelado
+  const resp = Math.sin(t * 1.7);
+  const p: Pose = { ...BASE, hD: -8 + resp * 2.5, hI: 8 - resp * 2.5, y: resp * 2, cabeza: Math.sin(t * 0.63 + semilla) * 2.2 };
   switch (accion) {
     case "hablar":
       return { ...p, hD: -22 + Math.sin(t * 2.6) * 16, cD: -55 + Math.sin(t * 3.3) * 22, hI: 14 + Math.sin(t * 1.9) * 6, cI: 20, cabeza: Math.sin(t * 1.4) * 3 };
     case "caminar":
     case "correr": {
       const k = accion === "correr" ? 1.8 : 1;
-      const ph = t * 6.5 * k;
+      // si se da la fase (calculada con la distancia recorrida) los pies no resbalan
+      const ph = fase ?? t * 6.5 * k;
       const s = Math.sin(ph);
       return {
         ...p,
@@ -79,10 +81,38 @@ export const calcularPose = (accion: Accion, f: number, semilla: number): Pose =
       return { ...p, hD: -140, cD: 60, hI: 140, cI: -60, x: tr, cabeza: -6, y: 4 };
     }
     case "dormir":
-      return { ...p, y: 0 };
+      return { ...p, y: 0, cabeza: 0 };
+    case "tambalear": {
+      // infectado: brazos hacia delante, paso torpe, cabeza ladeada
+      const ph = fase ?? t * 3.2;
+      const s = Math.sin(ph);
+      return { ...p, hD: -78 + Math.sin(t * 1.3) * 6, cD: -8, hI: -70 + Math.sin(t * 1.1 + 1) * 6, cI: -10, pD: -14 * s, pI: 14 * s, rD: Math.max(0, Math.cos(ph)) * 18, rI: Math.max(0, -Math.cos(ph)) * 18, incl: 9 + s * 2, cabeza: 14 + Math.sin(t * 0.9) * 5, y: -Math.abs(Math.cos(ph)) * 5 };
+    }
     default:
       return p;
   }
+};
+
+// Mezcla de dos poses (0 = a, 1 = b). Se usa para fundir cambios de pose en 6–12 fotogramas.
+export const mezclarPose = (a: Pose, b: Pose, k: number): Pose => {
+  const o = { ...b };
+  for (const key of Object.keys(b) as (keyof Pose)[]) o[key] = a[key] + (b[key] - a[key]) * k;
+  return o;
+};
+// Curva con anticipación y pequeño rebote al final (back in-out)
+export const curvaGesto = (x: number) => {
+  const c = 1.2 * 1.525;
+  const v = Math.min(1, Math.max(0, x));
+  return v < 0.5 ? (Math.pow(2 * v, 2) * ((c + 1) * 2 * v - c)) / 2 : (Math.pow(2 * v - 2, 2) * ((c + 1) * (v * 2 - 2) + c) + 2) / 2;
+};
+// Parpadeo con intervalos al azar de 3 a 6 s (deterministas por semilla)
+const parpadea = (f: number, semilla: number) => {
+  let t = Math.floor(random(`pb${semilla}`) * 3 * FPS);
+  for (let k = 0; t <= f; k++) {
+    if (f - t < 4) return true;
+    t += Math.round((3 + random(`pb${semilla}-${k}`) * 3) * FPS);
+  }
+  return false;
 };
 
 const rot = (x: number, y: number, a: number) => {
@@ -236,6 +266,36 @@ const Sombrero: React.FC<{ look: Look }> = ({ look }) => {
           <rect x={-86} y={-62} width={172} height={12} fill="#8a7a5a" />
         </g>
       );
+    case "orejeras":
+      // gorra de caza con orejeras caídas
+      return (
+        <g fill={c}>
+          <path d="M-84 -20 C-84 -112 84 -112 84 -20Z" />
+          <ellipse cx={74} cy={-24} rx={56} ry={11} />
+          <path d="M-86 -30 L-92 40 Q-80 60 -62 40 L-60 -30Z" />
+          <path d="M-58 -96 h120" stroke="#00000033" strokeWidth={8} />
+        </g>
+      );
+    case "penacho":
+      // tocado de plumas largas (nobles mexicas)
+      return (
+        <g>
+          {[-60, -40, -20, 0, 20, 40, 60].map((a, i) => (
+            <path key={a} d="M0 -40 Q-22 -170 0 -260 Q22 -170 0 -40Z" fill={i % 2 ? "#1f8a5a" : "#2fa86a"} transform={`rotate(${a * 0.9})`} />
+          ))}
+          <path d="M-84 -36 Q0 -70 84 -36 L84 -12 Q0 -46 -84 -12Z" fill={look.colorSombrero ?? "#3fa8c8"} />
+          {[-50, 0, 50].map((x) => <circle key={x} cx={x} cy={-34} r={9} fill="#e0c050" />)}
+        </g>
+      );
+    case "morrion":
+      // casco español del siglo XVI con cresta y alas
+      return (
+        <g>
+          <path d="M-150 -38 Q-110 -24 -70 -40 C-70 -150 70 -150 70 -40 Q110 -24 150 -38 Q110 -60 74 -56 C70 -140 -70 -140 -74 -56 Q-110 -60 -150 -38Z" fill="#a9b2bb" />
+          <path d="M-60 -110 Q0 -200 60 -110" fill="#9aa3ad" stroke="#7d858e" strokeWidth={6} />
+          <ellipse cx={-20} cy={-110} rx={16} ry={30} fill="#ffffff" opacity={0.35} />
+        </g>
+      );
     case "capucha":
       return <path d="M-104 70 C-120 -140 120 -140 104 70 L84 70 C92 -70 -92 -70 -84 70Z" fill={c} />;
     case "espacial":
@@ -265,6 +325,12 @@ const Cara: React.FC<{ look: Look; emocion: Emocion; boca: number; parpadeo: boo
         <g key={s} transform={`translate(${s * 28 + 6} -4)`}>
           {cerrados ? (
             <path d={dormido ? "M-11 0 Q0 8 11 0" : "M-11 0 Q0 4 11 0"} stroke="#1d1a22" strokeWidth={5} fill="none" strokeLinecap="round" />
+          ) : look.zombi ? (
+            <g>
+              <ellipse cy={4} rx={17} ry={13} fill="#00000040" />
+              <circle r={12} fill="#e9ecd8" />
+              <circle cx={2} r={4} fill="#8a8f80" />
+            </g>
           ) : (
             <g>
               {(emocion === "miedo" || emocion === "sorpresa") && <circle r={ojoR + 6} fill="#fff" />}
@@ -326,7 +392,7 @@ const Torso: React.FC<{ look: Look }> = ({ look }) => {
   const forma = `M-76 ${HOMBRO_Y - 22} Q0 ${HOMBRO_Y - 34} 76 ${HOMBRO_Y - 22} L68 ${CADERA_Y + 6} Q0 ${CADERA_Y + 16} -68 ${CADERA_Y + 6}Z`;
   return (
     <g>
-      <path d={forma} fill={tipo === "armadura" ? "#a7b0ba" : color} />
+      <path d={forma} fill={tipo === "armadura" ? "#a7b0ba" : tipo === "tilma" ? look.piel : color} />
       {tipo === "armadura" && [0, 1, 2, 3].map((i) => <rect key={i} x={-70} y={HOMBRO_Y + 10 + i * 44} width={140} height={8} fill="#7d858e" />)}
       {(tipo === "traje" || tipo === "uniforme" || tipo === "abrigo" || tipo === "bata") && (
         <g>
@@ -338,6 +404,20 @@ const Torso: React.FC<{ look: Look }> = ({ look }) => {
       {tipo === "uniforme" && [-1, 1].map((s) => <rect key={s} x={s * 76 - (s > 0 ? 30 : 0)} y={HOMBRO_Y - 28} width={30} height={12} rx={4} fill="#e8c35a" />)}
       {tipo === "camisa" && <path d={`M-26 ${HOMBRO_Y - 28} L0 ${HOMBRO_Y + 10} L26 ${HOMBRO_Y - 28}`} stroke={d} strokeWidth={8} fill="none" />}
       {tipo === "mono" && <rect x={-3} y={HOMBRO_Y - 20} width={6} height={190} fill={d} />}
+      {tipo === "cuadros" && (
+        <g>
+          {[0, 1, 2, 3, 4].map((i) => <rect key={`h${i}`} x={-72} y={HOMBRO_Y - 10 + i * 40} width={144} height={16} fill={look.ropa.color2} opacity={0.7} />)}
+          {[0, 1, 2, 3].map((i) => <rect key={`v${i}`} x={-60 + i * 36} y={HOMBRO_Y - 28} width={14} height={200} fill={look.ropa.color2} opacity={0.55} />)}
+          <path d={`M-28 ${HOMBRO_Y - 28} L0 ${HOMBRO_Y + 12} L28 ${HOMBRO_Y - 28}`} stroke={look.ropa.color2} strokeWidth={10} fill="none" />
+        </g>
+      )}
+      {tipo === "tilma" && (
+        <g>
+          <path d={`M-80 ${HOMBRO_Y - 24} Q-40 ${HOMBRO_Y + 60} 40 ${HOMBRO_Y + 150} L78 ${HOMBRO_Y - 22}Z`} fill={oscurecer(color, 0.12)} />
+          <path d={`M-50 ${HOMBRO_Y + 20} Q0 ${HOMBRO_Y + 90} 50 ${HOMBRO_Y + 150}`} stroke={detalle ?? "#c9a24a"} strokeWidth={10} fill="none" />
+          <circle cx={58} cy={HOMBRO_Y - 10} r={16} fill={oscurecer(color, 0.3)} />
+        </g>
+      )}
       {tipo === "harapos" && <path d={`M-60 ${HOMBRO_Y + 40} l18 10 l-10 14Z M40 ${HOMBRO_Y + 90} l20 6 l-12 16Z`} fill={d} />}
       <rect x={-70} y={CADERA_Y - 18} width={140} height={16} rx={4} fill={d} opacity={tipo === "vestido" ? 0 : 1} />
     </g>
@@ -346,10 +426,10 @@ const Torso: React.FC<{ look: Look }> = ({ look }) => {
 
 const Falda: React.FC<{ look: Look; vaiven: number }> = ({ look, vaiven }) => {
   const { tipo, color, color2 } = look.ropa;
-  const largo = { vestido: 230, tunica: 150, abrigo: 150, bata: 170, harapos: 130, galabiya: 250 }[tipo as string];
+  const largo = { vestido: 230, tunica: 150, abrigo: 150, bata: 170, harapos: 130, galabiya: 250, tilma: 95 }[tipo as string];
   if (!largo) return null;
-  const c = tipo === "vestido" ? color2 : color;
-  const ancho = tipo === "vestido" ? 130 : tipo === "galabiya" ? 110 : 92;
+  const c = tipo === "vestido" || tipo === "tilma" ? color2 : color;
+  const ancho = tipo === "vestido" ? 130 : tipo === "galabiya" ? 110 : tipo === "tilma" ? 40 : 92;
   const y0 = CADERA_Y - 14;
   return (
     <path
@@ -367,19 +447,26 @@ export const Personaje: React.FC<{
   semilla?: number;
   boca?: number;
   objeto?: string;
-}> = ({ look, accion = "quieto", emocion = "neutral", f, semilla = 0, boca = 0, objeto }) => {
-  const p = calcularPose(accion, f, semilla);
+  fase?: number; // fase del paso (caminar) calculada con la distancia: pies sin resbalar
+  previa?: Accion; // pose de la que viene
+  mezcla?: number; // 0..1 progreso del cambio desde la pose previa
+}> = ({ look, accion = "quieto", emocion = "neutral", f, semilla = 0, boca = 0, objeto, fase, previa, mezcla = 1 }) => {
+  const destino = calcularPose(accion, f, semilla, fase);
+  const p = previa && previa !== accion && mezcla < 1 ? mezclarPose(calcularPose(previa, f, semilla, fase), destino, curvaGesto(mezcla)) : destino;
   const piel = look.piel;
   const { tipo, color, color2 } = look.ropa;
-  const mangaCorta = tipo === "tunica" || tipo === "harapos" || tipo === "vestido";
+  const mangaCorta = tipo === "tunica" || tipo === "harapos" || tipo === "vestido" || tipo === "tilma";
   const cAntebrazo = mangaCorta ? piel : color;
   const cBrazoTras = oscurecer(color, 0.15);
   const zapato = look.zapatos ?? "#2a211c";
   const sinPantalon = tipo === "vestido" || tipo === "galabiya";
-  const cPierna = sinPantalon ? oscurecer(piel, 0.05) : color2;
-  const parpadeo = (f + Math.floor(random(`b${semilla}`) * 90)) % 98 < 4;
+  const cPierna = sinPantalon || tipo === "tilma" ? oscurecer(piel, 0.05) : tipo === "cuadros" ? (look.ropa.detalle ?? "#2f3a4a") : color2;
+  const parpadeo = parpadea(f, semilla + look.piel.length);
   const dormido = accion === "dormir";
-  const vaiven = accion === "caminar" || accion === "correr" ? Math.sin(f / 3.7) * 8 : 0;
+  // ropa y pelo llegan un poco después que el cuerpo (desfase de la oscilación)
+  const tt = f / FPS + semilla * 1.7;
+  const vaiven = accion === "caminar" || accion === "correr" || accion === "tambalear" ? Math.sin((fase ?? tt * 6.5) - 0.9) * 9 : Math.sin(tt * 1.7 - 0.8) * 2 + p.incl * 0.6;
+  const retrasoPelo = Math.sin(tt * 0.63 + semilla - 0.7) * 3 + (accion === "caminar" || accion === "correr" ? Math.sin((fase ?? tt * 6.5) - 1.1) * 4 : 0);
   const sentado = accion === "sentado" || accion === "escribir";
 
   const pie = <ellipse cx={14} cy={8} rx={34} ry={17} fill={zapato} />;
@@ -394,12 +481,12 @@ export const Personaje: React.FC<{
       <Extremidad x={-30} y={CADERA_Y} a1={p.pI} a2={p.rI} l1={MUSLO} l2={ESPINILLA} w={42} c1={oscurecer(cPierna, 0.12)} c2={oscurecer(cPierna, 0.12)} fin={pie} />
       <Extremidad x={30} y={CADERA_Y} a1={p.pD} a2={p.rD} l1={MUSLO} l2={ESPINILLA} w={42} c1={cPierna} c2={cPierna} fin={pie} />
       {!sentado && <Falda look={look} vaiven={vaiven} />}
-      <Torso look={look} />
+      <g transform={`translate(0 ${CADERA_Y}) scale(1 ${1 + Math.sin(tt * 1.7) * 0.012}) translate(0 ${-CADERA_Y})`}><Torso look={look} /></g>
       {/* cuello y cabeza */}
       <rect x={-20} y={CUELLO_Y - 16} width={40} height={36} fill={oscurecer(piel, 0.1)} />
       <g transform={`translate(0 ${CUELLO_Y - R_CABEZA + 4 + p.cabezaY}) rotate(${p.cabeza} 0 ${R_CABEZA})`}>
         {look.sombrero === "capucha" && <circle r={104} fill={look.colorSombrero ?? "#3b2f2a"} />}
-        <Pelo look={look} capa="atras" />
+        <g transform={`rotate(${retrasoPelo} 0 -40)`}><Pelo look={look} capa="atras" /></g>
         <circle cx={-74} cy={8} r={17} fill={oscurecer(piel, 0.08)} />
         <circle r={R_CABEZA} fill={piel} />
         <Cara look={look} emocion={emocion} boca={boca} parpadeo={parpadeo} dormido={dormido} />

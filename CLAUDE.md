@@ -10,6 +10,22 @@ Esta carpeta es un estudio de animación automatizado. **Cada día se produce un
 
 Instala Piper y Chatterbox, descarga las voces y ejecuta `npm ci`. Tarda unos 10 minutos (Chatterbox ocupa ~6 GB). La voz de un largo con Chatterbox tarda ~1 h en CPU: se cachea en `app/public/obras/<slug>/cache-voz/`, así que si el proceso se corta, al relanzarlo continúa donde iba.
 
+## Producción de un episodio (desde noviembre de 2026)
+
+```bash
+cd app
+node scripts/producir.mjs <slug> --sin-render --muestras   # voces (caché) + manifiesto + fotogramas de muestra
+node scripts/revisar_voz.mjs <slug>                         # whisper frase a frase; si sale 3, relanza producir y revisar
+node scripts/producir.mjs <slug> --sin-render               # mete los tiempos reales de cada palabra (subtítulos)
+node scripts/producir.mjs <slug> --muestras                 # render del largo + mezcla a -14 LUFS + miniaturas
+node scripts/shorts.mjs <slug>                              # trocea el largo en shorts verticales de 45–60 s
+```
+
+- **30 fps.** Fundidos encadenados entre planos (nunca a negro), personajes que enlazan posición y pose entre escenas del mismo fondo, parpadeo al azar cada 3–6 s, respiración, pelo y ropa con retraso, paralaje y primer plano automáticos.
+- **Revisión de la voz** (`scripts/revisar_voz.mjs`): transcribe cada frase con whisper.cpp (`/home/user/whisper.cpp`, modelo large-v3-turbo), la compara con el guion y busca ruidos y silencios de más de 1 s. Si falla, borra esa voz de la caché y la siguiente pasada de `producir.mjs` la regenera con otra semilla (hasta 3 intentos; después hay que reescribir la frase). Progreso en `app/public/obras/<slug>/cache-voz/revision.json`; informe en `salida/<slug>/informe-audio.md`.
+- **Mezcla:** la música baja ~11 dB mientras se habla; micro-fundidos de 15–20 ms en cada frase; el MP4 final se normaliza a -14 LUFS con pico real ≤ -1 dBTP (loudnorm en dos pasadas).
+- **Shorts** (`scripts/shorts.mjs`): se cortan del `largo.mp4` terminado, en orden y cubriéndolo entero, solo en finales de escena (preferentemente las escenas con `"corte": true`), de 45 a 60 s. Vertical 1080×1920: recorte que sigue al personaje que habla o, si no cabe (tarjetas, capítulos, dos personajes separados), el cuadro entero sobre el fondo desenfocado. Subtítulos nuevos grandes en el tercio inferior, rótulo «Parte N/Total» arriba y «Sigue en la parte N+1» al final. Reanudable: no repite los shorts ya hechos. Salida en `salida/<slug>/shorts/`.
+
 ## Puestos de la oficina
 
 Quien abre la sesión es el **Director**. El Director lanza a cada puesto como **subagente** (herramienta Agent) con el encargo correspondiente, revisa su trabajo y pasa al siguiente. Los puestos 2 y 3 pueden trabajar en paralelo una vez elegida la idea.

@@ -7,7 +7,7 @@ export type Hora = "amanecer" | "dia" | "atardecer" | "noche";
 export type Clima = "despejado" | "lluvia" | "nieve" | "niebla" | "tormenta" | "polvo" | "ceniza";
 export type Lugar =
   | "mar" | "playa" | "montanas" | "hielo" | "ciudad" | "futurista" | "desierto" | "campo"
-  | "bosque" | "espacio" | "luna" | "calle" | "selva" | "valle" | "marte" | "interior";
+  | "bosque" | "espacio" | "luna" | "calle" | "selva" | "valle" | "marte" | "rio" | "interior";
 export type PropEnEscena = string | { tipo: string; x?: number; escala?: number; detras?: boolean };
 
 export type Fondo = {
@@ -42,7 +42,7 @@ const TINTE: Record<Hora, { c: string; o: number }> = {
 
 const SUELOS: Partial<Record<Lugar, string>> = {
   mar: "#4d4a44", playa: "#d8bd8a", montanas: "#4f6b3e", hielo: "#e8f0f6", ciudad: "#5b5d63", futurista: "#2a2d3a",
-  desierto: "#d2a062", valle: "#c99a62", marte: "#9a4a2a", campo: "#6f9a4a", bosque: "#3f5f32", espacio: "#3a3f4f", luna: "#9a9aa2", calle: "#7a6e62", selva: "#2f5a2a",
+  desierto: "#d2a062", valle: "#c99a62", marte: "#9a4a2a", campo: "#6f9a4a", bosque: "#3f5f32", espacio: "#3a3f4f", luna: "#9a9aa2", calle: "#7a6e62", selva: "#2f5a2a", rio: "#6b7a4a",
 };
 
 const cresta = (s: string, y: number, amp: number, picos: number) => {
@@ -114,7 +114,7 @@ const Cielo: React.FC<{ hora: Hora; f: number; dur: number; espacio?: boolean; m
   );
 };
 
-const Exterior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string }> = ({ fondo, hora, f, id }) => {
+const Exterior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string; cam?: Cam; medios?: React.ReactNode }> = ({ fondo, hora, f, id, cam, medios }) => {
   const c = LEJOS[hora];
   const lugar = fondo.lugar;
   const suelo = SUELOS[lugar] ?? "#555";
@@ -245,6 +245,24 @@ const Exterior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string }> = 
         </g>
       );
       break;
+    case "rio": {
+      // agua tranquila con la otra orilla al fondo; reflejos que se mueven
+      const agua = hora === "dia" ? ["#5a8aa8", "#4a7a98", "#3d6a88"] : hora === "noche" ? ["#0f1a30", "#0c1528", "#0a1122"] : ["#6a5a7a", "#5a4a6a", "#4a3a5a"];
+      lejos = (
+        <g>
+          <path d={colinas(HORIZONTE - 40, 90, 300, 0.7 - deriva / 900)} fill={hora === "dia" ? "#7a9a6a" : c[0]} />
+          <rect x={0} y={HORIZONTE - 10} width={MW} height={30} fill={hora === "dia" ? "#6a8a5a" : c[1]} />
+          <rect x={0} y={HORIZONTE + 20} width={MW} height={SUELO - HORIZONTE - 20} fill={agua[0]} />
+          {[0, 1, 2].map((i) => <path key={i} d={ola(HORIZONTE + 60 + i * 50, 3 + i, 80 + i * 20, f / (16 - i * 3) + i)} fill={agua[i]} opacity={0.8} />)}
+          {Array.from({ length: 18 }).map((_, i) => {
+            const x = ((random(`rx${i}${id}`) * MW + f * (0.6 + random(`rv${i}`) * 0.8)) % (MW + 200)) - 100;
+            const y = HORIZONTE + 50 + random(`ry${i}${id}`) * (SUELO - HORIZONTE - 90);
+            return <rect key={i} x={x} y={y} width={40 + random(`rw${i}`) * 80} height={4} rx={2} fill="#ffffff" opacity={0.12 + 0.12 * Math.sin(f / 12 + i)} />;
+          })}
+        </g>
+      );
+      break;
+    }
     case "campo":
       lejos = (
         <g>
@@ -301,7 +319,8 @@ const Exterior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string }> = 
   const tinte = TINTE[hora];
   return (
     <g>
-      {lejos}
+      <g transform={paralaje(cam, 0.35)}>{lejos}</g>
+      <g transform={paralaje(cam, 0.15)}>{medios}</g>
       {/* suelo en primer plano */}
       <path d={`M0 ${SUELO - 30} Q${MW / 2} ${SUELO - 60} ${MW} ${SUELO - 30} L${MW} ${MH} L0 ${MH}Z`} fill={suelo} />
       {lugar === "calle" &&
@@ -436,13 +455,99 @@ const Particulas: React.FC<{ clima: Clima; f: number }> = ({ clima, f }) => {
   );
 };
 
+// Paralaje: una capa a profundidad k (0 = pegada a los personajes, 1 = infinito) acompaña a la cámara
+type Cam = { fx: number; fy: number };
+const paralaje = (cam: Cam | undefined, k: number) => (cam ? `translate(${(cam.fx - 960) * k} ${(cam.fy - 960) * k * 0.6})` : undefined);
+
+// Algo vivo en cada plano: pájaros en exteriores de día, motas de polvo en la luz de los interiores
+const Vida: React.FC<{ fondo: Fondo; f: number; id: string }> = ({ fondo, f, id }) => {
+  const hora = fondo.hora ?? "dia";
+  const interior = fondo.lugar === "interior";
+  if (interior) {
+    return (
+      <g>
+        {Array.from({ length: 26 }).map((_, i) => {
+          const x = 300 + random(`mx${i}${id}`) * 1320 + Math.sin(f / 50 + i) * 30;
+          const y = 520 + ((random(`my${i}${id}`) * 700 - f * (0.25 + random(`mv${i}`) * 0.3)) % 700 + 700) % 700;
+          return <circle key={i} cx={x} cy={y} r={2 + random(`mr${i}`) * 2.5} fill="#fff2d0" opacity={0.18 + 0.15 * Math.sin(f / 20 + i)} />;
+        })}
+      </g>
+    );
+  }
+  if (["espacio", "luna", "marte"].includes(fondo.lugar) || hora === "noche" || fondo.clima === "tormenta" || fondo.clima === "ceniza") return null;
+  return (
+    <g>
+      {Array.from({ length: 4 }).map((_, i) => {
+        const ciclo = 420 + i * 90;
+        const t = ((f + random(`pj${i}${id}`) * ciclo) % ciclo) / ciclo;
+        const x = -100 + t * (MW + 200);
+        const y = 560 + random(`py${i}${id}`) * 260 + Math.sin(t * 20 + i) * 18;
+        const ala = Math.sin(f / 3 + i * 2) * 10;
+        return <path key={i} d={`M${x - 16} ${y - ala} Q${x - 8} ${y - 6} ${x} ${y} Q${x + 8} ${y - 6} ${x + 16} ${y - ala}`} stroke="#1c1f2a" strokeWidth={4} fill="none" opacity={0.6} />;
+      })}
+    </g>
+  );
+};
+
+// Elementos delante de los personajes, en las esquinas bajas y algo desenfocados (profundidad)
+const PrimerPlano: React.FC<{ fondo: Fondo; f: number; id: string; cam?: Cam }> = ({ fondo, f, id, cam }) => {
+  const l = fondo.lugar;
+  const hora = fondo.hora ?? "dia";
+  const oscuro = hora === "noche" ? "#05070d" : hora === "atardecer" ? "#1a0f1a" : "#141414";
+  const mov = cam ? `translate(${(cam.fx - 960) * -0.25} 0)` : undefined; // el primer plano corre más que el resto
+  let piezas: React.ReactNode = null;
+  if (l === "interior") {
+    piezas = (
+      <g fill={oscuro} opacity={0.85}>
+        <rect x={-80} y={300} width={110} height={1400} />
+        <rect x={1890} y={300} width={110} height={1400} />
+        <ellipse cx={120} cy={1560} rx={260} ry={110} />
+        <ellipse cx={1820} cy={1580} rx={240} ry={100} />
+      </g>
+    );
+  } else if (["campo", "bosque", "selva", "montanas", "valle"].includes(l)) {
+    piezas = (
+      <g fill={oscuro} opacity={0.9}>
+        {Array.from({ length: 16 }).map((_, i) => {
+          const lado = i < 8 ? 0 : 1;
+          const x = lado ? 1700 + (i - 8) * 30 : 20 + i * 30;
+          const h = 120 + random(`hz${i}${id}`) * 140;
+          const vaiven = Math.sin(f / 25 + i) * 10;
+          return <path key={i} d={`M${x} 1560 Q${x + vaiven} ${1560 - h / 2} ${x + vaiven * 2 + (lado ? -20 : 20)} ${1560 - h} Q${x + 14} ${1560 - h / 2} ${x + 22} 1560Z`} />;
+        })}
+      </g>
+    );
+  } else if (["ciudad", "calle", "futurista"].includes(l)) {
+    piezas = (
+      <g fill={oscuro} opacity={0.88}>
+        <rect x={20} y={1150} width={22} height={500} />
+        <rect x={-40} y={1140} width={150} height={26} rx={8} />
+        <path d="M1720 1600 L1760 1430 L1900 1420 L1960 1600Z" />
+        <ellipse cx={1800} cy={1600} rx={260} ry={70} />
+      </g>
+    );
+  } else if (["mar", "playa", "hielo", "desierto", "marte", "luna"].includes(l)) {
+    piezas = (
+      <g fill={oscuro} opacity={0.85}>
+        <ellipse cx={80} cy={1600} rx={280} ry={120} />
+        <ellipse cx={1860} cy={1620} rx={240} ry={110} />
+      </g>
+    );
+  }
+  if (!piezas) return null;
+  return <g transform={mov} style={{ filter: "blur(5px)" }}>{piezas}</g>;
+};
+
 // Decorados que siempre están lejos, detrás de todo el paisaje
-const LEJANOS = ["volcan", "volcan-erupcion", "piramide"];
+const LEJANOS = ["volcan", "volcan-erupcion", "piramide", "pilar", "templo-mayor"];
+const ESCALA_LEJANA: Record<string, number> = { "templo-mayor": 0.55, pilar: 0.7 };
+// Decorados de plano medio: sobre el agua o la llanura, entre el horizonte y el suelo
+const MEDIOS: Record<string, { y: number; k: number }> = { puente: { y: HORIZONTE + 95, k: 0.5 }, calzada: { y: HORIZONTE + 80, k: 0.6 }, canoa: { y: SUELO - 75, k: 0.8 } };
 
 // Ranuras automáticas para props sin x (repartidas detrás de los personajes)
 const RANURAS = [-1.45, 1.45, -0.75, 0.8, -1.9, 1.9, 0];
 
-export const DibujarFondo: React.FC<{ fondo: Fondo; f: number; dur: number; id: string; capa: "fondo" | "frente"; k?: number }> = ({ fondo, f, dur, id, capa, k = 420 }) => {
+export const DibujarFondo: React.FC<{ fondo: Fondo; f: number; dur: number; id: string; capa: "fondo" | "frente"; k?: number; cam?: Cam }> = ({ fondo, f, dur, id, capa, k = 420, cam }) => {
   const hora = fondo.hora ?? "dia";
   const noche = hora === "noche" || hora === "atardecer";
   const props = (fondo.props ?? []).map((p, i) => (typeof p === "string" ? { tipo: p, x: RANURAS[i % RANURAS.length], escala: 1, detras: true } : { detras: true, escala: 1, x: RANURAS[i % RANURAS.length], ...p }));
@@ -452,6 +557,7 @@ export const DibujarFondo: React.FC<{ fondo: Fondo; f: number; dur: number; id: 
         {props.filter((p) => p.detras === false).map((p, i) => (
           <g key={i} transform={`translate(${xMundo(p.x, k)} ${SUELO + 40}) scale(${p.escala})`}><Prop tipo={p.tipo} f={f} noche={noche} /></g>
         ))}
+        <PrimerPlano fondo={fondo} f={f} id={id} cam={cam} />
         <Particulas clima={fondo.clima ?? "despejado"} f={f} />
       </g>
     );
@@ -462,17 +568,25 @@ export const DibujarFondo: React.FC<{ fondo: Fondo; f: number; dur: number; id: 
         <Interior fondo={fondo} hora={hora} f={f} id={id} />
       ) : (
         <g>
-          <Cielo hora={hora} f={f} dur={dur} espacio={fondo.lugar === "espacio" || fondo.lugar === "luna"} marte={fondo.lugar === "marte"} id={id} />
+          <g transform={paralaje(cam, 0.85)}>
+            <Cielo hora={hora} f={f} dur={dur} espacio={fondo.lugar === "espacio" || fondo.lugar === "luna"} marte={fondo.lugar === "marte"} id={id} />
+            <Vida fondo={fondo} f={f} id={id} />
+          </g>
           {/* decorados LEJANOS (volcanes, pirámides): detrás del paisaje, apoyados en el horizonte y con bruma */}
           {props.filter((p) => LEJANOS.includes(p.tipo)).map((p, i) => (
-            <g key={`l${i}`} opacity={0.92} transform={`translate(${xMundo(p.x, k)} ${HORIZONTE + 60}) scale(${Math.min(p.escala ?? 1, 1.6) * 0.75})`}>
-              <Prop tipo={p.tipo} f={f} noche={noche} />
+            <g key={`l${i}`} transform={paralaje(cam, 0.6)}>
+              <g opacity={0.92} transform={`translate(${xMundo(p.x, k)} ${HORIZONTE + 60}) scale(${Math.min(p.escala ?? 1, 1.6) * 0.75 * (ESCALA_LEJANA[p.tipo] ?? 1)})`}>
+                <Prop tipo={p.tipo} f={f} noche={noche} />
+              </g>
             </g>
           ))}
-          <Exterior fondo={fondo} hora={hora} f={f} id={id} />
+          <Exterior fondo={fondo} hora={hora} f={f} id={id} cam={cam} medios={props.filter((p) => MEDIOS[p.tipo] && p.detras !== false).map((p, i) => (
+            <g key={`m${i}`} transform={`translate(${xMundo(p.x, k)} ${MEDIOS[p.tipo].y}) scale(${(p.escala ?? 1) * MEDIOS[p.tipo].k})`}><Prop tipo={p.tipo} f={f} noche={noche} /></g>
+          ))} />
         </g>
       )}
-      {props.filter((p) => p.detras !== false && (fondo.lugar === "interior" || !LEJANOS.includes(p.tipo))).map((p, i) => (
+      {fondo.lugar === "interior" && <Vida fondo={fondo} f={f} id={id} />}
+      {props.filter((p) => p.detras !== false && (fondo.lugar === "interior" || (!LEJANOS.includes(p.tipo) && !MEDIOS[p.tipo]))).map((p, i) => (
         <g key={i} transform={`translate(${xMundo(p.x, k)} ${SUELO - 20}) scale(${p.escala})`}><Prop tipo={p.tipo} f={f} noche={noche} /></g>
       ))}
     </g>

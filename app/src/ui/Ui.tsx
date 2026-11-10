@@ -9,9 +9,12 @@ const useU = () => {
   return { u: Math.min(width, height) / 1080, vertical: height > width, width, height };
 };
 
-export const Fundido: React.FC<{ dur: number; entrada?: number; children: React.ReactNode }> = ({ dur, entrada = 8, children }) => {
+// Entrada encadenada: el plano nuevo aparece encima del anterior (que sigue visible), sin pasar por negro.
+export const Fundido: React.FC<{ dur: number; entrada?: number; salida?: number; children: React.ReactNode }> = ({ dur, entrada = 8, salida = 0, children }) => {
   const f = useCurrentFrame();
-  return <AbsoluteFill style={{ opacity: interpolate(f, [0, entrada, Math.max(entrada + 1, dur - 5), Math.max(entrada + 2, dur)], [0, 1, 1, 0], clamp) }}>{children}</AbsoluteFill>;
+  const e = Math.max(1, entrada);
+  const op = interpolate(f, [0, e], [0, 1], { ...clamp, easing: (x) => x * x * (3 - 2 * x) }) * (salida > 0 ? interpolate(f, [dur - salida, dur], [1, 0], clamp) : 1);
+  return <AbsoluteFill style={{ opacity: op }}>{children}</AbsoluteFill>;
 };
 
 export const Grano: React.FC = () => {
@@ -45,7 +48,7 @@ export const Calendario: React.FC<{ dia: number; paleta: Paleta; cambio: boolean
 };
 
 // Subtítulos karaoke. Tiempos estimados por longitud de palabra.
-export const Subtitulos: React.FC<{ texto: string; duracionAudio: number; paleta: Paleta }> = ({ texto, duracionAudio, paleta }) => {
+export const Subtitulos: React.FC<{ texto: string; duracionAudio: number; paleta: Paleta; tiempos?: number[] }> = ({ texto, duracionAudio, paleta, tiempos: reales }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const { u, vertical } = useU();
@@ -54,7 +57,8 @@ export const Subtitulos: React.FC<{ texto: string; duracionAudio: number; paleta
   const total = pesos.reduce((a, b) => a + b, 0);
   const t = f / fps;
   let acum = 0;
-  const tiempos = pesos.map((w) => {
+  // tiempos reales de cada palabra (whisper) si existen; si no, estimados por longitud
+  const tiempos = reales && reales.length === palabras.length ? reales : pesos.map((w) => {
     const ini = (acum / total) * duracionAudio * 0.97;
     acum += w;
     return ini;

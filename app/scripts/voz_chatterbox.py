@@ -37,13 +37,13 @@ for n, trabajo in enumerate(trabajos):
     t0 = time.time()
     drama = float(trabajo.get("drama", 0.6))
     piezas = []
-    for frase in frases(trabajo["texto"]):
+    for k, frase in enumerate(frases(trabajo["texto"])):
         # Control de calidad: Chatterbox a veces corta la frase o "alucina" audio extra.
         # Duración esperada ≈ 0.07 s por carácter; si se sale mucho, se repite (hasta 3 intentos).
         esperado = 0.07 * len(frase)
         mejor = None
         for intento in range(3):
-            torch.manual_seed(1234 + intento * 77 + n)
+            torch.manual_seed(int(trabajo.get("semilla", 1234)) + intento * 77 + k)
             wav = modelo.generate(
                 frase,
                 language_id="es",

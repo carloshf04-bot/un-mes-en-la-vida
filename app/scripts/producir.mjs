@@ -1,7 +1,10 @@
 // Produce un episodio completo de "Un mes en la vida de".
 // Uso: node scripts/producir.mjs <slug> [--solo largo|short] [--sin-render] [--muestras]
 //   Lee   ../guiones/<slug>.json
-//   Crea  ../salida/<slug>/{largo.mp4, short.mp4, miniatura.png, miniatura-short.png, publicacion.md}
+//   Crea  ../salida/<slug>/{largo.mp4, miniatura.png, miniatura-short.png, publicacion.md}
+//   Los shorts se cortan después del largo con scripts/shorts.mjs (troceado del largo en vertical).
+//   La revisión de la voz con whisper es scripts/revisar_voz.mjs: deja en cache-voz/revision.json
+//   las semillas de las frases regeneradas y los tiempos reales de cada palabra (subtítulos).
 import { execFileSync, spawnSync } from "node:child_process";
 import { readFileSync, writeFileSync, mkdirSync, existsSync, rmSync } from "node:fs";
 import { join, dirname } from "node:path";
@@ -16,7 +19,7 @@ const slug = args[0];
 if (!slug) throw new Error("Uso: node scripts/producir.mjs <slug>");
 const opt = (n) => args.includes(n);
 const solo = args.includes("--solo") ? args[args.indexOf("--solo") + 1] : null;
-const FPS = 24;
+const FPS = 30;
 const COLCHON = 0.5;
 
 const guion = JSON.parse(readFileSync(join(ESTUDIO, "guiones", `${slug}.json`), "utf8"));
@@ -114,8 +117,10 @@ const producirPieza = (formato) => {
     if (!existsSync(r)) throw new Error(`Falta la voz ${r}`);
     return r;
   };
+  const revisionF = join(cache, "revision.json");
+  const revision = existsSync(revisionF) ? JSON.parse(readFileSync(revisionF, "utf8")) : {};
   const clave = (e) => createHash("sha1").update(`${motor}|${vozDe(e)}|${motor === "chatterbox" ? 1 : guion.velocidad ?? 1}|${e.drama ?? dramaBase}|${e.texto}`).digest("hex").slice(0, 16);
-  const trabajos = escenas.map((e) => ({ texto: e.texto, drama: e.drama ?? dramaBase, ref: refDe(vozDe(e)), salida: join(cache, `${clave(e)}.wav`) }));
+  const trabajos = escenas.map((e) => ({ texto: e.texto, drama: e.drama ?? dramaBase, ref: refDe(vozDe(e)), salida: join(cache, `${clave(e)}.wav`), clave: clave(e), semilla: 1234 + 1000 * (revision[clave(e)]?.intentos ?? 0) }));
   const pendientes = trabajos.filter((t) => !existsSync(t.salida));
   if (pendientes.length) {
     console.log(`🎙️  generando ${pendientes.length} locuciones con ${motor}…`);
@@ -130,8 +135,9 @@ const producirPieza = (formato) => {
   const tempo = motor === "chatterbox" && guion.velocidad && guion.velocidad !== 1 ? `,atempo=${guion.velocidad}` : "";
   const audios = escenas.map((e, i) => {
     const archivo = `voz-${String(i).padStart(3, "0")}.wav`;
-    execFileSync("ffmpeg", ["-y", "-v", "error", "-i", trabajos[i].salida, "-af", `silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse${tempo},highpass=f=70,bass=g=3:f=150,acompressor=threshold=-18dB:ratio=3,loudnorm=I=-16:TP=-1.5`, "-ar", "44100", join(dir, archivo)]);
-    return { archivo, duracion: ffprobeDur(join(dir, archivo)), env: envolvente(join(dir, archivo)) };
+    execFileSync("ffmpeg", ["-y", "-v", "error", "-i", trabajos[i].salida, "-af", `silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse${tempo},highpass=f=70,bass=g=3:f=150,acompressor=threshold=-18dB:ratio=3,loudnorm=I=-16:TP=-1.5,afade=t=in:d=0.015,areverse,afade=t=in:d=0.02,areverse`, "-ar", "44100", join(dir, archivo)]);
+    const tiempos = revision[trabajos[i].clave]?.tiempos;
+    return { archivo, clave: trabajos[i].clave, duracion: ffprobeDur(join(dir, archivo)), env: envolvente(join(dir, archivo)), ...(tiempos ? { tiempos } : {}) };
   });
   const total = audios.reduce((a, b) => a + b.duracion + COLCHON, 0) + 2;
   console.log(`🎙️  ${audios.length} locuciones · duración total ${(total / 60).toFixed(1)} min`);
@@ -152,10 +158,22 @@ const producirPieza = (formato) => {
 const render = (formato) => {
   const comp = formato === "largo" ? "Largo" : "Short";
   const destino = join(salida, `${formato}.mp4`);
+  const bruto = join(salida, `${formato}-bruto.mp4`);
   console.log(`🎬 renderizando ${comp}…`);
   const t0 = Date.now();
-  execFileSync("npx", ["remotion", "render", comp, destino, `--props=${JSON.stringify({ slug })}`, "--concurrency=4", "--crf=24", "--x264-preset=medium", "--log=error", "--timeout=120000"], { cwd: APP, stdio: "inherit" });
-  console.log(`   ✔ ${destino} (${((Date.now() - t0) / 60000).toFixed(1)} min)`);
+  execFileSync("npx", ["remotion", "render", comp, bruto, `--props=${JSON.stringify({ slug })}`, "--concurrency=4", "--crf=22", "--x264-preset=medium", "--log=error", "--timeout=120000"], { cwd: APP, stdio: "inherit" });
+  console.log(`   ✔ render (${((Date.now() - t0) / 60000).toFixed(1)} min)`);
+  mezclaFinal(bruto, destino);
+  rmSync(bruto);
+  console.log(`   ✔ ${destino} a -14 LUFS`);
+};
+
+// Mezcla final: sonoridad -14 LUFS y pico real ≤ -1 dBTP (loudnorm en dos pasadas), vídeo sin recodificar
+const mezclaFinal = (entrada, destino) => {
+  const r = spawnSync("ffmpeg", ["-hide_banner", "-i", entrada, "-af", "loudnorm=I=-14:TP=-1.5:LRA=11:print_format=json", "-f", "null", "-"], { encoding: "utf8" });
+  const js = JSON.parse(r.stderr.slice(r.stderr.lastIndexOf("{"), r.stderr.lastIndexOf("}") + 1));
+  const ln = `loudnorm=I=-14:TP=-1.5:LRA=11:measured_I=${js.input_i}:measured_TP=${js.input_tp}:measured_LRA=${js.input_lra}:measured_thresh=${js.input_thresh}:offset=${js.target_offset}:linear=true`;
+  execFileSync("ffmpeg", ["-y", "-v", "error", "-i", entrada, "-c:v", "copy", "-af", `${ln},alimiter=limit=0.85:level=false`, "-ar", "48000", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", destino]);
 };
 
 const muestras = (formato, info) => {
@@ -174,7 +192,7 @@ const muestras = (formato, info) => {
   console.log(`🖼️  muestras en ${dir}`);
 };
 
-const formatos = solo ? [solo] : ["short", "largo"];
+const formatos = solo ? [solo] : guion.short ? ["short", "largo"] : ["largo"];
 for (const formato of formatos) {
   const info = producirPieza(formato);
   if (opt("--muestras")) muestras(formato, info);
@@ -190,6 +208,7 @@ if (!opt("--sin-render") && formatos.includes("largo")) {
 }
 if (guion.publicacion) {
   const p = guion.publicacion;
-  writeFileSync(join(salida, "publicacion.md"), `# ${p.tituloLargo}\n\n**Short:** ${p.tituloShort}\n\n## Descripción\n\n${p.descripcion}\n\n## Etiquetas\n\n${p.etiquetas.join(", ")}\n`);
+  const shorts = (p.shorts ?? []).map((sh, i) => `### Short ${i + 1}/${p.shorts.length}: ${sh.titulo}\n\n${sh.descripcion}\n`).join("\n");
+  writeFileSync(join(salida, "publicacion.md"), `# ${p.tituloLargo}\n\n## Descripción\n\n${p.descripcion}\n\n## Etiquetas\n\n${p.etiquetas.join(", ")}\n${shorts ? `\n## Shorts (troceado del largo, en orden)\n\n${shorts}` : p.tituloShort ? `\n**Short:** ${p.tituloShort}\n` : ""}`);
 }
 console.log(`\n✅ Episodio "${slug}" listo en ${salida}`);

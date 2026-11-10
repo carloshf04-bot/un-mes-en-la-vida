@@ -9,10 +9,13 @@ export const CX = 960;
 export const xMundo = (x = 0, k = 420) => CX + x * k; // k: 420 personajes en vertical, 600 en horizontal
 
 export const oscurecer = (hex: string, k = 0.18) => {
-  const h = hex.replace("#", "");
+  const rgb = hex.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
+  const h = rgb ? rgb.slice(1).map((v) => (+v).toString(16).padStart(2, "0")).join("") : hex.replace("#", "");
   const n = parseInt(h.length === 3 ? h.split("").map((c) => c + c).join("") : h, 16);
   const r = Math.round(((n >> 16) & 255) * (1 - k));
   const g = Math.round(((n >> 8) & 255) * (1 - k));
   const b = Math.round((n & 255) * (1 - k));
   return `rgb(${r},${g},${b})`;
 };
+
+export const FPS = 30; // fotogramas por segundo de todo el estudio

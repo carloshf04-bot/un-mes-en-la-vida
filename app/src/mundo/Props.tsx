@@ -1,4 +1,5 @@
 import React from "react";
+import { random } from "remotion";
 
 // Objetos de decorado. Origen = punto de apoyo en el suelo; se dibujan hacia arriba (y negativa).
 // Para añadir uno nuevo: añade un `case` y documéntalo en oficina/GUIA_GUION.md
@@ -10,6 +11,12 @@ export const PROPS_DISPONIBLES = [
   "volcan", "volcan-erupcion", "horno", "molino", "anfora", "termopolio",
   "casa-adobe", "habitat", "invernadero", "rover", "panel-solar", "antena",
   "escalera", "puerta", "tesoro", "sarcofago", "mascara", "estatua", "jarron", "carro-dorado",
+  // apocalipsis zombi (2031)
+  "coche-abandonado", "barricada", "bidon-fuego", "bloque", "semaforo", "pilar", "puente", "camilla", "radio", "helicoptero",
+  // Wisconsin rural (1957)
+  "granja", "granero", "coche-antiguo", "coche-patrulla", "estufa", "mostrador", "poste",
+  // Tenochtitlan (1519)
+  "templo-mayor", "canoa", "ahuejote", "chinampa", "calzada", "brasero", "petate", "metate",
 ] as const;
 
 const Brillo: React.FC<{ r: number; o: number; color?: string; cx?: number; cy?: number }> = ({ r, o, color = "#ffb347", cx = 0, cy = 0 }) => (
@@ -628,6 +635,371 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean }> = ({ ti
             {[0, 30, 60, 90, 120, 150].map((a) => <line key={a} x1={-110} x2={110} stroke="#c9962e" strokeWidth={8} transform={`rotate(${a})`} />)}
           </g>
           <rect x={160} y={-220} width={260} height={14} fill="#8a6a1a" />
+        </g>
+      );
+
+    // ---------- apocalipsis zombi ----------
+    case "coche-abandonado":
+      return (
+        <g transform="rotate(-3)">
+          <path d="M-260 -60 L-250 -140 L-150 -150 L-90 -230 L110 -230 L180 -150 L260 -130 L270 -60Z" fill="#5d6b78" />
+          <path d="M-80 -215 L-130 -152 L-10 -152 L-10 -215Z M10 -215 L10 -152 L150 -152 L100 -215Z" fill="#26313b" />
+          <path d="M20 -200 l40 30 l-25 20 l30 22" stroke="#9fb0bf" strokeWidth={4} fill="none" />
+          <rect x={-270} y={-80} width={545} height={22} fill="#3d4650" />
+          {[-160, 160].map((x) => (
+            <g key={x}><circle cx={x} cy={-40} r={46} fill="#1b1d20" /><circle cx={x} cy={-40} r={20} fill="#6d7680" /></g>
+          ))}
+          <rect x={232} y={-120} width={30} height={16} rx={6} fill={noche ? "#ffe9a8" : "#d9d2b0"} opacity={0.6} />
+          <path d="M-240 -100 q60 -10 90 0" stroke="#3a2a20" strokeWidth={10} opacity={0.4} />
+        </g>
+      );
+    case "barricada":
+      return (
+        <g>
+          {[0, 1, 2].map((fila) =>
+            Array.from({ length: 6 - fila }).map((_, i) => (
+              <ellipse key={`${fila}${i}`} cx={-250 + fila * 50 + i * 100} cy={-30 - fila * 48} rx={56} ry={30} fill={["#b39b6e", "#a68d60", "#9a8256"][(i + fila) % 3]} stroke="#6d5b3c" strokeWidth={4} />
+            )),
+          )}
+          <g transform="translate(140 0)">
+            <rect x={0} y={-260} width={260} height={26} fill="#d9d4c8" />
+            {[0, 1, 2, 3].map((i) => <rect key={i} x={10 + i * 64} y={-260} width={30} height={26} fill="#c63a2e" />)}
+            <rect x={20} y={-236} width={14} height={236} fill="#8a8a8a" />
+            <rect x={226} y={-236} width={14} height={236} fill="#8a8a8a" />
+          </g>
+          <path d="M-300 -170 l600 0" stroke="#5a5a5a" strokeWidth={4} strokeDasharray="14 10" />
+        </g>
+      );
+    case "bidon-fuego":
+      return (
+        <g>
+          <rect x={-60} y={-190} width={120} height={190} rx={8} fill="#4d4a44" />
+          {[-140, -70].map((y) => <rect key={y} x={-64} y={y} width={128} height={10} fill="#36332f" />)}
+          <path d="M-50 -150 l30 20 l-20 30" stroke="#7a3a1e" strokeWidth={8} fill="none" opacity={0.6} />
+          {llama(0, -190, 1.1)}
+          {[0, 1, 2].map((i) => {
+            const t = ((f + i * 40) % 120) / 120;
+            return <circle key={i} cx={Math.sin(f / 9 + i) * 30} cy={-260 - t * 360} r={30 + t * 50} fill="#5a5a5a" opacity={0.25 * (1 - t)} />;
+          })}
+        </g>
+      );
+    case "bloque": {
+      const pisos = 7;
+      return (
+        <g>
+          <rect x={-260} y={-pisos * 110 - 40} width={520} height={pisos * 110 + 40} fill="#b9a48a" stroke="#00000033" strokeWidth={6} />
+          <rect x={-275} y={-pisos * 110 - 60} width={550} height={26} fill="#8f7c66" />
+          {Array.from({ length: pisos }).map((_, fy) =>
+            [0, 1, 2, 3].map((c) => {
+              const x = -225 + c * 120;
+              const y = -pisos * 110 + fy * 110;
+              const luz = noche && random(`bl${fy}${c}`) > 0.85;
+              return (
+                <g key={`${fy}${c}`}>
+                  <rect x={x} y={y} width={80} height={70} fill={luz ? "#ffcf7a" : "#3b4652"} />
+                  {random(`pe${fy}${c}`) > 0.55 && <rect x={x} y={y} width={80} height={70 * (0.4 + random(`pa${fy}${c}`) * 0.6)} fill="#6d5a48" />}
+                  <rect x={x - 6} y={y + 70} width={92} height={10} fill="#8f7c66" />
+                  {random(`ro${fy}${c}`) > 0.8 && <path d={`M${x + 10} ${y + 10} l25 20 l-10 15 l30 18`} stroke="#d9e4ee" strokeWidth={3} fill="none" />}
+                </g>
+              );
+            }),
+          )}
+          <rect x={-50} y={-120} width={100} height={120} fill="#3a2c22" />
+          <path d="M-200 -300 q20 40 0 90 q-15 30 5 70" stroke="#2a2a2a" strokeWidth={10} fill="none" opacity={0.35} />
+        </g>
+      );
+    }
+    case "semaforo": {
+      const fase = Math.floor(f / 45) % 2;
+      return (
+        <g>
+          <rect x={-10} y={-520} width={20} height={520} fill="#3a3d40" />
+          <rect x={-40} y={-640} width={80} height={200} rx={14} fill="#222" />
+          {[0, 1, 2].map((i) => (
+            <circle key={i} cx={0} cy={-600 + i * 62} r={22} fill={i === 1 && fase === 0 ? "#ffb020" : "#3a3a3a"} />
+          ))}
+          {fase === 0 && <Brillo r={90} o={0.5} color="#ffb020" cy={-538} />}
+        </g>
+      );
+    }
+    case "pilar":
+      // basílica del Pilar: cuerpo largo, cúpulas y cuatro torres (decorado LEJANO)
+      return (
+        <g fill={noche ? "#2a2d3c" : "#b48a62"}>
+          <rect x={-420} y={-300} width={840} height={300} />
+          {[-240, -80, 80, 240].map((x, i) => (
+            <g key={x}>
+              <ellipse cx={x} cy={-300} rx={i % 3 === 0 ? 70 : 95} ry={i % 3 === 0 ? 80 : 110} fill={noche ? "#30364a" : "#4f8a7a"} />
+              <rect x={x - 6} y={i % 3 === 0 ? -420 : -450} width={12} height={60} />
+            </g>
+          ))}
+          {[-470, 470].map((x) => (
+            <g key={x}>
+              <rect x={x - 45} y={-760} width={90} height={760} />
+              <rect x={x - 55} y={-560} width={110} height={18} fill={noche ? "#1d2030" : "#9a7450"} />
+              <rect x={x - 30} y={-860} width={60} height={110} />
+              <path d={`M${x - 30} -860 L${x} -940 L${x + 30} -860Z`} fill={noche ? "#30364a" : "#4f8a7a"} />
+              {[-700, -620, -480, -400].map((y) => <rect key={y} x={x - 15} y={y} width={30} height={48} rx={14} fill={noche ? "#ffd27a" : "#5a3e2a"} opacity={noche ? 0.6 : 0.8} />)}
+            </g>
+          ))}
+        </g>
+      );
+    case "puente":
+      return (
+        <g fill={noche ? "#3b3a40" : "#b49a78"}>
+          <rect x={-900} y={-260} width={1800} height={60} />
+          {[-700, -350, 0, 350, 700].map((x) => (
+            <path key={x} d={`M${x - 175} -200 L${x + 175} -200 L${x + 175} 0 L${x + 140} 0 Q${x} -170 ${x - 140} 0 L${x - 175} 0Z`} />
+          ))}
+          <rect x={-900} y={-290} width={1800} height={30} fill={noche ? "#2c2b30" : "#9a8060"} />
+          {[-875, -525, -175, 175, 525, 875].map((x) => <path key={x} d={`M${x - 30} -200 L${x + 30} -200 L${x + 20} -60 L${x - 20} -60Z`} fill={noche ? "#2c2b30" : "#9a8060"} />)}
+        </g>
+      );
+    case "camilla":
+      return (
+        <g>
+          <rect x={-200} y={-170} width={400} height={40} rx={10} fill="#d9e0e6" />
+          <rect x={-200} y={-200} width={120} height={36} rx={14} fill="#f2f4f6" />
+          <rect x={-180} y={-130} width={14} height={110} fill="#8a96a0" />
+          <rect x={166} y={-130} width={14} height={110} fill="#8a96a0" />
+          {[-173, 173].map((x) => <circle key={x} cx={x} cy={-14} r={14} fill="#333" />)}
+          <path d="M-60 -175 h240" stroke="#7fb3d6" strokeWidth={22} strokeLinecap="round" />
+        </g>
+      );
+    case "radio":
+      return (
+        <g>
+          <rect x={-90} y={-130} width={180} height={120} rx={14} fill="#3a3f45" />
+          <rect x={-70} y={-110} width={80} height={60} rx={8} fill="#1d2126" />
+          {[0, 1, 2, 3].map((i) => <rect key={i} x={-64} y={-104 + i * 14} width={68} height={5} fill="#555" />)}
+          <circle cx={50} cy={-80} r={20} fill="#c9a24a" />
+          <rect x={-60} y={-40} width={120} height={14} rx={6} fill="#8fd6a0" opacity={0.6 + 0.4 * Math.sin(f / 6)} />
+          <line x1={60} y1={-130} x2={130} y2={-300} stroke="#999" strokeWidth={5} />
+        </g>
+      );
+    case "helicoptero": {
+      const x = ((f * 6) % 2600) - 1300;
+      return (
+        <g transform={`translate(${x} ${-900 + Math.sin(f / 20) * 20})`}>
+          <ellipse cx={0} cy={0} rx={130} ry={60} fill="#3d4a3a" />
+          <rect x={100} y={-15} width={220} height={22} fill="#3d4a3a" />
+          <ellipse cx={-60} cy={-10} rx={50} ry={34} fill="#9fc3d6" opacity={0.8} />
+          <rect x={-3} y={-80} width={6} height={30} fill="#222" />
+          <ellipse cx={0} cy={-82} rx={260 * Math.abs(Math.cos(f * 0.9))} ry={6} fill="#222" opacity={0.7} />
+          <rect x={-90} y={55} width={180} height={8} fill="#222" />
+          {noche && <Brillo r={60} o={0.8} color="#ff3b3b" cx={310} cy={-10} />}
+        </g>
+      );
+    }
+    // ---------- Wisconsin rural, 1957 ----------
+    case "granja":
+      return (
+        <g>
+          <rect x={-300} y={-520} width={600} height={520} fill="#8a8274" />
+          {Array.from({ length: 13 }).map((_, i) => <rect key={i} x={-300} y={-520 + i * 40} width={600} height={5} fill="#6b6458" />)}
+          <polygon points="-340,-520 0,-780 340,-520" fill="#4a3f38" />
+          <path d="M120 -700 l60 -40 l0 70" fill="#4a3f38" />
+          <rect x={150} y={-760} width={50} height={110} fill="#5a4a40" />
+          {[[-210, -440], [90, -440], [-210, -250]].map(([x, y], i) => (
+            <g key={i}>
+              <rect x={x} y={y} width={110} height={130} fill={noche && i === 2 ? "#e8b24a" : "#2a2b2e"} />
+              {i === 1 && <rect x={x} y={y} width={110} height={130} fill="#6b5a48" />}
+              {i === 1 && <path d={`M${x} ${y} l110 130 M${x + 110} ${y} l-110 130`} stroke="#4a3a2a" strokeWidth={10} />}
+              <rect x={x - 8} y={y - 8} width={126} height={146} fill="none" stroke="#d9d2c0" strokeWidth={8} opacity={0.6} />
+            </g>
+          ))}
+          {noche && <Brillo r={200} o={0.35} color="#e8b24a" cx={-155} cy={-185} />}
+          <rect x={60} y={-230} width={110} height={230} fill="#4a3a2e" />
+          <rect x={-330} y={-60} width={660} height={60} fill="#6b6458" />
+          <path d="M-300 -160 L-380 -60 M300 -300 L360 -200" stroke="#5a5248" strokeWidth={14} />
+        </g>
+      );
+    case "granero":
+      return (
+        <g>
+          <path d="M-280 0 L-280 -360 L-200 -520 L200 -520 L280 -360 L280 0Z" fill="#8a3226" />
+          <path d="M-280 -360 L-200 -520 L200 -520 L280 -360" stroke="#5a2018" strokeWidth={18} fill="none" />
+          <rect x={-120} y={-300} width={240} height={300} fill="#6b241b" />
+          <path d="M-120 -300 L120 0 M120 -300 L-120 0" stroke="#e8dccb" strokeWidth={12} />
+          <rect x={-120} y={-300} width={240} height={300} fill="none" stroke="#e8dccb" strokeWidth={12} />
+          <rect x={-50} y={-470} width={100} height={90} fill="#2a1a14" />
+          {Array.from({ length: 9 }).map((_, i) => <rect key={i} x={-280 + i * 62} y={-360} width={4} height={360} fill="#00000022" />)}
+        </g>
+      );
+    case "coche-antiguo":
+    case "coche-patrulla": {
+      const patrulla = tipo === "coche-patrulla";
+      const col = patrulla ? "#1f2630" : "#6a2230";
+      return (
+        <g>
+          <path d="M-300 -70 Q-300 -150 -220 -160 L-140 -165 Q-100 -260 0 -262 L80 -262 Q160 -258 190 -165 L260 -158 Q310 -150 310 -70Z" fill={col} />
+          <path d="M-120 -170 Q-90 -240 -10 -244 L-10 -170Z M10 -244 L70 -244 Q140 -240 165 -170 L10 -170Z" fill="#9fb4c4" opacity={noche ? 0.4 : 0.8} />
+          {patrulla && <rect x={-140} y={-150} width={360} height={60} fill="#e8e4d8" />}
+          {patrulla && <text x={40} y={-108} fontSize={36} textAnchor="middle" fill="#1f2630" style={{ fontFamily: "sans-serif", fontWeight: 900 }}>SHERIFF</text>}
+          {patrulla && (
+            <g>
+              <rect x={20} y={-292} width={40} height={30} rx={8} fill={Math.floor(f / 8) % 2 ? "#ff3030" : "#7a1a1a"} />
+              {Math.floor(f / 8) % 2 === 1 && <Brillo r={120} o={0.6} color="#ff3030" cx={40} cy={-280} />}
+            </g>
+          )}
+          <rect x={-310} y={-90} width={620} height={18} rx={8} fill="#c9ccd0" />
+          {[-190, 190].map((x) => (
+            <g key={x}><circle cx={x} cy={-40} r={50} fill="#15161a" /><circle cx={x} cy={-40} r={24} fill="#e8e6de" /><circle cx={x} cy={-40} r={10} fill="#9a9a9a" /></g>
+          ))}
+          <ellipse cx={290} cy={-120} rx={20} ry={16} fill={noche ? "#fff3c0" : "#e8e6de"} />
+          {noche && <path d="M300 -120 L700 -200 L700 -40Z" fill="#fff3c0" opacity={0.15} />}
+        </g>
+      );
+    }
+    case "estufa":
+      return (
+        <g>
+          <rect x={-130} y={-260} width={260} height={200} rx={10} fill="#2a2a2c" />
+          <rect x={-150} y={-280} width={300} height={26} rx={6} fill="#3a3a3e" />
+          <rect x={-70} y={-200} width={140} height={90} rx={8} fill="#1a1a1c" />
+          <rect x={-60} y={-190} width={120} height={70} rx={6} fill="#ff7b2f" opacity={0.45 + 0.25 * Math.sin(f / 3)} />
+          <Brillo r={220} o={0.3 + 0.08 * Math.sin(f / 4)} cy={-150} />
+          {[-110, 110].map((x) => <rect key={x} x={x - 10} y={-60} width={20} height={60} fill="#2a2a2c" />)}
+          <rect x={60} y={-820} width={44} height={550} fill="#3a3a3e" />
+          <ellipse cx={-60} cy={-300} rx={56} ry={18} fill="#4a4a4e" />
+          <path d="M-90 -300 q-10 -60 30 -60 q40 0 30 60" fill="#5a5a5e" />
+        </g>
+      );
+    case "mostrador":
+      return (
+        <g>
+          <rect x={-320} y={-230} width={640} height={230} fill="#7a4e2e" />
+          <rect x={-340} y={-250} width={680} height={30} fill="#5a3820" />
+          {[-200, 0, 200].map((x) => <rect key={x} x={x - 80} y={-200} width={160} height={170} fill="none" stroke="#5a3820" strokeWidth={8} />)}
+          <g transform="translate(180 -250)">
+            <path d="M-80 0 L-70 -110 L70 -110 L80 0Z" fill="#9a9aa0" />
+            <rect x={-60} y={-160} width={120} height={52} rx={6} fill="#c9c9cf" />
+            <rect x={-40} y={-150} width={80} height={30} fill="#2a2a2a" />
+            {[0, 1, 2].map((r) => [0, 1, 2, 3].map((c) => <circle key={`${r}${c}`} cx={-45 + c * 30} cy={-80 + r * 22} r={8} fill="#e8e4d8" />))}
+          </g>
+          <rect x={-250} y={-330} width={70} height={80} rx={6} fill="#c62e2e" />
+          <rect x={-250} y={-310} width={70} height={24} fill="#f2e6c9" />
+        </g>
+      );
+    case "poste":
+      return (
+        <g>
+          {[-600, 0, 600].map((x) => (
+            <g key={x}>
+              <rect x={x - 12} y={-760} width={24} height={760} fill="#4a3a2a" />
+              <rect x={x - 90} y={-720} width={180} height={14} fill="#4a3a2a" />
+              {[-70, 0, 70].map((d) => <rect key={d} x={x + d - 5} y={-736} width={10} height={16} fill="#8fb0c0" />)}
+            </g>
+          ))}
+          {[-70, 0, 70].map((d) => (
+            <g key={d} stroke="#222" strokeWidth={3} fill="none">
+              <path d={`M${-1200 + d} -700 Q${-900 + d} -640 ${-600 + d} -728`} />
+              <path d={`M${-600 + d} -728 Q${-300 + d} -660 ${d} -728`} />
+              <path d={`M${d} -728 Q${300 + d} -660 ${600 + d} -728`} />
+              <path d={`M${600 + d} -728 Q${900 + d} -660 ${1200 + d} -700`} />
+            </g>
+          ))}
+        </g>
+      );
+    // ---------- Tenochtitlan, 1519 ----------
+    case "templo-mayor":
+      // pirámide doble con dos santuarios (Tláloc azul, Huitzilopochtli rojo). Decorado LEJANO.
+      return (
+        <g>
+          {[0, 1, 2, 3].map((i) => (
+            <rect key={i} x={-460 + i * 70} y={-120 - i * 120} width={920 - i * 140} height={122} fill={["#d9cdb4", "#cfc2a6", "#c6b899", "#bcae8e"][i]} stroke="#9a8a6a" strokeWidth={4} />
+          ))}
+          {[-80, 80].map((x) => <rect key={x} x={x - 45} y={-480} width={90} height={480} fill="#b0a282" />)}
+          {[-80, 80].map((x) => Array.from({ length: 12 }).map((_, k) => <rect key={`${x}${k}`} x={x - 45} y={-470 + k * 40} width={90} height={5} fill="#8f8066" />))}
+          <g transform="translate(-150 -480)">
+            <rect x={-95} y={-170} width={190} height={170} fill="#e8e0cc" />
+            <path d="M-110 -170 L0 -260 L110 -170Z" fill="#3f6fa8" />
+            <rect x={-40} y={-110} width={80} height={110} fill="#1d2230" />
+            {[0, 1, 2].map((i) => <circle key={i} cx={-60 + i * 60} cy={-140} r={12} fill="#3f6fa8" />)}
+          </g>
+          <g transform="translate(150 -480)">
+            <rect x={-95} y={-170} width={190} height={170} fill="#e8e0cc" />
+            <path d="M-110 -170 L-110 -240 L110 -240 L110 -170Z" fill="#a8322a" />
+            {[0, 1, 2, 3].map((i) => <rect key={i} x={-100 + i * 54} y={-268} width={36} height={30} fill="#a8322a" />)}
+            <rect x={-40} y={-110} width={80} height={110} fill="#1d2230" />
+          </g>
+          {[-150, 150].map((x, i) => (
+            <circle key={x} cx={x} cy={-760 - ((f * 0.8 + i * 40) % 120)} r={26 + ((f * 0.8 + i * 40) % 120) / 4} fill="#cfcfcf" opacity={0.35 * (1 - ((f * 0.8 + i * 40) % 120) / 120)} />
+          ))}
+        </g>
+      );
+    case "canoa":
+      return (
+        <g transform={`translate(0 ${Math.sin(f / 18) * 6}) rotate(${Math.sin(f / 23) * 1.5})`}>
+          <path d="M-300 -60 Q-260 10 0 12 Q260 10 300 -60 Z" fill="#7a5232" />
+          <path d="M-300 -60 L300 -60" stroke="#5a3a20" strokeWidth={12} />
+          <path d="M-240 -50 Q0 -30 240 -50" stroke="#9a6a42" strokeWidth={6} fill="none" />
+          <line x1={140} y1={-300} x2={210} y2={40} stroke="#6b4a2a" strokeWidth={12} />
+          <ellipse cx={0} cy={18} rx={340} ry={14} fill="#ffffff" opacity={0.18} />
+          <g fill="#d9b43a">{[-160, -100, -40].map((x) => <ellipse key={x} cx={x} cy={-78} rx={30} ry={20} />)}</g>
+        </g>
+      );
+    case "ahuejote":
+      return (
+        <g>
+          <rect x={-14} y={-560} width={28} height={560} fill="#6b5a40" />
+          <ellipse cx={0} cy={-520} rx={70} ry={300} fill="#4f7a3a" transform={`rotate(${Math.sin(f / 30) * 1.5} 0 -200)`} />
+          <ellipse cx={-20} cy={-560} rx={44} ry={220} fill="#5f8a44" transform={`rotate(${Math.sin(f / 26 + 1) * 2} 0 -200)`} />
+        </g>
+      );
+    case "chinampa":
+      return (
+        <g>
+          <path d="M-420 0 L-400 -60 L400 -60 L420 0Z" fill="#4a3a26" />
+          <rect x={-400} y={-70} width={800} height={14} fill="#5a7a34" />
+          {Array.from({ length: 13 }).map((_, i) => {
+            const x = -360 + i * 60;
+            const v = Math.sin(f / 22 + i) * 4;
+            return (
+              <g key={i}>
+                <path d={`M${x} -60 L${x + v} -250`} stroke="#6f9a3a" strokeWidth={8} />
+                <path d={`M${x + v * 0.5} -150 q-40 -20 -50 10 M${x + v * 0.7} -190 q40 -20 50 10`} stroke="#7aa844" strokeWidth={8} fill="none" />
+                {i % 2 === 0 && <ellipse cx={x + v + 10} cy={-210} rx={10} ry={26} fill="#e0c050" />}
+              </g>
+            );
+          })}
+        </g>
+      );
+    case "calzada":
+      return (
+        <g>
+          <rect x={-1200} y={-70} width={2400} height={70} fill="#b8aa8a" />
+          <rect x={-1200} y={-80} width={2400} height={16} fill="#d4c6a4" />
+          {Array.from({ length: 24 }).map((_, i) => <rect key={i} x={-1200 + i * 100} y={-62} width={92} height={56} fill="#00000014" />)}
+          <rect x={-120} y={-80} width={240} height={80} fill="#5a7a9a" />
+          <rect x={-130} y={-96} width={260} height={18} fill="#7a5a3a" />
+        </g>
+      );
+    case "brasero":
+      return (
+        <g>
+          <path d="M-90 -160 L90 -160 L60 -20 L-60 -20Z" fill="#a8582e" />
+          <rect x={-100} y={-180} width={200} height={26} rx={8} fill="#8a4422" />
+          <path d="M-60 -20 L-80 0 M60 -20 L80 0" stroke="#7a3a1e" strokeWidth={16} />
+          {[-30, 30].map((x) => <circle key={x} cx={x} cy={-120} r={14} fill="#e8d8b8" />)}
+          {llama(0, -180, 1)}
+        </g>
+      );
+    case "petate":
+      return (
+        <g>
+          <path d="M-260 0 L-220 -40 L260 -40 L220 0Z" fill="#c9a86a" />
+          {Array.from({ length: 12 }).map((_, i) => <path key={i} d={`M${-250 + i * 42} 0 L${-210 + i * 42} -40`} stroke="#a8884a" strokeWidth={4} />)}
+          <path d="M-240 -20 L240 -20" stroke="#a8884a" strokeWidth={4} />
+        </g>
+      );
+    case "metate":
+      return (
+        <g>
+          <path d="M-130 -40 Q0 -90 130 -40 L120 -20 L-120 -20Z" fill="#4a4448" />
+          {[-90, 0, 90].map((x) => <path key={x} d={`M${x - 16} -20 L${x} 0 L${x + 16} -20Z`} fill="#3a3438" />)}
+          <rect x={-80} y={-96} width={160} height={30} rx={15} fill="#5a5458" />
+          <ellipse cx={60} cy={-50} rx={34} ry={10} fill="#e0c050" />
         </g>
       );
     default:

@@ -13,9 +13,9 @@ const meta = (formato: "largo" | "short") => async ({ props }: { props: Props })
 
 export const RemotionRoot: React.FC = () => (
   <>
-    <Composition id="Largo" component={Video} fps={24} width={1920} height={1080} durationInFrames={240} defaultProps={{ slug: "farero-1890" } as Props} calculateMetadata={meta("largo")} />
-    <Composition id="MiniaturaLargo" component={Miniatura} fps={24} width={1280} height={720} durationInFrames={60} defaultProps={{ slug: "farero-1890" } as Props} calculateMetadata={async (a) => ({ ...(await meta("largo")(a)), durationInFrames: 60 })} />
-    <Composition id="MiniaturaShort" component={Miniatura} fps={24} width={1080} height={1920} durationInFrames={60} defaultProps={{ slug: "farero-1890" } as Props} calculateMetadata={async (a) => ({ ...(await meta("largo")(a)), durationInFrames: 60 })} />
-    <Composition id="Short" component={Video} fps={24} width={1080} height={1920} durationInFrames={240} defaultProps={{ slug: "farero-1890" } as Props} calculateMetadata={meta("short")} />
+    <Composition id="Largo" component={Video} fps={30} width={1920} height={1080} durationInFrames={240} defaultProps={{ slug: "farero-1890" } as Props} calculateMetadata={meta("largo")} />
+    <Composition id="MiniaturaLargo" component={Miniatura} fps={30} width={1280} height={720} durationInFrames={60} defaultProps={{ slug: "farero-1890" } as Props} calculateMetadata={async (a) => ({ ...(await meta("largo")(a)), durationInFrames: 60 })} />
+    <Composition id="MiniaturaShort" component={Miniatura} fps={30} width={1080} height={1920} durationInFrames={60} defaultProps={{ slug: "farero-1890" } as Props} calculateMetadata={async (a) => ({ ...(await meta("largo")(a)), durationInFrames: 60 })} />
+    <Composition id="Short" component={Video} fps={30} width={1080} height={1920} durationInFrames={240} defaultProps={{ slug: "farero-1890" } as Props} calculateMetadata={meta("short")} />
   </>
 );

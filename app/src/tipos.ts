@@ -16,6 +16,9 @@ export type Escena = {
   personajes?: EnEscena[]; // si se omite, hereda; [] = nadie
   camara?: Camara;
   insercion?: Insercion; // tarjeta a pantalla completa sobre el fondo desenfocado
+  corte?: boolean; // empieza aquí un short nuevo (bloque de 45–60 s)
+  voz?: string;
+  drama?: number;
 };
 
 export type Paleta = { acento: string; texto: string; fondo: string; papel: string };
@@ -34,16 +37,16 @@ export type Guion = {
   paleta: Paleta;
   reparto: Record<string, Look>;
   largo: Pieza;
-  short: Pieza;
+  short?: Pieza;
   publicacion?: {
     tituloLargo: string; tituloShort: string; descripcion: string; etiquetas: string[];
     miniatura?: Miniatura;
   };
 };
 
-export type Audio = { archivo: string; duracion: number; env: number[] };
+export type Audio = { archivo: string; duracion: number; env: number[]; tiempos?: number[] };
 export type PiezaLista = { escenas: Escena[]; audios: Audio[]; ambientes: (string | null)[] };
-export type Manifiesto = Omit<Guion, "largo" | "short"> & { fps: number; formato: "largo" | "short"; pieza: PiezaLista; musica_archivo: string };
+export type Manifiesto = Omit<Guion, "largo" | "short"> & { fps: number; formato: "largo" | "short"; pieza: PiezaLista; musica_archivo: string; sinSubtitulos?: boolean };
 
 // Miniatura de YouTube (1280x720) y portada del Short (1080x1920)
 export type Miniatura = {
