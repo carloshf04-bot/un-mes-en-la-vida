@@ -316,7 +316,7 @@
     "camara": "paneo"
    },
    {
-    "texto": "Lo que pienso, lo imaginamos. Las fechas, las calles y las personas que nombro son reales. Y todo arranca un sábado de octubre.",
+    "texto": "Lo que pienso, lo imaginamos. Las fechas, las calles y las personas que nombro son reales. Y todo arranca un sábado de otoño.",
     "drama": 0.6,
     "personajes": [
      {
@@ -429,42 +429,14 @@
     "dia": 1,
     "texto": "Ese mismo día, el Táims da por terminado el registro casa por casa de todo el barrio. Resultado: nada de valor. Y el asesino sigue ahí fuera, entre nosotros.",
     "drama": 0.7,
-    "fondo": {
-     "lugar": "interior",
-     "hora": "dia",
-     "pared": "ladrillo",
-     "ventana": true,
-     "props": [
-      {
-       "tipo": "estanteria",
-       "x": -1.2
-      },
-      {
-       "tipo": "reloj",
-       "x": -0.55
-      },
-      {
-       "tipo": "mesa",
-       "x": 0.85
-      },
-      {
-       "tipo": "chimenea",
-       "x": 1.4
-      },
-      {
-       "tipo": "📓",
-       "x": 0.85,
-       "escala": 0.25
-      }
-     ]
-    },
     "personajes": [
      {
       "quien": "ashby",
-      "x": 0.35,
-      "accion": "escribir",
+      "x": 0.1,
+      "accion": "quieto",
       "emocion": "cansado",
-      "mirar": 1
+      "mirar": 1,
+      "objeto": "📰"
      }
     ],
     "camara": "lenta"
@@ -920,7 +892,7 @@
     "dia": 8,
     "capitulo": "Niebla y vigilantes",
     "corte": true,
-    "texto": "Sábado de paga, sábado de ginebra. A la salida del Ten Bels, dos estibadores se pegan por dos peniques. Me llevo a uno a rastras hasta la comisaría.",
+    "texto": "Es sábado, noche de ginebra. En el Ten Bels, dos estibadores se pegan por dos peniques. Me llevo a uno a rastras hasta la calle.",
     "drama": 0.65,
     "fondo": {
      "lugar": "interior",
@@ -966,7 +938,7 @@
      {
       "quien": "estibador",
       "x": 0.4,
-      "accion": "tambalear",
+      "accion": "quieto",
       "emocion": "enfado",
       "mirar": -1,
       "habla": false
@@ -999,7 +971,7 @@
    },
    {
     "dia": 9,
-    "texto": "Domingo. Las campanas de Cráist Chorch suenan sobre el barrio. Y los periódicos de medio penique publican otra carta firmada por el asesino. Falsa, como casi todas.",
+    "texto": "Domingo. Las campanas de Cráist Chorch suenan sobre el barrio. Y los periódicos de medio penique siguen sacando cartas que dicen ser del asesino. Casi todas son falsas.",
     "drama": 0.6,
     "fondo": {
      "lugar": "calle",
@@ -1179,7 +1151,7 @@
    {
     "dia": 12,
     "corte": true,
-    "texto": "En mi ronda hay una joven que canta de madrugada. Su canto sale por una ventana rota de Dórset Strit. Nunca le vi la cara, pero imagino que era ella.",
+    "texto": "En mi ronda hay una joven que canta de madrugada. Su canto sale por una ventana rota, al fondo de un patio. Nunca le vi la cara, pero imagino que era ella.",
     "drama": 0.55,
     "personajes": [
      {
@@ -1195,37 +1167,8 @@
    },
    {
     "dia": 13,
-    "texto": "Jueves, primero de noviembre. Una revista publica un artículo del comisionado Uórren sobre la policía. Lo escribió sin pedir permiso al ministerio. En comisaría no se habla de otra cosa.",
+    "texto": "Jueves, primero de noviembre. Una revista de este mes trae un artículo del comisionado Uórren sobre la policía. Lo escribió sin pedir permiso al ministerio. El sargento no habla de otra cosa.",
     "drama": 0.6,
-    "fondo": {
-     "lugar": "interior",
-     "hora": "dia",
-     "pared": "ladrillo",
-     "ventana": true,
-     "props": [
-      {
-       "tipo": "estanteria",
-       "x": -1.2
-      },
-      {
-       "tipo": "reloj",
-       "x": -0.55
-      },
-      {
-       "tipo": "mesa",
-       "x": 0.85
-      },
-      {
-       "tipo": "chimenea",
-       "x": 1.4
-      },
-      {
-       "tipo": "📓",
-       "x": 0.85,
-       "escala": 0.25
-      }
-     ]
-    },
     "personajes": [
      {
       "quien": "ashby",
@@ -1233,7 +1176,7 @@
       "accion": "quieto",
       "emocion": "sorpresa",
       "mirar": -1,
-      "objeto": "📰"
+      "objeto": "🏮"
      },
      {
       "quien": "sargento",
@@ -1267,14 +1210,7 @@
       "habla": false
      }
     ],
-    "camara": "lenta"
-   },
-   {
-    "dia": 15,
-    "capitulo": "La mañana del Lord Mayor",
-    "corte": true,
-    "texto": "Sábado, tres de noviembre. Me toca ronda de día. Tranvías de caballos, carros, el gran hospital de Londres. De día, este barrio es otro.",
-    "drama": 0.55,
+    "camara": "lenta",
     "fondo": {
      "lugar": "calle",
      "hora": "dia",
@@ -1298,7 +1234,14 @@
        "escala": 1.6
       }
      ]
-    },
+    }
+   },
+   {
+    "dia": 15,
+    "capitulo": "La mañana del Lord Mayor",
+    "corte": true,
+    "texto": "Sábado, tres de noviembre. Me toca ronda de día. Tranvías de caballos, carros, el gran hospital de Londres. De día, este barrio es otro.",
+    "drama": 0.55,
     "personajes": [
      {
       "quien": "ashby",
@@ -1385,65 +1328,12 @@
    },
    {
     "dia": 19,
-    "texto": "Miércoles. En comisaría se comenta que el viernes muchos agentes irán a la Siti, al desfile del nuevo alcalde, el Lord Méyor. Aquí quedaremos menos.",
+    "texto": "Miércoles. El sargento me cuenta que el viernes muchos agentes irán a la Siti, al desfile del nuevo alcalde, el Lord Méyor. Aquí quedaremos menos.",
     "drama": 0.6,
-    "fondo": {
-     "lugar": "interior",
-     "hora": "noche",
-     "pared": "ladrillo",
-     "ventana": true,
-     "props": [
-      {
-       "tipo": "estanteria",
-       "x": 1.25
-      },
-      {
-       "tipo": "reloj",
-       "x": 0.6
-      },
-      {
-       "tipo": "mesa",
-       "x": -0.9
-      },
-      {
-       "tipo": "chimenea",
-       "x": -1.45
-      },
-      {
-       "tipo": "🕯️",
-       "x": -0.9,
-       "escala": 0.25
-      }
-     ]
-    },
-    "personajes": [
-     {
-      "quien": "ashby",
-      "x": 0.35,
-      "accion": "quieto",
-      "emocion": "neutral",
-      "mirar": -1
-     },
-     {
-      "quien": "sargento",
-      "x": -0.4,
-      "accion": "hablar",
-      "emocion": "neutral",
-      "mirar": 1,
-      "habla": false
-     }
-    ],
-    "camara": "cerca"
-   },
-   {
-    "dia": 20,
-    "corte": true,
-    "texto": "Nuestro comisionado dimitió la víspera del peor día de aquel otoño. Y nadie en la calle lo sabía.",
-    "drama": 0.75,
     "fondo": {
      "lugar": "calle",
      "hora": "noche",
-     "clima": "niebla",
+     "clima": "lluvia",
      "props": [
       {
        "tipo": "farola",
@@ -1463,6 +1353,31 @@
       }
      ]
     },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.35,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": -1,
+      "objeto": "🏮"
+     },
+     {
+      "quien": "sargento",
+      "x": -0.4,
+      "accion": "hablar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 20,
+    "corte": true,
+    "texto": "Nuestro comisionado dimitió la víspera del peor día de aquel otoño. Y nadie en la calle lo sabía.",
+    "drama": 0.75,
     "personajes": [
      {
       "quien": "ashby",
@@ -1493,7 +1408,7 @@
    },
    {
     "dia": 21,
-    "texto": "Viernes, nueve de noviembre. Llueve toda la mañana. A media mañana, el casero de Mílers Cort manda a su ayudante a cobrar un alquiler atrasado.",
+    "texto": "Viernes, nueve de noviembre. Llueve desde el amanecer. A media mañana, el casero de Mílers Cort manda a su ayudante a cobrar un alquiler atrasado.",
     "drama": 0.8,
     "fondo": {
      "lugar": "calle",
@@ -1573,7 +1488,7 @@
    {
     "dia": 21,
     "corte": true,
-    "texto": "Un hombre entra corriendo en mi comisaría, blanco como la pared. Es Tómas Bóier. Ha mirado por la ventana rota del número trece.",
+    "texto": "Un hombre entra corriendo en mi comisaría, sin aliento. Es Tómas Bóier. Ha mirado por la ventana rota del número trece.",
     "drama": 0.85,
     "fondo": {
      "lugar": "interior",
@@ -1626,7 +1541,7 @@
    },
    {
     "dia": 21,
-    "texto": "Lo que vio no te lo voy a contar. Nadie debería contarlo. Solo te diré que el inspector de guardia agarra el casco y sale sin una palabra.",
+    "texto": "Lo que vio no te lo voy a contar. Nadie debería contarlo. Solo te diré que el inspector de guardia agarra el abrigo y sale sin una palabra.",
     "drama": 0.8,
     "personajes": [
      {
@@ -1732,7 +1647,7 @@
    {
     "dia": 21,
     "corte": true,
-    "texto": "Mientras tanto, al otro lado de Londres, la Siti aplaude al nuevo Lord Méyor. Y entre el público, los chicos de los periódicos ya gritan lo de Uáitchapel.",
+    "texto": "Mientras tanto, a un paso de aquí, la Siti aplaude al nuevo Lord Méyor. Y entre el público, dicen, los chicos de los periódicos ya gritan lo de Uáitchapel.",
     "drama": 0.75,
     "personajes": [
      {
@@ -1754,14 +1669,15 @@
     ],
     "camara": "general",
     "insercion": {
-     "tipo": "cita",
-     "frase": "Mientras la City celebraba el desfile del nuevo Lord Mayor, los vendedores de periódicos voceaban la noticia entre el público.",
-     "firma": "Viernes, 9 de noviembre de 1888"
+     "tipo": "dato",
+     "valor": "9 nov",
+     "etiqueta": "el mismo día, la City celebraba el desfile del nuevo Lord Mayor, a un paso de Whitechapel",
+     "icono": "🎩"
     }
    },
    {
     "dia": 21,
-    "texto": "A la una y media, el inspector da la orden. El casero, Yon Macárti, revienta la puerta con un pico. Yo no me doy la vuelta.",
+    "texto": "Hacia la una y media, el inspector da la orden. El casero, Yon Macárti, revienta la puerta con un pico. Yo no me doy la vuelta.",
     "drama": 0.85,
     "personajes": [
      {
@@ -1842,29 +1758,6 @@
     "corte": true,
     "texto": "Sábado. Todo Londres se entera de que el comisionado ha dimitido. Y el ministro, Jénri Mátius, promete el perdón a cualquier cómplice que hable. Al asesino, no.",
     "drama": 0.65,
-    "fondo": {
-     "lugar": "calle",
-     "hora": "dia",
-     "clima": "niebla",
-     "props": [
-      {
-       "tipo": "casa",
-       "x": -1.4
-      },
-      {
-       "tipo": "farola",
-       "x": -0.95
-      },
-      {
-       "tipo": "carro",
-       "x": 1.05
-      },
-      {
-       "tipo": "casa",
-       "x": 1.45
-      }
-     ]
-    },
     "personajes": [
      {
       "quien": "ashby",
@@ -1935,37 +1828,36 @@
     "texto": "Lunes. La vista del forense dura un solo día, en el ayuntamiento de Shórdich. Veredicto: asesinato por persona o personas desconocidas. Esa palabra, de nuevo.",
     "drama": 0.65,
     "fondo": {
-     "lugar": "interior",
+     "lugar": "calle",
      "hora": "dia",
-     "pared": "madera",
-     "ventana": true,
+     "clima": "niebla",
      "props": [
       {
-       "tipo": "reloj",
-       "x": -1.0
+       "tipo": "casa",
+       "x": -1.4
       },
       {
-       "tipo": "mesa",
-       "x": 0.0
+       "tipo": "farola",
+       "x": -0.95
       },
       {
-       "tipo": "estanteria",
-       "x": 1.3
+       "tipo": "carro",
+       "x": 1.05
       },
       {
-       "tipo": "📜",
-       "x": 0.0,
-       "escala": 0.25
+       "tipo": "casa",
+       "x": 1.45
       }
      ]
     },
     "personajes": [
      {
       "quien": "ashby",
-      "x": 0.45,
+      "x": 0.35,
       "accion": "quieto",
       "emocion": "enfado",
-      "mirar": -1
+      "mirar": -1,
+      "objeto": "📰"
      }
     ],
     "camara": "lenta"
@@ -1975,41 +1867,13 @@
     "corte": true,
     "texto": "Cuando el miedo no tiene nombre, la gente se inventa uno. Muchos inocentes, sobre todo inmigrantes judíos, sufren sospechas sin motivo. Todos los detenidos acaban libres.",
     "drama": 0.65,
-    "fondo": {
-     "lugar": "calle",
-     "hora": "noche",
-     "clima": "niebla",
-     "props": [
-      {
-       "tipo": "farola",
-       "x": -0.75
-      },
-      {
-       "tipo": "casa",
-       "x": -1.4
-      },
-      {
-       "tipo": "casa",
-       "x": 1.35
-      },
-      {
-       "tipo": "barril",
-       "x": 0.95
-      },
-      {
-       "tipo": "cajas",
-       "x": 1.15
-      }
-     ]
-    },
     "personajes": [
      {
       "quien": "ashby",
       "x": 0.3,
       "accion": "quieto",
       "emocion": "triste",
-      "mirar": -1,
-      "objeto": "🏮"
+      "mirar": -1
      }
     ],
     "camara": "lenta"
@@ -2024,15 +1888,14 @@
       "x": 0.0,
       "accion": "hablar",
       "emocion": "neutral",
-      "mirar": 1,
-      "objeto": "🏮"
+      "mirar": 1
      }
     ],
     "camara": "cerca"
    },
    {
     "dia": 28,
-    "texto": "Viernes. Llego a casa con cansancio y vergüenza. Miles de preguntas, sin huellas, sin fotografías, con un farol de aceite. Y no ha bastado.",
+    "texto": "Viernes. Llego a casa rendido y con la cabeza baja. Miles de preguntas, sin huellas, sin fotografías, con un simple farol. Y no ha bastado.",
     "drama": 0.6,
     "fondo": {
      "lugar": "interior",
@@ -2187,36 +2050,8 @@
     "camara": "cerca"
    },
    {
-    "texto": "Recordamos sus nombres. Méri An Níkols, hija de un herrero. Áni Chápman, que vendía flores. Elísabet Stráid, nacida en Suecia. Cátrin Édous, que volvía del lúpulo. Y Méri Yéin Kéli, que cantaba.",
+    "texto": "Recordamos sus nombres. Méri An Níkols, hija de un herrero. Áni Chápman, que vendía flores. Elísabet Stráid, nacida en Suecia. Cátrin Édous, sexta de doce hermanos. Y Méri Yéin Kéli, que cantaba.",
     "drama": 0.6,
-    "fondo": {
-     "lugar": "campo",
-     "hora": "dia",
-     "clima": "niebla",
-     "props": [
-      {
-       "tipo": "tumba",
-       "x": -1.05
-      },
-      {
-       "tipo": "tumba",
-       "x": -0.65
-      },
-      {
-       "tipo": "valla",
-       "x": 0.85
-      },
-      {
-       "tipo": "arbol",
-       "x": 1.35
-      },
-      {
-       "tipo": "🌹",
-       "x": -0.85,
-       "escala": 0.3
-      }
-     ]
-    },
     "personajes": [
      {
       "quien": "ashby",
@@ -2230,44 +2065,20 @@
     "camara": "lenta",
     "insercion": {
      "tipo": "cita",
-     "frase": "Mary Ann Nichols, hija de un herrero · Annie Chapman, vendía flores · Elizabeth Stride, nacida en Suecia · Catherine Eddowes, volvía del lúpulo · Mary Jane Kelly, cantaba",
+     "frase": "Mary Ann Nichols, hija de un herrero · Annie Chapman, vendía flores · Elizabeth Stride, nacida en Suecia · Catherine Eddowes, sexta de doce hermanos · Mary Jane Kelly, cantaba",
      "firma": "Recordamos sus nombres"
     }
    },
    {
     "texto": "Y tú, ¿qué crees que falló aquel otoño en Uáitchapel? Cuéntamelo en los comentarios y suscríbete. Quedan muchas noches por contar.",
     "drama": 0.6,
-    "fondo": {
-     "lugar": "calle",
-     "hora": "noche",
-     "clima": "niebla",
-     "props": [
-      {
-       "tipo": "farola",
-       "x": 0.85
-      },
-      {
-       "tipo": "casa",
-       "x": -1.3
-      },
-      {
-       "tipo": "cajas",
-       "x": -0.75
-      },
-      {
-       "tipo": "carro",
-       "x": 1.4
-      }
-     ]
-    },
     "personajes": [
      {
       "quien": "ashby",
       "x": 0.3,
       "accion": "saludar",
       "emocion": "neutral",
-      "mirar": -1,
-      "objeto": "🏮"
+      "mirar": -1
      }
     ],
     "camara": "general"
