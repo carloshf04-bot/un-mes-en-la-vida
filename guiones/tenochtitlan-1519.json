@@ -494,9 +494,9 @@
         "drama": 0.5,
         "fondo": {
           "lugar": "interior",
-          "pared": "ladrillo",
+          "pared": "piedra",
           "hora": "amanecer",
-          "ventana": true,
+          "ventana": false,
           "props": [
             {
               "tipo": "metate",
@@ -598,9 +598,9 @@
         "drama": 0.55,
         "fondo": {
           "lugar": "interior",
-          "pared": "ladrillo",
+          "pared": "piedra",
           "hora": "noche",
-          "ventana": true,
+          "ventana": false,
           "props": [
             {
               "tipo": "brasero",
@@ -1164,7 +1164,7 @@
           "lugar": "interior",
           "pared": "piedra",
           "hora": "dia",
-          "ventana": true,
+          "ventana": false,
           "props": [
             {
               "tipo": "antorcha",
@@ -1221,19 +1221,19 @@
               "escala": 1.5
             },
             {
-              "tipo": "puesto",
+              "tipo": "puesto-mexica",
               "x": -1.3
             },
             {
-              "tipo": "puesto",
+              "tipo": "puesto-mexica",
               "x": -0.55
             },
             {
-              "tipo": "puesto",
+              "tipo": "puesto-mexica",
               "x": 0.55
             },
             {
-              "tipo": "puesto",
+              "tipo": "puesto-mexica",
               "x": 1.3
             }
           ]
@@ -1290,11 +1290,11 @@
               "escala": 1.5
             },
             {
-              "tipo": "puesto",
+              "tipo": "puesto-mexica",
               "x": -1.2
             },
             {
-              "tipo": "puesto",
+              "tipo": "puesto-mexica",
               "x": 1.2
             },
             {
@@ -1367,7 +1367,7 @@
               "x": 0.7
             },
             {
-              "tipo": "puesto",
+              "tipo": "puesto-mexica",
               "x": 1.25
             }
           ]
@@ -1487,7 +1487,7 @@
           "lugar": "interior",
           "pared": "piedra",
           "hora": "noche",
-          "ventana": true,
+          "ventana": false,
           "props": [
             {
               "tipo": "antorcha",
@@ -1623,7 +1623,7 @@
           "lugar": "interior",
           "pared": "piedra",
           "hora": "dia",
-          "ventana": true,
+          "ventana": false,
           "props": [
             {
               "tipo": "antorcha",
@@ -1747,7 +1747,7 @@
           "lugar": "interior",
           "pared": "piedra",
           "hora": "dia",
-          "ventana": true,
+          "ventana": false,
           "props": [
             {
               "tipo": "antorcha",
@@ -1797,7 +1797,7 @@
             "quien": "moctezuma",
             "x": 0.2,
             "accion": "sentado",
-            "objeto": "🍫",
+            "objeto": "🫘",
             "emocion": "neutral",
             "mirar": -1,
             "habla": false
@@ -1873,7 +1873,7 @@
           "lugar": "interior",
           "pared": "piedra",
           "hora": "noche",
-          "ventana": true,
+          "ventana": false,
           "props": [
             {
               "tipo": "mesa",
@@ -2219,7 +2219,7 @@
           "lugar": "interior",
           "pared": "piedra",
           "hora": "noche",
-          "ventana": true,
+          "ventana": false,
           "props": [
             {
               "tipo": "antorcha",
@@ -2257,9 +2257,9 @@
         "drama": 0.8,
         "fondo": {
           "lugar": "interior",
-          "pared": "ladrillo",
+          "pared": "piedra",
           "hora": "noche",
-          "ventana": true,
+          "ventana": false,
           "props": [
             {
               "tipo": "brasero",

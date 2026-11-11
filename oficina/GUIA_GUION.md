@@ -87,7 +87,7 @@ La voz (Chatterbox, narrador de España, con `"velocidad": 1.15`) lee unas **120
   - **Apocalipsis / ciudad moderna:** `coche-abandonado`, `barricada` (sacos y vallas), `bidon-fuego`, `bloque` (bloque de pisos), `semaforo` (en ámbar intermitente), `pilar` (basílica del Pilar, decorado LEJANO: x ±1.2, escala 1.5–2), `puente` (puente de piedra de arcos, se dibuja sobre el agua en plano medio), `camilla`, `radio`, `helicoptero` (cruza el cielo).
   - **América rural de los años cincuenta:** `granja` (casa de madera destartalada), `granero` (rojo), `coche-antiguo` (sedán granate), `coche-patrulla` (del sheriff, con luz), `estufa` (de leña), `mostrador` (de tienda con caja registradora), `poste` (postes de teléfono con cables).
   - **Mesoamérica:** `templo-mayor` (pirámide doble con santuarios rojo y azul, decorado LEJANO), `canoa` (sobre el agua, plano medio), `ahuejote`, `chinampa`, `calzada` (sobre el lago, plano medio), `brasero`, `petate`, `metate`, `ciudad-lago` (Tenochtitlan entera sobre el agua, plano medio: úsala con `rio`).
-  - **Otros:** `granja-fuego` (la granja ardiendo), `charco` (con ondas).
+  - **Otros:** `granja-fuego` (la granja ardiendo), `charco` (con ondas), `puesto-mexica` (puesto de mercado con maíz, chile, frijol y pescado; el `puesto` normal lleva pan, queso y manzanas europeos).
 - **Planos:** `puente`, `calzada` y `canoa` van en plano medio (sobre el agua); `volcan`, `piramide`, `pilar` y `templo-mayor` siempre lejos. El motor añade solo el primer plano (hierba, postes, marcos) delante de los personajes, el paralaje de las capas y algo vivo (pájaros, motas de polvo, agua).
 - **Ventanas:** en interiores con pared `roca` o `jeroglificos` no hay ventana por defecto (tumbas, cuevas). Pon `"ventana": false` en cualquier interior subterráneo.
 - **`tumba`** es una lápida con cruz cristiana: solo para cementerios cristianos.
@@ -120,7 +120,7 @@ La voz (Chatterbox, narrador de España, con `"velocidad": 1.15`) lee unas **120
 ```
 
 - **x:** de −1 (izquierda) a 1 (derecha). Con dos personajes, ±0.4 o más; con tres, −0.7 / 0 / 0.7.
-- **accion:** `tambalear` (infectado: brazos al frente, avanza despacio), `quieto`, `hablar`, `caminar`, `correr`, `trabajar`, `saludar`, `sentado`, `escribir`, `pensar`, `celebrar`, `triste`, `senalar`, `cargar` (el objeto va en las manos), `dormir` y `asustado`.
+- **accion:** `beber` (inclinado hacia el suelo, para beber de un charco), `tambalear` (infectado: brazos al frente, avanza despacio), `quieto`, `hablar`, `caminar`, `correr`, `trabajar`, `saludar`, `sentado`, `escribir`, `pensar`, `celebrar`, `triste`, `senalar`, `cargar` (el objeto va en las manos), `dormir` y `asustado`.
 - **emocion:** `neutral`, `feliz`, `triste`, `miedo`, `enfado`, `sorpresa` y `cansado`.
 - **dormir:** el personaje se tumba en el suelo a su izquierda; no lo uses con niños pequeños ni bebés (parece que se han caído). Para ellos usa `sentado` con `emocion: "cansado"`.
 - **Movimiento:** `caminar` sin `entra` da unos pasos hasta su sitio y se para (los pies no resbalan). Si el plano sigue en el mismo fondo, cada personaje sale de donde estaba en la escena anterior y cambia de pose fundiéndola en 10 fotogramas.

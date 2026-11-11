@@ -17,7 +17,7 @@ export const PROPS_DISPONIBLES = [
   "granja", "granero", "coche-antiguo", "coche-patrulla", "estufa", "mostrador", "poste",
   // Tenochtitlan (1519)
   "templo-mayor", "canoa", "ahuejote", "chinampa", "calzada", "brasero", "petate", "metate", "ciudad-lago",
-  "granja-fuego", "charco",
+  "granja-fuego", "charco", "puesto-mexica",
 ] as const;
 
 const Brillo: React.FC<{ r: number; o: number; color?: string; cx?: number; cy?: number }> = ({ r, o, color = "#ffb347", cx = 0, cy = 0 }) => (
@@ -156,12 +156,13 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean }> = ({ ti
         </g>
       );
     case "puesto":
+    case "puesto-mexica":
       return (
         <g>
           <rect x={-220} y={-200} width={440} height={200} fill="#8a5a3a" />
           {[-180, 180].map((x) => <rect key={x} x={x - 10} y={-460} width={20} height={260} fill="#5a3a22" />)}
           {[0, 1, 2, 3, 4, 5].map((i) => <path key={i} d={`M${-240 + i * 80} -460 h80 v60 q-40 30 -80 0z`} fill={i % 2 ? "#f2efe6" : "#c8402f"} />)}
-          {["🍎", "🥖", "🧀", "🐟"].map((e, i) => <text key={i} x={-160 + i * 105} y={-215} fontSize={70} textAnchor="middle" style={{ fontFamily: "'Noto Color Emoji'" }}>{e}</text>)}
+          {(tipo === "puesto-mexica" ? ["🌽", "🌶️", "🫘", "🐟"] : ["🍎", "🥖", "🧀", "🐟"]).map((e, i) => <text key={i} x={-160 + i * 105} y={-215} fontSize={70} textAnchor="middle" style={{ fontFamily: "'Noto Color Emoji'" }}>{e}</text>)}
         </g>
       );
     case "roca":

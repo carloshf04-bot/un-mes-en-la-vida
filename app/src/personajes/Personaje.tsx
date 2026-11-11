@@ -82,6 +82,12 @@ export const calcularPose = (accion: Accion, f: number, semilla: number, fase?: 
     }
     case "dormir":
       return { ...p, y: 0, cabeza: 0 };
+    case "beber": {
+      // agachado de rodillas, inclinado hacia el suelo (beber de un charco)
+      const b = Math.sin(t * 2.4) * 3;
+      // el cuerpo se inclina desde la cadera; las piernas compensan la inclinación para seguir apoyadas
+      return { ...p, pD: -44, rD: 22, pI: -32, rI: 16, y: 28, incl: 40 + b, hD: -40, cD: -15, hI: -25, cI: -20, cabeza: 26 + b };
+    }
     case "tambalear": {
       // infectado: brazos hacia delante, paso torpe, cabeza ladeada
       const ph = fase ?? t * 3.2;
