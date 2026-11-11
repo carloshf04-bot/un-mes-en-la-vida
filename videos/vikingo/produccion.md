@@ -79,6 +79,33 @@ Capturas (18,2; 151,9; 152,3; 311,7; 384; 587; 636,34 y 762,48 s): `pruebas/p4_h
   - Los rótulos en uncial ya no parten línea.
 - **Miniaturas**: más separación entre «UN MES EN LA VIDA DE UN» y «Vikingo» (el palo de la k ya no roza).
 
+## Voz real y puerta 5 (horizontal)
+
+- **Voz real**: `voz.wav` dura 860,35 s (la provisional, 800,5 s). `S.W()` encuentra todas las palabras con `voz/palabras.json`.
+- **Mezcla con voz** (`audio/mezcla.wav`, `ffmpeg ebur128`): I = −14,0 LUFS, LRA 3,9 LU y pico −1,5 dBFS.
+- **Ajustes con la voz real**:
+  - Frase 37 («TEPE…»): el rótulo se cortaba con el zoom; ahora va centrado en la casa. Igual en la 38 («¡FLORES!»).
+  - Frase 95: el contador «32» arranca en «Treinta».
+  - Frase 235, vertical: el recuadro de «¿VÍKING… O GRANJA?» va más arriba para no tapar a Ulf.
+- **Comprobaciones antes de la puerta 5**:
+  - `check` en `hf-h` y `hf-v`: ok, 0 errores.
+  - En vertical hay 4 avisos de contraste, tomados en mitad de las animaciones de entrada.
+- **Arreglos de la puerta 5** (`calidad-puerta-5.md`, `espectador.md`):
+  - Frases 51-54: Ulf salía duplicado; el de la pala sale antes de que entre el otro.
+  - Frase 116: «ÓTTAR» va en el hueco 1, y REY ALFREDO e INGLATERRA más abajo.
+  - Frase 191: «AQUÍ NO HAY CHISTE» va centrado en el zoom.
+  - Frase 169: «MUCHO HUMO» va debajo de «Y HUMO».
+  - Frase 54: «DÍA DE LAVARSE» entra en «Significa».
+  - Frase 198: la silueta con la lima va a la derecha de la vitrina.
+  - Título: «VIKINGO» en mayúsculas. En uncial la K se distingue, así que se queda la misma fuente.
+  - Miniatura vertical: el título va entre y ≈ 1290 y 1490, fuera de los 420 px de abajo.
+  - Frase 48: los rótulos de la túnica se recogen antes del zoom al broche.
+  - Frases 84-87 (vápnatak): dos hombres chocan lanza y hacha contra el escudo, con chispas y `clank` en «armas», «vápnatak», «armas» y tres veces en «Hierro».
+  - Frase 170: «DE FRISIA (HOY, PAÍSES BAJOS)».
+  - Frase 192: «HACIA EL 850 (40 AÑOS ANTES DE ULF)», por la visita de Ansgario hacia el 850 (investigación, n.º 20).
+  - Frase 196: primer plano de un diente con los surcos limados.
+- **Mezcla tras la puerta 5**: se ha rehecho con los nuevos `clank`. Sigue en −14,0 LUFS, LRA 3,9 LU y pico −1,5 dBFS. Solo cambian estos tramos: 211-214, 307,6, 315,1-316,6, 321,6-322,4, 563,2, 573,9-575,9 y 673,7 s.
+
 ## Sonido (`scripts/audio.py`)
 
 - Uso: `python scripts/audio.py <sfx_cues.json> <voz.wav> <mezcla.wav> [frases.json]` (sin el cuarto argumento usa `voz/frases.json` y, si no existe, `voz/frases_est.json`). Busca los efectos de interfaz de HyperFrames en `~/.claude/skills/...` o en la caché de `npx`.
