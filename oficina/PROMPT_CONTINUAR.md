@@ -34,7 +34,18 @@ bash scripts/cierre.sh <slug…>    # corrige el pico real si pasa de -1 dBTP (p
 ```
 
 ## 4. Flujo de trabajo (un subagente por puesto, con Agent; commit + push al terminar cada puesto)
-1. **Director:** elige la idea en `ideas/banco.md` (rotación por categorías; prioriza efemérides del mes y lo que sea tendencia) y la marca `[~]`. Si te doy un tema, usa ese. Para «tendencia», busca en la web qué está de actualidad.
+1. **Director:** elige la idea en `ideas/banco.md` según el **calendario semanal** (abajo); dentro de cada día prioriza efemérides del mes y lo que sea tendencia. La marca `[~]`. Si te doy un tema, usa ese. Para «tendencia», busca en la web qué está de actualidad.
+
+   **Calendario semanal del canal (5 días):**
+   | Día | Tema | Ejemplos |
+   |---|---|---|
+   | Lunes | **Crímenes y misterios reales** (true crime) | Jack el Destripador (nov. 1888), Ed Gein, el Sacamantecas de Vitoria, las brujas de Salem, la condesa Báthory |
+   | Martes | **Guerra y soldados** (vivir una guerra desde dentro) | soldado en Stalingrado, legionario en Teutoburgo, niño en el Blitz, tercio en Flandes, samurái en Sekigahara |
+   | Miércoles | **Mitos, dioses y religiones** (la vida de quien creía en ellos) | sacerdote egipcio y el juicio de Osiris, vikingo ante el Ragnarök, monje en el año 1000, inquisidor en Toledo, vestal en Roma |
+   | Jueves | **Personajes que cambiaron la historia** («los últimos 30 días de…») | Cleopatra, Napoleón en Waterloo, Tesla, Juana de Arco, el mes del Apolo 11 |
+   | Viernes | **Catástrofes y supervivencia** | Pompeya, Titanic, Chernóbil, la expedición Donner, la peste de 1348; un viernes al mes, ficción o futuro (zombis, Marte) |
+
+   El lunes abre con lo que más tira (true crime) para arrastrar la semana. Los oficios raros (farero, deshollinador) entran los martes o los viernes. El futuro y la ficción no tienen día fijo: son el especial de un viernes al mes. Las efemérides del mes mandan dentro de su día.
 2. **Investigador** (puedes lanzar varios en paralelo): `investigacion/<slug>.md` con fuentes. Cada dato marcado [V] verificado / [D] dudoso / [F] ficción. Incluye:
    - una lista «no usar»;
    - palabras difíciles escritas como suenan;

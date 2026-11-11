@@ -1,7 +1,7 @@
 # Banco de ideas: "Un mes en la vida de"
 
 Estado: `[x]` producido, `[~]` en producción, `[ ]` pendiente.
-La **rotación diaria** es lunes época, martes profesión, miércoles futuro, jueves persona real, viernes época, sábado profesión y domingo futuro. Si hay efeméride (aniversario en el mes), tiene prioridad.
+**Calendario semanal (desde el 11 de noviembre de 2026, 5 días):** lunes **crímenes y misterios reales**, martes **guerra y soldados**, miércoles **mitos, dioses y religiones**, jueves **personajes que cambiaron la historia**, viernes **catástrofes y supervivencia** (un viernes al mes, ficción o futuro). Los oficios raros entran los martes o los viernes. Si hay efeméride en el mes, tiene prioridad dentro de su día. Las tablas de abajo siguen siendo la reserva de ideas; añade ideas nuevas en la categoría que les toque.
 
 Por qué funciona cada idea: tiene **un mes concreto con un acontecimiento dramático** (clímax natural en la semana 2 o 3), **vida cotidiana muy distinta a la nuestra** (comida, sueldo, higiene, peligros) y **un dato final sorprendente**.
 
