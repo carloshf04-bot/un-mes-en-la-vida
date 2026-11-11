@@ -66,6 +66,12 @@ Hojas representativas:
 
 Capturas (18,2; 151,9; 152,3; 311,7; 384; 587; 636,34 y 762,48 s): `pruebas/p4_h/contact-sheet.jpg` y `pruebas/p4_v/contact-sheet.jpg`. La frase 42 con la cámara final está en `pruebas/p4_h/at-151.9s.png` y `at-152.3s.png`. `check`: ok y 0 errores en los dos formatos; los `text_below_floor` que quedan son solo las cartelas de las vitrinas.
 
+## Después de aprobar la puerta 4
+
+- **Frase 135**: «Z Z Z» baja 60 px en horizontal y ya no roza «LUNA LLENA» (captura a 440,28 s en `pruebas/zzz/`).
+- **Fuente uncial (fallo importante, ya arreglado)**: `fonts/UncialAntiqua-Regular.woff2` era el subconjunto *latin-ext* de Google Fonts, sin las letras A-Z. Todo el texto en uncial del vídeo y de la miniatura salía con una fuente de reserva parecida a Times. Lo he cambiado por la TTF completa (`fonts/UncialAntiqua-Regular.ttf`, OFL, de google/fonts) en `gen.mjs` y en `miniaturas/vikingo.json`. Comprobado en la captura del título (26 s) y en las miniaturas. Hay que regenerar las composiciones con esta fuente; `hf-est-*` ya está regenerado.
+- **Miniaturas** (`node scripts/miniatura.mjs ../../../miniaturas/vikingo.json ../entregas`, desde `scripts/`; necesita `playwright`, enlazado en `videos/vikingo/node_modules/playwright` → `/opt/node-tools/node_modules/playwright`, que no se sube): `entregas/miniatura-youtube.png` (1280×720) y `entregas/miniatura-vertical.png` (1080×1920). Llevan a Ulf grande con la cara sorprendida y sin casco, capa, escudo amarillo y negro y hacha; «¿TE IRÍAS DE **VIKINGO**?» con VIKINGO en amarillo; el sello «0 CUERNOS»; los iconos del barco, el hacha y la balanza, y el título en Uncial Antiqua. He movido los iconos para que no queden tapados (hacha en horizontal; barco y balanza en vertical). `miniatura.mjs` ahora espera a que carguen las fuentes y avisa si falla la del título.
+
 ## Sonido (`scripts/audio.py`)
 
 - Uso: `python scripts/audio.py <sfx_cues.json> <voz.wav> <mezcla.wav> [frases.json]` (sin el cuarto argumento usa `voz/frases.json` y, si no existe, `voz/frases_est.json`). Busca los efectos de interfaz de HyperFrames en `~/.claude/skills/...` o en la caché de `npx`.

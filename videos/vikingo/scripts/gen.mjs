@@ -25,13 +25,13 @@ const TOTAL = r3(HASTA || vozDur);
 fs.rmSync(path.join(OUT, "compositions"), { recursive: true, force: true });
 fs.mkdirSync(path.join(OUT, "compositions"), { recursive: true });
 fs.mkdirSync(path.join(OUT, "assets/fonts"), { recursive: true });
-for (const f of ["Inter.ttf", "UncialAntiqua-Regular.woff2"]) fs.copyFileSync(path.join(ROOT, "fonts", f), path.join(OUT, "assets/fonts", f));
+for (const f of ["Inter.ttf", "UncialAntiqua-Regular.ttf"]) fs.copyFileSync(path.join(ROOT, "fonts", f), path.join(OUT, "assets/fonts", f));
 fs.copyFileSync(path.join(ROOT, "build/node_modules/gsap/dist/gsap.min.js"), path.join(OUT, "assets/gsap.min.js"));
 fs.copyFileSync(VOZ, path.join(OUT, "assets/voz.wav"));
 
 const COMMON_CSS = `
 @font-face{font-family:"Inter";src:url("assets/fonts/Inter.ttf");font-weight:100 900}
-@font-face{font-family:"Uncial Antiqua";src:url("assets/fonts/UncialAntiqua-Regular.woff2") format("woff2")}
+@font-face{font-family:"Uncial Antiqua";src:url("assets/fonts/UncialAntiqua-Regular.ttf")}
 .roman,.uncial{font-family:"Uncial Antiqua";font-weight:400;-webkit-text-stroke:0.04em #24160d;paint-order:stroke fill}
 #root{position:absolute;inset:0;overflow:hidden;font-family:Inter,sans-serif}
 .layer{position:absolute;left:0;top:0}

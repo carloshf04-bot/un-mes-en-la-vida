@@ -32,7 +32,7 @@ function page(W, H) {
   const t = cfg.theme;
   const extras = (cfg.extras || []).map((e, i) => `<div style="position:absolute;${e.pos[v ? 1 : 0]};filter:drop-shadow(0 8px 0 ${C.ink})">${icon(e.icon, { size: v ? e.size * 1.25 : e.size, color: e.color })}</div>`).join("");
   return `<!doctype html><html><head><meta charset="utf-8"><style>
-  @font-face{font-family:"T";src:url("${font(cfg.titleFont)}")}
+  @font-face{font-family:"T";src:url("${font(cfg.titleFont)}")${cfg.titleFont.endsWith(".woff2") ? ' format("woff2")' : ""};font-weight:100 900}
   @font-face{font-family:"Inter";src:url("${font("Inter.ttf")}");font-weight:100 900}
   *{margin:0;padding:0;box-sizing:border-box}
   body{width:${W}px;height:${H}px;overflow:hidden;position:relative;background:radial-gradient(ellipse at ${v ? "50% 62%" : "68% 60%"},${t.glow} 0%,${t.mid} 45%,${t.dark} 100%);font-family:Inter}
@@ -59,7 +59,8 @@ for (const [W, H, name] of [[1280, 720, "miniatura-youtube.png"], [1080, 1920, "
   const p = await b.newPage({ viewport: { width: W, height: H } });
   const f = path.join(out, `_${name}.html`);
   fs.writeFileSync(f, page(W, H));
-  await p.goto("file://" + f); await p.waitForTimeout(600);
+  await p.goto("file://" + f); await p.evaluate(() => document.fonts.ready); await p.waitForTimeout(600);
+  if (!(await p.evaluate(() => document.fonts.check('96px "T"')))) console.warn("AVISO: la fuente del título no se ha cargado");
   await p.screenshot({ path: path.join(out, name) });
   fs.unlinkSync(f);
   console.log(path.join(out, name));

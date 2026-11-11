@@ -331,7 +331,7 @@ export function semana3(S) {
   S.tw(`tl.set("#${S.id}-ch${Bx - F(300, 160) - 230},#${S.id}-ch${Bx + F(450, 420) - 230}",{opacity:1},0);`);
   say(K, 133, [["g", "pieles", "d0", "hide"], ["g", "pieles", "d1", "hide", 0.2], ["b", "grasa", Bx, dk - 200, { color: "#f0dca0", n: 10, up: 60 }], ["t", "grasa", "UNTADAS DE GRASA", { c: AMB, size: F(74, 66) }], ["t", "saco", `${HOY} UN SACO DE DORMIR`, { size: F(70, 62) }]]);
   say(K, 134, [["b", "pringoso", Bx - 200, dk - 120, { color: "#e8c870", n: 14, up: -40, spread: 300, dur: 1.2 }], ["t", "pringoso", "PRINGOSO", { c: "#e8c870", size: F(110, 96), u: true }]]);
-  say(K, 135, [["t", "luna", "LUNA LLENA", { c: "#f4ecd2", size: F(84, 74) }], ["f", (T, id) => { sprinkle(S, id, Bx, dk - 300, "moon-stars", T("ronca"), { n: 3, color: "#c9d4f0", size: 70, r: 200 }); tx(S, `${id}z`, Bx, G - F(760, 860), "Z Z Z", T("ronca"), { size: F(110, 96), color: "#c9d4f0", fx: "up" }); return `#${id}0,#${id}1,#${id}2,#${id}z`; }], ["sfx", "ronca", "snore"]]);
+  say(K, 135, [["t", "luna", "LUNA LLENA", { c: "#f4ecd2", size: F(84, 74) }], ["f", (T, id) => { sprinkle(S, id, Bx, dk - 300, "moon-stars", T("ronca"), { n: 3, color: "#c9d4f0", size: 70, r: 200 }); tx(S, `${id}z`, Bx, G - F(700, 860), "Z Z Z", T("ronca"), { size: F(110, 96), color: "#c9d4f0", fx: "up" }); return `#${id}0,#${id}1,#${id}2,#${id}z`; }], ["sfx", "ronca", "snore"]]);
   say(K, 136, [["t", "Cuarto", "DÍA 4", { c: AMB, size: F(130, 110), u: true }]]);
   // 137-151 · la niebla
   say(K, 137, [["cut", "Al", "niebla", -0.5], ["t", "niebla", "NIEBLA", { c: "#ffffff", size: F(120, 100), u: true }]]);
