@@ -28,3 +28,4 @@
 2026-11-11 · 5 · Dirección · render horizontal: 480/860 s hechos en 4 tramos (~40 min por tramo de 3 min); retomado tras un reinicio
 2026-11-11 · 5 · produccion/Dirección · horizontal terminado: 860,35 s, 1920×1080, −14,0 LUFS, LRA 3,9 · a puerta 5 y espectador; el vertical se renderiza para los Shorts
 2026-11-11 · 5 · espectador · 8/10 APTO, pero rótulo ilegible en 6:54 (ÓTTAR encima de UN NAVEGANTE NORUEGO: grave según DIRECCION) y VIKINGO en uncial se lee VIRINGO · render vertical parado hasta arreglar
+2026-11-11 · 5 · control-calidad · CAMBIOS (3 graves: Ulf duplicado 51-54, ÓTTAR solapado 115-116, rótulo cortado 191; menores) · técnica OK (duración, −14 LUFS, uniones, sincronía) · devuelto a producción junto con lo visual del espectador; los cambios de texto del espectador (frisón, «hace cuarenta años») se resuelven con rótulos, sin tocar la voz
