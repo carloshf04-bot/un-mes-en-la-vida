@@ -137,7 +137,7 @@
   "escenas": [
    {
     "corte": true,
-    "texto": "La noche del trece de noviembre de mil novecientos ochenta y cinco, un río de lodo de más de cuarenta metros borró un pueblo entero. Alguien lo había dibujado en un mapa treinta y siete días antes.",
+    "texto": "La noche del trece de noviembre de mil novecientos ochenta y cinco, un río de lodo y piedras borró un pueblo entero. Y el peligro ya estaba dibujado en un mapa treinta y siete días antes.",
     "drama": 0.85,
     "fondo": {
      "lugar": "campo",
@@ -279,7 +279,7 @@
    {
     "dia": 1,
     "corte": true,
-    "texto": "Esa tarde, en la heladería del parque, un señor mayor se ríe a carcajadas del famoso mapa de riesgos. Según él, es puro alarmismo, que espanta a los compradores y que aquí nunca pasa nada.",
+    "texto": "Esa tarde, en la heladería del parque, un señor mayor se ríe a carcajadas de un mapa de riesgos del que ha oído hablar. Según él, es puro alarmismo, que espanta a los compradores y que aquí nunca pasa nada.",
     "drama": 0.6,
     "fondo": {
      "lugar": "campo",
@@ -287,7 +287,7 @@
      "clima": "despejado",
      "props": [
       {
-       "tipo": "puesto",
+       "tipo": "mesa",
        "x": -1.0
       },
       {
@@ -375,15 +375,15 @@
    },
    {
     "dia": 2,
-    "texto": "Aquel miércoles once de septiembre cayó ceniza hasta en Manizales y en Ibagué. Nadie murió. Y eso, sin querer, nos dejó la enseñanza equivocada: que el volcán solo asusta.",
+    "texto": "Aquel miércoles once de septiembre cayó ceniza hasta en Manizales y en Ibagué. Pasó el susto. Y eso, sin querer, nos dejó la lección equivocada: que el volcán solo asusta.",
     "drama": 0.65,
     "fondo": {
      "lugar": "campo",
      "hora": "dia",
-     "clima": "polvo",
+     "clima": "ceniza",
      "props": [
       {
-       "tipo": "casa-adobe",
+       "tipo": "casa",
        "x": -1.0
       },
       {
@@ -391,7 +391,7 @@
        "x": 1.0
       },
       {
-       "tipo": "volcan",
+       "tipo": "volcan-erupcion",
        "x": -1.35,
        "escala": 1.8,
        "detras": true
@@ -458,7 +458,7 @@
     "drama": 0.65,
     "fondo": {
      "lugar": "interior",
-     "pared": "piedra",
+     "pared": "ladrillo",
      "hora": "atardecer",
      "ventana": true,
      "props": [
@@ -649,7 +649,7 @@
    },
    {
     "dia": 7,
-    "texto": "Su papá me cuenta que esta tierra es tan buena porque el río la trajo de la montaña. Él no sabe hasta qué punto acierta.",
+    "texto": "Su papá me cuenta que esta tierra es tan buena porque el río la trajo de la montaña. Él no sabe cuánta razón tiene.",
     "drama": 0.65,
     "personajes": [
      {
@@ -766,7 +766,7 @@
    },
    {
     "dia": 12,
-    "texto": "Por la noche, la televisión pública no enseña el Palacio. Enseña un partido de fútbol, Millonarios contra Unión Magdalena. Lo veo en blanco y negro sin entender nada.",
+    "texto": "Por la noche, la televisión pública no muestra el Palacio. Pasa un partido de fútbol, Millonarios contra Unión Magdalena. Lo veo en blanco y negro sin entender nada.",
     "drama": 0.7,
     "personajes": [
      {
@@ -781,7 +781,7 @@
    },
    {
     "dia": 13,
-    "texto": "Jueves. El Ejército retoma el Palacio entre fuego y humo. Mueren casi cien personas, entre ellas once magistrados de la Corte Suprema. Colombia no habla de otra cosa.",
+    "texto": "Jueves. El Ejército retoma el Palacio entre fuego y humo. Al final mueren casi cien personas, entre ellas once magistrados de la Corte Suprema. Colombia no habla de otra cosa.",
     "drama": 0.75,
     "personajes": [
      {
@@ -796,7 +796,7 @@
    },
    {
     "dia": 14,
-    "texto": "Y mientras todos miramos a Bogotá, allá arriba, a más de cinco mil metros, el hielo del Nevado del Ruis sigue echando humo sin que nadie lo mire.",
+    "texto": "Y mientras todos miramos a Bogotá, allá arriba, a más de cinco mil metros, el Nevado del Ruis sigue echando humo y casi nadie lo mira.",
     "drama": 0.75,
     "fondo": {
      "lugar": "montanas",
@@ -873,7 +873,7 @@
     "drama": 0.75,
     "fondo": {
      "lugar": "interior",
-     "pared": "piedra",
+     "pared": "ladrillo",
      "hora": "atardecer",
      "ventana": true,
      "props": [
@@ -968,7 +968,7 @@
     "fondo": {
      "lugar": "interior",
      "pared": "madera",
-     "hora": "noche",
+     "hora": "atardecer",
      "ventana": true,
      "props": [
       {
@@ -1052,7 +1052,7 @@
     "fondo": {
      "lugar": "interior",
      "pared": "madera",
-     "hora": "noche",
+     "hora": "atardecer",
      "ventana": true,
      "props": [
       {
@@ -1133,7 +1133,7 @@
     "drama": 0.85,
     "fondo": {
      "lugar": "montanas",
-     "hora": "dia",
+     "hora": "noche",
      "clima": "niebla",
      "props": [
       {
@@ -1172,7 +1172,7 @@
     "drama": 0.85,
     "fondo": {
      "lugar": "interior",
-     "pared": "piedra",
+     "pared": "ladrillo",
      "hora": "noche",
      "ventana": true,
      "props": [
@@ -1217,7 +1217,7 @@
    },
    {
     "dia": 19,
-    "texto": "Entre el estallido y el golpe más fuerte del lodo pasan unas dos horas y media. Tiempo de sobra para salir. Pero el aviso nunca llegó a las casas.",
+    "texto": "Entre el estallido y el golpe más fuerte del lodo pasan unas dos horas y media. Tiempo de sobra para salir. Pero la orden de evacuar no llegó a las casas.",
     "drama": 0.85,
     "personajes": [
      {
@@ -1240,7 +1240,7 @@
    },
    {
     "dia": 19,
-    "texto": "Sobre las once llega la primera oleada. A las once y treinta y cinco, la mayor: un muro de lodo de más de cuarenta metros, a entre cuarenta y sesenta kilómetros por hora.",
+    "texto": "Sobre las once llega la primera oleada. A las once y treinta y cinco, la mayor. Salió del cañón con más de cuarenta metros de altura, a entre cuarenta y sesenta kilómetros por hora.",
     "drama": 0.9,
     "fondo": {
      "lugar": "campo",
@@ -1275,11 +1275,11 @@
    },
    {
     "dia": 19,
-    "texto": "Desde Lérida no vemos nada. Solo oímos la lluvia y una radio que ya no responde. Esa noche, nadie en la junta pega los ojos.",
+    "texto": "Desde Lérida no vemos nada. Solo oímos la lluvia y una radio que ya no responde. Esa noche nadie duerme.",
     "drama": 0.85,
     "fondo": {
      "lugar": "interior",
-     "pared": "piedra",
+     "pared": "ladrillo",
      "hora": "noche",
      "ventana": true,
      "props": [
@@ -1325,7 +1325,7 @@
    {
     "dia": 20,
     "corte": true,
-    "texto": "Jueves, catorce. Al alba, por la radio, alguien que sobrevuela el valle lanza la frase que Colombia nunca olvidará: Armero ha desaparecido.",
+    "texto": "Jueves, catorce. Al alba, por la radio, alguien que sobrevuela el valle dice la frase que Colombia nunca olvidará: Armero ha desaparecido.",
     "drama": 0.9,
     "fondo": {
      "lugar": "rio",
@@ -1368,7 +1368,7 @@
    },
    {
     "dia": 20,
-    "texto": "La ayuda oficial tarda unas doce horas en llegar. Nosotros salimos antes, en un camión, con lo poco que tenemos: cuerdas, tablas, linternas y un botiquín.",
+    "texto": "La ayuda organizada tarda unas doce horas en llegar. Nosotros salimos antes, en un camión, con lo poco que tenemos: cuerdas, tablas, linternas y un botiquín.",
     "drama": 0.8,
     "fondo": {
      "lugar": "campo",
@@ -1425,7 +1425,7 @@
    },
    {
     "dia": 20,
-    "texto": "Donde estaba Armero hay una llanura gris de barro. Asoman tejados, árboles partidos y la copa de alguna palmera. No encuentro ni una sola esquina conocida.",
+    "texto": "Donde estaba Armero hay una llanura gris de barro. Asoman tejados, árboles partidos y la copa de alguna palmera. No encuentro ni una sola esquina que recuerde.",
     "drama": 0.85,
     "fondo": {
      "lugar": "rio",
@@ -1536,7 +1536,7 @@
    },
    {
     "dia": 20,
-    "texto": "Los helicópteros son la única puerta de salida. Llego a contar veinte en el aire al mismo tiempo, levantando heridos de los tejados, uno detrás de otro.",
+    "texto": "Los helicópteros son la única puerta de salida. En los días siguientes llego a contar veinte en el aire al mismo tiempo, levantando heridos de los tejados.",
     "drama": 0.8,
     "fondo": {
      "lugar": "campo",
@@ -1596,7 +1596,7 @@
    },
    {
     "dia": 20,
-    "texto": "Esa tarde, otros socorristas bajan a una muchacha de un tejado lejano. Yo no la veo, ni sé cómo se llama. Todavía no sé que es Lus Marina.",
+    "texto": "Esa tarde, por la radio, oigo que otros socorristas bajan a una muchacha de un tejado lejano. No dicen su nombre. Todavía no sé que es Lus Marina.",
     "drama": 0.85,
     "fondo": {
      "lugar": "campo",
@@ -1803,7 +1803,7 @@
    {
     "dia": 22,
     "corte": true,
-    "texto": "Un fotógrafo francés, Franc Furnié, tomó una foto que dio la vuelta al mundo. Ganó el premio de fotografía más importante y dejó una pregunta: por qué no llegó la ayuda.",
+    "texto": "Un fotógrafo francés, Franc Furnié, tomó una foto que dio la vuelta al mundo. Ganó el mayor premio de fotografía de prensa y dejó una pregunta: por qué no llegó la ayuda.",
     "drama": 0.7,
     "fondo": {
      "lugar": "campo",
@@ -1888,7 +1888,7 @@
    },
    {
     "dia": 23,
-    "texto": "Su papá no salió de Armero. Ella me lo cuenta en voz baja, mirando la pared, y yo no encuentro ninguna palabra que sirva.",
+    "texto": "Su papá no salió de Armero. Ella me lo cuenta muy bajito, mirando la pared, y yo no encuentro ninguna palabra que sirva.",
     "drama": 0.7,
     "personajes": [
      {
@@ -2344,7 +2344,7 @@
  },
  "publicacion": {
   "tituloLargo": "Un mes en la vida de UN SOCORRISTA EN ARMERO (Colombia, 1985) | La noche que dijeron calma",
-  "descripcion": "Treinta días en la vida de Wilson, un voluntario de la Defensa Civil de Lérida (Tolima), del 26 de octubre al 24 de noviembre de 1985: el mapa de amenaza que casi nadie vio, la semana del Palacio de Justicia, la tarde de ceniza en que a todos les dijeron «calma», la erupción del Nevado del Ruiz a las 21:08 del 13 de noviembre y la avalancha que borró Armero. Contado con respeto a las víctimas y a sus familias.\n\nAVISO: Wilson Ospina Guzmán, Luz Marina y don Efraín son personajes INVENTADOS. Todo lo demás es real: el mapa preliminar de INGEOMINAS del 7 de octubre de 1985, la erupción del 11 de septiembre, la toma y retoma del Palacio de Justicia (6 y 7 de noviembre), la visita de la geóloga Marta Lucía Calvache al cráter el 12 de noviembre, la ceniza desde las cinco de la tarde, la erupción de las 21:08, las oleadas de lodo de más de 40 metros, la ayuda que tardó unas 12 horas, Omayra Sánchez (13 años, unas 60 horas atrapada), la foto de Frank Fournier, más de 20.000 muertos en Armero, la visita de Juan Pablo II en 1986, la Ley 46 de 1988 y los niños perdidos que aún buscan sus familias.\n\n— Semana 1: La Ciudad Blanca\n— Semana 2: Mientras el país miraba a Bogotá\n— Semana 3: La noche que dijeron calma\n— Semana 4: Los nombres en las listas\n— Epílogo: lo que Armero cambió\n\nFuentes: National Research Council, «The Eruption of Nevado del Ruiz Volcano, Colombia, November 13, 1985» (1991); USGS (lahares del Ruiz y mapa de amenaza de 1985; programa VDAP); Nature (1986); Servicio Geológico Colombiano; Universidad Nacional de Colombia; Geología Colombiana; ICBF, «Memorias Vivas»; Ley 46 de 1988; Vatican.va (visita de Juan Pablo II, 1986); El Tiempo (Germán Santamaría); Semana; El Heraldo; El Colombiano; Noticias Caracol; Radio Nacional; Las2orillas; Infobae.",
+  "descripcion": "Treinta días en la vida de Wilson, un voluntario de la Defensa Civil de Lérida (Tolima), del 26 de octubre al 24 de noviembre de 1985: el mapa de amenaza que casi nadie vio, la semana del Palacio de Justicia, la tarde de ceniza en que a todos les dijeron «calma», la erupción del Nevado del Ruiz a las 21:08 del 13 de noviembre y la avalancha que borró Armero. Contado con respeto a las víctimas y a sus familias.\n\nAVISO: Wilson Ospina Guzmán, Luz Marina y don Efraín son personajes INVENTADOS. Todo lo demás es real: el mapa preliminar de INGEOMINAS del 7 de octubre de 1985, la erupción del 11 de septiembre, la toma y retoma del Palacio de Justicia (6 y 7 de noviembre), la visita de la geóloga Marta Lucía Calvache al cráter el 12 de noviembre, la ceniza desde las cinco de la tarde, la erupción de las 21:08, las oleadas de lodo (más de 40 metros de espesor al salir del cañón del Lagunilla), la ayuda que tardó unas 12 horas, Omayra Sánchez (13 años, unas 60 horas atrapada), la foto de Frank Fournier, más de 20.000 muertos en Armero, la visita de Juan Pablo II en 1986, la Ley 46 de 1988 y los niños perdidos que aún buscan sus familias.\n\n— Semana 1: La Ciudad Blanca\n— Semana 2: Mientras el país miraba a Bogotá\n— Semana 3: La noche que dijeron calma\n— Semana 4: Los nombres en las listas\n— Epílogo: lo que Armero cambió\n\nFuentes: National Research Council, «The Eruption of Nevado del Ruiz Volcano, Colombia, November 13, 1985» (1991); USGS (lahares del Ruiz y mapa de amenaza de 1985; programa VDAP); Nature (1986); Servicio Geológico Colombiano; Universidad Nacional de Colombia; Geología Colombiana; ICBF, «Memorias Vivas»; Ley 46 de 1988; Vatican.va (visita de Juan Pablo II, 1986); El Tiempo (Germán Santamaría); Semana; El Heraldo; El Colombiano; Noticias Caracol; Radio Nacional; Las2orillas; Infobae.",
   "etiquetas": [
    "un mes en la vida de",
    "Armero",
@@ -2375,7 +2375,7 @@
    },
    {
     "titulo": "El volcán que solo asustaba",
-    "descripcion": "En septiembre de 1985 el Nevado del Ruiz echó ceniza y nadie murió. Esa fue la lección equivocada. #shorts #armero #nevadodelruiz"
+    "descripcion": "En septiembre de 1985 el Nevado del Ruiz echó ceniza y el susto pasó. Esa fue la lección equivocada. #shorts #armero #nevadodelruiz"
    },
    {
     "titulo": "El mapa que marcaba Armero… y casi nadie vio",
@@ -2390,7 +2390,7 @@
     "descripcion": "6 y 7 de noviembre de 1985: el país pegado a la radio. Arriba, el hielo del Ruiz seguía humeando. #shorts #colombia #historia"
    },
    {
-    "titulo": "Una geóloga en el cráter, 30 horas antes",
+    "titulo": "Una geóloga en el cráter, la víspera",
     "descripcion": "12 de noviembre: Marta Lucía Calvache sube al Nevado del Ruiz. Al día siguiente cae la ceniza. #shorts #armero #volcan"
    },
    {
