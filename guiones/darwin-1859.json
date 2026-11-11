@@ -1,0 +1,2076 @@
+{
+  "slug": "darwin-1859",
+  "titulo": "Charles Darwin",
+  "lugar": "Ilkley, Yorkshire",
+  "epoca": "Octubre y noviembre de 1859",
+  "categoria": "persona",
+  "drama": 0.65,
+  "velocidad": 1.15,
+  "musica": "nostalgia",
+  "paleta": {
+    "acento": "#5f7f4a",
+    "texto": "#f1ead8",
+    "fondo": "#1b1e1c",
+    "papel": "#efe5cc"
+  },
+  "reparto": {
+    "darwin": {
+      "piel": "#eac3a6",
+      "pelo": "#a39a90",
+      "peinado": "calvo",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#1f1d1c",
+        "color2": "#5a5a5e",
+        "detalle": "#efe9dc"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "zapatos": "#2a1f18"
+    },
+    "emma": {
+      "piel": "#efd2bc",
+      "pelo": "#4a3526",
+      "peinado": "mono",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#5a2430",
+        "color2": "#4e1f2a",
+        "detalle": "#8a7a66"
+      },
+      "sombrero": "panuelo",
+      "colorSombrero": "#e9e2d4",
+      "zapatos": "#2a2220",
+      "voz": "narradora-es"
+    },
+    "etty": {
+      "piel": "#f0d4be",
+      "pelo": "#5a3f2a",
+      "peinado": "coleta",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#4c5d78",
+        "color2": "#435269",
+        "detalle": "#e8e0cf"
+      },
+      "sombrero": "ninguno",
+      "altura": 0.85,
+      "zapatos": "#2a2220",
+      "voz": "narradora-es"
+    },
+    "bessy": {
+      "piel": "#f2d6c0",
+      "pelo": "#6a4a30",
+      "peinado": "trenzas",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#a48a8a",
+        "color2": "#8f7676",
+        "detalle": "#efe6d6"
+      },
+      "sombrero": "ninguno",
+      "altura": 0.75,
+      "zapatos": "#2a2220",
+      "voz": "narradora-es"
+    },
+    "hijo": {
+      "piel": "#f0d2b8",
+      "pelo": "#6a4a30",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#2c3550",
+        "color2": "#5b4636",
+        "detalle": "#e8e0cf"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#2c3550",
+      "altura": 0.72,
+      "zapatos": "#2a1f18"
+    },
+    "annie": {
+      "piel": "#f3dcc8",
+      "pelo": "#8a6a4a",
+      "peinado": "largo",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#efe9e0",
+        "color2": "#e4ddd2",
+        "detalle": "#c9b99a"
+      },
+      "sombrero": "ninguno",
+      "altura": 0.65,
+      "zapatos": "#6a5040",
+      "voz": "narradora-es"
+    },
+    "smith": {
+      "piel": "#e8c3a2",
+      "pelo": "#5a4a3a",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#1a1a1c",
+        "color2": "#3b3330",
+        "detalle": "#efe9dc"
+      },
+      "sombrero": "ninguno",
+      "gafas": true,
+      "zapatos": "#151515"
+    },
+    "banero": {
+      "piel": "#e2b48e",
+      "pelo": "#3a2a1e",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#e6e2d8",
+        "color2": "#5a5a5e",
+        "detalle": "#c9c2b2"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#2e2218"
+    },
+    "cartero": {
+      "piel": "#e6bc98",
+      "pelo": "#4a3a2a",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#8e2a24",
+        "color2": "#23305a",
+        "detalle": "#c9a24a"
+      },
+      "sombrero": "copa",
+      "colorSombrero": "#1a1818",
+      "zapatos": "#1e1a16"
+    },
+    "murray": {
+      "piel": "#eac3a6",
+      "pelo": "#3a2a1e",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#2a2a30",
+        "color2": "#4a4a50",
+        "detalle": "#efe9dc"
+      },
+      "sombrero": "copa",
+      "colorSombrero": "#1a1818",
+      "zapatos": "#151515"
+    },
+    "librero": {
+      "piel": "#e4b994",
+      "pelo": "#6a5a4a",
+      "peinado": "calvo",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "cuadros",
+        "color": "#5b4636",
+        "color2": "#3a2e22",
+        "detalle": "#3a3a40"
+      },
+      "sombrero": "ninguno",
+      "gafas": true,
+      "zapatos": "#2a1f18"
+    }
+  },
+  "largo": {
+    "escenas": [
+      {
+        "corte": true,
+        "texto": "Dentro de treinta días saldrá a la venta la idea más peligrosa del siglo. La he escrito yo. Y ahora mismo estoy temblando, envuelto en una sábana empapada de agua helada.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.05
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "🕯️",
+              "x": 1.0,
+              "escala": 0.3
+            },
+            {
+              "tipo": "barril",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.45,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1
+          },
+          {
+            "quien": "banero",
+            "x": -0.55,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Me llamo Charls Dáruin y tengo cincuenta años, una salud de papel y un secreto que he guardado durante veinte años: las especies no son fijas. Cambian.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "banero",
+            "x": -0.55,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Las cartas y las fechas de este mes son reales. Lo que pienso, lo imaginamos. Y lo que voy a vivir me dejará sin aliento.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.05,
+              "escala": 1.5,
+              "detras": true
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.25
+            },
+            {
+              "tipo": "valla",
+              "x": -0.35
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.6
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.35,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "entra": "der"
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 1,
+        "capitulo": "El agua helada",
+        "texto": "Es miércoles, veintiséis de octubre de mil ochocientos cincuenta y nueve. Estoy en Ílkli, en el norte de Inglaterra, en Uéls Jaus, un balneario enorme de piedra.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Ilkley, Yorkshire",
+          "detalle": "Balneario de Wells House · otoño de 1859",
+          "icono": "📍"
+        }
+      },
+      {
+        "dia": 1,
+        "corte": true,
+        "texto": "Aquí la rutina es cruel: baños helados, sábanas mojadas, litros de agua de manantial. Y una norma sagrada: prohibido trabajar.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.05
+            },
+            {
+              "tipo": "barril",
+              "x": 1.05
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.45
+            },
+            {
+              "tipo": "💧",
+              "x": 1.05,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.3,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1
+          },
+          {
+            "quien": "banero",
+            "x": -0.5,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "🫗"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 1,
+        "texto": "Prohibido trabajar, justo ahora que en Londres imprimen mi libro: trece meses y diez días de escritura sin descanso.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.25,
+            "accion": "pensar",
+            "emocion": "cansado",
+            "mirar": -1
+          }
+        ]
+      },
+      {
+        "dia": 2,
+        "texto": "¿Por qué tanta prisa, después de veinte años callado? Por un ensayo que me llegó en junio del año pasado desde una isla lejana, Ternáte.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "papel",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "chimenea",
+              "x": -1.05
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.9
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.45
+            },
+            {
+              "tipo": "reloj",
+              "x": -1.5
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.9,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.35,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": -1,
+            "objeto": "📜"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 2,
+        "texto": "Lo firmaba Alfred Rásel Uólas, un joven naturalista. Al leerlo me quedé helado: era mi teoría, casi palabra por palabra, escrita por otro hombre.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.3,
+            "accion": "asustado",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "objeto": "📜"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 2,
+        "texto": "Mis amigos Láiel y Júker presentaron los dos textos juntos en la Sociedad Linneana. Yo no fui. Acababa de enterrar a mi hijo pequeño.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.3,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1 jul. 1858",
+          "etiqueta": "Darwin y Wallace, presentados juntos en la Linnean Society de Londres",
+          "icono": "📜"
+        }
+      },
+      {
+        "dia": 3,
+        "corte": true,
+        "texto": "Así llega el final de octubre. El tobillo que me torcí en el páramo hace semanas empieza a arder. Por la noche, se me hincha toda la pierna.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "papel",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "chimenea",
+              "x": -1.05
+            },
+            {
+              "tipo": "cuadro",
+              "x": 0.2
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.5
+            },
+            {
+              "tipo": "✉️",
+              "x": 1.0,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.3,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1
+          },
+          {
+            "quien": "emma",
+            "x": -0.45,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 4,
+        "texto": "Ema, mi mujer, vino hace dos semanas con los niños y alquiló una casa en el pueblo. Le escribe a nuestro hijo mayor que tengo el pie furiosamente inflamado.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1
+          },
+          {
+            "quien": "emma",
+            "x": -0.4,
+            "accion": "escribir",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 4,
+        "texto": "Después se me hincha la cara, hasta que casi no puedo abrir los ojos. Me miro en el espejo y no encuentro al hombre que escribió ese libro.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.25,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 5,
+        "texto": "Así que me trasladan al propio balneario, lejos de mi familia. Ema se queda en la casa alquilada con los niños. Yo me quedo a solas con mi miedo.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.05
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "🕯️",
+              "x": 1.0,
+              "escala": 0.3
+            },
+            {
+              "tipo": "barril",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.3,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 6,
+        "corte": true,
+        "texto": "El doctor Smit sonríe. Dice que esto es una crisis, que mi cuerpo está expulsando la enfermedad, que es buena señal. Yo no me lo creo.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1
+          },
+          {
+            "quien": "smith",
+            "x": -0.45,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 6,
+        "texto": "Llevo casi veinte años enfermo: vómitos, palpitaciones, un agotamiento que no se va. Nadie sabe qué tengo. Y siempre que pienso en el libro, empeoro.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.3,
+            "accion": "pensar",
+            "emocion": "cansado",
+            "mirar": -1
+          }
+        ],
+        "insercion": {
+          "tipo": "dato",
+          "valor": "20 años",
+          "etiqueta": "guardando la teoría antes de publicarla (1838–1859)",
+          "icono": "⏳"
+        }
+      },
+      {
+        "dia": 7,
+        "texto": "Porque ese libro dice algo que me asusta hasta a mí. En mil ochocientos cuarenta y cuatro se lo confesé a Júker por carta: era como confesar un asesinato.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.05
+            },
+            {
+              "tipo": "barril",
+              "x": 1.05
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.45
+            },
+            {
+              "tipo": "💧",
+              "x": 1.05,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.3,
+            "accion": "pensar",
+            "emocion": "miedo",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 7,
+        "texto": "Martes, uno de noviembre. Un mes justo desde las últimas pruebas. Mañana, en Londres, alguien va a meter en un paquete el primer ejemplar de mi criatura.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.2,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 8,
+        "capitulo": "Mi criatura",
+        "corte": true,
+        "texto": "Miércoles, dos de noviembre. Mi editor, Yon Márri, me envía el primer ejemplar y las cuentas: mil doscientos cincuenta ejemplares, a quince chelines cada uno.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.3
+            },
+            {
+              "tipo": "farola",
+              "x": -0.7
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.0
+            },
+            {
+              "tipo": "📗",
+              "x": 1.0,
+              "escala": 0.35
+            },
+            {
+              "tipo": "carro",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "murray",
+            "x": -0.2,
+            "accion": "cargar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "📗"
+          },
+          {
+            "quien": "cartero",
+            "x": 0.5,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 8,
+        "texto": "Quince chelines: más de lo que gana un jornalero en una semana entera. Mi libro no es barato. Es para quien de verdad quiera leerlo.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "murray",
+            "x": -0.2,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "cartero",
+            "x": 0.5,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "sale": "der",
+            "objeto": "📗"
+          }
+        ]
+      },
+      {
+        "dia": 9,
+        "texto": "Al día siguiente me llega el paquete. Lo abro con las manos temblando. Tela verde, unas quinientas páginas y un solo dibujo: un árbol en el que caben todas las especies.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.05
+            },
+            {
+              "tipo": "barril",
+              "x": 1.05
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.45
+            },
+            {
+              "tipo": "💧",
+              "x": 1.05,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.35,
+            "accion": "cargar",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "objeto": "📗"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 9,
+        "texto": "Le contesto a Márri esa misma tarde, todavía en mi cuarto del balneario: estoy infinitamente contento y orgulloso del aspecto de mi criatura.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.3,
+            "accion": "escribir",
+            "emocion": "feliz",
+            "mirar": -1
+          }
+        ],
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Estoy infinitamente contento y orgulloso del aspecto de mi criatura.",
+          "firma": "Carta a John Murray, 3 de noviembre de 1859",
+          "icono": "📗"
+        }
+      },
+      {
+        "dia": 10,
+        "corte": true,
+        "texto": "Viernes, cuatro de noviembre. Por fin vuelvo a la casa alquilada, con Ema y los niños. Tengo siete hijos vivos, de entre ocho y diecinueve años.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "papel",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "chimenea",
+              "x": -1.05
+            },
+            {
+              "tipo": "cuadro",
+              "x": 0.2
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.5
+            },
+            {
+              "tipo": "✉️",
+              "x": 1.0,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.0,
+            "accion": "caminar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "entra": "der"
+          },
+          {
+            "quien": "emma",
+            "x": -0.75,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "etty",
+            "x": 0.55,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "bessy",
+            "x": 0.9,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 10,
+        "texto": "Mi mujer es muy creyente y teme que mis ideas nos separen en la otra vida. Lee mis manuscritos y los discute conmigo. No teme a la ciencia: teme por mí.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": -1
+          },
+          {
+            "quien": "emma",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "📜"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 10,
+        "texto": "Tuvimos diez hijos. Tres murieron pequeños. Y hay un hueco que pesa más que ninguno: mi Áni, mi hija favorita, que se fue en Málvern con diez años.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.15
+            },
+            {
+              "tipo": "casa",
+              "x": 1.35,
+              "escala": 0.9
+            },
+            {
+              "tipo": "🌼",
+              "x": 0.75,
+              "escala": 0.5
+            },
+            {
+              "tipo": "🌼",
+              "x": -0.6,
+              "escala": 0.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1
+          },
+          {
+            "quien": "annie",
+            "x": -0.4,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 10,
+        "texto": "Una parte de mí se fue con ella. Dicen mis biógrafos que ahí perdí la fe en un Dios bondadoso. Mi mujer, en cambio, nunca la perdió.",
+        "drama": 0.5,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.4,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1
+          },
+          {
+            "quien": "annie",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 15,
+        "capitulo": "Cartas al mundo",
+        "corte": true,
+        "texto": "Miércoles, nueve de noviembre. Mi editor empieza a mandar los ejemplares de regalo: a mis maestros, a mis amigos, a mis rivales. Ya no hay vuelta atrás.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "papel",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "chimenea",
+              "x": -1.05
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.9
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.45
+            },
+            {
+              "tipo": "reloj",
+              "x": -1.5
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.9,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.3,
+            "accion": "pensar",
+            "emocion": "miedo",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Ejemplares de regalo",
+          "items": [
+            {
+              "icono": "📗",
+              "nombre": "J. S. Henslow, Cambridge"
+            },
+            {
+              "icono": "📗",
+              "nombre": "Asa Gray, Harvard"
+            },
+            {
+              "icono": "📗",
+              "nombre": "Louis Agassiz, Harvard"
+            },
+            {
+              "icono": "📗",
+              "nombre": "A. R. Wallace, archipiélago malayo"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 17,
+        "texto": "Viernes, once de noviembre. Es día de cartas. Escribo a Fólkoner, a Ása Grei y a Ágasi, al otro lado del mar. Pero la carta que más me cuesta es otra.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.3,
+            "accion": "escribir",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 17,
+        "texto": "Es para Jénslou, mi querido viejo maestro de Quéimbrich, botánico y clérigo. Él me consiguió mi puesto en el Bígol, hace casi treinta años.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "velero",
+              "x": 1.0
+            },
+            {
+              "tipo": "palmera",
+              "x": -1.25
+            },
+            {
+              "tipo": "🐢",
+              "x": -0.6,
+              "escala": 1.6
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.35,
+            "accion": "caminar",
+            "emocion": "feliz",
+            "mirar": -1
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 17,
+        "texto": "Casi cinco años dando la vuelta al mundo: las Galápagos, las tortugas gigantes. Pero mis ideas no nacieron allí. Llegaron después, en Londres, poco a poco.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.3,
+            "accion": "pensar",
+            "emocion": "feliz",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 17,
+        "corte": true,
+        "texto": "Le escribo a mi viejo maestro que me temo que no aprobará a su alumno. Y lo temo de verdad: le debo todo, y mi libro choca de frente con lo que él cree.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "papel",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "chimenea",
+              "x": -1.05
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.9
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.45
+            },
+            {
+              "tipo": "reloj",
+              "x": -1.5
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.9,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.3,
+            "accion": "escribir",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Me temo que no aprobará a su alumno.",
+          "firma": "Carta a John S. Henslow, 11 de noviembre de 1859",
+          "icono": "✉️"
+        }
+      },
+      {
+        "dia": 18,
+        "texto": "Sábado, doce. Le escribo a mi joven amigo Yon Lábok, banquero y naturalista. Pero tengo pendiente la carta más difícil de todas, y la he ido retrasando. Va al otro lado del mundo.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.25,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 19,
+        "texto": "Domingo, trece de noviembre. Le escribo a Uólas, el hombre que pudo haberme quitado veinte años de trabajo. Y le mando mi libro, y con él, todo mi miedo.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "papel",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "chimenea",
+              "x": -1.05
+            },
+            {
+              "tipo": "cuadro",
+              "x": 0.2
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.5
+            },
+            {
+              "tipo": "✉️",
+              "x": 1.0,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.35,
+            "accion": "escribir",
+            "emocion": "miedo",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 19,
+        "corte": true,
+        "texto": "Le confieso la verdad: Dios sabe lo que pensará el público. Júker cree que Láiel está convencido; yo no lo creo. Si convenzo a Jáksli, me daré por contento.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.3,
+            "accion": "pensar",
+            "emocion": "miedo",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 19,
+        "texto": "Esa carta tardará meses en llegar a las islas. Él me contestará en febrero. Y lejos de guardarme rencor, me dará algo mejor: me defenderá toda su vida.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "lluvia",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.25
+            },
+            {
+              "tipo": "farola",
+              "x": -0.6
+            },
+            {
+              "tipo": "carro",
+              "x": 1.05
+            },
+            {
+              "tipo": "casa",
+              "x": 1.55
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "cartero",
+            "x": -0.4,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "✉️"
+          }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Dios sabe lo que pensará el público.",
+          "firma": "Carta a Alfred R. Wallace, 13 de noviembre de 1859",
+          "icono": "🌏"
+        }
+      },
+      {
+        "dia": 20,
+        "texto": "Lunes, catorce. Espero. Cada golpe en la puerta me sobresalta. Pero el cartero solo trae periódicos y las cuentas del balneario.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1
+          },
+          {
+            "quien": "cartero",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "📰"
+          }
+        ]
+      },
+      {
+        "dia": 21,
+        "texto": "Y de pronto mi cuerpo vuelve a rebelarse. Primero, un sarpullido. Luego, uno tras otro, los forúnculos. Como si el libro me saliera por la piel.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "papel",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "chimenea",
+              "x": -1.05
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.9
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.45
+            },
+            {
+              "tipo": "reloj",
+              "x": -1.5
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.9,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.3,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 22,
+        "capitulo": "Agotado",
+        "corte": true,
+        "texto": "Miércoles, dieciséis de noviembre. Le escribo a mi primo Fox: tengo cuatro o cinco forúnculos juntos, una espantosa sucesión. Uno en la rodilla no me deja andar.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.35,
+            "accion": "escribir",
+            "emocion": "cansado",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 22,
+        "texto": "El doctor Smit insiste en que es la crisis buena. Yo empiezo a dudar de toda esta agua fría. Y faltan ocho días para que el libro salga.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "enfado",
+            "mirar": -1
+          },
+          {
+            "quien": "smith",
+            "x": -0.45,
+            "accion": "senalar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 24,
+        "texto": "Viernes, dieciocho. Me llega una carta que no esperaba. La firma Charls Kíngsli, un clérigo y novelista. Me preparo para lo peor.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "papel",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "chimenea",
+              "x": -1.05
+            },
+            {
+              "tipo": "cuadro",
+              "x": 0.2
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.5
+            },
+            {
+              "tipo": "✉️",
+              "x": 1.0,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.3,
+            "accion": "cargar",
+            "emocion": "miedo",
+            "mirar": -1,
+            "objeto": "✉️"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 24,
+        "texto": "Y no me condena. Dice que crear formas que se transforman solas es una idea de Dios tan noble como crearlas una a una. Respiro por primera vez en semanas.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.3,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1
+          }
+        ],
+        "insercion": {
+          "tipo": "dato",
+          "valor": "18 nov.",
+          "etiqueta": "Charles Kingsley, clérigo: crear formas que se desarrollan solas es una idea de Dios tan noble como crearlas una a una",
+          "icono": "✉️"
+        }
+      },
+      {
+        "dia": 25,
+        "corte": true,
+        "texto": "Sábado, diecinueve. Sale una reseña anónima en el Atenéum, cuando el libro aún no está en las tiendas. Me deja en manos de los teólogos y los profesores.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "papel",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "chimenea",
+              "x": -1.05
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.9
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.45
+            },
+            {
+              "tipo": "reloj",
+              "x": -1.5
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.9,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.3,
+            "accion": "sentado",
+            "emocion": "enfado",
+            "mirar": -1,
+            "objeto": "📰"
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 26,
+        "texto": "Le pregunto a Júker quién la habrá escrito. Temo haber sonado engreído, demasiado seguro. A otro amigo le confieso que solo tengo un creyente, mi amigo Júker, y nadie más.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.3,
+            "accion": "escribir",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ]
+      },
+      {
+        "dia": 27,
+        "texto": "Lunes, veintiuno. Júker me escribe desde su club de Londres: dos sabios importantes parecen convencidos. Y mañana mi editor vende el libro a los libreros.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.35,
+            "accion": "cargar",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "objeto": "✉️"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 28,
+        "texto": "Martes, veintidós de noviembre. En Londres llega la venta de otoño de Márri. Los libreros piden más de mil quinientos ejemplares. Solo hay mil ciento noventa y dos.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.3
+            },
+            {
+              "tipo": "farola",
+              "x": -0.7
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.0
+            },
+            {
+              "tipo": "📗",
+              "x": 1.0,
+              "escala": 0.35
+            },
+            {
+              "tipo": "carro",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "murray",
+            "x": -0.35,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "librero",
+            "x": 0.45,
+            "accion": "cargar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "📗"
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 28,
+        "corte": true,
+        "texto": "La edición se agota en un solo día, vendida a las librerías antes de salir. No hubo colas en la calle: eso es un mito. Pero el libro ya vuela.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "murray",
+            "x": -0.35,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "librero",
+            "x": 0.45,
+            "accion": "caminar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false,
+            "sale": "der",
+            "objeto": "📗"
+          }
+        ],
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1.250",
+          "etiqueta": "ejemplares impresos… y los libreros pidieron más de 1.500 el 22 de noviembre",
+          "icono": "📚"
+        }
+      },
+      {
+        "dia": 29,
+        "texto": "Miércoles, veintitrés. En Londres, un joven zoólogo, Tómas Jáksli, me escribe una carta que tardará en llegarme. Dirá algo que no olvidaré nunca.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "papel",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "chimenea",
+              "x": -1.05
+            },
+            {
+              "tipo": "cuadro",
+              "x": 0.2
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.5
+            },
+            {
+              "tipo": "✉️",
+              "x": 1.0,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.3,
+            "accion": "dormir",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 30,
+        "texto": "Jueves, veinticuatro de noviembre de mil ochocientos cincuenta y nueve. Hoy sale a la venta mi libro. Y esta mañana llega carta de Márri: no queda ni un ejemplar.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.3,
+            "accion": "cargar",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "objeto": "✉️"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 30,
+        "texto": "Quiere otra edición al instante. Le escribo a Láiel que estoy completamente confundido. Veinte años de miedo… y ahora se lo quitan de las manos.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.2,
+            "accion": "celebrar",
+            "emocion": "sorpresa",
+            "mirar": -1
+          }
+        ]
+      },
+      {
+        "dia": 30,
+        "corte": true,
+        "texto": "Mi libro ya es del mundo, y esa misma tarde mi familia se va. Mi mujer y mis dos hijas mayores vuelven a casa. Me quedo solo en Ílkli, con mis forúnculos y mi agua helada.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "atardecer",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.3
+            },
+            {
+              "tipo": "carro",
+              "x": -0.75
+            },
+            {
+              "tipo": "farola",
+              "x": 0.95
+            },
+            {
+              "tipo": "casa",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.45,
+            "accion": "saludar",
+            "emocion": "triste",
+            "mirar": -1
+          },
+          {
+            "quien": "emma",
+            "x": -0.2,
+            "accion": "caminar",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false,
+            "sale": "izq"
+          },
+          {
+            "quien": "etty",
+            "x": -0.55,
+            "accion": "caminar",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false,
+            "sale": "izq"
+          },
+          {
+            "quien": "bessy",
+            "x": -0.85,
+            "accion": "saludar",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Al día siguiente me llega por fin la carta de Jáksli, reenviada desde casa. Dice que está dispuesto a ir a la hoguera por mi libro, y que ya se prepara para defenderlo con uñas y dientes.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.3,
+            "accion": "cargar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "objeto": "✉️"
+          },
+          {
+            "quien": "cartero",
+            "x": -0.45,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "La otra carta es de Séchuik, mi viejo maestro de geología, también clérigo. Ha leído mi libro con más dolor que placer, y confiesa que algunas partes le dieron risa.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.3,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "objeto": "✉️"
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "He leído su libro con más dolor que placer.",
+          "firma": "Adam Sedgwick, carta del 24 de noviembre de 1859",
+          "icono": "✉️"
+        }
+      },
+      {
+        "corte": true,
+        "texto": "Dos clérigos, dos respuestas opuestas. En diciembre vuelvo a mi casa de Dáun, y en enero sale la segunda edición: tres mil ejemplares.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.2
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "🔬",
+              "x": 1.0,
+              "escala": 0.3
+            },
+            {
+              "tipo": "cuadro",
+              "x": -0.4
+            },
+            {
+              "tipo": "🐚",
+              "x": 1.35,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.3,
+            "accion": "escribir",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Y unas verdades. Nunca escribí supervivencia del más apto, ni que vengamos del mono. Ni siquiera usé la palabra evolución: mi libro termina con otra, evolucionado.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.2,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "En mil ochocientos sesenta y dos me dejo la barba. Muero en mil ochocientos ochenta y dos, y me entierran en la abadía de Uéstminster.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "columna",
+              "x": -1.1
+            },
+            {
+              "tipo": "columna",
+              "x": 1.1
+            },
+            {
+              "tipo": "🕯️",
+              "x": -0.5,
+              "escala": 0.35
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.5,
+              "escala": 0.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Charls Dáruin y las personas de este vídeo fueron reales. Las cartas y fechas son reales; mis pensamientos, imaginados. ¿Tú habrías publicado ese libro?",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.3,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Cuéntamelo en los comentarios y suscríbete: el mes que viene, otra vida que cambió la historia.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "darwin",
+            "x": 0.3,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": -1
+          }
+        ],
+        "camara": "general"
+      }
+    ]
+  },
+  "publicacion": {
+    "tituloLargo": "Un mes en la vida de CHARLES DARWIN (1859) | Los 30 días antes de El origen de las especies",
+    "tituloCorto": "Un mes con Darwin",
+    "descripcion": "Treinta días en la vida de Charles Darwin, del 26 de octubre al 24 de noviembre de 1859: enfermo en el balneario de Wells House, en Ilkley (Yorkshire), mientras en Londres John Murray imprime On the Origin of Species. El primer ejemplar verde, las cartas a Henslow, Asa Gray y Wallace, los forúnculos, la carta del clérigo Charles Kingsley, la reseña anónima del Athenaeum, la venta a los libreros del 22 de noviembre y el día de la publicación.\n\n— Semana 1: El agua helada\n— Semana 2: Mi criatura\n— Semana 3: Cartas al mundo\n— Semana 4: Agotado\n— Epílogo: Huxley y Sedgwick, la segunda edición, Oxford, la barba de 1862 y tres mitos sobre Darwin\n\nQué es documentado y qué es imaginado: Charles Darwin y todas las personas de este vídeo fueron reales. Las fechas, las cartas y las cifras están documentadas por el Darwin Correspondence Project; sus pensamientos y las escenas de cada día son imaginados. Las frases entre comillas proceden de cartas fechadas; las palabras de Huxley y de Sedgwick que no hemos podido cotejar van parafraseadas. No hubo colas en las librerías: Murray vendió la edición a los libreros. «Supervivencia del más apto» es de Herbert Spencer (1864) y Darwin la adoptó en 1869.\n\nFuentes: Darwin Correspondence Project (cartas de octubre a noviembre de 1859: DCP-LETT-2513A, 2514, 2522, 2529, 2533, 2534, 2537, 2544, 2547, 2548, 729); Darwin Online (R. B. Freeman, introducción a On the Origin of Species; reseña del Athenaeum, 19 de noviembre de 1859); F. Darwin, Life and Letters of Charles Darwin, vol. 2; Historic England y Wikipedia (Wells House, Ilkley); English Heritage (Down House); series de salarios agrícolas de la Inglaterra victoriana.",
+    "etiquetas": [
+      "un mes en la vida de",
+      "Charles Darwin",
+      "El origen de las especies",
+      "1859",
+      "Ilkley",
+      "Wallace",
+      "selección natural",
+      "historia de la ciencia",
+      "personajes históricos",
+      "Huxley",
+      "biografía",
+      "historia"
+    ],
+    "miniatura": {
+      "texto": "LA IDEA PELIGROSA",
+      "escena": 19,
+      "quien": "darwin",
+      "emocion": "sorpresa",
+      "icono": "📗"
+    },
+    "shorts": [
+      {
+        "titulo": "Escribí la idea más peligrosa del siglo… y estoy en un balneario",
+        "descripcion": "Octubre de 1859: Charles Darwin espera su libro envuelto en sábanas mojadas en Ilkley (Yorkshire). #shorts #historia #darwin"
+      },
+      {
+        "titulo": "La carta que obligó a Darwin a publicar",
+        "descripcion": "Junio de 1858: Alfred Russel Wallace le envía desde Ternate su misma teoría. #shorts #historia #darwin"
+      },
+      {
+        "titulo": "Su cuerpo se rindió justo antes de publicar",
+        "descripcion": "Finales de octubre de 1859: el tobillo, la cara hinchada y el traslado al balneario. #shorts #historia #darwin"
+      },
+      {
+        "titulo": "«Como confesar un asesinato»",
+        "descripcion": "Lo que Darwin le escribió a Hooker en 1844 sobre las especies que cambian. #shorts #historia #darwin"
+      },
+      {
+        "titulo": "Su libro costaba más que la paga de una semana",
+        "descripcion": "2 y 3 de noviembre de 1859: John Murray envía el primer ejemplar de El origen de las especies. #shorts #historia"
+      },
+      {
+        "titulo": "Lo que más le pesaba a Darwin no era su libro",
+        "descripcion": "Annie, su hija favorita, y Emma, una esposa creyente que temía por él. #shorts #historia #darwin"
+      },
+      {
+        "titulo": "El clérigo que llevó a Darwin al Beagle",
+        "descripcion": "9 y 11 de noviembre de 1859: los ejemplares de regalo y la carta más difícil. #shorts #historia #darwin"
+      },
+      {
+        "titulo": "«Me temo que no aprobará a su alumno»",
+        "descripcion": "Darwin escribe a su maestro Henslow… y después al hombre que pudo quitarle la teoría. #shorts #historia"
+      },
+      {
+        "titulo": "«Dios sabe lo que pensará el público»",
+        "descripcion": "13 de noviembre de 1859: la carta de Darwin a Wallace, al otro lado del mundo. #shorts #historia #darwin"
+      },
+      {
+        "titulo": "Un clérigo le escribió a Darwin… y no le condenó",
+        "descripcion": "18 de noviembre de 1859: forúnculos, un médico optimista y la carta de Charles Kingsley. #shorts #historia"
+      },
+      {
+        "titulo": "Más de 1.500 pedidos y solo 1.192 libros",
+        "descripcion": "La reseña anónima del Athenaeum y la venta de Murray a los libreros, 22 de noviembre de 1859. #shorts #historia"
+      },
+      {
+        "titulo": "24 de noviembre de 1859: sale El origen de las especies",
+        "descripcion": "Agotado en un día (y no hubo colas). Murray pide otra edición al instante. #shorts #historia #darwin"
+      },
+      {
+        "titulo": "Dispuesto a ir a la hoguera por Darwin",
+        "descripcion": "Las cartas de Huxley y del clérigo Adam Sedgwick: dos respuestas opuestas. #shorts #historia #darwin"
+      },
+      {
+        "titulo": "Tres cosas que Darwin nunca escribió",
+        "descripcion": "Ni «supervivencia del más apto», ni «el hombre viene del mono», ni «evolución» en 1859. #shorts #historia #ciencia"
+      }
+    ]
+  },
+  "grafias": {
+    "Charls": "Charles",
+    "Dáruin": "Darwin",
+    "Ílkli": "Ilkley",
+    "Uéls": "Wells",
+    "Jaus": "House",
+    "Ternáte": "Ternate",
+    "Rásel": "Russel",
+    "Uólas": "Wallace",
+    "Láiel": "Lyell",
+    "Júker": "Hooker",
+    "Ema": "Emma",
+    "Smit": "Smith",
+    "Yon": "John",
+    "Márri": "Murray",
+    "Áni": "Annie",
+    "Málvern": "Malvern",
+    "Ása": "Asa",
+    "Grei": "Gray",
+    "Ágasi": "Agassiz",
+    "Fólkoner": "Falconer",
+    "Jénslou": "Henslow",
+    "Quéimbrich": "Cambridge",
+    "Bígol": "Beagle",
+    "Lábok": "Lubbock",
+    "Jáksli": "Huxley",
+    "Kíngsli": "Kingsley",
+    "Atenéum": "Athenaeum",
+    "Tómas": "Thomas",
+    "Séchuik": "Sedgwick",
+    "Dáun": "Down",
+    "Uéstminster": "Westminster"
+  }
+}
