@@ -19,6 +19,9 @@ node scripts/revisar_voz.mjs <slug>                         # whisper frase a fr
 node scripts/producir.mjs <slug> --sin-render               # mete los tiempos reales de cada palabra (subtítulos)
 node scripts/producir.mjs <slug> --muestras                 # render del largo + mezcla a -14 LUFS + miniaturas
 node scripts/shorts.mjs <slug>                              # trocea el largo en shorts verticales de 45–60 s
+node scripts/publicacion.mjs <slug>                         # publicacion.md con capítulos (minutos) y un título por short real
+# En serie y reanudable: bash scripts/voces.sh <slugs…>; bash scripts/render.sh <slugs…>; bash scripts/cierre.sh <slugs…>
+# cierre.sh corrige el pico real si pasa de -1 dBTP (scripts/pico.sh) y corta los shorts.
 ```
 
 - **30 fps.** Fundidos encadenados entre planos (nunca a negro), personajes que enlazan posición y pose entre escenas del mismo fondo, parpadeo al azar cada 3–6 s, respiración, pelo y ropa con retraso, paralaje y primer plano automáticos.

@@ -61,3 +61,14 @@ Visto de nuevo `salida/zombis-2031/largo.mp4` (10:18) con fotogramas cada 15 s, 
 - La tarjeta de CONPLAN en mitad de la huida y la vuelta rápida de Asun siguen ahí (son del guion, asumidos).
 
 Recomiendo repetir solo el plano del charco (escena 55) antes de publicar: es lo único grave que queda y es la imagen que da sentido al título del final.
+
+## Tercera vuelta
+
+He vuelto a ver el render del 11 de noviembre (01:29), con fotogramas cada 15 s y uno cada 3 s en el giro final (9:12–9:39).
+
+**Nota: 8 / 10** (antes 7,5)
+
+- **El giro final está arreglado.** En plano general y bajo la lluvia, en la calle de la Magdalena, el gris se inclina sobre un charco que se ve bien a sus pies. Pasa justo cuando la voz dice «se agachó junto al charco y bebió», y el plano se mantiene mientras suena «casos nuevos en Valencia». Después corta a Hugo en el tejado con la radio. Ahora la imagen clave se entiende sin sonido.
+- **Hugo** lleva chaqueta corta y pantalón: ya parece un técnico y no lleva un abrigo-vestido. **El cubo** es un cubo azul de verdad, tanto en el ataque (3:45) como en la nave (7:45). Se acabó la gota flotante.
+- Se mantienen la invasión en la niebla (6:42), el Pilar en los exteriores y el puente de Piedra en el cierre.
+- Lo que queda es menor: los fondos de ciudad siguen siendo bloques genéricos con la torre del Pilar delante, y la Torre del Agua sigue siendo un cuarto con ojo de buey. La tarjeta CONPLAN y la vuelta rápida de Asun son del guion (asumidas). No queda nada grave. Se puede publicar.

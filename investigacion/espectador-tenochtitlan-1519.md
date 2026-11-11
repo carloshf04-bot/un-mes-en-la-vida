@@ -61,3 +61,14 @@ Visto de nuevo `salida/tenochtitlan-1519/largo.mp4` (11:21) con fotogramas cada 
 - El tramo de curiosidades (7:06–9:02) y el epílogo que resume Tóxcatl, la Noche Triste y la viruela en 40 s siguen ahí (son del guion, asumidos). Ahora pasan mejor porque cada dato tiene un plano con el templo detrás.
 
 Publicable si se cambian el queso, el pan, las manzanas y la tableta de chocolate. Es un cambio de props.
+
+## Tercera vuelta
+
+He vuelto a ver el render del 11 de noviembre (01:04), con fotogramas cada 15 s y uno cada 3 s en el mercado (4:45–5:12).
+
+**Nota: 8 / 10** (antes 7,5)
+
+- **El mercado está arreglado.** Los puestos llevan maíz, chiles, frijoles y pescado, y ya no hay queso, pan ni manzanas. Las mujeres llevan cestos de mimbre.
+- **El cacao está arreglado.** Moctezuma tiene en la mano unas semillas rojizas (7:15) y no una tableta. De lejos pueden parecer frijoles, pero no chirrían.
+- **Interiores:** la casa de Tóchtli y el palacio son ahora de sillares grises, sin ventanas de cristal. Ya no parecen europeos, aunque la casa de un remero y el palacio comparten la misma pared. Para distinguirlos, a la casa le iría mejor el adobe claro.
+- Lo que queda es del guion y ya está asumido: el tramo de curiosidades de 7:06 a 9:02 y el epílogo resumido. No queda nada grave en la imagen. Se puede publicar.
