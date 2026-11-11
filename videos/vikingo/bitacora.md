@@ -25,3 +25,4 @@
 2026-11-11 · 4 · Dirección · whisper: 50 frases «con fallos», pero 31 eran nombres nórdicos mal transcritos (Wolf/Ulf, Edebi/Hedeby…); comprobación cambiada a letra a letra con alias de nombres → 19 fallos reales (finales inventados, repeticiones) que se regeneran
 2026-11-11 · 4 · Dirección · voz terminada: 860,35 s (14:20), 238/238 frases comprobadas con whisper · a montaje con la voz real
 2026-11-11 · 5 · Dirección · un reinicio del contenedor cortó el render horizontal al 45 %; nuevo render por tramos de 60 s que se retoma (scripts/render_tramos.sh)
+2026-11-11 · 5 · Dirección · render horizontal: 480/860 s hechos en 4 tramos (~40 min por tramo de 3 min); retomado tras un reinicio
