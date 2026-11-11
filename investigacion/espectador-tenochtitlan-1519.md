@@ -41,3 +41,23 @@ El texto es bueno: «unos extranjeros con perros enormes van a caminar sobre el 
 2. **(Grave)** Hay que meter en cuadro a Moctezuma en el encuentro (escenas 18–20), poner multitud en el mercado y en los tejados, y un caballo grande.
 3. **(Media)** Apretar de 7:06 a 9:02: sacar 3 o 4 curiosidades (300 platos, flechas, pelo de los sacerdotes) o repartirlas antes de la prisión, y quitar 2 o 3 tarjetas de dato.
 4. **(Menor)** Acortar el epílogo (escenas 52–54) a una sola frase.
+
+## Segunda vuelta
+
+Visto de nuevo `salida/tenochtitlan-1519/largo.mp4` (11:21) con fotogramas cada 15 s. El texto y la voz no han cambiado, solo los planos.
+
+**Nota: 7,5 / 10** (antes 6)
+
+### Qué se ha arreglado
+- **Tenochtitlan aparece por fin.** Hay una ciudad blanca sobre el lago con pirámides escalonadas, el volcán humeando, canoas, chinampas con maíz y ahuejotes. Se acabaron las almenas europeas y las columnas griegas. Desde el gancho (0:00) se ve que el niño vive en una isla de un lago.
+- **El encuentro Moctezuma–Cortés se ve** (3:24–3:57). Moctezuma, con su penacho verde, está en cuadro; los señores frenan a Cortés con el brazo y se ve el collar de cuentas. Es la escena clave y ahora funciona.
+- **El Templo Mayor tiene sus dos santuarios**, rojo y azul (5:24, 7:33 y siguientes), y sirve de fondo al tzompantli, a la quema y a Tóxcatl.
+- Los tejados y las canoas tienen gente (3:01, cuatro vecinos señalando). El mercado tiene puestos con toldo y varias personas (4:50–5:13). El caballo ya es más grande que un perro y va al galope. La prisión de Moctezuma ocurre en un interior de piedra con antorchas y se le ve llorar (6:43). La tarjeta «Tras la pared tapiada» con el tesoro queda bien.
+
+### Lo que queda
+- **(Media) Anacronismos de comida en el mercado (4:45–5:13).** Los puestos llevan cuñas de queso, una barra de pan y manzanas: nada de eso existía en Mesoamérica en 1519, y justo después el guion dice que los extranjeros comparan el tecuítlatl con el queso. A las 7:15 el cacao de Moctezuma es una **tableta de chocolate envuelta en papel rojo**. Cualquier espectador mexicano lo comentará. Hay que poner maíz, chiles, cacao en grano, pavos, frijoles y mantas.
+- **(Menor) Los interiores siguen siendo europeos**: la casa de Tóchtli tiene pared de ladrillo con ventana de cristal (1:30, 10:00) y el palacio de Axayácatl, muro de sillares con ventana acristalada. Pegaría más adobe encalado con un vano sin cristal.
+- (Menor) El mercado de «60.000 personas» sigue siendo una fila de cuatro puestos y el caballo sigue siendo algo pequeño, aunque ya no molesta.
+- El tramo de curiosidades (7:06–9:02) y el epílogo que resume Tóxcatl, la Noche Triste y la viruela en 40 s siguen ahí (son del guion, asumidos). Ahora pasan mejor porque cada dato tiene un plano con el templo detrás.
+
+Publicable si se cambian el queso, el pan, las manzanas y la tableta de chocolate. Es un cambio de props.

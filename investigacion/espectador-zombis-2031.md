@@ -42,3 +42,22 @@ Muy bueno. Cliffhanger claro y pregunta al público con opción («¿habrías sa
 4. **(Menor)** Quitar la tarjeta de CONPLAN de en medio de la huida (pasarla al «qué es real»), poner un cubo de verdad en la escena 22 y dar un decorado propio al súper.
 
 No obliga a rehacerlo entero, pero los dos planos clave (la invasión y el gris que bebe) merecen repetirse antes de publicar.
+
+## Segunda vuelta
+
+Visto de nuevo `salida/zombis-2031/largo.mp4` (10:18) con fotogramas cada 15 s, más fotogramas cada 2 s en la invasión (6:38–6:56) y en el giro final (9:16–9:34). El texto y la voz no han cambiado, solo los planos.
+
+**Nota: 7,5 / 10** (antes 7)
+
+### Qué se ha arreglado
+- **La invasión de Ranillas ya se ve** (6:42–6:54). Una masa de seis grises avanza en la niebla junto a las tiendas, la bandera y el bidón con fuego, con las torres del Pilar al fondo. Ya no hay una tarjeta de cita: el clímax tiene imagen.
+- **Zaragoza se reconoce más.** La torre del Pilar con sus cúpulas verdes asoma en casi todos los exteriores (2:15, 2:45, 5:00, 5:45, 8:00) y el cierre se hace en el puente de Piedra sobre el Ebro (9:45). El casco viejo de la Magdalena, con casas bajas, se distingue de los bloques.
+- **El cubo de Nora es un cubo** (3:45), y el gris sigue en cuadro cuando Hugo se lo lanza. El súper del Coso ya no tiene libros: tiene cajas, latas y barriles.
+
+### Lo que queda
+- **(Media-alta, sin arreglar) El gris que bebe (9:23–9:36).** Es la imagen del giro final y sigue sin verse. El plano es un primer plano del gris de pie, con los brazos caídos, delante de las casas: el charco queda fuera de cuadro (o no está) y no se agacha ni bebe. Mientras la voz dice «se agachó junto al charco y bebió», el espectador ve a un zombi quieto. Hay que encuadrarlo en plano general, con un charco visible a sus pies y una pose agachada o de rodillas (si no existe, añadir una acción «beber» o «agacharse»).
+- (Menor) Hugo sigue con el abrigo largo abotonado y el cinturón naranja, que de lejos parece un uniforme o un vestido. Y vuelve a sostener una gota de agua flotante como objeto (5:45 y 7:45).
+- (Menor) Los fondos de ciudad siguen siendo rascacielos genéricos con el Pilar delante. La Torre del Agua (7:16) sigue siendo un cuarto con ojo de buey.
+- La tarjeta de CONPLAN en mitad de la huida y la vuelta rápida de Asun siguen ahí (son del guion, asumidos).
+
+Recomiendo repetir solo el plano del charco (escena 55) antes de publicar: es lo único grave que queda y es la imagen que da sentido al título del final.

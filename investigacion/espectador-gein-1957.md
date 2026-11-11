@@ -39,3 +39,25 @@ Cierra bien, pero **no deja con ganas**. La historia está cerrada y la llamada 
 4. **(Menor)** Quitar la escena 2 o meterla en la 1.
 
 No hace falta rehacerlo: el clímax sostiene el vídeo. Los fallos son de decorado y de un tramo lento a los 2–4 min.
+
+## Segunda vuelta
+
+Visto de nuevo `salida/gein-1957/largo.mp4` (11:35) con fotogramas cada 15 s. El texto y la voz no han cambiado, solo los planos.
+
+**Nota: 8 / 10** (antes 7,5)
+
+### Qué se ha arreglado
+- **La ferretería ya es una ferretería.** Tiene mostrador, caja registradora, barriles, cajas, latas y anticongelante. Se acabaron las estanterías de libros.
+- **La taberna de Mary Hogan tiene decorado propio**, con pared de ladrillo, barriles y cerveza. Mary sale en cuadro (3:00) y en las escenas del casquillo hay un cazador. El tramo de 2:09 a 3:55 sigue siendo el más lento, pero ahora se ve dónde estamos.
+- **Ed ya parece un hombre de 51 años**: camisa de cuadros, pantalón y gorra. Ya no lleva el abrigo que parecía un vestido.
+- **El incendio de 1958 (9:30) es la casa ardiendo**, con llamas en el tejado y las ventanas y Lester asustado delante. Funciona.
+- La camioneta que sale de la ferretería se ve (5:30, pequeña pero se lee). Bernice ya no sale cortada a las 5:00. En el «Mito frente a realidad» la motosierra es ahora una sierra, que sirve.
+- El sheriff con linterna y el coche patrulla delante de la granja de noche (6:45–7:06) quedan muy bien. La sala del detector de mentiras tiene su máquina.
+
+### Lo que queda (menor)
+- La escena de Laika (2:09) sigue siendo Ed sentado en su cuarto. El capítulo «Los hombres de rojo» no casa del todo con la imagen, pero los cazadores de rojo llegan a los 15 s.
+- Los iconos de coche de las tarjetas (1:30, 9:45) son un utilitario rojo moderno de dibujo, no un Ford de 1949.
+- El mapa de West Plainfield (6:15) es la misma mancha genérica que el de Plainfield.
+- El epílogo de fechas (9:12–10:29) sigue sonando a enciclopedia, pero ya está asumido (es del guion).
+
+Listo para publicar.
