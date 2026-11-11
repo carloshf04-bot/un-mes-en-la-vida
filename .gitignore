@@ -9,3 +9,4 @@ videos/*/pruebas/**/*.png
 videos/*/pruebas/**/*.jpg
 videos/*/pruebas/*.log
 __pycache__/
+videos/*/entregas/

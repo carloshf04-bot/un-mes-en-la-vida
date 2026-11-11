@@ -43,7 +43,7 @@ function page(W, H) {
   .hook b{color:${t.accent};font-weight:900}
   .serie{position:absolute;${v ? `left:0;right:0;bottom:${H * 0.045}px;text-align:center` : `left:${W * 0.04}px;bottom:${H * 0.07}px`};}
   .serie .a{font:900 ${v ? 50 : 34}px Inter;color:#fff;-webkit-text-stroke:6px ${C.ink};paint-order:stroke fill;letter-spacing:1px}
-  .serie .b{font-family:"T";font-weight:900;font-size:${Math.round(Math.min(v ? 150 : 96, (v ? 960 : 720) / (cfg.who.length * 0.74)))}px;line-height:1;color:${t.title};-webkit-text-stroke:${v ? 10 : 8}px ${C.ink};paint-order:stroke fill;text-shadow:0 8px 0 ${C.ink}}
+  .serie .b{margin-top:${v ? 34 : 22}px;font-family:"T";font-weight:900;font-size:${Math.round(Math.min(v ? 150 : 96, (v ? 960 : 720) / (cfg.who.length * 0.74)))}px;line-height:1;color:${t.title};-webkit-text-stroke:${v ? 10 : 8}px ${C.ink};paint-order:stroke fill;text-shadow:0 8px 0 ${C.ink}}
   .badge{position:absolute;${v ? `left:50%;top:${H * 0.3}px;margin-left:-${W * 0.32}px` : `left:${W * 0.05}px;top:${H * 0.47}px`};background:${t.badge};color:#fff;font:900 ${v ? 64 : 46}px Inter;padding:${v ? "14px 34px" : "10px 24px"};border:7px solid ${C.ink};border-radius:24px;transform:rotate(${v ? -3 : -4}deg);box-shadow:0 10px 0 ${C.ink}}
   </style></head><body>
   <div class="rays"></div>${extras}<div class="ground"></div>
