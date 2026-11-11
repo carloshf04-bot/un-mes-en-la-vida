@@ -1,0 +1,2207 @@
+{
+  "slug": "abidos-1270ac",
+  "titulo": "un sacerdote de Osiris",
+  "lugar": "Abidos, Alto Egipto",
+  "epoca": "Mes de Joiak, hacia 1270 a. C.",
+  "categoria": "profesion",
+  "voz": "narrador-es",
+  "drama": 0.7,
+  "velocidad": 1.15,
+  "musica": "misterio",
+  "paleta": {
+    "acento": "#c8932f",
+    "texto": "#f5efe0",
+    "fondo": "#14121c",
+    "papel": "#efe2c0"
+  },
+  "reparto": {
+    "najt": {
+      "piel": "#9c6a44",
+      "pelo": "#1a1410",
+      "peinado": "calvo",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#f2ede0",
+        "color2": "#ece4cf",
+        "detalle": "#d9cfb6"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#efe6d0"
+    },
+    "amenemope": {
+      "piel": "#8a5a38",
+      "pelo": "#1a1410",
+      "peinado": "calvo",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#f4efe2",
+        "color2": "#ece4cf",
+        "detalle": "#ffffff"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 0.97,
+      "zapatos": "#efe6d0"
+    },
+    "profeta": {
+      "piel": "#94603c",
+      "pelo": "#1a1410",
+      "peinado": "calvo",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#f4efe2",
+        "color2": "#ece4cf",
+        "detalle": "#c99a4b"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 1.03,
+      "zapatos": "#efe6d0"
+    },
+    "uab2": {
+      "piel": "#a8744c",
+      "pelo": "#1a1410",
+      "peinado": "calvo",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#f0eadb",
+        "color2": "#e8dfc8",
+        "detalle": "#d4c9ae"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 1.02,
+      "zapatos": "#efe6d0"
+    },
+    "escriba": {
+      "piel": "#9a6842",
+      "pelo": "#1a1410",
+      "peinado": "calvo",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#ede5d2",
+        "color2": "#e2d8c0",
+        "detalle": "#b89a6a"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 0.98,
+      "zapatos": "#e6dcc4"
+    },
+    "iset": {
+      "piel": "#a8744c",
+      "pelo": "#1a1410",
+      "peinado": "largo",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#efe6d2",
+        "color2": "#e6dcc4",
+        "detalle": "#2f8f8a"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 0.94,
+      "zapatos": "#e6dcc4",
+      "voz": "narradora-es"
+    },
+    "pairi": {
+      "piel": "#9c6a44",
+      "pelo": "#1a1410",
+      "peinado": "rapado",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#ece4cf",
+        "color2": "#ece4cf",
+        "detalle": "#d9cfb6"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 0.6,
+      "zapatos": "#8a5a38"
+    },
+    "tuy": {
+      "piel": "#a8744c",
+      "pelo": "#1a1410",
+      "peinado": "rapado",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#ece4cf",
+        "color2": "#e6dcc4",
+        "detalle": "#2f8f8a"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 0.55,
+      "zapatos": "#8a5a38",
+      "voz": "narradora-es"
+    },
+    "enemigo1": {
+      "piel": "#8a5a38",
+      "pelo": "#1a1410",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#c4b28c",
+        "color2": "#b09c76",
+        "detalle": "#8b6b4a"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 1.03,
+      "zapatos": "#8a5a38"
+    },
+    "enemigo2": {
+      "piel": "#b07a4f",
+      "pelo": "#2a1e16",
+      "peinado": "rizado",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#a8442a",
+        "color2": "#c4b28c",
+        "detalle": "#8b6b4a"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#b07a4f"
+    },
+    "peregrino": {
+      "piel": "#8a5a38",
+      "pelo": "#2a1e16",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#d8c9a6",
+        "color2": "#c4b28c",
+        "detalle": "#a8442a"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 0.98,
+      "zapatos": "#8a5a38"
+    },
+    "peregrina": {
+      "piel": "#b07a4f",
+      "pelo": "#1a1410",
+      "peinado": "largo",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#d8c9a6",
+        "color2": "#c4b28c",
+        "detalle": "#c8932f"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 0.93,
+      "zapatos": "#b07a4f",
+      "voz": "narradora-es"
+    }
+  },
+  "largo": {
+    "escenas": [
+      {
+        "corte": true,
+        "texto": "Este mes voy a cargar a hombros a un dios muerto hasta su tumba, en el desierto. Y cuando yo muera, mi propio corazón podrá delatarme ante él.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "valle",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "palmera",
+              "x": -1.25
+            },
+            {
+              "tipo": "antorcha",
+              "x": -0.75
+            },
+            {
+              "tipo": "antorcha",
+              "x": 1.0
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Me llamo Najt, tengo treinta y un años y soy sacerdote uab, un puro: el escalón más bajo del templo de Osiris, en Abidos.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": 0.35,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Es el décimo año de Ramsés segundo, hacia mil doscientos setenta antes de Cristo. Sirvo al dios un mes de cada cuatro. El resto del año, soy un vecino más.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "casa-adobe",
+              "x": -1.1
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.2
+            },
+            {
+              "tipo": "palmera",
+              "x": -0.55
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": 0.3,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Abidos, Alto Egipto",
+          "detalle": "Templo de Osiris · hacia 1270 a. C. · año 10 de Ramsés II",
+          "icono": "📍"
+        }
+      },
+      {
+        "texto": "Mi padre murió el año pasado, y le debo algo que no puedo pagar. Este mes voy a descubrir qué me espera a mí cuando cruce al otro lado.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": -0.45,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "iset",
+            "x": 0.15,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "pairi",
+            "x": 0.55,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "tuy",
+            "x": 0.85,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 1,
+        "capitulo": "Afeitado de pies a cabeza",
+        "corte": true,
+        "texto": "Es el primer día del mes de Joiák, y para servir a mi dios tengo que arrancarme hasta las cejas. Navaja de bronce: cráneo, cejas y todo el cuerpo.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "amanecer",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "palmera",
+              "x": -1.2
+            },
+            {
+              "tipo": "columna",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": 0.3,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 1,
+        "texto": "Después, agua fría del lago sagrado y natrón en la boca, la misma sal con la que secamos a los muertos. Solo puedo vestir lino blanco.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": -0.2,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 1,
+        "texto": "Mi turno recibe el templo del turno que se marcha. Contamos vasos, lámparas, piezas de lino y sellos de barro. Si falta algo, la culpa es nuestra.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "amanecer",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "antorcha",
+              "x": -1.2
+            },
+            {
+              "tipo": "puerta",
+              "x": 0.95
+            },
+            {
+              "tipo": "jarron",
+              "x": -0.7
+            },
+            {
+              "tipo": "antorcha",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": -0.35,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "uab2",
+            "x": 0.45,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "🏺"
+          }
+        ],
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Para ser puro",
+          "items": [
+            {
+              "icono": "🔪",
+              "nombre": "Navaja de bronce"
+            },
+            {
+              "icono": "💧",
+              "nombre": "Agua fría y natrón"
+            },
+            {
+              "icono": "🤍",
+              "nombre": "Solo lino blanco"
+            },
+            {
+              "icono": "🩴",
+              "nombre": "Sandalias claras"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 2,
+        "texto": "Al alba del segundo día, un profeta rompe el sello de barro del santuario y abre la cara del dios. Yo me quedo fuera, vertiendo el agua de la libación.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "profeta",
+            "x": 0.55,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "najt",
+            "x": -0.35,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "💧"
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 2,
+        "corte": true,
+        "texto": "Nunca he visto la cara de Osiris. Los uab no pasamos de la puerta: cargamos, limpiamos, quemamos resina. Y el que sale barre sus propias huellas.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": -0.1,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 3,
+        "texto": "Al tercer día, Íset me trae pan a la puerta del templo. Ella no puede entrar, y yo no puedo tocarla: durante el turno vivo apartado.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "columna",
+              "x": -1.25
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.25
+            },
+            {
+              "tipo": "🐂",
+              "x": 0.95,
+              "escala": 1.6
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "iset",
+            "x": 0.4,
+            "accion": "cargar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "🍞"
+          }
+        ]
+      },
+      {
+        "dia": 3,
+        "texto": "Ella es cantora de Osiris; su sistro sonará en la gran fiesta. Me pregunta por la deuda con mi padre, y yo bajo la mirada.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": -0.4,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "iset",
+            "x": 0.4,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 4,
+        "texto": "Al cuarto día llegan barcazas con grano y bueyes de las tierras del templo. Un escriba me recuerda el decreto del difunto rey Seti contra quien robe al dios.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": -0.5,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "🌾"
+          },
+          {
+            "quien": "escriba",
+            "x": 0.3,
+            "accion": "senalar",
+            "emocion": "enfado",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "📜"
+          }
+        ],
+        "insercion": {
+          "tipo": "dato",
+          "valor": "100 bastonazos",
+          "etiqueta": "y cinco heridas abiertas: castigo del Decreto de Nauri (Seti I) por robar al templo (según las traducciones)",
+          "icono": "⚖️"
+        }
+      },
+      {
+        "dia": 5,
+        "corte": true,
+        "texto": "En la pared del templo nuevo hay setenta y seis reyes. Y faltan los que alguien quiso borrar.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "jeroglificos",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "columna",
+              "x": -1.25
+            },
+            {
+              "tipo": "estatua",
+              "x": 1.2
+            },
+            {
+              "tipo": "columna",
+              "x": 0.7
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": -0.3,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 5,
+        "texto": "Es el templo del difunto rey Seti, que su hijo Ramsés está terminando. En la piedra, Seti y el joven Ramsés honran a sus antepasados, del primero hasta él.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 5,
+        "texto": "Busco a la reina que gobernó como un rey, y no está. Tampoco el rey hereje que despreció a nuestros dioses. Hasta la piedra sabe callar.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": 0.1,
+            "accion": "pensar",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 6,
+        "texto": "Al sexto día, mi maestro Amenémope, el sacerdote lector, me habla de Ijernófret. Hace seiscientos años grabó en piedra lo que vamos a hacer. Pero calló el secreto.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "amenemope",
+            "x": -0.45,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "📜"
+          },
+          {
+            "quien": "najt",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "insercion": {
+          "tipo": "dato",
+          "valor": "600 años",
+          "etiqueta": "separan a Najt de la estela de Ijernofret (h. 1870 a. C.), la principal descripción de los misterios de Osiris",
+          "icono": "📜"
+        }
+      },
+      {
+        "dia": 8,
+        "capitulo": "Un dios de barro y grano",
+        "corte": true,
+        "texto": "Este año sembramos a un dios. Al octavo día, el agua de la crecida se retira y deja la tierra negra y brillante.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "amanecer",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "palmera",
+              "x": -1.2
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": 1.15
+            },
+            {
+              "tipo": "🌿",
+              "x": 0.4,
+              "escala": 0.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": 0.35,
+            "accion": "caminar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 8,
+        "texto": "Mi hijo Pairi, de diez años, me pregunta de dónde sale tanta agua. Le digo lo que me enseñaron: brota del cuerpo de Osiris.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": -0.35,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "pairi",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 10,
+        "texto": "Al décimo día llenamos moldes con forma del dios: tierra fina del Nilo y semilla de grano. Amenémope recita, y yo repito sus palabras, sílaba a sílaba.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.05
+            },
+            {
+              "tipo": "🏺",
+              "x": -1.15,
+              "escala": 0.45
+            },
+            {
+              "tipo": "antorcha",
+              "x": 1.3
+            },
+            {
+              "tipo": "🌾",
+              "x": 0.05,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "amenemope",
+            "x": -0.6,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "📜"
+          },
+          {
+            "quien": "najt",
+            "x": 0.35,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 12,
+        "texto": "Dos días después los regamos con agua del lago. Si brotan, Osiris vuelve a la vida dentro del templo. Si no brotan… nadie quiere pensarlo.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": 0.3,
+            "accion": "cargar",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "💧"
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "Osiris de grano",
+          "etiqueta": "figuras de tierra y cebada que se regaban hasta brotar (documentadas desde la dinastía XVIII)",
+          "icono": "🌾"
+        }
+      },
+      {
+        "dia": 13,
+        "corte": true,
+        "texto": "Mientras riego, pienso en mi padre. Murió sin el rollo que guía a los muertos en el juicio. Un libro así cuesta lo que un obrero gana en meses.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": 0.3,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 14,
+        "texto": "Al día siguiente vienen Íset y los niños. La pequeña Tuy me enseña un escarabajo de piedra, comprado con el lino que tejió su madre. Es para mí.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "valle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "columna",
+              "x": -1.25
+            },
+            {
+              "tipo": "columna",
+              "x": 1.25
+            },
+            {
+              "tipo": "palmera",
+              "x": 0.95
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": -0.6,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tuy",
+            "x": -0.1,
+            "accion": "cargar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "🪲"
+          },
+          {
+            "quien": "iset",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "pairi",
+            "x": 0.85,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 14,
+        "texto": "Cuando muera, irá sobre mi pecho, porque mi propio corazón puede delatarme. Lleva escrito un ruego: corazón mío, no te levantes contra mí como testigo.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": -0.2,
+            "accion": "pensar",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "🪲"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 14,
+        "texto": "En el juicio, Anubis pesa mi corazón contra la pluma de Maát, la verdad. Si pesa más, lo devora Ámmit, mitad cocodrilo, león e hipopótamo, y dejo de existir.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "jeroglificos",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "antorcha",
+              "x": -1.2
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "🪔",
+              "x": 1.0,
+              "escala": 0.3
+            },
+            {
+              "tipo": "antorcha",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": 0.35,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "El juicio del corazón",
+          "items": [
+            {
+              "icono": "⚖️",
+              "nombre": "La balanza de Anubis"
+            },
+            {
+              "icono": "❤️",
+              "nombre": "El corazón del muerto"
+            },
+            {
+              "icono": "🪶",
+              "nombre": "La pluma de Maat"
+            },
+            {
+              "icono": "🐊",
+              "nombre": "Ammit, la devoradora"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 15,
+        "corte": true,
+        "texto": "Cuarenta y dos jueces. Cuarenta y dos veces tendré que decir: yo no fui. Amenémope me hace recitarlas una a una, sin mirar el papiro.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "amenemope",
+            "x": -0.5,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "📜"
+          },
+          {
+            "quien": "najt",
+            "x": 0.4,
+            "accion": "hablar",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 15,
+        "texto": "No he robado. No he matado. No he hecho llorar a nadie. No he quitado la leche de la boca de los niños. Hasta ahí, mi voz no tiembla.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "amenemope",
+            "x": -0.5,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "📜"
+          },
+          {
+            "quien": "najt",
+            "x": 0.4,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 15,
+        "texto": "Hasta que llega una: no he mentido. Me callo. Le prometí a mi padre, enfermo, que tendría su rollo. Y se fue sin él.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.05
+            },
+            {
+              "tipo": "🌿",
+              "x": 0.05,
+              "escala": 0.35
+            },
+            {
+              "tipo": "🏺",
+              "x": -1.15,
+              "escala": 0.45
+            },
+            {
+              "tipo": "antorcha",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": 0.2,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 16,
+        "texto": "Al día siguiente, en la tierra negra de los moldes asoman hilos verdes. Osiris brota. Quizá los dioses perdonan más de lo que temo.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": 0.35,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "🌿"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 17,
+        "capitulo": "La batalla por la barca",
+        "corte": true,
+        "texto": "Todos los años, en mi pueblo, se pelea a golpes para defender a un muerto. Este año, me toca a mí.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "antorcha",
+              "x": -1.25
+            },
+            {
+              "tipo": "jarron",
+              "x": -0.8
+            },
+            {
+              "tipo": "🏺",
+              "x": 1.0,
+              "escala": 0.45
+            },
+            {
+              "tipo": "antorcha",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 17,
+        "texto": "Preparamos la barca del dios, la Neshmet: la doramos, montamos su cabina velada y probamos las varas. Yo soy uno de los que la llevarán a hombros.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": -0.4,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "uab2",
+            "x": 0.45,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Dirigí la procesión de Upuaut cuando salió a defender a su padre.",
+          "firma": "Estela de Ijernofret, h. 1870 a. C. (paráfrasis)"
+        }
+      },
+      {
+        "dia": 18,
+        "texto": "Al amanecer sale primero el estandarte de Upuáut, el dios lobo que abre los caminos. Es el hijo que va a defender a su padre.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "desierto",
+          "hora": "dia",
+          "clima": "polvo",
+          "props": [
+            {
+              "tipo": "🐺",
+              "x": -1.15,
+              "escala": 1.6
+            },
+            {
+              "tipo": "roca",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "profeta",
+            "x": -0.55,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "najt",
+            "x": 0.05,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "uab2",
+            "x": 0.55,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 18,
+        "texto": "Entonces nos atacan. Hombres del pueblo hacen de enemigos de Osiris y se lanzan contra la barca. Es teatro, dicen. Los palos no lo saben.",
+        "drama": 0.9,
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": -0.4,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "enemigo1",
+            "x": 0.25,
+            "accion": "correr",
+            "emocion": "enfado",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "enemigo2",
+            "x": 0.75,
+            "accion": "correr",
+            "emocion": "enfado",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 18,
+        "corte": true,
+        "texto": "Un palo me abre la frente. Sangro sobre el lino blanco y caigo de rodillas en la arena. Y un sacerdote que sangra es un sacerdote impuro.",
+        "drama": 0.9,
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": -0.25,
+            "accion": "triste",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "enemigo1",
+            "x": 0.5,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 19,
+        "texto": "Al día siguiente no puedo pisar el santuario. Íset me cura en casa con miel y vendas de lino, cantando bajito, como canta para el dios.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "casa-adobe",
+              "x": -1.1
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.2
+            },
+            {
+              "tipo": "horno",
+              "x": 0.75
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": -0.35,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "iset",
+            "x": 0.3,
+            "accion": "trabajar",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "🍯"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 19,
+        "texto": "Ijernófret lo dejó escrito hace seiscientos años: rechazó a los que atacaban la barca. Ahora sé lo que duele defenderla.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": -0.35,
+            "accion": "pensar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "iset",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Rechacé a los que atacaban la barca Neshmet y abatí a los enemigos de Osiris.",
+          "firma": "Estela de Ijernofret (paráfrasis de Lichtheim)"
+        }
+      },
+      {
+        "dia": 20,
+        "texto": "Al vigésimo día, con la frente vendada, vuelvo a mi vara. Empieza la Gran Salida: el dios se va al desierto, camino de su tumba en Péker.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "valle",
+          "hora": "dia",
+          "clima": "polvo",
+          "props": [
+            {
+              "tipo": "🐺",
+              "x": 1.15,
+              "escala": 1.6
+            },
+            {
+              "tipo": "palmera",
+              "x": -1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "uab2",
+            "x": -0.6,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "najt",
+            "x": 0.0,
+            "accion": "cargar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "peregrino",
+            "x": 0.65,
+            "accion": "caminar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 20,
+        "corte": true,
+        "texto": "Miles de personas siguen a la barca entre gritos y sistros. Yo la llevo al hombro, descalzo en la arena, con el peso de un dios clavado en la clavícula.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "uab2",
+            "x": -0.55,
+            "accion": "cargar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "najt",
+            "x": 0.05,
+            "accion": "cargar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "peregrina",
+            "x": 0.65,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 21,
+        "texto": "Esa noche hago guardia junto a la tumba de un dios. Tiene mil setecientos años. Y en realidad perteneció a Yer, uno de los primeros reyes de Egipto.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "desierto",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "antorcha",
+              "x": -1.0
+            },
+            {
+              "tipo": "hoguera",
+              "x": 1.1
+            },
+            {
+              "tipo": "🏺",
+              "x": -0.55,
+              "escala": 0.4
+            },
+            {
+              "tipo": "🏺",
+              "x": 0.7,
+              "escala": 0.35
+            },
+            {
+              "tipo": "antorcha",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "🔥"
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 21,
+        "texto": "Es la noche en Péker. El sumo sacerdote y los grandes entran en la tumba con lámparas. Yo vigilo fuera, con mi antorcha, entre vasijas de ofrenda.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": -0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "🔥"
+          },
+          {
+            "quien": "profeta",
+            "x": 0.75,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "sale": "der"
+          }
+        ],
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1.700 años",
+          "etiqueta": "tenía la tumba del rey Dyer (h. 3000 a. C.), venerada como la tumba de Osiris en Peqer",
+          "icono": "🏺"
+        }
+      },
+      {
+        "dia": 21,
+        "texto": "Solo oigo cantos dentro, y luego un silencio muy largo. Lo que pasa ahí dentro nadie lo contó jamás. Y yo tampoco lo sabré.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": 0.1,
+            "accion": "pensar",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "🔥"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 22,
+        "corte": true,
+        "texto": "Al amanecer llega el gran combate en la orilla de Nédit, donde dicen que cayó Osiris. Los enemigos del dios caen, uno tras otro, en la arena.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "desierto",
+          "hora": "amanecer",
+          "clima": "polvo",
+          "props": [
+            {
+              "tipo": "🐺",
+              "x": -1.2,
+              "escala": 1.6
+            },
+            {
+              "tipo": "roca",
+              "x": 1.25
+            },
+            {
+              "tipo": "antorcha",
+              "x": 0.95
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": -0.45,
+            "accion": "celebrar",
+            "emocion": "enfado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "enemigo1",
+            "x": 0.3,
+            "accion": "dormir",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "enemigo2",
+            "x": 0.8,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 22,
+        "texto": "Upuáut ha vengado a su padre. Osiris vuelve a su templo en la barca, y yo con él, llorando sin vergüenza, con la herida sangrando de nuevo.",
+        "drama": 0.9,
+        "personajes": [
+          {
+            "quien": "uab2",
+            "x": -0.55,
+            "accion": "cargar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "najt",
+            "x": 0.1,
+            "accion": "cargar",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 22,
+        "texto": "Las cantoras agitan sus sistros, y entre ellas está Íset. Después de un mes entero, por fin nos miramos sin que importe nada más.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "hoguera",
+              "x": 0.05
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": -1.15
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "iset",
+            "x": 0.4,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 22,
+        "texto": "Esa noche el pueblo entero canta y bebe cerveza junto al río. Me toco la frente vendada y pienso: si el dios ha vuelto, quizá mi padre también.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": -0.2,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "pairi",
+            "x": 0.45,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "peregrino",
+            "x": 0.95,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Los misterios de Osiris",
+          "items": [
+            {
+              "icono": "🐺",
+              "nombre": "Sale Upuaut"
+            },
+            {
+              "icono": "⚖️",
+              "nombre": "La batalla por la barca"
+            },
+            {
+              "icono": "🔥",
+              "nombre": "La noche en Peqer"
+            },
+            {
+              "icono": "☀️",
+              "nombre": "El regreso del dios"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 23,
+        "capitulo": "Levantar al dios",
+        "corte": true,
+        "texto": "Lo que el dios come vuelve a nosotros. Al día siguiente reparten la carne de las ofrendas, y yo pruebo buey tras un mes de pan y cebolla.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "🍞",
+              "x": -0.15,
+              "escala": 0.28
+            },
+            {
+              "tipo": "🧅",
+              "x": 0.2,
+              "escala": 0.28
+            },
+            {
+              "tipo": "columna",
+              "x": -1.25
+            },
+            {
+              "tipo": "columna",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": -0.35,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "uab2",
+            "x": 0.45,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 24,
+        "texto": "Luego envolvemos en lino los Osiris de grano, ya verdes y secos, como pequeños muertos que van a volver.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": 0.3,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "🌿"
+          }
+        ]
+      },
+      {
+        "dia": 26,
+        "texto": "Llega la fiesta de Sókar, el dios halcón de los muertos. Damos la vuelta a los muros con cebollas al cuello, y Pairi no para de reír.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "valle",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "columna",
+              "x": -1.25
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.95
+            },
+            {
+              "tipo": "🏺",
+              "x": 0.95,
+              "escala": 0.35
+            },
+            {
+              "tipo": "antorcha",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": -0.4,
+            "accion": "caminar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "🧅"
+          },
+          {
+            "quien": "pairi",
+            "x": 0.35,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 28,
+        "texto": "Al día veintiocho preparamos el inventario para el turno siguiente. Cuento vasos y lámparas, y pienso en lo único que no puedo entregar: mi miedo.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": 0.3,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1 de cada 4",
+          "etiqueta": "meses servía un sacerdote uab en el templo; el resto del año vivía con su familia",
+          "icono": "🗓️"
+        }
+      },
+      {
+        "dia": 30,
+        "corte": true,
+        "texto": "El último día del mes, levantamos con cuerdas la espalda de Osiris. Es el pilar Yed, su columna, tumbado en el patio del templo.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "valle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "columna",
+              "x": 0.0
+            },
+            {
+              "tipo": "palmera",
+              "x": -1.3
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": -0.55,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "🪢"
+          },
+          {
+            "quien": "uab2",
+            "x": 0.55,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "🪢"
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 30,
+        "texto": "Tiramos todos juntos y, poco a poco, el pilar Yed se levanta. Osiris está en pie. El orden vuelve, y el país queda firme otro año.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": -0.55,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "uab2",
+            "x": 0.55,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "amenemope",
+            "x": 1.0,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "subir"
+      },
+      {
+        "dia": 30,
+        "texto": "Esa tarde entrego mi lino, me pongo mis sandalias viejas y vuelvo a casa. Íset me espera en la puerta con los niños.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "casa-adobe",
+              "x": -1.1
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.2
+            },
+            {
+              "tipo": "horno",
+              "x": 0.75
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": -0.5,
+            "accion": "caminar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false,
+            "entra": "izq"
+          },
+          {
+            "quien": "iset",
+            "x": 0.15,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "tuy",
+            "x": 0.55,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "pairi",
+            "x": 0.9,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 30,
+        "texto": "No sé cuánto pesará mi corazón. Pero ya sé qué le diré a mi padre cuando lo vea: que lo intenté. Y ahora mi corazón no tendrá que callar.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": -0.2,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "iset",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "corte": true,
+        "texto": "¿Qué pasó después? Ramsés segundo reinó sesenta y seis años, y Uenéfer, un joven sacerdote de nuestro templo, llegó a sumo sacerdote de Osiris.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "desierto",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "🏺",
+              "x": -1.0,
+              "escala": 0.45
+            },
+            {
+              "tipo": "roca",
+              "x": 1.2
+            },
+            {
+              "tipo": "🏺",
+              "x": 0.85,
+              "escala": 0.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "66 años",
+          "etiqueta": "reinó Ramsés II (h. 1279–1213 a. C.); Uenéfer, hijo del sumo sacerdote Meri, heredó el cargo",
+          "icono": "👑"
+        }
+      },
+      {
+        "texto": "En mil ochocientos noventa y ocho, en la tumba de Yer, apareció un Osiris de piedra negra tumbado en un lecho de leones. Lo habían dejado allí siglos antes de mí.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": 0.3,
+            "accion": "pensar",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Un aviso: el calendario día a día de estos misterios viene de textos del templo de Dendera, más de mil años posteriores. Y yo, Najt, soy inventado, igual que mi familia.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "valle",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "palmera",
+              "x": -1.25
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": 0.3,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "¿Qué respuesta te haría temblar ante la balanza? Cuéntamelo en los comentarios y suscríbete para vivir otro mes en otra vida.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "najt",
+            "x": 0.3,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ]
+      }
+    ]
+  },
+  "publicacion": {
+    "tituloLargo": "Un mes en la vida de UN SACERDOTE DE OSIRIS (Abidos, 1270 a. C.) | El juicio del corazón",
+    "descripcion": "Treinta días en la vida de Najt, sacerdote «uab» («puro»), el grado más bajo del templo de Osiris en Abidos, durante el mes de Joiak, hacia 1270 a. C. (año 10 de Ramsés II). Le toca su turno de un mes de cada cuatro: afeitado de pies a cabeza, natrón y lino blanco, el templo de Seti I con su lista de reyes con huecos, los Osiris de grano que brotan, la batalla fingida por la barca del dios, la noche junto a la «tumba de Osiris» en Peqer, el gran combate de Nedit y el pilar Dyed. Y, de fondo, el miedo de todo egipcio: que su propio corazón lo delate en el juicio ante Osiris.\n\n— Semana 1: Afeitado de pies a cabeza\n— Semana 2: Un dios de barro y grano\n— Semana 3: La batalla por la barca\n— Semana 4: Levantar al dios\n— Epílogo: Ramsés II, Uenéfer, la cama de Osiris de la tumba de Dyer y qué es real\n\nAVISO: Najt, su esposa Iset, sus hijos Pairi y Tuy y su maestro Amenemope son INVENTADOS. Son reales: Abidos y el culto de Osiris, el templo de Seti I y la Lista de Abidos, el Decreto de Nauri, la estela de Ijernofret (h. 1870 a. C.) y lo que cuenta de los misterios (la salida de Upuaut, el ataque a la barca Neshmet, la procesión a Peqer y el combate de Nedit), los Osiris de grano, la tumba del rey Dyer venerada como tumba de Osiris, el capítulo 125 del Libro de los Muertos, el escarabeo del corazón y la erección del pilar Dyed. El calendario día a día de estos ritos viene sobre todo de los textos del templo de Dendera, más de mil años posteriores: el orden de los días en este vídeo es una reconstrucción. Lo que pasaba dentro de la tumba nunca se contó y nadie lo sabe.\n\nFuentes: estela de Ijernofret (Berlín ÄM 1204; M. Lichtheim, Ancient Egyptian Literature I, 1975); Libro de los Muertos, cap. 125 y 30B (Fitzwilliam Museum; papiros de Hunefer y Ani, British Museum EA 9901 y EA 10470); Decreto de Nauri (Griffith, 1927; Edgerton, 1947); Gran Inscripción Dedicatoria de Ramsés II en Abidos; tumba de Jeruef TT192 (Epigraphic Survey, OIP 102); K. A. Kitchen, Pharaoh Triumphant (1982); J. Budka sobre Umm el-Qaab (2019); Metropolitan Museum (camas de Osiris); Heródoto, Historias II.37; Digital Egypt (UCL), fiesta de Joiak.",
+    "etiquetas": [
+      "un mes en la vida de",
+      "antiguo Egipto",
+      "Osiris",
+      "Abidos",
+      "misterios de Osiris",
+      "juicio del corazón",
+      "Libro de los Muertos",
+      "sacerdote egipcio",
+      "Ramsés II",
+      "Seti I",
+      "mitología egipcia",
+      "historia"
+    ],
+    "miniatura": {
+      "texto": "PESARÁN MI CORAZÓN",
+      "escena": 0,
+      "quien": "najt",
+      "emocion": "miedo",
+      "icono": "⚖️"
+    },
+    "tituloCorto": "Sacerdote de Osiris",
+    "shorts": [
+      {
+        "titulo": "Mi propio corazón podía delatarme al morir",
+        "descripcion": "Abidos, hacia 1270 a. C.: un sacerdote de Osiris ante el mes más sagrado del año. #shorts #historia #antiguoegipto"
+      },
+      {
+        "titulo": "Para servir a Osiris tenía que arrancarse hasta las cejas",
+        "descripcion": "Navaja de bronce, agua fría y natrón: así se purificaba un sacerdote egipcio. #shorts #historia #egipto"
+      },
+      {
+        "titulo": "Nunca vi la cara de mi dios",
+        "descripcion": "Un sacerdote «uab» se quedaba en la puerta. Y robar al templo costaba cien bastonazos. #shorts #historia #egipto"
+      },
+      {
+        "titulo": "76 reyes en la pared… y faltan los borrados",
+        "descripcion": "La Lista de Abidos: Seti I y el joven Ramsés II olvidan a propósito a Hatshepsut y Ajenatón. #shorts #historia"
+      },
+      {
+        "titulo": "Este año sembramos a un dios",
+        "descripcion": "Los «Osiris de grano»: figuras de tierra y cebada que brotaban en pleno mes de Joiak. #shorts #historia #egipto"
+      },
+      {
+        "titulo": "Un escarabajo para que tu corazón no hable",
+        "descripcion": "El juicio del corazón: Anubis, la pluma de Maat y Ammit, la devoradora. #shorts #historia #mitologia"
+      },
+      {
+        "titulo": "42 jueces, 42 veces «yo no fui»",
+        "descripcion": "La confesión negativa del Libro de los Muertos, capítulo 125. ¿Y si has mentido una vez? #shorts #historia"
+      },
+      {
+        "titulo": "Se pegaban a golpes para defender a un muerto",
+        "descripcion": "La procesión de Upuaut y la batalla fingida por la barca de Osiris. #shorts #historia #egipto"
+      },
+      {
+        "titulo": "Un sacerdote que sangra es un sacerdote impuro",
+        "descripcion": "Herido en la batalla de la barca, curado con miel… y de vuelta al desierto. #shorts #historia #egipto"
+      },
+      {
+        "titulo": "Guardia junto a la tumba de un dios de 1.700 años",
+        "descripcion": "La noche en Peqer: la «tumba de Osiris» era la del rey Dyer. #shorts #historia #arqueologia"
+      },
+      {
+        "titulo": "El día que Osiris volvió vengado",
+        "descripcion": "El gran combate de Nedit y el regreso triunfal de la barca, según la estela de Ijernofret. #shorts #historia"
+      },
+      {
+        "titulo": "Lo que el dios comía acababa en mi plato",
+        "descripcion": "Carne de las ofrendas, Osiris de grano envueltos en lino y la fiesta de Sokar. #shorts #historia #egipto"
+      },
+      {
+        "titulo": "Levantamos con cuerdas la espalda de Osiris",
+        "descripcion": "El pilar Dyed se alza el último día del mes: el orden vuelve a Egipto. #shorts #historia #egipto"
+      },
+      {
+        "titulo": "¿Qué pasó después en Abidos?",
+        "descripcion": "Ramsés II reinó 66 años y en 1898 apareció un Osiris de piedra en la tumba de Dyer. Najt es inventado. #shorts"
+      }
+    ]
+  },
+  "grafias": {
+    "Joiák": "Joiak",
+    "Íset": "Iset",
+    "Amenémope": "Amenemope",
+    "Ijernófret": "Ijernofret",
+    "Maát": "Maat",
+    "Ámmit": "Ammit",
+    "Upuáut": "Upuaut",
+    "Péker": "Peqer",
+    "Nédit": "Nedit",
+    "Yer": "Dyer",
+    "Yed": "Dyed",
+    "Sókar": "Sokar"
+  }
+}
