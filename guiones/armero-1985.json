@@ -1,0 +1,2443 @@
+{
+ "slug": "armero-1985",
+ "titulo": "un socorrista en Armero",
+ "lugar": "Armero y Lérida, Tolima (Colombia)",
+ "epoca": "Octubre y noviembre de 1985",
+ "categoria": "epoca",
+ "drama": 0.65,
+ "velocidad": 1.15,
+ "musica": "tension",
+ "paleta": {
+  "acento": "#e8792b",
+  "texto": "#f4f1ea",
+  "fondo": "#141a20",
+  "papel": "#ece3d0"
+ },
+ "reparto": {
+  "wilson": {
+   "piel": "#b8835a",
+   "pelo": "#1f1a17",
+   "peinado": "corto",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "camisa",
+    "color": "#f0ece2",
+    "color2": "#3a5a80",
+    "detalle": "#c9c2b0"
+   },
+   "sombrero": "ninguno",
+   "gafas": false,
+   "altura": 1,
+   "zapatos": "#1c1c1c"
+  },
+  "wilsondc": {
+   "piel": "#b8835a",
+   "pelo": "#1f1a17",
+   "peinado": "corto",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "camisa",
+    "color": "#e8792b",
+    "color2": "#3a5a80",
+    "detalle": "#f4f1ea"
+   },
+   "sombrero": "gorra",
+   "colorSombrero": "#e8792b",
+   "gafas": false,
+   "altura": 1,
+   "zapatos": "#1c1c1c"
+  },
+  "luz": {
+   "piel": "#c99772",
+   "pelo": "#2a1d16",
+   "peinado": "rizado",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "vestido",
+    "color": "#d9506a",
+    "color2": "#c24760",
+    "detalle": "#f2c14e"
+   },
+   "sombrero": "ninguno",
+   "gafas": false,
+   "altura": 0.95,
+   "zapatos": "#6b3a2a",
+   "voz": "narradora-es"
+  },
+  "efrain": {
+   "piel": "#9c6b48",
+   "pelo": "#5a5048",
+   "peinado": "corto",
+   "barba": "bigote",
+   "ropa": {
+    "tipo": "camisa",
+    "color": "#e8792b",
+    "color2": "#4a4a3a",
+    "detalle": "#f4f1ea"
+   },
+   "sombrero": "ala",
+   "colorSombrero": "#d8c9a0",
+   "gafas": false,
+   "altura": 1,
+   "zapatos": "#2a2420"
+  },
+  "madre": {
+   "piel": "#b07a52",
+   "pelo": "#2a2220",
+   "peinado": "mono",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "vestido",
+    "color": "#7aa0c4",
+    "color2": "#5f84a8",
+    "detalle": "#f4f1ea"
+   },
+   "sombrero": "ninguno",
+   "gafas": false,
+   "altura": 0.95,
+   "zapatos": "#3a2a22",
+   "voz": "narradora-es"
+  },
+  "campesino": {
+   "piel": "#a87450",
+   "pelo": "#3a3028",
+   "peinado": "corto",
+   "barba": "bigote",
+   "ropa": {
+    "tipo": "camisa",
+    "color": "#f0ece2",
+    "color2": "#6b5a45",
+    "detalle": "#c9c2b0"
+   },
+   "sombrero": "ala",
+   "colorSombrero": "#d8c9a0",
+   "gafas": false,
+   "altura": 1,
+   "zapatos": "#3a2a1e"
+  },
+  "piloto": {
+   "piel": "#c8946a",
+   "pelo": "#2a2018",
+   "peinado": "rapado",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "uniforme",
+    "color": "#5c6a3c",
+    "color2": "#4a5630",
+    "detalle": "#d8c9a0"
+   },
+   "sombrero": "casco",
+   "colorSombrero": "#3d4a2a",
+   "gafas": false,
+   "altura": 1,
+   "zapatos": "#22261e"
+  }
+ },
+ "largo": {
+  "escenas": [
+   {
+    "corte": true,
+    "texto": "La noche del trece de noviembre de mil novecientos ochenta y cinco, un río de lodo de más de cuarenta metros borró un pueblo entero. Alguien lo había dibujado en un mapa treinta y siete días antes.",
+    "drama": 0.85,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "noche",
+     "clima": "tormenta",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.1
+      },
+      {
+       "tipo": "palmera",
+       "x": -0.7
+      },
+      {
+       "tipo": "arbol",
+       "x": 1.0
+      },
+      {
+       "tipo": "volcan-erupcion",
+       "x": 1.35,
+       "escala": 2.0,
+       "detras": true
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": 0.45,
+      "accion": "asustado",
+      "emocion": "miedo",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "texto": "Me llamo Uílson Ospina Gusmán, tengo diecinueve años y vivo en Lérida, en el Tolima. Soy voluntario de la Defensa Sivil.",
+    "drama": 0.55,
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": 0.35,
+      "accion": "saludar",
+      "emocion": "feliz",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca",
+    "insercion": {
+     "tipo": "mapa",
+     "lugar": "Lérida y Armero",
+     "detalle": "Tolima, Colombia · 1985",
+     "icono": "📍"
+    }
+   },
+   {
+    "dia": 1,
+    "capitulo": "La Ciudad Blanca",
+    "texto": "Es sábado, veintiséis de octubre. Bajo en bus a Armero, el pueblo de al lado, a ver a mi novia, Lus Marina. La llaman la Siudad Blanca por los algodonales que la rodean.",
+    "drama": 0.55,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "dia",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.15
+      },
+      {
+       "tipo": "casa",
+       "x": -0.75
+      },
+      {
+       "tipo": "palmera",
+       "x": 0.95
+      },
+      {
+       "tipo": "⛪",
+       "x": -1.35,
+       "escala": 0.9
+      },
+      {
+       "tipo": "volcan",
+       "x": 1.35,
+       "escala": 2.0,
+       "detras": true
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilson",
+      "x": -0.3,
+      "accion": "caminar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false,
+      "entra": "izq"
+     },
+     {
+      "quien": "luz",
+      "x": 0.4,
+      "accion": "saludar",
+      "emocion": "feliz",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "paneo"
+   },
+   {
+    "dia": 1,
+    "texto": "Armero tiene unos veintinueve mil habitantes, colegios, cine y una iglesia blanca enorme. El volcán queda a unos cincuenta kilómetros. Nos suena lejísimos.",
+    "drama": 0.6,
+    "personajes": [
+     {
+      "quien": "wilson",
+      "x": -0.4,
+      "accion": "hablar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "luz",
+      "x": 0.4,
+      "accion": "quieto",
+      "emocion": "feliz",
+      "mirar": -1,
+      "habla": false
+     }
+    ]
+   },
+   {
+    "dia": 1,
+    "corte": true,
+    "texto": "Esa tarde, en la heladería del parque, un señor mayor se ríe a carcajadas del famoso mapa de riesgos. Según él, es puro alarmismo, que espanta a los compradores y que aquí nunca pasa nada.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "atardecer",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "puesto",
+       "x": -1.0
+      },
+      {
+       "tipo": "arbol",
+       "x": 1.1
+      },
+      {
+       "tipo": "casa",
+       "x": 1.4
+      },
+      {
+       "tipo": "🥭",
+       "x": -1.0,
+       "escala": 0.3
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilson",
+      "x": 0.35,
+      "accion": "sentado",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "luz",
+      "x": -0.4,
+      "accion": "sentado",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 2,
+    "texto": "Domingo de tamal tolimense y chocolate caliente en casa de Lus Marina, con sus papás. En las canaletas todavía queda la ceniza gris de septiembre, de cuando el volcán dio su primer aviso.",
+    "drama": 0.5,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "ladrillo",
+     "hora": "amanecer",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "mesa",
+       "x": 0
+      },
+      {
+       "tipo": "cuadro",
+       "x": -1.0
+      },
+      {
+       "tipo": "planta",
+       "x": 1.2
+      },
+      {
+       "tipo": "☕",
+       "x": 0,
+       "escala": 0.25
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilson",
+      "x": -0.4,
+      "accion": "sentado",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "luz",
+      "x": 0.4,
+      "accion": "sentado",
+      "emocion": "feliz",
+      "mirar": -1,
+      "habla": false
+     }
+    ]
+   },
+   {
+    "dia": 2,
+    "texto": "Aquel miércoles once de septiembre cayó ceniza hasta en Manizales y en Ibagué. Nadie murió. Y eso, sin querer, nos dejó la enseñanza equivocada: que el volcán solo asusta.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "dia",
+     "clima": "polvo",
+     "props": [
+      {
+       "tipo": "casa-adobe",
+       "x": -1.0
+      },
+      {
+       "tipo": "palmera",
+       "x": 1.0
+      },
+      {
+       "tipo": "volcan",
+       "x": -1.35,
+       "escala": 1.8,
+       "detras": true
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilson",
+      "x": 0.3,
+      "accion": "pensar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "11 SEP 1985",
+     "etiqueta": "erupción de vapor del Nevado del Ruiz: cae ceniza en Manizales e Ibagué",
+     "icono": "🌋"
+    }
+   },
+   {
+    "dia": 3,
+    "corte": true,
+    "texto": "Lunes en la desmotadora de algodón donde trabajo. Seis de la mañana, ruido de máquinas, pacas de algodón y una pelusa blanca que se te mete en el pelo hasta el domingo.",
+    "drama": 0.5,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "metal",
+     "hora": "amanecer",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "maquina",
+       "x": -1.0
+      },
+      {
+       "tipo": "cajas",
+       "x": 1.0
+      },
+      {
+       "tipo": "cajas",
+       "x": 1.35
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilson",
+      "x": 0.0,
+      "accion": "trabajar",
+      "emocion": "cansado",
+      "mirar": -1,
+      "habla": false
+     }
+    ]
+   },
+   {
+    "dia": 4,
+    "texto": "Martes, reunión de la junta en Lérida. Don Efraín, nuestro jefe, saca una fotocopia arrugada de un mapa. Armero está pintado justo en el camino del lodo.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "piedra",
+     "hora": "atardecer",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "mesa",
+       "x": -0.2
+      },
+      {
+       "tipo": "radio",
+       "x": -1.1
+      },
+      {
+       "tipo": "estanteria",
+       "x": 1.2
+      },
+      {
+       "tipo": "camilla",
+       "x": 0.9
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": -0.45,
+      "accion": "pensar",
+      "emocion": "sorpresa",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "efrain",
+      "x": 0.4,
+      "accion": "senalar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false,
+      "objeto": "🗺️"
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 4,
+    "texto": "Así nos explica el plan si cae ceniza: tapar los tanques de agua y respirar con un pañuelo mojado. Nadie pregunta por el plan si baja el río.",
+    "drama": 0.65,
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": -0.45,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "efrain",
+      "x": 0.4,
+      "accion": "hablar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     }
+    ]
+   },
+   {
+    "dia": 4,
+    "texto": "Ese mapa lo terminaron los técnicos de Ingeominas el siete de octubre. Marcaba en peligro a Armero, Mariquita, Honda, Guayabal y Chinchiná. Casi nadie lo vio.",
+    "drama": 0.7,
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": -0.2,
+      "accion": "pensar",
+      "emocion": "miedo",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "insercion": {
+     "tipo": "dato",
+     "valor": "7 OCT 1985",
+     "etiqueta": "el mapa oficial ya marcaba Armero en zona de avalancha",
+     "icono": "🗺️"
+    }
+   },
+   {
+    "dia": 6,
+    "corte": true,
+    "texto": "Jueves, práctica en la cancha: cuerdas, nudos y camilla de lona. Don Efraín lo suelta sin rodeos, secándose el sudor: nunca hemos sacado a nadie del lodo.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "dia",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "camilla",
+       "x": -0.2
+      },
+      {
+       "tipo": "valla",
+       "x": -1.2
+      },
+      {
+       "tipo": "arbol",
+       "x": 1.2
+      },
+      {
+       "tipo": "🪢",
+       "x": 0.95,
+       "escala": 0.35
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": -0.4,
+      "accion": "cargar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false,
+      "objeto": "🪢"
+     },
+     {
+      "quien": "efrain",
+      "x": 0.45,
+      "accion": "hablar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 7,
+    "texto": "Primero de noviembre, día de Todos los Santos. Acompaño a la familia de Lus Marina al camposanto de Armero, con flores y velas para el abuelo.",
+    "drama": 0.5,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "atardecer",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "tumba",
+       "x": -0.9
+      },
+      {
+       "tipo": "tumba",
+       "x": 0.05
+      },
+      {
+       "tipo": "arbol",
+       "x": 1.2
+      },
+      {
+       "tipo": "palmera",
+       "x": -1.35
+      },
+      {
+       "tipo": "🕯️",
+       "x": 0.05,
+       "escala": 0.3
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilson",
+      "x": 0.45,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "luz",
+      "x": -0.35,
+      "accion": "triste",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 7,
+    "texto": "Su papá me cuenta que esta tierra es tan buena porque el río la trajo de la montaña. Él no sabe hasta qué punto acierta.",
+    "drama": 0.65,
+    "personajes": [
+     {
+      "quien": "wilson",
+      "x": 0.45,
+      "accion": "pensar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "luz",
+      "x": -0.35,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 9,
+    "capitulo": "Mientras el país miraba a Bogotá",
+    "texto": "Domingo, tres de noviembre. Los viejos cuentan, de oídas, que en mil ochocientos cuarenta y cinco el río Lagunilla ya había bajado cargado de barro, piedras y árboles.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "amanecer",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "🌾",
+       "x": -1.0,
+       "escala": 0.6
+      },
+      {
+       "tipo": "🌾",
+       "x": -0.5,
+       "escala": 0.5
+      },
+      {
+       "tipo": "palmera",
+       "x": 0.9
+      },
+      {
+       "tipo": "volcan",
+       "x": 1.35,
+       "escala": 2.2,
+       "detras": true
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilson",
+      "x": -0.3,
+      "accion": "caminar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "paneo",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "1845",
+     "etiqueta": "otra avalancha del Ruiz ya había bajado por el río Lagunilla",
+     "icono": "🌊"
+    }
+   },
+   {
+    "dia": 12,
+    "corte": true,
+    "texto": "Miércoles, seis de noviembre. Un comando del eme diecinueve se toma el Palacio de Justicia, en Bogotá. Todo el país se queda pegado a la radio.",
+    "drama": 0.75,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "madera",
+     "hora": "noche",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "mesa",
+       "x": -0.3
+      },
+      {
+       "tipo": "📺",
+       "x": -0.3,
+       "escala": 0.35
+      },
+      {
+       "tipo": "cama",
+       "x": 1.2
+      },
+      {
+       "tipo": "planta",
+       "x": -1.3
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilson",
+      "x": 0.2,
+      "accion": "sentado",
+      "emocion": "sorpresa",
+      "mirar": -1,
+      "habla": false,
+      "objeto": "📻"
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 12,
+    "texto": "Por la noche, la televisión pública no enseña el Palacio. Enseña un partido de fútbol, Millonarios contra Unión Magdalena. Lo veo en blanco y negro sin entender nada.",
+    "drama": 0.7,
+    "personajes": [
+     {
+      "quien": "wilson",
+      "x": 0.2,
+      "accion": "sentado",
+      "emocion": "enfado",
+      "mirar": -1,
+      "habla": false
+     }
+    ]
+   },
+   {
+    "dia": 13,
+    "texto": "Jueves. El Ejército retoma el Palacio entre fuego y humo. Mueren casi cien personas, entre ellas once magistrados de la Corte Suprema. Colombia no habla de otra cosa.",
+    "drama": 0.75,
+    "personajes": [
+     {
+      "quien": "wilson",
+      "x": 0.2,
+      "accion": "triste",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false
+     }
+    ]
+   },
+   {
+    "dia": 14,
+    "texto": "Y mientras todos miramos a Bogotá, allá arriba, a más de cinco mil metros, el hielo del Nevado del Ruis sigue echando humo sin que nadie lo mire.",
+    "drama": 0.75,
+    "fondo": {
+     "lugar": "montanas",
+     "hora": "dia",
+     "clima": "niebla",
+     "props": [
+      {
+       "tipo": "volcan-erupcion",
+       "x": 1.3,
+       "escala": 2.4,
+       "detras": true
+      },
+      {
+       "tipo": "pino",
+       "x": -1.2
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilson",
+      "x": -0.5,
+      "accion": "quieto",
+      "emocion": "miedo",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "subir",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "+5.000 m",
+     "etiqueta": "de altura: el Nevado del Ruiz y su casquete de hielo",
+     "icono": "🏔️"
+    }
+   },
+   {
+    "dia": 18,
+    "corte": true,
+    "texto": "Martes, doce de noviembre. La geóloga Marta Lusía Calvache sube con otros expertos hasta el cráter. Desde abajo, nosotros solo vemos una nube blanca.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "montanas",
+     "hora": "dia",
+     "clima": "niebla",
+     "props": [
+      {
+       "tipo": "volcan-erupcion",
+       "x": 1.3,
+       "escala": 2.4,
+       "detras": true
+      },
+      {
+       "tipo": "pino",
+       "x": -1.2
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilson",
+      "x": -0.5,
+      "accion": "senalar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "paneo"
+   },
+   {
+    "dia": 18,
+    "texto": "Esa tarde, en la junta, don Efraín lo deja claro: si pasa cualquier cosa, Lérida será el puesto de socorro. Nadie imagina que faltan unas treinta horas.",
+    "drama": 0.75,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "piedra",
+     "hora": "atardecer",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "mesa",
+       "x": -0.2
+      },
+      {
+       "tipo": "radio",
+       "x": -1.1
+      },
+      {
+       "tipo": "estanteria",
+       "x": 1.2
+      },
+      {
+       "tipo": "camilla",
+       "x": 0.9
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": -0.45,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "efrain",
+      "x": 0.4,
+      "accion": "senalar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 19,
+    "capitulo": "La noche que dijeron calma",
+    "texto": "Miércoles, trece de noviembre. Sobre las tres de la tarde, el Ruis explota. A las cinco cae en Armero una ceniza fina y gris que huele a azufre.",
+    "drama": 0.8,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "atardecer",
+     "clima": "ceniza",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.15
+      },
+      {
+       "tipo": "palmera",
+       "x": -0.7
+      },
+      {
+       "tipo": "casa",
+       "x": 1.1
+      },
+      {
+       "tipo": "poste",
+       "x": 0.7
+      },
+      {
+       "tipo": "volcan-erupcion",
+       "x": 1.4,
+       "escala": 2.0,
+       "detras": true
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "luz",
+      "x": 0.3,
+      "accion": "asustado",
+      "emocion": "miedo",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 19,
+    "texto": "Lus Marina me llama desde el teléfono de una tienda. Todo está gris, me cuenta. En la radio del pueblo piden tapar los tanques y no salir de casa.",
+    "drama": 0.75,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "madera",
+     "hora": "noche",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "mesa",
+       "x": -0.3
+      },
+      {
+       "tipo": "📺",
+       "x": -0.3,
+       "escala": 0.35
+      },
+      {
+       "tipo": "cama",
+       "x": 1.2
+      },
+      {
+       "tipo": "planta",
+       "x": -1.3
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilson",
+      "x": 0.2,
+      "accion": "hablar",
+      "emocion": "miedo",
+      "mirar": -1,
+      "habla": false,
+      "objeto": "☎️"
+     }
+    ],
+    "camara": "cerca",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "17:00",
+     "etiqueta": "empieza a caer ceniza sobre Armero",
+     "icono": "🌋"
+    }
+   },
+   {
+    "dia": 19,
+    "corte": true,
+    "texto": "Según una superviviente, un carro de bomberos recorre el pueblo pidiendo a la gente que se quede en casa. Esa tarde, a todos nos repiten lo mismo: calma.",
+    "drama": 0.8,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "atardecer",
+     "clima": "ceniza",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.2
+      },
+      {
+       "tipo": "🚒",
+       "x": 1.0,
+       "escala": 0.7
+      },
+      {
+       "tipo": "palmera",
+       "x": 1.4
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "luz",
+      "x": -0.35,
+      "accion": "quieto",
+      "emocion": "miedo",
+      "mirar": 1,
+      "habla": false
+     }
+    ]
+   },
+   {
+    "dia": 19,
+    "texto": "Yo también le digo calma. Le digo que se moje un pañuelo, que no salga, que el domingo voy. Es lo último que le digo en mucho tiempo.",
+    "drama": 0.8,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "madera",
+     "hora": "noche",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "mesa",
+       "x": -0.3
+      },
+      {
+       "tipo": "📺",
+       "x": -0.3,
+       "escala": 0.35
+      },
+      {
+       "tipo": "cama",
+       "x": 1.2
+      },
+      {
+       "tipo": "planta",
+       "x": -1.3
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilson",
+      "x": 0.2,
+      "accion": "triste",
+      "emocion": "miedo",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 19,
+    "texto": "Por la noche llega la tormenta, y la energía se va y vuelve. A las nueve y ocho minutos, el volcán revienta de verdad.",
+    "drama": 0.85,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "noche",
+     "clima": "tormenta",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.1
+      },
+      {
+       "tipo": "palmera",
+       "x": -0.7
+      },
+      {
+       "tipo": "arbol",
+       "x": 1.0
+      },
+      {
+       "tipo": "volcan-erupcion",
+       "x": 1.35,
+       "escala": 2.0,
+       "detras": true
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": 0.35,
+      "accion": "asustado",
+      "emocion": "miedo",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 19,
+    "texto": "El calor derrite apenas una décima parte del hielo de la cumbre. Y basta. El agua arrastra ceniza, rocas y árboles por el cañón del Lagunilla, directo a Armero.",
+    "drama": 0.85,
+    "fondo": {
+     "lugar": "montanas",
+     "hora": "dia",
+     "clima": "niebla",
+     "props": [
+      {
+       "tipo": "volcan-erupcion",
+       "x": 1.3,
+       "escala": 2.4,
+       "detras": true
+      },
+      {
+       "tipo": "pino",
+       "x": -1.2
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": -0.5,
+      "accion": "asustado",
+      "emocion": "miedo",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "insercion": {
+     "tipo": "dato",
+     "valor": "10 %",
+     "etiqueta": "del hielo del volcán se derritió… y bastó",
+     "icono": "🧊"
+    }
+   },
+   {
+    "dia": 19,
+    "corte": true,
+    "texto": "En la sede de la junta, la radio chisporrotea. Alguien intenta hablar con Armero y no contesta nadie. Don Efraín se queda mirando el aparato sin parpadear.",
+    "drama": 0.85,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "piedra",
+     "hora": "noche",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "mesa",
+       "x": -0.2
+      },
+      {
+       "tipo": "radio",
+       "x": -1.1
+      },
+      {
+       "tipo": "estanteria",
+       "x": 1.2
+      },
+      {
+       "tipo": "🕯️",
+       "x": -0.2,
+       "escala": 0.3
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": -0.45,
+      "accion": "asustado",
+      "emocion": "miedo",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "efrain",
+      "x": 0.4,
+      "accion": "quieto",
+      "emocion": "miedo",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 19,
+    "texto": "Entre el estallido y el golpe más fuerte del lodo pasan unas dos horas y media. Tiempo de sobra para salir. Pero el aviso nunca llegó a las casas.",
+    "drama": 0.85,
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": -0.45,
+      "accion": "pensar",
+      "emocion": "miedo",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "efrain",
+      "x": 0.4,
+      "accion": "triste",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false
+     }
+    ]
+   },
+   {
+    "dia": 19,
+    "texto": "Sobre las once llega la primera oleada. A las once y treinta y cinco, la mayor: un muro de lodo de más de cuarenta metros, a entre cuarenta y sesenta kilómetros por hora.",
+    "drama": 0.9,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "noche",
+     "clima": "tormenta",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.0
+      },
+      {
+       "tipo": "arbol",
+       "x": 1.1
+      },
+      {
+       "tipo": "palmera",
+       "x": -1.4
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": 0.4,
+      "accion": "asustado",
+      "emocion": "miedo",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 19,
+    "texto": "Desde Lérida no vemos nada. Solo oímos la lluvia y una radio que ya no responde. Esa noche, nadie en la junta pega los ojos.",
+    "drama": 0.85,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "piedra",
+     "hora": "noche",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "mesa",
+       "x": -0.2
+      },
+      {
+       "tipo": "radio",
+       "x": -1.1
+      },
+      {
+       "tipo": "estanteria",
+       "x": 1.2
+      },
+      {
+       "tipo": "🕯️",
+       "x": -0.2,
+       "escala": 0.3
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": 0.3,
+      "accion": "sentado",
+      "emocion": "cansado",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "efrain",
+      "x": -0.45,
+      "accion": "sentado",
+      "emocion": "triste",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 20,
+    "corte": true,
+    "texto": "Jueves, catorce. Al alba, por la radio, alguien que sobrevuela el valle lanza la frase que Colombia nunca olvidará: Armero ha desaparecido.",
+    "drama": 0.9,
+    "fondo": {
+     "lugar": "rio",
+     "hora": "amanecer",
+     "clima": "niebla",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.1
+      },
+      {
+       "tipo": "palmera",
+       "x": 1.0
+      },
+      {
+       "tipo": "arbol",
+       "x": 1.4
+      },
+      {
+       "tipo": "roca",
+       "x": -0.6
+      },
+      {
+       "tipo": "helicoptero"
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": 0.3,
+      "accion": "quieto",
+      "emocion": "miedo",
+      "mirar": -1,
+      "habla": false,
+      "objeto": "📻"
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 20,
+    "texto": "La ayuda oficial tarda unas doce horas en llegar. Nosotros salimos antes, en un camión, con lo poco que tenemos: cuerdas, tablas, linternas y un botiquín.",
+    "drama": 0.8,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "dia",
+     "clima": "polvo",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.2
+      },
+      {
+       "tipo": "arbol",
+       "x": -0.7
+      },
+      {
+       "tipo": "casa",
+       "x": 1.2
+      },
+      {
+       "tipo": "helicoptero"
+      },
+      {
+       "tipo": "volcan",
+       "x": 1.4,
+       "escala": 1.8,
+       "detras": true
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": -0.3,
+      "accion": "cargar",
+      "emocion": "miedo",
+      "mirar": 1,
+      "habla": false,
+      "objeto": "🪢"
+     },
+     {
+      "quien": "efrain",
+      "x": 0.4,
+      "accion": "caminar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "insercion": {
+     "tipo": "cita",
+     "frase": "Armero ha desaparecido.",
+     "firma": "Un piloto, por radio, al amanecer del 14 de noviembre"
+    }
+   },
+   {
+    "dia": 20,
+    "texto": "Donde estaba Armero hay una llanura gris de barro. Asoman tejados, árboles partidos y la copa de alguna palmera. No encuentro ni una sola esquina conocida.",
+    "drama": 0.85,
+    "fondo": {
+     "lugar": "rio",
+     "hora": "amanecer",
+     "clima": "niebla",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.1
+      },
+      {
+       "tipo": "palmera",
+       "x": 1.0
+      },
+      {
+       "tipo": "arbol",
+       "x": 1.4
+      },
+      {
+       "tipo": "roca",
+       "x": -0.6
+      },
+      {
+       "tipo": "helicoptero"
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": 0.35,
+      "accion": "quieto",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "paneo"
+   },
+   {
+    "dia": 20,
+    "texto": "Hay gente en los tejados y en los árboles, esperando. El lodo no deja caminar: andamos sobre tablas y techos, y tiramos de las cuerdas con todo el cuerpo.",
+    "drama": 0.85,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "dia",
+     "clima": "polvo",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.2
+      },
+      {
+       "tipo": "arbol",
+       "x": -0.7
+      },
+      {
+       "tipo": "casa",
+       "x": 1.2
+      },
+      {
+       "tipo": "helicoptero"
+      },
+      {
+       "tipo": "volcan",
+       "x": 1.4,
+       "escala": 1.8,
+       "detras": true
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": -0.35,
+      "accion": "trabajar",
+      "emocion": "miedo",
+      "mirar": 1,
+      "habla": false,
+      "objeto": "🪢"
+     },
+     {
+      "quien": "efrain",
+      "x": 0.4,
+      "accion": "trabajar",
+      "emocion": "cansado",
+      "mirar": -1,
+      "habla": false
+     }
+    ]
+   },
+   {
+    "dia": 20,
+    "corte": true,
+    "texto": "No teníamos motobombas ni equipo para sacar a quien quedaba atrapado. Hubo caos, gritos y errores. Hubo gente a la que no llegamos, y eso todavía me pesa.",
+    "drama": 0.85,
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": -0.2,
+      "accion": "triste",
+      "emocion": "triste",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 20,
+    "texto": "Los helicópteros son la única puerta de salida. Llego a contar veinte en el aire al mismo tiempo, levantando heridos de los tejados, uno detrás de otro.",
+    "drama": 0.8,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "dia",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "tienda",
+       "x": -1.0
+      },
+      {
+       "tipo": "camilla",
+       "x": 1.0
+      },
+      {
+       "tipo": "cajas",
+       "x": 1.4
+      },
+      {
+       "tipo": "helicoptero"
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": 0.3,
+      "accion": "senalar",
+      "emocion": "sorpresa",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "subir",
+    "insercion": {
+     "tipo": "objetos",
+     "titulo": "Mi equipo de socorrista",
+     "items": [
+      {
+       "icono": "🪢",
+       "nombre": "Cuerdas"
+      },
+      {
+       "icono": "🪵",
+       "nombre": "Tablas"
+      },
+      {
+       "icono": "🔦",
+       "nombre": "Linterna"
+      },
+      {
+       "icono": "🩹",
+       "nombre": "Botiquín"
+      }
+     ]
+    }
+   },
+   {
+    "dia": 20,
+    "texto": "Esa tarde, otros socorristas bajan a una muchacha de un tejado lejano. Yo no la veo, ni sé cómo se llama. Todavía no sé que es Lus Marina.",
+    "drama": 0.85,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "dia",
+     "clima": "polvo",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.2
+      },
+      {
+       "tipo": "arbol",
+       "x": -0.7
+      },
+      {
+       "tipo": "casa",
+       "x": 1.2
+      },
+      {
+       "tipo": "helicoptero"
+      },
+      {
+       "tipo": "volcan",
+       "x": 1.4,
+       "escala": 1.8,
+       "detras": true
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": 0.35,
+      "accion": "trabajar",
+      "emocion": "cansado",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 21,
+    "texto": "Viernes. En Lérida pegan listas de heridos en la pared. Leo nombres durante una hora, con el dedo temblando, hasta que encuentro el suyo escrito a mano. Está viva.",
+    "drama": 0.85,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "papel",
+     "hora": "dia",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "mesa",
+       "x": 1.0
+      },
+      {
+       "tipo": "📋",
+       "x": 1.0,
+       "escala": 0.3
+      },
+      {
+       "tipo": "cuadro",
+       "x": -1.1
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": -0.2,
+      "accion": "senalar",
+      "emocion": "sorpresa",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 21,
+    "corte": true,
+    "texto": "Esa misma noche, lo supe después, llega desde Bogotá una enfermera que había ido allá a un trámite. Busca a su hija de trece años, atrapada desde el miércoles.",
+    "drama": 0.8,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "noche",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "tienda",
+       "x": -1.0
+      },
+      {
+       "tipo": "bidon-fuego",
+       "x": 1.0
+      },
+      {
+       "tipo": "radio",
+       "x": 0.5
+      },
+      {
+       "tipo": "camilla",
+       "x": 1.4
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": 0.35,
+      "accion": "sentado",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 22,
+    "capitulo": "Los nombres en las listas",
+    "texto": "Es sábado, dieciséis de noviembre. Esa niña aguantó unas sesenta horas entre el agua y los escombros de su casa. Se llamaba Omaira Sánchez.",
+    "drama": 0.8,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "dia",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "tienda",
+       "x": -1.0
+      },
+      {
+       "tipo": "camilla",
+       "x": 1.0
+      },
+      {
+       "tipo": "cajas",
+       "x": 1.4
+      },
+      {
+       "tipo": "helicoptero"
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": 0.35,
+      "accion": "quieto",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false,
+      "objeto": "📻"
+     }
+    ],
+    "camara": "lenta",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "60 horas",
+     "etiqueta": "resistió Omayra Sánchez, de 13 años, atrapada en su casa",
+     "icono": "🕯️"
+    }
+   },
+   {
+    "dia": 22,
+    "texto": "Así lo oigo por la radio: sobre las diez de la mañana, ha muerto. Faltó una motobomba, faltó equipo. Los socorristas que estaban con ella lo intentaron todo.",
+    "drama": 0.8,
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": 0.35,
+      "accion": "triste",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 22,
+    "texto": "Yo no estuve allí. Era otro sector y eran otras manos. Solo sé que esa mañana, en el puesto, todos dejamos de hablar durante un rato largo.",
+    "drama": 0.7,
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": 0.35,
+      "accion": "sentado",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "efrain",
+      "x": -0.45,
+      "accion": "sentado",
+      "emocion": "triste",
+      "mirar": 1,
+      "habla": false
+     }
+    ]
+   },
+   {
+    "dia": 22,
+    "corte": true,
+    "texto": "Un fotógrafo francés, Franc Furnié, tomó una foto que dio la vuelta al mundo. Ganó el premio de fotografía más importante y dejó una pregunta: por qué no llegó la ayuda.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "dia",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "✝️",
+       "x": 0.0,
+       "escala": 0.9
+      },
+      {
+       "tipo": "arbol",
+       "x": -1.15
+      },
+      {
+       "tipo": "palmera",
+       "x": 1.2
+      },
+      {
+       "tipo": "🕯️",
+       "x": 0.5,
+       "escala": 0.3
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": -0.4,
+      "accion": "pensar",
+      "emocion": "triste",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 23,
+    "texto": "Domingo, diecisiete. Por fin me dejan entrar al hospital y la veo, sentada en una cama. Lus Marina me agarra la mano y no habla durante mucho rato.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "tela",
+     "hora": "dia",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "cama",
+       "x": 0.4
+      },
+      {
+       "tipo": "camilla",
+       "x": -1.2
+      },
+      {
+       "tipo": "planta",
+       "x": 1.35
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": -0.4,
+      "accion": "quieto",
+      "emocion": "triste",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "luz",
+      "x": 0.4,
+      "accion": "sentado",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 23,
+    "texto": "Su papá no salió de Armero. Ella me lo cuenta en voz baja, mirando la pared, y yo no encuentro ninguna palabra que sirva.",
+    "drama": 0.7,
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": -0.4,
+      "accion": "triste",
+      "emocion": "triste",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "luz",
+      "x": 0.4,
+      "accion": "triste",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false
+     }
+    ]
+   },
+   {
+    "dia": 24,
+    "texto": "Lunes. En los hospitales y en los albergues hay niños solos. Por la radio, sin parar, la gente pregunta: a quien sepa de mi hija, a quien sepa de mi hermano.",
+    "drama": 0.75,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "papel",
+     "hora": "dia",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "mesa",
+       "x": 1.0
+      },
+      {
+       "tipo": "📋",
+       "x": 1.0,
+       "escala": 0.3
+      },
+      {
+       "tipo": "cuadro",
+       "x": -1.1
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": 0.3,
+      "accion": "triste",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false,
+      "objeto": "📻"
+     }
+    ],
+    "camara": "lenta",
+    "insercion": {
+     "tipo": "cita",
+     "frase": "A quien sepa de…",
+     "firma": "Mensajes de las familias por la radio, noviembre de 1985"
+    }
+   },
+   {
+    "dia": 25,
+    "corte": true,
+    "texto": "Ya no rescatamos: buscamos. Bajan campesinos de las veredas a lomo de mula para ayudar. Uno me regala un tinto y me pide que me siente un minuto.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "dia",
+     "clima": "polvo",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.2
+      },
+      {
+       "tipo": "arbol",
+       "x": -0.7
+      },
+      {
+       "tipo": "casa",
+       "x": 1.2
+      },
+      {
+       "tipo": "helicoptero"
+      },
+      {
+       "tipo": "volcan",
+       "x": 1.4,
+       "escala": 1.8,
+       "detras": true
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilsondc",
+      "x": -0.4,
+      "accion": "sentado",
+      "emocion": "cansado",
+      "mirar": 1,
+      "habla": false,
+      "objeto": "☕"
+     },
+     {
+      "quien": "campesino",
+      "x": 0.4,
+      "accion": "hablar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     }
+    ]
+   },
+   {
+    "dia": 26,
+    "texto": "Miércoles. Una semana después, vuelvo a dormir en mi cama. Mi mamá me deja la ropa limpia en la silla y no me pregunta nada.",
+    "drama": 0.55,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "madera",
+     "hora": "noche",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "mesa",
+       "x": -0.3
+      },
+      {
+       "tipo": "📺",
+       "x": -0.3,
+       "escala": 0.35
+      },
+      {
+       "tipo": "cama",
+       "x": 1.2
+      },
+      {
+       "tipo": "planta",
+       "x": -1.3
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilson",
+      "x": 0.3,
+      "accion": "sentado",
+      "emocion": "cansado",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "madre",
+      "x": -0.45,
+      "accion": "quieto",
+      "emocion": "triste",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 28,
+    "texto": "Viernes. Lus Marina y su mamá se vienen a vivir a nuestra casa. Ella pone una foto de su papá junto a la radio, que ya nunca apagamos.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "madera",
+     "hora": "atardecer",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "mesa",
+       "x": -0.2
+      },
+      {
+       "tipo": "radio",
+       "x": -0.2
+      },
+      {
+       "tipo": "cama",
+       "x": 1.25
+      },
+      {
+       "tipo": "planta",
+       "x": -1.3
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilson",
+      "x": -0.45,
+      "accion": "quieto",
+      "emocion": "triste",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "luz",
+      "x": 0.4,
+      "accion": "quieto",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false,
+      "objeto": "🖼️"
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 30,
+    "texto": "Domingo, veinticuatro de noviembre. Subo a una loma y miro el valle. Donde había algodón, mangos y una iglesia blanca, ahora solo hay un mar gris de barro seco.",
+    "drama": 0.75,
+    "fondo": {
+     "lugar": "rio",
+     "hora": "atardecer",
+     "clima": "niebla",
+     "props": [
+      {
+       "tipo": "palmera",
+       "x": -1.1
+      },
+      {
+       "tipo": "arbol",
+       "x": 1.1
+      },
+      {
+       "tipo": "volcan",
+       "x": 1.4,
+       "escala": 1.8,
+       "detras": true
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilson",
+      "x": -0.4,
+      "accion": "quieto",
+      "emocion": "triste",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "paneo"
+   },
+   {
+    "corte": true,
+    "texto": "En Armero murieron más de veinte mil personas, unas tres de cada cuatro. Hoy es campo santo, y cada trece de noviembre se llena de flores.",
+    "drama": 0.75,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "amanecer",
+     "clima": "niebla",
+     "props": [
+      {
+       "tipo": "tumba",
+       "x": -0.8
+      },
+      {
+       "tipo": "tumba",
+       "x": 0.9
+      },
+      {
+       "tipo": "🌼",
+       "x": 0.1,
+       "escala": 0.4
+      },
+      {
+       "tipo": "volcan",
+       "x": 1.4,
+       "escala": 1.8,
+       "detras": true
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilson",
+      "x": -0.4,
+      "accion": "triste",
+      "emocion": "triste",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "+20.000",
+     "etiqueta": "muertos en Armero, unas tres de cada cuatro personas",
+     "icono": "🕯️"
+    }
+   },
+   {
+    "texto": "La herida sigue abierta: muchos niños nunca volvieron con sus familias, y algunas todavía los buscan.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "papel",
+     "hora": "dia",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "mesa",
+       "x": 1.0
+      },
+      {
+       "tipo": "📋",
+       "x": 1.0,
+       "escala": 0.3
+      },
+      {
+       "tipo": "cuadro",
+       "x": -1.1
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilson",
+      "x": 0.3,
+      "accion": "triste",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "texto": "Por Armero, Colombia creó en mil novecientos ochenta y ocho su sistema para prevenir desastres. Años después, el presidente Santos admitió que la tragedia se pudo evitar.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "dia",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "✝️",
+       "x": 0.0,
+       "escala": 0.9
+      },
+      {
+       "tipo": "arbol",
+       "x": -1.15
+      },
+      {
+       "tipo": "palmera",
+       "x": 1.2
+      },
+      {
+       "tipo": "🕯️",
+       "x": 0.5,
+       "escala": 0.3
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilson",
+      "x": -0.4,
+      "accion": "pensar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "texto": "Uílson, Lus Marina y don Efraín son inventados. Todo lo demás pasó de verdad. Este vídeo es para las víctimas de Armero.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "dia",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.15
+      },
+      {
+       "tipo": "casa",
+       "x": -0.75
+      },
+      {
+       "tipo": "palmera",
+       "x": 0.95
+      },
+      {
+       "tipo": "⛪",
+       "x": -1.35,
+       "escala": 0.9
+      },
+      {
+       "tipo": "volcan",
+       "x": 1.35,
+       "escala": 2.0,
+       "detras": true
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "wilson",
+      "x": -0.4,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "luz",
+      "x": 0.4,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "texto": "¿De quién quieres vivir el próximo mes? Déjalo en los comentarios y suscríbete para no perderte la siguiente historia.",
+    "drama": 0.6,
+    "personajes": [
+     {
+      "quien": "wilson",
+      "x": -0.4,
+      "accion": "saludar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "luz",
+      "x": 0.4,
+      "accion": "saludar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   }
+  ]
+ },
+ "publicacion": {
+  "tituloLargo": "Un mes en la vida de UN SOCORRISTA EN ARMERO (Colombia, 1985) | La noche que dijeron calma",
+  "descripcion": "Treinta días en la vida de Wilson, un voluntario de la Defensa Civil de Lérida (Tolima), del 26 de octubre al 24 de noviembre de 1985: el mapa de amenaza que casi nadie vio, la semana del Palacio de Justicia, la tarde de ceniza en que a todos les dijeron «calma», la erupción del Nevado del Ruiz a las 21:08 del 13 de noviembre y la avalancha que borró Armero. Contado con respeto a las víctimas y a sus familias.\n\nAVISO: Wilson Ospina Guzmán, Luz Marina y don Efraín son personajes INVENTADOS. Todo lo demás es real: el mapa preliminar de INGEOMINAS del 7 de octubre de 1985, la erupción del 11 de septiembre, la toma y retoma del Palacio de Justicia (6 y 7 de noviembre), la visita de la geóloga Marta Lucía Calvache al cráter el 12 de noviembre, la ceniza desde las cinco de la tarde, la erupción de las 21:08, las oleadas de lodo de más de 40 metros, la ayuda que tardó unas 12 horas, Omayra Sánchez (13 años, unas 60 horas atrapada), la foto de Frank Fournier, más de 20.000 muertos en Armero, la visita de Juan Pablo II en 1986, la Ley 46 de 1988 y los niños perdidos que aún buscan sus familias.\n\n— Semana 1: La Ciudad Blanca\n— Semana 2: Mientras el país miraba a Bogotá\n— Semana 3: La noche que dijeron calma\n— Semana 4: Los nombres en las listas\n— Epílogo: lo que Armero cambió\n\nFuentes: National Research Council, «The Eruption of Nevado del Ruiz Volcano, Colombia, November 13, 1985» (1991); USGS (lahares del Ruiz y mapa de amenaza de 1985; programa VDAP); Nature (1986); Servicio Geológico Colombiano; Universidad Nacional de Colombia; Geología Colombiana; ICBF, «Memorias Vivas»; Ley 46 de 1988; Vatican.va (visita de Juan Pablo II, 1986); El Tiempo (Germán Santamaría); Semana; El Heraldo; El Colombiano; Noticias Caracol; Radio Nacional; Las2orillas; Infobae.",
+  "etiquetas": [
+   "un mes en la vida de",
+   "Armero",
+   "tragedia de Armero",
+   "Nevado del Ruiz",
+   "Omayra Sánchez",
+   "Colombia",
+   "Tolima",
+   "1985",
+   "volcán",
+   "avalancha",
+   "historia de Colombia",
+   "Defensa Civil",
+   "animación"
+  ],
+  "miniatura": {
+   "texto": "DIJERON CALMA",
+   "escena": 0,
+   "quien": "wilsondc",
+   "emocion": "miedo",
+   "icono": "🌋"
+  },
+  "tituloCorto": "La noche de Armero",
+  "shorts": [
+   {
+    "titulo": "Un mapa avisó de Armero 37 días antes",
+    "descripcion": "13 de noviembre de 1985: un río de lodo borra Armero. El peligro ya estaba dibujado en un mapa. #shorts #armero #colombia"
+   },
+   {
+    "titulo": "El volcán que solo asustaba",
+    "descripcion": "En septiembre de 1985 el Nevado del Ruiz echó ceniza y nadie murió. Esa fue la lección equivocada. #shorts #armero #nevadodelruiz"
+   },
+   {
+    "titulo": "El mapa que marcaba Armero… y casi nadie vio",
+    "descripcion": "7 de octubre de 1985: un mapa oficial ponía Armero en zona de avalancha. #shorts #armero #historia"
+   },
+   {
+    "titulo": "«Nunca hemos sacado a nadie del lodo»",
+    "descripcion": "Prácticas de cuerdas y camillas en Lérida, días antes de la tragedia de Armero. #shorts #armero #defensacivil"
+   },
+   {
+    "titulo": "Mientras Colombia miraba el Palacio de Justicia",
+    "descripcion": "6 y 7 de noviembre de 1985: el país pegado a la radio. Arriba, el hielo del Ruiz seguía humeando. #shorts #colombia #historia"
+   },
+   {
+    "titulo": "Una geóloga en el cráter, 30 horas antes",
+    "descripcion": "12 de noviembre: Marta Lucía Calvache sube al Nevado del Ruiz. Al día siguiente cae la ceniza. #shorts #armero #volcan"
+   },
+   {
+    "titulo": "La tarde en que nos dijeron: calma",
+    "descripcion": "Ceniza a las cinco, tormenta y una erupción a las 21:08. #shorts #armero #nevadodelruiz"
+   },
+   {
+    "titulo": "Dos horas y media… y el aviso no llegó",
+    "descripcion": "Entre la erupción y la oleada mayor hubo tiempo para salir. #shorts #armero #colombia"
+   },
+   {
+    "titulo": "«Armero ha desaparecido»",
+    "descripcion": "Al amanecer del 14 de noviembre, la frase que Colombia nunca olvidó. Y nosotros, con cuerdas y tablas. #shorts #armero #rescate"
+   },
+   {
+    "titulo": "Busqué el nombre de mi novia en una lista",
+    "descripcion": "Helicópteros, tejados y listas de heridos pegadas en Lérida. #shorts #armero #historia"
+   },
+   {
+    "titulo": "Omayra Sánchez: lo que faltó",
+    "descripcion": "Sesenta horas, una motobomba que no llegó y unos socorristas que lo intentaron todo. #shorts #armero #omayrasanchez"
+   },
+   {
+    "titulo": "Una foto dio la vuelta al mundo",
+    "descripcion": "Y dejó una pregunta. Después, el hospital, las listas y los niños solos. #shorts #armero #colombia"
+   },
+   {
+    "titulo": "Volver a casa después de Armero",
+    "descripcion": "Campesinos a lomo de mula, la primera noche en casa y un valle gris de barro seco. #shorts #armero"
+   },
+   {
+    "titulo": "Lo que Armero le cambió a Colombia",
+    "descripcion": "Más de 20.000 muertos, un campo santo y una ley para prevenir desastres. ¿Lo sabías? #shorts #armero #memoria"
+   }
+  ]
+ },
+ "grafias": {
+  "Uílson": "Wilson",
+  "Gusmán": "Guzmán",
+  "Lus": "Luz",
+  "Sivil": "Civil",
+  "Siudad": "Ciudad",
+  "Ruis": "Ruiz",
+  "Lusía": "Lucía",
+  "Omaira": "Omayra",
+  "Franc": "Frank",
+  "Furnié": "Fournier",
+  "Ingeominas": "INGEOMINAS"
+ }
+}
