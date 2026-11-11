@@ -37,8 +37,17 @@ def norm(s):
     s = "".join(c for c in s if unicodedata.category(c) != "Mn")
     return re.sub(r"[^a-zñ ]+", " ", s).split()
 
+# Cómo escribe whisper los nombres nórdicos que la voz dice bien: no son fallos de la voz
+ALIAS = {"wolf": "ulf", "alvar": "hallvard", "edeby": "hedeby", "edebi": "hedeby", "caupan": "kaupang",
+         "kaopang": "kaupang", "tin": "thing", "team": "thing", "fin": "thing", "carrie": "kari", "popo": "poppo",
+         "heirmund": "geirmund", "irmun": "geirmund", "otar": "ottar", "vikingar": "vikingr",
+         "laugardaggar": "laugardagr", "pabos": "pavos", "sai": "schlei"}
+
 def similarity(a, b):
+    """Parecido letra a letra (sin espacios), con los nombres de ALIAS igualados.
+    Así «encubierta» = «en cubierta», y un final inventado o una palabra repetida bajan la nota."""
     import difflib
+    a = "".join(ALIAS.get(w, w) for w in a); b = "".join(ALIAS.get(w, w) for w in b)
     return difflib.SequenceMatcher(None, a, b).ratio()
 
 def key(t):
@@ -88,6 +97,11 @@ def gen(t, seed, path):
 paths = [f"{OUT}/{key(t)}.wav" for t in lines]
 CHK = "voz/comprobacion.json"
 chk = json.load(open(CHK, encoding="utf-8")) if os.path.exists(CHK) else {}
+# vuelve a puntuar lo ya comprobado con la regla actual
+for t, p in zip(lines, paths):
+    v = chk.get(os.path.basename(p))
+    if v and os.path.exists(p):
+        v["sim"] = round(similarity(norm(t), norm(v["oido"])), 3); v["ok"] = v["sim"] >= 0.92
 report = {}
 for attempt in range(MAX_TRIES):
     # genera lo que falte o lo que salió mal
