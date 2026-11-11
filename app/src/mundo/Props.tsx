@@ -18,6 +18,8 @@ export const PROPS_DISPONIBLES = [
   // Tenochtitlan (1519)
   "templo-mayor", "canoa", "ahuejote", "chinampa", "calzada", "brasero", "petate", "metate", "ciudad-lago",
   "granja-fuego", "charco", "puesto-mexica",
+  // Egipto, Reino Nuevo (Abidos 1270 a. C.)
+  "barca", "yed",
 ] as const;
 
 const Brillo: React.FC<{ r: number; o: number; color?: string; cx?: number; cy?: number }> = ({ r, o, color = "#ffb347", cx = 0, cy = 0 }) => (
@@ -605,6 +607,34 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean }> = ({ ti
           <path d="M-16 -200 L16 -200 L10 -110 L-10 -110Z" fill="#2a4a8a" stroke="#e8b830" strokeWidth={5} />
           <path d="M-30 -420 q30 -50 60 0" fill="#e8b830" />
           <circle cx={0} cy={-300} r={260} fill="#fff3b0" opacity={0.06 + 0.04 * Math.sin(f / 8)} />
+        </g>
+      );
+    case "barca":
+      // barca sagrada portátil (Neshmet): casco dorado con proa y popa curvas, cabina velada y varas de carga.
+      // Va DETRÁS de los porteadores, a la altura del hombro: pon x en el punto medio entre los que llevan "cargar".
+      return (
+        <g>
+          {[-1, 1].map((s2) => <rect key={s2} x={s2 * 150 - 8} y={-470} width={16} height={50} fill="#7a5a1a" />)}
+          <rect x={-470} y={-436} width={940} height={16} rx={8} fill="#8a6a2a" />
+          <path d="M-430 -560 Q-400 -470 -300 -470 L300 -470 Q400 -470 430 -560 Q380 -520 300 -520 L-300 -520 Q-380 -520 -430 -560Z" fill="#d9a830" stroke="#8a6a1a" strokeWidth={8} />
+          <path d="M-280 -495 h560" stroke="#1f6fb2" strokeWidth={10} />
+          {[-1, 1].map((s2) => <circle key={s2} cx={s2 * 432} cy={-570} r={20} fill="#e8c050" stroke="#8a6a1a" strokeWidth={5} />)}
+          <rect x={-130} y={-700} width={260} height={180} fill="#f4efe2" stroke="#c8932f" strokeWidth={10} />
+          <path d="M-130 -700 q65 40 130 0 q65 40 130 0" fill="none" stroke="#d9cfb6" strokeWidth={6} />
+          {[-70, 0, 70].map((x) => <path key={x} d={`M${x} -690 v160`} stroke="#e2d8c0" strokeWidth={5} />)}
+          <rect x={-150} y={-720} width={300} height={24} fill="#c8932f" />
+          {[-120, -60, 0, 60, 120].map((x) => <circle key={x} cx={x} cy={-728} r={9} fill={noche ? "#d9a830" : "#e8c050"} />)}
+        </g>
+      );
+    case "yed":
+      // pilar Dyed: columna vertebral de Osiris, con cuatro travesaños arriba
+      return (
+        <g>
+          <rect x={-90} y={-40} width={180} height={40} fill="#c9b48a" />
+          <rect x={-55} y={-560} width={110} height={520} fill="#e6d3a3" stroke="#8b6b4a" strokeWidth={6} />
+          {[0, 1, 2].map((i) => <rect key={i} x={-55} y={-300 + i * 70} width={110} height={18} fill="#1f6fb2" />)}
+          {[0, 1, 2, 3].map((i) => <rect key={i} x={-120} y={-740 + i * 48} width={240} height={30} rx={6} fill={i % 2 ? "#1f6fb2" : "#c8932f"} stroke="#8b6b4a" strokeWidth={5} />)}
+          <rect x={-70} y={-760} width={140} height={30} fill="#e6d3a3" stroke="#8b6b4a" strokeWidth={5} />
         </g>
       );
     case "estatua":

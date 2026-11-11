@@ -258,7 +258,7 @@
             "accion": "hablar",
             "emocion": "neutral",
             "mirar": -1,
-            "habla": false
+            "habla": true
           }
         ],
         "camara": "cerca"
@@ -304,7 +304,7 @@
         }
       },
       {
-        "texto": "Mi padre murió el año pasado, y le debo algo que no puedo pagar. Este mes voy a descubrir qué me espera a mí cuando cruce al otro lado.",
+        "texto": "Mi padre murió el año pasado, y le debo algo que no puedo pagar. Este mes voy a descubrir qué me espera a mí cuando pase al otro lado.",
         "drama": 0.65,
         "personajes": [
           {
@@ -340,7 +340,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "general"
       },
       {
         "dia": 1,
@@ -393,7 +393,7 @@
       },
       {
         "dia": 1,
-        "texto": "Mi turno recibe el templo del turno que se marcha. Contamos vasos, lámparas, piezas de lino y sellos de barro. Si falta algo, la culpa es nuestra.",
+        "texto": "Mi turno toma el templo del turno que se marcha. Contamos vasos, lámparas, telas de lino y sellos de barro. Si falta algo, la culpa es nuestra.",
         "drama": 0.6,
         "fondo": {
           "lugar": "interior",
@@ -597,8 +597,8 @@
         ],
         "insercion": {
           "tipo": "dato",
-          "valor": "100 bastonazos",
-          "etiqueta": "y cinco heridas abiertas: castigo del Decreto de Nauri (Seti I) por robar al templo (según las traducciones)",
+          "valor": "Decreto de Nauri",
+          "etiqueta": "Seti I protegió con castigos durísimos las tierras, barcos, rebaños y trabajadores del templo de Abidos",
           "icono": "⚖️"
         }
       },
@@ -657,7 +657,7 @@
       },
       {
         "dia": 5,
-        "texto": "Busco a la reina que gobernó como un rey, y no está. Tampoco el rey hereje que despreció a nuestros dioses. Hasta la piedra sabe callar.",
+        "texto": "Busco a la reina que gobernó como un rey, y no está. Tampoco el rey hereje que dio la espalda a nuestros dioses. Hasta la piedra sabe callar.",
         "drama": 0.75,
         "personajes": [
           {
@@ -750,7 +750,7 @@
             "accion": "hablar",
             "emocion": "feliz",
             "mirar": 1,
-            "habla": false
+            "habla": true
           },
           {
             "quien": "pairi",
@@ -839,7 +839,7 @@
       {
         "dia": 13,
         "corte": true,
-        "texto": "Mientras riego, pienso en mi padre. Murió sin el rollo que guía a los muertos en el juicio. Un libro así cuesta lo que un obrero gana en meses.",
+        "texto": "Mientras riego, pienso en mi padre. Murió sin el rollo que guía a los muertos en el juicio. Un libro así puede costar lo que un obrero gana en meses.",
         "drama": 0.7,
         "personajes": [
           {
@@ -931,7 +931,7 @@
       },
       {
         "dia": 14,
-        "texto": "En el juicio, Anubis pesa mi corazón contra la pluma de Maát, la verdad. Si pesa más, lo devora Ámmit, mitad cocodrilo, león e hipopótamo, y dejo de existir.",
+        "texto": "En el juicio, Anubis pesa mi corazón contra la pluma de Maát, la verdad. Si pesa más, lo devora Ámmit, cocodrilo, león e hipopótamo a la vez, y dejo de existir.",
         "drama": 0.85,
         "fondo": {
           "lugar": "interior",
@@ -1013,7 +1013,7 @@
             "accion": "hablar",
             "emocion": "miedo",
             "mirar": -1,
-            "habla": false
+            "habla": true
           }
         ],
         "camara": "cerca"
@@ -1038,7 +1038,7 @@
             "accion": "hablar",
             "emocion": "neutral",
             "mirar": -1,
-            "habla": false
+            "habla": true
           }
         ]
       },
@@ -1189,6 +1189,10 @@
             {
               "tipo": "roca",
               "x": 1.2
+            },
+            {
+              "tipo": "barca",
+              "x": 0.3
             }
           ]
         },
@@ -1222,7 +1226,7 @@
       },
       {
         "dia": 18,
-        "texto": "Entonces nos atacan. Hombres del pueblo hacen de enemigos de Osiris y se lanzan contra la barca. Es teatro, dicen. Los palos no lo saben.",
+        "texto": "De pronto nos atacan. Hombres del pueblo hacen de enemigos de Osiris y se lanzan contra la barca. Es teatro, dicen. Los palos no lo saben.",
         "drama": 0.9,
         "personajes": [
           {
@@ -1250,12 +1254,28 @@
             "habla": false
           }
         ],
-        "camara": "general"
+        "camara": "general",
+        "fondo": {
+          "lugar": "desierto",
+          "hora": "dia",
+          "clima": "polvo",
+          "props": [
+            {
+              "tipo": "🐺",
+              "x": -1.15,
+              "escala": 1.6
+            },
+            {
+              "tipo": "roca",
+              "x": 1.2
+            }
+          ]
+        }
       },
       {
         "dia": 18,
         "corte": true,
-        "texto": "Un palo me abre la frente. Sangro sobre el lino blanco y caigo de rodillas en la arena. Y un sacerdote que sangra es un sacerdote impuro.",
+        "texto": "Un palo me abre la frente. Sangro sobre el lino blanco y caigo de rodillas en la arena. Y me enseñaron que un sacerdote que sangra queda impuro.",
         "drama": 0.9,
         "personajes": [
           {
@@ -1351,7 +1371,7 @@
       },
       {
         "dia": 20,
-        "texto": "Al vigésimo día, con la frente vendada, vuelvo a mi vara. Empieza la Gran Salida: el dios se va al desierto, camino de su tumba en Péker.",
+        "texto": "Al vigésimo día, con la frente vendada, vuelvo a mi vara. Arranca la Gran Salida: el dios se va al desierto, camino de su tumba en Péker.",
         "drama": 0.8,
         "fondo": {
           "lugar": "valle",
@@ -1366,6 +1386,10 @@
             {
               "tipo": "palmera",
               "x": -1.25
+            },
+            {
+              "tipo": "barca",
+              "x": -0.3
             }
           ]
         },
@@ -1428,11 +1452,31 @@
             "habla": false
           }
         ],
-        "camara": "general"
+        "camara": "general",
+        "fondo": {
+          "lugar": "valle",
+          "hora": "dia",
+          "clima": "polvo",
+          "props": [
+            {
+              "tipo": "🐺",
+              "x": 1.15,
+              "escala": 1.6
+            },
+            {
+              "tipo": "palmera",
+              "x": -1.25
+            },
+            {
+              "tipo": "barca",
+              "x": -0.25
+            }
+          ]
+        }
       },
       {
         "dia": 21,
-        "texto": "Esa noche hago guardia junto a la tumba de un dios. Tiene mil setecientos años. Y en realidad perteneció a Yer, uno de los primeros reyes de Egipto.",
+        "texto": "Esa noche hago guardia junto a la tumba de un dios. Hoy se sabe que tenía mil setecientos años y que era de Yer, uno de los primeros reyes de Egipto.",
         "drama": 0.8,
         "fondo": {
           "lugar": "desierto",
@@ -1579,7 +1623,7 @@
       },
       {
         "dia": 22,
-        "texto": "Upuáut ha vengado a su padre. Osiris vuelve a su templo en la barca, y yo con él, llorando sin vergüenza, con la herida sangrando de nuevo.",
+        "texto": "Upuáut ha vengado a su padre. Osiris vuelve a su templo en la barca, y yo con él, llorando sin vergüenza, con la frente vendada.",
         "drama": 0.9,
         "personajes": [
           {
@@ -1599,7 +1643,31 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "cerca",
+        "fondo": {
+          "lugar": "desierto",
+          "hora": "amanecer",
+          "clima": "polvo",
+          "props": [
+            {
+              "tipo": "🐺",
+              "x": -1.2,
+              "escala": 1.6
+            },
+            {
+              "tipo": "roca",
+              "x": 1.25
+            },
+            {
+              "tipo": "antorcha",
+              "x": 0.95
+            },
+            {
+              "tipo": "barca",
+              "x": -0.22
+            }
+          ]
+        }
       },
       {
         "dia": 22,
@@ -1683,7 +1751,7 @@
               "nombre": "Sale Upuaut"
             },
             {
-              "icono": "⚖️",
+              "icono": "🥁",
               "nombre": "La batalla por la barca"
             },
             {
@@ -1755,7 +1823,7 @@
       },
       {
         "dia": 24,
-        "texto": "Luego envolvemos en lino los Osiris de grano, ya verdes y secos, como pequeños muertos que van a volver.",
+        "texto": "Luego envolvemos en lino los Osiris de grano, ya secos al sol, como pequeños muertos que van a volver.",
         "drama": 0.55,
         "personajes": [
           {
@@ -1771,7 +1839,7 @@
       },
       {
         "dia": 26,
-        "texto": "Llega la fiesta de Sókar, el dios halcón de los muertos. Damos la vuelta a los muros con cebollas al cuello, y Pairi no para de reír.",
+        "texto": "Llega la fiesta de Sókar, el dios halcón de los muertos, y damos la vuelta a los muros. Dicen que en Tebas se cuelgan cebollas al cuello; Pairi lo imita y no para de reír.",
         "drama": 0.6,
         "fondo": {
           "lugar": "valle",
@@ -1832,18 +1900,12 @@
             "habla": false
           }
         ],
-        "camara": "cerca",
-        "insercion": {
-          "tipo": "dato",
-          "valor": "1 de cada 4",
-          "etiqueta": "meses servía un sacerdote uab en el templo; el resto del año vivía con su familia",
-          "icono": "🗓️"
-        }
+        "camara": "cerca"
       },
       {
         "dia": 30,
         "corte": true,
-        "texto": "El último día del mes, levantamos con cuerdas la espalda de Osiris. Es el pilar Yed, su columna, tumbado en el patio del templo.",
+        "texto": "El último día del mes, levantamos con cuerdas la espalda de Osiris. Es el pilar Yed, su columna vertebral, el signo de la estabilidad.",
         "drama": 0.8,
         "fondo": {
           "lugar": "valle",
@@ -1851,7 +1913,7 @@
           "clima": "despejado",
           "props": [
             {
-              "tipo": "columna",
+              "tipo": "yed",
               "x": 0.0
             },
             {
@@ -1884,7 +1946,13 @@
             "objeto": "🪢"
           }
         ],
-        "camara": "general"
+        "camara": "general",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "Pilar Dyed",
+          "etiqueta": "la columna vertebral de Osiris; en la tumba de Jeruef (h. 1350 a. C.) Amenhotep III lo levanta con cuerdas",
+          "icono": "🪢"
+        }
       },
       {
         "dia": 30,
@@ -2046,7 +2114,7 @@
         }
       },
       {
-        "texto": "En mil ochocientos noventa y ocho, en la tumba de Yer, apareció un Osiris de piedra negra tumbado en un lecho de leones. Lo habían dejado allí siglos antes de mí.",
+        "texto": "En mil ochocientos noventa y ocho, en la tumba de Yer, se encontró un Osiris de piedra negra tumbado en un lecho con cabezas de león. Lo habían dejado allí siglos antes de mí.",
         "drama": 0.65,
         "personajes": [
           {
@@ -2061,7 +2129,7 @@
         "camara": "lenta"
       },
       {
-        "texto": "Un aviso: el calendario día a día de estos misterios viene de textos del templo de Dendera, más de mil años posteriores. Y yo, Najt, soy inventado, igual que mi familia.",
+        "texto": "Un aviso: el calendario día a día de estos misterios viene de textos del templo de Dendera, más de mil años posteriores. Y yo, Najt, soy inventado, igual que mi familia y mi maestro.",
         "drama": 0.55,
         "fondo": {
           "lugar": "valle",
@@ -2085,7 +2153,7 @@
             "accion": "hablar",
             "emocion": "neutral",
             "mirar": -1,
-            "habla": false
+            "habla": true
           }
         ],
         "camara": "cerca"
@@ -2100,7 +2168,7 @@
             "accion": "saludar",
             "emocion": "feliz",
             "mirar": -1,
-            "habla": false
+            "habla": true
           }
         ]
       }
@@ -2108,7 +2176,7 @@
   },
   "publicacion": {
     "tituloLargo": "Un mes en la vida de UN SACERDOTE DE OSIRIS (Abidos, 1270 a. C.) | El juicio del corazón",
-    "descripcion": "Treinta días en la vida de Najt, sacerdote «uab» («puro»), el grado más bajo del templo de Osiris en Abidos, durante el mes de Joiak, hacia 1270 a. C. (año 10 de Ramsés II). Le toca su turno de un mes de cada cuatro: afeitado de pies a cabeza, natrón y lino blanco, el templo de Seti I con su lista de reyes con huecos, los Osiris de grano que brotan, la batalla fingida por la barca del dios, la noche junto a la «tumba de Osiris» en Peqer, el gran combate de Nedit y el pilar Dyed. Y, de fondo, el miedo de todo egipcio: que su propio corazón lo delate en el juicio ante Osiris.\n\n— Semana 1: Afeitado de pies a cabeza\n— Semana 2: Un dios de barro y grano\n— Semana 3: La batalla por la barca\n— Semana 4: Levantar al dios\n— Epílogo: Ramsés II, Uenéfer, la cama de Osiris de la tumba de Dyer y qué es real\n\nAVISO: Najt, su esposa Iset, sus hijos Pairi y Tuy y su maestro Amenemope son INVENTADOS. Son reales: Abidos y el culto de Osiris, el templo de Seti I y la Lista de Abidos, el Decreto de Nauri, la estela de Ijernofret (h. 1870 a. C.) y lo que cuenta de los misterios (la salida de Upuaut, el ataque a la barca Neshmet, la procesión a Peqer y el combate de Nedit), los Osiris de grano, la tumba del rey Dyer venerada como tumba de Osiris, el capítulo 125 del Libro de los Muertos, el escarabeo del corazón y la erección del pilar Dyed. El calendario día a día de estos ritos viene sobre todo de los textos del templo de Dendera, más de mil años posteriores: el orden de los días en este vídeo es una reconstrucción. Lo que pasaba dentro de la tumba nunca se contó y nadie lo sabe.\n\nFuentes: estela de Ijernofret (Berlín ÄM 1204; M. Lichtheim, Ancient Egyptian Literature I, 1975); Libro de los Muertos, cap. 125 y 30B (Fitzwilliam Museum; papiros de Hunefer y Ani, British Museum EA 9901 y EA 10470); Decreto de Nauri (Griffith, 1927; Edgerton, 1947); Gran Inscripción Dedicatoria de Ramsés II en Abidos; tumba de Jeruef TT192 (Epigraphic Survey, OIP 102); K. A. Kitchen, Pharaoh Triumphant (1982); J. Budka sobre Umm el-Qaab (2019); Metropolitan Museum (camas de Osiris); Heródoto, Historias II.37; Digital Egypt (UCL), fiesta de Joiak.",
+    "descripcion": "Treinta días en la vida de Najt, sacerdote «uab» («puro»), el grado más bajo del templo de Osiris en Abidos, durante el mes de Joiak, hacia 1270 a. C. (año 10 de Ramsés II). Le toca su turno de un mes de cada cuatro: afeitado de pies a cabeza, natrón y lino blanco, el templo de Seti I con su lista de reyes con huecos, los Osiris de grano que brotan, la batalla fingida por la barca del dios, la noche junto a la «tumba de Osiris» en Peqer, el gran combate de Nedit y el pilar Dyed. Y, de fondo, el miedo de todo egipcio: que su propio corazón lo delate en el juicio ante Osiris.\n\n— Semana 1: Afeitado de pies a cabeza\n— Semana 2: Un dios de barro y grano\n— Semana 3: La batalla por la barca\n— Semana 4: Levantar al dios\n— Epílogo: Ramsés II, Uenéfer, la cama de Osiris de la tumba de Dyer y qué es real\n\nAVISO: Najt, su esposa Iset, sus hijos Pairi y Tuy y su maestro Amenemope son INVENTADOS. Los collares de cebollas de la fiesta de Sokar están documentados en Tebas; en Abidos, no consta. Son reales: Abidos y el culto de Osiris, el templo de Seti I y la Lista de Abidos, el Decreto de Nauri, la estela de Ijernofret (h. 1870 a. C.) y lo que cuenta de los misterios (la salida de Upuaut, el ataque a la barca Neshmet, la procesión a Peqer y el combate de Nedit), los Osiris de grano, la tumba del rey Dyer venerada como tumba de Osiris, el capítulo 125 del Libro de los Muertos, el escarabeo del corazón y la erección del pilar Dyed. El calendario día a día de estos ritos viene sobre todo de los textos del templo de Dendera, más de mil años posteriores: el orden de los días en este vídeo es una reconstrucción. Lo que pasaba dentro de la tumba nunca se contó y nadie lo sabe.\n\nFuentes: estela de Ijernofret (Berlín ÄM 1204; M. Lichtheim, Ancient Egyptian Literature I, 1975); Libro de los Muertos, cap. 125 y 30B (Fitzwilliam Museum; papiros de Hunefer y Ani, British Museum EA 9901 y EA 10470); Decreto de Nauri (Griffith, 1927; Edgerton, 1947); Gran Inscripción Dedicatoria de Ramsés II en Abidos; tumba de Jeruef TT192 (Epigraphic Survey, OIP 102); K. A. Kitchen, Pharaoh Triumphant (1982); J. Budka sobre Umm el-Qaab (2019); Metropolitan Museum (camas de Osiris); Heródoto, Historias II.37; Digital Egypt (UCL), fiesta de Joiak.",
     "etiquetas": [
       "un mes en la vida de",
       "antiguo Egipto",
@@ -2142,7 +2210,7 @@
       },
       {
         "titulo": "Nunca vi la cara de mi dios",
-        "descripcion": "Un sacerdote «uab» se quedaba en la puerta. Y robar al templo costaba cien bastonazos. #shorts #historia #egipto"
+        "descripcion": "Un sacerdote «uab» se quedaba en la puerta. Y el Decreto de Nauri castigaba con dureza a quien robara al templo. #shorts #historia #egipto"
       },
       {
         "titulo": "76 reyes en la pared… y faltan los borrados",
@@ -2165,7 +2233,7 @@
         "descripcion": "La procesión de Upuaut y la batalla fingida por la barca de Osiris. #shorts #historia #egipto"
       },
       {
-        "titulo": "Un sacerdote que sangra es un sacerdote impuro",
+        "titulo": "Herido defendiendo la barca de un dios",
         "descripcion": "Herido en la batalla de la barca, curado con miel… y de vuelta al desierto. #shorts #historia #egipto"
       },
       {
