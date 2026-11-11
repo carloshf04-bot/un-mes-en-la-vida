@@ -23,3 +23,4 @@
 2026-11-10 · 4 · control-calidad · APROBADO en la vuelta 2 (animación provisional; menor pendiente: ZZZ roza LUNA LLENA en la frase 135) · falta la voz real para cerrar el paso 4
 2026-11-11 · 4 · produccion · ZZZ de la 135 arreglado; miniaturas hechas; la fuente uncial no tenía A-Z (woff2 latin-ext) → cambiada a la TTF completa · los rótulos en uncial se revisan de nuevo
 2026-11-11 · 4 · Dirección · whisper: 50 frases «con fallos», pero 31 eran nombres nórdicos mal transcritos (Wolf/Ulf, Edebi/Hedeby…); comprobación cambiada a letra a letra con alias de nombres → 19 fallos reales (finales inventados, repeticiones) que se regeneran
+2026-11-11 · 4 · Dirección · voz terminada: 860,35 s (14:20), 238/238 frases comprobadas con whisper · a montaje con la voz real

@@ -1,0 +1,1906 @@
+[
+ {
+  "i": 1,
+  "text": "Hoy vas a salir al mar en un barco sin techo, sin brújula y sin baño.",
+  "start": 0.0,
+  "end": 4.846,
+  "sim": 1.0,
+  "oido": "Hoy vas a salir al mar en un barco sin techo, sin brújula y sin baño."
+ },
+ {
+  "i": 2,
+  "text": "Vas a dormir en cubierta, bajo una piel untada de grasa.",
+  "start": 5.146,
+  "end": 9.406,
+  "sim": 1.0,
+  "oido": "vas a dormir encubierta bajo una piel untada de grasa."
+ },
+ {
+  "i": 3,
+  "text": "Vas a pagar con plata partida a cachos.",
+  "start": 9.706,
+  "end": 13.192,
+  "sim": 1.0,
+  "oido": "Vas a pagar con plata partida a cachos."
+ },
+ {
+  "i": 4,
+  "text": "Y vas a descubrir que aquí nadie lleva cuernos.",
+  "start": 13.492,
+  "end": 16.142,
+  "sim": 1.0,
+  "oido": "y vas a descubrir que aquí nadie lleva cuernos."
+ },
+ {
+  "i": 5,
+  "text": "Ni uno.",
+  "start": 16.442,
+  "end": 17.166,
+  "sim": 1.0,
+  "oido": "¡Ni uno!"
+ },
+ {
+  "i": 6,
+  "text": "Noruega, hacia el año ochocientos noventa.",
+  "start": 18.566,
+  "end": 22.186,
+  "sim": 1.0,
+  "oido": "Noruega hacia el año 890."
+ },
+ {
+  "i": 7,
+  "text": "Un mes en la vida de un vikingo.",
+  "start": 22.486,
+  "end": 25.466,
+  "sim": 1.0,
+  "oido": "Un mes en la vida de un vikingo."
+ },
+ {
+  "i": 8,
+  "text": "Bueno, de un granjero que se va de vikingo.",
+  "start": 25.766,
+  "end": 29.203,
+  "sim": 1.0,
+  "oido": "Bueno, de un granjero que se va de vikingo."
+ },
+ {
+  "i": 9,
+  "text": "Porque aquí va el primer dato raro.",
+  "start": 29.503,
+  "end": 32.314,
+  "sim": 1.0,
+  "oido": "porque aquí va el primer dato raro."
+ },
+ {
+  "i": 10,
+  "text": "Vikingo no era un pueblo.",
+  "start": 32.614,
+  "end": 34.683,
+  "sim": 0.952,
+  "oido": "El vikingo no era un pueblo."
+ },
+ {
+  "i": 11,
+  "text": "En nórdico antiguo, víking era algo que se hacía: irse de viaje por mar.",
+  "start": 34.983,
+  "end": 40.139,
+  "sim": 1.0,
+  "oido": "En nórdico antiguo, viking era algo que se hacía, irse de viaje por mar."
+ },
+ {
+  "i": 12,
+  "text": "Y el que se iba era un víkingr.",
+  "start": 40.439,
+  "end": 44.295,
+  "sim": 1.0,
+  "oido": "Y el que se iba era un vikingar."
+ },
+ {
+  "i": 13,
+  "text": "Eran noruegos, daneses o suecos.",
+  "start": 44.595,
+  "end": 47.034,
+  "sim": 1.0,
+  "oido": "eran noruegos, daneses o suecos."
+ },
+ {
+  "i": 14,
+  "text": "Como quien se apunta a la vendimia, pero con remos.",
+  "start": 47.334,
+  "end": 51.576,
+  "sim": 0.976,
+  "oido": "como quien se apunta a la vendimia, pero con relemos."
+ },
+ {
+  "i": 15,
+  "text": "Este es Ulf.",
+  "start": 51.876,
+  "end": 52.977,
+  "sim": 1.0,
+  "oido": "Este es Ulf."
+ },
+ {
+  "i": 16,
+  "text": "Ulf no existió, pero su mundo sí.",
+  "start": 53.277,
+  "end": 57.496,
+  "sim": 1.0,
+  "oido": "Wolf no existió, pero su mundo sí."
+ },
+ {
+  "i": 17,
+  "text": "Ulf quiere decir lobo.",
+  "start": 57.796,
+  "end": 59.406,
+  "sim": 1.0,
+  "oido": "Ulf quiere decir lobo."
+ },
+ {
+  "i": 18,
+  "text": "Y tiene su chiste, porque Ulf se marea en cuanto pisa un barco.",
+  "start": 59.706,
+  "end": 63.341,
+  "sim": 1.0,
+  "oido": "Y tiene su chiste, porque Ulf se marea en cuanto pisa un barco."
+ },
+ {
+  "i": 19,
+  "text": "Vive en Vestfold, al sur de Noruega, en la orilla del fiordo de Oslo.",
+  "start": 63.641,
+  "end": 67.756,
+  "sim": 0.981,
+  "oido": "Vive en Vestfold, al sur de Noruega, en la orilla del fiordo de Osno."
+ },
+ {
+  "i": 20,
+  "text": "Tiene una granja, una mujer que se llama Ása y un hijo de ocho años, Kári.",
+  "start": 68.056,
+  "end": 73.169,
+  "sim": 1.0,
+  "oido": "Tiene una granja, una mujer que se llama Asa y un hijo de 8 años, Kari."
+ },
+ {
+  "i": 21,
+  "text": "Al lado queda Kaupang, un puerto de mercado lleno de barcos.",
+  "start": 73.469,
+  "end": 77.879,
+  "sim": 1.0,
+  "oido": "Al lado queda Caupan, un puerto de mercado lleno de barcos."
+ },
+ {
+  "i": 22,
+  "text": "Y por allí manda Geirmund, el jefe local.",
+  "start": 78.179,
+  "end": 81.187,
+  "sim": 1.0,
+  "oido": "y por allí manda Geirmund, el jefe local."
+ },
+ {
+  "i": 23,
+  "text": "Geirmund lleva espada, que en esta época es como llevar un cartel que pone «tengo plata».",
+  "start": 81.487,
+  "end": 86.407,
+  "sim": 1.0,
+  "oido": "Heirmund lleva espada, que en esta época es como llevar un cartel que pone Tengo Plata."
+ },
+ {
+  "i": 24,
+  "text": "Y tiene algo todavía mejor: un barco.",
+  "start": 86.707,
+  "end": 89.826,
+  "sim": 1.0,
+  "oido": "Y tiene algo todavía mejor, un barco."
+ },
+ {
+  "i": 25,
+  "text": "Este mes, Ulf va a remar en ese barco hasta Hedeby, el gran mercado de los daneses.",
+  "start": 90.126,
+  "end": 96.122,
+  "sim": 1.0,
+  "oido": "Este mes, Ulf va a remar en ese barco hasta Edebi, el gran mercado de los daneses."
+ },
+ {
+  "i": 26,
+  "text": "Con la plata que pueda traer.",
+  "start": 96.422,
+  "end": 100.939,
+  "sim": 1.0,
+  "oido": "con la plata que pueda traer."
+ },
+ {
+  "i": 27,
+  "text": "Y con el estómago que le quede.",
+  "start": 101.239,
+  "end": 103.2,
+  "sim": 1.0,
+  "oido": "y con el estómago que le quede."
+ },
+ {
+  "i": 28,
+  "text": "Semana uno.",
+  "start": 104.6,
+  "end": 105.58,
+  "sim": 1.0,
+  "oido": "Semana 1"
+ },
+ {
+  "i": 29,
+  "text": "Luna nueva.",
+  "start": 105.88,
+  "end": 106.825,
+  "sim": 1.0,
+  "oido": "¡Luna nueva!"
+ },
+ {
+  "i": 30,
+  "text": "Es primavera y la siembra ya está hecha.",
+  "start": 107.125,
+  "end": 110.313,
+  "sim": 1.0,
+  "oido": "Es primavera y la siembra ya está hecha."
+ },
+ {
+  "i": 31,
+  "text": "Porque el vikingo, antes que guerrero, es granjero.",
+  "start": 110.613,
+  "end": 116.277,
+  "sim": 1.0,
+  "oido": "porque el vikingo, antes que guerrero, es granjero."
+ },
+ {
+  "i": 32,
+  "text": "Primero siembra, después se va de viaje y vuelve para la cosecha.",
+  "start": 116.577,
+  "end": 121.149,
+  "sim": 1.0,
+  "oido": "Primero siembra, después se va de viaje y vuelve para la cosecha."
+ },
+ {
+  "i": 33,
+  "text": "Así lo cuenta una saga de las islas Orcadas, escrita siglos después, sobre un jefe que repetía ese plan todos los años.",
+  "start": 121.449,
+  "end": 128.963,
+  "sim": 1.0,
+  "oido": "Así lo cuenta una saga de las Islas Orcadas, escrita siglos después, sobre un jefe que repetía ese plan todos los años."
+ },
+ {
+  "i": 34,
+  "text": "Lo llamaba su viaje de primavera.",
+  "start": 129.263,
+  "end": 130.987,
+  "sim": 1.0,
+  "oido": "Lo llamaba su viaje de primavera."
+ },
+ {
+  "i": 35,
+  "text": "Como un puente de mayo, pero sin hotel y con hacha.",
+  "start": 131.287,
+  "end": 134.992,
+  "sim": 1.0,
+  "oido": "como un puente de mayo, pero sin hotel y con hacha."
+ },
+ {
+  "i": 36,
+  "text": "La casa de Ulf es una casa larga, con las paredes un poco curvas, como el casco de un barco.",
+  "start": 135.292,
+  "end": 141.533,
+  "sim": 1.0,
+  "oido": "La casa de Ulf es una casa larga, con las paredes un poco curvas, como el casco de un barco."
+ },
+ {
+  "i": 37,
+  "text": "El tejado es de tepe: tierra con hierba.",
+  "start": 141.833,
+  "end": 147.273,
+  "sim": 1.0,
+  "oido": "El tejado es de tepe, tierra con hierba."
+ },
+ {
+  "i": 38,
+  "text": "Sí, a Ulf le salen flores en el tejado.",
+  "start": 147.573,
+  "end": 151.842,
+  "sim": 1.0,
+  "oido": "Sí, a Ulf le salen flores en el tejado."
+ },
+ {
+  "i": 39,
+  "text": "No hay chimenea.",
+  "start": 152.142,
+  "end": 153.15,
+  "sim": 1.0,
+  "oido": "No hay chimenea."
+ },
+ {
+  "i": 40,
+  "text": "El humo sale por un agujero del techo, cuando quiere.",
+  "start": 153.45,
+  "end": 157.444,
+  "sim": 1.0,
+  "oido": "El humo sale por un agujero del techo, cuando quiere."
+ },
+ {
+  "i": 41,
+  "text": "En medio arde el hogar largo, rodeado de piedras.",
+  "start": 157.744,
+  "end": 161.857,
+  "sim": 1.0,
+  "oido": "En medio arde el hogar largo rodeado de piedras."
+ },
+ {
+  "i": 42,
+  "text": "Y al fondo, tras un tabique de varas, duermen las vacas.",
+  "start": 162.157,
+  "end": 165.594,
+  "sim": 1.0,
+  "oido": "Y al fondo, tras un tabique de varas, duermen las vacas."
+ },
+ {
+  "i": 43,
+  "text": "Aquí hay dos comidas al día.",
+  "start": 165.894,
+  "end": 168.357,
+  "sim": 1.0,
+  "oido": "Aquí hay dos comidas al día."
+ },
+ {
+  "i": 44,
+  "text": "La primera, el dagmal, llega por la mañana, después de unas horas de trabajo.",
+  "start": 168.657,
+  "end": 173.498,
+  "sim": 0.992,
+  "oido": "A primera, el Dagmal llega por la mañana, después de unas horas de trabajo."
+ },
+ {
+  "i": 45,
+  "text": "La segunda, el natmal, por la noche.",
+  "start": 173.798,
+  "end": 177.21,
+  "sim": 1.0,
+  "oido": "La segunda, el Natmal por la noche."
+ },
+ {
+  "i": 46,
+  "text": "Gachas, pan, pescado y, con suerte, guiso.",
+  "start": 177.51,
+  "end": 181.517,
+  "sim": 1.0,
+  "oido": "gachas, pan, pescado y, con suerte, guiso."
+ },
+ {
+  "i": 47,
+  "text": "La única golosina es la miel.",
+  "start": 181.817,
+  "end": 183.583,
+  "sim": 1.0,
+  "oido": "La única golosina es la miel."
+ },
+ {
+  "i": 48,
+  "text": "Ulf viste túnica larga de lana, sin botones, y una capa rectangular sujeta con un broche.",
+  "start": 183.883,
+  "end": 189.67,
+  "sim": 1.0,
+  "oido": "Wolf viste túnica larga de lana, sin botones y una capa rectangular sujeta con un broche."
+ },
+ {
+  "i": 49,
+  "text": "Ása lleva un delantal con dos broches ovalados y las llaves de la casa colgando.",
+  "start": 189.97,
+  "end": 194.912,
+  "sim": 1.0,
+  "oido": "Asa lleva un delantal con dos broches ovalados y las llaves de la casa colgando."
+ },
+ {
+  "i": 50,
+  "text": "Cuando Ulf se vaya, la granja será suya.",
+  "start": 195.212,
+  "end": 198.928,
+  "sim": 1.0,
+  "oido": "Cuando Ulf se vaya, la granja será suya."
+ },
+ {
+  "i": 51,
+  "text": "Y aquí viene el gran mito.",
+  "start": 199.228,
+  "end": 203.099,
+  "sim": 1.0,
+  "oido": "Y aquí viene el gran mito."
+ },
+ {
+  "i": 52,
+  "text": "Los vikingos, dicen, eran unos guarros.",
+  "start": 203.399,
+  "end": 206.827,
+  "sim": 1.0,
+  "oido": "Los vikingos, dicen, eran unos guarros."
+ },
+ {
+  "i": 53,
+  "text": "En realidad, el sábado se llamaba laugardagr.",
+  "start": 207.127,
+  "end": 210.693,
+  "sim": 1.0,
+  "oido": "En realidad, el sábado se llamaba Laugardaggar."
+ },
+ {
+  "i": 54,
+  "text": "Significa día de lavarse.",
+  "start": 210.993,
+  "end": 212.877,
+  "sim": 1.0,
+  "oido": "Significa \"día de lavarse\"."
+ },
+ {
+  "i": 55,
+  "text": "Ese día, Ulf baja al arroyo, se lava y se peina con un peine de asta.",
+  "start": 213.177,
+  "end": 218.642,
+  "sim": 1.0,
+  "oido": "Ese día, Ulf baja al arroyo, se lava y se peina con un peine de asta."
+ },
+ {
+  "i": 56,
+  "text": "Los peines están entre los objetos más comunes de la época.",
+  "start": 218.942,
+  "end": 223.442,
+  "sim": 1.0,
+  "oido": "Los peines están entre los objetos más comunes de la época."
+ },
+ {
+  "i": 57,
+  "text": "Y junto a ellos salen cucharillas para limpiarse las orejas.",
+  "start": 223.742,
+  "end": 227.398,
+  "sim": 1.0,
+  "oido": "y junto a ellos salen cucharillas para limpiarse las orejas."
+ },
+ {
+  "i": 58,
+  "text": "Siglos después, un cronista inglés se quejaba de los daneses.",
+  "start": 227.698,
+  "end": 232.718,
+  "sim": 1.0,
+  "oido": "Siglos después, un cronista inglés se quejaba de los daneses."
+ },
+ {
+  "i": 59,
+  "text": "Se peinaban a diario y se bañaban los sábados.",
+  "start": 233.018,
+  "end": 237.093,
+  "sim": 1.0,
+  "oido": "Se peinaban a diario y se bañaban los sábados."
+ },
+ {
+  "i": 60,
+  "text": "Y así les quitaban las novias a los ingleses.",
+  "start": 237.393,
+  "end": 240.11,
+  "sim": 1.0,
+  "oido": "Y así les quitaban las novias a los ingleses."
+ },
+ {
+  "i": 61,
+  "text": "Eso se llama envidia.",
+  "start": 240.41,
+  "end": 241.624,
+  "sim": 1.0,
+  "oido": "Eso se llama envidia."
+ },
+ {
+  "i": 62,
+  "text": "Esa noche no hay luna.",
+  "start": 241.924,
+  "end": 243.055,
+  "sim": 1.0,
+  "oido": "Esa noche no hay luna."
+ },
+ {
+  "i": 63,
+  "text": "Ulf saca sus armas: un hacha y un escudo redondo de casi un metro.",
+  "start": 243.355,
+  "end": 247.583,
+  "sim": 0.97,
+  "oido": "saca sus armas, un hacha y un escudo redondo de casi un metro."
+ },
+ {
+  "i": 64,
+  "text": "Espada no tiene.",
+  "start": 247.883,
+  "end": 250.874,
+  "sim": 1.0,
+  "oido": "Espada no tiene."
+ },
+ {
+  "i": 65,
+  "text": "Una espada es demasiado cara para un granjero.",
+  "start": 251.174,
+  "end": 254.007,
+  "sim": 1.0,
+  "oido": "Una espada es demasiado cara para un granjero."
+ },
+ {
+  "i": 66,
+  "text": "Kári le pregunta si va a volver.",
+  "start": 254.307,
+  "end": 256.178,
+  "sim": 1.0,
+  "oido": "Kari le pregunta si va a volver."
+ },
+ {
+  "i": 67,
+  "text": "Ulf no contesta.",
+  "start": 256.478,
+  "end": 259.898,
+  "sim": 1.0,
+  "oido": "Ulf no contesta."
+ },
+ {
+  "i": 68,
+  "text": "Está pensando en el mar.",
+  "start": 260.198,
+  "end": 261.647,
+  "sim": 1.0,
+  "oido": "Está pensando en el mar."
+ },
+ {
+  "i": 69,
+  "text": "Y el mar no sabe que Ulf se marea.",
+  "start": 261.947,
+  "end": 264.355,
+  "sim": 1.0,
+  "oido": "y el mar no sabe que Ulf se marea."
+ },
+ {
+  "i": 70,
+  "text": "Semana dos.",
+  "start": 265.755,
+  "end": 266.715,
+  "sim": 1.0,
+  "oido": "Semana 2"
+ },
+ {
+  "i": 71,
+  "text": "Media luna.",
+  "start": 267.015,
+  "end": 269.665,
+  "sim": 1.0,
+  "oido": "Media luna."
+ },
+ {
+  "i": 72,
+  "text": "Hoy hay thing.",
+  "start": 269.965,
+  "end": 271.06,
+  "sim": 1.0,
+  "oido": "Hoy hay fin."
+ },
+ {
+  "i": 73,
+  "text": "El thing es la asamblea de los hombres libres.",
+  "start": 271.36,
+  "end": 275.418,
+  "sim": 1.0,
+  "oido": "El TIN es la Asamblea de los Hombres Libres."
+ },
+ {
+  "i": 74,
+  "text": "Allí se dictan las leyes, se resuelven los pleitos y se ponen multas.",
+  "start": 275.718,
+  "end": 279.836,
+  "sim": 1.0,
+  "oido": "Allí se dictan las leyes, se resuelven los pleitos y se ponen multas."
+ },
+ {
+  "i": 75,
+  "text": "Pero atención: el thing no ejecuta la pena.",
+  "start": 280.136,
+  "end": 284.516,
+  "sim": 1.0,
+  "oido": "Pero atención, el team no ejecuta la pena."
+ },
+ {
+  "i": 76,
+  "text": "De eso se encarga la familia del ofendido.",
+  "start": 284.816,
+  "end": 287.166,
+  "sim": 1.0,
+  "oido": "De eso se encarga la familia del ofendido."
+ },
+ {
+  "i": 77,
+  "text": "O sea: ganas el pleito y luego te toca a ti ir a cobrar.",
+  "start": 287.466,
+  "end": 291.358,
+  "sim": 1.0,
+  "oido": "O sea, ganas el pleito y luego te toca a ti ir a cobrar."
+ },
+ {
+  "i": 78,
+  "text": "En medio está Hallvard, el hombre de la ley.",
+  "start": 291.658,
+  "end": 294.331,
+  "sim": 1.0,
+  "oido": "En medio está Alvar, el hombre de la ley."
+ },
+ {
+  "i": 79,
+  "text": "Hallvard no tiene libros.",
+  "start": 294.631,
+  "end": 296.279,
+  "sim": 1.0,
+  "oido": "Alvar no tiene libros."
+ },
+ {
+  "i": 80,
+  "text": "Se sabe las leyes de memoria y las dice en alto.",
+  "start": 296.579,
+  "end": 299.279,
+  "sim": 1.0,
+  "oido": "Se sabe las leyes de memoria y las dice en alto."
+ },
+ {
+  "i": 81,
+  "text": "Delante de todos y sin chuleta.",
+  "start": 299.579,
+  "end": 301.769,
+  "sim": 1.0,
+  "oido": "Delante de todos y sin chuleta."
+ },
+ {
+  "i": 82,
+  "text": "Las mujeres a veces miran, pero no votan.",
+  "start": 302.069,
+  "end": 304.671,
+  "sim": 1.0,
+  "oido": "Las mujeres a veces miran, pero no votan."
+ },
+ {
+  "i": 83,
+  "text": "Y aquí va otro dato raro.",
+  "start": 304.971,
+  "end": 307.22,
+  "sim": 0.947,
+  "oido": "Y aquí va otro gato raro."
+ },
+ {
+  "i": 84,
+  "text": "Siglos después, las leyes de Noruega cuentan que los asuntos se aprobaban chocando las armas.",
+  "start": 307.52,
+  "end": 313.763,
+  "sim": 1.0,
+  "oido": "Siglos después, las leyes de Noruega cuentan que los asuntos se aprobaban chocando las armas."
+ },
+ {
+  "i": 85,
+  "text": "Se llamaba vápnatak: tomar las armas.",
+  "start": 314.063,
+  "end": 317.426,
+  "sim": 1.0,
+  "oido": "Se llamaba Vapnatak, tomar las armas."
+ },
+ {
+  "i": 86,
+  "text": "Nada de levantar la mano.",
+  "start": 317.726,
+  "end": 320.947,
+  "sim": 1.0,
+  "oido": "Nada de levantar la mano."
+ },
+ {
+  "i": 87,
+  "text": "Hierro contra madera, y asunto aprobado.",
+  "start": 321.247,
+  "end": 323.851,
+  "sim": 1.0,
+  "oido": "Hierro contra madera y asunto aprobado."
+ },
+ {
+  "i": 88,
+  "text": "Como levantar la mano en clase, pero con un hacha.",
+  "start": 324.151,
+  "end": 327.823,
+  "sim": 1.0,
+  "oido": "como levantar la mano en clase pero con un hacha."
+ },
+ {
+  "i": 89,
+  "text": "Geirmund avisa del viaje y pide remeros.",
+  "start": 328.123,
+  "end": 330.796,
+  "sim": 1.0,
+  "oido": "Geirmund avisa del viaje y pide remeros."
+ },
+ {
+  "i": 90,
+  "text": "Ulf se apunta.",
+  "start": 331.096,
+  "end": 332.905,
+  "sim": 1.0,
+  "oido": "Ulf se apunta."
+ },
+ {
+  "i": 91,
+  "text": "Y se arrepiente en el acto.",
+  "start": 333.205,
+  "end": 336.204,
+  "sim": 1.0,
+  "oido": "y se arrepiente en el acto."
+ },
+ {
+  "i": 92,
+  "text": "En el varadero de Kaupang espera el barco.",
+  "start": 336.504,
+  "end": 340.499,
+  "sim": 1.0,
+  "oido": "En el varadero de Kaupang espera el barco."
+ },
+ {
+  "i": 93,
+  "text": "Es como el de Gokstad, que se encontró aquí mismo, en Vestfold.",
+  "start": 340.799,
+  "end": 344.913,
+  "sim": 1.0,
+  "oido": "es como el de Gokstad, que se encontró aquí mismo en Vestfold."
+ },
+ {
+  "i": 94,
+  "text": "Su madera se cortó justo hacia el año ochocientos noventa.",
+  "start": 345.213,
+  "end": 348.888,
+  "sim": 1.0,
+  "oido": "Su madera se cortó justo hacia el año 890."
+ },
+ {
+  "i": 95,
+  "text": "Treinta y dos remos.",
+  "start": 349.188,
+  "end": 350.95,
+  "sim": 1.0,
+  "oido": "Treinta y dos remos."
+ },
+ {
+  "i": 96,
+  "text": "Tablas solapadas, una vela cuadrada y un remo grande en un costado para guiarlo.",
+  "start": 351.25,
+  "end": 356.872,
+  "sim": 0.947,
+  "oido": "a blasolapadas, una vela cuadrada y un remo grande en un costado para guiarlo. Por un"
+ },
+ {
+  "i": 97,
+  "text": "Camarotes, ninguno.",
+  "start": 357.172,
+  "end": 358.738,
+  "sim": 1.0,
+  "oido": "Camarotes. Ninguno."
+ },
+ {
+  "i": 98,
+  "text": "Pocos años después, aquí al lado, enterraron a un hombre importante dentro de ese barco, bajo un montículo de tierra.",
+  "start": 359.038,
+  "end": 367.218,
+  "sim": 1.0,
+  "oido": "Pocos años después, aquí al lado, enterraron a un hombre importante dentro de ese barco bajo un montículo de tierra."
+ },
+ {
+  "i": 99,
+  "text": "Con él metieron doce caballos, perros, un tablero de juego y hasta pavos reales.",
+  "start": 367.518,
+  "end": 372.713,
+  "sim": 1.0,
+  "oido": "Con él metieron 12 caballos, perros, un tablero de juego y hasta pavos reales."
+ },
+ {
+  "i": 100,
+  "text": "Pavos reales.",
+  "start": 373.013,
+  "end": 373.97,
+  "sim": 1.0,
+  "oido": "Pabos reales."
+ },
+ {
+  "i": 101,
+  "text": "En Noruega.",
+  "start": 374.27,
+  "end": 375.117,
+  "sim": 1.0,
+  "oido": "en Noruega."
+ },
+ {
+  "i": 102,
+  "text": "Nadie sabe seguro quién era.",
+  "start": 375.417,
+  "end": 377.5,
+  "sim": 1.0,
+  "oido": "Nadie sabe seguro quién era."
+ },
+ {
+  "i": 103,
+  "text": "Pero tenía varios cortes de armas en las piernas.",
+  "start": 377.8,
+  "end": 381.322,
+  "sim": 1.0,
+  "oido": "pero tenía varios cortes de armas en las piernas."
+ },
+ {
+  "i": 104,
+  "text": "Llega la tarde de la partida.",
+  "start": 381.622,
+  "end": 383.307,
+  "sim": 1.0,
+  "oido": "Llega la tarde de la partida."
+ },
+ {
+  "i": 105,
+  "text": "Los escudos amarillos y negros cuelgan de la borda.",
+  "start": 383.607,
+  "end": 388.207,
+  "sim": 1.0,
+  "oido": "Los escudos amarillos y negros cuelgan de la borda."
+ },
+ {
+  "i": 106,
+  "text": "Ása le da a Ulf una piel enrollada y pescado seco.",
+  "start": 388.507,
+  "end": 392.503,
+  "sim": 1.0,
+  "oido": "Asa le da a Ulf una piel enrollada y pescado seco."
+ },
+ {
+  "i": 107,
+  "text": "Kári corre por el muelle con el perro.",
+  "start": 392.803,
+  "end": 394.848,
+  "sim": 1.0,
+  "oido": "Carrie corre por el muelle con el perro."
+ },
+ {
+  "i": 108,
+  "text": "Ulf mira el agua.",
+  "start": 395.148,
+  "end": 396.546,
+  "sim": 1.0,
+  "oido": "Wolf mira el agua."
+ },
+ {
+  "i": 109,
+  "text": "El agua le devuelve la mirada.",
+  "start": 396.846,
+  "end": 399.34,
+  "sim": 1.0,
+  "oido": "El agua le devuelve la mirada."
+ },
+ {
+  "i": 110,
+  "text": "Y el lobo traga saliva.",
+  "start": 399.64,
+  "end": 403.1,
+  "sim": 0.944,
+  "oido": "y el logo tragasaliva."
+ },
+ {
+  "i": 111,
+  "text": "Semana tres.",
+  "start": 404.5,
+  "end": 406.213,
+  "sim": 1.0,
+  "oido": "Semana 3"
+ },
+ {
+  "i": 112,
+  "text": "Luna llena.",
+  "start": 406.513,
+  "end": 407.506,
+  "sim": 1.0,
+  "oido": "Luna llena."
+ },
+ {
+  "i": 113,
+  "text": "Rumbo a Hedeby.",
+  "start": 407.806,
+  "end": 408.772,
+  "sim": 1.0,
+  "oido": "Rumbo a Edeby."
+ },
+ {
+  "i": 114,
+  "text": "¿Y cómo sabemos cuánto se tarda?",
+  "start": 409.072,
+  "end": 411.013,
+  "sim": 1.0,
+  "oido": "¿Y cómo sabemos cuánto se tarda?"
+ },
+ {
+  "i": 115,
+  "text": "Por un navegante noruego de esta misma época.",
+  "start": 411.463,
+  "end": 413.874,
+  "sim": 1.0,
+  "oido": "por un navegante noruego de esta misma época."
+ },
+ {
+  "i": 116,
+  "text": "Se llamaba Óttar, y se lo contó en persona al rey Alfredo, en Inglaterra.",
+  "start": 414.174,
+  "end": 419.151,
+  "sim": 1.0,
+  "oido": "Se llamaba Otar y se lo contó en persona al rey Alfredo en Inglaterra,"
+ },
+ {
+  "i": 117,
+  "text": "De Kaupang a Hedeby: cinco días.",
+  "start": 419.451,
+  "end": 422.346,
+  "sim": 1.0,
+  "oido": "de Kaupang a Edebi, 5 días."
+ },
+ {
+  "i": 118,
+  "text": "Primera sorpresa: no hay brújula.",
+  "start": 422.646,
+  "end": 425.683,
+  "sim": 0.964,
+  "oido": "¡Primera sorpresa! ¡No hay brújula! ¡Ma!"
+ },
+ {
+  "i": 119,
+  "text": "Se navega viendo la costa, con la tierra a un lado y el mar al otro.",
+  "start": 425.983,
+  "end": 430.014,
+  "sim": 1.0,
+  "oido": "Se navega viendo la costa, con la tierra a un lado y el mar al otro."
+ },
+ {
+  "i": 120,
+  "text": "¿Y la famosa piedra solar de las sagas?",
+  "start": 430.314,
+  "end": 432.831,
+  "sim": 1.0,
+  "oido": "¿Y la famosa piedra solar de las sagas?"
+ },
+ {
+  "i": 121,
+  "text": "Nunca se ha encontrado ninguna.",
+  "start": 433.281,
+  "end": 435.795,
+  "sim": 1.0,
+  "oido": "Nunca se ha encontrado ninguna."
+ },
+ {
+  "i": 122,
+  "text": "Segunda sorpresa: a bordo casi no hay comida caliente.",
+  "start": 436.095,
+  "end": 439.507,
+  "sim": 1.0,
+  "oido": "Segunda sorpresa, a bordo casi no hay comida caliente."
+ },
+ {
+  "i": 123,
+  "text": "Pescado seco, harina, mantequilla, pan y gachas.",
+  "start": 439.807,
+  "end": 443.531,
+  "sim": 1.0,
+  "oido": "Pescado seco, harina, mantequilla, pan y gachas."
+ },
+ {
+  "i": 124,
+  "text": "La carne asada es un lujo.",
+  "start": 443.831,
+  "end": 445.695,
+  "sim": 1.0,
+  "oido": "La carne asada es un lujo."
+ },
+ {
+  "i": 125,
+  "text": "Lo sabemos por las sagas y por los barcos enterrados.",
+  "start": 445.995,
+  "end": 449.835,
+  "sim": 1.0,
+  "oido": "Lo sabemos por las sagas y por los barcos enterrados."
+ },
+ {
+  "i": 126,
+  "text": "En dos mil siete, una réplica moderna salió de Dinamarca con casi mil litros de agua.",
+  "start": 450.135,
+  "end": 455.562,
+  "sim": 1.0,
+  "oido": "En 2007, una réplica moderna salió de Dinamarca con casi mil litros de agua."
+ },
+ {
+  "i": 127,
+  "text": "Ulf muerde su pescado seco.",
+  "start": 455.862,
+  "end": 457.462,
+  "sim": 1.0,
+  "oido": "Wolf muerde su pescado seco."
+ },
+ {
+  "i": 128,
+  "text": "Cruje como una suela.",
+  "start": 457.762,
+  "end": 459.191,
+  "sim": 1.0,
+  "oido": "Cruje como una suela."
+ },
+ {
+  "i": 129,
+  "text": "Y a los pocos minutos, Ulf está asomado por la borda, devolviéndolo.",
+  "start": 459.491,
+  "end": 465.031,
+  "sim": 1.0,
+  "oido": "y a los pocos minutos, Ulf está asomado por la borda, devolviéndolo."
+ },
+ {
+  "i": 130,
+  "text": "Lobo, sí.",
+  "start": 465.331,
+  "end": 466.748,
+  "sim": 1.0,
+  "oido": "Lobo, sí."
+ },
+ {
+  "i": 131,
+  "text": "De mar, no.",
+  "start": 467.048,
+  "end": 468.099,
+  "sim": 1.0,
+  "oido": "De mar, no."
+ },
+ {
+  "i": 132,
+  "text": "Por la noche no hay camas.",
+  "start": 468.399,
+  "end": 469.922,
+  "sim": 1.0,
+  "oido": "Por la noche no hay camas."
+ },
+ {
+  "i": 133,
+  "text": "Cada uno se tapa con pieles untadas de grasa, como un saco de dormir.",
+  "start": 470.222,
+  "end": 474.502,
+  "sim": 1.0,
+  "oido": "Cada uno se tapa con pieles untadas de grasa, como un saco de dormir."
+ },
+ {
+  "i": 134,
+  "text": "Un saco de dormir pringoso.",
+  "start": 474.802,
+  "end": 477.385,
+  "sim": 1.0,
+  "oido": "un saco de dormir pringoso."
+ },
+ {
+  "i": 135,
+  "text": "La luna llena brilla sobre el agua y el barco entero ronca.",
+  "start": 477.685,
+  "end": 482.01,
+  "sim": 1.0,
+  "oido": "La luna llena brilla sobre el agua y el barco entero ronca."
+ },
+ {
+  "i": 136,
+  "text": "Cuarto día.",
+  "start": 482.31,
+  "end": 483.085,
+  "sim": 1.0,
+  "oido": "Cuarto día."
+ },
+ {
+  "i": 137,
+  "text": "Al alba, niebla.",
+  "start": 483.385,
+  "end": 486.108,
+  "sim": 1.0,
+  "oido": "Al alba, niebla."
+ },
+ {
+  "i": 138,
+  "text": "La vela cuelga muerta.",
+  "start": 486.408,
+  "end": 488.062,
+  "sim": 1.0,
+  "oido": "la vela cuelga muerta."
+ },
+ {
+  "i": 139,
+  "text": "Geirmund manda sacar los remos.",
+  "start": 488.362,
+  "end": 490.485,
+  "sim": 1.0,
+  "oido": "Geirmund manda sacar los remos."
+ },
+ {
+  "i": 140,
+  "text": "Y entonces pasa lo peor que le puede pasar a un barco sin brújula.",
+  "start": 490.785,
+  "end": 494.293,
+  "sim": 1.0,
+  "oido": "Y entonces pasa lo peor que le puede pasar a un barco sin brújula."
+ },
+ {
+  "i": 141,
+  "text": "La costa se borra.",
+  "start": 494.593,
+  "end": 495.889,
+  "sim": 1.0,
+  "oido": "La costa se borra."
+ },
+ {
+  "i": 142,
+  "text": "No se ve tierra.",
+  "start": 496.189,
+  "end": 497.188,
+  "sim": 1.0,
+  "oido": "No se ve tierra."
+ },
+ {
+  "i": 143,
+  "text": "No se ve el sol.",
+  "start": 497.488,
+  "end": 499.312,
+  "sim": 1.0,
+  "oido": "no se ve el sol."
+ },
+ {
+  "i": 144,
+  "text": "No se ve nada.",
+  "start": 499.612,
+  "end": 500.635,
+  "sim": 1.0,
+  "oido": "No se ve nada."
+ },
+ {
+  "i": 145,
+  "text": "Sin costa, no hay rumbo.",
+  "start": 500.935,
+  "end": 502.674,
+  "sim": 1.0,
+  "oido": "Sin costa no hay rumbo."
+ },
+ {
+  "i": 146,
+  "text": "Geirmund manda callar para oír las olas romper en las rocas.",
+  "start": 502.974,
+  "end": 506.572,
+  "sim": 0.99,
+  "oido": "E Irmún manda callar para oír las olas romper en las rocas."
+ },
+ {
+  "i": 147,
+  "text": "Ulf rema a tientas, con el estómago en la garganta.",
+  "start": 506.872,
+  "end": 510.849,
+  "sim": 1.0,
+  "oido": "Ulf rema a tientas, con el estómago en la garganta."
+ },
+ {
+  "i": 148,
+  "text": "¿Es el final?",
+  "start": 511.149,
+  "end": 513.823,
+  "sim": 1.0,
+  "oido": "Es el final."
+ },
+ {
+  "i": 149,
+  "text": "Y de pronto, un chillido.",
+  "start": 514.523,
+  "end": 516.32,
+  "sim": 1.0,
+  "oido": "y de pronto, un chillido."
+ },
+ {
+  "i": 150,
+  "text": "Gaviotas.",
+  "start": 516.62,
+  "end": 518.0,
+  "sim": 1.0,
+  "oido": "gaviotas."
+ },
+ {
+  "i": 151,
+  "text": "Debajo, el ruido de unos juncos.",
+  "start": 518.3,
+  "end": 521.42,
+  "sim": 1.0,
+  "oido": "Debajo, el ruido de unos juncos."
+ },
+ {
+  "i": 152,
+  "text": "La niebla se abre y asoman unas orillas bajas y verdes.",
+  "start": 521.72,
+  "end": 525.722,
+  "sim": 1.0,
+  "oido": "La niebla se abre y asoman unas orillas bajas y verdes."
+ },
+ {
+  "i": 153,
+  "text": "Es el Schlei, la entrada de mar que lleva hasta Hedeby.",
+  "start": 526.022,
+  "end": 529.802,
+  "sim": 0.935,
+  "oido": "Es el saí, la entrada de mar que lleva hasta Edebí. Hasta E."
+ },
+ {
+  "i": 154,
+  "text": "Quinto día.",
+  "start": 530.102,
+  "end": 530.864,
+  "sim": 1.0,
+  "oido": "Quinto día."
+ },
+ {
+  "i": 155,
+  "text": "Óttar acertó de lleno.",
+  "start": 531.164,
+  "end": 532.687,
+  "sim": 1.0,
+  "oido": "Otar acertó de lleno."
+ },
+ {
+  "i": 156,
+  "text": "Ah, y por si dudas de estos barcos.",
+  "start": 532.987,
+  "end": 535.052,
+  "sim": 1.0,
+  "oido": "Ah, y por si dudas de estos barcos."
+ },
+ {
+  "i": 157,
+  "text": "Siglos después, una copia del barco de Gokstad atravesó el Atlántico entero.",
+  "start": 535.352,
+  "end": 540.857,
+  "sim": 0.968,
+  "oido": "Dignos después, una copia del barco de Gokstad atravesó el Atlántico entero."
+ },
+ {
+  "i": 158,
+  "text": "Tardó unas cuatro semanas.",
+  "start": 541.157,
+  "end": 544.371,
+  "sim": 1.0,
+  "oido": "Tardó unas cuatro semanas."
+ },
+ {
+  "i": 159,
+  "text": "Un mes lunar.",
+  "start": 544.671,
+  "end": 545.642,
+  "sim": 1.0,
+  "oido": "un mes lunar."
+ },
+ {
+  "i": 160,
+  "text": "Semana cuatro.",
+  "start": 547.042,
+  "end": 548.037,
+  "sim": 1.0,
+  "oido": "Semana 4"
+ },
+ {
+  "i": 161,
+  "text": "Luna menguante.",
+  "start": 548.337,
+  "end": 549.374,
+  "sim": 1.0,
+  "oido": "Luna menguante."
+ },
+ {
+  "i": 162,
+  "text": "Hedeby.",
+  "start": 549.674,
+  "end": 550.437,
+  "sim": 1.0,
+  "oido": "Edebi."
+ },
+ {
+  "i": 163,
+  "text": "Uno de los mayores mercados de toda la época vikinga.",
+  "start": 550.737,
+  "end": 553.736,
+  "sim": 1.0,
+  "oido": "uno de los mayores mercados de toda la época vikinga."
+ },
+ {
+  "i": 164,
+  "text": "Hoy es Patrimonio de la Humanidad.",
+  "start": 554.036,
+  "end": 556.2,
+  "sim": 1.0,
+  "oido": "hoy es patrimonio de la humanidad."
+ },
+ {
+  "i": 165,
+  "text": "Aquí viven entre mil y mil quinientas personas, sin contar a los que van de paso, como Ulf.",
+  "start": 556.5,
+  "end": 562.169,
+  "sim": 0.986,
+  "oido": "Aquí viven entre 1.000 y 1.500 personas, sin contar a los que van de paso, como Ulf."
+ },
+ {
+  "i": 166,
+  "text": "Calles de tablones, un arroyo entablado y talleres por todas partes.",
+  "start": 562.469,
+  "end": 566.648,
+  "sim": 1.0,
+  "oido": "calles de tablones, un arroyo entablado y talleres por todas partes."
+ },
+ {
+  "i": 167,
+  "text": "Peines, cuentas de vidrio, herreros.",
+  "start": 566.948,
+  "end": 569.562,
+  "sim": 1.0,
+  "oido": "peines, cuentas de vidrio, herreros."
+ },
+ {
+  "i": 168,
+  "text": "Y humo.",
+  "start": 569.862,
+  "end": 570.477,
+  "sim": 1.0,
+  "oido": "y humo."
+ },
+ {
+  "i": 169,
+  "text": "Mucho humo.",
+  "start": 570.777,
+  "end": 571.661,
+  "sim": 1.0,
+  "oido": "Mucho humo."
+ },
+ {
+  "i": 170,
+  "text": "Ulf busca a Poppo, un mercader frisón.",
+  "start": 571.961,
+  "end": 575.901,
+  "sim": 0.947,
+  "oido": "busca a Popo, un mercader frisón."
+ },
+ {
+  "i": 171,
+  "text": "Y aquí va el dato más raro del mercado.",
+  "start": 576.201,
+  "end": 579.311,
+  "sim": 1.0,
+  "oido": "Y aquí va el dato más raro del mercado."
+ },
+ {
+  "i": 172,
+  "text": "Aquí no se cuentan monedas.",
+  "start": 579.611,
+  "end": 581.507,
+  "sim": 1.0,
+  "oido": "Aquí no se cuentan monedas."
+ },
+ {
+  "i": 173,
+  "text": "Se pesan.",
+  "start": 581.807,
+  "end": 583.147,
+  "sim": 1.0,
+  "oido": "Se pesan."
+ },
+ {
+  "i": 174,
+  "text": "Poppo despliega unos platillos de bronce y saca sus pesas.",
+  "start": 583.447,
+  "end": 587.335,
+  "sim": 1.0,
+  "oido": "Popo despliega unos platillos de bronce y saca sus pesas."
+ },
+ {
+  "i": 175,
+  "text": "Monedas, joyas, lingotes: todo se parte en cachos y va al platillo.",
+  "start": 587.635,
+  "end": 592.005,
+  "sim": 1.0,
+  "oido": "Monedas, joyas, lingotes, todo se parte en cachos y va al platillo."
+ },
+ {
+  "i": 176,
+  "text": "Se llama plata picada.",
+  "start": 592.305,
+  "end": 593.833,
+  "sim": 1.0,
+  "oido": "Se llama plata picada."
+ },
+ {
+  "i": 177,
+  "text": "Da igual de dónde venga la plata.",
+  "start": 594.133,
+  "end": 596.943,
+  "sim": 1.0,
+  "oido": "Da igual de dónde venga la plata."
+ },
+ {
+  "i": 178,
+  "text": "Solo importa lo que pesa.",
+  "start": 597.243,
+  "end": 599.501,
+  "sim": 1.0,
+  "oido": "Solo importa lo que pesa."
+ },
+ {
+  "i": 179,
+  "text": "Y mucha llega del este: monedas árabes, dírhams, que han viajado medio mundo.",
+  "start": 599.801,
+  "end": 605.292,
+  "sim": 1.0,
+  "oido": "y mucha llega del este, monedas árabes, dirhams, que han viajado medio mundo."
+ },
+ {
+  "i": 180,
+  "text": "Imagina pagar el pan partiendo un cacho de tu pulsera.",
+  "start": 605.592,
+  "end": 609.591,
+  "sim": 1.0,
+  "oido": "Imagina pagar el PAN partiendo un cacho de tu pulsera."
+ },
+ {
+  "i": 181,
+  "text": "Ulf cambia lo que ha traído por un puñado de plata.",
+  "start": 609.891,
+  "end": 612.364,
+  "sim": 1.0,
+  "oido": "Ulf cambia lo que ha traído por un puñado de plata."
+ },
+ {
+  "i": 182,
+  "text": "Pero en el muelle se vende otra cosa.",
+  "start": 612.664,
+  "end": 614.548,
+  "sim": 1.0,
+  "oido": "pero en el muelle se vende otra cosa."
+ },
+ {
+  "i": 183,
+  "text": "Personas.",
+  "start": 614.848,
+  "end": 615.697,
+  "sim": 1.0,
+  "oido": "Personas."
+ },
+ {
+  "i": 184,
+  "text": "Esclavos.",
+  "start": 615.997,
+  "end": 618.487,
+  "sim": 1.0,
+  "oido": "esclavos."
+ },
+ {
+  "i": 185,
+  "text": "Según el Museo Nacional de Dinamarca, eran una de las cosas más importantes que se vendían.",
+  "start": 618.787,
+  "end": 624.077,
+  "sim": 1.0,
+  "oido": "Según el Museo Nacional de Dinamarca, eran una de las cosas más importantes que se vendían."
+ },
+ {
+  "i": 186,
+  "text": "Los capturaban sobre todo en Europa del Este y en las islas británicas.",
+  "start": 624.377,
+  "end": 629.798,
+  "sim": 1.0,
+  "oido": "los capturaban sobre todo en Europa del Este y en las islas británicas."
+ },
+ {
+  "i": 187,
+  "text": "Y en casa también podías acabar esclavo, como castigo por robar o por matar.",
+  "start": 630.097,
+  "end": 635.577,
+  "sim": 1.0,
+  "oido": "y en casa también podías acabar esclavo, como castigo por robar o por matar."
+ },
+ {
+  "i": 188,
+  "text": "En Birka, en Suecia, han salido grilletes de hierro.",
+  "start": 635.877,
+  "end": 640.417,
+  "sim": 1.0,
+  "oido": "En Birka, en Suecia, han salido grilletes de hierro."
+ },
+ {
+  "i": 189,
+  "text": "Un esclavo valía mucho menos que un hombre libre.",
+  "start": 640.717,
+  "end": 643.941,
+  "sim": 1.0,
+  "oido": "Un esclavo valía mucho menos que un hombre libre."
+ },
+ {
+  "i": 190,
+  "text": "Y muchos expertos creen que buena parte de esos dírhams se pagó por esclavos.",
+  "start": 644.241,
+  "end": 649.038,
+  "sim": 1.0,
+  "oido": "Y muchos expertos creen que buena parte de esos dirhams se pagó por esclavos."
+ },
+ {
+  "i": 191,
+  "text": "Aquí no hay chiste.",
+  "start": 649.338,
+  "end": 650.649,
+  "sim": 1.0,
+  "oido": "Aquí no hay chiste."
+ },
+ {
+  "i": 192,
+  "text": "Hace unos cuarenta años, un misionero, San Ansgario, consiguió permiso para una iglesia en este lugar.",
+  "start": 650.949,
+  "end": 657.765,
+  "sim": 1.0,
+  "oido": "Hace unos 40 años, un misionero, San Ansgario, consiguió permiso para una iglesia en este lugar."
+ },
+ {
+  "i": 193,
+  "text": "Su biógrafo cuenta que rescataba cautivos.",
+  "start": 658.065,
+  "end": 660.873,
+  "sim": 1.0,
+  "oido": "Su biógrafo cuenta que rescataba cautivos."
+ },
+ {
+  "i": 194,
+  "text": "Y otro dato raro, pero de otro lugar.",
+  "start": 661.173,
+  "end": 664.334,
+  "sim": 1.0,
+  "oido": "y otro dato raro, pero de otro lugar."
+ },
+ {
+  "i": 195,
+  "text": "En Suecia y Dinamarca se han estudiado más de quinientos esqueletos de la época vikinga.",
+  "start": 664.634,
+  "end": 670.49,
+  "sim": 1.0,
+  "oido": "En Suecia y Dinamarca se han estudiado más de 500 esqueletos de la época vikinga."
+ },
+ {
+  "i": 196,
+  "text": "Veinticuatro hombres tenían surcos limados en los dientes de arriba.",
+  "start": 670.79,
+  "end": 675.483,
+  "sim": 1.0,
+  "oido": "Veinticuatro hombres tenían surcos limados en los dientes de arriba."
+ },
+ {
+  "i": 197,
+  "text": "Ulf no los tiene.",
+  "start": 675.783,
+  "end": 677.137,
+  "sim": 1.0,
+  "oido": "Wolf no los tiene."
+ },
+ {
+  "i": 198,
+  "text": "Pero a alguien, en algún sitio, le pareció buena idea.",
+  "start": 677.437,
+  "end": 680.997,
+  "sim": 1.0,
+  "oido": "pero a alguien, en algún sitio, le pareció buena idea."
+ },
+ {
+  "i": 199,
+  "text": "Esa noche, Geirmund invita a beber.",
+  "start": 681.297,
+  "end": 684.349,
+  "sim": 1.0,
+  "oido": "Esa noche, Heirmund invita a beber."
+ },
+ {
+  "i": 200,
+  "text": "En cuernos.",
+  "start": 684.649,
+  "end": 686.677,
+  "sim": 1.0,
+  "oido": "en cuernos."
+ },
+ {
+  "i": 201,
+  "text": "Y aquí va otro mito: los vikingos no bebían en el cráneo de sus enemigos.",
+  "start": 686.977,
+  "end": 691.907,
+  "sim": 1.0,
+  "oido": "Y aquí va otro mito. Los vikingos no bebían en el cráneo de sus enemigos."
+ },
+ {
+  "i": 202,
+  "text": "Siglos después, un erudito danés tradujo un poema donde «las ramas curvas de los cráneos» eran los cuernos para beber.",
+  "start": 692.207,
+  "end": 700.731,
+  "sim": 1.0,
+  "oido": "Siglos después, un erudito danés tradujo un poema donde las ramas curvas de los cráneos eran los cuernos para beber."
+ },
+ {
+  "i": 203,
+  "text": "Los cuernos salen del cráneo del animal.",
+  "start": 701.031,
+  "end": 704.084,
+  "sim": 1.0,
+  "oido": "Los cuernos salen del cráneo del animal."
+ },
+ {
+  "i": 204,
+  "text": "Él lo entendió al pie de la letra.",
+  "start": 704.384,
+  "end": 706.299,
+  "sim": 1.0,
+  "oido": "Él lo entendió al pie de la letra."
+ },
+ {
+  "i": 205,
+  "text": "Bebían en cuernos, en copas de madera o metal y en vasos de vidrio.",
+  "start": 706.599,
+  "end": 711.148,
+  "sim": 1.0,
+  "oido": "bebían en cuernos, en copas de madera o metal y en vasos de vidrio."
+ },
+ {
+  "i": 206,
+  "text": "Cinco días después, el barco vuelve a Kaupang.",
+  "start": 712.548,
+  "end": 715.968,
+  "sim": 1.0,
+  "oido": "Cinco días después, el barco vuelve a Kaopang."
+ },
+ {
+  "i": 207,
+  "text": "Ulf pisa tierra y el suelo se le sigue moviendo un buen rato.",
+  "start": 716.268,
+  "end": 721.189,
+  "sim": 1.0,
+  "oido": "Ulf pisa tierra y el suelo se le sigue moviendo un buen rato."
+ },
+ {
+  "i": 208,
+  "text": "Ása no cuenta la plata.",
+  "start": 721.489,
+  "end": 724.259,
+  "sim": 1.0,
+  "oido": "Asa no cuenta la plata."
+ },
+ {
+  "i": 209,
+  "text": "La pesa.",
+  "start": 724.559,
+  "end": 726.897,
+  "sim": 1.0,
+  "oido": "La pesa."
+ },
+ {
+  "i": 210,
+  "text": "Y ahora, lo malo y lo bueno.",
+  "start": 727.197,
+  "end": 729.219,
+  "sim": 1.0,
+  "oido": "Y ahora, lo malo y lo bueno."
+ },
+ {
+  "i": 211,
+  "text": "Lo malo: la higiene compartida.",
+  "start": 729.519,
+  "end": 731.278,
+  "sim": 1.0,
+  "oido": "Lo malo, la higiene compartida."
+ },
+ {
+  "i": 212,
+  "text": "Treinta años después, en el río Volga, el viajero árabe Ibn Fadlán vio a unos escandinavos asearse por la mañana.",
+  "start": 731.578,
+  "end": 738.944,
+  "sim": 1.0,
+  "oido": "Treinta años después, en el río Volga, el viajero árabe Ibn Fadlán vio a unos escandinavos asearse por la mañana."
+ },
+ {
+  "i": 213,
+  "text": "Con una sola palangana.",
+  "start": 739.244,
+  "end": 740.648,
+  "sim": 1.0,
+  "oido": "con una sola palangana."
+ },
+ {
+  "i": 214,
+  "text": "El primero se lavaba la cara y el pelo, se peinaba, se sonaba los mocos, escupía dentro y se la pasaba al siguiente.",
+  "start": 740.948,
+  "end": 748.344,
+  "sim": 1.0,
+  "oido": "El primero se lavaba la cara y el pelo, se peinaba, se sonaba los mocos, escupía dentro y se la pasaba al siguiente."
+ },
+ {
+  "i": 215,
+  "text": "Ibn Fadlán los llamó, más o menos, las criaturas más guarras de Dios.",
+  "start": 748.644,
+  "end": 754.161,
+  "sim": 1.0,
+  "oido": "Ibn Fadlan los llamó, más o menos, las criaturas más guarras de Dios."
+ },
+ {
+  "i": 216,
+  "text": "Eso sí, también escribió que nunca había visto cuerpos tan perfectos: altos como palmeras.",
+  "start": 754.461,
+  "end": 760.062,
+  "sim": 1.0,
+  "oido": "Eso sí, también escribió que nunca había visto cuerpos tan perfectos, altos como palmeras."
+ },
+ {
+  "i": 217,
+  "text": "Y un siglo después de Ulf, en una letrina de Viborg, en Dinamarca, han salido huevos de gusanos intestinales.",
+  "start": 760.362,
+  "end": 767.147,
+  "sim": 1.0,
+  "oido": "Y un siglo después de Ulf, en una letrina de Viborg, en Dinamarca, han salido huevos de gusanos intestinales."
+ },
+ {
+  "i": 218,
+  "text": "Peinados, sí.",
+  "start": 767.447,
+  "end": 768.873,
+  "sim": 1.0,
+  "oido": "Peinados, sí."
+ },
+ {
+  "i": 219,
+  "text": "Libres de gusanos, no.",
+  "start": 769.173,
+  "end": 770.872,
+  "sim": 1.0,
+  "oido": "libres de gusanos, ¿no?"
+ },
+ {
+  "i": 220,
+  "text": "Lo bueno: Ulf vuelve con plata, con la granja en pie y con los brotes del campo ya altos.",
+  "start": 771.172,
+  "end": 776.5,
+  "sim": 1.0,
+  "oido": "Lo bueno, Ulf vuelve con plata, con la granja en pie y con los brotes del campo ya altos."
+ },
+ {
+  "i": 221,
+  "text": "Y el dato que más pesa.",
+  "start": 776.8,
+  "end": 780.492,
+  "sim": 1.0,
+  "oido": "y el dato que más pesa."
+ },
+ {
+  "i": 222,
+  "text": "No se ha encontrado ni un solo casco vikingo con cuernos.",
+  "start": 780.792,
+  "end": 785.252,
+  "sim": 1.0,
+  "oido": "No se ha encontrado ni un solo casco vikingo con cuernos."
+ },
+ {
+  "i": 223,
+  "text": "Ni uno.",
+  "start": 785.552,
+  "end": 786.275,
+  "sim": 1.0,
+  "oido": "¡Ni uno!"
+ },
+ {
+  "i": 224,
+  "text": "El único casco vikingo casi completo se encontró en Noruega, en Gjermundbu, y es de años después de Ulf.",
+  "start": 787.675,
+  "end": 794.696,
+  "sim": 0.994,
+  "oido": "El único casco vikingo casi completo se encontró en Noruega en Germundbu y es de años después de Ulf."
+ },
+ {
+  "i": 225,
+  "text": "Es redondo, con unas gafas de hierro para los ojos.",
+  "start": 794.996,
+  "end": 799.197,
+  "sim": 1.0,
+  "oido": "Es redondo, con unas gafas de hierro para los ojos."
+ },
+ {
+  "i": 226,
+  "text": "Los cuernos los hizo famosos un figurinista en el estreno de una ópera de Wagner, en mil ochocientos setenta y seis.",
+  "start": 799.497,
+  "end": 806.954,
+  "sim": 1.0,
+  "oido": "Los cuernos los hizo famosos un figurinista en el estreno de una ópera de Wagner, en 1876."
+ },
+ {
+  "i": 227,
+  "text": "¿Y los famosos cascos con cuernos de Dinamarca?",
+  "start": 807.254,
+  "end": 810.108,
+  "sim": 1.0,
+  "oido": "y los famosos cascos con cuernos de Dinamarca,"
+ },
+ {
+  "i": 228,
+  "text": "Son de la Edad del Bronce: casi mil ochocientos años antes que Ulf.",
+  "start": 810.558,
+  "end": 814.596,
+  "sim": 1.0,
+  "oido": "son de la Edad del Bronce, casi 1800 años antes que Ulf."
+ },
+ {
+  "i": 229,
+  "text": "Así que ya sabes: cinco días de barco sin brújula, plata que se pesa y no se cuenta, y ni un solo cuerno.",
+  "start": 814.896,
+  "end": 822.034,
+  "sim": 1.0,
+  "oido": "Así que ya sabes, cinco días de barco sin brújula, plata que se pesa y no se cuenta, y ni un solo cuerno."
+ },
+ {
+  "i": 230,
+  "text": "Como un trabajo de verano en el extranjero, pero pagado a peso y con mareo incluido.",
+  "start": 822.334,
+  "end": 828.323,
+  "sim": 1.0,
+  "oido": "como un trabajo de verano en el extranjero, pero pagado a peso y con mareo incluido."
+ },
+ {
+  "i": 231,
+  "text": "El lobo ha vuelto a su madriguera.",
+  "start": 828.623,
+  "end": 830.475,
+  "sim": 1.0,
+  "oido": "El lobo ha vuelto a su madriguera."
+ },
+ {
+  "i": 232,
+  "text": "Mareado, pero con plata.",
+  "start": 830.775,
+  "end": 834.995,
+  "sim": 0.974,
+  "oido": "mareado pero con plata o"
+ },
+ {
+  "i": 233,
+  "text": "Si has llegado hasta aquí sin marearte, suscríbete y dale a me gusta.",
+  "start": 836.395,
+  "end": 840.626,
+  "sim": 0.991,
+  "oido": "Si has llegado hasta aquí, sin marearte, suscríbete y dale me gusta."
+ },
+ {
+  "i": 234,
+  "text": "Y deja en los comentarios una sola palabra: víking.",
+  "start": 840.926,
+  "end": 844.378,
+  "sim": 1.0,
+  "oido": "Y deja en los comentarios una sola palabra, Viking."
+ },
+ {
+  "i": 235,
+  "text": "Y dime: ¿tú te irías de víking con Geirmund o te quedarías en la granja con Ása?",
+  "start": 844.678,
+  "end": 849.465,
+  "sim": 0.959,
+  "oido": "Y dime, ¿tú te irías de Viking con Heymund o te quedarías en la granja con Asa?"
+ },
+ {
+  "i": 236,
+  "text": "Y pásaselo a ese amigo que solo se lava los sábados.",
+  "start": 849.915,
+  "end": 852.841,
+  "sim": 0.976,
+  "oido": "Y pásase no a ese amigo que solo se lava los sábados."
+ },
+ {
+  "i": 237,
+  "text": "Dile que es costumbre vikinga.",
+  "start": 853.141,
+  "end": 854.749,
+  "sim": 1.0,
+  "oido": "Dile que es costumbre vikinga."
+ },
+ {
+  "i": 238,
+  "text": "Nos vemos en el próximo viaje en el tiempo.",
+  "start": 855.049,
+  "end": 858.353,
+  "sim": 1.0,
+  "oido": "Nos vemos en el próximo viaje en el tiempo."
+ }
+]

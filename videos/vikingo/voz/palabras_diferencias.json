@@ -1,0 +1,283 @@
+[
+ {
+  "tipo": "distinta",
+  "guion": "en cubierta,",
+  "oido": "encubierta",
+  "linea": 2
+ },
+ {
+  "tipo": "sobra",
+  "oido": "el",
+  "linea": 10
+ },
+ {
+  "tipo": "distinta",
+  "guion": "víkingr.",
+  "oido": "vikingar",
+  "linea": 12
+ },
+ {
+  "tipo": "distinta",
+  "guion": "remos.",
+  "oido": "relemos",
+  "linea": 14
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Ulf",
+  "oido": "wolf",
+  "linea": 16
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Oslo.",
+  "oido": "osno",
+  "linea": 19
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Kaupang,",
+  "oido": "caupan",
+  "linea": 21
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Geirmund",
+  "oido": "heirmund",
+  "linea": 23
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Hedeby,",
+  "oido": "edebi",
+  "linea": 25
+ },
+ {
+  "tipo": "distinta",
+  "guion": "La",
+  "oido": "a",
+  "linea": 44
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Ulf",
+  "oido": "wolf",
+  "linea": 48
+ },
+ {
+  "tipo": "distinta",
+  "guion": "laugardagr.",
+  "oido": "laugardaggar",
+  "linea": 53
+ },
+ {
+  "tipo": "falta",
+  "guion": "Ulf",
+  "linea": 63
+ },
+ {
+  "tipo": "distinta",
+  "guion": "thing.",
+  "oido": "fin",
+  "linea": 72
+ },
+ {
+  "tipo": "distinta",
+  "guion": "thing",
+  "oido": "tin",
+  "linea": 73
+ },
+ {
+  "tipo": "distinta",
+  "guion": "thing",
+  "oido": "team",
+  "linea": 75
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Hallvard,",
+  "oido": "alvar",
+  "linea": 78
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Hallvard",
+  "oido": "alvar",
+  "linea": 79
+ },
+ {
+  "tipo": "distinta",
+  "guion": "dato",
+  "oido": "gato",
+  "linea": 83
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Tablas solapadas,",
+  "oido": "a blasolapadas",
+  "linea": 96
+ },
+ {
+  "tipo": "sobra",
+  "oido": "por un",
+  "linea": 97
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Pavos",
+  "oido": "pabos",
+  "linea": 100
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Kári",
+  "oido": "carrie",
+  "linea": 107
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Ulf",
+  "oido": "wolf",
+  "linea": 108
+ },
+ {
+  "tipo": "distinta",
+  "guion": "lobo traga saliva.",
+  "oido": "logo tragasaliva",
+  "linea": 110
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Hedeby.",
+  "oido": "edeby",
+  "linea": 113
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Óttar,",
+  "oido": "otar",
+  "linea": 116
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Hedeby:",
+  "oido": "edebi",
+  "linea": 117
+ },
+ {
+  "tipo": "sobra",
+  "oido": "ma",
+  "linea": 119
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Ulf",
+  "oido": "wolf",
+  "linea": 127
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Geirmund",
+  "oido": "e irmun",
+  "linea": 146
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Schlei,",
+  "oido": "sai",
+  "linea": 153
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Hedeby.",
+  "oido": "edebi hasta e",
+  "linea": 153
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Óttar",
+  "oido": "otar",
+  "linea": 155
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Siglos",
+  "oido": "dignos",
+  "linea": 157
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Hedeby.",
+  "oido": "edebi",
+  "linea": 162
+ },
+ {
+  "tipo": "distinta",
+  "guion": "quinientas",
+  "oido": "quinientos",
+  "linea": 165
+ },
+ {
+  "tipo": "falta",
+  "guion": "Ulf",
+  "linea": 170
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Poppo,",
+  "oido": "popo",
+  "linea": 170
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Poppo",
+  "oido": "popo",
+  "linea": 174
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Ulf",
+  "oido": "wolf",
+  "linea": 197
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Geirmund",
+  "oido": "heirmund",
+  "linea": 199
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Kaupang.",
+  "oido": "kaopang",
+  "linea": 206
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Gjermundbu,",
+  "oido": "germundbu",
+  "linea": 224
+ },
+ {
+  "tipo": "sobra",
+  "oido": "o",
+  "linea": 233
+ },
+ {
+  "tipo": "falta",
+  "guion": "a",
+  "linea": 233
+ },
+ {
+  "tipo": "distinta",
+  "guion": "Geirmund",
+  "oido": "heymund",
+  "linea": 235
+ },
+ {
+  "tipo": "distinta",
+  "guion": "pásaselo",
+  "oido": "pasase no",
+  "linea": 236
+ }
+]
