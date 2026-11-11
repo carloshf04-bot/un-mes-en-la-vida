@@ -173,7 +173,7 @@ const mezclaFinal = (entrada, destino) => {
   const r = spawnSync("ffmpeg", ["-hide_banner", "-i", entrada, "-af", "loudnorm=I=-14:TP=-2:LRA=11:print_format=json", "-f", "null", "-"], { encoding: "utf8" });
   const js = JSON.parse(r.stderr.slice(r.stderr.lastIndexOf("{"), r.stderr.lastIndexOf("}") + 1));
   const ln = `loudnorm=I=-14:TP=-2:LRA=11:measured_I=${js.input_i}:measured_TP=${js.input_tp}:measured_LRA=${js.input_lra}:measured_thresh=${js.input_thresh}:offset=${js.target_offset}:linear=true`;
-  execFileSync("ffmpeg", ["-y", "-v", "error", "-i", entrada, "-c:v", "copy", "-af", `${ln},aresample=192000,alimiter=limit=0.79:level=false,aresample=48000`, "-ar", "48000", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", destino]);
+  execFileSync("ffmpeg", ["-y", "-v", "error", "-i", entrada, "-c:v", "copy", "-af", `${ln},aformat=sample_fmts=fltp,aresample=192000,alimiter=limit=0.79:level=false,aresample=48000`, "-ar", "48000", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", destino]);
 };
 
 const muestras = (formato, info) => {
