@@ -8,7 +8,7 @@ TOP = sys.argv[5] if len(sys.argv) > 5 else "UN MES EN LA VIDA DE UN"
 WHO = sys.argv[6] if len(sys.argv) > 6 else "CAVERNÍCOLA"
 os.makedirs(outd, exist_ok=True)
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-FONT = os.path.join(ROOT, "fonts", "RubikDirt-Regular.ttf")
+FONT = next((f for f in ("/usr/share/fonts/opentype/inter/Inter-Black.otf", os.path.join(ROOT, "fonts", "RubikDirt-Regular.ttf")) if os.path.exists(f)), os.path.join(ROOT, "fonts", "Inter.ttf"))
 TFONT = os.path.join(ROOT, "fonts", sys.argv[7]) if len(sys.argv) > 7 else FONT
 fr = json.load(open(fj, encoding="utf-8"))
 dur = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", src]))
@@ -55,7 +55,7 @@ for n, (a, b) in enumerate(parts, 1):
                f"drawtext=fontfile={TFONT}:text='{esc(WHO)}':x=(w-tw)/2:y=880:fontsize=150:fontcolor=0xf4e6cf:enable='lt(t,1.8)'"]
     if n < N:
         vf += [f"drawbox=x=0:y=820:w=iw:h=260:color=0xd9822b@0.95:t=fill:enable='gte(t,{d - 2.4:.2f})'",
-               f"drawtext=fontfile={FONT}:text='{esc(f'SIGUE EN LA PARTE {n + 1}')}':x=(w-tw)/2:y=905:fontsize=92:fontcolor=0x24160d:enable='gte(t,{d - 2.4:.2f})'"]
+               f"drawtext=fontfile={FONT}:text='{esc(f'SIGUE EN LA PARTE {n + 1}')}':x=(w-tw)/2:y=910:fontsize=78:fontcolor=0x24160d:enable='gte(t,{d - 2.4:.2f})'"]
     out = os.path.join(outd, f"parte-{n}-de-{N}.mp4")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{a:.3f}", "-i", src, "-t", f"{d:.3f}", "-vf", ",".join(vf),
                     "-af", f"afade=t=in:d=0.12,afade=t=out:st={d - 0.25:.2f}:d=0.25", "-c:v", "libx264", "-crf", "18", "-preset", "medium",
