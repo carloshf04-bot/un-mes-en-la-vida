@@ -144,10 +144,10 @@
       "peinado": "corto",
       "barba": "bigote",
       "ropa": {
-        "tipo": "uniforme",
-        "color": "#8e2a24",
-        "color2": "#23305a",
-        "detalle": "#c9a24a"
+        "tipo": "abrigo",
+        "color": "#4a4036",
+        "color2": "#3a3a40",
+        "detalle": "#2a2420"
       },
       "sombrero": "copa",
       "colorSombrero": "#1a1818",
@@ -299,7 +299,7 @@
       {
         "dia": 1,
         "capitulo": "El agua helada",
-        "texto": "Es miércoles, veintiséis de octubre de mil ochocientos cincuenta y nueve. Estoy en Ílkli, en el norte de Inglaterra, en Uéls Jaus, un balneario enorme de piedra.",
+        "texto": "Es miércoles, veintiséis de octubre de mil ochocientos cincuenta y nueve. Estoy en Ílkli, en el norte de Inglaterra, curándome en Uéls Jaus, un balneario enorme de piedra.",
         "drama": 0.6,
         "personajes": [
           {
@@ -384,7 +384,7 @@
       },
       {
         "dia": 2,
-        "texto": "¿Por qué tanta prisa, después de veinte años callado? Por un ensayo que me llegó en junio del año pasado desde una isla lejana, Ternáte.",
+        "texto": "¿Por qué tanta prisa, después de veinte años callado? Por un ensayo que me llegó en junio del año pasado desde Ternáte, una isla lejana.",
         "drama": 0.7,
         "fondo": {
           "lugar": "interior",
@@ -429,7 +429,7 @@
       },
       {
         "dia": 2,
-        "texto": "Lo firmaba Alfred Rásel Uólas, un joven naturalista. Al leerlo me quedé helado: era mi teoría, casi palabra por palabra, escrita por otro hombre.",
+        "texto": "Lo firmaba Alfred Rásel Uólas, un joven naturalista. Al leerlo me quedé helado: era mi teoría, casi idéntica, escrita por otro hombre.",
         "drama": 0.8,
         "personajes": [
           {
@@ -467,7 +467,7 @@
       {
         "dia": 3,
         "corte": true,
-        "texto": "Así llega el final de octubre. El tobillo que me torcí en el páramo hace semanas empieza a arder. Por la noche, se me hincha toda la pierna.",
+        "texto": "Así llega el final de octubre. El tobillo que me torcí en una caída hace semanas se inflama de golpe. Por la noche, se me hincha toda la pierna.",
         "drama": 0.7,
         "fondo": {
           "lugar": "interior",
@@ -519,7 +519,7 @@
       },
       {
         "dia": 4,
-        "texto": "Ema, mi mujer, vino hace dos semanas con los niños y alquiló una casa en el pueblo. Le escribe a nuestro hijo mayor que tengo el pie furiosamente inflamado.",
+        "texto": "Ema, mi mujer, vino hace dos semanas con los niños, y alquilamos una casa en el pueblo. Le escribe a nuestro hijo mayor que tengo el pie furiosamente inflamado.",
         "drama": 0.6,
         "personajes": [
           {
@@ -770,7 +770,13 @@
             "sale": "der",
             "objeto": "📗"
           }
-        ]
+        ],
+        "insercion": {
+          "tipo": "dato",
+          "valor": "15 chelines",
+          "etiqueta": "precio del libro: más que la paga semanal de un jornalero (10 chelines y 8 peniques)",
+          "icono": "📗"
+        }
       },
       {
         "dia": 9,
@@ -978,7 +984,7 @@
       },
       {
         "dia": 10,
-        "texto": "Una parte de mí se fue con ella. Dicen mis biógrafos que ahí perdí la fe en un Dios bondadoso. Mi mujer, en cambio, nunca la perdió.",
+        "texto": "Una parte de mí se fue con ella. Mis biógrafos dirán que ahí perdí la fe en un Dios bondadoso. Mi mujer, en cambio, nunca la perdió.",
         "drama": 0.5,
         "personajes": [
           {
@@ -1003,7 +1009,7 @@
         "dia": 15,
         "capitulo": "Cartas al mundo",
         "corte": true,
-        "texto": "Miércoles, nueve de noviembre. Mi editor empieza a mandar los ejemplares de regalo: a mis maestros, a mis amigos, a mis rivales. Ya no hay vuelta atrás.",
+        "texto": "Miércoles, nueve de noviembre. Mi editor ya manda los ejemplares de regalo: a mis maestros, a mis amigos, a mis rivales. Ya no hay vuelta atrás.",
         "drama": 0.7,
         "fondo": {
           "lugar": "interior",
@@ -1069,7 +1075,7 @@
       },
       {
         "dia": 17,
-        "texto": "Viernes, once de noviembre. Es día de cartas. Escribo a Fólkoner, a Ása Grei y a Ágasi, al otro lado del mar. Pero la carta que más me cuesta es otra.",
+        "texto": "Viernes, once de noviembre. Es día de cartas. Escribo a Fólkoner, y a Ása Grei y a Ágasi, al otro lado del mar. Pero la carta que más me cuesta es otra.",
         "drama": 0.65,
         "personajes": [
           {
@@ -1119,7 +1125,7 @@
       },
       {
         "dia": 17,
-        "texto": "Casi cinco años dando la vuelta al mundo: las Galápagos, las tortugas gigantes. Pero mis ideas no nacieron allí. Llegaron después, en Londres, poco a poco.",
+        "texto": "Casi cinco años dando la vuelta al mundo: las Galápagos, las tortugas gigantes. Pero mis ideas no salieron de allí. Llegaron después, en Londres, poco a poco.",
         "drama": 0.6,
         "personajes": [
           {
@@ -1185,7 +1191,7 @@
       },
       {
         "dia": 18,
-        "texto": "Sábado, doce. Le escribo a mi joven amigo Yon Lábok, banquero y naturalista. Pero tengo pendiente la carta más difícil de todas, y la he ido retrasando. Va al otro lado del mundo.",
+        "texto": "Sábado, doce. Le escribo a mi joven amigo Yon Lábok, banquero y naturalista. Pero me queda otra carta que me da aún más miedo, y la he ido retrasando. Va al otro lado del mundo.",
         "drama": 0.7,
         "personajes": [
           {
@@ -1245,7 +1251,7 @@
       {
         "dia": 19,
         "corte": true,
-        "texto": "Le confieso la verdad: Dios sabe lo que pensará el público. Júker cree que Láiel está convencido; yo no lo creo. Si convenzo a Jáksli, me daré por contento.",
+        "texto": "A Uólas le confieso la verdad: Dios sabe lo que pensará el público. Júker cree que Láiel está convencido; yo no lo creo. Si convenzo a Jáksli, me daré por contento.",
         "drama": 0.8,
         "personajes": [
           {
@@ -1397,7 +1403,7 @@
       },
       {
         "dia": 22,
-        "texto": "El doctor Smit insiste en que es la crisis buena. Yo empiezo a dudar de toda esta agua fría. Y faltan ocho días para que el libro salga.",
+        "texto": "El doctor Smit insiste en que es la crisis buena. Yo ya dudo de toda esta agua fría. Y faltan ocho días para que el libro salga.",
         "drama": 0.7,
         "personajes": [
           {
@@ -1419,7 +1425,7 @@
       },
       {
         "dia": 24,
-        "texto": "Viernes, dieciocho. Me llega una carta que no esperaba. La firma Charls Kíngsli, un clérigo y novelista. Me preparo para lo peor.",
+        "texto": "Viernes, dieciocho. Un clérigo y novelista, Charls Kíngsli, me escribe una carta que no esperaba. Al abrirla, me preparo para lo peor.",
         "drama": 0.75,
         "fondo": {
           "lugar": "interior",
@@ -1530,7 +1536,7 @@
       },
       {
         "dia": 26,
-        "texto": "Le pregunto a Júker quién la habrá escrito. Temo haber sonado engreído, demasiado seguro. A otro amigo le confieso que solo tengo un creyente, mi amigo Júker, y nadie más.",
+        "texto": "Le pregunto a Júker quién la habrá escrito. Temo haber sonado engreído, demasiado seguro. A otro naturalista le confieso que solo conozco a un creyente seguro, Júker, y a nadie más.",
         "drama": 0.65,
         "personajes": [
           {
@@ -1721,7 +1727,7 @@
       {
         "dia": 30,
         "corte": true,
-        "texto": "Mi libro ya es del mundo, y esa misma tarde mi familia se va. Mi mujer y mis dos hijas mayores vuelven a casa. Me quedo solo en Ílkli, con mis forúnculos y mi agua helada.",
+        "texto": "Mi libro ya es del mundo, y esa misma tarde mi familia se va. Mi mujer y nuestras dos hijas vuelven a casa. Me quedo solo en Ílkli, con mis forúnculos y mi agua helada.",
         "drama": 0.65,
         "fondo": {
           "lugar": "calle",
@@ -1784,7 +1790,7 @@
         "camara": "general"
       },
       {
-        "texto": "Al día siguiente me llega por fin la carta de Jáksli, reenviada desde casa. Dice que está dispuesto a ir a la hoguera por mi libro, y que ya se prepara para defenderlo con uñas y dientes.",
+        "texto": "Al día siguiente me llega por fin la carta de Jáksli, reenviada desde casa. Dice que está dispuesto a ir a la hoguera por mi libro, y que ya afila sus garras y su pico para defenderlo.",
         "drama": 0.75,
         "personajes": [
           {
@@ -1807,7 +1813,7 @@
         "camara": "cerca"
       },
       {
-        "texto": "La otra carta es de Séchuik, mi viejo maestro de geología, también clérigo. Ha leído mi libro con más dolor que placer, y confiesa que algunas partes le dieron risa.",
+        "texto": "La otra carta es de Séchuik, mi viejo maestro de geología, también clérigo. Ha leído mi libro con más dolor que placer, y que con algunas partes se rió hasta que le dolieron los costados.",
         "drama": 0.7,
         "personajes": [
           {
@@ -1873,7 +1879,7 @@
         "camara": "general"
       },
       {
-        "texto": "Y unas verdades. Nunca escribí supervivencia del más apto, ni que vengamos del mono. Ni siquiera usé la palabra evolución: mi libro termina con otra, evolucionado.",
+        "texto": "Y unas verdades. En este libro no escribo supervivencia del más apto, ni que vengamos del mono. Ni siquiera aparece la palabra evolución: el libro acaba en otra, evolucionado.",
         "drama": 0.65,
         "personajes": [
           {
@@ -1887,7 +1893,7 @@
         "camara": "cerca"
       },
       {
-        "texto": "En mil ochocientos sesenta y dos me dejo la barba. Muero en mil ochocientos ochenta y dos, y me entierran en la abadía de Uéstminster.",
+        "texto": "En mil ochocientos sesenta y dos me dejo la barba. Muero en mil ochocientos ochenta y dos, y descanso en la abadía de Uéstminster.",
         "drama": 0.6,
         "fondo": {
           "lugar": "interior",
@@ -1941,7 +1947,7 @@
         "camara": "cerca"
       },
       {
-        "texto": "Cuéntamelo en los comentarios y suscríbete: el mes que viene, otra vida que cambió la historia.",
+        "texto": "Cuéntamelo abajo en los comentarios y suscríbete: pronto llega otra vida que cambió la historia.",
         "drama": 0.6,
         "personajes": [
           {
@@ -1959,7 +1965,7 @@
   "publicacion": {
     "tituloLargo": "Un mes en la vida de CHARLES DARWIN (1859) | Los 30 días antes de El origen de las especies",
     "tituloCorto": "Un mes con Darwin",
-    "descripcion": "Treinta días en la vida de Charles Darwin, del 26 de octubre al 24 de noviembre de 1859: enfermo en el balneario de Wells House, en Ilkley (Yorkshire), mientras en Londres John Murray imprime On the Origin of Species. El primer ejemplar verde, las cartas a Henslow, Asa Gray y Wallace, los forúnculos, la carta del clérigo Charles Kingsley, la reseña anónima del Athenaeum, la venta a los libreros del 22 de noviembre y el día de la publicación.\n\n— Semana 1: El agua helada\n— Semana 2: Mi criatura\n— Semana 3: Cartas al mundo\n— Semana 4: Agotado\n— Epílogo: Huxley y Sedgwick, la segunda edición, Oxford, la barba de 1862 y tres mitos sobre Darwin\n\nQué es documentado y qué es imaginado: Charles Darwin y todas las personas de este vídeo fueron reales. Las fechas, las cartas y las cifras están documentadas por el Darwin Correspondence Project; sus pensamientos y las escenas de cada día son imaginados. Las frases entre comillas proceden de cartas fechadas; las palabras de Huxley y de Sedgwick que no hemos podido cotejar van parafraseadas. No hubo colas en las librerías: Murray vendió la edición a los libreros. «Supervivencia del más apto» es de Herbert Spencer (1864) y Darwin la adoptó en 1869.\n\nFuentes: Darwin Correspondence Project (cartas de octubre a noviembre de 1859: DCP-LETT-2513A, 2514, 2522, 2529, 2533, 2534, 2537, 2544, 2547, 2548, 729); Darwin Online (R. B. Freeman, introducción a On the Origin of Species; reseña del Athenaeum, 19 de noviembre de 1859); F. Darwin, Life and Letters of Charles Darwin, vol. 2; Historic England y Wikipedia (Wells House, Ilkley); English Heritage (Down House); series de salarios agrícolas de la Inglaterra victoriana.",
+    "descripcion": "Treinta días en la vida de Charles Darwin, del 26 de octubre al 24 de noviembre de 1859: enfermo en el balneario de Wells House, en Ilkley (Yorkshire), mientras en Londres John Murray imprime On the Origin of Species. El primer ejemplar verde, las cartas a Henslow, Asa Gray y Wallace, los forúnculos, la carta del clérigo Charles Kingsley, la reseña anónima del Athenaeum, la venta a los libreros del 22 de noviembre y el día de la publicación.\n\n— Semana 1: El agua helada\n— Semana 2: Mi criatura\n— Semana 3: Cartas al mundo\n— Semana 4: Agotado\n— Epílogo: Huxley y Sedgwick, la segunda edición, la barba de 1862 y tres mitos sobre Darwin\n\nQué es documentado y qué es imaginado: Charles Darwin y todas las personas de este vídeo fueron reales. Las fechas, las cartas y las cifras están documentadas por el Darwin Correspondence Project; sus pensamientos y las escenas de cada día son imaginados. Las frases entre comillas proceden de cartas fechadas; las de Huxley (23 de noviembre) y Sedgwick (24 de noviembre) van parafraseadas a partir de sus cartas. No hubo colas en las librerías: Murray vendió la edición a los libreros. «Supervivencia del más apto» es de Herbert Spencer (1864): no está en la primera edición y Darwin la adoptó en la quinta (1869).\n\nFuentes: Darwin Correspondence Project (cartas de octubre a noviembre de 1859: DCP-LETT-2513A, 2514, 2522, 2529, 2533, 2534, 2537, 2544, 2547, 2548, 729); Darwin Online (R. B. Freeman, introducción a On the Origin of Species; reseña del Athenaeum, 19 de noviembre de 1859); F. Darwin, Life and Letters of Charles Darwin, vol. 2; Historic England y Wikipedia (Wells House, Ilkley); English Heritage (Down House); series de salarios agrícolas de la Inglaterra victoriana.",
     "etiquetas": [
       "un mes en la vida de",
       "Charles Darwin",
@@ -2035,8 +2041,8 @@
         "descripcion": "Las cartas de Huxley y del clérigo Adam Sedgwick: dos respuestas opuestas. #shorts #historia #darwin"
       },
       {
-        "titulo": "Tres cosas que Darwin nunca escribió",
-        "descripcion": "Ni «supervivencia del más apto», ni «el hombre viene del mono», ni «evolución» en 1859. #shorts #historia #ciencia"
+        "titulo": "Tres cosas que no están en El origen de las especies",
+        "descripcion": "En 1859 no aparecen «supervivencia del más apto», ni «el hombre viene del mono», ni la palabra «evolución». #shorts #historia #ciencia"
       }
     ]
   },
