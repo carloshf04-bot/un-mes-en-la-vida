@@ -1,0 +1,2046 @@
+{
+  "slug": "armisticio-1918",
+  "titulo": "un soldado de 1918",
+  "lugar": "Champaña y Ardenas, Francia",
+  "epoca": "Octubre y noviembre de 1918",
+  "categoria": "epoca",
+  "drama": 0.7,
+  "velocidad": 1.15,
+  "musica": "tension",
+  "paleta": {
+    "acento": "#8fa9c4",
+    "texto": "#efe9dc",
+    "fondo": "#1b2026",
+    "papel": "#e8dfc9"
+  },
+  "reparto": {
+    "emile": {
+      "piel": "#e3b48f",
+      "pelo": "#4a3423",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#7f98b2",
+        "color2": "#7f98b2",
+        "detalle": "#5a4630"
+      },
+      "sombrero": "casco",
+      "colorSombrero": "#6f879e",
+      "zapatos": "#4a3322"
+    },
+    "gaston": {
+      "piel": "#efc6a2",
+      "pelo": "#b08a4a",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#7f98b2",
+        "color2": "#7f98b2",
+        "detalle": "#5a4630"
+      },
+      "sombrero": "casco",
+      "colorSombrero": "#6f879e",
+      "zapatos": "#4a3322"
+    },
+    "trebuchon": {
+      "piel": "#dcae8a",
+      "pelo": "#7a6e62",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#7f98b2",
+        "color2": "#7f98b2",
+        "detalle": "#5a4630"
+      },
+      "sombrero": "casco",
+      "colorSombrero": "#6f879e",
+      "zapatos": "#4a3322"
+    },
+    "delaluque": {
+      "piel": "#e6b995",
+      "pelo": "#3a2a1e",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#7f98b2",
+        "color2": "#7f98b2",
+        "detalle": "#5a4630"
+      },
+      "sombrero": "casco",
+      "colorSombrero": "#6f879e",
+      "zapatos": "#4a3322"
+    },
+    "teniente": {
+      "piel": "#e8bf9c",
+      "pelo": "#2e241c",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#6f879e",
+        "color2": "#6f879e",
+        "detalle": "#5a4630"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#3a3f5a",
+      "zapatos": "#3a2a1e"
+    },
+    "cocinero": {
+      "piel": "#e0aa82",
+      "pelo": "#3a2a1e",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#e9e4d8",
+        "color2": "#7f98b2",
+        "detalle": "#5a4630"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#6f879e",
+      "zapatos": "#4a3322"
+    },
+    "foch": {
+      "piel": "#ecc6a6",
+      "pelo": "#e6e2da",
+      "peinado": "calvo",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#4f6378",
+        "color2": "#4f6378",
+        "detalle": "#c9a24a"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#3a3f5a",
+      "zapatos": "#1e1a16"
+    },
+    "erzberger": {
+      "piel": "#efcdb0",
+      "pelo": "#3a2e26",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#23232a",
+        "color2": "#23232a",
+        "detalle": "#e6e0d6"
+      },
+      "sombrero": "ninguno",
+      "gafas": true,
+      "zapatos": "#111111"
+    },
+    "madre": {
+      "piel": "#eed2bc",
+      "pelo": "#9a948c",
+      "peinado": "mono",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#3b3633",
+        "color2": "#3b3633",
+        "detalle": "#d8d0c4"
+      },
+      "sombrero": "panuelo",
+      "colorSombrero": "#5a5a5a",
+      "zapatos": "#1a1a1a",
+      "voz": "narradora-es"
+    },
+    "anciana": {
+      "piel": "#e9c9b0",
+      "pelo": "#bdb7ae",
+      "peinado": "mono",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#2e2c2b",
+        "color2": "#2e2c2b",
+        "detalle": "#cfc6b6"
+      },
+      "sombrero": "panuelo",
+      "colorSombrero": "#4a4642",
+      "zapatos": "#1a1a1a",
+      "voz": "narradora-es"
+    }
+  },
+  "largo": {
+    "escenas": [
+      {
+        "corte": true,
+        "texto": "Lunes, once de noviembre de mil novecientos dieciocho. Son las diez y cuarenta y cuatro. La guerra está firmada desde las cinco de la mañana, y aquí todavía disparan.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "barricada",
+              "x": -0.95
+            },
+            {
+              "tipo": "arbol",
+              "x": -1.45
+            },
+            {
+              "tipo": "pino",
+              "x": 1.35,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.45,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Me llamo Emíl Lambér, del regimiento cuatrocientos quince. Estoy tumbado en la orilla del Mosa, con el río a la espalda y la niebla pegada al casco.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.35,
+            "accion": "hablar",
+            "emocion": "miedo",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Un hombre mayor pasa a mi lado, agachado, con un papel en la mano. Es Ogustán Trebushón, el estafeta del regimiento. Solo lo he visto de lejos.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.45,
+            "accion": "pensar",
+            "emocion": "miedo",
+            "mirar": -1
+          },
+          {
+            "quien": "trebuchon",
+            "x": -0.45,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "entra": "der",
+            "objeto": "📜",
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Dentro de dieciséis minutos, un corneta tocará el final de la guerra. Para entender cómo llegué aquí, hay que volver un mes atrás.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1
+          }
+        ],
+        "camara": "subir"
+      },
+      {
+        "dia": 1,
+        "capitulo": "Los ríos de tiza",
+        "corte": true,
+        "texto": "Domingo, trece de octubre. Champaña. Ayer pasamos el río Retúrn con el agua por las rodillas. Aquí la tierra es blanca y se pega a las botas como yeso.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "amanecer",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "valla",
+              "x": -1.2
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.3
+            },
+            {
+              "tipo": "carro",
+              "x": -0.7
+            },
+            {
+              "tipo": "🍂",
+              "x": 0.95,
+              "escala": 0.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": -0.2,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "entra": "izq"
+          },
+          {
+            "quien": "gaston",
+            "x": -0.75,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "entra": "izq",
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 1,
+        "texto": "Tengo veinticuatro años. Antes de la guerra sacaba piedra azul en las canteras de Rimoñe, en las Ardenas, para los tejados de media Francia.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.1,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "gaston",
+            "x": -0.6,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Rimogne, Ardenas",
+          "detalle": "Canteras de pizarra · ocupada por Alemania desde 1914",
+          "icono": "📍"
+        }
+      },
+      {
+        "dia": 1,
+        "texto": "Mi pueblo lleva cuatro años en manos alemanas. Mi madre y mi hermana siguen allí. Desde mil novecientos catorce, de ellas casi no me ha llegado nada.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.25
+            },
+            {
+              "tipo": "casa",
+              "x": 1.3
+            },
+            {
+              "tipo": "valla",
+              "x": 0.85
+            },
+            {
+              "tipo": "carro",
+              "x": -0.75
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.45,
+            "accion": "pensar",
+            "emocion": "triste",
+            "mirar": -1
+          },
+          {
+            "quien": "madre",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 1,
+        "texto": "Ese mismo día corre un rumor: los nuestros han entrado en Lan, libre tras cuatro años. Si cae Lan, pienso, algún día caerá Rimoñe.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.2,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 2,
+        "corte": true,
+        "texto": "Me llaman pualú, el peludo, aunque solo llevo bigote. Mi uniforme es azul horizonte, como mi casco, para que de lejos el enemigo no me distinga.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tienda",
+              "x": -1.2
+            },
+            {
+              "tipo": "hoguera",
+              "x": -0.55
+            },
+            {
+              "tipo": "barril",
+              "x": 1.0
+            },
+            {
+              "tipo": "carro",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.3,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "gaston",
+            "x": -0.3,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 2,
+        "texto": "Cargo un fusil Lebél de más de cuatro kilos y la máscara de gas en su lata. Con todo el equipo, unos treinta kilos a la espalda.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.3,
+            "accion": "cargar",
+            "emocion": "cansado",
+            "mirar": -1
+          },
+          {
+            "quien": "gaston",
+            "x": -0.3,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Lo que cargo",
+          "items": [
+            {
+              "icono": "🎒",
+              "nombre": "Mochila y mantas"
+            },
+            {
+              "icono": "🥫",
+              "nombre": "Latas de carne"
+            },
+            {
+              "icono": "🍞",
+              "nombre": "Una hogaza dura"
+            },
+            {
+              "icono": "⚖️",
+              "nombre": "Unos 30 kg en total"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 3,
+        "texto": "Me dan tres cuartos de litro de pinár al día. La sopa llega fría, en marmitas. Y aun así, lo que más espero es una carta.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.35,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": -1,
+            "objeto": "🍷"
+          },
+          {
+            "quien": "cocinero",
+            "x": -0.45,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 4,
+        "texto": "Miércoles, dieciséis. Lluvia. Pasamos por pueblos desiertos que los alemanes dejaron llenos de trampas. Esa noche, Gastón, mi compañero de escuadra, arranca a toser.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "lluvia",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.3
+            },
+            {
+              "tipo": "valla",
+              "x": -0.7
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.35,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": -1
+          },
+          {
+            "quien": "gaston",
+            "x": -0.35,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 5,
+        "corte": true,
+        "texto": "Los médicos la llaman gripe. Nosotros, la fiebre de tres días. Gastón se ríe: asegura que tres días de fiebre son tres días sin marchar.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "gaston",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 5,
+        "texto": "Pero este otoño la fiebre no se va a los tres días: es la segunda ola, la más mala. La llaman española solo porque en España nadie la calla.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "atardecer",
+          "clima": "lluvia",
+          "props": [
+            {
+              "tipo": "barricada",
+              "x": -1.0
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.4,
+            "accion": "pensar",
+            "emocion": "miedo",
+            "mirar": -1
+          },
+          {
+            "quien": "gaston",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1918",
+          "etiqueta": "segunda ola de gripe, la más mortal. Se llamó «española» porque España, neutral, la publicaba sin censura",
+          "icono": "🌡️"
+        }
+      },
+      {
+        "dia": 6,
+        "texto": "A finales de semana llegamos al río Én, frente a Retél, y de golpe nos paramos. Los alemanes se agarran a su orilla y no la sueltan.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.3,
+            "accion": "senalar",
+            "emocion": "enfado",
+            "mirar": 1
+          },
+          {
+            "quien": "gaston",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 8,
+        "capitulo": "La fiebre de tres días",
+        "texto": "Domingo, veinte de octubre. Llevamos tres días quietos frente al río. La guerra vuelve a ser barro, piojos y ratas.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.35,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1
+          },
+          {
+            "quien": "gaston",
+            "x": -0.35,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 9,
+        "corte": true,
+        "texto": "Cuatro años sin una carta de mi madre. El lunes viene el cartero: para Gastón, chocolate y tabaco; para mí, una carta de un primo parisino.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tienda",
+              "x": -1.25
+            },
+            {
+              "tipo": "tienda",
+              "x": 1.35
+            },
+            {
+              "tipo": "barril",
+              "x": -0.7
+            },
+            {
+              "tipo": "cajas",
+              "x": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1,
+            "objeto": "✉️"
+          },
+          {
+            "quien": "gaston",
+            "x": -0.4,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 9,
+        "texto": "No es culpa de nadie: entre mi pueblo y yo está la línea alemana, y por ahí no pasa el correo. Cuatro años de silencio.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.3,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ],
+        "insercion": {
+          "tipo": "dato",
+          "valor": "4 años",
+          "etiqueta": "casi sin correo entre las Ardenas ocupadas y el resto de Francia",
+          "icono": "✉️"
+        }
+      },
+      {
+        "dia": 9,
+        "texto": "Esa noche, en el refugio, Gastón tirita bajo dos mantas y me pide que no se lo cuente al sargento.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.95
+            },
+            {
+              "tipo": "cama",
+              "x": -1.05
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.45
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.95,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "miedo",
+            "mirar": -1
+          },
+          {
+            "quien": "gaston",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 10,
+        "texto": "Martes, veintidós. La gripe se lleva a media escuadra. Sacan a Gastón y a cuatro más camino del hospital de campaña. Antes de irse, me guiña un ojo.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.4,
+            "accion": "saludar",
+            "emocion": "triste",
+            "mirar": -1
+          },
+          {
+            "quien": "gaston",
+            "x": -0.4,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "sale": "izq",
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 11,
+        "corte": true,
+        "texto": "Yo también tengo fiebre. Me arde la frente y me tiemblan las piernas, pero sigo en pie. Aquí, el que se tumba ya no vuelve a levantarse.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.3,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 12,
+        "texto": "Junto al fuego, los de la escuadra apuestan vino a que en Navidad estaremos en casa. Yo no apuesto. Solo cuento los días que tarda Gastón en volver.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "hoguera",
+              "x": -0.6
+            },
+            {
+              "tipo": "tienda",
+              "x": -1.3
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": -1
+          },
+          {
+            "quien": "cocinero",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 13,
+        "texto": "Viernes, veinticinco. El sargento me llama aparte. Gastón ha muerto en el hospital. No en el frente, ni en un ataque. De gripe.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.35,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1
+          },
+          {
+            "quien": "teniente",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 13,
+        "texto": "Cuatro años de bombas, y lo mata una fiebre. Entre mayo y noviembre mueren de gripe más de veintidós mil soldados franceses. Ninguno sale en los partes.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.35,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ],
+        "insercion": {
+          "tipo": "dato",
+          "valor": "22.618",
+          "etiqueta": "soldados franceses muertos de gripe entre mayo y noviembre de 1918",
+          "icono": "🌡️"
+        }
+      },
+      {
+        "dia": 13,
+        "corte": true,
+        "texto": "De Gastón guardo la cuchara. Es todo lo que me queda de él. Esa noche escribo a su madre, y le cuento que se reía de todo.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.95
+            },
+            {
+              "tipo": "cama",
+              "x": -1.05
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.45
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.95,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.3,
+            "accion": "escribir",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 14,
+        "texto": "Estos días, un teniente llega con el periódico: Lúdendorf, el gran general alemán, ha dimitido. Esto se acaba, muchachos, nos repite. Ojalá se acabe ya.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "teniente",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "objeto": "🗞️",
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 15,
+        "capitulo": "Todos se rinden menos nosotros",
+        "texto": "Domingo, veintisiete. Unos días en retaguardia: ducha y ropa limpia. Escribo a mi madre una carta que a lo mejor nunca llega: estoy vivo, pronto iré a casa.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.6
+            },
+            {
+              "tipo": "estufa",
+              "x": -1.1
+            },
+            {
+              "tipo": "✉️",
+              "x": 0.6,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.35,
+            "accion": "escribir",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 18,
+        "texto": "Miércoles, treinta. El Imperio otomano se rinde. Al día siguiente, la división se pone en marcha. Todos se rinden, menos el enemigo que tenemos delante.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "objeto": "🗞️"
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "30 oct.",
+          "etiqueta": "Armisticio de Mudros: el Imperio otomano sale de la guerra",
+          "icono": "🗞️"
+        }
+      },
+      {
+        "dia": 20,
+        "corte": true,
+        "texto": "Viernes, uno de noviembre, Todos los Santos. Pasamos junto a un camposanto con tumbas nuevas. Mañana nos toca a nosotros.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "amanecer",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "tumba",
+              "x": -1.3
+            },
+            {
+              "tipo": "tumba",
+              "x": -0.9
+            },
+            {
+              "tipo": "tumba",
+              "x": 1.05
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.1,
+            "accion": "caminar",
+            "emocion": "triste",
+            "mirar": 1,
+            "entra": "izq"
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 21,
+        "texto": "Sábado, dos. Antes del alba, junto a Semuí, bajamos hasta el río Én. Hay que pasarlo delante de los alemanes.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 21,
+        "texto": "Lo pasamos como podemos: en botes, sobre tablones, con el agua helada hasta el pecho. Las balas levantan chorros a mi lado.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "amanecer",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "bote",
+              "x": 0.75
+            },
+            {
+              "tipo": "🪵",
+              "x": -0.6,
+              "escala": 0.45
+            },
+            {
+              "tipo": "arbol",
+              "x": -1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.3,
+            "accion": "correr",
+            "emocion": "miedo",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 21,
+        "texto": "Cuando llego, me tiemblan tanto las manos que no puedo ni cargar el fusil. Pero estoy en la otra orilla. Y estoy vivo.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.3,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 22,
+        "capitulo": "Las once en punto",
+        "texto": "Domingo, tres. Austria-Hungría firma su armisticio y en Kil se amotinan los marineros alemanes. Nosotros seguimos peleando bajo la lluvia.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.3,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": -1
+          }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "3 nov.",
+          "etiqueta": "Austria-Hungría firma en Villa Giusti. Alemania se queda sola",
+          "icono": "🗞️"
+        }
+      },
+      {
+        "dia": 25,
+        "corte": true,
+        "texto": "Miércoles, seis. Los alemanes se retiran y entramos en pueblos libres. De los sótanos salen mujeres y viejos que llevan cuatro años sin ver un uniforme azul.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.3
+            },
+            {
+              "tipo": "pozo",
+              "x": 1.2
+            },
+            {
+              "tipo": "casa",
+              "x": 1.55
+            },
+            {
+              "tipo": "carro",
+              "x": -0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.4,
+            "accion": "caminar",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "entra": "der"
+          },
+          {
+            "quien": "anciana",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 25,
+        "texto": "Una abuela me agarra de las manos y no me suelta. Le pregunto por Rimoñe. Ella solo me contesta que allí todavía están ellos.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.3,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1
+          },
+          {
+            "quien": "anciana",
+            "x": -0.3,
+            "accion": "hablar",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 26,
+        "texto": "Jueves siete, de noche. Corre el rumor: un corneta ha tocado alto el fuego. Gritamos, saltamos, alguien llora. Pero la guerra no ha terminado.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "bosque",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "hoguera",
+              "x": -0.55
+            },
+            {
+              "tipo": "pino",
+              "x": -1.35
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.3,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 26,
+        "texto": "Solo era para dejar pasar a los delegados alemanes que vienen a pedir el armisticio. Mañana los llevarán en tren hasta el bosque de Compiéñ, donde los esperan.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.3,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "20:20",
+          "etiqueta": "7 nov. · el cabo corneta Pierre Sellier toca alto el fuego en Haudroy para dejar pasar a los delegados alemanes",
+          "icono": "🎺"
+        }
+      },
+      {
+        "dia": 27,
+        "corte": true,
+        "texto": "Setenta y dos horas. Es el tiempo que el mariscal Fosh da a los alemanes en su vagón, en pleno bosque. Se acaba el lunes, a las once.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.3
+            },
+            {
+              "tipo": "cuadro",
+              "x": -1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "foch",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "erzberger",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 27,
+        "texto": "Ese mismo viernes, el Mosa asoma delante de nosotros. Al otro lado del agua, entre la niebla, veo colinas de bosque. Son las colinas de mi tierra.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "atardecer",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.35
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.35,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": -1
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 27,
+        "texto": "Rimoñe está a menos de veinte kilómetros. Mi madre, a lo mejor, está justo ahí detrás. Nunca he estado tan a punto de volver a casa.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 28,
+        "texto": "Sábado nueve. El káiser abdica. Esa tarde llega la orden para la división: pasar el Mosa cueste lo que cueste. Sin barcas y sin descanso.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1
+          },
+          {
+            "quien": "teniente",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "enfado",
+            "mirar": 1,
+            "objeto": "📜",
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Franchir la Meuse coûte que coûte.",
+          "firma": "Orden a la 163.ª División, 9 de noviembre de 1918 (cruzar el Mosa cueste lo que cueste)"
+        }
+      },
+      {
+        "dia": 28,
+        "corte": true,
+        "texto": "Pasamos de noche, sobre tablones que los ingenieros tienden por una presa rota. Debajo, el Mosa ruge. Delante, la niebla no deja ver nada.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "amanecer",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "🪵",
+              "x": 0.6,
+              "escala": 0.5
+            },
+            {
+              "tipo": "🪵",
+              "x": 0.95,
+              "escala": 0.45
+            },
+            {
+              "tipo": "barricada",
+              "x": -1.1
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.3,
+            "accion": "caminar",
+            "emocion": "miedo",
+            "mirar": 1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 29,
+        "texto": "Domingo diez, a las ocho de la mañana. Cuentan que unos setecientos hombres de mi regimiento estamos ya en la orilla alemana. La niebla nos esconde.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 29,
+        "texto": "A las diez y media, la niebla se levanta. Y de golpe estamos al descubierto, con las ametralladoras enfrente y el río a la espalda.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barricada",
+              "x": -0.9
+            },
+            {
+              "tipo": "barricada",
+              "x": 1.1
+            },
+            {
+              "tipo": "arbol",
+              "x": -1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.3,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 29,
+        "texto": "No podemos ir adelante ni volver atrás. Pasamos el día pegados al suelo y la noche helados, sin relevo. Nadie se atreve a hablar del armisticio.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.3,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "≈ 700",
+          "etiqueta": "hombres del 415.º RI en la orilla enemiga del Mosa, el 10 de noviembre",
+          "icono": "🌫️"
+        }
+      },
+      {
+        "dia": 30,
+        "corte": true,
+        "texto": "Lunes, once. Poco después de las cinco, en el vagón de Fosh, firman el armisticio. Pero hasta las once en punto, la guerra sigue.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.3
+            },
+            {
+              "tipo": "cuadro",
+              "x": -1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "foch",
+            "x": -0.4,
+            "accion": "escribir",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "erzberger",
+            "x": 0.4,
+            "accion": "escribir",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 30,
+        "texto": "Por la mañana nos llega el aviso: las armas callan a las once. Y aun así, en la orilla, las balas siguen silbando. Nadie sabe para qué sirven esas horas.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "barricada",
+              "x": -0.95
+            },
+            {
+              "tipo": "arbol",
+              "x": -1.45
+            },
+            {
+              "tipo": "pino",
+              "x": 1.35,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.35,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 30,
+        "texto": "A eso de las diez y cuarenta y cinco, el estafeta Ogustán Trebushón sale con un mensaje: a las once y media, sopa para todos. No llegó a entregarlo.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1
+          },
+          {
+            "quien": "trebuchon",
+            "x": -0.5,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "sale": "izq",
+            "objeto": "📜",
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 30,
+        "texto": "Era pastor en Losér, tenía cuarenta años y había hecho toda la guerra. Hoy se le recuerda como el último francés caído en combate.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.3,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 30,
+        "corte": true,
+        "texto": "No fue el único. A las diez y cincuenta y ocho cae el canadiense Yorch Práis, en Bélgica. Un minuto después, en Francia, cae Énri Gúnter, un estadounidense de veintitrés años.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barricada",
+              "x": -0.9
+            },
+            {
+              "tipo": "barricada",
+              "x": 1.1
+            },
+            {
+              "tipo": "arbol",
+              "x": -1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.3,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "10:58 · 10:59",
+          "etiqueta": "George Lawrence Price (Canadá) y Henry Gunther (EE. UU.) mueren en los dos últimos minutos",
+          "icono": "🕰️"
+        }
+      },
+      {
+        "dia": 30,
+        "texto": "Nadie sabe por qué Gúnter cargó contra aquella ametralladora. Ese día, según algunos historiadores, murieron unos dos mil setecientos hombres.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.3,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 30,
+        "texto": "Y a las once en punto, en la orilla del Mosa, el corneta Octáv Delalúk se pone en pie y toca el alto el fuego.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "bandera",
+              "x": -1.1
+            },
+            {
+              "tipo": "barricada",
+              "x": 1.15
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.45,
+            "accion": "sentado",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "delaluque",
+            "x": -0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "🎺"
+          }
+        ],
+        "camara": "subir"
+      },
+      {
+        "dia": 30,
+        "texto": "Después, silencio. Ni un disparo, solo el agua del río. Me quedo sentado en el barro y lloro, sin saber si es de alegría o de agotamiento.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.35,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "corte": true,
+        "texto": "A las once y media comemos la sopa, como ponía aquel mensaje. Las campanas suenan en toda Francia. Aquí, casi todos comemos callados.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.35,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1
+          },
+          {
+            "quien": "cocinero",
+            "x": -0.4,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "La tumba de Trebushón, en Vriñe, junto al Mosa, pone diez de noviembre. A los muertos franceses del último día los fecharon la víspera.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "tumba",
+              "x": -0.9
+            },
+            {
+              "tipo": "tumba",
+              "x": -1.35
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.4,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "10 nov.",
+          "etiqueta": "fecha que sigue grabada en la tumba de Augustin Trébuchon, muerto el 11",
+          "icono": "✝️"
+        }
+      },
+      {
+        "texto": "La gripe siguió matando: más de treinta mil soldados franceses hasta el verano siguiente. Y el armisticio no era la paz: la paz llegó en Versalles, en junio de mil novecientos diecinueve.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Y en mil novecientos cuarenta, Hitler obligó a Francia a firmar su derrota en el mismo vagón y en el mismo claro del bosque.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.3
+            },
+            {
+              "tipo": "cuadro",
+              "x": -1.2
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "corte": true,
+        "texto": "¿Y yo? Emíl Lambér nunca existió: es un soldado inventado, igual que Gastón y mi familia. Pero el regimiento cuatrocientos quince, el paso del Mosa, la niebla, Trebushón, Práis y Gúnter son historia real y documentada.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.25
+            },
+            {
+              "tipo": "casa",
+              "x": 1.35
+            },
+            {
+              "tipo": "pozo",
+              "x": -0.7
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.3,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Me gusta pensar que Emíl volvió a Rimoñe y encontró a su madre y a su hermana en la puerta, vivas. Muchos otros, como Gastón, nunca volvieron a su casa ni a los suyos.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.35,
+            "accion": "caminar",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "madre",
+            "x": -0.4,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Y tú, ¿qué habrías hecho en esas últimas seis horas? Cuéntamelo en los comentarios, y suscríbete para vivir el próximo mes en la piel de otra persona.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "emile",
+            "x": 0.3,
+            "accion": "saludar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "madre",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      }
+    ]
+  },
+  "publicacion": {
+    "tituloLargo": "Un mes en la vida de UN SOLDADO FRANCÉS EN 1918 | Las seis horas que sobraron en la Gran Guerra",
+    "tituloCorto": "El último mes de la guerra",
+    "descripcion": "Treinta días en la vida de Émile Lambert, soldado del 415.º Regimiento de Infantería francés, del 13 de octubre al 11 de noviembre de 1918: el avance por la Champaña, la gripe de 1918, el paso del Aisne en Semuy, el cruce del Mosa en la niebla en Vrigne-Meuse y la mañana del armisticio, firmado poco después de las cinco en Rethondes pero con efecto a las once. Sin escenas gráficas.\n\n— Semana 1: Los ríos de tiza\n— Semana 2: La fiebre de tres días\n— Semana 3: Todos se rinden menos nosotros\n— Semana 4: Las once en punto\n— Epílogo: las tumbas fechadas el día 10, la gripe que siguió, Versalles (1919) y el vagón de 1940\n\nQué es inventado y qué es real: Émile Lambert, su familia, su compañero Gaston y lo que piensan y viven son INVENTADOS. Son reales el recorrido de la 163.ª División y del 415.º RI, la orden de cruzar el Mosa «coûte que coûte», el combate de Vrigne-Meuse, el corneta Octave Delaluque, el alto el fuego de Haudroy (Pierre Sellier), las 72 horas de Foch y las cifras de la gripe. Augustin Trébuchon, George Lawrence Price y Henry Gunther fueron reales: solo se cuentan hechos documentados, sin ponerles palabras. Las cifras del último día varían según la fuente y se dan como aproximadas.\n\nEn memoria de Augustin Trébuchon (415.º RI), George Lawrence Price (28.º Batallón canadiense), Henry Gunther (313.º Regimiento de EE. UU.) y de todos los que cayeron el 11 de noviembre de 1918.\n\nFuentes: Alain Fauveau, «Le dernier combat: Vrigne-Meuse, 10 et 11 novembre 1918», Revue historique des armées n.º 251 (2008); Olivier Lahaie, «L'épidémie de grippe dite \"espagnole\" et sa perception par l'armée française (1918-1919)», Revue historique des armées; Ministère des Armées (négociations du 11 novembre 1918; Mémoire des hommes, convention d'armistice); Musée de l'Armée (uniformes 14-18, clairon de l'armistice); Paul Laperche, Rethondes, 8-11 novembre 1918; Western Front Association; info.gouv.fr y franceinfo (Augustin Trébuchon); The Connexion (Nicolas Czubak); Commonwealth War Graves Commission; Veterans Affairs Canada (George Lawrence Price); World War I Centennial Commission (Henry Gunther); Département de l'Aisne (cessez-le-feu de Haudroy); Wikipédia FR (163e division d'infanterie, bataille de Vrigne-Meuse).",
+    "etiquetas": [
+      "un mes en la vida de",
+      "armisticio",
+      "11 de noviembre",
+      "1918",
+      "Primera Guerra Mundial",
+      "Gran Guerra",
+      "poilu",
+      "Augustin Trébuchon",
+      "Vrigne-Meuse",
+      "gripe de 1918",
+      "historia",
+      "animación"
+    ],
+    "miniatura": {
+      "texto": "SEIS HORAS MÁS",
+      "escena": 0,
+      "quien": "emile",
+      "emocion": "miedo",
+      "icono": "🕰️"
+    },
+    "shorts": [
+      {
+        "titulo": "La guerra ya estaba firmada… y seguían disparando",
+        "descripcion": "11 de noviembre de 1918, 10:44, a orillas del Mosa. Quedan dieciséis minutos. #shorts #historia #1918"
+      },
+      {
+        "titulo": "Mi madre vive al otro lado de la guerra",
+        "descripcion": "Un soldado de las Ardenas avanza hacia su pueblo, ocupado desde 1914. #shorts #primeraguerramundial"
+      },
+      {
+        "titulo": "30 kilos a la espalda y 75 cl de vino al día",
+        "descripcion": "Así vivía un poilu en octubre de 1918… y lo que más esperaba no era el vino. #shorts #historia"
+      },
+      {
+        "titulo": "La fiebre de tres días que no se iba",
+        "descripcion": "Gripe de 1918: por qué la llamaron «española» si no nació en España. #shorts #gripe1918"
+      },
+      {
+        "titulo": "Cuatro años sin una carta de mi madre",
+        "descripcion": "El correo no cruzaba la línea alemana. Y mi compañero empieza a temblar. #shorts #historia #1918"
+      },
+      {
+        "titulo": "Sobrevivió a cuatro años de bombas… y lo mató la gripe",
+        "descripcion": "Más de 22.000 soldados franceses murieron de gripe en seis meses de 1918. #shorts #gripe1918"
+      },
+      {
+        "titulo": "«Esto se acaba, muchachos»",
+        "descripcion": "Ludendorff dimite y los aliados de Alemania se rinden… menos el enemigo que tenemos delante. #shorts #primeraguerramundial"
+      },
+      {
+        "titulo": "Pasar un río delante del enemigo",
+        "descripcion": "Todos los Santos y el paso del Aisne en Semuy, 2 de noviembre de 1918. #shorts #primeraguerramundial #1918"
+      },
+      {
+        "titulo": "Un corneta tocó el alto el fuego… y la guerra siguió",
+        "descripcion": "Haudroy, 7 de noviembre de 1918, 20:20: la tregua para dejar pasar a los alemanes. #shorts #armisticio"
+      },
+      {
+        "titulo": "72 horas para firmar la paz",
+        "descripcion": "Foch, el vagón de Compiègne y una orden: cruzar el Mosa «cueste lo que cueste». #shorts #armisticio"
+      },
+      {
+        "titulo": "A las 10:30 la niebla se levantó",
+        "descripcion": "Unos 700 soldados franceses atrapados en la orilla enemiga del Mosa. #shorts #historia #1918"
+      },
+      {
+        "titulo": "El último soldado francés muerto en combate",
+        "descripcion": "Augustin Trébuchon llevaba un mensaje sobre la sopa de las 11:30. #shorts #11denoviembre"
+      },
+      {
+        "titulo": "Murieron en los dos últimos minutos de la guerra",
+        "descripcion": "George Price, 10:58. Henry Gunther, 10:59. Y a las 11:00, silencio. #shorts #armisticio #1918"
+      },
+      {
+        "titulo": "Su tumba tiene la fecha equivocada",
+        "descripcion": "Los muertos franceses del 11 de noviembre se fecharon el día 10. Y el vagón volvió en 1940. #shorts #historia"
+      },
+      {
+        "titulo": "¿Qué es real en esta historia?",
+        "descripcion": "Émile es inventado. Trébuchon, Price, Gunther y el 415.º RI, no. #shorts #primeraguerramundial"
+      }
+    ]
+  },
+  "grafias": {
+    "Emíl": "Émile",
+    "Lambér": "Lambert",
+    "Ogustán": "Augustin",
+    "Trebushón": "Trébuchon",
+    "Retúrn": "Retourne",
+    "Rimoñe": "Rimogne",
+    "Lan": "Laon",
+    "pualú": "poilu",
+    "Lebél": "Lebel",
+    "pinár": "pinard",
+    "Gastón": "Gaston",
+    "Én": "Aisne",
+    "Retél": "Rethel",
+    "Lúdendorf": "Ludendorff",
+    "Semuí": "Semuy",
+    "Kil": "Kiel",
+    "Compiéñ": "Compiègne",
+    "Fosh": "Foch",
+    "Losér": "Lozère",
+    "Yorch": "George",
+    "Práis": "Price",
+    "Énri": "Henry",
+    "Gúnter": "Gunther",
+    "Octáv": "Octave",
+    "Delalúk": "Delaluque",
+    "Vriñe": "Vrigne-Meuse"
+  }
+}
