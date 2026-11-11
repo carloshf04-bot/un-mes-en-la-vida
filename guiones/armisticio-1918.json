@@ -171,7 +171,7 @@
     "escenas": [
       {
         "corte": true,
-        "texto": "Lunes, once de noviembre de mil novecientos dieciocho. Son las diez y cuarenta y cuatro. La guerra está firmada desde las cinco de la mañana, y aquí todavía disparan.",
+        "texto": "Lunes, once de noviembre de mil novecientos dieciocho. Son las diez y cuarenta y cuatro. La guerra está firmada desde poco después de las cinco, y aquí todavía disparan.",
         "drama": 0.85,
         "fondo": {
           "lugar": "rio",
@@ -219,7 +219,7 @@
         "camara": "cerca"
       },
       {
-        "texto": "Un hombre mayor pasa a mi lado, agachado, con un papel en la mano. Es Ogustán Trebushón, el estafeta del regimiento. Solo lo he visto de lejos.",
+        "texto": "Un hombre mayor pasa a mi lado, agachado, con un papel en la mano. Es Ogustán Trebushón, un estafeta del regimiento. Solo lo he visto de lejos.",
         "drama": 0.7,
         "personajes": [
           {
@@ -867,7 +867,7 @@
       },
       {
         "dia": 13,
-        "texto": "Viernes, veinticinco. El sargento me llama aparte. Gastón ha muerto en el hospital. No en el frente, ni en un ataque. De gripe.",
+        "texto": "Viernes, veinticinco. El teniente me llama aparte. Gastón ha muerto en el hospital. No en el frente, ni en un ataque. De gripe.",
         "drama": 0.85,
         "personajes": [
           {
@@ -890,7 +890,7 @@
       },
       {
         "dia": 13,
-        "texto": "Cuatro años de bombas, y lo mata una fiebre. Entre mayo y noviembre mueren de gripe más de veintidós mil soldados franceses. Ninguno sale en los partes.",
+        "texto": "Cuatro años de bombas, y lo mata una fiebre. Entre mayo y noviembre de este año morirán de gripe más de veintidós mil soldados franceses.",
         "drama": 0.75,
         "personajes": [
           {
@@ -1074,7 +1074,7 @@
       },
       {
         "dia": 21,
-        "texto": "Sábado, dos. Antes del alba, junto a Semuí, bajamos hasta el río Én. Hay que pasarlo delante de los alemanes.",
+        "texto": "Sábado, dos. Antes del alba, junto a Semuí, el río Én nos corta el paso. Hay que pasarlo delante de los alemanes.",
         "drama": 0.8,
         "personajes": [
           {
@@ -1089,7 +1089,7 @@
       },
       {
         "dia": 21,
-        "texto": "Lo pasamos como podemos: en botes, sobre tablones, con el agua helada hasta el pecho. Las balas levantan chorros a mi lado.",
+        "texto": "Lo pasamos como podemos: sobre tablones, con el agua helada hasta el pecho. Las balas levantan chorros a mi lado.",
         "drama": 0.9,
         "fondo": {
           "lugar": "rio",
@@ -1097,13 +1097,18 @@
           "clima": "niebla",
           "props": [
             {
-              "tipo": "bote",
-              "x": 0.75
+              "tipo": "🪵",
+              "x": 0.75,
+              "escala": 0.45
             },
             {
               "tipo": "🪵",
               "x": -0.6,
               "escala": 0.45
+            },
+            {
+              "tipo": "barricada",
+              "x": 1.2
             },
             {
               "tipo": "arbol",
@@ -1157,12 +1162,32 @@
           "valor": "3 nov.",
           "etiqueta": "Austria-Hungría firma en Villa Giusti. Alemania se queda sola",
           "icono": "🗞️"
+        },
+        "fondo": {
+          "lugar": "bosque",
+          "hora": "dia",
+          "clima": "lluvia",
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.3
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.25
+            },
+            {
+              "tipo": "pino",
+              "x": 1.45,
+              "detras": true
+            }
+          ]
         }
       },
       {
         "dia": 25,
         "corte": true,
-        "texto": "Miércoles, seis. Los alemanes se retiran y entramos en pueblos libres. De los sótanos salen mujeres y viejos que llevan cuatro años sin ver un uniforme azul.",
+        "texto": "Miércoles, seis. Los alemanes se retiran y entramos en pueblos libres. De los sótanos salen mujeres y viejos que llevan cuatro años sin ver un uniforme francés.",
         "drama": 0.65,
         "fondo": {
           "lugar": "calle",
@@ -1179,7 +1204,7 @@
             },
             {
               "tipo": "casa",
-              "x": 1.55
+              "x": 1.5
             },
             {
               "tipo": "carro",
@@ -1266,7 +1291,7 @@
       },
       {
         "dia": 26,
-        "texto": "Solo era para dejar pasar a los delegados alemanes que vienen a pedir el armisticio. Mañana los llevarán en tren hasta el bosque de Compiéñ, donde los esperan.",
+        "texto": "Solo era para dejar pasar a los delegados alemanes que vienen a pedir el armisticio. Esa noche los llevan en tren hasta el bosque de Compieñe, donde los esperan.",
         "drama": 0.65,
         "personajes": [
           {
@@ -1293,7 +1318,7 @@
         "fondo": {
           "lugar": "interior",
           "pared": "madera",
-          "hora": "noche",
+          "hora": "dia",
           "ventana": true,
           "props": [
             {
@@ -1401,7 +1426,7 @@
         "insercion": {
           "tipo": "cita",
           "frase": "Franchir la Meuse coûte que coûte.",
-          "firma": "Orden a la 163.ª División, 9 de noviembre de 1918 (cruzar el Mosa cueste lo que cueste)"
+          "firma": "Orden a la 163.ª División, 9 de noviembre de 1918 (en sustancia: cruzar el Mosa cueste lo que cueste)"
         }
       },
       {
@@ -1593,7 +1618,7 @@
       },
       {
         "dia": 30,
-        "texto": "A eso de las diez y cuarenta y cinco, el estafeta Ogustán Trebushón sale con un mensaje: a las once y media, sopa para todos. No llegó a entregarlo.",
+        "texto": "A eso de las diez y cuarenta y cinco, el estafeta Ogustán Trebushón lleva un mensaje: a las once y media, sopa para todos. No llegó a entregarlo.",
         "drama": 0.85,
         "personajes": [
           {
@@ -1697,8 +1722,8 @@
           "clima": "despejado",
           "props": [
             {
-              "tipo": "bandera",
-              "x": -1.1
+              "tipo": "pino",
+              "x": -1.2
             },
             {
               "tipo": "barricada",
@@ -1716,8 +1741,7 @@
             "x": 0.45,
             "accion": "sentado",
             "emocion": "sorpresa",
-            "mirar": -1,
-            "habla": false
+            "mirar": -1
           },
           {
             "quien": "delaluque",
@@ -1725,7 +1749,8 @@
             "accion": "quieto",
             "emocion": "neutral",
             "mirar": 1,
-            "objeto": "🎺"
+            "objeto": "🎺",
+            "habla": false
           }
         ],
         "camara": "subir"
@@ -2032,7 +2057,6 @@
     "Lúdendorf": "Ludendorff",
     "Semuí": "Semuy",
     "Kil": "Kiel",
-    "Compiéñ": "Compiègne",
     "Fosh": "Foch",
     "Losér": "Lozère",
     "Yorch": "George",
@@ -2041,6 +2065,7 @@
     "Gúnter": "Gunther",
     "Octáv": "Octave",
     "Delalúk": "Delaluque",
-    "Vriñe": "Vrigne-Meuse"
+    "Vriñe": "Vrigne-Meuse",
+    "Compieñe": "Compiègne"
   }
 }
