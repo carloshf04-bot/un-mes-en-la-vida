@@ -15,21 +15,21 @@
   },
   "reparto": {
     "hugo": {
-      "piel": "#e0ac82",
-      "pelo": "#3a2a1e",
-      "peinado": "corto",
+      "piel": "#d9a37c",
+      "pelo": "#2b1d14",
+      "peinado": "rizado",
       "barba": "corta",
       "ropa": {
         "tipo": "camisa",
-        "color": "#1f3350",
-        "color2": "#4a4f55",
-        "detalle": "#f28c28"
+        "color": "#5a6b3a",
+        "color2": "#3b4a63",
+        "detalle": "#2e3a20"
       },
-      "sombrero": "gorra",
-      "colorSombrero": "#6b6f75",
+      "sombrero": "capucha",
+      "colorSombrero": "#4a5a2e",
       "gafas": false,
       "altura": 1,
-      "zapatos": "#2a2a2a"
+      "zapatos": "#4a3020"
     },
     "nora": {
       "piel": "#e8b896",
