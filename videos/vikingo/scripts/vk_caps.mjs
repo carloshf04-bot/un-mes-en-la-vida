@@ -487,7 +487,7 @@ export function balance(S) {
   // 220-223 · lo bueno y el dato que más pesa
   say(K, 220, [["cut", "Lo", "granja", -0.5], ["t", "bueno", "LO BUENO", { c: VERDEC, size: F(84, 74) }], ["c", [["coins", "PLATA", "plata"], ["house", "GRANJA EN PIE", "granja"], ["plant", "BROTES ALTOS", "brotes"]], { size: F(190, 170), cols: 3 }], ["f", (T) => grow(S, `${S.id}-granja-fd`, T("brotes"))]]);
   say(K, 221, [["t", "pesa", "EL DATO QUE MÁS PESA", { c: AMB, size: F(84, 74) }], ["f", (T) => { tilt(S, `${S.id}-bs`, T("pesa"), 14); S.cue(T("pesa"), "impact"); }]]);
-  say(K, 222, [["f", (T, id, s) => { box(S, id, K.ix(), K.sy(1) + 40, F(900, 840), F(300, 280), `<div class="uncial" style="font-size:${F(150, 130)}px;color:#fff;line-height:1">0 CUERNOS</div>`, T("cuernos", -0.1), { bg: C.redD, fx: "slam" }); return { sel: `#${id}`, s: 3 }; }], ["t", "casco", "NI UN CASCO CON CUERNOS", { size: F(66, 60) }]]);
+  say(K, 222, [["f", (T, id, s) => { box(S, id, K.ix(), K.sy(1) + 40, F(900, 840), F(300, 280), `<div class="uncial" style="font-size:${F(118, 96)}px;color:#fff;line-height:1;white-space:nowrap"><span style="font-family:Inter;font-weight:900">0</span> CUERNOS</div>`, T("cuernos", -0.1), { bg: C.redD, fx: "slam" }); return { sel: `#${id}`, s: 3 }; }], ["t", "casco", "NI UN CASCO CON CUERNOS", { size: F(66, 60) }]]);
   say(K, 223, [["shake", "uno", 22], ["t", "uno", "NI UNO", { c: ROJO, size: F(110, 96), y: K.sy(2) + 60 }]], { keep: true });
   // 224-228 · Gjermundbu, la ópera de 1876 y Veksø
   say(K, 224, [["cut", "Gjermundbu", "museo", -0.6, Cx + 2500], ["t", "Gjermundbu", "GJERMUNDBU · SIGLO X", { c: AMB, size: F(74, 66), dt: 0.3 }], ["t", "después", "AÑOS DESPUÉS DE ULF", { size: F(66, 60) }]]);

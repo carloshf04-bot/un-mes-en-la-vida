@@ -170,7 +170,7 @@ export function moonBadge(S, id, x, y, phase, title, t, { size = 230 } = {}) {
     `<path d="M0,${-r} A${r},${r} 0 0,${phase > 0 ? 0 : 1} 0,${r} A${r * 0.35},${r} 0 0,${phase > 0 ? 1 : 0} 0,${-r}Z" fill="#2a3150"/>`;
   S.add(`<div id="${id}" class="prop" style="left:${r3(x - 500)}px;top:${r3(y - r)}px;width:1000px;z-index:9;display:flex;align-items:center;justify-content:center;gap:40px;opacity:0">
     <svg width="${size}" height="${size}" viewBox="${-r - 8} ${-r - 8} ${size + 16} ${size + 16}"><circle cx="0" cy="0" r="${r}" fill="${phase === 1 && title.includes("TRES") ? "#f2b48a" : "#f4ecd2"}" stroke="${C.ink}" stroke-width="7"/>${sh}<circle cx="0" cy="0" r="${r}" fill="none" stroke="${C.ink}" stroke-width="7"/></svg>
-    <div class="dirt" style="font-size:${size * 0.62}px;color:${C.bone};text-shadow:0 8px 0 ${C.ink};white-space:nowrap">${title}</div></div>`);
+    <div class="dirt" style="font-size:${size * 0.5}px;color:${C.bone};text-shadow:0 8px 0 ${C.ink};white-space:nowrap">${String(title).replace(/(\d+)/g, '<span style="font-family:Inter;font-weight:900">$1</span>')}</div></div>`);
   S.tw(`tl.fromTo("#${id}",{scale:2,opacity:0,filter:"blur(10px)"},{scale:1,opacity:1,filter:"blur(0px)",duration:0.35,ease:"power4.in"},${r3(t - 0.2)});`);
 }
 // Camino (línea ocre punteada sobre el suelo) que se dibuja mientras viaja la cámara

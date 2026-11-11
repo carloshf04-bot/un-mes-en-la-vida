@@ -72,6 +72,13 @@ Capturas (18,2; 151,9; 152,3; 311,7; 384; 587; 636,34 y 762,48 s): `pruebas/p4_h
 - **Fuente uncial (fallo importante, ya arreglado)**: `fonts/UncialAntiqua-Regular.woff2` era el subconjunto *latin-ext* de Google Fonts, sin las letras A-Z. Todo el texto en uncial del vídeo y de la miniatura salía con una fuente de reserva parecida a Times. Lo he cambiado por la TTF completa (`fonts/UncialAntiqua-Regular.ttf`, OFL, de google/fonts) en `gen.mjs` y en `miniaturas/vikingo.json`. Comprobado en la captura del título (26 s) y en las miniaturas. Hay que regenerar las composiciones con esta fuente; `hf-est-*` ya está regenerado.
 - **Miniaturas** (`node scripts/miniatura.mjs ../../../miniaturas/vikingo.json ../entregas`, desde `scripts/`; necesita `playwright`, enlazado en `videos/vikingo/node_modules/playwright` → `/opt/node-tools/node_modules/playwright`, que no se sube): `entregas/miniatura-youtube.png` (1280×720) y `entregas/miniatura-vertical.png` (1080×1920). Llevan a Ulf grande con la cara sorprendida y sin casco, capa, escudo amarillo y negro y hacha; «¿TE IRÍAS DE **VIKINGO**?» con VIKINGO en amarillo; el sello «0 CUERNOS»; los iconos del barco, el hacha y la balanza, y el título en Uncial Antiqua. He movido los iconos para que no queden tapados (hacha en horizontal; barco y balanza en vertical). `miniatura.mjs` ahora espera a que carguen las fuentes y avisa si falla la del título.
 
+- **Rótulos en uncial revisados con la fuente buena** (capturas en `pruebas/unc_*` y `pruebas/unc2_*`: título, DATO RARO, insignias SEMANA 1-4, EL GRAN MITO, ENVIDIA, THING, VÁPNATAK, DÍA 4, SCHLEI, HEDEBY, PLATA PICADA, OTRO MITO, LA PESA, 0 CUERNOS y Víking, en los dos formatos):
+  - En uncial las cifras se confundían («0» parecía una O y «1» una ı) → las cifras van en Inter (en `tx` y en `moonBadge`).
+  - Las insignias SEMANA se salían de su placa → letra al 50 % del tamaño de la luna.
+  - El «0 CUERNOS» grande de la frase 222 se partía en dos líneas → más pequeño y en una sola línea.
+  - Los rótulos en uncial ya no parten línea.
+- **Miniaturas**: más separación entre «UN MES EN LA VIDA DE UN» y «Vikingo» (el palo de la k ya no roza).
+
 ## Sonido (`scripts/audio.py`)
 
 - Uso: `python scripts/audio.py <sfx_cues.json> <voz.wav> <mezcla.wav> [frases.json]` (sin el cuarto argumento usa `voz/frases.json` y, si no existe, `voz/frases_est.json`). Busca los efectos de interfaz de HyperFrames en `~/.claude/skills/...` o en la caché de `npx`.
