@@ -1,0 +1,2365 @@
+{
+ "slug": "whitechapel-1888",
+ "titulo": "un policía de Whitechapel",
+ "lugar": "Whitechapel, Londres",
+ "epoca": "Octubre y noviembre de 1888",
+ "categoria": "profesion",
+ "drama": 0.65,
+ "velocidad": 1.15,
+ "musica": "misterio",
+ "paleta": {
+  "acento": "#f2b24a",
+  "texto": "#efe9df",
+  "fondo": "#121620",
+  "papel": "#e9e0cc"
+ },
+ "grafias": {
+  "Yak": "Jack",
+  "Tómas": "Thomas",
+  "Áshbi": "Ashby",
+  "Uáitchapel": "Whitechapel",
+  "Comérshal": "Commercial",
+  "Strit": "Street",
+  "Yorch": "George",
+  "Táims": "Times",
+  "Charls": "Charles",
+  "Uórren": "Warren",
+  "Ríyents": "Regent's",
+  "Bárnabi": "Barnaby",
+  "Bérgou": "Burgho",
+  "Elísabet": "Elizabeth",
+  "Stráid": "Stride",
+  "Fláuer": "Flower",
+  "Din": "Dean",
+  "Élen": "Ellen",
+  "Bels": "Bells",
+  "Cráist": "Christ",
+  "Chorch": "Church",
+  "Dórset": "Dorset",
+  "Mílers": "Miller's",
+  "Cort": "Court",
+  "Yósef": "Joseph",
+  "Bárnet": "Barnett",
+  "Méri": "Mary",
+  "Yéin": "Jane",
+  "Kéli": "Kelly",
+  "Gai": "Guy",
+  "Foks": "Fawkes",
+  "Siti": "City",
+  "Méyor": "Mayor",
+  "Bóier": "Bowyer",
+  "Frédrik": "Frederick",
+  "Ábberlain": "Abberline",
+  "Escótland": "Scotland",
+  "Iard": "Yard",
+  "Yon": "John",
+  "Macárti": "McCarthy",
+  "Jénri": "Henry",
+  "Mátius": "Matthews",
+  "Shórdich": "Shoreditch",
+  "Uílton": "Wilton",
+  "Léitonstoun": "Leytonstone",
+  "An": "Ann",
+  "Níkols": "Nichols",
+  "Áni": "Annie",
+  "Chápman": "Chapman",
+  "Cátrin": "Catherine",
+  "Édous": "Eddowes"
+ },
+ "reparto": {
+  "ashby": {
+   "piel": "#e8bfa0",
+   "pelo": "#4a3324",
+   "peinado": "corto",
+   "barba": "bigote",
+   "ropa": {
+    "tipo": "uniforme",
+    "color": "#1b2233",
+    "color2": "#1a1f2c",
+    "detalle": "#c9ccd1"
+   },
+   "sombrero": "casco",
+   "colorSombrero": "#161b26",
+   "gafas": false,
+   "altura": 1,
+   "zapatos": "#111111"
+  },
+  "sargento": {
+   "piel": "#e2b594",
+   "pelo": "#8a8178",
+   "peinado": "corto",
+   "barba": "corta",
+   "ropa": {
+    "tipo": "uniforme",
+    "color": "#1b2233",
+    "color2": "#1a1f2c",
+    "detalle": "#e8e8e8"
+   },
+   "sombrero": "casco",
+   "colorSombrero": "#161b26",
+   "gafas": false,
+   "altura": 1.02,
+   "zapatos": "#111111"
+  },
+  "ellen": {
+   "piel": "#efcdb2",
+   "pelo": "#5a3a26",
+   "peinado": "mono",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "vestido",
+    "color": "#4a5568",
+    "color2": "#3e4757",
+    "detalle": "#e6dfd0"
+   },
+   "sombrero": "ninguno",
+   "gafas": false,
+   "altura": 0.95,
+   "zapatos": "#2a2220",
+   "voz": "narradora-es"
+  },
+  "encargada": {
+   "piel": "#e6bfa2",
+   "pelo": "#7a6a5c",
+   "peinado": "mono",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "vestido",
+    "color": "#3d3530",
+    "color2": "#352d28",
+    "detalle": "#d8cfbd"
+   },
+   "sombrero": "panuelo",
+   "colorSombrero": "#6b4a32",
+   "gafas": false,
+   "altura": 0.95,
+   "zapatos": "#221c18",
+   "voz": "narradora-es"
+  },
+  "mujer": {
+   "piel": "#edc6a8",
+   "pelo": "#3a2a20",
+   "peinado": "mono",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "vestido",
+    "color": "#5a2e2a",
+    "color2": "#4a2622",
+    "detalle": "#d8cfbd"
+   },
+   "sombrero": "panuelo",
+   "colorSombrero": "#6b4a32",
+   "gafas": false,
+   "altura": 0.94,
+   "zapatos": "#221c18",
+   "voz": "narradora-es"
+  },
+  "vigilante": {
+   "piel": "#e4b896",
+   "pelo": "#3a2a1e",
+   "peinado": "corto",
+   "barba": "corta",
+   "ropa": {
+    "tipo": "camisa",
+    "color": "#7a6448",
+    "color2": "#3a332c",
+    "detalle": "#8a3b2e"
+   },
+   "sombrero": "gorra",
+   "colorSombrero": "#4a4a48",
+   "gafas": false,
+   "altura": 1,
+   "zapatos": "#2a2018"
+  },
+  "estibador": {
+   "piel": "#dcae8a",
+   "pelo": "#5a3e28",
+   "peinado": "corto",
+   "barba": "corta",
+   "ropa": {
+    "tipo": "camisa",
+    "color": "#8a7a62",
+    "color2": "#4a4036",
+    "detalle": "#5a4a3a"
+   },
+   "sombrero": "gorra",
+   "colorSombrero": "#3a3a38",
+   "gafas": false,
+   "altura": 1,
+   "zapatos": "#2a2018"
+  },
+  "vendedor": {
+   "piel": "#ecc4a4",
+   "pelo": "#6a4a2e",
+   "peinado": "corto",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "camisa",
+    "color": "#8a7d6a",
+    "color2": "#4a4238",
+    "detalle": "#6a5e50"
+   },
+   "sombrero": "gorra",
+   "colorSombrero": "#3a3a38",
+   "gafas": false,
+   "altura": 0.7,
+   "zapatos": "#2a2018"
+  },
+  "bowyer": {
+   "piel": "#d9a882",
+   "pelo": "#3a2c22",
+   "peinado": "corto",
+   "barba": "bigote",
+   "ropa": {
+    "tipo": "camisa",
+    "color": "#6a5a48",
+    "color2": "#3a3530",
+    "detalle": "#8a3b2e"
+   },
+   "sombrero": "gorra",
+   "colorSombrero": "#4a4a48",
+   "gafas": false,
+   "altura": 1,
+   "zapatos": "#2a2018"
+  },
+  "abberline": {
+   "piel": "#e6bc9c",
+   "pelo": "#5a4a3a",
+   "peinado": "calvo",
+   "barba": "corta",
+   "ropa": {
+    "tipo": "traje",
+    "color": "#2b2a2e",
+    "color2": "#2b2a2e",
+    "detalle": "#7a2a2a"
+   },
+   "sombrero": "ala",
+   "colorSombrero": "#1a1a1a",
+   "gafas": false,
+   "altura": 1,
+   "zapatos": "#111111"
+  }
+ },
+ "largo": {
+  "escenas": [
+   {
+    "corte": true,
+    "texto": "Todo el mundo sabe su apodo: Yak el Destripador. En más de un siglo, nadie ha sabido su nombre. Y yo era agente de ronda en sus calles.",
+    "drama": 0.85,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "noche",
+     "clima": "niebla",
+     "props": [
+      {
+       "tipo": "farola",
+       "x": -0.75
+      },
+      {
+       "tipo": "casa",
+       "x": -1.4
+      },
+      {
+       "tipo": "casa",
+       "x": 1.35
+      },
+      {
+       "tipo": "barril",
+       "x": 0.95
+      },
+      {
+       "tipo": "cajas",
+       "x": 1.15
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.4,
+      "accion": "quieto",
+      "emocion": "miedo",
+      "mirar": -1,
+      "objeto": "🏮"
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "texto": "Me llamo Tómas Áshbi, tengo veintisiete años y soy agente de a pie en Uáitchapel, el barrio más pobre de Londres. Es mil ochocientos ochenta y ocho.",
+    "drama": 0.6,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.3,
+      "accion": "hablar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "objeto": "🏮"
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "texto": "Este es el mes en que alguien fue a cobrar un alquiler atrasado y encontró una puerta que nadie abría. Esa puerta no la vas a ver abierta. Te lo prometo.",
+    "drama": 0.75,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": -0.1,
+      "accion": "caminar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "objeto": "🏮"
+     }
+    ],
+    "camara": "paneo"
+   },
+   {
+    "texto": "Lo que pienso, lo imaginamos. Las fechas, las calles y las personas que nombro son reales. Y todo arranca un sábado de octubre.",
+    "drama": 0.6,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.2,
+      "accion": "pensar",
+      "emocion": "neutral",
+      "mirar": -1
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 1,
+    "capitulo": "La carta del infierno",
+    "corte": true,
+    "texto": "Sábado, veinte de octubre. En Comérshal Strit, los chicos de los periódicos gritan algo que me hiela la sangre.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "clima": "niebla",
+     "props": [
+      {
+       "tipo": "farola",
+       "x": -1.0
+      },
+      {
+       "tipo": "puesto",
+       "x": 0.95
+      },
+      {
+       "tipo": "carro",
+       "x": -1.45
+      },
+      {
+       "tipo": "casa",
+       "x": 1.45
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": -0.35,
+      "accion": "caminar",
+      "emocion": "sorpresa",
+      "mirar": 1,
+      "entra": "izq"
+     },
+     {
+      "quien": "vendedor",
+      "x": 0.45,
+      "accion": "hablar",
+      "emocion": "sorpresa",
+      "mirar": -1,
+      "habla": false,
+      "objeto": "📰"
+     }
+    ],
+    "camara": "paneo",
+    "insercion": {
+     "tipo": "mapa",
+     "lugar": "Whitechapel, Londres",
+     "detalle": "East End · División H de la Policía Metropolitana · octubre de 1888",
+     "icono": "📍"
+    }
+   },
+   {
+    "dia": 1,
+    "texto": "Un hombre del barrio, Yorch Lusk, que dirige un comité de vigilancia, abrió un paquete que le llegó por correo. Dentro había una carta que arrancaba así: «Desde el infierno».",
+    "drama": 0.75,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": -0.3,
+      "accion": "quieto",
+      "emocion": "miedo",
+      "mirar": 1
+     },
+     {
+      "quien": "vendedor",
+      "x": 0.45,
+      "accion": "senalar",
+      "emocion": "sorpresa",
+      "mirar": -1,
+      "habla": false,
+      "objeto": "📰"
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 1,
+    "texto": "Junto a la carta venía algo que no te voy a describir. Un médico del hospital de Londres lo examinó. Nadie ha probado nunca que lo mandara el asesino.",
+    "drama": 0.7,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.0,
+      "accion": "pensar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "objeto": "📰"
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 1,
+    "texto": "Ese mismo día, el Táims da por terminado el registro casa por casa de todo el barrio. Resultado: nada de valor. Y el asesino sigue ahí fuera, entre nosotros.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "dia",
+     "pared": "ladrillo",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "estanteria",
+       "x": -1.2
+      },
+      {
+       "tipo": "reloj",
+       "x": -0.55
+      },
+      {
+       "tipo": "mesa",
+       "x": 0.85
+      },
+      {
+       "tipo": "chimenea",
+       "x": 1.4
+      },
+      {
+       "tipo": "📓",
+       "x": 0.85,
+       "escala": 0.25
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.35,
+      "accion": "escribir",
+      "emocion": "cansado",
+      "mirar": 1
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 3,
+    "corte": true,
+    "texto": "Mi ronda dura un cuarto de hora. Y en un cuarto de hora, en este barrio, puede pasar cualquier cosa.",
+    "drama": 0.75,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "noche",
+     "clima": "niebla",
+     "props": [
+      {
+       "tipo": "farola",
+       "x": 0.85
+      },
+      {
+       "tipo": "casa",
+       "x": -1.3
+      },
+      {
+       "tipo": "cajas",
+       "x": -0.75
+      },
+      {
+       "tipo": "carro",
+       "x": 1.4
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": -0.3,
+      "accion": "caminar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "objeto": "🏮"
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 3,
+    "texto": "Es lunes. Entro de noche y salgo a las seis de la mañana. Paso lento, siempre el mismo camino, con farol, porra y un silbato que se oye a una milla.",
+    "drama": 0.6,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.2,
+      "accion": "caminar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "objeto": "🏮"
+     }
+    ],
+    "camara": "paneo",
+    "insercion": {
+     "tipo": "objetos",
+     "titulo": "Mi equipo de ronda",
+     "items": [
+      {
+       "icono": "🏮",
+       "nombre": "Farol «bull's-eye» de aceite"
+      },
+      {
+       "icono": "⭐",
+       "nombre": "Estrella de Brunswick en el casco"
+      },
+      {
+       "icono": "🪵",
+       "nombre": "Porra de madera"
+      },
+      {
+       "icono": "📓",
+       "nombre": "Silbato y libreta (el silbato llegó en 1884)"
+      }
+     ]
+    }
+   },
+   {
+    "dia": 3,
+    "texto": "Dicen que, a primeros de mes, el comisionado Charls Uórren se prestó a ser la presa de dos sabuesos en Ríyents Park. Querían que los perros olieran al asesino.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "amanecer",
+     "clima": "niebla",
+     "props": [
+      {
+       "tipo": "arbol",
+       "x": -1.3
+      },
+      {
+       "tipo": "arbol",
+       "x": 1.35
+      },
+      {
+       "tipo": "valla",
+       "x": 0.8
+      },
+      {
+       "tipo": "🐕",
+       "x": -0.85,
+       "escala": 1.6
+      },
+      {
+       "tipo": "🐕",
+       "x": -0.45,
+       "escala": 1.6
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.45,
+      "accion": "pensar",
+      "emocion": "neutral",
+      "mirar": -1
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 3,
+    "texto": "Los perros, Bárnabi y Bérgou, siguieron un rastro casi una milla. Pero en mi barrio no hay hierba ni escarcha. Solo adoquines, humo y gente.",
+    "drama": 0.6,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.4,
+      "accion": "quieto",
+      "emocion": "cansado",
+      "mirar": -1
+     }
+    ],
+    "camara": "paneo"
+   },
+   {
+    "dia": 4,
+    "corte": true,
+    "texto": "Hay una palabra que en mi comisaría ya no soportamos: desconocidas. El martes, el jurado de Elísabet Stráid da su veredicto. Persona o personas desconocidas.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "dia",
+     "pared": "ladrillo",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "estanteria",
+       "x": -1.2
+      },
+      {
+       "tipo": "reloj",
+       "x": -0.55
+      },
+      {
+       "tipo": "mesa",
+       "x": 0.85
+      },
+      {
+       "tipo": "chimenea",
+       "x": 1.4
+      },
+      {
+       "tipo": "📓",
+       "x": 0.85,
+       "escala": 0.25
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.1,
+      "accion": "quieto",
+      "emocion": "enfado",
+      "mirar": 1,
+      "objeto": "📰"
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 4,
+    "texto": "Sabemos dónde y sabemos cuándo. Nunca sabemos quién. Y el barrio ya nos mira como si no sirviéramos para nada.",
+    "drama": 0.65,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": -0.2,
+      "accion": "triste",
+      "emocion": "triste",
+      "mirar": 1
+     },
+     {
+      "quien": "sargento",
+      "x": 0.55,
+      "accion": "quieto",
+      "emocion": "cansado",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 5,
+    "texto": "Miércoles. Acompaño al sargento a revisar una casa de dormir en Fláuer and Din Strit. Abajo hay una cocina común, con bancos largos y un fuego de carbón.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "ladrillo",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "chimenea",
+       "x": -1.05
+      },
+      {
+       "tipo": "mesa",
+       "x": 0.75
+      },
+      {
+       "tipo": "barril",
+       "x": 1.35
+      },
+      {
+       "tipo": "cajas",
+       "x": -1.5
+      },
+      {
+       "tipo": "🫖",
+       "x": 0.75,
+       "escala": 0.3
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": -0.45,
+      "accion": "caminar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "entra": "izq"
+     },
+     {
+      "quien": "sargento",
+      "x": -0.05,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "encargada",
+      "x": 0.5,
+      "accion": "hablar",
+      "emocion": "cansado",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "general",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "4 peniques",
+     "etiqueta": "una cama para una noche en una casa de dormir (8 la doble). Sin ellos, a la calle",
+     "icono": "🪙"
+    }
+   },
+   {
+    "dia": 5,
+    "texto": "La encargada cobra en la puerta. Cuatro peniques la cama sola, ocho la doble. Quien no los tiene vuelve a la calle, llueva o hiele.",
+    "drama": 0.65,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": -0.4,
+      "accion": "quieto",
+      "emocion": "triste",
+      "mirar": 1
+     },
+     {
+      "quien": "encargada",
+      "x": 0.4,
+      "accion": "hablar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false,
+      "objeto": "🪙"
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 5,
+    "corte": true,
+    "texto": "Doscientas treinta y tres casas de dormir. Unas ocho mil quinientas personas. Es lo que calcula la propia División en nuestro distrito. Y yo, solo, con mi farol.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "noche",
+     "clima": "niebla",
+     "props": [
+      {
+       "tipo": "farola",
+       "x": -0.75
+      },
+      {
+       "tipo": "casa",
+       "x": -1.4
+      },
+      {
+       "tipo": "casa",
+       "x": 1.35
+      },
+      {
+       "tipo": "barril",
+       "x": 0.95
+      },
+      {
+       "tipo": "cajas",
+       "x": 1.15
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.0,
+      "accion": "pensar",
+      "emocion": "cansado",
+      "mirar": 1,
+      "objeto": "🏮"
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 6,
+    "texto": "Jueves de madrugada. Me topo con una patrulla del comité de vigilancia: hombres del barrio con bastón y silbato. Ellos me miran mal. Yo a ellos, también.",
+    "drama": 0.6,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": -0.45,
+      "accion": "caminar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "objeto": "🏮"
+     },
+     {
+      "quien": "vigilante",
+      "x": 0.45,
+      "accion": "quieto",
+      "emocion": "enfado",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 7,
+    "texto": "Viernes, día de paga: unos veinticinco chelines a la semana. En casa, Élen los reparte en montones sobre la mesa. Alquiler, carbón y pan.",
+    "drama": 0.5,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "papel",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "chimenea",
+       "x": -1.15
+      },
+      {
+       "tipo": "reloj",
+       "x": -0.5
+      },
+      {
+       "tipo": "mesa",
+       "x": 0.65
+      },
+      {
+       "tipo": "cama",
+       "x": 1.4
+      },
+      {
+       "tipo": "🕯️",
+       "x": 0.65,
+       "escala": 0.25
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": -0.4,
+      "accion": "sentado",
+      "emocion": "cansado",
+      "mirar": 1
+     },
+     {
+      "quien": "ellen",
+      "x": 0.35,
+      "accion": "trabajar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false,
+      "objeto": "🪙"
+     }
+    ],
+    "camara": "cerca",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "≈ 25 chelines",
+     "etiqueta": "a la semana: la paga aproximada de un agente de a pie en 1888 (entre 24 y 30 según la antigüedad)",
+     "icono": "🪙"
+    }
+   },
+   {
+    "dia": 7,
+    "texto": "Ella no me pregunta por los crímenes. Solo me pide una cosa cada noche, antes de salir: que vuelva a casa. Y yo siempre le digo que sí.",
+    "drama": 0.5,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": -0.3,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": 1
+     },
+     {
+      "quien": "ellen",
+      "x": 0.3,
+      "accion": "quieto",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 8,
+    "capitulo": "Niebla y vigilantes",
+    "corte": true,
+    "texto": "Sábado de paga, sábado de ginebra. A la salida del Ten Bels, dos estibadores se pegan por dos peniques. Me llevo a uno a rastras hasta la comisaría.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "madera",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "barril",
+       "x": -1.25
+      },
+      {
+       "tipo": "barril",
+       "x": -0.85
+      },
+      {
+       "tipo": "reloj",
+       "x": 0.1
+      },
+      {
+       "tipo": "mesa",
+       "x": 0.75
+      },
+      {
+       "tipo": "estanteria",
+       "x": 1.4
+      },
+      {
+       "tipo": "🍺",
+       "x": 0.75,
+       "escala": 0.25
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": -0.35,
+      "accion": "cargar",
+      "emocion": "enfado",
+      "mirar": 1
+     },
+     {
+      "quien": "estibador",
+      "x": 0.4,
+      "accion": "tambalear",
+      "emocion": "enfado",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 8,
+    "texto": "En la puerta, el sargento me mira y me suelta, por lo bajo, que todos estamos esperando al siguiente.",
+    "drama": 0.65,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": -0.35,
+      "accion": "quieto",
+      "emocion": "miedo",
+      "mirar": 1
+     },
+     {
+      "quien": "sargento",
+      "x": 0.4,
+      "accion": "hablar",
+      "emocion": "cansado",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 9,
+    "texto": "Domingo. Las campanas de Cráist Chorch suenan sobre el barrio. Y los periódicos de medio penique publican otra carta firmada por el asesino. Falsa, como casi todas.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "⛪",
+       "x": -1.25,
+       "escala": 1.8,
+       "detras": true
+      },
+      {
+       "tipo": "farola",
+       "x": 0.8
+      },
+      {
+       "tipo": "casa",
+       "x": 1.45
+      },
+      {
+       "tipo": "puesto",
+       "x": -0.55
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.3,
+      "accion": "caminar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "objeto": "📰"
+     }
+    ],
+    "camara": "paneo"
+   },
+   {
+    "dia": 9,
+    "texto": "A la policía le llegan cientos. Las escriben bromistas, borrachos y gente con ganas de asustar. Cada carta es una noche de trabajo perdida.",
+    "drama": 0.6,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.35,
+      "accion": "quieto",
+      "emocion": "enfado",
+      "mirar": -1,
+      "objeto": "✉️"
+     }
+    ],
+    "camara": "cerca",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "Cientos",
+     "etiqueta": "de cartas firmadas «Jack» llegaron a la policía y a la prensa en 1888",
+     "icono": "✉️"
+    }
+   },
+   {
+    "dia": 10,
+    "corte": true,
+    "texto": "Lunes, y llega la niebla amarilla. Con el farol en alto, no veo más allá de un par de metros. Oigo pasos. No sé de quién.",
+    "drama": 0.75,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "noche",
+     "clima": "niebla",
+     "props": [
+      {
+       "tipo": "farola",
+       "x": 0.85
+      },
+      {
+       "tipo": "casa",
+       "x": -1.3
+      },
+      {
+       "tipo": "cajas",
+       "x": -0.75
+      },
+      {
+       "tipo": "carro",
+       "x": 1.4
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.1,
+      "accion": "asustado",
+      "emocion": "miedo",
+      "mirar": -1,
+      "objeto": "🏮"
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 10,
+    "texto": "Le llaman sopa de guisantes: es el humo de miles de chimeneas de carbón. En esta niebla, un hombre puede pasar a mi lado y esfumarse.",
+    "drama": 0.7,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": -0.2,
+      "accion": "caminar",
+      "emocion": "miedo",
+      "mirar": 1,
+      "objeto": "🏮"
+     }
+    ],
+    "camara": "paneo"
+   },
+   {
+    "dia": 11,
+    "texto": "Martes. Imagino que esa noche paso por Dórset Strit y oigo gritos en un patio, Mílers Cort. Un hombre y una mujer discuten. Se rompe un cristal.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "noche",
+     "clima": "niebla",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.35
+      },
+      {
+       "tipo": "valla",
+       "x": -0.75
+      },
+      {
+       "tipo": "farola",
+       "x": 0.05
+      },
+      {
+       "tipo": "casa",
+       "x": 1.35
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.4,
+      "accion": "quieto",
+      "emocion": "sorpresa",
+      "mirar": -1,
+      "objeto": "🏮"
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 11,
+    "texto": "Él se llamaba Yósef Bárnet. Ella, Méri Yéin Kéli. Esa noche él se fue a vivir a otro sitio, y ella se quedó sola en el número trece.",
+    "drama": 0.65,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.35,
+      "accion": "pensar",
+      "emocion": "triste",
+      "mirar": -1
+     }
+    ],
+    "camara": "lenta",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "4 s 6 d",
+     "etiqueta": "a la semana: el alquiler de la habitación 13 de Miller's Court",
+     "icono": "🗝️"
+    }
+   },
+   {
+    "dia": 12,
+    "corte": true,
+    "texto": "En mi ronda hay una joven que canta de madrugada. Su canto sale por una ventana rota de Dórset Strit. Nunca le vi la cara, pero imagino que era ella.",
+    "drama": 0.55,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.3,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": -1,
+      "objeto": "🏮"
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 13,
+    "texto": "Jueves, primero de noviembre. Una revista publica un artículo del comisionado Uórren sobre la policía. Lo escribió sin pedir permiso al ministerio. En comisaría no se habla de otra cosa.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "dia",
+     "pared": "ladrillo",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "estanteria",
+       "x": -1.2
+      },
+      {
+       "tipo": "reloj",
+       "x": -0.55
+      },
+      {
+       "tipo": "mesa",
+       "x": 0.85
+      },
+      {
+       "tipo": "chimenea",
+       "x": 1.4
+      },
+      {
+       "tipo": "📓",
+       "x": 0.85,
+       "escala": 0.25
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.4,
+      "accion": "quieto",
+      "emocion": "sorpresa",
+      "mirar": -1,
+      "objeto": "📰"
+     },
+     {
+      "quien": "sargento",
+      "x": -0.4,
+      "accion": "hablar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 14,
+    "texto": "Viernes, dos de noviembre. Más de un mes sin muertes. La gente vuelve a reír en las tabernas y los vigilantes salen menos. Yo no me fío, y nadie que haga mi ronda se fía. Faltan siete días.",
+    "drama": 0.65,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.3,
+      "accion": "pensar",
+      "emocion": "neutral",
+      "mirar": -1
+     },
+     {
+      "quien": "sargento",
+      "x": -0.4,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 15,
+    "capitulo": "La mañana del Lord Mayor",
+    "corte": true,
+    "texto": "Sábado, tres de noviembre. Me toca ronda de día. Tranvías de caballos, carros, el gran hospital de Londres. De día, este barrio es otro.",
+    "drama": 0.55,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "carro",
+       "x": -0.95
+      },
+      {
+       "tipo": "casa",
+       "x": 1.35
+      },
+      {
+       "tipo": "farola",
+       "x": 0.75
+      },
+      {
+       "tipo": "🐎",
+       "x": -1.4,
+       "escala": 1.6
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.35,
+      "accion": "caminar",
+      "emocion": "feliz",
+      "mirar": -1
+     }
+    ],
+    "camara": "paneo"
+   },
+   {
+    "dia": 17,
+    "texto": "Lunes, noche de Gai Foks. Hogueras en cada esquina, petardos y muñecos de trapo ardiendo. Los niños piden un penique para el muñeco.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "noche",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "hoguera",
+       "x": -0.5
+      },
+      {
+       "tipo": "farola",
+       "x": 1.0
+      },
+      {
+       "tipo": "casa",
+       "x": -1.4
+      },
+      {
+       "tipo": "casa",
+       "x": 1.45
+      },
+      {
+       "tipo": "🎆",
+       "x": 0.3,
+       "escala": 0.8,
+       "detras": true
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.45,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": -1
+     },
+     {
+      "quien": "vendedor",
+      "x": -0.05,
+      "accion": "celebrar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "general",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "5 nov",
+     "etiqueta": "noche de Guy Fawkes: hogueras en la calle y niños pidiendo «un penique para el Guy»",
+     "icono": "🎆"
+    }
+   },
+   {
+    "dia": 17,
+    "texto": "Pero cada petardo suena como un grito. Esa noche corro detrás de seis ruidos. Seis falsas alarmas. A la última, ya no siento las piernas.",
+    "drama": 0.7,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.3,
+      "accion": "correr",
+      "emocion": "miedo",
+      "mirar": -1
+     }
+    ],
+    "camara": "paneo"
+   },
+   {
+    "dia": 19,
+    "texto": "Miércoles. En comisaría se comenta que el viernes muchos agentes irán a la Siti, al desfile del nuevo alcalde, el Lord Méyor. Aquí quedaremos menos.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "ladrillo",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "estanteria",
+       "x": 1.25
+      },
+      {
+       "tipo": "reloj",
+       "x": 0.6
+      },
+      {
+       "tipo": "mesa",
+       "x": -0.9
+      },
+      {
+       "tipo": "chimenea",
+       "x": -1.45
+      },
+      {
+       "tipo": "🕯️",
+       "x": -0.9,
+       "escala": 0.25
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.35,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": -1
+     },
+     {
+      "quien": "sargento",
+      "x": -0.4,
+      "accion": "hablar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 20,
+    "corte": true,
+    "texto": "Nuestro comisionado dimitió la víspera del peor día de aquel otoño. Y nadie en la calle lo sabía.",
+    "drama": 0.75,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "noche",
+     "clima": "niebla",
+     "props": [
+      {
+       "tipo": "farola",
+       "x": 0.85
+      },
+      {
+       "tipo": "casa",
+       "x": -1.3
+      },
+      {
+       "tipo": "cajas",
+       "x": -0.75
+      },
+      {
+       "tipo": "carro",
+       "x": 1.4
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.2,
+      "accion": "caminar",
+      "emocion": "cansado",
+      "mirar": -1,
+      "objeto": "🏮"
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 20,
+    "texto": "Jueves, ocho de noviembre. El ministerio reprende por carta al comisionado Uórren por su artículo, y él presenta la dimisión. Yo hago mi ronda bajo la lluvia, sin saber nada.",
+    "drama": 0.65,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": -0.1,
+      "accion": "caminar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "objeto": "🏮"
+     }
+    ],
+    "camara": "paneo"
+   },
+   {
+    "dia": 21,
+    "texto": "Viernes, nueve de noviembre. Llueve toda la mañana. A media mañana, el casero de Mílers Cort manda a su ayudante a cobrar un alquiler atrasado.",
+    "drama": 0.8,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "clima": "lluvia",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.4
+      },
+      {
+       "tipo": "farola",
+       "x": -0.95
+      },
+      {
+       "tipo": "valla",
+       "x": -0.35
+      },
+      {
+       "tipo": "carro",
+       "x": 1.05
+      },
+      {
+       "tipo": "casa",
+       "x": 1.45
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.4,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": -1
+     },
+     {
+      "quien": "bowyer",
+      "x": -0.4,
+      "accion": "caminar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 21,
+    "texto": "Veintinueve chelines, unas seis semanas sin pagar. El ayudante se llama Tómas Bóier. Llama a la puerta del número trece. Nadie le contesta.",
+    "drama": 0.8,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.45,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": -1
+     },
+     {
+      "quien": "bowyer",
+      "x": -0.35,
+      "accion": "quieto",
+      "emocion": "sorpresa",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "29 chelines",
+     "etiqueta": "de alquiler atrasado: por eso, aquella mañana, alguien fue a llamar a su puerta",
+     "icono": "🗝️"
+    }
+   },
+   {
+    "dia": 21,
+    "corte": true,
+    "texto": "Un hombre entra corriendo en mi comisaría, blanco como la pared. Es Tómas Bóier. Ha mirado por la ventana rota del número trece.",
+    "drama": 0.85,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "dia",
+     "pared": "ladrillo",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "estanteria",
+       "x": -1.2
+      },
+      {
+       "tipo": "reloj",
+       "x": -0.55
+      },
+      {
+       "tipo": "mesa",
+       "x": 0.85
+      },
+      {
+       "tipo": "chimenea",
+       "x": 1.4
+      },
+      {
+       "tipo": "📓",
+       "x": 0.85,
+       "escala": 0.25
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.45,
+      "accion": "quieto",
+      "emocion": "sorpresa",
+      "mirar": -1
+     },
+     {
+      "quien": "bowyer",
+      "x": -0.3,
+      "accion": "correr",
+      "emocion": "miedo",
+      "mirar": 1,
+      "habla": false,
+      "entra": "izq"
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 21,
+    "texto": "Lo que vio no te lo voy a contar. Nadie debería contarlo. Solo te diré que el inspector de guardia agarra el casco y sale sin una palabra.",
+    "drama": 0.8,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.4,
+      "accion": "asustado",
+      "emocion": "miedo",
+      "mirar": -1
+     },
+     {
+      "quien": "bowyer",
+      "x": -0.35,
+      "accion": "triste",
+      "emocion": "miedo",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 21,
+    "texto": "En pocos minutos cortamos Dórset Strit y la entrada del patio con una cuerda. Mi sitio está ahí, de espaldas a la puerta, mirando a la gente.",
+    "drama": 0.8,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "clima": "lluvia",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.4
+      },
+      {
+       "tipo": "farola",
+       "x": -0.95
+      },
+      {
+       "tipo": "valla",
+       "x": -0.35
+      },
+      {
+       "tipo": "carro",
+       "x": 1.05
+      },
+      {
+       "tipo": "casa",
+       "x": 1.45
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.3,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": -1
+     },
+     {
+      "quien": "mujer",
+      "x": -0.65,
+      "accion": "asustado",
+      "emocion": "miedo",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "estibador",
+      "x": 1.0,
+      "accion": "quieto",
+      "emocion": "miedo",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 21,
+    "texto": "Casi a mediodía llega el inspector Frédrik Ábberlain, de Escótland Iard. Le aconsejan esperar a los sabuesos. Esperamos. Los perros nunca llegan.",
+    "drama": 0.75,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.3,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": -1
+     },
+     {
+      "quien": "abberline",
+      "x": -0.5,
+      "accion": "caminar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false,
+      "entra": "izq"
+     }
+    ],
+    "camara": "paneo"
+   },
+   {
+    "dia": 21,
+    "corte": true,
+    "texto": "Mientras tanto, al otro lado de Londres, la Siti aplaude al nuevo Lord Méyor. Y entre el público, los chicos de los periódicos ya gritan lo de Uáitchapel.",
+    "drama": 0.75,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.3,
+      "accion": "quieto",
+      "emocion": "triste",
+      "mirar": -1
+     },
+     {
+      "quien": "vendedor",
+      "x": -0.5,
+      "accion": "correr",
+      "emocion": "sorpresa",
+      "mirar": 1,
+      "habla": false,
+      "objeto": "📰"
+     }
+    ],
+    "camara": "general",
+    "insercion": {
+     "tipo": "cita",
+     "frase": "Mientras la City celebraba el desfile del nuevo Lord Mayor, los vendedores de periódicos voceaban la noticia entre el público.",
+     "firma": "Viernes, 9 de noviembre de 1888"
+    }
+   },
+   {
+    "dia": 21,
+    "texto": "A la una y media, el inspector da la orden. El casero, Yon Macárti, revienta la puerta con un pico. Yo no me doy la vuelta.",
+    "drama": 0.85,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.35,
+      "accion": "quieto",
+      "emocion": "miedo",
+      "mirar": -1
+     },
+     {
+      "quien": "abberline",
+      "x": -0.55,
+      "accion": "senalar",
+      "emocion": "enfado",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 21,
+    "texto": "Oigo el golpe en la madera, detrás de mí. Y luego, un silencio que no he vuelto a oír jamás, ni en la niebla ni en ningún sitio.",
+    "drama": 0.85,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.3,
+      "accion": "triste",
+      "emocion": "miedo",
+      "mirar": -1
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 21,
+    "texto": "Esa noche, en mi ronda, la farola de Dórset Strit sigue ardiendo. Me paro debajo. Y, como nunca antes, me tiemblan las manos.",
+    "drama": 0.8,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "noche",
+     "clima": "niebla",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.35
+      },
+      {
+       "tipo": "valla",
+       "x": -0.75
+      },
+      {
+       "tipo": "farola",
+       "x": 0.05
+      },
+      {
+       "tipo": "casa",
+       "x": 1.35
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.35,
+      "accion": "triste",
+      "emocion": "triste",
+      "mirar": -1,
+      "objeto": "🏮"
+     }
+    ],
+    "camara": "subir"
+   },
+   {
+    "dia": 22,
+    "capitulo": "Lo que nunca supimos",
+    "corte": true,
+    "texto": "Sábado. Todo Londres se entera de que el comisionado ha dimitido. Y el ministro, Jénri Mátius, promete el perdón a cualquier cómplice que hable. Al asesino, no.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "clima": "niebla",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.4
+      },
+      {
+       "tipo": "farola",
+       "x": -0.95
+      },
+      {
+       "tipo": "carro",
+       "x": 1.05
+      },
+      {
+       "tipo": "casa",
+       "x": 1.45
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.35,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": -1,
+      "objeto": "📰"
+     },
+     {
+      "quien": "vendedor",
+      "x": -0.45,
+      "accion": "hablar",
+      "emocion": "sorpresa",
+      "mirar": 1,
+      "habla": false,
+      "objeto": "📰"
+     }
+    ],
+    "camara": "paneo",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "10 nov",
+     "etiqueta": "se anuncia la dimisión de sir Charles Warren; el ministro Henry Matthews ofrece el perdón a cualquier cómplice que hable",
+     "icono": "📜"
+    }
+   },
+   {
+    "dia": 23,
+    "texto": "Domingo. Dórset Strit se llena de curiosos. Las mujeres del patio hablan de Méri Yéin, la que cantaba de noche. Joven, irlandesa o galesa, según quién lo cuente.",
+    "drama": 0.6,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.4,
+      "accion": "quieto",
+      "emocion": "triste",
+      "mirar": -1
+     },
+     {
+      "quien": "mujer",
+      "x": -0.4,
+      "accion": "hablar",
+      "emocion": "triste",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 23,
+    "texto": "Ahora lo entiendo. El canto que yo oía en mi ronda, de madrugada. Imagino que era la suya. Y ya nunca más la voy a escuchar.",
+    "drama": 0.55,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.3,
+      "accion": "triste",
+      "emocion": "triste",
+      "mirar": -1
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 24,
+    "texto": "Lunes. La vista del forense dura un solo día, en el ayuntamiento de Shórdich. Veredicto: asesinato por persona o personas desconocidas. Esa palabra, de nuevo.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "dia",
+     "pared": "madera",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "reloj",
+       "x": -1.0
+      },
+      {
+       "tipo": "mesa",
+       "x": 0.0
+      },
+      {
+       "tipo": "estanteria",
+       "x": 1.3
+      },
+      {
+       "tipo": "📜",
+       "x": 0.0,
+       "escala": 0.25
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.45,
+      "accion": "quieto",
+      "emocion": "enfado",
+      "mirar": -1
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 25,
+    "corte": true,
+    "texto": "Cuando el miedo no tiene nombre, la gente se inventa uno. Muchos inocentes, sobre todo inmigrantes judíos, sufren sospechas sin motivo. Todos los detenidos acaban libres.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "noche",
+     "clima": "niebla",
+     "props": [
+      {
+       "tipo": "farola",
+       "x": -0.75
+      },
+      {
+       "tipo": "casa",
+       "x": -1.4
+      },
+      {
+       "tipo": "casa",
+       "x": 1.35
+      },
+      {
+       "tipo": "barril",
+       "x": 0.95
+      },
+      {
+       "tipo": "cajas",
+       "x": 1.15
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.3,
+      "accion": "quieto",
+      "emocion": "triste",
+      "mirar": -1,
+      "objeto": "🏮"
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 25,
+    "texto": "La policía tuvo sospechosos, pero nunca acusó a nadie. Y si alguien te cuenta hoy que sabe quién fue, no le creas.",
+    "drama": 0.7,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.0,
+      "accion": "hablar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "objeto": "🏮"
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 28,
+    "texto": "Viernes. Llego a casa con cansancio y vergüenza. Miles de preguntas, sin huellas, sin fotografías, con un farol de aceite. Y no ha bastado.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "papel",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "chimenea",
+       "x": -1.15
+      },
+      {
+       "tipo": "reloj",
+       "x": -0.5
+      },
+      {
+       "tipo": "mesa",
+       "x": 0.65
+      },
+      {
+       "tipo": "cama",
+       "x": 1.4
+      },
+      {
+       "tipo": "🕯️",
+       "x": 0.65,
+       "escala": 0.25
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": -0.35,
+      "accion": "sentado",
+      "emocion": "cansado",
+      "mirar": 1
+     },
+     {
+      "quien": "ellen",
+      "x": 0.35,
+      "accion": "quieto",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "1901",
+     "etiqueta": "año en que la policía británica empezó a usar las huellas dactilares",
+     "icono": "🔍"
+    }
+   },
+   {
+    "dia": 30,
+    "texto": "Domingo. Nos enteramos de que el sacristán de Shórdich, Jénri Uílton, pagará el entierro de su bolsillo. Lleva medio siglo en esa iglesia.",
+    "drama": 0.55,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": -0.35,
+      "accion": "sentado",
+      "emocion": "triste",
+      "mirar": 1,
+      "objeto": "📰"
+     },
+     {
+      "quien": "ellen",
+      "x": 0.35,
+      "accion": "quieto",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "corte": true,
+    "texto": "El lunes entierran a Méri Yéin Kéli. Dicen que nadie de su familia está allí. Pero miles de desconocidos llenan las calles durante seis millas, hasta Léitonstoun.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "dia",
+     "clima": "niebla",
+     "props": [
+      {
+       "tipo": "tumba",
+       "x": -1.05
+      },
+      {
+       "tipo": "tumba",
+       "x": -0.65
+      },
+      {
+       "tipo": "valla",
+       "x": 0.85
+      },
+      {
+       "tipo": "arbol",
+       "x": 1.35
+      },
+      {
+       "tipo": "🌹",
+       "x": -0.85,
+       "escala": 0.3
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.35,
+      "accion": "quieto",
+      "emocion": "triste",
+      "mirar": -1
+     },
+     {
+      "quien": "ellen",
+      "x": 0.8,
+      "accion": "quieto",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "mujer",
+      "x": -0.4,
+      "accion": "triste",
+      "emocion": "triste",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "texto": "El agente Tómas Áshbi no existió, pero hombres como él patrullaron estas calles. Las fechas, los lugares y las personas son reales. Nunca se supo quién fue.",
+    "drama": 0.55,
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.3,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": -1,
+      "objeto": "🌹"
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "texto": "Recordamos sus nombres. Méri An Níkols, hija de un herrero. Áni Chápman, que vendía flores. Elísabet Stráid, nacida en Suecia. Cátrin Édous, que volvía del lúpulo. Y Méri Yéin Kéli, que cantaba.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "dia",
+     "clima": "niebla",
+     "props": [
+      {
+       "tipo": "tumba",
+       "x": -1.05
+      },
+      {
+       "tipo": "tumba",
+       "x": -0.65
+      },
+      {
+       "tipo": "valla",
+       "x": 0.85
+      },
+      {
+       "tipo": "arbol",
+       "x": 1.35
+      },
+      {
+       "tipo": "🌹",
+       "x": -0.85,
+       "escala": 0.3
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.3,
+      "accion": "quieto",
+      "emocion": "triste",
+      "mirar": -1,
+      "objeto": "🌹"
+     }
+    ],
+    "camara": "lenta",
+    "insercion": {
+     "tipo": "cita",
+     "frase": "Mary Ann Nichols, hija de un herrero · Annie Chapman, vendía flores · Elizabeth Stride, nacida en Suecia · Catherine Eddowes, volvía del lúpulo · Mary Jane Kelly, cantaba",
+     "firma": "Recordamos sus nombres"
+    }
+   },
+   {
+    "texto": "Y tú, ¿qué crees que falló aquel otoño en Uáitchapel? Cuéntamelo en los comentarios y suscríbete. Quedan muchas noches por contar.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "noche",
+     "clima": "niebla",
+     "props": [
+      {
+       "tipo": "farola",
+       "x": 0.85
+      },
+      {
+       "tipo": "casa",
+       "x": -1.3
+      },
+      {
+       "tipo": "cajas",
+       "x": -0.75
+      },
+      {
+       "tipo": "carro",
+       "x": 1.4
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "ashby",
+      "x": 0.3,
+      "accion": "saludar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "objeto": "🏮"
+     }
+    ],
+    "camara": "general"
+   }
+  ]
+ },
+ "publicacion": {
+  "tituloLargo": "Un mes en la vida de UN POLICÍA DE WHITECHAPEL (1888) | El otoño de Jack el Destripador",
+  "tituloCorto": "Un policía de Whitechapel",
+  "descripcion": "Treinta días en la vida de un agente de ronda de la División H, en Whitechapel y Spitalfields (el East End de Londres), del 20 de octubre al 18 de noviembre de 1888: la carta «From Hell» que recibió George Lusk, los sabuesos Barnaby y Burgho, las casas de dormir a cuatro peniques la cama, la niebla, la noche de Guy Fawkes, el desfile del Lord Mayor y la mañana del 9 de noviembre en Miller's Court, contada desde fuera. Sin escenas gráficas: la puerta nunca se abre en pantalla.\n\n— Semana 1: La carta del infierno\n— Semana 2: Niebla y vigilantes\n— Semana 3: La mañana del Lord Mayor\n— Semana 4: Lo que nunca supimos\n— Epílogo: el entierro de Mary Jane Kelly (19 de noviembre de 1888) y un caso que nunca se cerró\n\nQué es inventado y qué es real: el agente Thomas Ashby y su mujer, Ellen, no existieron, pero hombres como él hicieron estas rondas. Sus pensamientos y su papel en cada escena son imaginados. Las fechas, los lugares y las personas que se nombran son reales. Nunca se supo quién fue el asesino: este vídeo no señala a ningún sospechoso.\n\nRecordamos a Mary Ann Nichols, Annie Chapman, Elizabeth Stride, Catherine Eddowes y Mary Jane Kelly.\n\nAviso: trata un caso real de asesinatos.\n\nFuentes: Hansard (Cámara de los Comunes, 13 y 23 de noviembre de 1888); The National Archives (carta del doctor Thomas Bond, 10 de noviembre de 1888, e informe médico); prensa de 1888 transcrita en Casebook (The Times, Daily Telegraph, Irish Times, Morning Advertiser, St James's Gazette, Walthamstow and Leyton Guardian); The Spectator (10 y 17 de noviembre de 1888); H. Rubenhold, The Five (2019); S. Evans y K. Skinner, The Ultimate Jack the Ripper Sourcebook (2000); P. Sugden, The Complete History of Jack the Ripper (1994).",
+  "etiquetas": [
+   "un mes en la vida de",
+   "Jack el Destripador",
+   "Jack the Ripper",
+   "Whitechapel",
+   "Londres 1888",
+   "true crime",
+   "Mary Jane Kelly",
+   "From Hell",
+   "policía victoriana",
+   "historia",
+   "misterio",
+   "época victoriana"
+  ],
+  "miniatura": {
+   "texto": "LA ÚLTIMA PUERTA",
+   "escena": 41,
+   "quien": "ashby",
+   "emocion": "miedo",
+   "icono": "🚪"
+  },
+  "shorts": [
+   {
+    "titulo": "Nadie sabe quién fue Jack el Destripador",
+    "descripcion": "Otoño de 1888: un agente de ronda en Whitechapel cuenta el mes más oscuro de Londres. Personaje inventado, hechos reales. #shorts #truecrime #historia"
+   },
+   {
+    "titulo": "La carta que empezaba «Desde el infierno»",
+    "descripcion": "20 de octubre de 1888: la prensa cuenta lo del paquete que recibió George Lusk. Nunca se probó que lo mandara el asesino. #shorts #truecrime #jackeldestripador"
+   },
+   {
+    "titulo": "El jefe de policía que hizo de presa para dos sabuesos",
+    "descripcion": "Dicen que Sir Charles Warren se dejó perseguir por Barnaby y Burgho en Regent's Park. Así era una ronda en Whitechapel. #shorts #historia #londres"
+   },
+   {
+    "titulo": "Cuatro peniques: lo que separaba una cama de la calle",
+    "descripcion": "Las casas de dormir de Flower and Dean Street en 1888, y una palabra que la policía ya no soportaba: «desconocidas». #shorts #historia #truecrime"
+   },
+   {
+    "titulo": "233 casas de dormir y un solo agente de ronda",
+    "descripcion": "Whitechapel, octubre de 1888: patrullas de vecinos, paga de policía y una mujer que pide cada noche que vuelvas. #shorts #historia #victoriano"
+   },
+   {
+    "titulo": "Todos esperaban al siguiente",
+    "descripcion": "Sábado de ginebra en el Ten Bells y cientos de cartas falsas firmadas «Jack». #shorts #truecrime #jackeldestripador"
+   },
+   {
+    "titulo": "La niebla que se tragaba a los hombres",
+    "descripcion": "La «sopa de guisantes» de Londres y una discusión en Miller's Court, 30 de octubre de 1888. #shorts #historia #misterio"
+   },
+   {
+    "titulo": "La joven que cantaba en Dorset Street",
+    "descripcion": "Más de un mes sin crímenes. Whitechapel empieza a respirar… demasiado pronto. #shorts #truecrime #historia"
+   },
+   {
+    "titulo": "Noche de Guy Fawkes en el barrio de Jack",
+    "descripcion": "Hogueras, petardos y seis falsas alarmas: noviembre de 1888 en el East End. #shorts #historia #londres"
+   },
+   {
+    "titulo": "29 chelines y una puerta que nadie abría",
+    "descripcion": "9 de noviembre de 1888: alguien va a cobrar un alquiler atrasado a Miller's Court. Sin escenas gráficas. #shorts #truecrime #historia"
+   },
+   {
+    "titulo": "Los sabuesos que nunca llegaron",
+    "descripcion": "Un hombre entra corriendo en la comisaría de Commercial Street. Cerramos Dorset Street con una cuerda. #shorts #truecrime #jackeldestripador"
+   },
+   {
+    "titulo": "Londres aplaudía mientras forzábamos la puerta",
+    "descripcion": "El desfile del Lord Mayor y la mañana de Miller's Court, el mismo día. La puerta nunca se abre en pantalla. #shorts #historia #truecrime"
+   },
+   {
+    "titulo": "El jefe dimitió y la palabra volvió: «desconocidas»",
+    "descripcion": "Dimisión de Warren, perdón a cómplices y una vista del forense de un solo día. #shorts #historia #truecrime"
+   },
+   {
+    "titulo": "Desconfía de quien diga que sabe quién fue",
+    "descripcion": "La policía tuvo sospechosos y nunca acusó a nadie. Muchos inocentes sufrieron sospechas sin motivo, y un sacristán pagó un entierro de su bolsillo. #shorts #truecrime #historia"
+   },
+   {
+    "titulo": "Nadie de su familia vino. Vinieron miles",
+    "descripcion": "19 de noviembre de 1888: el entierro de Mary Jane Kelly. Recordamos a Mary Ann Nichols, Annie Chapman, Elizabeth Stride, Catherine Eddowes y Mary Jane Kelly. #shorts #historia #truecrime"
+   }
+  ]
+ }
+}
