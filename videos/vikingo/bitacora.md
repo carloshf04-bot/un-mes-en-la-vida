@@ -26,3 +26,4 @@
 2026-11-11 · 4 · Dirección · voz terminada: 860,35 s (14:20), 238/238 frases comprobadas con whisper · a montaje con la voz real
 2026-11-11 · 5 · Dirección · un reinicio del contenedor cortó el render horizontal al 45 %; nuevo render por tramos de 60 s que se retoma (scripts/render_tramos.sh)
 2026-11-11 · 5 · Dirección · render horizontal: 480/860 s hechos en 4 tramos (~40 min por tramo de 3 min); retomado tras un reinicio
+2026-11-11 · 5 · produccion/Dirección · horizontal terminado: 860,35 s, 1920×1080, −14,0 LUFS, LRA 3,9 · a puerta 5 y espectador; el vertical se renderiza para los Shorts
