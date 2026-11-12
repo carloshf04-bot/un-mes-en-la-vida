@@ -103,7 +103,8 @@ Capturas (18,2; 151,9; 152,3; 311,7; 384; 587; 636,34 y 762,48 s): `pruebas/p4_h
   - Frases 84-87 (vápnatak): dos hombres chocan lanza y hacha contra el escudo, con chispas y `clank` en «armas», «vápnatak», «armas» y tres veces en «Hierro».
   - Frase 170: «DE FRISIA (HOY, PAÍSES BAJOS)».
   - Frase 192: «HACIA EL 850 (40 AÑOS ANTES DE ULF)», por la visita de Ansgario hacia el 850 (investigación, n.º 20).
-  - Frase 196: primer plano de un diente con los surcos limados.
+  - Frase 196: primer plano de un diente con los surcos limados, debajo de «24 HOMBRES».
+- **Check tras la puerta 5** (`pruebas/check_p5_h.json` y `check_p5_v.json`): ok y 0 errores en los dos formatos. En vertical quedan 4 avisos de contraste en mitad de las entradas. Después del check solo se ha bajado la tarjeta del diente (frase 196, comprobada en la captura de 675,18 s).
 - **Mezcla tras la puerta 5**: se ha rehecho con los nuevos `clank`. Sigue en −14,0 LUFS, LRA 3,9 LU y pico −1,5 dBFS. Solo cambian estos tramos: 211-214, 307,6, 315,1-316,6, 321,6-322,4, 563,2, 573,9-575,9 y 673,7 s.
 
 ## Sonido (`scripts/audio.py`)
