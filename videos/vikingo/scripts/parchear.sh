@@ -20,15 +20,17 @@ for w in $VENT; do
   echo ok > $OUT.ok; echo "ventana $a-$b lista"
 done
 # 2) piezas: lo de antes entre ventanas + las ventanas nuevas, todo con la misma codificación
+#    y con el número exacto de fotogramas (si no, cada corte puede sumar uno y la imagen se retrasa)
 : > $P/lista.txt; t=0; n=0
 pieza() { n=$((n+1)); local o=$P/p_$(printf %02d $n).mp4; ffmpeg -v error -y "$@" $ENC $o; echo "file '$PWD/$o'" >> $P/lista.txt; }
 for w in $VENT; do
   a=${w%-*}; b=${w#*-}
-  [ "$a" -gt "$t" ] && pieza -ss $t -t $((a-t)) -i $ANT
-  pieza -i $P/v_$a-$b.mp4
+  [ "$a" -gt "$t" ] && pieza -ss $t -i $ANT -frames:v $(( (a-t)*30 ))
+  pieza -i $P/v_$a-$b.mp4 -frames:v $(( (b-a)*30 ))
   t=$b
 done
-pieza -ss $t -i $ANT
+TOTAL=$(python3 -c "print(round($DUR*30))")
+pieza -ss $t -i $ANT -frames:v $(( TOTAL - t*30 ))
 # 3) unión y audio nuevo
 ffmpeg -v error -y -f concat -safe 0 -i $P/lista.txt -i audio/mezcla.wav -map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -shortest $FIN
 echo "FIN parche $NOMBRE: $(ffprobe -v error -show_entries format=duration -of csv=p=0 $FIN) s (voz $DUR s)"
