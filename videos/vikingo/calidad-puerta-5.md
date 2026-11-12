@@ -162,4 +162,37 @@ Las miniaturas ya se aprobaron en la vuelta 2.
 
 ## Shorts
 
-Pendiente.
+Revisado: `entregas/shorts/parte-1-de-16.mp4` … `parte-16-de-16.mp4`, cortados de `entregas/video-FINAL-vertical.mp4` (1080×1920, 860,353 s) con `SHORTS_MIN=60 python scripts/shorts.py`.
+
+### Medidas
+- **Duración de cada parte**: entre 51,0 y 57,0 s, así que **todas duran menos de 60 s**. Son 1080×1920.
+- **Cobertura**: he vuelto a calcular los cortes con el algoritmo de `shorts.py`. Van de 0 a 860,353 s, uno detrás de otro, sin huecos ni solapes. Cada archivo se redondea a fotogramas, así que puede sobrar como mucho 1 fotograma (6 ms) en cada unión.
+- **Cortes al final de frase**: los 15 cortes caen en mitad de la pausa entre dos frases, a 0,15 s del final de una y a 0,15 s del principio de la siguiente:
+  - 15|16 · 29|30 · 41|42 · 54|55 · 71|72 · 87|88 · 101|102 · 119|120 · 136|137 · 156|157 · 175|176 · 189|190 · 202|203 · 215|216 · 226|227.
+  - En `voz.wav`, en cada corte hay silencio total (−180 dB) durante al menos 50 ms. **Ninguna palabra queda cortada.**
+  - Los fundidos de audio (0,12 s al empezar y 0,25 s al acabar) solo tocan silencio o colas por debajo de −35 dB.
+- **Volumen** (ebur128): de −14,4 a −13,7 LUFS en las 16 partes, con picos de −1,4 a −1,1 dBFS. **Correcto.**
+- **Negros**: ninguno, salvo el fundido final del vídeo al acabar la parte 16 (52,43-53,2 s, 0,77 s), que ya se aceptó en el horizontal.
+- **Vertical** (hay 16 fotogramas a 25 s, uno en cada parte, y 8 momentos clave):
+  - «VIKINGO» va en mayúsculas en el cartel del título (parte 1, 24,6 s).
+  - ÓTTAR, REY ALFREDO e INGLATERRA van cada uno a su altura (parte 8, 41-43 s).
+  - Solo hay un Ulf en las frases 51-54 (parte 4).
+  - «AQUÍ NO HAY CHISTE» y «MUCHO HUMO / Y HUMO» se leen bien.
+  - Los subtítulos van entre y ≈ 250 y 360 px, fuera de los 220 px de arriba.
+  - Nada importante cae en los 420 px de abajo.
+- **Título al empezar** (partes 2-16, 1,8 s) y **«SIGUE EN LA PARTE n+1»** (partes 1-15, 2,4 s finales): se leen bien. Van en una banda a lo ancho, en y = 760-1100 y 820-1080. Tapan el centro durante esos segundos, pero eso es el diseño y no lo pido cambiar. El título va en Inter Black y «VIKINGO» en Uncial.
+
+### Problemas
+
+| # | Dónde | Problema | Gravedad | Arreglo exacto |
+|---|---|---|---|---|
+| 1 | Las 16 partes, rótulo «PARTE n/16», todo el rato | **El texto se sale de su placa y del vídeo.** La placa mide 300 px de ancho (x = 720-1020), pero «PARTE 11/16» llega hasta x ≈ 1080.<br>• **Se corta en el borde derecho**: «PARTE 16/16» y «PARTE 1/16» (se lee «PARTE 1/1»).<br>• **Se mete en los 60 px de margen lateral**: en todas las partes.<br>• **El «16» queda fuera de la placa, en crema sobre cielo claro, y no se lee**: partes 1, 2, 3, 10, 12, 14 y 16. | grave | Ver el arreglo del punto 2. Si se quiere dejar la placa fija, hay que ajustarla al texto y alinearla a la derecha dentro del margen. Para eso, cambiar las dos primeras entradas de `vf` en `scripts/shorts.py` por una sola: `drawtext=fontfile={FONT}:text='PARTE {n}/{N}':x=w-tw-84:y=468:fontsize=50:fontcolor=0xf4e6cf:box=1:boxcolor=0x24160d@0.85:boxborderw=16`. |
+| 2 | Las 16 partes, rótulo «PARTE n/16» en y = 450-546 | **La placa tapa rótulos del vídeo**: cae justo en la altura de los rótulos del vertical (`K.sy(0)`). Ejemplos:<br>• Parte 3, 25 s: «PUENTE DE MAYO».<br>• Parte 4, 45 s: «¿UNOS GUARROS?».<br>• Parte 6, 46 s: «VÁPNATAK».<br>• Parte 8, 41 s: «UN NAVEGANTE NORUEGO».<br>• Parte 9, 25 s: «2007 · UNA RÉPLICA».<br>• Parte 11, 25 s y 36 s: «1.000-1.500» y la tarjeta «JOYAS» (se lee «JOY»).<br>• Parte 13, 25 s: «SUECIA Y DINAMARCA».<br>• Parte 15, 25 s y 51,5 s: «EL DATO QUE MÁS PESA» y «1876 · ÓPERA DE WAGNER».<br>• Parte 16, 25 s: «MAREADO, PERO CON PLATA».<br>En el vertical no hay ninguna altura libre todo el rato. | grave | **Quitar la placa fija** y poner «PARTE n/16» dentro de las dos bandas, que ya tapan el centro a propósito. En `scripts/shorts.py`:<br>1. Borrar las dos líneas de `drawbox`/`drawtext` de `PARTE` (x = iw-360).<br>2. Título al empezar (n > 1): cambiar la banda a `h=400` (y = 760-1160) y añadir `drawtext=fontfile={FONT}:text='PARTE {n}/{N}':x=(w-tw)/2:y=1080:fontsize=54:fontcolor=0xffd34d:enable='lt(t,1.8)'`.<br>3. «SIGUE…» (n < N): subir el texto a `y=860` y añadir `drawtext=fontfile={FONT}:text='PARTE {n}/{N}':x=(w-tw)/2:y=975:fontsize=50:fontcolor=0x24160d:enable='gte(t,{d - 2.4:.2f})'`.<br>4. Parte 1 (no tiene banda de título): queda con «PARTE 1/16» en su banda final. Si se quiere también al empezar, poner `drawtext … text='PARTE 1/{N}':x=(w-tw)/2:y=1180:fontsize=50:box=1:boxcolor=0x24160d@0.85:boxborderw=16:enable='lt(t,2)'`.<br>Después, volver a ejecutar `SHORTS_MIN=60 python scripts/shorts.py …` con los mismos argumentos. No hace falta renderizar de nuevo el vertical. |
+
+### Veredicto (Shorts)
+
+**CAMBIOS**
+
+Los cortes, la cobertura, la duración, el volumen, los negros y el vertical están bien. Falla el rótulo «PARTE n/16»: se corta y se sale de su placa (punto 1) y tapa rótulos del vídeo en casi todas las partes (punto 2).
+
+El arreglo está solo en `scripts/shorts.py` y tarda unos minutos, porque basta con volver a cortar los Shorts. En la re-revisión miraré los mismos momentos: 0,6 s, 25 s y d − 1 s de cada parte, más la parte 8 a 41 s y la parte 11 a 36 s.

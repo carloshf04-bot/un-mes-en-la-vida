@@ -47,15 +47,20 @@ N = len(parts)
 esc = lambda s: s.replace(":", r"\:").replace("'", r"\'")
 for n, (a, b) in enumerate(parts, 1):
     d = b - a
-    vf = [f"drawbox=x=iw-360:y=450:w=300:h=96:color=0x24160d@0.85:t=fill",
-          f"drawtext=fontfile={FONT}:text='{esc(f'PARTE {n}/{N}')}':x=w-345:y=468:fontsize=58:fontcolor=0xf4e6cf"]
+    parte = esc(f'PARTE {n}/{N}')
+    # «PARTE n/N» va solo dentro de las bandas de inicio y final: una placa fija tapaba rótulos del vídeo
     if n > 1:
-        vf += [f"drawbox=x=0:y=760:w=iw:h=340:color=0x101a2c@0.85:t=fill:enable='lt(t,1.8)'",
-               f"drawtext=fontfile={FONT}:text='{esc(TOP)}':x=(w-tw)/2:y=800:fontsize=62:fontcolor=0xf4e6cf:enable='lt(t,1.8)'",
-               f"drawtext=fontfile={TFONT}:text='{esc(WHO)}':x=(w-tw)/2:y=880:fontsize=150:fontcolor=0xf4e6cf:enable='lt(t,1.8)'"]
+        vf = [f"drawbox=x=0:y=760:w=iw:h=400:color=0x101a2c@0.85:t=fill:enable='lt(t,1.8)'",
+              f"drawtext=fontfile={FONT}:text='{esc(TOP)}':x=(w-tw)/2:y=800:fontsize=62:fontcolor=0xf4e6cf:enable='lt(t,1.8)'",
+              f"drawtext=fontfile={TFONT}:text='{esc(WHO)}':x=(w-tw)/2:y=880:fontsize=150:fontcolor=0xf4e6cf:enable='lt(t,1.8)'",
+              f"drawtext=fontfile={FONT}:text='{parte}':x=(w-tw)/2:y=1080:fontsize=58:fontcolor=0xffd34d:enable='lt(t,1.8)'"]
+    else:
+        vf = [f"drawbox=x=(iw-360)/2:y=1180:w=360:h=90:color=0x101a2c@0.85:t=fill:enable='lt(t,2)'",
+              f"drawtext=fontfile={FONT}:text='{parte}':x=(w-tw)/2:y=1196:fontsize=58:fontcolor=0xffd34d:enable='lt(t,2)'"]
     if n < N:
         vf += [f"drawbox=x=0:y=820:w=iw:h=260:color=0xd9822b@0.95:t=fill:enable='gte(t,{d - 2.4:.2f})'",
-               f"drawtext=fontfile={FONT}:text='{esc(f'SIGUE EN LA PARTE {n + 1}')}':x=(w-tw)/2:y=910:fontsize=78:fontcolor=0x24160d:enable='gte(t,{d - 2.4:.2f})'"]
+               f"drawtext=fontfile={FONT}:text='{esc(f'SIGUE EN LA PARTE {n + 1}')}':x=(w-tw)/2:y=860:fontsize=78:fontcolor=0x24160d:enable='gte(t,{d - 2.4:.2f})'",
+               f"drawtext=fontfile={FONT}:text='{parte}':x=(w-tw)/2:y=975:fontsize=58:fontcolor=0x24160d:enable='gte(t,{d - 2.4:.2f})'"]
     out = os.path.join(outd, f"parte-{n}-de-{N}.mp4")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{a:.3f}", "-i", src, "-t", f"{d:.3f}", "-vf", ",".join(vf),
                     "-af", f"afade=t=in:d=0.12,afade=t=out:st={d - 0.25:.2f}:d=0.25", "-c:v", "libx264", "-crf", "18", "-preset", "medium",
