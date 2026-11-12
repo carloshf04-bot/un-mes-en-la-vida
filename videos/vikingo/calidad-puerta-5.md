@@ -70,3 +70,64 @@ Para la re-revisión hay que sacar fotogramas en 200, 207, 211, 416,5, 418, 571,
 ## Shorts
 
 Pendiente.
+
+---
+
+## Vuelta 2 (horizontal y miniaturas)
+
+Revisado: el nuevo `entregas/video-FINAL-horizontal.mp4`. Es `video-FINAL-horizontal.anterior.mp4` con 6 ventanas renderizadas de nuevo (`scripts/parchear.sh`), más la mezcla nueva y las miniaturas regeneradas.
+
+### Medidas
+- **Duración**:
+  - Archivo: 860,333 s. Vídeo: 25.810 fotogramas = 860,333 s. Audio: 860,330 s. `voz.wav`: 860,353 s.
+  - Diferencia: 20-23 ms, menos de 1 fotograma. **Correcto.**
+- **Volumen**: **−14,0 LUFS**, LRA 3,9 LU, pico real −1,1 dBFS. **Correcto.**
+- **Negros**: solo el fundido final, de 859,5 a 860,3 s (0,8 s, el mismo que se aceptó en la vuelta 1). No hay más.
+- **Congelados**: ninguno.
+- **Sincronía fuera de las ventanas**:
+  - He comparado el vídeo nuevo con el anterior en 10, 100, 250, 400, 500, 620, 700, 760 y 850 s, buscando el fotograma que coincide en ±3 fotogramas.
+  - En los 9 puntos el desfase es **0 fotogramas**: después de 216 s y hasta el final, la imagen va donde iba.
+  - El vídeo anterior empezaba con `start_time` de 0,021 s y el nuevo empieza en 0, así que ahora la imagen va 21 ms más pegada a la voz.
+  - Las piezas suman justo 25.810 fotogramas: 600 + 240 + 4620 + 1020 + 2700 + 600 + 2610 + 240 + 4440 + 240 + 2130 + 1020 + 5350.
+- **Arreglos comprobados** con fotogramas en 25,5 · 188,5 · 200 · 207 · 211,5 · 212,4 · 315,5 · 321,9 · 416,5 · 418,5 · 571,3 · 574,5 · 650,6 · 653,5 · 675,2 y 680,8 s:
+  1. **Ulf duplicado (51-54): resuelto.** Solo hay un Ulf: entra a 200 s, se pone gris con moscas a 207 s y vuelve a la normalidad a 211,5 s.
+  2. **ÓTTAR (116): resuelto.** «UN NAVEGANTE NORUEGO», «ÓTTAR · h. 890» y «REY ALFREDO / INGLATERRA» van en tres alturas distintas y se leen todos.
+  3. **«AQUÍ NO HAY CHISTE» (191): resuelto.** Va en dos líneas, dentro del cuadro.
+  4. **«MUCHO HUMO» (169): resuelto.** Va debajo de «Y HUMO».
+  5. **«DÍA DE LAVARSE» (54): resuelto.** Entra en «Significa» y se ve entero hasta el corte.
+  6. **Silueta con lima (198): resuelto.** Va a la derecha de la vitrina y la cartela «SUECIA 800-1050» se lee.
+  7. **Título: resuelto.** «VIKINGO» va en mayúsculas en uncial y se lee bien.
+  - Lo que pidió el espectador también está:
+    - Vápnatak: lanza y hacha contra el escudo, con chispas.
+    - «DE FRISIA (HOY, PAÍSES BAJOS)».
+    - «HACIA EL 850 (40 AÑOS ANTES DE ULF)».
+    - Tarjeta del diente con surcos debajo de «24 HOMBRES». Esta no tapa nada.
+- **Uniones de las ventanas** (20, 28, 182, 216, 306, 326, 413, 421, 569, 577, 648 y 682 s): he comparado 8 fotogramas alrededor de cada una, entre sí y con el vídeo anterior.
+  - No hay fotogramas repetidos ni negros.
+  - Hay dos saltos (puntos 1 y 2 de la tabla).
+  - Las otras diez uniones están limpias.
+
+### Miniaturas
+- **`miniatura-vertical.png`** (1080×1920):
+  - El título va entre y ≈ 1250 y 1470, fuera de los 420 px de abajo (que empiezan en 1500).
+  - La pregunta va en y ≈ 230-440, fuera de los 220 px de arriba.
+  - «VIKINGO» en uncial se lee bien.
+- **`miniatura-youtube.png`** (1280×720): sin cambios y correcta.
+- Las dos cumplen INSTRUCCIONES_BASE.
+
+### Problemas
+
+| # | Dónde | Problema | Gravedad | Arreglo exacto |
+|---|---|---|---|---|
+| 1 | Unión de 28 s (frase 8, 28,0-29,7 s) | La ventana 20-28 acaba con el cartel del título todavía en pantalla. Hasta 28 s se ve el título nuevo, «VIKINGO» en mayúsculas. **Desde 28,0 s vuelve el título viejo**, «Vikingo» en minúsculas, porque es el vídeo anterior. Dura unos 1,7 s, hasta que el cartel se va (a 30,5 s ya no está). Es un salto visible del texto en mitad del cartel. | grave | Renderizar también 28-31 s y volver a parchear con las ventanas en orden: `bash scripts/parchear.sh h "20-28 28-31 182-216 306-326 413-421 569-577 648-682"`. Las ventanas que ya tienen `.ok` no se repiten, así que solo se renderizan 3 s. Otra opción es cambiar `20-28` por `20-31` y borrar `v_20-28.mp4.ok`. Antes hay que devolver `video-FINAL-horizontal.anterior.mp4` como base, que el script ya usa si existe. |
+| 2 | Unión de 306 s (frase 83, «OTRO DATO RARO») | El primer fotograma de la ventana (306,00 s) enseña el rótulo «OTRO DATO RARO» ya entero y nítido. El fotograma de antes (305,97 s) y el de después (306,03 s) lo enseñan a medio entrar, borroso. Es un parpadeo de 1 fotograma (33 ms): el primer fotograma de un render con `--start` sale con la animación ya terminada. | menor | Se puede quedar. Si se rehace el parche por el punto 1, empezar esta ventana en un momento sin entradas, por ejemplo `304-326`, y comprobar el fotograma de unión. |
+
+### Veredicto (horizontal y miniaturas), vuelta 2
+
+**CAMBIOS**
+
+Los 3 graves y los 6 menores de la vuelta 1 están resueltos, y la duración, el volumen, los negros y la sincronía están bien. Las miniaturas están **APROBADAS**.
+
+Queda **1 grave nuevo**, de la forma de parchear: el título viejo «Vikingo» vuelve de 28,0 a 29,7 s. Se arregla renderizando 3 s más (28-31) y volviendo a unir. Para la re-revisión hay que sacar fotogramas en 27,9 · 28,0 · 28,5 · 29,5 · 31,0 s y la unión nueva de 31 s.
+
+Ojo para el vertical: si se parchea con las mismas ventanas, le pasará lo mismo en 28 s. Hay que incluir también 28-31 s.
