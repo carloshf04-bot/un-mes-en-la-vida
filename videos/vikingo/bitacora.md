@@ -33,3 +33,4 @@
 2026-11-12 · 5 · Dirección · horizontal parcheado (6 ventanas re-renderizadas, 25.810 fotogramas exactos, −14,0 LUFS) · a puerta 5 vuelta 2; render vertical completo en marcha para los Shorts
 2026-11-12 · 5 · control-calidad · vuelta 2: miniaturas APROBADAS; horizontal CAMBIOS (grave: el título viejo reaparece de 28 a 29,7 s por el corte de la ventana; menor: parpadeo de 1 fotograma en 306 s) · Dirección: ventanas 20-31 y 304-326
 2026-11-12 · 5 · control-calidad · vuelta 3: horizontal APROBADO (miniaturas ya aprobadas) · faltan los Shorts (el vertical se renderiza entero, no hace falta parchearlo)
+2026-11-12 · 6 · Dirección · entregados al usuario el horizontal y las miniaturas (aprobados); los Shorts se entregan aparte cuando acabe el vertical, para no hacerle esperar horas
