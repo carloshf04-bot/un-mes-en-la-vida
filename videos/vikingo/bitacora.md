@@ -36,3 +36,4 @@
 2026-11-12 · 6 · Dirección · entregados al usuario el horizontal y las miniaturas (aprobados); los Shorts se entregan aparte cuando acabe el vertical, para no hacerle esperar horas
 2026-11-12 · 5 · produccion/Dirección · vertical renderizado entero (25.809 fotogramas, 860,35 s) y cortado en 16 Shorts de 51-57 s · a puerta 5 (Shorts)
 2026-11-12 · 5 · control-calidad · Shorts CAMBIOS (placa «PARTE n/16» fija: se corta y tapa rótulos) · Dirección: PARTE dentro de las bandas de inicio y final; Shorts recortados (sin re-render)
+2026-11-12 · 6 · Dirección · Shorts aprobados (vuelta 2) y entregados; idea marcada como hecha en IDEAS.md · vídeo cerrado

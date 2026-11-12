@@ -196,3 +196,28 @@ Revisado: `entregas/shorts/parte-1-de-16.mp4` … `parte-16-de-16.mp4`, cortados
 Los cortes, la cobertura, la duración, el volumen, los negros y el vertical están bien. Falla el rótulo «PARTE n/16»: se corta y se sale de su placa (punto 1) y tapa rótulos del vídeo en casi todas las partes (punto 2).
 
 El arreglo está solo en `scripts/shorts.py` y tarda unos minutos, porque basta con volver a cortar los Shorts. En la re-revisión miraré los mismos momentos: 0,6 s, 25 s y d − 1 s de cada parte, más la parte 8 a 41 s y la parte 11 a 36 s.
+
+---
+
+## Shorts, vuelta 2
+
+Revisado: las 16 partes cortadas de nuevo con el `scripts/shorts.py` arreglado. Ya no hay placa fija: «PARTE n/16» va en la banda del título al empezar, bajo «SIGUE EN LA PARTE…» al final, y en una caja al empezar en la parte 1.
+
+- **Duraciones**: las mismas que en la vuelta 1, de 51,0 a 57,0 s, así que **todas duran menos de 60 s**. Los cortes son los mismos: siguen una detrás de otra de 0 a 860,353 s y caen en las pausas entre frases.
+- **Al empezar** (fotograma a 0,5 s de cada parte):
+  - Partes 2-16: la banda lleva «UN MES EN LA VIDA DE UN / VIKINGO / PARTE n/16». «PARTE n/16» va en ámbar y centrado.
+  - Las partes con número de dos cifras (10/16 a 16/16) caben de sobra, lejos de los 60 px de los lados.
+  - Parte 1: «PARTE 1/16» en una caja pequeña en y ≈ 1180 durante 2 s, sobre el mar. Se lee y no tapa nada importante del gancho.
+- **Al final** (fotograma a d − 0,8 s):
+  - Partes 1-15: «SIGUE EN LA PARTE n+1» y debajo «PARTE n/16», los dos dentro de la banda naranja y de los márgenes, también «SIGUE EN LA PARTE 16» y «PARTE 15/16».
+  - Parte 16: no lleva banda final y acaba con el fundido del cierre.
+- **A mitad de cada parte** (fotograma a 25 s de las 16): **no hay ningún añadido**. Los rótulos del vídeo se ven enteros: PUENTE DE MAYO, 2007 · UNA RÉPLICA, 1.000-1.500, SUECIA Y DINAMARCA, EL DATO QUE MÁS PESA, MAREADO PERO CON PLATA…
+- **Zonas seguras**: los dos rótulos añadidos van entre y = 760 y 1230, lejos de los 220 px de arriba y de los 420 de abajo. El texto añadido mide 50-54 px o más.
+
+| # | Dónde | Problema | Gravedad | Arreglo exacto |
+|---|---|---|---|---|
+| — | — | Ninguno. Los puntos 1 y 2 de la vuelta 1 están resueltos. | — | — |
+
+### Veredicto (Shorts), vuelta 2
+
+**APROBADO**
