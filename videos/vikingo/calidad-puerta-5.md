@@ -67,9 +67,7 @@ Ojo: los puntos 1, 2, 3 y 4 también salen en el vertical, porque es la misma co
 
 Para la re-revisión hay que sacar fotogramas en 200, 207, 211, 416,5, 418, 571,3 y 650,6 s, y comprobar las uniones de 120, 300, 480 y 660 s.
 
-## Shorts
 
-Pendiente.
 
 ---
 
@@ -131,3 +129,37 @@ Los 3 graves y los 6 menores de la vuelta 1 están resueltos, y la duración, el
 Queda **1 grave nuevo**, de la forma de parchear: el título viejo «Vikingo» vuelve de 28,0 a 29,7 s. Se arregla renderizando 3 s más (28-31) y volviendo a unir. Para la re-revisión hay que sacar fotogramas en 27,9 · 28,0 · 28,5 · 29,5 · 31,0 s y la unión nueva de 31 s.
 
 Ojo para el vertical: si se parchea con las mismas ventanas, le pasará lo mismo en 28 s. Hay que incluir también 28-31 s.
+
+---
+
+## Vuelta 3 (solo horizontal)
+
+Revisado: el nuevo `entregas/video-FINAL-horizontal.mp4`. Se ha rehecho el parche con las ventanas 20-31 y 304-326 en lugar de 20-28 y 306-326. Las otras ventanas no cambian.
+
+- **Duración**:
+  - Archivo: 860,333 s. Vídeo: 25.810 fotogramas. Audio: 860,330 s. `voz.wav`: 860,353 s.
+  - Diferencia de menos de 1 fotograma. **Correcto.**
+- **Volumen**: **−14,0 LUFS**, LRA 3,9 LU, pico −1,1 dBFS. **Correcto.**
+- **Título de 20 a 32 s** (fotogramas en 20,5 · 23 · 24,5 · 26 · 27,9 · 28,1 · 29 · 30 · 30,9 · 31,2 · 32 s):
+  - El cartel entra con «UN MES EN LA VIDA DE UN». «VIKINGO» entra con su palabra (23,76 s) **en mayúsculas**.
+  - Sigue igual a 27,9, 28,1 y 29 s y se va antes de 30 s.
+  - **El «Vikingo» en minúsculas ya no sale.**
+- **Uniones de 20, 31, 304 y 326 s** (8 fotogramas alrededor de cada una):
+  - La diferencia entre fotogramas en cada unión es igual que la de los fotogramas de al lado: 0,45 · 0,29 · 0,82 · 0,36.
+  - No hay saltos, ni fotogramas repetidos, ni negros.
+- **Parpadeo de «OTRO DATO RARO» (306 s)**: ahora cae dentro de la ventana. De 305,8 a 306,1 s el rótulo entra poco a poco (las diferencias suben de 1,3 a 6,2 y luego se quedan en 0,1). Ya no parpadea.
+- **Lo demás sigue igual**: he comparado con `video-FINAL-horizontal.anterior.mp4` en 10, 100, 500, 700 y 850 s. El desfase es de **0 fotogramas** en los cinco puntos, así que la sincronía con la voz no ha cambiado. Las ventanas 182-216, 413-421, 569-577 y 648-682 son las mismas que se aprobaron en la vuelta 2.
+
+| # | Dónde | Problema | Gravedad | Arreglo exacto |
+|---|---|---|---|---|
+| — | — | Ninguno nuevo. Siguen aceptados los 0,8 s de fundido a negro del final. | — | — |
+
+### Veredicto (horizontal), vuelta 3
+
+**APROBADO**
+
+Las miniaturas ya se aprobaron en la vuelta 2.
+
+## Shorts
+
+Pendiente.
