@@ -489,7 +489,7 @@
       {
         "dia": 2,
         "corte": true,
-        "texto": "Nunca he visto la cara de Osiris. Los uab no pasamos de la puerta: cargamos, limpiamos, quemamos resina. Y el que sale barre sus propias huellas.",
+        "texto": "Nunca he visto la cara de Osiris. Los uab no pasamos de la puerta: cargamos, limpiamos, quemamos resina. Y el último en salir borra con una escoba sus propias huellas.",
         "drama": 0.7,
         "personajes": [
           {
@@ -855,7 +855,7 @@
       },
       {
         "dia": 14,
-        "texto": "Al día siguiente vienen Íset y los niños. La pequeña Tuy me enseña un escarabajo de piedra, comprado con el lino que tejió su madre. Es para mí.",
+        "texto": "Al día siguiente me visitan Íset y los niños. La pequeña Tuy me enseña un escarabajo de piedra, comprado con el lino que tejió su madre, y me lo regala.",
         "drama": 0.6,
         "fondo": {
           "lugar": "valle",
