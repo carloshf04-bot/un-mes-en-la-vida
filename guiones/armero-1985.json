@@ -164,16 +164,7 @@
       }
      ]
     },
-    "personajes": [
-     {
-      "quien": "wilsondc",
-      "x": 0.45,
-      "accion": "asustado",
-      "emocion": "miedo",
-      "mirar": -1,
-      "habla": false
-     }
-    ],
+    "personajes": [],
     "camara": "general"
    },
    {
@@ -1082,41 +1073,41 @@
     "texto": "Por la noche llega la tormenta, y la energía se va y vuelve. A las nueve y ocho minutos, el volcán revienta de verdad.",
     "drama": 0.85,
     "fondo": {
-     "lugar": "campo",
+     "lugar": "interior",
+     "pared": "ladrillo",
      "hora": "noche",
-     "clima": "tormenta",
+     "ventana": true,
      "props": [
       {
-       "tipo": "casa",
+       "tipo": "mesa",
+       "x": -0.2
+      },
+      {
+       "tipo": "radio",
        "x": -1.1
       },
       {
-       "tipo": "palmera",
-       "x": -0.7
+       "tipo": "estanteria",
+       "x": 1.2
       },
       {
-       "tipo": "arbol",
-       "x": 1.45
-      },
-      {
-       "tipo": "volcan-erupcion",
-       "x": 1.0,
-       "escala": 0.8,
-       "detras": true
+       "tipo": "🕯️",
+       "x": -0.2,
+       "escala": 0.3
       }
      ]
     },
     "personajes": [
      {
       "quien": "wilsondc",
-      "x": 0.35,
+      "x": 0.3,
       "accion": "asustado",
       "emocion": "miedo",
       "mirar": -1,
       "habla": false
      }
     ],
-    "camara": "general"
+    "camara": "cerca"
    },
    {
     "dia": 19,
@@ -1318,22 +1309,27 @@
     "texto": "Jueves, catorce. Al alba, por la radio, alguien que sobrevuela el valle dice la frase que Colombia nunca olvidará: Armero ha desaparecido.",
     "drama": 0.9,
     "fondo": {
-     "lugar": "campo",
+     "lugar": "interior",
+     "pared": "ladrillo",
      "hora": "amanecer",
-     "clima": "niebla",
+     "ventana": true,
      "props": [
       {
-       "tipo": "barrizal",
-       "x": 0
+       "tipo": "mesa",
+       "x": -0.2
       },
       {
-       "tipo": "helicoptero"
+       "tipo": "radio",
+       "x": -1.1
       },
       {
-       "tipo": "volcan",
-       "x": 1.4,
-       "escala": 1.8,
-       "detras": true
+       "tipo": "estanteria",
+       "x": 1.2
+      },
+      {
+       "tipo": "🕯️",
+       "x": -0.2,
+       "escala": 0.3
       }
      ]
     },
@@ -1341,11 +1337,18 @@
      {
       "quien": "wilsondc",
       "x": 0.3,
-      "accion": "quieto",
+      "accion": "triste",
       "emocion": "miedo",
       "mirar": -1,
-      "habla": false,
-      "objeto": "📻"
+      "habla": false
+     },
+     {
+      "quien": "efrain",
+      "x": -0.45,
+      "accion": "sentado",
+      "emocion": "triste",
+      "mirar": 1,
+      "habla": false
      }
     ],
     "camara": "general"
@@ -1477,7 +1480,29 @@
       "mirar": -1,
       "habla": false
      }
-    ]
+    ],
+    "insercion": {
+     "tipo": "objetos",
+     "titulo": "Mi equipo de socorrista",
+     "items": [
+      {
+       "icono": "🪢",
+       "nombre": "Cuerdas"
+      },
+      {
+       "icono": "🪵",
+       "nombre": "Tablas"
+      },
+      {
+       "icono": "🔦",
+       "nombre": "Linterna"
+      },
+      {
+       "icono": "🩹",
+       "nombre": "Botiquín"
+      }
+     ]
+    }
    },
    {
     "dia": 20,
@@ -1532,29 +1557,7 @@
       "habla": false
      }
     ],
-    "camara": "subir",
-    "insercion": {
-     "tipo": "objetos",
-     "titulo": "Mi equipo de socorrista",
-     "items": [
-      {
-       "icono": "🪢",
-       "nombre": "Cuerdas"
-      },
-      {
-       "icono": "🪵",
-       "nombre": "Tablas"
-      },
-      {
-       "icono": "🔦",
-       "nombre": "Linterna"
-      },
-      {
-       "icono": "🩹",
-       "nombre": "Botiquín"
-      }
-     ]
-    }
+    "camara": "subir"
    },
    {
     "dia": 20,
@@ -1620,7 +1623,7 @@
     "personajes": [
      {
       "quien": "wilsondc",
-      "x": -0.2,
+      "x": -0.6,
       "accion": "senalar",
       "emocion": "sorpresa",
       "mirar": 1,
@@ -2206,30 +2209,26 @@
     "drama": 0.6,
     "fondo": {
      "lugar": "campo",
-     "hora": "dia",
-     "clima": "despejado",
+     "hora": "amanecer",
+     "clima": "niebla",
      "props": [
       {
-       "tipo": "casa",
-       "x": -1.15
+       "tipo": "tumba",
+       "x": -0.8
       },
       {
-       "tipo": "casa",
-       "x": -0.75
+       "tipo": "tumba",
+       "x": 0.9
       },
       {
-       "tipo": "palmera",
-       "x": 0.95
-      },
-      {
-       "tipo": "⛪",
-       "x": -1.35,
-       "escala": 0.9
+       "tipo": "🌼",
+       "x": 0.1,
+       "escala": 0.4
       },
       {
        "tipo": "volcan",
-       "x": 1.35,
-       "escala": 2.0,
+       "x": 1.4,
+       "escala": 1.8,
        "detras": true
       }
      ]
@@ -2239,7 +2238,7 @@
       "quien": "wilson",
       "x": -0.4,
       "accion": "quieto",
-      "emocion": "neutral",
+      "emocion": "triste",
       "mirar": 1,
       "habla": false
      },
@@ -2247,7 +2246,7 @@
       "quien": "luz",
       "x": 0.4,
       "accion": "quieto",
-      "emocion": "neutral",
+      "emocion": "triste",
       "mirar": -1,
       "habla": false
      }
