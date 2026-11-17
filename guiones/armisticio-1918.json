@@ -225,7 +225,7 @@
           {
             "quien": "emile",
             "x": 0.45,
-            "accion": "pensar",
+            "accion": "agachado",
             "emocion": "miedo",
             "mirar": -1
           },
@@ -249,7 +249,7 @@
           {
             "quien": "emile",
             "x": 0.3,
-            "accion": "quieto",
+            "accion": "agachado",
             "emocion": "miedo",
             "mirar": -1
           }
@@ -1428,7 +1428,7 @@
         "drama": 0.8,
         "fondo": {
           "lugar": "rio",
-          "hora": "amanecer",
+          "hora": "noche",
           "clima": "niebla",
           "props": [
             {
@@ -1471,7 +1471,28 @@
             "mirar": -1
           }
         ],
-        "camara": "general"
+        "camara": "general",
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "🪵",
+              "x": 0.6,
+              "escala": 0.5
+            },
+            {
+              "tipo": "🪵",
+              "x": 0.95,
+              "escala": 0.45
+            },
+            {
+              "tipo": "barricada",
+              "x": -1.1
+            }
+          ]
+        }
       },
       {
         "dia": 29,
@@ -1525,7 +1546,7 @@
           "tipo": "dato",
           "valor": "≈ 700",
           "etiqueta": "hombres del 415.º RI en la orilla enemiga del Mosa, el 10 de noviembre",
-          "icono": "🌊"
+          "icono": "🪖"
         }
       },
       {
@@ -1608,7 +1629,7 @@
           {
             "quien": "emile",
             "x": 0.45,
-            "accion": "quieto",
+            "accion": "agachado",
             "emocion": "miedo",
             "mirar": -1
           },
@@ -1633,7 +1654,7 @@
           {
             "quien": "emile",
             "x": 0.3,
-            "accion": "triste",
+            "accion": "agachado",
             "emocion": "triste",
             "mirar": -1
           }
