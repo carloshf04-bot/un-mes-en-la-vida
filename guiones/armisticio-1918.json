@@ -337,7 +337,7 @@
       },
       {
         "dia": 1,
-        "texto": "Mi pueblo lleva cuatro años en manos alemanas. Mi madre y mi hermana siguen allí. Desde mil novecientos catorce, de ellas casi no me ha llegado nada.",
+        "texto": "Mi pueblo lleva cuatro años en manos alemanas. Mi madre y mi hermana se quedaron en él. Desde mil novecientos catorce, casi no he tenido noticias de ellas.",
         "drama": 0.65,
         "fondo": {
           "lugar": "calle",
@@ -1129,7 +1129,7 @@
       },
       {
         "dia": 21,
-        "texto": "Cuando llego, me tiemblan tanto las manos que no puedo ni cargar el fusil. Pero estoy en la otra orilla. Y estoy vivo.",
+        "texto": "Cuando llego, me tiemblan tanto las manos que no puedo ni cargar el fusil. Pero ya he llegado a la otra orilla, y sigo con vida.",
         "drama": 0.85,
         "personajes": [
           {
@@ -1402,7 +1402,7 @@
       },
       {
         "dia": 28,
-        "texto": "Sábado nueve. El káiser abdica. Esa tarde llega la orden para la división: pasar el Mosa cueste lo que cueste. Sin barcas y sin descanso.",
+        "texto": "Es sábado, día nueve, y el káiser renuncia al trono. Esa tarde llega la orden para la división: cruzar el río Mosa cueste lo que cueste, sin barcas y sin descanso.",
         "drama": 0.8,
         "personajes": [
           {
@@ -1539,7 +1539,7 @@
       {
         "dia": 30,
         "corte": true,
-        "texto": "Lunes, once. Poco después de las cinco, en el vagón de Fosh, firman el armisticio. Pero hasta las once en punto, la guerra sigue.",
+        "texto": "Es lunes, día once. Poco después de las cinco, en el vagón del mariscal Fosh, se firma el armisticio. Pero hasta las once en punto, la guerra sigue.",
         "drama": 0.8,
         "fondo": {
           "lugar": "interior",
