@@ -6,7 +6,7 @@
   "categoria": "profesion",
   "voz": "narrador-es",
   "drama": 0.7,
-  "velocidad": 1.15,
+  "velocidad": 1.05,
   "musica": "misterio",
   "paleta": {
     "acento": "#c8932f",
@@ -209,6 +209,23 @@
       "altura": 0.93,
       "zapatos": "#b07a4f",
       "voz": "narradora-es"
+    },
+    "najtvendado": {
+      "piel": "#9c6a44",
+      "pelo": "#1a1410",
+      "peinado": "calvo",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#f2ede0",
+        "color2": "#ece4cf",
+        "detalle": "#d9cfb6"
+      },
+      "sombrero": "panuelo",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#efe6d0",
+      "colorSombrero": "#f4f1ea"
     }
   },
   "largo": {
@@ -480,8 +497,7 @@
             "accion": "cargar",
             "emocion": "neutral",
             "mirar": 1,
-            "habla": false,
-            "objeto": "💧"
+            "habla": false
           }
         ],
         "camara": "lenta"
@@ -1182,11 +1198,6 @@
           "clima": "polvo",
           "props": [
             {
-              "tipo": "🐺",
-              "x": -1.35,
-              "escala": 1.6
-            },
-            {
               "tipo": "roca",
               "x": 1.2
             },
@@ -1203,7 +1214,8 @@
             "accion": "caminar",
             "emocion": "neutral",
             "mirar": 1,
-            "habla": false
+            "habla": false,
+            "objeto": "🐺"
           },
           {
             "quien": "najt",
@@ -1243,7 +1255,8 @@
             "accion": "correr",
             "emocion": "enfado",
             "mirar": -1,
-            "habla": false
+            "habla": false,
+            "objeto": "🪵"
           },
           {
             "quien": "enemigo2",
@@ -1251,7 +1264,8 @@
             "accion": "correr",
             "emocion": "enfado",
             "mirar": -1,
-            "habla": false
+            "habla": false,
+            "objeto": "🪵"
           }
         ],
         "camara": "general",
@@ -1260,11 +1274,6 @@
           "hora": "dia",
           "clima": "polvo",
           "props": [
-            {
-              "tipo": "🐺",
-              "x": -1.35,
-              "escala": 1.6
-            },
             {
               "tipo": "roca",
               "x": 1.2
@@ -1281,7 +1290,7 @@
           {
             "quien": "najt",
             "x": -0.25,
-            "accion": "triste",
+            "accion": "agachado",
             "emocion": "miedo",
             "mirar": 1,
             "habla": false
@@ -1290,9 +1299,10 @@
             "quien": "enemigo1",
             "x": 0.5,
             "accion": "quieto",
-            "emocion": "sorpresa",
+            "emocion": "enfado",
             "mirar": -1,
-            "habla": false
+            "habla": false,
+            "objeto": "🪵"
           }
         ],
         "camara": "cerca"
@@ -1322,7 +1332,7 @@
         },
         "personajes": [
           {
-            "quien": "najt",
+            "quien": "najtvendado",
             "x": -0.35,
             "accion": "sentado",
             "emocion": "cansado",
@@ -1347,7 +1357,7 @@
         "drama": 0.65,
         "personajes": [
           {
-            "quien": "najt",
+            "quien": "najtvendado",
             "x": -0.35,
             "accion": "pensar",
             "emocion": "cansado",
@@ -1379,11 +1389,6 @@
           "clima": "polvo",
           "props": [
             {
-              "tipo": "🐺",
-              "x": 1.35,
-              "escala": 1.6
-            },
-            {
               "tipo": "palmera",
               "x": -1.25
             },
@@ -1403,7 +1408,7 @@
             "habla": false
           },
           {
-            "quien": "najt",
+            "quien": "najtvendado",
             "x": 0.0,
             "accion": "cargar",
             "emocion": "cansado",
@@ -1416,7 +1421,8 @@
             "accion": "caminar",
             "emocion": "feliz",
             "mirar": -1,
-            "habla": false
+            "habla": false,
+            "objeto": "🐺"
           }
         ],
         "camara": "paneo"
@@ -1436,7 +1442,7 @@
             "habla": false
           },
           {
-            "quien": "najt",
+            "quien": "najtvendado",
             "x": 0.05,
             "accion": "cargar",
             "emocion": "cansado",
@@ -1458,11 +1464,6 @@
           "hora": "dia",
           "clima": "polvo",
           "props": [
-            {
-              "tipo": "🐺",
-              "x": 1.35,
-              "escala": 1.6
-            },
             {
               "tipo": "palmera",
               "x": -1.25
@@ -1509,13 +1510,12 @@
         },
         "personajes": [
           {
-            "quien": "najt",
+            "quien": "najtvendado",
             "x": 0.35,
             "accion": "quieto",
             "emocion": "miedo",
             "mirar": -1,
-            "habla": false,
-            "objeto": "🔥"
+            "habla": false
           }
         ],
         "camara": "lenta"
@@ -1526,13 +1526,12 @@
         "drama": 0.8,
         "personajes": [
           {
-            "quien": "najt",
+            "quien": "najtvendado",
             "x": -0.35,
             "accion": "quieto",
             "emocion": "neutral",
             "mirar": 1,
-            "habla": false,
-            "objeto": "🔥"
+            "habla": false
           },
           {
             "quien": "profeta",
@@ -1557,13 +1556,12 @@
         "drama": 0.75,
         "personajes": [
           {
-            "quien": "najt",
+            "quien": "najtvendado",
             "x": 0.1,
             "accion": "pensar",
             "emocion": "miedo",
             "mirar": -1,
-            "habla": false,
-            "objeto": "🔥"
+            "habla": false
           }
         ],
         "camara": "cerca"
@@ -1579,11 +1577,6 @@
           "clima": "polvo",
           "props": [
             {
-              "tipo": "🐺",
-              "x": -1.35,
-              "escala": 1.6
-            },
-            {
               "tipo": "roca",
               "x": 1.25
             },
@@ -1595,9 +1588,9 @@
         },
         "personajes": [
           {
-            "quien": "najt",
+            "quien": "najtvendado",
             "x": -0.45,
-            "accion": "celebrar",
+            "accion": "senalar",
             "emocion": "enfado",
             "mirar": 1,
             "habla": false
@@ -1635,7 +1628,7 @@
             "habla": false
           },
           {
-            "quien": "najt",
+            "quien": "najtvendado",
             "x": 0.1,
             "accion": "cargar",
             "emocion": "triste",
@@ -1689,7 +1682,7 @@
         },
         "personajes": [
           {
-            "quien": "najt",
+            "quien": "najtvendado",
             "x": -0.4,
             "accion": "quieto",
             "emocion": "feliz",
@@ -1713,7 +1706,7 @@
         "drama": 0.7,
         "personajes": [
           {
-            "quien": "najt",
+            "quien": "najtvendado",
             "x": -0.2,
             "accion": "sentado",
             "emocion": "feliz",
@@ -1946,7 +1939,7 @@
           "tipo": "dato",
           "valor": "Pilar Dyed",
           "etiqueta": "la columna vertebral de Osiris; en la tumba de Jeruef (h. 1350 a. C.) Amenhotep III lo levanta con cuerdas",
-          "icono": "🦴"
+          "icono": "⚱️"
         }
       },
       {
@@ -1957,18 +1950,20 @@
           {
             "quien": "najt",
             "x": -0.55,
-            "accion": "celebrar",
+            "accion": "trabajar",
             "emocion": "feliz",
             "mirar": 1,
-            "habla": false
+            "habla": false,
+            "objeto": "🪢"
           },
           {
             "quien": "uab2",
             "x": 0.55,
-            "accion": "celebrar",
+            "accion": "trabajar",
             "emocion": "feliz",
             "mirar": -1,
-            "habla": false
+            "habla": false,
+            "objeto": "🪢"
           },
           {
             "quien": "amenemope",
