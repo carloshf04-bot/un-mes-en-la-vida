@@ -372,7 +372,7 @@
           },
           {
             "quien": "madre",
-            "x": -0.4,
+            "x": -0.2,
             "accion": "quieto",
             "emocion": "triste",
             "mirar": 1,
@@ -1533,7 +1533,7 @@
           "tipo": "dato",
           "valor": "≈ 700",
           "etiqueta": "hombres del 415.º RI en la orilla enemiga del Mosa, el 10 de noviembre",
-          "icono": "🌫️"
+          "icono": "🌊"
         }
       },
       {
@@ -1829,7 +1829,7 @@
           "tipo": "dato",
           "valor": "10 nov.",
           "etiqueta": "fecha que sigue grabada en la tumba de Augustin Trébuchon, muerto el 11",
-          "icono": "✝️"
+          "icono": "🕯️"
         }
       },
       {
@@ -1919,7 +1919,7 @@
           },
           {
             "quien": "madre",
-            "x": -0.4,
+            "x": -0.2,
             "accion": "saludar",
             "emocion": "feliz",
             "mirar": 1,
