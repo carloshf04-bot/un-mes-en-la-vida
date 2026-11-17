@@ -233,7 +233,7 @@
     "color2": "#2b2a2e",
     "detalle": "#7a2a2a"
    },
-   "sombrero": "ala",
+   "sombrero": "copa",
    "colorSombrero": "#1a1a1a",
    "gafas": false,
    "altura": 1,
@@ -542,13 +542,13 @@
       },
       {
        "tipo": "🐕",
-       "x": -0.85,
-       "escala": 1.6
+       "x": -1.35,
+       "escala": 1.2
       },
       {
        "tipo": "🐕",
-       "x": -0.45,
-       "escala": 1.6
+       "x": -1.0,
+       "escala": 1.2
       }
      ]
     },
@@ -1227,11 +1227,6 @@
       {
        "tipo": "farola",
        "x": 0.75
-      },
-      {
-       "tipo": "🐎",
-       "x": -1.1,
-       "escala": 1.6
       }
      ]
     }
@@ -1442,7 +1437,7 @@
       "quien": "ashby",
       "x": 0.4,
       "accion": "quieto",
-      "emocion": "neutral",
+      "emocion": "triste",
       "mirar": -1
      },
      {
@@ -1465,7 +1460,7 @@
       "quien": "ashby",
       "x": 0.45,
       "accion": "quieto",
-      "emocion": "neutral",
+      "emocion": "miedo",
       "mirar": -1
      },
      {
@@ -1598,7 +1593,7 @@
       "quien": "ashby",
       "x": 0.3,
       "accion": "quieto",
-      "emocion": "neutral",
+      "emocion": "triste",
       "mirar": -1
      },
      {
@@ -1629,7 +1624,7 @@
       "quien": "ashby",
       "x": 0.3,
       "accion": "quieto",
-      "emocion": "neutral",
+      "emocion": "triste",
       "mirar": -1
      },
      {
@@ -1981,7 +1976,7 @@
     "drama": 0.7,
     "fondo": {
      "lugar": "campo",
-     "hora": "dia",
+     "hora": "atardecer",
      "clima": "niebla",
      "props": [
       {
@@ -2030,6 +2025,20 @@
       "emocion": "triste",
       "mirar": 1,
       "habla": false
+     },
+     {
+      "quien": "estibador",
+      "x": -1.05,
+      "accion": "triste",
+      "emocion": "triste",
+      "habla": false
+     },
+     {
+      "quien": "vendedor",
+      "x": 1.2,
+      "accion": "triste",
+      "emocion": "triste",
+      "habla": false
      }
     ],
     "camara": "general"
@@ -2076,7 +2085,7 @@
      {
       "quien": "ashby",
       "x": 0.3,
-      "accion": "saludar",
+      "accion": "hablar",
       "emocion": "neutral",
       "mirar": -1
      }

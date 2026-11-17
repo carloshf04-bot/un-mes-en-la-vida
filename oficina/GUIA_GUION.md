@@ -75,7 +75,7 @@ La voz (Chatterbox, narrador de España, con `"velocidad": 1.15`) lee unas **120
 ### Fondo
 
 ```jsonc
-{ "lugar": "...", "hora": "amanecer|dia|atardecer|noche", "clima": "despejado|lluvia|nieve|niebla|tormenta|polvo|ceniza",
+{ "lugar": "...", "hora": "amanecer|dia|atardecer|noche", "clima": "despejado|lluvia|nieve|niebla|tormenta|polvo|ceniza",   // lluvia y tormenta encapotan el cielo (sin sol ni azul)
   "pared": "piedra|madera|ladrillo|metal|papel|tela|roca",   // sólo interior
   "ventana": true,                                          // sólo interior
   "props": ["chimenea", { "tipo": "faro", "x": -1.35, "escala": 1.2, "detras": true }] }
