@@ -581,7 +581,7 @@
    {
     "dia": 4,
     "corte": true,
-    "texto": "Hay una palabra que en mi comisaría ya no soportamos: desconocidas. El martes, el jurado de Elísabet Stráid da su veredicto. Persona o personas desconocidas.",
+    "texto": "Hay una palabra que en mi comisaría ya no soportamos: desconocidas. El martes, el jurado de Elísabet Stráid da su veredicto, el de siempre: persona o personas desconocidas, sin nombre.",
     "drama": 0.7,
     "fondo": {
      "lugar": "interior",
@@ -867,7 +867,7 @@
    },
    {
     "dia": 7,
-    "texto": "Ella no me pregunta por los crímenes. Solo me pide una cosa cada noche, antes de salir: que vuelva a casa. Y yo siempre le digo que sí.",
+    "texto": "Ella no me pregunta por los crímenes. Solo me pide una cosa cada noche, antes de salir: que vuelva a casa. Y yo siempre le prometo que volveré.",
     "drama": 0.5,
     "personajes": [
      {
@@ -971,7 +971,7 @@
    },
    {
     "dia": 9,
-    "texto": "Domingo. Las campanas de Cráist Chorch suenan sobre el barrio. Y los periódicos de medio penique siguen sacando cartas que dicen ser del asesino. Casi todas son falsas.",
+    "texto": "Es domingo, y las campanas de Cráist Chorch suenan sobre el barrio. Y los periódicos de medio penique siguen sacando cartas que dicen ser del asesino. Casi todas son falsas.",
     "drama": 0.6,
     "fondo": {
      "lugar": "calle",
@@ -1622,7 +1622,7 @@
    },
    {
     "dia": 21,
-    "texto": "Casi a mediodía llega el inspector Frédrik Ábberlain, de Escótland Iard. Le aconsejan esperar a los sabuesos. Esperamos. Los perros nunca llegan.",
+    "texto": "Casi a mediodía llega el inspector Frédrik Ábberlain, de Escótland Iard. Le aconsejan esperar a los sabuesos, y eso hacemos. Pero los perros nunca llegan.",
     "drama": 0.75,
     "personajes": [
      {
@@ -1787,7 +1787,7 @@
    },
    {
     "dia": 23,
-    "texto": "Domingo. Dórset Strit se llena de curiosos. Las mujeres del patio hablan de Méri Yéin, la que cantaba de noche. Joven, irlandesa o galesa, según quién lo cuente.",
+    "texto": "Es domingo, y Dórset Strit se llena de curiosos. Las mujeres del patio hablan de Méri Yéin, la que cantaba de noche. Joven, irlandesa o galesa, según quién lo cuente.",
     "drama": 0.6,
     "personajes": [
      {
@@ -1825,7 +1825,7 @@
    },
    {
     "dia": 24,
-    "texto": "Lunes. La vista del forense dura un solo día, en el ayuntamiento de Shórdich. Veredicto: asesinato por persona o personas desconocidas. Esa palabra, de nuevo.",
+    "texto": "Lunes. La vista del forense dura un solo día, en el ayuntamiento de Shórdich. Veredicto: asesinato por persona o personas desconocidas. Y otra vez aparece esa palabra.",
     "drama": 0.65,
     "fondo": {
      "lugar": "calle",
