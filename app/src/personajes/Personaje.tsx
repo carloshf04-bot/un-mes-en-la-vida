@@ -77,8 +77,14 @@ export const calcularPose = (accion: Accion, f: number, semilla: number, fase?: 
     case "cargar":
       return { ...p, hD: 25, cD: 95, hI: -25, cI: -95, incl: -3 };
     case "asustado": {
+      // encogido: brazos recogidos delante del pecho, hombros arriba, temblor
       const tr = Math.sin(t * 40) * 3;
-      return { ...p, hD: -140, cD: 60, hI: 140, cI: -60, x: tr, cabeza: -6, y: 4 };
+      return { ...p, hD: -35, cD: -120, hI: 35, cI: 120, x: tr, cabeza: 8, y: 8, incl: 5 };
+    }
+    case "agachado": {
+      // de rodillas a cubierto (trinchera, sacos terreros), con la cabeza gacha
+      const r = Math.sin(t * 1.7) * 2;
+      return { ...p, pD: -88, rD: 88, pI: 0, rI: 90, y: MUSLO - 6, incl: 10 + r, hD: -50, cD: -40, hI: -30, cI: -55, cabeza: 12 };
     }
     case "dormir":
       return { ...p, y: 0, cabeza: 0 };

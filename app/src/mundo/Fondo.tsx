@@ -433,7 +433,7 @@ const Particulas: React.FC<{ clima: Clima; f: number }> = ({ clima, f }) => {
     return (
       <g>
         {[0, 1, 2, 3, 4].map((i) => (
-          <ellipse key={i} cx={((f * (1.2 + i * 0.4) + i * 500) % (MW + 1400)) - 700} cy={HORIZONTE - 80 + i * 110} rx={800} ry={110} fill="#e8eef5" opacity={0.16} />
+          <ellipse key={i} cx={((f * (1.2 + i * 0.4) + i * 500) % (MW + 1400)) - 700} cy={HORIZONTE - 80 + i * 110} rx={800} ry={110} fill="#e8eef5" opacity={0.14} />
         ))}
       </g>
     );
@@ -589,6 +589,16 @@ export const DibujarFondo: React.FC<{ fondo: Fondo; f: number; dur: number; id: 
       {props.filter((p) => p.detras !== false && (fondo.lugar === "interior" || (!LEJANOS.includes(p.tipo) && !MEDIOS[p.tipo]))).map((p, i) => (
         <g key={i} transform={`translate(${xMundo(p.x, k)} ${SUELO - 20}) scale(${p.escala})`}><Prop tipo={p.tipo} f={f} noche={noche} /></g>
       ))}
+      {fondo.clima === "niebla" && fondo.lugar !== "interior" && (
+        // velo de niebla DETRÁS de los personajes: apaga cielo, sol, lejanías y decorados
+        <g>
+          <rect x={0} y={0} width={MW} height={MH} fill="#c9d1d8" opacity={0.38} />
+          <rect x={0} y={HORIZONTE - 300} width={MW} height={480} fill="#dfe5ea" opacity={0.3} />
+          {[0, 1, 2].map((i) => (
+            <ellipse key={i} cx={((f * (0.8 + i * 0.3) + i * 700) % (MW + 1400)) - 700} cy={SUELO - 120 + i * 60} rx={900} ry={90} fill="#eef2f5" opacity={0.3} />
+          ))}
+        </g>
+      )}
     </g>
   );
 };

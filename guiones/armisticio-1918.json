@@ -197,7 +197,7 @@
           {
             "quien": "emile",
             "x": 0.45,
-            "accion": "asustado",
+            "accion": "agachado",
             "emocion": "miedo",
             "mirar": -1
           }
@@ -211,7 +211,7 @@
           {
             "quien": "emile",
             "x": 0.35,
-            "accion": "hablar",
+            "accion": "agachado",
             "emocion": "miedo",
             "mirar": -1
           }
@@ -365,18 +365,10 @@
         "personajes": [
           {
             "quien": "emile",
-            "x": 0.45,
+            "x": 0.3,
             "accion": "pensar",
             "emocion": "triste",
             "mirar": -1
-          },
-          {
-            "quien": "madre",
-            "x": -0.2,
-            "accion": "quieto",
-            "emocion": "triste",
-            "mirar": 1,
-            "habla": false
           }
         ],
         "camara": "cerca"
@@ -1508,7 +1500,7 @@
           {
             "quien": "emile",
             "x": 0.3,
-            "accion": "asustado",
+            "accion": "agachado",
             "emocion": "miedo",
             "mirar": -1
           }
@@ -1523,7 +1515,7 @@
           {
             "quien": "emile",
             "x": 0.3,
-            "accion": "sentado",
+            "accion": "agachado",
             "emocion": "cansado",
             "mirar": -1
           }
@@ -1564,18 +1556,10 @@
         "personajes": [
           {
             "quien": "foch",
-            "x": -0.4,
+            "x": 0.0,
             "accion": "escribir",
             "emocion": "neutral",
             "mirar": 1,
-            "habla": false
-          },
-          {
-            "quien": "erzberger",
-            "x": 0.4,
-            "accion": "escribir",
-            "emocion": "triste",
-            "mirar": -1,
             "habla": false
           }
         ],
@@ -1609,7 +1593,7 @@
           {
             "quien": "emile",
             "x": 0.35,
-            "accion": "asustado",
+            "accion": "agachado",
             "emocion": "miedo",
             "mirar": -1
           }
