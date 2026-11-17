@@ -235,7 +235,7 @@
         "camara": "lenta"
       },
       {
-        "texto": "Me llamo Charls Dáruin y tengo cincuenta años, una salud de papel y un secreto que he guardado durante veinte años: las especies no son fijas. Cambian.",
+        "texto": "Me llamo Charls Dáruin y tengo cincuenta años, una salud de papel y un secreto que he guardado durante veinte años: las especies no son fijas, sino que cambian con el tiempo.",
         "drama": 0.65,
         "personajes": [
           {
@@ -1075,7 +1075,7 @@
       },
       {
         "dia": 17,
-        "texto": "Viernes, once de noviembre. Es día de cartas. Escribo a Fólkoner, y a Ása Grei y a Ágasi, al otro lado del mar. Pero la carta que más me cuesta es otra.",
+        "texto": "Viernes, once de noviembre, día de cartas. Escribo a Fólkoner, y a Ása Grei y a Ágasi, al otro lado del mar. Pero la carta que más me cuesta es otra.",
         "drama": 0.65,
         "personajes": [
           {
@@ -1566,7 +1566,7 @@
       },
       {
         "dia": 28,
-        "texto": "Martes, veintidós de noviembre. En Londres, Márri abre su venta de otoño. Los libreros piden más de mil quinientos ejemplares. Solo hay mil ciento noventa y dos.",
+        "texto": "Martes, veintidós de noviembre. En Londres, mi editor abre su venta de otoño. Los libreros piden más de mil quinientos ejemplares. Solo hay mil ciento noventa y dos.",
         "drama": 0.8,
         "fondo": {
           "lugar": "calle",
