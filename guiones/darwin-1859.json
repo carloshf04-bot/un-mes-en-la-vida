@@ -16,9 +16,9 @@
   "reparto": {
     "darwin": {
       "piel": "#eac3a6",
-      "pelo": "#a39a90",
-      "peinado": "calvo",
-      "barba": "ninguna",
+      "pelo": "#c2b9ae",
+      "peinado": "coronilla",
+      "barba": "patillas",
       "ropa": {
         "tipo": "traje",
         "color": "#1f1d1c",
@@ -128,7 +128,7 @@
       "piel": "#e2b48e",
       "pelo": "#3a2a1e",
       "peinado": "corto",
-      "barba": "corta",
+      "barba": "ninguna",
       "ropa": {
         "tipo": "camisa",
         "color": "#e6e2d8",
@@ -181,6 +181,21 @@
       },
       "sombrero": "ninguno",
       "gafas": true,
+      "zapatos": "#2a1f18"
+    },
+    "darwinviejo": {
+      "piel": "#eac3a6",
+      "pelo": "#e6e2da",
+      "peinado": "coronilla",
+      "barba": "larga",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#1f1d1c",
+        "color2": "#5a5a5e",
+        "detalle": "#efe9dc"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
       "zapatos": "#2a1f18"
     }
   },
@@ -1104,11 +1119,6 @@
             {
               "tipo": "palmera",
               "x": -1.25
-            },
-            {
-              "tipo": "🐢",
-              "x": -0.6,
-              "escala": 1.6
             }
           ]
         },
@@ -1136,7 +1146,27 @@
             "mirar": -1
           }
         ],
-        "camara": "lenta"
+        "camara": "lenta",
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "velero",
+              "x": 1.0
+            },
+            {
+              "tipo": "palmera",
+              "x": -1.25
+            },
+            {
+              "tipo": "🐢",
+              "x": -0.6,
+              "escala": 1.6
+            }
+          ]
+        }
       },
       {
         "dia": 17,
@@ -1717,8 +1747,8 @@
         "personajes": [
           {
             "quien": "darwin",
-            "x": 0.2,
-            "accion": "celebrar",
+            "x": 0.55,
+            "accion": "hablar",
             "emocion": "sorpresa",
             "mirar": -1
           }
@@ -1923,7 +1953,7 @@
         },
         "personajes": [
           {
-            "quien": "darwin",
+            "quien": "darwinviejo",
             "x": 0.3,
             "accion": "quieto",
             "emocion": "neutral",
@@ -1937,7 +1967,7 @@
         "drama": 0.6,
         "personajes": [
           {
-            "quien": "darwin",
+            "quien": "darwinviejo",
             "x": 0.3,
             "accion": "hablar",
             "emocion": "neutral",
@@ -1951,7 +1981,7 @@
         "drama": 0.6,
         "personajes": [
           {
-            "quien": "darwin",
+            "quien": "darwinviejo",
             "x": 0.3,
             "accion": "saludar",
             "emocion": "feliz",

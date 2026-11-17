@@ -1,8 +1,8 @@
 export type Look = {
   piel: string;
   pelo: string;
-  peinado?: "corto" | "largo" | "calvo" | "mono" | "rizado" | "coleta" | "trenzas" | "rapado";
-  barba?: "ninguna" | "bigote" | "corta" | "larga";
+  peinado?: "corto" | "largo" | "calvo" | "mono" | "rizado" | "coleta" | "trenzas" | "rapado" | "coronilla";
+  barba?: "ninguna" | "bigote" | "corta" | "larga" | "patillas";
   ropa: {
     tipo: "camisa" | "tunica" | "vestido" | "abrigo" | "mono" | "armadura" | "traje" | "bata" | "uniforme" | "harapos" | "galabiya" | "tilma" | "cuadros";
     color: string; // parte de arriba

@@ -102,8 +102,8 @@ La voz (Chatterbox, narrador de España, con `"velocidad": 1.15`) lee unas **120
 
 ```jsonc
 { "piel": "#e3ad84", "pelo": "#3a2a1e",
-  "peinado": "corto|largo|calvo|mono|rizado|coleta|trenzas|rapado",
-  "barba": "ninguna|bigote|corta|larga",
+  "peinado": "corto|largo|calvo|mono|rizado|coleta|trenzas|rapado|coronilla",   // coronilla: calvo arriba con mechones a los lados
+  "barba": "ninguna|bigote|corta|larga|patillas",   // patillas: largas hasta la mandíbula, sin barbilla
   "ropa": { "tipo": "camisa|tunica|vestido|abrigo|mono|armadura|traje|bata|uniforme|harapos|galabiya|tilma|cuadros", "color": "#", "color2": "#", "detalle": "#" },
   "sombrero": "ninguno|gorra|copa|ala|casco|corona|capucha|panuelo|espacial|boina|tricornio|yelmo|turbante|fez|salacot|orejeras|penacho|morrion", "colorSombrero": "#",
   "zombi": false, // infectado: ojos pálidos (con piel gris verdosa y acción "tambalear")

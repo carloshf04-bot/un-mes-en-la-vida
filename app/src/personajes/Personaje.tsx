@@ -175,6 +175,13 @@ const Pelo: React.FC<{ look: Look; capa: "atras" | "delante" }> = ({ look, capa 
   switch (p) {
     case "calvo":
       return null;
+    case "coronilla":
+      // calvo por arriba, con mechones encima de las orejas (Darwin, 1859)
+      return (
+        <g fill={c}>
+          {[-1, 1].map((s) => <path key={s} d={`M${s * 70} -46 Q${s * 98} -30 ${s * 92} 14 Q${s * 84} 30 ${s * 74} 18 Q${s * 80} -14 ${s * 62} -40Z`} />)}
+        </g>
+      );
     case "rapado":
       return <path d="M-80 -8 C-84 -98 84 -98 80 -8 Q40 -50 0 -52 Q-40 -50 -80 -8Z" fill={c} opacity={0.55} />;
     case "rizado":
@@ -352,7 +359,7 @@ const Cara: React.FC<{ look: Look; emocion: Emocion; boca: number; parpadeo: boo
             </g>
           )}
           <rect
-            x={-15} y={cejaY - 4} width={30} height={8} rx={4} fill={look.peinado === "calvo" ? oscurecer(piel, 0.35) : pelo}
+            x={-15} y={cejaY - (look.peinado === "coronilla" ? 8 : 4)} width={30} height={look.peinado === "coronilla" ? 14 : 8} rx={5} fill={look.peinado === "calvo" ? oscurecer(piel, 0.35) : pelo}
             transform={`rotate(${s * cejaAng} 0 ${cejaY})`}
           />
         </g>
@@ -365,7 +372,10 @@ const Cara: React.FC<{ look: Look; emocion: Emocion; boca: number; parpadeo: boo
       {(look.barba === "corta" || look.barba === "larga") && (
         <path d={look.barba === "larga" ? "M-74 8 Q-70 90 0 190 Q70 90 74 8 Q60 70 0 74 Q-60 70 -74 8Z" : "M-76 6 Q-70 92 0 96 Q70 92 76 6 Q60 66 0 70 Q-60 66 -76 6Z"} fill={pelo} />
       )}
-      {look.barba && look.barba !== "ninguna" && <path d="M-26 32 Q6 18 38 32 Q6 40 -26 32Z" fill={pelo} />}
+      {look.barba === "patillas" && [-1, 1].map((s) => (
+        <path key={`pt${s}`} d={`M${s * 80 + 6} -18 Q${s * 96 + 6} 40 ${s * 62 + 6} 92 Q${s * 44 + 6} 84 ${s * 54 + 6} 54 Q${s * 66 + 6} 20 ${s * 66 + 6} -18Z`} fill={pelo} />
+      ))}
+      {look.barba && look.barba !== "ninguna" && look.barba !== "patillas" && <path d="M-26 32 Q6 18 38 32 Q6 40 -26 32Z" fill={pelo} />}
       {/* boca */}
       <g transform="translate(6 46)">
         {boca > 0.08 ? (
