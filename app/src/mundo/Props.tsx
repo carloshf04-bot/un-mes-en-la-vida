@@ -21,7 +21,7 @@ export const PROPS_DISPONIBLES = [
   // Egipto, Reino Nuevo (Abidos 1270 a. C.)
   "barca", "yed",
   // Armero (1985)
-  "lodo",
+  "lodo", "barrizal",
 ] as const;
 
 const Brillo: React.FC<{ r: number; o: number; color?: string; cx?: number; cy?: number }> = ({ r, o, color = "#ffb347", cx = 0, cy = 0 }) => (
@@ -814,7 +814,7 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean }> = ({ ti
     case "helicoptero": {
       const x = ((f * 6) % 2600) - 1300;
       return (
-        <g transform={`translate(${x} ${-900 + Math.sin(f / 20) * 20})`}>
+        <g transform={`translate(${x} ${-640 + Math.sin(f / 20) * 20})`}>
           <ellipse cx={0} cy={0} rx={130} ry={60} fill="#3d4a3a" />
           <rect x={100} y={-15} width={220} height={22} fill="#3d4a3a" />
           <ellipse cx={-60} cy={-10} rx={50} ry={34} fill="#9fc3d6" opacity={0.8} />
@@ -1112,6 +1112,47 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean }> = ({ ti
               : <circle key={i} cx={x} cy={y} r={18 + (i % 4) * 10} fill={i % 2 ? "#7b746c" : "#5f5a54"} />;
           })}
           {Array.from({ length: 10 }).map((_, i) => <ellipse key={`e${i}`} cx={2080 + Math.sin(f / 5 + i) * 30} cy={-150 + i * 18} rx={40} ry={14} fill="#8c7258" opacity={0.7} />)}
+        </g>
+      );
+    }
+    case "barrizal": {
+      // Armero después del lahar: llanura de barro gris hasta el horizonte, con tejados, copas y tablas asomando.
+      // Ponlo el PRIMERO en props, con x 0; los personajes quedan de pie encima.
+      const borde = Array.from({ length: 25 }, (_, i) => `${-2400 + i * 200},${-178 + Math.sin(i * 1.7) * 6}`).join(" L");
+      const tejado = (x: number, y: number, w: number, r: number, c: string) => (
+        <g transform={`translate(${x} ${y}) rotate(${r})`}>
+          <polygon points={`${-w / 2},0 0,${-w * 0.42} ${w / 2},0`} fill={c} />
+          <polygon points={`${-w / 2},0 0,${-w * 0.42} ${w / 2},0`} fill="none" stroke="#3a2a20" strokeWidth={6} opacity={0.5} />
+          <rect x={-w / 2} y={-4} width={w} height={22} fill="#6e6458" />
+        </g>
+      );
+      const copa = (x: number, y: number, s: number) => (
+        <g transform={`translate(${x} ${y}) scale(${s})`}>
+          {[-60, -25, 15, 50].map((a, i) => <path key={i} d={`M0 0 Q${Math.sin(a / 57) * 90} -60 ${Math.sin(a / 57) * 170} ${-20 + Math.abs(a)}`} stroke="#5d6b45" strokeWidth={16} fill="none" strokeLinecap="round" />)}
+          <rect x={-8} y={0} width={16} height={30} fill="#5a4a3a" />
+        </g>
+      );
+      return (
+        <g>
+          <path d={`M-2400 700 L-2400 -178 L${borde} L2400 700Z`} fill="#857869" />
+          <path d={`M-2400 700 L-2400 -120 Q-1200 -150 0 -110 T2400 -130 L2400 700Z`} fill="#786b5d" />
+          <path d={`M-2400 700 L-2400 -40 Q-1000 -70 300 -30 T2400 -50 L2400 700Z`} fill="#6c5f52" />
+          {Array.from({ length: 16 }).map((_, i) => <path key={i} d={`M${-2300 + i * 300} ${-150 + (i % 4) * 45} q120 -10 240 0`} stroke="#9a8d7c" strokeWidth={5} fill="none" opacity={0.6} />)}
+          {tejado(-1500, -168, 260, -6, "#7a4a36")}
+          {tejado(-720, -150, 200, 8, "#8a5a3e")}
+          {tejado(820, -160, 240, -10, "#7a4a36")}
+          {tejado(1650, -150, 280, 5, "#6e4434")}
+          {copa(-1150, -170, 0.9)}
+          {copa(1250, -175, 1.1)}
+          {[-1900, -300, 450, 2000].map((x, i) => (
+            <g key={i} transform={`translate(${x} ${-150 + (i % 2) * 30}) rotate(${(i * 23) % 40 - 20})`}>
+              <rect x={-14} y={-130} width={28} height={130} fill="#4f4136" />
+              <path d="M0 -130 l-30 -40 M0 -100 l35 -35" stroke="#4f4136" strokeWidth={10} />
+            </g>
+          ))}
+          {[-1000, -200, 600, 1350].map((x, i) => <rect key={`t${i}`} x={x} y={-60 + (i % 2) * 70} width={260} height={20} rx={6} fill="#9a7b55" transform={`rotate(${(i * 17) % 20 - 10} ${x + 130} ${-50 + (i % 2) * 70})`} />)}
+          <rect x={-260} y={-8} width={520} height={26} rx={8} fill="#a8875e" />
+          <rect x={-240} y={-8} width={480} height={6} fill="#c4a374" opacity={0.6} />
         </g>
       );
     }
