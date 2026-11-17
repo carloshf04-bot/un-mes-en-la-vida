@@ -3,7 +3,7 @@
 // Salida: salida/<slug>/planos/escena-NNN.png y hojas de 12 (hoja-N.png) para mirarlas con Read.
 import { bundle } from "@remotion/bundler";
 import { renderStill, selectComposition } from "@remotion/renderer";
-import { readFileSync, mkdirSync, existsSync } from "node:fs";
+import { readFileSync, mkdirSync, existsSync, rmSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -47,4 +47,5 @@ for (let h = 0; h * 12 < hechos.length; h++) {
   if (grupo.length === 1) { execFileSync("cp", [grupo[0], join(dir, `hoja-${h + 1}.png`)]); continue; }
   execFileSync("ffmpeg", args);
 }
+rmSync(serveUrl, { recursive: true, force: true }); // el paquete pesa y llena /tmp
 console.log(`\n🖼️  ${hechos.length} planos en ${dir}`);

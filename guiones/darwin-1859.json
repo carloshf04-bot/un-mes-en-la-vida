@@ -247,7 +247,7 @@
           },
           {
             "quien": "banero",
-            "x": -0.55,
+            "x": -0.4,
             "accion": "quieto",
             "emocion": "neutral",
             "mirar": 1,
@@ -1685,8 +1685,8 @@
         "personajes": [
           {
             "quien": "darwin",
-            "x": 0.3,
-            "accion": "dormir",
+            "x": 0.1,
+            "accion": "sentado",
             "emocion": "cansado",
             "mirar": -1,
             "habla": false
