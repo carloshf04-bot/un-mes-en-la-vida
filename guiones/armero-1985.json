@@ -724,7 +724,7 @@
    {
     "dia": 12,
     "corte": true,
-    "texto": "Miércoles, seis de noviembre. Un comando del eme diecinueve se toma el Palacio de Justicia, en Bogotá. Todo el país se queda pegado a la radio.",
+    "texto": "Es miércoles, seis de noviembre. Un comando guerrillero se toma el Palacio de Justicia, en Bogotá. Todo el país mira a la capital, pegado a la radio.",
     "drama": 0.75,
     "fondo": {
      "lugar": "interior",
@@ -1640,7 +1640,7 @@
    },
    {
     "dia": 21,
-    "texto": "Viernes. En Lérida pegan listas de heridos en la pared. Leo nombres durante una hora, con el dedo temblando, hasta que encuentro el suyo escrito a mano. Está viva.",
+    "texto": "Ese viernes, en Lérida, pegan en la pared listas de heridos. Leo nombres durante una hora, con el dedo temblando, hasta que encuentro el suyo, escrito a mano junto a una palabra: viva.",
     "drama": 0.85,
     "fondo": {
      "lugar": "interior",
@@ -1844,7 +1844,7 @@
    },
    {
     "dia": 23,
-    "texto": "Domingo, diecisiete. Por fin me dejan entrar al hospital y la veo, sentada en una cama. Lus Marina me agarra la mano y no habla durante mucho rato.",
+    "texto": "El domingo diecisiete, por fin, me dejan entrar al hospital y la veo sentada en una cama. Me agarra la mano con fuerza y no habla durante mucho rato.",
     "drama": 0.7,
     "fondo": {
      "lugar": "interior",
