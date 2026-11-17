@@ -20,6 +20,8 @@ export const PROPS_DISPONIBLES = [
   "granja-fuego", "charco", "puesto-mexica",
   // Egipto, Reino Nuevo (Abidos 1270 a. C.)
   "barca", "yed",
+  // Armero (1985)
+  "lodo",
 ] as const;
 
 const Brillo: React.FC<{ r: number; o: number; color?: string; cx?: number; cy?: number }> = ({ r, o, color = "#ffb347", cx = 0, cy = 0 }) => (
@@ -1092,6 +1094,27 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean }> = ({ ti
           })}
         </g>
       );
+    case "lodo": {
+      // avalancha de lodo (lahar): entra desde la izquierda y lo cubre todo hasta media altura.
+      // Ponlo el ÚLTIMO en props, con x 0, para que tape la parte baja de casas y árboles.
+      const dx = Math.min(0, -3200 + f * 14);
+      const ola = (i: number) => Math.sin(f / 9 + i * 1.3) * 18;
+      const cresta = Array.from({ length: 21 }, (_, i) => `${-2000 + i * 200},${-260 + ola(i) - (i === 20 ? 80 : 0)}`).join(" L");
+      return (
+        <g transform={`translate(${dx} 0)`}>
+          <path d={`M-2000 320 L-2000 40 L${cresta} L2150 -120 Q2250 -40 2300 40 L2300 320Z`} fill="#6b5240" />
+          <path d={`M-2000 40 L${Array.from({ length: 21 }, (_, i) => `${-2000 + i * 200},${-170 + ola(i + 3)}`).join(" L")} L2100 320 L-2000 320Z`} fill="#584232" />
+          {Array.from({ length: 14 }).map((_, i) => {
+            const x = -1900 + i * 290 + ((f * 3 + i * 70) % 120);
+            const y = -200 + ((i * 53) % 140) + Math.sin(f / 7 + i) * 10;
+            return i % 3 === 0
+              ? <rect key={i} x={x - 90} y={y - 12} width={180} height={24} rx={10} fill="#8a6a44" transform={`rotate(${(i * 37) % 50 - 25 + Math.sin(f / 11 + i) * 8} ${x} ${y})`} />
+              : <circle key={i} cx={x} cy={y} r={18 + (i % 4) * 10} fill={i % 2 ? "#7b746c" : "#5f5a54"} />;
+          })}
+          {Array.from({ length: 10 }).map((_, i) => <ellipse key={`e${i}`} cx={2080 + Math.sin(f / 5 + i) * 30} cy={-150 + i * 18} rx={40} ry={14} fill="#8c7258" opacity={0.7} />)}
+        </g>
+      );
+    }
     case "charco":
       return (
         <g>
