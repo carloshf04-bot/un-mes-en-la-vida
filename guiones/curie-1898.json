@@ -1,0 +1,2597 @@
+{
+  "slug": "curie-1898",
+  "titulo": "Marie Curie",
+  "lugar": "París",
+  "epoca": "Diciembre de 1898",
+  "categoria": "persona",
+  "voz": "narradora-es",
+  "drama": 0.65,
+  "velocidad": 1.15,
+  "musica": "nostalgia",
+  "paleta": {
+    "acento": "#7fa7d9",
+    "texto": "#f2ede3",
+    "fondo": "#14171f",
+    "papel": "#ece4d2"
+  },
+  "reparto": {
+    "marie": {
+      "piel": "#f1d9c6",
+      "pelo": "#c9b48a",
+      "peinado": "mono",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#1f2433",
+        "color2": "#1f2433",
+        "detalle": "#efeae0"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "zapatos": "#1c1714",
+      "voz": "narradora-es"
+    },
+    "marievieja": {
+      "piel": "#ead2c0",
+      "pelo": "#d2cec6",
+      "peinado": "mono",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#18181c",
+        "color2": "#18181c",
+        "detalle": "#d9d4ca"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "zapatos": "#1c1714",
+      "voz": "narradora-es"
+    },
+    "pierre": {
+      "piel": "#e9cdb5",
+      "pelo": "#5a4232",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#1d1c1e",
+        "color2": "#3b3a3d",
+        "detalle": "#efeae0"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 1.08,
+      "zapatos": "#1a1614"
+    },
+    "irene": {
+      "piel": "#f6e2d2",
+      "pelo": "#e2cc98",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#f4efe6",
+        "color2": "#f4efe6",
+        "detalle": "#d9cfbf"
+      },
+      "sombrero": "ninguno",
+      "altura": 0.45,
+      "zapatos": "#8a7a66",
+      "voz": "narradora-es"
+    },
+    "bemont": {
+      "piel": "#e6c3a6",
+      "pelo": "#2e2620",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#3a2e26",
+        "color2": "#2c2520",
+        "detalle": "#e8e2d6"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "zapatos": "#1e1a16"
+    },
+    "becquerel": {
+      "piel": "#e8c8ae",
+      "pelo": "#2a2420",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#141416",
+        "color2": "#26262a",
+        "detalle": "#efeae0"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "zapatos": "#121212"
+    },
+    "demarcay": {
+      "piel": "#e4c2a4",
+      "pelo": "#3a3028",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#4a4a4e",
+        "color2": "#36363a",
+        "detalle": "#e8e2d6"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "zapatos": "#1a1a1a"
+    },
+    "abuelo": {
+      "piel": "#e8c6aa",
+      "pelo": "#e6e3dc",
+      "peinado": "coronilla",
+      "barba": "larga",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#1e1e22",
+        "color2": "#2e2e32",
+        "detalle": "#efeae0"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "zapatos": "#1a1614"
+    },
+    "academico": {
+      "piel": "#e6c4a8",
+      "pelo": "#b9b4aa",
+      "peinado": "coronilla",
+      "barba": "larga",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#1a1a1c",
+        "color2": "#2a2a2e",
+        "detalle": "#efeae0"
+      },
+      "sombrero": "ninguno",
+      "gafas": true,
+      "zapatos": "#121212"
+    }
+  },
+  "largo": {
+    "escenas": [
+      {
+        "corte": true,
+        "texto": "Tengo treinta y un años, una hija de quince meses y ni un franco de sueldo. Y en este almacén helado, dentro de un puñado de polvo blanco, se esconde algo que nadie ha visto jamás.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.2
+            },
+            {
+              "tipo": "estufa",
+              "x": -0.7
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "⚗️",
+              "x": 0.9,
+              "escala": 0.3
+            },
+            {
+              "tipo": "📓",
+              "x": 1.15,
+              "escala": 0.25
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.4,
+            "accion": "pensar",
+            "emocion": "sorpresa",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Me llamo Marí Curí, aunque nací en Varsovia como María Esklodófska. Este mes, junto a mi marido, voy a encontrar un elemento nuevo, el radio, y a ponerle nombre.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.35,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "pierre",
+            "x": -0.4,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Las fechas, las cifras y las notas a la Academia de Ciencias son reales. Lo que pienso y las escenas de cada día, lo imaginamos. Y todo empieza con una sospecha que no me deja dormir.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "atardecer",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.2
+            },
+            {
+              "tipo": "farola",
+              "x": -0.6
+            },
+            {
+              "tipo": "casa",
+              "x": 1.25
+            },
+            {
+              "tipo": "carro",
+              "x": 1.5,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.35,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "entra": "der"
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 1,
+        "corte": true,
+        "capitulo": "Algo se esconde en el bario",
+        "texto": "Es miércoles, treinta de noviembre de mil ochocientos noventa y ocho. Mi mundo cabe en un almacén helado de la calle Lomón, en la Escuela de Física y Química de París.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "París",
+          "detalle": "Escuela de Física y Química, rue Lhomond · 1898",
+          "icono": "📍"
+        }
+      },
+      {
+        "dia": 1,
+        "texto": "Nos lo han prestado: un cuarto pequeño en la planta baja, frío, húmedo y acristalado. Aquí mido lo invisible.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.2
+            },
+            {
+              "tipo": "estufa",
+              "x": -0.7
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "⚗️",
+              "x": 0.9,
+              "escala": 0.3
+            },
+            {
+              "tipo": "📓",
+              "x": 1.15,
+              "escala": 0.25
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.3,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1
+          },
+          {
+            "quien": "pierre",
+            "x": -0.45,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 2,
+        "texto": "Son unos rayos que salen de ciertas piedras y vuelven conductor el aire. Los descubrió Anrí Becrél hace dos años, en las sales de uranio.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.35
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.95
+            },
+            {
+              "tipo": "maquina",
+              "x": 1.2,
+              "escala": 0.5
+            },
+            {
+              "tipo": "⏱️",
+              "x": 0.8,
+              "escala": 0.25
+            },
+            {
+              "tipo": "⚖️",
+              "x": -0.95,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.25,
+            "accion": "senalar",
+            "emocion": "neutral",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 2,
+        "texto": "Yo los mido con un aparato de Piér y de su hermano: un electrómetro y un cristal de cuarzo. Pongo el polvo en un plato de metal y cuento los segundos.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.3,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 2,
+        "corte": true,
+        "texto": "Si me tiembla la mano, se pierde todo. No miro placas ni colores: miro un punto de luz sobre una escala, sin respirar.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.2,
+            "accion": "pensar",
+            "emocion": "cansado",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 3,
+        "texto": "En primavera vi algo raro. La pechblenda, un mineral negro como la brea, es más activa que el propio uranio. Dentro tiene que haber algo desconocido.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "atardecer",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": 1.25
+            },
+            {
+              "tipo": "mesa",
+              "x": -1.0
+            },
+            {
+              "tipo": "🪨",
+              "x": -1.1,
+              "escala": 0.25
+            },
+            {
+              "tipo": "⚗️",
+              "x": -0.85,
+              "escala": 0.3
+            },
+            {
+              "tipo": "estufa",
+              "x": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.35,
+            "accion": "cargar",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "objeto": "🪨"
+          },
+          {
+            "quien": "pierre",
+            "x": -0.45,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 3,
+        "texto": "En julio encontramos un primer elemento y lo llamamos polonio, por mi país. Polonia no existe en los mapas: está repartida entre Rusia, Prusia y Austria.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.3,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Proponemos llamarlo polonio, del nombre del país de origen de uno de nosotros.",
+          "firma": "Nota a la Academia de Ciencias, 18 de julio de 1898",
+          "icono": "📜"
+        }
+      },
+      {
+        "dia": 3,
+        "texto": "Ahora tenemos otra pista. La parte que sale con el bario es demasiado activa, y el bario normal no emite nada. Algo se esconde ahí dentro.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.35,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": -1
+          },
+          {
+            "quien": "pierre",
+            "x": -0.4,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 4,
+        "corte": true,
+        "texto": "En esta escuela nadie descansa el sábado. En el cuaderno se alternan tres letras: la de Piér, la mía y la de Gustáv Bemón, el jefe de química.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.2
+            },
+            {
+              "tipo": "estufa",
+              "x": -0.7
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "⚗️",
+              "x": 0.9,
+              "escala": 0.3
+            },
+            {
+              "tipo": "📓",
+              "x": 1.15,
+              "escala": 0.25
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.0,
+            "accion": "escribir",
+            "emocion": "neutral",
+            "mirar": 1
+          },
+          {
+            "quien": "pierre",
+            "x": -0.6,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "bemont",
+            "x": 0.7,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 4,
+        "texto": "Volvemos a casa de noche, entre farolas de gas, con las manos oliendo a ácido. Mi marido empuja la bicicleta y yo repito números en la cabeza.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.3
+            },
+            {
+              "tipo": "farola",
+              "x": -0.75
+            },
+            {
+              "tipo": "farola",
+              "x": 1.0
+            },
+            {
+              "tipo": "casa",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.35,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": -1
+          },
+          {
+            "quien": "pierre",
+            "x": -0.35,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 5,
+        "texto": "Domingo. Mi hija Irén ya anda y no va a gatas. Lo apunté en octubre en su cuaderno, el mismo donde anoto su peso y cada diente nuevo.",
+        "drama": 0.45,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "papel",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.1
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.35
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.95
+            },
+            {
+              "tipo": "📓",
+              "x": 0.9,
+              "escala": 0.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.35,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "irene",
+            "x": -0.3,
+            "accion": "caminar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Irène anda muy bien y ya no va a gatas.",
+          "firma": "Cuaderno de Marie sobre Irène, 17 de octubre",
+          "icono": "📓"
+        }
+      },
+      {
+        "dia": 5,
+        "texto": "Mi hermana Brónia, la que me trajo a París, se ha ido este otoño a Sakopáne para abrir un sanatorio. Sin ella, esta ciudad pesa más.",
+        "drama": 0.5,
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.3,
+            "accion": "escribir",
+            "emocion": "triste",
+            "mirar": 1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 6,
+        "corte": true,
+        "texto": "Francia está partida en dos, y no por la ciencia. Es lunes, y en los periódicos solo se habla del caso Dréifus: el coronel Picár pide a los jueces que decidan quién debe juzgarlo.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.25
+            },
+            {
+              "tipo": "farola",
+              "x": 0.85
+            },
+            {
+              "tipo": "casa",
+              "x": 1.3
+            },
+            {
+              "tipo": "puesto",
+              "x": -0.7
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "pierre",
+            "x": -0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "📰",
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 7,
+        "texto": "Martes, cuentas de la casa. Mi marido cobra un sueldo modesto y yo no cobro nada. El premio Guégner de este verano nos ayuda con el material.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "papel",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estufa",
+              "x": -1.05
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.95
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.95,
+              "escala": 0.3
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.4
+            },
+            {
+              "tipo": "cama",
+              "x": -1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.3,
+            "accion": "escribir",
+            "emocion": "cansado",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "0 francos",
+          "etiqueta": "cobra Marie por su investigación en 1898",
+          "icono": "📓"
+        }
+      },
+      {
+        "dia": 8,
+        "capitulo": "Novecientas veces",
+        "texto": "Miércoles, siete de diciembre. Disuelvo, espero a que se formen cristales, los separo y mido cada parte. Y otra vez. Y otra. Así se caza un fantasma.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.3
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "🪔",
+              "x": 0.85,
+              "escala": 0.3
+            },
+            {
+              "tipo": "📓",
+              "x": 1.15,
+              "escala": 0.25
+            },
+            {
+              "tipo": "estufa",
+              "x": -0.75
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.3,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 8,
+        "texto": "Los primeros cristales arrastran más actividad que el resto. Cada vuelta, el polvo es un poco más extraño, como si algo despertara dentro.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.3,
+            "accion": "pensar",
+            "emocion": "sorpresa",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 9,
+        "corte": true,
+        "texto": "Por estos días, Viena nos ofrece un regalo: cien kilos de residuos de las minas de Bohemia, gracias a un geólogo. Gratis.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "atardecer",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.2
+            },
+            {
+              "tipo": "farola",
+              "x": -0.6
+            },
+            {
+              "tipo": "casa",
+              "x": 1.25
+            },
+            {
+              "tipo": "carro",
+              "x": 1.5,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.4,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "pierre",
+            "x": -0.35,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1,
+            "objeto": "✉️",
+            "habla": false
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "100 kg",
+          "etiqueta": "de residuos de pechblenda que Austria les ofrece gratis (diciembre de 1898)",
+          "icono": "🪨"
+        }
+      },
+      {
+        "dia": 10,
+        "texto": "La escuela huele a ácido y a huevo podrido, el gas que usamos para separar metales. Nadie lleva guantes. Nadie sabe que hagan falta.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.2
+            },
+            {
+              "tipo": "estufa",
+              "x": -0.7
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "⚗️",
+              "x": 0.9,
+              "escala": 0.3
+            },
+            {
+              "tipo": "📓",
+              "x": 1.15,
+              "escala": 0.25
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.35,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1
+          },
+          {
+            "quien": "bemont",
+            "x": -0.45,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 11,
+        "texto": "Sábado. Algunas muestras ya son cientos de veces más activas que el uranio. Mi marido deja la pluma y me mira sin decir nada.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1
+          },
+          {
+            "quien": "pierre",
+            "x": -0.35,
+            "accion": "sentado",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "objeto": "✒️",
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 12,
+        "texto": "Domingo en casa del abuelo, a las afueras de París. Mi hija tiene quince meses, balbucea sus primeras sílabas y se ríe con cualquier mueca.",
+        "drama": 0.45,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.1,
+              "escala": 1.3,
+              "detras": true
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.25
+            },
+            {
+              "tipo": "valla",
+              "x": -0.4
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.6
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "irene",
+            "x": -0.05,
+            "accion": "caminar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "abuelo",
+            "x": -0.6,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 12,
+        "texto": "Imagino que el abuelo Eyén, médico, me pregunta qué buscamos. Algo que todavía no tiene nombre, le digo.",
+        "drama": 0.5,
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.4,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "abuelo",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 14,
+        "corte": true,
+        "texto": "Novecientas veces. Es martes, trece de diciembre, y nuestros cloruros son novecientas veces más activos que el uranio. El bario, por sí solo, no emite nada.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.3
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "🪔",
+              "x": 0.85,
+              "escala": 0.3
+            },
+            {
+              "tipo": "📓",
+              "x": 1.15,
+              "escala": 0.25
+            },
+            {
+              "tipo": "estufa",
+              "x": -0.75
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.3,
+            "accion": "celebrar",
+            "emocion": "sorpresa",
+            "mirar": -1
+          },
+          {
+            "quien": "pierre",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "900",
+          "etiqueta": "veces más activos que el uranio: los cloruros de diciembre",
+          "icono": "⚗️"
+        }
+      },
+      {
+        "dia": 14,
+        "texto": "Pero la química sola no basta. Para que nos crean, ese elemento tiene que aparecer en la luz. Y en julio, esa prueba nos falló.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.3,
+            "accion": "pensar",
+            "emocion": "miedo",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 15,
+        "capitulo": "La raya violeta",
+        "texto": "Miércoles, catorce de diciembre. En julio, el espectroscopista Eyén Demarsé no vio ninguna raya nueva del polonio. Sin raya, muchos químicos no se lo creen.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.3
+            },
+            {
+              "tipo": "farola",
+              "x": -0.75
+            },
+            {
+              "tipo": "farola",
+              "x": 1.0
+            },
+            {
+              "tipo": "casa",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.35,
+            "accion": "caminar",
+            "emocion": "miedo",
+            "mirar": -1
+          },
+          {
+            "quien": "pierre",
+            "x": -0.35,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 15,
+        "texto": "Cada elemento deja en la luz su firma, unas rayas de colores. Si este tampoco deja ninguna, un año de trabajo se quedará en sospecha.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1
+          },
+          {
+            "quien": "pierre",
+            "x": -0.35,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 17,
+        "corte": true,
+        "texto": "Una sola oportunidad. El viernes llevamos la muestra más activa al laboratorio privado de Demarsé. Dicen que lee un espectro como la partitura de una ópera.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.3
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "telescopio",
+              "x": 1.05,
+              "escala": 0.5
+            },
+            {
+              "tipo": "🔍",
+              "x": 0.8,
+              "escala": 0.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.35,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "⚗️"
+          },
+          {
+            "quien": "demarcay",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Laboratorio de Demarçay",
+          "detalle": "Bulevar Berthier, París · diciembre de 1898",
+          "icono": "🔍"
+        }
+      },
+      {
+        "dia": 17,
+        "texto": "Es un hombre callado y preciso. Le entrego el frasco con el mismo cuidado con el que cojo a mi hija, y salgo sin saber nada.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1
+          },
+          {
+            "quien": "demarcay",
+            "x": -0.35,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 18,
+        "texto": "Sábado. Esperar es peor que trabajar. Imagino lo que pienso esa noche: ¿y si no hay raya, como en julio? ¿Y si nos hemos equivocado?",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "papel",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estufa",
+              "x": -1.05
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.95
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.95,
+              "escala": 0.3
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.4
+            },
+            {
+              "tipo": "cama",
+              "x": -1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.3,
+            "accion": "sentado",
+            "emocion": "miedo",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 19,
+        "texto": "Domingo en casa. Mi hija juega a mis pies y yo repaso columnas de números que me sé de memoria, buscando un error que no aparece.",
+        "drama": 0.5,
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.35,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1
+          },
+          {
+            "quien": "irene",
+            "x": -0.3,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 20,
+        "corte": true,
+        "texto": "Una raya violeta. Una sola. En estos días llega por fin la respuesta de Demarsé, y esa raya no pertenece a ningún elemento conocido.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "amanecer",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.25
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "⚗️",
+              "x": 0.9,
+              "escala": 0.3
+            },
+            {
+              "tipo": "✉️",
+              "x": 1.15,
+              "escala": 0.25
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.35,
+            "accion": "celebrar",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "objeto": "✉️"
+          },
+          {
+            "quien": "pierre",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 20,
+        "texto": "Y hay más: cuanto más activa es la muestra, más intensa es la raya. No es un error. Es la firma de algo nuevo.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.3,
+            "accion": "senalar",
+            "emocion": "feliz",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1",
+          "etiqueta": "raya violeta que no es de ningún elemento conocido",
+          "icono": "🔍"
+        }
+      },
+      {
+        "dia": 21,
+        "texto": "Martes, veinte de diciembre. Última anotación del cuaderno antes de publicar: medimos el peso atómico de un bario doscientas veintisiete veces más activo que el uranio.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.3
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "🪔",
+              "x": 0.85,
+              "escala": 0.3
+            },
+            {
+              "tipo": "📓",
+              "x": 1.15,
+              "escala": 0.25
+            },
+            {
+              "tipo": "estufa",
+              "x": -0.75
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.3,
+            "accion": "escribir",
+            "emocion": "neutral",
+            "mirar": 1
+          },
+          {
+            "quien": "pierre",
+            "x": -0.4,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 21,
+        "texto": "Sale casi igual que el del bario normal. Eso quiere decir que lo nuevo es una cantidad minúscula, escondida entre los cristales. Y aun así no deja de emitir.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.3,
+            "accion": "pensar",
+            "emocion": "sorpresa",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 21,
+        "corte": true,
+        "texto": "Una palabra lo cambia todo. Dicen que ese día mi marido escribe una palabra en el cuaderno, del latín rayo: el nombre de un elemento nuevo, el radio.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "pierre",
+            "x": -0.35,
+            "accion": "escribir",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 22,
+        "capitulo": "Un elemento nuevo",
+        "texto": "Miércoles. Algunos calendarios pondrán hoy el día del descubrimiento. Para mí no hay un día: hay meses de cristales, de números y de frío.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.25
+            },
+            {
+              "tipo": "farola",
+              "x": 0.85
+            },
+            {
+              "tipo": "casa",
+              "x": 1.3
+            },
+            {
+              "tipo": "puesto",
+              "x": -0.7
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.3,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 23,
+        "texto": "Jueves. Escribimos la nota con Gustáv Bemón: tres páginas. Cada frase se pesa como una muestra, porque la va a escuchar toda la Academia.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.2
+            },
+            {
+              "tipo": "estufa",
+              "x": -0.7
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "⚗️",
+              "x": 0.9,
+              "escala": 0.3
+            },
+            {
+              "tipo": "📓",
+              "x": 1.15,
+              "escala": 0.25
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.0,
+            "accion": "escribir",
+            "emocion": "neutral",
+            "mirar": 1
+          },
+          {
+            "quien": "pierre",
+            "x": -0.6,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "bemont",
+            "x": 0.65,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "3",
+          "etiqueta": "páginas tiene la nota del radio (Comptes rendus, t. 127)",
+          "icono": "📜"
+        }
+      },
+      {
+        "dia": 24,
+        "texto": "Viernes. La nota va a Anrí Becrél. Nosotros no somos miembros de la Academia, y ninguna mujer lo es. Él la leerá en nuestro nombre.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.3
+            },
+            {
+              "tipo": "cuadro",
+              "x": -0.3
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "📜",
+              "x": 0.95,
+              "escala": 0.25
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "becquerel",
+            "x": -0.4,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "📜",
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 25,
+        "corte": true,
+        "texto": "Sábado, Nochebuena. En Varsovia, mi padre espera a que salga la primera estrella para cenar sin carne y partir la oblea. Yo estoy muy lejos de allí.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "papel",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estufa",
+              "x": -1.2
+            },
+            {
+              "tipo": "🎄",
+              "x": -0.75,
+              "escala": 0.55
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.9,
+              "escala": 0.3
+            },
+            {
+              "tipo": "🍞",
+              "x": 1.1,
+              "escala": 0.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.35,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 25,
+        "texto": "Imagino que pienso en él toda la noche. Su hija, la que estudiaba a escondidas en Varsovia, ha encontrado un elemento que nadie conocía.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.35,
+            "accion": "escribir",
+            "emocion": "feliz",
+            "mirar": 1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 26,
+        "texto": "Domingo, Navidad. En París muchas casas tienen un árbol con velas. No somos religiosos, pero imagino a mi hija mirando las luces.",
+        "drama": 0.45,
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.35,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "irene",
+            "x": -0.15,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "pierre",
+            "x": 0.75,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 27,
+        "texto": "Lunes, veintiséis de diciembre. En el Instituto de Francia, Anrí Becrél se pone en pie ante la Academia de Ciencias y lee nuestra nota.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "columna",
+              "x": -1.2
+            },
+            {
+              "tipo": "columna",
+              "x": 1.2
+            },
+            {
+              "tipo": "cuadro",
+              "x": 0.0
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.75
+            },
+            {
+              "tipo": "📜",
+              "x": 0.7,
+              "escala": 0.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "becquerel",
+            "x": 0.3,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "objeto": "📜",
+            "habla": false
+          },
+          {
+            "quien": "academico",
+            "x": -0.5,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 27,
+        "corte": true,
+        "texto": "La nueva sustancia radiactiva contiene un elemento nuevo, al que proponemos dar el nombre de radio. Así lo escribimos. Así entra en el mundo.",
+        "drama": 0.9,
+        "personajes": [
+          {
+            "quien": "becquerel",
+            "x": 0.3,
+            "accion": "senalar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "objeto": "📜",
+            "habla": false
+          },
+          {
+            "quien": "academico",
+            "x": -0.5,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "La nueva sustancia radiactiva contiene un elemento nuevo, al que proponemos dar el nombre de radio.",
+          "firma": "P. Curie, Mme P. Curie y G. Bémont, Academia de Ciencias, 26 de diciembre de 1898",
+          "icono": "📜"
+        }
+      },
+      {
+        "dia": 27,
+        "texto": "Detrás va la nota de Demarsé. Y una frase nuestra que aún no entendemos: su radiactividad debe de ser enorme.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "atardecer",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "puente",
+              "x": 0.0
+            },
+            {
+              "tipo": "farola",
+              "x": -0.95
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "sorpresa",
+            "mirar": -1
+          },
+          {
+            "quien": "pierre",
+            "x": -0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 28,
+        "texto": "Martes. Volvemos al almacén. Para demostrarlo del todo hay que aislarlo, sacarlo puro. Y para eso no bastarán unos pocos kilos de mineral.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.2
+            },
+            {
+              "tipo": "estufa",
+              "x": -0.7
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "⚗️",
+              "x": 0.9,
+              "escala": 0.3
+            },
+            {
+              "tipo": "📓",
+              "x": 1.15,
+              "escala": 0.25
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.3,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "mirar": 1
+          },
+          {
+            "quien": "pierre",
+            "x": -0.4,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 29,
+        "texto": "Miércoles. Por fin escribo a Varsovia. Les hablo de mi hija, del frío y, casi sin darle importancia, del elemento nuevo.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "papel",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.1
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.35
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.95
+            },
+            {
+              "tipo": "📓",
+              "x": 0.9,
+              "escala": 0.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.3,
+            "accion": "escribir",
+            "emocion": "feliz",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 30,
+        "texto": "Jueves, veintinueve de diciembre. Una tormenta cae sobre el norte de Francia. Volvemos empapados, y pienso que este año ha sido el mejor de mi vida.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "noche",
+          "clima": "tormenta",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.3
+            },
+            {
+              "tipo": "farola",
+              "x": -0.8
+            },
+            {
+              "tipo": "casa",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.35,
+            "accion": "caminar",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "pierre",
+            "x": -0.35,
+            "accion": "caminar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "corte": true,
+        "texto": "Lo que vino después fue más duro. En mil ochocientos noventa y nueve llega la primera tonelada de residuos, y trabajamos en un cobertizo con goteras.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "lluvia",
+          "props": [
+            {
+              "tipo": "cabana",
+              "x": -1.05,
+              "escala": 1.2
+            },
+            {
+              "tipo": "barril",
+              "x": 0.95
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.3
+            },
+            {
+              "tipo": "valla",
+              "x": -0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.35,
+            "accion": "cargar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "objeto": "🪨"
+          },
+          {
+            "quien": "pierre",
+            "x": -0.4,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "🪨",
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "En mil novecientos dos, tras unas ocho toneladas de residuos, tenemos una décima de gramo de sal pura del radio, nuestro elemento.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estufa",
+              "x": -1.05
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "⚗️",
+              "x": 0.9,
+              "escala": 0.3
+            },
+            {
+              "tipo": "barril",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1,
+            "objeto": "⚗️"
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "0,1 g",
+          "etiqueta": "de cloruro de radio puro, sacado de unas 8 toneladas de residuos (1902)",
+          "icono": "⚖️"
+        }
+      },
+      {
+        "texto": "En mil novecientos tres, Becrél, mi marido y yo compartimos el Nobel de Física. Soy la primera mujer que lo recibe.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.25
+            },
+            {
+              "tipo": "cuadro",
+              "x": -0.3
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "📕",
+              "x": 0.95,
+              "escala": 0.25
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.35,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "pierre",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Tres años después, mi marido muere en un accidente en la calle. Yo ocupo su cátedra: la primera mujer profesora de la Sorbona.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "atardecer",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "puente",
+              "x": 0.0
+            },
+            {
+              "tipo": "farola",
+              "x": -0.95
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.3,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "En mil novecientos once me dan el segundo Nobel, el de Química, a mí sola: nadie más lo tiene en dos ciencias.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.25
+            },
+            {
+              "tipo": "cuadro",
+              "x": -0.3
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "📕",
+              "x": 0.95,
+              "escala": 0.25
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.3,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "corte": true,
+        "texto": "Nadie sabía lo que tocábamos. Muero en mil novecientos treinta y cuatro, de una anemia que se atribuye a la radiación.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "papel",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estufa",
+              "x": -1.05
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.95
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.95,
+              "escala": 0.3
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.4
+            },
+            {
+              "tipo": "cama",
+              "x": -1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marievieja",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Nuestros cuadernos siguen siendo radiactivos: se guardan en cajas de plomo. Aquel elemento, el radio, tarda mil seiscientos años en perder la mitad.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.2
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.0
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.4
+            },
+            {
+              "tipo": "🕯️",
+              "x": -0.6,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marievieja",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1.600 años",
+          "etiqueta": "periodo de semidesintegración del radio-226",
+          "icono": "📓"
+        }
+      },
+      {
+        "texto": "En mil novecientos noventa y cinco, mi marido y yo entramos juntos en el Panteón. Soy la primera mujer que descansa allí por sus méritos.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "columna",
+              "x": -1.1
+            },
+            {
+              "tipo": "columna",
+              "x": 1.1
+            },
+            {
+              "tipo": "🕯️",
+              "x": -0.5,
+              "escala": 0.35
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.5,
+              "escala": 0.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marievieja",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Marí Curí y las personas de este vídeo fueron reales, como las fechas y las notas. Mis pensamientos y las escenas del día, imaginados.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.2
+            },
+            {
+              "tipo": "estufa",
+              "x": -0.7
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "⚗️",
+              "x": 0.9,
+              "escala": 0.3
+            },
+            {
+              "tipo": "📓",
+              "x": 1.15,
+              "escala": 0.25
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.35,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "pierre",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "¿Tú habrías seguido buscando en aquel almacén helado? Cuéntamelo en los comentarios y suscríbete para la próxima vida.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "marie",
+            "x": 0.35,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "pierre",
+            "x": -0.4,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      }
+    ]
+  },
+  "publicacion": {
+    "tituloLargo": "Un mes en la vida de MARIE CURIE (1898) | Los 30 días en que nació el radio",
+    "tituloCorto": "Un mes con Marie Curie",
+    "descripcion": "Treinta días en la vida de Marie Curie, del 30 de noviembre al 29 de diciembre de 1898, en París. En un cuarto frío y húmedo de la Escuela de Física y Química Industriales (rue Lhomond), Marie y Pierre Curie, con Gustave Bémont, persiguen con el electrómetro un elemento escondido en el bario de la pechblenda: cloruros 900 veces más activos que el uranio, la raya violeta que encuentra Eugène Demarçay y la nota que Henri Becquerel presenta en la Academia de Ciencias el 26 de diciembre de 1898, donde nace el nombre del radio.\n\n— Semana 1: Algo se esconde en el bario\n— Semana 2: Novecientas veces\n— Semana 3: La raya violeta\n— Semana 4: Un elemento nuevo\n— Epílogo: el cobertizo (1899–1902), los dos premios Nobel, 1934 y el Panteón (1995)\n\nQué es documentado y qué es imaginado: Marie Curie y todas las personas de este vídeo fueron reales. Las fechas, las cifras y las palabras de las notas a la Academia de Ciencias están documentadas; sus pensamientos y las escenas de cada día (la bicicleta, el domingo con el abuelo, la espera, la Nochebuena) son imaginados, igual que el día exacto de los pasos sin fecha documentada (la oferta de Viena, la visita a Demarçay, su respuesta). Que Pierre escribiera la palabra «radium» el 20 de diciembre solo lo cuenta una fuente divulgativa. En 1898 no hubo toneladas de pechblenda ni cobertizo: eso llegó entre 1899 y 1902. No consta que Marie y Pierre estuvieran en la sala el 26 de diciembre.\n\nFuentes: P. Curie, M. Curie y G. Bémont, «Sur une nouvelle substance fortement radio-active, contenue dans la pechblende», Comptes rendus 127 (1898), 1215–1217, y la nota de Demarçay (p. 1218); P. y M. Curie, Comptes rendus 127 (1898), 175–178 (polonio); M. Skłodowska Curie, Comptes rendus 126 (1898), 1101–1103; J.-P. Adloff, «The laboratory notebooks of Pierre and Marie Curie» y Chemistry International 33/1 (2011); AIP, Marie Curie and the Science of Radioactivity; APS News, «December 1898: The Curies Discover Radium»; Nobelprize.org; M. Rentetzi, Trafficking Materials (carta a Eduard Suess); Musée Curie; Marie Curie, Pierre Curie (1923); Ève Curie, Madame Curie (1937); Météo Paris (1898); The Spectator y Papers Past (caso Dreyfus, diciembre de 1898).",
+    "etiquetas": [
+      "un mes en la vida de",
+      "Marie Curie",
+      "Pierre Curie",
+      "radio",
+      "polonio",
+      "1898",
+      "radiactividad",
+      "historia de la ciencia",
+      "mujeres en la ciencia",
+      "París",
+      "biografía",
+      "historia"
+    ],
+    "miniatura": {
+      "texto": "LA RAYA VIOLETA",
+      "escena": 32,
+      "quien": "marie",
+      "emocion": "sorpresa",
+      "icono": "🔍"
+    },
+    "shorts": [
+      {
+        "titulo": "31 años, una hija y un polvo que nadie entiende",
+        "descripcion": "París, noviembre de 1898: Marie Curie busca algo escondido en un puñado de polvo blanco. #shorts #historia #mariecurie"
+      },
+      {
+        "titulo": "Así medía Marie Curie lo invisible",
+        "descripcion": "Un electrómetro, un cristal de cuarzo y un cronómetro en un cuarto helado de la rue Lhomond. #shorts #historia #ciencia"
+      },
+      {
+        "titulo": "Le puso a un elemento el nombre de un país que no existía",
+        "descripcion": "Julio de 1898: el polonio, y la pista del bario que lo cambió todo. #shorts #historia #mariecurie"
+      },
+      {
+        "titulo": "Tres letras en un cuaderno negro",
+        "descripcion": "Pierre, Marie y Gustave Bémont; la bicicleta, Irène y la hermana que se fue a Zakopane. #shorts #historia"
+      },
+      {
+        "titulo": "Marie Curie investigaba gratis",
+        "descripcion": "El caso Dreyfus, las cuentas de la casa y miles de cristales: diciembre de 1898. #shorts #historia #mariecurie"
+      },
+      {
+        "titulo": "El laboratorio olía a huevo podrido",
+        "descripcion": "100 kilos de residuos de Bohemia, ácidos sin guantes y un domingo con el abuelo. #shorts #historia #ciencia"
+      },
+      {
+        "titulo": "900 veces más activo que el uranio",
+        "descripcion": "13 de diciembre de 1898: el bario que no debería emitir nada. #shorts #historia #mariecurie"
+      },
+      {
+        "titulo": "Si no aparecía una raya, nadie les creería",
+        "descripcion": "La muestra va al laboratorio del espectroscopista Eugène Demarçay. Y empieza la espera. #shorts #historia"
+      },
+      {
+        "titulo": "Una raya violeta que no era de nadie",
+        "descripcion": "Demarçay encuentra en el espectro una raya de ningún elemento conocido. #shorts #historia #mariecurie"
+      },
+      {
+        "titulo": "La palabra que lo cambió todo",
+        "descripcion": "20 de diciembre de 1898: la última anotación del cuaderno y el nombre del radio. #shorts #historia #ciencia"
+      },
+      {
+        "titulo": "Nochebuena lejos de Varsovia",
+        "descripcion": "La Wigilia polaca, la Navidad en París y el lunes 26 en la Academia de Ciencias. #shorts #historia #mariecurie"
+      },
+      {
+        "titulo": "«Proponemos dar el nombre de radio»",
+        "descripcion": "26 de diciembre de 1898: la nota que presentó Becquerel y la tormenta del 29. #shorts #historia #ciencia"
+      },
+      {
+        "titulo": "De un cobertizo a dos premios Nobel",
+        "descripcion": "1899–1911: las toneladas de residuos, el Nobel de 1903, Pierre y el Nobel de 1911. #shorts #historia #mariecurie"
+      },
+      {
+        "titulo": "Sus cuadernos siguen siendo radiactivos",
+        "descripcion": "Marie Curie, 1934 y 1995: el precio de la radiación y el Panteón de París. #shorts #historia #ciencia"
+      }
+    ]
+  },
+  "grafias": {
+    "Marí": "Marie",
+    "Curí": "Curie",
+    "Esklodófska": "Skłodowska",
+    "Piér": "Pierre",
+    "Irén": "Irène",
+    "Anrí": "Henri",
+    "Becrél": "Becquerel",
+    "Gustáv": "Gustave",
+    "Bemón": "Bémont",
+    "Eyén": "Eugène",
+    "Demarsé": "Demarçay",
+    "Brónia": "Bronia",
+    "Sakopáne": "Zakopane",
+    "Dréifus": "Dreyfus",
+    "Picár": "Picquart",
+    "Guégner": "Gegner",
+    "Lomón": "Lhomond"
+  }
+}
