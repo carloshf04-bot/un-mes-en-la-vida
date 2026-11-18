@@ -755,7 +755,7 @@
       },
       {
         "dia": 6,
-        "texto": "Sábado, primero de diciembre, último día del Préstamo de la Victoria. Por todas partes, carteles piden comprar bonos de guerra. Yo no tengo ni para un bono.",
+        "texto": "Sábado, primero de diciembre, último día del Préstamo de la Victoria. Por todas partes hay carteles que piden comprar bonos de guerra, y yo no tengo ni para un bono.",
         "drama": 0.55,
         "fondo": {
           "lugar": "calle",
@@ -937,7 +937,7 @@
       },
       {
         "dia": 9,
-        "texto": "Martes. Áni ensaya un villancico para la fiesta de la escuela. A escondidas, le compro con mis ahorros una bufanda roja, y la guardo bajo el colchón.",
+        "texto": "El martes, Áni ensaya un villancico para la fiesta de la escuela. A escondidas, le compro con mis ahorros una bufanda roja, y la guardo bajo el colchón.",
         "drama": 0.5,
         "fondo": {
           "lugar": "interior",
@@ -987,7 +987,7 @@
       {
         "dia": 10,
         "corte": true,
-        "texto": "Miércoles, cinco de diciembre. Al caer la tarde llega un carguero francés, el Monblán. Encuentra la red echada y espera fuera toda la noche.",
+        "texto": "El miércoles cinco de diciembre, al caer la tarde, llega un carguero francés, el Monblán. Encuentra la red echada y espera fuera toda la noche.",
         "drama": 0.65,
         "fondo": {
           "lugar": "rio",
@@ -1349,7 +1349,7 @@
       },
       {
         "dia": 11,
-        "texto": "Dicen que su mensaje terminaba así: detengan el tren, barco de municiones ardiendo hacia el muelle seis. Adiós, muchachos.",
+        "texto": "Dicen que su mensaje terminaba así: detengan el tren, barco de municiones ardiendo hacia el muelle seis, adiós, muchachos.",
         "drama": 0.85,
         "personajes": [
           {
@@ -1892,7 +1892,7 @@
       {
         "dia": 14,
         "corte": true,
-        "texto": "Domingo. Los periódicos publican listas de desaparecidos. Busco el nombre de la abuela con el dedo, línea a línea. Mamá no quiere leerlas.",
+        "texto": "El domingo, los periódicos publican listas de desaparecidos. Busco el nombre de la abuela con el dedo, línea a línea. Mamá no quiere leerlas.",
         "drama": 0.75,
         "fondo": {
           "lugar": "interior",
@@ -2011,7 +2011,7 @@
       },
       {
         "dia": 16,
-        "texto": "Martes. En la escuela de Chebácto identifican a los que faltan. Mamá entra sola. Sale muy pálida y asiente sin hablar.",
+        "texto": "El martes, en la escuela de Chebácto identifican a los que faltan. Mamá entra sola. Sale muy pálida y asiente sin hablar.",
         "drama": 0.75,
         "fondo": {
           "lugar": "campo",
@@ -2111,7 +2111,7 @@
       {
         "dia": 18,
         "corte": true,
-        "texto": "Jueves. Cargo mantas en una escuela convertida en hospital, donde trabajan los de Bóston. Solo el primer día, el hospital militar atendió unos mil cuatrocientos heridos.",
+        "texto": "El jueves cargo mantas en una escuela convertida en hospital, donde trabajan los de Bóston. Solo el primer día, el hospital militar atendió unos mil cuatrocientos heridos.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -2350,7 +2350,7 @@
       },
       {
         "dia": 25,
-        "texto": "Jueves. En un taller del dique vuelve a sonar el martillo. El señor Barns me tiende la herramienta y sostengo mi primer remache desde el día seis.",
+        "texto": "El jueves, en un taller del dique, vuelve a sonar el martillo. El señor Barns me tiende la herramienta y sostengo mi primer remache desde el día seis.",
         "drama": 0.55,
         "fondo": {
           "lugar": "rio",
@@ -2657,7 +2657,7 @@
         }
       },
       {
-        "texto": "Tom, su familia y el señor Barns son inventados. Todo lo demás es real. Este vídeo es para las víctimas de Hálifax, de Dártmus y de Quépekek.",
+        "texto": "Una aclaración: Tom, su familia y el señor Barns son inventados. Todo lo demás es real. Este vídeo es para las víctimas de Hálifax, de Dártmus y de Quépekek.",
         "drama": 0.6,
         "fondo": {
           "lugar": "campo",
