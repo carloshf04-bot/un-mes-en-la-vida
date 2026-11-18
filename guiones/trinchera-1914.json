@@ -214,7 +214,7 @@
         "camara": "general"
       },
       {
-        "texto": "Me llamo Tom Élis. Tengo veinticinco años y bajo a la mina de carbón en un pueblo cerca de Récsam, en el norte de Gales.",
+        "texto": "Me llamo Tom Élis. Tengo veinticinco años y bajo a la mina de carbón en un pueblo junto a Récsam, en el norte de Gales.",
         "drama": 0.6,
         "fondo": {
           "lugar": "montanas",
@@ -378,7 +378,7 @@
       },
       {
         "dia": 2,
-        "texto": "Viernes. Formación del alba: media hora antes de que amanezca, todos al parapeto con el fusil. Luego, un trago de ron. Durante un minuto, deja de hacer frío.",
+        "texto": "Viernes. Formación del alba: media hora antes de que amanezca, todos al parapeto con el fusil. Luego, un trago de ron. Durante un minuto, el frío se va.",
         "drama": 0.6,
         "fondo": {
           "lugar": "campo",
@@ -534,7 +534,7 @@
       },
       {
         "dia": 7,
-        "texto": "Miércoles. Carta de Mégan. Güen ya tiene seis semanas, abre mucho los ojos y le agarra el dedo con fuerza. Leo la carta tres veces seguidas.",
+        "texto": "Miércoles. Carta de Mégan. Güen ya tiene seis semanas, abre mucho los ojos y le agarra el dedo muy fuerte. Leo la carta tres veces seguidas.",
         "drama": 0.55,
         "fondo": {
           "lugar": "interior",
@@ -711,7 +711,7 @@
       },
       {
         "dia": 10,
-        "texto": "Hay hombres que llevan dos meses esperando que alguien los entierre. Están entre las dos trincheras, y quien intente ir a buscarlos no volverá.",
+        "texto": "Hay hombres que llevan dos meses esperando que alguien los entierre. Están entre las dos trincheras, y de día, quien vaya a buscarlos no vuelve.",
         "drama": 0.8,
         "personajes": [
           {
@@ -777,7 +777,7 @@
       },
       {
         "dia": 11,
-        "texto": "Se oyen risas a los dos lados, como en la bocamina al acabar el turno. Entonces el sargento nos manda callar. Con el enemigo no se habla, ni siquiera para reírse un rato.",
+        "texto": "Se oyen risas a los dos lados, como en la bocamina al acabar el turno. Pero el sargento nos manda callar. Con el enemigo no se habla, ni siquiera para reírse un rato.",
         "drama": 0.65,
         "personajes": [
           {
@@ -919,12 +919,12 @@
       },
       {
         "dia": 14,
-        "texto": "Miércoles, veintitrés. Por fin deja de llover. Por la tarde el frío baja de golpe, y esa noche hiela: el barro se endurece bajo las botas como piedra.",
+        "texto": "Miércoles, veintitrés. Por fin deja de llover. Por la tarde el frío baja de golpe, y esa noche hiela: el barro se pone duro como piedra bajo las botas.",
         "drama": 0.6,
         "fondo": {
           "lugar": "campo",
           "hora": "atardecer",
-          "clima": "nieve",
+          "clima": "despejado",
           "props": [
             {
               "tipo": "barricada",
@@ -986,7 +986,7 @@
         "dia": 15,
         "capitulo": "Noche de paz",
         "corte": true,
-        "texto": "Jueves, veinticuatro de diciembre. Nochebuena. Cielo limpio y helada blanca. Al anochecer, en el parapeto alemán, empiezan a encenderse luces, una detrás de otra.",
+        "texto": "Jueves, veinticuatro de diciembre. Nochebuena. Cielo limpio y helada blanca. Al anochecer, en el parapeto alemán, van apareciendo luces, una detrás de otra.",
         "drama": 0.75,
         "fondo": {
           "lugar": "campo",
@@ -1054,7 +1054,7 @@
       },
       {
         "dia": 15,
-        "texto": "Son arbolitos de Navidad con velas, puestos encima de los sacos. Ívor levanta el fusil. El sargento le baja el cañón con la mano, sin decir nada.",
+        "texto": "Son arbolitos de Navidad con velas, puestos sobre los sacos. Ívor levanta el fusil. El sargento le baja el cañón con la mano, sin una palabra.",
         "drama": 0.8,
         "personajes": [
           {
@@ -1085,7 +1085,7 @@
       },
       {
         "dia": 15,
-        "texto": "Entonces, desde la trinchera de los sajones, alguien grita en inglés: no disparéis, hoy no queremos pelear, mañana os mandaremos cerveza.",
+        "texto": "De pronto, desde la trinchera de los sajones, alguien grita en inglés: no disparéis, hoy no queremos pelear, mañana os mandaremos cerveza.",
         "drama": 0.8,
         "personajes": [
           {
@@ -1113,7 +1113,7 @@
       },
       {
         "dia": 15,
-        "texto": "Y después, en la oscuridad, empiezan a cantar Noche de paz, en alemán, con voces graves que cruzan la tierra de nadie despacio, como la niebla.",
+        "texto": "Y después, en la oscuridad, se ponen a cantar Noche de paz, en alemán, con voces graves que cruzan la tierra de nadie poco a poco, como la niebla.",
         "drama": 0.75,
         "personajes": [
           {
@@ -1136,14 +1136,14 @@
             "quien": "tom",
             "x": 0.35,
             "accion": "hablar",
-            "emocion": "neutral",
+            "emocion": "feliz",
             "mirar": -1
           },
           {
             "quien": "ivor",
             "x": -0.3,
             "accion": "hablar",
-            "emocion": "neutral",
+            "emocion": "feliz",
             "mirar": 1,
             "habla": false
           }
@@ -1190,7 +1190,7 @@
       },
       {
         "dia": 16,
-        "texto": "Viernes, veinticinco. Día de Navidad. Todo está blanco de escarcha. Frank Ríchards y otros compañeros clavan en el parapeto un tablón con dos palabras pintadas.",
+        "texto": "Viernes, veinticinco. Día de Navidad. Todo está blanco de escarcha. Frank Ríchards y otros compañeros clavan en el parapeto un tablón con tres palabras pintadas.",
         "drama": 0.7,
         "fondo": {
           "lugar": "campo",
@@ -1439,7 +1439,7 @@
       },
       {
         "dia": 16,
-        "texto": "Nuestro capitán, Stócuel, no quiere aceptarlos sin dar nada a cambio: manda traer uno de nuestros pudines y se lo regala, muy formal, a un capitán alemán, un tal fon Síner.",
+        "texto": "Nuestro capitán, Stócuel, no quiere quedárselos sin dar nada a cambio: manda traer uno de nuestros pudines y se lo regala, muy formal, a un capitán alemán, un tal fon Síner.",
         "drama": 0.6,
         "personajes": [
           {
@@ -1517,7 +1517,7 @@
       },
       {
         "dia": 16,
-        "texto": "Más al sur, cerca de Flerbé, un capellán escocés lee el mismo salmo en inglés y en alemán: el Señor es mi pastor.",
+        "texto": "Más al sur, junto a Flerbé, un capellán escocés lee el mismo salmo en inglés y en alemán: el Señor es mi pastor.",
         "drama": 0.75,
         "personajes": [
           {
@@ -1546,7 +1546,7 @@
       {
         "dia": 17,
         "corte": true,
-        "texto": "Sábado, veintiséis, ocho y media de la mañana. El capitán Stócuel dispara tres tiros al aire y levanta una bandera que dice Feliz Navidad.",
+        "texto": "Sábado, veintiséis, ocho y media de la mañana. El capitán Stócuel dispara tres tiros al aire y levanta una bandera que pone Feliz Navidad.",
         "drama": 0.8,
         "fondo": {
           "lugar": "campo",
@@ -1619,7 +1619,7 @@
       },
       {
         "dia": 17,
-        "texto": "Mi capitán lo apuntó así en su diario: la guerra volvía a empezar. Aun así, ese día casi nadie dispara a dar.",
+        "texto": "Mi capitán lo apuntó así en su diario: la guerra volvía a empezar. Aun así, que yo oiga, ese día casi nadie dispara a dar.",
         "drama": 0.8,
         "personajes": [
           {
@@ -1704,21 +1704,22 @@
         "drama": 0.55,
         "fondo": {
           "lugar": "interior",
-          "pared": "ladrillo",
+          "pared": "madera",
           "hora": "dia",
-          "ventana": true,
+          "ventana": false,
           "props": [
             {
-              "tipo": "mesa",
-              "x": 0.0
-            },
-            {
-              "tipo": "estufa",
+              "tipo": "cajas",
               "x": -1.15
             },
             {
-              "tipo": "cajas",
-              "x": 1.2
+              "tipo": "mesa",
+              "x": 1.1
+            },
+            {
+              "tipo": "🕯️",
+              "x": 1.0,
+              "escala": 0.25
             }
           ]
         },
@@ -1747,13 +1748,29 @@
         "personajes": [
           {
             "quien": "tom",
-            "x": 0.35,
+            "x": 0.3,
             "accion": "escribir",
             "emocion": "neutral",
             "mirar": -1
           }
         ],
-        "camara": "cerca"
+        "camara": "cerca",
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.1
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.1
+            }
+          ]
+        }
       },
       {
         "dia": 22,
@@ -1801,7 +1818,7 @@
       {
         "dia": 24,
         "corte": true,
-        "texto": "Dos semanas después de Navidad llega la orden: el oficial o sargento que empiece otra tregua irá a consejo de guerra.",
+        "texto": "Con el año nuevo llega la orden: si un oficial o un sargento arranca otra tregua, irá a consejo de guerra.",
         "drama": 0.75,
         "fondo": {
           "lugar": "campo",
@@ -2103,7 +2120,7 @@
       },
       {
         "corte": true,
-        "texto": "En dos mil catorce, cien años después, los nietos de Stócuel y de fon Síner se encontraron allí y se dieron la mano.",
+        "texto": "En dos mil catorce, cien años después, los nietos de Stócuel y de fon Síner se encontraron allí y se cambiaron regalos.",
         "drama": 0.6,
         "personajes": [
           {
@@ -2146,10 +2163,9 @@
           {
             "quien": "megan",
             "x": -0.3,
-            "accion": "cargar",
+            "accion": "quieto",
             "emocion": "feliz",
             "mirar": 1,
-            "objeto": "👶",
             "habla": false
           }
         ],
