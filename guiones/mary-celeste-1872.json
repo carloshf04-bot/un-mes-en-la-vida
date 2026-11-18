@@ -265,7 +265,7 @@
         "camara": "lenta"
       },
       {
-        "texto": "Me llamo Tomás Cabrera, soy de Lansarote y tengo veintiún años. Aquí me llaman Tom. Soy marinero raso y firmo por treinta dólares al mes.",
+        "texto": "Me llamo Tomás Cabrera, soy de Lansarote y tengo veintiún años. En el barco todos me llaman Tom a secas. Soy marinero raso y firmo por treinta dólares al mes.",
         "drama": 0.55,
         "fondo": {
           "lugar": "mar",
@@ -334,7 +334,7 @@
         "dia": 1,
         "capitulo": "Petróleo para Gibraltar",
         "corte": true,
-        "texto": "Viernes, quince de noviembre. Soltamos amarras en Nueva York, rumbo a Gibraltar. Y no sé que vamos ocho días detrás de un barco que va a desaparecer.",
+        "texto": "Viernes, quince de noviembre. Soltamos amarras en Nueva York, rumbo a Gibraltar. Y no sé que vamos ocho días detrás de un barco que va a perder a toda su gente.",
         "drama": 0.7,
         "fondo": {
           "lugar": "rio",
@@ -442,7 +442,7 @@
       },
       {
         "dia": 6,
-        "texto": "Miércoles. Comemos carne en salmuera que hay que hervir horas, galleta dura como una piedra y café con melaza. Y de vez en cuando, un trago de jugo de lima.",
+        "texto": "Miércoles. Comemos carne en salmuera que hay que hervir horas, galleta dura como una piedra, guisantes y café con melaza. Las patatas solo duran los primeros días.",
         "drama": 0.5,
         "fondo": {
           "lugar": "interior",
@@ -502,12 +502,12 @@
               "nombre": "Galleta de barco"
             },
             {
-              "icono": "☕",
-              "nombre": "Café con melaza"
+              "icono": "🥔",
+              "nombre": "Patatas, solo al principio"
             },
             {
-              "icono": "🍋",
-              "nombre": "Zumo de lima contra el escorbuto"
+              "icono": "☕",
+              "nombre": "Café con melaza"
             }
           ]
         }
@@ -516,7 +516,7 @@
         "dia": 8,
         "capitulo": "La pizarra de Santa María",
         "corte": true,
-        "texto": "Viernes, veintidós de noviembre. El Atlántico se pone feo. Llueve de lado, el agua barre la cubierta y hay que recoger velas con el barco dando bandazos.",
+        "texto": "Viernes, veintidós de noviembre. El Atlántico se pone feo. Llueve de lado, el agua barre la cubierta y hay que recoger velas con el barco dando tumbos.",
         "drama": 0.75,
         "fondo": {
           "lugar": "mar",
@@ -627,7 +627,7 @@
       },
       {
         "dia": 10,
-        "texto": "Domingo, veinticuatro. Mientras yo achico, muy por delante de nosotros, alguien en el Méri Selést apunta su posición de mediodía en el diario. Es casi la última.",
+        "texto": "Domingo, veinticuatro. Mientras yo achico, muy por delante de nosotros, alguien en el Méri Selést apunta en el diario dónde está a mediodía. Es de las últimas.",
         "drama": 0.75,
         "personajes": [
           {
@@ -697,7 +697,7 @@
       },
       {
         "dia": 12,
-        "texto": "Ni yo ni nadie lo sabe todavía. Nosotros seguimos mar adentro a buen ritmo: baldear, alquitranar cabos, coser velas, achicar. Y otra vez la campana.",
+        "texto": "Ni yo ni nadie lo sabe todavía. Nosotros seguimos mar adentro a buen ritmo: baldear, alquitranar cabos, coser velas, achicar. Y de nuevo la campana.",
         "drama": 0.55,
         "fondo": {
           "lugar": "mar",
@@ -736,7 +736,7 @@
       },
       {
         "dia": 14,
-        "texto": "Por las noches, en la camareta, los viejos cuentan historias de barcos que aparecen sin nadie a bordo. Yo me río de ellos. Dentro de seis días dejaré de reírme.",
+        "texto": "Por las noches, en la camareta, los viejos cuentan historias de barcos que navegan sin nadie a bordo. Yo me río de ellos. Dentro de seis días dejaré de reírme.",
         "drama": 0.75,
         "fondo": {
           "lugar": "interior",
@@ -787,7 +787,7 @@
         "dia": 16,
         "capitulo": "El barco que nadie gobernaba",
         "corte": true,
-        "texto": "Llevo un cuaderno donde apunto cada día con mala letra. Hay una página que he leído mil veces: la del miércoles cuatro de diciembre.",
+        "texto": "Llevo un cuaderno donde apunto cada día con mala letra. Hay una página que ya me sé de memoria: la del miércoles cuatro de diciembre.",
         "drama": 0.75,
         "fondo": {
           "lugar": "mar",
@@ -818,7 +818,7 @@
       },
       {
         "dia": 18,
-        "texto": "Lunes, dos de diciembre. Pasamos al norte de las Azores sin tocar tierra. El viento es bueno, el mar está tranquilo y el barco corre que da gusto.",
+        "texto": "Lunes, día dos. Pasamos al norte de las Azores sin tocar tierra. El viento es bueno, el mar está tranquilo y el barco corre que da gusto.",
         "drama": 0.55,
         "fondo": {
           "lugar": "mar",
@@ -920,7 +920,7 @@
       {
         "dia": 20,
         "corte": true,
-        "texto": "Un barco en mitad del Atlántico, y nadie al timón. Durante unas dos horas lo seguimos y le mandamos señales. Nadie sale a cubierta. Nadie contesta.",
+        "texto": "Un barco en mitad del Atlántico, sin nadie que lo gobierne. Durante unas dos horas lo seguimos y le mandamos señales. Nadie sale a cubierta. Nadie contesta.",
         "drama": 0.85,
         "fondo": {
           "lugar": "mar",
@@ -966,7 +966,7 @@
       },
       {
         "dia": 20,
-        "texto": "El capitán Mórjaus lo mira con el catalejo y lo reconoce. Es el Méri Selést, el bergantín que salió de Nueva York ocho días antes que nosotros.",
+        "texto": "El capitán Mórjaus lo mira con el catalejo y sabe qué barco es. Es el Méri Selést, el bergantín que salió de Nueva York ocho días antes que nosotros.",
         "drama": 0.85,
         "personajes": [
           {
@@ -1040,7 +1040,7 @@
       },
       {
         "dia": 20,
-        "texto": "Los veo subir por el costado. Pasa un minuto. Pasan diez. Nadie sale a recibirlos. Solo se oye la madera que cruje y las velas que golpean.",
+        "texto": "Los veo subir por el costado. Pasa un minuto. Pasan diez. Nadie sale a su encuentro. Solo se oye la madera que cruje y las velas que golpean.",
         "drama": 0.85,
         "fondo": {
           "lugar": "mar",
@@ -1094,8 +1094,8 @@
           {
             "quien": "deveau",
             "x": 0.35,
-            "accion": "quieto",
-            "emocion": "miedo",
+            "accion": "hablar",
+            "emocion": "sorpresa",
             "mirar": -1,
             "habla": false
           },
@@ -1158,7 +1158,7 @@
       },
       {
         "dia": 20,
-        "texto": "Según Devó, en la bodega hay casi un metro de agua y una bomba desmontada. La sonda, tirada en cubierta. Los camarotes, empapados. La brújula, rota.",
+        "texto": "Según Devó, en la bodega hay un metro de agua y una bomba desmontada. La sonda, tirada en cubierta. Los camarotes, empapados. La brújula, rota.",
         "drama": 0.8,
         "fondo": {
           "lugar": "interior",
@@ -1338,7 +1338,7 @@
       },
       {
         "dia": 20,
-        "texto": "Nos quedamos cinco, contando al capitán, para mover un barco hecho para ocho. Desde ahora, nada de dormir cuatro horas seguidas. Ni una sola noche.",
+        "texto": "En nuestro barco quedamos unos cinco, contando al capitán, para el trabajo de ocho. Desde ahora, nada de dormir cuatro horas seguidas. Ni una sola noche.",
         "drama": 0.7,
         "fondo": {
           "lugar": "mar",
@@ -1404,7 +1404,7 @@
         "dia": 22,
         "capitulo": "Viernes 13 en Gibraltar",
         "corte": true,
-        "texto": "Seiscientas millas hasta Gibraltar. Dos barcos con media tripulación, navegando juntos. Y esperándonos en la puerta del Estrecho, un temporal.",
+        "texto": "Unas seiscientas millas hasta Gibraltar. Dos barcos con media tripulación, navegando juntos. Y en la puerta del Estrecho, según cuentan las crónicas, nos espera un temporal.",
         "drama": 0.8,
         "fondo": {
           "lugar": "mar",
@@ -1453,11 +1453,27 @@
             "mirar": 1
           }
         ],
-        "camara": "cerca"
+        "camara": "cerca",
+        "fondo": {
+          "lugar": "mar",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "velero",
+              "x": 1.1,
+              "escala": 0.45
+            },
+            {
+              "tipo": "barril",
+              "x": -1.2
+            }
+          ]
+        }
       },
       {
         "dia": 27,
-        "texto": "Miércoles, once de diciembre. Entramos en el Estrecho con un temporal de los que no se olvidan. Olas negras, un viento que aúlla y la oscuridad encima.",
+        "texto": "Miércoles, once de diciembre. Entramos en el Estrecho con un temporal de los que no se olvidan. Olas negras, un viento que aúlla y la oscuridad por todas partes.",
         "drama": 0.9,
         "fondo": {
           "lugar": "mar",
@@ -1484,7 +1500,7 @@
       },
       {
         "dia": 28,
-        "texto": "Jueves, doce. Cuando aclara, busco su vela por todo el horizonte. No está. El Méri Selést ha vuelto a desaparecer, y esta vez con tres de los nuestros.",
+        "texto": "Jueves, doce. Cuando aclara, busco su vela por todo el horizonte. No está. El Méri Selést se ha vuelto a perder, y ahora con tres de los nuestros.",
         "drama": 0.9,
         "fondo": {
           "lugar": "mar",
@@ -1512,7 +1528,7 @@
       {
         "dia": 28,
         "corte": true,
-        "texto": "Esa misma noche fondeamos en Gibraltar, bajo el Peñón, sin rastro del otro barco. Me paso las horas en la borda, mirando la boca del puerto.",
+        "texto": "Llegamos a Gibraltar ya de noche, bajo el Peñón, sin rastro del otro barco. Me paso las horas en la borda, mirando la boca del puerto.",
         "drama": 0.8,
         "fondo": {
           "lugar": "mar",
@@ -1556,7 +1572,7 @@
       },
       {
         "dia": 29,
-        "texto": "Viernes, trece de diciembre. Por la mañana, una vela entra despacio en la bahía. Es él. Devó y sus dos hombres llegan agotados, pero vivos.",
+        "texto": "Viernes, trece de diciembre. Una vela entra poco a poco en la bahía. Es él. Devó y sus dos hombres llegan agotados, pero vivos.",
         "drama": 0.85,
         "fondo": {
           "lugar": "mar",
@@ -1617,7 +1633,7 @@
             "quien": "tomas",
             "x": -0.45,
             "accion": "quieto",
-            "emocion": "neutral",
+            "emocion": "triste",
             "mirar": 1,
             "habla": false
           }
@@ -1626,7 +1642,7 @@
       },
       {
         "dia": 30,
-        "texto": "Sábado, catorce. Todo Gibraltar habla del barco fantasma: en las tabernas, en el muelle, en los cuarteles. Y la gente empieza a mirarnos raro.",
+        "texto": "Sábado, catorce. Todo Gibraltar habla del barco fantasma: en las tabernas, en el muelle, en los cuarteles. Y la gente ya nos mira raro.",
         "drama": 0.75,
         "fondo": {
           "lugar": "calle",
@@ -1748,7 +1764,7 @@
         }
       },
       {
-        "texto": "Desde el fondo de la sala oigo declarar a Devó ante el juez, Yeims Cócran. Lo cuenta todo, una y otra vez.",
+        "texto": "Desde el fondo de la sala veo a Devó declarar ante el juez Yeims Cócran. Lo cuenta todo, con calma, una y otra vez.",
         "drama": 0.65,
         "personajes": [
           {
@@ -1779,7 +1795,7 @@
         "camara": "general"
       },
       {
-        "texto": "Aparece una espada con manchas en el camarote del capitán. La mandan examinar, y el informe trae algo que no encaja con la teoría del fiscal: no es sangre.",
+        "texto": "En el camarote del capitán hay una espada con manchas. La mandan examinar, y el informe trae algo que no encaja con la teoría del fiscal: no es sangre.",
         "drama": 0.8,
         "personajes": [
           {
@@ -1803,7 +1819,7 @@
         "camara": "cerca"
       },
       {
-        "texto": "En marzo llega la sentencia: mil setecientas libras de premio, en torno a una quinta parte de lo salvado. Muchos lo leen como que el tribunal no se fiaba. Pero nadie fue acusado jamás.",
+        "texto": "En marzo llega el fallo: mil setecientas libras de premio, solo una quinta o una sexta parte de lo salvado. Muchos lo leen como que el tribunal no se fiaba. Pero nadie fue acusado jamás.",
         "drama": 0.7,
         "personajes": [
           {
@@ -1827,13 +1843,13 @@
         "insercion": {
           "tipo": "dato",
           "valor": "1.700 £",
-          "etiqueta": "de premio: en torno a una quinta parte de lo salvado",
+          "etiqueta": "de premio: entre una quinta y una sexta parte de lo salvado",
           "icono": "⚖️"
         }
       },
       {
         "corte": true,
-        "texto": "Y ahora, la leyenda. La taza de té caliente sobre la mesa, el desayuno a medio comer. Nada de eso existió. Se lo inventó un médico de veinticuatro años.",
+        "texto": "Y ahora, la leyenda. La taza de té caliente sobre la mesa, el desayuno a medio comer. Nada de eso existió. Salió de la pluma de un médico de veinticuatro años.",
         "drama": 0.75,
         "fondo": {
           "lugar": "interior",
@@ -1874,7 +1890,7 @@
         "camara": "lenta"
       },
       {
-        "texto": "Se llamaba Ártur Cónan Dóil. En mil ochocientos ochenta y cuatro publicó un relato, rebautizó el barco como Marí Selést, y medio mundo se lo creyó.",
+        "texto": "Ártur Cónan Dóil publicó en mil ochocientos ochenta y cuatro un relato sin firma, cambió el nombre del barco por Marí Selést, y medio mundo se lo creyó.",
         "drama": 0.65,
         "personajes": [
           {
@@ -1889,7 +1905,7 @@
         "camara": "cerca"
       },
       {
-        "texto": "El fiscal Sóli Flad lo llamó una invención de principio a fin. Aun así, hoy la leyenda pesa más que la verdad.",
+        "texto": "El fiscal Sóli Flad lo llamó un puro invento, de la primera línea a la última. Aun así, hoy la leyenda pesa más que la verdad.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -2004,7 +2020,7 @@
         }
       },
       {
-        "texto": "Quizá el capitán Brigs temió que la carga estallara, y subió a todos al bote, atado al barco con un cabo, para esperar apartados.",
+        "texto": "Puede que el capitán Brigs temiera que la carga estallara, y subiera a todos al bote, atado al barco con un cabo, para esperar apartados.",
         "drama": 0.75,
         "fondo": {
           "lugar": "mar",
@@ -2058,7 +2074,7 @@
         "camara": "general"
       },
       {
-        "texto": "Otros creen que las bombas se atascaron, y que el capitán, creyendo que se hundía, quiso llegar a Santa María. Ninguna teoría está probada. Ni una sola.",
+        "texto": "Otros creen que las bombas se atascaron, y que el capitán, creyendo que se hundía, quiso llegar en el bote hasta Santa María, que estaba a la vista. Ninguna teoría está probada. Ni una sola.",
         "drama": 0.75,
         "fondo": {
           "lugar": "mar",
@@ -2097,7 +2113,7 @@
       },
       {
         "corte": true,
-        "texto": "Hay una niña de dos años en esta historia. Se llamaba Sofía, e iba a bordo con su madre, Sara. Su hermano Ártur, de siete, se quedó en tierra para ir a la escuela.",
+        "texto": "Hay una niña de dos años en esta historia. Se llamaba Sofía, e iba a bordo con Sara, su madre. Su hermano Ártur, de siete, se quedó en tierra para ir a la escuela.",
         "drama": 0.75,
         "fondo": {
           "lugar": "mar",
@@ -2149,7 +2165,7 @@
         }
       },
       {
-        "texto": "Yo, Tomás, nunca existí. El Déi Grásia, sus hombres, el Méri Selést y su gente, sí. ¿Qué crees tú que pasó junto a Santa María? Déjalo en los comentarios.",
+        "texto": "Yo, Tomás, nunca existí. El Déi Grásia, sus hombres, el Méri Selést y su gente, sí. ¿Qué crees tú que les pasó? Déjalo en los comentarios.",
         "drama": 0.6,
         "personajes": [
           {
