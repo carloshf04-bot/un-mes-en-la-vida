@@ -349,7 +349,7 @@
       },
       {
         "dia": 2,
-        "texto": "Son unos rayos que salen de ciertas piedras y vuelven conductor el aire. Los descubrió Anrí Becrél hace dos años, en las sales de uranio.",
+        "texto": "Son unos rayos que salen de algunas piedras y vuelven conductor el aire. Los descubrió Anrí Becrél hace dos años, en las sales de uranio.",
         "drama": 0.6,
         "fondo": {
           "lugar": "interior",
@@ -417,8 +417,8 @@
           {
             "quien": "marie",
             "x": 0.2,
-            "accion": "pensar",
-            "emocion": "cansado",
+            "accion": "trabajar",
+            "emocion": "neutral",
             "mirar": 1
           }
         ],
@@ -590,7 +590,7 @@
       },
       {
         "dia": 4,
-        "texto": "Volvemos a casa de noche, entre farolas de gas, con las manos oliendo a ácido. Mi marido empuja la bicicleta y yo repito números en la cabeza.",
+        "texto": "Volvemos a casa de noche, entre farolas de gas, con las manos oliendo a ácido. Mi marido lleva la bicicleta a su lado y yo repito números de memoria.",
         "drama": 0.55,
         "fondo": {
           "lugar": "calle",
@@ -612,6 +612,11 @@
             {
               "tipo": "casa",
               "x": 1.35
+            },
+            {
+              "tipo": "🚲",
+              "x": -0.8,
+              "escala": 1.2
             }
           ]
         },
@@ -690,7 +695,7 @@
       },
       {
         "dia": 5,
-        "texto": "Mi hermana Brónia, la que me trajo a París, se ha ido este otoño a Sakopáne para abrir un sanatorio. Sin ella, esta ciudad pesa más.",
+        "texto": "Mi hermana Brónia, la que me trajo a París, se ha ido este año a Sakopáne para abrir un sanatorio. Sin ella, todo pesa más.",
         "drama": 0.5,
         "personajes": [
           {
@@ -706,7 +711,7 @@
       {
         "dia": 6,
         "corte": true,
-        "texto": "Francia está partida en dos, y no por la ciencia. Es lunes, y en los periódicos solo se habla del caso Dréifus: el coronel Picár pide a los jueces que decidan quién debe juzgarlo.",
+        "texto": "Francia está partida en dos, y no por la ciencia. Es lunes, y en los periódicos solo se habla del caso Dréifus: el oficial Picár pide al alto tribunal que aclare quién debe juzgarlo.",
         "drama": 0.55,
         "fondo": {
           "lugar": "calle",
@@ -753,7 +758,7 @@
       },
       {
         "dia": 7,
-        "texto": "Martes, cuentas de la casa. Mi marido cobra un sueldo modesto y yo no cobro nada. El premio Guégner de este verano nos ayuda con el material.",
+        "texto": "Martes, cuentas de la casa. Mi marido cobra un sueldo modesto y yo no cobro nada. El premio Guégner de este verano nos ayuda a seguir.",
         "drama": 0.55,
         "fondo": {
           "lugar": "interior",
@@ -804,7 +809,7 @@
       {
         "dia": 8,
         "capitulo": "Novecientas veces",
-        "texto": "Miércoles, siete de diciembre. Disuelvo, espero a que se formen cristales, los separo y mido cada parte. Y otra vez. Y otra. Así se caza un fantasma.",
+        "texto": "Miércoles, siete de diciembre. Disuelvo, espero a que se formen cristales, los separo y mido cada parte. Y otra vez. Y otra. Así se atrapa a un fantasma.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -919,7 +924,7 @@
       },
       {
         "dia": 10,
-        "texto": "La escuela huele a ácido y a huevo podrido, el gas que usamos para separar metales. Nadie lleva guantes. Nadie sabe que hagan falta.",
+        "texto": "La escuela huele a ácido y a huevo podrido, el gas que usamos para separar metales. Nadie lleva guantes. Nadie sabe que hacen falta.",
         "drama": 0.6,
         "fondo": {
           "lugar": "interior",
@@ -976,7 +981,7 @@
       },
       {
         "dia": 11,
-        "texto": "Sábado. Algunas muestras ya son cientos de veces más activas que el uranio. Mi marido deja la pluma y me mira sin decir nada.",
+        "texto": "Sábado. Algunas muestras ya son cientos de veces más activas que el uranio. Mi marido deja la pluma y me mira sin hablar.",
         "drama": 0.75,
         "personajes": [
           {
@@ -1080,7 +1085,7 @@
       {
         "dia": 14,
         "corte": true,
-        "texto": "Novecientas veces. Es martes, trece de diciembre, y nuestros cloruros son novecientas veces más activos que el uranio. El bario, por sí solo, no emite nada.",
+        "texto": "Novecientas veces. A estas alturas, nuestros mejores cloruros ya son novecientas veces más activos que el uranio. El bario, por sí solo, no emite nada.",
         "drama": 0.85,
         "fondo": {
           "lugar": "interior",
@@ -1139,7 +1144,7 @@
       },
       {
         "dia": 14,
-        "texto": "Pero la química sola no basta. Para que nos crean, ese elemento tiene que aparecer en la luz. Y en julio, esa prueba nos falló.",
+        "texto": "Pero la química sola no basta. Para que nos crean, ese elemento tiene que dejarse ver en la luz. Y en julio, esa prueba nos falló.",
         "drama": 0.75,
         "personajes": [
           {
@@ -1155,7 +1160,7 @@
       {
         "dia": 15,
         "capitulo": "La raya violeta",
-        "texto": "Miércoles, catorce de diciembre. En julio, el espectroscopista Eyén Demarsé no vio ninguna raya nueva del polonio. Sin raya, muchos químicos no se lo creen.",
+        "texto": "Miércoles, catorce de diciembre. Aquella vez, el espectroscopista Eyén Demarsé no vio ninguna raya nueva del polonio. Sin raya, muchos químicos no se lo creen.",
         "drama": 0.7,
         "fondo": {
           "lugar": "calle",
@@ -1259,7 +1264,7 @@
             "x": 0.35,
             "accion": "cargar",
             "emocion": "neutral",
-            "mirar": 1,
+            "mirar": -1,
             "objeto": "⚗️"
           },
           {
@@ -1281,15 +1286,16 @@
       },
       {
         "dia": 17,
-        "texto": "Es un hombre callado y preciso. Le entrego el frasco con el mismo cuidado con el que cojo a mi hija, y salgo sin saber nada.",
+        "texto": "Ya no depende de nosotros. Le entrego el frasco con el mismo cuidado con el que cojo a mi hija, y salgo sin saber nada.",
         "drama": 0.65,
         "personajes": [
           {
             "quien": "marie",
             "x": 0.3,
-            "accion": "quieto",
+            "accion": "cargar",
             "emocion": "miedo",
-            "mirar": -1
+            "mirar": -1,
+            "objeto": "⚗️"
           },
           {
             "quien": "demarcay",
@@ -1304,7 +1310,7 @@
       },
       {
         "dia": 18,
-        "texto": "Sábado. Esperar es peor que trabajar. Imagino lo que pienso esa noche: ¿y si no hay raya, como en julio? ¿Y si nos hemos equivocado?",
+        "texto": "Sábado. Esperar es peor que trabajar. Quizá esa noche pienso: ¿y si no hay raya, como en julio? ¿Y si nos hemos equivocado?",
         "drama": 0.75,
         "fondo": {
           "lugar": "interior",
@@ -1348,7 +1354,7 @@
       },
       {
         "dia": 19,
-        "texto": "Domingo en casa. Mi hija juega a mis pies y yo repaso columnas de números que me sé de memoria, buscando un error que no aparece.",
+        "texto": "Domingo en casa. Mi hija juega a mis pies y yo repaso columnas de números que me sé de memoria, buscando un error que no encuentro.",
         "drama": 0.5,
         "personajes": [
           {
@@ -1500,7 +1506,7 @@
       },
       {
         "dia": 21,
-        "texto": "Sale casi igual que el del bario normal. Eso quiere decir que lo nuevo es una cantidad minúscula, escondida entre los cristales. Y aun así no deja de emitir.",
+        "texto": "Sale casi igual que el del bario normal. Eso significa que lo nuevo es una cantidad minúscula, escondida entre los cristales. Y aun así no deja de emitir.",
         "drama": 0.7,
         "personajes": [
           {
@@ -1649,7 +1655,7 @@
       },
       {
         "dia": 24,
-        "texto": "Viernes. La nota va a Anrí Becrél. Nosotros no somos miembros de la Academia, y ninguna mujer lo es. Él la leerá en nuestro nombre.",
+        "texto": "Viernes. Anrí Becrél se lleva la nota. Nosotros no somos miembros de la Academia, y ninguna mujer lo es. Él la presentará en nuestro nombre.",
         "drama": 0.6,
         "fondo": {
           "lugar": "interior",
@@ -1749,7 +1755,7 @@
       },
       {
         "dia": 25,
-        "texto": "Imagino que pienso en él toda la noche. Su hija, la que estudiaba a escondidas en Varsovia, ha encontrado un elemento que nadie conocía.",
+        "texto": "Quizá pienso en él toda la noche. Su hija, la que estudiaba a escondidas en Varsovia, ha encontrado un elemento que nadie conocía.",
         "drama": 0.55,
         "personajes": [
           {
@@ -1764,7 +1770,7 @@
       },
       {
         "dia": 26,
-        "texto": "Domingo, Navidad. En París muchas casas tienen un árbol con velas. No somos religiosos, pero imagino a mi hija mirando las luces.",
+        "texto": "Domingo, Navidad. En París muchas casas tienen un árbol con velas. No somos religiosos, pero imagino a mi hija mirando las luces con los ojos muy abiertos.",
         "drama": 0.45,
         "personajes": [
           {
@@ -1795,7 +1801,7 @@
       },
       {
         "dia": 27,
-        "texto": "Lunes, veintiséis de diciembre. En el Instituto de Francia, Anrí Becrél se pone en pie ante la Academia de Ciencias y lee nuestra nota.",
+        "texto": "Lunes, veintiséis de diciembre. En el Instituto de Francia, junto al Sena, Anrí Becrél presenta nuestra nota ante la Academia de Ciencias.",
         "drama": 0.8,
         "fondo": {
           "lugar": "interior",
@@ -1881,7 +1887,7 @@
       },
       {
         "dia": 27,
-        "texto": "Detrás va la nota de Demarsé. Y una frase nuestra que aún no entendemos: su radiactividad debe de ser enorme.",
+        "texto": "La nota de Demarsé va justo detrás. Y una frase nuestra que aún no entendemos: su radiactividad debe de ser enorme.",
         "drama": 0.75,
         "fondo": {
           "lugar": "rio",
@@ -1980,7 +1986,7 @@
       },
       {
         "dia": 29,
-        "texto": "Miércoles. Por fin escribo a Varsovia. Les hablo de mi hija, del frío y, casi sin darle importancia, del elemento nuevo.",
+        "texto": "Miércoles. Por fin escribo a Varsovia. Les hablo de mi hija, del frío y, casi de pasada, del elemento nuevo.",
         "drama": 0.5,
         "fondo": {
           "lugar": "interior",
