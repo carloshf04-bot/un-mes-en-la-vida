@@ -1,0 +1,2265 @@
+{
+  "slug": "mary-celeste-1872",
+  "titulo": "un marinero del Dei Gratia",
+  "lugar": "Atlántico Norte, de Nueva York a Gibraltar",
+  "epoca": "Noviembre y diciembre de 1872",
+  "categoria": "epoca",
+  "drama": 0.7,
+  "velocidad": 1.15,
+  "musica": "misterio",
+  "paleta": {
+    "acento": "#c9a227",
+    "texto": "#f2ece0",
+    "fondo": "#0f1c24",
+    "papel": "#efe4cc"
+  },
+  "grafias": {
+    "Lansarote": "Lanzarote",
+    "Déi": "Dei",
+    "Grásia": "Gratia",
+    "Méri": "Mary",
+    "Selést": "Celeste",
+    "Bényamin": "Benjamin",
+    "Brigs": "Briggs",
+    "Mórjaus": "Morehouse",
+    "Óliver": "Oliver",
+    "Devó": "Deveau",
+    "Yon": "John",
+    "Ráit": "Wright",
+    "Yónson": "Johnson",
+    "Agústus": "Augustus",
+    "Ánderson": "Anderson",
+    "Charls": "Charles",
+    "Fréderic": "Frederick",
+    "Sóli": "Solly",
+    "Flad": "Flood",
+    "Yeims": "James",
+    "Cócran": "Cochrane",
+    "Ártur": "Arthur",
+    "Cónan": "Conan",
+    "Dóil": "Doyle",
+    "Marí": "Marie",
+    "Guílman": "Gilman",
+    "Párker": "Parker",
+    "Sela": "Sella",
+    "Sofía": "Sophia",
+    "Sara": "Sarah"
+  },
+  "reparto": {
+    "tomas": {
+      "piel": "#c99a72",
+      "pelo": "#1e1a16",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#8e2b22",
+        "color2": "#cfc3a4",
+        "detalle": "#3a2a1e"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#1f2a3a",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#2b1d14"
+    },
+    "tomasaguas": {
+      "piel": "#c99a72",
+      "pelo": "#1e1a16",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#c9a227",
+        "color2": "#a8861f",
+        "detalle": "#3a2a1e"
+      },
+      "sombrero": "ala",
+      "colorSombrero": "#b8902a",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#2b1d14"
+    },
+    "morehouse": {
+      "piel": "#e3b896",
+      "pelo": "#4a3424",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#1f2a3a",
+        "color2": "#22252c",
+        "detalle": "#c9a227"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#1a1d24",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#15120f"
+    },
+    "deveau": {
+      "piel": "#e0b08c",
+      "pelo": "#3a2a1e",
+      "peinado": "corto",
+      "barba": "larga",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#243246",
+        "color2": "#2a2a2a",
+        "detalle": "#1a1a1a"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#1f2a3a",
+      "gafas": false,
+      "altura": 1.05,
+      "zapatos": "#1d1712"
+    },
+    "wright": {
+      "piel": "#e6bc9c",
+      "pelo": "#6a4a2e",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#36506e",
+        "color2": "#4a4036",
+        "detalle": "#2a2a2a"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#2a2f3a",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#1d1712"
+    },
+    "johnson": {
+      "piel": "#efc9a8",
+      "pelo": "#c9a66b",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#6d6a63",
+        "color2": "#4a4036",
+        "detalle": "#3a332c"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#2a2018"
+    },
+    "anderson": {
+      "piel": "#ecc4a4",
+      "pelo": "#a07a4a",
+      "peinado": "corto",
+      "barba": "patillas",
+      "ropa": {
+        "tipo": "cuadros",
+        "color": "#5a3a2e",
+        "color2": "#2e2a26",
+        "detalle": "#4a4036"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#3a3a38",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#2a2018"
+    },
+    "soldado": {
+      "piel": "#e8bfa0",
+      "pelo": "#5a3e28",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#b0282a",
+        "color2": "#1d2433",
+        "detalle": "#e8e2d0"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#1d2433",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#111111"
+    },
+    "fiscal": {
+      "piel": "#e6c0a2",
+      "pelo": "#8a8580",
+      "peinado": "corto",
+      "barba": "patillas",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#15161a",
+        "color2": "#15161a",
+        "detalle": "#e8e4dc"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#0f0f0f"
+    },
+    "juez": {
+      "piel": "#e8c4a6",
+      "pelo": "#e8e4dc",
+      "peinado": "rizado",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#1a1a1e",
+        "color2": "#1a1a1e",
+        "detalle": "#e8e4dc"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#0f0f0f"
+    },
+    "doyle": {
+      "piel": "#ecc6a6",
+      "pelo": "#5a3e28",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#4a3a2c",
+        "color2": "#3a2e24",
+        "detalle": "#8a3b2e"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#1d1712"
+    }
+  },
+  "largo": {
+    "escenas": [
+      {
+        "corte": true,
+        "texto": "El cuatro de diciembre de mil ochocientos setenta y dos vi un barco que navegaba solo. A bordo debía haber diez personas. No había nadie. Y nadie ha sabido nunca por qué.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "velero",
+              "x": 1.0,
+              "escala": 0.55
+            },
+            {
+              "tipo": "barril",
+              "x": -1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": 0.4,
+            "accion": "senalar",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Me llamo Tomás Cabrera, soy de Lansarote y tengo veintiún años. Aquí me llaman Tom. Soy marinero raso y firmo por treinta dólares al mes.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barril",
+              "x": -1.2
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": 0.3,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Mi barco es el Déi Grásia, un bergantín canadiense casi nuevo, de dos palos. Llevamos barriles de petróleo de Nueva York a Gibraltar.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": 0.35,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "morehouse",
+            "x": -0.45,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "🧭"
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "texto": "Lo que pienso y lo que hago es imaginado. Pero el barco, mis compañeros, las fechas y las diez personas que faltan son reales.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": 0.1,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 1,
+        "capitulo": "Petróleo para Gibraltar",
+        "corte": true,
+        "texto": "Viernes, quince de noviembre. Soltamos amarras en Nueva York, rumbo a Gibraltar. Y no sé que vamos ocho días detrás de un barco que va a desaparecer.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "velero",
+              "x": -1.15,
+              "escala": 0.8
+            },
+            {
+              "tipo": "farola",
+              "x": -0.8
+            },
+            {
+              "tipo": "barril",
+              "x": 0.95
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": 0.3,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "objeto": "🪢"
+          },
+          {
+            "quien": "johnson",
+            "x": -0.35,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Atlántico Norte",
+          "detalle": "Nueva York → Gibraltar · 15 de noviembre de 1872",
+          "icono": "📍"
+        }
+      },
+      {
+        "dia": 1,
+        "texto": "En el muelle se hablaba de él: el Méri Selést, cargado de alcohol para Génova. Su capitán, Bényamin Brigs, viaja con su mujer y su hija de dos años.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "johnson",
+            "x": -0.35,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 2,
+        "texto": "Sábado. Primera guardia completa: cuatro horas de trabajo y cuatro de descanso, día y noche. La campana suena cada media hora.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barril",
+              "x": -1.2
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": 0.2,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "objeto": "🔔"
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 6,
+        "texto": "Miércoles. Comemos carne en salmuera que hay que hervir horas, galleta dura como una piedra y café con melaza. Y de vez en cuando, un trago de jugo de lima.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.1
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.1
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.1,
+              "escala": 0.3
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": 0.35,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1,
+            "objeto": "🍞"
+          },
+          {
+            "quien": "johnson",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "☕"
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Lo que como a bordo",
+          "items": [
+            {
+              "icono": "🍖",
+              "nombre": "Carne en salmuera"
+            },
+            {
+              "icono": "🍞",
+              "nombre": "Galleta de barco"
+            },
+            {
+              "icono": "☕",
+              "nombre": "Café con melaza"
+            },
+            {
+              "icono": "🍋",
+              "nombre": "Zumo de lima contra el escorbuto"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 8,
+        "capitulo": "La pizarra de Santa María",
+        "corte": true,
+        "texto": "Viernes, veintidós de noviembre. El Atlántico se pone feo. Llueve de lado, el agua barre la cubierta y hay que recoger velas con el barco dando bandazos.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "lluvia",
+          "props": [
+            {
+              "tipo": "barril",
+              "x": -1.2
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomasaguas",
+            "x": 0.3,
+            "accion": "trabajar",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "wright",
+            "x": -0.4,
+            "accion": "senalar",
+            "emocion": "enfado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 8,
+        "texto": "Subir a la arboladura de noche, con mar gruesa, es lo que más miedo da. Un resbalón, y nadie te vuelve a ver.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "noche",
+          "clima": "lluvia",
+          "props": [
+            {
+              "tipo": "barril",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomasaguas",
+            "x": 0.0,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 9,
+        "texto": "En un barco de madera siempre entra agua. Cada guardia, alguien baja la sonda por el tubo de la bomba para medir cuánta hay. Y luego, a achicar.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "barril",
+              "x": -1.25
+            },
+            {
+              "tipo": "barril",
+              "x": -0.95
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.2
+            },
+            {
+              "tipo": "charco",
+              "x": 0.4
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.95,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": 0.3,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "objeto": "🪣"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 10,
+        "texto": "Domingo, veinticuatro. Mientras yo achico, muy por delante de nosotros, alguien en el Méri Selést apunta su posición de mediodía en el diario. Es casi la última.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": 0.1,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "objeto": "🪣",
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 11,
+        "corte": true,
+        "texto": "Lunes, veinticinco de noviembre. La última frase del Méri Selést no está en el diario. Está en una pizarra, donde se apuntaba todo antes de pasarlo a limpio.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barril",
+              "x": -1.2
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 11,
+        "texto": "Pone que a las ocho de la mañana la punta este de Santa María, en las Azores, queda a unas seis millas. Después, nadie volvió a escribir nada.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": 0.2,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "8 de la mañana. La punta este de Santa María, a unas 6 millas.",
+          "firma": "Pizarra del Mary Celeste, 25 de noviembre de 1872 (última anotación)"
+        }
+      },
+      {
+        "dia": 12,
+        "texto": "Ni yo ni nadie lo sabe todavía. Nosotros seguimos mar adentro a buen ritmo: baldear, alquitranar cabos, coser velas, achicar. Y otra vez la campana.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barril",
+              "x": -1.2
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": -0.2,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "objeto": "🧵"
+          },
+          {
+            "quien": "johnson",
+            "x": 0.45,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 14,
+        "texto": "Por las noches, en la camareta, los viejos cuentan historias de barcos que aparecen sin nadie a bordo. Yo me río de ellos. Dentro de seis días dejaré de reírme.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.1
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.1
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.1,
+              "escala": 0.3
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": 0.35,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "anderson",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 16,
+        "capitulo": "El barco que nadie gobernaba",
+        "corte": true,
+        "texto": "Llevo un cuaderno donde apunto cada día con mala letra. Hay una página que he leído mil veces: la del miércoles cuatro de diciembre.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barril",
+              "x": -1.2
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": 0.3,
+            "accion": "escribir",
+            "emocion": "neutral",
+            "mirar": -1,
+            "objeto": "✒️"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 18,
+        "texto": "Lunes, dos de diciembre. Pasamos al norte de las Azores sin tocar tierra. El viento es bueno, el mar está tranquilo y el barco corre que da gusto.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barril",
+              "x": -1.2
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": 0.2,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1
+          },
+          {
+            "quien": "morehouse",
+            "x": -0.45,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "🧭"
+          }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Islas Azores",
+          "detalle": "Pasamos al norte, sin escala · 2 de diciembre de 1872",
+          "icono": "📍"
+        }
+      },
+      {
+        "dia": 20,
+        "texto": "Miércoles, cuatro de diciembre. Pasada la una de la tarde, entre las Azores y Portugal, alguien grita desde la cubierta. Hay una vela por la proa.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "velero",
+              "x": 1.0,
+              "escala": 0.55
+            },
+            {
+              "tipo": "barril",
+              "x": -1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": -0.3,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "johnson",
+            "x": 0.3,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 20,
+        "texto": "Es un bergantín como el nuestro. Pero algo está mal: da guiñadas, lleva muy poca vela y mal orientada, y no hay nadie al timón.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": 0.0,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 20,
+        "corte": true,
+        "texto": "Un barco en mitad del Atlántico, y nadie al timón. Durante unas dos horas lo seguimos y le mandamos señales. Nadie sale a cubierta. Nadie contesta.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "velero",
+              "x": 0.95,
+              "escala": 0.8
+            },
+            {
+              "tipo": "barril",
+              "x": -1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": -0.35,
+            "accion": "saludar",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "johnson",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "2 horas",
+          "etiqueta": "observándolo sin ver a nadie a bordo",
+          "icono": "🔭"
+        }
+      },
+      {
+        "dia": 20,
+        "texto": "El capitán Mórjaus lo mira con el catalejo y lo reconoce. Es el Méri Selést, el bergantín que salió de Nueva York ocho días antes que nosotros.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "morehouse",
+            "x": -0.1,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "🔭"
+          },
+          {
+            "quien": "tomas",
+            "x": -0.6,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 20,
+        "texto": "Tres de los nuestros bajan el bote: el primer oficial, Óliver Devó; el segundo, Yon Ráit; y Yon Yónson a los remos. Yo me quedo en la borda, mirando.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "velero",
+              "x": 1.15,
+              "escala": 0.5
+            },
+            {
+              "tipo": "bote",
+              "x": -1.1,
+              "escala": 0.7
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "deveau",
+            "x": -0.6,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "wright",
+            "x": -0.1,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "tomas",
+            "x": 0.55,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 20,
+        "texto": "Los veo subir por el costado. Pasa un minuto. Pasan diez. Nadie sale a recibirlos. Solo se oye la madera que cruje y las velas que golpean.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "velero",
+              "x": 0.95,
+              "escala": 0.8
+            },
+            {
+              "tipo": "barril",
+              "x": -1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 20,
+        "corte": true,
+        "texto": "Cuando vuelven, oigo a Devó contarlo. No hay nadie a bordo. Ni vivos ni muertos, ni señales de lucha. Diez personas se han esfumado en mitad del mar.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barril",
+              "x": -1.2
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "deveau",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "tomas",
+            "x": -0.4,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 20,
+        "texto": "Falta el bote del barco, el único que tenía. Y faltan el sextante, el cronómetro y los papeles. Quien se fue, se fue con prisa, pero sabía lo que hacía.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "deveau",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "tomas",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Lo que faltaba",
+          "items": [
+            {
+              "icono": "⛵",
+              "nombre": "El único bote"
+            },
+            {
+              "icono": "🧭",
+              "nombre": "Sextante y cronómetro"
+            },
+            {
+              "icono": "📜",
+              "nombre": "El registro del barco"
+            },
+            {
+              "icono": "📖",
+              "nombre": "El libro de navegación"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 20,
+        "texto": "Según Devó, en la bodega hay casi un metro de agua y una bomba desmontada. La sonda, tirada en cubierta. Los camarotes, empapados. La brújula, rota.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "barril",
+              "x": -1.3
+            },
+            {
+              "tipo": "barril",
+              "x": -1.0
+            },
+            {
+              "tipo": "barril",
+              "x": 1.0
+            },
+            {
+              "tipo": "barril",
+              "x": 1.3
+            },
+            {
+              "tipo": "charco",
+              "x": 0.0
+            },
+            {
+              "tipo": "charco",
+              "x": -0.6
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "deveau",
+            "x": 0.1,
+            "accion": "agachado",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 20,
+        "texto": "Y lo raro: la carga de alcohol sigue intacta. Hay comida y agua para seis meses, y la ropa de todos sigue en su sitio. Se fueron con lo puesto.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.25
+            },
+            {
+              "tipo": "mesa",
+              "x": -0.1
+            },
+            {
+              "tipo": "cama",
+              "x": 1.15
+            },
+            {
+              "tipo": "charco",
+              "x": 0.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "deveau",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "wright",
+            "x": 0.4,
+            "accion": "senalar",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 20,
+        "corte": true,
+        "texto": "Un barco abandonado vale dinero. Esa noche, en la cámara, el capitán echa cuentas: quien lo lleve a puerto puede cobrar un premio de salvamento. Pero no hay gente para dos barcos.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "cuadro",
+              "x": -1.15
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.0,
+              "escala": 0.3
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.2
+            },
+            {
+              "tipo": "reloj",
+              "x": -0.85
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "morehouse",
+            "x": -0.35,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "deveau",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 20,
+        "texto": "Mórjaus elige partirnos en dos. Devó y dos marineros, Agústus Ánderson y Charls Lund, se quedarán en el Méri Selést. El resto, con el capitán.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "morehouse",
+            "x": -0.35,
+            "accion": "senalar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "deveau",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "3",
+          "etiqueta": "hombres para gobernar el Mary Celeste hasta Gibraltar",
+          "icono": "⚓"
+        }
+      },
+      {
+        "dia": 20,
+        "texto": "Nos quedamos cinco, contando al capitán, para mover un barco hecho para ocho. Desde ahora, nada de dormir cuatro horas seguidas. Ni una sola noche.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barril",
+              "x": -1.2
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 21,
+        "texto": "Jueves. Al otro lado, Devó y sus dos hombres achican, reparan y aparejan como pueden. Los veo trabajar a lo lejos, pequeños, en un barco que no es suyo.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "velero",
+              "x": 1.05,
+              "escala": 0.5
+            },
+            {
+              "tipo": "cajas",
+              "x": -1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": -0.3,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "🪢"
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 22,
+        "capitulo": "Viernes 13 en Gibraltar",
+        "corte": true,
+        "texto": "Seiscientas millas hasta Gibraltar. Dos barcos con media tripulación, navegando juntos. Y esperándonos en la puerta del Estrecho, un temporal.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "velero",
+              "x": 1.1,
+              "escala": 0.45
+            },
+            {
+              "tipo": "barril",
+              "x": -1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": 0.3,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "600",
+          "etiqueta": "millas hasta Gibraltar con media tripulación",
+          "icono": "🧭"
+        }
+      },
+      {
+        "dia": 24,
+        "texto": "Duermo a ratos, de pie, apoyado en el palo. Tengo las manos en carne viva de tanto tirar de cabos. Pero cada mañana busco su vela, y ahí sigue.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": -0.2,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 27,
+        "texto": "Miércoles, once de diciembre. Entramos en el Estrecho con un temporal de los que no se olvidan. Olas negras, un viento que aúlla y la oscuridad encima.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "noche",
+          "clima": "tormenta",
+          "props": [
+            {
+              "tipo": "barril",
+              "x": -1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomasaguas",
+            "x": 0.2,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 28,
+        "texto": "Jueves, doce. Cuando aclara, busco su vela por todo el horizonte. No está. El Méri Selést ha vuelto a desaparecer, y esta vez con tres de los nuestros.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "cajas",
+              "x": -1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 28,
+        "corte": true,
+        "texto": "Esa misma noche fondeamos en Gibraltar, bajo el Peñón, sin rastro del otro barco. Me paso las horas en la borda, mirando la boca del puerto.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": 1.3,
+              "escala": 2,
+              "detras": true
+            },
+            {
+              "tipo": "velero",
+              "x": -1.15,
+              "escala": 0.55
+            },
+            {
+              "tipo": "farola",
+              "x": -0.85
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": -0.3,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Gibraltar",
+          "detalle": "El Dei Gratia fondea la noche del 12 de diciembre de 1872",
+          "icono": "📍"
+        }
+      },
+      {
+        "dia": 29,
+        "texto": "Viernes, trece de diciembre. Por la mañana, una vela entra despacio en la bahía. Es él. Devó y sus dos hombres llegan agotados, pero vivos.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": 1.35,
+              "escala": 2,
+              "detras": true
+            },
+            {
+              "tipo": "velero",
+              "x": 0.95,
+              "escala": 0.6
+            },
+            {
+              "tipo": "bandera",
+              "x": -1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": -0.4,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "morehouse",
+            "x": -0.75,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 29,
+        "texto": "La alegría dura poco. Ese mismo día, el mariscal del tribunal sube a bordo y embarga el Méri Selést. Nadie toca nada hasta que hable el juez.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "deveau",
+            "x": 0.1,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "tomas",
+            "x": -0.45,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 30,
+        "texto": "Sábado, catorce. Todo Gibraltar habla del barco fantasma: en las tabernas, en el muelle, en los cuarteles. Y la gente empieza a mirarnos raro.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.35
+            },
+            {
+              "tipo": "farola",
+              "x": -0.85
+            },
+            {
+              "tipo": "bandera",
+              "x": 0.95
+            },
+            {
+              "tipo": "casa",
+              "x": 1.35
+            },
+            {
+              "tipo": "roca",
+              "x": 1.1,
+              "escala": 1.8,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": -0.35,
+            "accion": "caminar",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "soldado",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "corte": true,
+        "texto": "El fiscal de la Corona, Fréderic Sóli Flad, tiene sus sospechas: un motín, un complot entre capitanes, o que nosotros mismos los matamos para cobrar el premio.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.25
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.05
+            },
+            {
+              "tipo": "cuadro",
+              "x": 1.0
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "fiscal",
+            "x": 0.4,
+            "accion": "senalar",
+            "emocion": "enfado",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "deveau",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Lo que sospechaba el fiscal",
+          "items": [
+            {
+              "icono": "⚓",
+              "nombre": "Un motín a bordo"
+            },
+            {
+              "icono": "🤝",
+              "nombre": "Un complot entre capitanes"
+            },
+            {
+              "icono": "💰",
+              "nombre": "La tripulación del Dei Gratia"
+            },
+            {
+              "icono": "⚖️",
+              "nombre": "Nada se demostró"
+            }
+          ]
+        }
+      },
+      {
+        "texto": "Desde el fondo de la sala oigo declarar a Devó ante el juez, Yeims Cócran. Lo cuenta todo, una y otra vez.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "juez",
+            "x": 0.0,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "deveau",
+            "x": -0.55,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tomas",
+            "x": 0.65,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Aparece una espada con manchas en el camarote del capitán. La mandan examinar, y el informe trae algo que no encaja con la teoría del fiscal: no es sangre.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "fiscal",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "juez",
+            "x": -0.35,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "📜"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "En marzo llega la sentencia: mil setecientas libras de premio, en torno a una quinta parte de lo salvado. Muchos lo leen como que el tribunal no se fiaba. Pero nadie fue acusado jamás.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "juez",
+            "x": 0.0,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "tomas",
+            "x": 0.6,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1.700 £",
+          "etiqueta": "de premio: en torno a una quinta parte de lo salvado",
+          "icono": "⚖️"
+        }
+      },
+      {
+        "corte": true,
+        "texto": "Y ahora, la leyenda. La taza de té caliente sobre la mesa, el desayuno a medio comer. Nada de eso existió. Se lo inventó un médico de veinticuatro años.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "papel",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "chimenea",
+              "x": -1.15
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.05
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.05,
+              "escala": 0.3
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "doyle",
+            "x": 0.3,
+            "accion": "escribir",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "✒️"
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Se llamaba Ártur Cónan Dóil. En mil ochocientos ochenta y cuatro publicó un relato, rebautizó el barco como Marí Selést, y medio mundo se lo creyó.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "doyle",
+            "x": 0.3,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "El fiscal Sóli Flad lo llamó una invención de principio a fin. Aun así, hoy la leyenda pesa más que la verdad.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "atardecer",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": -0.2
+            },
+            {
+              "tipo": "📜",
+              "x": -0.2,
+              "escala": 0.3
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.2
+            },
+            {
+              "tipo": "cuadro",
+              "x": -1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "fiscal",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "enfado",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Y el barco tuvo un final indigno. En mil ochocientos ochenta y cinco, el capitán Guílman Párker lo encalló a propósito en un arrecife de Haití para cobrar el seguro.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "palmera",
+              "x": -1.25
+            },
+            {
+              "tipo": "roca",
+              "x": -0.35
+            },
+            {
+              "tipo": "velero",
+              "x": 0.55,
+              "escala": 0.8
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "corte": true,
+        "texto": "Mil setecientos un barriles de alcohol. Cuando por fin los descargaron en Génova, nueve estaban vacíos. Para algunos, ahí está la clave.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barril",
+              "x": -1.25
+            },
+            {
+              "tipo": "barril",
+              "x": -0.95
+            },
+            {
+              "tipo": "barril",
+              "x": 1.0
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": 0.3,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "9 de 1.701",
+          "etiqueta": "barriles de alcohol llegaron vacíos a Génova",
+          "icono": "🪵"
+        }
+      },
+      {
+        "texto": "Quizá el capitán Brigs temió que la carga estallara, y subió a todos al bote, atado al barco con un cabo, para esperar apartados.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "velero",
+              "x": 0.75,
+              "escala": 0.75
+            },
+            {
+              "tipo": "bote",
+              "x": -0.45,
+              "escala": 0.6
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "texto": "En dos mil seis, el químico Andrea Sela lo probó con una réplica de la bodega: una explosión de vapores puede ser una llama fría que no quema ni deja marcas.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "barril",
+              "x": 0.6,
+              "escala": 0.8
+            },
+            {
+              "tipo": "estanteria",
+              "x": -1.2
+            },
+            {
+              "tipo": "maquina",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "general"
+      },
+      {
+        "texto": "Otros creen que las bombas se atascaron, y que el capitán, creyendo que se hundía, quiso llegar a Santa María. Ninguna teoría está probada. Ni una sola.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barril",
+              "x": -1.25
+            },
+            {
+              "tipo": "barril",
+              "x": -0.95
+            },
+            {
+              "tipo": "barril",
+              "x": 1.0
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": -0.2,
+            "accion": "pensar",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "corte": true,
+        "texto": "Hay una niña de dos años en esta historia. Se llamaba Sofía, e iba a bordo con su madre, Sara. Su hermano Ártur, de siete, se quedó en tierra para ir a la escuela.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "velero",
+              "x": -1.1,
+              "escala": 0.45
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": 0.3,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Nunca se encontró a ninguna de las diez personas del Méri Selést. Ni el bote, ni un remo, ni una carta. Nadie los volvió a ver.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": 0.2,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "10",
+          "etiqueta": "personas desaparecidas, entre ellas una niña de 2 años. Nunca se las encontró.",
+          "icono": "⚓"
+        }
+      },
+      {
+        "texto": "Yo, Tomás, nunca existí. El Déi Grásia, sus hombres, el Méri Selést y su gente, sí. ¿Qué crees tú que pasó junto a Santa María? Déjalo en los comentarios.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": 0.0,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Y si quieres vivir otro mes dentro de la historia, suscríbete. El próximo barco ya está soltando amarras.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "tomas",
+            "x": 0.0,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1
+          }
+        ],
+        "camara": "general"
+      }
+    ]
+  },
+  "publicacion": {
+    "tituloLargo": "Un mes en la vida de UN MARINERO DEL DEI GRATIA (1872) | El misterio del Mary Celeste",
+    "tituloCorto": "El misterio del Mary Celeste",
+    "descripcion": "Treinta días a bordo del bergantín Dei Gratia, del 15 de noviembre al 14 de diciembre de 1872: la salida de Nueva York con petróleo para Gibraltar, la vida de un marinero en el Atlántico Norte y la tarde del 4 de diciembre, cuando entre las Azores y Portugal encontraron al Mary Celeste navegando sin nadie a bordo. Lo que faltaba, lo que seguía allí, el viaje a Gibraltar con media tripulación, el juicio de salvamento y la leyenda que inventó Arthur Conan Doyle.\n\n— Semana 1: Petróleo para Gibraltar\n— Semana 2: La pizarra de Santa María\n— Semana 3: El barco que nadie gobernaba\n— Semana 4: Viernes 13 en Gibraltar\n— Epílogo: el juicio de Gibraltar, Conan Doyle, el naufragio de Haití (1885) y las teorías\n\nQué es inventado y qué es real: el marinero Tomás Cabrera no existió y no sustituye a ningún tripulante real; sus pensamientos y su papel son imaginados. El Dei Gratia, el capitán David Morehouse, Oliver Deveau, John Wright, John Johnson, Augustus Anderson, Charles Lund, el Mary Celeste y las diez personas que viajaban en él son reales, igual que las fechas. Nadie sabe qué pasó: las teorías que se cuentan no están demostradas, y el tribunal nunca acusó a nadie.\n\nRecordamos a Benjamin, Sarah y Sophia Briggs, Albert Richardson, Andrew Gilling, Edward Head, Volkert y Boy Lorenzen, Arian Martens y Gottlieb Goodschaad.\n\nFuentes: Charles Edey Fay, Mary Celeste: The Odyssey of an Abandoned Ship (1942, con los documentos del juicio de Gibraltar); Paul Begg, Mary Celeste: The Greatest Mystery of the Sea (2005); Brian Hicks, Ghost Ship (2004); Britannica; Royal Museums Greenwich; Smithsonian Magazine; American Heritage; History.com; Dalhousie University Archives (copia de la vista de salvamento de 1872); Arthur Conan Doyle Encyclopedia; documental de Anne MacGregor (2007); experimento de Andrea Sella (UCL, 2006).",
+    "etiquetas": [
+      "un mes en la vida de",
+      "Mary Celeste",
+      "barco fantasma",
+      "Dei Gratia",
+      "misterios sin resolver",
+      "1872",
+      "Gibraltar",
+      "historia del mar",
+      "Conan Doyle",
+      "misterio",
+      "historia",
+      "veleros"
+    ],
+    "miniatura": {
+      "texto": "NADIE A BORDO",
+      "escena": 19,
+      "quien": "tomas",
+      "emocion": "miedo",
+      "icono": "⛵"
+    },
+    "shorts": [
+      {
+        "titulo": "El barco que apareció sin nadie a bordo",
+        "descripcion": "4 de diciembre de 1872: un marinero del Dei Gratia ve un bergantín que navega solo. Era el Mary Celeste. Personaje inventado, hechos reales. #shorts #misterio #historia"
+      },
+      {
+        "titulo": "Ocho días detrás del Mary Celeste",
+        "descripcion": "15 de noviembre de 1872: el Dei Gratia sale de Nueva York por la misma ruta que un barco que va a desaparecer. #shorts #maryceleste #historia"
+      },
+      {
+        "titulo": "Así se vivía en un velero en 1872",
+        "descripcion": "Temporales, velas de noche y una bomba de achique que nunca descansa. Mientras, el Mary Celeste apunta su posición. #shorts #historia #mar"
+      },
+      {
+        "titulo": "La última anotación del Mary Celeste",
+        "descripcion": "25 de noviembre de 1872, ocho de la mañana: la isla de Santa María a seis millas. Después, nada. #shorts #misterio #maryceleste"
+      },
+      {
+        "titulo": "Una vela en el horizonte… sin nadie al timón",
+        "descripcion": "4 de diciembre de 1872, entre las Azores y Portugal: un bergantín da guiñadas con muy poca vela. #shorts #misterio #historia"
+      },
+      {
+        "titulo": "Dos horas de señales y nadie contesta",
+        "descripcion": "El capitán Morehouse reconoce el barco: es el Mary Celeste. Tres hombres del Dei Gratia suben a bordo. #shorts #misterio #barcofantasma"
+      },
+      {
+        "titulo": "Lo que encontraron a bordo del Mary Celeste",
+        "descripcion": "Faltaban el bote, el sextante y el cronómetro. La carga, la comida y la ropa seguían allí. #shorts #misterio #historia"
+      },
+      {
+        "titulo": "Un barco abandonado vale dinero",
+        "descripcion": "El premio de salvamento obligó a partir la tripulación del Dei Gratia en dos. Tres hombres para todo un bergantín. #shorts #historia #mar"
+      },
+      {
+        "titulo": "Un temporal en la puerta del Estrecho",
+        "descripcion": "600 millas con media tripulación y, al llegar al Estrecho, el Mary Celeste vuelve a desaparecer. #shorts #misterio #historia"
+      },
+      {
+        "titulo": "Viernes 13 en Gibraltar",
+        "descripcion": "13 de diciembre de 1872: el Mary Celeste entra en Gibraltar y el tribunal lo embarga ese mismo día. #shorts #gibraltar #misterio"
+      },
+      {
+        "titulo": "El fiscal que buscaba un crimen",
+        "descripcion": "Frederick Solly-Flood sospechó de un motín y hasta de los salvadores. La espada no tenía sangre y nadie fue acusado. #shorts #misterio #historia"
+      },
+      {
+        "titulo": "La mentira que inventó Conan Doyle",
+        "descripcion": "La taza de té caliente nunca existió: la inventó un joven Arthur Conan Doyle en 1884. #shorts #maryceleste #conandoyle"
+      },
+      {
+        "titulo": "Nueve barriles vacíos",
+        "descripcion": "1.701 barriles de alcohol y 9 vacíos en Génova. ¿Una explosión de vapores sin llamas? Ninguna teoría está probada. #shorts #misterio #ciencia"
+      },
+      {
+        "titulo": "Una niña de dos años en el Mary Celeste",
+        "descripcion": "Sophia Briggs tenía dos años. Nunca se encontró a ninguna de las diez personas del Mary Celeste. #shorts #misterio #historia"
+      }
+    ]
+  }
+}
