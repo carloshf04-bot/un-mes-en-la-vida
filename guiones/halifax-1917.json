@@ -633,9 +633,14 @@
               "x": -1.45
             },
             {
+              "tipo": "cabana",
+              "x": 0.25,
+              "escala": 0.55
+            },
+            {
               "tipo": "hoguera",
-              "x": 0.15,
-              "escala": 0.5
+              "x": -0.75,
+              "escala": 0.4
             }
           ]
         },
@@ -750,7 +755,7 @@
       },
       {
         "dia": 6,
-        "texto": "Sábado, primero de diciembre, último día del Préstamo de la Victoria. Por todas partes, carteles piden comprar bonos de guerra. Yo no tengo ni para un caramelo.",
+        "texto": "Sábado, primero de diciembre, último día del Préstamo de la Victoria. Por todas partes, carteles piden comprar bonos de guerra. Yo no tengo ni para un bono.",
         "drama": 0.55,
         "fondo": {
           "lugar": "calle",
@@ -768,11 +773,6 @@
             {
               "tipo": "casa",
               "x": 1.35
-            },
-            {
-              "tipo": "🍁",
-              "x": -0.6,
-              "escala": 0.3
             }
           ]
         },
@@ -828,6 +828,16 @@
               "tipo": "casa",
               "x": 1.0,
               "escala": 0.6
+            },
+            {
+              "tipo": "casa",
+              "x": 0.65,
+              "escala": 0.45
+            },
+            {
+              "tipo": "casa",
+              "x": 1.35,
+              "escala": 0.5
             }
           ]
         },
@@ -1100,7 +1110,7 @@
       {
         "dia": 11,
         "corte": true,
-        "texto": "A las nueve menos cuarto, en el estrecho, el Ímo y el Monblán se cruzan mal. La proa noruega se clava en el costado del francés.",
+        "texto": "A las nueve menos cuarto, en el estrecho, el Ímo y el Monblán maniobran mal. La proa noruega se clava en el costado del francés.",
         "drama": 0.75,
         "fondo": {
           "lugar": "rio",
@@ -1157,6 +1167,11 @@
             {
               "tipo": "pino",
               "x": 1.45
+            },
+            {
+              "tipo": "bote",
+              "x": 0.05,
+              "escala": 0.5
             }
           ]
         },
@@ -1213,7 +1228,7 @@
             "quien": "vecino",
             "x": 0.35,
             "accion": "quieto",
-            "emocion": "miedo",
+            "emocion": "sorpresa",
             "mirar": 1,
             "habla": false
           }
@@ -1277,7 +1292,7 @@
       {
         "dia": 11,
         "corte": true,
-        "texto": "Lo supe después. En la estación de Ríchmond, el telegrafista Vins Cólman se entera de lo que lleva el barco. Echa a correr. De pronto, se acuerda del tren.",
+        "texto": "Lo supe después. En la estación de Ríchmond, el telegrafista Vins Cólman se entera de lo que lleva el barco. Empieza a irse. De pronto, se acuerda del tren.",
         "drama": 0.8,
         "fondo": {
           "lugar": "interior",
@@ -1438,9 +1453,9 @@
         "camara": "subir",
         "insercion": {
           "tipo": "dato",
-          "valor": "9:04",
-          "etiqueta": "la mayor explosión causada por el hombre antes de la bomba atómica",
-          "icono": "🕘"
+          "valor": "≈3 km",
+          "etiqueta": "voló el ancla del Mont-Blanc: la mayor explosión hecha por el hombre antes de la bomba atómica",
+          "icono": "⚓"
         }
       },
       {
@@ -1613,7 +1628,7 @@
         "drama": 0.8,
         "fondo": {
           "lugar": "campo",
-          "hora": "atardecer",
+          "hora": "dia",
           "clima": "ceniza",
           "props": [
             {
@@ -1696,12 +1711,31 @@
             "habla": false
           }
         ],
-        "camara": "lenta"
+        "camara": "lenta",
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "ceniza",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.3
+            },
+            {
+              "tipo": "valla",
+              "x": 1.2
+            },
+            {
+              "tipo": "pino",
+              "x": 1.5
+            }
+          ]
+        }
       },
       {
         "dia": 12,
         "corte": true,
-        "texto": "Al día siguiente, sobre una ciudad sin cristales, cae la peor tormenta de nieve del invierno. Cuarenta centímetros de nieve sobre las ruinas.",
+        "texto": "Al día siguiente, sobre una ciudad sin cristales, cae una ventisca que nadie esperaba. Cuarenta centímetros de nieve sobre las ruinas.",
         "drama": 0.8,
         "fondo": {
           "lugar": "campo",
@@ -2127,7 +2161,7 @@
           "tipo": "dato",
           "valor": "≈1.400",
           "etiqueta": "heridos llegaron el primer día al hospital de Camp Hill, con unas 250 camas",
-          "icono": "🏥"
+          "icono": "🛏️"
         }
       },
       {
@@ -2152,9 +2186,9 @@
               "x": 1.35
             },
             {
-              "tipo": "🕯️",
-              "x": 0.2,
-              "escala": 0.3
+              "tipo": "roca",
+              "x": 0.3,
+              "escala": 0.6
             }
           ]
         },
@@ -2351,7 +2385,7 @@
       },
       {
         "dia": 26,
-        "texto": "Llegan donativos de todas partes: Masachúsets dará más de setecientos cincuenta mil dólares, y en Ontário unos niños renuncian a sus regalos por nosotros.",
+        "texto": "Llegan donativos de todas partes: Masachúsets dará más de setecientos cincuenta mil dólares, y en Ontário unos niños se quedan sin regalos por nosotros.",
         "drama": 0.6,
         "fondo": {
           "lugar": "interior",
@@ -2473,7 +2507,7 @@
             "quien": "tom",
             "x": 0.4,
             "accion": "quieto",
-            "emocion": "neutral",
+            "emocion": "feliz",
             "mirar": -1,
             "habla": false,
             "objeto": "🧣"
@@ -2482,7 +2516,7 @@
             "quien": "annie",
             "x": -0.15,
             "accion": "quieto",
-            "emocion": "sorpresa",
+            "emocion": "feliz",
             "mirar": 1,
             "habla": false
           }
@@ -2590,22 +2624,27 @@
           "clima": "despejado",
           "props": [
             {
-              "tipo": "🔔",
-              "x": -0.1,
-              "escala": 0.35
-            },
-            {
               "tipo": "pino",
               "x": -1.3
             },
             {
               "tipo": "arbol",
               "x": 1.3
+            },
+            {
+              "tipo": "bandera",
+              "x": -0.2
             }
           ]
         },
         "personajes": [],
-        "camara": "lenta"
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "9:04",
+          "etiqueta": "un minuto de silencio cada 6 de diciembre en Fort Needham",
+          "icono": "🔔"
+        }
       },
       {
         "texto": "Tom, su familia y el señor Barns son inventados. Todo lo demás es real. Este vídeo es para las víctimas de Hálifax, de Dártmus y de Quépekek.",
