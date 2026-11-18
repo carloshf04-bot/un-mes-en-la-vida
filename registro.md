@@ -10,3 +10,4 @@
 | 2026-11-11 | gein-1957 | persona | 11,6 min | 13 shorts troceados | Tendencia (Netflix 2025) y efeméride del 16 de noviembre. Sin escenas gráficas. Espectador 8/10 |
 | 2026-11-11 | tenochtitlan-1519 | época | 11,4 min | 13 shorts troceados | Efeméride del 8 de noviembre. Protagonista inventado. Espectador 8/10 |
 | 2026-11-11 | zombis-2031 | futuro | 10,3 min | 12 shorts troceados | Ficción con ciencia real (rabia). Primer episodio con shorts sacados del largo. Espectador 8/10 |
+| 2026-11-18 | armero-1985 | catástrofe | 10,5 min | 12 shorts troceados | Viernes. Efeméride del 13 de noviembre. Protagonista inventado; Omayra fuera de cuadro. Decorados nuevos lodo y barrizal. Espectador 8/10 (3.ª vuelta) |
