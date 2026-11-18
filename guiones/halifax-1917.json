@@ -1,0 +1,2771 @@
+{
+  "slug": "halifax-1917",
+  "titulo": "un aprendiz en Halifax",
+  "lugar": "Halifax, Nueva Escocia (Canadá)",
+  "epoca": "Noviembre y diciembre de 1917",
+  "categoria": "epoca",
+  "drama": 0.65,
+  "velocidad": 1.15,
+  "musica": "nostalgia",
+  "paleta": {
+    "acento": "#e8792b",
+    "texto": "#f4f1ea",
+    "fondo": "#141a22",
+    "papel": "#ece3d0"
+  },
+  "reparto": {
+    "tom": {
+      "piel": "#f0c8a8",
+      "pelo": "#7a4a2a",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#5d6b78",
+        "color2": "#3a3530",
+        "detalle": "#8a7a5e"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#4a4540",
+      "gafas": false,
+      "altura": 0.95,
+      "zapatos": "#2a2018"
+    },
+    "mary": {
+      "piel": "#f0c8a8",
+      "pelo": "#5a3a22",
+      "peinado": "coleta",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#3d4a5c",
+        "color2": "#33404f",
+        "detalle": "#e6e1d6"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 0.95,
+      "zapatos": "#2a2018",
+      "voz": "narradora-es"
+    },
+    "annie": {
+      "piel": "#f3d0b2",
+      "pelo": "#9a5a30",
+      "peinado": "trenzas",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#7a2e34",
+        "color2": "#6a262c",
+        "detalle": "#e6e1d6"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 0.6,
+      "zapatos": "#3a2a1e",
+      "voz": "narradora-es"
+    },
+    "abuela": {
+      "piel": "#e8c0a0",
+      "pelo": "#c8c4be",
+      "peinado": "coleta",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#2a2a30",
+        "color2": "#24242a",
+        "detalle": "#4a4a52"
+      },
+      "sombrero": "panuelo",
+      "colorSombrero": "#4a4a52",
+      "gafas": false,
+      "altura": 0.9,
+      "zapatos": "#1e1e22",
+      "voz": "narradora-es"
+    },
+    "barnes": {
+      "piel": "#e0b090",
+      "pelo": "#6a6460",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "cuadros",
+        "color": "#5a3a32",
+        "color2": "#2e2a26",
+        "detalle": "#2e2a26"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#2e2e32",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#1e1a16"
+    },
+    "cestera": {
+      "piel": "#b98a68",
+      "pelo": "#1f1a17",
+      "peinado": "trenzas",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#4a3a30",
+        "color2": "#3e3028",
+        "detalle": "#7a5a3a"
+      },
+      "sombrero": "panuelo",
+      "colorSombrero": "#5a3a2a",
+      "gafas": false,
+      "altura": 0.95,
+      "zapatos": "#2a2018",
+      "voz": "narradora-es"
+    },
+    "coleman": {
+      "piel": "#f0c8a8",
+      "pelo": "#3a2a1e",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#2e3440",
+        "color2": "#262b35",
+        "detalle": "#f4f1ea"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#1a1a1e"
+    },
+    "vecina": {
+      "piel": "#ecc3a2",
+      "pelo": "#4a3022",
+      "peinado": "coleta",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#6a5a44",
+        "color2": "#5a4c3a",
+        "detalle": "#e6e1d6"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 0.95,
+      "zapatos": "#2a2018",
+      "voz": "narradora-es"
+    },
+    "vecino": {
+      "piel": "#e6b896",
+      "pelo": "#5a4030",
+      "peinado": "corto",
+      "barba": "patillas",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#8a8478",
+        "color2": "#3a3530",
+        "detalle": "#5a5248"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#3a3632",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#2a2018"
+    },
+    "soldado": {
+      "piel": "#e8bc98",
+      "pelo": "#4a3424",
+      "peinado": "rapado",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#6b6544",
+        "color2": "#5e583a",
+        "detalle": "#8a7a4e"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#6b6544",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#3a2a1e"
+    },
+    "marinero": {
+      "piel": "#f0c8a8",
+      "pelo": "#2a2018",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#1f2a44",
+        "color2": "#1a2238",
+        "detalle": "#f4f1ea"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#1f2a44",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#15151a"
+    },
+    "enfermera": {
+      "piel": "#f2cdb0",
+      "pelo": "#6a4a30",
+      "peinado": "coleta",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "bata",
+        "color": "#f4f1ea",
+        "color2": "#e6e1d6",
+        "detalle": "#c0392b"
+      },
+      "sombrero": "panuelo",
+      "colorSombrero": "#ffffff",
+      "gafas": false,
+      "altura": 0.95,
+      "zapatos": "#f4f1ea",
+      "voz": "narradora-es"
+    },
+    "medico": {
+      "piel": "#e8bc98",
+      "pelo": "#8a8278",
+      "peinado": "coronilla",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#2a2a30",
+        "color2": "#24242a",
+        "detalle": "#f4f1ea"
+      },
+      "sombrero": "ninguno",
+      "gafas": true,
+      "altura": 1,
+      "zapatos": "#15151a"
+    }
+  },
+  "grafias": {
+    "Hálifax": "Halifax",
+    "Ríchmond": "Richmond",
+    "Ráili": "Reilly",
+    "Áni": "Annie",
+    "Barns": "Barnes",
+    "Bédford": "Bedford",
+    "Dártmus": "Dartmouth",
+    "míkmak": "mi'kmaq",
+    "uíguams": "wigwams",
+    "Quépekek": "Kepe'kek",
+    "Nídam": "Needham",
+    "Monblán": "Mont-Blanc",
+    "bensol": "benzol",
+    "Ímo": "Imo",
+    "Patrísia": "Patricia",
+    "Vins": "Vince",
+    "Cólman": "Coleman",
+    "Brúnsuic": "Brunswick",
+    "Róquingam": "Rockingham",
+    "Uélington": "Wellington",
+    "Bóston": "Boston",
+    "Ratchéski": "Ratshesky",
+    "Masachúsets": "Massachusetts",
+    "Chebácto": "Chebucto",
+    "Áfricvil": "Africville",
+    "Ontário": "Ontario",
+    "Háidroston": "Hydrostone"
+  },
+  "largo": {
+    "escenas": [
+      {
+        "corte": true,
+        "texto": "El seis de diciembre de mil novecientos diecisiete, a las nueve y cuatro, mi barrio desapareció. Antes hubo veinte minutos de fuego en el puerto. Y todos salimos a mirar.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barco",
+              "x": -0.7,
+              "escala": 1.0
+            },
+            {
+              "tipo": "hoguera",
+              "x": -0.7,
+              "escala": 0.9
+            },
+            {
+              "tipo": "pino",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "senalar",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Me llamo Tom Ráili, tengo quince años y soy aprendiz en el dique seco de Hálifax, en Canadá. Esta es la historia de aquel invierno.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "amanecer",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "barco",
+              "x": -0.75,
+              "escala": 1.2
+            },
+            {
+              "tipo": "maquina",
+              "x": 1.15
+            },
+            {
+              "tipo": "yunque",
+              "x": 0.85
+            },
+            {
+              "tipo": "hoguera",
+              "x": 1.4,
+              "escala": 0.6
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Halifax",
+          "detalle": "Nueva Escocia, Canadá · 1917",
+          "icono": "📍"
+        }
+      },
+      {
+        "dia": 1,
+        "capitulo": "El puerto que no duerme",
+        "texto": "Es lunes, veintiséis de noviembre. Entro al alba en el dique. Un carguero descansa en seco sobre maderos, como una ballena varada. El frío muerde los dedos.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false,
+            "entra": "der"
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 2,
+        "texto": "Mi maestro es el señor Barns, el jefe del taller. Me enseña la primera regla mientras golpea el remache al rojo: aquí nadie mira la chispa.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.45,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "🪣"
+          },
+          {
+            "quien": "barnes",
+            "x": -0.25,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "🔨"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 2,
+        "corte": true,
+        "texto": "Hálifax es el gran puerto de Canadá en la guerra. En la bahía de Bédford se juntan montones de barcos grises que salen en grupo hacia Europa.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barco",
+              "x": -1.1,
+              "escala": 0.7
+            },
+            {
+              "tipo": "barco",
+              "x": 1.05,
+              "escala": 0.55
+            },
+            {
+              "tipo": "velero",
+              "x": -0.35,
+              "escala": 0.5
+            },
+            {
+              "tipo": "pino",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 2,
+        "texto": "De noche, una red de hierro tapa la entrada contra los submarinos alemanes. Así, el barco que llega tarde espera fuera hasta la mañana.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barco",
+              "x": -1.0,
+              "escala": 0.8
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.1
+            },
+            {
+              "tipo": "barril",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 3,
+        "texto": "Miércoles. Llega carta de papá desde Francia. Mamá la lee en alto junto a la estufa, y la abuela pasa las cuentas del rosario sin hablar.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "madera",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estufa",
+              "x": -1.2
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "cuadro",
+              "x": 1.0
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.4
+            },
+            {
+              "tipo": "🫖",
+              "x": 0.0,
+              "escala": 0.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "mary",
+            "x": -0.7,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "✉️"
+          },
+          {
+            "quien": "abuela",
+            "x": -0.2,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "📿"
+          },
+          {
+            "quien": "annie",
+            "x": 0.3,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "tom",
+            "x": 0.75,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Nuestra cocina",
+          "items": [
+            {
+              "icono": "✉️",
+              "nombre": "La carta de papá"
+            },
+            {
+              "icono": "📿",
+              "nombre": "El rosario de la abuela"
+            },
+            {
+              "icono": "🫖",
+              "nombre": "La lata del té"
+            },
+            {
+              "icono": "🔥",
+              "nombre": "La estufa de carbón"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 3,
+        "texto": "Mi hermana Áni tiene ocho años y pregunta si papá volverá para Navidad. Nadie contesta. Mamá dobla la carta y la guarda en la lata del té.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "mary",
+            "x": -0.45,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "✉️"
+          },
+          {
+            "quien": "annie",
+            "x": 0.0,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "tom",
+            "x": 0.5,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 4,
+        "corte": true,
+        "texto": "Enfrente, en la orilla de Dártmus, vive una pequeña comunidad míkmak: siete uíguams y una escuela entre los pinos. Su nombre para el estrecho es Quépekek.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "amanecer",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "wigwam",
+              "x": -1.0
+            },
+            {
+              "tipo": "wigwam",
+              "x": -0.45,
+              "escala": 0.8
+            },
+            {
+              "tipo": "wigwam",
+              "x": 0.75,
+              "escala": 0.9
+            },
+            {
+              "tipo": "pino",
+              "x": 1.35
+            },
+            {
+              "tipo": "pino",
+              "x": -1.45
+            },
+            {
+              "tipo": "hoguera",
+              "x": 0.15,
+              "escala": 0.5
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "dia": 4,
+        "texto": "Esa tarde, al volver a casa, encuentro a mamá comprándole una canasta a una mujer míkmak que ha venido en bote desde la otra orilla.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.2
+            },
+            {
+              "tipo": "casa",
+              "x": 1.15
+            },
+            {
+              "tipo": "poste",
+              "x": -0.75
+            },
+            {
+              "tipo": "pino",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": -0.7,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "entra": "izq"
+          },
+          {
+            "quien": "mary",
+            "x": 0.0,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "cestera",
+            "x": 0.65,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "🧺"
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 5,
+        "texto": "Viernes de paga: un sobre con la mitad de lo que gana un hombre, y la mitad va para casa. Con la guerra todo sube.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "atardecer",
+          "pared": "madera",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estufa",
+              "x": -1.2
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.1
+            },
+            {
+              "tipo": "cuadro",
+              "x": 1.0
+            },
+            {
+              "tipo": "cama",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "✉️"
+          },
+          {
+            "quien": "mary",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 6,
+        "texto": "Sábado, primero de diciembre, último día del Préstamo de la Victoria. Por todas partes, carteles piden comprar bonos de guerra. Yo no tengo ni para un caramelo.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "puesto",
+              "x": -1.1
+            },
+            {
+              "tipo": "farola",
+              "x": 0.85
+            },
+            {
+              "tipo": "casa",
+              "x": 1.35
+            },
+            {
+              "tipo": "🍁",
+              "x": -0.6,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "annie",
+            "x": -0.15,
+            "accion": "caminar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "12 nov – 1 dic",
+          "etiqueta": "primer Préstamo de la Victoria: bonos para pagar la guerra",
+          "icono": "🍁"
+        }
+      },
+      {
+        "dia": 7,
+        "corte": true,
+        "texto": "Domingo. Después de misa en San José, subo con Áni a Fort Nídam, la colina del barrio. Desde arriba se ve todo Ríchmond bajando hasta el agua.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.3
+            },
+            {
+              "tipo": "valla",
+              "x": -0.8
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.3
+            },
+            {
+              "tipo": "casa",
+              "x": 1.0,
+              "escala": 0.6
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "senalar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "annie",
+            "x": -0.2,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 7,
+        "texto": "Abajo, casas de madera, la refinería, los muelles y la estación del tren. Contamos barcos. Nunca más veré mi barrio tan entero.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "annie",
+            "x": -0.2,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 8,
+        "capitulo": "Veinte minutos",
+        "texto": "Es lunes, tres de diciembre. El puerto hierve de tráfico, y en el dique solo se habla de las elecciones y del reclutamiento obligatorio.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barco",
+              "x": -0.8,
+              "escala": 1.1
+            },
+            {
+              "tipo": "maquina",
+              "x": 1.2
+            },
+            {
+              "tipo": "cajas",
+              "x": 0.9
+            },
+            {
+              "tipo": "barril",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.45,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "🔨"
+          },
+          {
+            "quien": "barnes",
+            "x": -0.25,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 9,
+        "texto": "Martes. Áni ensaya un villancico para la fiesta de la escuela. A escondidas, le compro con mis ahorros una bufanda roja, y la guardo bajo el colchón.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "atardecer",
+          "pared": "madera",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estufa",
+              "x": -1.2
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.1
+            },
+            {
+              "tipo": "cuadro",
+              "x": 1.0
+            },
+            {
+              "tipo": "cama",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "annie",
+            "x": -0.35,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "🧣"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 10,
+        "corte": true,
+        "texto": "Miércoles, cinco de diciembre. Al caer la tarde llega un carguero francés, el Monblán. Encuentra la red echada y espera fuera toda la noche.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barco",
+              "x": 0.25,
+              "escala": 0.9
+            },
+            {
+              "tipo": "pino",
+              "x": -1.3
+            },
+            {
+              "tipo": "pino",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "dia": 10,
+        "texto": "Transporta casi tres mil toneladas de explosivos y barriles de bensol en cubierta. Pero no lleva bandera roja de carga peligrosa: en guerra, mejor no pregonarlo.",
+        "drama": 0.7,
+        "personajes": [],
+        "insercion": {
+          "tipo": "dato",
+          "valor": "2.925 t",
+          "etiqueta": "de explosivos a bordo del Mont-Blanc",
+          "icono": "⚓"
+        }
+      },
+      {
+        "dia": 10,
+        "texto": "Dentro de la bahía, un vapor noruego, el Ímo, tenía que haber salido ese día. El carbón le llegó tarde y perdió la salida. Mañana irá con prisa.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "atardecer",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "barco",
+              "x": -0.45,
+              "escala": 1.0
+            },
+            {
+              "tipo": "barco",
+              "x": 1.0,
+              "escala": 0.6
+            },
+            {
+              "tipo": "pino",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "dia": 11,
+        "texto": "Jueves, seis de diciembre. El día sale frío y despejado, con el agua quieta como un espejo. Me despido de Áni, que entra más tarde a la escuela.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.15
+            },
+            {
+              "tipo": "casa",
+              "x": 1.2
+            },
+            {
+              "tipo": "poste",
+              "x": 0.8
+            },
+            {
+              "tipo": "farola",
+              "x": -0.75
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "annie",
+            "x": -0.1,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "abuela",
+            "x": -0.6,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 11,
+        "corte": true,
+        "texto": "A las nueve menos cuarto, en el estrecho, el Ímo y el Monblán se cruzan mal. La proa noruega se clava en el costado del francés.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barco",
+              "x": -0.85,
+              "escala": 0.9
+            },
+            {
+              "tipo": "barco",
+              "x": -0.15,
+              "escala": 0.75
+            },
+            {
+              "tipo": "maquina",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.6,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 11,
+        "texto": "Los barriles de cubierta se rompen y prenden. Los marineros abandonan el barco en botes, y él sigue solo, ardiendo, hacia el muelle seis.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barco",
+              "x": -0.7,
+              "escala": 1.0
+            },
+            {
+              "tipo": "hoguera",
+              "x": -0.7,
+              "escala": 0.9
+            },
+            {
+              "tipo": "pino",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.6,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 11,
+        "texto": "Durante veinte minutos, humo negro y fuego. Medio barrio sale a las ventanas y a la orilla a mirar. Los bomberos bajan con la Patrísia, su bomba de motor.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.2
+            },
+            {
+              "tipo": "casa",
+              "x": -0.6,
+              "escala": 0.8
+            },
+            {
+              "tipo": "poste",
+              "x": 1.0
+            },
+            {
+              "tipo": "casa",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vecina",
+            "x": -0.35,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "vecino",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "20 min",
+          "etiqueta": "entre el choque (8:45) y la explosión (9:04)",
+          "icono": "⏱️"
+        }
+      },
+      {
+        "dia": 11,
+        "texto": "En el dique, el señor Barns me agarra fuerte y me empuja detrás del muro del taller, a la sombra de la refinería. No me explica por qué.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barco",
+              "x": -0.8,
+              "escala": 1.1
+            },
+            {
+              "tipo": "maquina",
+              "x": 1.2
+            },
+            {
+              "tipo": "cajas",
+              "x": 0.9
+            },
+            {
+              "tipo": "barril",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "barnes",
+            "x": -0.1,
+            "accion": "correr",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tom",
+            "x": 0.45,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 11,
+        "corte": true,
+        "texto": "Lo supe después. En la estación de Ríchmond, el telegrafista Vins Cólman se entera de lo que lleva el barco. Echa a correr. De pronto, se acuerda del tren.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "dia",
+          "pared": "madera",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.05
+            },
+            {
+              "tipo": "reloj",
+              "x": -1.0
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.2
+            },
+            {
+              "tipo": "📜",
+              "x": 0.05,
+              "escala": 0.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "coleman",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 11,
+        "texto": "Es el nocturno de Nuevo Brúnsuic, con casi trescientos pasajeros, a punto de llegar. Cólman vuelve a su mesa y teclea un aviso para toda la línea.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "coleman",
+            "x": 0.1,
+            "accion": "escribir",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 11,
+        "texto": "Dicen que su mensaje terminaba así: detengan el tren, barco de municiones ardiendo hacia el muelle seis. Adiós, muchachos.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "coleman",
+            "x": 0.1,
+            "accion": "escribir",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Detengan el tren. Barco de municiones ardiendo, va hacia el muelle 6… Adiós, muchachos.",
+          "firma": "Vince Coleman, 6 de diciembre de 1917 (versión del Maritime Museum of the Atlantic)"
+        }
+      },
+      {
+        "dia": 11,
+        "texto": "Su aviso corrió por la línea, y aquel tren se paró a tiempo en Róquingam. Vins Cólman no salió de su estación.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tren",
+              "x": 0.1,
+              "escala": 0.8
+            },
+            {
+              "tipo": "poste",
+              "x": -1.3
+            },
+            {
+              "tipo": "pino",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "dia": 11,
+        "corte": true,
+        "texto": "Son las nueve y cuatro. Estoy agachado detrás del muro, con las manos en la nuca. No oigo nada: solo noto que el suelo se levanta.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "ceniza",
+          "props": [
+            {
+              "tipo": "maquina",
+              "x": -1.15
+            },
+            {
+              "tipo": "cajas",
+              "x": -0.8
+            },
+            {
+              "tipo": "barril",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.3,
+            "accion": "agachado",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 11,
+        "texto": "Fue la mayor explosión provocada por el hombre antes de la bomba atómica. Rompió cristales a cien kilómetros, y el ancla del barco cayó a unos tres kilómetros de allí.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "ceniza",
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.4
+            },
+            {
+              "tipo": "pino",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "subir",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "9:04",
+          "etiqueta": "la mayor explosión causada por el hombre antes de la bomba atómica",
+          "icono": "🕘"
+        }
+      },
+      {
+        "dia": 11,
+        "texto": "Cuando me levanto, todo está negro y cae una lluvia de hollín grasiento. El dique sigue en pie: la refinería nos ha tapado. Ríchmond, ladera arriba, no ha tenido esa suerte.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "ceniza",
+          "props": [
+            {
+              "tipo": "maquina",
+              "x": -1.15
+            },
+            {
+              "tipo": "cajas",
+              "x": -0.8
+            },
+            {
+              "tipo": "barril",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "barnes",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 11,
+        "texto": "Subo corriendo hacia casa entre humo y casas caídas. Las estufas de carbón, prendidas por el frío, han volcado sobre la madera. El barrio entero arde.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "ceniza",
+          "props": [
+            {
+              "tipo": "ruinas",
+              "x": -1.05
+            },
+            {
+              "tipo": "ruinas",
+              "x": 1.1,
+              "escala": 0.9
+            },
+            {
+              "tipo": "hoguera",
+              "x": 1.45,
+              "escala": 0.6
+            },
+            {
+              "tipo": "poste",
+              "x": -0.6
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.3,
+            "accion": "correr",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false,
+            "entra": "der"
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 11,
+        "corte": true,
+        "texto": "Nuestra casa es un montón de tablas. Mamá está sentada en el suelo, cubierta de hollín, con Áni pegada a ella. Las dos están vivas.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "ceniza",
+          "props": [
+            {
+              "tipo": "ruinas",
+              "x": -1.1
+            },
+            {
+              "tipo": "ruinas",
+              "x": 1.2,
+              "escala": 0.8
+            },
+            {
+              "tipo": "hoguera",
+              "x": -1.45,
+              "escala": 0.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "mary",
+            "x": -0.5,
+            "accion": "sentado",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "annie",
+            "x": -0.15,
+            "accion": "sentado",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tom",
+            "x": 0.45,
+            "accion": "agachado",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 11,
+        "texto": "La abuela estaba dentro. La buscamos entre las tablas hasta que unos soldados nos obligan a irnos. De ella solo encuentro su rosario.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "📿"
+          },
+          {
+            "quien": "soldado",
+            "x": -0.45,
+            "accion": "senalar",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 11,
+        "texto": "A media mañana corre un rumor: el polvorín del cuartel de Uélington arde y va a estallar. Los soldados mandan a todos a campo abierto. La segunda explosión nunca llegó.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "ceniza",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.3
+            },
+            {
+              "tipo": "valla",
+              "x": 1.2
+            },
+            {
+              "tipo": "pino",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "soldado",
+            "x": -0.7,
+            "accion": "senalar",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "mary",
+            "x": 0.0,
+            "accion": "caminar",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "annie",
+            "x": 0.35,
+            "accion": "caminar",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tom",
+            "x": 0.75,
+            "accion": "caminar",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 11,
+        "texto": "Pasamos la tarde en la hierba, temblando, mientras el rescate se detiene. Esa noche nos refugiamos en el suelo de una iglesia que aún tiene techo.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "mary",
+            "x": -0.35,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "annie",
+            "x": 0.0,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tom",
+            "x": 0.45,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 12,
+        "corte": true,
+        "texto": "Al día siguiente, sobre una ciudad sin cristales, cae la peor tormenta de nieve del invierno. Cuarenta centímetros de nieve sobre las ruinas.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "nieve",
+          "props": [
+            {
+              "tipo": "ruinas",
+              "x": -1.1
+            },
+            {
+              "tipo": "ruinas",
+              "x": 1.15,
+              "escala": 0.8
+            },
+            {
+              "tipo": "farola",
+              "x": 0.75
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "cargar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "🪵"
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "40 cm",
+          "etiqueta": "de nieve el 7 de diciembre, sobre una ciudad sin cristales",
+          "icono": "❄️"
+        }
+      },
+      {
+        "dia": 12,
+        "texto": "Soldados, marineros y gente del barrio cavamos con palas y con las manos. Yo tapo con tablas la ventana del refugio. El viento entra igual.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "soldado",
+            "x": -0.7,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "marinero",
+            "x": -0.05,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tom",
+            "x": 0.6,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "🪵"
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 13,
+        "texto": "El sábado por la mañana llega, retrasado por la nieve, el primer tren de socorro de fuera de Canadá. Viene de Bóston: salió once horas después del aviso.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "amanecer",
+          "clima": "nieve",
+          "props": [
+            {
+              "tipo": "tren",
+              "x": 0.0,
+              "escala": 0.8
+            },
+            {
+              "tipo": "pino",
+              "x": -1.4
+            },
+            {
+              "tipo": "pino",
+              "x": 1.45
+            },
+            {
+              "tipo": "poste",
+              "x": -0.9
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "dia": 13,
+        "texto": "Trae trece médicos, diez enfermeras y un vagón de material. Lo dirige un banquero, Ratchéski, y lo manda el gobernador de Masachúsets.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "dia",
+          "pared": "ladrillo",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.0
+            },
+            {
+              "tipo": "cama",
+              "x": 1.1
+            },
+            {
+              "tipo": "camilla",
+              "x": 0.0
+            },
+            {
+              "tipo": "chimenea",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "enfermera",
+            "x": -0.35,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "entra": "izq"
+          },
+          {
+            "quien": "medico",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 14,
+        "corte": true,
+        "texto": "Domingo. Los periódicos publican listas de desaparecidos. Busco el nombre de la abuela con el dedo, línea a línea. Mamá no quiere leerlas.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "dia",
+          "pared": "piedra",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "chimenea",
+              "x": -1.15
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.2
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.0,
+              "escala": 0.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "🗞️"
+          },
+          {
+            "quien": "mary",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 15,
+        "capitulo": "Una ciudad sin ventanas",
+        "texto": "Es lunes, diez de diciembre. Vuelvo al dique, que sigue en pie. El señor Barns me pone a tapar ventanas con tablas y lona. Ahora mi trabajo es tapar agujeros.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "nieve",
+          "props": [
+            {
+              "tipo": "barco",
+              "x": -0.8,
+              "escala": 1.1
+            },
+            {
+              "tipo": "maquina",
+              "x": 1.2
+            },
+            {
+              "tipo": "cajas",
+              "x": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "🔨"
+          },
+          {
+            "quien": "barnes",
+            "x": -0.3,
+            "accion": "cargar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "🪵"
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Mi trabajo ahora",
+          "items": [
+            {
+              "icono": "🪵",
+              "nombre": "Tablas"
+            },
+            {
+              "icono": "🔨",
+              "nombre": "Martillo"
+            },
+            {
+              "icono": "🔩",
+              "nombre": "Clavos"
+            },
+            {
+              "icono": "🧤",
+              "nombre": "Guantes rotos"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 16,
+        "texto": "Martes. En la escuela de Chebácto identifican a los que faltan. Mamá entra sola. Sale muy pálida y asiente sin hablar.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "nieve",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.15,
+              "escala": 1.1
+            },
+            {
+              "tipo": "valla",
+              "x": 1.0
+            },
+            {
+              "tipo": "pino",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "mary",
+            "x": -0.3,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 17,
+        "texto": "Miércoles. Enterramos a la abuela con nieve hasta las rodillas, mientras suenan las pocas campanas que quedan en pie. Áni no me suelta la mano.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "nieve",
+          "props": [
+            {
+              "tipo": "tumba",
+              "x": -1.0
+            },
+            {
+              "tipo": "tumba",
+              "x": 1.05
+            },
+            {
+              "tipo": "pino",
+              "x": -1.45
+            },
+            {
+              "tipo": "pino",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "mary",
+            "x": -0.5,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "annie",
+            "x": 0.0,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 18,
+        "corte": true,
+        "texto": "Jueves. Cargo mantas en una escuela convertida en hospital, donde trabajan los de Bóston. Solo el primer día, el hospital militar atendió unos mil cuatrocientos heridos.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "dia",
+          "pared": "ladrillo",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.0
+            },
+            {
+              "tipo": "cama",
+              "x": 1.1
+            },
+            {
+              "tipo": "camilla",
+              "x": 0.0
+            },
+            {
+              "tipo": "chimenea",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "cargar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "📦"
+          },
+          {
+            "quien": "enfermera",
+            "x": -0.35,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "≈1.400",
+          "etiqueta": "heridos llegaron el primer día al hospital de Camp Hill, con unas 250 camas",
+          "icono": "🏥"
+        }
+      },
+      {
+        "dia": 20,
+        "texto": "El sábado me entero de lo que pasó enfrente. La explosión y la ola barrieron la comunidad míkmak de Quépekek. Muchas familias perdieron a los suyos.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "atardecer",
+          "clima": "nieve",
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.3
+            },
+            {
+              "tipo": "pino",
+              "x": -0.85
+            },
+            {
+              "tipo": "pino",
+              "x": 1.35
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.2,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "dia": 20,
+        "texto": "Después no les dejaron reconstruir: se fueron a otras reservas con muy poca ayuda. Áfricvil, la comunidad negra junto a la bahía, también obtuvo menos que los demás.",
+        "drama": 0.7,
+        "personajes": [],
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Kepe'kek (Turtle Grove)",
+          "detalle": "Orilla de Dartmouth · comunidad mi'kmaq destruida en 1917",
+          "icono": "📍"
+        }
+      },
+      {
+        "dia": 20,
+        "texto": "Esa tarde, sacando escombros en lo que fue mi calle, encuentro entera la jarrita de la abuela. Ni un solo desconchón. La guardo en el bolsillo.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "nieve",
+          "props": [
+            {
+              "tipo": "ruinas",
+              "x": -0.95
+            },
+            {
+              "tipo": "ruinas",
+              "x": 1.15,
+              "escala": 0.85
+            },
+            {
+              "tipo": "poste",
+              "x": 0.7
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.3,
+            "accion": "agachado",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "☕"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 22,
+        "capitulo": "La Navidad más triste",
+        "corte": true,
+        "texto": "Es lunes, diecisiete de diciembre: elecciones en todo Canadá. En Hálifax no se vota. Los dos escaños se cubren sin urnas; aquí hay otras prisas.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "nieve",
+          "props": [
+            {
+              "tipo": "farola",
+              "x": -1.0
+            },
+            {
+              "tipo": "casa",
+              "x": 1.2
+            },
+            {
+              "tipo": "ruinas",
+              "x": -1.4,
+              "escala": 0.7
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "soldado",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "17 dic 1917",
+          "etiqueta": "elecciones de la conscripción; en Halifax, escaños sin votación",
+          "icono": "🗳️"
+        }
+      },
+      {
+        "dia": 24,
+        "texto": "Miércoles. Escribo a papá a Francia. Rompo tres borradores. Al final pongo solo esto: la abuela está con Dios, y te esperamos.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "piedra",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": -0.1
+            },
+            {
+              "tipo": "chimenea",
+              "x": -1.2
+            },
+            {
+              "tipo": "🕯️",
+              "x": -0.1,
+              "escala": 0.25
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.3,
+            "accion": "escribir",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "✉️"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 25,
+        "texto": "Jueves. En un taller del dique vuelve a sonar el martillo. El señor Barns me tiende la herramienta y sostengo mi primer remache desde el día seis.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "nieve",
+          "props": [
+            {
+              "tipo": "barco",
+              "x": -0.8,
+              "escala": 1.1
+            },
+            {
+              "tipo": "maquina",
+              "x": 1.2
+            },
+            {
+              "tipo": "cajas",
+              "x": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "🔨"
+          },
+          {
+            "quien": "barnes",
+            "x": -0.3,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 26,
+        "texto": "Llegan donativos de todas partes: Masachúsets dará más de setecientos cincuenta mil dólares, y en Ontário unos niños renuncian a sus regalos por nosotros.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "dia",
+          "pared": "piedra",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "chimenea",
+              "x": -1.15
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.2
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.0,
+              "escala": 0.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "🎁"
+          },
+          {
+            "quien": "annie",
+            "x": -0.3,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "+750.000 $",
+          "etiqueta": "de ayuda de Massachusetts, y diez camiones para la ciudad",
+          "icono": "🎁"
+        }
+      },
+      {
+        "dia": 28,
+        "corte": true,
+        "texto": "Domingo, veintitrés. En el refugio hay un árbol con adornos de papel. Áni canta por fin su villancico, y medio refugio llora en silencio.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "madera",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "chimenea",
+              "x": -1.2
+            },
+            {
+              "tipo": "🎄",
+              "x": 1.15,
+              "escala": 0.45
+            },
+            {
+              "tipo": "mesa",
+              "x": -0.2
+            },
+            {
+              "tipo": "🕯️",
+              "x": -0.2,
+              "escala": 0.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "annie",
+            "x": 0.3,
+            "accion": "hablar",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "mary",
+            "x": -0.45,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tom",
+            "x": -0.05,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 29,
+        "texto": "Nochebuena. Los de Masachúsets reparten regalos a los niños sin casa. Yo saco la bufanda roja. Áni se la pone y no se la quita en toda la noche.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "🧣"
+          },
+          {
+            "quien": "annie",
+            "x": -0.15,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 30,
+        "texto": "Navidad. Hay comida caliente en todos los refugios. Por la tarde subo solo a Fort Nídam y miro Ríchmond, blanco y callado. Ya no cuento barcos.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "nieve",
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.3
+            },
+            {
+              "tipo": "valla",
+              "x": -0.85
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.3
+            },
+            {
+              "tipo": "ruinas",
+              "x": 1.0,
+              "escala": 0.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": -0.3,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "texto": "Casi dos mil personas murieron aquel seis de diciembre, y una de cada cuatro era menor de edad. Unas nueve mil resultaron heridas, muchas por los cristales.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": -0.3,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "≈2.000",
+          "etiqueta": "muertos; uno de cada cuatro, menor de 18 años",
+          "icono": "🕯️"
+        }
+      },
+      {
+        "corte": true,
+        "texto": "Sobre Ríchmond se levantó el Háidroston, un barrio nuevo de casas de hormigón. Y en gratitud, Nueva Escocia regala cada año a Bóston su árbol de Navidad.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "noche",
+          "clima": "nieve",
+          "props": [
+            {
+              "tipo": "pino",
+              "x": 0.0,
+              "escala": 1.3
+            },
+            {
+              "tipo": "farola",
+              "x": -0.9
+            },
+            {
+              "tipo": "farola",
+              "x": 0.95
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "subir"
+      },
+      {
+        "texto": "Cada seis de diciembre, a las nueve y cuatro, Hálifax guarda un minuto de silencio en la colina de Fort Nídam, junto a sus campanas.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "🔔",
+              "x": -0.1,
+              "escala": 0.35
+            },
+            {
+              "tipo": "pino",
+              "x": -1.3
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Tom, su familia y el señor Barns son inventados. Todo lo demás es real. Este vídeo es para las víctimas de Hálifax, de Dártmus y de Quépekek.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "nieve",
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.3
+            },
+            {
+              "tipo": "valla",
+              "x": -0.85
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.3
+            },
+            {
+              "tipo": "ruinas",
+              "x": 1.0,
+              "escala": 0.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": -0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "annie",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "¿Qué historia quieres vivir el próximo mes? Déjalo en los comentarios y suscríbete para no perderte la siguiente.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": -0.35,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "annie",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      }
+    ]
+  },
+  "publicacion": {
+    "tituloLargo": "Un mes en la vida de UN APRENDIZ EN HALIFAX (Canadá, 1917) | Veinte minutos de fuego",
+    "descripcion": "Treinta días en la vida de Tom, aprendiz de 15 años en el dique seco de Halifax (Nueva Escocia), del 26 de noviembre al 25 de diciembre de 1917: el puerto de los convoyes, la comunidad mi'kmaq de Kepe'kek (Turtle Grove) al otro lado del estrecho, la llegada del Mont-Blanc, el choque con el Imo a las 8:45 del 6 de diciembre, los veinte minutos de fuego, el aviso de Vince Coleman, la explosión de las 9:04, la ventisca del día siguiente, el tren de socorro de Boston y la Navidad más triste de la ciudad. Contado con respeto a las víctimas y a sus descendientes.\n\nAVISO: Tom Reilly, su familia y el capataz Barnes son personajes INVENTADOS. Todo lo demás es real: el Mont-Blanc y su carga (unas 2.925 toneladas de explosivos según Britannica), la red antisubmarina, el retraso del Imo por el carbón, el choque de las 8:45 y la explosión de las 9:04, la bomba Patricia de los bomberos, Vince Coleman y su mensaje (versión del Maritime Museum of the Atlantic), el tren detenido en Rockingham, el falso aviso del polvorín de Wellington Barracks, los 40 cm de nieve del 7 de diciembre, el tren de socorro de Massachusetts (A. C. Ratshesky, gobernador Samuel McCall), los unos 1.400 heridos del primer día en Camp Hill, la destrucción de Turtle Grove y que no se permitiera reconstruirla, la menor ayuda a Africville, las elecciones del 17 de diciembre, los donativos de Brantford (Ontario), la Navidad en los refugios, el barrio Hydrostone y el árbol que Nueva Escocia regala a Boston cada año.\n\n— Semana 1: El puerto que no duerme\n— Semana 2: Veinte minutos\n— Semana 3: Una ciudad sin ventanas\n— Semana 4: La Navidad más triste\n— Epílogo: el Hydrostone, el árbol de Boston y el silencio de las 9:04\n\nFuentes: Maritime Museum of the Atlantic; Nova Scotia Archives; Parks Canada; Halifax Municipal Archives; Halifax Public Libraries; Mi'kmawey Debert; Report of the Halifax Relief Expedition (A. C. Ratshesky, 1917); Gobierno de Nueva Escocia, Tree for Boston; The Canadian Encyclopedia; Britannica; Guinness World Records; CBC; Global News; Signal HFX (University of King's College); Canada's History; Legion Magazine; Vimy Foundation; Massachusetts Historical Society; Time (John U. Bacon).",
+    "etiquetas": [
+      "un mes en la vida de",
+      "Halifax",
+      "explosión de Halifax",
+      "Halifax Explosion",
+      "1917",
+      "Mont-Blanc",
+      "Vince Coleman",
+      "Nueva Escocia",
+      "Canadá",
+      "Primera Guerra Mundial",
+      "mi'kmaq",
+      "historia",
+      "animación"
+    ],
+    "miniatura": {
+      "texto": "9:04",
+      "escena": 0,
+      "quien": "tom",
+      "emocion": "miedo",
+      "icono": "🔥"
+    },
+    "tituloCorto": "Halifax, 1917",
+    "shorts": [
+      {
+        "titulo": "A las 9:04, mi barrio desapareció",
+        "descripcion": "Halifax, 6 de diciembre de 1917: veinte minutos de fuego en el puerto antes de la mayor explosión hecha por el hombre hasta la bomba atómica. #shorts #halifax #historia"
+      },
+      {
+        "titulo": "El puerto que cerraba con una red",
+        "descripcion": "Halifax, 1917: convoyes hacia Europa, redes contra submarinos y una carta desde Francia. #shorts #halifax #primeraguerramundial"
+      },
+      {
+        "titulo": "Siete wigwams frente a Halifax",
+        "descripcion": "Al otro lado del estrecho vivía una comunidad mi'kmaq. Y en Richmond, todo subía de precio con la guerra. #shorts #halifax #mikmaq"
+      },
+      {
+        "titulo": "La última vez que vi mi barrio entero",
+        "descripcion": "Fort Needham, domingo 2 de diciembre de 1917. Cuatro días antes de la explosión. #shorts #halifax #historia"
+      },
+      {
+        "titulo": "El barco que esperó fuera toda la noche",
+        "descripcion": "El Mont-Blanc llevaba casi 3.000 toneladas de explosivos y ninguna bandera roja. Al Imo le llegó tarde el carbón. #shorts #halifax #historia"
+      },
+      {
+        "titulo": "Veinte minutos para mirar el fuego",
+        "descripcion": "8:45: el Imo y el Mont-Blanc chocan en el estrecho. Todos salen a mirar. #shorts #halifax #1917"
+      },
+      {
+        "titulo": "«Detengan el tren… Adiós, muchachos»",
+        "descripcion": "Vince Coleman volvió al telégrafo para avisar al tren de New Brunswick. #shorts #halifax #vincecoleman"
+      },
+      {
+        "titulo": "9:04",
+        "descripcion": "La mayor explosión causada por el hombre antes de la bomba atómica, vista desde el dique seco. #shorts #halifax #historia"
+      },
+      {
+        "titulo": "La segunda explosión que nunca llegó",
+        "descripcion": "Un rumor vació la ciudad cuando más falta hacía el rescate. #shorts #halifax #1917"
+      },
+      {
+        "titulo": "Una ciudad sin cristales y una ventisca",
+        "descripcion": "40 cm de nieve al día siguiente. Y un tren de socorro que salió de Boston en 11 horas. #shorts #halifax #boston"
+      },
+      {
+        "titulo": "Busqué a mi abuela en una lista",
+        "descripcion": "Listas de desaparecidos, ventanas tapadas con tablas y campanas en la nieve. #shorts #halifax #historia"
+      },
+      {
+        "titulo": "Lo que le pasó a Turtle Grove",
+        "descripcion": "La comunidad mi'kmaq de Kepe'kek fue arrasada y no la dejaron reconstruir. #shorts #halifax #mikmaq"
+      },
+      {
+        "titulo": "Los niños que renunciaron a sus regalos",
+        "descripcion": "Halifax, diciembre de 1917: elecciones sin votos, una carta difícil y ayuda de todo el continente. #shorts #halifax #navidad"
+      },
+      {
+        "titulo": "La Navidad más triste de Halifax",
+        "descripcion": "Un villancico en el refugio y una bufanda roja. Casi dos mil muertos, uno de cada cuatro menor de edad. #shorts #halifax #navidad"
+      },
+      {
+        "titulo": "Por qué Halifax regala un árbol a Boston",
+        "descripcion": "Cada año, Nueva Escocia envía a Boston su árbol de Navidad. Y cada 6 de diciembre, a las 9:04, Halifax calla. #shorts #halifax #boston"
+      }
+    ]
+  }
+}
