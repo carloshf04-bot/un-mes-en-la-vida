@@ -270,6 +270,15 @@ const Sombrero: React.FC<{ look: Look }> = ({ look }) => {
           {[0, 1, 2].map((i) => <path key={i} d={`M-86 ${-24 - i * 26} Q0 ${-60 - i * 26} 86 ${-24 - i * 26}`} stroke="#00000022" strokeWidth={6} fill="none" />)}
         </g>
       );
+    case "pickelhaube":
+      // casco alemán de cuero con pincho, forrado de tela gris en campaña (1914)
+      return (
+        <g>
+          <path d="M-74 -40 Q-74 -120 0 -126 Q74 -120 74 -40Z" fill={look.colorSombrero ?? "#8a8a78"} />
+          <rect x={-88} y={-46} width={176} height={14} rx={6} fill="#2a2a24" />
+          <path d="M-10 -126 L0 -178 L10 -126Z" fill={look.colorSombrero ?? "#8a8a78"} stroke="#5a5a4c" strokeWidth={3} />
+        </g>
+      );
     case "pileo":
       // gorro cónico de fieltro crudo (liberto romano, Saturnales)
       return <path d="M-62 -44 Q-56 -128 0 -150 Q56 -128 62 -44 Q0 -58 -62 -44Z" fill={look.colorSombrero ?? "#d8c9a8"} stroke="#00000022" strokeWidth={4} />;

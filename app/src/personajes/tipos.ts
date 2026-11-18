@@ -9,7 +9,7 @@ export type Look = {
     color2: string; // pantalón / falda
     detalle?: string; // cinturón, botones, cuello
   };
-  sombrero?: "ninguno" | "gorra" | "copa" | "ala" | "casco" | "corona" | "capucha" | "panuelo" | "espacial" | "boina" | "tricornio" | "yelmo" | "turbante" | "fez" | "salacot" | "orejeras" | "penacho" | "morrion" | "pileo";
+  sombrero?: "ninguno" | "gorra" | "copa" | "ala" | "casco" | "corona" | "capucha" | "panuelo" | "espacial" | "boina" | "tricornio" | "yelmo" | "turbante" | "fez" | "salacot" | "orejeras" | "penacho" | "morrion" | "pileo" | "pickelhaube";
   colorSombrero?: string;
   gafas?: boolean;
   altura?: number; // 1 = adulto, 0.65 = niño
