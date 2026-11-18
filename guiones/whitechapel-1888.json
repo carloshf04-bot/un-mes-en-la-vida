@@ -1438,7 +1438,8 @@
       "x": 0.4,
       "accion": "quieto",
       "emocion": "triste",
-      "mirar": -1
+      "mirar": -1,
+      "habla": false
      },
      {
       "quien": "bowyer",
@@ -1487,7 +1488,7 @@
     "drama": 0.85,
     "fondo": {
      "lugar": "interior",
-     "hora": "dia",
+     "hora": "atardecer",
      "pared": "ladrillo",
      "ventana": true,
      "props": [
@@ -1526,7 +1527,7 @@
       "quien": "bowyer",
       "x": -0.3,
       "accion": "correr",
-      "emocion": "miedo",
+      "emocion": "triste",
       "mirar": 1,
       "habla": false,
       "entra": "izq"
@@ -1542,15 +1543,16 @@
      {
       "quien": "ashby",
       "x": 0.4,
-      "accion": "asustado",
-      "emocion": "miedo",
-      "mirar": -1
+      "accion": "triste",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false
      },
      {
       "quien": "bowyer",
       "x": -0.35,
       "accion": "triste",
-      "emocion": "miedo",
+      "emocion": "triste",
       "mirar": 1,
       "habla": false
      }
@@ -1599,8 +1601,8 @@
      {
       "quien": "mujer",
       "x": -0.65,
-      "accion": "asustado",
-      "emocion": "miedo",
+      "accion": "triste",
+      "emocion": "triste",
       "mirar": 1,
       "habla": false
      },
@@ -1679,13 +1681,13 @@
       "quien": "ashby",
       "x": 0.35,
       "accion": "quieto",
-      "emocion": "miedo",
+      "emocion": "triste",
       "mirar": -1
      },
      {
-      "quien": "abberline",
+      "quien": "estibador",
       "x": -0.55,
-      "accion": "senalar",
+      "accion": "trabajar",
       "emocion": "enfado",
       "mirar": -1,
       "habla": false
@@ -1703,7 +1705,8 @@
       "x": 0.3,
       "accion": "triste",
       "emocion": "miedo",
-      "mirar": -1
+      "mirar": -1,
+      "habla": false
      }
     ],
     "camara": "lenta"
