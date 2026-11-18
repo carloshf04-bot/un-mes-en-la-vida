@@ -1,0 +1,2551 @@
+{
+ "slug": "saturnales-50",
+ "titulo": "un esclavo romano",
+ "lugar": "Roma",
+ "epoca": "Diciembre del año 50",
+ "categoria": "epoca",
+ "drama": 0.7,
+ "velocidad": 1.15,
+ "musica": "nostalgia",
+ "paleta": {
+  "acento": "#c79a2a",
+  "texto": "#f5efe0",
+  "fondo": "#1a1012",
+  "papel": "#efe2c4"
+ },
+ "grafias": {
+  "Eutíquio": "Eutiquio",
+  "Vétio": "Vetio",
+  "Déa": "Dea",
+  "Esculápio": "Esculapio",
+  "Velábro": "Velabro",
+  "Primigénio": "Primigenio",
+  "átrio": "atrio",
+  "pecúlio": "peculio",
+  "triclínio": "triclinio",
+  "Ío": "Io",
+  "Saturnália": "Saturnalia",
+  "Sósia": "Sosia",
+  "Sigilários": "Sigilarios",
+  "Pedánio": "Pedanio"
+ },
+ "reparto": {
+  "eutiquio": {
+   "piel": "#d9a679",
+   "pelo": "#3a2a1e",
+   "peinado": "corto",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#cbbd9a",
+    "color2": "#cbbd9a",
+    "detalle": "#6b4a2b"
+   },
+   "sombrero": "ninguno",
+   "zapatos": "#8a6b4a"
+  },
+  "eutiquio_pileo": {
+   "piel": "#d9a679",
+   "pelo": "#3a2a1e",
+   "peinado": "corto",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#cbbd9a",
+    "color2": "#cbbd9a",
+    "detalle": "#6b4a2b"
+   },
+   "sombrero": "pileo",
+   "colorSombrero": "#e6dcc6",
+   "zapatos": "#8a6b4a"
+  },
+  "eutiquio_fiesta": {
+   "piel": "#d9a679",
+   "pelo": "#3a2a1e",
+   "peinado": "corto",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#9b2d30",
+    "color2": "#9b2d30",
+    "detalle": "#c79a2a"
+   },
+   "sombrero": "pileo",
+   "colorSombrero": "#e6dcc6",
+   "zapatos": "#8a6b4a"
+  },
+  "amo": {
+   "piel": "#e3ad84",
+   "pelo": "#8a8580",
+   "peinado": "corto",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#f1ece0",
+    "color2": "#f1ece0",
+    "detalle": "#6e1f3a"
+   },
+   "sombrero": "ninguno",
+   "zapatos": "#ddcdb0"
+  },
+  "amo_fiesta": {
+   "piel": "#e3ad84",
+   "pelo": "#8a8580",
+   "peinado": "corto",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#4f6b3a",
+    "color2": "#4f6b3a",
+    "detalle": "#c79a2a"
+   },
+   "sombrero": "pileo",
+   "colorSombrero": "#e6dcc6",
+   "zapatos": "#ddcdb0"
+  },
+  "calpurnia": {
+   "piel": "#ecc4a2",
+   "pelo": "#2b1d14",
+   "peinado": "rizado",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "vestido",
+    "color": "#4a6b8a",
+    "color2": "#4a6b8a",
+    "detalle": "#b9a27a"
+   },
+   "sombrero": "ninguno",
+   "zapatos": "#ddcdb0",
+   "voz": "narradora-es"
+  },
+  "dafne": {
+   "piel": "#d4a07a",
+   "pelo": "#4a3526",
+   "peinado": "mono",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "vestido",
+    "color": "#8a6b4a",
+    "color2": "#7a5c3e",
+    "detalle": "#cbbd9a"
+   },
+   "sombrero": "panuelo",
+   "colorSombrero": "#cbbd9a",
+   "zapatos": "#8a6b4a",
+   "voz": "narradora-es"
+  },
+  "hijo": {
+   "piel": "#e3ad84",
+   "pelo": "#5a4030",
+   "peinado": "corto",
+   "barba": "ninguna",
+   "altura": 0.75,
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#f1ece0",
+    "color2": "#f1ece0",
+    "detalle": "#9b2a22"
+   },
+   "sombrero": "ninguno",
+   "zapatos": "#ddcdb0"
+  },
+  "hijo_fiesta": {
+   "piel": "#e3ad84",
+   "pelo": "#5a4030",
+   "peinado": "corto",
+   "barba": "ninguna",
+   "altura": 0.75,
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#c79a2a",
+    "color2": "#c79a2a",
+    "detalle": "#9b2a22"
+   },
+   "sombrero": "pileo",
+   "colorSombrero": "#e6dcc6",
+   "zapatos": "#ddcdb0"
+  },
+  "filero": {
+   "piel": "#c99a74",
+   "pelo": "#d8d4cc",
+   "peinado": "coronilla",
+   "barba": "corta",
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#7a6a55",
+    "color2": "#7a6a55",
+    "detalle": "#4a3a2a"
+   },
+   "sombrero": "ninguno",
+   "zapatos": "#6b5a44"
+  },
+  "sosia": {
+   "piel": "#c48d65",
+   "pelo": "#2a2018",
+   "peinado": "rapado",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#e2d4b4",
+    "color2": "#e2d4b4",
+    "detalle": "#8a6a4a"
+   },
+   "sombrero": "pileo",
+   "colorSombrero": "#e6dcc6",
+   "zapatos": "#8a6b4a"
+  },
+  "primigenio": {
+   "piel": "#c08a60",
+   "pelo": "#2a2018",
+   "peinado": "rizado",
+   "barba": "ninguna",
+   "altura": 0.6,
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#cbbd9a",
+    "color2": "#cbbd9a",
+    "detalle": "#6b4a2b"
+   },
+   "sombrero": "ninguno",
+   "zapatos": "#8a6b4a"
+  },
+  "primigenio_fiesta": {
+   "piel": "#c08a60",
+   "pelo": "#2a2018",
+   "peinado": "rizado",
+   "barba": "ninguna",
+   "altura": 0.6,
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#2f4f7f",
+    "color2": "#2f4f7f",
+    "detalle": "#cbbd9a"
+   },
+   "sombrero": "pileo",
+   "colorSombrero": "#e6dcc6",
+   "zapatos": "#8a6b4a"
+  },
+  "invitado": {
+   "piel": "#ebc29e",
+   "pelo": "#4a3a2a",
+   "peinado": "corto",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#e8e0cc",
+    "color2": "#e8e0cc",
+    "detalle": "#6e1f3a"
+   },
+   "sombrero": "ninguno",
+   "zapatos": "#ddcdb0"
+  },
+  "neron": {
+   "piel": "#ecc4a2",
+   "pelo": "#b5652e",
+   "peinado": "corto",
+   "barba": "ninguna",
+   "altura": 0.92,
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#c79a2a",
+    "color2": "#c79a2a",
+    "detalle": "#5a1f3a"
+   },
+   "sombrero": "pileo",
+   "colorSombrero": "#e6dcc6",
+   "zapatos": "#ddcdb0"
+  },
+  "britanico": {
+   "piel": "#ecc4a2",
+   "pelo": "#5a4030",
+   "peinado": "corto",
+   "barba": "ninguna",
+   "altura": 0.82,
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#f1ece0",
+    "color2": "#f1ece0",
+    "detalle": "#5a1f3a"
+   },
+   "sombrero": "pileo",
+   "colorSombrero": "#e6dcc6",
+   "zapatos": "#ddcdb0"
+  }
+ },
+ "largo": {
+  "escenas": [
+   {
+    "texto": "Dentro de dieciséis días, mi amo me servirá la cena. Yo estaré tumbado en su lecho y él me traerá el vino. Esa noche le pediré lo único que en Roma no se regala.",
+    "drama": 0.8,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "ladrillo",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "cama",
+       "x": -1.15
+      },
+      {
+       "tipo": "mesa",
+       "x": 0.05
+      },
+      {
+       "tipo": "cama",
+       "x": 1.15
+      },
+      {
+       "tipo": "antorcha",
+       "x": -1.5
+      },
+      {
+       "tipo": "🪔",
+       "x": 0.05,
+       "escala": 0.3
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "eutiquio",
+      "x": 0.4,
+      "accion": "pensar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "objeto": "🏺"
+     }
+    ],
+    "camara": "general",
+    "corte": true
+   },
+   {
+    "texto": "Me llamo Eutíquio, tengo veintidós años y soy esclavo. Nací en esta casa, como mi madre. Ante la ley no soy una persona: soy una cosa que respira.",
+    "drama": 0.7,
+    "personajes": [
+     {
+      "quien": "eutiquio",
+      "x": 0.3,
+      "accion": "hablar",
+      "emocion": "triste",
+      "mirar": -1
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "texto": "Esto es Roma, en diciembre del año cincuenta: el mes en que, por unos pocos días, el mundo entero se pone del revés.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "atardecer",
+     "props": [
+      {
+       "tipo": "termopolio",
+       "x": -1.05
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.0
+      },
+      {
+       "tipo": "carro",
+       "x": 1.45
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "eutiquio",
+      "x": -0.2,
+      "accion": "caminar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "paneo",
+    "insercion": {
+     "tipo": "mapa",
+     "lugar": "Roma",
+     "detalle": "Colina del Esquilino · diciembre del año 50 d. C.",
+     "icono": "📍"
+    }
+   },
+   {
+    "dia": 1,
+    "capitulo": "La casa que nunca duerme",
+    "texto": "Día uno, las calendas. Me levanto antes del alba y enciendo las lámparas de aceite. Duermo en una estera, en el suelo, junto a la puerta del amo.",
+    "drama": 0.55,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "piedra",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "columna",
+       "x": -1.3
+      },
+      {
+       "tipo": "columna",
+       "x": 1.3
+      },
+      {
+       "tipo": "planta",
+       "x": -0.85
+      },
+      {
+       "tipo": "anfora",
+       "x": 0.95
+      },
+      {
+       "tipo": "antorcha",
+       "x": 0.6
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "eutiquio",
+      "x": 0.0,
+      "accion": "trabajar",
+      "emocion": "cansado",
+      "mirar": 1,
+      "objeto": "🪔"
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 1,
+    "texto": "Unas veinticinco personas trabajan en esta casa sin cobrar un sueldo. Yo soy una de ellas. El amo es Tito Vétio Prisco, caballero romano, con esposa y un hijo de doce años.",
+    "drama": 0.55,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "dia",
+     "pared": "piedra",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "columna",
+       "x": -1.3
+      },
+      {
+       "tipo": "columna",
+       "x": 1.3
+      },
+      {
+       "tipo": "planta",
+       "x": -0.85
+      },
+      {
+       "tipo": "anfora",
+       "x": 0.95
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "amo",
+      "x": -0.55,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "calpurnia",
+      "x": -0.15,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "hijo",
+      "x": 0.2,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "eutiquio",
+      "x": 0.6,
+      "accion": "cargar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "objeto": "🏺",
+      "habla": false
+     }
+    ],
+    "camara": "general",
+    "corte": true
+   },
+   {
+    "dia": 1,
+    "texto": "En la entrada vive Filero, el portero, un viejo atado a su puesto con una cadena, como en algunas casas antiguas. Dice que ya ni la nota. Yo sí la oigo.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "amanecer",
+     "pared": "madera",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "antorcha",
+       "x": -1.15
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.2
+      },
+      {
+       "tipo": "cajas",
+       "x": 1.45
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "eutiquio",
+      "x": 0.45,
+      "accion": "quieto",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "filero",
+      "x": -0.4,
+      "accion": "sentado",
+      "emocion": "cansado",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 2,
+    "texto": "Al amanecer llegan veinte clientes a saludar al amo. Yo sirvo el vino aguado y escucho lo que cuentan del palacio.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "dia",
+     "pared": "piedra",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "columna",
+       "x": -1.3
+      },
+      {
+       "tipo": "columna",
+       "x": 1.3
+      },
+      {
+       "tipo": "planta",
+       "x": -0.85
+      },
+      {
+       "tipo": "anfora",
+       "x": 0.95
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "amo",
+      "x": -0.45,
+      "accion": "hablar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "invitado",
+      "x": 0.1,
+      "accion": "saludar",
+      "emocion": "feliz",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "eutiquio",
+      "x": 0.6,
+      "accion": "cargar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "objeto": "🏺",
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 2,
+    "texto": "Las Saturnales vuelven a tener cinco días oficiales: el emperador Claudio le devolvió a la fiesta el día que le habían quitado. En la casa, nadie habla de otra cosa.",
+    "drama": 0.65,
+    "personajes": [
+     {
+      "quien": "eutiquio",
+      "x": 0.5,
+      "accion": "pensar",
+      "emocion": "sorpresa",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "amo",
+      "x": -0.45,
+      "accion": "celebrar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "5 días",
+     "etiqueta": "de Saturnales oficiales: Claudio restauró el quinto día (Dion Casio LX, 25)",
+     "icono": "📜"
+    }
+   },
+   {
+    "dia": 3,
+    "texto": "Esta noche, mi madre va a los ritos de la Bona Déa, donde ningún hombre puede entrar. Me sonríe: por una vez, sabe algo que el amo no sabrá.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "noche",
+     "props": [
+      {
+       "tipo": "antorcha",
+       "x": -1.1
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.1
+      },
+      {
+       "tipo": "carro",
+       "x": 1.45
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "eutiquio",
+      "x": -0.6,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": 1,
+      "objeto": "🪔",
+      "habla": false
+     },
+     {
+      "quien": "calpurnia",
+      "x": 0.05,
+      "accion": "caminar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "dafne",
+      "x": 0.5,
+      "accion": "caminar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "paneo",
+    "corte": true
+   },
+   {
+    "dia": 5,
+    "texto": "Día cinco, las nonas. Me mandan al Foro con un recado. Allí, al pie del Capitolio, está el templo de Saturno, que guarda el tesoro de Roma.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "props": [
+      {
+       "tipo": "templo-romano",
+       "x": 1.1,
+       "escala": 0.6
+      },
+      {
+       "tipo": "columna",
+       "x": -1.25
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "eutiquio",
+      "x": -0.45,
+      "accion": "caminar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "entra": "izq"
+     }
+    ],
+    "camara": "paneo"
+   },
+   {
+    "dia": 5,
+    "texto": "Dentro hay una estatua del dios, hueca y llena de aceite, con los pies atados con lana todo el año. Solo se los sueltan en su fiesta.",
+    "drama": 0.65,
+    "personajes": [
+     {
+      "quien": "eutiquio",
+      "x": -0.4,
+      "accion": "senalar",
+      "emocion": "sorpresa",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 5,
+    "texto": "Me quedo un rato mirando esos pies atados. Un dios con cadenas de lana, igual que nosotros. A él lo sueltan en diciembre. A mí, ¿cuándo me toca?",
+    "drama": 0.75,
+    "personajes": [
+     {
+      "quien": "eutiquio",
+      "x": -0.3,
+      "accion": "pensar",
+      "emocion": "triste",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 6,
+    "texto": "Tengo un tesoro escondido en un tarro, en mi cuartito sin ventana: trescientos denarios, ahorrados en años de propinas y recados. Es mi pecúlio.",
+    "drama": 0.55,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "roca",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "petate",
+       "x": -0.95
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.15
+      },
+      {
+       "tipo": "🪔",
+       "x": 0.85,
+       "escala": 0.25
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "eutiquio",
+      "x": 0.0,
+      "accion": "sentado",
+      "emocion": "neutral",
+      "mirar": 1,
+      "objeto": "🪙"
+     }
+    ],
+    "camara": "lenta",
+    "corte": true
+   },
+   {
+    "dia": 6,
+    "texto": "Un legionario gana doscientos veinticinco denarios al año. Calculo que, por mi libertad, el amo pedirá mil quinientos. Y luego está la otra trampa: la ley.",
+    "drama": 0.65,
+    "personajes": [
+     {
+      "quien": "eutiquio",
+      "x": 0.0,
+      "accion": "pensar",
+      "emocion": "cansado",
+      "mirar": 1
+     }
+    ],
+    "insercion": {
+     "tipo": "dato",
+     "valor": "225",
+     "etiqueta": "denarios al año: la paga de un legionario romano",
+     "icono": "🪙"
+    }
+   },
+   {
+    "dia": 6,
+    "texto": "Para salir libre y ciudadano, el esclavo debe tener treinta años: lo manda la ley Elia Sencia. Yo tengo veintidós, y llevo la cuenta.",
+    "drama": 0.7,
+    "personajes": [
+     {
+      "quien": "eutiquio",
+      "x": 0.1,
+      "accion": "sentado",
+      "emocion": "triste",
+      "mirar": -1,
+      "objeto": "🪙"
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 7,
+    "texto": "Esta mañana, Filero no se levanta. Arde de fiebre y tose sin parar. El amo lo mira desde la puerta y echa cuentas en voz baja.",
+    "drama": 0.75,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "amanecer",
+     "pared": "madera",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "antorcha",
+       "x": -1.15
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.2
+      },
+      {
+       "tipo": "cajas",
+       "x": 1.45
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "filero",
+      "x": -0.45,
+      "accion": "dormir",
+      "emocion": "cansado",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "amo",
+      "x": 0.6,
+      "accion": "quieto",
+      "emocion": "enfado",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "eutiquio",
+      "x": 0.15,
+      "accion": "asustado",
+      "emocion": "miedo",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 7,
+    "texto": "Hay amos que abandonan a sus esclavos enfermos en la isla del Tíber, junto al templo de Esculápio, para no pagar el médico.",
+    "drama": 0.75,
+    "fondo": {
+     "lugar": "rio",
+     "hora": "atardecer",
+     "clima": "niebla",
+     "props": [
+      {
+       "tipo": "puente",
+       "x": -0.2
+      },
+      {
+       "tipo": "templo-romano",
+       "x": 1.1,
+       "escala": 0.5
+      }
+     ]
+    },
+    "personajes": [],
+    "camara": "paneo",
+    "corte": true
+   },
+   {
+    "dia": 7,
+    "texto": "Pero una ley reciente de Claudio dice que, si el esclavo abandonado se cura, queda libre, y su amo lo pierde.",
+    "drama": 0.7,
+    "insercion": {
+     "tipo": "cita",
+     "frase": "Los esclavos abandonados en la isla de Esculapio que se curen serán libres y no volverán al poder de su amo.",
+     "firma": "Edicto de Claudio, según Suetonio (Claudio, 25)"
+    }
+   },
+   {
+    "dia": 7,
+    "texto": "Filero lo sabe. Esa noche, con la frente ardiendo, me agarra de la mano y me susurra: «Ojalá me lleven a la isla».",
+    "drama": 0.8,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "madera",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "antorcha",
+       "x": -1.15
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.2
+      },
+      {
+       "tipo": "cajas",
+       "x": 1.45
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "eutiquio",
+      "x": 0.3,
+      "accion": "agachado",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "filero",
+      "x": -0.35,
+      "accion": "sentado",
+      "emocion": "cansado",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 8,
+    "capitulo": "Cuenta atrás para el mundo al revés",
+    "texto": "Filero sigue vivo: mi madre lo cuida a escondidas. Esta noche hay invitados, y yo sirvo de pie mientras ellos comen tumbados.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "ladrillo",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "cama",
+       "x": -1.15
+      },
+      {
+       "tipo": "mesa",
+       "x": 0.05
+      },
+      {
+       "tipo": "cama",
+       "x": 1.15
+      },
+      {
+       "tipo": "antorcha",
+       "x": -1.5
+      },
+      {
+       "tipo": "🪔",
+       "x": 0.05,
+       "escala": 0.3
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "eutiquio",
+      "x": 0.55,
+      "accion": "cargar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "objeto": "🏺",
+      "habla": false
+     },
+     {
+      "quien": "amo",
+      "x": -0.55,
+      "accion": "sentado",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "invitado",
+      "x": -0.05,
+      "accion": "sentado",
+      "emocion": "feliz",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 8,
+    "texto": "Un invitado habla de Narciso y Palante, los secretarios del emperador. Los dos fueron esclavos, y hoy están entre los hombres más ricos de Roma.",
+    "drama": 0.7,
+    "personajes": [
+     {
+      "quien": "invitado",
+      "x": -0.05,
+      "accion": "hablar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "amo",
+      "x": -0.55,
+      "accion": "sentado",
+      "emocion": "sorpresa",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "eutiquio",
+      "x": 0.55,
+      "accion": "quieto",
+      "emocion": "sorpresa",
+      "mirar": -1,
+      "objeto": "🏺",
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 8,
+    "texto": "A Palante le atribuyen trescientos millones de sestercios. Al recoger los platos, me tiembla la mano: si ellos pudieron, a lo mejor yo también.",
+    "drama": 0.75,
+    "personajes": [
+     {
+      "quien": "eutiquio",
+      "x": 0.45,
+      "accion": "pensar",
+      "emocion": "miedo",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "amo",
+      "x": -0.3,
+      "accion": "sentado",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "300 millones",
+     "etiqueta": "de sestercios: la fortuna que Tácito atribuye a Palante, un antiguo esclavo",
+     "icono": "🪙"
+    },
+    "corte": true
+   },
+   {
+    "dia": 10,
+    "texto": "Bajo al mercado del Velábro a por nueces, dátiles y miel para la fiesta. Ya hay puestos de figuritas de barro, para regalar a los niños.",
+    "drama": 0.55,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "props": [
+      {
+       "tipo": "puesto",
+       "x": -1.0
+      },
+      {
+       "tipo": "cajas",
+       "x": 1.05
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.4
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "eutiquio",
+      "x": 0.0,
+      "accion": "caminar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "entra": "der"
+     },
+     {
+      "quien": "primigenio",
+      "x": 0.5,
+      "accion": "caminar",
+      "emocion": "feliz",
+      "mirar": -1,
+      "entra": "der",
+      "habla": false
+     }
+    ],
+    "camara": "paneo"
+   },
+   {
+    "dia": 10,
+    "texto": "Primigénio, un niño esclavo de nueve años, no le quita ojo a un jorobado de barro. No tiene ni una moneda para comprarlo, y lo sabe.",
+    "drama": 0.6,
+    "personajes": [
+     {
+      "quien": "eutiquio",
+      "x": 0.35,
+      "accion": "quieto",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "primigenio",
+      "x": -0.25,
+      "accion": "senalar",
+      "emocion": "sorpresa",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 12,
+    "texto": "Llueve sin parar y el frío no se va. En las casas romanas no hay chimeneas: solo braseros de carbón, que llenan los cuartos de humo.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "piedra",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "horno",
+       "x": -1.05
+      },
+      {
+       "tipo": "brasero",
+       "x": 0.95
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.4
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "eutiquio",
+      "x": -0.1,
+      "accion": "trabajar",
+      "emocion": "cansado",
+      "mirar": 1
+     },
+     {
+      "quien": "primigenio",
+      "x": 0.45,
+      "accion": "sentado",
+      "emocion": "cansado",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 12,
+    "texto": "Esa noche, Primigénio se desploma junto al brasero. Lo saco a rastras al patio, bajo la lluvia, hasta que vuelve a respirar. Por muy poco.",
+    "drama": 0.85,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "noche",
+     "clima": "lluvia",
+     "props": [
+      {
+       "tipo": "columna",
+       "x": -1.25
+      },
+      {
+       "tipo": "columna",
+       "x": 1.25
+      },
+      {
+       "tipo": "planta",
+       "x": 0.85
+      },
+      {
+       "tipo": "arbol",
+       "x": -1.6
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "eutiquio",
+      "x": 0.3,
+      "accion": "agachado",
+      "emocion": "miedo",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "primigenio",
+      "x": -0.3,
+      "accion": "sentado",
+      "emocion": "cansado",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca",
+    "corte": true
+   },
+   {
+    "dia": 13,
+    "texto": "Día trece, los idus. El amo me entrega una lista en tablillas de cera: velas para regalar a sus amigos. En diciembre, la luz es el mejor regalo.",
+    "drama": 0.55,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "dia",
+     "pared": "piedra",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "columna",
+       "x": -1.3
+      },
+      {
+       "tipo": "columna",
+       "x": 1.3
+      },
+      {
+       "tipo": "planta",
+       "x": -0.85
+      },
+      {
+       "tipo": "anfora",
+       "x": 0.95
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "eutiquio",
+      "x": 0.45,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": -1,
+      "objeto": "📜",
+      "habla": false
+     },
+     {
+      "quien": "amo",
+      "x": -0.4,
+      "accion": "senalar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta",
+    "insercion": {
+     "tipo": "cita",
+     "frase": "Esta vela te dará luz por la noche.",
+     "firma": "Marcial, dístico para regalar una vela en las Saturnales (libro XIV)"
+    }
+   },
+   {
+    "dia": 15,
+    "texto": "Por la calle se comenta que Nerón, el hijo adoptivo del emperador, cumple hoy trece años. Nosotros fregamos el átrio de arriba abajo.",
+    "drama": 0.55,
+    "personajes": [
+     {
+      "quien": "eutiquio",
+      "x": 0.35,
+      "accion": "trabajar",
+      "emocion": "cansado",
+      "mirar": -1
+     },
+     {
+      "quien": "dafne",
+      "x": -0.35,
+      "accion": "trabajar",
+      "emocion": "cansado",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 16,
+    "texto": "Es la víspera. Mi madre cose, a la luz de una lámpara, los píleos de fieltro: el gorro de los esclavos liberados. Mañana lo llevará toda Roma.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "roca",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "petate",
+       "x": -0.95
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.15
+      },
+      {
+       "tipo": "🪔",
+       "x": 0.85,
+       "escala": 0.25
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "dafne",
+      "x": -0.35,
+      "accion": "trabajar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "eutiquio",
+      "x": 0.4,
+      "accion": "sentado",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 16,
+    "texto": "«Es prestado, hijo. No te acostumbres». Eso me dice mi madre cuando me pruebo el píleo y veo que me queda grande. Se ríe, pero con los ojos tristes.",
+    "drama": 0.7,
+    "personajes": [
+     {
+      "quien": "eutiquio_pileo",
+      "x": 0.4,
+      "accion": "quieto",
+      "emocion": "feliz",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "dafne",
+      "x": -0.35,
+      "accion": "hablar",
+      "emocion": "triste",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca",
+    "corte": true
+   },
+   {
+    "dia": 17,
+    "capitulo": "Ío, Saturnália",
+    "texto": "Al amanecer, en el templo de Saturno, los sacerdotes sacrifican a la griega, con la cabeza descubierta. Y le sueltan al dios las cintas de lana.",
+    "drama": 0.75,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "amanecer",
+     "props": [
+      {
+       "tipo": "templo-romano",
+       "x": 1.1,
+       "escala": 0.6
+      },
+      {
+       "tipo": "columna",
+       "x": -1.25
+      },
+      {
+       "tipo": "antorcha",
+       "x": -0.85
+      },
+      {
+       "tipo": "hoguera",
+       "x": 0.5,
+       "escala": 0.6
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "eutiquio_fiesta",
+      "x": -0.45,
+      "accion": "quieto",
+      "emocion": "sorpresa",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "dafne",
+      "x": -0.05,
+      "accion": "quieto",
+      "emocion": "sorpresa",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 17,
+    "texto": "Y de pronto, Roma entera grita: «¡Ío, Saturnália!». Fuera las togas. Senadores, tenderos y esclavos llevan el mismo gorro. Durante unos días, nadie nos distingue.",
+    "drama": 0.85,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "props": [
+      {
+       "tipo": "termopolio",
+       "x": -1.05
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.0
+      },
+      {
+       "tipo": "carro",
+       "x": 1.45
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "eutiquio_fiesta",
+      "x": 0.0,
+      "accion": "celebrar",
+      "emocion": "feliz",
+      "mirar": 1
+     },
+     {
+      "quien": "primigenio_fiesta",
+      "x": -0.5,
+      "accion": "celebrar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sosia",
+      "x": 0.55,
+      "accion": "celebrar",
+      "emocion": "feliz",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "paneo"
+   },
+   {
+    "dia": 17,
+    "texto": "La fiesta oficial dura cinco días, pero el pueblo la estira hasta siete. Un poeta la llamó «el mejor de los días». Hoy entiendo por qué.",
+    "drama": 0.7,
+    "personajes": [
+     {
+      "quien": "eutiquio_fiesta",
+      "x": 0.0,
+      "accion": "celebrar",
+      "emocion": "feliz",
+      "mirar": 1
+     },
+     {
+      "quien": "primigenio_fiesta",
+      "x": -0.5,
+      "accion": "celebrar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sosia",
+      "x": 0.55,
+      "accion": "celebrar",
+      "emocion": "feliz",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "insercion": {
+     "tipo": "dato",
+     "valor": "7 días",
+     "etiqueta": "de fiesta popular, del 17 al 23 de diciembre (al principio era uno solo)",
+     "icono": "🎲"
+    }
+   },
+   {
+    "dia": 17,
+    "texto": "Esa noche, en casa, pasa lo imposible. Los esclavos nos tumbamos en los lechos del triclínio. Y el amo y su hijo nos sirven la cena.",
+    "drama": 0.75,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "ladrillo",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "cama",
+       "x": -1.15
+      },
+      {
+       "tipo": "mesa",
+       "x": 0.05
+      },
+      {
+       "tipo": "cama",
+       "x": 1.15
+      },
+      {
+       "tipo": "antorcha",
+       "x": -1.5
+      },
+      {
+       "tipo": "🪔",
+       "x": 0.05,
+       "escala": 0.3
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "eutiquio_fiesta",
+      "x": -0.55,
+      "accion": "sentado",
+      "emocion": "sorpresa",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "amo_fiesta",
+      "x": 0.1,
+      "accion": "cargar",
+      "emocion": "feliz",
+      "mirar": -1,
+      "objeto": "🏺",
+      "habla": false
+     },
+     {
+      "quien": "hijo_fiesta",
+      "x": 0.55,
+      "accion": "cargar",
+      "emocion": "feliz",
+      "mirar": -1,
+      "objeto": "🫒",
+      "habla": false
+     }
+    ],
+    "camara": "general",
+    "corte": true
+   },
+   {
+    "dia": 17,
+    "texto": "Lo hacen fatal. El amo derrama el vino y el niño tira las aceitunas. Y yo, por primera vez en mi vida, estoy tumbado mientras otro me sirve.",
+    "drama": 0.7,
+    "personajes": [
+     {
+      "quien": "eutiquio_fiesta",
+      "x": -0.4,
+      "accion": "sentado",
+      "emocion": "sorpresa",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "amo_fiesta",
+      "x": 0.3,
+      "accion": "cargar",
+      "emocion": "sorpresa",
+      "mirar": -1,
+      "objeto": "🏺",
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 17,
+    "texto": "Pero hay algo que nadie dice. La cena la ha guisado Sósia, el cocinero, y los platos los fregaremos nosotros mañana. El mundo al revés tiene truco.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "piedra",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "horno",
+       "x": -1.05
+      },
+      {
+       "tipo": "brasero",
+       "x": 0.95
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.4
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "sosia",
+      "x": -0.4,
+      "accion": "trabajar",
+      "emocion": "cansado",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "eutiquio_fiesta",
+      "x": 0.4,
+      "accion": "quieto",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 18,
+    "texto": "Toca elegir al rey de las Saturnales. Se echa a suertes con tabas, y el rey puede mandar lo que quiera: que alguien cante, que baile, que cargue a otro a cuestas.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "dia",
+     "pared": "piedra",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "columna",
+       "x": -1.3
+      },
+      {
+       "tipo": "columna",
+       "x": 1.3
+      },
+      {
+       "tipo": "mesa",
+       "x": 0.95
+      },
+      {
+       "tipo": "planta",
+       "x": -0.95
+      },
+      {
+       "tipo": "🎲",
+       "x": 0.95,
+       "escala": 0.25
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "amo_fiesta",
+      "x": -0.6,
+      "accion": "quieto",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "dafne",
+      "x": -0.2,
+      "accion": "quieto",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "eutiquio_fiesta",
+      "x": 0.2,
+      "accion": "trabajar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "objeto": "🎲",
+      "habla": false
+     },
+     {
+      "quien": "primigenio_fiesta",
+      "x": 0.6,
+      "accion": "celebrar",
+      "emocion": "feliz",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "general",
+    "insercion": {
+     "tipo": "cita",
+     "frase": "Que el rey de la fiesta mande: que uno cante, que otro baile, que otro cargue a cuestas a un compañero.",
+     "firma": "Luciano, Saturnales (siglo II), paráfrasis"
+    }
+   },
+   {
+    "dia": 18,
+    "texto": "Tiran todos. Tira el amo. Tiro yo. Y la suerte cae en mí. Soy el rey de la fiesta, y nadie en esta casa puede negarme nada.",
+    "drama": 0.85,
+    "personajes": [
+     {
+      "quien": "eutiquio_fiesta",
+      "x": 0.2,
+      "accion": "celebrar",
+      "emocion": "sorpresa",
+      "mirar": -1
+     },
+     {
+      "quien": "amo_fiesta",
+      "x": -0.5,
+      "accion": "celebrar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca",
+    "corte": true
+   },
+   {
+    "dia": 18,
+    "texto": "Mi primera orden: el amo canta, y canta fatal. La segunda: Sósia baila. La tercera me sale sola: que suelten a Filero de su cadena.",
+    "drama": 0.75,
+    "personajes": [
+     {
+      "quien": "eutiquio_fiesta",
+      "x": 0.15,
+      "accion": "senalar",
+      "emocion": "feliz",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "amo_fiesta",
+      "x": -0.6,
+      "accion": "hablar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sosia",
+      "x": 0.65,
+      "accion": "celebrar",
+      "emocion": "feliz",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 18,
+    "texto": "El viejo se levanta poco a poco, sin cadena, y da tres pasos por el átrio. No va a ninguna parte. Pero los da.",
+    "drama": 0.8,
+    "personajes": [
+     {
+      "quien": "eutiquio_fiesta",
+      "x": 0.45,
+      "accion": "quieto",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "filero",
+      "x": -0.3,
+      "accion": "caminar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 19,
+    "texto": "Hoy es la fiesta de Ops, la esposa de Saturno. Jugamos a los dados en el patio, algo prohibido el resto del año. Se apuesta con nueces.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "dia",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "columna",
+       "x": -1.25
+      },
+      {
+       "tipo": "columna",
+       "x": 1.25
+      },
+      {
+       "tipo": "planta",
+       "x": 0.85
+      },
+      {
+       "tipo": "arbol",
+       "x": -1.6
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "primigenio_fiesta",
+      "x": -0.3,
+      "accion": "sentado",
+      "emocion": "feliz",
+      "mirar": 1,
+      "objeto": "🌰",
+      "habla": false
+     },
+     {
+      "quien": "eutiquio_fiesta",
+      "x": 0.35,
+      "accion": "sentado",
+      "emocion": "feliz",
+      "mirar": -1,
+      "objeto": "🎲",
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 19,
+    "texto": "Un puñado de nueces puede valer más que el oro. Primigénio lo gana a los dados y lo esconde en la túnica. Por una vez, se ríe sin mirar antes hacia la puerta.",
+    "drama": 0.55,
+    "personajes": [
+     {
+      "quien": "primigenio_fiesta",
+      "x": -0.2,
+      "accion": "celebrar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "objeto": "🌰",
+      "habla": false
+     },
+     {
+      "quien": "eutiquio_fiesta",
+      "x": 0.4,
+      "accion": "sentado",
+      "emocion": "feliz",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca",
+    "corte": true
+   },
+   {
+    "dia": 20,
+    "texto": "Es el mercado de los Sigilários. Con dinero de mi pecúlio compro el jorobado de barro para Primigénio y una vela de cera para mi madre.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "atardecer",
+     "props": [
+      {
+       "tipo": "puesto",
+       "x": -1.0
+      },
+      {
+       "tipo": "puesto",
+       "x": 1.05
+      },
+      {
+       "tipo": "antorcha",
+       "x": 1.45
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "eutiquio_fiesta",
+      "x": -0.2,
+      "accion": "cargar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "objeto": "🕯️"
+     },
+     {
+      "quien": "primigenio_fiesta",
+      "x": 0.45,
+      "accion": "celebrar",
+      "emocion": "feliz",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "paneo",
+    "insercion": {
+     "tipo": "objetos",
+     "titulo": "Mercado de los Sigilarios",
+     "items": [
+      {
+       "icono": "🏺",
+       "nombre": "Figuritas de barro"
+      },
+      {
+       "icono": "🕯️",
+       "nombre": "Velas de cera"
+      },
+      {
+       "icono": "📜",
+       "nombre": "Libros en rollo"
+      },
+      {
+       "icono": "🌰",
+       "nombre": "Nueces para jugar"
+      }
+     ]
+    }
+   },
+   {
+    "dia": 20,
+    "texto": "Esa noche, el amo aún se ríe de mis órdenes. Y yo me pongo a pensar en la orden más loca de todas. La única que importa.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "roca",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "petate",
+       "x": -0.95
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.15
+      },
+      {
+       "tipo": "🪔",
+       "x": 0.85,
+       "escala": 0.25
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "eutiquio_fiesta",
+      "x": 0.1,
+      "accion": "pensar",
+      "emocion": "neutral",
+      "mirar": -1
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 21,
+    "texto": "Es el quinto día, el que devolvió Claudio. Cenamos todos juntos, amos y esclavos. Me pongo en pie, con el píleo puesto, y pido que callen.",
+    "drama": 0.8,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "ladrillo",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "cama",
+       "x": -1.15
+      },
+      {
+       "tipo": "mesa",
+       "x": 0.05
+      },
+      {
+       "tipo": "cama",
+       "x": 1.15
+      },
+      {
+       "tipo": "antorcha",
+       "x": -1.5
+      },
+      {
+       "tipo": "🪔",
+       "x": 0.05,
+       "escala": 0.3
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "eutiquio_fiesta",
+      "x": 0.0,
+      "accion": "hablar",
+      "emocion": "neutral",
+      "mirar": 1
+     },
+     {
+      "quien": "amo_fiesta",
+      "x": -0.6,
+      "accion": "sentado",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "calpurnia",
+      "x": 0.6,
+      "accion": "sentado",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 21,
+    "texto": "Como rey de las Saturnales, ordeno a Tito Vétio Prisco que me dé la libertad. Lo digo así, en voz alta. Y el comedor entero se queda helado.",
+    "drama": 0.9,
+    "personajes": [
+     {
+      "quien": "eutiquio_fiesta",
+      "x": 0.1,
+      "accion": "senalar",
+      "emocion": "miedo",
+      "mirar": -1
+     },
+     {
+      "quien": "amo_fiesta",
+      "x": -0.55,
+      "accion": "sentado",
+      "emocion": "sorpresa",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca",
+    "corte": true
+   },
+   {
+    "dia": 21,
+    "texto": "El amo me mira un largo rato. Luego se ríe, levanta la copa y grita: «¡Ío, Saturnália!». Todos ríen con él. Y nadie me contesta.",
+    "drama": 0.85,
+    "personajes": [
+     {
+      "quien": "eutiquio_fiesta",
+      "x": 0.1,
+      "accion": "triste",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "amo_fiesta",
+      "x": -0.55,
+      "accion": "celebrar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "objeto": "🏺",
+      "habla": false
+     },
+     {
+      "quien": "calpurnia",
+      "x": 0.65,
+      "accion": "sentado",
+      "emocion": "sorpresa",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 22,
+    "texto": "De madrugada, el amo me llama a solas. Me dice que hablaremos cuando cumpla los treinta, como manda la ley. Ni un sí, ni un no.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "amanecer",
+     "pared": "piedra",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "columna",
+       "x": -1.3
+      },
+      {
+       "tipo": "columna",
+       "x": 1.3
+      },
+      {
+       "tipo": "planta",
+       "x": -0.85
+      },
+      {
+       "tipo": "anfora",
+       "x": 0.95
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "eutiquio_fiesta",
+      "x": 0.4,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "amo_fiesta",
+      "x": -0.4,
+      "accion": "hablar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "30 años",
+     "etiqueta": "edad mínima para que un esclavo liberado fuera ciudadano romano (ley Aelia Sentia, año 4)",
+     "icono": "📜"
+    }
+   },
+   {
+    "dia": 22,
+    "texto": "Ocho diciembres más sirviendo el vino. Pero ya no es un sueño escondido en un tarro: lo he dicho ante todos, y él no se ha negado.",
+    "drama": 0.75,
+    "personajes": [
+     {
+      "quien": "eutiquio_fiesta",
+      "x": 0.4,
+      "accion": "pensar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "amo_fiesta",
+      "x": -0.3,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 24,
+    "capitulo": "La noche más larga",
+    "texto": "Se acabó el mundo al revés. Me mandan atar a Filero, y le pongo la cadena con mis propias manos. Él solo me dice: «Ha sido bonito».",
+    "drama": 0.8,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "amanecer",
+     "pared": "madera",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "antorcha",
+       "x": -1.15
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.2
+      },
+      {
+       "tipo": "cajas",
+       "x": 1.45
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "eutiquio",
+      "x": 0.3,
+      "accion": "agachado",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "filero",
+      "x": -0.35,
+      "accion": "sentado",
+      "emocion": "triste",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca",
+    "corte": true
+   },
+   {
+    "dia": 25,
+    "texto": "Hoy es la bruma, el día más corto del año. Mi madre enciende la vela que le regalé. Es la noche más larga, y aun así hay luz.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "roca",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "petate",
+       "x": -0.95
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.15
+      },
+      {
+       "tipo": "🕯️",
+       "x": 0.85,
+       "escala": 0.25
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "dafne",
+      "x": -0.35,
+      "accion": "sentado",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "eutiquio",
+      "x": 0.35,
+      "accion": "sentado",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 30,
+    "texto": "Cuento mi pecúlio. Los regalos me costaron dos denarios, y el amo me dio uno de aguinaldo. Faltan ocho años para los treinta. Esta vez no pienso callarme.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "roca",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "petate",
+       "x": -0.95
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.15
+      },
+      {
+       "tipo": "🕯️",
+       "x": 0.85,
+       "escala": 0.25
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "eutiquio",
+      "x": 0.1,
+      "accion": "sentado",
+      "emocion": "neutral",
+      "mirar": -1,
+      "objeto": "🪙"
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "texto": "Cinco años después, en las Saturnales del año cincuenta y cinco, Nerón salió rey en el sorteo. Ordenó a Británico, hijo de Claudio, cantar para humillarlo. Poco después, Británico murió envenenado.",
+    "drama": 0.8,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "piedra",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "columna",
+       "x": -1.3
+      },
+      {
+       "tipo": "columna",
+       "x": 1.3
+      },
+      {
+       "tipo": "mesa",
+       "x": 0
+      },
+      {
+       "tipo": "antorcha",
+       "x": -0.8
+      },
+      {
+       "tipo": "antorcha",
+       "x": 0.8
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "neron",
+      "x": 0.35,
+      "accion": "senalar",
+      "emocion": "enfado",
+      "mirar": -1,
+      "objeto": "🎲",
+      "habla": false
+     },
+     {
+      "quien": "britanico",
+      "x": -0.4,
+      "accion": "triste",
+      "emocion": "triste",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "texto": "Cuatrocientos esclavos ejecutados por la muerte de un solo amo. Pasó en Roma en el año sesenta y uno, en la casa de Pedánio Segundo. Así era el resto del año.",
+    "drama": 0.85,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "noche",
+     "clima": "lluvia",
+     "props": [
+      {
+       "tipo": "antorcha",
+       "x": -1.1
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.1
+      }
+     ]
+    },
+    "personajes": [],
+    "insercion": {
+     "tipo": "dato",
+     "valor": "400",
+     "etiqueta": "esclavos de Pedanio Segundo ejecutados en el año 61 (Tácito, Anales XIV)",
+     "icono": "🏛️"
+    },
+    "corte": true
+   },
+   {
+    "texto": "El filósofo Séneca, que en mi diciembre vivía en Roma, escribirá años después: «Son esclavos. No: son hombres». Tardaron siglos en escucharlo.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "props": [
+      {
+       "tipo": "templo-romano",
+       "x": 1.1,
+       "escala": 0.6
+      },
+      {
+       "tipo": "columna",
+       "x": -1.25
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "eutiquio",
+      "x": -0.3,
+      "accion": "pensar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "texto": "¿Y la Navidad? Se dice que es una Saturnal con otro nombre, pero las fechas no son las mismas y no hay pruebas. Sobrevivió la idea: regalos, luces y un mundo al revés.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "roca",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "petate",
+       "x": -0.95
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.15
+      },
+      {
+       "tipo": "🕯️",
+       "x": 0.85,
+       "escala": 0.25
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "eutiquio",
+      "x": 0.0,
+      "accion": "sentado",
+      "emocion": "triste",
+      "mirar": 1,
+      "objeto": "🕯️"
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "texto": "Eutíquio y su casa son inventados; la fiesta, las leyes y los nombres reales, no. ¿De quién quieres vivir el próximo mes? Déjalo en los comentarios y suscríbete.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "atardecer",
+     "props": [
+      {
+       "tipo": "termopolio",
+       "x": -1.05
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.0
+      },
+      {
+       "tipo": "carro",
+       "x": 1.45
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "eutiquio",
+      "x": 0.3,
+      "accion": "saludar",
+      "emocion": "neutral",
+      "mirar": -1
+     }
+    ],
+    "camara": "general"
+   }
+  ]
+ },
+ "publicacion": {
+  "tituloLargo": "Un mes en la vida de UN ESCLAVO ROMANO (año 50) | Las Saturnales: la noche en que el amo servía la cena",
+  "tituloCorto": "Esclavo en las Saturnales",
+  "descripcion": "Diciembre del año 50 en Roma, bajo el emperador Claudio. Eutiquio, esclavo nacido en la casa de un caballero del Esquilino, sirve la mesa, cuenta su peculio y espera las Saturnales (17–23 de diciembre): la fiesta del gorro de los libertos, la cena en la que los amos sirven a los esclavos, el rey elegido a suertes y los regalos de velas y figuritas de barro. Una semana de mundo al revés dentro de un sistema que seguía siendo brutal.\n\n— Semana 1: La casa que nunca duerme\n— Semana 2: Cuenta atrás para el mundo al revés\n— Semana 3: Io, Saturnalia\n— Semana 4: La noche más larga\n— Epílogo: Nerón y Británico (año 55), Pedanio Segundo (año 61), Séneca y la Navidad sin mitos\n\nQué es real y qué es inventado: Eutiquio, su madre Dafne, su amo Tito Vetio Prisco y el resto de la casa son personajes inventados. Las costumbres de las Saturnales, el quinto día restaurado por Claudio, el edicto sobre los esclavos enfermos abandonados en la isla del Tíber, la ley Aelia Sentia, el cumpleaños de Nerón, las Saturnales del año 55 y la ejecución de los esclavos de Pedanio Segundo están documentados. No está claro cuánto se practicaba de verdad la cena invertida en cada casa; durante la fiesta los esclavos seguían siendo esclavos. Tampoco hay pruebas de que la Navidad derive de las Saturnales.\n\nFuentes: Macrobio, Saturnales I, 7–11; Séneca, Epístolas morales a Lucilio 18, 47 y 80, y Sobre la clemencia I, 24; Marcial, Epigramas XI y XIV; Luciano, Saturnales; Dion Casio LIX, 6 y LX, 25; Suetonio, Claudio 25 y Nerón 6; Tácito, Anales XII–XIV; Livio XXII, 1; Plinio el Viejo, Historia natural XV, 32 y XVIII, 221; Catulo 14; Horacio, Sátiras II, 7. Secundarias: Getty Museum; Encyclopaedia Romana (Universidad de Chicago); Smith, Dictionary of Greek and Roman Antiquities; World History Encyclopedia; History Today.",
+  "etiquetas": [
+   "un mes en la vida de",
+   "Saturnales",
+   "Saturnalia",
+   "antigua Roma",
+   "esclavos en Roma",
+   "Claudio",
+   "Nerón",
+   "Séneca",
+   "Navidad",
+   "historia",
+   "mitos y dioses",
+   "año 50"
+  ],
+  "miniatura": {
+   "texto": "¿REY O ESCLAVO?",
+   "escena": 45,
+   "quien": "eutiquio_fiesta",
+   "emocion": "miedo",
+   "icono": "🎲"
+  },
+  "shorts": [
+   {
+    "titulo": "Una noche al año, mi amo me sirve la cena",
+    "descripcion": "Roma, diciembre del año 50: un esclavo cuenta los días que faltan para las Saturnales. #shorts #historia #antiguaroma"
+   },
+   {
+    "titulo": "Veinticinco personas sin sueldo y un portero atado a la puerta",
+    "descripcion": "Así era por dentro la casa de un caballero romano en el año 50. #shorts #historia #roma"
+   },
+   {
+    "titulo": "El dios romano con los pies atados con lana",
+    "descripcion": "La noche de la Bona Dea y la estatua de Saturno en el Foro, atada todo el año salvo en su fiesta. #shorts #mitologia #roma"
+   },
+   {
+    "titulo": "Lo que costaba ser libre en Roma",
+    "descripcion": "300 denarios ahorrados, un precio de 1.500 y una ley que exigía 30 años. #shorts #historia #antiguaroma"
+   },
+   {
+    "titulo": "Abandonados en una isla para no pagar al médico",
+    "descripcion": "La isla Tiberina, el templo de Esculapio y la ley de Claudio que liberaba a los esclavos que se curaban. #shorts #historia #roma"
+   },
+   {
+    "titulo": "Fueron esclavos y acabaron entre los más ricos de Roma",
+    "descripcion": "Narciso y Palante, libertos de Claudio. Y un invierno sin chimeneas. #shorts #historia #antiguaroma"
+   },
+   {
+    "titulo": "Sin chimeneas: el humo que casi mata a un niño",
+    "descripcion": "Braseros de carbón, velas de regalo y la víspera de las Saturnales. #shorts #historia #roma"
+   },
+   {
+    "titulo": "¡Io, Saturnalia! Toda Roma con el gorro de los libertos",
+    "descripcion": "El sacrificio a la griega, fuera togas y siete días de fiesta popular. #shorts #saturnales #historia"
+   },
+   {
+    "titulo": "La noche en que el amo sirve a los esclavos",
+    "descripcion": "La cena invertida de las Saturnales… y el truco que nadie decía en voz alta. #shorts #saturnales #historia"
+   },
+   {
+    "titulo": "Me tocó ser el rey de la fiesta",
+    "descripcion": "El sorteo del rey de las Saturnales y sus órdenes absurdas. Y un portero sin cadena. #shorts #historia #roma"
+   },
+   {
+    "titulo": "Un puñado de nueces vale más que el oro",
+    "descripcion": "Dados permitidos, el mercado de los Sigilarios y una idea peligrosa. #shorts #saturnales #historia"
+   },
+   {
+    "titulo": "Le ordené a mi amo que me diera la libertad",
+    "descripcion": "El rey de las Saturnales pide la única orden que importa. #shorts #historia #antiguaroma"
+   },
+   {
+    "titulo": "Se acaba la fiesta y vuelve la cadena",
+    "descripcion": "El solsticio romano, la cuenta de un esclavo y lo que hizo Nerón cinco años después. #shorts #historia #roma"
+   },
+   {
+    "titulo": "¿La Navidad viene de las Saturnales?",
+    "descripcion": "400 esclavos ejecutados, una carta de Séneca y lo que de verdad se sabe de la Navidad. #shorts #historia #navidad"
+   }
+  ]
+ }
+}
