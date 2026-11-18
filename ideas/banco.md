@@ -82,6 +82,6 @@ Por qué funciona cada idea: tiene **un mes concreto con un acontecimiento dram�
 |---|---|---|---|---|---|
 | [x] | `whitechapel-1888` | Lunes · crímenes | un policía de Whitechapel | Noviembre de 1888 | Jack el Destripador. 9 de noviembre: el último crimen canónico. **Efeméride.** |
 | [x] | `armisticio-1918` | Martes · guerra | un soldado en el frente | Octubre–noviembre de 1918 | El armisticio a las 11 del 11/11; se siguió muriendo hasta el último minuto. **Efeméride.** |
-| [~] | `abidos-1270ac` | Miércoles · mitos | un sacerdote de Osiris | Abidos, mes de Joiak, c. 1270 a.C. | Los misterios de Osiris y el juicio del corazón. |
+| [x] | `abidos-1270ac` | Miércoles · mitos | un sacerdote de Osiris | Abidos, mes de Joiak, c. 1270 a.C. | Los misterios de Osiris y el juicio del corazón. |
 | [x] | `darwin-1859` | Jueves · personajes | Charles Darwin | Octubre–noviembre de 1859 | 24 de noviembre: sale *El origen de las especies* y se agota. **Efeméride.** |
 | [x] | `armero-1985` | Viernes · catástrofes | un socorrista en Armero | Colombia, noviembre de 1985 | 13 de noviembre: el lahar del Nevado del Ruiz. **Efeméride.** |
