@@ -270,6 +270,9 @@ const Sombrero: React.FC<{ look: Look }> = ({ look }) => {
           {[0, 1, 2].map((i) => <path key={i} d={`M-86 ${-24 - i * 26} Q0 ${-60 - i * 26} 86 ${-24 - i * 26}`} stroke="#00000022" strokeWidth={6} fill="none" />)}
         </g>
       );
+    case "pileo":
+      // gorro cónico de fieltro crudo (liberto romano, Saturnales)
+      return <path d="M-62 -44 Q-56 -128 0 -150 Q56 -128 62 -44 Q0 -58 -62 -44Z" fill={look.colorSombrero ?? "#d8c9a8"} stroke="#00000022" strokeWidth={4} />;
     case "fez":
       return (
         <g>

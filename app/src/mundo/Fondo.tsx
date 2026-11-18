@@ -589,7 +589,7 @@ export const DibujarFondo: React.FC<{ fondo: Fondo; f: number; dur: number; id: 
       {props.filter((p) => p.detras !== false && (fondo.lugar === "interior" || (!LEJANOS.includes(p.tipo) && !MEDIOS[p.tipo]))).map((p, i) => (
         <g key={i} transform={`translate(${xMundo(p.x, k)} ${SUELO - 20}) scale(${p.escala})`}><Prop tipo={p.tipo} f={f} noche={noche} /></g>
       ))}
-      {(fondo.clima === "lluvia" || fondo.clima === "tormenta") && fondo.lugar !== "interior" && (
+      {(fondo.clima === "lluvia" || fondo.clima === "tormenta" || fondo.clima === "nieve") && fondo.lugar !== "interior" && (
         // cielo encapotado: con lluvia no hay sol ni cielo azul
         <g>
           <rect x={0} y={0} width={MW} height={HORIZONTE + 120} fill={noche ? "#1c2128" : "#6f7880"} opacity={noche ? 0.45 : 0.62} />

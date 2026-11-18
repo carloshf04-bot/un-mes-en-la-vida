@@ -22,6 +22,8 @@ export const PROPS_DISPONIBLES = [
   "barca", "yed",
   // Armero (1985)
   "lodo", "barrizal",
+  // Roma (Saturnales) y Halifax (1917)
+  "templo-romano", "ruinas", "tren", "wigwam",
 ] as const;
 
 const Brillo: React.FC<{ r: number; o: number; color?: string; cx?: number; cy?: number }> = ({ r, o, color = "#ffb347", cx = 0, cy = 0 }) => (
@@ -1156,6 +1158,73 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean }> = ({ ti
         </g>
       );
     }
+    case "templo-romano":
+      // fachada de templo con podio, escalinata, seis columnas y frontón
+      return (
+        <g>
+          <rect x={-520} y={-220} width={1040} height={220} fill="#cfc4ae" />
+          {Array.from({ length: 6 }).map((_, i) => <rect key={`e${i}`} x={-560 + i * 20} y={-40 * (6 - i) + 20} width={1120 - i * 40} height={40} fill={i % 2 ? "#ddd3bf" : "#d3c8b2"} />)}
+          {Array.from({ length: 6 }).map((_, i) => (
+            <g key={i} transform={`translate(${-400 + i * 160} -220)`}>
+              <rect x={-36} y={-620} width={72} height={620} fill="#ece4d4" />
+              {[-20, 0, 20].map((x) => <rect key={x} x={x - 4} y={-600} width={8} height={580} fill="#d6ccb8" />)}
+              <rect x={-52} y={-650} width={104} height={34} fill="#e2d9c6" />
+            </g>
+          ))}
+          <rect x={-500} y={-920} width={1000} height={70} fill="#e2d9c6" />
+          <polygon points="-540,-920 0,-1120 540,-920" fill="#d9cfba" />
+          <polygon points="-440,-935 0,-1080 440,-935" fill="#c8bca4" />
+          <rect x={-150} y={-840} width={300} height={600} fill="#00000022" />
+        </g>
+      );
+    case "ruinas":
+      // casa de madera derrumbada (después de una explosión o un terremoto)
+      return (
+        <g>
+          <path d="M-320 0 L-320 -260 L-240 -330 L-180 -250 L-120 -300 L-60 -160 L40 -230 L120 -120 L200 -190 L320 -60 L320 0Z" fill="#6e5a48" />
+          {[[-260, -200, 25], [-90, -140, -18], [60, -170, 32], [190, -110, -10], [-200, -60, 8]].map(([x, y, r], i) => (
+            <rect key={i} x={x - 110} y={y - 12} width={220} height={24} fill={i % 2 ? "#8a7058" : "#7a634e"} transform={`rotate(${r} ${x} ${y})`} />
+          ))}
+          <rect x={-300} y={-300} width={40} height={300} fill="#4f4136" transform="rotate(-8 -280 0)" />
+          <rect x={160} y={-240} width={36} height={240} fill="#4f4136" transform="rotate(12 178 0)" />
+          <path d="M-60 -340 Q-40 -420 -70 -500 Q-20 -440 -30 -360Z" fill="#9aa0a6" opacity={0.35 + 0.1 * Math.sin(f / 15)} />
+        </g>
+      );
+    case "tren": {
+      // locomotora de vapor con dos vagones; avanza despacio
+      const x = Math.sin(f / 90) * 30;
+      return (
+        <g transform={`translate(${x} 0)`}>
+          <rect x={-700} y={-20} width={1500} height={20} fill="#3a3a3a" />
+          {[-600, -250].map((vx, i) => (
+            <g key={i}>
+              <rect x={vx} y={-300} width={320} height={250} rx={10} fill={i ? "#6b2f2a" : "#5a2a26"} />
+              {[0, 1, 2].map((k) => <rect key={k} x={vx + 30 + k * 95} y={-260} width={70} height={70} fill="#e8d9a0" opacity={0.85} />)}
+              {[vx + 60, vx + 260].map((cx) => <circle key={cx} cx={cx} cy={-40} r={36} fill="#222" />)}
+            </g>
+          ))}
+          <rect x={100} y={-260} width={460} height={210} rx={20} fill="#26292c" />
+          <rect x={430} y={-380} width={130} height={140} fill="#26292c" />
+          <rect x={160} y={-340} width={60} height={90} fill="#26292c" />
+          <rect x={150} y={-355} width={80} height={20} fill="#1a1c1e" />
+          {[180, 300, 420, 520].map((cx, i) => <circle key={cx} cx={cx} cy={-45} r={i === 3 ? 30 : 50} fill="#1a1c1e" stroke="#7a1f1f" strokeWidth={8} />)}
+          {[0, 1, 2, 3].map((k) => {
+            const t = ((f * 1.2 + k * 25) % 100) / 100;
+            return <circle key={k} cx={190 - t * 220} cy={-380 - t * 260} r={40 + t * 70} fill="#e8eaec" opacity={0.6 * (1 - t)} />;
+          })}
+        </g>
+      );
+    }
+    case "wigwam":
+      return (
+        <g>
+          <polygon points="-180,0 0,-420 180,0" fill="#b9a27e" />
+          <polygon points="-180,0 0,-420 -60,0" fill="#a58e6a" />
+          {[-80, 0, 80].map((y, i) => <path key={i} d={`M${-150 + i * 40} ${y - 60} L${150 - i * 40} ${y - 60}`} stroke="#7a6446" strokeWidth={6} transform={`translate(0 ${-i * 80})`} />)}
+          <path d="M-20 -420 L-60 -500 M20 -420 L60 -500 M0 -420 L0 -510" stroke="#5a4632" strokeWidth={10} />
+          <path d="M-50 0 Q0 -150 50 0Z" fill="#3e3226" />
+        </g>
+      );
     case "charco":
       return (
         <g>

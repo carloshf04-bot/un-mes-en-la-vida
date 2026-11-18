@@ -75,7 +75,7 @@ La voz (Chatterbox, narrador de España, con `"velocidad": 1.15`) lee unas **120
 ### Fondo
 
 ```jsonc
-{ "lugar": "...", "hora": "amanecer|dia|atardecer|noche", "clima": "despejado|lluvia|nieve|niebla|tormenta|polvo|ceniza",   // lluvia y tormenta encapotan el cielo (sin sol ni azul)
+{ "lugar": "...", "hora": "amanecer|dia|atardecer|noche", "clima": "despejado|lluvia|nieve|niebla|tormenta|polvo|ceniza",   // lluvia, tormenta y nieve encapotan el cielo (sin sol ni azul)
   "pared": "piedra|madera|ladrillo|metal|papel|tela|roca",   // sólo interior
   "ventana": true,                                          // sólo interior
   "props": ["chimenea", { "tipo": "faro", "x": -1.35, "escala": 1.2, "detras": true }] }
@@ -89,6 +89,7 @@ La voz (Chatterbox, narrador de España, con `"velocidad": 1.15`) lee unas **120
   - **Mesoamérica:** `templo-mayor` (pirámide doble con santuarios rojo y azul, decorado LEJANO), `canoa` (sobre el agua, plano medio), `ahuejote`, `chinampa`, `calzada` (sobre el lago, plano medio), `brasero`, `petate`, `metate`, `ciudad-lago` (Tenochtitlan entera sobre el agua, plano medio: úsala con `rio`).
   - **Egipto (Reino Nuevo):** `barca` (barca sagrada portátil con cabina velada y varas; va detrás de los porteadores a la altura del hombro: ponla con `x` en el punto medio entre los personajes con `accion: "cargar"` y sin `objeto`), `yed` (pilar Dyed de Osiris con cuatro travesaños).
   - **Armero (1985):** `lodo` (avalancha de lodo que entra desde la izquierda y cubre la parte baja de casas y árboles; ponlo el ÚLTIMO en `props` con `x: 0`, en una escena sin personajes). `barrizal` (el pueblo después de la avalancha: llanura de barro gris hasta el horizonte con tejados, árboles partidos y tablas; ponlo el PRIMERO en `props` con `x: 0`; los personajes quedan de pie encima). El `helicoptero` cruza el cielo a la altura visible del plano horizontal.
+  - **Roma (Saturnales) y Halifax (1917):** `templo-romano` (fachada con podio, escalinata y seis columnas; es enorme: usa `escala` 0.5–0.7 y x ±1.1), `ruinas` (casa de madera derrumbada, humeante), `tren` (locomotora de vapor con dos vagones; ponlo sin personajes delante o con escala 0.7), `wigwam` (vivienda mi'kmaq de corteza). Sombrero nuevo: `pileo` (gorro cónico de fieltro crudo de los libertos y de las Saturnales).
   - **Volcán en erupción:** con `escala` 0.8–1 se ve la columna entera; con escala alta la columna se sale del encuadre.
   - **Otros:** `granja-fuego` (la granja ardiendo), `charco` (con ondas), `puesto-mexica` (puesto de mercado con maíz, chile, frijol y pescado; el `puesto` normal lleva pan, queso y manzanas europeos).
 - **Planos:** `puente`, `calzada` y `canoa` van en plano medio (sobre el agua); `volcan`, `piramide`, `pilar` y `templo-mayor` siempre lejos. El motor añade solo el primer plano (hierba, postes, marcos) delante de los personajes, el paralaje de las capas y algo vivo (pájaros, motas de polvo, agua).
@@ -105,7 +106,7 @@ La voz (Chatterbox, narrador de España, con `"velocidad": 1.15`) lee unas **120
   "peinado": "corto|largo|calvo|mono|rizado|coleta|trenzas|rapado|coronilla",   // coronilla: calvo arriba con mechones a los lados
   "barba": "ninguna|bigote|corta|larga|patillas",   // patillas: largas hasta la mandíbula, sin barbilla
   "ropa": { "tipo": "camisa|tunica|vestido|abrigo|mono|armadura|traje|bata|uniforme|harapos|galabiya|tilma|cuadros", "color": "#", "color2": "#", "detalle": "#" },
-  "sombrero": "ninguno|gorra|copa|ala|casco|corona|capucha|panuelo|espacial|boina|tricornio|yelmo|turbante|fez|salacot|orejeras|penacho|morrion", "colorSombrero": "#",
+  "sombrero": "ninguno|gorra|copa|ala|casco|corona|capucha|panuelo|espacial|boina|tricornio|yelmo|turbante|fez|salacot|orejeras|penacho|morrion|pileo", "colorSombrero": "#",
   "zombi": false, // infectado: ojos pálidos (con piel gris verdosa y acción "tambalear")
   "gafas": false, "altura": 1 /* 0.6 niño */, "zapatos": "#" }
 ```
