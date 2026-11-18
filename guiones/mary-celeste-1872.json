@@ -627,7 +627,7 @@
       },
       {
         "dia": 10,
-        "texto": "Domingo, veinticuatro. Mientras yo achico, muy por delante de nosotros, alguien en el Méri Selést apunta en el diario dónde está a mediodía, en una de sus últimas anotaciones.",
+        "texto": "El domingo veinticuatro, mientras yo achico, muy por delante de nosotros, alguien en el Méri Selést apunta en el diario dónde está a mediodía, en una de sus últimas anotaciones.",
         "drama": 0.75,
         "personajes": [
           {
@@ -1369,7 +1369,7 @@
       },
       {
         "dia": 21,
-        "texto": "Es jueves. Al otro lado, Devó y sus dos hombres achican, reparan y aparejan como pueden. Los veo trabajar a lo lejos, pequeños, en un barco que no es suyo.",
+        "texto": "Al otro lado, durante el jueves, Devó y sus dos hombres achican, reparan y aparejan como pueden. Los veo trabajar a lo lejos, pequeños, en un barco que no es suyo.",
         "drama": 0.7,
         "fondo": {
           "lugar": "mar",
