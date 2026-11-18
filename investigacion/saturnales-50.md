@@ -66,7 +66,7 @@
    - **Acio**, citado por **Macrobio (I, 7, 36–37)**: en las fiestas griegas de Cronos los amos preparan banquetes a sus esclavos y los atienden [V, cotejar].
    - **Macrobio (I, 24, 22–23)**: en su diálogo, el jefe de los esclavos de la casa avisa de que la servidumbre ya ha cenado "según la costumbre de la fiesta" y que la mesa vuelve a los amos [V, cotejar].
    - **Matiz importante [D]:** no está claro cuánto se hacía de verdad ni en todas las casas. Para varios autores era un rito de un día y bastante teatral; la cocina seguían haciéndola esclavos. **No decir que "los esclavos eran libres durante una semana".**
-6. **El rey de las Saturnales** (*Saturnalicius princeps* o *rex*): se elegía **echando a suertes con dados o tabas** y daba órdenes absurdas que todos tenían que cumplir (cantar, bailar, llevar a alguien a cuestas, tiznarse la cara, tirarse al agua fría…). Lo cuentan **Luciano** (*Saturnales* 2 y 4), **Epicteto** (Arriano, *Disertaciones* I, 25, 8) y **Tácito, *Anales* XIII, 15**: en las Saturnales del **año 55**, jugando a sortear al rey, la suerte cayó en **Nerón**, que ordenó a **Británico** levantarse y cantar delante de todos para humillarlo; Británico cantó un poema sobre el que es expulsado de la casa de su padre y despertó la compasión de los presentes. Murió envenenado poco después [V]. Es real y está a cinco años del episodio: se puede contar en el epílogo como "cinco años después…".
+6. **El rey de las Saturnales** (*Saturnalicius princeps* o *rex*): se elegía **echando a suertes con dados o tabas** y daba órdenes absurdas que todos tenían que cumplir (cantar, bailar, llevar a alguien a cuestas, tiznarse la cara, tirarse al agua fría…). Lo cuentan **Luciano** (*Saturnales* 2 y 4), **Epicteto** (Arriano, *Disertaciones* I, 25, 8) y **Tácito, *Anales* XIII, 15**: en las Saturnales de diciembre del **año 54** (Británico murió en febrero del 55), jugando a sortear al rey, la suerte cayó en **Nerón**, que ordenó a **Británico** levantarse y cantar delante de todos para humillarlo; Británico cantó un poema sobre el que es expulsado de la casa de su padre y despertó la compasión de los presentes. Murió envenenado poco después [V]. Es real y está a cuatro años del episodio: se puede contar en el epílogo como "cuatro años después…".
 7. **Juego de dados permitido:** el juego de azar, prohibido el resto del año, se toleraba en las Saturnales. Marcial habla de los días "en que reina el cubilete" (*regnator… fritillus*, XI, 6, 2) [V]. Los niños y los pobres jugaban con **nueces** (Marcial V, 84; XIV, 1, 12; Luciano: apuestas solo con nueces) [V].
 8. **Nada de trabajo ni negocios:** cerraban tribunales y escuelas; Luciano prohíbe en su "ley" los negocios y solo deja trabajar a **cocineros y pasteleros** [V]. Marcial V, 84: acabada la fiesta, el niño triste deja las nueces y vuelve al maestro que grita [V].
 9. **Regalos:** 
@@ -150,7 +150,7 @@ El **columbario de los esclavos y libertos de Livia** (esposa de Augusto) en la 
 
 ### Lo que vino después (para el epílogo) [V]
 - **Año 54:** muere Claudio (según las fuentes antiguas, envenenado, [D] el método). Séneca escribe la *Apocolocintosis* llamándolo "príncipe de las Saturnales".
-- **Año 55:** en las Saturnales, Nerón, "rey" por sorteo, humilla a Británico obligándole a cantar; Británico muere poco después (Tácito, *Anales* XIII, 15–17).
+- **Año 54 (diciembre):** en las Saturnales, Nerón, "rey" por sorteo, humilla a Británico obligándole a cantar; Británico muere poco después (Tácito, *Anales* XIII, 15–17).
 - **Años 62–65:** Séneca escribe a Lucilio la carta 47 ("Son esclavos. No: son hombres") y la 18 sobre diciembre.
 - **Año 61:** el prefecto de Roma **Pedanio Segundo** es asesinado por uno de sus esclavos; por ley, se ejecuta a **los 400 esclavos de la casa**, pese a las protestas del pueblo (Tácito, *Anales* XIV, 42–45) [V]. Mencionar con sobriedad, sin detalle: muestra la otra cara de la "fiesta de la igualdad".
 - Las Saturnales siguieron celebrándose siglos: Macrobio escribe sus *Saturnales* hacia el **430 d. C.**, ya en un imperio cristiano [V].
@@ -231,8 +231,8 @@ El **columbario de los esclavos y libertos de Livia** (esposa de Augusto) en la 
 |---|---|---|
 | **Claudio** | Emperador 41–54; restauró el quinto día de las Saturnales (Dion LX, 25, 8); edicto sobre esclavos enfermos (Suet. *Cl.* 25); Séneca lo llama "príncipe de las Saturnales" | [V] |
 | **Agripina la Menor** | Esposa de Claudio desde el 49, Augusta en el 50 | [V] |
-| **Nerón** | Adoptado en febrero del 50; cumple 13 el 15 de diciembre del 50; rey de las Saturnales del 55 | [V] |
-| **Británico** | Hijo de Claudio, 9 años en el 50; humillado en las Saturnales del 55 | [V] |
+| **Nerón** | Adoptado en febrero del 50; cumple 13 el 15 de diciembre del 50; rey de las Saturnales del 54 | [V] |
+| **Británico** | Hijo de Claudio, 9 años en el 50; humillado en las Saturnales del 54 | [V] |
 | **Séneca** | Pretor en el 50, tutor de Nerón; cartas 18 y 47; *Sobre la clemencia*; *Apocolocintosis* | [V] |
 | **Narciso y Palante** | Libertos de Claudio, secretarios y riquísimos | [V] |
 | **Marcial** | Poeta (h. 40–104), aún niño en Hispania (Bílbilis, cerca de Calatayud) en el 50; escribirá los libros XIII y XIV para las Saturnales hacia el 84–85 | [V] — gancho hispano |
@@ -363,7 +363,7 @@ Regla: el latín clásico se pronunciaba con **c = k** y **v = u**, pero en espa
 1. **Semana 1 (días 1–7): "La casa que nunca duerme"** — rutina, el peculio, el portero encadenado, el templo con el dios atado, el edicto de Claudio.
 2. **Semana 2 (días 8–16): "Cuenta atrás para el mundo al revés"** — la cena de los libertos poderosos, el mercado de figuritas, los 13 años de Nerón, los píleos cosidos.
 3. **Semana 3 (días 17–23): "Ío, Saturnália"** — el sacrificio a la griega, la cena invertida, Eutiquio rey, la petición de libertad, el último día.
-4. **Semana 4 (días 24–31): "La noche más larga"** — vuelve el orden, la bruma, las velas regaladas, la cuenta del peculio; epílogo (Nerón y Británico en el 55, Séneca, Macrobio, la Navidad sin mitos).
+4. **Semana 4 (días 24–31): "La noche más larga"** — vuelve el orden, la bruma, las velas regaladas, la cuenta del peculio; epílogo (Nerón y Británico en el 54, Séneca, Macrobio, la Navidad sin mitos).
 
 ## 13. Ganchos para bloques de short (~50 s)
 
