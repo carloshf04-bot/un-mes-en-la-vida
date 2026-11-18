@@ -1,0 +1,2312 @@
+{
+  "slug": "trinchera-1914",
+  "titulo": "un soldado de 1914",
+  "lugar": "Frelinghien, Flandes francesa",
+  "epoca": "Diciembre de 1914 y enero de 1915",
+  "categoria": "epoca",
+  "drama": 0.7,
+  "velocidad": 1.15,
+  "musica": "nostalgia",
+  "paleta": {
+    "acento": "#c9a24a",
+    "texto": "#efe9dc",
+    "fondo": "#1d211f",
+    "papel": "#e9dfc6"
+  },
+  "reparto": {
+    "tom": {
+      "piel": "#e2b393",
+      "pelo": "#3b2a1e",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#7a6a48",
+        "color2": "#7a6a48",
+        "detalle": "#8a7b5a"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#6f6243",
+      "zapatos": "#4a3424"
+    },
+    "ivor": {
+      "piel": "#dcae8a",
+      "pelo": "#1f1712",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#7a6a48",
+        "color2": "#7a6a48",
+        "detalle": "#8a7b5a"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#6f6243",
+      "zapatos": "#4a3424"
+    },
+    "sargento": {
+      "piel": "#d6a07c",
+      "pelo": "#6a5240",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#7a6a48",
+        "color2": "#7a6a48",
+        "detalle": "#8a7b5a"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#6f6243",
+      "zapatos": "#4a3424"
+    },
+    "richards": {
+      "piel": "#dba985",
+      "pelo": "#4a3a2c",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#7a6a48",
+        "color2": "#7a6a48",
+        "detalle": "#8a7b5a"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#6f6243",
+      "zapatos": "#4a3424"
+    },
+    "stockwell": {
+      "piel": "#e6bc9a",
+      "pelo": "#6b5340",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#857452",
+        "color2": "#857452",
+        "detalle": "#5a3a22"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#857452",
+      "zapatos": "#3a2618"
+    },
+    "otto": {
+      "piel": "#e4b898",
+      "pelo": "#7a6e62",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#6b7062",
+        "color2": "#5e6358",
+        "detalle": "#3a3226"
+      },
+      "sombrero": "pickelhaube",
+      "colorSombrero": "#8c8a74",
+      "gafas": true,
+      "zapatos": "#1f1c1a"
+    },
+    "sajon": {
+      "piel": "#dfb08c",
+      "pelo": "#5a4636",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#6b7062",
+        "color2": "#5e6358",
+        "detalle": "#3a3226"
+      },
+      "sombrero": "pickelhaube",
+      "colorSombrero": "#8c8a74",
+      "zapatos": "#1f1c1a"
+    },
+    "vonsinner": {
+      "piel": "#e8c09e",
+      "pelo": "#4a3a2e",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#5d6b55",
+        "color2": "#5d6b55",
+        "detalle": "#2e2a22"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#5d6b55",
+      "zapatos": "#1f1c1a"
+    },
+    "megan": {
+      "piel": "#ecc7a8",
+      "pelo": "#4a2f22",
+      "peinado": "coleta",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#3f4a5a",
+        "color2": "#3f4a5a",
+        "detalle": "#7a5a48"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#2a1e16",
+      "voz": "narradora-es"
+    }
+  },
+  "largo": {
+    "escenas": [
+      {
+        "corte": true,
+        "texto": "Esta Navidad voy a darle la mano al hombre que lleva un mes intentando matarme. Ninguno de los dos tiene permiso, y ninguno lo va a olvidar.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barricada",
+              "x": -0.95
+            },
+            {
+              "tipo": "pino",
+              "x": -0.55,
+              "escala": 0.3,
+              "detras": true
+            },
+            {
+              "tipo": "pino",
+              "x": 0.15,
+              "escala": 0.28,
+              "detras": true
+            },
+            {
+              "tipo": "pino",
+              "x": 0.85,
+              "escala": 0.3,
+              "detras": true
+            },
+            {
+              "tipo": "🕯️",
+              "x": -0.2,
+              "escala": 0.22,
+              "detras": true
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.5,
+              "escala": 0.22,
+              "detras": true
+            },
+            {
+              "tipo": "valla",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.45,
+            "accion": "agachado",
+            "emocion": "sorpresa",
+            "mirar": -1
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Me llamo Tom Élis. Tengo veinticinco años y bajo a la mina de carbón en un pueblo cerca de Récsam, en el norte de Gales.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "dia",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "maquina",
+              "x": -1.15
+            },
+            {
+              "tipo": "casa",
+              "x": 1.2
+            },
+            {
+              "tipo": "casa",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.3,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "entra": "der"
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "De joven serví en el ejército. En agosto me llamaron como reservista, y ahora soy soldado raso de los Fusileros Reales de Gales.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.25,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "En casa, Mégan acaba de tener a nuestra hija, Güen. Nació el dos de noviembre y todavía no la conozco. Solo quiero seguir vivo para verle la cara.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "cajas",
+              "x": -1.15
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.1
+            },
+            {
+              "tipo": "🕯️",
+              "x": 1.0,
+              "escala": 0.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.3,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": -1,
+            "objeto": "✉️"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 1,
+        "capitulo": "El agua sube",
+        "corte": true,
+        "texto": "Jueves, diez de diciembre de mil novecientos catorce. Entro en primera línea delante de Frelangán, un pueblo de Francia pegado a Bélgica, con el agua por la rodilla.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "lluvia",
+          "props": [
+            {
+              "tipo": "barricada",
+              "x": -1.0
+            },
+            {
+              "tipo": "arbol",
+              "x": -1.45
+            },
+            {
+              "tipo": "charco",
+              "x": 0.0
+            },
+            {
+              "tipo": "valla",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "entra": "der"
+          },
+          {
+            "quien": "ivor",
+            "x": -0.25,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false,
+            "entra": "der"
+          }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Frelinghien, Flandes francesa",
+          "detalle": "Junto al río Lys y la frontera belga · diciembre de 1914",
+          "icono": "📍"
+        }
+      },
+      {
+        "dia": 1,
+        "texto": "A unos cien metros, tras su alambre, están los sajones. No se les ve, pero tienen un francotirador que no falla. Nadie asoma la cabeza.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "agachado",
+            "emocion": "miedo",
+            "mirar": -1
+          },
+          {
+            "quien": "ivor",
+            "x": -0.3,
+            "accion": "agachado",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 2,
+        "texto": "Viernes. Formación del alba: media hora antes de que amanezca, todos al parapeto con el fusil. Luego, un trago de ron. Durante un minuto, deja de hacer frío.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "amanecer",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "barricada",
+              "x": -0.95
+            },
+            {
+              "tipo": "valla",
+              "x": 1.2
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": -1
+          },
+          {
+            "quien": "sargento",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 2,
+        "texto": "Me pagan un chelín al día por vivir metido en agua helada. Achico con una lata toda la mañana, y el agua vuelve a subir en cuanto paro.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "lluvia",
+          "props": [
+            {
+              "tipo": "barricada",
+              "x": -1.0
+            },
+            {
+              "tipo": "charco",
+              "x": 0.1
+            },
+            {
+              "tipo": "valla",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1 chelín",
+          "etiqueta": "al día: la paga de un soldado raso británico en 1914",
+          "icono": "🪙"
+        }
+      },
+      {
+        "dia": 4,
+        "corte": true,
+        "texto": "En la mina, los galeses cantamos para no tener miedo. Aquí, igual: es domingo, no hay capellán, y Ívor, otro minero, canta conmigo un himno en galés, muy bajito.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "agachado",
+            "emocion": "triste",
+            "mirar": -1
+          },
+          {
+            "quien": "ivor",
+            "x": -0.3,
+            "accion": "agachado",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 6,
+        "texto": "Martes. Relevo en Uplín, junto a Armantiér: baño y ropa limpia. A los dos días, la ropa vuelve a estar llena de piojos.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "lluvia",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.25
+            },
+            {
+              "tipo": "casa",
+              "x": 1.3
+            },
+            {
+              "tipo": "barril",
+              "x": -0.8
+            },
+            {
+              "tipo": "carro",
+              "x": 0.95
+            },
+            {
+              "tipo": "farola",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.3,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": -1
+          },
+          {
+            "quien": "ivor",
+            "x": -0.3,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 7,
+        "texto": "Miércoles. Carta de Mégan. Güen ya tiene seis semanas, abre mucho los ojos y le agarra el dedo con fuerza. Leo la carta tres veces seguidas.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.1
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.1
+            },
+            {
+              "tipo": "🕯️",
+              "x": 1.05,
+              "escala": 0.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.3,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": -1,
+            "objeto": "✉️"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 8,
+        "capitulo": "Los del otro lado",
+        "texto": "Jueves, diecisiete. Volvemos a primera línea. En la noche quieta oigo algo que no esperaba: al otro lado, un hombre tose. Otro le contesta. Otro silba.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "noche",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "barricada",
+              "x": -0.95
+            },
+            {
+              "tipo": "valla",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "agachado",
+            "emocion": "sorpresa",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 9,
+        "corte": true,
+        "texto": "Ciento treinta y siete muertos, casi todos civiles. Lo leo en un periódico atrasado: barcos alemanes han bombardeado tres pueblos de la costa inglesa.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "roca",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.1
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.2
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.95,
+              "escala": 0.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.3,
+            "accion": "sentado",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "objeto": "🗞️"
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "137",
+          "etiqueta": "muertos en Scarborough, Hartlepool y Whitby (16 de diciembre de 1914), casi todos civiles",
+          "icono": "🗞️"
+        }
+      },
+      {
+        "dia": 9,
+        "texto": "En la trinchera hay rabia. Ívor escupe al barro y jura que no perdonará a ningún alemán. Yo pienso en Mégan y en la niña, solas en casa.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "triste",
+            "mirar": -1
+          },
+          {
+            "quien": "ivor",
+            "x": -0.35,
+            "accion": "sentado",
+            "emocion": "enfado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 10,
+        "texto": "Sábado. De noche salgo con una patrulla a reparar el alambre. Agachado en el barro, veo las formas oscuras de los que cayeron en octubre.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "noche",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "valla",
+              "x": -1.1
+            },
+            {
+              "tipo": "valla",
+              "x": 1.05
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "agachado",
+            "emocion": "miedo",
+            "mirar": -1
+          },
+          {
+            "quien": "sargento",
+            "x": -0.35,
+            "accion": "agachado",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 10,
+        "texto": "Hay hombres que llevan dos meses esperando que alguien los entierre. Están entre las dos trincheras, y quien intente ir a buscarlos no volverá.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "agachado",
+            "emocion": "triste",
+            "mirar": -1
+          },
+          {
+            "quien": "sargento",
+            "x": -0.35,
+            "accion": "agachado",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 11,
+        "corte": true,
+        "texto": "Domingo, veinte. Un sajón nos grita desde su trinchera, en un inglés perfecto, si en Gales llueve tanto como aquí. Uno de los nuestros le contesta con una broma muy galesa.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "lluvia",
+          "props": [
+            {
+              "tipo": "barricada",
+              "x": -1.0
+            },
+            {
+              "tipo": "charco",
+              "x": 0.1
+            },
+            {
+              "tipo": "valla",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "agachado",
+            "emocion": "sorpresa",
+            "mirar": -1
+          },
+          {
+            "quien": "ivor",
+            "x": -0.3,
+            "accion": "agachado",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 11,
+        "texto": "Se oyen risas a los dos lados, como en la bocamina al acabar el turno. Entonces el sargento nos manda callar. Con el enemigo no se habla, ni siquiera para reírse un rato.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "agachado",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "sargento",
+            "x": -0.35,
+            "accion": "hablar",
+            "emocion": "enfado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 12,
+        "texto": "Lunes. Nos leen una orden del general Smit Dórien: prohibido cualquier trato amistoso con el enemigo. Y el papa Benedicto quince ha pedido una tregua para Navidad, pero ningún gobierno la acepta.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "amanecer",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "barricada",
+              "x": -0.95
+            },
+            {
+              "tipo": "valla",
+              "x": 1.2
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "sargento",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "📜",
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 13,
+        "corte": true,
+        "texto": "Martes. Llega el regalo de Navidad más famoso de la guerra: una caja de latón dorado con la cara de una princesa de diecisiete años.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "cajas",
+              "x": -1.15
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.1
+            },
+            {
+              "tipo": "🕯️",
+              "x": 1.0,
+              "escala": 0.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.3,
+            "accion": "sentado",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "objeto": "🎁"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 13,
+        "texto": "Es María, la hija del rey. Dentro hay tabaco, una pipa, pitillos y una tarjeta de Navidad. La tarjeta la guardo para Mégan.",
+        "drama": 0.5,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.3,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": -1,
+            "objeto": "✉️"
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "La caja de la princesa María",
+          "items": [
+            {
+              "icono": "🎁",
+              "nombre": "Caja de latón con su retrato"
+            },
+            {
+              "icono": "🚬",
+              "nombre": "Tabaco y 20 cigarrillos"
+            },
+            {
+              "icono": "✉️",
+              "nombre": "Tarjeta de Navidad"
+            },
+            {
+              "icono": "🖼️",
+              "nombre": "Foto de la princesa"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 14,
+        "texto": "Miércoles, veintitrés. Por fin deja de llover. Por la tarde el frío baja de golpe, y esa noche hiela: el barro se endurece bajo las botas como piedra.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "nieve",
+          "props": [
+            {
+              "tipo": "barricada",
+              "x": -1.0
+            },
+            {
+              "tipo": "valla",
+              "x": 1.25
+            },
+            {
+              "tipo": "arbol",
+              "x": -1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": -1
+          },
+          {
+            "quien": "ivor",
+            "x": -0.35,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 14,
+        "texto": "Mañana es Nochebuena. Nadie lo dice en voz alta, pero todos nos preguntamos lo mismo: ¿dispararán también esa noche los de enfrente?",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "miedo",
+            "mirar": -1
+          },
+          {
+            "quien": "ivor",
+            "x": -0.35,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 15,
+        "capitulo": "Noche de paz",
+        "corte": true,
+        "texto": "Jueves, veinticuatro de diciembre. Nochebuena. Cielo limpio y helada blanca. Al anochecer, en el parapeto alemán, empiezan a encenderse luces, una detrás de otra.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barricada",
+              "x": -0.95
+            },
+            {
+              "tipo": "pino",
+              "x": -0.55,
+              "escala": 0.3,
+              "detras": true
+            },
+            {
+              "tipo": "pino",
+              "x": 0.15,
+              "escala": 0.28,
+              "detras": true
+            },
+            {
+              "tipo": "pino",
+              "x": 0.85,
+              "escala": 0.3,
+              "detras": true
+            },
+            {
+              "tipo": "🕯️",
+              "x": -0.2,
+              "escala": 0.22,
+              "detras": true
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.5,
+              "escala": 0.22,
+              "detras": true
+            },
+            {
+              "tipo": "valla",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.5,
+            "accion": "agachado",
+            "emocion": "sorpresa",
+            "mirar": -1
+          },
+          {
+            "quien": "ivor",
+            "x": -0.05,
+            "accion": "agachado",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 15,
+        "texto": "Son arbolitos de Navidad con velas, puestos encima de los sacos. Ívor levanta el fusil. El sargento le baja el cañón con la mano, sin decir nada.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.5,
+            "accion": "agachado",
+            "emocion": "miedo",
+            "mirar": -1
+          },
+          {
+            "quien": "ivor",
+            "x": -0.05,
+            "accion": "quieto",
+            "emocion": "enfado",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "sargento",
+            "x": -0.6,
+            "accion": "senalar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 15,
+        "texto": "Entonces, desde la trinchera de los sajones, alguien grita en inglés: no disparéis, hoy no queremos pelear, mañana os mandaremos cerveza.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.45,
+            "accion": "agachado",
+            "emocion": "sorpresa",
+            "mirar": -1
+          },
+          {
+            "quien": "ivor",
+            "x": -0.1,
+            "accion": "agachado",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "No disparéis. Hoy no queremos pelear. Os mandaremos cerveza.",
+          "firma": "Sajones frente al 2.º Royal Welch Fusiliers, Nochebuena de 1914 (según el relato del batallón)"
+        }
+      },
+      {
+        "dia": 15,
+        "texto": "Y después, en la oscuridad, empiezan a cantar Noche de paz, en alemán, con voces graves que cruzan la tierra de nadie despacio, como la niebla.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.45,
+            "accion": "agachado",
+            "emocion": "sorpresa",
+            "mirar": -1
+          }
+        ],
+        "camara": "subir"
+      },
+      {
+        "dia": 15,
+        "corte": true,
+        "texto": "Esa misma noche, unos mineros galeses le contestamos al enemigo de la única forma que sabemos: cantando a pleno pulmón.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "ivor",
+            "x": -0.3,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 15,
+        "texto": "Ívor arranca con un himno de capilla y yo hago el bajo, como los domingos en casa. Al terminar, desde el otro lado, llegan aplausos.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1
+          },
+          {
+            "quien": "ivor",
+            "x": -0.3,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 15,
+        "texto": "Nadie dispara en toda la noche. Me quedo en el parapeto hasta el alba, mirando las velas, y por primera vez en un mes no tengo miedo.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.45,
+            "accion": "agachado",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 16,
+        "texto": "Viernes, veinticinco. Día de Navidad. Todo está blanco de escarcha. Frank Ríchards y otros compañeros clavan en el parapeto un tablón con dos palabras pintadas.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barricada",
+              "x": -0.95
+            },
+            {
+              "tipo": "valla",
+              "x": 1.25
+            },
+            {
+              "tipo": "arbol",
+              "x": -1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1
+          },
+          {
+            "quien": "richards",
+            "x": -0.35,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "🪧",
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "A MERRY CHRISTMAS",
+          "firma": "Tablón de los fusileros galeses, 25 de diciembre de 1914 (según Frank Richards)"
+        }
+      },
+      {
+        "dia": 16,
+        "corte": true,
+        "texto": "De día, salir de la trinchera es morir. Esa mañana, los sajones ponen su propio tablón, un hombre sale con las manos vacías, y nadie dispara.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "valla",
+              "x": -1.25
+            },
+            {
+              "tipo": "valla",
+              "x": 1.25
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.5,
+            "accion": "agachado",
+            "emocion": "miedo",
+            "mirar": -1
+          },
+          {
+            "quien": "otto",
+            "x": -0.45,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "entra": "izq"
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 16,
+        "texto": "Salen más. Salimos nosotros. Nos encontramos en medio de la tierra de nadie y nos damos la mano, sin saber muy bien qué decirnos.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.3,
+            "accion": "saludar",
+            "emocion": "sorpresa",
+            "mirar": -1
+          },
+          {
+            "quien": "otto",
+            "x": -0.3,
+            "accion": "saludar",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "sajon",
+            "x": -0.75,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "ivor",
+            "x": 0.75,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 16,
+        "texto": "Cambiamos tabaco por puros y chocolate por botones. Un sajón con gafas, que fue camarero en Londres, me pregunta mi nombre y lo apunta.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.3,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "objeto": "🍫"
+          },
+          {
+            "quien": "otto",
+            "x": -0.3,
+            "accion": "escribir",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "sajon",
+            "x": -0.75,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "ivor",
+            "x": 0.75,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 16,
+        "texto": "Se llama Otto. Le enseño la tarjeta de la princesa, y él saca de la cartera una foto: tres niños en fila, muy serios, con el pelo recién peinado.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.3,
+            "accion": "cargar",
+            "emocion": "triste",
+            "mirar": -1,
+            "objeto": "✉️"
+          },
+          {
+            "quien": "otto",
+            "x": -0.3,
+            "accion": "cargar",
+            "emocion": "triste",
+            "mirar": 1,
+            "objeto": "🖼️",
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 16,
+        "corte": true,
+        "texto": "Dos barriles de cerveza por un pudin de Navidad: el trueque más raro de la guerra. Los sajones los traen rodando desde la cervecería del pueblo.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "valla",
+              "x": -1.3
+            },
+            {
+              "tipo": "barril",
+              "x": -0.1
+            },
+            {
+              "tipo": "barril",
+              "x": 0.08
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.5,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1
+          },
+          {
+            "quien": "sajon",
+            "x": -0.45,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "2 × 1",
+          "etiqueta": "dos barriles de cerveza alemana a cambio de un pudin de Navidad",
+          "icono": "🍺"
+        }
+      },
+      {
+        "dia": 16,
+        "texto": "Nuestro capitán, Stócuel, no quiere aceptarlos sin dar nada a cambio: manda traer uno de nuestros pudines y se lo regala, muy formal, a un capitán alemán, un tal fon Síner.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.7,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1
+          },
+          {
+            "quien": "stockwell",
+            "x": 0.2,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "objeto": "🎁",
+            "habla": false
+          },
+          {
+            "quien": "vonsinner",
+            "x": -0.4,
+            "accion": "saludar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 16,
+        "texto": "En muchos tramos del frente, ese día, los dos bandos entierran juntos a los muertos de la tierra de nadie. Nadie habla. Solo se oyen las palas.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "nieve",
+          "props": [
+            {
+              "tipo": "tumba",
+              "x": -0.95
+            },
+            {
+              "tipo": "tumba",
+              "x": -1.3
+            },
+            {
+              "tipo": "tumba",
+              "x": 1.1
+            },
+            {
+              "tipo": "tumba",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1
+          },
+          {
+            "quien": "otto",
+            "x": -0.4,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 16,
+        "texto": "Más al sur, cerca de Flerbé, un capellán escocés lee el mismo salmo en inglés y en alemán: el Señor es mi pastor.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1
+          },
+          {
+            "quien": "otto",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "El Señor es mi pastor, nada me falta.",
+          "firma": "Salmo 23, leído en inglés y en alemán cerca de Fleurbaix, Navidad de 1914"
+        }
+      },
+      {
+        "dia": 17,
+        "corte": true,
+        "texto": "Sábado, veintiséis, ocho y media de la mañana. El capitán Stócuel dispara tres tiros al aire y levanta una bandera que dice Feliz Navidad.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barricada",
+              "x": -1.0
+            },
+            {
+              "tipo": "valla",
+              "x": 1.3
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.45,
+            "accion": "agachado",
+            "emocion": "miedo",
+            "mirar": -1
+          },
+          {
+            "quien": "stockwell",
+            "x": -0.3,
+            "accion": "senalar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 17,
+        "texto": "El capitán alemán sube a su parapeto con una sábana en la que pone Gracias. Se saludan. Él dispara dos tiros al aire y baja a su trinchera.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.45,
+            "accion": "agachado",
+            "emocion": "triste",
+            "mirar": -1
+          },
+          {
+            "quien": "stockwell",
+            "x": -0.1,
+            "accion": "saludar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "vonsinner",
+            "x": -0.75,
+            "accion": "saludar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 17,
+        "texto": "Mi capitán lo apuntó así en su diario: la guerra volvía a empezar. Aun así, ese día casi nadie dispara a dar.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "agachado",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 18,
+        "texto": "Domingo. Trabajamos en el parapeto a la vista de los sajones, y ellos en el suyo. Nadie apunta. Ninguno quiere ser el primero en romper la calma.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "barricada",
+              "x": -1.0
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.2
+            },
+            {
+              "tipo": "valla",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "ivor",
+            "x": -0.35,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 19,
+        "corte": true,
+        "texto": "¿Hubo de verdad un partido de fútbol entre trincheras? El lunes corre el rumor de que se jugó más al norte. En mi compañía nadie lo vio.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "ivor",
+            "x": -0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 19,
+        "texto": "Hay cartas que hablan de pelotear en tierra de nadie, sin equipos ni reglas. Lo del famoso tres a dos lo contó un teniente sajón medio siglo después.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "estufa",
+              "x": -1.15
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": -1,
+            "objeto": "🗞️"
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1968",
+          "etiqueta": "año en que un teniente sajón contó el famoso «3 a 2». Ningún diario de guerra lo confirma",
+          "icono": "📜"
+        }
+      },
+      {
+        "dia": 20,
+        "texto": "Martes. Relevo a Uplín. Le escribo a Mégan todo lo que ha pasado, aunque no sé si el oficial que lee las cartas lo dejará pasar.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "escribir",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 22,
+        "capitulo": "La guerra vuelve a empezar",
+        "texto": "Jueves, treinta y uno. Nochevieja en primera línea. A las once se oyen gritos al otro lado: para ellos, con la hora de Berlín, ya es medianoche.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "noche",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "barricada",
+              "x": -1.0
+            },
+            {
+              "tipo": "valla",
+              "x": 1.3
+            },
+            {
+              "tipo": "arbol",
+              "x": -1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "agachado",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "ivor",
+            "x": -0.3,
+            "accion": "agachado",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 24,
+        "corte": true,
+        "texto": "Dos semanas después de Navidad llega la orden: el oficial o sargento que empiece otra tregua irá a consejo de guerra.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "amanecer",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "barricada",
+              "x": -0.95
+            },
+            {
+              "tipo": "valla",
+              "x": 1.2
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1
+          },
+          {
+            "quien": "sargento",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "📜",
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 25,
+        "texto": "Domingo, tres de enero. Vuelven los disparos de verdad. El francotirador de enfrente hiere en el hombro a un muchacho de mi pelotón.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "lluvia",
+          "props": [
+            {
+              "tipo": "barricada",
+              "x": -1.0
+            },
+            {
+              "tipo": "charco",
+              "x": -0.1
+            },
+            {
+              "tipo": "charco",
+              "x": 0.6
+            },
+            {
+              "tipo": "valla",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "agachado",
+            "emocion": "miedo",
+            "mirar": -1
+          },
+          {
+            "quien": "ivor",
+            "x": -0.3,
+            "accion": "agachado",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 26,
+        "texto": "Lunes. En un tramo el agua llega a la cintura. Nos untamos los pies con aceite de ballena, pero a Ívor se lo llevan con los pies hinchados.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1
+          },
+          {
+            "quien": "ivor",
+            "x": -0.35,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "+20.000",
+          "etiqueta": "casos de pie de trinchera en el ejército británico en el invierno de 1914-1915",
+          "icono": "🧦"
+        }
+      },
+      {
+        "dia": 28,
+        "texto": "Ahora canto solo, y muy bajito. El día de Reyes llega carta de Mégan con un mechón del pelo de la niña. Lo guardo en la caja de latón.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "roca",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.1
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.2
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.95,
+              "escala": 0.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.3,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": -1,
+            "objeto": "✉️"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 29,
+        "corte": true,
+        "texto": "A cien metros hay un hombre que me enseñó la foto de sus hijos. Desde el parapeto veo el humo de sus cocinas e imagino a Otto ahí detrás.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "barricada",
+              "x": -1.0
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.2
+            },
+            {
+              "tipo": "valla",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "pensar",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 30,
+        "texto": "Viernes, ocho de enero. Formación del alba, el ron, el parapeto. Nos prometieron que esto acabaría para Navidad. Ni para esta, ni seguramente para la siguiente.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "amanecer",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "barricada",
+              "x": -0.95
+            },
+            {
+              "tipo": "valla",
+              "x": 1.2
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Nunca volvió a pasar nada igual. Al año siguiente las treguas estaban prohibidas, y hubo pocas, pequeñas y castigadas. En abril, el gas llegó a Ypres.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "nieve",
+          "props": [
+            {
+              "tipo": "tumba",
+              "x": -0.95
+            },
+            {
+              "tipo": "tumba",
+              "x": -1.3
+            },
+            {
+              "tipo": "tumba",
+              "x": 1.1
+            },
+            {
+              "tipo": "tumba",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Frank Ríchards sirvió toda la guerra como soldado raso y la contó en un libro. En dos mil ocho, Frelangán levantó un monumento a la tregua.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.25
+            },
+            {
+              "tipo": "casa",
+              "x": 1.3
+            },
+            {
+              "tipo": "maquina",
+              "x": -1.5,
+              "escala": 0.7,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "2008",
+          "etiqueta": "monumento a la tregua de Navidad en Frelinghien",
+          "icono": "🕊️"
+        }
+      },
+      {
+        "corte": true,
+        "texto": "En dos mil catorce, cien años después, los nietos de Stócuel y de fon Síner se encontraron allí y se dieron la mano.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Yo conocí a Güen en mi primer permiso, en el verano de mil novecientos quince. Tenía ocho meses. Me miró muy seria, y no lloró.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "chimenea",
+              "x": -1.15
+            },
+            {
+              "tipo": "cama",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "megan",
+            "x": -0.3,
+            "accion": "cargar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "objeto": "👶",
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Pero Tom Élis, Mégan, Güen, Ívor y Otto nunca existieron: son inventados. El batallón, Frelangán, Stócuel, fon Síner, Ríchards, los barriles, el pudin y los tiros al aire son reales.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barricada",
+              "x": -0.95
+            },
+            {
+              "tipo": "valla",
+              "x": 1.25
+            },
+            {
+              "tipo": "arbol",
+              "x": -1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Y tú, ¿le habrías dado la mano al hombre de enfrente? Cuéntamelo en los comentarios, y suscríbete para vivir el próximo mes en la piel de otra persona.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "saludar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "general"
+      }
+    ]
+  },
+  "publicacion": {
+    "tituloLargo": "Un mes en la vida de UN SOLDADO EN LA TREGUA DE NAVIDAD | Flandes, 1914",
+    "tituloCorto": "La tregua de Navidad",
+    "descripcion": "Treinta días en la vida de Tom Ellis, minero galés y soldado raso del 2.º Batallón de los Royal Welch Fusiliers, en las trincheras inundadas de Frelinghien y Houplines, junto a Armentières (Flandes francesa), del 10 de diciembre de 1914 al 8 de enero de 1915: el agua hasta la rodilla, el chelín al día, la caja de la princesa María y la tregua de Navidad, cuando los sajones de enfrente encendieron velas en su parapeto, cantaron «Stille Nacht» y cambiaron dos barriles de cerveza por un pudin. Sin escenas gráficas.\n\n— Semana 1: El agua sube\n— Semana 2: Los del otro lado\n— Semana 3: Noche de paz\n— Semana 4: La guerra vuelve a empezar\n— Epílogo: las treguas prohibidas, el gas en Ypres (abril de 1915), Frank Richards, el monumento de Frelinghien (2008) y los nietos de Stockwell y von Sinner (2014)\n\nQué es inventado y qué es real: Tom Ellis, su mujer Megan, su hija Gwen, su compañero Ivor, el sargento y el soldado sajón Otto son INVENTADOS, igual que lo que piensan y viven. Son reales el 2.º Batallón de los Royal Welch Fusiliers en Frelinghien, la inundación del Lys, la orden de Smith-Dorrien, el llamamiento del papa Benedicto XV, el bombardeo de Scarborough, Hartlepool y Whitby, la caja de la princesa María, las velas y los cantos de Nochebuena, el tablón «A MERRY CHRISTMAS» de Frank Richards, los dos barriles de cerveza y el pudin del capitán Clifton Inglis Stockwell, el capitán von Sinner, los tres tiros al aire del 26 de diciembre, el salmo leído en dos idiomas cerca de Fleurbaix y la orden de consejo de guerra de enero de 1915. Las personas reales aparecen solo con hechos documentados. Sobre el fútbol: hay cartas que hablan de pelotear en tierra de nadie, pero el famoso «3 a 2» procede de un relato de 1968 que ningún diario de guerra confirma.\n\nFuentes: Jonathon Riley, «The Royal Welch Fusiliers and the Great Christmas Truce, 1914», Transactions of the Honourable Society of Cymmrodorion 22 (2016); Frank Richards, Old Soldiers Never Die (1933); J. C. Dunn, The War the Infantry Knew (1938); Royal Welch Fusiliers Museum (diario de C. I. Stockwell); Commonwealth War Graves Commission; Imperial War Museums; National Army Museum; The National Archives (Reino Unido); Western Front Association; The Long, Long Trail; Encyclopaedia Britannica; The Gazette; English Heritage (bombardeo de Scarborough); Hansard (subsidios de separación, 1914); Iain Adams, «A Game for Christmas?», International Journal of the History of Sport (2015); Football and the First World War.",
+    "etiquetas": [
+      "un mes en la vida de",
+      "tregua de Navidad",
+      "1914",
+      "Primera Guerra Mundial",
+      "Gran Guerra",
+      "trincheras",
+      "Royal Welch Fusiliers",
+      "Frelinghien",
+      "Noche de paz",
+      "Christmas truce",
+      "historia",
+      "animación"
+    ],
+    "miniatura": {
+      "texto": "PAZ PROHIBIDA",
+      "escena": 0,
+      "quien": "tom",
+      "emocion": "sorpresa",
+      "icono": "🕯️"
+    },
+    "shorts": [
+      {
+        "titulo": "Le di la mano al hombre que intentaba matarme",
+        "descripcion": "Navidad de 1914, Flandes: un minero galés en las trincheras. #shorts #historia #1914"
+      },
+      {
+        "titulo": "Un chelín al día por vivir en agua helada",
+        "descripcion": "Frelinghien, diciembre de 1914: la primera línea británica frente a los sajones. #shorts #primeraguerramundial"
+      },
+      {
+        "titulo": "Cantar en galés para no tener miedo",
+        "descripcion": "Himnos, piojos y una hija de seis semanas a la que no conozco. Y al otro lado, alguien tose. #shorts #historia"
+      },
+      {
+        "titulo": "137 muertos en la costa inglesa",
+        "descripcion": "El bombardeo de Scarborough, Hartlepool y Whitby y los muertos de tierra de nadie. #shorts #1914"
+      },
+      {
+        "titulo": "El enemigo nos gritaba en inglés",
+        "descripcion": "A cien metros, sajones que bromean… y una orden que prohíbe contestar. #shorts #primeraguerramundial"
+      },
+      {
+        "titulo": "El regalo de una princesa de 17 años",
+        "descripcion": "La caja de latón de la princesa María, Navidad de 1914. #shorts #historia"
+      },
+      {
+        "titulo": "Velas en la trinchera enemiga",
+        "descripcion": "Nochebuena de 1914: «No disparéis. Hoy no queremos pelear». #shorts #treguadenavidad"
+      },
+      {
+        "titulo": "Mineros galeses contra «Noche de paz»",
+        "descripcion": "La noche en que nadie disparó y el tablón de A MERRY CHRISTMAS. #shorts #treguadenavidad"
+      },
+      {
+        "titulo": "Salir de la trinchera era morir. Salimos.",
+        "descripcion": "Navidad de 1914: el encuentro en la tierra de nadie. #shorts #treguadenavidad"
+      },
+      {
+        "titulo": "Dos barriles de cerveza por un pudin",
+        "descripcion": "El trueque de Frelinghien y los muertos enterrados entre enemigos. #shorts #historia"
+      },
+      {
+        "titulo": "Tres tiros al aire y la guerra volvió",
+        "descripcion": "26 de diciembre de 1914, 8:30: el capitán Stockwell y el capitán von Sinner. #shorts #treguadenavidad"
+      },
+      {
+        "titulo": "¿Hubo partido de fútbol en la tregua?",
+        "descripcion": "Lo que se sabe del fútbol de la Navidad de 1914… y lo que no. #shorts #futbol #historia"
+      },
+      {
+        "titulo": "Quien repita la tregua, consejo de guerra",
+        "descripcion": "Enero de 1915: vuelven los disparos y el pie de trinchera. #shorts #primeraguerramundial"
+      },
+      {
+        "titulo": "No acabó para Navidad",
+        "descripcion": "El final del mes y lo que vino después: el gas, el libro de Richards y el monumento de Frelinghien. #shorts #historia"
+      },
+      {
+        "titulo": "¿Qué es real en esta historia?",
+        "descripcion": "Tom Ellis es inventado. La tregua de Frelinghien, no. #shorts #treguadenavidad"
+      }
+    ]
+  },
+  "grafias": {
+    "Élis": "Ellis",
+    "Mégan": "Megan",
+    "Güen": "Gwen",
+    "Récsam": "Wrexham",
+    "Frelangán": "Frelinghien",
+    "Uplín": "Houplines",
+    "Armantiér": "Armentières",
+    "Ívor": "Ivor",
+    "Stócuel": "Stockwell",
+    "fon": "von",
+    "Síner": "Sinner",
+    "Ríchards": "Richards",
+    "Smit": "Smith",
+    "Dórien": "Dorrien",
+    "Flerbé": "Fleurbaix"
+  }
+}
