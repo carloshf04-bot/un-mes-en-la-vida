@@ -14,7 +14,7 @@ Por qué funciona cada idea: tiene **un mes concreto con un acontecimiento dram�
 | [ ] | `coliseo-80` | un gladiador | Roma, año 80 | Los 100 días de juegos de la inauguración del Coliseo. |
 | [ ] | `londres-1666` | un panadero de Pudding Lane | Londres, septiembre de 1666 | El Gran Incendio empezó en una panadería. |
 | [x] | `tenochtitlan-1519` | un niño de Tenochtitlan | Noviembre de 1519 | El 8 de noviembre entra Cortés en la ciudad. |
-| [ ] | `trinchera-1914` | un soldado en las trincheras | Flandes, diciembre de 1914 | La tregua de Navidad y el partido de fútbol. |
+| [~] | `trinchera-1914` | un soldado en las trincheras | Flandes, diciembre de 1914 | La tregua de Navidad y el partido de fútbol. |
 | [ ] | `peste-1348` | una niña en la Peste Negra | Florencia, primavera de 1348 | Murió más de la mitad de la ciudad. |
 | [ ] | `lindisfarne-793` | un monje de Lindisfarne | Inglaterra, junio de 793 | El primer gran ataque vikingo. |
 | [ ] | `berlin-1989` | una adolescente de Berlín Este | Noviembre de 1989 | La caída del Muro (9 de noviembre). |
@@ -67,7 +67,7 @@ Por qué funciona cada idea: tiene **un mes concreto con un acontecimiento dram�
 | [x] | `carter-1922` | Howard Carter | Noviembre de 1922 | El 4 de noviembre aparece el primer escalón de la tumba de Tutankamón. **Efeméride de noviembre.** |
 | [x] | `gein-1957` | Ed Gein, el carnicero de Plainfield | Noviembre de 1957 | Detenido el 16 de noviembre. Tendencia por la serie de Netflix (2025). **Efeméride de noviembre.** |
 | [ ] | `newton-1666` | Isaac Newton | 1666 | Encerrado por la peste, inventa medio mundo moderno. |
-| [ ] | `curie-1898` | Marie Curie | Diciembre de 1898 | El descubrimiento del radio en un cobertizo. |
+| [~] | `curie-1898` | Marie Curie | Diciembre de 1898 | El descubrimiento del radio en un cobertizo. |
 | [ ] | `colon-1492` | Cristóbal Colón | Octubre de 1492 | La tripulación al borde del motín. |
 | [ ] | `juana-arco-1429` | Juana de Arco | Mayo de 1429 | Orleans, con 17 años. |
 | [x] | `shackleton-1915` | Ernest Shackleton | Noviembre de 1915 | El hielo hunde el Endurance (21 de noviembre). **Efeméride de noviembre.** |
@@ -85,3 +85,13 @@ Por qué funciona cada idea: tiene **un mes concreto con un acontecimiento dram�
 | [x] | `abidos-1270ac` | Miércoles · mitos | un sacerdote de Osiris | Abidos, mes de Joiak, c. 1270 a.C. | Los misterios de Osiris y el juicio del corazón. |
 | [x] | `darwin-1859` | Jueves · personajes | Charles Darwin | Octubre–noviembre de 1859 | 24 de noviembre: sale *El origen de las especies* y se agota. **Efeméride.** |
 | [x] | `armero-1985` | Viernes · catástrofes | un socorrista en Armero | Colombia, noviembre de 1985 | 13 de noviembre: el lahar del Nevado del Ruiz. **Efeméride.** |
+
+## Semana del 23 de noviembre de 2026 (calendario semanal)
+
+| Estado | Slug | Día | Un mes en la vida de… | Mes | Gancho |
+|---|---|---|---|---|---|
+| [~] | `mary-celeste-1872` | Lunes · misterios | un marinero del Dei Gratia | Atlántico, noviembre–diciembre de 1872 | 4 de diciembre: encuentran el Mary Celeste navegando sin nadie a bordo. **Efeméride.** |
+| [~] | `trinchera-1914` | Martes · guerra | un soldado en las trincheras | Flandes, diciembre de 1914 | La tregua de Navidad y el partido de fútbol. **Efeméride.** |
+| [~] | `saturnales-50` | Miércoles · mitos | un esclavo en las Saturnales | Roma, diciembre del año 50 | Durante una semana los amos sirven a los esclavos. El origen de muchas costumbres navideñas. |
+| [~] | `curie-1898` | Jueves · personajes | Marie Curie | París, diciembre de 1898 | 26 de diciembre: anuncian el radio, sacado de toneladas de pecblenda en un cobertizo. **Efeméride.** |
+| [~] | `halifax-1917` | Viernes · catástrofes | un aprendiz del puerto de Halifax | Canadá, diciembre de 1917 | 6 de diciembre: la mayor explosión antes de la bomba atómica. **Efeméride.** |
