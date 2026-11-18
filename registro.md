@@ -12,3 +12,4 @@
 | 2026-11-11 | zombis-2031 | futuro | 10,3 min | 12 shorts troceados | Ficción con ciencia real (rabia). Primer episodio con shorts sacados del largo. Espectador 8/10 |
 | 2026-11-18 | armero-1985 | catástrofe | 10,5 min | 12 shorts troceados | Viernes. Efeméride del 13 de noviembre. Protagonista inventado; Omayra fuera de cuadro. Decorados nuevos lodo y barrizal. Espectador 8/10 (3.ª vuelta) |
 | 2026-11-18 | armisticio-1918 | guerra | 10,7 min | 12 shorts troceados | Martes. Efeméride del 11 de noviembre. Protagonista inventado; Trébuchon, Price y Gunther reales. Pose nueva agachado y niebla densa. Espectador 8/10 (3.ª vuelta) |
+| 2026-11-18 | darwin-1859 | persona | 10,6 min | 12 shorts troceados | Jueves. Efeméride del 24 de noviembre (El origen de las especies). Persona real; pensamientos marcados como imaginados. Peinado coronilla y barba patillas nuevos. Espectador 8/10 (3.ª vuelta) |
