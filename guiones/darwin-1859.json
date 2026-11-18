@@ -562,9 +562,10 @@
           {
             "quien": "darwin",
             "x": 0.25,
-            "accion": "asustado",
+            "accion": "cargar",
             "emocion": "miedo",
-            "mirar": -1
+            "mirar": -1,
+            "objeto": "🪞"
           }
         ],
         "camara": "cerca"
@@ -716,7 +717,7 @@
         "fondo": {
           "lugar": "calle",
           "hora": "dia",
-          "clima": "niebla",
+          "clima": "despejado",
           "props": [
             {
               "tipo": "casa",
@@ -920,6 +921,14 @@
             "emocion": "feliz",
             "mirar": -1,
             "habla": false
+          },
+          {
+            "quien": "hijo",
+            "x": 1.25,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
           }
         ],
         "camara": "general"
@@ -1100,8 +1109,7 @@
             "emocion": "neutral",
             "mirar": -1
           }
-        ],
-        "camara": "cerca"
+        ]
       },
       {
         "dia": 17,
@@ -1275,8 +1283,7 @@
             "emocion": "miedo",
             "mirar": -1
           }
-        ],
-        "camara": "cerca"
+        ]
       },
       {
         "dia": 19,
@@ -1292,7 +1299,13 @@
             "mirar": -1
           }
         ],
-        "camara": "cerca"
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Dios sabe lo que pensará el público.",
+          "firma": "Carta a Alfred R. Wallace, 13 de noviembre de 1859",
+          "icono": "🌏"
+        }
       },
       {
         "dia": 19,
@@ -1339,13 +1352,7 @@
             "objeto": "✉️"
           }
         ],
-        "camara": "paneo",
-        "insercion": {
-          "tipo": "cita",
-          "frase": "Dios sabe lo que pensará el público.",
-          "firma": "Carta a Alfred R. Wallace, 13 de noviembre de 1859",
-          "icono": "🌏"
-        }
+        "camara": "paneo"
       },
       {
         "dia": 20,
@@ -1601,7 +1608,7 @@
         "fondo": {
           "lugar": "calle",
           "hora": "dia",
-          "clima": "niebla",
+          "clima": "despejado",
           "props": [
             {
               "tipo": "casa",
@@ -1762,7 +1769,7 @@
         "fondo": {
           "lugar": "calle",
           "hora": "atardecer",
-          "clima": "niebla",
+          "clima": "despejado",
           "props": [
             {
               "tipo": "casa",
