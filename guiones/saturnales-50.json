@@ -275,7 +275,7 @@
  "largo": {
   "escenas": [
    {
-    "texto": "Dentro de dieciséis días, mi amo me servirá la cena. Yo estaré tumbado en su lecho y él me traerá el vino. Esa noche le pediré lo único que en Roma no se regala.",
+    "texto": "Dentro de dieciséis días, mi amo me servirá la cena. Yo estaré tumbado en su lecho y él me traerá el vino. Pocos días después le pediré lo único que en Roma no se regala.",
     "drama": 0.8,
     "fondo": {
      "lugar": "interior",
@@ -419,7 +419,7 @@
    },
    {
     "dia": 1,
-    "texto": "Unas veinticinco personas trabajan en esta casa sin cobrar un sueldo. Yo soy una de ellas. El amo es Tito Vétio Prisco, caballero romano, con esposa y un hijo de doce años.",
+    "texto": "Unos veinticinco esclavos trabajan en esta casa sin cobrar un sueldo. Yo soy uno de ellos. El amo es Tito Vétio Prisco, caballero romano, con esposa y un hijo de doce años.",
     "drama": 0.55,
     "fondo": {
      "lugar": "interior",
@@ -485,7 +485,7 @@
    },
    {
     "dia": 1,
-    "texto": "En la entrada vive Filero, el portero, un viejo atado a su puesto con una cadena, como en algunas casas antiguas. Dice que ya ni la nota. Yo sí la oigo.",
+    "texto": "En la entrada vive Filero, el portero, un viejo atado a su puesto con una cadena, como en algunas casas antiguas. Él jura que ya ni la nota. Yo sí la oigo.",
     "drama": 0.7,
     "fondo": {
      "lugar": "interior",
@@ -529,7 +529,7 @@
    },
    {
     "dia": 2,
-    "texto": "Al amanecer llegan veinte clientes a saludar al amo. Yo sirvo el vino aguado y escucho lo que cuentan del palacio.",
+    "texto": "Al amanecer llegan veinte clientes a saludar al amo. Yo sirvo el vino aguado y escucho lo que cuentan de la corte.",
     "drama": 0.6,
     "fondo": {
      "lugar": "interior",
@@ -586,7 +586,7 @@
    },
    {
     "dia": 2,
-    "texto": "Las Saturnales vuelven a tener cinco días oficiales: el emperador Claudio le devolvió a la fiesta el día que le habían quitado. En la casa, nadie habla de otra cosa.",
+    "texto": "Hace unos años, el emperador Claudio le devolvió a las Saturnales el quinto día que les habían quitado. En la casa ya se cuentan los días.",
     "drama": 0.65,
     "personajes": [
      {
@@ -668,7 +668,7 @@
    },
    {
     "dia": 5,
-    "texto": "Día cinco, las nonas. Me mandan al Foro con un recado. Allí, al pie del Capitolio, está el templo de Saturno, que guarda el tesoro de Roma.",
+    "texto": "Día cinco, las nonas. Me mandan al Foro con un recado. Allí, al pie del Capitolio, está el templo de Saturno, que guarda el tesoro del Estado.",
     "drama": 0.6,
     "fondo": {
      "lugar": "calle",
@@ -731,7 +731,7 @@
    },
    {
     "dia": 6,
-    "texto": "Tengo un tesoro escondido en un tarro, en mi cuartito sin ventana: trescientos denarios, ahorrados en años de propinas y recados. Es mi pecúlio.",
+    "texto": "Tengo un tesoro escondido en un tarro, en el cuartito de mi madre: trescientos denarios, ahorrados en años de propinas y recados. Es mi pecúlio.",
     "drama": 0.55,
     "fondo": {
      "lugar": "interior",
@@ -805,7 +805,7 @@
    },
    {
     "dia": 7,
-    "texto": "Esta mañana, Filero no se levanta. Arde de fiebre y tose sin parar. El amo lo mira desde la puerta y echa cuentas en voz baja.",
+    "texto": "Esta mañana, Filero no se levanta. Arde de fiebre y tose sin parar. El amo lo mira desde la puerta y echa cuentas por lo bajo.",
     "drama": 0.75,
     "fondo": {
      "lugar": "interior",
@@ -881,12 +881,12 @@
    },
    {
     "dia": 7,
-    "texto": "Pero una ley reciente de Claudio dice que, si el esclavo abandonado se cura, queda libre, y su amo lo pierde.",
+    "texto": "Pero una ley nueva de Claudio manda que, si el esclavo abandonado se cura, queda libre, y su amo lo pierde.",
     "drama": 0.7,
     "insercion": {
      "tipo": "cita",
-     "frase": "Los esclavos abandonados en la isla de Esculapio que se curen serán libres y no volverán al poder de su amo.",
-     "firma": "Edicto de Claudio, según Suetonio (Claudio, 25)"
+     "frase": "Decretó que todos los esclavos abandonados quedaran libres y que, si se curaban, no volvieran al poder de su amo.",
+     "firma": "Suetonio, Vida de Claudio 25 (traducción libre)"
     }
    },
    {
@@ -998,7 +998,7 @@
    },
    {
     "dia": 8,
-    "texto": "Un invitado habla de Narciso y Palante, los secretarios del emperador. Los dos fueron esclavos, y hoy están entre los hombres más ricos de Roma.",
+    "texto": "Un invitado habla de Narciso y Palante, los secretarios del emperador. Los dos fueron esclavos, y hoy están entre los hombres más ricos del imperio.",
     "drama": 0.7,
     "personajes": [
      {
@@ -1031,14 +1031,14 @@
    },
    {
     "dia": 8,
-    "texto": "A Palante le atribuyen trescientos millones de sestercios. Al recoger los platos, me tiembla la mano: si ellos pudieron, a lo mejor yo también.",
+    "texto": "Dicen que Palante va camino de los trescientos millones de sestercios. Al recoger los platos, me tiembla la mano: si ellos pudieron, a lo mejor yo también.",
     "drama": 0.75,
     "personajes": [
      {
       "quien": "eutiquio",
       "x": 0.45,
       "accion": "pensar",
-      "emocion": "miedo",
+      "emocion": "sorpresa",
       "mirar": -1,
       "habla": false
      },
@@ -1055,7 +1055,7 @@
     "insercion": {
      "tipo": "dato",
      "valor": "300 millones",
-     "etiqueta": "de sestercios: la fortuna que Tácito atribuye a Palante, un antiguo esclavo",
+     "etiqueta": "de sestercios: la fortuna de Palante, un antiguo esclavo, según Tácito (Anales XII, 53, año 52)",
      "icono": "🪙"
     },
     "corte": true
@@ -1268,8 +1268,8 @@
     "camara": "lenta",
     "insercion": {
      "tipo": "cita",
-     "frase": "Esta vela te dará luz por la noche.",
-     "firma": "Marcial, dístico para regalar una vela en las Saturnales (libro XIV)"
+     "frase": "Esta vela te dará luz por las noches: a tu esclavo le han quitado la lámpara.",
+     "firma": "Marcial, Epigramas XIV, 42, «La vela» (hacia el año 85; traducción libre)"
     }
    },
    {
@@ -1297,7 +1297,7 @@
    },
    {
     "dia": 16,
-    "texto": "Es la víspera. Mi madre cose, a la luz de una lámpara, los píleos de fieltro: el gorro de los esclavos liberados. Mañana lo llevará toda Roma.",
+    "texto": "Es la víspera. Mi madre cose, a la luz de una lámpara, los píleos de fieltro: el gorro de los esclavos liberados. Mañana lo llevará todo el mundo.",
     "drama": 0.6,
     "fondo": {
      "lugar": "interior",
@@ -1342,7 +1342,7 @@
    },
    {
     "dia": 16,
-    "texto": "«Es prestado, hijo. No te acostumbres». Eso me dice mi madre cuando me pruebo el píleo y veo que me queda grande. Se ríe, pero con los ojos tristes.",
+    "texto": "«Es prestado, hijo. No te acostumbres». Eso me avisa mi madre cuando me pruebo el píleo y veo que me queda grande. Se ríe, pero con los ojos tristes.",
     "drama": 0.7,
     "personajes": [
      {
@@ -1367,8 +1367,8 @@
    },
    {
     "dia": 17,
-    "capitulo": "Ío, Saturnália",
-    "texto": "Al amanecer, en el templo de Saturno, los sacerdotes sacrifican a la griega, con la cabeza descubierta. Y le sueltan al dios las cintas de lana.",
+    "capitulo": "Io, Saturnalia",
+    "texto": "Al amanecer, en el templo de Saturno, los sacerdotes sacrifican a la griega, con la cabeza descubierta. Y le sueltan al dios las ataduras de lana.",
     "drama": 0.75,
     "fondo": {
      "lugar": "calle",
@@ -1584,13 +1584,22 @@
       "mirar": -1,
       "objeto": "🏺",
       "habla": false
+     },
+     {
+      "quien": "hijo_fiesta",
+      "x": 0.7,
+      "accion": "cargar",
+      "emocion": "sorpresa",
+      "mirar": -1,
+      "objeto": "🫒",
+      "habla": false
      }
     ],
     "camara": "cerca"
    },
    {
     "dia": 17,
-    "texto": "Pero hay algo que nadie dice. La cena la ha guisado Sósia, el cocinero, y los platos los fregaremos nosotros mañana. El mundo al revés tiene truco.",
+    "texto": "Pero hay algo que nadie cuenta. La comida la ha guisado Sósia, el cocinero, y los platos los fregaremos nosotros mañana. El mundo al revés tiene truco.",
     "drama": 0.7,
     "fondo": {
      "lugar": "interior",
@@ -1703,8 +1712,8 @@
     "camara": "general",
     "insercion": {
      "tipo": "cita",
-     "frase": "Que el rey de la fiesta mande: que uno cante, que otro baile, que otro cargue a cuestas a un compañero.",
-     "firma": "Luciano, Saturnales (siglo II), paráfrasis"
+     "frase": "Tú, bebe. Tú, mezcla el vino. Tú, canta. Tú, vete. Tú, ven.",
+     "firma": "Epicteto, Disertaciones I, 25: las órdenes del rey de las Saturnales"
     }
    },
    {
@@ -1838,7 +1847,7 @@
    },
    {
     "dia": 19,
-    "texto": "Un puñado de nueces puede valer más que el oro. Primigénio lo gana a los dados y lo esconde en la túnica. Por una vez, se ríe sin mirar antes hacia la puerta.",
+    "texto": "Un puñado de nueces puede valer más que el oro. Primigénio lo gana a los dados y lo esconde en la túnica. Por una vez, se ríe sin mirar antes a la puerta.",
     "drama": 0.55,
     "personajes": [
      {
@@ -1964,7 +1973,7 @@
    },
    {
     "dia": 21,
-    "texto": "Es el quinto día, el que devolvió Claudio. Cenamos todos juntos, amos y esclavos. Me pongo en pie, con el píleo puesto, y pido que callen.",
+    "texto": "Es el quinto día, el que devolvió Claudio. Comemos todos juntos, amos y esclavos. Me pongo en pie, con el píleo puesto, y pido que callen.",
     "drama": 0.8,
     "fondo": {
      "lugar": "interior",
@@ -2024,7 +2033,7 @@
    },
    {
     "dia": 21,
-    "texto": "Como rey de las Saturnales, ordeno a Tito Vétio Prisco que me dé la libertad. Lo digo así, en voz alta. Y el comedor entero se queda helado.",
+    "texto": "Como rey de las Saturnales, ordeno a Tito Vétio Prisco que me dé la libertad. Lo digo así, bien alto. Y el comedor entero se queda helado.",
     "drama": 0.9,
     "personajes": [
      {
@@ -2081,7 +2090,7 @@
    },
    {
     "dia": 22,
-    "texto": "De madrugada, el amo me llama a solas. Me dice que hablaremos cuando cumpla los treinta, como manda la ley. Ni un sí, ni un no.",
+    "texto": "De madrugada, el amo me llama a solas. Me explica que hablaremos cuando cumpla los treinta, como manda la ley. Ni un sí, ni un no.",
     "drama": 0.7,
     "fondo": {
      "lugar": "interior",
@@ -2160,7 +2169,7 @@
    {
     "dia": 24,
     "capitulo": "La noche más larga",
-    "texto": "Se acabó el mundo al revés. Me mandan atar a Filero, y le pongo la cadena con mis propias manos. Él solo me dice: «Ha sido bonito».",
+    "texto": "Se acabó el mundo al revés. Me mandan atar a Filero, y le pongo la cadena con mis propias manos. Él solo murmura: «Ha sido bonito».",
     "drama": 0.8,
     "fondo": {
      "lugar": "interior",
@@ -2241,7 +2250,7 @@
       "quien": "eutiquio",
       "x": 0.35,
       "accion": "sentado",
-      "emocion": "triste",
+      "emocion": "neutral",
       "mirar": -1,
       "habla": false
      }
@@ -2286,7 +2295,7 @@
     "camara": "cerca"
    },
    {
-    "texto": "Cinco años después, en las Saturnales del año cincuenta y cinco, Nerón salió rey en el sorteo. Ordenó a Británico, hijo de Claudio, cantar para humillarlo. Poco después, Británico murió envenenado.",
+    "texto": "Cuatro años después, en las Saturnales del año cincuenta y cuatro, Nerón, ya emperador, salió rey en el sorteo. Ordenó a Británico, hijo de Claudio, cantar para humillarlo. Poco después, Británico murió envenenado.",
     "drama": 0.8,
     "fondo": {
      "lugar": "interior",
@@ -2395,7 +2404,7 @@
     "camara": "lenta"
    },
    {
-    "texto": "¿Y la Navidad? Se dice que es una Saturnal con otro nombre, pero las fechas no son las mismas y no hay pruebas. Sobrevivió la idea: regalos, luces y un mundo al revés.",
+    "texto": "¿Y la Navidad? Muchos creen que es una Saturnal con otro nombre, pero las fechas no son las mismas y no hay pruebas. Sobrevivió la idea: regalos, luces y un mundo al revés.",
     "drama": 0.65,
     "fondo": {
      "lugar": "interior",
@@ -2423,7 +2432,7 @@
       "quien": "eutiquio",
       "x": 0.0,
       "accion": "sentado",
-      "emocion": "triste",
+      "emocion": "neutral",
       "mirar": 1,
       "objeto": "🕯️"
      }
@@ -2467,7 +2476,7 @@
  "publicacion": {
   "tituloLargo": "Un mes en la vida de UN ESCLAVO ROMANO (año 50) | Las Saturnales: la noche en que el amo servía la cena",
   "tituloCorto": "Esclavo en las Saturnales",
-  "descripcion": "Diciembre del año 50 en Roma, bajo el emperador Claudio. Eutiquio, esclavo nacido en la casa de un caballero del Esquilino, sirve la mesa, cuenta su peculio y espera las Saturnales (17–23 de diciembre): la fiesta del gorro de los libertos, la cena en la que los amos sirven a los esclavos, el rey elegido a suertes y los regalos de velas y figuritas de barro. Una semana de mundo al revés dentro de un sistema que seguía siendo brutal.\n\n— Semana 1: La casa que nunca duerme\n— Semana 2: Cuenta atrás para el mundo al revés\n— Semana 3: Io, Saturnalia\n— Semana 4: La noche más larga\n— Epílogo: Nerón y Británico (año 55), Pedanio Segundo (año 61), Séneca y la Navidad sin mitos\n\nQué es real y qué es inventado: Eutiquio, su madre Dafne, su amo Tito Vetio Prisco y el resto de la casa son personajes inventados. Las costumbres de las Saturnales, el quinto día restaurado por Claudio, el edicto sobre los esclavos enfermos abandonados en la isla del Tíber, la ley Aelia Sentia, el cumpleaños de Nerón, las Saturnales del año 55 y la ejecución de los esclavos de Pedanio Segundo están documentados. No está claro cuánto se practicaba de verdad la cena invertida en cada casa; durante la fiesta los esclavos seguían siendo esclavos. Tampoco hay pruebas de que la Navidad derive de las Saturnales.\n\nFuentes: Macrobio, Saturnales I, 7–11; Séneca, Epístolas morales a Lucilio 18, 47 y 80, y Sobre la clemencia I, 24; Marcial, Epigramas XI y XIV; Luciano, Saturnales; Dion Casio LIX, 6 y LX, 25; Suetonio, Claudio 25 y Nerón 6; Tácito, Anales XII–XIV; Livio XXII, 1; Plinio el Viejo, Historia natural XV, 32 y XVIII, 221; Catulo 14; Horacio, Sátiras II, 7. Secundarias: Getty Museum; Encyclopaedia Romana (Universidad de Chicago); Smith, Dictionary of Greek and Roman Antiquities; World History Encyclopedia; History Today.",
+  "descripcion": "Diciembre del año 50 en Roma, bajo el emperador Claudio. Eutiquio, esclavo nacido en la casa de un caballero del Esquilino, sirve la mesa, cuenta su peculio y espera las Saturnales (17–23 de diciembre): la fiesta del gorro de los libertos, la cena en la que los amos sirven a los esclavos, el rey elegido a suertes y los regalos de velas y figuritas de barro. Una semana de mundo al revés dentro de un sistema que seguía siendo brutal.\n\n— Semana 1: La casa que nunca duerme\n— Semana 2: Cuenta atrás para el mundo al revés\n— Semana 3: Io, Saturnalia\n— Semana 4: La noche más larga\n— Epílogo: Nerón y Británico (año 54), Pedanio Segundo (año 61), Séneca y la Navidad sin mitos\n\nQué es real y qué es inventado: Eutiquio, su madre Dafne, su amo Tito Vetio Prisco y el resto de la casa son personajes inventados. Las costumbres de las Saturnales, el quinto día restaurado por Claudio, el edicto sobre los esclavos enfermos abandonados en la isla del Tíber, la ley Aelia Sentia, el cumpleaños de Nerón, las Saturnales del año 54 y la ejecución de los esclavos de Pedanio Segundo están documentados. No está claro cuánto se practicaba de verdad la cena invertida en cada casa; durante la fiesta los esclavos seguían siendo esclavos. Tampoco hay pruebas de que la Navidad derive de las Saturnales.\n\nFuentes: Macrobio, Saturnales I, 7–11; Séneca, Epístolas morales a Lucilio 18, 47 y 80, y Sobre la clemencia I, 24; Marcial, Epigramas XI y XIV; Luciano, Saturnales; Epicteto, Disertaciones I, 25; Dion Casio LIX, 6 y LX, 25; Suetonio, Claudio 25 y Nerón 6; Tácito, Anales XII–XIV; Livio XXII, 1; Plinio el Viejo, Historia natural XV, 32 y XVIII, 221; Catulo 14; Horacio, Sátiras II, 7. Secundarias: Getty Museum; Encyclopaedia Romana (Universidad de Chicago); Smith, Dictionary of Greek and Roman Antiquities; World History Encyclopedia; History Today.",
   "etiquetas": [
    "un mes en la vida de",
    "Saturnales",
@@ -2540,7 +2549,7 @@
    },
    {
     "titulo": "Se acaba la fiesta y vuelve la cadena",
-    "descripcion": "El solsticio romano, la cuenta de un esclavo y lo que hizo Nerón cinco años después. #shorts #historia #roma"
+    "descripcion": "El solsticio romano, la cuenta de un esclavo y lo que hizo Nerón cuatro años después. #shorts #historia #roma"
    },
    {
     "titulo": "¿La Navidad viene de las Saturnales?",
