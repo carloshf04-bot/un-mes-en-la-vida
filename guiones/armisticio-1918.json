@@ -1451,7 +1451,7 @@
           {
             "quien": "emile",
             "x": 0.3,
-            "accion": "caminar",
+            "accion": "agachado",
             "emocion": "miedo",
             "mirar": 1
           }
@@ -1466,7 +1466,7 @@
           {
             "quien": "emile",
             "x": 0.35,
-            "accion": "quieto",
+            "accion": "agachado",
             "emocion": "miedo",
             "mirar": -1
           }
@@ -1546,7 +1546,7 @@
           "tipo": "dato",
           "valor": "≈ 700",
           "etiqueta": "hombres del 415.º RI en la orilla enemiga del Mosa, el 10 de noviembre",
-          "icono": "🪖"
+          "icono": "🎖️"
         }
       },
       {
