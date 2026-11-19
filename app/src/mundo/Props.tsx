@@ -8,7 +8,7 @@ export const PROPS_DISPONIBLES = [
   "roca", "valla", "pozo", "tumba", "hoguera", "tienda", "bandera", "mesa", "estanteria", "chimenea", "cama",
   "antorcha", "cuadro", "consola", "maquina", "barril", "cajas", "planta", "telescopio", "yunque", "piramide", "columna", "reloj",
   "bergantin", "bergantin-hundido", "bote",
-  "volcan", "volcan-erupcion", "cruz", "humo", "explosion", "horno", "molino", "anfora", "termopolio",
+  "volcan", "volcan-erupcion", "cruz", "electrometro", "cristalizadores", "espectro", "humo", "explosion", "horno", "molino", "anfora", "termopolio",
   "casa-adobe", "habitat", "invernadero", "rover", "panel-solar", "antena",
   "escalera", "puerta", "tesoro", "sarcofago", "mascara", "estatua", "jarron", "carro-dorado",
   // apocalipsis zombi (2031)
@@ -191,6 +191,73 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean }> = ({ ti
           <polygon points="-160,-350 0,-440 160,-350" fill="#6b3a2a" />
         </g>
       );
+    case "electrometro": {
+      // electrómetro de cuarzo piezoeléctrico (Curie, 1898) sobre su mesa: lámpara, espejo y escala con el punto de luz
+      const punto = Math.sin(f / 45) * 70 + Math.sin(f / 13) * 6;
+      return (
+        <g>
+          <rect x={-300} y={-230} width={600} height={30} fill="#6b4a32" />
+          <rect x={-280} y={-200} width={26} height={200} fill="#5a3d28" />
+          <rect x={254} y={-200} width={26} height={200} fill="#5a3d28" />
+          {/* caja de latón y vidrio del electrómetro */}
+          <rect x={-250} y={-400} width={170} height={170} rx={10} fill="#b8933f" stroke="#7a5f22" strokeWidth={6} />
+          <rect x={-225} y={-375} width={120} height={110} fill="#d9eef5" opacity={0.55} />
+          <line x1={-165} y1={-370} x2={-165} y2={-280} stroke="#5a4a2a" strokeWidth={4} />
+          <rect x={-180} y={-470} width={30} height={70} fill="#7a5f22" />
+          {/* plato con el polvo */}
+          <ellipse cx={-30} cy={-238} rx={60} ry={12} fill="#c9c4b8" />
+          <ellipse cx={-30} cy={-244} rx={34} ry={7} fill="#f4f2ea" />
+          {/* lámpara y haz hacia la escala */}
+          <rect x={20} y={-330} width={50} height={100} rx={8} fill="#3d3d3d" />
+          <circle cx={45} cy={-310} r={14} fill="#ffe9a8" />
+          {/* escala graduada con el punto de luz */}
+          <rect x={100} y={-520} width={190} height={290} fill="#efe6d0" stroke="#6b4a32" strokeWidth={6} />
+          {Array.from({ length: 11 }).map((_, i) => (
+            <line key={i} x1={110} y1={-500 + i * 25} x2={i % 5 === 0 ? 170 : 145} y2={-500 + i * 25} stroke="#3b3b3b" strokeWidth={3} />
+          ))}
+          <path d={`M45 -310 L195 ${-375 + punto}`} stroke="#fff4c2" strokeWidth={6} opacity={0.35} />
+          <circle cx={215} cy={-375 + punto} r={16} fill="#fff6b0" />
+          <circle cx={215} cy={-375 + punto} r={30} fill="#fff6b0" opacity={0.3} />
+        </g>
+      );
+    }
+    case "cristalizadores":
+      // mesa de química con cubetas de cristalización: el polvo blanco brilla débilmente
+      return (
+        <g>
+          <rect x={-300} y={-230} width={600} height={30} fill="#6b4a32" />
+          <rect x={-280} y={-200} width={26} height={200} fill="#5a3d28" />
+          <rect x={254} y={-200} width={26} height={200} fill="#5a3d28" />
+          {[-200, -60, 80].map((x, i) => (
+            <g key={i}>
+              <path d={`M${x - 55} -290 L${x - 45} -232 L${x + 45} -232 L${x + 55} -290`} fill="#d9eef5" opacity={0.6} stroke="#9fb6c4" strokeWidth={4} />
+              {[0, 1, 2, 3, 4].map((j) => (
+                <polygon key={j} points={`${x - 30 + j * 15},-238 ${x - 24 + j * 15},-256 ${x - 18 + j * 15},-238`} fill="#f7f7f0" />
+              ))}
+              <ellipse cx={x} cy={-250} rx={46} ry={16} fill="#bfe6ff" opacity={0.25 + 0.15 * Math.sin(f / 20 + i)} />
+            </g>
+          ))}
+          {/* matraz y cuaderno */}
+          <path d="M200 -232 L170 -232 L190 -300 L190 -350 L210 -350 L210 -300 L230 -232Z" fill="#cfe3ec" stroke="#8aa3b2" strokeWidth={4} />
+          <rect x={232} y={-246} width={50} height={14} fill="#3b2f26" />
+        </g>
+      );
+    case "espectro": {
+      // espectroscopio: banda oscura con las rayas de colores de un elemento; la raya violeta nueva late
+      const brillo = 0.6 + 0.4 * Math.sin(f / 10);
+      const rayas: [number, string][] = [[-150, "#ff3b2f"], [-95, "#ff9a2f"], [-40, "#ffe14d"], [10, "#4dd96b"], [60, "#3bb4ff"]];
+      return (
+        <g>
+          <rect x={-18} y={-300} width={36} height={300} fill="#5a3d28" />
+          <rect x={-240} y={-560} width={480} height={270} rx={14} fill="#2a2420" stroke="#8a6a3a" strokeWidth={10} />
+          <rect x={-210} y={-500} width={420} height={140} fill="#07070c" />
+          {rayas.map(([x, c]) => <rect key={x} x={x} y={-500} width={8} height={140} fill={c} opacity={0.8} />)}
+          <rect x={130} y={-500} width={14} height={140} fill="#b06bff" opacity={brillo} />
+          <rect x={118} y={-505} width={38} height={150} fill="#b06bff" opacity={brillo * 0.3} />
+          <text x={137} y={-330} fontSize={26} textAnchor="middle" fill="#e6d3ff" fontFamily="serif">?</text>
+        </g>
+      );
+    }
     case "cruz":
       // cruz de madera improvisada (tumbas de campaña)
       return (

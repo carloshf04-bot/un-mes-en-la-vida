@@ -595,6 +595,15 @@ const ESCALA_LEJANA: Record<string, number> = { "templo-mayor": 0.8, pilar: 0.75
 // Decorados de plano medio: sobre el agua o la llanura, entre el horizonte y el suelo
 const MEDIOS: Record<string, { y: number; k: number }> = { "ciudad-lago": { y: HORIZONTE + 40, k: 0.55 }, puente: { y: HORIZONTE + 95, k: 0.5 }, calzada: { y: HORIZONTE + 80, k: 0.6 }, canoa: { y: SUELO - 75, k: 0.8 } };
 
+// Un objeto pequeño (emoji) que cae sobre una mesa se apoya en el tablero, no en el suelo
+const EMOJI = /\p{Extended_Pictographic}/u;
+type PropColocado = { tipo: string; x?: number; escala?: number };
+const sobreMesa = (p: PropColocado, todos: PropColocado[], k: number) => {
+  if (!EMOJI.test(p.tipo) || (p.escala ?? 1) > 0.6) return 0;
+  const mesa = todos.find((m) => m.tipo === "mesa" && Math.abs(xMundo(m.x, k) - xMundo(p.x, k)) < 225 * (m.escala ?? 1));
+  return mesa ? 230 * (mesa.escala ?? 1) : 0;
+};
+
 // Ranuras automáticas para props sin x (repartidas detrás de los personajes)
 const RANURAS = [-1.45, 1.45, -0.75, 0.8, -1.9, 1.9, 0];
 
@@ -644,7 +653,7 @@ export const DibujarFondo: React.FC<{ fondo: Fondo; f: number; dur: number; id: 
       )}
       {fondo.lugar === "interior" && <Vida fondo={fondo} f={f} id={id} />}
       {props.filter((p) => p.detras !== false && (fondo.lugar === "interior" || (!LEJANOS.includes(p.tipo) && !MEDIOS[p.tipo]))).map((p, i) => (
-        <g key={i} transform={`translate(${xMundo(p.x, k)} ${SUELO - 20}) scale(${p.escala})`}><Prop tipo={p.tipo} f={f} noche={noche} /></g>
+        <g key={i} transform={`translate(${xMundo(p.x, k)} ${SUELO - 20 - sobreMesa(p, props, k)}) scale(${p.escala})`}><Prop tipo={p.tipo} f={f} noche={noche} /></g>
       ))}
       {(fondo.clima === "lluvia" || fondo.clima === "tormenta" || fondo.clima === "nieve") && fondo.lugar !== "interior" && (
         // cielo encapotado: con lluvia no hay sol ni cielo azul
