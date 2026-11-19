@@ -1,0 +1,2078 @@
+{
+  "slug": "flannan-1900",
+  "titulo": "un marinero del Hesperus",
+  "lugar": "Islas Flannan y Lewis, Hébridas Exteriores (Escocia)",
+  "epoca": "Diciembre de 1900 y enero de 1901",
+  "categoria": "misterios",
+  "voz": "narrador-es",
+  "drama": 0.7,
+  "velocidad": 1.15,
+  "musica": "misterio",
+  "paleta": {
+    "acento": "#d9b25a",
+    "texto": "#eef0ec",
+    "fondo": "#0d1820",
+    "papel": "#e9e4d6"
+  },
+  "grafias": {
+    "Ángus": "Angus",
+    "Lúis": "Lewis",
+    "Ésperus": "Hesperus",
+    "Flánan": "Flannan",
+    "Élan": "Eilean",
+    "Mor": "Mòr",
+    "Yeims": "James",
+    "Diúcat": "Ducat",
+    "Tómas": "Thomas",
+    "Márshal": "Marshall",
+    "Dónald": "Donald",
+    "Macártur": "MacArthur",
+    "Uíliam": "William",
+    "Ros": "Ross",
+    "Brésclet": "Breasclete",
+    "Árctor": "Archtor",
+    "Líz": "Leith",
+    "Yósef": "Joseph",
+    "Mur": "Moore",
+    "Járvi": "Harvie",
+    "Jógmanei": "Hogmanay",
+    "Róbert": "Robert",
+    "Miúrjed": "Muirhead",
+    "Uílfrid": "Wilfrid",
+    "Guíbson": "Gibson",
+    "Vínsent": "Vincent",
+    "Gádis": "Gaddis",
+    "Maic": "Mike"
+  },
+  "reparto": {
+    "angus": {
+      "piel": "#e6c2a3",
+      "pelo": "#7a3b1e",
+      "peinado": "corto",
+      "barba": "patillas",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#1f2a3a",
+        "color2": "#2e2e30",
+        "detalle": "#3a3a3a"
+      },
+      "sombrero": "gorro-lana",
+      "colorSombrero": "#2a3442",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#1d1712"
+    },
+    "angushule": {
+      "piel": "#e6c2a3",
+      "pelo": "#7a3b1e",
+      "peinado": "corto",
+      "barba": "patillas",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#b8952a",
+        "color2": "#9a7c22",
+        "detalle": "#5a4a1a"
+      },
+      "sombrero": "ala",
+      "colorSombrero": "#a8862a",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#1d1712"
+    },
+    "ducat": {
+      "piel": "#e3b896",
+      "pelo": "#4a3424",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#1a2030",
+        "color2": "#1c1f28",
+        "detalle": "#c9a84a"
+      },
+      "sombrero": "gorra-plato",
+      "colorSombrero": "#151a24",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#15120f"
+    },
+    "marshall": {
+      "piel": "#ecc4a4",
+      "pelo": "#3b2b1f",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#1a2030",
+        "color2": "#1c1f28",
+        "detalle": "#c9a84a"
+      },
+      "sombrero": "gorra-plato",
+      "colorSombrero": "#151a24",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#15120f"
+    },
+    "macarthur": {
+      "piel": "#e0b494",
+      "pelo": "#2a221c",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#e4ddcc",
+        "color2": "#1c1f28",
+        "detalle": "#1a2030"
+      },
+      "sombrero": "gorra-plato",
+      "colorSombrero": "#151a24",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#15120f"
+    },
+    "ducathule": {
+      "piel": "#e3b896",
+      "pelo": "#4a3424",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#3d3a2a",
+        "color2": "#2a2a26",
+        "detalle": "#2a281e"
+      },
+      "sombrero": "ala",
+      "colorSombrero": "#33301f",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#1a1814"
+    },
+    "marshallhule": {
+      "piel": "#ecc4a4",
+      "pelo": "#3b2b1f",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#3d3a2a",
+        "color2": "#2a2a26",
+        "detalle": "#2a281e"
+      },
+      "sombrero": "ala",
+      "colorSombrero": "#33301f",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#1a1814"
+    },
+    "moore": {
+      "piel": "#e8bf9e",
+      "pelo": "#5a3e28",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#1a2030",
+        "color2": "#1c1f28",
+        "detalle": "#c9a84a"
+      },
+      "sombrero": "gorra-plato",
+      "colorSombrero": "#151a24",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#15120f"
+    },
+    "harvie": {
+      "piel": "#e3b896",
+      "pelo": "#8a8580",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#1f2a3a",
+        "color2": "#1c2230",
+        "detalle": "#c9a84a"
+      },
+      "sombrero": "gorra-plato",
+      "colorSombrero": "#151a24",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#15120f"
+    },
+    "muirhead": {
+      "piel": "#ebc6a6",
+      "pelo": "#9a958e",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#4a4a4e",
+        "color2": "#15161a",
+        "detalle": "#15161a"
+      },
+      "sombrero": "ala",
+      "colorSombrero": "#1a1a1e",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#0f0f0f"
+    },
+    "marinero": {
+      "piel": "#e8c0a0",
+      "pelo": "#3a2a1e",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#3a4652",
+        "color2": "#2e2e30",
+        "detalle": "#2a2a2a"
+      },
+      "sombrero": "gorro-lana",
+      "colorSombrero": "#4a3a2e",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#1d1712"
+    },
+    "mujer": {
+      "piel": "#ecc6a8",
+      "pelo": "#3a2a20",
+      "peinado": "coleta",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#3a3236",
+        "color2": "#2e2a2c",
+        "detalle": "#5a3a2e"
+      },
+      "sombrero": "panuelo",
+      "colorSombrero": "#5a3a2e",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#1a1614",
+      "voz": "narradora-es"
+    },
+    "poeta": {
+      "piel": "#ecc6a6",
+      "pelo": "#5a3e28",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#4a3a2c",
+        "color2": "#3a2e24",
+        "detalle": "#8a3b2e"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#1a1410"
+    },
+    "escritor": {
+      "piel": "#e8c4a6",
+      "pelo": "#6a6a6a",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#3a4048",
+        "color2": "#2a2e34",
+        "detalle": "#7a6a3a"
+      },
+      "sombrero": "ninguno",
+      "gafas": true,
+      "altura": 1,
+      "zapatos": "#1a1410"
+    }
+  },
+  "largo": {
+    "escenas": [
+      {
+        "corte": true,
+        "texto": "El veintiséis de diciembre de mil novecientos llegamos con el relevo a un faro en mitad del Atlántico. No había nadie esperándonos, y a sus tres fareros nunca se les volvió a ver.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "isla-faro-apagada",
+              "x": 1.0,
+              "escala": 1.1
+            },
+            {
+              "tipo": "barril",
+              "x": -1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "angus",
+            "x": 0.4,
+            "accion": "senalar",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Me llamo Ángus, soy de la isla de Lúis, en Escocia, y soy marinero del Ésperus, el buque que lleva víveres y relevos a los faros.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barril",
+              "x": -1.25
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "angus",
+            "x": 0.3,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Yo no existí, y lo que pienso es imaginado. Pero el faro, los barcos, los nombres y las fechas de esta historia son reales.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "angus",
+            "x": 0.15,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Y casi todo lo que has oído de este caso, la mesa servida, la silla volcada, el diario lleno de miedo, se inventó después. Hoy separamos lo que consta de lo que no.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "isla-faro",
+              "x": -1.0,
+              "escala": 1.0
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "angus",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 1,
+        "capitulo": "La luz de los Siete Cazadores",
+        "corte": true,
+        "texto": "El lunes diez de diciembre, el Ésperus hace su ronda por la costa oeste. Mientras, tres hombres cuidan un faro que lleva encendido apenas un año.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "isla-faro",
+              "x": -1.0,
+              "escala": 0.8
+            },
+            {
+              "tipo": "barril",
+              "x": 1.0
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "angus",
+            "x": 0.3,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "objeto": "🪢"
+          }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Islas Flannan",
+          "detalle": "Hébridas Exteriores, Escocia · diciembre de 1900",
+          "icono": "📍"
+        }
+      },
+      {
+        "dia": 1,
+        "texto": "Están en las islas Flánan, a unos treinta kilómetros de Lúis, los Siete Cazadores de los marineros. En la mayor, Élan Mor, solo viven ellos.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "isla-faro",
+              "x": 0.0,
+              "escala": 1.25
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "dia": 2,
+        "texto": "La torre blanca se alza sobre acantilados de unos sesenta metros. Se encendió por primera vez el siete de diciembre de mil ochocientos noventa y nueve.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "isla",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "faro-blanco",
+              "x": -0.9,
+              "escala": 1.15
+            },
+            {
+              "tipo": "roca",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "subir"
+      },
+      {
+        "dia": 2,
+        "texto": "La cuidan tres hombres: Yeims Diúcat, el farero principal; Tómas Márshal, segundo ayudante; y Dónald Macártur, un sustituto que cubre la baja por enfermedad de Uíliam Ros.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "ducat",
+            "x": -0.3,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "marshall",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "macarthur",
+            "x": 0.85,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 3,
+        "corte": true,
+        "texto": "En esa isla hay reglas para todo. Cada mañana se limpia la lente, se recortan las mechas y se rellena el aceite de la lámpara.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "lampara-faro",
+              "x": 0.0
+            },
+            {
+              "tipo": "barril",
+              "x": 1.25
+            },
+            {
+              "tipo": "barril",
+              "x": -1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ducat",
+            "x": -0.55,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 3,
+        "texto": "Cada noche, un hombre vela junto a la luz, y dormirse de guardia es la peor falta de un farero. En diciembre, la lámpara arde casi diecisiete horas.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "lampara-faro",
+              "x": 0.0
+            },
+            {
+              "tipo": "barril",
+              "x": 1.25
+            },
+            {
+              "tipo": "barril",
+              "x": -1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marshall",
+            "x": -0.5,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "20",
+          "etiqueta": "barriles de parafina al año para una luz de unas 140.000 bujías",
+          "icono": "🕯️"
+        }
+      },
+      {
+        "dia": 3,
+        "texto": "Sus familias viven en Brésclet, en la costa de Lúis. Desde allí, la única señal de que todo va bien es ver la luz cada noche.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.25
+            },
+            {
+              "tipo": "casa",
+              "x": -0.7,
+              "escala": 0.8
+            },
+            {
+              "tipo": "roca",
+              "x": 1.35
+            },
+            {
+              "tipo": "isla-faro",
+              "x": 1.1,
+              "escala": 0.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "mujer",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 4,
+        "texto": "El jueves trece de diciembre, alguien apunta en el libro de registro el tiempo y el viento del día. Es la última fecha de ese libro: lo demás se apunta con tiza en una pizarra.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "pizarra",
+              "x": -0.95
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.2
+            },
+            {
+              "tipo": "📖",
+              "x": 0.2,
+              "escala": 0.45
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "cerca"
+      },
+      {
+        "dia": 6,
+        "corte": true,
+        "texto": "La última nota de esa pizarra es del sábado quince, hacia las nueve de la mañana. Solo habla del tiempo, sin nada raro.",
+        "drama": 0.75,
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "15 dic · 9:00",
+          "etiqueta": "última nota de la pizarra del faro: una observación del tiempo",
+          "icono": "📖"
+        }
+      },
+      {
+        "dia": 6,
+        "texto": "Ese día, la lámpara queda limpia, con el aceite repuesto y lista para encender. Es el último trabajo que sabemos que hicieron.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "lampara-faro",
+              "x": 0.0
+            },
+            {
+              "tipo": "barril",
+              "x": 1.25
+            },
+            {
+              "tipo": "barril",
+              "x": -1.3
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "dia": 6,
+        "texto": "Por la tarde, según se dedujo después, Diúcat y Márshal bajan al embarcadero oeste con botas de agua e impermeables. Macártur sale más tarde, sin el suyo, y ninguno vuelve.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "isla",
+          "hora": "atardecer",
+          "clima": "tormenta",
+          "props": [
+            {
+              "tipo": "faro-apagado",
+              "x": -1.1,
+              "escala": 1.1
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ducathule",
+            "x": 0.1,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "sale": "der"
+          },
+          {
+            "quien": "marshallhule",
+            "x": 0.6,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "sale": "der"
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 6,
+        "texto": "Esa noche, hacia las doce, el vapor Árctor pasa cerca camino de Líz. El tiempo es claro pero tormentoso, y sus hombres apuntan algo extraño: la luz del faro no se ve.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "noche",
+          "clima": "tormenta",
+          "props": [
+            {
+              "tipo": "isla-faro-apagada",
+              "x": 0.9,
+              "escala": 1.0
+            },
+            {
+              "tipo": "barril",
+              "x": -1.25
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "dia": 8,
+        "capitulo": "El relevo que no salió",
+        "corte": true,
+        "texto": "Desde aquella noche, el faro de las Flánan pasó once noches apagado. En la isla no hay telégrafo, y nadie en tierra supo que allí arriba ya no quedaba nadie.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "isla-faro-apagada",
+              "x": 0.0,
+              "escala": 1.2
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "11",
+          "etiqueta": "noches con el faro apagado sin que nadie en tierra lo supiera",
+          "icono": "🌑"
+        }
+      },
+      {
+        "dia": 9,
+        "texto": "El martes dieciocho, el Árctor llega a Líz. Dicen que su capitán avisó de que la luz no se veía, pero no consta que nadie hiciera nada.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "barco",
+              "x": -0.9,
+              "escala": 0.9
+            },
+            {
+              "tipo": "farola",
+              "x": 1.0
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "dia": 10,
+        "texto": "En Brésclet, Yósef Mur, el cuarto farero, el que descansaba en tierra, prepara sus cosas. Le toca volver a la isla con el relevo.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.25
+            },
+            {
+              "tipo": "casa",
+              "x": -0.7,
+              "escala": 0.8
+            },
+            {
+              "tipo": "roca",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "moore",
+            "x": 0.35,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 11,
+        "corte": true,
+        "texto": "El jueves veinte es el día del relevo. El Ésperus debería salir hacia las Flánan con víveres, aceite y Yósef Mur a bordo, pero el mar no nos deja.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "tormenta",
+          "props": [
+            {
+              "tipo": "barril",
+              "x": -1.25
+            },
+            {
+              "tipo": "cajas",
+              "x": -0.95
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "angushule",
+            "x": 0.3,
+            "accion": "trabajar",
+            "emocion": "miedo",
+            "mirar": -1
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 11,
+        "texto": "Olas como casas, lluvia que corta la cara y un viento que no deja oír. El capitán Járvi mira el cielo y decide esperar: los relevos dependen del mar.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "harvie",
+            "x": -0.45,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "angushule",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 13,
+        "texto": "Pasan los días y el temporal no afloja. Desde la costa miro hacia el oeste, pero las Flánan son solo una mancha gris tras la lluvia.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "lluvia",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.3
+            },
+            {
+              "tipo": "isla-faro-apagada",
+              "x": 1.0,
+              "escala": 0.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "angushule",
+            "x": -0.2,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": 1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 14,
+        "texto": "En Brésclet esperan la mujer de Diúcat y sus cuatro hijos, y la familia de Macártur. Nadie sabe todavía que esperan en vano.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "atardecer",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.25
+            },
+            {
+              "tipo": "casa",
+              "x": -0.7,
+              "escala": 0.8
+            },
+            {
+              "tipo": "roca",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "mujer",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 15,
+        "capitulo": "La verja cerrada",
+        "corte": true,
+        "texto": "El lunes veinticuatro, el temporal por fin afloja. Al día siguiente es Navidad, que en mi isla apenas se celebra: la fiesta grande aquí es Jógmanei, la Nochevieja.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "lluvia",
+          "props": [
+            {
+              "tipo": "barril",
+              "x": -1.25
+            },
+            {
+              "tipo": "barril",
+              "x": -0.95
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "angus",
+            "x": 0.3,
+            "accion": "cargar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "objeto": "📦"
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 17,
+        "texto": "El miércoles veintiséis de diciembre, hacia mediodía, llegamos por fin a Élan Mor. Desde cubierta busco a los fareros en el embarcadero, como siempre.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "isla-faro-apagada",
+              "x": 0.9,
+              "escala": 1.15
+            },
+            {
+              "tipo": "barril",
+              "x": -1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "angus",
+            "x": -0.3,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 17,
+        "texto": "Pero allí no hay nadie. Ni una señal, ni las cajas vacías que siempre se devuelven a bordo. En un día de relevo, eso no pasa nunca.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "angus",
+            "x": -0.2,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 17,
+        "texto": "El capitán Járvi hace sonar la sirena una vez, y otra, y otra más. Después lanza un cohete de señales, que estalla sobre la isla. Allá arriba no se mueve nada.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "isla-faro-apagada",
+              "x": 0.9,
+              "escala": 1.15
+            },
+            {
+              "tipo": "bengala",
+              "x": 0.7
+            },
+            {
+              "tipo": "barril",
+              "x": -1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "harvie",
+            "x": -0.55,
+            "accion": "senalar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "angus",
+            "x": 0.0,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 17,
+        "corte": true,
+        "texto": "Entonces el capitán manda un bote a tierra con Yósef Mur. Solo sube él, y desde la borda lo veo trepar por los escalones de la roca hasta perderlo de vista.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "isla",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "embarcadero",
+              "x": 0.0,
+              "escala": 1.1
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "moore",
+            "x": 0.4,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "entra": "izq"
+          }
+        ],
+        "camara": "subir"
+      },
+      {
+        "dia": 17,
+        "texto": "Lo que encontró arriba lo sabemos por su carta. La verja y la puerta están cerradas. Dentro, en la cocina, el fuego está apagado y la ceniza, fría.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "chimenea-apagada",
+              "x": -1.15
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "reloj-parado",
+              "x": 1.2
+            },
+            {
+              "tipo": "perchero",
+              "x": 0.75
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "moore",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 17,
+        "texto": "El reloj de la cocina está parado, porque nadie le ha dado cuerda en muchos días. Los cacharros están limpios y recogidos, y las camas, vacías.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "moore",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 17,
+        "texto": "Y en el perchero cuelga un impermeable de hule, el de Dónald Macártur. Los de Diúcat y Márshal no están, y tampoco sus botas de agua.",
+        "drama": 0.9,
+        "personajes": [
+          {
+            "quien": "moore",
+            "x": 0.2,
+            "accion": "senalar",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 17,
+        "corte": true,
+        "texto": "Según Mur, esos impermeables solo se usaban para bajar a los embarcaderos, y Macártur no tenía otro abrigo. Si salió sin él, salió con prisa, en mangas de camisa.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "moore",
+            "x": 0.2,
+            "accion": "pensar",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Lo que encontró Joseph Moore",
+          "items": [
+            {
+              "icono": "🕰️",
+              "nombre": "Un reloj parado"
+            },
+            {
+              "icono": "🕯️",
+              "nombre": "La lámpara limpia y lista"
+            },
+            {
+              "icono": "🧥",
+              "nombre": "Un impermeable colgado"
+            },
+            {
+              "icono": "🍽️",
+              "nombre": "La cocina limpia y recogida"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 17,
+        "texto": "Mur baja corriendo al embarcadero. Por su cara entiendo que arriba no hay nadie. Varios de los nuestros suben con él y registran la isla entera.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "isla",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "embarcadero",
+              "x": 0.0,
+              "escala": 1.1
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "moore",
+            "x": -0.3,
+            "accion": "correr",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "marinero",
+            "x": 0.5,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 17,
+        "texto": "Buscan en la capilla en ruinas de San Flánan, en los acantilados y en los dos embarcaderos. No encuentran ni rastro de los tres hombres.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "isla",
+          "hora": "dia",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "capilla",
+              "x": -1.0
+            },
+            {
+              "tipo": "faro-apagado",
+              "x": 1.2,
+              "escala": 0.9
+            },
+            {
+              "tipo": "roca",
+              "x": 0.6,
+              "escala": 0.7
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marinero",
+            "x": -0.2,
+            "accion": "caminar",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "moore",
+            "x": 0.35,
+            "accion": "caminar",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 17,
+        "texto": "El capitán deja en la isla a Mur, al contramaestre de boyas y a unos pocos marineros para cuidar la luz. Los demás volvemos a Lúis en silencio.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "isla-faro",
+              "x": -1.0,
+              "escala": 0.9
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "angus",
+            "x": 0.35,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 17,
+        "corte": true,
+        "texto": "Desde Lúis, el capitán Járvi manda un telegrama a la Junta de los Faros del Norte. Empieza con una frase que no he olvidado: «Ha ocurrido un terrible accidente en las Flánan».",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "atardecer",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.1
+            },
+            {
+              "tipo": "📜",
+              "x": 0.1,
+              "escala": 0.4
+            },
+            {
+              "tipo": "reloj",
+              "x": -1.2
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "harvie",
+            "x": -0.35,
+            "accion": "escribir",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Ha ocurrido un terrible accidente en las Flannan.",
+          "firma": "Telegrama del capitán James Harvie, 26 de diciembre de 1900"
+        }
+      },
+      {
+        "dia": 19,
+        "texto": "El viernes veintiocho, en la isla, Yósef Mur escribe su carta a la Junta. Por ella sabemos lo del reloj, el fuego y el impermeable, sin adornos.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "chimenea-apagada",
+              "x": -1.15
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "reloj-parado",
+              "x": 1.2
+            },
+            {
+              "tipo": "perchero",
+              "x": 0.75
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "moore",
+            "x": -0.25,
+            "accion": "escribir",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "✒️"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 20,
+        "texto": "El sábado veintinueve llega a la isla Róbert Miúrjed, superintendente de la Junta. Él había contratado a los tres hombres, y los conocía.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "isla",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "faro-blanco",
+              "x": -1.1,
+              "escala": 1.05
+            },
+            {
+              "tipo": "roca",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "muirhead",
+            "x": 0.2,
+            "accion": "caminar",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "moore",
+            "x": 0.75,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 20,
+        "texto": "Miúrjed va directo al embarcadero oeste. La grúa sigue en su sitio, pero las barandillas están retorcidas y arrancadas, y los cabos, esparcidos por las rocas.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "isla",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "embarcadero-roto",
+              "x": 0.1,
+              "escala": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "muirhead",
+            "x": -0.55,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 20,
+        "corte": true,
+        "texto": "Una caja de madera para cabos, guardada en una grieta a unos treinta y tres metros sobre el mar, ha desaparecido. Y aún más arriba, a más de sesenta, hay hierba arrancada.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "muirhead",
+            "x": -0.55,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "subir",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "33 m",
+          "etiqueta": "sobre el mar: allí estaba la caja de cabos que desapareció",
+          "icono": "🪢"
+        }
+      },
+      {
+        "dia": 21,
+        "texto": "De vuelta en Lúis, Miúrjed hace lo más difícil: visita a la viuda de Diúcat y a la de Macártur. Tómas Márshal estaba soltero; lo lloran su padre y sus hermanos.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "atardecer",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.25
+            },
+            {
+              "tipo": "casa",
+              "x": -0.7,
+              "escala": 0.8
+            },
+            {
+              "tipo": "roca",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "muirhead",
+            "x": -0.4,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "mujer",
+            "x": 0.4,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 22,
+        "capitulo": "La ola",
+        "texto": "Llega Jógmanei, la Nochevieja escocesa, con dos casas de luto en Brésclet. Empieza oficialmente el siglo veinte, y los tres fareros se perdieron en las dos últimas semanas del diecinueve.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.25
+            },
+            {
+              "tipo": "casa",
+              "x": -0.7,
+              "escala": 0.8
+            },
+            {
+              "tipo": "roca",
+              "x": 1.35
+            },
+            {
+              "tipo": "isla-faro",
+              "x": 1.1,
+              "escala": 0.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "angus",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 30,
+        "corte": true,
+        "texto": "El martes ocho de enero, Miúrjed firma su informe. Tras examinar el embarcadero, los cabos y las barandillas, escribe que es de la opinión de que la explicación más probable es una ola.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "papel",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.2
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.15
+            },
+            {
+              "tipo": "📜",
+              "x": 0.15,
+              "escala": 0.4
+            },
+            {
+              "tipo": "chimenea",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "muirhead",
+            "x": -0.3,
+            "accion": "escribir",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "✒️"
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Soy de la opinión de que la explicación más probable de la desaparición de los hombres es…",
+          "firma": "Robert Muirhead, informe del 8 de enero de 1901"
+        }
+      },
+      {
+        "dia": 30,
+        "texto": "Según él, la tarde del quince los tres estaban en el embarcadero oeste asegurando la caja y los cabos, y una ola inesperadamente grande subió por la roca y se los llevó.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "isla",
+          "hora": "atardecer",
+          "clima": "tormenta",
+          "props": [
+            {
+              "tipo": "embarcadero",
+              "x": 0.0,
+              "escala": 1.15
+            },
+            {
+              "tipo": "ola",
+              "x": 0.3,
+              "escala": 1.2
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "general"
+      },
+      {
+        "dia": 30,
+        "texto": "Esto es lo que consta, pero es una deducción, no un testimonio: nadie vio esa ola. Lo que sí explica es la caja arrancada, las barandillas dobladas y la hierba levantada.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "isla",
+          "hora": "dia",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "embarcadero-roto",
+              "x": 0.1,
+              "escala": 1.15
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "dia": 30,
+        "corte": true,
+        "texto": "Hay además una variante razonable. Diúcat y Márshal bajan, algo va mal, y Macártur corre a ayudarlos sin coger el impermeable. Así se entiende que el suyo siguiera colgado.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "isla",
+          "hora": "atardecer",
+          "clima": "tormenta",
+          "props": [
+            {
+              "tipo": "faro-apagado",
+              "x": -1.1,
+              "escala": 1.1
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "macarthur",
+            "x": 0.0,
+            "accion": "correr",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false,
+            "sale": "der"
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 30,
+        "texto": "El embarcadero oeste está en una grieta estrecha de la roca, y con mar de fondo el agua puede subir por ella de golpe. Aun así, nadie sabe con certeza qué pasó.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "isla",
+          "hora": "atardecer",
+          "clima": "tormenta",
+          "props": [
+            {
+              "tipo": "embarcadero",
+              "x": 0.0,
+              "escala": 1.15
+            },
+            {
+              "tipo": "ola",
+              "x": 0.3,
+              "escala": 1.4
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "subir"
+      },
+      {
+        "texto": "Los fantasmas y la comida sin tocar no salen de los papeles. La mesa servida, la silla volcada y los pájaros negros vienen de una balada de mil novecientos doce, del poeta Uílfrid Guíbson.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.2
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.15
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.3,
+              "escala": 0.3
+            },
+            {
+              "tipo": "cuadro",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "poeta",
+            "x": -0.3,
+            "accion": "escribir",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "✒️"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Mur escribió que la cocina estaba limpia y recogida. La comida sin tocar es poesía, no historia, aunque desde entonces todo el mundo la repite.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "chimenea-apagada",
+              "x": -1.15
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "reloj-parado",
+              "x": 1.2
+            },
+            {
+              "tipo": "perchero",
+              "x": 0.75
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "corte": true,
+        "texto": "Peor es lo del diario. En mil novecientos sesenta y cinco, el escritor Vínsent Gádis publica unas anotaciones atribuidas a Márshal: una tormenta nunca vista, un compañero que llora, otro que reza.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.2
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.15
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.3,
+              "escala": 0.3
+            },
+            {
+              "tipo": "cuadro",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "escritor",
+            "x": 0.3,
+            "accion": "escribir",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "✒️"
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1965",
+          "etiqueta": "primera vez que se imprimen las falsas anotaciones del diario, 65 años después",
+          "icono": "📖"
+        }
+      },
+      {
+        "texto": "Esas anotaciones son falsas. El libro real termina el trece de diciembre y la pizarra solo habla del tiempo. El investigador Maic Dash buscó en los papeles de la época y no encontró ni una línea.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "pizarra",
+              "x": -0.95
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.2
+            },
+            {
+              "tipo": "📖",
+              "x": 0.2,
+              "escala": 0.45
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Tampoco es verdad que aquellos días hubiera calma. Hubo temporal, y el mar dejó su firma en el embarcadero oeste, a treinta y tres metros de altura.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "isla",
+          "hora": "dia",
+          "clima": "tormenta",
+          "props": [
+            {
+              "tipo": "embarcadero-roto",
+              "x": 0.1,
+              "escala": 1.15
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "corte": true,
+        "texto": "Lo real es más triste. En mil novecientos uno, la viuda de Diúcat y sus hijos recibieron una pensión; la de Macártur, solo gratificaciones, porque su marido era sustituto.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.25
+            },
+            {
+              "tipo": "casa",
+              "x": -0.7,
+              "escala": 0.8
+            },
+            {
+              "tipo": "roca",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "mujer",
+            "x": 0.35,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Nunca se encontró a ninguno de los tres. En mil novecientos setenta y uno el faro se automatizó, y desde entonces nadie vive en Élan Mor.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "isla-faro",
+              "x": 0.0,
+              "escala": 1.25
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "0",
+          "etiqueta": "cuerpos encontrados. Tres hombres desaparecidos y un impermeable colgado",
+          "icono": "🧥"
+        }
+      },
+      {
+        "texto": "En Brésclet, frente al mar, un memorial los recuerda. Yo, Ángus, nunca existí. Yeims Diúcat, Tómas Márshal, Dónald Macártur, Yósef Mur, el capitán Járvi y Róbert Miúrjed, sí.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.25
+            },
+            {
+              "tipo": "casa",
+              "x": -0.7,
+              "escala": 0.8
+            },
+            {
+              "tipo": "roca",
+              "x": 1.35
+            },
+            {
+              "tipo": "isla-faro",
+              "x": 1.1,
+              "escala": 0.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "angus",
+            "x": 0.2,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "¿Qué crees tú que pasó en el embarcadero oeste? Déjalo en los comentarios, y suscríbete: el próximo mes ya está esperando en el muelle.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "angus",
+            "x": 0.0,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "general"
+      }
+    ]
+  },
+  "publicacion": {
+    "tituloLargo": "Un mes en la vida de UN MARINERO DEL HESPERUS (Escocia, 1900) | Los fareros desaparecidos de las islas Flannan",
+    "tituloCorto": "El faro vacío de las islas Flannan",
+    "capituloInicial": "El faro vacío",
+    "descripcion": "Treinta días a bordo del Hesperus, el buque de la Junta de los Faros del Norte (Northern Lighthouse Board), del 10 de diciembre de 1900 al 8 de enero de 1901: el faro nuevo de Eilean Mòr, en las islas Flannan (Hébridas Exteriores, Escocia), la última anotación de la pizarra el 15 de diciembre, las once noches con la luz apagada, el temporal que retrasó el relevo y el 26 de diciembre, cuando Joseph Moore subió solo a la isla y no encontró a nadie. Un reloj parado, la lámpara lista, un impermeable colgado, el embarcadero oeste destrozado y la conclusión del superintendente Robert Muirhead.\n\n— Semana 1: La luz de los Siete Cazadores\n— Semana 2: El relevo que no salió\n— Semana 3: La verja cerrada\n— Semana 4: La ola\n— Epílogo: pensiones, el poema de 1912, las falsas anotaciones de 1965 y la automatización de 1971\n\nQué es documentado, qué es razonable y qué es inventado:\n· DOCUMENTADO (telegrama del capitán Harvie, carta de Joseph Moore del 28 de diciembre e informe de Robert Muirhead del 8 de enero de 1901): el registro hasta el 13 de diciembre y la pizarra hasta las 9 de la mañana del 15; la lámpara limpia y lista; el faro apagado esa noche (lo vio el vapor Archtor); el relevo previsto el 20 y retrasado por el temporal; la verja y la puerta cerradas, el reloj parado, el fuego frío, la cocina limpia; las botas de agua y los impermeables de Ducat y Marshall desaparecidos y el de MacArthur colgado; las barandillas arrancadas y la caja de cabos desaparecida en el embarcadero oeste. La explicación oficial (una ola inesperadamente grande en el embarcadero oeste) es una deducción de Muirhead: nadie la vio.\n· RAZONABLE, NO DEMOSTRADO: que dos bajaran al embarcadero y el tercero saliera corriendo a ayudarlos; que el agua subiera de golpe por la grieta de la roca.\n· INVENTADO DESPUÉS: la comida sin tocar, la silla volcada y los pájaros negros (balada \"Flannan Isle\" de Wilfrid Wilson Gibson, 1912) y las anotaciones del diario sobre tormentas, llantos y oraciones (publicadas por Vincent Gaddis en 1965; no existen en los registros). Tampoco hubo \"calma\": hubo temporal.\n\nAVISO: el narrador, Angus, marinero del Hesperus, es un personaje INVENTADO y no sustituye a ningún tripulante real; sus pensamientos y su familia son imaginados. James Ducat, Thomas Marshall, Donald MacArthur, William Ross, Joseph Moore, el capitán James Harvie y Robert Muirhead son reales, igual que las fechas. Los tripulantes que se quedaron en la isla con Moore no tienen nombre en el vídeo porque sus nombres no están verificados. Su aspecto es imaginado.\n\nEn memoria de James Ducat, Thomas Marshall y Donald MacArthur, y de sus familias.\n\nFuentes: Northern Lighthouse Board (historia del faro de Flannan Isles); National Records of Scotland (guías de investigación y blog \"Though three men dwell on Flannan Isle\", fondo NLC3/1/1); ScotlandsPeople (registros de fareros 1837-1921); Canmore (Historic Environment Scotland); Hansard (1896); reglamento de 1847 de los Comisionados de los Faros del Norte; Press and Journal y The Courier; STV; The Scotsman; Historic UK (telegrama); Skeptoid (episodio 610); Mike Dash (Fortean Studies) sobre el origen de las falsas anotaciones; Hebridean Connections (el poema de Gibson).",
+    "etiquetas": [
+      "un mes en la vida de",
+      "islas Flannan",
+      "Eilean Mor",
+      "fareros desaparecidos",
+      "misterios sin resolver",
+      "1900",
+      "Escocia",
+      "Hébridas",
+      "faro",
+      "historia del mar",
+      "misterio",
+      "historia"
+    ],
+    "miniatura": {
+      "texto": "NADIE EN EL FARO",
+      "escena": 30,
+      "quien": "angus",
+      "emocion": "miedo",
+      "prop": "faro-apagado"
+    },
+    "shorts": []
+  }
+}

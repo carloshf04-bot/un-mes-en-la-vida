@@ -146,22 +146,6 @@
       "altura": 1,
       "zapatos": "#3a2a1e"
     },
-    "maestro": {
-      "piel": "#e0b48c",
-      "pelo": "#6a6460",
-      "peinado": "coronilla",
-      "barba": "bigote",
-      "ropa": {
-        "tipo": "bata",
-        "color": "#3a3a40",
-        "color2": "#2e2e34",
-        "detalle": "#e8e2d4"
-      },
-      "sombrero": "ninguno",
-      "gafas": true,
-      "altura": 1,
-      "zapatos": "#1a1a1e"
-    },
     "telegrafista": {
       "piel": "#d8a880",
       "pelo": "#2a2018",
@@ -304,7 +288,7 @@
     "escenas": [
       {
         "corte": true,
-        "texto": "La última noche de la vieja Mesina, en el gran teatro daban Aída. Yo la escuché desde los escalones de la puerta, con diez años y los pies helados. Unas horas después, en treinta y siete segundos, mi ciudad se vino abajo.",
+        "texto": "La última noche de la vieja Mesina, en el gran teatro daban Aída. Yo la escuché desde la puerta, con diez años. Horas después, en treinta y siete segundos, mi ciudad se vino abajo.",
         "drama": 0.85,
         "fondo": {
           "lugar": "calle",
@@ -343,7 +327,7 @@
         "camara": "lenta"
       },
       {
-        "texto": "Me llamo Nino Arena. Hoy tengo sesenta años y miro el mismo estrecho desde una Mesina nueva. Hay cosas que un niño no recuerda, y otras que un viejo prefiere contar despacio.",
+        "texto": "Me llamo Nino Arena. Hoy tengo sesenta años y miro el mismo estrecho desde una Mesina nueva. Hay cosas que un viejo prefiere contar despacio.",
         "drama": 0.5,
         "fondo": {
           "lugar": "rio",
@@ -389,25 +373,9 @@
         }
       },
       {
-        "texto": "Esta es la historia del último mes de mi vieja ciudad, de mediados de diciembre de mil novecientos ocho a mediados de enero. La cuento por los que ya no pueden contarla.",
-        "drama": 0.55,
-        "personajes": [
-          {
-            "quien": "nino_viejo",
-            "x": 0.35,
-            "accion": "pensar",
-            "emocion": "triste",
-            "mirar": -1,
-            "habla": false
-          }
-        ],
-        "camara": "lenta"
-      },
-      {
         "dia": 1,
         "capitulo": "La ciudad de los limones",
-        "corte": true,
-        "texto": "Es martes, quince de diciembre. Desde el muelle, Calabria parece tan cerca que se podría tocar. Mesina abraza su puerto con forma de hoz, y por eso los griegos la llamaron Zancle, que significa hoz.",
+        "texto": "Es martes, quince de diciembre de mil novecientos ocho. Desde el puerto, que tiene forma de hoz, Calabria parece tan cerca que se podría tocar.",
         "drama": 0.55,
         "fondo": {
           "lugar": "rio",
@@ -454,7 +422,7 @@
       },
       {
         "dia": 1,
-        "texto": "Por las mañanas voy a la escuela, que es obligatoria hasta los doce años. Por las tardes cargo cestas de limones en el muelle a cambio de unas monedas. El olor se me queda en las manos toda la noche.",
+        "texto": "Por las mañanas voy a la escuela, obligatoria hasta los doce años, y por las tardes cargo cestas de limones en el muelle.",
         "drama": 0.5,
         "personajes": [
           {
@@ -471,7 +439,8 @@
       },
       {
         "dia": 2,
-        "texto": "Mi padre, Turi, es estibador. Carga cajas de naranjas y limones en los vapores que van al norte de Europa y a América. Gana dos o tres liras al día, cuando hay trabajo.",
+        "corte": true,
+        "texto": "Mi padre, Turi, es estibador. Carga naranjas y limones en los vapores que van al norte de Europa y a América, por dos o tres liras al día.",
         "drama": 0.5,
         "fondo": {
           "lugar": "rio",
@@ -531,33 +500,8 @@
         }
       },
       {
-        "dia": 2,
-        "texto": "En el puerto se oyen otras lenguas: ingleses, alemanes y suizos tienen aquí sus almacenes. Y por el estrecho cruza el transbordador, que lleva trenes enteros de una orilla a la otra.",
-        "drama": 0.5,
-        "personajes": [
-          {
-            "quien": "turi",
-            "x": -0.3,
-            "accion": "senalar",
-            "emocion": "neutral",
-            "mirar": 1,
-            "habla": false
-          },
-          {
-            "quien": "nino",
-            "x": 0.35,
-            "accion": "quieto",
-            "emocion": "sorpresa",
-            "mirar": -1,
-            "habla": false
-          }
-        ],
-        "camara": "paneo"
-      },
-      {
         "dia": 3,
-        "corte": true,
-        "texto": "Mi madre, Carmela, trabaja en un taller de esencias. Raspa cáscaras de limón y de bergamota, y de ese aceite salen perfumes y licores para medio mundo.",
+        "texto": "Mi madre, Carmela, raspa cáscaras de limón y de bergamota en un taller de esencias. De ese aceite salen perfumes y licores para medio mundo.",
         "drama": 0.5,
         "fondo": {
           "lugar": "interior",
@@ -616,7 +560,7 @@
       },
       {
         "dia": 3,
-        "texto": "Mi hermana Lía tiene seis años y una cinta roja en el pelo. Me sigue a todas partes. Mi madre siempre me repite lo mismo: Nino, no le sueltes la mano.",
+        "texto": "Mi hermana Lía tiene seis años y una cinta roja en el pelo. Me sigue a todas partes, y mi madre siempre me repite: Nino, no le sueltes la mano.",
         "drama": 0.55,
         "fondo": {
           "lugar": "calle",
@@ -660,7 +604,7 @@
       },
       {
         "dia": 4,
-        "texto": "En casa manda la abuela Santa, que tiene sesenta y seis años. El día de Santa Lucía no comimos pan ni pasta, solo cuchía: trigo cocido con ricota y miel.",
+        "texto": "En casa manda la abuela Santa. Por Santa Lucía no comimos pan ni pasta, solo cuchía: trigo cocido con ricota y miel.",
         "drama": 0.5,
         "fondo": {
           "lugar": "interior",
@@ -745,7 +689,8 @@
       },
       {
         "dia": 5,
-        "texto": "Cuando tiembla un vaso, la abuela cuenta lo que le contó su abuela: el terremoto que tiró la ciudad en mil setecientos ochenta y tres. Y siempre acaba igual: si un día el mar se retira, no miréis, corred hacia el monte.",
+        "corte": true,
+        "texto": "Cuando tiembla un vaso, la abuela recuerda el terremoto de mil setecientos ochenta y tres, que le contó su abuela. Y siempre acaba igual: si el mar se retira, corred al monte.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -798,8 +743,7 @@
       },
       {
         "dia": 5,
-        "corte": true,
-        "texto": "El miércoles empezó la novena de Navidad. Bajan de los montes los gaiteros y tocan delante de los altarcitos de las esquinas. Lía baila aunque nadie más baile.",
+        "texto": "Es la novena de Navidad. Los gaiteros bajan de los montes y tocan delante de los altarcitos de las esquinas. Lía baila aunque nadie más baile.",
         "drama": 0.5,
         "fondo": {
           "lugar": "calle",
@@ -862,7 +806,7 @@
       },
       {
         "dia": 6,
-        "texto": "En casa montamos la cona: un altarcito de ramas verdes con naranjas, limones y dulces. Cada noche de la novena rezamos delante, con una vela encendida.",
+        "texto": "En casa montamos la cona: ramas verdes con naranjas, limones y dulces. Cada noche de la novena rezamos delante, con una vela encendida.",
         "drama": 0.5,
         "fondo": {
           "lugar": "interior",
@@ -945,7 +889,7 @@
       },
       {
         "dia": 6,
-        "texto": "El domingo paseamos por la Palatsata, la larga fila de palacios que cierra el puerto como una muralla. Es lo primero que ven los barcos al llegar a Mesina.",
+        "texto": "El domingo paseamos por la Palatsata, la fila de palacios que cierra el puerto como una muralla. Es lo primero que ven los barcos al llegar.",
         "drama": 0.5,
         "fondo": {
           "lugar": "calle",
@@ -1008,7 +952,8 @@
       },
       {
         "dia": 7,
-        "texto": "Mi ciudad tiene casi ciento cincuenta mil almas. Casas altas de piedra, con balcones de hierro y tejados pesados. Nadie piensa en lo que pesan.",
+        "corte": true,
+        "texto": "Mi ciudad tiene casi ciento cincuenta mil almas, en casas altas de piedra con balcones de hierro y tejados pesados. Nadie piensa en lo que pesan.",
         "drama": 0.6,
         "fondo": {
           "lugar": "calle",
@@ -1045,62 +990,7 @@
       {
         "dia": 8,
         "capitulo": "La última Navidad",
-        "corte": true,
-        "texto": "El martes, último día de escuela, el maestro nos manda a casa con deberes que nadie hará. Yo solo pienso en los dulces de la abuela.",
-        "drama": 0.5,
-        "fondo": {
-          "lugar": "interior",
-          "hora": "dia",
-          "pared": "ladrillo",
-          "ventana": true,
-          "props": [
-            {
-              "tipo": "estanteria",
-              "x": -1.2
-            },
-            {
-              "tipo": "mesa",
-              "x": -0.1
-            },
-            {
-              "tipo": "📖",
-              "x": -0.1,
-              "escala": 0.25
-            },
-            {
-              "tipo": "reloj",
-              "x": 1.1
-            },
-            {
-              "tipo": "cuadro",
-              "x": 0.6
-            }
-          ]
-        },
-        "personajes": [
-          {
-            "quien": "maestro",
-            "x": -0.35,
-            "accion": "hablar",
-            "emocion": "neutral",
-            "mirar": 1,
-            "habla": false,
-            "objeto": "📖"
-          },
-          {
-            "quien": "nino",
-            "x": 0.4,
-            "accion": "sentado",
-            "emocion": "feliz",
-            "mirar": -1,
-            "habla": false
-          }
-        ],
-        "camara": "general"
-      },
-      {
-        "dia": 9,
-        "texto": "La abuela fríe la piñolata: bolitas de masa amontonadas como una piña, mitad cubiertas de chocolate y mitad de limón. Lía y yo vigilamos la fuente como dos gatos.",
+        "texto": "La abuela fríe la piñolata: bolitas de masa amontonadas como una piña, mitad con chocolate y mitad con limón. Lía y yo vigilamos la fuente como dos gatos.",
         "drama": 0.5,
         "fondo": {
           "lugar": "interior",
@@ -1163,7 +1053,7 @@
       },
       {
         "dia": 10,
-        "texto": "En Nochebuena no se come carne. Mi madre prepara peshestoco: bacalao seco con tomate, aceitunas y patatas. Aquí dicen que el siroco, la mala suerte y el peshestoco nunca faltan en Mesina.",
+        "texto": "En Nochebuena no se come carne. Mi madre guisa peshestoco, bacalao seco con tomate y aceitunas. Aquí dicen que el siroco, la mala suerte y el peshestoco nunca faltan.",
         "drama": 0.5,
         "fondo": {
           "lugar": "interior",
@@ -1238,8 +1128,7 @@
       },
       {
         "dia": 11,
-        "corte": true,
-        "texto": "El día de Navidad, mi padre me regala una brújula vieja de latón. Le digo que algún día mandaré un barco. Se ríe y me contesta que primero aprenda a nadar.",
+        "texto": "Por Navidad, mi padre me regala una brújula vieja de latón. Le digo que algún día mandaré un barco, y él se ríe: primero aprende a nadar.",
         "drama": 0.5,
         "personajes": [
           {
@@ -1264,7 +1153,8 @@
       },
       {
         "dia": 13,
-        "texto": "Es domingo, veintisiete. En el gran teatro dan Aída, de Verdi. No tengo para una entrada, así que me siento en los escalones de fuera, con la oreja pegada a la puerta.",
+        "corte": true,
+        "texto": "Es domingo, veintisiete. En el gran teatro dan Aída, de Verdi. Sin dinero para la entrada, escucho en los escalones de fuera.",
         "drama": 0.55,
         "fondo": {
           "lugar": "calle",
@@ -1310,7 +1200,7 @@
       },
       {
         "dia": 13,
-        "texto": "Oigo las trompetas de la marcha triunfal y me vuelvo a casa tarareándola, pasada la medianoche. La abuela me espera despierta y me riñe en voz baja. Es la última vez que oigo su voz.",
+        "texto": "Vuelvo pasada la medianoche, tarareando la marcha triunfal. La abuela me espera despierta y me riñe en voz baja. Es la última vez que oigo su voz.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -1364,8 +1254,7 @@
       },
       {
         "dia": 14,
-        "corte": true,
-        "texto": "Son las cinco y veinte de la madrugada del lunes, veintiocho de diciembre. Recuerdo la lluvia en los cristales. Después, un ruido que sube de debajo de la tierra, como un tren que no se acaba.",
+        "texto": "Son las cinco y veinte de la madrugada del lunes, veintiocho de diciembre. Recuerdo la lluvia en los cristales y, después, un ruido que sube de debajo de la tierra.",
         "drama": 0.85,
         "fondo": {
           "lugar": "interior",
@@ -1404,7 +1293,7 @@
       },
       {
         "dia": 14,
-        "texto": "La tierra se sacude dos o tres veces, y la última es la peor. Treinta y siete segundos. Una ciudad de más de dos mil años cae en menos tiempo del que tardo en contarlo.",
+        "texto": "La tierra se sacude dos o tres veces, la última más fuerte. Treinta y siete segundos. Una ciudad de más de dos mil años cae en menos de lo que tardo en contarlo.",
         "drama": 0.9,
         "fondo": {
           "lugar": "calle",
@@ -1442,7 +1331,8 @@
       },
       {
         "dia": 14,
-        "texto": "Mi madre nos saca a tientas por la escalera, que aguanta de milagro. Lía va en sus brazos y yo, agarrado a su falda. En la calle no se ve nada: solo polvo y lluvia.",
+        "corte": true,
+        "texto": "Mi madre nos saca a tientas por la escalera, que aguanta de milagro, con Lía en brazos y yo agarrado a su falda. En la calle solo hay polvo y lluvia.",
         "drama": 0.85,
         "fondo": {
           "lugar": "calle",
@@ -1495,7 +1385,6 @@
       },
       {
         "dia": 14,
-        "corte": true,
         "texto": "La abuela dormía en el cuarto del fondo. Esa parte de la casa ya no estaba. Mi madre la llamó hasta quedarse sin voz, y yo no quise entender.",
         "drama": 0.75,
         "personajes": [
@@ -1520,7 +1409,7 @@
       },
       {
         "dia": 14,
-        "texto": "Mucha gente corre hacia la orilla, lejos de las paredes. Entonces alguien grita que el mar se está retirando. Mi madre se acuerda de la abuela y tira de nosotros cuesta arriba.",
+        "texto": "Mucha gente corre hacia la orilla, lejos de las paredes. Alguien grita que el mar se retira, y los mayores saben lo que eso significa. Mi madre se acuerda de la abuela y tira de nosotros cuesta arriba.",
         "drama": 0.85,
         "fondo": {
           "lugar": "campo",
@@ -1578,7 +1467,8 @@
       },
       {
         "dia": 14,
-        "texto": "Unos minutos después, el mar volvió. En algunas playas de Calabria subió más alto que una casa de cuatro pisos. Aquella madrugada, la abuela nos salvó con un cuento.",
+        "corte": true,
+        "texto": "Minutos después, el mar volvió. En algunas playas de Calabria subió más que una casa de cuatro pisos. Aquella madrugada, la abuela nos salvó con un cuento.",
         "drama": 0.85,
         "fondo": {
           "lugar": "rio",
@@ -1613,8 +1503,7 @@
       },
       {
         "dia": 14,
-        "corte": true,
-        "texto": "Mi padre había salido antes del alba hacia el muelle. Desde el monte, bajo la lluvia, miro el puerto y no sé si él sigue en alguna parte.",
+        "texto": "Mi padre había salido antes del alba hacia el muelle. Desde el monte, bajo la lluvia, miro el puerto y no sé si sigue en alguna parte.",
         "drama": 0.75,
         "fondo": {
           "lugar": "campo",
@@ -1671,7 +1560,7 @@
       },
       {
         "dia": 14,
-        "texto": "El telégrafo de la ciudad había quedado mudo. Unos hombres caminaron cerca de tres horas hasta Escaleta para mandar la noticia. Dicen que el mensaje decía solo dos palabras.",
+        "texto": "El telégrafo de la ciudad está mudo. Unos hombres caminan unas tres horas hasta Escaleta para avisar a Italia. Dicen que el mensaje decía solo esto: Mesina destruida.",
         "drama": 0.75,
         "fondo": {
           "lugar": "campo",
@@ -1715,13 +1604,7 @@
             "habla": false
           }
         ],
-        "camara": "paneo"
-      },
-      {
-        "dia": 14,
-        "texto": "Mesina destruida. En Roma, al principio, nadie lo entendió. Hasta la tarde no llegó al Gobierno el primer aviso, desde un torpedero en la costa de Calabria.",
-        "drama": 0.8,
-        "personajes": [],
+        "camara": "paneo",
         "insercion": {
           "tipo": "cita",
           "frase": "Messina distrutta.",
@@ -1731,8 +1614,7 @@
       {
         "dia": 15,
         "capitulo": "Los marineros de lejos",
-        "corte": true,
-        "texto": "Es martes, veintinueve, y amanece. Desde el monte vemos entrar en el estrecho unos barcos grises con humo en las chimeneas. Nadie sabe quién los ha llamado.",
+        "texto": "Al amanecer del martes vemos entrar en el estrecho unos barcos grises, con humo en las chimeneas. Nadie sabe quién los ha llamado.",
         "drama": 0.7,
         "fondo": {
           "lugar": "rio",
@@ -1783,7 +1665,8 @@
       },
       {
         "dia": 15,
-        "texto": "Son rusos: una escuadra que hacía prácticas con cadetes en Augusta, al sur. Su almirante, Litvínof, los mandó venir a toda máquina. La misma mañana llegan los ingleses de Malta.",
+        "corte": true,
+        "texto": "Son rusos: una escuadra que hacía prácticas en Augusta, al sur. Su almirante, Litvínof, los mandó venir a toda máquina. La misma mañana llegan los ingleses de Malta.",
         "drama": 0.7,
         "personajes": [],
         "camara": "lenta",
@@ -1796,7 +1679,7 @@
       },
       {
         "dia": 15,
-        "texto": "Los marineros rusos bajan a tierra con picos y palas y cavan entre las piedras sin descansar. Los ingleses también cavan, curan y reparten comida.",
+        "texto": "Los marineros rusos bajan a tierra y cavan entre las piedras sin descanso. Los ingleses también cavan, curan y reparten comida.",
         "drama": 0.75,
         "fondo": {
           "lugar": "campo",
@@ -1855,7 +1738,6 @@
       },
       {
         "dia": 15,
-        "corte": true,
         "texto": "Un marinero ruso, con su gorra blanca, se agacha y me da su pan. No entiendo lo que dice, pero entiendo sus ojos. Lía se come la mitad.",
         "drama": 0.6,
         "personajes": [
@@ -1889,7 +1771,7 @@
       },
       {
         "dia": 15,
-        "texto": "Dicen que rescataron a más de mil personas. Algunos de aquellos marineros murieron después, cuando las réplicas tiraron lo que aún quedaba en pie. En Mesina, a los rusos los llamamos ángeles.",
+        "texto": "Dicen que salvaron a más de mil personas. Algunos murieron en las réplicas, que tiraron lo que quedaba en pie. En Mesina los llamamos ángeles.",
         "drama": 0.7,
         "personajes": [
           {
@@ -1919,7 +1801,8 @@
       },
       {
         "dia": 16,
-        "texto": "El miércoles llega el rey Víctor Manuel tercero en un acorazado, y con él la reina Elena. El rey recorre las ruinas. Mi madre baja cada día al puerto a preguntar por mi padre.",
+        "corte": true,
+        "texto": "El miércoles llegan el rey Víctor Manuel tercero y la reina Elena. Mi madre baja cada día al puerto a preguntar por mi padre, y nadie lo ha visto.",
         "drama": 0.6,
         "fondo": {
           "lugar": "rio",
@@ -1976,8 +1859,7 @@
       },
       {
         "dia": 16,
-        "corte": true,
-        "texto": "La reina se pone un delantal y cuida a los heridos en un barco, como una enfermera más. Yo la vi de lejos, desde el muelle, y no me pareció una reina.",
+        "texto": "La reina se pone un delantal y cuida a los heridos en un barco, como una enfermera más. Yo la vi de lejos, desde el muelle.",
         "drama": 0.6,
         "personajes": [
           {
@@ -2002,7 +1884,7 @@
       },
       {
         "dia": 17,
-        "texto": "El jueves llueve y la tierra no deja de temblar. Los barcos se llevan a mujeres, niños y heridos a Nápoles, Palermo y Catania. En la playa hay una cola enorme hacia los botes.",
+        "texto": "El jueves llueve y la tierra sigue temblando. Los barcos llevan a mujeres, niños y heridos a Nápoles, Palermo y Catania, y en la playa todos empujan hacia los botes.",
         "drama": 0.75,
         "fondo": {
           "lugar": "playa",
@@ -2064,7 +1946,7 @@
       },
       {
         "dia": 17,
-        "texto": "En un empujón, la gente nos separa. Mi madre acaba en un bote lleno, y nosotros dos en la arena. El bote se aleja y ella grita lo único que importa: no le sueltes la mano.",
+        "texto": "En un empujón nos separan. Mi madre acaba en un bote lleno, y nosotros dos en la arena. El bote se aleja y ella grita: no le sueltes la mano.",
         "drama": 0.85,
         "personajes": [
           {
@@ -2089,7 +1971,7 @@
       {
         "dia": 18,
         "corte": true,
-        "texto": "El siguiente bote no llegó aquella noche. Empezamos mil novecientos nueve bajo una lona, con Lía dormida en mis rodillas. Un vecino nos da una naranja. Nadie dice feliz año.",
+        "texto": "El siguiente bote no llegó. Empezamos mil novecientos nueve bajo una lona, con Lía dormida en mis rodillas. Un vecino nos da una naranja, y nadie dice feliz año.",
         "drama": 0.65,
         "fondo": {
           "lugar": "campo",
@@ -2147,7 +2029,7 @@
       },
       {
         "dia": 19,
-        "texto": "El sábado dos de enero, el Gobierno declara el estado de sitio. Manda un general con plenos poderes y hay soldados en cada esquina.",
+        "texto": "El sábado dos de enero declaran el estado de sitio. Manda un general con plenos poderes, y hay soldados en cada esquina.",
         "drama": 0.6,
         "fondo": {
           "lugar": "campo",
@@ -2213,7 +2095,7 @@
       },
       {
         "dia": 20,
-        "texto": "El domingo llega el primer barco americano, un cañonero. Detrás vendrán otros, cargados de víveres y medicinas, de una flota blanca que daba la vuelta al mundo.",
+        "texto": "El domingo llega el primer barco americano, un cañonero. Detrás vendrán otros de la misma flota, cargados de víveres y medicinas.",
         "drama": 0.55,
         "fondo": {
           "lugar": "rio",
@@ -2263,7 +2145,6 @@
       },
       {
         "dia": 21,
-        "corte": true,
         "texto": "Un señor con libreta nos pregunta el nombre. Arena, Antonino, diez años. Arena, Rosalía, seis años. Durante días fuimos solo eso: dos nombres en una lista.",
         "drama": 0.7,
         "fondo": {
@@ -2327,7 +2208,7 @@
         "dia": 22,
         "capitulo": "Los niños de las listas",
         "corte": true,
-        "texto": "Pasan los días y siguen sacando gente viva de entre las piedras. Diez días después del terremoto, un periódico cuenta diez rescatados en Mesina en una sola jornada. Cada vez que alguien grita, todos corremos a mirar.",
+        "texto": "Siguen sacando gente viva de entre las piedras. Un periódico contará diez rescatados en Mesina en un solo día, diez días después del terremoto. Cuando alguien grita, corremos a mirar.",
         "drama": 0.7,
         "fondo": {
           "lugar": "campo",
@@ -2384,7 +2265,7 @@
       },
       {
         "dia": 24,
-        "texto": "El jueves siete estoy en la cola del pan cuando alguien dice mi nombre como solo lo dice una persona. Me doy la vuelta. Es mi padre.",
+        "texto": "El jueves siete estoy en la cola del pan cuando alguien dice mi nombre como solo lo dice una persona. Me doy la vuelta, y es mi padre.",
         "drama": 0.8,
         "fondo": {
           "lugar": "campo",
@@ -2445,7 +2326,7 @@
       },
       {
         "dia": 24,
-        "texto": "Había leído nuestros nombres en una de las listas. Lía se le sube encima. Y yo, por primera vez en una semana, le suelto la mano.",
+        "texto": "Había leído nuestros nombres en una lista. Lía se le sube encima. Y yo, por primera vez en una semana, le suelto la mano.",
         "drama": 0.7,
         "personajes": [
           {
@@ -2478,8 +2359,7 @@
       },
       {
         "dia": 25,
-        "corte": true,
-        "texto": "Aquella madrugada, mi padre estaba en el muelle. Lo que vio allí lo contó una sola vez, muchos años después. Yo no se lo voy a contar a nadie.",
+        "texto": "Aquella madrugada, mi padre estaba en el muelle. Lo que vio allí lo contó una sola vez, muchos años después.",
         "drama": 0.6,
         "fondo": {
           "lugar": "interior",
@@ -2528,7 +2408,8 @@
       },
       {
         "dia": 25,
-        "texto": "Fue a lo que quedaba de nuestra casa. Volvió callado, con la cuchara de palo de la abuela, la de remover la cuchía. Todavía la guardo en mi cocina.",
+        "corte": true,
+        "texto": "Mi padre fue a lo que quedaba de nuestra casa y volvió callado, con la cuchara de palo de la abuela, la de la cuchía. Todavía la guardo.",
         "drama": 0.65,
         "personajes": [
           {
@@ -2606,8 +2487,7 @@
       },
       {
         "dia": 26,
-        "corte": true,
-        "texto": "Ahora buscamos a mi madre. Cada día leemos las listas de evacuados que llegan de Nápoles, de Palermo y de Catania. Mi padre pasa el dedo por los nombres, línea a línea.",
+        "texto": "Ahora buscamos a mi madre en las listas de evacuados que llegan de Nápoles, Palermo y Catania. Mi padre pasa el dedo por cada nombre.",
         "drama": 0.6,
         "fondo": {
           "lugar": "campo",
@@ -2660,7 +2540,7 @@
       },
       {
         "dia": 27,
-        "texto": "En el llano levantan las primeras barracas de madera. Mi padre se apunta a clavar tablas. Por fin hay trabajo, aunque sea para hacer casas pequeñas.",
+        "texto": "En el llano levantan las primeras barracas de madera, y mi padre se apunta a clavar tablas. Por fin hay trabajo, aunque sea para hacer casas pequeñas.",
         "drama": 0.55,
         "fondo": {
           "lugar": "campo",
@@ -2793,7 +2673,7 @@
       },
       {
         "dia": 30,
-        "texto": "El miércoles trece de enero, un vapor de Nápoles entra en el puerto con forma de hoz. En la pasarela, con su pañuelo rojo, está mi madre.",
+        "texto": "El miércoles trece, un vapor de Nápoles entra en el puerto con forma de hoz. En la pasarela, con su pañuelo rojo, está mi madre.",
         "drama": 0.7,
         "fondo": {
           "lugar": "rio",
@@ -2897,7 +2777,6 @@
         "camara": "cerca"
       },
       {
-        "corte": true,
         "texto": "Días después, todavía sacaron vivo de entre las piedras a un niño de nueve años. Los últimos supervivientes salieron casi tres semanas después del terremoto.",
         "drama": 0.65,
         "fondo": {
@@ -2944,7 +2823,8 @@
         }
       },
       {
-        "texto": "Nadie sabe cuántos murieron: el archivo con nuestros nombres también se perdió. En Mesina, entre cincuenta y cinco mil y ochenta mil personas. Casi la mitad de mi ciudad.",
+        "corte": true,
+        "texto": "Nadie sabe cuántos murieron, porque el archivo con nuestros nombres también se perdió. En Mesina, entre cincuenta y cinco mil y ochenta mil personas: casi la mitad de la ciudad.",
         "drama": 0.75,
         "fondo": {
           "lugar": "calle",
@@ -2981,7 +2861,7 @@
         }
       },
       {
-        "texto": "Al otro lado, en Réyio Calabria, unos quince mil más. Nueve de cada diez edificios de Mesina quedaron en ruinas. Fue la peor catástrofe natural de la Europa moderna.",
+        "texto": "Enfrente, en Réyio Calabria, murieron unos quince mil más. Y nueve de cada diez edificios de Mesina quedaron en ruinas. Fue la peor catástrofe natural de la Europa moderna.",
         "drama": 0.75,
         "fondo": {
           "lugar": "rio",
@@ -3015,8 +2895,7 @@
         }
       },
       {
-        "corte": true,
-        "texto": "Mesina volvió a levantarse, con calles anchas y casas bajas de hormigón armado, según el plan del ingeniero Borsí. Italia aprendió a construir pensando en la tierra que tiembla.",
+        "texto": "Mesina volvió a levantarse con calles anchas y casas bajas de hormigón armado, según el plan del ingeniero Borsí. Italia hizo su primer mapa de zonas sísmicas y aprendió a construir pensando en la tierra que tiembla.",
         "drama": 0.55,
         "fondo": {
           "lugar": "calle",
@@ -3054,7 +2933,8 @@
         "camara": "paneo"
       },
       {
-        "texto": "Las barracas eran para unos meses. Algunas, me temo, durarán más que yo. Yo me hice marinero, como soñaba, y cada vez que cruzo el estrecho busco unos barcos grises que ya no están.",
+        "corte": true,
+        "texto": "Las barracas eran para unos meses, y algunas durarán más que yo. Me hice marinero, como soñaba. Cuando cruzo el estrecho, todavía busco con la vista unos barcos grises que ya no están.",
         "drama": 0.6,
         "fondo": {
           "lugar": "rio",
@@ -3095,7 +2975,7 @@
         "camara": "lenta"
       },
       {
-        "texto": "Una aclaración: Nino Arena y su familia son inventados. El terremoto, el maremoto y los marineros que vinieron de lejos son reales. En dos mil doce, Mesina levantó un monumento a los marinos rusos.",
+        "texto": "Nino y su familia son inventados; el terremoto, el maremoto y los marineros que vinieron de lejos, no. En dos mil doce, Mesina levantó un monumento a los marinos rusos.",
         "drama": 0.55,
         "personajes": [
           {

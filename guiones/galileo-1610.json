@@ -1,0 +1,2808 @@
+{
+ "slug": "galileo-1610",
+ "titulo": "Galileo Galilei",
+ "lugar": "Padua, República de Venecia",
+ "epoca": "Diciembre de 1609 y enero de 1610",
+ "categoria": "persona",
+ "drama": 0.65,
+ "velocidad": 1.15,
+ "musica": "misterio",
+ "paleta": {
+  "acento": "#f2b544",
+  "texto": "#f5efe0",
+  "fondo": "#0c1424",
+  "papel": "#efe3c8"
+ },
+ "reparto": {
+  "galileo": {
+   "piel": "#e3b896",
+   "pelo": "#7a4a2e",
+   "peinado": "corto",
+   "barba": "corta",
+   "ropa": {
+    "tipo": "bata",
+    "color": "#1c1a1a",
+    "color2": "#2b2622",
+    "detalle": "#ece6d8"
+   },
+   "sombrero": "ninguno",
+   "gafas": false,
+   "zapatos": "#1e1814"
+  },
+  "galileotaller": {
+   "piel": "#e3b896",
+   "pelo": "#7a4a2e",
+   "peinado": "corto",
+   "barba": "corta",
+   "ropa": {
+    "tipo": "camisa",
+    "color": "#e8e1d2",
+    "color2": "#3a302a",
+    "detalle": "#6b4a30"
+   },
+   "sombrero": "ninguno",
+   "gafas": false,
+   "zapatos": "#2a1f18"
+  },
+  "galileonoche": {
+   "piel": "#e3b896",
+   "pelo": "#7a4a2e",
+   "peinado": "corto",
+   "barba": "corta",
+   "ropa": {
+    "tipo": "abrigo",
+    "color": "#3a2e2a",
+    "color2": "#2b2622",
+    "detalle": "#ece6d8"
+   },
+   "sombrero": "boina",
+   "colorSombrero": "#1c1a1a",
+   "gafas": false,
+   "zapatos": "#1e1814"
+  },
+  "galileoviejo": {
+   "piel": "#e0b898",
+   "pelo": "#a8a29a",
+   "peinado": "coronilla",
+   "barba": "corta",
+   "ropa": {
+    "tipo": "bata",
+    "color": "#1c1a1a",
+    "color2": "#2b2622",
+    "detalle": "#ece6d8"
+   },
+   "sombrero": "ninguno",
+   "gafas": false,
+   "zapatos": "#1e1814"
+  },
+  "marina": {
+   "piel": "#ecc8a8",
+   "pelo": "#3b2a1e",
+   "peinado": "mono",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "vestido",
+    "color": "#5a2a2a",
+    "color2": "#4a2222",
+    "detalle": "#d8cdb6"
+   },
+   "sombrero": "panuelo",
+   "colorSombrero": "#e8e0d0",
+   "zapatos": "#2a2220",
+   "voz": "narradora-es"
+  },
+  "virginia": {
+   "piel": "#f0d2b8",
+   "pelo": "#5a3a24",
+   "peinado": "trenzas",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "vestido",
+    "color": "#6a4a36",
+    "color2": "#5a3e2e",
+    "detalle": "#d8cdb6"
+   },
+   "sombrero": "ninguno",
+   "altura": 0.62,
+   "zapatos": "#2a2220",
+   "voz": "narradora-es"
+  },
+  "livia": {
+   "piel": "#f2d6c0",
+   "pelo": "#4a3020",
+   "peinado": "coleta",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "vestido",
+    "color": "#4b5a73",
+    "color2": "#3f4c62",
+    "detalle": "#d8cdb6"
+   },
+   "sombrero": "ninguno",
+   "altura": 0.58,
+   "zapatos": "#2a2220",
+   "voz": "narradora-es"
+  },
+  "vincenzo": {
+   "piel": "#f3dcc8",
+   "pelo": "#6a4a30",
+   "peinado": "rizado",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#cfc2a6",
+    "color2": "#b9ab8e",
+    "detalle": "#a8987a"
+   },
+   "sombrero": "ninguno",
+   "altura": 0.42,
+   "zapatos": "#4a3a2a"
+  },
+  "mazzoleni": {
+   "piel": "#dcae88",
+   "pelo": "#4a3a2a",
+   "peinado": "corto",
+   "barba": "bigote",
+   "ropa": {
+    "tipo": "camisa",
+    "color": "#6e5a40",
+    "color2": "#4a3e30",
+    "detalle": "#6b4a30"
+   },
+   "sombrero": "boina",
+   "colorSombrero": "#5a4a3a",
+   "zapatos": "#2a1f18"
+  },
+  "alumno": {
+   "piel": "#f0d4bc",
+   "pelo": "#c9a46a",
+   "peinado": "corto",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "camisa",
+    "color": "#2e3f5c",
+    "color2": "#22304a",
+    "detalle": "#ece6d8"
+   },
+   "sombrero": "ala",
+   "colorSombrero": "#1e2633",
+   "zapatos": "#1e1a16"
+  },
+  "senador": {
+   "piel": "#e2b48e",
+   "pelo": "#8a847a",
+   "peinado": "corto",
+   "barba": "corta",
+   "ropa": {
+    "tipo": "bata",
+    "color": "#8e1f1f",
+    "color2": "#6e1818",
+    "detalle": "#c9a24a"
+   },
+   "sombrero": "boina",
+   "colorSombrero": "#8e1f1f",
+   "zapatos": "#1e1a16"
+  },
+  "senador2": {
+   "piel": "#e8c3a2",
+   "pelo": "#3a2a1e",
+   "peinado": "corto",
+   "barba": "bigote",
+   "ropa": {
+    "tipo": "bata",
+    "color": "#1c1a1a",
+    "color2": "#151414",
+    "detalle": "#c9a24a"
+   },
+   "sombrero": "boina",
+   "colorSombrero": "#1c1a1a",
+   "zapatos": "#1e1a16"
+  }
+ },
+ "largo": {
+  "escenas": [
+   {
+    "corte": true,
+    "texto": "Dentro de tres semanas voy a ver algo que nadie ha visto nunca: tres puntitos de luz pegados a Júpiter. Y me costará cuatro noches entender lo que son.",
+    "drama": 0.85,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "noche",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.15,
+       "escala": 1.3,
+       "detras": true
+      },
+      {
+       "tipo": "arbol",
+       "x": 1.3
+      },
+      {
+       "tipo": "valla",
+       "x": -0.5
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileonoche",
+      "x": 0.4,
+      "accion": "observar",
+      "emocion": "neutral",
+      "mirar": 1
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "texto": "Esos puntitos van a cambiar la forma en que miramos el cielo, y a mí, la vida entera. Pero esta noche todavía no lo sé.",
+    "drama": 0.75,
+    "fondo": {
+     "lugar": "ocular",
+     "hora": "noche",
+     "vista": "jupiter",
+     "lunas": [
+      -2.6,
+      -1.3,
+      1.9
+     ]
+    },
+    "personajes": [],
+    "camara": "lenta"
+   },
+   {
+    "texto": "Me llamo Galileo Galiléi, tengo cuarenta y cinco años y enseño matemáticas en la universidad de Padua. Las fechas de este mes son reales; lo que pienso, lo imaginamos.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "piedra",
+     "hora": "noche",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "chimenea",
+       "x": -1.05
+      },
+      {
+       "tipo": "mesa",
+       "x": 0.95
+      },
+      {
+       "tipo": "🕯️",
+       "x": 0.8,
+       "escala": 0.3
+      },
+      {
+       "tipo": "📜",
+       "x": 1.1,
+       "escala": 0.25
+      },
+      {
+       "tipo": "estanteria",
+       "x": 1.5
+      },
+      {
+       "tipo": "anteojo",
+       "x": -0.55
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.35,
+      "accion": "sentado",
+      "emocion": "neutral",
+      "mirar": -1
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "texto": "Mi tesoro es ese tubo de madera forrado de cuero, con dos cristales que he pulido yo mismo. Yo lo llamo anteojo, y acerca las cosas unas veinte veces.",
+    "drama": 0.65,
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.3,
+      "accion": "senalar",
+      "emocion": "feliz",
+      "mirar": -1
+     }
+    ],
+    "camara": "lenta",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "20 aumentos",
+     "etiqueta": "el anteojo de Galileo en enero de 1610 (carta del 7 de enero)",
+     "icono": "🔭"
+    }
+   },
+   {
+    "dia": 1,
+    "capitulo": "La Luna tiene montañas",
+    "corte": true,
+    "texto": "Es jueves, diecisiete de diciembre de mil seiscientos nueve, y en el taller de mi casa casi todas las lentes que pulo acaban en la basura.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "madera",
+     "hora": "dia",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "estanteria",
+       "x": -1.3
+      },
+      {
+       "tipo": "cajas",
+       "x": -0.95
+      },
+      {
+       "tipo": "torno-lentes",
+       "x": 1.0
+      },
+      {
+       "tipo": "barril",
+       "x": 1.5
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileotaller",
+      "x": 0.45,
+      "accion": "trabajar",
+      "emocion": "cansado",
+      "mirar": 1
+     },
+     {
+      "quien": "mazzoleni",
+      "x": -0.5,
+      "accion": "trabajar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "general",
+    "insercion": {
+     "tipo": "mapa",
+     "lugar": "Padua",
+     "detalle": "República de Venecia · diciembre de 1609",
+     "icono": "📍"
+    }
+   },
+   {
+    "dia": 1,
+    "texto": "Froto el vidrio de Murano contra un molde de hierro, con agua y polvo abrasivo, durante horas. Una burbuja o una raya, y la imagen sale borrosa.",
+    "drama": 0.6,
+    "personajes": [
+     {
+      "quien": "galileotaller",
+      "x": 0.55,
+      "accion": "trabajar",
+      "emocion": "neutral",
+      "mirar": 1
+     },
+     {
+      "quien": "mazzoleni",
+      "x": -0.5,
+      "accion": "trabajar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 1,
+    "texto": "Me ayuda Marcantónio Matsoléni, mi artesano. Vive en mi casa con su mujer y su hija, corta los tubos y cobra seis escudos al año, más casa y comida.",
+    "drama": 0.6,
+    "personajes": [
+     {
+      "quien": "galileotaller",
+      "x": 0.5,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": -1
+     },
+     {
+      "quien": "mazzoleni",
+      "x": -0.4,
+      "accion": "cargar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "objeto": "🪵",
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 1,
+    "texto": "Por eso guardo como oro las pocas lentes buenas. Con una de ellas, a finales de noviembre, apunté a la Luna, y lo que vi me quitó el sueño.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "noche",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.15,
+       "escala": 1.3,
+       "detras": true
+      },
+      {
+       "tipo": "arbol",
+       "x": 1.3
+      },
+      {
+       "tipo": "valla",
+       "x": -0.5
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileonoche",
+      "x": 0.35,
+      "accion": "observar",
+      "emocion": "sorpresa",
+      "mirar": -1
+     }
+    ],
+    "camara": "subir"
+   },
+   {
+    "dia": 2,
+    "corte": true,
+    "texto": "Viernes, dieciocho de diciembre, de madrugada: la Luna menguante vuelve a enseñarme su secreto. No es lisa ni perfecta, como enseñan los filósofos.",
+    "drama": 0.75,
+    "fondo": {
+     "lugar": "ocular",
+     "hora": "noche",
+     "vista": "luna",
+     "fase": "menguante"
+    },
+    "personajes": [],
+    "camara": "lenta"
+   },
+   {
+    "dia": 2,
+    "texto": "En la raya entre la luz y la sombra aparecen puntitos brillantes dentro de la parte oscura: son cumbres que el sol ilumina antes que los valles.",
+    "drama": 0.7,
+    "camara": "cerca",
+    "insercion": {
+     "tipo": "cita",
+     "frase": "La Luna no es lisa, uniforme y perfectamente esférica, sino desigual, áspera, llena de cavidades y prominencias, como la cara de la Tierra.",
+     "firma": "Sidereus Nuncius, marzo de 1610 (paráfrasis)"
+    }
+   },
+   {
+    "dia": 2,
+    "texto": "La dibujo con pluma y aguadas de sepia, noche tras noche, y hoy termino uno de los últimos dibujos. Nadie me va a creer si no lo ve.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "piedra",
+     "hora": "noche",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "chimenea",
+       "x": -1.05
+      },
+      {
+       "tipo": "mesa",
+       "x": 0.95
+      },
+      {
+       "tipo": "🕯️",
+       "x": 0.8,
+       "escala": 0.3
+      },
+      {
+       "tipo": "📜",
+       "x": 1.1,
+       "escala": 0.25
+      },
+      {
+       "tipo": "estanteria",
+       "x": 1.5
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.35,
+      "accion": "escribir",
+      "emocion": "neutral",
+      "mirar": 1
+     }
+    ],
+    "camara": "cerca",
+    "insercion": {
+     "tipo": "cuaderno",
+     "dibujo": "luna",
+     "fase": "menguante",
+     "firma": "Acuarelas de la Luna, noviembre y diciembre de 1609"
+    }
+   },
+   {
+    "dia": 3,
+    "texto": "El sábado hago cuentas: mido cuánto se adentra un punto de luz en la sombra y, con geometría, calculo la altura de esas montañas.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "piedra",
+     "hora": "dia",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "chimenea",
+       "x": -1.05
+      },
+      {
+       "tipo": "mesa",
+       "x": 0.95
+      },
+      {
+       "tipo": "📜",
+       "x": 0.85,
+       "escala": 0.25
+      },
+      {
+       "tipo": "🪶",
+       "x": 1.1,
+       "escala": 0.25
+      },
+      {
+       "tipo": "estanteria",
+       "x": 1.5
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.3,
+      "accion": "pensar",
+      "emocion": "neutral",
+      "mirar": 1
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 3,
+    "corte": true,
+    "texto": "La Luna tiene montañas, y yo sé cuánto miden: algunas, al menos cuatro millas de alto. Y lo he medido sin salir de casa.",
+    "drama": 0.75,
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.3,
+      "accion": "celebrar",
+      "emocion": "feliz",
+      "mirar": -1
+     }
+    ],
+    "camara": "cerca",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "4 millas",
+     "etiqueta": "de altura, como mínimo, para algunas montañas de la Luna (cálculo de Galileo)",
+     "icono": "🌗"
+    }
+   },
+   {
+    "dia": 4,
+    "texto": "El domingo voy a misa al Santo, la basílica de San Antonio, a dos pasos de casa. Rezo como todos, pero no puedo dejar de pensar en la Luna.",
+    "drama": 0.55,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "piedra",
+     "hora": "dia",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "columna",
+       "x": -1.15
+      },
+      {
+       "tipo": "🕯️",
+       "x": -0.55,
+       "escala": 0.35
+      },
+      {
+       "tipo": "🕯️",
+       "x": 0.75,
+       "escala": 0.35
+      },
+      {
+       "tipo": "columna",
+       "x": 1.15
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.5,
+      "accion": "pensar",
+      "emocion": "neutral",
+      "mirar": -1
+     },
+     {
+      "quien": "marina",
+      "x": -0.1,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "virginia",
+      "x": -0.55,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 5,
+    "texto": "El lunes vuelven las clases. En mi casa viven estudiantes nobles de media Europa, con sus criados, que me pagan la pensión y lecciones de matemáticas.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "madera",
+     "hora": "dia",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "estanteria",
+       "x": -1.3
+      },
+      {
+       "tipo": "mesa",
+       "x": 1.0
+      },
+      {
+       "tipo": "📖",
+       "x": 0.9,
+       "escala": 0.25
+      },
+      {
+       "tipo": "📜",
+       "x": 1.15,
+       "escala": 0.25
+      },
+      {
+       "tipo": "cuadro",
+       "x": 0.1
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.45,
+      "accion": "hablar",
+      "emocion": "neutral",
+      "mirar": -1
+     },
+     {
+      "quien": "alumno",
+      "x": -0.4,
+      "accion": "sentado",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 5,
+    "texto": "Les enseño a usar mi compás geométrico y militar. Imprimí sesenta libros de instrucciones y los vendí aquí mismo, junto con los compases.",
+    "drama": 0.55,
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.4,
+      "accion": "senalar",
+      "emocion": "feliz",
+      "mirar": -1
+     },
+     {
+      "quien": "alumno",
+      "x": -0.4,
+      "accion": "escribir",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 6,
+    "corte": true,
+    "texto": "El martes pruebo una lente nueva, y el cielo se llena. Donde a simple vista hay un puñado de estrellas, mi anteojo me enseña docenas.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "noche",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.15,
+       "escala": 1.3,
+       "detras": true
+      },
+      {
+       "tipo": "arbol",
+       "x": 1.3
+      },
+      {
+       "tipo": "valla",
+       "x": -0.5
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileonoche",
+      "x": 0.35,
+      "accion": "observar",
+      "emocion": "sorpresa",
+      "mirar": 1
+     }
+    ],
+    "camara": "subir"
+   },
+   {
+    "dia": 6,
+    "texto": "Alrededor de Orión y de las Pléyades aparecen estrellas que ningún ojo humano había visto jamás. ¿Cuántas más habrá, escondidas ahí arriba?",
+    "drama": 0.75,
+    "fondo": {
+     "lugar": "ocular",
+     "hora": "noche",
+     "vista": "estrellas"
+    },
+    "personajes": [],
+    "camara": "lenta"
+   },
+   {
+    "dia": 7,
+    "texto": "Llega la luna nueva, y las noches se vuelven negras como la tinta. Pero el frío se me mete en los huesos: desde hace dieciséis años sufro dolores y fiebres.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "noche",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.15,
+       "escala": 1.3,
+       "detras": true
+      },
+      {
+       "tipo": "arbol",
+       "x": 1.3
+      },
+      {
+       "tipo": "valla",
+       "x": -0.5
+      }
+     ],
+     "luna": false
+    },
+    "personajes": [
+     {
+      "quien": "galileonoche",
+      "x": 0.3,
+      "accion": "quieto",
+      "emocion": "cansado",
+      "mirar": -1
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 7,
+    "texto": "Me vienen de una noche en una villa helada, cerca de Vicenza. Cada hora al raso me lo cobra, y aun así vuelvo a salir.",
+    "drama": 0.55,
+    "personajes": [
+     {
+      "quien": "galileonoche",
+      "x": 0.4,
+      "accion": "observar",
+      "emocion": "cansado",
+      "mirar": 1
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 8,
+    "capitulo": "Más estrellas de las que hay",
+    "corte": true,
+    "texto": "Es Nochebuena, y tengo a mis tres hijos delante. Pero en ninguna de sus partidas de bautismo aparece mi nombre.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "piedra",
+     "hora": "noche",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "chimenea",
+       "x": -1.25
+      },
+      {
+       "tipo": "mesa",
+       "x": 1.05
+      },
+      {
+       "tipo": "🍞",
+       "x": 0.9,
+       "escala": 0.3
+      },
+      {
+       "tipo": "🍷",
+       "x": 1.2,
+       "escala": 0.3
+      },
+      {
+       "tipo": "🕯️",
+       "x": 1.05,
+       "escala": 0.3
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.6,
+      "accion": "sentado",
+      "emocion": "triste",
+      "mirar": -1
+     },
+     {
+      "quien": "virginia",
+      "x": 0.05,
+      "accion": "quieto",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "livia",
+      "x": -0.35,
+      "accion": "quieto",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "vincenzo",
+      "x": -0.7,
+      "accion": "sentado",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 8,
+    "texto": "Su madre es Marina Gamba, una veneciana. Nunca nos hemos casado. Vive aquí, en Padua, cerca de mí, y esta noche cenamos todos juntos.",
+    "drama": 0.55,
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.55,
+      "accion": "sentado",
+      "emocion": "feliz",
+      "mirar": -1
+     },
+     {
+      "quien": "marina",
+      "x": -0.25,
+      "accion": "hablar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 8,
+    "texto": "Virjinia tiene nueve años y es la que más pregunta. Livia tiene ocho. Y Vinchénso, el pequeño, tres, y solo quiere tocar el anteojo.",
+    "drama": 0.55,
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.6,
+      "accion": "hablar",
+      "emocion": "feliz",
+      "mirar": -1
+     },
+     {
+      "quien": "virginia",
+      "x": 0.05,
+      "accion": "hablar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "livia",
+      "x": -0.35,
+      "accion": "quieto",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "vincenzo",
+      "x": -0.7,
+      "accion": "saludar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "general",
+    "insercion": {
+     "tipo": "objetos",
+     "titulo": "Mis hijos",
+     "items": [
+      {
+       "icono": "👧",
+       "nombre": "Virginia, 9 años"
+      },
+      {
+       "icono": "👧",
+       "nombre": "Livia, 8 años"
+      },
+      {
+       "icono": "👦",
+       "nombre": "Vincenzo, 3 años"
+      }
+     ]
+    }
+   },
+   {
+    "dia": 9,
+    "texto": "El día de Navidad hace un frío que corta. Brasero, velas de sebo, porque las de cera son caras, y pan caliente. Hoy no pulo ninguna lente.",
+    "drama": 0.5,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "piedra",
+     "hora": "dia",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "brasero",
+       "x": -1.0
+      },
+      {
+       "tipo": "mesa",
+       "x": 1.05
+      },
+      {
+       "tipo": "🍞",
+       "x": 1.0,
+       "escala": 0.3
+      },
+      {
+       "tipo": "estanteria",
+       "x": 1.5
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.5,
+      "accion": "sentado",
+      "emocion": "feliz",
+      "mirar": -1
+     },
+     {
+      "quien": "marina",
+      "x": -0.3,
+      "accion": "trabajar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "vincenzo",
+      "x": -0.75,
+      "accion": "quieto",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 10,
+    "corte": true,
+    "texto": "Sábado, veintiséis: sin Luna, apunto el anteojo a esa mancha blanca que cruza el cielo, la Vía Láctea. Y la mancha se deshace.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "noche",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.15,
+       "escala": 1.3,
+       "detras": true
+      },
+      {
+       "tipo": "arbol",
+       "x": 1.3
+      },
+      {
+       "tipo": "valla",
+       "x": -0.5
+      }
+     ],
+     "luna": false
+    },
+    "personajes": [
+     {
+      "quien": "galileonoche",
+      "x": 0.35,
+      "accion": "observar",
+      "emocion": "sorpresa",
+      "mirar": -1
+     }
+    ],
+    "camara": "subir"
+   },
+   {
+    "dia": 10,
+    "texto": "No es niebla ni vapor: es un montón de innumerables estrellas, tan juntas que a simple vista parecen leche derramada.",
+    "drama": 0.75,
+    "fondo": {
+     "lugar": "ocular",
+     "hora": "noche",
+     "vista": "via-lactea"
+    },
+    "personajes": [],
+    "camara": "lenta",
+    "insercion": {
+     "tipo": "cita",
+     "frase": "Un montón de innumerables estrellas.",
+     "firma": "Sidereus Nuncius, sobre la Vía Láctea (paráfrasis)"
+    }
+   },
+   {
+    "dia": 11,
+    "texto": "El domingo hago cuentas. Desde que murió mi padre pago las dotes de mis hermanas, y siempre ando corto de dinero. Por eso este verano el anteojo me cambió la vida.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "piedra",
+     "hora": "noche",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "chimenea",
+       "x": -1.05
+      },
+      {
+       "tipo": "mesa",
+       "x": 0.95
+      },
+      {
+       "tipo": "🕯️",
+       "x": 0.8,
+       "escala": 0.3
+      },
+      {
+       "tipo": "📜",
+       "x": 1.1,
+       "escala": 0.25
+      },
+      {
+       "tipo": "estanteria",
+       "x": 1.5
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.35,
+      "accion": "escribir",
+      "emocion": "cansado",
+      "mirar": 1
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 12,
+    "texto": "Vuelvo con la memoria a agosto: subo al campanario de San Marcos con varios senadores, y por mi anteojo ven barcos lejanos que a simple vista nadie distingue.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "rio",
+     "hora": "dia",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "campanario",
+       "x": -1.15,
+       "escala": 1.4,
+       "detras": true
+      },
+      {
+       "tipo": "casa",
+       "x": 1.3
+      },
+      {
+       "tipo": "casa",
+       "x": 1.55
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.45,
+      "accion": "senalar",
+      "emocion": "feliz",
+      "mirar": 1
+     },
+     {
+      "quien": "senador",
+      "x": -0.2,
+      "accion": "quieto",
+      "emocion": "sorpresa",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "senador2",
+      "x": -0.65,
+      "accion": "quieto",
+      "emocion": "sorpresa",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "paneo"
+   },
+   {
+    "dia": 12,
+    "corte": true,
+    "texto": "El veinticuatro de agosto le regalo el anteojo al dux, Leonardo Doná. Y el Senado me sube el sueldo a mil florines al año, de por vida.",
+    "drama": 0.7,
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.27,
+      "accion": "dar-mano",
+      "emocion": "feliz",
+      "mirar": -1
+     },
+     {
+      "quien": "senador",
+      "x": -0.27,
+      "accion": "dar-mano",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "senador2",
+      "x": -0.75,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca",
+    "insercion": {
+     "tipo": "cita",
+     "frase": "Aquí tengo un sueldo fijo de mil florines al año de por vida.",
+     "firma": "Carta de Galileo, 1609"
+    }
+   },
+   {
+    "dia": 12,
+    "texto": "Casi el doble que antes, por un tubo con dos cristales. La pega es que el sueldo queda congelado para siempre. Y Matsoléni sigue cobrando seis escudos.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "madera",
+     "hora": "dia",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "estanteria",
+       "x": -1.3
+      },
+      {
+       "tipo": "cajas",
+       "x": -0.95
+      },
+      {
+       "tipo": "torno-lentes",
+       "x": 1.0
+      },
+      {
+       "tipo": "barril",
+       "x": 1.5
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileotaller",
+      "x": 0.45,
+      "accion": "pensar",
+      "emocion": "neutral",
+      "mirar": -1
+     },
+     {
+      "quien": "mazzoleni",
+      "x": -0.45,
+      "accion": "trabajar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 13,
+    "texto": "Y algo que casi nadie sabe: yo no inventé el anteojo. Nació en los Países Bajos; yo lo rehíce pensando cómo se dobla la luz dentro del vidrio.",
+    "drama": 0.65,
+    "personajes": [
+     {
+      "quien": "galileotaller",
+      "x": 0.5,
+      "accion": "trabajar",
+      "emocion": "neutral",
+      "mirar": 1
+     },
+     {
+      "quien": "mazzoleni",
+      "x": -0.45,
+      "accion": "trabajar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 13,
+    "texto": "Lo que no sé es que en Inglaterra un tal Tómas Járriot ya dibujó la Luna con un anteojo este verano, cuatro meses antes que yo. Nunca lo publicará.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "piedra",
+     "hora": "noche",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "chimenea",
+       "x": -1.05
+      },
+      {
+       "tipo": "mesa",
+       "x": 0.95
+      },
+      {
+       "tipo": "🕯️",
+       "x": 0.8,
+       "escala": 0.3
+      },
+      {
+       "tipo": "📜",
+       "x": 1.1,
+       "escala": 0.25
+      },
+      {
+       "tipo": "estanteria",
+       "x": 1.5
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.35,
+      "accion": "sentado",
+      "emocion": "neutral",
+      "mirar": 1
+     }
+    ],
+    "camara": "lenta",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "4 meses",
+     "etiqueta": "antes que Galileo, Thomas Harriot dibujó la Luna con un anteojo (5 de agosto de 1609); nunca lo publicó",
+     "icono": "🌙"
+    }
+   },
+   {
+    "dia": 14,
+    "corte": true,
+    "texto": "Los últimos días del año pulo, pruebo, tiro y vuelvo a pulir. Hasta que sale una lente limpia, sin burbujas, y la monto en el tubo bueno, el de cuero.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "madera",
+     "hora": "dia",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "estanteria",
+       "x": -1.3
+      },
+      {
+       "tipo": "cajas",
+       "x": -0.95
+      },
+      {
+       "tipo": "torno-lentes",
+       "x": 1.0
+      },
+      {
+       "tipo": "barril",
+       "x": 1.5
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileotaller",
+      "x": 0.45,
+      "accion": "trabajar",
+      "emocion": "feliz",
+      "mirar": 1
+     },
+     {
+      "quien": "mazzoleni",
+      "x": -0.45,
+      "accion": "quieto",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 15,
+    "capitulo": "Tres estrellitas",
+    "texto": "Treinta y uno de diciembre, y para Venecia el año no se acaba esta noche: en la República, el año nuevo llega el uno de marzo.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "noche",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "santo",
+       "x": 1.2,
+       "escala": 1.6,
+       "detras": true
+      },
+      {
+       "tipo": "casa",
+       "x": -1.3
+      },
+      {
+       "tipo": "casa",
+       "x": -0.85
+      },
+      {
+       "tipo": "carro",
+       "x": 0.75
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileonoche",
+      "x": 0.35,
+      "accion": "caminar",
+      "emocion": "neutral",
+      "mirar": -1
+     }
+    ],
+    "camara": "paneo"
+   },
+   {
+    "dia": 16,
+    "texto": "Para el resto de Europa ya es mil seiscientos diez. Paseo bajo los soportales de Padua, donde estudian jóvenes de todas partes, hasta protestantes, protegidos por Venecia.",
+    "drama": 0.55,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "clima": "niebla",
+     "props": [
+      {
+       "tipo": "santo",
+       "x": 1.2,
+       "escala": 1.6,
+       "detras": true
+      },
+      {
+       "tipo": "casa",
+       "x": -1.3
+      },
+      {
+       "tipo": "casa",
+       "x": -0.85
+      },
+      {
+       "tipo": "carro",
+       "x": 0.75
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.4,
+      "accion": "caminar",
+      "emocion": "neutral",
+      "mirar": -1
+     },
+     {
+      "quien": "alumno",
+      "x": -0.4,
+      "accion": "caminar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "paneo"
+   },
+   {
+    "dia": 17,
+    "texto": "Del dos al cinco de enero vuelvo a la Luna creciente y, de noche, junto al brasero, escribo una carta a un noble de Florencia contándole lo que he visto.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "piedra",
+     "hora": "noche",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "chimenea",
+       "x": -1.05
+      },
+      {
+       "tipo": "mesa",
+       "x": 0.95
+      },
+      {
+       "tipo": "🕯️",
+       "x": 0.8,
+       "escala": 0.3
+      },
+      {
+       "tipo": "📜",
+       "x": 1.1,
+       "escala": 0.25
+      },
+      {
+       "tipo": "estanteria",
+       "x": 1.5
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.35,
+      "accion": "escribir",
+      "emocion": "neutral",
+      "mirar": 1
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 21,
+    "corte": true,
+    "texto": "Es seis de enero, día de Reyes, la fiesta de una estrella que guió a unos sabios. Y mañana, sin saberlo, voy a seguir yo también unas luces muy raras.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "piedra",
+     "hora": "dia",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "brasero",
+       "x": -1.0
+      },
+      {
+       "tipo": "mesa",
+       "x": 1.05
+      },
+      {
+       "tipo": "🍞",
+       "x": 1.0,
+       "escala": 0.3
+      },
+      {
+       "tipo": "estanteria",
+       "x": 1.5
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.5,
+      "accion": "pensar",
+      "emocion": "neutral",
+      "mirar": -1
+     },
+     {
+      "quien": "livia",
+      "x": -0.2,
+      "accion": "quieto",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "vincenzo",
+      "x": -0.6,
+      "accion": "saludar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 22,
+    "texto": "Es jueves, siete de enero de mil seiscientos diez, y termino la carta: le cuento que la Luna es áspera y desigual, y que mi anteojo agranda unas veinte veces.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "piedra",
+     "hora": "noche",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "chimenea",
+       "x": -1.05
+      },
+      {
+       "tipo": "mesa",
+       "x": 0.95
+      },
+      {
+       "tipo": "🕯️",
+       "x": 0.8,
+       "escala": 0.3
+      },
+      {
+       "tipo": "📜",
+       "x": 1.1,
+       "escala": 0.25
+      },
+      {
+       "tipo": "estanteria",
+       "x": 1.5
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.35,
+      "accion": "escribir",
+      "emocion": "neutral",
+      "mirar": 1
+     }
+    ],
+    "camara": "cerca",
+    "insercion": {
+     "tipo": "cita",
+     "frase": "La Luna es áspera y desigual.",
+     "firma": "Carta del 7 de enero de 1610 (copia conservada)"
+    }
+   },
+   {
+    "dia": 22,
+    "texto": "En la primera hora de la noche, una hora después de ponerse el sol, salgo al huerto helado y apunto el anteojo a Júpiter.",
+    "drama": 0.8,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "noche",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.15,
+       "escala": 1.3,
+       "detras": true
+      },
+      {
+       "tipo": "arbol",
+       "x": 1.3
+      },
+      {
+       "tipo": "valla",
+       "x": -0.5
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileonoche",
+      "x": 0.35,
+      "accion": "observar",
+      "emocion": "neutral",
+      "mirar": 1
+     }
+    ],
+    "camara": "subir"
+   },
+   {
+    "dia": 22,
+    "texto": "Junto a él hay tres estrellitas pequeñas pero muy brillantes, en línea recta: dos a un lado, al este, y una al otro, al oeste.",
+    "drama": 0.85,
+    "fondo": {
+     "lugar": "ocular",
+     "hora": "noche",
+     "vista": "jupiter",
+     "lunas": [
+      -2.6,
+      -1.3,
+      1.9
+     ]
+    },
+    "personajes": [],
+    "camara": "lenta"
+   },
+   {
+    "dia": 22,
+    "corte": true,
+    "texto": "Tres estrellitas en fila junto a Júpiter, y no les doy importancia: pienso que son estrellas fijas. Solo me extraña que brillen más que otras de su tamaño.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "piedra",
+     "hora": "noche",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "chimenea",
+       "x": -1.05
+      },
+      {
+       "tipo": "mesa",
+       "x": 0.95
+      },
+      {
+       "tipo": "🕯️",
+       "x": 0.8,
+       "escala": 0.3
+      },
+      {
+       "tipo": "📜",
+       "x": 1.1,
+       "escala": 0.25
+      },
+      {
+       "tipo": "estanteria",
+       "x": 1.5
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.35,
+      "accion": "escribir",
+      "emocion": "neutral",
+      "mirar": 1
+     }
+    ],
+    "camara": "cerca",
+    "insercion": {
+     "tipo": "cuaderno",
+     "titulo": "Mis notas de Júpiter",
+     "filas": [
+      {
+       "fecha": "7 ene.",
+       "lunas": [
+        -2.6,
+        -1.3,
+        1.9
+       ]
+      }
+     ],
+     "firma": "Notas de observación de Galileo, enero de 1610"
+    }
+   },
+   {
+    "dia": 23,
+    "capitulo": "Se mueven",
+    "texto": "El viernes, ocho de enero, no sé guiado por qué destino, vuelvo a apuntar el anteojo a Júpiter.",
+    "drama": 0.75,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "noche",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.15,
+       "escala": 1.3,
+       "detras": true
+      },
+      {
+       "tipo": "arbol",
+       "x": 1.3
+      },
+      {
+       "tipo": "valla",
+       "x": -0.5
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileonoche",
+      "x": 0.35,
+      "accion": "observar",
+      "emocion": "neutral",
+      "mirar": 1
+     }
+    ],
+    "camara": "subir",
+    "insercion": {
+     "tipo": "cita",
+     "frase": "No sé guiado por qué destino, volví a mirar.",
+     "firma": "Sidereus Nuncius, 8 de enero de 1610 (paráfrasis)"
+    }
+   },
+   {
+    "dia": 23,
+    "texto": "Y ahora las tres están al oeste, más juntas entre sí. Pienso que ha sido Júpiter el que se ha movido hacia el este, al revés de lo que dicen las tablas. Empiezo a dudar.",
+    "drama": 0.8,
+    "fondo": {
+     "lugar": "ocular",
+     "hora": "noche",
+     "vista": "jupiter",
+     "lunas": [
+      1.1,
+      1.8,
+      2.5
+     ]
+    },
+    "personajes": [],
+    "camara": "lenta"
+   },
+   {
+    "dia": 24,
+    "texto": "El sábado espero la noche con ansia, pero me llevo un chasco: el cielo está cubierto de nubes por todas partes.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "noche",
+     "clima": "nublado",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.15,
+       "escala": 1.3,
+       "detras": true
+      },
+      {
+       "tipo": "arbol",
+       "x": 1.3
+      },
+      {
+       "tipo": "valla",
+       "x": -0.5
+      }
+     ],
+     "luna": false
+    },
+    "personajes": [
+     {
+      "quien": "galileonoche",
+      "x": 0.35,
+      "accion": "triste",
+      "emocion": "triste",
+      "mirar": 1
+     }
+    ],
+    "camara": "general",
+    "insercion": {
+     "tipo": "cita",
+     "frase": "Esperé con ansia la noche siguiente, pero me decepcioné: el cielo estaba cubierto de nubes por todas partes.",
+     "firma": "Sidereus Nuncius, 9 de enero de 1610 (paráfrasis)"
+    }
+   },
+   {
+    "dia": 25,
+    "corte": true,
+    "texto": "Domingo, diez de enero: solo veo dos estrellitas, y las dos al este. ¿Dónde está la tercera? Supongo que se ha escondido detrás de Júpiter.",
+    "drama": 0.8,
+    "fondo": {
+     "lugar": "ocular",
+     "hora": "noche",
+     "vista": "jupiter",
+     "lunas": [
+      -2.4,
+      -1.2
+     ]
+    },
+    "personajes": [],
+    "camara": "lenta"
+   },
+   {
+    "dia": 25,
+    "texto": "Y entonces lo comprendo: no es Júpiter el que va de un lado a otro. Son ellas. Estas estrellitas no están quietas: viajan.",
+    "drama": 0.85,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "noche",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.15,
+       "escala": 1.3,
+       "detras": true
+      },
+      {
+       "tipo": "arbol",
+       "x": 1.3
+      },
+      {
+       "tipo": "valla",
+       "x": -0.5
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileonoche",
+      "x": 0.35,
+      "accion": "pensar",
+      "emocion": "sorpresa",
+      "mirar": -1
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 26,
+    "texto": "El lunes, once, vuelven a estar las dos al este, y la más lejana parece casi el doble de grande que la otra. Ya no tengo dudas.",
+    "drama": 0.8,
+    "fondo": {
+     "lugar": "ocular",
+     "hora": "noche",
+     "vista": "jupiter",
+     "lunas": [
+      -3.2,
+      -1.4
+     ],
+     "tamanos": [
+      1.8,
+      1.0
+     ]
+    },
+    "personajes": [],
+    "camara": "lenta"
+   },
+   {
+    "dia": 26,
+    "texto": "Giran alrededor de Júpiter, igual que Venus y Mercurio giran alrededor del Sol. Un planeta con su propio cortejo de estrellas.",
+    "drama": 0.85,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "noche",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.15,
+       "escala": 1.3,
+       "detras": true
+      },
+      {
+       "tipo": "arbol",
+       "x": 1.3
+      },
+      {
+       "tipo": "valla",
+       "x": -0.5
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileonoche",
+      "x": 0.35,
+      "accion": "celebrar",
+      "emocion": "feliz",
+      "mirar": -1
+     }
+    ],
+    "camara": "cerca",
+    "insercion": {
+     "tipo": "cita",
+     "frase": "Concluí sin vacilar que hay en el cielo tres estrellas que vagan alrededor de Júpiter.",
+     "firma": "Sidereus Nuncius, 11 de enero de 1610 (paráfrasis)"
+    }
+   },
+   {
+    "dia": 27,
+    "corte": true,
+    "texto": "Desde el martes, doce, ya no me fío de la memoria: apunto la hora, cuántas veo y a qué distancia de Júpiter están. Un redondel y unos asteriscos.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "piedra",
+     "hora": "noche",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "chimenea",
+       "x": -1.05
+      },
+      {
+       "tipo": "mesa",
+       "x": 0.95
+      },
+      {
+       "tipo": "🕯️",
+       "x": 0.8,
+       "escala": 0.3
+      },
+      {
+       "tipo": "📜",
+       "x": 1.1,
+       "escala": 0.25
+      },
+      {
+       "tipo": "estanteria",
+       "x": 1.5
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.35,
+      "accion": "escribir",
+      "emocion": "neutral",
+      "mirar": 1
+     }
+    ],
+    "camara": "cerca",
+    "insercion": {
+     "tipo": "cuaderno",
+     "titulo": "Mis notas de Júpiter",
+     "filas": [
+      {
+       "fecha": "7 ene.",
+       "lunas": [
+        -2.6,
+        -1.3,
+        1.9
+       ]
+      },
+      {
+       "fecha": "8 ene.",
+       "lunas": [
+        1.1,
+        1.8,
+        2.5
+       ]
+      },
+      {
+       "fecha": "9 ene.",
+       "nublado": true
+      },
+      {
+       "fecha": "10 ene.",
+       "lunas": [
+        -2.4,
+        -1.2
+       ]
+      },
+      {
+       "fecha": "11 ene.",
+       "lunas": [
+        -3.2,
+        -1.4
+       ],
+       "tamanos": [
+        1.8,
+        1.0
+       ]
+      }
+     ],
+     "firma": "Notas de observación de Galileo, enero de 1610"
+    }
+   },
+   {
+    "dia": 28,
+    "texto": "Y el miércoles, trece de enero, el cielo me guarda otra sorpresa: por primera vez, veo cuatro estrellitas junto a Júpiter.",
+    "drama": 0.9,
+    "fondo": {
+     "lugar": "ocular",
+     "hora": "noche",
+     "vista": "jupiter",
+     "lunas": [
+      -1.6,
+      1.1,
+      1.9,
+      2.8
+     ]
+    },
+    "personajes": [],
+    "camara": "lenta",
+    "insercion": {
+     "tipo": "cita",
+     "frase": "El día trece, por primera vez, vi cuatro estrellitas.",
+     "firma": "Sidereus Nuncius, 13 de enero de 1610 (paráfrasis)"
+    }
+   },
+   {
+    "dia": 28,
+    "texto": "Cuatro, no tres. Me quedo en el huerto hasta que no siento los pies, contándolas una y otra vez, con miedo a que desaparezcan.",
+    "drama": 0.8,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "noche",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.15,
+       "escala": 1.3,
+       "detras": true
+      },
+      {
+       "tipo": "arbol",
+       "x": 1.3
+      },
+      {
+       "tipo": "valla",
+       "x": -0.5
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileonoche",
+      "x": 0.35,
+      "accion": "observar",
+      "emocion": "feliz",
+      "mirar": 1
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 29,
+    "texto": "El jueves, catorce, otra vez nublado. Ni una estrella. Doy vueltas por la casa como un león enjaulado, pensando en lo que todo esto significa.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "noche",
+     "clima": "nublado",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.15,
+       "escala": 1.3,
+       "detras": true
+      },
+      {
+       "tipo": "arbol",
+       "x": 1.3
+      },
+      {
+       "tipo": "valla",
+       "x": -0.5
+      }
+     ],
+     "luna": false
+    },
+    "personajes": [
+     {
+      "quien": "galileonoche",
+      "x": 0.3,
+      "accion": "caminar",
+      "emocion": "enfado",
+      "mirar": -1
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 29,
+    "corte": true,
+    "texto": "Si Júpiter arrastra sus lunas mientras viaja por el cielo, ¿por qué no iba a poder la Tierra llevar la suya mientras gira alrededor del Sol?",
+    "drama": 0.8,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "piedra",
+     "hora": "noche",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "chimenea",
+       "x": -1.05
+      },
+      {
+       "tipo": "mesa",
+       "x": 0.95
+      },
+      {
+       "tipo": "🕯️",
+       "x": 0.8,
+       "escala": 0.3
+      },
+      {
+       "tipo": "📜",
+       "x": 1.1,
+       "escala": 0.25
+      },
+      {
+       "tipo": "estanteria",
+       "x": 1.5
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.35,
+      "accion": "pensar",
+      "emocion": "sorpresa",
+      "mirar": 1
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 29,
+    "texto": "Es el argumento que me faltaba contra los que se ríen de Copérnico y dicen que, si la Tierra se moviera, perdería la Luna por el camino.",
+    "drama": 0.7,
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.3,
+      "accion": "hablar",
+      "emocion": "feliz",
+      "mirar": -1
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 30,
+    "texto": "Viernes, quince de enero, tercera hora de la noche: las cuatro están al oeste, casi en línea recta, como las cuentas de un collar.",
+    "drama": 0.8,
+    "fondo": {
+     "lugar": "ocular",
+     "hora": "noche",
+     "vista": "jupiter",
+     "lunas": [
+      1.2,
+      2.1,
+      3.0,
+      4.0
+     ]
+    },
+    "personajes": [],
+    "camara": "lenta"
+   },
+   {
+    "dia": 30,
+    "texto": "Esa noche lo decido: lo contaré al mundo en un libro, en latín, para que lo lean todos los sabios de Europa. Y deprisa, antes de que otro lo vea.",
+    "drama": 0.75,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "piedra",
+     "hora": "noche",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "chimenea",
+       "x": -1.05
+      },
+      {
+       "tipo": "mesa",
+       "x": 0.95
+      },
+      {
+       "tipo": "🕯️",
+       "x": 0.8,
+       "escala": 0.3
+      },
+      {
+       "tipo": "📜",
+       "x": 1.1,
+       "escala": 0.25
+      },
+      {
+       "tipo": "estanteria",
+       "x": 1.5
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.35,
+      "accion": "escribir",
+      "emocion": "feliz",
+      "mirar": 1
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "corte": true,
+    "texto": "Mi libro, el Mensajero de las estrellas, sale en Venecia el trece de marzo: quinientos cincuenta ejemplares, agotados en una semana.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "rio",
+     "hora": "dia",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "campanario",
+       "x": -1.15,
+       "escala": 1.4,
+       "detras": true
+      },
+      {
+       "tipo": "casa",
+       "x": 1.3
+      },
+      {
+       "tipo": "casa",
+       "x": 1.55
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.35,
+      "accion": "cargar",
+      "emocion": "feliz",
+      "mirar": -1,
+      "objeto": "📖"
+     }
+    ],
+    "camara": "general",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "550",
+     "etiqueta": "ejemplares del Sidereus Nuncius, agotados en una semana (marzo de 1610)",
+     "icono": "📖"
+    }
+   },
+   {
+    "texto": "A mis cuatro estrellitas les pongo nombre: estrellas Medicheas, por el Gran Duque Cósimo de Médichi y sus tres hermanos. Cuatro lunas, cuatro hermanos.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "piedra",
+     "hora": "dia",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "chimenea",
+       "x": -1.05
+      },
+      {
+       "tipo": "mesa",
+       "x": 0.95
+      },
+      {
+       "tipo": "📜",
+       "x": 0.85,
+       "escala": 0.25
+      },
+      {
+       "tipo": "🪶",
+       "x": 1.1,
+       "escala": 0.25
+      },
+      {
+       "tipo": "estanteria",
+       "x": 1.5
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.35,
+      "accion": "escribir",
+      "emocion": "feliz",
+      "mirar": 1
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "texto": "Hoy las llamáis Ío, Europa, Ganímedes y Calisto, pero esos nombres los propuso otro astrónomo, Símon Márius, y no se impusieron hasta el siglo diecinueve.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "ocular",
+     "hora": "noche",
+     "vista": "jupiter",
+     "lunas": [
+      1.2,
+      2.1,
+      3.0,
+      4.0
+     ]
+    },
+    "personajes": [],
+    "camara": "lenta"
+   },
+   {
+    "texto": "El regalo funciona: en julio me nombran matemático y filósofo del Gran Duque, y en septiembre me voy a Florencia con mis dos hijas.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "atardecer",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.3
+      },
+      {
+       "tipo": "carro",
+       "x": -0.7
+      },
+      {
+       "tipo": "arbol",
+       "x": 1.0
+      },
+      {
+       "tipo": "casa",
+       "x": 1.45
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.45,
+      "accion": "caminar",
+      "emocion": "neutral",
+      "mirar": -1
+     },
+     {
+      "quien": "virginia",
+      "x": 0.0,
+      "accion": "caminar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "livia",
+      "x": -0.4,
+      "accion": "caminar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "paneo"
+   },
+   {
+    "corte": true,
+    "texto": "Marina y el pequeño Vinchénso se quedan en Padua. Mis hijas acabarán monjas en un convento, y Virjinia, ya sor María Celeste, me escribirá las cartas más cariñosas de mi vida.",
+    "drama": 0.55,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "clima": "niebla",
+     "props": [
+      {
+       "tipo": "santo",
+       "x": 1.2,
+       "escala": 1.6,
+       "detras": true
+      },
+      {
+       "tipo": "casa",
+       "x": -1.3
+      },
+      {
+       "tipo": "casa",
+       "x": -0.85
+      },
+      {
+       "tipo": "carro",
+       "x": 0.75
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "marina",
+      "x": 0.3,
+      "accion": "triste",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "vincenzo",
+      "x": -0.2,
+      "accion": "quieto",
+      "emocion": "triste",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta",
+    "voz": "narrador-es"
+   },
+   {
+    "texto": "En mil seiscientos treinta y tres, la Inquisición me juzga por otro libro y me condena a no salir de casa el resto de mi vida.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "piedra",
+     "hora": "noche",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "cama",
+       "x": -1.1
+      },
+      {
+       "tipo": "mesa",
+       "x": 1.0
+      },
+      {
+       "tipo": "🕯️",
+       "x": 1.0,
+       "escala": 0.3
+      },
+      {
+       "tipo": "estanteria",
+       "x": 1.5
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileoviejo",
+      "x": 0.35,
+      "accion": "sentado",
+      "emocion": "triste",
+      "mirar": -1
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "texto": "Muero en Archétri, ciego, el ocho de enero de mil seiscientos cuarenta y dos: treinta y dos años y un día después de ver las tres estrellitas.",
+    "drama": 0.6,
+    "personajes": [
+     {
+      "quien": "galileoviejo",
+      "x": 0.35,
+      "accion": "quieto",
+      "emocion": "cansado",
+      "mirar": -1
+     }
+    ],
+    "camara": "cerca",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "32 años y 1 día",
+     "etiqueta": "entre las tres estrellitas (7 de enero de 1610) y su muerte (8 de enero de 1642)",
+     "icono": "✨"
+    }
+   },
+   {
+    "texto": "Casi cuatro siglos después, una nave bautizada con mi nombre da vueltas a Júpiter durante ocho años y estudia aquellas cuatro lunas de cerca.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "ocular",
+     "hora": "noche",
+     "vista": "jupiter",
+     "lunas": [
+      -1.6,
+      1.1,
+      1.9,
+      2.8
+     ]
+    },
+    "personajes": [],
+    "camara": "lenta"
+   },
+   {
+    "corte": true,
+    "texto": "Y para que no te engañen: no fui el primero en mirar la Luna con un anteojo, y lo de soltar bolas desde la torre de Pisa probablemente nunca pasó. Lo mío fue entenderlo y contarlo.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "noche",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.15,
+       "escala": 1.3,
+       "detras": true
+      },
+      {
+       "tipo": "arbol",
+       "x": 1.3
+      },
+      {
+       "tipo": "valla",
+       "x": -0.5
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileonoche",
+      "x": 0.35,
+      "accion": "hablar",
+      "emocion": "neutral",
+      "mirar": -1
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "texto": "Galileo Galiléi y las personas de este vídeo fueron reales, como las fechas, las noches nubladas y mis palabras escritas. Mis pensamientos y las escenas de cada día son imaginados.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "interior",
+     "pared": "piedra",
+     "hora": "noche",
+     "ventana": true,
+     "props": [
+      {
+       "tipo": "chimenea",
+       "x": -1.05
+      },
+      {
+       "tipo": "mesa",
+       "x": 0.95
+      },
+      {
+       "tipo": "🕯️",
+       "x": 0.8,
+       "escala": 0.3
+      },
+      {
+       "tipo": "📜",
+       "x": 1.1,
+       "escala": 0.25
+      },
+      {
+       "tipo": "estanteria",
+       "x": 1.5
+      },
+      {
+       "tipo": "anteojo",
+       "x": -0.55
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileo",
+      "x": 0.35,
+      "accion": "hablar",
+      "emocion": "neutral",
+      "mirar": -1
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "texto": "¿Tú habrías pasado esas noches heladas mirando a Júpiter? Cuéntamelo en los comentarios y suscríbete para la próxima vida.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "noche",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "casa",
+       "x": -1.15,
+       "escala": 1.3,
+       "detras": true
+      },
+      {
+       "tipo": "arbol",
+       "x": 1.3
+      },
+      {
+       "tipo": "valla",
+       "x": -0.5
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "galileonoche",
+      "x": 0.35,
+      "accion": "saludar",
+      "emocion": "feliz",
+      "mirar": -1
+     }
+    ],
+    "camara": "general"
+   }
+  ]
+ },
+ "publicacion": {
+  "tituloLargo": "Un mes en la vida de GALILEO GALILEI (1610) | Las 4 noches que movieron el cielo",
+  "tituloCorto": "Un mes con Galileo",
+  "capituloInicial": "Tres puntitos de luz",
+  "descripcion": "Treinta días en la vida de Galileo Galilei, del 17 de diciembre de 1609 al 15 de enero de 1610, en Padua (República de Venecia). Con 45 años, un sueldo nuevo de 1.000 florines de por vida y un anteojo de unos 20 aumentos que pule él mismo, Galileo dibuja las montañas de la Luna, descubre que la Vía Láctea es un montón de estrellas y, el 7 de enero de 1610, ve tres «estrellitas» junto a Júpiter. Noche a noche, como lo cuenta en el Sidereus Nuncius: el 8, las tres al oeste; el 9, nublado; el 10, solo dos; el 11 comprende que giran alrededor de Júpiter; el 13 ve la cuarta; el 14, nublado; el 15, las cuatro al oeste.\n\n— Semana 1: La Luna tiene montañas\n— Semana 2: Más estrellas de las que hay\n— Semana 3: Tres estrellitas\n— Semana 4: Se mueven\n— Epílogo: el Sidereus Nuncius, las estrellas Mediceas, Florencia, 1633 y Arcetri\n\nQué es documentado y qué es imaginado: Galileo Galilei y todas las personas de este vídeo fueron reales. Las fechas, las noches nubladas y las palabras del Mensajero de las estrellas están documentadas; sus pensamientos y las escenas de cada día (el taller, la misa, la Nochebuena con Marina Gamba y los niños, los paseos por Padua y el momento en que decide escribir el libro) son imaginados, igual que el día exacto de las observaciones sin fecha (las estrellas de Orión y las Pléyades, la Vía Láctea). Las frases de las tarjetas son paráfrasis en español del Sidereus Nuncius (1610), de la carta del 7 de enero de 1610 y de una carta de 1609. En 1609 nadie decía «telescopio» (la palabra es de 1611): Galileo hablaba de su anteojo (occhiale). Galileo no inventó el anteojo (nació en los Países Bajos en 1608) y Thomas Harriot dibujó la Luna antes que él, sin publicarlo. Los nombres Ío, Europa, Ganímedes y Calisto son de Simon Marius y se impusieron en el siglo XIX. El experimento de la torre de Pisa probablemente no ocurrió.\n\nFuentes: G. Galilei, Sidereus Nuncius (Venecia, 1610), trad. de A. Van Helden (University of Chicago Press, 1989); Le Opere di Galileo Galilei, Edizione Nazionale (A. Favaro), vols. III y X; A. Righini, «The telescope in the making: the Galileo first telescopic observations» (IAU); Museo Galileo (Florencia): telescopios, objetivo, diario de observaciones de Júpiter, biografías de Marina Gamba, Marcantonio Mazzoleni, Paolo Sarpi y Belisario Vinta; History of Science Museum, Oxford (The moons of Jupiter; Mountains on the moon); Biblioteca Nazionale Centrale di Firenze, Ms. Gal. 48; Universidad de Padua (Galileo, los años paduanos); Britannica; Linda Hall Library; INAF (550 ejemplares); arXiv:1206.4244 y arXiv:2503.12543 (las observaciones de los satélites de Júpiter).",
+  "etiquetas": [
+   "un mes en la vida de",
+   "Galileo Galilei",
+   "lunas de Júpiter",
+   "Sidereus Nuncius",
+   "1610",
+   "Padua",
+   "historia de la ciencia",
+   "astronomía",
+   "telescopio",
+   "personajes históricos",
+   "biografía",
+   "historia"
+  ],
+  "miniatura": {
+   "texto": "TRES ESTRELLITAS",
+   "escena": 39,
+   "quien": "galileonoche",
+   "emocion": "sorpresa",
+   "prop": "anteojo"
+  },
+  "shorts": [
+   {
+    "titulo": "Vio algo que nadie había visto nunca… y tardó 4 noches en entenderlo",
+    "descripcion": "Padua, diciembre de 1609: Galileo Galilei, 45 años, y el anteojo de 20 aumentos que pulió él mismo. #shorts #historia #galileo"
+   },
+   {
+    "titulo": "Casi todas sus lentes acababan en la basura",
+    "descripcion": "El taller de Galileo en Padua: vidrio de Murano, polvo abrasivo y un artesano que cobraba 6 escudos al año. #shorts #historia #ciencia"
+   },
+   {
+    "titulo": "La Luna no es perfecta",
+    "descripcion": "Diciembre de 1609: Galileo dibuja montañas y cráteres en la Luna con aguadas de sepia. #shorts #historia #galileo"
+   },
+   {
+    "titulo": "Midió las montañas de la Luna sin salir de casa",
+    "descripcion": "Cuatro millas de alto, calculadas con geometría; y un profesor con estudiantes en pensión. #shorts #historia #ciencia"
+   },
+   {
+    "titulo": "Estrellas que ningún ojo humano había visto",
+    "descripcion": "Orión, las Pléyades y un cielo que se llena de estrellas; y el frío de las noches de Padua. #shorts #historia #astronomia"
+   },
+   {
+    "titulo": "Ninguna partida de bautismo lleva su nombre",
+    "descripcion": "Nochebuena de 1609: Galileo, Marina Gamba y sus tres hijos, Virginia, Livia y Vincenzo. #shorts #historia #galileo"
+   },
+   {
+    "titulo": "La Vía Láctea no es leche",
+    "descripcion": "Galileo apunta su anteojo a la mancha blanca del cielo: un montón de innumerables estrellas. #shorts #historia #astronomia"
+   },
+   {
+    "titulo": "1.000 florines al año por un tubo con dos cristales",
+    "descripcion": "Agosto de 1609: el campanario de San Marcos, el dux Leonardo Donà y un sueldo de por vida. #shorts #historia #galileo"
+   },
+   {
+    "titulo": "Galileo no inventó el telescopio",
+    "descripcion": "El anteojo nació en los Países Bajos y Thomas Harriot dibujó la Luna antes que él. #shorts #historia #ciencia"
+   },
+   {
+    "titulo": "En Venecia el año nuevo llegaba en marzo",
+    "descripcion": "Fin de 1609 en Padua: la última lente buena, el calendario veneciano y una carta a Florencia. #shorts #historia #galileo"
+   },
+   {
+    "titulo": "7 de enero de 1610: tres estrellitas junto a Júpiter",
+    "descripcion": "La primera hora de la noche en que todo empezó. #shorts #historia #astronomia #jupiter"
+   },
+   {
+    "titulo": "Se habían cambiado de lado",
+    "descripcion": "8 y 9 de enero de 1610: las tres estrellitas al oeste… y después, nubes. #shorts #historia #galileo"
+   },
+   {
+    "titulo": "¿Dónde está la tercera?",
+    "descripcion": "10 y 11 de enero de 1610: Galileo comprende que las estrellitas giran alrededor de Júpiter. #shorts #historia #astronomia"
+   },
+   {
+    "titulo": "Ya no eran tres. Eran cuatro",
+    "descripcion": "13 de enero de 1610: la cuarta luna de Júpiter, y una noche nublada de nervios. #shorts #historia #galileo"
+   },
+   {
+    "titulo": "Si Júpiter lleva lunas, la Tierra puede llevar la suya",
+    "descripcion": "El argumento que Galileo le debía a Copérnico, y la noche del 15 de enero de 1610. #shorts #historia #ciencia"
+   },
+   {
+    "titulo": "Cuatro lunas, cuatro hermanos Medici",
+    "descripcion": "Marzo de 1610: el Sidereus Nuncius, 550 ejemplares agotados en una semana, y los nombres que vinieron después. #shorts #historia #galileo"
+   },
+   {
+    "titulo": "Murió 32 años y un día después",
+    "descripcion": "Florencia, el convento de sus hijas, el proceso de 1633 y Arcetri, 8 de enero de 1642. #shorts #historia #galileo"
+   },
+   {
+    "titulo": "Lo que Galileo NO hizo",
+    "descripcion": "Ni inventó el telescopio ni soltó bolas desde la torre de Pisa. Lo suyo fue entender y contar. #shorts #historia #galileo"
+   }
+  ]
+ },
+ "grafias": {
+  "Galiléi": "Galilei",
+  "Marcantónio": "Marcantonio",
+  "Matsoléni": "Mazzoleni",
+  "Virjinia": "Virginia",
+  "Vinchénso": "Vincenzo",
+  "Doná": "Donà",
+  "Tómas": "Thomas",
+  "Járriot": "Harriot",
+  "Medicheas": "Mediceas",
+  "Cósimo": "Cosimo",
+  "Médichi": "Medici",
+  "Símon": "Simon",
+  "Márius": "Marius",
+  "Archétri": "Arcetri",
+  "María": "Maria"
+ }
+}
