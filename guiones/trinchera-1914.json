@@ -484,7 +484,7 @@
       },
       {
         "dia": 6,
-        "texto": "Martes. Relevo en Uplín, junto a Armantiér: baño y ropa limpia. A los dos días, la ropa vuelve a estar llena de piojos.",
+        "texto": "El martes nos toca relevo en Uplín, junto a Armantiér: baño y ropa limpia. A los dos días, la ropa vuelve a estar llena de piojos.",
         "drama": 0.55,
         "fondo": {
           "lugar": "calle",
@@ -534,7 +534,7 @@
       },
       {
         "dia": 7,
-        "texto": "Miércoles. Carta de Mégan. Güen ya tiene seis semanas, abre mucho los ojos y le agarra el dedo muy fuerte. Leo la carta tres veces seguidas.",
+        "texto": "Miércoles. Carta de Mégan. Güen ya tiene seis semanas, abre mucho los ojos y le agarra el dedo muy fuerte. La leo tres veces, una detrás de otra.",
         "drama": 0.55,
         "fondo": {
           "lugar": "interior",
@@ -844,7 +844,7 @@
       {
         "dia": 13,
         "corte": true,
-        "texto": "Martes. Llega el regalo de Navidad más famoso de la guerra: una caja de latón dorado con la cara de una princesa de diecisiete años.",
+        "texto": "El martes llega el regalo de Navidad más famoso de la guerra: una caja de latón dorado con la cara de una princesa de diecisiete años.",
         "drama": 0.55,
         "fondo": {
           "lugar": "interior",
@@ -1634,7 +1634,7 @@
       },
       {
         "dia": 18,
-        "texto": "Domingo. Trabajamos en el parapeto a la vista de los sajones, y ellos en el suyo. Nadie apunta. Ninguno quiere ser el primero en romper la calma.",
+        "texto": "El domingo trabajamos en el parapeto a la vista de los sajones, y ellos en el suyo. Nadie apunta. Ninguno quiere ser el primero en romper la calma.",
         "drama": 0.6,
         "fondo": {
           "lugar": "campo",
@@ -1743,7 +1743,7 @@
       },
       {
         "dia": 20,
-        "texto": "Martes. Relevo a Uplín. Le escribo a Mégan todo lo que ha pasado, aunque no sé si el oficial que lee las cartas lo dejará pasar.",
+        "texto": "El martes volvemos a Uplín, y le escribo a Mégan todo lo que ha pasado, aunque no sé si el oficial que lee las cartas lo dejará pasar.",
         "drama": 0.55,
         "personajes": [
           {
