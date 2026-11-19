@@ -33,8 +33,17 @@ const bloques = [];
 escenas.forEach((e, i) => { if (e.corte) bloques.push(i); });
 const cortesF = join(salida, "shorts", "cortes.json");
 const shorts = existsSync(cortesF) ? JSON.parse(readFileSync(cortesF, "utf8")).shorts : [];
+// cada short se queda con el bloque del guion que más escenas comparte con él (sin repetir título)
+const usados = new Set();
 const lineasShorts = shorts.map((s) => {
-  const k = Math.max(0, bloques.findIndex((b) => b === s.escenas[0]) >= 0 ? bloques.indexOf(s.escenas[0]) : bloques.filter((b) => b <= s.escenas[0]).length - 1);
+  const [a, z] = [s.escenas[0], s.escenas[s.escenas.length - 1]];
+  let k = 0, mejor = -1;
+  bloques.forEach((b, j) => {
+    const fin = (bloques[j + 1] ?? escenas.length) - 1;
+    const solape = Math.min(z, fin) - Math.max(a, b) + 1;
+    if (!usados.has(j) && solape > mejor) { mejor = solape; k = j; }
+  });
+  usados.add(k);
   const info = p.shorts?.[k] ?? { titulo: `${guion.titulo} (parte ${s.n})`, descripcion: "#shorts" };
   return `### Parte ${s.n}/${shorts.length} · ${mmss(s.desde)}–${mmss(s.hasta)} · ${s.duracion.toFixed(0)} s\n\n**${info.titulo}**\n\n${info.descripcion}\n`;
 });
