@@ -14,7 +14,7 @@ Por qué funciona cada idea: tiene **un mes concreto con un acontecimiento dram�
 | [ ] | `coliseo-80` | un gladiador | Roma, año 80 | Los 100 días de juegos de la inauguración del Coliseo. |
 | [ ] | `londres-1666` | un panadero de Pudding Lane | Londres, septiembre de 1666 | El Gran Incendio empezó en una panadería. |
 | [x] | `tenochtitlan-1519` | un niño de Tenochtitlan | Noviembre de 1519 | El 8 de noviembre entra Cortés en la ciudad. |
-| [~] | `trinchera-1914` | un soldado en las trincheras | Flandes, diciembre de 1914 | La tregua de Navidad y el partido de fútbol. |
+| [x] | `trinchera-1914` | un soldado en las trincheras | Flandes, diciembre de 1914 | La tregua de Navidad y el partido de fútbol. |
 | [ ] | `peste-1348` | una niña en la Peste Negra | Florencia, primavera de 1348 | Murió más de la mitad de la ciudad. |
 | [ ] | `lindisfarne-793` | un monje de Lindisfarne | Inglaterra, junio de 793 | El primer gran ataque vikingo. |
 | [ ] | `berlin-1989` | una adolescente de Berlín Este | Noviembre de 1989 | La caída del Muro (9 de noviembre). |
@@ -91,7 +91,7 @@ Por qué funciona cada idea: tiene **un mes concreto con un acontecimiento dram�
 | Estado | Slug | Día | Un mes en la vida de… | Mes | Gancho |
 |---|---|---|---|---|---|
 | [~] | `mary-celeste-1872` | Lunes · misterios | un marinero del Dei Gratia | Atlántico, noviembre–diciembre de 1872 | 4 de diciembre: encuentran el Mary Celeste navegando sin nadie a bordo. **Efeméride.** |
-| [~] | `trinchera-1914` | Martes · guerra | un soldado en las trincheras | Flandes, diciembre de 1914 | La tregua de Navidad y el partido de fútbol. **Efeméride.** |
+| [x] | `trinchera-1914` | Martes · guerra | un soldado en las trincheras | Flandes, diciembre de 1914 | La tregua de Navidad y el partido de fútbol. **Efeméride.** |
 | [~] | `saturnales-50` | Miércoles · mitos | un esclavo en las Saturnales | Roma, diciembre del año 50 | Durante una semana los amos sirven a los esclavos. El origen de muchas costumbres navideñas. |
 | [x] | `curie-1898` | Jueves · personajes | Marie Curie | París, diciembre de 1898 | 26 de diciembre: anuncian el radio, descubierto por una sola raya violeta en el espectro. **Efeméride.** |
 | [~] | `halifax-1917` | Viernes · catástrofes | un aprendiz del puerto de Halifax | Canadá, diciembre de 1917 | 6 de diciembre: la mayor explosión antes de la bomba atómica. **Efeméride.** |
