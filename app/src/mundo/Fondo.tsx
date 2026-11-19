@@ -539,7 +539,7 @@ const PrimerPlano: React.FC<{ fondo: Fondo; f: number; id: string; cam?: Cam }> 
 };
 
 // Decorados que siempre están lejos, detrás de todo el paisaje
-const LEJANOS = ["volcan", "volcan-erupcion", "piramide", "pilar", "templo-mayor"];
+const LEJANOS = ["volcan", "volcan-erupcion", "explosion", "piramide", "pilar", "templo-mayor"];
 const ESCALA_LEJANA: Record<string, number> = { "templo-mayor": 0.8, pilar: 0.75 };
 // Decorados de plano medio: sobre el agua o la llanura, entre el horizonte y el suelo
 const MEDIOS: Record<string, { y: number; k: number }> = { "ciudad-lago": { y: HORIZONTE + 40, k: 0.55 }, puente: { y: HORIZONTE + 95, k: 0.5 }, calzada: { y: HORIZONTE + 80, k: 0.6 }, canoa: { y: SUELO - 75, k: 0.8 } };
@@ -594,6 +594,13 @@ export const DibujarFondo: React.FC<{ fondo: Fondo; f: number; dur: number; id: 
         <g>
           <rect x={0} y={0} width={MW} height={HORIZONTE + 120} fill={noche ? "#1c2128" : "#6f7880"} opacity={noche ? 0.45 : 0.62} />
           <rect x={0} y={0} width={MW} height={MH} fill="#2e353c" opacity={0.18} />
+        </g>
+      )}
+      {fondo.clima === "ceniza" && fondo.lugar !== "interior" && (
+        // cielo de humo y hollín tras una explosión o un incendio: sin sol ni azul
+        <g>
+          <rect x={0} y={0} width={MW} height={HORIZONTE + 160} fill="#2a2522" opacity={0.78} />
+          <rect x={0} y={0} width={MW} height={MH} fill="#1a1614" opacity={0.25} />
         </g>
       )}
       {fondo.clima === "niebla" && fondo.lugar !== "interior" && (

@@ -8,7 +8,7 @@ export const PROPS_DISPONIBLES = [
   "roca", "valla", "pozo", "tumba", "hoguera", "tienda", "bandera", "mesa", "estanteria", "chimenea", "cama",
   "antorcha", "cuadro", "consola", "maquina", "barril", "cajas", "planta", "telescopio", "yunque", "piramide", "columna", "reloj",
   "bergantin", "bergantin-hundido", "bote",
-  "volcan", "volcan-erupcion", "horno", "molino", "anfora", "termopolio",
+  "volcan", "volcan-erupcion", "humo", "explosion", "horno", "molino", "anfora", "termopolio",
   "casa-adobe", "habitat", "invernadero", "rover", "panel-solar", "antena",
   "escalera", "puerta", "tesoro", "sarcofago", "mascara", "estatua", "jarron", "carro-dorado",
   // apocalipsis zombi (2031)
@@ -394,6 +394,34 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean }> = ({ ti
           <g transform={`translate(0 ${120 + f * 0.25}) rotate(${-18 - f * 0.02})`}>{casco}</g>
           <rect x={-700} y={60} width={1400} height={400} fill="#e8f0f6" />
           {[-500, -200, 150, 420].map((x, i) => <polygon key={i} points={`${x - 120},70 ${x},${-30 - i * 10} ${x + 130},70`} fill="#f4f8fb" stroke="#b9cfe0" strokeWidth={6} />)}
+        </g>
+      );
+    }
+    case "humo": {
+      // columna de humo negro que sube (barco ardiendo, incendio): ponla sobre el barco con escala 0.6–1
+      return (
+        <g>
+          {Array.from({ length: 10 }).map((_, i) => {
+            const t = ((f * 2.2 + i * 70) % 700) / 700;
+            return <circle key={i} cx={Math.sin(f / 25 + i) * 30 + t * 160} cy={-120 - t * 700} r={50 + t * 140} fill={i % 2 ? "#2b2826" : "#3d3936"} opacity={0.85 * (1 - t * 0.6)} />;
+          })}
+          {Array.from({ length: 5 }).map((_, i) => <path key={`l${i}`} d={`M${-90 + i * 45} -40 Q${-70 + i * 45} ${-150 - 30 * Math.sin(f / 3 + i)} ${-50 + i * 45} -40Z`} fill={i % 2 ? "#ff8a2a" : "#ffd04a"} opacity={0.9} />)}
+        </g>
+      );
+    }
+    case "explosion": {
+      // gran explosión lejana: destello, columna de humo y hongo. Escala 0.8–1.2, x lejos de los personajes
+      const h = Math.min(1, f / 60);
+      const destello = Math.max(0, 1 - f / 24);
+      return (
+        <g>
+          <circle cx={0} cy={-300} r={3200} fill="#fff6d8" opacity={0.85 * destello} />
+          <path d={`M-90 0 Q-60 ${-500 * h} -70 ${-900 * h} L70 ${-900 * h} Q60 ${-500 * h} 90 0Z`} fill="#4a4440" />
+          {Array.from({ length: 11 }).map((_, i) => (
+            <circle key={i} cx={-420 + i * 84 + Math.sin(f / 30 + i) * 18} cy={-900 * h - 60 + Math.sin(i * 1.9) * 70} r={(120 + (i % 3) * 45) * h} fill={i % 2 ? "#3a3532" : "#5b5450"} />
+          ))}
+          <ellipse cx={0} cy={-30} rx={320 * h} ry={70} fill="#ff7a2a" opacity={0.75} />
+          <ellipse cx={0} cy={-40} rx={160 * h} ry={40} fill="#ffe08a" opacity={0.8 + 0.2 * Math.sin(f / 2)} />
         </g>
       );
     }
