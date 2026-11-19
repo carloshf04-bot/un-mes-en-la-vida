@@ -8,7 +8,7 @@ export const PROPS_DISPONIBLES = [
   "roca", "valla", "pozo", "tumba", "hoguera", "tienda", "bandera", "mesa", "estanteria", "chimenea", "cama",
   "antorcha", "cuadro", "consola", "maquina", "barril", "cajas", "planta", "telescopio", "yunque", "piramide", "columna", "reloj",
   "bergantin", "bergantin-hundido", "bote",
-  "volcan", "volcan-erupcion", "cruz", "electrometro", "cristalizadores", "espectro", "humo", "explosion", "horno", "molino", "anfora", "termopolio",
+  "volcan", "volcan-erupcion", "cruz", "lecho", "estatua-saturno", "electrometro", "cristalizadores", "espectro", "humo", "explosion", "horno", "molino", "anfora", "termopolio",
   "casa-adobe", "habitat", "invernadero", "rover", "panel-solar", "antena",
   "escalera", "puerta", "tesoro", "sarcofago", "mascara", "estatua", "jarron", "carro-dorado",
   // apocalipsis zombi (2031)
@@ -258,6 +258,36 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean }> = ({ ti
         </g>
       );
     }
+    case "lecho":
+      // lecho de triclinio romano: armazón bajo, colchón y almohadones en los dos extremos
+      return (
+        <g>
+          <rect x={-280} y={-60} width={560} height={26} fill="#6b4a32" />
+          {[-260, 240].map((x) => <rect key={x} x={x} y={-40} width={22} height={40} fill="#5a3d28" />)}
+          <rect x={-270} y={-120} width={540} height={66} rx={24} fill="#9b2d30" />
+          <rect x={-270} y={-96} width={540} height={10} fill="#c79a2a" opacity={0.8} />
+          <ellipse cx={-230} cy={-140} rx={70} ry={36} fill="#c79a2a" />
+          <ellipse cx={230} cy={-140} rx={70} ry={36} fill="#c79a2a" />
+        </g>
+      );
+    case "estatua-saturno":
+      // estatua de Saturno en su templo: manto, hoz en la mano y los pies atados con cintas de lana
+      return (
+        <g>
+          <rect x={-150} y={-120} width={300} height={120} fill="#b9b2a4" />
+          <rect x={-170} y={-140} width={340} height={26} fill="#d2cbbd" />
+          <path d="M-90 -140 L-110 -560 Q0 -640 110 -560 L90 -140Z" fill="#c9a24a" />
+          <path d="M-110 -560 Q0 -700 110 -560 Q60 -520 0 -540 Q-60 -520 -110 -560Z" fill="#a8832e" />
+          <circle cx={0} cy={-610} r={52} fill="#d9b25a" />
+          <path d="M-60 -640 Q0 -700 60 -640 Q70 -580 40 -560 L-40 -560 Q-70 -580 -60 -640Z" fill="#a8832e" />
+          <path d="M-40 -580 Q0 -540 40 -580 L30 -520 Q0 -500 -30 -520Z" fill="#e6dcc6" />
+          <rect x={100} y={-520} width={14} height={260} fill="#6b5236" />
+          <path d="M107 -520 Q200 -560 170 -460" stroke="#cfd6dc" strokeWidth={14} fill="none" strokeLinecap="round" />
+          {[0, 1, 2].map((i) => (
+            <path key={i} d={`M-100 ${-170 - i * 26} Q-50 ${-150 - i * 26} 0 ${-170 - i * 26} T100 ${-170 - i * 26}`} stroke="#f4efe2" strokeWidth={12} fill="none" />
+          ))}
+        </g>
+      );
     case "cruz":
       // cruz de madera improvisada (tumbas de campaña)
       return (

@@ -86,6 +86,10 @@ export const calcularPose = (accion: Accion, f: number, semilla: number, fase?: 
       const r = Math.sin(t * 1.7) * 2;
       return { ...p, pD: -88, rD: 88, pI: 0, rI: 90, y: MUSLO - 6, incl: 10 + r, hD: -10, cD: 40, hI: 10, cI: -40, cabeza: 12 };
     }
+    case "reclinado":
+      // comensal romano tumbado en el lecho del triclinio: el cuerpo cae hacia delante sobre el codo,
+      // las piernas quedan estiradas hacia atrás sobre el colchón y la cabeza se endereza
+      return { ...p, pD: 34, rD: 4, pI: 28, rI: 8, y: 22, incl: 62, hD: 20, cD: -70, hI: -10, cI: -40, cabeza: -48 };
     case "dormir":
       return { ...p, y: 0, cabeza: 0 };
     case "beber": {
@@ -514,7 +518,7 @@ export const Personaje: React.FC<{
       {/* piernas */}
       <Extremidad x={-30} y={CADERA_Y} a1={p.pI} a2={p.rI} l1={MUSLO} l2={ESPINILLA} w={42} c1={oscurecer(cPierna, 0.12)} c2={oscurecer(cPierna, 0.12)} fin={pie} />
       <Extremidad x={30} y={CADERA_Y} a1={p.pD} a2={p.rD} l1={MUSLO} l2={ESPINILLA} w={42} c1={cPierna} c2={cPierna} fin={pie} />
-      {!sentado && <Falda look={look} vaiven={vaiven} />}
+      {!sentado && accion !== "reclinado" && <Falda look={look} vaiven={vaiven} />}
       <g transform={`translate(0 ${CADERA_Y}) scale(1 ${1 + Math.sin(tt * 1.7) * 0.012}) translate(0 ${-CADERA_Y})`}><Torso look={look} /></g>
       {/* cuello y cabeza */}
       <rect x={-20} y={CUELLO_Y - 16} width={40} height={36} fill={oscurecer(piel, 0.1)} />

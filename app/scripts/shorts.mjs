@@ -89,7 +89,7 @@ const pantallaX = (e, xw) => {
   return { x: 960 + s * (xw - fx), s };
 };
 const encuadre = esc.map((e, i) => {
-  if (i === 0 || e.insercion || e.capitulo) return { modo: "entero" };
+  if (e.insercion || e.capitulo) return { modo: "entero" };
   const pjs = (e.personajes ?? []).filter((p) => !p.sale);
   if (!pjs.length) return { modo: "recorte", x: 960 };
   const xs = pjs.map((p) => pantallaX(e, xMundo(p.x ?? 0)));
@@ -99,8 +99,10 @@ const encuadre = esc.map((e, i) => {
   const max = Math.max(...xs.map((p) => p.x)) + ancho / 2;
   if (max - min <= CW) return { modo: "recorte", x: (min + max) / 2 };
   if (max - min <= MW) return { modo: "medio", x: (min + max) / 2 }; // dos personajes: encuadre casi cuadrado
-  // no caben todos: si solo hay uno importante (el que habla) y el resto está lejos, se va al entero
-  return { modo: "entero" };
+  // no caben todos: encuadre medio centrado en el que habla (mejor un vecino cortado que un muñeco diminuto)
+  const habla = pjs.findIndex((p) => p.habla !== false);
+  const xh = xs[habla >= 0 ? habla : 0].x;
+  return { modo: "medio", x: Math.min(Math.max(xh, min + MW / 2), max - MW / 2) };
 });
 const limitarX = (x, w = CW) => Math.round(Math.min(1920 - w, Math.max(0, x - w / 2)));
 
