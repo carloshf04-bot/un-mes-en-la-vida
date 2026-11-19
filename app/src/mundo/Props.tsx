@@ -8,7 +8,7 @@ export const PROPS_DISPONIBLES = [
   "roca", "valla", "pozo", "tumba", "hoguera", "tienda", "bandera", "mesa", "estanteria", "chimenea", "cama",
   "antorcha", "cuadro", "consola", "maquina", "barril", "cajas", "planta", "telescopio", "yunque", "piramide", "columna", "reloj",
   "bergantin", "bergantin-hundido", "bote",
-  "volcan", "volcan-erupcion", "cruz", "lecho", "estatua-saturno", "electrometro", "cristalizadores", "espectro", "humo", "explosion", "horno", "molino", "anfora", "termopolio",
+  "volcan", "volcan-erupcion", "cruz", "parapeto-aleman", "lecho", "estatua-saturno", "electrometro", "cristalizadores", "espectro", "humo", "explosion", "horno", "molino", "anfora", "termopolio",
   "casa-adobe", "habitat", "invernadero", "rover", "panel-solar", "antena",
   "escalera", "puerta", "tesoro", "sarcofago", "mascara", "estatua", "jarron", "carro-dorado",
   // apocalipsis zombi (2031)
@@ -255,6 +255,30 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean }> = ({ ti
           <rect x={130} y={-500} width={14} height={140} fill="#b06bff" opacity={brillo} />
           <rect x={118} y={-505} width={38} height={150} fill="#b06bff" opacity={brillo * 0.3} />
           <text x={137} y={-330} fontSize={26} textAnchor="middle" fill="#e6d3ff" fontFamily="serif">?</text>
+        </g>
+      );
+    }
+    case "parapeto-aleman": {
+      // el parapeto enemigo al otro lado de la tierra de nadie, con arbolitos de Navidad y velas (va LEJANO;
+      // se dibuja alto para asomar por encima de nuestros sacos)
+      return (
+        <g>
+          <rect x={-1400} y={-640} width={2800} height={60} rx={20} fill="#3a3326" />
+          {Array.from({ length: 30 }).map((_, i) => <rect key={i} x={-1400 + i * 96} y={-668} width={90} height={34} rx={14} fill="#4a4232" />)}
+          {Array.from({ length: 9 }).map((_, i) => {
+            const x = -1200 + i * 300 + (i % 2) * 60;
+            return (
+              <g key={i}>
+                <polygon points={`${x},-830 ${x - 55},-668 ${x + 55},-668`} fill="#1f3a2a" />
+                {[0, 1, 2, 3].map((j) => {
+                  const cx = x - 34 + ((j * 23) % 68);
+                  const cy = -690 - j * 34;
+                  const b = 0.6 + 0.4 * Math.sin(f / 7 + i * 3 + j);
+                  return <g key={j}><circle cx={cx} cy={cy} r={20} fill="#ffd27a" opacity={0.3 * b} /><circle cx={cx} cy={cy} r={8} fill="#fff1b8" opacity={b} /></g>;
+                })}
+              </g>
+            );
+          })}
         </g>
       );
     }

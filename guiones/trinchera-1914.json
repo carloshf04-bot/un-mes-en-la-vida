@@ -201,15 +201,15 @@
         "personajes": [
           {
             "quien": "tom",
-            "x": 0.65,
-            "accion": "saludar",
+            "x": 0.62,
+            "accion": "dar-mano",
             "emocion": "sorpresa",
             "mirar": -1
           },
           {
             "quien": "otto",
-            "x": 0.2,
-            "accion": "saludar",
+            "x": 0.08,
+            "accion": "dar-mano",
             "emocion": "sorpresa",
             "mirar": 1,
             "habla": false
@@ -902,43 +902,13 @@
         "texto": "Jueves, veinticuatro de diciembre. Nochebuena. Cielo limpio y helada blanca. Al anochecer, en el parapeto alemán, van apareciendo luces, una detrás de otra.",
         "drama": 0.75,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "trinchera",
           "hora": "noche",
           "clima": "despejado",
           "props": [
             {
-              "tipo": "pino",
-              "x": -0.55,
-              "escala": 0.3,
-              "detras": true
-            },
-            {
-              "tipo": "pino",
-              "x": 0.15,
-              "escala": 0.28,
-              "detras": true
-            },
-            {
-              "tipo": "pino",
-              "x": 0.85,
-              "escala": 0.3,
-              "detras": true
-            },
-            {
-              "tipo": "🕯️",
-              "x": -0.2,
-              "escala": 0.22,
-              "detras": true
-            },
-            {
-              "tipo": "🕯️",
-              "x": 0.5,
-              "escala": 0.22,
-              "detras": true
-            },
-            {
-              "tipo": "valla",
-              "x": 1.35
+              "tipo": "parapeto-aleman",
+              "x": 0
             }
           ]
         },
@@ -1183,15 +1153,15 @@
         "personajes": [
           {
             "quien": "tom",
-            "x": 0.3,
-            "accion": "saludar",
+            "x": 0.27,
+            "accion": "dar-mano",
             "emocion": "sorpresa",
             "mirar": -1
           },
           {
             "quien": "otto",
-            "x": -0.3,
-            "accion": "saludar",
+            "x": -0.27,
+            "accion": "dar-mano",
             "emocion": "sorpresa",
             "mirar": 1,
             "habla": false

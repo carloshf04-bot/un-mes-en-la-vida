@@ -86,6 +86,11 @@ export const calcularPose = (accion: Accion, f: number, semilla: number, fase?: 
       const r = Math.sin(t * 1.7) * 2;
       return { ...p, pD: -88, rD: 88, pI: 0, rI: 90, y: MUSLO - 6, incl: 10 + r, hD: -10, cD: 40, hI: 10, cI: -40, cabeza: 12 };
     }
+    case "dar-mano": {
+      // apretón de manos: brazo de delante extendido a la altura de la cintura, con un leve vaivén
+      const v = Math.sin(t * 9) * 7;
+      return { ...p, hD: -48 + v, cD: -22, hI: 4, cI: 6, cabeza: 2 };
+    }
     case "reclinado":
       // comensal romano tumbado en el lecho del triclinio: el cuerpo cae hacia delante sobre el codo,
       // las piernas quedan estiradas hacia atrás sobre el colchón y la cabeza se endereza
