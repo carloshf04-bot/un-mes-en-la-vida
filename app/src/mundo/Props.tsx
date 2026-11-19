@@ -8,7 +8,7 @@ export const PROPS_DISPONIBLES = [
   "roca", "valla", "pozo", "tumba", "hoguera", "tienda", "bandera", "mesa", "estanteria", "chimenea", "cama",
   "antorcha", "cuadro", "consola", "maquina", "barril", "cajas", "planta", "telescopio", "yunque", "piramide", "columna", "reloj",
   "bergantin", "bergantin-hundido", "bote",
-  "volcan", "volcan-erupcion", "cruz", "parapeto-aleman", "lecho", "estatua-saturno", "electrometro", "cristalizadores", "espectro", "humo", "explosion", "horno", "molino", "anfora", "termopolio",
+  "volcan", "volcan-erupcion", "bergantin", "cruz", "parapeto-aleman", "lecho", "estatua-saturno", "electrometro", "cristalizadores", "espectro", "humo", "explosion", "horno", "molino", "anfora", "termopolio",
   "casa-adobe", "habitat", "invernadero", "rover", "panel-solar", "antena",
   "escalera", "puerta", "tesoro", "sarcofago", "mascara", "estatua", "jarron", "carro-dorado",
   // apocalipsis zombi (2031)
@@ -118,6 +118,42 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean }> = ({ ti
           <circle cx={-70} cy={-270 - (f % 50)} r={30 + (f % 50) / 2} fill="#aaa" opacity={0.4 - (f % 50) / 130} />
         </g>
       );
+    case "bergantin": {
+      // bergantín de dos palos a la deriva (Mary Celeste): casco oscuro, velas cuadras medio rotas, una suelta al viento
+      const ola = Math.sin(f / 14) * 10;
+      const tela = noche ? "#b9b4a6" : "#e8e0cc";
+      const vela = (x: number, y: number, w: number, h: number, rota: boolean, k: number) => (
+        <path key={`${x}${y}`} d={rota
+          ? `M${x - w / 2} ${y} L${x + w / 2} ${y} L${x + w / 2 - 8} ${y + h * 0.55} L${x + w / 6} ${y + h * 0.4} L${x} ${y + h * 0.7} L${x - w / 4} ${y + h * 0.45} L${x - w / 2 + 6} ${y + h * 0.6}Z`
+          : `M${x - w / 2} ${y} L${x + w / 2} ${y} Q${x + w / 2 + 14 + Math.sin(f / 9 + k) * 8} ${y + h / 2} ${x + w / 2 - 6} ${y + h} L${x - w / 2 + 6} ${y + h} Q${x - w / 2 + 10 + Math.sin(f / 9 + k) * 8} ${y + h / 2} ${x - w / 2} ${y}Z`}
+          fill={tela} stroke="#8c836e" strokeWidth={4} />
+      );
+      return (
+        <g transform={`translate(0 ${ola - 20}) rotate(${Math.sin(f / 18) * 2.5})`}>
+          {/* jarcias */}
+          <path d="M-470 -90 L-170 -720 L190 -760 L460 -80" stroke="#3a2e22" strokeWidth={4} fill="none" />
+          <path d="M-170 -720 L-330 -90 M190 -760 L330 -90" stroke="#3a2e22" strokeWidth={3} fill="none" />
+          {/* palos */}
+          <rect x={-180} y={-740} width={20} height={660} fill="#4a3424" />
+          <rect x={180} y={-780} width={20} height={700} fill="#4a3424" />
+          {/* bauprés */}
+          <path d="M440 -110 L620 -200" stroke="#4a3424" strokeWidth={16} strokeLinecap="round" />
+          <path d="M620 -200 L200 -700" stroke="#3a2e22" strokeWidth={3} />
+          {/* velas cuadras: algunas rotas, una suelta */}
+          {vela(-170, -700, 220, 140, false, 0)}
+          {vela(-170, -540, 280, 170, true, 1)}
+          {vela(190, -740, 220, 140, true, 2)}
+          {vela(190, -580, 300, 180, false, 3)}
+          <path d={`M200 -380 Q${300 + Math.sin(f / 6) * 40} -330 ${360 + Math.sin(f / 5) * 50} -250`} stroke={tela} strokeWidth={22} fill="none" strokeLinecap="round" />
+          {/* casco */}
+          <path d="M-480 -110 L470 -110 L420 30 L-430 30Z" fill="#1f1a17" />
+          <rect x={-470} y={-130} width={930} height={24} fill="#3b2a1f" />
+          <path d="M-440 -40 L440 -40" stroke="#6b5a3a" strokeWidth={6} />
+          {/* espuma en la línea de flotación */}
+          <path d={`M-460 25 Q-300 ${10 + Math.sin(f / 7) * 6} -100 25 T300 25 T480 25`} stroke="#ffffff" strokeWidth={8} fill="none" opacity={0.5} />
+        </g>
+      );
+    }
     case "velero":
       return (
         <g transform={`translate(0 ${Math.sin(f / 12) * 8 - 40}) rotate(${Math.sin(f / 16) * 3})`}>

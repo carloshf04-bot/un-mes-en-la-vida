@@ -224,6 +224,24 @@ const Sombrero: React.FC<{ look: Look }> = ({ look }) => {
           <ellipse cx={70} cy={-22} rx={60} ry={12} />
         </g>
       );
+    case "gorro-lana":
+      // gorro de lana de marinero, con el borde vuelto
+      return (
+        <g fill={c}>
+          <path d="M-84 -30 C-84 -128 84 -128 84 -30Z" />
+          <rect x={-90} y={-46} width={180} height={28} rx={12} fill={oscurecer(c, 0.2)} />
+        </g>
+      );
+    case "gorra-plato":
+      // gorra de oficial del siglo XIX: plato plano, cinta y visera corta y oscura
+      return (
+        <g>
+          <rect x={-92} y={-108} width={184} height={30} rx={10} fill={c} />
+          <path d="M-80 -80 L80 -80 L74 -34 L-74 -34Z" fill={c} />
+          <rect x={-76} y={-50} width={152} height={14} fill={oscurecer(c, 0.35)} />
+          <path d="M40 -34 Q90 -36 104 -20 L40 -22Z" fill="#111" />
+        </g>
+      );
     case "copa":
       return (
         <g fill={c}>

@@ -327,6 +327,14 @@ const Exterior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string; cam?
       {/* suelo en primer plano */}
       <path d={`M0 ${SUELO - 30} Q${MW / 2} ${SUELO - 60} ${MW} ${SUELO - 30} L${MW} ${MH} L0 ${MH}Z`} fill={suelo} />
       {lugar === "trinchera" && <MuroTrinchera hora={hora} f={f} id={id} />}
+      {lugar === "mar" && (
+        // borda de nuestro barco: la franja gris es la cubierta, no tierra
+        <g>
+          <rect x={0} y={SUELO - 150} width={MW} height={18} rx={6} fill="#5a4030" />
+          {Array.from({ length: 25 }).map((_, i) => <rect key={i} x={i * 80 + 10} y={SUELO - 140} width={14} height={110} fill="#4a3424" />)}
+          <rect x={0} y={SUELO - 50} width={MW} height={22} fill="#4a3424" />
+        </g>
+      )}
       {lugar === "calle" &&
         Array.from({ length: 60 }).map((_, i) => (
           <rect key={i} x={(i % 15) * 130 + (Math.floor(i / 15) % 2) * 65} y={SUELO - 10 + Math.floor(i / 15) * 60} width={118} height={50} rx={14} fill={oscurecer(suelo, 0.12)} />
@@ -593,7 +601,7 @@ const PrimerPlano: React.FC<{ fondo: Fondo; f: number; id: string; cam?: Cam }> 
 const LEJANOS = ["parapeto-aleman", "volcan", "volcan-erupcion", "explosion", "piramide", "pilar", "templo-mayor"];
 const ESCALA_LEJANA: Record<string, number> = { "templo-mayor": 0.8, pilar: 0.75 };
 // Decorados de plano medio: sobre el agua o la llanura, entre el horizonte y el suelo
-const MEDIOS: Record<string, { y: number; k: number }> = { "ciudad-lago": { y: HORIZONTE + 40, k: 0.55 }, puente: { y: HORIZONTE + 95, k: 0.5 }, calzada: { y: HORIZONTE + 80, k: 0.6 }, canoa: { y: SUELO - 75, k: 0.8 } };
+const MEDIOS: Record<string, { y: number; k: number }> = { bergantin: { y: HORIZONTE + 95, k: 0.5 }, "ciudad-lago": { y: HORIZONTE + 40, k: 0.55 }, puente: { y: HORIZONTE + 95, k: 0.5 }, calzada: { y: HORIZONTE + 80, k: 0.6 }, canoa: { y: SUELO - 75, k: 0.8 } };
 
 // Un objeto pequeño (emoji) que cae sobre una mesa se apoya en el tablero, no en el suelo
 const EMOJI = /\p{Extended_Pictographic}/u;

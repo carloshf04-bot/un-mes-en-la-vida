@@ -7,6 +7,9 @@ import { Prop } from "./mundo/Props";
 import { emoji, sans, serif } from "./fuentes";
 import "./fuentes";
 
+// encuadre de cada decorado cuando va en la miniatura
+const VISTA: Record<string, string> = { bergantin: "-520 -820 1180 880" };
+
 // Miniatura diseñada: fondo de la escena más potente, protagonista en primer plano y un gancho enorme.
 export const Miniatura: React.FC<{ slug: string; manifiesto?: Manifiesto }> = ({ manifiesto: m }) => {
   const { width, height } = useVideoConfig();
@@ -27,7 +30,9 @@ export const Miniatura: React.FC<{ slug: string; manifiesto?: Manifiesto }> = ({
   // el tamaño lo marca la palabra más larga, para que nunca se corte
   const maxPalabra = Math.max(...palabras.map((p) => p.length));
   const anchoDisponible = vertical ? width * 0.88 : 640 * u;
-  const tam = Math.min((vertical ? 170 : 118) * u, anchoDisponible / (maxPalabra * 0.74));
+  // en vertical el gancho cabe en dos líneas como mucho, para no taparle la cara al personaje
+  const mitad = Math.ceil(cfg.texto.length / 2);
+  const tam = Math.min((vertical ? 170 : 118) * u, anchoDisponible / (maxPalabra * 0.74), vertical ? anchoDisponible / (mitad * 0.74) : Infinity);
   const trazo = { WebkitTextStroke: `${10 * u}px #0b0b0f`, paintOrder: "stroke fill" as const, textShadow: `0 ${10 * u}px ${30 * u}px rgba(0,0,0,0.6)` };
 
   return (
@@ -41,8 +46,8 @@ export const Miniatura: React.FC<{ slug: string; manifiesto?: Manifiesto }> = ({
         }}
       />
       <AbsoluteFill style={{ boxShadow: `inset 0 0 ${120 * u}px rgba(0,0,0,0.7)` }} />
-      {cfg.prop && (
-        <svg style={{ position: "absolute", ...(vertical ? { left: 140 * u, top: 1040 * u, width: 440 * u, height: 330 * u } : { right: 6 * u, top: 440 * u, width: 360 * u, height: 270 * u }), filter: "drop-shadow(0 12px 24px rgba(0,0,0,0.6))" }} viewBox="-280 -600 560 420">
+      {cfg.prop && !(vertical && cfg.prop === "bergantin") && (
+        <svg style={{ position: "absolute", ...(vertical ? (cfg.prop === "bergantin" ? { left: 0, top: 860 * u, width: 400 * u, height: 300 * u } : { left: 140 * u, top: 1040 * u, width: 440 * u, height: 330 * u }) : cfg.prop === "bergantin" ? { left: 520 * u, top: 300 * u, width: 420 * u, height: 320 * u } : { right: 6 * u, top: 440 * u, width: 360 * u, height: 270 * u }), filter: "drop-shadow(0 12px 24px rgba(0,0,0,0.6))" }} viewBox={VISTA[cfg.prop] ?? "-280 -600 560 420"}>
           <Prop tipo={cfg.prop} f={30} noche={false} />
         </svg>
       )}
