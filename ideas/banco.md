@@ -71,7 +71,7 @@ Por qué funciona cada idea: tiene **un mes concreto con un acontecimiento dram�
 | [ ] | `colon-1492` | Cristóbal Colón | Octubre de 1492 | La tripulación al borde del motín. |
 | [ ] | `juana-arco-1429` | Juana de Arco | Mayo de 1429 | Orleans, con 17 años. |
 | [x] | `shackleton-1915` | Ernest Shackleton | Noviembre de 1915 | El hielo hunde el Endurance (21 de noviembre). **Efeméride de noviembre.** |
-| [ ] | `galileo-1610` | Galileo Galilei | Enero de 1610 | Descubre las lunas de Júpiter. |
+| [~] | `galileo-1610` | Galileo Galilei | Enero de 1610 | Descubre las lunas de Júpiter. |
 | [ ] | `da-vinci-1497` | Leonardo da Vinci | 1497 | Pintando La Última Cena. |
 | [ ] | `lovelace-1843` | Ada Lovelace | 1843 | El primer programa de ordenador. |
 | [ ] | `armstrong-1969` | Neil Armstrong | Julio de 1969 | Aterriza con 25 segundos de combustible de margen. |
@@ -95,3 +95,13 @@ Por qué funciona cada idea: tiene **un mes concreto con un acontecimiento dram�
 | [x] | `saturnales-50` | Miércoles · mitos | un esclavo en las Saturnales | Roma, diciembre del año 50 | Durante una semana los amos sirven a los esclavos. El origen de muchas costumbres navideñas. |
 | [x] | `curie-1898` | Jueves · personajes | Marie Curie | París, diciembre de 1898 | 26 de diciembre: anuncian el radio, descubierto por una sola raya violeta en el espectro. **Efeméride.** |
 | [x] | `halifax-1917` | Viernes · catástrofes | un aprendiz del puerto de Halifax | Canadá, diciembre de 1917 | 6 de diciembre: la mayor explosión antes de la bomba atómica. **Efeméride.** |
+
+## Semana del 30 de noviembre de 2026 (calendario semanal)
+
+| Estado | Slug | Día | Un mes en la vida de… | Mes | Gancho |
+|---|---|---|---|---|---|
+| [~] | `flannan-1900` | Lunes · misterios | el farero de relevo de las islas Flannan | Escocia, diciembre de 1900 | 26 de diciembre: el relevo encuentra el faro vacío; los tres fareros han desaparecido. **Efeméride.** |
+| [~] | `pearl-harbor-1941` | Martes · guerra | un marinero en Pearl Harbor | Hawái, noviembre–diciembre de 1941 | 7 de diciembre: el ataque que mete a EE. UU. en la guerra. **Efeméride.** |
+| [~] | `newgrange-3200ac` | Miércoles · mitos | un constructor de Newgrange | Irlanda, solsticio de invierno, c. 3200 a.C. | Cada 21 de diciembre un rayo de sol entra 19 metros hasta el fondo de la tumba. **Efeméride.** |
+| [~] | `galileo-1610` | Jueves · personajes | Galileo Galilei | Padua, diciembre de 1609 – enero de 1610 | 7 de enero: apunta su telescopio a Júpiter y ve tres «estrellitas» que se mueven. |
+| [~] | `mesina-1908` | Viernes · catástrofes | un niño de Mesina | Sicilia, diciembre de 1908 | 28 de diciembre: el terremoto y el maremoto más mortíferos de la Europa moderna. **Efeméride.** |
