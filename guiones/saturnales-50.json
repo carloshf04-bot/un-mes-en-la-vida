@@ -830,7 +830,7 @@
     "personajes": [
      {
       "quien": "filero",
-      "x": -0.45,
+      "x": 0.1,
       "accion": "dormir",
       "emocion": "cansado",
       "mirar": 1,
@@ -838,7 +838,7 @@
      },
      {
       "quien": "amo",
-      "x": 0.6,
+      "x": 0.8,
       "accion": "quieto",
       "emocion": "enfado",
       "mirar": -1,
@@ -846,7 +846,7 @@
      },
      {
       "quien": "eutiquio",
-      "x": 0.15,
+      "x": 0.5,
       "accion": "asustado",
       "emocion": "miedo",
       "mirar": -1,
@@ -916,7 +916,7 @@
     "personajes": [
      {
       "quien": "eutiquio",
-      "x": 0.3,
+      "x": 0.25,
       "accion": "agachado",
       "emocion": "triste",
       "mirar": -1,
@@ -924,7 +924,7 @@
      },
      {
       "quien": "filero",
-      "x": -0.35,
+      "x": -0.25,
       "accion": "sentado",
       "emocion": "cansado",
       "mirar": 1,
@@ -1570,7 +1570,7 @@
     "personajes": [
      {
       "quien": "eutiquio_fiesta",
-      "x": -0.4,
+      "x": -0.3,
       "accion": "sentado",
       "emocion": "sorpresa",
       "mirar": 1,
@@ -1578,7 +1578,7 @@
      },
      {
       "quien": "amo_fiesta",
-      "x": 0.3,
+      "x": 0.2,
       "accion": "cargar",
       "emocion": "sorpresa",
       "mirar": -1,
@@ -1587,7 +1587,7 @@
      },
      {
       "quien": "hijo_fiesta",
-      "x": 0.7,
+      "x": 0.55,
       "accion": "cargar",
       "emocion": "sorpresa",
       "mirar": -1,
@@ -1723,14 +1723,14 @@
     "personajes": [
      {
       "quien": "eutiquio_fiesta",
-      "x": 0.2,
+      "x": 0.25,
       "accion": "celebrar",
       "emocion": "sorpresa",
       "mirar": -1
      },
      {
       "quien": "amo_fiesta",
-      "x": -0.5,
+      "x": -0.3,
       "accion": "celebrar",
       "emocion": "feliz",
       "mirar": 1,
@@ -2038,14 +2038,14 @@
     "personajes": [
      {
       "quien": "eutiquio_fiesta",
-      "x": 0.1,
+      "x": 0.25,
       "accion": "senalar",
       "emocion": "miedo",
       "mirar": -1
      },
      {
       "quien": "amo_fiesta",
-      "x": -0.55,
+      "x": -0.3,
       "accion": "sentado",
       "emocion": "sorpresa",
       "mirar": 1,
@@ -2194,7 +2194,7 @@
     "personajes": [
      {
       "quien": "eutiquio",
-      "x": 0.3,
+      "x": 0.25,
       "accion": "agachado",
       "emocion": "triste",
       "mirar": -1,
@@ -2202,7 +2202,7 @@
      },
      {
       "quien": "filero",
-      "x": -0.35,
+      "x": -0.25,
       "accion": "sentado",
       "emocion": "triste",
       "mirar": 1,
