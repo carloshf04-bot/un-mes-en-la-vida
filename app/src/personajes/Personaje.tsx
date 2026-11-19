@@ -94,7 +94,7 @@ export const calcularPose = (accion: Accion, f: number, semilla: number, fase?: 
     case "reclinado":
       // comensal romano tumbado en el lecho del triclinio: el cuerpo cae hacia delante sobre el codo,
       // las piernas quedan estiradas hacia atrás sobre el colchón y la cabeza se endereza
-      return { ...p, pD: 34, rD: 4, pI: 28, rI: 8, y: 22, incl: 62, hD: 20, cD: -70, hI: -10, cI: -40, cabeza: -48 };
+      return { ...p, pD: 80, rD: -12, pI: 74, rI: -22, y: 112, incl: 38, hD: -95, cD: -55, hI: 30, cI: -60, cabeza: -30 };
     case "dormir":
       return { ...p, y: 0, cabeza: 0 };
     case "beber": {

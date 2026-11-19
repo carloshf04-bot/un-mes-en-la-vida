@@ -514,11 +514,6 @@
       {
        "tipo": "cajas",
        "x": 1.45
-      },
-      {
-       "tipo": "⛓️",
-       "x": -0.15,
-       "escala": 0.25
       }
      ]
     },
@@ -537,7 +532,8 @@
       "accion": "sentado",
       "emocion": "cansado",
       "mirar": 1,
-      "habla": false
+      "habla": false,
+      "objeto": "⛓️"
      }
     ],
     "camara": "cerca"
@@ -993,7 +989,7 @@
       },
       {
        "tipo": "lecho",
-       "x": 0.37
+       "x": -0.07
       }
      ]
     },
@@ -1020,7 +1016,7 @@
       "x": 0.15,
       "accion": "reclinado",
       "emocion": "feliz",
-      "mirar": -1,
+      "mirar": 1,
       "habla": false
      }
     ],
@@ -2053,7 +2049,7 @@
      },
      {
       "quien": "amo_fiesta",
-      "x": -0.8,
+      "x": -0.7,
       "accion": "reclinado",
       "emocion": "sorpresa",
       "mirar": 1,
