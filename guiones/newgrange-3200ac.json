@@ -1,0 +1,2852 @@
+{
+  "slug": "newgrange-3200ac",
+  "titulo": "un constructor de Newgrange",
+  "lugar": "Brú na Bóinne, Irlanda",
+  "epoca": "Hacia 3200 a. C.",
+  "categoria": "profesion",
+  "drama": 0.65,
+  "velocidad": 1.15,
+  "musica": "misterio",
+  "paleta": {
+    "acento": "#e8b04a",
+    "texto": "#f2eee2",
+    "fondo": "#0f1412",
+    "papel": "#e9e2cf"
+  },
+  "grafias": {
+    "Bóin": "Boyne",
+    "Charls": "Charles",
+    "Cámbel": "Campbell",
+    "Máicol": "Michael",
+    "Okéli": "O'Kelly",
+    "Rei": "Ray",
+    "Niugréinch": "Newgrange"
+  },
+  "reparto": {
+    "tarun": {
+      "piel": "#d6a47c",
+      "pelo": "#3b2a1c",
+      "peinado": "largo",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#8a6644",
+        "color2": "#6b4e34",
+        "detalle": "#e6dcc4"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#5a4030"
+    },
+    "tavi": {
+      "piel": "#ddb08a",
+      "pelo": "#4a301e",
+      "peinado": "trenzas",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#9a7a56",
+        "color2": "#7d6448",
+        "detalle": "#e6dcc4"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#5a4030",
+      "voz": "narradora-es"
+    },
+    "teko": {
+      "piel": "#ddb08a",
+      "pelo": "#3b2a1c",
+      "peinado": "largo",
+      "barba": "ninguna",
+      "altura": 0.68,
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#a08262",
+        "color2": "#7d6448",
+        "detalle": "#cbb894"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#5a4030"
+    },
+    "ila": {
+      "piel": "#e2b893",
+      "pelo": "#4a301e",
+      "peinado": "coleta",
+      "barba": "ninguna",
+      "altura": 0.5,
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#b09474",
+        "color2": "#8e7458",
+        "detalle": "#cbb894"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#5a4030",
+      "voz": "narradora-es"
+    },
+    "oru": {
+      "piel": "#c99a72",
+      "pelo": "#b8b2a6",
+      "peinado": "largo",
+      "barba": "larga",
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#6e5a44",
+        "color2": "#55463a",
+        "detalle": "#e6dcc4"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#4a3828"
+    },
+    "peon": {
+      "piel": "#cf9d74",
+      "pelo": "#2e2016",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "harapos",
+        "color": "#7a5c3e",
+        "color2": "#5e4a36",
+        "detalle": "#9a7f5e"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#4a3828"
+    },
+    "peona": {
+      "piel": "#d9ab84",
+      "pelo": "#5a3a24",
+      "peinado": "largo",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#86684a",
+        "color2": "#6e5640",
+        "detalle": "#cbb894"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#4a3828",
+      "voz": "narradora-es"
+    },
+    "forastero": {
+      "piel": "#c99670",
+      "pelo": "#2a1e14",
+      "peinado": "rizado",
+      "barba": "larga",
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#5e4a36",
+        "color2": "#4a3a2c",
+        "detalle": "#d8cdb0"
+      },
+      "sombrero": "capucha",
+      "colorSombrero": "#6e5a44",
+      "zapatos": "#3e2e22"
+    },
+    "cavador": {
+      "piel": "#e8b896",
+      "pelo": "#5a3a24",
+      "peinado": "corto",
+      "barba": "patillas",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#d8ccb0",
+        "color2": "#5a4a3a",
+        "detalle": "#7a5a3a"
+      },
+      "sombrero": "ala",
+      "colorSombrero": "#3a3028",
+      "zapatos": "#2a211c"
+    },
+    "visitante": {
+      "piel": "#ecc2a0",
+      "pelo": "#6b4a2b",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#2f4a6b",
+        "color2": "#2b2b33",
+        "detalle": "#c9c9c9"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#2a211c"
+    },
+    "visitante2": {
+      "piel": "#f1c7a3",
+      "pelo": "#8a5a2a",
+      "peinado": "largo",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#8a2f2f",
+        "color2": "#2b2b33",
+        "detalle": "#e0d6c0"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#2a211c",
+      "voz": "narradora-es"
+    },
+    "cavador2": {
+      "piel": "#e3ad84",
+      "pelo": "#2e2016",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#c9b89a",
+        "color2": "#4a3a2c",
+        "detalle": "#6b4a2b"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#2a211c"
+    },
+    "okelly": {
+      "piel": "#ecc2a0",
+      "pelo": "#8a847a",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#4a4c48",
+        "color2": "#33353a",
+        "detalle": "#9a9a92"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#2a211c"
+    }
+  },
+  "largo": {
+    "escenas": [
+      {
+        "corte": true,
+        "texto": "Llevo quince inviernos picando piedra para una casa de muertos con una sola ventana. Dentro de veintidós días sabremos si el sol entra por ella. Si fallamos, habrá que esperar otro año.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "amanecer",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.45,
+              "detras": true
+            },
+            {
+              "tipo": "roca",
+              "x": -1.0,
+              "escala": 0.9
+            },
+            {
+              "tipo": "roca",
+              "x": 1.0,
+              "escala": 1.2
+            },
+            {
+              "tipo": "roca",
+              "x": 1.4,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Me llamo Tarun. En realidad nadie sabe mi nombre, ni mi lengua, ni en qué creía: todo eso lo hemos inventado. Las piedras, no.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": 0.35,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Esto es el valle del río Bóin, en el este de Irlanda, hacia el año tres mil doscientos antes de Cristo. Aquí nadie conoce el metal, ni la rueda, ni la escritura.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.35
+            },
+            {
+              "tipo": "roca",
+              "x": 1.05,
+              "escala": 1.1
+            },
+            {
+              "tipo": "roca",
+              "x": 1.4,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": -0.2,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Brú na Bóinne, Irlanda",
+          "detalle": "Valle del Boyne · hacia 3200 a. C. · el mes del día más corto",
+          "icono": "📍"
+        }
+      },
+      {
+        "texto": "Sobre una loma junto al río levantamos un monte hecho a mano, de piedras y tepes de hierba: unos ochenta metros de ancho y doce de alto.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.45,
+              "detras": true
+            },
+            {
+              "tipo": "roca",
+              "x": -1.0,
+              "escala": 0.9
+            },
+            {
+              "tipo": "roca",
+              "x": 1.0,
+              "escala": 1.2
+            },
+            {
+              "tipo": "roca",
+              "x": 1.4,
+              "escala": 0.8
+            },
+            {
+              "tipo": "roca",
+              "x": -0.35,
+              "escala": 1.3,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "peon",
+            "x": -0.55,
+            "accion": "cargar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "objeto": "🪨",
+            "habla": false
+          },
+          {
+            "quien": "tarun",
+            "x": 0.35,
+            "accion": "senalar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "corte": true,
+        "dia": 1,
+        "capitulo": "Piedras de lejos",
+        "texto": "El día uno bajo con mi hijo Teko al robledal, donde los cerdos engordan comiendo bellotas antes de que lleguen las heladas.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "bosque",
+          "hora": "dia",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.3
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.3
+            },
+            {
+              "tipo": "arbol",
+              "x": -0.7,
+              "detras": true
+            },
+            {
+              "tipo": "🐖",
+              "x": 0.85,
+              "escala": 0.3
+            },
+            {
+              "tipo": "🐖",
+              "x": -0.95,
+              "escala": 0.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": -0.35,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "teko",
+            "x": 0.15,
+            "accion": "caminar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 1,
+        "texto": "Teko tiene diez años y solo sueña con ir a las montañas del sur, a buscar unas piedras blancas que brillan con el sol.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "teko",
+            "x": 0.2,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "tarun",
+            "x": -0.35,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 1,
+        "texto": "Mi casa es de postes, ramas trenzadas y barro, con el fuego en medio. Nadie sabe bien cómo eran nuestras casas: casi no se han encontrado.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "props": [
+            {
+              "tipo": "wigwam",
+              "x": -1.0,
+              "escala": 1.1
+            },
+            {
+              "tipo": "hoguera",
+              "x": 0.15,
+              "escala": 0.8
+            },
+            {
+              "tipo": "🐄",
+              "x": 1.3,
+              "escala": 0.4
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.5,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tavi",
+            "x": -0.35,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "🥣",
+            "habla": false
+          },
+          {
+            "quien": "ila",
+            "x": 0.45,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "tarun",
+            "x": 0.85,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 1,
+        "texto": "Tavi, mi compañera, cuida las vacas. Aquí se vive de la leche: ocho de cada diez vasijas estudiadas en Irlanda guardan grasa de leche.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "tavi",
+            "x": -0.35,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "🥛",
+            "habla": false
+          },
+          {
+            "quien": "tarun",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "80 %",
+          "etiqueta": "de los fragmentos de vasija irlandeses estudiados guardan grasa de leche",
+          "icono": "🥛"
+        }
+      },
+      {
+        "corte": true,
+        "dia": 1,
+        "texto": "Aquí, junto a un río lleno de salmones, casi no comemos pescado. Molemos escanda y cebada, y comemos avellanas y manzanas silvestres. Nadie sabe por qué.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "tavi",
+            "x": -0.35,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "🌰",
+            "habla": false
+          },
+          {
+            "quien": "ila",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 2,
+        "texto": "El día dos llegan por el río unas losas grises de una playa del norte, a unos veinte kilómetros. Quizá vinieron en barcas por la costa; nadie lo sabe.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.35
+            },
+            {
+              "tipo": "roca",
+              "x": 1.05,
+              "escala": 1.1
+            },
+            {
+              "tipo": "roca",
+              "x": 1.4,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": -0.4,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "peon",
+            "x": 0.35,
+            "accion": "cargar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "objeto": "🪢",
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 2,
+        "texto": "Muchas pesan tanto como cuarenta hombres. No hay ruedas, y que se sepa nadie usa bueyes. Solo troncos, cuerdas, palancas y gente.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": -0.4,
+            "accion": "pensar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "peon",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "97",
+          "etiqueta": "losas de varias toneladas rodean el túmulo: sin metal, sin rueda, sin animales de tiro conocidos",
+          "icono": "🪨"
+        }
+      },
+      {
+        "dia": 4,
+        "texto": "El día cuatro arrastramos una hasta la loma. Decenas de personas tiramos de las cuerdas, y otros van poniendo troncos delante para que ruede encima.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.45,
+              "detras": true
+            },
+            {
+              "tipo": "roca",
+              "x": -1.0,
+              "escala": 0.9
+            },
+            {
+              "tipo": "roca",
+              "x": 1.0,
+              "escala": 1.2
+            },
+            {
+              "tipo": "roca",
+              "x": 1.4,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "peon",
+            "x": -0.75,
+            "accion": "cargar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "objeto": "🪢",
+            "habla": false
+          },
+          {
+            "quien": "tarun",
+            "x": -0.3,
+            "accion": "cargar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "objeto": "🪢",
+            "habla": false
+          },
+          {
+            "quien": "peona",
+            "x": 0.15,
+            "accion": "cargar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "objeto": "🪢",
+            "habla": false
+          },
+          {
+            "quien": "teko",
+            "x": 0.6,
+            "accion": "cargar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "objeto": "🪵",
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "corte": true,
+        "dia": 4,
+        "texto": "Nadie ha encontrado pruebas de cómo movíamos estas piedras: esto es lo que creen los arqueólogos. Yo solo sé lo que pesa una cuerda mojada después de un día de lluvia.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "lluvia",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.45,
+              "detras": true
+            },
+            {
+              "tipo": "roca",
+              "x": -1.0,
+              "escala": 0.9
+            },
+            {
+              "tipo": "roca",
+              "x": 1.0,
+              "escala": 1.2
+            },
+            {
+              "tipo": "roca",
+              "x": 1.4,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": 0.0,
+            "accion": "triste",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 6,
+        "texto": "El día seis vuelven los del sur con sacos de cuarzo blanco. Han caminado unos cincuenta kilómetros desde las montañas, varios días a pie.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "dia",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.2
+            },
+            {
+              "tipo": "pino",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "peon",
+            "x": -0.45,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "objeto": "🧺",
+            "habla": false
+          },
+          {
+            "quien": "peona",
+            "x": 0.05,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "objeto": "🧺",
+            "habla": false
+          },
+          {
+            "quien": "teko",
+            "x": 0.55,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 6,
+        "texto": "Lo extendemos ante la entrada, y con el sol bajo de invierno el blanco deslumbra. Hoy no se sabe si formaba un muro o un suelo.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "amanecer",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.45,
+              "detras": true
+            },
+            {
+              "tipo": "roca",
+              "x": -1.0,
+              "escala": 0.9
+            },
+            {
+              "tipo": "roca",
+              "x": 1.0,
+              "escala": 1.2
+            },
+            {
+              "tipo": "roca",
+              "x": 1.4,
+              "escala": 0.8
+            },
+            {
+              "tipo": "⚪",
+              "x": -0.1,
+              "escala": 0.15
+            },
+            {
+              "tipo": "⚪",
+              "x": 0.15,
+              "escala": 0.12
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": -0.5,
+            "accion": "agachado",
+            "emocion": "feliz",
+            "mirar": 1,
+            "objeto": "🧺",
+            "habla": false
+          },
+          {
+            "quien": "teko",
+            "x": 0.5,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "50 km",
+          "etiqueta": "a pie para traer cuarzo blanco de los montes de Wicklow",
+          "icono": "🏔️"
+        }
+      },
+      {
+        "dia": 7,
+        "texto": "El día siete me toca lo mío: dibujo una espiral en una losa del anillo y la voy picando con un canto duro, golpe a golpe, durante horas.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.45,
+              "detras": true
+            },
+            {
+              "tipo": "roca",
+              "x": 0.55,
+              "escala": 1.1
+            },
+            {
+              "tipo": "🌀",
+              "x": 0.55,
+              "escala": 0.3
+            },
+            {
+              "tipo": "roca",
+              "x": 1.3,
+              "escala": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": 0.05,
+            "accion": "agachado",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "🪨"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "corte": true,
+        "dia": 7,
+        "texto": "Espirales, rombos, zigzags y círculos; nunca personas ni animales. ¿Qué significan? Tampoco eso lo sabe nadie.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": 0.05,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Sin metal: mis herramientas",
+          "items": [
+            {
+              "icono": "🪨",
+              "nombre": "Percutor de piedra dura"
+            },
+            {
+              "icono": "🦌",
+              "nombre": "Pico de asta de ciervo"
+            },
+            {
+              "icono": "🦴",
+              "nombre": "Alfiler de hueso"
+            },
+            {
+              "icono": "🪢",
+              "nombre": "Cuerda de piel y fibra"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 8,
+        "capitulo": "Lo que nadie verá",
+        "texto": "El día ocho grabo una losa que irá enterrada, con el dibujo hacia dentro. Cuando el monte esté cerrado, nadie podrá verla nunca.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.45,
+              "detras": true
+            },
+            {
+              "tipo": "roca",
+              "x": 0.55,
+              "escala": 1.1
+            },
+            {
+              "tipo": "🌀",
+              "x": 0.55,
+              "escala": 0.3
+            },
+            {
+              "tipo": "roca",
+              "x": 1.3,
+              "escala": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": 0.05,
+            "accion": "agachado",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "🪨",
+            "habla": false
+          },
+          {
+            "quien": "teko",
+            "x": -0.55,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 8,
+        "texto": "Teko me pregunta para quién es el dibujo, entonces. No sé qué contestarle. Cinco mil años después, los arqueólogos siguen sin respuesta.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "teko",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tarun",
+            "x": 0.25,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 9,
+        "texto": "El día nueve subimos al monte: una capa de piedras, una de tepes, otra de piedras. Según una estimación, sumará unas doscientas mil toneladas.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.45,
+              "detras": true
+            },
+            {
+              "tipo": "roca",
+              "x": -1.0,
+              "escala": 0.9
+            },
+            {
+              "tipo": "roca",
+              "x": 1.0,
+              "escala": 1.2
+            },
+            {
+              "tipo": "roca",
+              "x": 1.4,
+              "escala": 0.8
+            },
+            {
+              "tipo": "roca",
+              "x": -0.35,
+              "escala": 1.3,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "peona",
+            "x": -0.6,
+            "accion": "cargar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "objeto": "🧺",
+            "habla": false
+          },
+          {
+            "quien": "tarun",
+            "x": 0.0,
+            "accion": "cargar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "objeto": "🪨",
+            "habla": false
+          },
+          {
+            "quien": "peon",
+            "x": 0.55,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "objeto": "🦌",
+            "habla": false
+          }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "200.000 t",
+          "etiqueta": "de piedra en el túmulo, según una estimación muy repetida",
+          "icono": "🪨"
+        }
+      },
+      {
+        "dia": 9,
+        "texto": "Abajo terminamos el anillo: noventa y siete losas tumbadas alrededor de todo el monte. La de la entrada está cubierta de espirales.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.45,
+              "detras": true
+            },
+            {
+              "tipo": "roca",
+              "x": 0.55,
+              "escala": 1.1
+            },
+            {
+              "tipo": "🌀",
+              "x": 0.55,
+              "escala": 0.3
+            },
+            {
+              "tipo": "roca",
+              "x": 1.3,
+              "escala": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": -0.35,
+            "accion": "senalar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "corte": true,
+        "dia": 10,
+        "texto": "Mi padre murió hace dos inviernos, y sus huesos quemados esperan en un cuenco. Muy pocos acaban en la cámara: no sabemos quién elegía, ni por qué.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "noche",
+          "props": [
+            {
+              "tipo": "wigwam",
+              "x": -1.0,
+              "escala": 1.1
+            },
+            {
+              "tipo": "hoguera",
+              "x": 0.15,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": 1,
+            "objeto": "🥣",
+            "habla": false
+          },
+          {
+            "quien": "tavi",
+            "x": 0.55,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 11,
+        "texto": "El día once estalla una tormenta. Mientras todos se refugian, yo entro en el pasillo con una antorcha para ver si el techo de la cámara aguanta.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "tormenta",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.45,
+              "detras": true
+            },
+            {
+              "tipo": "roca",
+              "x": -1.0,
+              "escala": 0.9
+            },
+            {
+              "tipo": "roca",
+              "x": 1.0,
+              "escala": 1.2
+            },
+            {
+              "tipo": "roca",
+              "x": 1.4,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": 0.0,
+            "accion": "correr",
+            "emocion": "miedo",
+            "mirar": 1,
+            "objeto": "🔥",
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 11,
+        "texto": "El pasillo sube hasta una cámara en forma de cruz, con tres huecos y una pila de piedra en cada uno. Su techo llega a casi seis metros.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "roca",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "antorcha",
+              "x": -1.2
+            },
+            {
+              "tipo": "roca",
+              "x": 1.25,
+              "escala": 0.9
+            },
+            {
+              "tipo": "🌀",
+              "x": 1.25,
+              "escala": 0.28
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": -0.2,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "objeto": "🔥",
+            "habla": false
+          }
+        ],
+        "camara": "subir"
+      },
+      {
+        "dia": 11,
+        "texto": "Fuera ruge el agua; dentro no cae ni una gota. Tallamos canalillos en el dorso de las losas, y ese techo seguirá seco cinco mil años.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": -0.2,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "5.000 años",
+          "etiqueta": "sin goteras: canalillos tallados en el dorso de las losas del techo",
+          "icono": "💧"
+        }
+      },
+      {
+        "corte": true,
+        "dia": 13,
+        "texto": "El día trece terminamos la ventana: un hueco de piedra sobre la puerta, como una caja abierta. Yo mismo tallé los rombos de su dintel.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.45,
+              "detras": true
+            },
+            {
+              "tipo": "roca",
+              "x": 0.55,
+              "escala": 1.1
+            },
+            {
+              "tipo": "🌀",
+              "x": 0.55,
+              "escala": 0.3
+            },
+            {
+              "tipo": "roca",
+              "x": 1.3,
+              "escala": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": -0.3,
+            "accion": "senalar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "oru",
+            "x": -0.85,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 13,
+        "texto": "Hace falta porque el pasillo sube: por la puerta, la luz se quedaría a medio camino. Por la caja, si apunta bien, llegará hasta el fondo.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "amanecer",
+          "pared": "roca",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.25,
+              "escala": 0.9
+            },
+            {
+              "tipo": "roca",
+              "x": 1.3,
+              "escala": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": 0.3,
+            "accion": "senalar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "19 m",
+          "etiqueta": "de pasillo, cuesta arriba, entre la caja de luz y la cámara",
+          "icono": "📏"
+        }
+      },
+      {
+        "dia": 14,
+        "texto": "Si es que apunta bien: el viejo Oru, que lleva toda la vida mirando por dónde sale el sol, se rasca la barba. Nadie lo ha comprobado todavía.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.45,
+              "detras": true
+            },
+            {
+              "tipo": "roca",
+              "x": -1.0,
+              "escala": 0.9
+            },
+            {
+              "tipo": "roca",
+              "x": 1.0,
+              "escala": 1.2
+            },
+            {
+              "tipo": "roca",
+              "x": 1.4,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "oru",
+            "x": -0.35,
+            "accion": "pensar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tarun",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 15,
+        "capitulo": "Esperando al sol",
+        "texto": "El día quince llegan grupos de otros valles con cuencos toscos, decorados con zigzags. Algunos creen que venían por el día más corto; es una hipótesis.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "props": [
+            {
+              "tipo": "wigwam",
+              "x": -1.25,
+              "escala": 0.9
+            },
+            {
+              "tipo": "hoguera",
+              "x": -0.55,
+              "escala": 0.8
+            },
+            {
+              "tipo": "roca",
+              "x": 1.2,
+              "escala": 1.1
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.5,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "forastero",
+            "x": 0.6,
+            "accion": "caminar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "entra": "der",
+            "objeto": "🥣",
+            "habla": false
+          },
+          {
+            "quien": "peona",
+            "x": 0.15,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "tarun",
+            "x": -0.3,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "corte": true,
+        "dia": 15,
+        "texto": "Somos cientos, y nadie sabe si trabajábamos por comida, por prestigio u obligados. Si me lo preguntas a mí, lo hago por mi padre.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": -0.3,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1
+          },
+          {
+            "quien": "forastero",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 16,
+        "texto": "El día dieciséis cambio carne seca por un hacha de piedra pulida, gris azulada, de una roca del norte. Las hachas viajaban de mano en mano.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": -0.27,
+            "accion": "dar-mano",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "forastero",
+            "x": 0.27,
+            "accion": "dar-mano",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "21.000",
+          "etiqueta": "hachas de piedra conocidas en Irlanda; más de la mitad, de porcelanita del norte",
+          "icono": "🪨"
+        }
+      },
+      {
+        "dia": 17,
+        "texto": "El día diecisiete amanece gris, y el dieciocho también. En invierno, aquí el sol sale tarde, se pone pronto y casi siempre lo tapan las nubes.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "amanecer",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.45,
+              "detras": true
+            },
+            {
+              "tipo": "roca",
+              "x": -1.0,
+              "escala": 0.9
+            },
+            {
+              "tipo": "roca",
+              "x": 1.0,
+              "escala": 1.2
+            },
+            {
+              "tipo": "roca",
+              "x": 1.4,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "oru",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tarun",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "7–8 h",
+          "etiqueta": "de luz al día en diciembre en el valle del Boyne (hoy)",
+          "icono": "☁️"
+        }
+      },
+      {
+        "dia": 18,
+        "texto": "Si el día más corto amanece nublado, no sabremos nada hasta el invierno que viene. Quince años de trabajo, pendientes de una nube.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": 0.2,
+            "accion": "pensar",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "corte": true,
+        "dia": 19,
+        "texto": "El día diecinueve, antes del alba, el cielo está limpio. Oru, Teko y yo entramos a oscuras en el pasillo, y esperamos.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "roca",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "roca",
+              "x": 1.25,
+              "escala": 0.9
+            },
+            {
+              "tipo": "🌀",
+              "x": 1.25,
+              "escala": 0.28
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "oru",
+            "x": -0.6,
+            "accion": "agachado",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "teko",
+            "x": -0.1,
+            "accion": "agachado",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tarun",
+            "x": 0.4,
+            "accion": "agachado",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 19,
+        "texto": "Primero hay un resplandor en la caja. Luego, un hilo de luz que entra y avanza despacio por el suelo del pasillo, hacia nosotros.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "amanecer",
+          "pared": "roca",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.25,
+              "escala": 0.9
+            },
+            {
+              "tipo": "roca",
+              "x": 1.3,
+              "escala": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "teko",
+            "x": -0.3,
+            "accion": "agachado",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tarun",
+            "x": 0.3,
+            "accion": "agachado",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 19,
+        "texto": "No llega al fondo. Oru sonríe en la oscuridad: dice que aún faltan días, que el sol tiene que correrse un poco más hacia el sur.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "oru",
+            "x": -0.45,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tarun",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 20,
+        "texto": "El día veinte lo cuento en casa. Tavi me pide que no me haga ilusiones. Ila quiere venir, pero la casa de los muertos no es para jugar.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "noche",
+          "props": [
+            {
+              "tipo": "wigwam",
+              "x": -1.0,
+              "escala": 1.1
+            },
+            {
+              "tipo": "hoguera",
+              "x": 0.15,
+              "escala": 0.8
+            },
+            {
+              "tipo": "🐄",
+              "x": 1.3,
+              "escala": 0.4
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.5,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tavi",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "ila",
+            "x": 0.15,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tarun",
+            "x": 0.6,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "corte": true,
+        "dia": 21,
+        "texto": "El día veintiuno, de noche, llevamos los huesos de mi padre a la cámara. No sabemos cómo se metía a los muertos: esto es una suposición.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "roca",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "antorcha",
+              "x": -1.2
+            },
+            {
+              "tipo": "roca",
+              "x": 1.25,
+              "escala": 0.9
+            },
+            {
+              "tipo": "🌀",
+              "x": 1.25,
+              "escala": 0.28
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": -0.25,
+            "accion": "cargar",
+            "emocion": "triste",
+            "mirar": 1,
+            "objeto": "🥣",
+            "habla": false
+          },
+          {
+            "quien": "tavi",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "5",
+          "etiqueta": "personas como mínimo enterradas en la cámara, según los huesos hallados",
+          "icono": "🦴"
+        }
+      },
+      {
+        "dia": 21,
+        "texto": "Al dejarlo, pongo la mano sobre una espiral, sin decir nada. Nadie sabe qué decía mi gente aquí dentro, ni si decía algo.",
+        "drama": 0.45,
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": 0.6,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 22,
+        "capitulo": "Diecisiete minutos",
+        "texto": "El día veintidós es el más corto del año. Entramos en la cámara de noche cerrada; fuera, en la ladera, la gente espera en silencio.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "noche",
+          "props": [
+            {
+              "tipo": "wigwam",
+              "x": -1.25,
+              "escala": 0.9
+            },
+            {
+              "tipo": "hoguera",
+              "x": -0.55,
+              "escala": 0.8
+            },
+            {
+              "tipo": "roca",
+              "x": 1.2,
+              "escala": 1.1
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.5,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "peona",
+            "x": -0.6,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "forastero",
+            "x": -0.1,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tarun",
+            "x": 0.45,
+            "accion": "caminar",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 22,
+        "texto": "Amanece sin una nube. El hilo de luz entra por la caja, recorre el pasillo entero, sube con él y toca el suelo de la cámara.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "amanecer",
+          "pared": "roca",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.25,
+              "escala": 0.9
+            },
+            {
+              "tipo": "roca",
+              "x": 1.3,
+              "escala": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "oru",
+            "x": -0.55,
+            "accion": "agachado",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "teko",
+            "x": -0.05,
+            "accion": "agachado",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tarun",
+            "x": 0.45,
+            "accion": "agachado",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "corte": true,
+        "dia": 22,
+        "texto": "Se ensancha hasta ser una franja de un palmo. La piedra gris se vuelve de oro, y veo las espirales del fondo como si fuera de día.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "amanecer",
+          "pared": "roca",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "roca",
+              "x": 1.25,
+              "escala": 0.9
+            },
+            {
+              "tipo": "🌀",
+              "x": 1.25,
+              "escala": 0.28
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": 0.1,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "subir"
+      },
+      {
+        "dia": 22,
+        "texto": "Teko llora y Oru no dice nada. Yo miro las losas que tallé de joven, las que nadie iba a ver nunca, y por fin las veo.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "oru",
+            "x": -0.8,
+            "accion": "agachado",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "teko",
+            "x": -0.3,
+            "accion": "triste",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tarun",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 22,
+        "texto": "Luego la franja se estrecha y se retira. Unos diecisiete minutos al año: quince inviernos de trabajo para un cuarto de hora de luz.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "amanecer",
+          "pared": "roca",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.25,
+              "escala": 0.9
+            },
+            {
+              "tipo": "roca",
+              "x": 1.3,
+              "escala": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": 0.2,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "17 min",
+          "etiqueta": "de luz directa en la cámara el amanecer del día más corto",
+          "icono": "☀️"
+        }
+      },
+      {
+        "dia": 22,
+        "texto": "¿Qué significaba para ellos? Nadie lo sabe. Le prestamos a Tarun una idea que los arqueólogos ven posible: que tras el día más corto, el sol vuelve a nacer.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "amanecer",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.45,
+              "detras": true
+            },
+            {
+              "tipo": "roca",
+              "x": -1.0,
+              "escala": 0.9
+            },
+            {
+              "tipo": "roca",
+              "x": 1.0,
+              "escala": 1.2
+            },
+            {
+              "tipo": "roca",
+              "x": 1.4,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "corte": true,
+        "dia": 23,
+        "texto": "El día veintitrés la luz entra otra vez, algo menos, y fuera comemos juntos alrededor de las hogueras. Esa fiesta también la imaginamos.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "props": [
+            {
+              "tipo": "wigwam",
+              "x": -1.25,
+              "escala": 0.9
+            },
+            {
+              "tipo": "hoguera",
+              "x": -0.55,
+              "escala": 0.8
+            },
+            {
+              "tipo": "roca",
+              "x": 1.2,
+              "escala": 1.1
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.5,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tavi",
+            "x": -0.6,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "ila",
+            "x": -0.15,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tarun",
+            "x": 0.3,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "forastero",
+            "x": 0.75,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 25,
+        "texto": "Lo seguro cabe en pocas palabras: la tumba mira al amanecer del día más corto, dentro había muy pocos muertos y muchas piedras vinieron de lejos.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.45,
+              "detras": true
+            },
+            {
+              "tipo": "roca",
+              "x": 0.55,
+              "escala": 1.1
+            },
+            {
+              "tipo": "🌀",
+              "x": 0.55,
+              "escala": 0.3
+            },
+            {
+              "tipo": "roca",
+              "x": 1.3,
+              "escala": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": -0.3,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Lo que sí sabemos",
+          "items": [
+            {
+              "icono": "☀️",
+              "nombre": "Mira al amanecer del día más corto"
+            },
+            {
+              "icono": "🦴",
+              "nombre": "Al menos cinco personas dentro"
+            },
+            {
+              "icono": "🌀",
+              "nombre": "Arte abstracto, sin figuras"
+            },
+            {
+              "icono": "🏔️",
+              "nombre": "Piedras traídas de lejos"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 26,
+        "texto": "Según su ADN, uno de los enterrados aquí nació de dos familiares muy cercanos. Unos ven ahí una familia poderosa; otros, que un solo caso no prueba nada.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": -0.3,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 28,
+        "texto": "El día veintiocho se van los de otros valles, río abajo. Ila me pregunta si el sol volverá a entrar el año que viene.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "atardecer",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.35
+            },
+            {
+              "tipo": "roca",
+              "x": 1.05,
+              "escala": 1.1
+            },
+            {
+              "tipo": "roca",
+              "x": 1.4,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tavi",
+            "x": -0.6,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tarun",
+            "x": -0.15,
+            "accion": "saludar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "ila",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "corte": true,
+        "dia": 30,
+        "texto": "El día treinta vuelvo a picar piedra: aún falta acabar el monte. Las obras duraron entre cinco y treinta años, según quién calcule.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.45,
+              "detras": true
+            },
+            {
+              "tipo": "roca",
+              "x": 0.55,
+              "escala": 1.1
+            },
+            {
+              "tipo": "🌀",
+              "x": 0.55,
+              "escala": 0.3
+            },
+            {
+              "tipo": "roca",
+              "x": 1.3,
+              "escala": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": 0.05,
+            "accion": "agachado",
+            "emocion": "cansado",
+            "mirar": 1,
+            "objeto": "🪨",
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Siglos después, con la tumba ya cerrada, aquí se encendían hogueras y se celebraban banquetes de cerdo, quizá en las semanas del día más corto.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "noche",
+          "props": [
+            {
+              "tipo": "wigwam",
+              "x": -1.25,
+              "escala": 0.9
+            },
+            {
+              "tipo": "hoguera",
+              "x": -0.55,
+              "escala": 0.8
+            },
+            {
+              "tipo": "roca",
+              "x": 1.2,
+              "escala": 1.1
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.5,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "texto": "Luego el monte se cubrió de hierba. Cuatro mil años más tarde, unos monjes escribieron que allí vivía un dios de sus leyendas. Lo imaginaron ellos.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.45,
+              "detras": true
+            },
+            {
+              "tipo": "roca",
+              "x": -1.0,
+              "escala": 0.9
+            },
+            {
+              "tipo": "roca",
+              "x": 1.0,
+              "escala": 1.2
+            },
+            {
+              "tipo": "roca",
+              "x": 1.4,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "texto": "En mil seiscientos noventa y nueve, los peones del terrateniente Charls Cámbel sacaban piedra del monte. Debajo de la hierba encontraron una entrada.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.45,
+              "detras": true
+            },
+            {
+              "tipo": "roca",
+              "x": -1.0,
+              "escala": 0.9
+            },
+            {
+              "tipo": "roca",
+              "x": 1.0,
+              "escala": 1.2
+            },
+            {
+              "tipo": "roca",
+              "x": 1.4,
+              "escala": 0.8
+            },
+            {
+              "tipo": "carro",
+              "x": -0.4,
+              "escala": 0.8,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "cavador",
+            "x": 0.0,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "⛏️",
+            "habla": false
+          },
+          {
+            "quien": "cavador2",
+            "x": 0.55,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1699",
+          "etiqueta": "unos peones dan con la entrada; Edward Lhuyd la describe en una carta",
+          "icono": "⛏️"
+        }
+      },
+      {
+        "corte": true,
+        "texto": "Durante casi tres siglos entraron curiosos y saqueadores. En mil novecientos sesenta y dos llegó el arqueólogo Máicol Okéli a excavar.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.45,
+              "detras": true
+            },
+            {
+              "tipo": "roca",
+              "x": -1.0,
+              "escala": 0.9
+            },
+            {
+              "tipo": "roca",
+              "x": 1.0,
+              "escala": 1.2
+            },
+            {
+              "tipo": "roca",
+              "x": 1.4,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "okelly",
+            "x": 0.3,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "entra": "der"
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "texto": "En esas obras apareció la caja sobre la puerta. En la comarca se contaba que el sol entraba en invierno, pero nadie lo había comprobado.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "okelly",
+            "x": 0.3,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "El veintiuno de diciembre de mil novecientos sesenta y siete, Okéli entró solo antes del amanecer y esperó a oscuras en la cámara.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "roca",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "roca",
+              "x": 1.25,
+              "escala": 0.9
+            },
+            {
+              "tipo": "🌀",
+              "x": 1.25,
+              "escala": 0.28
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "okelly",
+            "x": 0.0,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Vio entrar el hilo de luz, ensancharse y alumbrar el suelo. Contó que se quedó literalmente asombrado. Era la luz que vio la gente de Tarun.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "amanecer",
+          "pared": "roca",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.25,
+              "escala": 0.9
+            },
+            {
+              "tipo": "roca",
+              "x": 1.3,
+              "escala": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "okelly",
+            "x": 0.1,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "I was literally astounded.",
+          "firma": "Michael J. O'Kelly, 21 de diciembre de 1967"
+        }
+      },
+      {
+        "corte": true,
+        "texto": "En mil novecientos ochenta y nueve, el astrónomo Tom Rei demostró que no era casualidad: la tumba apunta al sol con menos de medio grado de error.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "amanecer",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.45,
+              "detras": true
+            },
+            {
+              "tipo": "roca",
+              "x": -1.0,
+              "escala": 0.9
+            },
+            {
+              "tipo": "roca",
+              "x": 1.0,
+              "escala": 1.2
+            },
+            {
+              "tipo": "roca",
+              "x": 1.4,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "< 0,5°",
+          "etiqueta": "de error: la alineación es deliberada (Tom Ray, Nature, 1989)",
+          "icono": "🔭"
+        }
+      },
+      {
+        "texto": "Hoy la luz entra unos cuatro minutos después del amanecer, porque el eje de la Tierra ha cambiado. Cuando se construyó, entraba con el primer rayo.",
+        "drama": 0.6,
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Niugréinch es unos seiscientos años más antiguo que la Gran Pirámide, y cada invierno se sortean unas pocas plazas para estar dentro esa mañana.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.45,
+              "detras": true
+            },
+            {
+              "tipo": "roca",
+              "x": -1.0,
+              "escala": 0.9
+            },
+            {
+              "tipo": "roca",
+              "x": 1.0,
+              "escala": 1.2
+            },
+            {
+              "tipo": "roca",
+              "x": 1.4,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "visitante",
+            "x": -0.35,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "visitante2",
+            "x": 0.3,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "600 años",
+          "etiqueta": "más antiguo que la Gran Pirámide de Guiza",
+          "icono": "🏛️"
+        }
+      },
+      {
+        "texto": "Tarun y su familia son inventados, y su mes es una reconstrucción; la tumba, la luz y Okéli, no. ¿De quién quieres vivir el próximo mes? Déjalo en los comentarios y suscríbete.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "amanecer",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.45,
+              "detras": true
+            },
+            {
+              "tipo": "roca",
+              "x": -1.0,
+              "escala": 0.9
+            },
+            {
+              "tipo": "roca",
+              "x": 1.0,
+              "escala": 1.2
+            },
+            {
+              "tipo": "roca",
+              "x": 1.4,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tarun",
+            "x": 0.3,
+            "accion": "saludar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "general"
+      }
+    ]
+  },
+  "publicacion": {
+    "tituloLargo": "Un mes en la vida de UN CONSTRUCTOR DE NEWGRANGE (hacia 3200 a. C.) | 17 minutos de luz al año",
+    "tituloCorto": "Constructor de Newgrange",
+    "capituloInicial": "Un hombre inventado, unas piedras reales",
+    "descripcion": "Irlanda, hacia el 3200 a. C., en las semanas que llevan al día más corto del año. Tarun, picador de piedra, lleva quince inviernos trabajando en el gran túmulo de Newgrange, en la curva del río Boyne: losas de toneladas arrastradas sin rueda ni metal, cuarzo blanco traído a pie desde 50 km, espirales picadas con un canto en piedras que nadie verá nunca, un techo que lleva 5000 años sin goteras… y una rendija de piedra sobre la puerta que nadie sabe todavía si apunta bien. Si el amanecer del solsticio sale nublado, habrá que esperar un año.\n\n— Semana 1: Piedras de lejos\n— Semana 2: Lo que nadie verá\n— Semana 3: Esperando al sol\n— Semana 4: Diecisiete minutos\n— Epílogo: los banquetes de siglos después, la entrada de 1699, Michael J. O'Kelly el 21 de diciembre de 1967 y Tom Ray en 1989\n\nQué es real y qué es inventado: Tarun, Tavi, Teko, Ila y el viejo Oru son INVENTADOS, igual que sus nombres (no sabemos qué lengua hablaban), sus creencias y la cronología del mes, que es una reconstrucción verosímil. Newgrange no dejó escritura: no sabemos si adoraban al sol, si había sacerdotes o jefes, ni qué significaban las espirales; lo que el vídeo cuenta de eso son hipótesis y lo decimos así. Son reales: la fecha aproximada (3300–3000 a. C.), el túmulo de piedra y tepes, los 97 bordillos, la grauvaca y el cuarzo traídos de lejos (el origen exacto es discutido), la caja de luz, el pasillo que sube, la cámara en cruz con falsa bóveda y canalillos, el arte abstracto también en caras ocultas, los pocos enterrados (al menos cinco), el ADN de 2020 y el debate de 2025, la dieta láctea, las hachas de porcelanita, los banquetes de cerdo de hacia 2700–2450 a. C., el descubrimiento de la entrada en 1699, la observación de O'Kelly del 21 de diciembre de 1967 y el estudio de Tom Ray (Nature, 1989). Cómo se arrastraban las losas y si el cuarzo formaba un muro o un suelo no se sabe con certeza.\n\nFuentes: Ray, T. P. (1989), Nature 337; Cassidy et al. (2020), Nature 582; «The 'King' of Newgrange?», Antiquity 99 (2025); Guiry et al. (2025), Proceedings of the Prehistoric Society; informes de M. J. O'Kelly en excavations.ie; proyecto SCHERD sobre residuos lácteos; Irish Stone Axe Project; Irish Times; RTÉ Brainstorm; History Ireland; National Museum of Ireland; Stout y Stout, Newgrange (2008); O'Kelly, Newgrange: Archaeology, Art and Legend (1982).",
+    "etiquetas": [
+      "un mes en la vida de",
+      "Newgrange",
+      "Brú na Bóinne",
+      "solsticio de invierno",
+      "Neolítico",
+      "Irlanda",
+      "megalitos",
+      "tumba de corredor",
+      "arte megalítico",
+      "prehistoria",
+      "Michael O'Kelly",
+      "mitos y religiones",
+      "historia"
+    ],
+    "miniatura": {
+      "texto": "17 MINUTOS DE LUZ",
+      "escena": 41,
+      "quien": "tarun",
+      "emocion": "sorpresa",
+      "icono": "☀️"
+    },
+    "shorts": [
+      {
+        "titulo": "Quince años de obra para una ventana que se abre una vez al año",
+        "descripcion": "Irlanda, hacia el 3200 a. C.: un picador de piedra inventado ante el gran túmulo de Newgrange. #shorts #historia #prehistoria"
+      },
+      {
+        "titulo": "Así se vivía en Irlanda hace más de 5000 años",
+        "descripcion": "Casas de barro, cerdos en el robledal y una dieta de leche: ocho de cada diez vasijas guardan grasa láctea. #shorts #historia #neolitico"
+      },
+      {
+        "titulo": "Losas de toneladas sin rueda ni metal",
+        "descripcion": "Gente junto a un río de salmones que casi no comía pescado, y piedras traídas quizá por mar. #shorts #historia #megalitos"
+      },
+      {
+        "titulo": "50 kilómetros a pie para traer piedras blancas",
+        "descripcion": "El cuarzo de Newgrange y las espirales picadas golpe a golpe con un canto. #shorts #historia #prehistoria"
+      },
+      {
+        "titulo": "¿Para quién tallaban dibujos que nadie vería?",
+        "descripcion": "Arte grabado en caras ocultas de las losas y un túmulo de unas 200.000 toneladas. #shorts #arqueologia #misterio"
+      },
+      {
+        "titulo": "Un techo de piedra sin goteras desde hace 5000 años",
+        "descripcion": "La cámara en cruz de Newgrange y el truco de los canalillos. #shorts #historia #arqueologia"
+      },
+      {
+        "titulo": "La ventana de piedra que nadie sabía si funcionaba",
+        "descripcion": "La caja de luz de Newgrange: por qué no bastaba la puerta. #shorts #solsticio #arqueologia"
+      },
+      {
+        "titulo": "Quince años de trabajo pendientes de una nube",
+        "descripcion": "Hachas que viajaban de mano en mano y el cielo gris del invierno irlandés. #shorts #historia #prehistoria"
+      },
+      {
+        "titulo": "El primer hilo de luz entra en la tumba",
+        "descripcion": "Días antes del solsticio, a oscuras dentro del pasillo de Newgrange. #shorts #solsticio #historia"
+      },
+      {
+        "titulo": "El amanecer del día más corto, dentro de una tumba",
+        "descripcion": "Los huesos, la espiral y la luz que recorre el pasillo entero. #shorts #solsticio #newgrange"
+      },
+      {
+        "titulo": "17 minutos de luz al año",
+        "descripcion": "Lo que dura el sol dentro de la cámara de Newgrange el día más corto. #shorts #solsticio #misterio"
+      },
+      {
+        "titulo": "Lo que sabemos de Newgrange y lo que no",
+        "descripcion": "Pocos muertos, piedras de lejos y un ADN que todavía se discute. #shorts #arqueologia #historia"
+      },
+      {
+        "titulo": "Olvidada durante milenios: así reapareció la entrada",
+        "descripcion": "Banquetes de cerdo, leyendas de monjes y unos peones en 1699. #shorts #historia #arqueologia"
+      },
+      {
+        "titulo": "21 de diciembre de 1967: un arqueólogo solo en la tumba",
+        "descripcion": "Michael J. O'Kelly comprueba lo que contaba la gente de la comarca. #shorts #solsticio #newgrange"
+      },
+      {
+        "titulo": "Más antigua que las pirámides y alineada con el sol",
+        "descripcion": "Tom Ray, medio grado de error y cuatro minutos de retraso. Tarun es inventado; la luz, no. #shorts #historia #newgrange"
+      }
+    ]
+  }
+}
