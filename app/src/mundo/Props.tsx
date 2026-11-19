@@ -8,7 +8,7 @@ export const PROPS_DISPONIBLES = [
   "roca", "valla", "pozo", "tumba", "hoguera", "tienda", "bandera", "mesa", "estanteria", "chimenea", "cama",
   "antorcha", "cuadro", "consola", "maquina", "barril", "cajas", "planta", "telescopio", "yunque", "piramide", "columna", "reloj",
   "bergantin", "bergantin-hundido", "bote",
-  "volcan", "volcan-erupcion", "humo", "explosion", "horno", "molino", "anfora", "termopolio",
+  "volcan", "volcan-erupcion", "cruz", "humo", "explosion", "horno", "molino", "anfora", "termopolio",
   "casa-adobe", "habitat", "invernadero", "rover", "panel-solar", "antena",
   "escalera", "puerta", "tesoro", "sarcofago", "mascara", "estatua", "jarron", "carro-dorado",
   // apocalipsis zombi (2031)
@@ -189,6 +189,15 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean }> = ({ ti
           <rect x={-120} y={-360} width={18} height={220} fill="#5a3a22" />
           <rect x={102} y={-360} width={18} height={220} fill="#5a3a22" />
           <polygon points="-160,-350 0,-440 160,-350" fill="#6b3a2a" />
+        </g>
+      );
+    case "cruz":
+      // cruz de madera improvisada (tumbas de campaña)
+      return (
+        <g>
+          <ellipse cx={0} cy={0} rx={80} ry={16} fill="#3b2f22" opacity={0.6} />
+          <rect x={-9} y={-200} width={18} height={200} fill="#6b5236" />
+          <rect x={-50} y={-160} width={100} height={16} fill="#6b5236" />
         </g>
       );
     case "tumba":

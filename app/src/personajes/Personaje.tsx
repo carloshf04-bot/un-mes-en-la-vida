@@ -435,7 +435,7 @@ const Torso: React.FC<{ look: Look }> = ({ look }) => {
           {[0, 1, 2].map((i) => <circle key={i} cx={0} cy={HOMBRO_Y + 70 + i * 40} r={7} fill={tipo === "uniforme" ? "#e8c35a" : d} />)}
         </g>
       )}
-      {tipo === "uniforme" && [-1, 1].map((s) => <rect key={s} x={s * 76 - (s > 0 ? 30 : 0)} y={HOMBRO_Y - 28} width={30} height={12} rx={4} fill="#e8c35a" />)}
+      {tipo === "uniforme" && [-1, 1].map((s) => <rect key={s} x={s * 76 - (s > 0 ? 30 : 0)} y={HOMBRO_Y - 28} width={30} height={12} rx={4} fill={oscurecer(color, 0.15)} />)}
       {tipo === "camisa" && <path d={`M-26 ${HOMBRO_Y - 28} L0 ${HOMBRO_Y + 10} L26 ${HOMBRO_Y - 28}`} stroke={d} strokeWidth={8} fill="none" />}
       {tipo === "mono" && <rect x={-3} y={HOMBRO_Y - 20} width={6} height={190} fill={d} />}
       {tipo === "cuadros" && (

@@ -163,10 +163,6 @@
           "clima": "despejado",
           "props": [
             {
-              "tipo": "barricada",
-              "x": -0.95
-            },
-            {
               "tipo": "pino",
               "x": -0.55,
               "escala": 0.3,
@@ -205,10 +201,18 @@
         "personajes": [
           {
             "quien": "tom",
-            "x": 0.45,
-            "accion": "agachado",
+            "x": 0.65,
+            "accion": "saludar",
             "emocion": "sorpresa",
             "mirar": -1
+          },
+          {
+            "quien": "otto",
+            "x": 0.2,
+            "accion": "saludar",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
           }
         ],
         "camara": "general"
@@ -304,27 +308,10 @@
         "texto": "Jueves, diez de diciembre de mil novecientos catorce. Entro en primera línea delante de Frelangán, un pueblo de Francia pegado a Bélgica, con el agua por la rodilla.",
         "drama": 0.65,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "trinchera",
           "hora": "atardecer",
           "clima": "lluvia",
-          "props": [
-            {
-              "tipo": "barricada",
-              "x": -1.0
-            },
-            {
-              "tipo": "arbol",
-              "x": -1.45
-            },
-            {
-              "tipo": "charco",
-              "x": 0.0
-            },
-            {
-              "tipo": "valla",
-              "x": 1.25
-            }
-          ]
+          "props": []
         },
         "personajes": [
           {
@@ -381,23 +368,10 @@
         "texto": "Viernes. Formación del alba: media hora antes de que amanezca, todos al parapeto con el fusil. Luego, un trago de ron. Durante un minuto, el frío se va.",
         "drama": 0.6,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "trinchera",
           "hora": "amanecer",
-          "clima": "niebla",
-          "props": [
-            {
-              "tipo": "barricada",
-              "x": -0.95
-            },
-            {
-              "tipo": "valla",
-              "x": 1.2
-            },
-            {
-              "tipo": "arbol",
-              "x": 1.45
-            }
-          ]
+          "clima": "despejado",
+          "props": []
         },
         "personajes": [
           {
@@ -423,23 +397,10 @@
         "texto": "Me pagan un chelín al día por vivir metido en agua helada. Achico con una lata toda la mañana, y el agua vuelve a subir en cuanto paro.",
         "drama": 0.65,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "trinchera",
           "hora": "dia",
           "clima": "lluvia",
-          "props": [
-            {
-              "tipo": "barricada",
-              "x": -1.0
-            },
-            {
-              "tipo": "charco",
-              "x": 0.1
-            },
-            {
-              "tipo": "valla",
-              "x": 1.3
-            }
-          ]
+          "props": []
         },
         "personajes": [
           {
@@ -575,19 +536,10 @@
         "texto": "Jueves, diecisiete. Volvemos a primera línea. En la noche quieta oigo algo que no esperaba: al otro lado, un hombre tose. Otro le contesta. Otro silba.",
         "drama": 0.7,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "trinchera",
           "hora": "noche",
-          "clima": "niebla",
-          "props": [
-            {
-              "tipo": "barricada",
-              "x": -0.95
-            },
-            {
-              "tipo": "valla",
-              "x": 1.25
-            }
-          ]
+          "clima": "despejado",
+          "props": []
         },
         "personajes": [
           {
@@ -738,23 +690,10 @@
         "texto": "Domingo, veinte. Un sajón nos grita desde su trinchera, en un inglés perfecto, si en Gales llueve tanto como aquí. Uno de los nuestros le contesta con una broma muy galesa.",
         "drama": 0.6,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "trinchera",
           "hora": "dia",
           "clima": "lluvia",
-          "props": [
-            {
-              "tipo": "barricada",
-              "x": -1.0
-            },
-            {
-              "tipo": "charco",
-              "x": 0.1
-            },
-            {
-              "tipo": "valla",
-              "x": 1.3
-            }
-          ]
+          "props": []
         },
         "personajes": [
           {
@@ -803,23 +742,10 @@
         "texto": "Lunes. Nos leen una orden del general Smit Dórien: prohibido cualquier trato amistoso con el enemigo. Y el papa Benedicto quince ha pedido una tregua para Navidad, pero ningún gobierno la acepta.",
         "drama": 0.65,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "trinchera",
           "hora": "amanecer",
-          "clima": "niebla",
-          "props": [
-            {
-              "tipo": "barricada",
-              "x": -0.95
-            },
-            {
-              "tipo": "valla",
-              "x": 1.2
-            },
-            {
-              "tipo": "arbol",
-              "x": 1.45
-            }
-          ]
+          "clima": "despejado",
+          "props": []
         },
         "personajes": [
           {
@@ -922,23 +848,10 @@
         "texto": "Miércoles, veintitrés. Por fin deja de llover. Por la tarde el frío baja de golpe, y esa noche hiela: el barro se pone duro como piedra bajo las botas.",
         "drama": 0.6,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "trinchera",
           "hora": "atardecer",
           "clima": "despejado",
-          "props": [
-            {
-              "tipo": "barricada",
-              "x": -1.0
-            },
-            {
-              "tipo": "valla",
-              "x": 1.25
-            },
-            {
-              "tipo": "arbol",
-              "x": -1.45
-            }
-          ]
+          "props": []
         },
         "personajes": [
           {
@@ -993,10 +906,6 @@
           "hora": "noche",
           "clima": "despejado",
           "props": [
-            {
-              "tipo": "barricada",
-              "x": -0.95
-            },
             {
               "tipo": "pino",
               "x": -0.55,
@@ -1193,23 +1102,10 @@
         "texto": "Viernes, veinticinco. Día de Navidad. Todo está blanco de escarcha. Frank Ríchards y otros compañeros clavan en el parapeto un tablón con tres palabras pintadas.",
         "drama": 0.7,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "trinchera",
           "hora": "amanecer",
           "clima": "despejado",
-          "props": [
-            {
-              "tipo": "barricada",
-              "x": -0.95
-            },
-            {
-              "tipo": "valla",
-              "x": 1.25
-            },
-            {
-              "tipo": "arbol",
-              "x": -1.45
-            }
-          ]
+          "props": []
         },
         "personajes": [
           {
@@ -1455,7 +1351,7 @@
             "accion": "cargar",
             "emocion": "neutral",
             "mirar": -1,
-            "objeto": "🎁",
+            "objeto": "🍮",
             "habla": false
           },
           {
@@ -1479,19 +1375,19 @@
           "clima": "nieve",
           "props": [
             {
-              "tipo": "tumba",
+              "tipo": "cruz",
               "x": -0.95
             },
             {
-              "tipo": "tumba",
+              "tipo": "cruz",
               "x": -1.3
             },
             {
-              "tipo": "tumba",
+              "tipo": "cruz",
               "x": 1.1
             },
             {
-              "tipo": "tumba",
+              "tipo": "cruz",
               "x": 1.4
             }
           ]
@@ -1549,23 +1445,10 @@
         "texto": "Sábado, veintiséis, ocho y media de la mañana. El capitán Stócuel dispara tres tiros al aire y levanta una bandera que pone Feliz Navidad.",
         "drama": 0.8,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "trinchera",
           "hora": "amanecer",
           "clima": "despejado",
-          "props": [
-            {
-              "tipo": "barricada",
-              "x": -1.0
-            },
-            {
-              "tipo": "valla",
-              "x": 1.3
-            },
-            {
-              "tipo": "arbol",
-              "x": 1.5
-            }
-          ]
+          "props": []
         },
         "personajes": [
           {
@@ -1605,14 +1488,6 @@
             "emocion": "neutral",
             "mirar": -1,
             "habla": false
-          },
-          {
-            "quien": "vonsinner",
-            "x": -0.75,
-            "accion": "saludar",
-            "emocion": "neutral",
-            "mirar": 1,
-            "habla": false
           }
         ],
         "camara": "lenta"
@@ -1637,21 +1512,13 @@
         "texto": "El domingo trabajamos en el parapeto a la vista de los sajones, y ellos en el suyo. Nadie apunta. Ninguno quiere ser el primero en romper la calma.",
         "drama": 0.6,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "trinchera",
           "hora": "dia",
-          "clima": "niebla",
+          "clima": "despejado",
           "props": [
-            {
-              "tipo": "barricada",
-              "x": -1.0
-            },
             {
               "tipo": "cajas",
               "x": 1.2
-            },
-            {
-              "tipo": "valla",
-              "x": 1.45
             }
           ]
         },
@@ -1778,21 +1645,14 @@
         "texto": "Jueves, treinta y uno. Nochevieja en primera línea. A las once se oyen gritos al otro lado: para ellos, con la hora de Berlín, ya es medianoche.",
         "drama": 0.7,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "trinchera",
           "hora": "noche",
-          "clima": "niebla",
+          "clima": "despejado",
           "props": [
             {
-              "tipo": "barricada",
-              "x": -1.0
-            },
-            {
-              "tipo": "valla",
-              "x": 1.3
-            },
-            {
-              "tipo": "arbol",
-              "x": -1.45
+              "tipo": "🕯️",
+              "x": 1.1,
+              "escala": 0.25
             }
           ]
         },
@@ -1821,23 +1681,10 @@
         "texto": "Con el año nuevo llega la orden: si un oficial o un sargento arranca otra tregua, irá a consejo de guerra.",
         "drama": 0.75,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "trinchera",
           "hora": "amanecer",
-          "clima": "niebla",
-          "props": [
-            {
-              "tipo": "barricada",
-              "x": -0.95
-            },
-            {
-              "tipo": "valla",
-              "x": 1.2
-            },
-            {
-              "tipo": "arbol",
-              "x": 1.45
-            }
-          ]
+          "clima": "despejado",
+          "props": []
         },
         "personajes": [
           {
@@ -1864,27 +1711,10 @@
         "texto": "Domingo, tres de enero. Vuelven los disparos de verdad. El francotirador de enfrente hiere en el hombro a un muchacho de mi pelotón.",
         "drama": 0.8,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "trinchera",
           "hora": "dia",
           "clima": "lluvia",
-          "props": [
-            {
-              "tipo": "barricada",
-              "x": -1.0
-            },
-            {
-              "tipo": "charco",
-              "x": -0.1
-            },
-            {
-              "tipo": "charco",
-              "x": 0.6
-            },
-            {
-              "tipo": "valla",
-              "x": 1.35
-            }
-          ]
+          "props": []
         },
         "personajes": [
           {
@@ -1977,21 +1807,13 @@
         "texto": "A cien metros hay un hombre que me enseñó la foto de sus hijos. Desde el parapeto veo el humo de sus cocinas e imagino a Otto ahí detrás.",
         "drama": 0.65,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "trinchera",
           "hora": "dia",
-          "clima": "niebla",
+          "clima": "despejado",
           "props": [
-            {
-              "tipo": "barricada",
-              "x": -1.0
-            },
             {
               "tipo": "cajas",
               "x": 1.2
-            },
-            {
-              "tipo": "valla",
-              "x": 1.45
             }
           ]
         },
@@ -2011,23 +1833,10 @@
         "texto": "Viernes, ocho de enero. Formación del alba, el ron, el parapeto. Nos prometieron que esto acabaría para Navidad. Ni para esta, ni seguramente para la siguiente.",
         "drama": 0.75,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "trinchera",
           "hora": "amanecer",
-          "clima": "niebla",
-          "props": [
-            {
-              "tipo": "barricada",
-              "x": -0.95
-            },
-            {
-              "tipo": "valla",
-              "x": 1.2
-            },
-            {
-              "tipo": "arbol",
-              "x": 1.45
-            }
-          ]
+          "clima": "despejado",
+          "props": []
         },
         "personajes": [
           {
@@ -2049,19 +1858,19 @@
           "clima": "nieve",
           "props": [
             {
-              "tipo": "tumba",
+              "tipo": "cruz",
               "x": -0.95
             },
             {
-              "tipo": "tumba",
+              "tipo": "cruz",
               "x": -1.3
             },
             {
-              "tipo": "tumba",
+              "tipo": "cruz",
               "x": 1.1
             },
             {
-              "tipo": "tumba",
+              "tipo": "cruz",
               "x": 1.4
             }
           ]
@@ -2176,23 +1985,10 @@
         "texto": "Pero Tom Élis, Mégan, Güen, Ívor y Otto nunca existieron: son inventados. El batallón, Frelangán, Stócuel, fon Síner, Ríchards, los barriles, el pudin y los tiros al aire son reales.",
         "drama": 0.6,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "trinchera",
           "hora": "amanecer",
           "clima": "despejado",
-          "props": [
-            {
-              "tipo": "barricada",
-              "x": -0.95
-            },
-            {
-              "tipo": "valla",
-              "x": 1.25
-            },
-            {
-              "tipo": "arbol",
-              "x": -1.45
-            }
-          ]
+          "props": []
         },
         "personajes": [
           {

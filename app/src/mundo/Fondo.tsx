@@ -7,7 +7,7 @@ export type Hora = "amanecer" | "dia" | "atardecer" | "noche";
 export type Clima = "despejado" | "lluvia" | "nieve" | "niebla" | "tormenta" | "polvo" | "ceniza";
 export type Lugar =
   | "mar" | "playa" | "montanas" | "hielo" | "ciudad" | "futurista" | "desierto" | "campo"
-  | "bosque" | "espacio" | "luna" | "calle" | "selva" | "valle" | "marte" | "rio" | "interior";
+  | "bosque" | "espacio" | "luna" | "calle" | "selva" | "valle" | "marte" | "rio" | "trinchera" | "interior";
 export type PropEnEscena = string | { tipo: string; x?: number; escala?: number; detras?: boolean };
 
 export type Fondo = {
@@ -42,7 +42,7 @@ const TINTE: Record<Hora, { c: string; o: number }> = {
 
 const SUELOS: Partial<Record<Lugar, string>> = {
   mar: "#4d4a44", playa: "#d8bd8a", montanas: "#4f6b3e", hielo: "#e8f0f6", ciudad: "#5b5d63", futurista: "#2a2d3a",
-  desierto: "#d2a062", valle: "#c99a62", marte: "#9a4a2a", campo: "#6f9a4a", bosque: "#3f5f32", espacio: "#3a3f4f", luna: "#9a9aa2", calle: "#7a6e62", selva: "#2f5a2a", rio: "#6b7a4a",
+  desierto: "#d2a062", valle: "#c99a62", marte: "#9a4a2a", campo: "#6f9a4a", bosque: "#3f5f32", espacio: "#3a3f4f", luna: "#9a9aa2", calle: "#7a6e62", selva: "#2f5a2a", rio: "#6b7a4a", trinchera: "#4a3b2a",
 };
 
 const cresta = (s: string, y: number, amp: number, picos: number) => {
@@ -271,6 +271,9 @@ const Exterior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string; cam?
         </g>
       );
       break;
+    case "trinchera":
+      lejos = <path d={colinas(HORIZONTE, 60, 300, 2)} fill={hora === "dia" ? "#6f6a55" : c[0]} />;
+      break;
     case "bosque":
     case "selva":
       lejos = (
@@ -323,6 +326,7 @@ const Exterior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string; cam?
       <g transform={paralaje(cam, 0.15)}>{medios}</g>
       {/* suelo en primer plano */}
       <path d={`M0 ${SUELO - 30} Q${MW / 2} ${SUELO - 60} ${MW} ${SUELO - 30} L${MW} ${MH} L0 ${MH}Z`} fill={suelo} />
+      {lugar === "trinchera" && <MuroTrinchera hora={hora} f={f} id={id} />}
       {lugar === "calle" &&
         Array.from({ length: 60 }).map((_, i) => (
           <rect key={i} x={(i % 15) * 130 + (Math.floor(i / 15) % 2) * 65} y={SUELO - 10 + Math.floor(i / 15) * 60} width={118} height={50} rx={14} fill={oscurecer(suelo, 0.12)} />
@@ -455,6 +459,53 @@ const Particulas: React.FC<{ clima: Clima; f: number }> = ({ clima, f }) => {
   );
 };
 
+// Trinchera de 1914-1918: pared de tierra entibada con tablas, parapeto de sacos a la altura de los ojos,
+// alambre de espino recortado contra el cielo y fondo de barro con tablones (el agua va en la capa de frente)
+const MuroTrinchera: React.FC<{ hora: Hora; f: number; id: string }> = ({ hora, f, id }) => {
+  const tierra = hora === "dia" ? "#5e4a33" : "#3e3123";
+  const tabla = hora === "dia" ? "#7a6142" : "#4f3f2c";
+  const saco = ["#a8916a", "#9a8460", "#8c7755"];
+  const TOPE = SUELO - 520; // borde del parapeto: a la altura de los ojos de un soldado
+  return (
+    <g>
+      {/* alambre de espino sobre el parapeto */}
+      {Array.from({ length: 9 }).map((_, i) => {
+        const x = 60 + i * 230 + random(`ap${i}${id}`) * 60;
+        return <path key={i} d={`M${x} ${TOPE - 30} L${x + 14} ${TOPE - 190} M${x - 30} ${TOPE - 150} l70 -10`} stroke="#2b2620" strokeWidth={9} strokeLinecap="round" />;
+      })}
+      {[0, 1].map((h) => (
+        <path key={h} d={Array.from({ length: 40 }).map((_, i) => `${i ? "L" : "M"}${i * 50} ${TOPE - 120 - h * 50 + Math.sin(i * 1.7 + h) * 14}`).join(" ")} stroke="#2b2620" strokeWidth={3} fill="none" opacity={0.85} />
+      ))}
+      {Array.from({ length: 70 }).map((_, i) => (
+        <path key={i} d={`M${(i * 29) % MW} ${TOPE - 130 - (i % 2) * 50} l8 -10 m-8 0 l8 10`} stroke="#2b2620" strokeWidth={3} />
+      ))}
+      {/* pared de tierra con entibado de tablas */}
+      <rect x={0} y={TOPE} width={MW} height={SUELO - TOPE + 10} fill={tierra} />
+      {Array.from({ length: 5 }).map((_, i) => (
+        <rect key={i} x={0} y={TOPE + 150 + i * 70} width={MW} height={56} fill={tabla} opacity={0.9} />
+      ))}
+      {Array.from({ length: 9 }).map((_, i) => (
+        <rect key={i} x={40 + i * 235} y={TOPE + 100} width={26} height={SUELO - TOPE - 90} fill={oscurecer(tabla, 0.3)} />
+      ))}
+      {Array.from({ length: 14 }).map((_, i) => (
+        <ellipse key={i} cx={random(`bm${i}${id}`) * MW} cy={TOPE + 160 + random(`bn${i}${id}`) * 330} rx={30 + random(`bo${i}`) * 50} ry={10} fill={oscurecer(tierra, 0.25)} opacity={0.7} />
+      ))}
+      {/* parapeto de sacos terreros (dos filas) */}
+      {[0, 1].map((fila) =>
+        Array.from({ length: 18 }).map((_, i) => (
+          <rect key={`${fila}${i}`} x={-60 + i * 116 + fila * 58} y={TOPE + 40 - fila * 52} width={112} height={56} rx={22}
+            fill={saco[(i + fila) % 3]} stroke={oscurecer(saco[(i + fila) % 3], 0.35)} strokeWidth={4} />
+        )),
+      )}
+      {/* fondo de barro y tablones */}
+      <rect x={0} y={SUELO - 20} width={MW} height={MH - SUELO + 20} fill="#3b2f22" />
+      {Array.from({ length: 12 }).map((_, i) => (
+        <rect key={i} x={i * 170} y={SUELO + 30} width={150} height={26} fill={oscurecer(tabla, 0.15)} opacity={0.8} />
+      ))}
+    </g>
+  );
+};
+
 // Paralaje: una capa a profundidad k (0 = pegada a los personajes, 1 = infinito) acompaña a la cámara
 type Cam = { fx: number; fy: number };
 const paralaje = (cam: Cam | undefined, k: number) => (cam ? `translate(${(cam.fx - 960) * k} ${(cam.fy - 960) * k * 0.6})` : undefined);
@@ -526,7 +577,7 @@ const PrimerPlano: React.FC<{ fondo: Fondo; f: number; id: string; cam?: Cam }> 
         <ellipse cx={1800} cy={1600} rx={260} ry={70} />
       </g>
     );
-  } else if (["mar", "playa", "hielo", "desierto", "marte", "luna"].includes(l)) {
+  } else if (["mar", "playa", "hielo", "desierto", "marte", "luna", "trinchera"].includes(l)) {
     piezas = (
       <g fill={oscuro} opacity={0.85}>
         <ellipse cx={80} cy={1600} rx={280} ry={120} />
@@ -557,6 +608,12 @@ export const DibujarFondo: React.FC<{ fondo: Fondo; f: number; dur: number; id: 
         {props.filter((p) => p.detras === false).map((p, i) => (
           <g key={i} transform={`translate(${xMundo(p.x, k)} ${SUELO + 40}) scale(${p.escala})`}><Prop tipo={p.tipo} f={f} noche={noche} /></g>
         ))}
+        {fondo.lugar === "trinchera" && (
+          <g opacity={0.72}>
+            <path d={ola(SUELO - 70, 6, 80, f / 16)} fill={hora === "dia" ? "#5f5a48" : "#2f2c24"} />
+            <path d={ola(SUELO - 60, 4, 50, f / 10 + 1)} fill="none" stroke="#b9b29a" strokeWidth={3} opacity={0.5} />
+          </g>
+        )}
         <PrimerPlano fondo={fondo} f={f} id={id} cam={cam} />
         <Particulas clima={fondo.clima ?? "despejado"} f={f} />
       </g>
@@ -592,7 +649,7 @@ export const DibujarFondo: React.FC<{ fondo: Fondo; f: number; dur: number; id: 
       {(fondo.clima === "lluvia" || fondo.clima === "tormenta" || fondo.clima === "nieve") && fondo.lugar !== "interior" && (
         // cielo encapotado: con lluvia no hay sol ni cielo azul
         <g>
-          <rect x={0} y={0} width={MW} height={HORIZONTE + 120} fill={noche ? "#1c2128" : "#6f7880"} opacity={noche ? 0.45 : 0.62} />
+          <rect x={0} y={0} width={MW} height={fondo.lugar === "trinchera" ? SUELO - 560 : HORIZONTE + 120} fill={noche ? "#1c2128" : "#6f7880"} opacity={noche ? 0.45 : 0.62} />
           <rect x={0} y={0} width={MW} height={MH} fill="#2e353c" opacity={0.18} />
         </g>
       )}
@@ -606,10 +663,10 @@ export const DibujarFondo: React.FC<{ fondo: Fondo; f: number; dur: number; id: 
       {fondo.clima === "niebla" && fondo.lugar !== "interior" && (
         // velo de niebla DETRÁS de los personajes: apaga cielo, sol, lejanías y decorados
         <g>
-          <rect x={0} y={0} width={MW} height={MH} fill={hora === "noche" ? "#5a6470" : "#c4ccd3"} opacity={hora === "noche" ? 0.3 : 0.45} />
+          <rect x={0} y={0} width={MW} height={fondo.lugar === "trinchera" ? SUELO - 560 : MH} fill={hora === "noche" ? "#5a6470" : "#c4ccd3"} opacity={hora === "noche" ? 0.3 : 0.45} />
           <rect x={0} y={HORIZONTE - 300} width={MW} height={480} fill="#dfe5ea" opacity={hora === "noche" ? 0.12 : 0.3} />
           {[0, 1, 2].map((i) => (
-            <ellipse key={i} cx={((f * (0.8 + i * 0.3) + i * 700) % (MW + 1400)) - 700} cy={SUELO - 120 + i * 60} rx={900} ry={90} fill="#eef2f5" opacity={0.3} />
+            <ellipse key={i} cx={((f * (0.8 + i * 0.3) + i * 700) % (MW + 1400)) - 700} cy={(fondo.lugar === "trinchera" ? SUELO - 640 : SUELO - 120) + i * 60} rx={900} ry={90} fill="#eef2f5" opacity={0.3} />
           ))}
         </g>
       )}
