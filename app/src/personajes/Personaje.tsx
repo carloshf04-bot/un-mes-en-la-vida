@@ -84,7 +84,7 @@ export const calcularPose = (accion: Accion, f: number, semilla: number, fase?: 
     case "agachado": {
       // de rodillas a cubierto (trinchera, sacos terreros), con la cabeza gacha
       const r = Math.sin(t * 1.7) * 2;
-      return { ...p, pD: -88, rD: 88, pI: 0, rI: 90, y: MUSLO - 6, incl: 10 + r, hD: -50, cD: -40, hI: -30, cI: -55, cabeza: 12 };
+      return { ...p, pD: -88, rD: 88, pI: 0, rI: 90, y: MUSLO - 6, incl: 10 + r, hD: -10, cD: 40, hI: 10, cI: -40, cabeza: 12 };
     }
     case "dormir":
       return { ...p, y: 0, cabeza: 0 };

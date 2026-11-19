@@ -360,14 +360,14 @@
         "personajes": [
           {
             "quien": "tom",
-            "x": 0.35,
+            "x": 0.5,
             "accion": "agachado",
             "emocion": "miedo",
             "mirar": -1
           },
           {
             "quien": "ivor",
-            "x": -0.3,
+            "x": -0.5,
             "accion": "agachado",
             "emocion": "miedo",
             "mirar": 1,
@@ -466,14 +466,14 @@
         "personajes": [
           {
             "quien": "tom",
-            "x": 0.35,
+            "x": 0.5,
             "accion": "agachado",
             "emocion": "triste",
             "mirar": -1
           },
           {
             "quien": "ivor",
-            "x": -0.3,
+            "x": -0.5,
             "accion": "agachado",
             "emocion": "triste",
             "mirar": 1,
@@ -658,7 +658,7 @@
           },
           {
             "quien": "ivor",
-            "x": -0.35,
+            "x": -0.2,
             "accion": "sentado",
             "emocion": "enfado",
             "mirar": 1,
@@ -693,14 +693,14 @@
         "personajes": [
           {
             "quien": "tom",
-            "x": 0.35,
+            "x": 0.5,
             "accion": "agachado",
             "emocion": "miedo",
             "mirar": -1
           },
           {
             "quien": "sargento",
-            "x": -0.35,
+            "x": -0.5,
             "accion": "agachado",
             "emocion": "miedo",
             "mirar": 1,
@@ -716,14 +716,14 @@
         "personajes": [
           {
             "quien": "tom",
-            "x": 0.35,
+            "x": 0.5,
             "accion": "agachado",
             "emocion": "triste",
             "mirar": -1
           },
           {
             "quien": "sargento",
-            "x": -0.35,
+            "x": -0.5,
             "accion": "agachado",
             "emocion": "triste",
             "mirar": 1,
@@ -759,14 +759,14 @@
         "personajes": [
           {
             "quien": "tom",
-            "x": 0.35,
+            "x": 0.5,
             "accion": "agachado",
             "emocion": "sorpresa",
             "mirar": -1
           },
           {
             "quien": "ivor",
-            "x": -0.3,
+            "x": -0.5,
             "accion": "agachado",
             "emocion": "sorpresa",
             "mirar": 1,
@@ -1043,7 +1043,7 @@
           },
           {
             "quien": "ivor",
-            "x": -0.05,
+            "x": -0.5,
             "accion": "agachado",
             "emocion": "sorpresa",
             "mirar": -1,
@@ -1090,14 +1090,14 @@
         "personajes": [
           {
             "quien": "tom",
-            "x": 0.45,
+            "x": 0.5,
             "accion": "agachado",
             "emocion": "sorpresa",
             "mirar": -1
           },
           {
             "quien": "ivor",
-            "x": -0.1,
+            "x": -0.5,
             "accion": "agachado",
             "emocion": "sorpresa",
             "mirar": -1,
@@ -1799,14 +1799,14 @@
         "personajes": [
           {
             "quien": "tom",
-            "x": 0.4,
+            "x": 0.5,
             "accion": "agachado",
             "emocion": "neutral",
             "mirar": -1
           },
           {
             "quien": "ivor",
-            "x": -0.3,
+            "x": -0.5,
             "accion": "agachado",
             "emocion": "neutral",
             "mirar": 1,
@@ -1889,14 +1889,14 @@
         "personajes": [
           {
             "quien": "tom",
-            "x": 0.4,
+            "x": 0.5,
             "accion": "agachado",
             "emocion": "miedo",
             "mirar": -1
           },
           {
             "quien": "ivor",
-            "x": -0.3,
+            "x": -0.5,
             "accion": "agachado",
             "emocion": "miedo",
             "mirar": 1,
@@ -2163,10 +2163,11 @@
           {
             "quien": "megan",
             "x": -0.3,
-            "accion": "quieto",
+            "accion": "cargar",
             "emocion": "feliz",
             "mirar": 1,
-            "habla": false
+            "habla": false,
+            "objeto": "👶"
           }
         ],
         "camara": "cerca"
