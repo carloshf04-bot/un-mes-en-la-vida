@@ -67,7 +67,7 @@ Por qué funciona cada idea: tiene **un mes concreto con un acontecimiento dram�
 | [x] | `carter-1922` | Howard Carter | Noviembre de 1922 | El 4 de noviembre aparece el primer escalón de la tumba de Tutankamón. **Efeméride de noviembre.** |
 | [x] | `gein-1957` | Ed Gein, el carnicero de Plainfield | Noviembre de 1957 | Detenido el 16 de noviembre. Tendencia por la serie de Netflix (2025). **Efeméride de noviembre.** |
 | [ ] | `newton-1666` | Isaac Newton | 1666 | Encerrado por la peste, inventa medio mundo moderno. |
-| [~] | `curie-1898` | Marie Curie | Diciembre de 1898 | El descubrimiento del radio en un cobertizo. |
+| [x] | `curie-1898` | Marie Curie | Diciembre de 1898 | El descubrimiento del radio en un cobertizo. |
 | [ ] | `colon-1492` | Cristóbal Colón | Octubre de 1492 | La tripulación al borde del motín. |
 | [ ] | `juana-arco-1429` | Juana de Arco | Mayo de 1429 | Orleans, con 17 años. |
 | [x] | `shackleton-1915` | Ernest Shackleton | Noviembre de 1915 | El hielo hunde el Endurance (21 de noviembre). **Efeméride de noviembre.** |
@@ -93,5 +93,5 @@ Por qué funciona cada idea: tiene **un mes concreto con un acontecimiento dram�
 | [~] | `mary-celeste-1872` | Lunes · misterios | un marinero del Dei Gratia | Atlántico, noviembre–diciembre de 1872 | 4 de diciembre: encuentran el Mary Celeste navegando sin nadie a bordo. **Efeméride.** |
 | [~] | `trinchera-1914` | Martes · guerra | un soldado en las trincheras | Flandes, diciembre de 1914 | La tregua de Navidad y el partido de fútbol. **Efeméride.** |
 | [~] | `saturnales-50` | Miércoles · mitos | un esclavo en las Saturnales | Roma, diciembre del año 50 | Durante una semana los amos sirven a los esclavos. El origen de muchas costumbres navideñas. |
-| [~] | `curie-1898` | Jueves · personajes | Marie Curie | París, diciembre de 1898 | 26 de diciembre: anuncian el radio, descubierto por una sola raya violeta en el espectro. **Efeméride.** |
+| [x] | `curie-1898` | Jueves · personajes | Marie Curie | París, diciembre de 1898 | 26 de diciembre: anuncian el radio, descubierto por una sola raya violeta en el espectro. **Efeméride.** |
 | [~] | `halifax-1917` | Viernes · catástrofes | un aprendiz del puerto de Halifax | Canadá, diciembre de 1917 | 6 de diciembre: la mayor explosión antes de la bomba atómica. **Efeméride.** |

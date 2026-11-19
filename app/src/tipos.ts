@@ -57,4 +57,5 @@ export type Miniatura = {
   emocion?: "neutral" | "feliz" | "triste" | "miedo" | "enfado" | "sorpresa" | "cansado";
   accion?: string;
   icono?: string; // emoji grande opcional junto al personaje
+  prop?: string; // o un decorado del motor (p. ej. "espectro") en lugar del emoji
 };

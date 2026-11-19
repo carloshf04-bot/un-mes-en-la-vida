@@ -3,6 +3,7 @@ import { AbsoluteFill, useVideoConfig } from "remotion";
 import type { Manifiesto, Escena } from "./tipos";
 import type { Accion, Emocion } from "./personajes/tipos";
 import { EscenaMundo } from "./mundo/EscenaMundo";
+import { Prop } from "./mundo/Props";
 import { emoji, sans, serif } from "./fuentes";
 import "./fuentes";
 
@@ -40,6 +41,11 @@ export const Miniatura: React.FC<{ slug: string; manifiesto?: Manifiesto }> = ({
         }}
       />
       <AbsoluteFill style={{ boxShadow: `inset 0 0 ${120 * u}px rgba(0,0,0,0.7)` }} />
+      {cfg.prop && (
+        <svg style={{ position: "absolute", ...(vertical ? { left: 140 * u, top: 1040 * u, width: 440 * u, height: 330 * u } : { right: 6 * u, top: 440 * u, width: 360 * u, height: 270 * u }), filter: "drop-shadow(0 12px 24px rgba(0,0,0,0.6))" }} viewBox="-280 -600 560 420">
+          <Prop tipo={cfg.prop} f={30} noche={false} />
+        </svg>
+      )}
       {cfg.icono && (
         <div style={{ position: "absolute", fontFamily: emoji, fontSize: (vertical ? 210 : 170) * u, ...(vertical ? { right: 40 * u, top: 760 * u } : { right: 60 * u, top: 40 * u }), rotate: "12deg", filter: "drop-shadow(0 12px 24px rgba(0,0,0,0.6))" }}>
           {cfg.icono}
