@@ -31,7 +31,9 @@ export const Insercion: React.FC<{ ins: Ins; paleta: Paleta; dur: number }> = ({
     );
   }
   if (ins.tipo === "cita") {
-    const n = Math.floor(interpolate(f, [fps * 0.4, Math.max(fps * 0.5, dur * 0.65)], [0, ins.frase.length], clamp));
+    // se escribe a unas 22 letras por segundo (y nunca más despacio que el 65 % de la escena): la tarjeta no se queda vacía
+    const fin = Math.max(fps * 0.5, Math.min(dur * 0.65, fps * (0.4 + ins.frase.length / 22)));
+    const n = Math.floor(interpolate(f, [fps * 0.15, fin], [0, ins.frase.length], clamp));
     return (
       <AbsoluteFill style={{ alignItems: "center", justifyContent: "center" }}>
         <div style={{ ...caja, width: 860 * u, background: paleta.papel, borderRadius: 10, padding: `${70 * u}px ${70 * u}px`, boxShadow: "0 40px 90px rgba(0,0,0,0.55)", rotate: `${interpolate(f, [0, dur], [-2.5, -1])}deg`, backgroundImage: `repeating-linear-gradient(transparent 0 ${78 * u}px, rgba(60,90,140,0.18) ${78 * u}px ${80 * u}px)` }}>
