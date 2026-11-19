@@ -212,14 +212,14 @@
         "personajes": [
           {
             "quien": "marie",
-            "x": 0.35,
+            "x": 0.3,
             "accion": "hablar",
             "emocion": "neutral",
             "mirar": -1
           },
           {
             "quien": "pierre",
-            "x": -0.4,
+            "x": -0.3,
             "accion": "trabajar",
             "emocion": "neutral",
             "mirar": 1,
@@ -801,7 +801,7 @@
         "camara": "cerca",
         "insercion": {
           "tipo": "dato",
-          "valor": "0 francos",
+          "valor": "Cero francos",
           "etiqueta": "cobra Marie por su investigación en 1898",
           "icono": "📓"
         }
@@ -1689,14 +1689,14 @@
         "personajes": [
           {
             "quien": "marie",
-            "x": 0.4,
+            "x": 0.3,
             "accion": "quieto",
             "emocion": "neutral",
             "mirar": -1
           },
           {
             "quien": "becquerel",
-            "x": -0.4,
+            "x": -0.3,
             "accion": "cargar",
             "emocion": "neutral",
             "mirar": 1,
@@ -2457,14 +2457,14 @@
         "personajes": [
           {
             "quien": "marie",
-            "x": 0.35,
+            "x": 0.3,
             "accion": "hablar",
             "emocion": "neutral",
             "mirar": -1
           },
           {
             "quien": "pierre",
-            "x": -0.4,
+            "x": -0.3,
             "accion": "quieto",
             "emocion": "feliz",
             "mirar": 1,
