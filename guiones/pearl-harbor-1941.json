@@ -1,0 +1,2626 @@
+{
+  "slug": "pearl-harbor-1941",
+  "titulo": "un marinero en Pearl Harbor",
+  "lugar": "Pearl Harbor, Oahu (Territorio de Hawái)",
+  "epoca": "Noviembre y diciembre de 1941",
+  "categoria": "guerra",
+  "drama": 0.65,
+  "velocidad": 1.15,
+  "musica": "nostalgia",
+  "paleta": {
+    "acento": "#d9a441",
+    "texto": "#f2efe6",
+    "fondo": "#13202c",
+    "papel": "#eee6d2"
+  },
+  "reparto": {
+    "tommy": {
+      "piel": "#c9946a",
+      "pelo": "#1e1a18",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#8fa9c8",
+        "color2": "#3d4f6b",
+        "detalle": "#6f86a6"
+      },
+      "sombrero": "gorro-marinero",
+      "colorSombrero": "#f2f0ea",
+      "zapatos": "#151515"
+    },
+    "tommy-blanco": {
+      "piel": "#c9946a",
+      "pelo": "#1e1a18",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#f2f0ea",
+        "color2": "#f2f0ea",
+        "detalle": "#1f2c4a"
+      },
+      "sombrero": "gorro-marinero",
+      "colorSombrero": "#f2f0ea",
+      "zapatos": "#151515"
+    },
+    "gus": {
+      "piel": "#efc9a8",
+      "pelo": "#d8b878",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#f2f0ea",
+        "color2": "#f2f0ea",
+        "detalle": "#1f2c4a"
+      },
+      "sombrero": "gorro-marinero",
+      "colorSombrero": "#f2f0ea",
+      "zapatos": "#151515",
+      "altura": 1.06
+    },
+    "gus-faena": {
+      "piel": "#efc9a8",
+      "pelo": "#d8b878",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#8fa9c8",
+        "color2": "#3d4f6b",
+        "detalle": "#6f86a6"
+      },
+      "sombrero": "gorro-marinero",
+      "colorSombrero": "#f2f0ea",
+      "zapatos": "#151515",
+      "altura": 1.06
+    },
+    "contramaestre": {
+      "piel": "#d9a27e",
+      "pelo": "#5a4434",
+      "peinado": "coronilla",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#8fa9c8",
+        "color2": "#3d4f6b",
+        "detalle": "#6f86a6"
+      },
+      "sombrero": "gorro-marinero",
+      "colorSombrero": "#f2f0ea",
+      "zapatos": "#151515"
+    },
+    "marinero": {
+      "piel": "#e8bf9c",
+      "pelo": "#8a4a26",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#8fa9c8",
+        "color2": "#3d4f6b",
+        "detalle": "#6f86a6"
+      },
+      "sombrero": "gorro-marinero",
+      "colorSombrero": "#f2f0ea",
+      "zapatos": "#151515"
+    },
+    "musico": {
+      "piel": "#e2b08c",
+      "pelo": "#3a2a1e",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#f2f0ea",
+        "color2": "#f2f0ea",
+        "detalle": "#1f2c4a"
+      },
+      "sombrero": "gorro-marinero",
+      "colorSombrero": "#f2f0ea",
+      "zapatos": "#151515"
+    },
+    "musico2": {
+      "piel": "#b98560",
+      "pelo": "#1e1a18",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#f2f0ea",
+        "color2": "#f2f0ea",
+        "detalle": "#1f2c4a"
+      },
+      "sombrero": "gorro-marinero",
+      "colorSombrero": "#f2f0ea",
+      "zapatos": "#151515"
+    },
+    "madre": {
+      "piel": "#c48f68",
+      "pelo": "#2a2220",
+      "peinado": "largo",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#3a3030",
+        "color2": "#3a3030",
+        "detalle": "#5a4a44"
+      },
+      "sombrero": "panuelo",
+      "colorSombrero": "#151515",
+      "zapatos": "#2a1e16",
+      "voz": "narradora-es"
+    },
+    "hermana": {
+      "piel": "#c9946a",
+      "pelo": "#1e1a18",
+      "peinado": "trenzas",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#9a5a4a",
+        "color2": "#9a5a4a",
+        "detalle": "#e8d8b8"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#3a2618",
+      "altura": 0.7,
+      "voz": "narradora-es"
+    },
+    "doris": {
+      "piel": "#5a3a28",
+      "pelo": "#141010",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#f2f0ea",
+        "color2": "#2a2a3a",
+        "detalle": "#d8d4c8"
+      },
+      "sombrero": "gorro-marinero",
+      "colorSombrero": "#f2f0ea",
+      "zapatos": "#151515",
+      "altura": 1.1
+    },
+    "lockard": {
+      "piel": "#e0b48e",
+      "pelo": "#4a3a2c",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#7a6e4a",
+        "color2": "#7a6e4a",
+        "detalle": "#5a5034"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#6b6040",
+      "zapatos": "#3a2618"
+    },
+    "elliott": {
+      "piel": "#e8c09e",
+      "pelo": "#7a5a3a",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#7a6e4a",
+        "color2": "#7a6e4a",
+        "detalle": "#5a5034"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#6b6040",
+      "zapatos": "#3a2618"
+    },
+    "tyler": {
+      "piel": "#e4b898",
+      "pelo": "#3a2a1e",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#b8a57a",
+        "color2": "#b8a57a",
+        "detalle": "#8a7a52"
+      },
+      "sombrero": "gorra-plato",
+      "colorSombrero": "#b8a57a",
+      "zapatos": "#3a2618"
+    },
+    "outerbridge": {
+      "piel": "#e6bc9a",
+      "pelo": "#4a3a2c",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#b8a57a",
+        "color2": "#b8a57a",
+        "detalle": "#8a7a52"
+      },
+      "sombrero": "gorra-plato",
+      "colorSombrero": "#f2f0ea",
+      "zapatos": "#151515"
+    }
+  },
+  "largo": {
+    "escenas": [
+      {
+        "corte": true,
+        "texto": "El domingo siete de diciembre, a las ocho en punto, la banda de mi barco empezó a tocar el himno. La guerra había empezado más de una hora antes, y nadie a bordo lo sabía.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "bandera",
+              "x": -0.35
+            },
+            {
+              "tipo": "acorazado",
+              "x": 1.2,
+              "escala": 0.5,
+              "detras": true
+            },
+            {
+              "tipo": "avion",
+              "x": 0.6
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tommy",
+            "x": 0.55,
+            "accion": "saludar",
+            "emocion": "sorpresa",
+            "mirar": -1
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Me llamo Tomás Baca, aunque a bordo me llaman Tómi. Tengo diecinueve años, vengo de Nuevo México y soy marinero de segunda en el acorazado Nevada.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "acorazado",
+              "x": -1.1,
+              "escala": 0.55,
+              "detras": true
+            },
+            {
+              "tipo": "acorazado",
+              "x": 1.15,
+              "escala": 0.45,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tommy",
+            "x": 0.3,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "entra": "der"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Esta es la historia de mi último mes de paz en Perl Járbor, en la isla de Oajú, en mitad del océano Pacífico.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "tommy",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Pearl Harbor, isla de Oahu",
+          "detalle": "Territorio de Hawái · noviembre de 1941",
+          "icono": "📍"
+        }
+      },
+      {
+        "dia": 1,
+        "capitulo": "Rutina en el paraíso",
+        "texto": "Es martes, once de noviembre, y la diana suena a las cinco y media. Después de un café, toca baldear la cubierta con agua de mar.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "acorazado",
+              "x": -1.1,
+              "escala": 0.55,
+              "detras": true
+            },
+            {
+              "tipo": "acorazado",
+              "x": 1.15,
+              "escala": 0.45,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tommy",
+            "x": 0.4,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "mirar": -1
+          },
+          {
+            "quien": "contramaestre",
+            "x": -0.4,
+            "accion": "senalar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 2,
+        "corte": true,
+        "texto": "Treinta y seis dólares al mes: eso cobro por vivir en el paraíso. La Marina me da comida, cama y uniforme, y la mitad de la paga se la mando a mi madre.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "metal",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.15
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.25
+            },
+            {
+              "tipo": "💵",
+              "x": 1.0,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tommy",
+            "x": 0.3,
+            "accion": "escribir",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "36 $",
+          "etiqueta": "al mes: la paga de un marinero de segunda de la Marina de EE. UU. en 1941",
+          "icono": "💵"
+        }
+      },
+      {
+        "dia": 2,
+        "texto": "Amarramos junto a la isla Ford, en la fila de los acorazados. Delante tenemos al Arizona, y cada mañana a las ocho su banda y la nuestra tocan el himno.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "acorazado",
+              "x": -1.1,
+              "escala": 0.55,
+              "detras": true
+            },
+            {
+              "tipo": "acorazado",
+              "x": 1.15,
+              "escala": 0.45,
+              "detras": true
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.45,
+              "escala": 0.6,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tommy",
+            "x": 0.35,
+            "accion": "senalar",
+            "emocion": "feliz",
+            "mirar": -1
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 3,
+        "texto": "Entre semana salimos a hacer ejercicios de tiro, y los fines de semana volvemos al puerto. Alguien lo está apuntando todo.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "acorazado",
+              "x": 0.9,
+              "escala": 0.6,
+              "detras": true
+            },
+            {
+              "tipo": "acorazado",
+              "x": -1.2,
+              "escala": 0.4,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tommy",
+            "x": 0.35,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "objeto": "📦"
+          },
+          {
+            "quien": "marinero",
+            "x": -0.4,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 3,
+        "texto": "Lo supe años después: desde una colina, un oficial japonés con nombre falso, Takeo Yoshicáwa, anota cada barco. Él contó que los japoneses de Hawái no le ayudaron.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "palmera",
+              "x": -1.3
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.3
+            },
+            {
+              "tipo": "acorazado",
+              "x": 0.4,
+              "escala": 0.3,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1941",
+          "etiqueta": "Takeo Yoshikawa llega a Honolulú el 27 de marzo como «vicecónsul Tadashi Morimura». El FBI lo vigila, pero mirar barcos no es delito",
+          "icono": "🔭"
+        }
+      },
+      {
+        "dia": 5,
+        "corte": true,
+        "texto": "El sábado, con el uniforme blanco, bajo a Honolulú. La calle Jotel es un río de gorros blancos: bares, galerías de tiro y salones de tatuaje con colas larguísimas.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "palmera",
+              "x": -1.35
+            },
+            {
+              "tipo": "farola",
+              "x": -0.95
+            },
+            {
+              "tipo": "puesto",
+              "x": 1.1
+            },
+            {
+              "tipo": "casa",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tommy-blanco",
+            "x": 0.3,
+            "accion": "caminar",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "entra": "der"
+          },
+          {
+            "quien": "marinero",
+            "x": -0.45,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 5,
+        "texto": "Hago una hora de cola para tatuarme un ancla. Cuando por fin me toca, me acuerdo de la cara de mi madre, y me voy sin tatuaje.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "tommy-blanco",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "sorpresa",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 6,
+        "texto": "El domingo, en la playa de Uaiquiquí, conozco a Gus Líndquist, un rubio de Minesóta que sirve en el Guord, un destructor viejo de la otra guerra.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "palmera",
+              "x": -1.25
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.35
+            },
+            {
+              "tipo": "🌺",
+              "x": 1.0,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tommy-blanco",
+            "x": 0.4,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "gus",
+            "x": -0.4,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 6,
+        "texto": "Casi toda su tripulación son reservistas de Minesóta, como él, y en una sola tarde ya somos amigos.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "tommy-blanco",
+            "x": 0.4,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "gus",
+            "x": -0.4,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 8,
+        "capitulo": "La batalla de la música",
+        "corte": true,
+        "texto": "En la cubierta se habla de Japón, pero los veteranos lo tienen claro: si estalla algo, será lejos, en Filipinas o en Malasia. Aquí, dicen, estamos a salvo.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "acorazado",
+              "x": -1.1,
+              "escala": 0.55,
+              "detras": true
+            },
+            {
+              "tipo": "acorazado",
+              "x": 1.15,
+              "escala": 0.45,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tommy",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "contramaestre",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 8,
+        "texto": "Japón lleva cuatro años en guerra con China, y Estados Unidos le ha cortado el petróleo. O se retira de China, o va a buscar petróleo al sur por la fuerza.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "tommy",
+            "x": 0.4,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "contramaestre",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1/2",
+          "etiqueta": "del petróleo que importaba Japón en los años treinta venía de EE. UU. En el verano de 1941 llega el embargo",
+          "icono": "🛢️"
+        }
+      },
+      {
+        "dia": 11,
+        "texto": "Llega carta de casa con una foto de mi madre y mis dos hermanas, muy serias, delante de la puerta de adobe. La miro cada noche antes de dormir.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "desierto",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "casa-adobe",
+              "x": -1.1
+            },
+            {
+              "tipo": "🌶️",
+              "x": -0.55,
+              "escala": 0.3
+            },
+            {
+              "tipo": "valla",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "madre",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "hermana",
+            "x": -0.2,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 12,
+        "texto": "El sábado veintidós voy al pabellón Bloc, en la base, a la Batalla de la Música: un concurso de bandas de la flota con eliminatorias cada sábado.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "madera",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "bandera",
+              "x": -1.25
+            },
+            {
+              "tipo": "🎵",
+              "x": 1.2,
+              "escala": 0.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tommy-blanco",
+            "x": 0.55,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "musico",
+            "x": -0.15,
+            "accion": "cargar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "objeto": "🎺",
+            "habla": false
+          },
+          {
+            "quien": "musico2",
+            "x": -0.6,
+            "accion": "cargar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "objeto": "🥁",
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 12,
+        "corte": true,
+        "texto": "Esa noche toca la banda del Arizona: veintiún músicos que se formaron y embarcaron juntos. Ganan su semifinal, y la final será el veinte de diciembre.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "tommy-blanco",
+            "x": 0.5,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "musico",
+            "x": -0.05,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "objeto": "🎺",
+            "habla": false
+          },
+          {
+            "quien": "musico2",
+            "x": -0.55,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "objeto": "🥁",
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "21",
+          "etiqueta": "músicos en la banda del USS Arizona (Unidad de Banda n.º 22): ganan su semifinal el 22 de noviembre",
+          "icono": "🎺"
+        }
+      },
+      {
+        "dia": 13,
+        "texto": "En el Arizona hay treinta y siete parejas de hermanos, y hasta un padre con su hijo. Muchos se alistan juntos para no separarse.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "acorazado",
+              "x": -1.1,
+              "escala": 0.55,
+              "detras": true
+            },
+            {
+              "tipo": "acorazado",
+              "x": 1.15,
+              "escala": 0.45,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tommy",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "37",
+          "etiqueta": "parejas o tríos de hermanos a bordo del USS Arizona en 1941 (y un padre con su hijo)",
+          "icono": "👬"
+        }
+      },
+      {
+        "dia": 13,
+        "texto": "En la Marina, los marineros negros solo pueden ser camareros o cocineros, y nadie les enseña a disparar. Uno de ellos, en el acorazado Güest Virjínia, se llama Dóris Míler.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "dia",
+          "pared": "metal",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": -1.0
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.1
+            },
+            {
+              "tipo": "☕",
+              "x": 1.05,
+              "escala": 0.28
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "doris",
+            "x": -0.35,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "☕",
+            "habla": false
+          },
+          {
+            "quien": "tommy",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 15,
+        "capitulo": "Alerta de guerra",
+        "texto": "El martes veinticinco, Gus me cuenta que el Guord patrulla la boca del puerto día y noche, buscando submarinos. Casi nunca encuentran nada.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "palmera",
+              "x": -1.25
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.35
+            },
+            {
+              "tipo": "🌺",
+              "x": 1.0,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "gus",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tommy-blanco",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 15,
+        "corte": true,
+        "texto": "Al otro lado del mundo ya es miércoles. En las islas Kuriles, seis portaaviones japoneses levan anclas sin decir ni una palabra por radio.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "amanecer",
+          "clima": "nieve",
+          "props": [
+            {
+              "tipo": "portaaviones",
+              "x": -0.75,
+              "escala": 0.5,
+              "detras": true
+            },
+            {
+              "tipo": "portaaviones",
+              "x": 0.55,
+              "escala": 0.42,
+              "detras": true
+            },
+            {
+              "tipo": "portaaviones",
+              "x": 1.3,
+              "escala": 0.35,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Bahía de Hitokappu, islas Kuriles",
+          "detalle": "26 de noviembre de 1941, hora de Japón · rumbo a Hawái",
+          "icono": "📍"
+        }
+      },
+      {
+        "dia": 15,
+        "texto": "El plan es del almirante Yamamóto: un golpe por sorpresa, para que nuestra flota no pueda impedir que Japón tome el petróleo del sur.",
+        "drama": 0.7,
+        "personajes": [],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "6",
+          "etiqueta": "portaaviones japoneses: Akagi, Kaga, Hiryu, Soryu, Shokaku y Zuikaku, en silencio de radio",
+          "icono": "⚓"
+        }
+      },
+      {
+        "dia": 17,
+        "texto": "El jueves veintisiete, nuestro almirante, Químel, recibe un mensaje de Washington que empieza así: este despacho debe considerarse una alerta de guerra.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "dia",
+          "pared": "madera",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.2
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.9
+            },
+            {
+              "tipo": "📜",
+              "x": 0.85,
+              "escala": 0.3
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Este despacho debe considerarse una alerta de guerra.",
+          "firma": "Almirante Harold Stark al almirante Husband E. Kimmel, 27 de noviembre de 1941"
+        }
+      },
+      {
+        "dia": 17,
+        "texto": "Pero el mensaje no nombra Hawái. Todos piensan que el golpe será lejos, en Filipinas o en Malasia, y aquí el Ejército se prepara sobre todo contra sabotajes.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "acorazado",
+              "x": -1.1,
+              "escala": 0.55,
+              "detras": true
+            },
+            {
+              "tipo": "acorazado",
+              "x": 1.15,
+              "escala": 0.45,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tommy",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 17,
+        "corte": true,
+        "texto": "En el norte de la isla, en la colina de Opána, el Ejército tiene un radar móvil. Desde este mes lo encienden cada madrugada, de cuatro a siete.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "radar",
+              "x": -1.05
+            },
+            {
+              "tipo": "tienda",
+              "x": 1.15
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "lockard",
+            "x": 0.3,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "elliott",
+            "x": 0.75,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 18,
+        "texto": "El viernes veintiocho despedimos al portaaviones Énterprais, que lleva aviones a la isla de Uéic. Pura rutina, pero el siete de diciembre no habrá portaaviones en el puerto.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "portaaviones",
+              "x": -0.5,
+              "escala": 0.6,
+              "detras": true
+            },
+            {
+              "tipo": "acorazado",
+              "x": 1.2,
+              "escala": 0.45,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tommy",
+            "x": 0.4,
+            "accion": "saludar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "marinero",
+            "x": 0.85,
+            "accion": "saludar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 21,
+        "texto": "El lunes uno de diciembre, en Tokio, el emperador aprueba la guerra. Para entonces, los portaaviones ya navegan en mitad del océano.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "portaaviones",
+              "x": -0.6,
+              "escala": 0.45,
+              "detras": true
+            },
+            {
+              "tipo": "portaaviones",
+              "x": 0.9,
+              "escala": 0.38,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "dia": 24,
+        "capitulo": "El domingo",
+        "texto": "El jueves cuatro, el Arizona, el Oclajoma y nosotros salimos a un ejercicio nocturno de tiro real. Los cañones iluminan el mar como relámpagos.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "acorazado",
+              "x": -0.9,
+              "escala": 0.55,
+              "detras": true
+            },
+            {
+              "tipo": "acorazado",
+              "x": 1.0,
+              "escala": 0.45,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tommy",
+            "x": 0.4,
+            "accion": "cargar",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "objeto": "📦"
+          },
+          {
+            "quien": "marinero",
+            "x": -0.4,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 26,
+        "corte": true,
+        "texto": "El sábado seis es el último día de paz. En el estadio de Honolulú, veinticinco mil personas ven ganar a la universidad de Hawái, y Gus y yo gritamos como locos.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "bandera",
+              "x": -1.2
+            },
+            {
+              "tipo": "🏈",
+              "x": 0.0,
+              "escala": 0.3
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tommy-blanco",
+            "x": 0.45,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "gus",
+            "x": -0.4,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "25.000",
+          "etiqueta": "personas en el Shrine Bowl de Honolulú, 6 de diciembre de 1941: Hawái 20 – Willamette 6",
+          "icono": "🏈"
+        }
+      },
+      {
+        "dia": 26,
+        "texto": "Gus entra de guardia al amanecer, en la boca del puerto. Nos despedimos en la calle Jotel con un hasta el domingo que viene.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "palmera",
+              "x": -1.35
+            },
+            {
+              "tipo": "farola",
+              "x": -0.95
+            },
+            {
+              "tipo": "puesto",
+              "x": 1.1
+            },
+            {
+              "tipo": "casa",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tommy-blanco",
+            "x": 0.27,
+            "accion": "dar-mano",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "gus",
+            "x": -0.27,
+            "accion": "dar-mano",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 27,
+        "texto": "Domingo siete de diciembre, rutina de día festivo: diana más tarde, café, y se puede fumar en cubierta. Muchos se preparan para ir a misa.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "acorazado",
+              "x": -1.1,
+              "escala": 0.55,
+              "detras": true
+            },
+            {
+              "tipo": "acorazado",
+              "x": 1.15,
+              "escala": 0.45,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tommy",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "marinero",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1,
+            "objeto": "☕",
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 27,
+        "texto": "A las siete menos cuarto, en la boca del puerto, la guardia del Guord ve la torreta de un submarino enano que intenta colarse detrás de un barco.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barco",
+              "x": 1.15,
+              "escala": 0.45,
+              "detras": true
+            },
+            {
+              "tipo": "submarino",
+              "x": 0.45,
+              "escala": 0.35,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "gus-faena",
+            "x": 0.35,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 27,
+        "corte": true,
+        "texto": "El primer disparo pasa por encima; el segundo acierta en la torreta. Es el primer disparo estadounidense de la guerra del Pacífico. Su comandante, Uíliam Áuterbrich, avisa por radio, pero nadie da la alarma.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "destructor",
+              "x": -0.55,
+              "escala": 0.75,
+              "detras": true
+            },
+            {
+              "tipo": "submarino",
+              "x": 0.75,
+              "escala": 0.35,
+              "detras": true
+            },
+            {
+              "tipo": "barco",
+              "x": 1.4,
+              "escala": 0.35,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "general",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "6:45",
+          "etiqueta": "el USS Ward dispara contra un submarino enano: primer disparo estadounidense de la guerra del Pacífico",
+          "icono": "🎯"
+        }
+      },
+      {
+        "dia": 27,
+        "texto": "A las siete y dos, en Opána, Yorch Éliot y Yósef Lócard siguen con el radar encendido para practicar. En la pantalla aparece el eco más grande que han visto nunca.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "radar",
+              "x": -1.05
+            },
+            {
+              "tipo": "tienda",
+              "x": 1.15
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "elliott",
+            "x": 0.3,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "lockard",
+            "x": 0.75,
+            "accion": "asustado",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 27,
+        "texto": "Llaman al fuerte Sháfter. El teniente Quérmit Táiler espera bombarderos de California y les dice que no se preocupen. Con lo que sabía, era lo razonable.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "dia",
+          "pared": "madera",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.2
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.9
+            },
+            {
+              "tipo": "📜",
+              "x": 0.85,
+              "escala": 0.3
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tyler",
+            "x": 0.35,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "objeto": "📞",
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "53 min",
+          "etiqueta": "entre el primer eco en el radar de Opana (7:02) y las primeras bombas sobre los barcos (7:55)",
+          "icono": "📡"
+        }
+      },
+      {
+        "dia": 27,
+        "corte": true,
+        "texto": "A las siete y cuarenta, el comandante Mítsuo Fuchída llega a la costa norte con ciento ochenta y tres aviones, y transmite su clave: tóra, tóra, tóra, sorpresa conseguida.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "avion",
+              "x": -0.3
+            },
+            {
+              "tipo": "avion",
+              "x": 0.5
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "subir"
+      },
+      {
+        "dia": 27,
+        "texto": "A las siete y cincuenta y cinco estoy en cubierta, a popa. Oigo motores, muchos, y alguien dice que serán los nuestros, de prácticas.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "acorazado",
+              "x": -1.1,
+              "escala": 0.55,
+              "detras": true
+            },
+            {
+              "tipo": "avion",
+              "x": 0.4
+            },
+            {
+              "tipo": "avion",
+              "x": -0.6
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tommy",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 27,
+        "texto": "A las ocho en punto, la banda empieza el himno y la bandera sube. Por encima pasan aviones que no son nuestros. Según contaron después, la banda terminó el himno.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "bandera",
+              "x": -0.4
+            },
+            {
+              "tipo": "acorazado",
+              "x": 1.2,
+              "escala": 0.5,
+              "detras": true
+            },
+            {
+              "tipo": "avion",
+              "x": 0.3
+            },
+            {
+              "tipo": "avion",
+              "x": -1.0
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "musico",
+            "x": 0.1,
+            "accion": "cargar",
+            "emocion": "miedo",
+            "mirar": 1,
+            "objeto": "🎺",
+            "habla": false
+          },
+          {
+            "quien": "tommy",
+            "x": 0.6,
+            "accion": "saludar",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 27,
+        "texto": "Poco después, un destello blanco me ilumina la cara y la cubierta tiembla. Cuando me vuelvo, donde estaba el Arizona solo hay una columna de humo negro.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "ceniza",
+          "props": [
+            {
+              "tipo": "humo",
+              "x": -1.0,
+              "escala": 0.7,
+              "detras": true
+            },
+            {
+              "tipo": "acorazado",
+              "x": 1.2,
+              "escala": 0.45,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tommy",
+            "x": 0.45,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 27,
+        "corte": true,
+        "texto": "En el Arizona se quedaron mil ciento setenta y siete hombres. Entre ellos, los veintiún músicos que quince días antes habían ganado su semifinal.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "tommy",
+            "x": 0.45,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1.177",
+          "etiqueta": "hombres del USS Arizona no volvieron: casi la mitad de todos los muertos del ataque",
+          "icono": "🕯️"
+        }
+      },
+      {
+        "dia": 27,
+        "texto": "Yo no veo la guerra. Veo cajas de munición que pasan de mano en mano y la espalda del marinero de delante. Nadie grita, todos hacemos lo que hemos ensayado.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "dia",
+          "pared": "metal",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.15
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.25
+            },
+            {
+              "tipo": "cajas",
+              "x": -0.6
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "marinero",
+            "x": -0.35,
+            "accion": "cargar",
+            "emocion": "miedo",
+            "mirar": 1,
+            "objeto": "📦",
+            "habla": false
+          },
+          {
+            "quien": "tommy",
+            "x": 0.35,
+            "accion": "cargar",
+            "emocion": "miedo",
+            "mirar": -1,
+            "objeto": "📦",
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 27,
+        "texto": "En el Güest Virjínia, Dóris Míler ayuda a llevar a los heridos, y luego dispara una ametralladora que nunca le habían enseñado a usar, hasta que le ordenan dejar el puente.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "ceniza",
+          "props": [
+            {
+              "tipo": "acorazado",
+              "x": -1.1,
+              "escala": 0.55,
+              "detras": true
+            },
+            {
+              "tipo": "humo",
+              "x": -1.1,
+              "escala": 0.6,
+              "detras": true
+            },
+            {
+              "tipo": "acorazado",
+              "x": 1.2,
+              "escala": 0.45,
+              "detras": true
+            },
+            {
+              "tipo": "humo",
+              "x": 1.25,
+              "escala": 0.45,
+              "detras": true
+            },
+            {
+              "tipo": "avion",
+              "x": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "doris",
+            "x": 0.0,
+            "accion": "trabajar",
+            "emocion": "enfado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 27,
+        "texto": "Mientras, el Nevada hace algo que no consigue ningún otro acorazado aquel día: se pone en marcha y avanza despacio, entre el humo, hacia la boca del puerto.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "ceniza",
+          "props": [
+            {
+              "tipo": "humo",
+              "x": -1.3,
+              "escala": 0.7,
+              "detras": true
+            },
+            {
+              "tipo": "humo",
+              "x": 0.2,
+              "escala": 0.5,
+              "detras": true
+            },
+            {
+              "tipo": "humo",
+              "x": 1.35,
+              "escala": 0.55,
+              "detras": true
+            },
+            {
+              "tipo": "avion",
+              "x": -0.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tommy",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "contramaestre",
+            "x": -0.4,
+            "accion": "senalar",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 27,
+        "corte": true,
+        "texto": "A las nueve menos seis llega la segunda oleada. Para no hundirse en el canal y taponar el puerto, los oficiales varan el Nevada a propósito.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "tommy",
+            "x": 0.4,
+            "accion": "agachado",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "contramaestre",
+            "x": -0.4,
+            "accion": "agachado",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 27,
+        "texto": "Hacia las diez se van los últimos aviones. Queda el silencio, el humo negro y las lanchas que sacan a los hombres del agua.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "ceniza",
+          "props": [
+            {
+              "tipo": "humo",
+              "x": -1.2,
+              "escala": 0.6,
+              "detras": true
+            },
+            {
+              "tipo": "humo",
+              "x": 1.3,
+              "escala": 0.5,
+              "detras": true
+            },
+            {
+              "tipo": "bote",
+              "x": 0.1,
+              "escala": 0.6
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tommy",
+            "x": 0.5,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 27,
+        "texto": "Japón perdió aquel día sesenta y cuatro hombres. Sus pilotos tenían más o menos mi edad, y también cumplían órdenes.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "tommy",
+            "x": 0.5,
+            "accion": "pensar",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "64",
+          "etiqueta": "japoneses muertos; 29 aviones y 5 submarinos enanos perdidos; un prisionero",
+          "icono": "🕯️"
+        }
+      },
+      {
+        "dia": 27,
+        "texto": "Esa noche la isla queda a oscuras, bajo ley marcial. En Honolulú murieron decenas de civiles, la mayoría por proyectiles antiaéreos nuestros que cayeron sobre la ciudad.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "noche",
+          "clima": "ceniza",
+          "props": [
+            {
+              "tipo": "acorazado",
+              "x": -1.1,
+              "escala": 0.55,
+              "detras": true
+            },
+            {
+              "tipo": "humo",
+              "x": -1.15,
+              "escala": 0.45,
+              "detras": true
+            },
+            {
+              "tipo": "humo",
+              "x": 1.3,
+              "escala": 0.4,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tommy",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 28,
+        "corte": true,
+        "texto": "El lunes, el presidente Rúsvelt llama al siete de diciembre una fecha que vivirá en la infamia, y Estados Unidos entra en la guerra.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "dia",
+          "pared": "metal",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.15
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.25
+            },
+            {
+              "tipo": "radio",
+              "x": 0.95,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tommy",
+            "x": 0.3,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "marinero",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Ayer, 7 de diciembre de 1941, una fecha que vivirá en la infamia…",
+          "firma": "Franklin D. Roosevelt ante el Congreso, 8 de diciembre de 1941"
+        }
+      },
+      {
+        "dia": 28,
+        "texto": "Paso el día preguntando por el Guord a todo el que pasa. Nadie sabe nada. Esa noche escribo a casa con letras grandes: estoy vivo, mamá.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "metal",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.15
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.25
+            },
+            {
+              "tipo": "✉️",
+              "x": 1.05,
+              "escala": 0.28
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tommy",
+            "x": 0.3,
+            "accion": "escribir",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 30,
+        "texto": "El miércoles diez, en el muelle, alguien me da una palmada en la espalda. Es Gus, flaco y sin dormir. Nos abrazamos sin decir nada.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "destructor",
+              "x": -0.9,
+              "escala": 0.6,
+              "detras": true
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.2
+            },
+            {
+              "tipo": "barril",
+              "x": 1.45
+            },
+            {
+              "tipo": "humo",
+              "x": 1.3,
+              "escala": 0.35,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tommy",
+            "x": 0.27,
+            "accion": "dar-mano",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "gus-faena",
+            "x": -0.27,
+            "accion": "dar-mano",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 30,
+        "texto": "Me cuenta lo del submarino y la alarma que nadie dio. Para entonces, la guerra ya ha llegado a Filipinas, a Malasia y a Hong Kong.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "tommy",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "gus-faena",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "corte": true,
+        "texto": "El Nevada salió del barro en febrero de mil novecientos cuarenta y dos, y en junio de mil novecientos cuarenta y cuatro sus cañones dispararon en Normandía.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "acorazado",
+              "x": -1.1,
+              "escala": 0.55,
+              "detras": true
+            },
+            {
+              "tipo": "acorazado",
+              "x": 1.15,
+              "escala": 0.45,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tommy",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1944",
+          "etiqueta": "el USS Nevada, reflotado y reparado, dispara en el desembarco de Normandía",
+          "icono": "⚓"
+        }
+      },
+      {
+        "texto": "Durante años se dijo que en Washington lo sabían y lo dejaron pasar. Las investigaciones no encontraron ninguna prueba: hubo avisos que nadie supo unir.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "dia",
+          "pared": "madera",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.2
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.9
+            },
+            {
+              "tipo": "📜",
+              "x": 0.85,
+              "escala": 0.3
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Y no hay prueba de que Yamamóto hablara de despertar a un gigante dormido: esa frase viene de una película de mil novecientos setenta.",
+        "drama": 0.55,
+        "camara": "lenta"
+      },
+      {
+        "texto": "La final de la Batalla de la Música nunca se celebró. Las demás bandas le dieron el trofeo a la del Arizona, y lleva grabados sus veintiún nombres.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "madera",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "bandera",
+              "x": -1.25
+            },
+            {
+              "tipo": "🎵",
+              "x": 1.2,
+              "escala": 0.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "musico2",
+            "x": -0.3,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": 1,
+            "objeto": "🥁",
+            "habla": false
+          },
+          {
+            "quien": "tommy-blanco",
+            "x": 0.4,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "El Trofeo Arizona",
+          "items": [
+            {
+              "icono": "🏆",
+              "nombre": "Trofeo de la Batalla de la Música"
+            },
+            {
+              "icono": "🎺",
+              "nombre": "21 nombres de la banda del Arizona"
+            }
+          ]
+        }
+      },
+      {
+        "corte": true,
+        "texto": "Dóris Míler fue el primer afroamericano condecorado con la Cruz de la Armada. Murió en mil novecientos cuarenta y tres, y un portaaviones llevará su nombre.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "dia",
+          "pared": "metal",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": -1.0
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.1
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "doris",
+            "x": 0.0,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "27 mayo 1942",
+          "etiqueta": "Doris Miller recibe la Cruz de la Armada de manos del almirante Nimitz",
+          "icono": "🎖️"
+        }
+      },
+      {
+        "texto": "El Guord se hundió el siete de diciembre de mil novecientos cuarenta y cuatro, tres años exactos después de su primer disparo.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "destructor",
+              "x": -0.55,
+              "escala": 0.75,
+              "detras": true
+            },
+            {
+              "tipo": "submarino",
+              "x": 0.75,
+              "escala": 0.35,
+              "detras": true
+            },
+            {
+              "tipo": "barco",
+              "x": 1.4,
+              "escala": 0.35,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "texto": "Aquel domingo murieron dos mil cuatrocientos tres estadounidenses. El Arizona sigue en el fondo del puerto, con buena parte de su tripulación dentro.",
+        "drama": 0.45,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "bandera",
+              "x": -1.2
+            },
+            {
+              "tipo": "acorazado",
+              "x": 1.15,
+              "escala": 0.45,
+              "detras": true
+            },
+            {
+              "tipo": "🌺",
+              "x": -0.6,
+              "escala": 0.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tommy-blanco",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "2.403",
+          "etiqueta": "estadounidenses muertos: 2.008 de la Marina, 218 del Ejército, 109 marines y 68 civiles. 1.178 heridos",
+          "icono": "🕯️"
+        }
+      },
+      {
+        "texto": "Una aclaración antes de despedirme: Tómi Baca, su familia y Gus Líndquist son inventados. El Nevada, el Guord, Opána, la banda del Arizona, Dóris Míler, Lócard, Éliot, Táiler y Áuterbrich son reales.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "tommy-blanco",
+            "x": 0.4,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "gus",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Y tú, ¿qué habrías hecho aquella mañana de domingo? Cuéntamelo en los comentarios, y suscríbete para vivir el próximo mes en la piel de otra persona.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "tommy-blanco",
+            "x": 0.4,
+            "accion": "saludar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "gus",
+            "x": -0.4,
+            "accion": "saludar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      }
+    ]
+  },
+  "publicacion": {
+    "tituloLargo": "Un mes en la vida de UN MARINERO EN PEARL HARBOR | Hawái, 1941",
+    "tituloCorto": "Pearl Harbor, 1941",
+    "tituloShort": "A las 8:00 en punto, la banda tocaba el himno",
+    "capituloInicial": "El domingo a las ocho",
+    "descripcion": "Treinta días en la vida de Tomás «Tommy» Baca, 19 años, hispano de Nuevo México y marinero de segunda en el acorazado USS Nevada, amarrado en Battleship Row, en Pearl Harbor (Oahu, Territorio de Hawái), del 11 de noviembre al 10 de diciembre de 1941: la paga de 36 dólares, el baldeo de cubierta, los permisos en Hotel Street, la Batalla de la Música en Bloch Arena, la alerta de guerra del 27 de noviembre que no nombraba Hawái y el domingo 7 de diciembre: el disparo del destructor USS Ward a las 6:45, el eco del radar de Opana a las 7:02, la banda del Nevada tocando el himno a las 8:00 y el único acorazado que logró ponerse en marcha. Sin escenas gráficas, en memoria de las 2.403 víctimas estadounidenses, y contando también las 64 japonesas.\n\n— Semana 1: Rutina en el paraíso\n— Semana 2: La batalla de la música\n— Semana 3: Alerta de guerra\n— Semana 4: El domingo\n— Epílogo: el Nevada en Normandía, el Trofeo Arizona, Doris Miller, el Ward hundido el 7 de diciembre de 1944 y el Arizona, que sigue en el fondo del puerto\n\nQué es inventado y qué es real: Tommy Baca, su familia y su amigo Gus Lindqvist son INVENTADOS, igual que lo que piensan y viven. Son reales el USS Nevada y su banda, el USS Arizona y los 21 músicos de su banda, las 37 parejas de hermanos del Arizona, el USS Ward y su comandante William W. Outerbridge, los soldados Joseph Lockard y George Elliott en el radar de Opana, el teniente Kermit Tyler, Doris Miller, el espía Takeo Yoshikawa, la alerta del almirante Stark al almirante Kimmel, la salida del Enterprise y del Lexington y todas las cifras del vídeo. Las personas reales aparecen solo con hechos documentados.\n\nDos mitos que el vídeo descarta: no hay ninguna prueba de que Roosevelt supiera del ataque y lo dejara pasar (las investigaciones de 1942–1946 no la encontraron), y la frase del «gigante dormido» atribuida a Yamamoto procede de la película «Tora! Tora! Tora!» (1970). Detalles discutidos se cuentan como tales: si la banda del Nevada terminó el himno (según Walter Lord, sí) o la cifra exacta de civiles muertos en Honolulú.\n\nFuentes: National Park Service (Pearl Harbor National Memorial: cronología minuto a minuto, Opana, Battleship Row, hermanos del USS Arizona, víctimas civiles y militares); Naval History and Heritage Command (H-Gram 001, informes del USS Ward y del USS Vestal, biografías de Doris Miller y Mervyn Bennion, uniformes de 1941); The National WWII Museum («Routine in Paradise», Kermit Tyler, hoja de datos de víctimas); USS Arizona Memorial Association (la banda del Arizona); U.S. Pacific Fleet Band (Battle of Music); Pearl Harbor Attack Hearings (la alerta de guerra del 27 de noviembre); Archivos Nacionales (DocsTeach); Foreign Relations of the United States 1941; JACAR (Archivo de Historia Asiática de Japón); Smithsonian; Encyclopaedia Britannica; Densho Encyclopedia; ECU Digital Collections (Historical Sketch of USS Nevada); Estado de Minnesota (cañón del USS Ward); Walter Lord, «Day of Infamy» (1957); Gordon W. Prange, «At Dawn We Slept» (1981).",
+    "etiquetas": [
+      "un mes en la vida de",
+      "Pearl Harbor",
+      "1941",
+      "7 de diciembre",
+      "Segunda Guerra Mundial",
+      "USS Nevada",
+      "USS Arizona",
+      "USS Ward",
+      "radar de Opana",
+      "Doris Miller",
+      "Hawái",
+      "guerra del Pacífico",
+      "historia",
+      "animación"
+    ],
+    "miniatura": {
+      "texto": "8:00 EN PUNTO",
+      "escena": 0,
+      "quien": "tommy",
+      "emocion": "sorpresa",
+      "icono": "⚓"
+    },
+    "shorts": [
+      {
+        "titulo": "La guerra empezó una hora antes y nadie lo sabía",
+        "descripcion": "Pearl Harbor, 7 de diciembre de 1941: la banda del USS Nevada iza la bandera a las 8:00. #shorts #historia #pearlharbor"
+      },
+      {
+        "titulo": "36 dólares al mes por vivir en el paraíso",
+        "descripcion": "La paga de un marinero de segunda en Hawái en 1941… y el espía que apuntaba cada barco. #shorts #historia"
+      },
+      {
+        "titulo": "La calle de los gorros blancos",
+        "descripcion": "Un permiso en Hotel Street, Honolulú, en noviembre de 1941. #shorts #pearlharbor"
+      },
+      {
+        "titulo": "«Si estalla algo, será lejos»",
+        "descripcion": "Japón, el petróleo y lo que se decía en la cubierta de un acorazado en 1941. #shorts #segundaguerramundial"
+      },
+      {
+        "titulo": "La banda que nunca tocó su final",
+        "descripcion": "Los 21 músicos del USS Arizona y las 37 parejas de hermanos. #shorts #pearlharbor"
+      },
+      {
+        "titulo": "Seis portaaviones en silencio de radio",
+        "descripcion": "26 de noviembre de 1941: la flota japonesa sale de las Kuriles. Y la alerta de guerra que no nombraba Hawái. #shorts #historia"
+      },
+      {
+        "titulo": "El radar que vigilaba de cuatro a siete",
+        "descripcion": "Opana, el Enterprise y la semana en que se decidió la guerra. #shorts #pearlharbor"
+      },
+      {
+        "titulo": "El último sábado de paz",
+        "descripcion": "6 de diciembre de 1941 en Honolulú… y un submarino enano en la boca del puerto. #shorts #historia"
+      },
+      {
+        "titulo": "El primer disparo de la guerra del Pacífico",
+        "descripcion": "6:45, el USS Ward. 7:02, el radar de Opana. Nadie dio la alarma. #shorts #pearlharbor"
+      },
+      {
+        "titulo": "A las 8:00 la banda siguió tocando",
+        "descripcion": "Tora, tora, tora y el himno del USS Nevada. Sin escenas gráficas. #shorts #historia"
+      },
+      {
+        "titulo": "1.177 hombres del Arizona",
+        "descripcion": "Los músicos, los hermanos y Doris Miller, el camarero al que nunca enseñaron a disparar. #shorts #pearlharbor"
+      },
+      {
+        "titulo": "El único acorazado que logró moverse",
+        "descripcion": "El USS Nevada, la segunda oleada y el silencio. También los 64 japoneses que no volvieron. #shorts #historia"
+      },
+      {
+        "titulo": "«Una fecha que vivirá en la infamia»",
+        "descripcion": "8–10 de diciembre de 1941: buscar a un amigo en un puerto en llamas. #shorts #pearlharbor"
+      },
+      {
+        "titulo": "¿Sabía Roosevelt lo de Pearl Harbor?",
+        "descripcion": "Lo que encontraron las investigaciones, y la frase del «gigante dormido» que Yamamoto nunca dijo. #shorts #historia"
+      },
+      {
+        "titulo": "¿Qué es real en esta historia?",
+        "descripcion": "Tommy y Gus son inventados. El Nevada, el Ward, Opana y Doris Miller, no. #shorts #pearlharbor"
+      }
+    ]
+  },
+  "grafias": {
+    "Tómi": "Tommy",
+    "Perl": "Pearl",
+    "Járbor": "Harbor",
+    "Oajú": "Oahu",
+    "Uaiquiquí": "Waikiki",
+    "Líndquist": "Lindqvist",
+    "Minesóta": "Minnesota",
+    "Guord": "Ward",
+    "Jotel": "Hotel",
+    "Bloc": "Bloch",
+    "Yoshicáwa": "Yoshikawa",
+    "Güest": "West",
+    "Virjínia": "Virginia",
+    "Dóris": "Doris",
+    "Míler": "Miller",
+    "Yamamóto": "Yamamoto",
+    "Químel": "Kimmel",
+    "Opána": "Opana",
+    "Énterprais": "Enterprise",
+    "Uéic": "Wake",
+    "Oclajoma": "Oklahoma",
+    "Uíliam": "William",
+    "Áuterbrich": "Outerbridge",
+    "Yósef": "Joseph",
+    "Lócard": "Lockard",
+    "Yorch": "George",
+    "Éliot": "Elliott",
+    "Sháfter": "Shafter",
+    "Quérmit": "Kermit",
+    "Táiler": "Tyler",
+    "Mítsuo": "Mitsuo",
+    "Fuchída": "Fuchida",
+    "tóra": "tora",
+    "Rúsvelt": "Roosevelt"
+  }
+}

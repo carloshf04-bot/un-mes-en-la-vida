@@ -564,7 +564,7 @@
       },
       {
         "dia": 3,
-        "texto": "Cada noche, un hombre vela junto a la luz, y dormirse de guardia es la peor falta de un farero. En pleno diciembre, la lámpara arde desde antes de las cuatro de la tarde hasta bien entrada la mañana.",
+        "texto": "Cada noche, un hombre vela junto a la luz, y dormirse de guardia es la peor falta de un farero. En diciembre, la lámpara arde casi toda la tarde y toda la noche.",
         "drama": 0.55,
         "fondo": {
           "lugar": "interior",
@@ -647,7 +647,7 @@
       },
       {
         "dia": 4,
-        "texto": "El jueves trece de diciembre, alguien apunta en el libro de registro el tiempo y el viento del día. Es la última fecha de ese libro: lo demás se apunta con tiza en una pizarra.",
+        "texto": "El jueves trece de diciembre, alguien apunta en el libro de registro el tiempo y el viento. Es la última fecha de ese libro: lo demás va con tiza a una pizarra.",
         "drama": 0.75,
         "fondo": {
           "lugar": "interior",
@@ -2126,11 +2126,72 @@
     ],
     "miniatura": {
       "texto": "NADIE EN EL FARO",
-      "escena": 30,
+      "escena": 26,
       "quien": "angus",
       "emocion": "miedo",
       "prop": "faro-apagado"
     },
-    "shorts": []
+    "shorts": [
+      {
+        "titulo": "El faro donde no quedaba nadie",
+        "descripcion": "26 de diciembre de 1900: el relevo llega al faro de las islas Flannan y nadie sale a recibirlo. Narrador inventado, hechos reales. #shorts #misterio #historia"
+      },
+      {
+        "titulo": "Tres hombres y un faro en mitad del Atlántico",
+        "descripcion": "Eilean Mòr, islas Flannan: un faro con apenas un año y tres fareros, Ducat, Marshall y MacArthur. #shorts #faros #escocia"
+      },
+      {
+        "titulo": "Así vivía un farero escocés en 1900",
+        "descripcion": "La lente, las mechas, la guardia nocturna y la última fecha del libro de registro: 13 de diciembre. #shorts #historia #faros"
+      },
+      {
+        "titulo": "La última nota de la pizarra",
+        "descripcion": "15 de diciembre de 1900, 9 de la mañana. Esa noche, el vapor Archtor no vio la luz del faro. #shorts #misterio #flannan"
+      },
+      {
+        "titulo": "Once noches con el faro apagado",
+        "descripcion": "Sin telégrafo en la isla, nadie en tierra supo que el faro de las Flannan se había apagado. #shorts #misterio #historia"
+      },
+      {
+        "titulo": "El relevo que el mar no dejó salir",
+        "descripcion": "20 de diciembre de 1900: el temporal retiene al Hesperus en Lewis mientras las familias esperan. #shorts #historia #mar"
+      },
+      {
+        "titulo": "Nadie en el embarcadero",
+        "descripcion": "Sirena, cohete de señales y silencio: así llegó el relevo al faro de Eilean Mòr. #shorts #misterio #flannan"
+      },
+      {
+        "titulo": "Un reloj parado y la ceniza fría",
+        "descripcion": "Lo que Joseph Moore encontró en el faro según su carta: la puerta cerrada, el fuego apagado, la cocina limpia. #shorts #misterio #historia"
+      },
+      {
+        "titulo": "El impermeable que seguía colgado",
+        "descripcion": "MacArthur salió sin su impermeable. ¿Por qué tanta prisa? La búsqueda por toda la isla. #shorts #misterio #faros"
+      },
+      {
+        "titulo": "Ha ocurrido un terrible accidente",
+        "descripcion": "El telegrama del capitán Harvie y la llegada del superintendente Robert Muirhead. #shorts #historia #misterio"
+      },
+      {
+        "titulo": "Una caja arrancada a 33 metros sobre el mar",
+        "descripcion": "Lo que Muirhead encontró en el embarcadero oeste y el Hogmanay más triste de Lewis. #shorts #misterio #escocia"
+      },
+      {
+        "titulo": "La explicación oficial: una ola",
+        "descripcion": "8 de enero de 1901: el informe de Muirhead. Una deducción, no un testimonio. #shorts #historia #misterio"
+      },
+      {
+        "titulo": "La comida sin tocar nunca existió",
+        "descripcion": "La mesa servida y la silla volcada salen de un poema de 1912, no de los documentos. #shorts #mitos #flannan"
+      },
+      {
+        "titulo": "El diario falso de los fareros",
+        "descripcion": "Las anotaciones que todo el mundo cita aparecieron en 1965. En el registro real no hay ninguna. #shorts #mitos #misterio"
+      },
+      {
+        "titulo": "Nunca se encontró a ninguno de los tres",
+        "descripcion": "Pensiones, la automatización de 1971 y un memorial en Breasclete. Angus es inventado; los fareros, no. #shorts #historia #memoria"
+      }
+    ]
   }
 }
