@@ -304,7 +304,7 @@
     "escenas": [
       {
         "corte": true,
-        "texto": "El veintiséis de diciembre de mil novecientos llegamos con el relevo a un faro en mitad del Atlántico. No había nadie esperándonos, y a sus tres fareros nunca se les volvió a ver.",
+        "texto": "El veintiséis de diciembre de mil novecientos llegamos con el relevo a un faro en pleno Atlántico, frente a Escocia. No había nadie esperándonos, y a sus tres fareros nunca se les volvió a ver.",
         "drama": 0.85,
         "fondo": {
           "lugar": "mar",
@@ -364,7 +364,7 @@
         "camara": "cerca"
       },
       {
-        "texto": "Yo no existí, y lo que pienso es imaginado. Pero el faro, los barcos, los nombres y las fechas de esta historia son reales.",
+        "texto": "Yo no existí, y lo que pienso es imaginado. Pero el faro, los barcos, los nombres y las fechas principales de esta historia son reales.",
         "drama": 0.55,
         "personajes": [
           {
@@ -378,7 +378,7 @@
         "camara": "cerca"
       },
       {
-        "texto": "Y casi todo lo que has oído de este caso, la mesa servida, la silla volcada, el diario lleno de miedo, se inventó después. Hoy separamos lo que consta de lo que no.",
+        "texto": "Y casi todo lo que has oído de este caso, la mesa servida, la silla volcada, el diario lleno de miedo, se inventó después.",
         "drama": 0.7,
         "fondo": {
           "lugar": "mar",
@@ -500,7 +500,7 @@
         "personajes": [
           {
             "quien": "ducat",
-            "x": -0.3,
+            "x": -0.7,
             "accion": "quieto",
             "emocion": "neutral",
             "mirar": 1,
@@ -508,7 +508,7 @@
           },
           {
             "quien": "marshall",
-            "x": 0.3,
+            "x": 0.0,
             "accion": "quieto",
             "emocion": "neutral",
             "mirar": -1,
@@ -516,7 +516,7 @@
           },
           {
             "quien": "macarthur",
-            "x": 0.85,
+            "x": 0.7,
             "accion": "quieto",
             "emocion": "neutral",
             "mirar": -1,
@@ -564,7 +564,7 @@
       },
       {
         "dia": 3,
-        "texto": "Cada noche, un hombre vela junto a la luz, y dormirse de guardia es la peor falta de un farero. En diciembre, la lámpara arde casi toda la tarde y toda la noche.",
+        "texto": "Cada noche, un hombre vela junto a la luz, y dormirse de guardia es la peor falta de un farero.",
         "drama": 0.55,
         "fondo": {
           "lugar": "interior",
@@ -606,7 +606,7 @@
       },
       {
         "dia": 3,
-        "texto": "Las familias de los fareros viven en Brésclet, en la costa de Lúis. Desde allí, la única señal de que todo va bien es ver la luz cada noche.",
+        "texto": "Las familias de los fareros viven en Brésclet, en la costa de Lúis. Desde allí, la única señal de que todo va bien es ver la luz, las noches que se ve.",
         "drama": 0.6,
         "fondo": {
           "lugar": "playa",
@@ -680,7 +680,7 @@
       {
         "dia": 6,
         "corte": true,
-        "texto": "La última nota de esa pizarra es del sábado quince, hacia las nueve de la mañana. Solo habla del tiempo, sin nada raro.",
+        "texto": "La última nota de la pizarra del faro es del sábado quince, hacia las nueve de la mañana. Solo habla del tiempo, sin nada raro.",
         "drama": 0.75,
         "camara": "lenta",
         "insercion": {
@@ -834,7 +834,7 @@
       },
       {
         "dia": 9,
-        "texto": "Imagino que en Brésclet alguien mira hacia el oeste buscando la luz y piensa que la tapa la bruma. A nadie se le ocurre otra cosa.",
+        "texto": "Imagino que en Brésclet alguien mira hacia el oeste buscando la luz y piensa que la tapa la bruma.",
         "drama": 0.7,
         "fondo": {
           "lugar": "playa",
@@ -1035,7 +1035,7 @@
         "dia": 15,
         "capitulo": "La verja cerrada",
         "corte": true,
-        "texto": "El lunes veinticuatro seguimos esperando a que el mar nos deje salir. Al día siguiente es Navidad, que en mi isla apenas se celebra: la fiesta grande aquí es Jógmanei, la Nochevieja.",
+        "texto": "El lunes veinticuatro el mar sigue sin dejarnos llegar a las Flánan. Al día siguiente es Navidad, que en mi isla apenas se celebra: la fiesta grande aquí es Jógmanei, la Nochevieja.",
         "drama": 0.6,
         "fondo": {
           "lugar": "mar",
@@ -1058,7 +1058,7 @@
         },
         "personajes": [
           {
-            "quien": "angus",
+            "quien": "angushule",
             "x": 0.3,
             "accion": "cargar",
             "emocion": "cansado",
@@ -1101,7 +1101,7 @@
       },
       {
         "dia": 17,
-        "texto": "Pero allí no hay nadie. Ni una señal, ni las cajas vacías que siempre se devuelven a bordo. En un día de relevo, eso no pasa nunca.",
+        "texto": "Pero allí no hay nadie. Ni una señal, ni las cajas vacías que siempre se devuelven a bordo.",
         "drama": 0.85,
         "personajes": [
           {
@@ -1162,7 +1162,7 @@
       {
         "dia": 17,
         "corte": true,
-        "texto": "Entonces el capitán manda un bote a tierra con Yósef Mur. Solo sube él, y desde la borda lo veo trepar por los escalones de la roca hasta perderlo de vista.",
+        "texto": "El capitán Járvi manda un bote a tierra con Yósef Mur. Solo sube él, y desde la borda lo veo trepar por los escalones de la roca hasta perderlo de vista.",
         "drama": 0.85,
         "fondo": {
           "lugar": "isla",
@@ -1264,7 +1264,7 @@
       {
         "dia": 17,
         "corte": true,
-        "texto": "Según Mur, esos impermeables solo se usaban para bajar a los embarcaderos, y Macártur no tenía otro abrigo. Si salió sin él, debió de salir con prisa, en mangas de camisa.",
+        "texto": "Según Yósef Mur, los impermeables de hule solo se usaban para bajar a los embarcaderos, y Macártur no tenía otro abrigo. Miúrjed pensó que salió con prisa, en mangas de camisa.",
         "drama": 0.85,
         "personajes": [
           {
@@ -1338,7 +1338,7 @@
       },
       {
         "dia": 17,
-        "texto": "Buscan en la capilla en ruinas de San Flánan, en los acantilados y en los dos embarcaderos. No encuentran ni rastro de los tres hombres.",
+        "texto": "Buscan por toda la isla, hasta en la capilla en ruinas de San Flánan. No encuentran ni rastro de los tres hombres.",
         "drama": 0.85,
         "fondo": {
           "lugar": "isla",
@@ -1462,7 +1462,7 @@
       },
       {
         "dia": 19,
-        "texto": "El viernes veintiocho, en la isla, Yósef Mur escribe su carta a la Junta. Por ella sabemos lo del reloj, el fuego y el impermeable, sin adornos.",
+        "texto": "El viernes veintiocho, en la isla, Yósef Mur escribe su carta a la Junta.",
         "drama": 0.7,
         "fondo": {
           "lugar": "interior",
@@ -1471,7 +1471,7 @@
           "ventana": true,
           "props": [
             {
-              "tipo": "chimenea-apagada",
+              "tipo": "chimenea",
               "x": -1.15
             },
             {
@@ -1479,7 +1479,12 @@
               "x": 0.0
             },
             {
-              "tipo": "reloj-parado",
+              "tipo": "🕯️",
+              "x": 0.1,
+              "escala": 0.3
+            },
+            {
+              "tipo": "reloj",
               "x": 1.2
             },
             {
@@ -1572,7 +1577,7 @@
       {
         "dia": 20,
         "corte": true,
-        "texto": "Una caja de madera para cabos, guardada en una grieta a unos treinta y tres metros sobre el mar, ha desaparecido. Y aún más arriba, a más de sesenta, hay hierba arrancada.",
+        "texto": "Una caja de madera para cabos, guardada en una grieta a unos treinta y tres metros sobre el mar, ha desaparecido. Y dicen que aún más arriba, a más de sesenta, había hierba arrancada.",
         "drama": 0.85,
         "personajes": [
           {
@@ -1594,7 +1599,7 @@
       },
       {
         "dia": 21,
-        "texto": "De vuelta en Lúis, Miúrjed hace lo más difícil: visita a la viuda de Diúcat y a la de Macártur. Tómas Márshal estaba soltero; lo lloran su padre y sus hermanos.",
+        "texto": "De vuelta en Lúis, Miúrjed hace lo más difícil: visita en persona a la viuda de Diúcat y a la de Macártur. Tómas Márshal estaba soltero; lo lloran su padre y sus hermanos.",
         "drama": 0.65,
         "fondo": {
           "lugar": "playa",
@@ -1680,7 +1685,7 @@
       {
         "dia": 30,
         "corte": true,
-        "texto": "El martes ocho de enero, Miúrjed firma su informe. Tras examinar el embarcadero, los cabos y las barandillas, escribe que es de la opinión de que la explicación más probable es una ola.",
+        "texto": "El martes ocho de enero, Miúrjed firma su informe. Tras examinar el embarcadero, los cabos y las barandillas, escribe que, en su opinión, lo más probable es que fuera una ola.",
         "drama": 0.75,
         "fondo": {
           "lugar": "interior",
@@ -1751,7 +1756,7 @@
       },
       {
         "dia": 30,
-        "texto": "Esto es lo que consta, pero es una deducción, no un testimonio: nadie vio esa ola. Lo que sí explica es la caja arrancada, las barandillas dobladas y la hierba levantada.",
+        "texto": "Es la conclusión oficial, pero es una deducción, no un testimonio: nadie vio esa ola. Lo que sí explica es la caja arrancada, las barandillas dobladas y la hierba levantada.",
         "drama": 0.75,
         "fondo": {
           "lugar": "isla",
@@ -1771,7 +1776,7 @@
       {
         "dia": 30,
         "corte": true,
-        "texto": "Hay además una variante razonable. Diúcat y Márshal bajan, algo va mal, y Macártur corre a ayudarlos sin coger el impermeable. Así se entiende que el suyo siguiera colgado.",
+        "texto": "La ola no es la única explicación razonable. Diúcat y Márshal bajan, algo va mal, y Macártur corre a ayudarlos sin coger el impermeable. Así se entiende que el suyo siguiera colgado.",
         "drama": 0.8,
         "fondo": {
           "lugar": "isla",
@@ -1823,7 +1828,7 @@
         "camara": "subir"
       },
       {
-        "texto": "Los fantasmas no salen de los papeles. La mesa servida, la silla volcada y los pájaros negros vienen de una balada de mil novecientos doce, del poeta Uílfrid Guíbson.",
+        "texto": "Lo sobrenatural no sale de los documentos. La mesa servida, la silla volcada y los pájaros negros vienen de una balada de mil novecientos doce, del poeta Uílfrid Guíbson.",
         "drama": 0.7,
         "fondo": {
           "lugar": "interior",
@@ -1864,7 +1869,7 @@
         "camara": "cerca"
       },
       {
-        "texto": "Mur escribió que la cocina estaba limpia y recogida. La comida sin tocar es poesía, no historia, aunque desde entonces todo el mundo la repite.",
+        "texto": "Mur escribió que la cocina estaba limpia y recogida. La comida sin tocar es poesía, no historia.",
         "drama": 0.7,
         "fondo": {
           "lugar": "interior",
@@ -1895,7 +1900,7 @@
       },
       {
         "corte": true,
-        "texto": "Peor es lo del diario. En mil novecientos sesenta y cinco, el escritor Vínsent Gádis publica unas anotaciones atribuidas a Márshal: una tormenta nunca vista, un compañero que llora, otro que reza.",
+        "texto": "Y luego está el famoso diario de los fareros. En mil novecientos sesenta y cinco, Vínsent Gádis publica unas anotaciones que atribuye a Márshal, quizá copiadas de una revista de mil novecientos veintinueve, con tormentas nunca vistas, llantos y oraciones.",
         "drama": 0.75,
         "fondo": {
           "lugar": "interior",
@@ -1937,7 +1942,7 @@
         "insercion": {
           "tipo": "dato",
           "valor": "1965",
-          "etiqueta": "primera vez que se imprimen las falsas anotaciones del diario, 65 años después",
+          "etiqueta": "primera aparición impresa confirmada de las falsas anotaciones",
           "icono": "📖"
         }
       },
@@ -2106,10 +2111,10 @@
     ]
   },
   "publicacion": {
-    "tituloLargo": "Un mes en la vida de UN MARINERO DEL HESPERUS (Escocia, 1900) | Los fareros desaparecidos de las islas Flannan",
+    "tituloLargo": "Un mes en la vida de UN MARINERO DEL HESPERUS | Los fareros desaparecidos de Flannan (1900)",
     "tituloCorto": "El faro vacío de las islas Flannan",
     "capituloInicial": "El faro vacío",
-    "descripcion": "Treinta días a bordo del Hesperus, el buque de la Junta de los Faros del Norte (Northern Lighthouse Board), del 10 de diciembre de 1900 al 8 de enero de 1901: el faro nuevo de Eilean Mòr, en las islas Flannan (Hébridas Exteriores, Escocia), la última anotación de la pizarra el 15 de diciembre, las once noches con la luz apagada, el temporal que retrasó el relevo y el 26 de diciembre, cuando Joseph Moore subió solo a la isla y no encontró a nadie. Un reloj parado, la lámpara lista, un impermeable colgado, el embarcadero oeste destrozado y la conclusión del superintendente Robert Muirhead.\n\n— Semana 1: La luz de los Siete Cazadores\n— Semana 2: El relevo que no salió\n— Semana 3: La verja cerrada\n— Semana 4: La ola\n— Epílogo: pensiones, el poema de 1912, las falsas anotaciones de 1965 y la automatización de 1971\n\nQué es documentado, qué es razonable y qué es inventado:\n· DOCUMENTADO (telegrama del capitán Harvie, carta de Joseph Moore del 28 de diciembre e informe de Robert Muirhead del 8 de enero de 1901): el registro hasta el 13 de diciembre y la pizarra hasta las 9 de la mañana del 15; la lámpara limpia y lista; el faro apagado esa noche (lo vio el vapor Archtor); el relevo previsto el 20 y retrasado por el temporal; la verja y la puerta cerradas, el reloj parado, el fuego frío, la cocina limpia; las botas de agua y los impermeables de Ducat y Marshall desaparecidos y el de MacArthur colgado; las barandillas arrancadas y la caja de cabos desaparecida en el embarcadero oeste. La explicación oficial (una ola inesperadamente grande en el embarcadero oeste) es una deducción de Muirhead: nadie la vio.\n· RAZONABLE, NO DEMOSTRADO: que dos bajaran al embarcadero y el tercero saliera corriendo a ayudarlos; que el agua subiera de golpe por la grieta de la roca.\n· INVENTADO DESPUÉS: la comida sin tocar, la silla volcada y los pájaros negros (balada \"Flannan Isle\" de Wilfrid Wilson Gibson, 1912) y las anotaciones del diario sobre tormentas, llantos y oraciones (publicadas por Vincent Gaddis en 1965; no existen en los registros). Tampoco hubo \"calma\": hubo temporal.\n\nAVISO: el narrador, Angus, marinero del Hesperus, es un personaje INVENTADO y no sustituye a ningún tripulante real; sus pensamientos y su familia son imaginados. James Ducat, Thomas Marshall, Donald MacArthur, William Ross, Joseph Moore, el capitán James Harvie y Robert Muirhead son reales, igual que las fechas. Los tripulantes que se quedaron en la isla con Moore no tienen nombre en el vídeo porque sus nombres no están verificados. Su aspecto es imaginado.\n\nEn memoria de James Ducat, Thomas Marshall y Donald MacArthur, y de sus familias.\n\nFuentes: Northern Lighthouse Board (historia del faro de Flannan Isles); National Records of Scotland (guías de investigación y blog \"Though three men dwell on Flannan Isle\", fondo NLC3/1/1); ScotlandsPeople (registros de fareros 1837-1921); Canmore (Historic Environment Scotland); Hansard (1896); reglamento de 1847 de los Comisionados de los Faros del Norte; Press and Journal y The Courier; STV; The Scotsman; Historic UK (telegrama); Skeptoid (episodio 610); Mike Dash (Fortean Studies) sobre el origen de las falsas anotaciones; Hebridean Connections (el poema de Gibson).",
+    "descripcion": "Treinta días a bordo del Hesperus, el buque de la Junta de los Faros del Norte (Northern Lighthouse Board), del 10 de diciembre de 1900 al 8 de enero de 1901: el faro nuevo de Eilean Mòr, en las islas Flannan (Hébridas Exteriores, Escocia), la última anotación de la pizarra el 15 de diciembre, las once noches con la luz apagada, el temporal que retrasó el relevo y el 26 de diciembre, cuando Joseph Moore subió solo a la isla y no encontró a nadie. Un reloj parado, la lámpara lista, un impermeable colgado, el embarcadero oeste destrozado y la conclusión del superintendente Robert Muirhead.\n\n— Semana 1: La luz de los Siete Cazadores\n— Semana 2: El relevo que no salió\n— Semana 3: La verja cerrada\n— Semana 4: La ola\n— Epílogo: pensiones, el poema de 1912, las falsas anotaciones de 1965 y la automatización de 1971\n\nQué es documentado, qué es razonable y qué es inventado:\n· DOCUMENTADO (telegrama del capitán James Harvie (o Harvey), carta de Joseph Moore del 28 de diciembre e informe de Robert Muirhead del 8 de enero de 1901): el registro hasta el 13 de diciembre y la pizarra hasta las 9 de la mañana del 15; la lámpara limpia y lista; el faro apagado esa noche (lo vio el vapor Archtor); el relevo previsto el 20 y retrasado por el temporal; la verja y la puerta cerradas, el reloj parado, el fuego frío, la cocina limpia; las botas de agua y los impermeables de Ducat y Marshall desaparecidos y el de MacArthur colgado; las barandillas arrancadas y la caja de cabos desaparecida en el embarcadero oeste. La explicación oficial (una ola inesperadamente grande en el embarcadero oeste) es una deducción de Muirhead: nadie la vio.\n· RAZONABLE, NO DEMOSTRADO: que dos bajaran al embarcadero y el tercero saliera corriendo a ayudarlos; que el agua subiera de golpe por la grieta de la roca.\n· INVENTADO DESPUÉS: la comida sin tocar, la silla volcada y los pájaros negros (balada \"Flannan Isle\" de Wilfrid Wilson Gibson, 1912) y las anotaciones del diario sobre tormentas, llantos y oraciones (publicadas por Vincent Gaddis en 1965; no existen en los registros). Tampoco hubo \"calma\": hubo temporal.\n\nAVISO: el narrador, Angus, marinero del Hesperus, es un personaje INVENTADO y no sustituye a ningún tripulante real; sus pensamientos y su familia son imaginados. James Ducat, Thomas Marshall, Donald MacArthur, William Ross, Joseph Moore, el capitán James Harvie (o Harvey) y Robert Muirhead son reales, igual que las fechas. Los tripulantes que se quedaron en la isla con Moore no tienen nombre en el vídeo porque sus nombres no están verificados. Su aspecto es imaginado.\n\nEn memoria de James Ducat, Thomas Marshall y Donald MacArthur, y de sus familias.\n\nFuentes: Northern Lighthouse Board (historia del faro de Flannan Isles); National Records of Scotland (guías de investigación y blog \"Though three men dwell on Flannan Isle\", fondo NLC3/1/1); ScotlandsPeople (registros de fareros 1837-1921); Canmore (Historic Environment Scotland); Hansard (1896); reglamento de 1847 de los Comisionados de los Faros del Norte; Press and Journal y The Courier; STV; The Scotsman; Historic UK (telegrama); Skeptoid (episodio 610); Mike Dash (Fortean Studies) sobre el origen de las falsas anotaciones; Hebridean Connections (el poema de Gibson).",
     "etiquetas": [
       "un mes en la vida de",
       "islas Flannan",
@@ -2138,59 +2143,59 @@
       },
       {
         "titulo": "Tres hombres y un faro en mitad del Atlántico",
-        "descripcion": "Eilean Mòr, islas Flannan: un faro con apenas un año y tres fareros, Ducat, Marshall y MacArthur. #shorts #faros #escocia"
+        "descripcion": "Eilean Mòr, islas Flannan: un faro con apenas un año y tres fareros, Ducat, Marshall y MacArthur. Narrador inventado, hechos reales. #shorts #faros #escocia"
       },
       {
         "titulo": "Así vivía un farero escocés en 1900",
-        "descripcion": "La lente, las mechas, la guardia nocturna y la última fecha del libro de registro: 13 de diciembre. #shorts #historia #faros"
+        "descripcion": "La lente, las mechas, la guardia nocturna y la última fecha del libro de registro: 13 de diciembre. Narrador inventado, hechos reales. #shorts #historia #faros"
       },
       {
         "titulo": "La última nota de la pizarra",
-        "descripcion": "15 de diciembre de 1900, 9 de la mañana. Esa noche, el vapor Archtor no vio la luz del faro. #shorts #misterio #flannan"
+        "descripcion": "15 de diciembre de 1900, 9 de la mañana. Esa noche, el vapor Archtor no vio la luz del faro. Narrador inventado, hechos reales. #shorts #misterio #flannan"
       },
       {
         "titulo": "Once noches con el faro apagado",
-        "descripcion": "Sin telégrafo en la isla, nadie en tierra supo que el faro de las Flannan se había apagado. #shorts #misterio #historia"
+        "descripcion": "Sin telégrafo en la isla, nadie en tierra supo que el faro de las Flannan se había apagado. Narrador inventado, hechos reales. #shorts #misterio #historia"
       },
       {
         "titulo": "El relevo que el mar no dejó salir",
-        "descripcion": "20 de diciembre de 1900: el temporal retiene al Hesperus en Lewis mientras las familias esperan. #shorts #historia #mar"
+        "descripcion": "20 de diciembre de 1900: el temporal retiene al Hesperus en Lewis mientras las familias esperan. Narrador inventado, hechos reales. #shorts #historia #mar"
       },
       {
         "titulo": "Nadie en el embarcadero",
-        "descripcion": "Sirena, cohete de señales y silencio: así llegó el relevo al faro de Eilean Mòr. #shorts #misterio #flannan"
+        "descripcion": "Sirena, cohete de señales y silencio: así llegó el relevo al faro de Eilean Mòr. Narrador inventado, hechos reales. #shorts #misterio #flannan"
       },
       {
         "titulo": "Un reloj parado y la ceniza fría",
-        "descripcion": "Lo que Joseph Moore encontró en el faro según su carta: la puerta cerrada, el fuego apagado, la cocina limpia. #shorts #misterio #historia"
+        "descripcion": "Lo que Joseph Moore encontró en el faro según su carta: la puerta cerrada, el fuego apagado, la cocina limpia. Narrador inventado, hechos reales. #shorts #misterio #historia"
       },
       {
         "titulo": "El impermeable que seguía colgado",
-        "descripcion": "MacArthur salió sin su impermeable. ¿Por qué tanta prisa? La búsqueda por toda la isla. #shorts #misterio #faros"
+        "descripcion": "MacArthur salió sin su impermeable. ¿Por qué tanta prisa? La búsqueda por toda la isla. Narrador inventado, hechos reales. #shorts #misterio #faros"
       },
       {
         "titulo": "Ha ocurrido un terrible accidente",
-        "descripcion": "El telegrama del capitán Harvie y la llegada del superintendente Robert Muirhead. #shorts #historia #misterio"
+        "descripcion": "El telegrama del capitán Harvie y la llegada del superintendente Robert Muirhead. Narrador inventado, hechos reales. #shorts #historia #misterio"
       },
       {
         "titulo": "Una caja arrancada a 33 metros sobre el mar",
-        "descripcion": "Lo que Muirhead encontró en el embarcadero oeste y el Hogmanay más triste de Lewis. #shorts #misterio #escocia"
+        "descripcion": "Lo que Muirhead encontró en el embarcadero oeste y el Hogmanay más triste de Lewis. Narrador inventado, hechos reales. #shorts #misterio #escocia"
       },
       {
         "titulo": "La explicación oficial: una ola",
-        "descripcion": "8 de enero de 1901: el informe de Muirhead. Una deducción, no un testimonio. #shorts #historia #misterio"
+        "descripcion": "8 de enero de 1901: el informe de Muirhead. Una deducción, no un testimonio. Narrador inventado, hechos reales. #shorts #historia #misterio"
       },
       {
         "titulo": "La comida sin tocar nunca existió",
-        "descripcion": "La mesa servida y la silla volcada salen de un poema de 1912, no de los documentos. #shorts #mitos #flannan"
+        "descripcion": "La mesa servida y la silla volcada salen de un poema de 1912, no de los documentos. Narrador inventado, hechos reales. #shorts #mitos #flannan"
       },
       {
         "titulo": "El diario falso de los fareros",
-        "descripcion": "Las anotaciones que todo el mundo cita aparecieron en 1965. En el registro real no hay ninguna. #shorts #mitos #misterio"
+        "descripcion": "Las anotaciones que todo el mundo cita aparecieron en 1965. En el registro real no hay ninguna. Narrador inventado, hechos reales. #shorts #mitos #misterio"
       },
       {
         "titulo": "Nunca se encontró a ninguno de los tres",
-        "descripcion": "Pensiones, la automatización de 1971 y un memorial en Breasclete. Angus es inventado; los fareros, no. #shorts #historia #memoria"
+        "descripcion": "Pensiones, la automatización de 1971 y un memorial en Breasclete. Narrador inventado, hechos reales. #shorts #historia #memoria"
       }
     ]
   }
