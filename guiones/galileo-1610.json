@@ -197,12 +197,26 @@
    "sombrero": "boina",
    "colorSombrero": "#1c1a1a",
    "zapatos": "#1e1a16"
+  },
+  "dux": {
+   "piel": "#e6bc98",
+   "pelo": "#d8d2c8",
+   "peinado": "corto",
+   "barba": "corta",
+   "ropa": {
+    "tipo": "bata",
+    "color": "#c9a24a",
+    "color2": "#8e6a2a",
+    "detalle": "#f2e3b0"
+   },
+   "sombrero": "fez",
+   "colorSombrero": "#d9b04a",
+   "zapatos": "#6e1818"
   }
  },
  "largo": {
   "escenas": [
    {
-    "corte": true,
     "texto": "Dentro de tres semanas voy a ver algo que nadie ha visto nunca: tres puntitos de luz pegados a Júpiter. Y me costará cuatro noches entender lo que son.",
     "drama": 0.85,
     "fondo": {
@@ -238,23 +252,7 @@
     "camara": "lenta"
    },
    {
-    "texto": "Esos puntitos van a cambiar la forma en que miramos el cielo, y a mí, la vida entera. Pero esta noche todavía no lo sé.",
-    "drama": 0.75,
-    "fondo": {
-     "lugar": "ocular",
-     "hora": "noche",
-     "vista": "jupiter",
-     "lunas": [
-      -2.6,
-      -1.3,
-      1.9
-     ]
-    },
-    "personajes": [],
-    "camara": "lenta"
-   },
-   {
-    "texto": "Me llamo Galileo Galiléi, tengo cuarenta y cinco años y enseño matemáticas en la universidad de Padua. Las fechas de este mes son reales; lo que pienso, lo imaginamos.",
+    "texto": "Me llamo Galileo Galiléi, tengo cuarenta y cinco años y enseño matemáticas en la universidad de Padua. Las fechas de mis observaciones son reales; lo demás, lo imaginamos.",
     "drama": 0.65,
     "fondo": {
      "lugar": "interior",
@@ -324,7 +322,6 @@
    {
     "dia": 1,
     "capitulo": "La Luna tiene montañas",
-    "corte": true,
     "texto": "Es jueves, diecisiete de diciembre de mil seiscientos nueve, y en el taller de mi casa casi todas las lentes que pulo acaban en la basura.",
     "drama": 0.65,
     "fondo": {
@@ -461,7 +458,6 @@
    },
    {
     "dia": 2,
-    "corte": true,
     "texto": "Viernes, dieciocho de diciembre, de madrugada: la Luna menguante vuelve a enseñarme su secreto. No es lisa ni perfecta, como enseñan los filósofos.",
     "drama": 0.75,
     "fondo": {
@@ -582,8 +578,7 @@
    },
    {
     "dia": 3,
-    "corte": true,
-    "texto": "La Luna tiene montañas, y yo sé cuánto miden: algunas, al menos cuatro millas de alto. Y lo he medido sin salir de casa, con una regla y mucha paciencia.",
+    "texto": "La Luna tiene montañas, y yo sé cuánto miden: algunas, al menos cuatro millas de alto. Y lo he medido sin salir de casa.",
     "drama": 0.75,
     "personajes": [
      {
@@ -601,63 +596,6 @@
      "etiqueta": "de altura, como mínimo, para algunas montañas de la Luna (cálculo de Galileo)",
      "icono": "🌗"
     }
-   },
-   {
-    "dia": 4,
-    "texto": "El domingo voy a misa al Santo, la basílica de San Antonio, a dos pasos de casa. Rezo como todos, pero no puedo dejar de pensar en la Luna y en sus montañas.",
-    "drama": 0.55,
-    "fondo": {
-     "lugar": "interior",
-     "pared": "piedra",
-     "hora": "dia",
-     "ventana": true,
-     "props": [
-      {
-       "tipo": "columna",
-       "x": -1.15
-      },
-      {
-       "tipo": "🕯️",
-       "x": -0.55,
-       "escala": 0.35
-      },
-      {
-       "tipo": "🕯️",
-       "x": 0.75,
-       "escala": 0.35
-      },
-      {
-       "tipo": "columna",
-       "x": 1.15
-      }
-     ]
-    },
-    "personajes": [
-     {
-      "quien": "galileo",
-      "x": 0.5,
-      "accion": "pensar",
-      "emocion": "neutral",
-      "mirar": -1
-     },
-     {
-      "quien": "marina",
-      "x": -0.1,
-      "accion": "quieto",
-      "emocion": "neutral",
-      "mirar": 1,
-      "habla": false
-     },
-     {
-      "quien": "virginia",
-      "x": -0.55,
-      "accion": "quieto",
-      "emocion": "neutral",
-      "mirar": 1,
-      "habla": false
-     }
-    ],
-    "camara": "lenta"
    },
    {
     "dia": 5,
@@ -714,7 +652,6 @@
    },
    {
     "dia": 6,
-    "corte": true,
     "texto": "El martes pruebo una lente nueva, y el cielo se llena. Donde a simple vista hay un puñado de estrellas, mi anteojo me enseña docenas.",
     "drama": 0.7,
     "fondo": {
@@ -763,7 +700,7 @@
    },
    {
     "dia": 7,
-    "texto": "Se acerca la luna nueva, y las noches se vuelven negras como la tinta. Pero el frío se me mete en los huesos: desde hace dieciséis años sufro dolores y fiebres.",
+    "texto": "Se acerca la luna nueva, y las noches se vuelven negras como la tinta. Pero el frío se me mete en los huesos, y sufro dolores y fiebres.",
     "drama": 0.6,
     "fondo": {
      "lugar": "campo",
@@ -799,24 +736,8 @@
     "camara": "cerca"
    },
    {
-    "dia": 7,
-    "texto": "Me vienen de una noche en una villa helada, cerca de Vicenza. Cada hora al raso me lo cobra, y aun así vuelvo a salir.",
-    "drama": 0.55,
-    "personajes": [
-     {
-      "quien": "galileonoche",
-      "x": 0.4,
-      "accion": "observar",
-      "emocion": "cansado",
-      "mirar": 1
-     }
-    ],
-    "camara": "general"
-   },
-   {
     "dia": 8,
     "capitulo": "Más estrellas de las que hay",
-    "corte": true,
     "texto": "Es Nochebuena, y tengo a mis tres hijos delante. Pero en ninguna de sus partidas de bautismo aparece mi nombre.",
     "drama": 0.65,
     "fondo": {
@@ -967,7 +888,7 @@
    },
    {
     "dia": 9,
-    "texto": "El día de Navidad hace un frío que corta. Brasero, velas de sebo, porque las de cera son caras, y pan caliente. Hoy no pulo ninguna lente.",
+    "texto": "El día de Navidad hace un frío que corta: brasero, velas de sebo, porque las de cera son caras, y pan caliente.",
     "drama": 0.5,
     "fondo": {
      "lugar": "interior",
@@ -1023,7 +944,6 @@
    },
    {
     "dia": 10,
-    "corte": true,
     "texto": "Sábado, veintiséis: sin Luna, apunto el anteojo a esa mancha blanca que cruza el cielo, la Vía Láctea. Y la mancha se deshace.",
     "drama": 0.7,
     "fondo": {
@@ -1078,7 +998,7 @@
    },
    {
     "dia": 11,
-    "texto": "El domingo hago cuentas. Desde que murió mi padre pago las dotes de mis hermanas, y siempre ando corto de dinero. Por eso este verano el anteojo me cambió la vida.",
+    "texto": "El domingo repaso mis cuentas. Desde que murió mi padre pago las dotes de mis hermanas, y siempre ando corto de dinero. Por eso este verano el anteojo me cambió la vida.",
     "drama": 0.6,
     "fondo": {
      "lugar": "interior",
@@ -1175,7 +1095,6 @@
    },
    {
     "dia": 12,
-    "corte": true,
     "texto": "El veinticuatro de agosto le regalo el anteojo al dux, Leonardo Doná. Y el Senado me sube el sueldo a mil florines al año, de por vida.",
     "drama": 0.7,
     "personajes": [
@@ -1187,7 +1106,7 @@
       "mirar": -1
      },
      {
-      "quien": "senador",
+      "quien": "dux",
       "x": -0.27,
       "accion": "dar-mano",
       "emocion": "feliz",
@@ -1207,7 +1126,7 @@
     "insercion": {
      "tipo": "cita",
      "frase": "Aquí tengo un sueldo fijo de mil florines al año de por vida.",
-     "firma": "Carta de Galileo, 1609"
+     "firma": "Carta de Galileo"
     }
    },
    {
@@ -1282,7 +1201,7 @@
    },
    {
     "dia": 13,
-    "texto": "Lo que no sé es que en Inglaterra un tal Tómas Járriot ya dibujó la Luna con un anteojo este verano, cuatro meses antes que yo. Nunca lo publicará.",
+    "texto": "Lo que no sé es que en Inglaterra un tal Járriot ya dibujó la Luna con un anteojo este verano, cuatro meses antes que yo. Nunca lo publicará.",
     "drama": 0.65,
     "fondo": {
      "lugar": "interior",
@@ -1332,57 +1251,9 @@
     }
    },
    {
-    "dia": 14,
-    "corte": true,
-    "texto": "Los últimos días del año pulo, pruebo, tiro y vuelvo a pulir. Hasta que sale una lente limpia, sin burbujas, y la monto en el tubo bueno, el de cuero.",
-    "drama": 0.65,
-    "fondo": {
-     "lugar": "interior",
-     "pared": "madera",
-     "hora": "dia",
-     "ventana": true,
-     "props": [
-      {
-       "tipo": "estanteria",
-       "x": -1.3
-      },
-      {
-       "tipo": "cajas",
-       "x": -0.95
-      },
-      {
-       "tipo": "torno-lentes",
-       "x": 1.0
-      },
-      {
-       "tipo": "barril",
-       "x": 1.5
-      }
-     ]
-    },
-    "personajes": [
-     {
-      "quien": "galileotaller",
-      "x": 0.45,
-      "accion": "trabajar",
-      "emocion": "feliz",
-      "mirar": 1
-     },
-     {
-      "quien": "mazzoleni",
-      "x": -0.45,
-      "accion": "quieto",
-      "emocion": "feliz",
-      "mirar": 1,
-      "habla": false
-     }
-    ],
-    "camara": "cerca"
-   },
-   {
     "dia": 15,
     "capitulo": "Tres estrellitas",
-    "texto": "Treinta y uno de diciembre: para Venecia el año no se acaba hasta el uno de marzo, pero en el resto de Europa esta noche ya llega mil seiscientos diez.",
+    "texto": "Treinta y uno de diciembre: para Venecia el año no se acaba hasta el uno de marzo, pero en Roma y en otros sitios esta noche ya llega mil seiscientos diez.",
     "drama": 0.6,
     "fondo": {
      "lugar": "calle",
@@ -1523,7 +1394,6 @@
    },
    {
     "dia": 22,
-    "corte": true,
     "texto": "Es jueves, siete de enero de mil seiscientos diez, y termino la carta: le cuento que la Luna es áspera y desigual, y que mi anteojo agranda unas veinte veces.",
     "drama": 0.65,
     "fondo": {
@@ -1688,7 +1558,6 @@
    {
     "dia": 23,
     "capitulo": "Se mueven",
-    "corte": true,
     "texto": "El viernes, ocho de enero, no sé guiado por qué destino, vuelvo a apuntar el anteojo a Júpiter. Espero ver las tres estrellitas en el mismo sitio.",
     "drama": 0.75,
     "fondo": {
@@ -1789,7 +1658,6 @@
    },
    {
     "dia": 25,
-    "corte": true,
     "texto": "Domingo, diez de enero: solo veo dos estrellitas, y las dos al este. ¿Dónde está la tercera? Supongo que se ha escondido detrás de Júpiter.",
     "drama": 0.8,
     "fondo": {
@@ -1903,7 +1771,6 @@
    },
    {
     "dia": 27,
-    "corte": true,
     "texto": "Desde el martes, doce, ya no me fío de la memoria: apunto la hora, cuántas veo y a qué distancia de Júpiter están. Un redondel y unos asteriscos.",
     "drama": 0.65,
     "fondo": {
@@ -2053,7 +1920,7 @@
    },
    {
     "dia": 29,
-    "texto": "El jueves, catorce, otra vez nublado. Ni una estrella. Doy vueltas por la casa como un león enjaulado, pensando en lo que todo esto significa.",
+    "texto": "El jueves, catorce, otra vez nublado. Ni una estrella. Doy vueltas por el huerto como un león enjaulado, pensando en lo que todo esto significa.",
     "drama": 0.6,
     "fondo": {
      "lugar": "campo",
@@ -2090,8 +1957,7 @@
    },
    {
     "dia": 29,
-    "corte": true,
-    "texto": "Si Júpiter arrastra sus lunas mientras viaja por el cielo, ¿por qué no iba a poder la Tierra llevar la suya mientras gira alrededor del Sol?",
+    "texto": "Si Júpiter arrastra sus lunas por el cielo, ¿por qué no iba la Tierra a llevar la suya alrededor del Sol? Es el argumento que me faltaba contra quienes rechazan a Copérnico.",
     "drama": 0.8,
     "fondo": {
      "lugar": "interior",
@@ -2133,21 +1999,6 @@
      }
     ],
     "camara": "cerca"
-   },
-   {
-    "dia": 29,
-    "texto": "Es el argumento que me faltaba contra los que rechazan a Copérnico y dicen que, si la Tierra se moviera, perdería la Luna por el camino.",
-    "drama": 0.7,
-    "personajes": [
-     {
-      "quien": "galileo",
-      "x": 0.3,
-      "accion": "hablar",
-      "emocion": "feliz",
-      "mirar": -1
-     }
-    ],
-    "camara": "lenta"
    },
    {
     "dia": 30,
@@ -2213,7 +2064,6 @@
     "camara": "cerca"
    },
    {
-    "corte": true,
     "texto": "Mi libro, el Mensajero de las estrellas, sale en Venecia el trece de marzo: quinientos cincuenta ejemplares, agotados en una semana.",
     "drama": 0.7,
     "fondo": {
@@ -2345,7 +2195,7 @@
     "personajes": [
      {
       "quien": "galileo",
-      "x": 0.45,
+      "x": 0.6,
       "accion": "caminar",
       "emocion": "neutral",
       "mirar": -1
@@ -2360,7 +2210,7 @@
      },
      {
       "quien": "livia",
-      "x": -0.4,
+      "x": -0.6,
       "accion": "caminar",
       "emocion": "neutral",
       "mirar": -1,
@@ -2370,7 +2220,6 @@
     "camara": "paneo"
    },
    {
-    "corte": true,
     "texto": "Marina y el pequeño Vinchénso se quedan en Padua. Mis hijas acabarán monjas en un convento, y Virjinia, ya sor María Celeste, me escribirá las cartas más cariñosas de mi vida.",
     "drama": 0.55,
     "fondo": {
@@ -2479,24 +2328,6 @@
     }
    },
    {
-    "texto": "Casi cuatro siglos después, una nave bautizada con mi nombre da vueltas a Júpiter durante ocho años y estudia aquellas cuatro lunas de cerca.",
-    "drama": 0.65,
-    "fondo": {
-     "lugar": "ocular",
-     "hora": "noche",
-     "vista": "jupiter",
-     "lunas": [
-      -1.6,
-      1.1,
-      1.9,
-      2.8
-     ]
-    },
-    "personajes": [],
-    "camara": "lenta"
-   },
-   {
-    "corte": true,
     "texto": "Y para que no te engañen: no fui el primero en mirar la Luna con un anteojo, y lo de soltar bolas desde la torre de Pisa probablemente nunca pasó. Lo mío fue entenderlo y contarlo.",
     "drama": 0.6,
     "fondo": {
@@ -2720,7 +2551,6 @@
   "Virjinia": "Virginia",
   "Vinchénso": "Vincenzo",
   "Doná": "Donà",
-  "Tómas": "Thomas",
   "Járriot": "Harriot",
   "Medicheas": "Mediceas",
   "Cósimo": "Cosimo",
