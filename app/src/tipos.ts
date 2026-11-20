@@ -3,7 +3,7 @@ import type { EnEscena, Look } from "./personajes/tipos";
 
 export type Camara = "lenta" | "cerca" | "paneo" | "general" | "subir" | "retrato";
 export type Insercion =
-  | { tipo: "dato"; valor: string; etiqueta: string; icono?: string }
+  | { tipo: "dato"; valor: string; etiqueta: string; icono?: string; prop?: string } // prop: un decorado del motor en lugar del emoji
   | { tipo: "cita"; frase: string; firma?: string }
   | { tipo: "objetos"; titulo: string; items: { icono: string; nombre: string }[] }
   | { tipo: "mapa"; lugar: string; detalle?: string; icono?: string };

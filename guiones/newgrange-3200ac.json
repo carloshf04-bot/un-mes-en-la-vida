@@ -34,8 +34,9 @@
         "color2": "#6b4e34",
         "detalle": "#e6dcc4"
       },
-      "sombrero": "ninguno",
-      "zapatos": "#5a4030"
+      "sombrero": "piel",
+      "zapatos": "#5a4030",
+      "colorSombrero": "#6b4a2e"
     },
     "tavi": {
       "piel": "#ddb08a",
@@ -108,8 +109,9 @@
         "color2": "#5e4a36",
         "detalle": "#9a7f5e"
       },
-      "sombrero": "ninguno",
-      "zapatos": "#4a3828"
+      "sombrero": "piel",
+      "zapatos": "#4a3828",
+      "colorSombrero": "#4e3826"
     },
     "peona": {
       "piel": "#d9ab84",
@@ -230,14 +232,9 @@
               "detras": true
             },
             {
-              "tipo": "roca",
-              "x": -1.0,
-              "escala": 0.9
-            },
-            {
-              "tipo": "roca",
-              "x": 1.0,
-              "escala": 1.2
+              "tipo": "tumulo",
+              "x": -0.3,
+              "escala": 1.3
             },
             {
               "tipo": "roca",
@@ -326,25 +323,14 @@
               "detras": true
             },
             {
-              "tipo": "roca",
-              "x": -1.0,
-              "escala": 0.9
-            },
-            {
-              "tipo": "roca",
-              "x": 1.0,
-              "escala": 1.2
+              "tipo": "tumulo-obra",
+              "x": 0.0,
+              "escala": 1.3
             },
             {
               "tipo": "roca",
               "x": 1.4,
               "escala": 0.8
-            },
-            {
-              "tipo": "roca",
-              "x": -0.35,
-              "escala": 1.3,
-              "detras": true
             }
           ]
         },
@@ -457,7 +443,7 @@
           "hora": "atardecer",
           "props": [
             {
-              "tipo": "wigwam",
+              "tipo": "casa-neolitica",
               "x": -1.0,
               "escala": 1.1
             },
@@ -518,7 +504,7 @@
             "accion": "cargar",
             "emocion": "neutral",
             "mirar": 1,
-            "objeto": "🥛",
+            "objeto": "🥣",
             "habla": false
           },
           {
@@ -535,7 +521,7 @@
           "tipo": "dato",
           "valor": "80 %",
           "etiqueta": "de los fragmentos de vasija irlandeses estudiados guardan grasa de leche",
-          "icono": "🥛"
+          "icono": "🥣"
         }
       },
       {
@@ -550,7 +536,6 @@
             "accion": "trabajar",
             "emocion": "neutral",
             "mirar": 1,
-            "objeto": "🌰",
             "habla": false
           },
           {
@@ -571,16 +556,14 @@
         "fondo": {
           "lugar": "rio",
           "hora": "dia",
-          "clima": "niebla",
           "props": [
             {
               "tipo": "arbol",
               "x": -1.35
             },
             {
-              "tipo": "roca",
-              "x": 1.05,
-              "escala": 1.1
+              "tipo": "piragua-piedras",
+              "x": -0.1
             },
             {
               "tipo": "roca",
@@ -592,7 +575,7 @@
         "personajes": [
           {
             "quien": "tarun",
-            "x": -0.4,
+            "x": -0.6,
             "accion": "senalar",
             "emocion": "sorpresa",
             "mirar": 1,
@@ -600,7 +583,7 @@
           },
           {
             "quien": "peon",
-            "x": 0.35,
+            "x": 0.55,
             "accion": "cargar",
             "emocion": "cansado",
             "mirar": -1,
@@ -654,56 +637,42 @@
               "detras": true
             },
             {
-              "tipo": "roca",
-              "x": -1.0,
-              "escala": 0.9
-            },
-            {
-              "tipo": "roca",
-              "x": 1.0,
-              "escala": 1.2
-            },
-            {
-              "tipo": "roca",
-              "x": 1.4,
-              "escala": 0.8
+              "tipo": "losa-rodillos",
+              "x": -1.1
             }
           ]
         },
         "personajes": [
           {
             "quien": "peon",
-            "x": -0.75,
-            "accion": "cargar",
+            "x": 0.0,
+            "accion": "arrastrar",
             "emocion": "cansado",
             "mirar": 1,
-            "objeto": "🪢",
             "habla": false
           },
           {
             "quien": "tarun",
-            "x": -0.3,
-            "accion": "cargar",
+            "x": 0.4,
+            "accion": "arrastrar",
             "emocion": "cansado",
             "mirar": 1,
-            "objeto": "🪢",
             "habla": false
           },
           {
             "quien": "peona",
-            "x": 0.15,
-            "accion": "cargar",
+            "x": 0.8,
+            "accion": "arrastrar",
             "emocion": "cansado",
             "mirar": 1,
-            "objeto": "🪢",
             "habla": false
           },
           {
             "quien": "teko",
-            "x": 0.6,
+            "x": -0.35,
             "accion": "cargar",
             "emocion": "feliz",
-            "mirar": 1,
+            "mirar": -1,
             "objeto": "🪵",
             "habla": false
           }
@@ -759,7 +728,7 @@
         "texto": "El día seis vuelven los del sur con sacos de cuarzo blanco. Han caminado unos cincuenta kilómetros desde las montañas, varios días a pie.",
         "drama": 0.6,
         "fondo": {
-          "lugar": "montanas",
+          "lugar": "campo",
           "hora": "dia",
           "props": [
             {
@@ -767,7 +736,7 @@
               "x": -1.2
             },
             {
-              "tipo": "pino",
+              "tipo": "arbol",
               "x": 1.35
             }
           ]
@@ -811,34 +780,8 @@
           "hora": "amanecer",
           "props": [
             {
-              "tipo": "arbol",
-              "x": -1.45,
-              "detras": true
-            },
-            {
-              "tipo": "roca",
-              "x": -1.0,
-              "escala": 0.9
-            },
-            {
-              "tipo": "roca",
-              "x": 1.0,
-              "escala": 1.2
-            },
-            {
-              "tipo": "roca",
-              "x": 1.4,
-              "escala": 0.8
-            },
-            {
-              "tipo": "⚪",
-              "x": -0.1,
-              "escala": 0.15
-            },
-            {
-              "tipo": "⚪",
-              "x": 0.15,
-              "escala": 0.12
+              "tipo": "entrada-tumulo",
+              "x": 0
             }
           ]
         },
@@ -883,19 +826,13 @@
               "detras": true
             },
             {
-              "tipo": "roca",
-              "x": 0.55,
-              "escala": 1.1
-            },
-            {
-              "tipo": "🌀",
-              "x": 0.55,
-              "escala": 0.3
+              "tipo": "losa-grabada",
+              "x": 0.65
             },
             {
               "tipo": "roca",
-              "x": 1.3,
-              "escala": 0.9
+              "x": 1.45,
+              "escala": 0.8
             }
           ]
         },
@@ -965,19 +902,13 @@
               "detras": true
             },
             {
-              "tipo": "roca",
-              "x": 0.55,
-              "escala": 1.1
-            },
-            {
-              "tipo": "🌀",
-              "x": 0.55,
-              "escala": 0.3
+              "tipo": "losa-grabada",
+              "x": 0.65
             },
             {
               "tipo": "roca",
-              "x": 1.3,
-              "escala": 0.9
+              "x": 1.45,
+              "escala": 0.8
             }
           ]
         },
@@ -1040,25 +971,14 @@
               "detras": true
             },
             {
-              "tipo": "roca",
-              "x": -1.0,
-              "escala": 0.9
-            },
-            {
-              "tipo": "roca",
-              "x": 1.0,
-              "escala": 1.2
+              "tipo": "tumulo-obra",
+              "x": 0.0,
+              "escala": 1.3
             },
             {
               "tipo": "roca",
               "x": 1.4,
               "escala": 0.8
-            },
-            {
-              "tipo": "roca",
-              "x": -0.35,
-              "escala": 1.3,
-              "detras": true
             }
           ]
         },
@@ -1087,7 +1007,7 @@
             "accion": "trabajar",
             "emocion": "cansado",
             "mirar": -1,
-            "objeto": "🦌",
+            "objeto": "🦴",
             "habla": false
           }
         ],
@@ -1108,24 +1028,13 @@
           "hora": "dia",
           "props": [
             {
-              "tipo": "arbol",
-              "x": -1.45,
-              "detras": true
+              "tipo": "entrada-tumulo",
+              "x": 0
             },
             {
-              "tipo": "roca",
-              "x": 0.55,
-              "escala": 1.1
-            },
-            {
-              "tipo": "🌀",
-              "x": 0.55,
-              "escala": 0.3
-            },
-            {
-              "tipo": "roca",
-              "x": 1.3,
-              "escala": 0.9
+              "tipo": "losa-grabada",
+              "x": -1.2,
+              "escala": 0.8
             }
           ]
         },
@@ -1151,7 +1060,7 @@
           "hora": "noche",
           "props": [
             {
-              "tipo": "wigwam",
+              "tipo": "casa-neolitica",
               "x": -1.0,
               "escala": 1.1
             },
@@ -1234,22 +1143,12 @@
         "fondo": {
           "lugar": "interior",
           "hora": "noche",
-          "pared": "roca",
+          "pared": "megalito",
           "ventana": false,
           "props": [
             {
               "tipo": "antorcha",
               "x": -1.2
-            },
-            {
-              "tipo": "roca",
-              "x": 1.25,
-              "escala": 0.9
-            },
-            {
-              "tipo": "🌀",
-              "x": 1.25,
-              "escala": 0.28
             }
           ]
         },
@@ -1298,24 +1197,8 @@
           "hora": "dia",
           "props": [
             {
-              "tipo": "arbol",
-              "x": -1.45,
-              "detras": true
-            },
-            {
-              "tipo": "roca",
-              "x": 0.55,
-              "escala": 1.1
-            },
-            {
-              "tipo": "🌀",
-              "x": 0.55,
-              "escala": 0.3
-            },
-            {
-              "tipo": "roca",
-              "x": 1.3,
-              "escala": 0.9
+              "tipo": "entrada-tumulo",
+              "x": 0
             }
           ]
         },
@@ -1346,20 +1229,9 @@
         "fondo": {
           "lugar": "interior",
           "hora": "amanecer",
-          "pared": "roca",
+          "pared": "megalito",
           "ventana": false,
-          "props": [
-            {
-              "tipo": "roca",
-              "x": -1.25,
-              "escala": 0.9
-            },
-            {
-              "tipo": "roca",
-              "x": 1.3,
-              "escala": 0.9
-            }
-          ]
+          "props": []
         },
         "personajes": [
           {
@@ -1393,14 +1265,9 @@
               "detras": true
             },
             {
-              "tipo": "roca",
-              "x": -1.0,
-              "escala": 0.9
-            },
-            {
-              "tipo": "roca",
-              "x": 1.0,
-              "escala": 1.2
+              "tipo": "tumulo",
+              "x": 0.0,
+              "escala": 1.3
             },
             {
               "tipo": "roca",
@@ -1439,7 +1306,7 @@
           "hora": "atardecer",
           "props": [
             {
-              "tipo": "wigwam",
+              "tipo": "casa-neolitica",
               "x": -1.25,
               "escala": 0.9
             },
@@ -1559,14 +1426,9 @@
               "detras": true
             },
             {
-              "tipo": "roca",
-              "x": -1.0,
-              "escala": 0.9
-            },
-            {
-              "tipo": "roca",
-              "x": 1.0,
-              "escala": 1.2
+              "tipo": "tumulo",
+              "x": 0.0,
+              "escala": 1.3
             },
             {
               "tipo": "roca",
@@ -1625,20 +1487,9 @@
         "fondo": {
           "lugar": "interior",
           "hora": "noche",
-          "pared": "roca",
+          "pared": "megalito",
           "ventana": false,
-          "props": [
-            {
-              "tipo": "roca",
-              "x": 1.25,
-              "escala": 0.9
-            },
-            {
-              "tipo": "🌀",
-              "x": 1.25,
-              "escala": 0.28
-            }
-          ]
+          "props": []
         },
         "personajes": [
           {
@@ -1675,18 +1526,12 @@
         "fondo": {
           "lugar": "interior",
           "hora": "amanecer",
-          "pared": "roca",
+          "pared": "megalito",
           "ventana": false,
           "props": [
             {
-              "tipo": "roca",
-              "x": -1.25,
-              "escala": 0.9
-            },
-            {
-              "tipo": "roca",
-              "x": 1.3,
-              "escala": 0.9
+              "tipo": "rayo-solsticio-avanza",
+              "x": 0
             }
           ]
         },
@@ -1714,6 +1559,18 @@
         "dia": 19,
         "texto": "No llega al fondo. Oru sonríe en la oscuridad: dice que aún faltan días, que el sol tiene que correrse un poco más hacia el sur.",
         "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "amanecer",
+          "pared": "megalito",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "rayo-solsticio-corto",
+              "x": 0
+            }
+          ]
+        },
         "personajes": [
           {
             "quien": "oru",
@@ -1743,7 +1600,7 @@
           "hora": "noche",
           "props": [
             {
-              "tipo": "wigwam",
+              "tipo": "casa-neolitica",
               "x": -1.0,
               "escala": 1.1
             },
@@ -1800,22 +1657,12 @@
         "fondo": {
           "lugar": "interior",
           "hora": "noche",
-          "pared": "roca",
+          "pared": "megalito",
           "ventana": false,
           "props": [
             {
               "tipo": "antorcha",
               "x": -1.2
-            },
-            {
-              "tipo": "roca",
-              "x": 1.25,
-              "escala": 0.9
-            },
-            {
-              "tipo": "🌀",
-              "x": 1.25,
-              "escala": 0.28
             }
           ]
         },
@@ -1872,7 +1719,7 @@
           "hora": "noche",
           "props": [
             {
-              "tipo": "wigwam",
+              "tipo": "casa-neolitica",
               "x": -1.25,
               "escala": 0.9
             },
@@ -1928,18 +1775,12 @@
         "fondo": {
           "lugar": "interior",
           "hora": "amanecer",
-          "pared": "roca",
+          "pared": "megalito",
           "ventana": false,
           "props": [
             {
-              "tipo": "roca",
-              "x": -1.25,
-              "escala": 0.9
-            },
-            {
-              "tipo": "roca",
-              "x": 1.3,
-              "escala": 0.9
+              "tipo": "rayo-solsticio-entra",
+              "x": 0
             }
           ]
         },
@@ -1979,18 +1820,12 @@
         "fondo": {
           "lugar": "interior",
           "hora": "amanecer",
-          "pared": "roca",
+          "pared": "megalito",
           "ventana": false,
           "props": [
             {
-              "tipo": "roca",
-              "x": 1.25,
-              "escala": 0.9
-            },
-            {
-              "tipo": "🌀",
-              "x": 1.25,
-              "escala": 0.28
+              "tipo": "rayo-solsticio-ensancha",
+              "x": 0
             }
           ]
         },
@@ -2010,6 +1845,18 @@
         "dia": 22,
         "texto": "Teko llora y Oru no dice nada. Yo miro las losas que tallé de joven, las que nadie iba a ver nunca, y por fin las veo.",
         "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "amanecer",
+          "pared": "megalito",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "rayo-solsticio-pleno",
+              "x": 0
+            }
+          ]
+        },
         "personajes": [
           {
             "quien": "oru",
@@ -2045,18 +1892,12 @@
         "fondo": {
           "lugar": "interior",
           "hora": "amanecer",
-          "pared": "roca",
+          "pared": "megalito",
           "ventana": false,
           "props": [
             {
-              "tipo": "roca",
-              "x": -1.25,
-              "escala": 0.9
-            },
-            {
-              "tipo": "roca",
-              "x": 1.3,
-              "escala": 0.9
+              "tipo": "rayo-solsticio-sale",
+              "x": 0
             }
           ]
         },
@@ -2092,14 +1933,9 @@
               "detras": true
             },
             {
-              "tipo": "roca",
-              "x": -1.0,
-              "escala": 0.9
-            },
-            {
-              "tipo": "roca",
-              "x": 1.0,
-              "escala": 1.2
+              "tipo": "tumulo",
+              "x": -0.3,
+              "escala": 1.3
             },
             {
               "tipo": "roca",
@@ -2130,7 +1966,7 @@
           "hora": "atardecer",
           "props": [
             {
-              "tipo": "wigwam",
+              "tipo": "casa-neolitica",
               "x": -1.25,
               "escala": 0.9
             },
@@ -2201,19 +2037,13 @@
               "detras": true
             },
             {
-              "tipo": "roca",
-              "x": 0.55,
-              "escala": 1.1
-            },
-            {
-              "tipo": "🌀",
-              "x": 0.55,
-              "escala": 0.3
+              "tipo": "losa-grabada",
+              "x": 0.4
             },
             {
               "tipo": "roca",
-              "x": 1.3,
-              "escala": 0.9
+              "x": 1.45,
+              "escala": 0.8
             }
           ]
         },
@@ -2280,6 +2110,10 @@
               "x": -1.35
             },
             {
+              "tipo": "piragua",
+              "x": 0.4
+            },
+            {
               "tipo": "roca",
               "x": 1.05,
               "escala": 1.1
@@ -2334,19 +2168,13 @@
               "detras": true
             },
             {
-              "tipo": "roca",
-              "x": 0.55,
-              "escala": 1.1
-            },
-            {
-              "tipo": "🌀",
-              "x": 0.55,
-              "escala": 0.3
+              "tipo": "losa-grabada",
+              "x": 0.65
             },
             {
               "tipo": "roca",
-              "x": 1.3,
-              "escala": 0.9
+              "x": 1.45,
+              "escala": 0.8
             }
           ]
         },
@@ -2371,7 +2199,7 @@
           "hora": "noche",
           "props": [
             {
-              "tipo": "wigwam",
+              "tipo": "casa-neolitica",
               "x": -1.25,
               "escala": 0.9
             },
@@ -2408,14 +2236,9 @@
               "detras": true
             },
             {
-              "tipo": "roca",
-              "x": -1.0,
-              "escala": 0.9
-            },
-            {
-              "tipo": "roca",
-              "x": 1.0,
-              "escala": 1.2
+              "tipo": "tumulo-hierba",
+              "x": 0.0,
+              "escala": 1.3
             },
             {
               "tipo": "roca",
@@ -2526,7 +2349,8 @@
             "accion": "caminar",
             "emocion": "neutral",
             "mirar": -1,
-            "entra": "der"
+            "entra": "der",
+            "habla": false
           }
         ],
         "camara": "paneo"
@@ -2544,7 +2368,17 @@
             "habla": false
           }
         ],
-        "camara": "lenta"
+        "camara": "lenta",
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "props": [
+            {
+              "tipo": "entrada-tumulo",
+              "x": -0.3
+            }
+          ]
+        }
       },
       {
         "texto": "El veintiuno de diciembre de mil novecientos sesenta y siete, Okéli entró solo antes del amanecer y esperó a oscuras en la cámara.",
@@ -2552,20 +2386,9 @@
         "fondo": {
           "lugar": "interior",
           "hora": "noche",
-          "pared": "roca",
+          "pared": "megalito",
           "ventana": false,
-          "props": [
-            {
-              "tipo": "roca",
-              "x": 1.25,
-              "escala": 0.9
-            },
-            {
-              "tipo": "🌀",
-              "x": 1.25,
-              "escala": 0.28
-            }
-          ]
+          "props": []
         },
         "personajes": [
           {
@@ -2585,18 +2408,12 @@
         "fondo": {
           "lugar": "interior",
           "hora": "amanecer",
-          "pared": "roca",
+          "pared": "megalito",
           "ventana": false,
           "props": [
             {
-              "tipo": "roca",
-              "x": -1.25,
-              "escala": 0.9
-            },
-            {
-              "tipo": "roca",
-              "x": 1.3,
-              "escala": 0.9
+              "tipo": "rayo-solsticio",
+              "x": 0
             }
           ]
         },
@@ -2631,14 +2448,9 @@
               "detras": true
             },
             {
-              "tipo": "roca",
-              "x": -1.0,
-              "escala": 0.9
-            },
-            {
-              "tipo": "roca",
-              "x": 1.0,
-              "escala": 1.2
+              "tipo": "tumulo",
+              "x": 0.0,
+              "escala": 1.3
             },
             {
               "tipo": "roca",
@@ -2675,14 +2487,9 @@
               "detras": true
             },
             {
-              "tipo": "roca",
-              "x": -1.0,
-              "escala": 0.9
-            },
-            {
-              "tipo": "roca",
-              "x": 1.0,
-              "escala": 1.2
+              "tipo": "tumulo",
+              "x": 0.0,
+              "escala": 1.3
             },
             {
               "tipo": "roca",
@@ -2714,7 +2521,7 @@
           "tipo": "dato",
           "valor": "600 años",
           "etiqueta": "más antiguo que la Gran Pirámide de Guiza",
-          "icono": "🏛️"
+          "prop": "piramide"
         }
       },
       {
@@ -2730,14 +2537,9 @@
               "detras": true
             },
             {
-              "tipo": "roca",
-              "x": -1.0,
-              "escala": 0.9
-            },
-            {
-              "tipo": "roca",
-              "x": 1.0,
-              "escala": 1.2
+              "tipo": "tumulo",
+              "x": -0.3,
+              "escala": 1.3
             },
             {
               "tipo": "roca",

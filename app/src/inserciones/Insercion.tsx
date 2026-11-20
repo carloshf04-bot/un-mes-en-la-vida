@@ -2,6 +2,10 @@ import React from "react";
 import { AbsoluteFill, Easing, interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import type { Insercion as Ins, Paleta } from "../tipos";
 import { emoji, mano, sans, serif } from "../fuentes";
+import { Prop } from "../mundo/Props";
+
+// encuadre de los decorados que se pueden usar como icono de una tarjeta de dato
+const VISTA: Record<string, string> = { piramide: "-700 -700 1400 720" };
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 
@@ -21,7 +25,11 @@ export const Insercion: React.FC<{ ins: Ins; paleta: Paleta; dur: number }> = ({
     return (
       <AbsoluteFill style={{ alignItems: "center", justifyContent: "center" }}>
         <div style={{ ...caja, textAlign: "center" }}>
-          {ins.icono && <div style={{ fontFamily: emoji, fontSize: 150 * u, translate: `0px ${Math.sin(f / 16) * 10}px` }}>{ins.icono}</div>}
+          {ins.prop ? (
+            <svg viewBox={VISTA[ins.prop] ?? "-500 -820 1000 840"} style={{ height: 170 * u, width: 330 * u, translate: `0px ${Math.sin(f / 16) * 10}px`, filter: "drop-shadow(0 12px 24px rgba(0,0,0,0.6))" }}>
+              <Prop tipo={ins.prop} f={f} noche={false} />
+            </svg>
+          ) : ins.icono && <div style={{ fontFamily: emoji, fontSize: 150 * u, translate: `0px ${Math.sin(f / 16) * 10}px` }}>{ins.icono}</div>}
           <div style={{ fontFamily: serif, fontWeight: 900, fontSize: (txt.length > 7 ? 170 : 240) * u, color: paleta.acento, lineHeight: 1, textShadow: "0 20px 60px rgba(0,0,0,0.6)" }}>{txt}</div>
           <div style={{ fontFamily: sans, fontWeight: 800, fontSize: 52 * u, color: paleta.texto, maxWidth: 900 * u, marginTop: 24 * u, textTransform: "uppercase", letterSpacing: 2, opacity: interpolate(f, [fps * 0.8, fps * 1.3], [0, 1], clamp) }}>
             {ins.etiqueta}

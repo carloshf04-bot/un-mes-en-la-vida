@@ -1477,7 +1477,7 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: num
       const cupula = obra
         ? "M-900 0 C-850 -240 -600 -350 -320 -362 L240 -362 C560 -352 850 -240 900 0Z"
         : "M-900 0 C-820 -300 -450 -420 0 -420 C450 -420 820 -300 900 0Z";
-      const banda = "M-900 0 L-900 -110 Q0 -190 900 -110 L900 0Z";
+      const banda = "M-900 0 L-900 -95 Q0 -170 900 -95 L900 0Z";
       const cid = `tum-${tipo}`;
       return (
         <g>
@@ -1508,9 +1508,9 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: num
               <g clipPath={obra ? undefined : `url(#${cid}-b)`}>
                 {obra ? <path d="M-300 0 L-300 -150 Q0 -190 300 -150 L300 0Z" fill="#eceae3" /> : <path d={banda} fill="#eceae3" />}
                 {Array.from({ length: obra ? 26 : 90 }).map((_, i) => (
-                  <ellipse key={i} cx={(obra ? -290 : -890) + random(`tq${i}`) * (obra ? 580 : 1780)} cy={-12 - random(`tr${i}`) * 165} rx={7 + random(`ts${i}`) * 7} ry={5 + random(`ts${i}`) * 4} fill={i % 3 ? "#8d8a85" : "#6e6b67"} />
+                  <ellipse key={i} cx={(obra ? -290 : -890) + random(`tq${i}`) * (obra ? 580 : 1780)} cy={-12 - random(`tr${i}`) * 150} rx={7 + random(`ts${i}`) * 7} ry={5 + random(`ts${i}`) * 4} fill={i % 3 ? "#8d8a85" : "#6e6b67"} />
                 ))}
-                <path d={obra ? "M-300 -150 Q0 -190 300 -150" : "M-900 -110 Q0 -190 900 -110"} stroke="#000" strokeOpacity={0.15} strokeWidth={8} fill="none" />
+                <path d={obra ? "M-300 -150 Q0 -190 300 -150" : "M-900 -95 Q0 -170 900 -95"} stroke="#000" strokeOpacity={0.15} strokeWidth={8} fill="none" />
               </g>
             )}
             {hierba &&
@@ -1700,17 +1700,17 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: num
           {noche && <path d="M-72 0 L-72 -180 Q0 -205 72 -180 L72 0Z" fill="#7a3a14" opacity={0.5} transform="scale(0.7 0.75)" />}
           {[-84, 84].map((x) => <rect key={x} x={x - 12} y={-196} width={24} height={196} fill={poste} />)}
           {/* techo cónico de juncos */}
-          <path d={`M-420 ${alero(-420)} L0 -770 L420 ${alero(420)} ${Array.from({ length: 29 }).map((_, i) => { const x = 420 - i * 30; return `L${x} ${alero(x) + (i % 2 ? 22 : 0)}`; }).join(" ")}Z`} fill={paja} />
+          <path d={`M-420 ${alero(-420)} L0 -700 L420 ${alero(420)} ${Array.from({ length: 29 }).map((_, i) => { const x = 420 - i * 30; return `L${x} ${alero(x) + (i % 2 ? 22 : 0)}`; }).join(" ")}Z`} fill={paja} />
           {Array.from({ length: 17 }).map((_, i) => {
             const x = -400 + i * 50;
-            return <path key={i} d={`M${x * 0.04} -748 L${x} ${alero(x) + 8}`} stroke={pajaO} strokeWidth={5} opacity={0.65} />;
+            return <path key={i} d={`M${x * 0.04} -680 L${x} ${alero(x) + 8}`} stroke={pajaO} strokeWidth={5} opacity={0.65} />;
           })}
-          {[0, 1].map((i) => <path key={`c${i}`} d={`M${-330 + i * 120} ${-330 - i * 120} Q0 ${-300 - i * 150} ${330 - i * 120} ${-330 - i * 120}`} stroke={pajaO} strokeWidth={10} fill="none" opacity={0.7} />)}
-          <path d={`M0 -770 L420 ${alero(420)} L120 -200Z`} fill="#000" opacity={0.12} />
+          {[0, 1].map((i) => <path key={`c${i}`} d={`M${-300 + i * 110} ${-330 - i * 110} Q0 ${-300 - i * 140} ${300 - i * 110} ${-330 - i * 110}`} stroke={pajaO} strokeWidth={10} fill="none" opacity={0.7} />)}
+          <path d={`M0 -700 L420 ${alero(420)} L120 -200Z`} fill="#000" opacity={0.12} />
           {/* humo que se filtra por el techo */}
           {[0, 1, 2, 3].map((k) => {
             const t = ((f * 0.8 + k * 32) % 128) / 128;
-            return <circle key={k} cx={20 + t * 70 + Math.sin(t * 6 + k) * 16} cy={-760 - t * 340} r={24 + t * 56} fill="#cfcac0" opacity={0.45 * (1 - t)} />;
+            return <circle key={k} cx={20 + t * 70 + Math.sin(t * 6 + k) * 16} cy={-690 - t * 340} r={24 + t * 56} fill="#cfcac0" opacity={0.45 * (1 - t)} />;
           })}
         </g>
       );
@@ -1760,7 +1760,7 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: num
               <stop offset="1" stopColor="#ffc95a" stopOpacity={0.35} />
             </linearGradient>
             <radialGradient id="rayo-pared">
-              <stop offset="0" stopColor="#ffcf6a" stopOpacity={0.55} />
+              <stop offset="0" stopColor="#ffcf6a" stopOpacity={0.8} />
               <stop offset="1" stopColor="#ffcf6a" stopOpacity={0} />
             </radialGradient>
           </defs>
@@ -1768,7 +1768,7 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: num
           <rect x={-3000} y={-2000} width={6000} height={2200} fill="#05060a" opacity={0.42} />
           <g opacity={vis * latido} style={{ mixBlendMode: "screen" }}>
             {/* la piedra del fondo se vuelve de oro */}
-            <ellipse cx={xt - 120} cy={-260} rx={260 + ancho * 420} ry={220 + ancho * 260} fill="url(#rayo-pared)" opacity={0.35 + ancho * 0.65} />
+            <ellipse cx={xt - 120} cy={-260} rx={300 + ancho * 520} ry={240 + ancho * 300} fill="url(#rayo-pared)" opacity={0.35 + ancho * 0.65} />
             <polygon points={`${A1[0]},${A1[1]} ${A2[0]},${A2[1]} ${xt},20 ${xt - 40},${20 + w} ${xs - 40},${20 + w}`} fill="url(#rayo-haz)" opacity={0.55} />
             <polygon points={`${(A1[0] + A2[0]) / 2 - 10},${A1[1] - 15} ${(A1[0] + A2[0]) / 2 + 12},${A1[1] - 15} ${xt - 20},${24 + w * 0.3} ${xs},${24 + w * 0.6}`} fill="#fff4cf" opacity={0.3} />
             {/* franja dorada en el suelo */}
