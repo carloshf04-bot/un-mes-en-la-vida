@@ -90,7 +90,7 @@ Por qué funciona cada idea: tiene **un mes concreto con un acontecimiento dram�
 
 | Estado | Slug | Día | Un mes en la vida de… | Mes | Gancho |
 |---|---|---|---|---|---|
-| [~] | `mary-celeste-1872` | Lunes · misterios | un marinero del Dei Gratia | Atlántico, noviembre–diciembre de 1872 | 4 de diciembre: encuentran el Mary Celeste navegando sin nadie a bordo. **Efeméride.** |
+| [x] | `mary-celeste-1872` | Lunes · misterios | un marinero del Dei Gratia | Atlántico, noviembre–diciembre de 1872 | 4 de diciembre: encuentran el Mary Celeste navegando sin nadie a bordo. **Efeméride.** |
 | [x] | `trinchera-1914` | Martes · guerra | un soldado en las trincheras | Flandes, diciembre de 1914 | La tregua de Navidad y el partido de fútbol. **Efeméride.** |
 | [x] | `saturnales-50` | Miércoles · mitos | un esclavo en las Saturnales | Roma, diciembre del año 50 | Durante una semana los amos sirven a los esclavos. El origen de muchas costumbres navideñas. |
 | [x] | `curie-1898` | Jueves · personajes | Marie Curie | París, diciembre de 1898 | 26 de diciembre: anuncian el radio, descubierto por una sola raya violeta en el espectro. **Efeméride.** |
