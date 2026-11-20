@@ -2208,7 +2208,7 @@
         "dia": 22,
         "capitulo": "Los niños de las listas",
         "corte": true,
-        "texto": "Siguen sacando gente viva de entre las piedras. Un periódico contará diez rescatados en Mesina en un solo día, diez días después del terremoto. Cuando alguien grita, corremos a mirar.",
+        "texto": "Siguen sacando gente viva de entre las piedras: un periódico contará diez rescatados en un solo día, diez días después del terremoto. Cuando alguien grita, corremos a mirar.",
         "drama": 0.7,
         "fondo": {
           "lugar": "campo",
@@ -2261,7 +2261,13 @@
             "habla": false
           }
         ],
-        "camara": "general"
+        "camara": "general",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "10",
+          "etiqueta": "rescatados con vida en Mesina en un solo día, según la prensa del 7 de enero de 1909",
+          "icono": "📰"
+        }
       },
       {
         "dia": 24,
@@ -2738,7 +2744,7 @@
       },
       {
         "dia": 30,
-        "texto": "Lía corre la primera, y yo detrás. Mi madre nos abraza a los dos a la vez. Somos cuatro. Antes éramos cinco.",
+        "texto": "Lía corre la primera, y yo detrás. Mi madre nos abraza a los dos a la vez. Somos cuatro, y antes éramos cinco.",
         "drama": 0.75,
         "personajes": [
           {
@@ -2886,13 +2892,7 @@
           ]
         },
         "personajes": [],
-        "camara": "paneo",
-        "insercion": {
-          "tipo": "dato",
-          "valor": "90 %",
-          "etiqueta": "de los edificios de Mesina, en ruinas",
-          "icono": "🏚️"
-        }
+        "camara": "paneo"
       },
       {
         "texto": "Mesina volvió a levantarse con calles anchas y casas bajas de hormigón armado, según el plan del ingeniero Borsí. Italia hizo su primer mapa de zonas sísmicas y aprendió a construir pensando en la tierra que tiembla.",
@@ -2934,7 +2934,7 @@
       },
       {
         "corte": true,
-        "texto": "Las barracas eran para unos meses, y algunas durarán más que yo. Me hice marinero, como soñaba. Cuando cruzo el estrecho, todavía busco con la vista unos barcos grises que ya no están.",
+        "texto": "Las barracas eran para unos meses, y algunas durarán más que yo. Me hice marinero, como soñaba. Cuando cruzo el estrecho, todavía busco unos barcos grises que ya no están.",
         "drama": 0.6,
         "fondo": {
           "lugar": "rio",
@@ -3019,6 +3019,98 @@
           }
         ],
         "camara": "general"
+      }
+    ]
+  },
+  "publicacion": {
+    "tituloLargo": "Un mes en la vida de UN NIÑO DE MESINA (Sicilia, 1908) | 37 segundos y un mar que se retiró",
+    "tituloShort": "37 segundos que borraron Mesina",
+    "tituloCorto": "Mesina, 1908",
+    "capituloInicial": "La última noche de la vieja Mesina",
+    "descripcion": "Treinta días en la vida de Nino, un niño de 10 años del puerto de Mesina (Sicilia), del 15 de diciembre de 1908 al 13 de enero de 1909, contados por él mismo cincuenta años después. El puerto en forma de hoz y los limones que salían hacia el norte de Europa, la cuccìa de Santa Lucía, la novena con los gaiteros, la cona, la pignolata y el pescestocco de Nochebuena; la «Aida» del domingo 27 de diciembre en el gran teatro; y a las 5:20 del lunes 28, el terremoto de magnitud 7,1 que duró unos 37 segundos, seguido minutos después por el maremoto. Después, los barcos grises que llegaron la mañana del 29: los marinos rusos de la escuadra de Augusta y los británicos de Malta; la reina Elena cuidando heridos como enfermera; la evacuación por mar; el estado de sitio; los barcos estadounidenses; las listas de nombres y las primeras barracas. Contado con respeto a las víctimas de Mesina y de Reggio Calabria y a sus descendientes.\n\nAVISO: Nino Arena y su familia (sus padres Turi y Carmela, su hermana Lía y su abuela Santa) son personajes INVENTADOS. Todo lo demás es real: la ciudad de 1908 y sus costumbres navideñas, la función de «Aida» del 27 de diciembre, el terremoto de las 5:20 del 28 de diciembre de 1908 (magnitud 7,1, unos 37 segundos), el maremoto con olas de hasta unos 13 m en Calabria, el telégrafo cortado y el aviso llevado a pie hasta Scaletta, la llegada de la escuadra rusa del contraalmirante Litvinov y de la flota británica de Malta el 29 de diciembre, la visita del rey Víctor Manuel III y de la reina Elena el 30, la evacuación por mar a Nápoles, Palermo y Catania, el estado de sitio del 2 de enero de 1909, el cañonero estadounidense Scorpion del 3 de enero, los rescates con vida hasta 18–22 días después, las barracas y el plan Borzì. Nadie sabe la cifra exacta de víctimas: en Mesina se estiman entre 55.000 y 80.000 muertos, casi la mitad de la ciudad, y unos 15.000 en Reggio Calabria. El monumento a los marinos rusos de Mesina se inauguró en 2012.\n\n— Semana 1: La ciudad de los limones\n— Semana 2: La última Navidad\n— Semana 3: Los marineros de lejos\n— Semana 4: Los niños de las listas\n— Epílogo: la ciudad que volvió a levantarse\n\nFuentes: INGV (Istituto Nazionale di Geofisica e Vulcanologia); Protezione Civile; NHESS (Copernicus); Britannica; Scientific American; EBSCO Research Starters; SAGE Encyclopedia of Disaster Relief; Gazzetta Ufficiale del Regno d'Italia (enero de 1909); US Naval History and Heritage Command; Royal Museums Greenwich; Navy History Australia; PBS American Experience; Theodore Roosevelt Center; Papers Past y Chronicling America (prensa de 1909); MeteoWeb (Sandro Attanasio, Vito La Colla); Balarm; Focus; AGI; Università di Palermo y Università di Messina; De Santo y otros (2017).",
+    "etiquetas": [
+      "un mes en la vida de",
+      "Mesina",
+      "Messina",
+      "terremoto de Mesina",
+      "terremoto de 1908",
+      "maremoto",
+      "tsunami",
+      "Sicilia",
+      "Reggio Calabria",
+      "marinos rusos",
+      "reina Elena",
+      "catástrofes",
+      "historia",
+      "animación"
+    ],
+    "miniatura": {
+      "texto": "37 SEGUNDOS",
+      "escena": 20,
+      "quien": "nino",
+      "emocion": "miedo",
+      "prop": "ruinas"
+    },
+    "shorts": [
+      {
+        "titulo": "La última noche de la vieja Mesina",
+        "descripcion": "Mesina, domingo 27 de diciembre de 1908: en el gran teatro daban Aida. Horas después, 37 segundos lo cambiaron todo. #shorts #historia #mesina"
+      },
+      {
+        "titulo": "Una ciudad que olía a limón",
+        "descripcion": "Mesina en 1908: un puerto de cítricos, talleres de esencias y una hermana pequeña a la que no hay que soltar. #shorts #historia #sicilia"
+      },
+      {
+        "titulo": "«Si el mar se retira, corred al monte»",
+        "descripcion": "Lo que contaba una abuela de Mesina en la novena de Navidad de 1908. #shorts #historia #mesina"
+      },
+      {
+        "titulo": "La última Navidad de la vieja Mesina",
+        "descripcion": "Pignolata, pescestocco y una brújula de latón: Navidad de 1908 en Sicilia. #shorts #navidad #historia"
+      },
+      {
+        "titulo": "5:20 del 28 de diciembre de 1908",
+        "descripcion": "Una noche de ópera y, de madrugada, 37 segundos que derribaron una ciudad de más de dos mil años. #shorts #mesina #terremoto"
+      },
+      {
+        "titulo": "Cuando el mar se retiró",
+        "descripcion": "Mesina, 28 de diciembre de 1908: la gente huyó a la orilla, y entonces el mar empezó a retirarse. #shorts #mesina #historia"
+      },
+      {
+        "titulo": "«Messina distrutta»",
+        "descripcion": "El maremoto, un padre desaparecido y un telégrafo mudo: hubo que caminar tres horas para avisar a Italia. #shorts #mesina #1908"
+      },
+      {
+        "titulo": "Los barcos grises que nadie llamó",
+        "descripcion": "La mañana del 29 de diciembre de 1908 llegaron a Mesina los marinos rusos y los británicos. #shorts #historia #marinosrusos"
+      },
+      {
+        "titulo": "Una reina con delantal de enfermera",
+        "descripcion": "La reina Elena cuidó a los heridos de Mesina. Y en la playa, una evacuación que separó familias. #shorts #historia #mesina"
+      },
+      {
+        "titulo": "Dos nombres en una lista",
+        "descripcion": "Año nuevo de 1909 bajo una lona, el estado de sitio y los niños solos de Mesina. #shorts #historia #mesina"
+      },
+      {
+        "titulo": "Alguien dijo mi nombre en la cola del pan",
+        "descripcion": "Diez días después del terremoto, todavía sacaban gente viva de entre las piedras. #shorts #mesina #historia"
+      },
+      {
+        "titulo": "La cuchara de mi abuela",
+        "descripcion": "Lo que queda de una casa de Mesina en enero de 1909. #shorts #historia #mesina"
+      },
+      {
+        "titulo": "Arena, Carmela, 34 años",
+        "descripcion": "Una línea en una lista de evacuados de Nápoles y un vapor que entra en el puerto. #shorts #mesina #historia"
+      },
+      {
+        "titulo": "Nadie sabe cuántos murieron",
+        "descripcion": "Entre 55.000 y 80.000 muertos en Mesina: casi la mitad de la ciudad. El archivo con sus nombres también se perdió. #shorts #mesina #terremoto"
+      },
+      {
+        "titulo": "Las barracas que iban a durar unos meses",
+        "descripcion": "Mesina se levantó otra vez. Nino y su familia son inventados; el terremoto y los marineros que vinieron de lejos, no. #shorts #mesina #historia"
       }
     ]
   }

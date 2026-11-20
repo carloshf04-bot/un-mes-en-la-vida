@@ -119,12 +119,29 @@
       "peinado": "corto",
       "barba": "corta",
       "ropa": {
+        "tipo": "abrigo",
+        "color": "#1a2030",
+        "color2": "#1c1f28",
+        "detalle": "#c9a84a"
+      },
+      "sombrero": "gorra-plato",
+      "colorSombrero": "#151a24",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#15120f"
+    },
+    "macarthurcamisa": {
+      "piel": "#e0b494",
+      "pelo": "#2a221c",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
         "tipo": "camisa",
         "color": "#e4ddcc",
         "color2": "#1c1f28",
         "detalle": "#1a2030"
       },
-      "sombrero": "gorra-plato",
+      "sombrero": "ninguno",
       "colorSombrero": "#151a24",
       "gafas": false,
       "altura": 1,
@@ -547,7 +564,7 @@
       },
       {
         "dia": 3,
-        "texto": "Cada noche, un hombre vela junto a la luz, y dormirse de guardia es la peor falta de un farero. En diciembre, la lámpara arde casi diecisiete horas.",
+        "texto": "Cada noche, un hombre vela junto a la luz, y dormirse de guardia es la peor falta de un farero. En pleno diciembre, la lámpara arde desde antes de las cuatro de la tarde hasta bien entrada la mañana.",
         "drama": 0.55,
         "fondo": {
           "lugar": "interior",
@@ -589,7 +606,7 @@
       },
       {
         "dia": 3,
-        "texto": "Sus familias viven en Brésclet, en la costa de Lúis. Desde allí, la única señal de que todo va bien es ver la luz cada noche.",
+        "texto": "Las familias de los fareros viven en Brésclet, en la costa de Lúis. Desde allí, la única señal de que todo va bien es ver la luz cada noche.",
         "drama": 0.6,
         "fondo": {
           "lugar": "playa",
@@ -816,6 +833,47 @@
         "camara": "paneo"
       },
       {
+        "dia": 9,
+        "texto": "Imagino que en Brésclet alguien mira hacia el oeste buscando la luz y piensa que la tapa la bruma. A nadie se le ocurre otra cosa.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "noche",
+          "clima": "niebla",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.25
+            },
+            {
+              "tipo": "casa",
+              "x": -0.7,
+              "escala": 0.8
+            },
+            {
+              "tipo": "roca",
+              "x": 1.35
+            },
+            {
+              "tipo": "isla-faro-apagada",
+              "x": 1.1,
+              "escala": 0.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "mujer",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
         "dia": 10,
         "texto": "En Brésclet, Yósef Mur, el cuarto farero, el que descansaba en tierra, prepara sus cosas. Le toca volver a la isla con el relevo.",
         "drama": 0.6,
@@ -884,7 +942,7 @@
       },
       {
         "dia": 11,
-        "texto": "Olas como casas, lluvia que corta la cara y un viento que no deja oír. El capitán Járvi mira el cielo y decide esperar: los relevos dependen del mar.",
+        "texto": "Olas como casas, lluvia que corta la cara y un viento que no deja oír. El capitán Járvi tiene que esperar, porque los relevos dependen del mar.",
         "drama": 0.75,
         "personajes": [
           {
@@ -977,7 +1035,7 @@
         "dia": 15,
         "capitulo": "La verja cerrada",
         "corte": true,
-        "texto": "El lunes veinticuatro, el temporal por fin afloja. Al día siguiente es Navidad, que en mi isla apenas se celebra: la fiesta grande aquí es Jógmanei, la Nochevieja.",
+        "texto": "El lunes veinticuatro seguimos esperando a que el mar nos deje salir. Al día siguiente es Navidad, que en mi isla apenas se celebra: la fiesta grande aquí es Jógmanei, la Nochevieja.",
         "drama": 0.6,
         "fondo": {
           "lugar": "mar",
@@ -1005,7 +1063,7 @@
             "accion": "cargar",
             "emocion": "cansado",
             "mirar": -1,
-            "objeto": "📦"
+            "objeto": "🧺"
           }
         ],
         "camara": "paneo"
@@ -1206,7 +1264,7 @@
       {
         "dia": 17,
         "corte": true,
-        "texto": "Según Mur, esos impermeables solo se usaban para bajar a los embarcaderos, y Macártur no tenía otro abrigo. Si salió sin él, salió con prisa, en mangas de camisa.",
+        "texto": "Según Mur, esos impermeables solo se usaban para bajar a los embarcaderos, y Macártur no tenía otro abrigo. Si salió sin él, debió de salir con prisa, en mangas de camisa.",
         "drama": 0.85,
         "personajes": [
           {
@@ -1581,7 +1639,7 @@
       {
         "dia": 22,
         "capitulo": "La ola",
-        "texto": "Llega Jógmanei, la Nochevieja escocesa, con dos casas de luto en Brésclet. Empieza oficialmente el siglo veinte, y los tres fareros se perdieron en las dos últimas semanas del diecinueve.",
+        "texto": "Llega Jógmanei, la Nochevieja escocesa, y en Brésclet hay casas de luto. Empieza oficialmente el siglo veinte, y los tres fareros se perdieron en las dos últimas semanas del diecinueve.",
         "drama": 0.65,
         "fondo": {
           "lugar": "playa",
@@ -1729,7 +1787,7 @@
         },
         "personajes": [
           {
-            "quien": "macarthur",
+            "quien": "macarthurcamisa",
             "x": 0.0,
             "accion": "correr",
             "emocion": "miedo",
@@ -1765,7 +1823,7 @@
         "camara": "subir"
       },
       {
-        "texto": "Los fantasmas y la comida sin tocar no salen de los papeles. La mesa servida, la silla volcada y los pájaros negros vienen de una balada de mil novecientos doce, del poeta Uílfrid Guíbson.",
+        "texto": "Los fantasmas no salen de los papeles. La mesa servida, la silla volcada y los pájaros negros vienen de una balada de mil novecientos doce, del poeta Uílfrid Guíbson.",
         "drama": 0.7,
         "fondo": {
           "lugar": "interior",

@@ -378,7 +378,7 @@
    },
    {
     "dia": 1,
-    "texto": "Froto el vidrio de Murano contra un molde de hierro, con agua y polvo abrasivo, durante horas. Una burbuja o una raya, y la imagen sale borrosa.",
+    "texto": "Froto el vidrio de Murano contra un molde, con polvo abrasivo, durante horas y horas. Una burbuja o una raya, y la imagen sale borrosa.",
     "drama": 0.6,
     "personajes": [
      {
@@ -583,7 +583,7 @@
    {
     "dia": 3,
     "corte": true,
-    "texto": "La Luna tiene montañas, y yo sé cuánto miden: algunas, al menos cuatro millas de alto. Y lo he medido sin salir de casa.",
+    "texto": "La Luna tiene montañas, y yo sé cuánto miden: algunas, al menos cuatro millas de alto. Y lo he medido sin salir de casa, con una regla y mucha paciencia.",
     "drama": 0.75,
     "personajes": [
      {
@@ -604,7 +604,7 @@
    },
    {
     "dia": 4,
-    "texto": "El domingo voy a misa al Santo, la basílica de San Antonio, a dos pasos de casa. Rezo como todos, pero no puedo dejar de pensar en la Luna.",
+    "texto": "El domingo voy a misa al Santo, la basílica de San Antonio, a dos pasos de casa. Rezo como todos, pero no puedo dejar de pensar en la Luna y en sus montañas.",
     "drama": 0.55,
     "fondo": {
      "lugar": "interior",
@@ -661,7 +661,7 @@
    },
    {
     "dia": 5,
-    "texto": "El lunes vuelven las clases. En mi casa viven estudiantes nobles de media Europa, con sus criados, que me pagan la pensión y lecciones de matemáticas.",
+    "texto": "El lunes vuelven las clases. En mi casa viven estudiantes nobles de media Europa, con sus criados: me pagan la pensión y aprenden matemáticas y a usar mi compás militar.",
     "drama": 0.6,
     "fondo": {
      "lugar": "interior",
@@ -711,29 +711,6 @@
      }
     ],
     "camara": "general"
-   },
-   {
-    "dia": 5,
-    "texto": "Les enseño a usar mi compás geométrico y militar. Imprimí sesenta libros de instrucciones y los vendí aquí mismo, junto con los compases.",
-    "drama": 0.55,
-    "personajes": [
-     {
-      "quien": "galileo",
-      "x": 0.4,
-      "accion": "senalar",
-      "emocion": "feliz",
-      "mirar": -1
-     },
-     {
-      "quien": "alumno",
-      "x": -0.4,
-      "accion": "escribir",
-      "emocion": "neutral",
-      "mirar": 1,
-      "habla": false
-     }
-    ],
-    "camara": "cerca"
    },
    {
     "dia": 6,
@@ -786,7 +763,7 @@
    },
    {
     "dia": 7,
-    "texto": "Llega la luna nueva, y las noches se vuelven negras como la tinta. Pero el frío se me mete en los huesos: desde hace dieciséis años sufro dolores y fiebres.",
+    "texto": "Se acerca la luna nueva, y las noches se vuelven negras como la tinta. Pero el frío se me mete en los huesos: desde hace dieciséis años sufro dolores y fiebres.",
     "drama": 0.6,
     "fondo": {
      "lugar": "campo",
@@ -1405,7 +1382,7 @@
    {
     "dia": 15,
     "capitulo": "Tres estrellitas",
-    "texto": "Treinta y uno de diciembre, y para Venecia el año no se acaba esta noche: en la República, el año nuevo llega el uno de marzo.",
+    "texto": "Treinta y uno de diciembre: para Venecia el año no se acaba hasta el uno de marzo, pero en el resto de Europa esta noche ya llega mil seiscientos diez.",
     "drama": 0.6,
     "fondo": {
      "lugar": "calle",
@@ -1444,56 +1421,8 @@
     "camara": "paneo"
    },
    {
-    "dia": 16,
-    "texto": "Para el resto de Europa ya es mil seiscientos diez. Paseo bajo los soportales de Padua, donde estudian jóvenes de todas partes, hasta protestantes, protegidos por Venecia.",
-    "drama": 0.55,
-    "fondo": {
-     "lugar": "calle",
-     "hora": "dia",
-     "clima": "niebla",
-     "props": [
-      {
-       "tipo": "santo",
-       "x": 1.2,
-       "escala": 1.6,
-       "detras": true
-      },
-      {
-       "tipo": "casa",
-       "x": -1.3
-      },
-      {
-       "tipo": "casa",
-       "x": -0.85
-      },
-      {
-       "tipo": "carro",
-       "x": 0.75
-      }
-     ]
-    },
-    "personajes": [
-     {
-      "quien": "galileo",
-      "x": 0.4,
-      "accion": "caminar",
-      "emocion": "neutral",
-      "mirar": -1
-     },
-     {
-      "quien": "alumno",
-      "x": -0.4,
-      "accion": "caminar",
-      "emocion": "neutral",
-      "mirar": 1,
-      "habla": false
-     }
-    ],
-    "camara": "paneo"
-   },
-   {
     "dia": 17,
-    "texto": "Del dos al cinco de enero vuelvo a la Luna creciente y, de noche, junto al brasero, escribo una carta a un noble de Florencia contándole lo que he visto.",
+    "texto": "Del dos al cinco de enero vuelvo a la Luna creciente, y de noche, junto al brasero, escribo una carta a un noble de Florencia.",
     "drama": 0.6,
     "fondo": {
      "lugar": "interior",
@@ -1538,8 +1467,7 @@
    },
    {
     "dia": 21,
-    "corte": true,
-    "texto": "Es seis de enero, día de Reyes, la fiesta de una estrella que guió a unos sabios. Y mañana, sin saberlo, voy a seguir yo también unas luces muy raras.",
+    "texto": "Es seis de enero, día de Reyes, la fiesta de una estrella que guió a unos sabios. Mañana, sin saberlo, voy a seguir yo unas luces muy raras.",
     "drama": 0.65,
     "fondo": {
      "lugar": "interior",
@@ -1595,6 +1523,7 @@
    },
    {
     "dia": 22,
+    "corte": true,
     "texto": "Es jueves, siete de enero de mil seiscientos diez, y termino la carta: le cuento que la Luna es áspera y desigual, y que mi anteojo agranda unas veinte veces.",
     "drama": 0.65,
     "fondo": {
@@ -1698,7 +1627,6 @@
    },
    {
     "dia": 22,
-    "corte": true,
     "texto": "Tres estrellitas en fila junto a Júpiter, y no les doy importancia: pienso que son estrellas fijas. Solo me extraña que brillen más que otras de su tamaño.",
     "drama": 0.7,
     "fondo": {
@@ -1760,7 +1688,8 @@
    {
     "dia": 23,
     "capitulo": "Se mueven",
-    "texto": "El viernes, ocho de enero, no sé guiado por qué destino, vuelvo a apuntar el anteojo a Júpiter.",
+    "corte": true,
+    "texto": "El viernes, ocho de enero, no sé guiado por qué destino, vuelvo a apuntar el anteojo a Júpiter. Espero ver las tres estrellitas en el mismo sitio.",
     "drama": 0.75,
     "fondo": {
      "lugar": "campo",
@@ -1801,7 +1730,7 @@
    },
    {
     "dia": 23,
-    "texto": "Y ahora las tres están al oeste, más juntas entre sí. Pienso que ha sido Júpiter el que se ha movido hacia el este, al revés de lo que dicen las tablas. Empiezo a dudar.",
+    "texto": "Y ahora las tres están al oeste, más juntas, como si se hubieran cambiado de lado. Pienso que Júpiter se ha movido hacia el este, al revés de lo que dicen las tablas.",
     "drama": 0.8,
     "fondo": {
      "lugar": "ocular",
@@ -1818,7 +1747,7 @@
    },
    {
     "dia": 24,
-    "texto": "El sábado espero la noche con ansia, pero me llevo un chasco: el cielo está cubierto de nubes por todas partes.",
+    "texto": "El sábado espero la noche con ansia, pero me llevo un chasco: el cielo está cubierto de nubes por todas partes. Me acuesto preguntándome dónde estarán ahora, y empiezo a dudar de todo.",
     "drama": 0.7,
     "fondo": {
      "lugar": "campo",
@@ -2207,7 +2136,7 @@
    },
    {
     "dia": 29,
-    "texto": "Es el argumento que me faltaba contra los que se ríen de Copérnico y dicen que, si la Tierra se moviera, perdería la Luna por el camino.",
+    "texto": "Es el argumento que me faltaba contra los que rechazan a Copérnico y dicen que, si la Tierra se moviera, perdería la Luna por el camino.",
     "drama": 0.7,
     "personajes": [
      {
@@ -2651,7 +2580,7 @@
     "camara": "cerca"
    },
    {
-    "texto": "¿Tú habrías pasado esas noches heladas mirando a Júpiter? Cuéntamelo en los comentarios y suscríbete para la próxima vida.",
+    "texto": "¿Tú habrías pasado esas noches heladas mirando a Júpiter, o te habrías quedado junto al brasero? Cuéntamelo en los comentarios y suscríbete para la próxima vida.",
     "drama": 0.6,
     "fondo": {
      "lugar": "campo",
@@ -2708,7 +2637,7 @@
   ],
   "miniatura": {
    "texto": "TRES ESTRELLITAS",
-   "escena": 39,
+   "escena": 36,
    "quien": "galileonoche",
    "emocion": "sorpresa",
    "prop": "anteojo"
@@ -2744,11 +2673,7 @@
    },
    {
     "titulo": "1.000 florines al año por un tubo con dos cristales",
-    "descripcion": "Agosto de 1609: el campanario de San Marcos, el dux Leonardo Donà y un sueldo de por vida. #shorts #historia #galileo"
-   },
-   {
-    "titulo": "Galileo no inventó el telescopio",
-    "descripcion": "El anteojo nació en los Países Bajos y Thomas Harriot dibujó la Luna antes que él. #shorts #historia #ciencia"
+    "descripcion": "Agosto de 1609: el anteojo para el dux Leonardo Donà, un sueldo de por vida… y un invento que no era suyo (Thomas Harriot ya había dibujado la Luna). #shorts #historia #galileo"
    },
    {
     "titulo": "En Venecia el año nuevo llegaba en marzo",
