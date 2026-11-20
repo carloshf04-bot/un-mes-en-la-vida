@@ -217,6 +217,7 @@
  "largo": {
   "escenas": [
    {
+    "corte": true,
     "texto": "Dentro de tres semanas voy a ver algo que nadie ha visto nunca: tres puntitos de luz pegados a Júpiter. Y me costará cuatro noches entender lo que son.",
     "drama": 0.85,
     "fondo": {
@@ -375,7 +376,8 @@
    },
    {
     "dia": 1,
-    "texto": "Froto el vidrio de Murano contra un molde, con polvo abrasivo, durante horas y horas. Una burbuja o una raya, y la imagen sale borrosa.",
+    "corte": true,
+    "texto": "Pulir una lente es una tortura: froto el vidrio de Murano contra un molde, con polvo abrasivo, durante horas y horas. Una burbuja o una raya, y la imagen sale borrosa.",
     "drama": 0.6,
     "personajes": [
      {
@@ -471,7 +473,8 @@
    },
    {
     "dia": 2,
-    "texto": "En la raya entre la luz y la sombra aparecen puntitos brillantes dentro de la parte oscura: son cumbres que el sol ilumina antes que los valles.",
+    "corte": true,
+    "texto": "Y lo que veo es increíble: en la raya entre la luz y la sombra aparecen puntitos brillantes dentro de la parte oscura: son cumbres que el sol ilumina antes que los valles.",
     "drama": 0.7,
     "camara": "cerca",
     "insercion": {
@@ -533,7 +536,7 @@
    },
    {
     "dia": 3,
-    "texto": "El sábado hago cuentas: mido cuánto se adentra un punto de luz en la sombra y, con geometría, calculo la altura de esas montañas.",
+    "texto": "El sábado hago cuentas, como un mercader: mido cuánto se adentra un punto de luz en la sombra y, con geometría, calculo la altura de esas montañas.",
     "drama": 0.6,
     "fondo": {
      "lugar": "interior",
@@ -599,7 +602,8 @@
    },
    {
     "dia": 5,
-    "texto": "El lunes vuelven las clases. En mi casa viven estudiantes nobles de media Europa, con sus criados: me pagan la pensión y aprenden matemáticas y a usar mi compás militar.",
+    "corte": true,
+    "texto": "Mi casa también es un negocio. El lunes vuelven las clases: aquí viven estudiantes nobles de media Europa, con sus criados, que me pagan la pensión y aprenden matemáticas y a usar mi compás militar.",
     "drama": 0.6,
     "fondo": {
      "lugar": "interior",
@@ -738,6 +742,7 @@
    {
     "dia": 8,
     "capitulo": "Más estrellas de las que hay",
+    "corte": true,
     "texto": "Es Nochebuena, y tengo a mis tres hijos delante. Pero en ninguna de sus partidas de bautismo aparece mi nombre.",
     "drama": 0.65,
     "fondo": {
@@ -981,7 +986,8 @@
    },
    {
     "dia": 10,
-    "texto": "No es niebla ni vapor: es un montón de innumerables estrellas, tan juntas que a simple vista parecen leche derramada.",
+    "corte": true,
+    "texto": "No es niebla ni vapor, como discuten los filósofos: es un montón de innumerables estrellas, tan juntas que a simple vista parecen leche derramada.",
     "drama": 0.75,
     "fondo": {
      "lugar": "ocular",
@@ -1131,7 +1137,8 @@
    },
    {
     "dia": 12,
-    "texto": "Casi el doble que antes, por un tubo con dos cristales. La pega es que el sueldo queda congelado para siempre. Y Matsoléni sigue cobrando seis escudos.",
+    "corte": true,
+    "texto": "Mil florines, casi el doble que antes, por un tubo con dos cristales. La pega es que el sueldo queda congelado para siempre. Y Matsoléni sigue cobrando seis escudos.",
     "drama": 0.6,
     "fondo": {
      "lugar": "interior",
@@ -1293,7 +1300,8 @@
    },
    {
     "dia": 17,
-    "texto": "Del dos al cinco de enero vuelvo a la Luna creciente, y de noche, junto al brasero, escribo una carta a un noble de Florencia.",
+    "corte": true,
+    "texto": "Enero empieza tranquilo: del dos al cinco vuelvo a la Luna creciente, y de noche, junto al brasero, escribo una carta a un noble de Florencia. Tengo tanto que contarle.",
     "drama": 0.6,
     "fondo": {
      "lugar": "interior",
@@ -1480,6 +1488,7 @@
    },
    {
     "dia": 22,
+    "corte": true,
     "texto": "Junto a él hay tres estrellitas pequeñas pero muy brillantes, en línea recta: dos a un lado, al este, y una al otro, al oeste.",
     "drama": 0.85,
     "fondo": {
@@ -1616,7 +1625,8 @@
    },
    {
     "dia": 24,
-    "texto": "El sábado espero la noche con ansia, pero me llevo un chasco: el cielo está cubierto de nubes por todas partes. Me acuesto preguntándome dónde estarán ahora, y empiezo a dudar de todo.",
+    "corte": true,
+    "texto": "El sábado, nueve, espero la noche con ansia, pero me llevo un chasco: el cielo está cubierto de nubes por todas partes. Me acuesto preguntándome dónde estarán ahora, y empiezo a dudar de todo.",
     "drama": 0.7,
     "fondo": {
      "lugar": "campo",
@@ -1710,7 +1720,7 @@
    },
    {
     "dia": 26,
-    "texto": "El lunes, once, vuelven a estar las dos al este, y la más lejana parece casi el doble de grande que la otra. Ya no tengo dudas.",
+    "texto": "El lunes, once, vuelven a estar las dos al este, y la más lejana parece casi el doble de grande que la otra. Ya no tengo ninguna duda.",
     "drama": 0.8,
     "fondo": {
      "lugar": "ocular",
@@ -1730,6 +1740,7 @@
    },
    {
     "dia": 26,
+    "corte": true,
     "texto": "Giran alrededor de Júpiter, igual que Venus y Mercurio giran alrededor del Sol. Un planeta con su propio cortejo de estrellas.",
     "drama": 0.85,
     "fondo": {
@@ -1957,6 +1968,7 @@
    },
    {
     "dia": 29,
+    "corte": true,
     "texto": "Si Júpiter arrastra sus lunas por el cielo, ¿por qué no iba la Tierra a llevar la suya alrededor del Sol? Es el argumento que me faltaba contra quienes rechazan a Copérnico.",
     "drama": 0.8,
     "fondo": {
@@ -2064,7 +2076,7 @@
     "camara": "cerca"
    },
    {
-    "texto": "Mi libro, el Mensajero de las estrellas, sale en Venecia el trece de marzo: quinientos cincuenta ejemplares, agotados en una semana.",
+    "texto": "Mi libro, el Mensajero de las estrellas, sale en Venecia el trece de marzo de mil seiscientos diez: quinientos cincuenta ejemplares, agotados en una semana.",
     "drama": 0.7,
     "fondo": {
      "lugar": "rio",
@@ -2106,6 +2118,7 @@
     }
    },
    {
+    "corte": true,
     "texto": "A mis cuatro estrellitas les pongo nombre: estrellas Medicheas, por el Gran Duque Cósimo de Médichi y sus tres hermanos. Cuatro lunas, cuatro hermanos.",
     "drama": 0.65,
     "fondo": {
@@ -2220,7 +2233,7 @@
     "camara": "paneo"
    },
    {
-    "texto": "Marina y el pequeño Vinchénso se quedan en Padua. Mis hijas acabarán monjas en un convento, y Virjinia, ya sor María Celeste, me escribirá las cartas más cariñosas de mi vida.",
+    "texto": "Marina y el pequeño Vinchénso se quedan en Padua. Mis hijas acabarán monjas, y Virjinia, ya sor María Celeste, me escribirá cartas llenas de cariño.",
     "drama": 0.55,
     "fondo": {
      "lugar": "calle",
@@ -2308,6 +2321,7 @@
     "camara": "lenta"
    },
    {
+    "corte": true,
     "texto": "Muero en Archétri, ciego, el ocho de enero de mil seiscientos cuarenta y dos: treinta y dos años y un día después de ver las tres estrellitas.",
     "drama": 0.6,
     "personajes": [
@@ -2328,7 +2342,7 @@
     }
    },
    {
-    "texto": "Y para que no te engañen: no fui el primero en mirar la Luna con un anteojo, y lo de soltar bolas desde la torre de Pisa probablemente nunca pasó. Lo mío fue entenderlo y contarlo.",
+    "texto": "Y para que no te engañen: no fui el primero en mirar la Luna con un anteojo, y lo de la torre de Pisa probablemente nunca pasó. Lo mío fue entenderlo y contarlo.",
     "drama": 0.6,
     "fondo": {
      "lugar": "campo",
@@ -2363,7 +2377,7 @@
     "camara": "general"
    },
    {
-    "texto": "Galileo Galiléi y las personas de este vídeo fueron reales, como las fechas, las noches nubladas y mis palabras escritas. Mis pensamientos y las escenas de cada día son imaginados.",
+    "texto": "Galileo Galiléi y las personas de este vídeo fueron reales, como las fechas y las noches nubladas. Mis pensamientos y las escenas de cada día son imaginados.",
     "drama": 0.6,
     "fondo": {
      "lugar": "interior",
@@ -2468,7 +2482,7 @@
   ],
   "miniatura": {
    "texto": "TRES ESTRELLITAS",
-   "escena": 36,
+   "escena": 32,
    "quien": "galileonoche",
    "emocion": "sorpresa",
    "prop": "anteojo"
@@ -2476,23 +2490,19 @@
   "shorts": [
    {
     "titulo": "Vio algo que nadie había visto nunca… y tardó 4 noches en entenderlo",
-    "descripcion": "Padua, diciembre de 1609: Galileo Galilei, 45 años, y el anteojo de 20 aumentos que pulió él mismo. #shorts #historia #galileo"
+    "descripcion": "Padua, diciembre de 1609: Galileo Galilei, 45 años, y el anteojo de unos 20 aumentos que pulió él mismo. #shorts #historia #galileo"
    },
    {
     "titulo": "Casi todas sus lentes acababan en la basura",
     "descripcion": "El taller de Galileo en Padua: vidrio de Murano, polvo abrasivo y un artesano que cobraba 6 escudos al año. #shorts #historia #ciencia"
    },
    {
-    "titulo": "La Luna no es perfecta",
-    "descripcion": "Diciembre de 1609: Galileo dibuja montañas y cráteres en la Luna con aguadas de sepia. #shorts #historia #galileo"
-   },
-   {
-    "titulo": "Midió las montañas de la Luna sin salir de casa",
-    "descripcion": "Cuatro millas de alto, calculadas con geometría; y un profesor con estudiantes en pensión. #shorts #historia #ciencia"
+    "titulo": "La Luna no es perfecta: tiene montañas",
+    "descripcion": "Diciembre de 1609: Galileo dibuja la Luna con aguadas de sepia y calcula que algunas montañas miden al menos 4 millas. #shorts #historia #galileo"
    },
    {
     "titulo": "Estrellas que ningún ojo humano había visto",
-    "descripcion": "Orión, las Pléyades y un cielo que se llena de estrellas; y el frío de las noches de Padua. #shorts #historia #astronomia"
+    "descripcion": "Un profesor con estudiantes en pensión, Orión y las Pléyades llenas de estrellas, y el frío de las noches de Padua. #shorts #historia #astronomia"
    },
    {
     "titulo": "Ninguna partida de bautismo lleva su nombre",
@@ -2500,47 +2510,39 @@
    },
    {
     "titulo": "La Vía Láctea no es leche",
-    "descripcion": "Galileo apunta su anteojo a la mancha blanca del cielo: un montón de innumerables estrellas. #shorts #historia #astronomia"
+    "descripcion": "Un montón de innumerables estrellas, las deudas de familia y el campanario de San Marcos en agosto de 1609. #shorts #historia #astronomia"
    },
    {
     "titulo": "1.000 florines al año por un tubo con dos cristales",
-    "descripcion": "Agosto de 1609: el anteojo para el dux Leonardo Donà, un sueldo de por vida… y un invento que no era suyo (Thomas Harriot ya había dibujado la Luna). #shorts #historia #galileo"
+    "descripcion": "Agosto de 1609: el anteojo para el dux Leonardo Donà, un sueldo de por vida… un invento que nació en los Países Bajos, y un inglés, Thomas Harriot, que dibujó la Luna antes. #shorts #historia #galileo"
    },
    {
-    "titulo": "En Venecia el año nuevo llegaba en marzo",
-    "descripcion": "Fin de 1609 en Padua: la última lente buena, el calendario veneciano y una carta a Florencia. #shorts #historia #galileo"
+    "titulo": "7 de enero de 1610: Galileo apunta a Júpiter",
+    "descripcion": "Reyes, una carta a Florencia y la primera hora de la noche en que todo empezó. #shorts #historia #astronomia"
    },
    {
-    "titulo": "7 de enero de 1610: tres estrellitas junto a Júpiter",
-    "descripcion": "La primera hora de la noche en que todo empezó. #shorts #historia #astronomia #jupiter"
-   },
-   {
-    "titulo": "Se habían cambiado de lado",
-    "descripcion": "8 y 9 de enero de 1610: las tres estrellitas al oeste… y después, nubes. #shorts #historia #galileo"
+    "titulo": "Tres estrellitas junto a Júpiter… que se cambiaron de lado",
+    "descripcion": "7 y 8 de enero de 1610: dos al este y una al oeste; al día siguiente, las tres al oeste. #shorts #historia #galileo"
    },
    {
     "titulo": "¿Dónde está la tercera?",
-    "descripcion": "10 y 11 de enero de 1610: Galileo comprende que las estrellitas giran alrededor de Júpiter. #shorts #historia #astronomia"
+    "descripcion": "9, 10 y 11 de enero de 1610: una noche nublada y la prueba de que las estrellitas se mueven. #shorts #historia #astronomia"
    },
    {
     "titulo": "Ya no eran tres. Eran cuatro",
-    "descripcion": "13 de enero de 1610: la cuarta luna de Júpiter, y una noche nublada de nervios. #shorts #historia #galileo"
+    "descripcion": "11 a 14 de enero de 1610: giran alrededor de Júpiter, las notas noche a noche y la cuarta estrellita. #shorts #historia #galileo"
    },
    {
     "titulo": "Si Júpiter lleva lunas, la Tierra puede llevar la suya",
-    "descripcion": "El argumento que Galileo le debía a Copérnico, y la noche del 15 de enero de 1610. #shorts #historia #ciencia"
+    "descripcion": "El argumento a favor de Copérnico, la noche del 15 de enero y el libro de marzo de 1610. #shorts #historia #ciencia"
    },
    {
     "titulo": "Cuatro lunas, cuatro hermanos Medici",
-    "descripcion": "Marzo de 1610: el Sidereus Nuncius, 550 ejemplares agotados en una semana, y los nombres que vinieron después. #shorts #historia #galileo"
+    "descripcion": "Las estrellas Mediceas, los nombres que vinieron después, Florencia, Marina Gamba y el proceso de 1633. #shorts #historia #galileo"
    },
    {
     "titulo": "Murió 32 años y un día después",
-    "descripcion": "Florencia, el convento de sus hijas, el proceso de 1633 y Arcetri, 8 de enero de 1642. #shorts #historia #galileo"
-   },
-   {
-    "titulo": "Lo que Galileo NO hizo",
-    "descripcion": "Ni inventó el telescopio ni soltó bolas desde la torre de Pisa. Lo suyo fue entender y contar. #shorts #historia #galileo"
+    "descripcion": "Arcetri, 8 de enero de 1642, y lo que Galileo NO hizo: ni fue el primero en mirar la Luna ni soltó bolas desde la torre de Pisa. #shorts #historia #galileo"
    }
   ]
  },
