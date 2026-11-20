@@ -8,7 +8,7 @@ export const PROPS_DISPONIBLES = [
   "arbol", "pino", "palmera", "casa", "cabana", "faro", "barco", "velero", "cohete", "farola", "carro", "puesto",
   "roca", "valla", "pozo", "tumba", "hoguera", "tienda", "bandera", "mesa", "estanteria", "chimenea", "cama",
   "antorcha", "cuadro", "consola", "maquina", "barril", "cajas", "planta", "telescopio", "yunque", "piramide", "columna", "reloj",
-  "bergantin", "bergantin-hundido", "bote",
+  "bergantin-hielo", "bergantin-hundido", "bote",
   "volcan", "volcan-erupcion", "bergantin", "cruz", "parapeto-aleman", "lecho", "estatua-saturno", "electrometro", "cristalizadores", "espectro", "humo", "explosion", "horno", "molino", "anfora", "termopolio",
   "casa-adobe", "habitat", "invernadero", "rover", "panel-solar", "antena",
   "escalera", "puerta", "tesoro", "sarcofago", "mascara", "estatua", "jarron", "carro-dorado",
@@ -29,6 +29,11 @@ export const PROPS_DISPONIBLES = [
   "tumulo", "tumulo-obra", "tumulo-hierba", "entrada-tumulo", "losa-grabada", "losa-rodillos", "casa-neolitica", "piragua", "piragua-piedras",
   "rayo-solsticio", "rayo-solsticio-entra", "rayo-solsticio-avanza", "rayo-solsticio-ensancha", "rayo-solsticio-sale",
   "rayo-solsticio-corto", "rayo-solsticio-hilo", "rayo-solsticio-pleno",
+  // islas Flannan (1900)
+  "faro-blanco", "faro-apagado", "isla-faro", "isla-faro-apagada", "embarcadero", "embarcadero-roto", "ola", "bengala",
+  "lampara-faro", "reloj-parado", "chimenea-apagada", "perchero", "pizarra", "capilla",
+  // terremoto de Mesina (1908)
+  "escombros",
 ] as const;
 
 // Espiral grabada (arte megalítico): devuelve el trazo de una espiral de Arquímedes
@@ -84,6 +89,72 @@ const Brillo: React.FC<{ r: number; o: number; color?: string; cx?: number; cy?:
     <circle cx={cx} cy={cy} r={r} fill={`url(#brillo-${color.slice(1)})`} opacity={o} />
   </g>
 );
+
+// Faro de las islas Flannan: torre blanca sin franjas, casa baja de piedra clara, muro del patio y verja.
+// luz = false: linterna oscura (nunca encendida). haz: largo del haz giratorio de noche.
+const FaroBlanco: React.FC<{ f: number; noche: boolean; luz: boolean; haz?: number }> = ({ f, noche, luz, haz = 2000 }) => {
+  const g = (f * 2.2) % 360;
+  const c = Math.cos((g * Math.PI) / 180);
+  const blanco = noche ? "#c9ccd2" : "#f3f1ea";
+  const sombra = noche ? "#a6a9b0" : "#dcd8ce";
+  const piedra = noche ? "#a39d92" : "#d3cbb8";
+  const tejado = noche ? "#33373c" : "#4a4f55";
+  const hierro = "#26292d";
+  const encendida = luz && noche;
+  const cristal = encendida ? "#ffe9a3" : luz ? "#bcd6e0" : noche ? "#1b2026" : "#3a4650";
+  return (
+    <g>
+      {encendida && (
+        <g transform="translate(0 -535)">
+          <polygon points={`0,0 ${haz},${-haz * 0.1} ${haz},${haz * 0.1}`} fill="#fff3c4" opacity={0.24 * Math.abs(c)} transform={`scale(${c >= 0 ? 1 : -1} 1)`} />
+          <circle r={110} fill="#fff3c4" opacity={0.3} />
+        </g>
+      )}
+      {/* casa baja de los fareros, pegada a la torre */}
+      <rect x={30} y={-185} width={500} height={185} fill={piedra} />
+      <rect x={30} y={-185} width={500} height={14} fill="#000" opacity={0.08} />
+      <polygon points="20,-185 540,-185 500,-245 60,-245" fill={tejado} />
+      {[150, 400].map((x) => <rect key={x} x={x} y={-285} width={34} height={60} fill={piedra} stroke="#00000022" strokeWidth={3} />)}
+      {[120, 250, 380].map((x) => (
+        <rect key={x} x={x} y={-150} width={56} height={70} fill={encendida ? "#ffd27a" : noche ? "#1e2228" : "#4f5d68"} stroke={oscurecer(piedra, 0.25)} strokeWidth={8} />
+      ))}
+      {/* torre */}
+      <polygon points="-80,0 80,0 62,-470 -62,-470" fill={blanco} />
+      <polygon points="30,0 80,0 62,-470 28,-470" fill={sombra} />
+      {[-180, -330].map((y) => <rect key={y} x={-12} y={y} width={24} height={44} rx={10} fill="#3a4048" />)}
+      {/* balcón, linterna y cúpula */}
+      <rect x={-86} y={-492} width={172} height={22} fill={hierro} />
+      <g stroke={hierro} strokeWidth={4}>
+        {[-80, -56, -32, -8, 16, 40, 64, 80].map((x) => <line key={x} x1={x} y1={-492} x2={x} y2={-528} />)}
+        <line x1={-82} y1={-528} x2={82} y2={-528} strokeWidth={6} />
+      </g>
+      <rect x={-48} y={-582} width={96} height={90} fill={cristal} />
+      {encendida && <Brillo cy={-537} r={90} o={0.7} color="#fff3c4" />}
+      <g stroke={hierro} strokeWidth={6}>
+        <rect x={-48} y={-582} width={96} height={90} fill="none" />
+        <line x1={-16} y1={-582} x2={-16} y2={-492} />
+        <line x1={16} y1={-582} x2={16} y2={-492} />
+        <line x1={-48} y1={-540} x2={48} y2={-540} strokeWidth={4} />
+      </g>
+      <path d="M-58 -582 Q-50 -628 0 -636 Q50 -628 58 -582Z" fill={hierro} />
+      <circle cx={0} cy={-646} r={11} fill={hierro} />
+      {/* muro del patio, más bajo, y la verja de hierro */}
+      <rect x={-430} y={-80} width={1000} height={80} fill={piedra} />
+      <rect x={-438} y={-90} width={1016} height={14} fill={oscurecer(piedra, 0.15)} />
+      {Array.from({ length: 16 }).map((_, i) => (
+        <rect key={i} x={-420 + i * 62} y={-62 + (i % 2) * 28} width={50} height={22} rx={4} fill={oscurecer(piedra, 0.06 + random(`fb${i}`) * 0.08)} />
+      ))}
+      <rect x={-290} y={-122} width={26} height={122} fill={oscurecer(piedra, 0.12)} />
+      <rect x={-150} y={-122} width={26} height={122} fill={oscurecer(piedra, 0.12)} />
+      <rect x={-264} y={-96} width={114} height={96} fill={noche ? "#4a4c48" : "#7a8a5a"} />
+      <g stroke={hierro} strokeWidth={5}>
+        {[-256, -240, -224, -208, -192, -176, -160].map((x) => <line key={x} x1={x} y1={-104} x2={x} y2={0} />)}
+        <line x1={-264} y1={-90} x2={-150} y2={-90} />
+        <line x1={-264} y1={-40} x2={-150} y2={-40} />
+      </g>
+    </g>
+  );
+};
 
 export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: number }> = ({ tipo, f, noche, dur = 360 }) => {
   const llama = (x: number, y: number, s = 1) => (
@@ -571,17 +642,22 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: num
         </g>
       );
     case "reloj":
+    case "reloj-parado": {
+      // reloj de pie; "reloj-parado": nadie le dio cuerda, agujas y péndulo quietos
+      const parado = tipo === "reloj-parado";
+      const pendulo = parado ? 0 : Math.sin(f / 8) * 14;
       return (
         <g>
           <rect x={-90} y={-720} width={180} height={720} fill="#5a3d28" />
           <circle cx={0} cy={-580} r={70} fill="#f0e6d2" />
-          <line x1={0} y1={-580} x2={0} y2={-630} stroke="#222" strokeWidth={8} transform={`rotate(${f * 0.5} 0 -580)`} />
-          <line x1={0} y1={-580} x2={40} y2={-580} stroke="#222" strokeWidth={8} />
-          <line x1={0} y1={-480} x2={0} y2={-220} stroke="#c9a24a" strokeWidth={8} transform={`rotate(${Math.sin(f / 8) * 14} 0 -480)`} />
-          <circle cx={Math.sin((Math.sin(f / 8) * 14 * Math.PI) / 180) * -260} cy={-480 + Math.cos((Math.sin(f / 8) * 14 * Math.PI) / 180) * 260} r={24} fill="#c9a24a" />
+          <line x1={0} y1={-580} x2={0} y2={-630} stroke="#222" strokeWidth={8} transform={`rotate(${parado ? 200 : f * 0.5} 0 -580)`} />
+          <line x1={0} y1={-580} x2={40} y2={-580} stroke="#222" strokeWidth={8} transform={parado ? "rotate(-30 0 -580)" : undefined} />
+          <line x1={0} y1={-480} x2={0} y2={-220} stroke="#c9a24a" strokeWidth={8} transform={`rotate(${pendulo} 0 -480)`} />
+          <circle cx={Math.sin((pendulo * Math.PI) / 180) * -260} cy={-480 + Math.cos((pendulo * Math.PI) / 180) * 260} r={24} fill="#c9a24a" />
         </g>
       );
-    case "bergantin":
+    }
+    case "bergantin-hielo":
     case "bergantin-hundido": {
       // barco de tres palos atrapado en el hielo (tipo Endurance); la versión hundida está escorada y medio tragada
       const hundido = tipo === "bergantin-hundido";
@@ -1787,6 +1863,448 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: num
               return <circle key={i} cx={x} cy={y} r={2.5 + random(`rr${i}`) * 3.5} fill="#fff8e0" opacity={(0.35 + 0.6 * Math.abs(Math.sin(f / (6 + random(`rt${i}`) * 8) + i))) * Math.min(1, largo * 2)} />;
             })}
           </g>
+        </g>
+      );
+    }
+    // ---------- Islas Flannan (Escocia, 1900) ----------
+    case "faro-blanco":
+    case "faro-apagado":
+      // torre blanca sin franjas con la casa baja de piedra clara, el muro del patio y la verja.
+      // "faro-apagado": la linterna oscura, nunca encendida
+      return <FaroBlanco f={f} noche={noche} luz={tipo === "faro-blanco"} />;
+    case "isla-faro":
+    case "isla-faro-apagada": {
+      // Eilean Mòr vista desde el mar (plano MEDIO, sobre el agua): acantilados oscuros, cima verde y el faro arriba
+      const luz = tipo === "isla-faro";
+      const roca = noche ? "#262628" : "#3e3c3a";
+      const roca2 = noche ? "#1d1d20" : "#312f2e";
+      const verde = noche ? "#3a4a30" : "#6f8f4a";
+      const borde: [number, number][] = [[-640, 0], [-655, -70], [-622, -120], [-640, -175], [-598, -240], [-540, -272], [-470, -282], [-400, -306], [-300, -318], [-190, -342], [-80, -360], [40, -374], [150, -378], [260, -366], [360, -346], [440, -318], [500, -300], [548, -262], [585, -205], [570, -150], [604, -96], [592, -40], [618, 0]];
+      const linea = borde.map(([x, y], i) => `${i ? "L" : "M"}${x} ${y}`).join(" ");
+      const arriba = borde.slice(1, -1);
+      const grosor = (i: number) => 8 + 52 * Math.sin((Math.PI * i) / (arriba.length - 1));
+      const abajo = arriba.map(([x, y], i) => [x, y + grosor(i)] as [number, number]).reverse();
+      const cima = `M${arriba.map(([x, y]) => `${x} ${y}`).join(" L")} L${abajo.map(([x, y]) => `${x} ${y}`).join(" L")}Z`;
+      const labio = `M${abajo.map(([x, y]) => `${x} ${y}`).join(" L")} L${arriba.map(([x, y], i) => `${x} ${y + grosor(i) + 14}`).join(" L")}Z`;
+      return (
+        <g>
+          {/* dos islotes de los Siete Cazadores a los lados */}
+          <path d="M-960 0 L-930 -90 L-880 -120 L-830 -100 L-805 0Z" fill={roca2} />
+          <path d="M-930 -90 L-880 -120 L-830 -100 L-880 -108Z" fill={verde} />
+          <path d="M790 0 L810 -60 L860 -78 L900 -52 L915 0Z" fill={roca2} />
+          <path d={`${linea} Z`} fill={roca} />
+          {/* cara del acantilado: grietas verticales, repisas y la cara en sombra */}
+          <path d="M300 -352 L440 -318 L500 -300 L548 -262 L585 -205 L570 -150 L604 -96 L592 -40 L618 0 L330 0 L360 -120 L300 -230Z" fill={roca2} opacity={0.8} />
+          <path d="M-640 0 L-655 -70 L-622 -120 L-640 -175 L-598 -240 L-540 -272 L-520 -200 L-560 -120 L-540 0Z" fill="#fff" opacity={0.06} />
+          {/* contrafuertes y grietas verticales */}
+          {Array.from({ length: 13 }).map((_, i) => {
+            const x = -580 + i * 92 + random(`if${i}`) * 30;
+            const alto = 180 + random(`ih${i}`) * 110;
+            return <path key={i} d={`M${x} -6 L${x + 14 - random(`ig${i}`) * 28} ${-alto * 0.5} L${x + 6} ${-alto}`} stroke="#000" strokeOpacity={0.28} strokeWidth={7} fill="none" />;
+          })}
+          {/* estratos y repisas con guano */}
+          {[[-560, -210, 230], [-300, -250, 280], [80, -270, 220], [-480, -120, 300], [-60, -150, 260], [240, -110, 200], [-260, -60, 240]].map(([x, y, w], i) => (
+            <g key={i}>
+              <path d={`M${x} ${y} q${w / 2} ${-10 + (i % 2) * 18} ${w} 0`} stroke="#000" strokeOpacity={0.25} strokeWidth={5} fill="none" />
+              <path d={`M${x + 10} ${y - 5} q${w / 2} ${-10 + (i % 2) * 18} ${w - 20} 0`} stroke="#e8e4da" strokeOpacity={noche ? 0.1 : 0.22} strokeWidth={4} fill="none" />
+            </g>
+          ))}
+          {/* la grieta del embarcadero */}
+          <path d="M-380 0 L-360 -150 L-330 -230 L-300 -150 L-300 0Z" fill="#000" opacity={0.35} />
+          {/* cima de hierba: más gruesa en el centro, se afila hacia los bordes del acantilado */}
+          <path d={cima} fill={verde} />
+          <path d={labio} fill="#000" opacity={0.18} />
+          {/* el faro arriba, pequeño, sobre un lomo de hierba */}
+          <ellipse cx={150} cy={-368} rx={240} ry={20} fill={verde} />
+          <g transform="translate(110 -372) scale(0.34)">
+            <FaroBlanco f={f} noche={noche} luz={luz} haz={5200} />
+          </g>
+          {/* espuma al pie */}
+          {Array.from({ length: 9 }).map((_, i) => {
+            const t = (f / 40 + i * 0.37) % 1;
+            return <ellipse key={i} cx={-640 + i * 158} cy={-4} rx={60 + t * 50} ry={10 + t * 6} fill="#fff" opacity={0.55 * (1 - t)} />;
+          })}
+          <rect x={-670} y={-6} width={1300} height={10} rx={5} fill="#e8eef2" opacity={0.45 + 0.15 * Math.sin(f / 9)} />
+        </g>
+      );
+    }
+    case "embarcadero":
+    case "embarcadero-roto": {
+      // embarcadero oeste: grieta en la roca con escalones de hormigón que bajan al mar, grúa de hierro en una
+      // plataforma con barandilla, la caja de los cabos y la vía del tranvía. "-roto": barandillas retorcidas,
+      // cabos esparcidos y la caja arrancada; la grúa sigue en pie. La grieta queda algo a la derecha (x ≈ +0.3).
+      const roto = tipo === "embarcadero-roto";
+      const roca = noche ? "#2a2928" : "#454240";
+      const roca2 = noche ? "#211f1e" : "#383533";
+      const verde = noche ? "#3a4a30" : "#6d8a48";
+      const hormigon = noche ? "#8a877f" : "#bdb8ac";
+      const hierro = "#24262a";
+      const cabo = "#c8b27a";
+      const vaiven = Math.sin(f / 18) * 4;
+      return (
+        <g>
+          {/* fondo de la grieta: el mar que sube y baja */}
+          <path d="M60 -180 L350 -180 L350 -95 L60 -95Z" fill={noche ? "#1a2a38" : "#4f6f80"} />
+          {[0, 1, 2].map((i) => {
+            const t = (f / 50 + i / 3) % 1;
+            return <ellipse key={i} cx={205 + Math.sin(i * 2.1) * 50} cy={-120 + t * 12} rx={70 + t * 40} ry={8} fill="#fff" opacity={0.6 * (1 - t)} />;
+          })}
+          {/* escalones de hormigón que bajan hacia el agua (más estrechos cuanto más lejos) */}
+          <path d="M-40 0 L370 0 L260 -112 L140 -112Z" fill={hormigon} />
+          {Array.from({ length: 10 }).map((_, i) => {
+            const t = Math.pow(i / 10, 0.8);
+            const y = -t * 112;
+            const x0 = -40 + t * 180;
+            const x1 = 370 - t * 110;
+            return <rect key={i} x={x0} y={y - 4} width={x1 - x0} height={5 + (1 - t) * 6} fill="#000" opacity={0.18} />;
+          })}
+          {/* pared izquierda de la grieta, con la plataforma de la grúa */}
+          <path d="M-860 0 L-860 -390 L-700 -440 L-540 -400 L-430 -330 L-60 -318 L40 -230 L90 -150 L40 -60 L-40 0Z" fill={roca} />
+          <path d="M-60 -318 L40 -230 L90 -150 L40 -60 L-40 0 L-120 0 L-20 -150Z" fill={roca2} />
+          <path d="M-860 -390 L-700 -440 L-540 -400 L-470 -360 L-560 -380 L-700 -418 L-860 -372Z" fill={verde} />
+          {/* pared derecha */}
+          <path d="M860 0 L860 -370 L700 -420 L540 -380 L420 -300 L330 -200 L300 -120 L340 -50 L370 0Z" fill={roca} />
+          <path d="M420 -300 L330 -200 L300 -120 L340 -50 L370 0 L460 0 L380 -160Z" fill={roca2} />
+          <path d="M860 -370 L700 -420 L540 -380 L470 -340 L560 -362 L700 -400 L860 -352Z" fill={verde} />
+          {Array.from({ length: 10 }).map((_, i) => {
+            const x = i < 5 ? -800 + i * 140 : 480 + (i - 5) * 80;
+            return <path key={i} d={`M${x} -20 L${x + 16} ${-120 - random(`eg${i}`) * 160}`} stroke="#000" strokeOpacity={0.2} strokeWidth={6} />;
+          })}
+          {/* vía del tranvía que sube a la plataforma */}
+          <g stroke={hierro} strokeWidth={7}>
+            <line x1={-760} y1={0} x2={-400} y2={-318} />
+            <line x1={-640} y1={0} x2={-360} y2={-318} />
+          </g>
+          {Array.from({ length: 9 }).map((_, i) => {
+            const t = i / 9;
+            return <line key={i} x1={-776 + t * 380} y1={-t * 318} x2={-620 + t * 268} y2={-t * 318} stroke="#5a4632" strokeWidth={10} />;
+          })}
+          {/* plataforma de hormigón */}
+          <path d="M-430 -330 L-50 -330 L-50 -300 L-430 -300Z" fill={hormigon} />
+          <rect x={-430} y={-300} width={380} height={14} fill="#000" opacity={0.2} />
+          {/* grúa de hierro: mástil, pluma sobre la grieta, tirante y gancho */}
+          <g>
+            <rect x={-270} y={-360} width={60} height={30} fill={hierro} />
+            <rect x={-252} y={-640} width={24} height={290} fill={hierro} />
+            <path d="M-240 -360 L60 -560" stroke={hierro} strokeWidth={18} strokeLinecap="round" />
+            <path d="M-240 -640 L60 -560" stroke={hierro} strokeWidth={5} />
+            <path d="M-240 -640 L-400 -332" stroke={hierro} strokeWidth={5} />
+            <circle cx={-240} cy={-400} r={18} fill="#3a3c40" stroke={hierro} strokeWidth={5} />
+            <g transform={`rotate(${vaiven} 60 -560)`}>
+              <line x1={60} y1={-560} x2={60} y2={-400} stroke="#3a3c40" strokeWidth={4} />
+              <path d="M60 -400 q0 18 -14 18 q-12 0 -12 -12" stroke={hierro} strokeWidth={6} fill="none" />
+            </g>
+          </g>
+          {/* barandillas de la plataforma */}
+          {!roto ? (
+            <g stroke={hierro} strokeWidth={6}>
+              {[-420, -340, -150, -60].map((x) => <line key={x} x1={x} y1={-330} x2={x} y2={-400} />)}
+              <line x1={-420} y1={-398} x2={-60} y2={-398} />
+              <line x1={-420} y1={-366} x2={-60} y2={-366} />
+            </g>
+          ) : (
+            <g stroke={hierro} strokeWidth={6} fill="none" strokeLinecap="round">
+              <line x1={-420} y1={-330} x2={-420} y2={-400} />
+              <path d="M-420 -398 Q-380 -400 -350 -380 Q-310 -350 -290 -392 Q-250 -440 -200 -410" />
+              <path d="M-420 -366 Q-370 -350 -340 -330" />
+              <line x1={-340} y1={-330} x2={-310} y2={-392} />
+              <path d="M-150 -330 Q-140 -360 -100 -372 Q-60 -380 -40 -352" />
+              <path d="M-60 -330 Q-40 -300 10 -290 Q50 -284 60 -250" />
+              <path d="M-120 -398 Q-90 -420 -70 -410" />
+            </g>
+          )}
+          {/* la caja de los cabos y los cabos: en su sitio, o esparcidos por las rocas */}
+          {!roto ? (
+            <g>
+              <rect x={-410} y={-372} width={84} height={42} fill="#7a5a38" stroke="#4a3426" strokeWidth={4} />
+              <rect x={-414} y={-378} width={92} height={10} fill="#5a4028" />
+              <g stroke={cabo} strokeWidth={6} fill="none">
+                {[0, 1, 2].map((i) => <ellipse key={i} cx={-130} cy={-340 + i * 3} rx={34 - i * 8} ry={9 - i * 2} />)}
+              </g>
+            </g>
+          ) : (
+            <g>
+              {[[-400, -334, 12], [-360, -336, -20], [-318, -333, 34]].map(([x, y, r], i) => (
+                <rect key={i} x={x} y={y} width={30} height={7} fill="#6a4c30" transform={`rotate(${r} ${x} ${y})`} />
+              ))}
+              <g stroke={cabo} strokeWidth={6} fill="none" strokeLinecap="round">
+                <path d="M-200 -330 Q-160 -300 -120 -318 Q-60 -330 -20 -260 Q20 -200 70 -170" />
+                <path d="M-700 -60 Q-640 -110 -600 -80 Q-560 -50 -520 -110" />
+                <path d="M520 -290 Q560 -250 600 -280 Q650 -310 700 -260" />
+                <path d="M380 -40 Q420 -80 460 -60" />
+              </g>
+              {/* tepes de hierba arrancados */}
+              {[[-560, -386], [610, -375], [-680, -420]].map(([x, y], i) => <ellipse key={i} cx={x} cy={y} rx={26} ry={10} fill="#4a3a28" />)}
+            </g>
+          )}
+        </g>
+      );
+    }
+    case "ola": {
+      // ola enorme que revienta hacia arriba por la grieta: columna de agua blanca, espuma y rociones.
+      // Con "embarcadero", ponla en x ≈ 0.3 (sobre la grieta). Rompe cada ~5 s.
+      const T = 150;
+      const t = (f % T) / T;
+      const sube = t < 0.4 ? Math.sin((t / 0.4) * (Math.PI / 2)) : 1 - 0.75 * ((t - 0.4) / 0.6);
+      const h = 140 + sube * 440;
+      const agua = noche ? "#3f5a68" : "#7f9eac";
+      const espuma = "#ffffff";
+      const espuma2 = noche ? "#b7cad3" : "#cfdde3";
+      return (
+        <g>
+          {/* agua que entra por la grieta */}
+          <path d={`M-230 0 Q-170 ${-h * 0.4} -70 ${-h * 0.95} L70 ${-h * 0.95} Q170 ${-h * 0.4} 240 0Z`} fill={agua} opacity={0.9} />
+          {Array.from({ length: 9 }).map((_, i) => {
+            const x = -180 + i * 45;
+            return <path key={`v${i}`} d={`M${x} -10 Q${x * 0.6} ${-h * 0.5} ${x * 0.3} ${-h * 0.9}`} stroke={espuma} strokeWidth={5 + (i % 3) * 3} fill="none" opacity={0.55} strokeLinecap="round" />;
+          })}
+          {/* columna de espuma */}
+          {Array.from({ length: 34 }).map((_, i) => {
+            const v = i / 33;
+            const lado = (random(`ola-l${i}`) - 0.5) * 2;
+            const ancho = 70 + v * 170 * (0.6 + sube * 0.6);
+            const cx = lado * ancho + Math.sin(f / 9 + i) * 6;
+            const cy = -h * (0.55 + v * 0.45) - random(`ola-y2${i}`) * 30;
+            const r = (22 + random(`ola-r${i}`) * 30) * (0.7 + v * 0.7);
+            return (
+              <g key={i}>
+                <circle cx={cx} cy={cy} r={r} fill={espuma2} />
+                <circle cx={cx - r * 0.18} cy={cy - r * 0.2} r={r * 0.78} fill={espuma} />
+              </g>
+            );
+          })}
+          {/* cortinas de agua que caen hacia los lados */}
+          {[-1, 1].map((l) => [0, 1, 2].map((k) => (
+            <path key={`c${l}${k}`} d={`M${l * 40} ${-h} Q${l * (180 + k * 60) * (0.5 + sube)} ${-h - 90 * sube} ${l * (220 + k * 70) * (0.5 + sube)} ${-h * 0.35}`} stroke={espuma} strokeWidth={10 - k * 2} fill="none" strokeLinecap="round" opacity={0.7 * sube} />
+          )))}
+          {/* rociones que salen disparados */}
+          {Array.from({ length: 18 }).map((_, i) => {
+            const a = -Math.PI / 2 + (random(`ola-a${i}`) - 0.5) * 2.2;
+            const d = (120 + random(`ola-d${i}`) * 200) * sube;
+            const x0 = Math.cos(a) * 60;
+            const y0 = -h + Math.sin(a) * 40;
+            return <line key={`s${i}`} x1={x0} y1={y0} x2={x0 + Math.cos(a) * d} y2={y0 + Math.sin(a) * d} stroke={espuma} strokeWidth={6 + random(`ola-w${i}`) * 6} strokeLinecap="round" opacity={0.75 * sube} />;
+          })}
+          {Array.from({ length: 30 }).map((_, i) => {
+            const x = (random(`ola-x${i}`) - 0.5) * 640 * (0.3 + sube);
+            const y = -h - random(`ola-y${i}`) * 220 * sube + Math.sin(f / 4 + i) * 6;
+            return <circle key={`g${i}`} cx={x} cy={y} r={4 + random(`ola-g${i}`) * 8} fill={espuma} opacity={0.75 * sube} />;
+          })}
+          {/* hervidero de espuma al pie */}
+          {Array.from({ length: 9 }).map((_, i) => (
+            <ellipse key={`b${i}`} cx={-220 + i * 55} cy={-10 - (i % 2) * 14} rx={50} ry={22} fill={i % 2 ? espuma : espuma2} />
+          ))}
+        </g>
+      );
+    }
+    case "bengala": {
+      // cohete de señales: sube con estela de humo (primer 30 % de la escena) y estalla en estrellas que caen
+      const p = Math.min(1, f / Math.max(1, dur));
+      const subida = Math.min(1, p / 0.3);
+      const k = 1 - Math.pow(1 - subida, 2);
+      const cx = 90 * k;
+      const cy = -60 - 700 * k;
+      const estalla = p >= 0.3;
+      const q = estalla ? (p - 0.3) / 0.7 : 0;
+      return (
+        <g>
+          <path d={`M0 -60 Q${40 * k} ${-60 - 420 * k} ${cx} ${cy}`} stroke="#d9d6cf" strokeWidth={10 + 14 * k} fill="none" strokeLinecap="round" opacity={0.55 * (1 - q * 0.85)} />
+          {!estalla && (
+            <g transform={`translate(${cx} ${cy})`}>
+              <Brillo r={60} o={0.8} color="#ffcf6a" />
+              <circle r={10} fill="#fff6d0" />
+            </g>
+          )}
+          {estalla && (
+            <g transform={`translate(${cx} ${cy})`}>
+              {q < 0.12 && <circle r={260} fill="#fff6d8" opacity={0.5 * (1 - q / 0.12)} />}
+              <Brillo r={240 * (1 - q * 0.5)} o={0.6 * (1 - q)} color="#ff6a4a" />
+              {Array.from({ length: 16 }).map((_, i) => {
+                const a = (i / 16) * Math.PI * 2;
+                const r = 60 + 220 * Math.sqrt(q);
+                const x = Math.cos(a) * r;
+                const y = Math.sin(a) * r * 0.8 + 260 * q * q;
+                return (
+                  <g key={i} opacity={Math.max(0, 1 - q * 1.1)}>
+                    <line x1={x * 0.6} y1={y * 0.6 - 20 * q} x2={x} y2={y} stroke={i % 2 ? "#ffd27a" : "#ff7a5a"} strokeWidth={4} />
+                    <circle cx={x} cy={y} r={9} fill={i % 2 ? "#fff3c0" : "#ff8a6a"} />
+                  </g>
+                );
+              })}
+              <circle cy={300 * q * q} r={16 * (1 - q * 0.6)} fill="#ff3a2a" opacity={1 - q * 0.7} />
+            </g>
+          )}
+        </g>
+      );
+    }
+    case "lampara-faro": {
+      // lente de Fresnel de latón y cristal sobre su pedestal; gira despacio y de noche brilla la lámpara
+      const laton = "#b8893a";
+      const laton2 = "#8a6428";
+      const cristal = noche ? "#fff1c0" : "#cfe4ea";
+      const paneles = Array.from({ length: 6 }).map((_, i) => {
+        const a = f * 0.012 + (i / 6) * Math.PI * 2;
+        return { x: Math.sin(a) * 120, w: Math.cos(a), i };
+      }).filter((p) => p.w > 0.05);
+      return (
+        <g>
+          {/* pedestal de hierro con remates de latón */}
+          <path d="M-130 0 L130 0 L110 -40 L-110 -40Z" fill="#2e3136" />
+          <rect x={-46} y={-260} width={92} height={222} fill="#3a3e44" />
+          <rect x={-46} y={-260} width={20} height={222} fill="#fff" opacity={0.08} />
+          <rect x={-70} y={-160} width={140} height={14} fill={laton2} />
+          <rect x={-150} y={-286} width={300} height={28} rx={6} fill={laton} />
+          {noche && <Brillo cy={-470} r={460} o={0.55 + 0.05 * Math.sin(f / 5)} color="#ffe9a3" />}
+          {/* tambor de cristal */}
+          <path d="M-150 -290 L150 -290 Q178 -470 150 -650 L-150 -650 Q-178 -470 -150 -290Z" fill={cristal} opacity={0.92} />
+          {/* anillos de prismas de arriba y de abajo */}
+          {Array.from({ length: 7 }).map((_, i) => (
+            <path key={`a${i}`} d={`M-152 ${-300 - i * 14} Q0 ${-292 - i * 14} 152 ${-300 - i * 14}`} stroke={laton} strokeWidth={4} fill="none" opacity={0.9} />
+          ))}
+          {Array.from({ length: 7 }).map((_, i) => (
+            <path key={`b${i}`} d={`M-152 ${-640 + i * 14} Q0 ${-648 + i * 14} 152 ${-640 + i * 14}`} stroke={laton} strokeWidth={4} fill="none" opacity={0.9} />
+          ))}
+          {/* paneles de ojo de buey que giran */}
+          {paneles.map((p) => (
+            <g key={p.i} transform={`translate(${p.x} -470) scale(${p.w} 1)`}>
+              {[0, 1, 2, 3].map((r) => <ellipse key={r} cx={0} cy={0} rx={18 + r * 18} ry={22 + r * 22} fill="none" stroke={noche ? "#e8c46a" : "#9fbcc6"} strokeWidth={5} />)}
+              <circle r={12} fill={noche ? "#fffbe8" : "#e6f2f5"} />
+            </g>
+          ))}
+          {/* montantes de latón y brillo del cristal */}
+          {[-150, -75, 0, 75, 150].map((x) => <line key={x} x1={x} y1={-290} x2={x} y2={-650} stroke={laton2} strokeWidth={x === -150 || x === 150 ? 10 : 4} opacity={0.85} />)}
+          <rect x={-120} y={-640} width={18} height={340} fill="#fff" opacity={0.35} />
+          {/* remate */}
+          <rect x={-160} y={-668} width={320} height={22} rx={6} fill={laton} />
+          <path d="M-130 -668 Q0 -730 130 -668Z" fill={laton2} />
+          <circle cx={0} cy={-722} r={14} fill={laton} />
+        </g>
+      );
+    }
+    case "chimenea-apagada":
+      // hogar frío: sin fuego ni brillo, troncos carbonizados y ceniza gris
+      return (
+        <g>
+          <rect x={-240} y={-420} width={480} height={420} fill="#8a8178" />
+          <rect x={-280} y={-450} width={560} height={40} fill="#6b635b" />
+          <path d="M-140 0 L-140 -200 Q0 -300 140 -200 L140 0Z" fill="#1b1512" />
+          <path d="M-120 0 Q-60 -40 0 -36 Q70 -40 120 0Z" fill="#7d7a76" />
+          <rect x={-90} y={-46} width={150} height={22} rx={10} fill="#2a2420" transform="rotate(-8 -15 -35)" />
+          <rect x={-50} y={-40} width={140} height={20} rx={10} fill="#332b26" transform="rotate(10 20 -30)" />
+          {Array.from({ length: 10 }).map((_, i) => <circle key={i} cx={-100 + i * 22} cy={-8 - (i % 3) * 6} r={5} fill="#a19d98" />)}
+        </g>
+      );
+    case "perchero":
+      // tabla de pared con tres ganchos: dos vacíos y en el tercero un impermeable de hule oscuro
+      return (
+        <g>
+          <rect x={-170} y={-600} width={340} height={40} rx={6} fill="#6b4a32" />
+          <rect x={-170} y={-600} width={340} height={8} fill="#fff" opacity={0.12} />
+          {[-110, 0, 110].map((x) => (
+            <path key={x} d={`M${x} -578 L${x} -545 q0 14 14 14`} stroke="#2a2a2a" strokeWidth={9} fill="none" strokeLinecap="round" />
+          ))}
+          <g transform={`translate(110 -548) rotate(${Math.sin(f / 40) * 0.6})`}>
+            <path d="M-8 0 L-80 30 L-110 120 L-118 360 L-60 372 L0 360 L60 372 L118 360 L110 120 L80 30 L8 0Z" fill="#2b3127" />
+            <path d="M-80 30 L-128 90 L-150 250 L-118 260 L-110 120Z" fill="#232821" />
+            <path d="M-8 0 L-20 50 L0 360 L18 50 L8 0Z" fill="#1c201a" />
+            <path d="M-60 60 Q-70 200 -50 340" stroke="#8a9a80" strokeWidth={6} fill="none" opacity={0.35} />
+            <path d="M50 70 Q66 180 70 300" stroke="#8a9a80" strokeWidth={5} fill="none" opacity={0.25} />
+          </g>
+        </g>
+      );
+    case "pizarra": {
+      // pizarra de pared con marco de madera y apuntes a tiza
+      const tiza = "#e9e6dc";
+      return (
+        <g>
+          <rect x={-200} y={-720} width={400} height={290} rx={6} fill="#6b4a32" />
+          <rect x={-182} y={-702} width={364} height={254} fill="#2e3433" />
+          <rect x={-182} y={-702} width={364} height={254} fill="#fff" opacity={0.04} />
+          <g stroke={tiza} strokeWidth={4} fill="none" strokeLinecap="round" opacity={0.85}>
+            {Array.from({ length: 6 }).map((_, r) => {
+              const y = -670 + r * 38;
+              const n = 4 + ((r * 3) % 4);
+              let d = `M${-160} ${y}`;
+              for (let i = 0; i < n * 6; i++) d += ` q5 ${i % 2 ? 9 : -9} 10 0`;
+              return <path key={r} d={d} />;
+            })}
+          </g>
+          <rect x={-200} y={-436} width={400} height={14} fill="#5a3d28" />
+          <rect x={60} y={-446} width={36} height={10} rx={4} fill={tiza} />
+          <rect x={-140} y={-448} width={60} height={12} rx={3} fill="#3a2a1e" />
+        </g>
+      );
+    }
+    case "capilla":
+      // capilla en ruinas de San Flannan: muros de piedra seca sin techo, puerta baja y hierba encima
+      return (
+        <g>
+          <path d="M-200 0 L-200 -200 L-170 -214 L-120 -206 L-60 -224 L0 -300 L60 -228 L130 -210 L200 -196 L200 0Z" fill="#8a847a" />
+          <path d="M60 -228 L130 -210 L200 -196 L200 0 L80 0Z" fill="#000" opacity={0.12} />
+          {Array.from({ length: 30 }).map((_, i) => {
+            const fila = Math.floor(i / 6);
+            const x = -190 + (i % 6) * 64 + (fila % 2) * 30;
+            const y = -30 - fila * 38;
+            return <rect key={i} x={x} y={y} width={54} height={28} rx={8} fill={oscurecer("#8a847a", 0.06 + random(`cp${i}`) * 0.18)} />;
+          })}
+          <path d="M-40 0 L-40 -120 Q0 -150 40 -120 L40 0Z" fill="#1d1a16" />
+          <rect x={-56} y={-134} width={112} height={18} fill="#9a958c" />
+          {[[-180, -210], [-90, -216], [100, -218], [170, -202], [0, -298]].map(([x, y], i) => (
+            <path key={i} d={`M${x - 24} ${y + 6} q8 -26 16 -4 q6 -24 14 -2 q8 -20 14 4Z`} fill="#5f7d40" />
+          ))}
+        </g>
+      );
+    // ---------- Terremoto de Mesina (1908) ----------
+    case "escombros": {
+      // ruinas de una ciudad de piedra: fachada enlucida partida con su ventana, muro gris caído, vigas,
+      // tejas y un montón de cascotes, con polvo que sube. (`ruinas` es una casa de madera)
+      const k = noche ? 0.4 : 0;
+      const enlucido = oscurecer("#d6b88c", k);
+      const piedra = oscurecer("#9a9286", k);
+      const cascote = ["#b3a690", "#9c907c", "#c4b59a", "#8a8070"].map((c) => oscurecer(c, k));
+      const viga = oscurecer("#6a4e34", k);
+      const teja = oscurecer("#a8553a", k);
+      return (
+        <g>
+          {/* fachada partida, con la piedra a la vista donde cayó el enlucido */}
+          <path d="M-330 0 L-330 -430 L-270 -470 L-210 -420 L-170 -450 L-110 -360 L-60 -300 L-20 -220 L-10 0Z" fill={enlucido} />
+          <path d="M-320 -300 L-260 -320 L-230 -260 L-290 -230Z" fill={piedra} />
+          <path d="M-150 -330 L-90 -320 L-70 -260 L-130 -250Z" fill={piedra} />
+          <rect x={-270} y={-380} width={90} height={150} fill="#1d1a18" />
+          <rect x={-280} y={-390} width={110} height={14} fill={oscurecer(enlucido, 0.15)} />
+          <path d="M-270 -230 L-180 -230" stroke="#2a2420" strokeWidth={6} />
+          {/* restos de balcón de hierro */}
+          <g stroke="#2a2a2a" strokeWidth={5} fill="none">
+            <path d="M-290 -230 L-150 -222 L-130 -190" />
+            {[-280, -255, -230, -205, -180].map((x, i) => <line key={x} x1={x} y1={-229} x2={x + (i - 2) * 6} y2={-190} />)}
+          </g>
+          <path d="M-330 -430 L-330 0 L-310 0 L-310 -440Z" fill="#000" opacity={0.15} />
+          {/* muro gris caído a la derecha */}
+          <path d="M60 0 L90 -260 L150 -300 L200 -230 L250 -250 L300 -120 L320 0Z" fill={piedra} />
+          {Array.from({ length: 12 }).map((_, i) => (
+            <rect key={i} x={90 + (i % 4) * 52 + (Math.floor(i / 4) % 2) * 20} y={-60 - Math.floor(i / 4) * 60} width={44} height={26} rx={5} fill={oscurecer(piedra, 0.08 + random(`es${i}`) * 0.12)} />
+          ))}
+          {/* vigas sueltas */}
+          <rect x={-120} y={-200} width={330} height={22} fill={viga} transform="rotate(-24 -120 -200)" />
+          <rect x={-40} y={-120} width={280} height={18} fill={oscurecer(viga, 0.15)} transform="rotate(18 -40 -120)" />
+          <rect x={150} y={-280} width={200} height={16} fill={viga} transform="rotate(40 150 -280)" />
+          {/* montón de cascotes, tejas y piedras */}
+          <path d="M-380 0 Q-300 -120 -150 -130 Q0 -170 140 -110 Q280 -90 380 0Z" fill={cascote[1]} />
+          {Array.from({ length: 34 }).map((_, i) => {
+            const x = -340 + random(`ec${i}`) * 680;
+            const alto = 120 * (1 - Math.pow(Math.abs(x) / 380, 2));
+            const y = -random(`ed${i}`) * alto;
+            const s = 14 + random(`ee${i}`) * 26;
+            const r = random(`ef${i}`) * 90;
+            return i % 6 === 0
+              ? <path key={i} d={`M${x - s * 0.8} ${y} q${s * 0.8} ${-s * 0.6} ${s * 1.6} 0Z`} fill={teja} transform={`rotate(${r * 0.4 - 18} ${x} ${y})`} />
+              : <rect key={i} x={x - s / 2} y={y - s / 2} width={s} height={s * 0.7} rx={4} fill={cascote[i % 4]} transform={`rotate(${r} ${x} ${y})`} />;
+          })}
+          {/* polvo que sube despacio */}
+          {Array.from({ length: 7 }).map((_, i) => {
+            const t = ((f * 0.6 + i * 60) % 420) / 420;
+            return <circle key={`p${i}`} cx={-260 + i * 85 + Math.sin(f / 40 + i) * 20} cy={-80 - t * 420} r={60 + t * 90} fill={noche ? "#6a645c" : "#d8ccb4"} opacity={0.32 * (1 - t)} />;
+          })}
         </g>
       );
     }

@@ -7,7 +7,7 @@ export type Hora = "amanecer" | "dia" | "atardecer" | "noche";
 export type Clima = "despejado" | "lluvia" | "nieve" | "niebla" | "tormenta" | "polvo" | "ceniza";
 export type Lugar =
   | "mar" | "playa" | "montanas" | "hielo" | "ciudad" | "futurista" | "desierto" | "campo"
-  | "bosque" | "espacio" | "luna" | "calle" | "selva" | "valle" | "marte" | "rio" | "trinchera" | "interior";
+  | "bosque" | "espacio" | "luna" | "calle" | "selva" | "valle" | "marte" | "rio" | "trinchera" | "isla" | "interior";
 export type PropEnEscena = string | { tipo: string; x?: number; escala?: number; detras?: boolean };
 
 export type Fondo = {
@@ -42,7 +42,7 @@ const TINTE: Record<Hora, { c: string; o: number }> = {
 
 const SUELOS: Partial<Record<Lugar, string>> = {
   mar: "#4d4a44", playa: "#d8bd8a", montanas: "#4f6b3e", hielo: "#e8f0f6", ciudad: "#5b5d63", futurista: "#2a2d3a",
-  desierto: "#d2a062", valle: "#c99a62", marte: "#9a4a2a", campo: "#6f9a4a", bosque: "#3f5f32", espacio: "#3a3f4f", luna: "#9a9aa2", calle: "#7a6e62", selva: "#2f5a2a", rio: "#6b7a4a", trinchera: "#4a3b2a",
+  desierto: "#d2a062", valle: "#c99a62", marte: "#9a4a2a", campo: "#6f9a4a", bosque: "#3f5f32", espacio: "#3a3f4f", luna: "#9a9aa2", calle: "#7a6e62", selva: "#2f5a2a", rio: "#6b7a4a", trinchera: "#4a3b2a", isla: "#6d8a48",
 };
 
 const cresta = (s: string, y: number, amp: number, picos: number) => {
@@ -263,6 +263,27 @@ const Exterior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string; cam?
       );
       break;
     }
+    case "isla": {
+      // cima de una isla atlántica: mar gris hasta el horizonte, islotes lejanos y espuma; ni árboles ni borda
+      const gris = hora === "dia" ? ["#7b8a94", "#6a7a85", "#5b6b76"] : c;
+      lejos = (
+        <g>
+          <path d={ola(HORIZONTE, 4, 70, f / 16)} fill={gris[0]} />
+          {[[-0.15, 70, 26], [0.12, 40, 18], [0.78, 90, 30], [0.9, 36, 14]].map(([x, w, h], i) => (
+            <path key={i} d={`M${x * MW - w} ${HORIZONTE + 4} L${x * MW - w * 0.5} ${HORIZONTE - h} L${x * MW + w * 0.4} ${HORIZONTE - h * 0.8} L${x * MW + w} ${HORIZONTE + 4}Z`} fill={hora === "dia" ? "#56636b" : c[1]} />
+          ))}
+          <path d={ola(HORIZONTE + 40, 6, 90, f / 12 + 1)} fill={gris[1]} />
+          <path d={ola(HORIZONTE + 95, 9, 110, f / 10 + 2)} fill={gris[2]} />
+          {Array.from({ length: 22 }).map((_, i) => {
+            const t = ((f / 70 + random(`ib${i}${id}`)) % 1);
+            const x = random(`ix${i}${id}`) * MW + f * 0.4;
+            const y = HORIZONTE + 20 + random(`iy${i}${id}`) * 150;
+            return <rect key={i} x={(x % (MW + 100)) - 50} y={y} width={30 + (y - HORIZONTE) * 0.3} height={3 + (y - HORIZONTE) * 0.02} rx={2} fill="#fff" opacity={0.5 * Math.sin(t * Math.PI)} />;
+          })}
+        </g>
+      );
+      break;
+    }
     case "campo":
       lejos = (
         <g>
@@ -327,6 +348,19 @@ const Exterior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string; cam?
       {/* suelo en primer plano */}
       <path d={`M0 ${SUELO - 30} Q${MW / 2} ${SUELO - 60} ${MW} ${SUELO - 30} L${MW} ${MH} L0 ${MH}Z`} fill={suelo} />
       {lugar === "trinchera" && <MuroTrinchera hora={hora} f={f} id={id} />}
+      {lugar === "isla" && (
+        // borde del acantilado: labio de roca entre la hierba y el mar, con matas de clavellina
+        <g>
+          <path d={`M0 ${SUELO - 30} Q${MW / 2} ${SUELO - 60} ${MW} ${SUELO - 30} L${MW} ${SUELO - 18} Q${MW / 2} ${SUELO - 46} 0 ${SUELO - 18}Z`} fill={oscurecer(suelo, 0.3)} />
+          {Array.from({ length: 12 }).map((_, i) => {
+            const x = 60 + i * 165 + random(`il${i}${id}`) * 60;
+            const y = SUELO - 30 - Math.sin((x / MW) * Math.PI) * 26;
+            return random(`im${i}${id}`) > 0.5
+              ? <path key={i} d={`M${x - 40} ${y + 6} Q${x - 20} ${y - 22} ${x + 10} ${y - 18} Q${x + 40} ${y - 10} ${x + 46} ${y + 6}Z`} fill={hora === "dia" ? "#7d7a74" : oscurecer(c[1], 0.1)} />
+              : <circle key={i} cx={x} cy={y - 4} r={9} fill={hora === "dia" ? "#e3a6b8" : "#6a5560"} />;
+          })}
+        </g>
+      )}
       {lugar === "mar" && (
         // borda de nuestro barco: la franja gris es la cubierta, no tierra
         <g>
@@ -339,7 +373,7 @@ const Exterior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string; cam?
         Array.from({ length: 60 }).map((_, i) => (
           <rect key={i} x={(i % 15) * 130 + (Math.floor(i / 15) % 2) * 65} y={SUELO - 10 + Math.floor(i / 15) * 60} width={118} height={50} rx={14} fill={oscurecer(suelo, 0.12)} />
         ))}
-      {(lugar === "campo" || lugar === "bosque" || lugar === "selva" || lugar === "montanas") &&
+      {(lugar === "campo" || lugar === "bosque" || lugar === "selva" || lugar === "montanas" || lugar === "isla") &&
         Array.from({ length: 40 }).map((_, i) => (
           <path key={i} d={`M${random(`gx${i}`) * MW} ${SUELO + random(`gy${i}`) * 500} l8 -30 l8 30`} fill={oscurecer(suelo, 0.2)} />
         ))}
@@ -644,7 +678,7 @@ const PrimerPlano: React.FC<{ fondo: Fondo; f: number; id: string; cam?: Cam }> 
         <ellipse cx={1820} cy={1580} rx={240} ry={100} />
       </g>
     );
-  } else if (["campo", "bosque", "selva", "montanas", "valle"].includes(l)) {
+  } else if (["campo", "bosque", "selva", "montanas", "valle", "isla"].includes(l)) {
     piezas = (
       <g fill={oscuro} opacity={0.9}>
         {Array.from({ length: 16 }).map((_, i) => {
@@ -681,7 +715,7 @@ const PrimerPlano: React.FC<{ fondo: Fondo; f: number; id: string; cam?: Cam }> 
 const LEJANOS = ["parapeto-aleman", "volcan", "volcan-erupcion", "explosion", "piramide", "pilar", "templo-mayor"];
 const ESCALA_LEJANA: Record<string, number> = { "templo-mayor": 0.8, pilar: 0.75 };
 // Decorados de plano medio: sobre el agua o la llanura, entre el horizonte y el suelo
-const MEDIOS: Record<string, { y: number; k: number }> = { bergantin: { y: HORIZONTE + 95, k: 0.5 }, "ciudad-lago": { y: HORIZONTE + 40, k: 0.55 }, puente: { y: HORIZONTE + 95, k: 0.5 }, calzada: { y: HORIZONTE + 80, k: 0.6 }, canoa: { y: SUELO - 75, k: 0.8 }, piragua: { y: SUELO - 75, k: 0.8 }, "piragua-piedras": { y: SUELO - 75, k: 0.8 }, tumulo: { y: SUELO - 55, k: 0.6 }, "tumulo-obra": { y: SUELO - 55, k: 0.6 }, "tumulo-hierba": { y: SUELO - 55, k: 0.6 } };
+const MEDIOS: Record<string, { y: number; k: number }> = { bergantin: { y: HORIZONTE + 95, k: 0.5 }, "ciudad-lago": { y: HORIZONTE + 40, k: 0.55 }, puente: { y: HORIZONTE + 95, k: 0.5 }, calzada: { y: HORIZONTE + 80, k: 0.6 }, canoa: { y: SUELO - 75, k: 0.8 }, piragua: { y: SUELO - 75, k: 0.8 }, "piragua-piedras": { y: SUELO - 75, k: 0.8 }, tumulo: { y: SUELO - 55, k: 0.6 }, "tumulo-obra": { y: SUELO - 55, k: 0.6 }, "tumulo-hierba": { y: SUELO - 55, k: 0.6 }, "isla-faro": { y: HORIZONTE + 45, k: 0.55 }, "isla-faro-apagada": { y: HORIZONTE + 45, k: 0.55 } };
 
 // Un objeto pequeño (emoji) que cae sobre una mesa se apoya en el tablero, no en el suelo
 const EMOJI = /\p{Extended_Pictographic}/u;

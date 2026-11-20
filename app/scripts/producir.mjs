@@ -62,7 +62,7 @@ const ambienteDe = (e) => {
   const f = e.fondo;
   const props = (f.props ?? []).map((p) => (typeof p === "string" ? p : p.tipo));
   if (f.clima === "lluvia" || f.clima === "tormenta") return "lluvia";
-  if (f.lugar === "mar" || f.lugar === "playa") return "mar";
+  if (f.lugar === "mar" || f.lugar === "playa" || f.lugar === "isla") return "mar";
   if (f.lugar === "interior" && (props.includes("chimenea") || props.includes("hoguera"))) return "fuego";
   if (props.includes("hoguera")) return "fuego";
   if (f.lugar === "futurista" || f.lugar === "espacio" || f.lugar === "luna" || f.pared === "metal") return "zumbido";
