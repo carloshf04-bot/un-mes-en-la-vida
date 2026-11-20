@@ -220,7 +220,7 @@
     "escenas": [
       {
         "corte": true,
-        "texto": "Llevo quince inviernos picando piedra para una casa de muertos con una sola ventana. Dentro de veintidós días sabremos si el sol entra por ella. Si fallamos, habrá que esperar otro año.",
+        "texto": "Llevo quince inviernos picando piedra para una casa de muertos con una sola ventana. Dentro de veintiún días sabremos si el sol entra por ella. Si fallamos, habrá que esperar otro año.",
         "drama": 0.8,
         "fondo": {
           "lugar": "campo",
@@ -256,7 +256,7 @@
         "camara": "general"
       },
       {
-        "texto": "Me llamo Tarun. En realidad nadie sabe mi nombre, ni mi lengua, ni en qué creía: todo eso lo hemos inventado. Las piedras, no.",
+        "texto": "Me llamo Tarun. En realidad nadie sabe mi nombre, ni mi lengua, ni en qué creo: todo eso lo hemos inventado. Las piedras, no.",
         "drama": 0.6,
         "personajes": [
           {
@@ -359,7 +359,7 @@
         "corte": true,
         "dia": 1,
         "capitulo": "Piedras de lejos",
-        "texto": "El día uno bajo con mi hijo Teko al robledal, donde los cerdos engordan comiendo bellotas antes de que lleguen las heladas.",
+        "texto": "Junto a un río de salmones, vivíamos de la leche. El día uno bajo con mi hijo Teko al robledal, donde quizá ya entonces engordaban cerdos con bellotas.",
         "drama": 0.55,
         "fondo": {
           "lugar": "bosque",
@@ -495,7 +495,7 @@
       },
       {
         "dia": 1,
-        "texto": "Tavi, mi compañera, cuida las vacas. Aquí se vive de la leche: ocho de cada diez vasijas estudiadas en Irlanda guardan grasa de leche.",
+        "texto": "Tavi, mi compañera, cuida las vacas: ocho de cada diez vasijas estudiadas en Irlanda guardan grasa de leche.",
         "drama": 0.55,
         "personajes": [
           {
@@ -527,7 +527,7 @@
       {
         "corte": true,
         "dia": 1,
-        "texto": "Aquí, junto a un río lleno de salmones, casi no comemos pescado. Molemos escanda y cebada, y comemos avellanas y manzanas silvestres. Nadie sabe por qué.",
+        "texto": "En nuestras vasijas casi no queda rastro de pescado, junto a un río lleno de salmones; quizá lo cocinábamos de otra forma. Molemos escanda y cebada, y comemos avellanas.",
         "drama": 0.55,
         "personajes": [
           {
@@ -551,7 +551,7 @@
       },
       {
         "dia": 2,
-        "texto": "El día dos llegan por el río unas losas grises de una playa del norte, a unos veinte kilómetros. Quizá vinieron en barcas por la costa; nadie lo sabe.",
+        "texto": "El día dos llegan por el río unas losas grises que probablemente vienen de una playa del norte, a unos veinte kilómetros. Quizá en barcas por la costa; nadie lo sabe.",
         "drama": 0.6,
         "fondo": {
           "lugar": "rio",
@@ -625,7 +625,7 @@
       },
       {
         "dia": 4,
-        "texto": "El día cuatro arrastramos una hasta la loma. Decenas de personas tiramos de las cuerdas, y otros van poniendo troncos delante para que ruede encima.",
+        "texto": "El día cuatro arrastramos una hasta la loma. Decenas de personas tiramos de las cuerdas, y otros ponen troncos delante para que ruede.",
         "drama": 0.7,
         "fondo": {
           "lugar": "campo",
@@ -682,7 +682,7 @@
       {
         "corte": true,
         "dia": 4,
-        "texto": "Nadie ha encontrado pruebas de cómo movíamos estas piedras: esto es lo que creen los arqueólogos. Yo solo sé lo que pesa una cuerda mojada después de un día de lluvia.",
+        "texto": "Nadie ha encontrado pruebas de cómo movíamos estas piedras: esto es lo que creen los arqueólogos. Yo solo sé lo que pesa una cuerda mojada tras un día de lluvia.",
         "drama": 0.6,
         "fondo": {
           "lugar": "campo",
@@ -873,7 +873,7 @@
               "nombre": "Percutor de piedra dura"
             },
             {
-              "icono": "🦌",
+              "icono": "🦴",
               "nombre": "Pico de asta de ciervo"
             },
             {
@@ -1094,7 +1094,7 @@
       },
       {
         "dia": 11,
-        "texto": "El día once estalla una tormenta. Mientras todos se refugian, yo entro en el pasillo con una antorcha para ver si el techo de la cámara aguanta.",
+        "texto": "El día once estalla una tormenta. Mientras todos se refugian, yo entro en el pasillo con una antorcha para ver si el techo aguanta.",
         "drama": 0.75,
         "fondo": {
           "lugar": "campo",
@@ -1246,7 +1246,7 @@
         "camara": "lenta",
         "insercion": {
           "tipo": "dato",
-          "valor": "19 m",
+          "valor": "unos 19 m",
           "etiqueta": "de pasillo, cuesta arriba, entre la caja de luz y la cámara",
           "icono": "📏"
         }
@@ -1557,7 +1557,7 @@
       },
       {
         "dia": 19,
-        "texto": "No llega al fondo. Oru sonríe en la oscuridad: dice que aún faltan días, que el sol tiene que correrse un poco más hacia el sur.",
+        "texto": "Llega, pero débil, y una nube la corta enseguida. Oru sonríe en la oscuridad y dice que esperemos al día más corto.",
         "drama": 0.7,
         "fondo": {
           "lugar": "interior",
@@ -1843,7 +1843,7 @@
       },
       {
         "dia": 22,
-        "texto": "Teko llora y Oru no dice nada. Yo miro las losas que tallé de joven, las que nadie iba a ver nunca, y por fin las veo.",
+        "texto": "Teko llora y Oru no dice nada. Yo miro las espirales que tallé de joven para la oscuridad, y por fin las veo con luz.",
         "drama": 0.55,
         "fondo": {
           "lugar": "interior",
@@ -1887,7 +1887,7 @@
       },
       {
         "dia": 22,
-        "texto": "Luego la franja se estrecha y se retira. Unos diecisiete minutos al año: quince inviernos de trabajo para un cuarto de hora de luz.",
+        "texto": "Luego la franja se estrecha y se retira. Unos diecisiete minutos esa mañana: quince inviernos de trabajo para un cuarto de hora de luz.",
         "drama": 0.7,
         "fondo": {
           "lugar": "interior",
@@ -1915,7 +1915,7 @@
         "insercion": {
           "tipo": "dato",
           "valor": "17 min",
-          "etiqueta": "de luz directa en la cámara el amanecer del día más corto",
+          "etiqueta": "de luz directa en la cámara el amanecer del día más corto (hoy)",
           "icono": "☀️"
         }
       },
@@ -2083,7 +2083,7 @@
       },
       {
         "dia": 26,
-        "texto": "Según su ADN, uno de los enterrados aquí nació de dos familiares muy cercanos. Unos ven ahí una familia poderosa; otros, que un solo caso no prueba nada.",
+        "texto": "Según sus genes, uno de los enterrados aquí nació de dos familiares muy cercanos. Unos ven ahí una familia poderosa; otros, que un solo caso no prueba nada.",
         "drama": 0.6,
         "personajes": [
           {
@@ -2156,7 +2156,7 @@
       {
         "corte": true,
         "dia": 30,
-        "texto": "El día treinta vuelvo a picar piedra: aún falta acabar el monte. Las obras duraron entre cinco y treinta años, según quién calcule.",
+        "texto": "Durante milenios, este monte se olvidó, pero eso aún no lo sé: el día treinta vuelvo a picar piedra. Las obras duraron entre cinco y treinta años.",
         "drama": 0.55,
         "fondo": {
           "lugar": "campo",
@@ -2224,7 +2224,7 @@
         "camara": "paneo"
       },
       {
-        "texto": "Luego el monte se cubrió de hierba. Cuatro mil años más tarde, unos monjes escribieron que allí vivía un dios de sus leyendas. Lo imaginaron ellos.",
+        "texto": "Luego el monte se cubrió de hierba. Cuatro mil años más tarde, unos monjes escribieron que allí vivía un dios de las viejas leyendas irlandesas. Lo imaginaron ellos.",
         "drama": 0.6,
         "fondo": {
           "lugar": "campo",
@@ -2314,7 +2314,7 @@
       },
       {
         "corte": true,
-        "texto": "Durante casi tres siglos entraron curiosos y saqueadores. En mil novecientos sesenta y dos llegó el arqueólogo Máicol Okéli a excavar.",
+        "texto": "Durante casi tres siglos entraron en él curiosos y saqueadores. En mil novecientos sesenta y dos llegó el arqueólogo Máicol Okéli a excavar.",
         "drama": 0.6,
         "fondo": {
           "lugar": "campo",
@@ -2403,7 +2403,7 @@
         "camara": "lenta"
       },
       {
-        "texto": "Vio entrar el hilo de luz, ensancharse y alumbrar el suelo. Contó que se quedó literalmente asombrado. Era la luz que vio la gente de Tarun.",
+        "texto": "Vio entrar el hilo de luz, ensancharse y alumbrar el suelo. Contó que se quedó literalmente asombrado. Era la misma luz que vieron los constructores.",
         "drama": 0.85,
         "fondo": {
           "lugar": "interior",
@@ -2430,13 +2430,13 @@
         "camara": "cerca",
         "insercion": {
           "tipo": "cita",
-          "frase": "I was literally astounded.",
-          "firma": "Michael J. O'Kelly, 21 de diciembre de 1967"
+          "frase": "Me quedé literalmente asombrado.",
+          "firma": "Michael J. O'Kelly, recordando el amanecer del 21 de diciembre de 1967"
         }
       },
       {
         "corte": true,
-        "texto": "En mil novecientos ochenta y nueve, el astrónomo Tom Rei demostró que no era casualidad: la tumba apunta al sol con menos de medio grado de error.",
+        "texto": "En mil novecientos ochenta y nueve, Tom Rei demostró que no era casualidad: la tumba apunta al sol con menos de medio grado de error.",
         "drama": 0.65,
         "fondo": {
           "lugar": "campo",
@@ -2475,7 +2475,7 @@
         "camara": "lenta"
       },
       {
-        "texto": "Niugréinch es unos seiscientos años más antiguo que la Gran Pirámide, y cada invierno se sortean unas pocas plazas para estar dentro esa mañana.",
+        "texto": "Niugréinch es unos seiscientos años más antiguo que la Gran Pirámide, y cada invierno se sortean plazas para estar dentro esa mañana.",
         "drama": 0.6,
         "fondo": {
           "lugar": "campo",
@@ -2525,7 +2525,7 @@
         }
       },
       {
-        "texto": "Tarun y su familia son inventados, y su mes es una reconstrucción; la tumba, la luz y Okéli, no. ¿De quién quieres vivir el próximo mes? Déjalo en los comentarios y suscríbete.",
+        "texto": "Tarun, su familia y el viejo Oru son inventados, y su mes es una reconstrucción; la tumba, la luz y Okéli, no. ¿De quién quieres vivir el próximo mes? Déjalo en los comentarios y suscríbete.",
         "drama": 0.6,
         "fondo": {
           "lugar": "campo",
@@ -2565,7 +2565,7 @@
     "tituloLargo": "Un mes en la vida de UN CONSTRUCTOR DE NEWGRANGE (hacia 3200 a. C.) | 17 minutos de luz al año",
     "tituloCorto": "Constructor de Newgrange",
     "capituloInicial": "Un hombre inventado, unas piedras reales",
-    "descripcion": "Irlanda, hacia el 3200 a. C., en las semanas que llevan al día más corto del año. Tarun, picador de piedra, lleva quince inviernos trabajando en el gran túmulo de Newgrange, en la curva del río Boyne: losas de toneladas arrastradas sin rueda ni metal, cuarzo blanco traído a pie desde 50 km, espirales picadas con un canto en piedras que nadie verá nunca, un techo que lleva 5000 años sin goteras… y una rendija de piedra sobre la puerta que nadie sabe todavía si apunta bien. Si el amanecer del solsticio sale nublado, habrá que esperar un año.\n\n— Semana 1: Piedras de lejos\n— Semana 2: Lo que nadie verá\n— Semana 3: Esperando al sol\n— Semana 4: Diecisiete minutos\n— Epílogo: los banquetes de siglos después, la entrada de 1699, Michael J. O'Kelly el 21 de diciembre de 1967 y Tom Ray en 1989\n\nQué es real y qué es inventado: Tarun, Tavi, Teko, Ila y el viejo Oru son INVENTADOS, igual que sus nombres (no sabemos qué lengua hablaban), sus creencias y la cronología del mes, que es una reconstrucción verosímil. Newgrange no dejó escritura: no sabemos si adoraban al sol, si había sacerdotes o jefes, ni qué significaban las espirales; lo que el vídeo cuenta de eso son hipótesis y lo decimos así. Son reales: la fecha aproximada (3300–3000 a. C.), el túmulo de piedra y tepes, los 97 bordillos, la grauvaca y el cuarzo traídos de lejos (el origen exacto es discutido), la caja de luz, el pasillo que sube, la cámara en cruz con falsa bóveda y canalillos, el arte abstracto también en caras ocultas, los pocos enterrados (al menos cinco), el ADN de 2020 y el debate de 2025, la dieta láctea, las hachas de porcelanita, los banquetes de cerdo de hacia 2700–2450 a. C., el descubrimiento de la entrada en 1699, la observación de O'Kelly del 21 de diciembre de 1967 y el estudio de Tom Ray (Nature, 1989). Cómo se arrastraban las losas y si el cuarzo formaba un muro o un suelo no se sabe con certeza.\n\nFuentes: Ray, T. P. (1989), Nature 337; Cassidy et al. (2020), Nature 582; «The 'King' of Newgrange?», Antiquity 99 (2025); Guiry et al. (2025), Proceedings of the Prehistoric Society; informes de M. J. O'Kelly en excavations.ie; proyecto SCHERD sobre residuos lácteos; Irish Stone Axe Project; Irish Times; RTÉ Brainstorm; History Ireland; National Museum of Ireland; Stout y Stout, Newgrange (2008); O'Kelly, Newgrange: Archaeology, Art and Legend (1982).",
+    "descripcion": "Irlanda, hacia el 3200 a. C., en las semanas que llevan al día más corto del año. Tarun, picador de piedra, lleva quince inviernos trabajando en el gran túmulo de Newgrange, en la curva del río Boyne: losas de toneladas arrastradas sin rueda ni metal, cuarzo blanco traído a pie desde 50 km, espirales picadas con un canto en piedras que nadie verá nunca, un techo que lleva 5000 años sin goteras… y una rendija de piedra sobre la puerta que nadie sabe todavía si apunta bien. Si el amanecer del solsticio sale nublado, habrá que esperar un año.\n\n— Semana 1: Piedras de lejos\n— Semana 2: Lo que nadie verá\n— Semana 3: Esperando al sol\n— Semana 4: Diecisiete minutos\n— Epílogo: los banquetes de siglos después, la entrada de 1699, Michael J. O'Kelly el 21 de diciembre de 1967 y Tom Ray en 1989\n\nQué es real y qué es inventado: Tarun, Tavi, Teko, Ila y el viejo Oru son INVENTADOS, igual que sus nombres (no sabemos qué lengua hablaban), sus creencias y la cronología del mes, que es una reconstrucción verosímil. Newgrange no dejó escritura: no sabemos si adoraban al sol, si había sacerdotes o jefes, ni qué significaban las espirales; lo que el vídeo cuenta de eso son hipótesis y lo decimos así. Son reales: la fecha aproximada (3300–3000 a. C.), el túmulo de piedra y tepes, los 97 bordillos, la grauvaca y el cuarzo traídos de lejos (el origen exacto es discutido), la caja de luz, el pasillo que sube, la cámara en cruz con falsa bóveda y canalillos, el arte abstracto también en caras ocultas, los pocos enterrados (al menos cinco), el ADN de 2020 y el debate de 2025, la dieta láctea, las hachas de porcelanita, los banquetes de cerdo de hacia 2700–2450 a. C., el descubrimiento de la entrada en 1699, la observación de O'Kelly del 21 de diciembre de 1967 y el estudio de Tom Ray (Nature, 1989). Cómo se arrastraban las losas y si el cuarzo formaba un muro o un suelo no se sabe con certeza.\n\nFuentes: Ray, T. P. (1989), Nature 337; Cassidy et al. (2020), Nature 582; «The 'King' of Newgrange?», Antiquity 99 (2025); Guiry et al. (2025), Proceedings of the Prehistoric Society; informes de M. J. O'Kelly en excavations.ie; proyecto SCHERD sobre residuos lácteos; Irish Stone Axe Project; Irish Times; RTÉ Brainstorm; History Ireland; National Museum of Ireland.\n\nLectura recomendada: M. J. O'Kelly, Newgrange: Archaeology, Art and Legend (1982); G. y M. Stout, Newgrange (2008).",
     "etiquetas": [
       "un mes en la vida de",
       "Newgrange",
@@ -2594,12 +2594,12 @@
         "descripcion": "Irlanda, hacia el 3200 a. C.: un picador de piedra inventado ante el gran túmulo de Newgrange. #shorts #historia #prehistoria"
       },
       {
-        "titulo": "Así se vivía en Irlanda hace más de 5000 años",
-        "descripcion": "Casas de barro, cerdos en el robledal y una dieta de leche: ocho de cada diez vasijas guardan grasa láctea. #shorts #historia #neolitico"
+        "titulo": "Junto a un río de salmones, vivíamos de la leche",
+        "descripcion": "Irlanda, hace más de 5000 años: robledales, casas de barro y vasijas con grasa de leche. #shorts #historia #neolitico"
       },
       {
         "titulo": "Losas de toneladas sin rueda ni metal",
-        "descripcion": "Gente junto a un río de salmones que casi no comía pescado, y piedras traídas quizá por mar. #shorts #historia #megalitos"
+        "descripcion": "Casi sin rastro de pescado en las vasijas, y losas de toneladas traídas quizá por mar. #shorts #historia #megalitos"
       },
       {
         "titulo": "50 kilómetros a pie para traer piedras blancas",
@@ -2622,7 +2622,7 @@
         "descripcion": "Hachas que viajaban de mano en mano y el cielo gris del invierno irlandés. #shorts #historia #prehistoria"
       },
       {
-        "titulo": "El primer hilo de luz entra en la tumba",
+        "titulo": "El primer hilo de luz entra en la tumba… y una nube lo corta",
         "descripcion": "Días antes del solsticio, a oscuras dentro del pasillo de Newgrange. #shorts #solsticio #historia"
       },
       {
@@ -2638,8 +2638,8 @@
         "descripcion": "Pocos muertos, piedras de lejos y un ADN que todavía se discute. #shorts #arqueologia #historia"
       },
       {
-        "titulo": "Olvidada durante milenios: así reapareció la entrada",
-        "descripcion": "Banquetes de cerdo, leyendas de monjes y unos peones en 1699. #shorts #historia #arqueologia"
+        "titulo": "Durante milenios, este monte se olvidó",
+        "descripcion": "Banquetes de cerdo, leyendas medievales y unos peones que en 1699 dan con la entrada. #shorts #historia #arqueologia"
       },
       {
         "titulo": "21 de diciembre de 1967: un arqueólogo solo en la tumba",
