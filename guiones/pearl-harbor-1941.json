@@ -3,7 +3,7 @@
   "titulo": "un marinero en Pearl Harbor",
   "lugar": "Pearl Harbor, Oahu (Territorio de Hawái)",
   "epoca": "Noviembre y diciembre de 1941",
-  "categoria": "guerra",
+  "categoria": "epoca",
   "drama": 0.65,
   "velocidad": 1.15,
   "musica": "nostalgia",
@@ -243,17 +243,33 @@
       "sombrero": "gorra-plato",
       "colorSombrero": "#f2f0ea",
       "zapatos": "#151515"
+    },
+    "hermana2": {
+      "piel": "#c9946a",
+      "pelo": "#2a2220",
+      "peinado": "coleta",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#4a6a8a",
+        "color2": "#4a6a8a",
+        "detalle": "#e8d8b8"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#3a2618",
+      "altura": 0.62,
+      "voz": "narradora-es"
     }
   },
   "largo": {
     "escenas": [
       {
         "corte": true,
-        "texto": "El domingo siete de diciembre, a las ocho en punto, la banda de mi barco empezó a tocar el himno. La guerra había empezado más de una hora antes, y nadie a bordo lo sabía.",
+        "texto": "El domingo siete de diciembre, a las ocho en punto, la banda de mi barco empezó el himno. La guerra había empezado más de una hora antes, y nadie lo sabía.",
         "drama": 0.85,
         "fondo": {
           "lugar": "mar",
-          "hora": "amanecer",
+          "hora": "dia",
           "clima": "despejado",
           "props": [
             {
@@ -284,7 +300,7 @@
         "camara": "general"
       },
       {
-        "texto": "Me llamo Tomás Baca, aunque a bordo me llaman Tómi. Tengo diecinueve años, vengo de Nuevo México y soy marinero de segunda en el acorazado Nevada.",
+        "texto": "Me llamo Tomás Baca, aunque me llaman Tómi. Tengo diecinueve años, soy de Nuevo México y marinero de segunda en el acorazado Nevada.",
         "drama": 0.6,
         "fondo": {
           "lugar": "mar",
@@ -318,7 +334,7 @@
         "camara": "cerca"
       },
       {
-        "texto": "Esta es la historia de mi último mes de paz en Perl Járbor, en la isla de Oajú, en mitad del océano Pacífico.",
+        "texto": "Esta es la historia de mi último mes de paz en Perl Járbor, en la isla de Oajú.",
         "drama": 0.6,
         "personajes": [
           {
@@ -340,7 +356,7 @@
       {
         "dia": 1,
         "capitulo": "Rutina en el paraíso",
-        "texto": "Es martes, once de noviembre, y la diana suena a las cinco y media. Después de un café, toca baldear la cubierta con agua de mar.",
+        "texto": "Es martes, once de noviembre. La diana suena a las cinco y media, y después de un café toca baldear la cubierta.",
         "drama": 0.55,
         "fondo": {
           "lugar": "mar",
@@ -383,7 +399,7 @@
       {
         "dia": 2,
         "corte": true,
-        "texto": "Treinta y seis dólares al mes: eso cobro por vivir en el paraíso. La Marina me da comida, cama y uniforme, y la mitad de la paga se la mando a mi madre.",
+        "texto": "Treinta y seis dólares al mes: eso cobro por vivir en el paraíso. Comida, cama y uniforme los pone la Marina, y media paga va para mi madre.",
         "drama": 0.6,
         "fondo": {
           "lugar": "interior",
@@ -425,7 +441,7 @@
       },
       {
         "dia": 2,
-        "texto": "Amarramos junto a la isla Ford, en la fila de los acorazados. Delante tenemos al Arizona, y cada mañana a las ocho su banda y la nuestra tocan el himno.",
+        "texto": "Amarramos junto a la isla Ford, en la fila de los acorazados. Delante está el Arizona, y cada mañana a las ocho las dos bandas tocan el himno.",
         "drama": 0.6,
         "fondo": {
           "lugar": "mar",
@@ -508,7 +524,7 @@
       },
       {
         "dia": 3,
-        "texto": "Lo supe años después: desde una colina, un oficial japonés con nombre falso, Takeo Yoshicáwa, anota cada barco. Él contó que los japoneses de Hawái no le ayudaron.",
+        "texto": "Lo supe años después: desde una colina, un oficial japonés con nombre falso, Takeo Yoshicáwa, anota cada barco. Contó que los japoneses de Hawái no le ayudaron.",
         "drama": 0.7,
         "fondo": {
           "lugar": "campo",
@@ -535,15 +551,15 @@
         "camara": "paneo",
         "insercion": {
           "tipo": "dato",
-          "valor": "1941",
-          "etiqueta": "Takeo Yoshikawa llega a Honolulú el 27 de marzo como «vicecónsul Tadashi Morimura». El FBI lo vigila, pero mirar barcos no es delito",
+          "valor": "27 mar 1941",
+          "etiqueta": "Takeo Yoshikawa llega a Honolulú como «vicecónsul Tadashi Morimura»",
           "icono": "🔭"
         }
       },
       {
         "dia": 5,
         "corte": true,
-        "texto": "El sábado, con el uniforme blanco, bajo a Honolulú. La calle Jotel es un río de gorros blancos: bares, galerías de tiro y salones de tatuaje con colas larguísimas.",
+        "texto": "El sábado, con el uniforme blanco, bajo a Honolulú. La calle Jotel es un río de gorros blancos: bares, galerías de tiro y salones de tatuaje.",
         "drama": 0.6,
         "fondo": {
           "lugar": "calle",
@@ -590,7 +606,7 @@
       },
       {
         "dia": 5,
-        "texto": "Hago una hora de cola para tatuarme un ancla. Cuando por fin me toca, me acuerdo de la cara de mi madre, y me voy sin tatuaje.",
+        "texto": "Hago una hora de cola para tatuarme un ancla, pero al final me acuerdo de la cara de mi madre y me voy sin tatuaje.",
         "drama": 0.55,
         "personajes": [
           {
@@ -605,7 +621,7 @@
       },
       {
         "dia": 6,
-        "texto": "El domingo, en la playa de Uaiquiquí, conozco a Gus Líndquist, un rubio de Minesóta que sirve en el Guord, un destructor viejo de la otra guerra.",
+        "texto": "El domingo, en la playa de Uaiquiquí, conozco a Gus Líndquist, un rubio de Minesóta que sirve en el Guord, un destructor viejo.",
         "drama": 0.6,
         "fondo": {
           "lugar": "playa",
@@ -673,7 +689,7 @@
         "dia": 8,
         "capitulo": "La batalla de la música",
         "corte": true,
-        "texto": "En la cubierta se habla de Japón, pero los veteranos lo tienen claro: si estalla algo, será lejos, en Filipinas o en Malasia. Aquí, dicen, estamos a salvo.",
+        "texto": "En cubierta se habla de Japón, pero los veteranos lo tienen claro: si estalla algo, será en Filipinas o en Malasia. Aquí estamos a salvo.",
         "drama": 0.65,
         "fondo": {
           "lugar": "mar",
@@ -716,7 +732,7 @@
       },
       {
         "dia": 8,
-        "texto": "Japón lleva cuatro años en guerra con China, y Estados Unidos le ha cortado el petróleo. O se retira de China, o va a buscar petróleo al sur por la fuerza.",
+        "texto": "Japón lleva cuatro años en guerra con China, y Estados Unidos le ha cortado el petróleo. O se retira, o va a buscarlo al sur por la fuerza.",
         "drama": 0.65,
         "personajes": [
           {
@@ -746,7 +762,7 @@
       },
       {
         "dia": 11,
-        "texto": "Llega carta de casa con una foto de mi madre y mis dos hermanas, muy serias, delante de la puerta de adobe. La miro cada noche antes de dormir.",
+        "texto": "Llega carta de casa con una foto de mi madre y mis dos hermanas delante de la puerta de adobe. La miro cada noche antes de dormir.",
         "drama": 0.5,
         "fondo": {
           "lugar": "desierto",
@@ -771,7 +787,7 @@
         "personajes": [
           {
             "quien": "madre",
-            "x": 0.35,
+            "x": 0.6,
             "accion": "quieto",
             "emocion": "triste",
             "mirar": -1,
@@ -779,7 +795,15 @@
           },
           {
             "quien": "hermana",
-            "x": -0.2,
+            "x": 0.0,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "hermana2",
+            "x": -0.6,
             "accion": "quieto",
             "emocion": "neutral",
             "mirar": 1,
@@ -790,7 +814,7 @@
       },
       {
         "dia": 12,
-        "texto": "El sábado veintidós voy al pabellón Bloc, en la base, a la Batalla de la Música: un concurso de bandas de la flota con eliminatorias cada sábado.",
+        "texto": "El sábado veintidós voy al pabellón Bloc, en la base, a la Batalla de la Música, un concurso de bandas.",
         "drama": 0.6,
         "fondo": {
           "lugar": "interior",
@@ -1063,7 +1087,7 @@
       },
       {
         "dia": 17,
-        "texto": "El jueves veintisiete, nuestro almirante, Químel, recibe un mensaje de Washington que empieza así: este despacho debe considerarse una alerta de guerra.",
+        "texto": "El jueves veintisiete, nuestro almirante, Químel, recibe un mensaje de Uáshinton que empieza así: este despacho debe considerarse una alerta de guerra.",
         "drama": 0.8,
         "fondo": {
           "lugar": "interior",
@@ -1100,7 +1124,7 @@
       },
       {
         "dia": 17,
-        "texto": "Pero el mensaje no nombra Hawái. Todos piensan que el golpe será lejos, en Filipinas o en Malasia, y aquí el Ejército se prepara sobre todo contra sabotajes.",
+        "texto": "Pero el mensaje no nombra Hawái. Todos piensan que el golpe será en Filipinas o en Malasia, y aquí el Ejército se prepara contra sabotajes.",
         "drama": 0.7,
         "fondo": {
           "lugar": "mar",
@@ -1179,7 +1203,7 @@
       },
       {
         "dia": 18,
-        "texto": "El viernes veintiocho despedimos al portaaviones Énterprais, que lleva aviones a la isla de Uéic. Pura rutina, pero el siete de diciembre no habrá portaaviones en el puerto.",
+        "texto": "El viernes veintiocho despedimos al portaaviones Énterprais, que lleva aviones a la isla de Uéic. Pura rutina, pero el día siete no habrá portaaviones en el puerto.",
         "drama": 0.6,
         "fondo": {
           "lugar": "mar",
@@ -1430,7 +1454,7 @@
       },
       {
         "dia": 27,
-        "texto": "A las siete menos cuarto, en la boca del puerto, la guardia del Guord ve la torreta de un submarino enano que intenta colarse detrás de un barco.",
+        "texto": "Poco antes de las siete menos cuarto, en la boca del puerto, la guardia del Guord ve la torreta de un submarino enano que intenta colarse detrás de un barco.",
         "drama": 0.75,
         "fondo": {
           "lugar": "mar",
@@ -1455,7 +1479,7 @@
           {
             "quien": "gus-faena",
             "x": 0.35,
-            "accion": "senalar",
+            "accion": "quieto",
             "emocion": "sorpresa",
             "mirar": -1,
             "habla": false
@@ -1466,7 +1490,7 @@
       {
         "dia": 27,
         "corte": true,
-        "texto": "El primer disparo pasa por encima; el segundo acierta en la torreta. Es el primer disparo estadounidense de la guerra del Pacífico. Su comandante, Uíliam Áuterbrich, avisa por radio, pero nadie da la alarma.",
+        "texto": "El Guord abre fuego: el primer disparo pasa por encima y el segundo acierta en la torreta. Es el primer disparo estadounidense de la guerra del Pacífico.",
         "drama": 0.85,
         "fondo": {
           "lugar": "mar",
@@ -1501,6 +1525,49 @@
           "etiqueta": "el USS Ward dispara contra un submarino enano: primer disparo estadounidense de la guerra del Pacífico",
           "icono": "🎯"
         }
+      },
+      {
+        "dia": 27,
+        "texto": "Su comandante, Uíliam Áuterbrich, que llevaba dos días al mando, avisa por radio. El aviso se recibe con dudas, y nadie da la alarma.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "barco",
+              "x": 1.15,
+              "escala": 0.45,
+              "detras": true
+            },
+            {
+              "tipo": "submarino",
+              "x": 0.45,
+              "escala": 0.35,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "outerbridge",
+            "x": 0.35,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "gus-faena",
+            "x": -0.35,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
       },
       {
         "dia": 27,
@@ -1590,17 +1657,17 @@
           "tipo": "dato",
           "valor": "53 min",
           "etiqueta": "entre el primer eco en el radar de Opana (7:02) y las primeras bombas sobre los barcos (7:55)",
-          "icono": "📡"
+          "icono": "📞"
         }
       },
       {
         "dia": 27,
         "corte": true,
-        "texto": "A las siete y cuarenta, el comandante Mítsuo Fuchída llega a la costa norte con ciento ochenta y tres aviones, y transmite su clave: tóra, tóra, tóra, sorpresa conseguida.",
+        "texto": "A las siete y cuarenta, el comandante Mítsuo Fuchída llega a la costa norte con ciento ochenta y tres aviones. Poco después transmite su clave: tóra, tóra, tóra, sorpresa conseguida.",
         "drama": 0.85,
         "fondo": {
           "lugar": "montanas",
-          "hora": "amanecer",
+          "hora": "dia",
           "clima": "despejado",
           "props": [
             {
@@ -1626,7 +1693,7 @@
         "drama": 0.8,
         "fondo": {
           "lugar": "mar",
-          "hora": "amanecer",
+          "hora": "dia",
           "clima": "despejado",
           "props": [
             {
@@ -1662,7 +1729,7 @@
         "drama": 0.9,
         "fondo": {
           "lugar": "mar",
-          "hora": "amanecer",
+          "hora": "dia",
           "clima": "despejado",
           "props": [
             {
@@ -1708,7 +1775,7 @@
       },
       {
         "dia": 27,
-        "texto": "Poco después, un destello blanco me ilumina la cara y la cubierta tiembla. Cuando me vuelvo, donde estaba el Arizona solo hay una columna de humo negro.",
+        "texto": "Poco después, un destello blanco me ilumina la cara y la cubierta tiembla. Cuando me vuelvo, el Arizona ha desaparecido tras una columna de humo negro.",
         "drama": 0.9,
         "fondo": {
           "lugar": "mar",
@@ -1744,7 +1811,7 @@
       {
         "dia": 27,
         "corte": true,
-        "texto": "En el Arizona se quedaron mil ciento setenta y siete hombres. Entre ellos, los veintiún músicos que quince días antes habían ganado su semifinal.",
+        "texto": "En el Arizona se quedaron mil ciento setenta y siete hombres, entre ellos los veintiún músicos que quince días antes ganaron su semifinal.",
         "drama": 0.6,
         "personajes": [
           {
@@ -1766,7 +1833,7 @@
       },
       {
         "dia": 27,
-        "texto": "Yo no veo la guerra. Veo cajas de munición que pasan de mano en mano y la espalda del marinero de delante. Nadie grita, todos hacemos lo que hemos ensayado.",
+        "texto": "Yo no veo la guerra: veo cajas de munición que pasan de mano en mano y la espalda del marinero de delante. Nadie grita.",
         "drama": 0.8,
         "fondo": {
           "lugar": "interior",
@@ -1812,7 +1879,7 @@
       },
       {
         "dia": 27,
-        "texto": "En el Güest Virjínia, Dóris Míler ayuda a llevar a los heridos, y luego dispara una ametralladora que nunca le habían enseñado a usar, hasta que le ordenan dejar el puente.",
+        "texto": "En el Güest Virjínia, Dóris Míler ayuda a llevar heridos y luego dispara una ametralladora que nunca le enseñaron a usar, hasta que le ordenan dejar el puente.",
         "drama": 0.85,
         "fondo": {
           "lugar": "mar",
@@ -1863,7 +1930,7 @@
       },
       {
         "dia": 27,
-        "texto": "Mientras, el Nevada hace algo que no consigue ningún otro acorazado aquel día: se pone en marcha y avanza despacio, entre el humo, hacia la boca del puerto.",
+        "texto": "Mientras, el Nevada hace lo que ningún otro acorazado consigue aquel día: se pone en marcha y avanza despacio, entre el humo, hacia la salida.",
         "drama": 0.85,
         "fondo": {
           "lugar": "mar",
@@ -1941,7 +2008,7 @@
       },
       {
         "dia": 27,
-        "texto": "Hacia las diez se van los últimos aviones. Queda el silencio, el humo negro y las lanchas que sacan a los hombres del agua.",
+        "texto": "Hacia las diez se van los últimos aviones. En el Nevada no volvieron sesenta compañeros. Queda el silencio, el humo y las lanchas que sacan a hombres del agua.",
         "drama": 0.5,
         "fondo": {
           "lugar": "mar",
@@ -1981,7 +2048,7 @@
       },
       {
         "dia": 27,
-        "texto": "Japón perdió aquel día sesenta y cuatro hombres. Sus pilotos tenían más o menos mi edad, y también cumplían órdenes.",
+        "texto": "Japón perdió aquel día sesenta y cuatro hombres. Sus pilotos tenían unos pocos años más que yo, y también cumplían órdenes.",
         "drama": 0.55,
         "personajes": [
           {
@@ -2206,7 +2273,38 @@
         "camara": "lenta"
       },
       {
-        "corte": true,
+        "texto": "Durante años se dijo que en Uáshinton lo sabían y lo dejaron pasar. Las investigaciones no encontraron ninguna prueba: hubo avisos que nadie supo unir.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "dia",
+          "pared": "madera",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.2
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.9
+            },
+            {
+              "tipo": "📜",
+              "x": 0.85,
+              "escala": 0.3
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta",
+        "corte": true
+      },
+      {
         "texto": "El Nevada salió del barro en febrero de mil novecientos cuarenta y dos, y en junio de mil novecientos cuarenta y cuatro sus cañones dispararon en Normandía.",
         "drama": 0.6,
         "fondo": {
@@ -2247,8 +2345,8 @@
         }
       },
       {
-        "texto": "Durante años se dijo que en Washington lo sabían y lo dejaron pasar. Las investigaciones no encontraron ninguna prueba: hubo avisos que nadie supo unir.",
-        "drama": 0.6,
+        "texto": "Y no hay prueba de que Yamamóto hablara de despertar a un gigante dormido: esa frase viene de una película de mil novecientos setenta.",
+        "drama": 0.55,
         "fondo": {
           "lugar": "interior",
           "hora": "dia",
@@ -2278,11 +2376,6 @@
         "camara": "lenta"
       },
       {
-        "texto": "Y no hay prueba de que Yamamóto hablara de despertar a un gigante dormido: esa frase viene de una película de mil novecientos setenta.",
-        "drama": 0.55,
-        "camara": "lenta"
-      },
-      {
         "texto": "La final de la Batalla de la Música nunca se celebró. Las demás bandas le dieron el trofeo a la del Arizona, y lleva grabados sus veintiún nombres.",
         "drama": 0.5,
         "fondo": {
@@ -2304,17 +2397,8 @@
         },
         "personajes": [
           {
-            "quien": "musico2",
-            "x": -0.3,
-            "accion": "triste",
-            "emocion": "triste",
-            "mirar": 1,
-            "objeto": "🥁",
-            "habla": false
-          },
-          {
             "quien": "tommy-blanco",
-            "x": 0.4,
+            "x": 0.3,
             "accion": "triste",
             "emocion": "triste",
             "mirar": -1,
@@ -2376,7 +2460,7 @@
         }
       },
       {
-        "texto": "El Guord se hundió el siete de diciembre de mil novecientos cuarenta y cuatro, tres años exactos después de su primer disparo.",
+        "texto": "El Guord se hundió en Filipinas el siete de diciembre de mil novecientos cuarenta y cuatro: tres años exactos después.",
         "drama": 0.6,
         "fondo": {
           "lugar": "mar",
@@ -2387,12 +2471,6 @@
               "tipo": "destructor",
               "x": -0.55,
               "escala": 0.75,
-              "detras": true
-            },
-            {
-              "tipo": "submarino",
-              "x": 0.75,
-              "escala": 0.35,
               "detras": true
             },
             {
@@ -2445,12 +2523,12 @@
         "insercion": {
           "tipo": "dato",
           "valor": "2.403",
-          "etiqueta": "estadounidenses muertos: 2.008 de la Marina, 218 del Ejército, 109 marines y 68 civiles. 1.178 heridos",
+          "etiqueta": "estadounidenses muertos: 2.008 de la Marina, 218 del Ejército, 109 marines y 68 civiles (cifra discutida). 1.178 heridos",
           "icono": "🕯️"
         }
       },
       {
-        "texto": "Una aclaración antes de despedirme: Tómi Baca, su familia y Gus Líndquist son inventados. El Nevada, el Guord, Opána, la banda del Arizona, Dóris Míler, Lócard, Éliot, Táiler y Áuterbrich son reales.",
+        "texto": "Tómi Baca, su familia y Gus Líndquist son inventados. El Nevada, el Guord, Opána, la banda del Arizona, Dóris Míler, Lócard, Éliot, Táiler y Áuterbrich son reales.",
         "drama": 0.55,
         "personajes": [
           {
@@ -2500,7 +2578,7 @@
     "tituloCorto": "Pearl Harbor, 1941",
     "tituloShort": "A las 8:00 en punto, la banda tocaba el himno",
     "capituloInicial": "El domingo a las ocho",
-    "descripcion": "Treinta días en la vida de Tomás «Tommy» Baca, 19 años, hispano de Nuevo México y marinero de segunda en el acorazado USS Nevada, amarrado en Battleship Row, en Pearl Harbor (Oahu, Territorio de Hawái), del 11 de noviembre al 10 de diciembre de 1941: la paga de 36 dólares, el baldeo de cubierta, los permisos en Hotel Street, la Batalla de la Música en Bloch Arena, la alerta de guerra del 27 de noviembre que no nombraba Hawái y el domingo 7 de diciembre: el disparo del destructor USS Ward a las 6:45, el eco del radar de Opana a las 7:02, la banda del Nevada tocando el himno a las 8:00 y el único acorazado que logró ponerse en marcha. Sin escenas gráficas, en memoria de las 2.403 víctimas estadounidenses, y contando también las 64 japonesas.\n\n— Semana 1: Rutina en el paraíso\n— Semana 2: La batalla de la música\n— Semana 3: Alerta de guerra\n— Semana 4: El domingo\n— Epílogo: el Nevada en Normandía, el Trofeo Arizona, Doris Miller, el Ward hundido el 7 de diciembre de 1944 y el Arizona, que sigue en el fondo del puerto\n\nQué es inventado y qué es real: Tommy Baca, su familia y su amigo Gus Lindqvist son INVENTADOS, igual que lo que piensan y viven. Son reales el USS Nevada y su banda, el USS Arizona y los 21 músicos de su banda, las 37 parejas de hermanos del Arizona, el USS Ward y su comandante William W. Outerbridge, los soldados Joseph Lockard y George Elliott en el radar de Opana, el teniente Kermit Tyler, Doris Miller, el espía Takeo Yoshikawa, la alerta del almirante Stark al almirante Kimmel, la salida del Enterprise y del Lexington y todas las cifras del vídeo. Las personas reales aparecen solo con hechos documentados.\n\nDos mitos que el vídeo descarta: no hay ninguna prueba de que Roosevelt supiera del ataque y lo dejara pasar (las investigaciones de 1942–1946 no la encontraron), y la frase del «gigante dormido» atribuida a Yamamoto procede de la película «Tora! Tora! Tora!» (1970). Detalles discutidos se cuentan como tales: si la banda del Nevada terminó el himno (según Walter Lord, sí) o la cifra exacta de civiles muertos en Honolulú.\n\nFuentes: National Park Service (Pearl Harbor National Memorial: cronología minuto a minuto, Opana, Battleship Row, hermanos del USS Arizona, víctimas civiles y militares); Naval History and Heritage Command (H-Gram 001, informes del USS Ward y del USS Vestal, biografías de Doris Miller y Mervyn Bennion, uniformes de 1941); The National WWII Museum («Routine in Paradise», Kermit Tyler, hoja de datos de víctimas); USS Arizona Memorial Association (la banda del Arizona); U.S. Pacific Fleet Band (Battle of Music); Pearl Harbor Attack Hearings (la alerta de guerra del 27 de noviembre); Archivos Nacionales (DocsTeach); Foreign Relations of the United States 1941; JACAR (Archivo de Historia Asiática de Japón); Smithsonian; Encyclopaedia Britannica; Densho Encyclopedia; ECU Digital Collections (Historical Sketch of USS Nevada); Estado de Minnesota (cañón del USS Ward); Walter Lord, «Day of Infamy» (1957); Gordon W. Prange, «At Dawn We Slept» (1981).",
+    "descripcion": "Treinta días en la vida de Tomás «Tommy» Baca, 19 años, hispano de Nuevo México y marinero de segunda en el acorazado USS Nevada, amarrado en Battleship Row, en Pearl Harbor (Oahu, Territorio de Hawái), del 11 de noviembre al 10 de diciembre de 1941: la paga de 36 dólares, el baldeo de cubierta, los permisos en Hotel Street, la Batalla de la Música en Bloch Arena, la alerta de guerra del 27 de noviembre que no nombraba Hawái y el domingo 7 de diciembre: el disparo del destructor USS Ward a las 6:45, el eco del radar de Opana a las 7:02, la banda del Nevada tocando el himno a las 8:00 y el único acorazado que logró ponerse en marcha. Sin escenas gráficas, en memoria de las 2.403 víctimas estadounidenses, y contando también las 64 japonesas.\n\n— Semana 1: Rutina en el paraíso\n— Semana 2: La batalla de la música\n— Semana 3: Alerta de guerra\n— Semana 4: El domingo\n— Epílogo: el Nevada en Normandía, el Trofeo Arizona, Doris Miller, el Ward hundido el 7 de diciembre de 1944 y el Arizona, que sigue en el fondo del puerto\n\nQué es inventado y qué es real: Tommy Baca, su familia y su amigo Gus Lindqvist son INVENTADOS, igual que lo que piensan y viven. Son reales el USS Nevada y su banda, el USS Arizona y los 21 músicos de su banda, las 37 parejas de hermanos del Arizona, el USS Ward y su comandante William W. Outerbridge, los soldados Joseph Lockard y George Elliott en el radar de Opana, el teniente Kermit Tyler, Doris Miller, el espía Takeo Yoshikawa, la alerta del almirante Stark al almirante Kimmel, la salida del Enterprise y todas las cifras del vídeo. Las personas reales aparecen solo con hechos documentados.\n\nDos mitos que el vídeo descarta: no hay ninguna prueba de que Roosevelt supiera del ataque y lo dejara pasar (las investigaciones de 1942–1946 no la encontraron), y la frase del «gigante dormido» atribuida a Yamamoto procede de la película «Tora! Tora! Tora!» (1970). Detalles discutidos se cuentan como tales: si la banda del Nevada terminó el himno (según Walter Lord, sí) o la cifra exacta de civiles muertos en Honolulú (68 según la cuenta oficial, cifra discutida).\n\nFuentes: National Park Service (Pearl Harbor National Memorial: cronología minuto a minuto, Opana, Battleship Row, hermanos del USS Arizona, víctimas civiles y militares); Naval History and Heritage Command (H-Gram 001, informes del USS Ward y del USS Vestal, biografías de Doris Miller y Mervyn Bennion, uniformes de 1941); The National WWII Museum («Routine in Paradise», Kermit Tyler, hoja de datos de víctimas); USS Arizona Memorial Association (la banda del Arizona); U.S. Pacific Fleet Band (Battle of Music); Pearl Harbor Attack Hearings (la alerta de guerra del 27 de noviembre); Archivos Nacionales (DocsTeach); Foreign Relations of the United States 1941; JACAR (Archivo de Historia Asiática de Japón); Smithsonian; Encyclopaedia Britannica; Densho Encyclopedia; ECU Digital Collections (Historical Sketch of USS Nevada); Estado de Minnesota (cañón del USS Ward); Walter Lord, «Day of Infamy» (1957); Gordon W. Prange, «At Dawn We Slept» (1981).",
     "etiquetas": [
       "un mes en la vida de",
       "Pearl Harbor",
@@ -2562,15 +2640,15 @@
         "descripcion": "6:45, el USS Ward. 7:02, el radar de Opana. Nadie dio la alarma. #shorts #pearlharbor"
       },
       {
-        "titulo": "A las 8:00 la banda siguió tocando",
+        "titulo": "A las 8:00 en punto, la banda empezó el himno",
         "descripcion": "Tora, tora, tora y el himno del USS Nevada. Sin escenas gráficas. #shorts #historia"
       },
       {
         "titulo": "1.177 hombres del Arizona",
-        "descripcion": "Los músicos, los hermanos y Doris Miller, el camarero al que nunca enseñaron a disparar. #shorts #pearlharbor"
+        "descripcion": "Los músicos del USS Arizona y Doris Miller, el camarero al que nunca enseñaron a disparar. #shorts #pearlharbor"
       },
       {
-        "titulo": "El único acorazado que logró moverse",
+        "titulo": "Varar el barco a propósito",
         "descripcion": "El USS Nevada, la segunda oleada y el silencio. También los 64 japoneses que no volvieron. #shorts #historia"
       },
       {
@@ -2621,6 +2699,7 @@
     "Mítsuo": "Mitsuo",
     "Fuchída": "Fuchida",
     "tóra": "tora",
-    "Rúsvelt": "Roosevelt"
+    "Rúsvelt": "Roosevelt",
+    "Uáshinton": "Washington"
   }
 }

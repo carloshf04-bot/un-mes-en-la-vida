@@ -1,7 +1,7 @@
 import React from "react";
 import { random } from "remotion";
 import { MW, MH, SUELO, HORIZONTE, oscurecer, xMundo } from "./constantes";
-import { Prop } from "./Props";
+import { Prop, espiral, rombos } from "./Props";
 
 export type Hora = "amanecer" | "dia" | "atardecer" | "noche";
 export type Clima = "despejado" | "lluvia" | "nieve" | "niebla" | "tormenta" | "polvo" | "ceniza";
@@ -14,7 +14,7 @@ export type Fondo = {
   lugar: Lugar;
   hora?: Hora;
   clima?: Clima;
-  pared?: "piedra" | "madera" | "ladrillo" | "metal" | "papel" | "tela" | "roca" | "jeroglificos";
+  pared?: "piedra" | "madera" | "ladrillo" | "metal" | "papel" | "tela" | "roca" | "jeroglificos" | "megalito";
   colorPared?: string;
   props?: PropEnEscena[];
   ventana?: boolean;
@@ -358,13 +358,13 @@ const Exterior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string; cam?
   );
 };
 
-const PAREDES: Record<string, string> = { jeroglificos: "#d9c49a", piedra: "#8a8178", madera: "#8a5a3a", ladrillo: "#9a4f3a", metal: "#5d6673", papel: "#d9cdb2", tela: "#7a5a7a", roca: "#5a4e44" };
+const PAREDES: Record<string, string> = { jeroglificos: "#d9c49a", piedra: "#8a8178", madera: "#8a5a3a", ladrillo: "#9a4f3a", metal: "#5d6673", papel: "#d9cdb2", tela: "#7a5a7a", roca: "#5a4e44", megalito: "#1b1917" };
 
 const Interior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string }> = ({ fondo, hora, f, id }) => {
   const tipo = fondo.pared ?? "madera";
   const col = fondo.colorPared ?? PAREDES[tipo];
   const noche = hora === "noche" || hora === "atardecer";
-  const ventana = fondo.ventana ?? !(tipo === "roca" || tipo === "jeroglificos");
+  const ventana = fondo.ventana ?? !(tipo === "roca" || tipo === "jeroglificos" || tipo === "megalito");
   return (
     <g>
       <rect width={MW} height={SUELO} fill={col} />
@@ -399,6 +399,7 @@ const Interior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string }> = 
             })}
           </g>
         ))}
+      {tipo === "megalito" && <Megalito id={id} />}
       {tipo === "madera" && Array.from({ length: 16 }).map((_, i) => <rect key={i} x={i * 122} y={0} width={6} height={SUELO} fill={oscurecer(col, 0.25)} />)}
       {tipo === "metal" &&
         Array.from({ length: 8 }).map((_, i) => (
@@ -430,11 +431,90 @@ const Interior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string }> = 
         </g>
       )}
       <rect x={0} y={SUELO - 50} width={MW} height={40} fill={oscurecer(col, 0.35)} />
-      <rect x={0} y={SUELO - 10} width={MW} height={MH} fill={tipo === "metal" ? "#2b3038" : tipo === "piedra" || tipo === "roca" ? "#4a443e" : tipo === "jeroglificos" ? "#8a6a42" : "#5a3d28"} />
+      <rect x={0} y={SUELO - 10} width={MW} height={MH} fill={tipo === "metal" ? "#2b3038" : tipo === "megalito" ? "#2f2c29" : tipo === "piedra" || tipo === "roca" ? "#4a443e" : tipo === "jeroglificos" ? "#8a6a42" : "#5a3d28"} />
       {Array.from({ length: 10 }).map((_, i) => (
         <line key={i} x1={i * 200} y1={SUELO} x2={i * 200 - 300} y2={MH} stroke="#00000022" strokeWidth={6} />
       ))}
       {noche && <rect width={MW} height={MH} fill="#0a1230" opacity={0.35} style={{ mixBlendMode: "multiply" }} />}
+    </g>
+  );
+};
+
+// Cámara de una tumba megalítica (Newgrange): losas verticales de piedra gris con espirales, rombos y zigzags
+// grabados, y encima la falsa bóveda de losas en saledizo que se cierran hacia arriba
+const Megalito: React.FC<{ id: string }> = ({ id }) => {
+  const TOPE = SUELO - 600;
+  const grises = ["#57534e", "#4e4a46", "#5f5a54", "#524e49"];
+  const surco = "#837d74";
+  return (
+    <g>
+      {/* falsa bóveda: hiladas de losas que avanzan hacia el centro */}
+      {Array.from({ length: 10 }).map((_, k) => {
+        const y = TOPE - k * 84;
+        const dentro = 230 + k * 74;
+        return (
+          <g key={k}>
+            {[-1, 1].map((s) => {
+              const x0 = s < 0 ? -40 : MW + 40;
+              const x1 = s < 0 ? dentro + random(`mb${k}${s}`) * 30 : MW - dentro - random(`mb${k}${s}`) * 30;
+              return (
+                <g key={s}>
+                  <polygon points={`${x0},${y} ${x1},${y} ${x1 - s * 12},${y - 82} ${x0},${y - 82}`} fill={grises[(k + (s > 0 ? 1 : 0)) % 4]} />
+                  <rect x={Math.min(x0, x1)} y={y - 12} width={Math.abs(x1 - x0)} height={12} fill="#000" opacity={0.35} />
+                  {[1, 2, 3].map((j) => {
+                    const xj = x0 + (x1 - x0) * (j / 4 + (random(`mj${k}${s}${j}`) - 0.5) * 0.1);
+                    return <rect key={j} x={xj - 3} y={y - 82} width={6} height={82} fill="#000" opacity={0.3} />;
+                  })}
+                </g>
+              );
+            })}
+          </g>
+        );
+      })}
+      {/* ortostatos */}
+      {Array.from({ length: 10 }).map((_, i) => {
+        const x0 = -60 + i * 208 + random(`mo${i}`) * 20;
+        const w = 186 + random(`mw${i}`) * 30;
+        const h = 500 + random(`mh${i}`) * 120;
+        const base = SUELO - 40;
+        const top = base - h;
+        const c = grises[i % 4];
+        const cx = x0 + w / 2;
+        const cy = top + h * 0.42;
+        const motivo = [0, 1, 3, 2, -1, 0, 3, 1, 2, -1][i];
+        return (
+          <g key={i}>
+            <path d={`M${x0} ${base} L${x0 - 6} ${top + 40} Q${x0 + 10} ${top - 6 + random(`mt${i}`) * 20} ${cx} ${top - random(`mu${i}`) * 24} Q${x0 + w - 10} ${top + 4} ${x0 + w + 4} ${top + 50} L${x0 + w} ${base}Z`} fill={c} />
+            <path d={`M${x0 + w - 26} ${top + 40} L${x0 + w + 4} ${top + 50} L${x0 + w} ${base} L${x0 + w - 30} ${base}Z`} fill="#000" opacity={0.22} />
+            <path d={`M${x0} ${base} L${x0 - 6} ${top + 40} L${x0 + 14} ${top + 34} L${x0 + 18} ${base}Z`} fill="#fff" opacity={0.06} />
+            <g stroke={surco} strokeWidth={8} fill="none" strokeLinecap="round" strokeLinejoin="round" opacity={0.75}>
+              {motivo === 0 && (
+                <g>
+                  <path d={espiral(cx - 42, cy - 30, 44, 2.2, 1)} />
+                  <path d={espiral(cx + 44, cy - 30, 44, 2.2, -1, Math.PI)} />
+                  <path d={espiral(cx, cy + 50, 44, 2.2, 1, Math.PI / 2)} />
+                </g>
+              )}
+              {motivo === 1 && (
+                <g>
+                  <path d={rombos(cx - 70, cy - 110, 140, 70, 2)} />
+                  <path d={rombos(cx - 70, cy - 40, 140, 70, 2)} />
+                  <path d={rombos(cx - 70, cy + 30, 140, 70, 2)} />
+                </g>
+              )}
+              {motivo === 2 && [0, 1, 2, 3].map((r) => <circle key={r} cx={cx} cy={cy} r={18 + r * 22} />)}
+              {motivo === 3 && <path d={Array.from({ length: 5 }).map((_, z) => `M${cx - 70} ${cy - 100 + z * 50} l35 -26 l35 26 l35 -26 l35 26`).join(" ")} />}
+            </g>
+          </g>
+        );
+      })}
+      <defs>
+        <radialGradient id={`vig${id}`} cx="0.5" cy="0.62" r="0.62">
+          <stop offset="0.45" stopColor="#000" stopOpacity={0} />
+          <stop offset="1" stopColor="#000" stopOpacity={0.7} />
+        </radialGradient>
+      </defs>
+      <rect width={MW} height={SUELO} fill={`url(#vig${id})`} />
     </g>
   );
 };
@@ -601,7 +681,7 @@ const PrimerPlano: React.FC<{ fondo: Fondo; f: number; id: string; cam?: Cam }> 
 const LEJANOS = ["parapeto-aleman", "volcan", "volcan-erupcion", "explosion", "piramide", "pilar", "templo-mayor"];
 const ESCALA_LEJANA: Record<string, number> = { "templo-mayor": 0.8, pilar: 0.75 };
 // Decorados de plano medio: sobre el agua o la llanura, entre el horizonte y el suelo
-const MEDIOS: Record<string, { y: number; k: number }> = { bergantin: { y: HORIZONTE + 95, k: 0.5 }, "ciudad-lago": { y: HORIZONTE + 40, k: 0.55 }, puente: { y: HORIZONTE + 95, k: 0.5 }, calzada: { y: HORIZONTE + 80, k: 0.6 }, canoa: { y: SUELO - 75, k: 0.8 } };
+const MEDIOS: Record<string, { y: number; k: number }> = { bergantin: { y: HORIZONTE + 95, k: 0.5 }, "ciudad-lago": { y: HORIZONTE + 40, k: 0.55 }, puente: { y: HORIZONTE + 95, k: 0.5 }, calzada: { y: HORIZONTE + 80, k: 0.6 }, canoa: { y: SUELO - 75, k: 0.8 }, piragua: { y: SUELO - 75, k: 0.8 }, "piragua-piedras": { y: SUELO - 75, k: 0.8 }, tumulo: { y: SUELO - 55, k: 0.6 }, "tumulo-obra": { y: SUELO - 55, k: 0.6 }, "tumulo-hierba": { y: SUELO - 55, k: 0.6 } };
 
 // Un objeto pequeño (emoji) que cae sobre una mesa se apoya en el tablero, no en el suelo
 const EMOJI = /\p{Extended_Pictographic}/u;
@@ -623,7 +703,7 @@ export const DibujarFondo: React.FC<{ fondo: Fondo; f: number; dur: number; id: 
     return (
       <g>
         {props.filter((p) => p.detras === false).map((p, i) => (
-          <g key={i} transform={`translate(${xMundo(p.x, k)} ${SUELO + 40}) scale(${p.escala})`}><Prop tipo={p.tipo} f={f} noche={noche} /></g>
+          <g key={i} transform={`translate(${xMundo(p.x, k)} ${SUELO + 40}) scale(${p.escala})`}><Prop tipo={p.tipo} f={f} noche={noche} dur={dur} /></g>
         ))}
         {fondo.lugar === "trinchera" && (
           <g opacity={0.72}>
@@ -650,18 +730,18 @@ export const DibujarFondo: React.FC<{ fondo: Fondo; f: number; dur: number; id: 
           {props.filter((p) => LEJANOS.includes(p.tipo)).map((p, i) => (
             <g key={`l${i}`} transform={paralaje(cam, 0.6)}>
               <g opacity={0.92} transform={`translate(${xMundo(p.x, k)} ${HORIZONTE + 60}) scale(${Math.min(p.escala ?? 1, 1.6) * 0.75 * (ESCALA_LEJANA[p.tipo] ?? 1)})`}>
-                <Prop tipo={p.tipo} f={f} noche={noche} />
+                <Prop tipo={p.tipo} f={f} noche={noche} dur={dur} />
               </g>
             </g>
           ))}
           <Exterior fondo={fondo} hora={hora} f={f} id={id} cam={cam} medios={props.filter((p) => MEDIOS[p.tipo] && p.detras !== false).map((p, i) => (
-            <g key={`m${i}`} transform={`translate(${xMundo(p.x, k)} ${MEDIOS[p.tipo].y}) scale(${(p.escala ?? 1) * MEDIOS[p.tipo].k})`}><Prop tipo={p.tipo} f={f} noche={noche} /></g>
+            <g key={`m${i}`} transform={`translate(${xMundo(p.x, k)} ${MEDIOS[p.tipo].y}) scale(${(p.escala ?? 1) * MEDIOS[p.tipo].k})`}><Prop tipo={p.tipo} f={f} noche={noche} dur={dur} /></g>
           ))} />
         </g>
       )}
       {fondo.lugar === "interior" && <Vida fondo={fondo} f={f} id={id} />}
       {props.filter((p) => p.detras !== false && (fondo.lugar === "interior" || (!LEJANOS.includes(p.tipo) && !MEDIOS[p.tipo]))).map((p, i) => (
-        <g key={i} transform={`translate(${xMundo(p.x, k)} ${SUELO - 20 - sobreMesa(p, props, k)}) scale(${p.escala})`}><Prop tipo={p.tipo} f={f} noche={noche} /></g>
+        <g key={i} transform={`translate(${xMundo(p.x, k)} ${SUELO - 20 - sobreMesa(p, props, k)}) scale(${p.escala})`}><Prop tipo={p.tipo} f={f} noche={noche} dur={dur} /></g>
       ))}
       {(fondo.clima === "lluvia" || fondo.clima === "tormenta" || fondo.clima === "nieve") && fondo.lugar !== "interior" && (
         // cielo encapotado: con lluvia no hay sol ni cielo azul

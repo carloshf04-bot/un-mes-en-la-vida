@@ -1,5 +1,6 @@
 import React from "react";
 import { random } from "remotion";
+import { oscurecer } from "./constantes";
 
 // Objetos de decorado. Origen = punto de apoyo en el suelo; se dibujan hacia arriba (y negativa).
 // Para añadir uno nuevo: añade un `case` y documéntalo en oficina/GUIA_GUION.md
@@ -24,7 +25,53 @@ export const PROPS_DISPONIBLES = [
   "lodo", "barrizal",
   // Roma (Saturnales) y Halifax (1917)
   "templo-romano", "ruinas", "tren", "wigwam",
+  // Neolítico irlandés (Newgrange, c. 3200 a. C.)
+  "tumulo", "tumulo-obra", "tumulo-hierba", "entrada-tumulo", "losa-grabada", "losa-rodillos", "casa-neolitica", "piragua", "piragua-piedras",
+  "rayo-solsticio", "rayo-solsticio-entra", "rayo-solsticio-avanza", "rayo-solsticio-ensancha", "rayo-solsticio-sale",
+  "rayo-solsticio-corto", "rayo-solsticio-hilo", "rayo-solsticio-pleno",
 ] as const;
+
+// Espiral grabada (arte megalítico): devuelve el trazo de una espiral de Arquímedes
+export const espiral = (cx: number, cy: number, r: number, vueltas = 2.5, sentido = 1, giro = 0) => {
+  const n = Math.ceil(vueltas * 24);
+  let d = "";
+  for (let i = 0; i <= n; i++) {
+    const t = i / n;
+    const a = giro + sentido * t * vueltas * Math.PI * 2;
+    d += `${i ? "L" : "M"}${(cx + Math.cos(a) * r * t).toFixed(1)} ${(cy + Math.sin(a) * r * t).toFixed(1)} `;
+  }
+  return d;
+};
+// Fila de rombos grabados (dintel de la caja de luz, losas del anillo)
+export const rombos = (x0: number, y0: number, ancho: number, alto: number, n: number) => {
+  const w = ancho / n;
+  let d = "";
+  for (let i = 0; i < n; i++) {
+    const x = x0 + i * w;
+    d += `M${x} ${y0 + alto / 2} L${x + w / 2} ${y0} L${x + w} ${y0 + alto / 2} L${x + w / 2} ${y0 + alto}Z `;
+  }
+  return d;
+};
+// Estados del rayo del solsticio: [largo, ancho] (0 = nada; 1 = llega al fondo / franja entera)
+const RAYO: Record<string, [number, number][]> = {
+  "rayo-solsticio": [[0, 0.2], [1, 0.2], [1, 1], [1, 1], [1, 0.2], [0, 0.2]],
+  "rayo-solsticio-entra": [[0, 0.2], [1, 0.2], [1, 0.2]],
+  "rayo-solsticio-avanza": [[0, 0.2], [0.55, 0.2], [0.55, 0.2]],
+  "rayo-solsticio-ensancha": [[1, 0.2], [1, 1], [1, 1]],
+  "rayo-solsticio-sale": [[1, 1], [1, 0.2], [0, 0.2]],
+  "rayo-solsticio-corto": [[0.55, 0.2]],
+  "rayo-solsticio-hilo": [[1, 0.2]],
+  "rayo-solsticio-pleno": [[1, 1]],
+};
+const suaveR = (x: number) => x * x * (3 - 2 * x);
+const estadoRayo = (tipo: string, p: number): [number, number] => {
+  const e = RAYO[tipo] ?? RAYO["rayo-solsticio"];
+  if (e.length === 1) return e[0];
+  const q = Math.min(0.999, Math.max(0, p)) * (e.length - 1);
+  const i = Math.floor(q);
+  const k = suaveR(q - i);
+  return [e[i][0] + (e[i + 1][0] - e[i][0]) * k, e[i][1] + (e[i + 1][1] - e[i][1]) * k];
+};
 
 const Brillo: React.FC<{ r: number; o: number; color?: string; cx?: number; cy?: number }> = ({ r, o, color = "#ffb347", cx = 0, cy = 0 }) => (
   <g>
@@ -38,7 +85,7 @@ const Brillo: React.FC<{ r: number; o: number; color?: string; cx?: number; cy?:
   </g>
 );
 
-export const Prop: React.FC<{ tipo: string; f: number; noche: boolean }> = ({ tipo, f, noche }) => {
+export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: number }> = ({ tipo, f, noche, dur = 360 }) => {
   const llama = (x: number, y: number, s = 1) => (
     <g transform={`translate(${x} ${y}) scale(${s * (1 + Math.sin(f / 2.3) * 0.08)} ${s * (1 + Math.cos(f / 1.9) * 0.1)})`}>
       <Brillo r={160} o={0.35} />
@@ -1419,6 +1466,330 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean }> = ({ ti
           <path d="M-50 0 Q0 -150 50 0Z" fill="#3e3226" />
         </g>
       );
+    // ---------- Neolítico irlandés: Newgrange (Brú na Bóinne), c. 3200 a. C. ----------
+    case "tumulo":
+    case "tumulo-obra":
+    case "tumulo-hierba": {
+      // gran túmulo de piedras y tepes: frente de cuarzo blanco con cantos grises y anillo de bordillos.
+      // Plano MEDIO (se apoya en la llanura, detrás de los personajes). "-obra": a medio levantar; "-hierba": siglos después, cubierto de hierba.
+      const obra = tipo === "tumulo-obra";
+      const hierba = tipo === "tumulo-hierba";
+      const cupula = obra
+        ? "M-900 0 C-850 -240 -600 -350 -320 -362 L240 -362 C560 -352 850 -240 900 0Z"
+        : "M-900 0 C-820 -300 -450 -420 0 -420 C450 -420 820 -300 900 0Z";
+      const banda = "M-900 0 L-900 -110 Q0 -190 900 -110 L900 0Z";
+      const cid = `tum-${tipo}`;
+      return (
+        <g>
+          <defs>
+            <clipPath id={cid}><path d={cupula} /></clipPath>
+            <clipPath id={`${cid}-b`}><path d={banda} /></clipPath>
+          </defs>
+          <path d={cupula} fill={hierba ? "#6a8c4a" : obra ? "#7a6248" : "#7f9c58"} />
+          <g clipPath={`url(#${cid})`}>
+            {/* sombra del lado derecho */}
+            <rect x={150} y={-460} width={800} height={470} fill="#000" opacity={0.1} />
+            {obra &&
+              // capas de piedras y tepes, una sobre otra
+              Array.from({ length: 8 }).map((_, i) => (
+                <g key={i}>
+                  <rect x={-920} y={-60 - i * 44} width={1840} height={22} fill={i % 2 ? "#9a948a" : "#6f8a4e"} opacity={0.9} />
+                  {Array.from({ length: 16 }).map((__, j) => (
+                    <ellipse key={j} cx={-860 + j * 115 + random(`tc${i}-${j}`) * 50} cy={-50 - i * 44} rx={16} ry={8} fill="#8a8478" opacity={i % 2 ? 0 : 0.8} />
+                  ))}
+                </g>
+              ))}
+            {!obra &&
+              Array.from({ length: hierba ? 22 : 14 }).map((_, i) => (
+                <path key={i} d={`M${-820 + random(`th${i}`) * 1640} ${-150 - random(`tv${i}`) * 240} q10 -26 20 0`} stroke={oscurecer(hierba ? "#6a8c4a" : "#7f9c58", 0.25)} strokeWidth={6} fill="none" />
+              ))}
+            {/* frente de cuarzo blanco salpicado de cantos de granito */}
+            {!hierba && (
+              <g clipPath={obra ? undefined : `url(#${cid}-b)`}>
+                {obra ? <path d="M-300 0 L-300 -150 Q0 -190 300 -150 L300 0Z" fill="#eceae3" /> : <path d={banda} fill="#eceae3" />}
+                {Array.from({ length: obra ? 26 : 90 }).map((_, i) => (
+                  <ellipse key={i} cx={(obra ? -290 : -890) + random(`tq${i}`) * (obra ? 580 : 1780)} cy={-12 - random(`tr${i}`) * 165} rx={7 + random(`ts${i}`) * 7} ry={5 + random(`ts${i}`) * 4} fill={i % 3 ? "#8d8a85" : "#6e6b67"} />
+                ))}
+                <path d={obra ? "M-300 -150 Q0 -190 300 -150" : "M-900 -110 Q0 -190 900 -110"} stroke="#000" strokeOpacity={0.15} strokeWidth={8} fill="none" />
+              </g>
+            )}
+            {hierba &&
+              // arbustos y árboles que crecieron sobre el monte
+              [[-420, -330, 70], [-180, -390, 55], [260, -380, 80], [560, -280, 60]].map(([x, y, r], i) => (
+                <g key={i}>
+                  <rect x={x - 8} y={y} width={16} height={r * 0.8} fill="#4a3826" />
+                  <circle cx={x} cy={y} r={r} fill={i % 2 ? "#3f6a34" : "#4a7a3c"} />
+                </g>
+              ))}
+          </g>
+          {/* entrada: puerta oscura, caja de luz encima y losa de la entrada delante */}
+          {!hierba && (
+            <g>
+              <rect x={-30} y={-118} width={60} height={104} fill="#14110e" />
+              <rect x={-26} y={-158} width={52} height={26} fill="#14110e" />
+              <rect x={-46} y={-134} width={92} height={18} fill="#8f8a82" />
+              <rect x={-46} y={-172} width={92} height={16} fill="#8f8a82" />
+            </g>
+          )}
+          {/* anillo de grandes bordillos de piedra */}
+          {Array.from({ length: 16 }).map((_, i) => {
+            const x = -860 + i * 115;
+            if (Math.abs(x + 57) < 90) return null;
+            const h = hierba ? 20 + random(`kh${i}`) * 16 : 46 + random(`kh${i}`) * 14;
+            return <path key={i} d={`M${x} 0 Q${x - 4} ${-h} ${x + 20} ${-h - 4} L${x + 92} ${-h} Q${x + 112} ${-h * 0.6} ${x + 110} 0Z`} fill={["#8f8a82", "#7f7a73", "#9a958c"][i % 3]} stroke="#00000033" strokeWidth={3} />;
+          })}
+          {!hierba && (
+            <g>
+              <path d="M-86 0 Q-92 -56 -70 -64 L70 -64 Q92 -56 86 0Z" fill="#9a958c" />
+              <g stroke="#5f5b55" strokeWidth={3} fill="none">
+                <path d={espiral(-50, -32, 20, 2, 1)} />
+                <path d={espiral(-14, -36, 18, 2, -1)} />
+                <path d={espiral(40, -32, 20, 2, 1)} />
+              </g>
+            </g>
+          )}
+        </g>
+      );
+    }
+    case "entrada-tumulo": {
+      // la entrada vista de cerca: losa de la entrada tumbada con espirales, la puerta oscura detrás
+      // y encima la caja de luz con su dintel de rombos, en el muro de cuarzo blanco. Usa x 0 y escala 1.
+      const cuarzo = noche ? "#a9a7a1" : "#ecebe5";
+      const piedra = noche ? "#67635d" : "#9a958c";
+      const surco = noche ? "#3c3a36" : "#65615a";
+      const verde = noche ? "#41552f" : "#6f9a4a";
+      const negro = "#100d0b";
+      const cupula = "M-1600 -260 C-1150 -820 -520 -1040 0 -1060 C520 -1040 1150 -820 1600 -260 L1600 0 L-1600 0Z";
+      const muro = "M-1600 0 L-1600 -400 C-760 -900 760 -900 1600 -400 L1600 0Z";
+      const losa = (x: number, w: number, h: number, c: string, k: number) => (
+        <path key={k} d={`M${x - w / 2} 0 Q${x - w / 2 - 10} ${-h * 0.8} ${x - w / 2 + 40} ${-h} Q${x} ${-h - 16} ${x + w / 2 - 30} ${-h + 6} Q${x + w / 2 + 8} ${-h * 0.6} ${x + w / 2} 0Z`} fill={c} stroke="#00000030" strokeWidth={5} />
+      );
+      return (
+        <g>
+          <defs>
+            <clipPath id="ent-cupula"><path d={cupula} /></clipPath>
+            <clipPath id="ent-muro"><path d={muro} /></clipPath>
+          </defs>
+          <path d={cupula} fill={verde} />
+          {Array.from({ length: 30 }).map((_, i) => (
+            <path key={i} d={`M${-1300 + random(`eh${i}`) * 2600} ${-700 - random(`ev${i}`) * 320} q12 -30 24 0`} stroke={oscurecer(verde, 0.25)} strokeWidth={7} fill="none" />
+          ))}
+          <g clipPath="url(#ent-cupula)">
+            <path d={muro} fill={cuarzo} />
+            <g clipPath="url(#ent-muro)">
+              {Array.from({ length: 230 }).map((_, i) => (
+                <ellipse key={i} cx={-1600 + random(`ec${i}`) * 3200} cy={-20 - random(`ey${i}`) * 860} rx={18 + random(`er${i}`) * 22} ry={12 + random(`er${i}`) * 12}
+                  fill={["#8d8a85", "#76736e", "#9c9893"][i % 3]} opacity={noche ? 0.6 : 1} transform={`rotate(${random(`eo${i}`) * 40 - 20} ${-1600 + random(`ec${i}`) * 3200} ${-20 - random(`ey${i}`) * 860})`} />
+              ))}
+              {/* destellos del cuarzo con el sol bajo */}
+              {!noche && Array.from({ length: 14 }).map((_, i) => {
+                const o = Math.max(0, Math.sin(f / 9 + i * 2.1));
+                const x = -1300 + random(`ed${i}`) * 2600;
+                const y = -60 - random(`ee${i}`) * 700;
+                return <path key={`d${i}`} d={`M${x} ${y - 16} L${x + 4} ${y - 4} L${x + 16} ${y} L${x + 4} ${y + 4} L${x} ${y + 16} L${x - 4} ${y + 4} L${x - 16} ${y} L${x - 4} ${y - 4}Z`} fill="#fff" opacity={o * 0.9} />;
+              })}
+            </g>
+            <path d="M-1600 -400 C-760 -900 760 -900 1600 -400" stroke="#000" strokeOpacity={0.18} strokeWidth={14} fill="none" />
+          </g>
+          {/* puerta y caja de luz */}
+          <rect x={-100} y={-490} width={200} height={480} fill={negro} />
+          <path d="M-200 -10 L-212 -470 Q-160 -505 -96 -488 L-92 -10Z" fill={piedra} />
+          <path d="M200 -10 L212 -470 Q160 -505 96 -488 L92 -10Z" fill={oscurecer(piedra, 0.12)} />
+          <path d="M-250 -470 L-244 -548 Q0 -566 244 -548 L250 -470 Q0 -458 -250 -470Z" fill={piedra} />
+          <rect x={-125} y={-660} width={250} height={116} fill={negro} />
+          <path d="M-190 -548 L-186 -660 L-124 -660 L-124 -548Z" fill={oscurecer(piedra, 0.08)} />
+          <path d="M190 -548 L186 -660 L124 -660 L124 -548Z" fill={oscurecer(piedra, 0.18)} />
+          <path d="M-250 -652 L-244 -752 Q0 -770 244 -752 L250 -652 Q0 -640 -250 -652Z" fill={piedra} />
+          <path d={rombos(-215, -740, 430, 76, 6)} stroke={surco} strokeWidth={7} fill="none" strokeLinejoin="round" />
+          {/* bordillos a los lados */}
+          {[-1, 1].map((s) => [0, 1, 2].map((i) => losa(s * (690 + i * 310), 300, 200 + ((i + (s > 0 ? 1 : 0)) % 2) * 30, i % 2 ? oscurecer(piedra, 0.1) : piedra, s * 10 + i)))}
+          {/* la losa de la entrada, tumbada delante de la puerta */}
+          <ellipse cx={0} cy={6} rx={540} ry={26} fill="#000" opacity={0.25} />
+          <path d="M-505 0 Q-525 -200 -445 -322 Q-200 -362 0 -350 Q240 -366 452 -330 Q528 -220 508 0Z" fill={piedra} />
+          <path d="M-445 -322 Q-200 -362 0 -350 Q240 -366 452 -330 Q240 -344 0 -334 Q-200 -346 -445 -322Z" fill="#fff" opacity={0.18} />
+          <g stroke={surco} strokeWidth={10} fill="none" strokeLinecap="round" strokeLinejoin="round">
+            {/* triple espiral a la izquierda */}
+            <path d={espiral(-330, -215, 72, 2.4, 1)} />
+            <path d={espiral(-180, -235, 66, 2.4, -1, Math.PI)} />
+            <path d={espiral(-255, -95, 62, 2.2, 1, Math.PI / 2)} />
+            <path d="M-5 -340 Q8 -170 -2 -12" />
+            <path d={espiral(150, -215, 68, 2.3, -1)} />
+            <path d={espiral(300, -160, 64, 2.2, 1, Math.PI)} />
+            <path d={rombos(80, -90, 180, 64, 3)} />
+            <path d="M-470 -40 q60 -40 120 0 M410 -280 q30 30 60 10" />
+          </g>
+        </g>
+      );
+    }
+    case "losa-grabada": {
+      // losa del anillo tumbada, con espirales y rombos picados a golpe de canto
+      const piedra = noche ? "#6e6a63" : "#9a958c";
+      const surco = noche ? "#45423d" : "#66625b";
+      return (
+        <g>
+          <ellipse cx={0} cy={4} rx={410} ry={22} fill="#000" opacity={0.22} />
+          <path d="M-390 0 Q-410 -150 -340 -250 Q-120 -290 60 -278 Q260 -292 360 -240 Q410 -130 392 0Z" fill={piedra} />
+          <path d="M-340 -250 Q-120 -290 60 -278 Q260 -292 360 -240 Q260 -270 60 -262 Q-120 -274 -340 -250Z" fill="#fff" opacity={0.18} />
+          <path d="M392 0 Q410 -130 360 -240 Q380 -120 360 0Z" fill="#000" opacity={0.15} />
+          <g stroke={surco} strokeWidth={9} fill="none" strokeLinecap="round" strokeLinejoin="round">
+            <path d={espiral(-250, -140, 78, 2.4, 1)} />
+            <path d={espiral(-95, -150, 72, 2.4, -1, Math.PI)} />
+            <path d={rombos(30, -230, 210, 78, 3)} />
+            <path d={rombos(30, -140, 210, 78, 3)} />
+            <path d={espiral(310, -120, 52, 2, 1)} />
+          </g>
+        </g>
+      );
+    }
+    case "losa-rodillos": {
+      // gran losa arrastrada sobre troncos; las cuerdas salen hacia delante (derecha) a la altura de las manos
+      // de los personajes con acción "arrastrar". Ponla a la izquierda (x ≈ -1.1) con escala 1.
+      const av = Math.min(f * 0.3, 160);
+      const piedra = noche ? "#6e6a63" : "#8f8a82";
+      return (
+        <g>
+          {[0, 1, 2].map((i) => (
+            <path key={i} d={`M${av + 440} ${-200 - i * 16} Q${av + 900} ${-300 - i * 12} 2800 ${-300 - i * 14}`} stroke={i % 2 ? "#9a7f52" : "#b49a6a"} strokeWidth={11} fill="none" strokeLinecap="round" />
+          ))}
+          {[-330, -20, 290].map((x, i) => {
+            const cx = x + av * 0.5;
+            const g = ((av * 0.5) / 46) * 57.3;
+            return (
+              <g key={i} transform={`translate(${cx} -46)`}>
+                <circle r={46} fill="#6b4a2e" />
+                <circle r={34} fill="#a07a50" />
+                <g transform={`rotate(${g})`} stroke="#7a5634" strokeWidth={4} fill="none">
+                  <circle r={20} />
+                  <path d="M0 -34 L0 34" />
+                </g>
+              </g>
+            );
+          })}
+          <g transform={`translate(${av} 0)`}>
+            <path d="M-490 -86 Q-512 -250 -410 -330 Q-100 -372 200 -352 Q430 -342 478 -262 Q506 -170 466 -86 Q0 -70 -490 -86Z" fill={piedra} />
+            <path d="M-410 -330 Q-100 -372 200 -352 Q430 -342 478 -262 Q380 -320 200 -336 Q-100 -354 -410 -330Z" fill="#fff" opacity={0.16} />
+            <path d="M-490 -86 Q0 -70 466 -86 Q0 -110 -490 -86Z" fill="#000" opacity={0.2} />
+            {/* cuerdas atadas alrededor de la punta */}
+            {[370, 410].map((x) => <path key={x} d={`M${x} -90 Q${x + 18} -210 ${x - 6} -340`} stroke="#9a7f52" strokeWidth={12} fill="none" />)}
+          </g>
+        </g>
+      );
+    }
+    case "casa-neolitica": {
+      // casa redonda de postes, zarzo y barro, con techo cónico de juncos, puerta baja y humo que sale por el techo
+      const barro = noche ? "#6e5840" : "#a48462";
+      const poste = "#4e3a28";
+      const paja = noche ? "#7d6c45" : "#b89c5e";
+      const pajaO = oscurecer(paja, 0.25);
+      const fuego = 0.75 + 0.25 * Math.sin(f / 3.1) * Math.sin(f / 1.7);
+      const alero = (x: number) => -212 + 38 * (1 - (x / 420) ** 2);
+      return (
+        <g>
+          <ellipse cx={0} cy={6} rx={380} ry={26} fill="#000" opacity={0.22} />
+          <path d="M-330 0 L-330 -260 L330 -260 L330 0 Q0 24 -330 0Z" fill={barro} />
+          {[-290, -190, 190, 290].map((x) => <rect key={x} x={x - 12} y={-260} width={24} height={262} fill={poste} opacity={0.5} />)}
+          {/* el barro se ha caído y asoma el zarzo de ramas trenzadas */}
+          <path d="M150 -200 Q200 -222 270 -196 Q292 -130 262 -70 Q200 -52 156 -82 Q132 -140 150 -200Z" fill="#6b5235" />
+          {[0, 1, 2, 3].map((i) => <path key={i} d={`M150 ${-180 + i * 32} q30 12 60 0 q30 -12 60 0`} stroke="#8a6a44" strokeWidth={9} fill="none" />)}
+          <path d="M-330 -260 L-330 0 L-270 6 L-270 -260Z" fill="#000" opacity={0.12} />
+          <path d="M330 -260 L330 0 L270 6 L270 -260Z" fill="#000" opacity={0.2} />
+          <rect x={-330} y={-262} width={660} height={60} fill="#000" opacity={0.25} />
+          {/* puerta baja */}
+          {noche && <Brillo r={300} o={0.4 * fuego} cx={0} cy={-90} />}
+          <path d="M-72 0 L-72 -180 Q0 -205 72 -180 L72 0Z" fill={noche ? "#ffb35a" : "#2a1d14"} opacity={noche ? fuego : 1} />
+          {noche && <path d="M-72 0 L-72 -180 Q0 -205 72 -180 L72 0Z" fill="#7a3a14" opacity={0.5} transform="scale(0.7 0.75)" />}
+          {[-84, 84].map((x) => <rect key={x} x={x - 12} y={-196} width={24} height={196} fill={poste} />)}
+          {/* techo cónico de juncos */}
+          <path d={`M-420 ${alero(-420)} L0 -770 L420 ${alero(420)} ${Array.from({ length: 29 }).map((_, i) => { const x = 420 - i * 30; return `L${x} ${alero(x) + (i % 2 ? 22 : 0)}`; }).join(" ")}Z`} fill={paja} />
+          {Array.from({ length: 17 }).map((_, i) => {
+            const x = -400 + i * 50;
+            return <path key={i} d={`M${x * 0.04} -748 L${x} ${alero(x) + 8}`} stroke={pajaO} strokeWidth={5} opacity={0.65} />;
+          })}
+          {[0, 1].map((i) => <path key={`c${i}`} d={`M${-330 + i * 120} ${-330 - i * 120} Q0 ${-300 - i * 150} ${330 - i * 120} ${-330 - i * 120}`} stroke={pajaO} strokeWidth={10} fill="none" opacity={0.7} />)}
+          <path d={`M0 -770 L420 ${alero(420)} L120 -200Z`} fill="#000" opacity={0.12} />
+          {/* humo que se filtra por el techo */}
+          {[0, 1, 2, 3].map((k) => {
+            const t = ((f * 0.8 + k * 32) % 128) / 128;
+            return <circle key={k} cx={20 + t * 70 + Math.sin(t * 6 + k) * 16} cy={-760 - t * 340} r={24 + t * 56} fill="#cfcac0" opacity={0.45 * (1 - t)} />;
+          })}
+        </g>
+      );
+    }
+    case "piragua":
+    case "piragua-piedras": {
+      // tronco vaciado sobre el agua (plano medio, con "rio"); "-piedras" lleva losas grises de carga. Deriva despacio a la derecha.
+      const piedras = tipo === "piragua-piedras";
+      return (
+        <g transform={`translate(${f * 0.45} ${Math.sin(f / 18) * 5}) rotate(${Math.sin(f / 23) * 1.2})`}>
+          {piedras
+            ? [[-200, 46], [-100, 58], [10, 50], [120, 60], [220, 44]].map(([x, r], i) => <ellipse key={i} cx={x} cy={-62} rx={r} ry={r * 0.6} fill={["#8f8a82", "#7a766f", "#9a958c"][i % 3]} stroke="#00000033" strokeWidth={3} />)
+            : <g><ellipse cx={-130} cy={-70} rx={70} ry={30} fill="#8a6440" /><ellipse cx={-20} cy={-66} rx={46} ry={24} fill="#a07a50" /></g>}
+          <path d="M-350 -62 Q-362 -18 -310 0 L310 0 Q362 -18 350 -62 Q0 -50 -350 -62Z" fill="#5e4028" />
+          <path d="M-330 -64 Q0 -50 330 -64 Q0 -40 -330 -64Z" fill="#2e1e12" />
+          <path d="M-300 -30 Q0 -22 300 -30 M-260 -14 Q0 -8 260 -14" stroke="#4a3220" strokeWidth={4} fill="none" />
+          <ellipse cx={-342} cy={-34} rx={14} ry={28} fill="#8a6440" />
+          <line x1={210} y1={-240} x2={270} y2={10} stroke="#6b4a2a" strokeWidth={12} />
+          <ellipse cx={272} cy={-10} rx={16} ry={46} fill="#6b4a2a" transform="rotate(-13 272 -10)" />
+          <ellipse cx={0} cy={14} rx={380} ry={13} fill="#ffffff" opacity={0.18} />
+        </g>
+      );
+    }
+    case "rayo-solsticio":
+    case "rayo-solsticio-entra":
+    case "rayo-solsticio-avanza":
+    case "rayo-solsticio-ensancha":
+    case "rayo-solsticio-sale":
+    case "rayo-solsticio-corto":
+    case "rayo-solsticio-hilo":
+    case "rayo-solsticio-pleno": {
+      // el haz del amanecer del solsticio: entra por la caja de luz (arriba a la izquierda) y dibuja una franja dorada
+      // en el suelo que crece, se ensancha y mengua. Oscurece el decorado de detrás: ponlo el ÚLTIMO en props, con x 0.
+      const [largo, ancho] = estadoRayo(tipo, f / Math.max(1, dur));
+      const vis = Math.min(1, largo * 6);
+      const xs = -900;
+      const xt = xs + Math.max(0.001, largo) * 1500;
+      const w = 16 + ancho * 80;
+      const A1 = [-1320, -1180];
+      const A2 = [-1320 + 50 + ancho * 120, -1210];
+      const latido = 0.92 + 0.08 * Math.sin(f / 7);
+      return (
+        <g>
+          <defs>
+            <linearGradient id="rayo-haz" gradientUnits="userSpaceOnUse" x1={A1[0]} y1={A1[1]} x2={xt} y2={20}>
+              <stop offset="0" stopColor="#fff4cf" stopOpacity={0.75} />
+              <stop offset="1" stopColor="#ffc95a" stopOpacity={0.35} />
+            </linearGradient>
+            <radialGradient id="rayo-pared">
+              <stop offset="0" stopColor="#ffcf6a" stopOpacity={0.55} />
+              <stop offset="1" stopColor="#ffcf6a" stopOpacity={0} />
+            </radialGradient>
+          </defs>
+          {/* la cámara a oscuras */}
+          <rect x={-3000} y={-2000} width={6000} height={2200} fill="#05060a" opacity={0.42} />
+          <g opacity={vis * latido} style={{ mixBlendMode: "screen" }}>
+            {/* la piedra del fondo se vuelve de oro */}
+            <ellipse cx={xt - 120} cy={-260} rx={260 + ancho * 420} ry={220 + ancho * 260} fill="url(#rayo-pared)" opacity={0.35 + ancho * 0.65} />
+            <polygon points={`${A1[0]},${A1[1]} ${A2[0]},${A2[1]} ${xt},20 ${xt - 40},${20 + w} ${xs - 40},${20 + w}`} fill="url(#rayo-haz)" opacity={0.55} />
+            <polygon points={`${(A1[0] + A2[0]) / 2 - 10},${A1[1] - 15} ${(A1[0] + A2[0]) / 2 + 12},${A1[1] - 15} ${xt - 20},${24 + w * 0.3} ${xs},${24 + w * 0.6}`} fill="#fff4cf" opacity={0.3} />
+            {/* franja dorada en el suelo */}
+            <polygon points={`${xs - 20},12 ${xt + 20},12 ${xt - 30},${28 + w} ${xs - 60},${28 + w}`} fill="#ffb347" opacity={0.5} style={{ filter: "blur(10px)" }} />
+            <polygon points={`${xs},20 ${xt},20 ${xt - 40},${20 + w} ${xs - 40},${20 + w}`} fill="#ffd36e" />
+            <polygon points={`${xs + 30},${24 + w * 0.25} ${xt - 25},${24 + w * 0.25} ${xt - 40},${18 + w * 0.7} ${xs + 10},${18 + w * 0.7}`} fill="#fff6d8" opacity={0.85} />
+            {/* polvo brillando dentro del haz */}
+            {Array.from({ length: 46 }).map((_, i) => {
+              const u = random(`ru${i}`);
+              const v = random(`rv${i}`);
+              const bx = A1[0] + (A2[0] - A1[0]) * v;
+              const by = A1[1] + (A2[1] - A1[1]) * v;
+              const fx = xs + (xt - xs) * v;
+              const x = bx + (fx - bx) * u + Math.sin(f / 40 + i) * 14;
+              const y = by + (20 + w * 0.5 - by) * u - ((f * 0.4 + i * 9) % 40);
+              return <circle key={i} cx={x} cy={y} r={2.5 + random(`rr${i}`) * 3.5} fill="#fff8e0" opacity={(0.35 + 0.6 * Math.abs(Math.sin(f / (6 + random(`rt${i}`) * 8) + i))) * Math.min(1, largo * 2)} />;
+            })}
+          </g>
+        </g>
+      );
+    }
     case "charco":
       return (
         <g>

@@ -327,7 +327,7 @@
         "camara": "lenta"
       },
       {
-        "texto": "Me llamo Nino Arena. Hoy tengo sesenta años y miro el mismo estrecho desde una Mesina nueva. Hay cosas que un viejo prefiere contar despacio.",
+        "texto": "Me llamo Nino Arena. Hoy tengo sesenta años y miro el mismo estrecho desde una Mesina nueva.",
         "drama": 0.5,
         "fondo": {
           "lugar": "rio",
@@ -501,7 +501,7 @@
       },
       {
         "dia": 3,
-        "texto": "Mi madre, Carmela, raspa cáscaras de limón y de bergamota en un taller de esencias. De ese aceite salen perfumes y licores para medio mundo.",
+        "texto": "Mi madre, Carmela, raspa cáscaras de limón y de bergamota en un taller de esencias. De ese aceite salen perfumes y licores.",
         "drama": 0.5,
         "fondo": {
           "lugar": "interior",
@@ -690,7 +690,7 @@
       {
         "dia": 5,
         "corte": true,
-        "texto": "Cuando tiembla un vaso, la abuela recuerda el terremoto de mil setecientos ochenta y tres, que le contó su abuela. Y siempre acaba igual: si el mar se retira, corred al monte.",
+        "texto": "Cuando tiembla un vaso, la abuela recuerda el terremoto de mil setecientos ochenta y tres. Y siempre acaba igual: si el mar se retira, corred al monte.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -1053,7 +1053,7 @@
       },
       {
         "dia": 10,
-        "texto": "En Nochebuena no se come carne. Mi madre guisa peshestoco, bacalao seco con tomate y aceitunas. Aquí dicen que el siroco, la mala suerte y el peshestoco nunca faltan.",
+        "texto": "En Nochebuena no se come carne. Mi madre guisa peshestoco, bacalao seco con tomate y aceitunas. Dicen que el siroco, la mala suerte y el peshestoco nunca faltan.",
         "drama": 0.5,
         "fondo": {
           "lugar": "interior",
@@ -1200,7 +1200,7 @@
       },
       {
         "dia": 13,
-        "texto": "Vuelvo pasada la medianoche, tarareando la marcha triunfal. La abuela me espera despierta y me riñe en voz baja. Es la última vez que oigo su voz.",
+        "texto": "Vuelvo pasada la medianoche, tarareando la marcha triunfal. La abuela me espera despierta y me riñe bajito. Es la última vez que oigo su voz.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -1385,7 +1385,7 @@
       },
       {
         "dia": 14,
-        "texto": "La abuela dormía en el cuarto del fondo. Esa parte de la casa ya no estaba. Mi madre la llamó hasta quedarse sin voz, y yo no quise entender.",
+        "texto": "La abuela dormía en el cuarto del fondo. Esa parte de la casa ya no estaba. Mi madre la llamó hasta quedarse sin voz, y yo no quise entender lo que pasaba.",
         "drama": 0.75,
         "personajes": [
           {
@@ -1409,7 +1409,7 @@
       },
       {
         "dia": 14,
-        "texto": "Mucha gente corre hacia la orilla, lejos de las paredes. Alguien grita que el mar se retira. Mi madre se acuerda de la abuela y tira de nosotros cuesta arriba.",
+        "texto": "Mucha gente corre hacia la orilla, lejos de las paredes. Alguien grita que el mar se está retirando. Mi madre se acuerda de la abuela y tira de nosotros cuesta arriba.",
         "drama": 0.85,
         "fondo": {
           "lugar": "campo",
@@ -1503,7 +1503,7 @@
       },
       {
         "dia": 14,
-        "texto": "Mi padre había salido antes del alba hacia el muelle. Desde el monte, bajo la lluvia, miro el puerto y no sé si sigue en alguna parte.",
+        "texto": "Mi padre había salido antes del alba hacia el muelle. Desde el monte, bajo la lluvia, miro el puerto y no sé si sigue vivo.",
         "drama": 0.75,
         "fondo": {
           "lugar": "campo",
@@ -1614,7 +1614,7 @@
       {
         "dia": 15,
         "capitulo": "Los marineros de lejos",
-        "texto": "Al amanecer del martes vemos entrar en el estrecho unos barcos grises, con humo en las chimeneas. Nadie sabe quién los ha llamado.",
+        "texto": "Al amanecer del martes vemos entrar en el estrecho unos barcos grises. Nadie sabe quién los ha llamado.",
         "drama": 0.7,
         "fondo": {
           "lugar": "rio",
@@ -1661,7 +1661,7 @@
       {
         "dia": 15,
         "corte": true,
-        "texto": "Aquellos barcos grises eran rusos: una escuadra que hacía prácticas en Augusta, al sur. Su almirante, Litvínof, los mandó venir a toda máquina. La misma mañana llegan los ingleses de Malta.",
+        "texto": "Aquellos barcos grises eran rusos: una escuadra que hacía prácticas en Augusta, al sur. Su almirante, Litvínof, los mandó a toda máquina. La misma mañana llegan los ingleses de Malta.",
         "drama": 0.7,
         "personajes": [],
         "camara": "lenta",
@@ -1941,7 +1941,7 @@
       },
       {
         "dia": 17,
-        "texto": "Mi madre sube a un bote para ayudar a una vecina herida, y el gentío la empuja dentro. El bote se aleja, y ella me grita desde el agua: no le sueltes la mano.",
+        "texto": "Mi madre sube a un bote para ayudar a una vecina herida, y el gentío la empuja dentro. El bote se aleja, y ella me grita: no le sueltes la mano.",
         "drama": 0.85,
         "personajes": [
           {
@@ -2825,7 +2825,7 @@
       },
       {
         "corte": true,
-        "texto": "Nadie sabe cuántos murieron, porque el archivo con nuestros nombres también se perdió. En Mesina, entre cincuenta y cinco mil y ochenta mil personas: casi la mitad de la ciudad.",
+        "texto": "Nadie sabe cuántos murieron, porque el archivo que guardaba nuestros nombres también se perdió. En Mesina, entre cincuenta y cinco mil y ochenta mil personas: casi la mitad de toda la ciudad.",
         "drama": 0.75,
         "fondo": {
           "lugar": "calle",
@@ -2862,7 +2862,7 @@
         }
       },
       {
-        "texto": "Enfrente, en Réyio Calabria, murieron unos quince mil más. Fue uno de los terremotos más mortíferos de la historia de Europa.",
+        "texto": "Enfrente, en Réyio Calabria, murieron unos quince mil más. Y nueve de cada diez edificios de Mesina quedaron en ruinas. Fue uno de los terremotos más mortíferos de la historia de Europa.",
         "drama": 0.75,
         "fondo": {
           "lugar": "rio",
@@ -2890,7 +2890,7 @@
         "camara": "paneo"
       },
       {
-        "texto": "Mesina volvió a levantarse con calles anchas y casas bajas de hormigón armado. Italia aprendió a construir pensando en la tierra que tiembla.",
+        "texto": "Mesina volvió a levantarse con calles anchas y casas bajas de hormigón armado, según el plan del ingeniero Borsí. Italia aprendió por fin a construir pensando en la tierra que tiembla.",
         "drama": 0.55,
         "fondo": {
           "lugar": "calle",
@@ -2929,7 +2929,7 @@
       },
       {
         "corte": true,
-        "texto": "Las barracas eran para unos meses, y algunas durarán más que yo. Me hice marinero, como soñaba. Cuando cruzo el estrecho, todavía busco unos barcos grises que ya no están.",
+        "texto": "Las barracas eran para unos meses, y algunas durarán más que yo. Me hice marinero, como soñaba. Cuando cruzo el estrecho, todavía busco con la vista unos barcos grises que ya no están.",
         "drama": 0.6,
         "fondo": {
           "lugar": "rio",
@@ -2993,7 +2993,7 @@
         "camara": "general"
       },
       {
-        "texto": "Este vídeo es para las víctimas de Mesina y de Réyio Calabria. ¿Qué historia quieres vivir el próximo mes? Déjalo en los comentarios y suscríbete.",
+        "texto": "Este vídeo es para las víctimas de Mesina y de Réyio Calabria. ¿Qué historia quieres vivir el próximo mes? Déjalo en los comentarios y suscríbete para no perderte la siguiente.",
         "drama": 0.55,
         "personajes": [
           {
@@ -3076,8 +3076,8 @@
         "descripcion": "El maremoto, un padre desaparecido y un telégrafo mudo: hubo que caminar tres horas para avisar a Italia. #shorts #mesina #1908"
       },
       {
-        "titulo": "Los barcos grises que nadie llamó",
-        "descripcion": "La mañana del 29 de diciembre de 1908 llegaron a Mesina los marinos rusos y los británicos. #shorts #historia #marinosrusos"
+        "titulo": "Los barcos grises del amanecer",
+        "descripcion": "La mañana del 29 de diciembre de 1908 llegaron a Mesina los marinos rusos de Augusta y los británicos de Malta. #shorts #historia #marinosrusos"
       },
       {
         "titulo": "Una reina con delantal de enfermera",
@@ -3085,7 +3085,7 @@
       },
       {
         "titulo": "Dos nombres en una lista",
-        "descripcion": "Año nuevo de 1909 bajo una lona, el estado de sitio y los niños solos de Mesina. #shorts #historia #mesina"
+        "descripcion": "Mesina, enero de 1909: una madre evacuada en un bote, dos hermanos en un campamento y un estado de sitio. #shorts #historia #mesina"
       },
       {
         "titulo": "Alguien dijo mi nombre en la cola del pan",

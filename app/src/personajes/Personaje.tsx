@@ -91,6 +91,13 @@ export const calcularPose = (accion: Accion, f: number, semilla: number, fase?: 
       const v = Math.sin(t * 9) * 7;
       return { ...p, hD: -48 + v, cD: -22, hI: 4, cI: 6, cabeza: 2 };
     }
+    case "arrastrar": {
+      // tirando de una cuerda con las dos manos: inclinado hacia delante, un pie adelantado y tirones rítmicos.
+      // La cuerda pasa por las manos a unos 330 px del suelo (la del prop losa-rodillos)
+      const tiron = Math.sin(t * 3.2);
+      const incl = 24 + tiron * 3;
+      return { ...p, incl, pD: -22 - incl, rD: 14, pI: 30 - incl, rI: 6, y: 16, hD: -50 - incl + tiron * 6, cD: -50, hI: -40 - incl + tiron * 6, cI: -62, cabeza: -14 };
+    }
     case "reclinado":
       // comensal romano tumbado en el lecho del triclinio: el cuerpo cae hacia delante sobre el codo,
       // las piernas quedan estiradas hacia atrás sobre el colchón y la cabeza se endereza
@@ -309,6 +316,24 @@ const Sombrero: React.FC<{ look: Look }> = ({ look }) => {
     case "pileo":
       // gorro cónico de fieltro crudo (liberto romano, Saturnales)
       return <path d="M-62 -44 Q-56 -128 0 -150 Q56 -128 62 -44 Q0 -58 -62 -44Z" fill={look.colorSombrero ?? "#d8c9a8"} stroke="#00000022" strokeWidth={4} />;
+    case "piel": {
+      // gorro de piel redondeado con el pelo hacia fuera y barboquejo de cuero (tipo Ötzi)
+      const cp = look.colorSombrero ?? "#6b4a2e";
+      return (
+        <g>
+          <path d="M-80 -14 L-78 52 M80 -14 L78 52" stroke="#3a2a1c" strokeWidth={6} />
+          <path d="M-92 -18 C-98 -150 98 -150 92 -18 Q0 -42 -92 -18Z" fill={cp} />
+          {Array.from({ length: 13 }).map((_, i) => {
+            const a = Math.PI * (1.08 + (i / 12) * 0.84);
+            const x = Math.cos(a) * 96;
+            const y = -40 + Math.sin(a) * 92;
+            return <ellipse key={i} cx={x} cy={y} rx={16} ry={11} fill={i % 2 ? oscurecer(cp, 0.18) : cp} transform={`rotate(${(a * 180) / Math.PI + 90} ${x} ${y})`} />;
+          })}
+          {Array.from({ length: 10 }).map((_, i) => <path key={`p${i}`} d={`M${-70 + i * 15} ${-60 - (i % 3) * 18} l6 -16`} stroke={oscurecer(cp, 0.3)} strokeWidth={4} />)}
+          <path d={Array.from({ length: 12 }).map((_, i) => `${i ? "L" : "M"}${-94 + i * 17} ${-22 + (i % 2) * 12 - 6 * Math.sin((i / 11) * Math.PI)}`).join(" ")} stroke={oscurecer(cp, 0.35)} strokeWidth={8} fill="none" strokeLinejoin="round" />
+        </g>
+      );
+    }
     case "fez":
       return (
         <g>
