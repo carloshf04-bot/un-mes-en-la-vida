@@ -935,7 +935,7 @@
       },
       {
         "dia": 8,
-        "texto": "Teko me pregunta para quién es el dibujo, entonces. No sé qué contestarle. Cinco mil años después, los arqueólogos siguen sin respuesta.",
+        "texto": "Teko me pregunta, entonces, para quién es el dibujo. No sé qué contestarle. Y cinco mil años después, los arqueólogos tampoco lo saben.",
         "drama": 0.7,
         "personajes": [
           {
@@ -1843,7 +1843,7 @@
       },
       {
         "dia": 22,
-        "texto": "Teko llora y Oru no dice nada. Yo miro las espirales que tallé de joven para la oscuridad, y por fin las veo con luz.",
+        "texto": "Oru se queda callado. A su lado, Teko está llorando. Yo miro las espirales que tallé de joven para la oscuridad, y por fin las veo con luz.",
         "drama": 0.55,
         "fondo": {
           "lugar": "interior",
