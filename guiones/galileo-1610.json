@@ -209,7 +209,7 @@
     "color2": "#8e6a2a",
     "detalle": "#f2e3b0"
    },
-   "sombrero": "fez",
+   "sombrero": "corno",
    "colorSombrero": "#d9b04a",
    "zapatos": "#6e1818"
   }
@@ -285,7 +285,7 @@
       },
       {
        "tipo": "anteojo",
-       "x": -0.55
+       "x": -0.35
       }
      ]
     },
@@ -1058,7 +1058,7 @@
      "props": [
       {
        "tipo": "campanario",
-       "x": -1.15,
+       "x": 1.15,
        "escala": 1.4,
        "detras": true
       },
@@ -1269,7 +1269,7 @@
      "props": [
       {
        "tipo": "santo",
-       "x": 1.2,
+       "x": 0.95,
        "escala": 1.6,
        "detras": true
       },
@@ -2085,7 +2085,7 @@
      "props": [
       {
        "tipo": "campanario",
-       "x": -1.15,
+       "x": 1.15,
        "escala": 1.4,
        "detras": true
       },
@@ -2242,7 +2242,7 @@
      "props": [
       {
        "tipo": "santo",
-       "x": 1.2,
+       "x": 0.95,
        "escala": 1.6,
        "detras": true
       },
@@ -2409,7 +2409,7 @@
       },
       {
        "tipo": "anteojo",
-       "x": -0.55
+       "x": -0.35
       }
      ]
     },

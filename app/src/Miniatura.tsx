@@ -8,10 +8,10 @@ import { emoji, sans, serif } from "./fuentes";
 import "./fuentes";
 
 // encuadre de cada decorado cuando va en la miniatura
-const VISTA: Record<string, string> = { bergantin: "-520 -820 1180 880", "faro-apagado": "-470 -700 1040 780", "faro-blanco": "-470 -700 1040 780", escombros: "-400 -500 800 600" };
+const VISTA: Record<string, string> = { bergantin: "-520 -820 1180 880", "faro-apagado": "-470 -700 1040 780", "faro-blanco": "-470 -700 1040 780", escombros: "-400 -500 800 600", anteojo: "-240 -770 480 360" };
 
 // decorados que van en el hueco libre entre el gancho y el personaje (abajo, en el centro), sin taparle la cara
-const EN_HUECO = ["faro-apagado", "faro-blanco", "escombros"];
+const EN_HUECO = ["faro-apagado", "faro-blanco", "escombros", "anteojo"];
 
 // Miniatura diseñada: fondo de la escena más potente, protagonista en primer plano y un gancho enorme.
 export const Miniatura: React.FC<{ slug: string; manifiesto?: Manifiesto }> = ({ manifiesto: m }) => {

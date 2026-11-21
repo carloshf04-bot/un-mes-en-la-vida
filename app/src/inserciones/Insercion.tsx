@@ -3,6 +3,7 @@ import { AbsoluteFill, Easing, interpolate, spring, useCurrentFrame, useVideoCon
 import type { Insercion as Ins, Paleta } from "../tipos";
 import { emoji, mano, sans, serif } from "../fuentes";
 import { Prop } from "../mundo/Props";
+import { DiscoLuna } from "../mundo/Fondo";
 
 // encuadre de los decorados que se pueden usar como icono de una tarjeta de dato
 const VISTA: Record<string, string> = { piramide: "-700 -700 1400 720" };
@@ -71,6 +72,51 @@ export const Insercion: React.FC<{ ins: Ins; paleta: Paleta; dur: number }> = ({
               );
             })}
           </div>
+        </div>
+      </AbsoluteFill>
+    );
+  }
+  if (ins.tipo === "cuaderno") {
+    // hoja de cuaderno sepia: filas de Júpiter al estilo de Galileo (Ori. · círculo · asteriscos · Occ.) o una acuarela de la Luna
+    const tinta = "#4a3220";
+    const filas = ins.filas ?? [];
+    const paso = Math.min(fps * 1.1, (dur * 0.55) / Math.max(1, filas.length));
+    const alto = filas.length > 3 ? 92 : 120;
+    return (
+      <AbsoluteFill style={{ alignItems: "center", justifyContent: "center" }}>
+        <div style={{ ...caja, width: 900 * u, background: "#e8d6b0", backgroundImage: "radial-gradient(ellipse at 30% 20%, rgba(255,250,235,0.55), rgba(120,80,40,0.18))", borderRadius: 8, padding: `${50 * u}px ${60 * u}px`, boxShadow: "0 40px 90px rgba(0,0,0,0.55), inset 0 0 60px rgba(110,70,30,0.35)", rotate: `${interpolate(f, [0, dur], [1.5, 0.5])}deg` }}>
+          {ins.titulo && <div style={{ fontFamily: mano, fontSize: 70 * u, color: tinta, textAlign: "center", marginBottom: 16 * u }}>{ins.titulo}</div>}
+          {ins.dibujo === "luna" ? (
+            <svg viewBox="-260 -260 520 520" style={{ display: "block", margin: "0 auto", width: 520 * u, height: 520 * u, opacity: interpolate(f, [fps * 0.2, fps * 1.4], [0, 1], clamp) }}>
+              <DiscoLuna fase={ins.fase} r={230} id="cuaderno" estilo="acuarela" />
+            </svg>
+          ) : (
+            filas.map((fila, i) => {
+              const o = interpolate(f, [fps * 0.3 + i * paso, fps * 0.3 + i * paso + fps * 0.4], [0, 1], clamp);
+              const D = 26; // diámetro de Júpiter en la hoja
+              return (
+                <div key={i} style={{ display: "flex", alignItems: "center", height: alto * u, opacity: o, borderBottom: `${2 * u}px solid rgba(74,50,32,0.18)` }}>
+                  <div style={{ fontFamily: mano, fontSize: 46 * u, color: tinta, width: 160 * u }}>{fila.fecha}</div>
+                  <svg viewBox="-330 -40 660 80" style={{ flex: 1, height: 80 * u }}>
+                    <text x={-320} y={10} fontSize={30} fill={tinta} fontFamily="'Caveat UnMes', cursive">Ori.</text>
+                    <text x={320} y={10} fontSize={30} fill={tinta} textAnchor="end" fontFamily="'Caveat UnMes', cursive">Occ.</text>
+                    {fila.nublado ? (
+                      <text x={0} y={12} fontSize={40} fill={tinta} textAnchor="middle" fontFamily="'Caveat UnMes', cursive">nubes</text>
+                    ) : (
+                      <g>
+                        <circle r={D / 2} fill="none" stroke={tinta} strokeWidth={3} />
+                        {(fila.lunas ?? []).map((x, k) => {
+                          const t = (fila.tamanos ?? [])[k] ?? 1;
+                          return <text key={k} x={x * D * 1.9} y={10 * t} fontSize={34 * t} fill={tinta} textAnchor="middle" fontWeight={700}>*</text>;
+                        })}
+                      </g>
+                    )}
+                  </svg>
+                </div>
+              );
+            })
+          )}
+          {ins.firma && <div style={{ fontFamily: sans, fontWeight: 800, fontSize: 26 * u, color: "#6b5038", marginTop: 26 * u, letterSpacing: 3, textTransform: "uppercase", textAlign: "center" }}>— {ins.firma}</div>}
         </div>
       </AbsoluteFill>
     );

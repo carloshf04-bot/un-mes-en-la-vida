@@ -34,6 +34,10 @@ export const PROPS_DISPONIBLES = [
   "lampara-faro", "reloj-parado", "chimenea-apagada", "perchero", "pizarra", "capilla",
   // terremoto de Mesina (1908)
   "escombros",
+  // Pearl Harbor (1941)
+  "acorazado", "destructor", "portaaviones", "submarino", "avion", "radar",
+  // Galileo en Padua (1610)
+  "anteojo", "torno-lentes", "santo", "campanario",
 ] as const;
 
 // Espiral grabada (arte megalítico): devuelve el trazo de una espiral de Arquímedes
@@ -155,6 +159,145 @@ const FaroBlanco: React.FC<{ f: number; noche: boolean; luz: boolean; haz?: numb
     </g>
   );
 };
+
+
+// Anteojo de Galileo (1610): tubo de ~1 m de tiras de madera forrado de cuero rojo con dorados, sin latón.
+// Se dibuja a lo largo de +x: el ocular en el origen y el objetivo en x = LARGO_TUBO.
+export const LARGO_TUBO = 380;
+export const TuboAnteojo: React.FC<{ noche?: boolean }> = ({ noche }) => {
+  const L = LARGO_TUBO;
+  const cuero = noche ? "#62201a" : "#8b2a20";
+  const luz = noche ? "#7e3128" : "#b4473a";
+  const oro = noche ? "#a5843a" : "#dcb04c";
+  const madera = noche ? "#3e2818" : "#5e3d22";
+  const r0 = 7.5;
+  const r1 = 10.5;
+  const r = (x: number) => r0 + (r1 - r0) * (x / L);
+  return (
+    <g>
+      <path d={`M0 ${-r0} L${L} ${-r1} L${L} ${r1} L0 ${r0}Z`} fill={cuero} />
+      <path d={`M0 ${-r0 + 2} L${L} ${-r1 + 2} L${L} ${-r1 + 6} L0 ${-r0 + 5}Z`} fill={luz} opacity={0.75} />
+      {/* dorados: anillos estampados y una greca de puntos entre ellos */}
+      {[30, 108, 190, 272, 350].map((x) => <rect key={x} x={x - 2} y={-r(x)} width={4} height={r(x) * 2} fill={oro} />)}
+      {[69, 149, 231, 311].map((x) => (
+        <g key={x}>{[-1, 0, 1].map((k) => <circle key={k} cx={x + k * 13} cy={0} r={1.9} fill={oro} />)}</g>
+      ))}
+      {/* objetivo: anillo de madera con la lente; ocular: tubito de madera */}
+      <rect x={L - 4} y={-r1 - 3} width={24} height={(r1 + 3) * 2} rx={3} fill={madera} />
+      <rect x={L + 19} y={-r1} width={3} height={r1 * 2} fill="#bcd2dc" opacity={noche ? 0.4 : 0.7} />
+      <rect x={-22} y={-r0 + 1} width={25} height={(r0 - 1) * 2} rx={2} fill={madera} />
+    </g>
+  );
+};
+
+// Barcos de guerra de 1941 vistos de lado, a lo lejos (plano MEDIO sobre el agua): proa a la derecha, línea de flotación en y = 0
+const gris = (noche: boolean) => (noche ? ["#3b4249", "#30363c", "#262b30", "#1b1f23"] : ["#8a939a", "#78828a", "#646d75", "#3f454b"]);
+const Acorazado: React.FC<{ noche: boolean }> = ({ noche }) => {
+  const [g1, g2, g3, g4] = gris(noche);
+  const torre = (x: number, y: number, s: number, proa: boolean) => (
+    <g transform={`translate(${x} ${y})`}>
+      <path d={proa ? "M-60 0 L60 0 L52 -46 L-50 -46Z" : "M-60 0 L60 0 L50 -46 L-52 -46Z"} fill={g2} />
+      {[-30, -16].map((dy) => <rect key={dy} x={proa ? 40 : -40 - 130 * s} y={dy} width={130 * s} height={7} fill={g3} />)}
+    </g>
+  );
+  const tripode = (x: number, alto: number) => (
+    <g>
+      <path d={`M${x - 46} -130 L${x} ${-alto} L${x + 46} -130 M${x} -130 L${x} ${-alto}`} stroke={g3} strokeWidth={10} fill="none" />
+      <rect x={x - 46} y={-alto - 56} width={92} height={56} fill={g2} />
+      <rect x={x - 40} y={-alto - 44} width={80} height={12} fill={g4} />
+      <rect x={x - 4} y={-alto - 130} width={8} height={78} fill={g3} />
+    </g>
+  );
+  return (
+    <g>
+      {/* casco: proa lanzada a la derecha, popa redondeada */}
+      <path d="M-790 -66 L560 -74 L800 -96 L748 0 L-752 0 Q-796 -24 -790 -66Z" fill={g2} />
+      <rect x={-760} y={-10} width={1500} height={10} fill={g4} />
+      <path d="M-790 -66 L560 -74 L800 -96 L796 -86 L560 -64 L-788 -56Z" fill={g1} />
+      {/* torres: dos a proa y dos a popa (las de dentro, más altas) */}
+      {torre(470, -72, 1, true)}
+      <rect x={250} y={-130} width={120} height={60} fill={g3} />
+      {torre(310, -128, 1.05, true)}
+      {torre(-470, -66, 1, false)}
+      <rect x={-370} y={-124} width={120} height={60} fill={g3} />
+      {torre(-310, -122, 1.05, false)}
+      {/* superestructura, puente, chimenea y dos mástiles trípode */}
+      <rect x={-230} y={-140} width={440} height={72} fill={g1} />
+      {Array.from({ length: 9 }).map((_, i) => <rect key={i} x={-215 + i * 48} y={-118} width={22} height={14} fill={g4} />)}
+      <rect x={110} y={-250} width={110} height={112} fill={g1} />
+      <rect x={110} y={-232} width={110} height={12} fill={g4} />
+      <rect x={-60} y={-330} width={84} height={192} fill={g2} />
+      <rect x={-64} y={-342} width={92} height={16} fill={g4} />
+      {tripode(170, 430)}
+      {tripode(-170, 360)}
+      {/* botes y grúas en el centro */}
+      <path d="M-150 -146 L-150 -230 L-80 -200" stroke={g3} strokeWidth={8} fill="none" />
+      <ellipse cx={-120} cy={-150} rx={44} ry={10} fill={g3} />
+    </g>
+  );
+};
+const Destructor: React.FC<{ noche: boolean }> = ({ noche }) => {
+  const [g1, g2, g3, g4] = gris(noche);
+  return (
+    <g>
+      {/* destructor de cubierta corrida (clase Wickes): casco bajo, cuatro chimeneas y dos palos */}
+      <path d="M-540 -40 L420 -44 L560 -62 L520 0 L-510 0 Q-546 -16 -540 -40Z" fill={g2} />
+      <rect x={-520} y={-8} width={1040} height={8} fill={g4} />
+      <path d="M-540 -40 L420 -44 L560 -62 L556 -54 L420 -36 L-538 -32Z" fill={g1} />
+      {/* puente y castillo */}
+      <rect x={300} y={-118} width={96} height={76} fill={g1} />
+      <rect x={300} y={-106} width={96} height={12} fill={g4} />
+      <rect x={290} y={-130} width={116} height={14} fill={g2} />
+      {/* cuatro chimeneas un poco inclinadas hacia popa */}
+      {[200, 100, 0, -100].map((x) => (
+        <g key={x}>
+          <path d={`M${x - 20} -42 L${x + 20} -42 L${x + 12} -190 L${x - 26} -190Z`} fill={g2} />
+          <rect x={x - 28} y={-198} width={42} height={12} fill={g4} />
+        </g>
+      ))}
+      {/* palos */}
+      <rect x={262} y={-300} width={8} height={260} fill={g3} />
+      <rect x={236} y={-250} width={60} height={6} fill={g3} />
+      <rect x={-262} y={-240} width={7} height={200} fill={g3} />
+      {/* cañones a proa y a popa */}
+      <rect x={430} y={-74} width={36} height={22} fill={g3} />
+      <rect x={460} y={-68} width={60} height={6} fill={g3} />
+      <rect x={-430} y={-70} width={36} height={22} fill={g3} />
+      <rect x={-480} y={-64} width={56} height={6} fill={g3} />
+      {/* tubos lanzatorpedos */}
+      <rect x={-220} y={-56} width={90} height={14} rx={6} fill={g3} />
+    </g>
+  );
+};
+const Portaaviones: React.FC<{ noche: boolean }> = ({ noche }) => {
+  const [g1, g2, g3, g4] = gris(noche);
+  return (
+    <g>
+      {/* casco */}
+      <path d="M-900 -110 L780 -110 L920 -150 L860 0 L-860 0 Q-910 -40 -900 -110Z" fill={g2} />
+      <rect x={-870} y={-10} width={1730} height={10} fill={g4} />
+      {Array.from({ length: 18 }).map((_, i) => <rect key={i} x={-820 + i * 92} y={-80} width={30} height={10} fill={g4} opacity={0.7} />)}
+      {/* pilares y cubierta de vuelo plana que sobresale por proa y popa */}
+      {Array.from({ length: 12 }).map((_, i) => <rect key={`p${i}`} x={-860 + i * 150} y={-150} width={14} height={42} fill={g3} />)}
+      <rect x={-950} y={-176} width={1840} height={30} fill={g3} />
+      <rect x={-950} y={-180} width={1840} height={8} fill={g1} />
+      {/* chimenea que baja por el costado */}
+      <path d="M-60 -104 Q-60 -60 -120 -40 L-150 -40 Q-90 -64 -96 -104Z" fill={g4} />
+      {/* isla pequeña con su palo */}
+      <rect x={180} y={-276} width={90} height={100} fill={g1} />
+      <rect x={180} y={-256} width={90} height={12} fill={g4} />
+      <rect x={168} y={-290} width={114} height={16} fill={g2} />
+      <rect x={222} y={-380} width={7} height={92} fill={g3} />
+      {/* aviones aparcados en la cubierta, siluetas mínimas */}
+      {[-760, -640, -520, -400, 520, 640].map((x) => <path key={x} d={`M${x - 40} -180 L${x + 40} -180 L${x + 30} -196 L${x - 30} -192Z`} fill={g4} />)}
+    </g>
+  );
+};
+
+// espuma en la línea de flotación de un barco lejano
+const Estela: React.FC<{ f: number; ancho: number }> = ({ f, ancho }) => (
+  <path d={`M${-ancho / 2} 2 Q${-ancho / 4} ${-4 + Math.sin(f / 8) * 3} 0 2 T${ancho / 2} 2`} stroke="#ffffff" strokeWidth={6} fill="none" opacity={0.4} />
+);
 
 export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: number }> = ({ tipo, f, noche, dur = 360 }) => {
   const llama = (x: number, y: number, s = 1) => (
@@ -2305,6 +2448,229 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: num
             const t = ((f * 0.6 + i * 60) % 420) / 420;
             return <circle key={`p${i}`} cx={-260 + i * 85 + Math.sin(f / 40 + i) * 20} cy={-80 - t * 420} r={60 + t * 90} fill={noche ? "#6a645c" : "#d8ccb4"} opacity={0.32 * (1 - t)} />;
           })}
+        </g>
+      );
+    }
+    // ---------- Pearl Harbor, 1941 ----------
+    case "acorazado":
+      return <g transform={`translate(0 ${Math.sin(f / 30) * 2})`}><Acorazado noche={noche} /><Estela f={f} ancho={1560} /></g>;
+    case "destructor":
+      return <g transform={`translate(0 ${Math.sin(f / 22) * 3})`}><Destructor noche={noche} /><Estela f={f} ancho={1080} /></g>;
+    case "portaaviones":
+      return <g transform={`translate(0 ${Math.sin(f / 34) * 2})`}><Portaaviones noche={noche} /><Estela f={f} ancho={1760} /></g>;
+    case "submarino": {
+      // sólo la torreta de un submarino enano que asoma del agua, con el periscopio y espuma alrededor
+      const c = noche ? "#1c2024" : "#2f3439";
+      const sube = Math.sin(f / 16) * 6;
+      return (
+        <g>
+          <g transform={`translate(0 ${sube})`}>
+            <path d="M-170 6 Q-60 -30 120 -20 Q170 -12 190 6Z" fill={c} />
+            <path d="M-80 -18 L-62 -150 L50 -150 L80 -20Z" fill={c} />
+            <rect x={-66} y={-162} width={118} height={16} rx={5} fill={oscurecer(c, -0.4)} />
+            <rect x={-10} y={-260} width={10} height={104} fill={c} />
+            <rect x={-10} y={-262} width={26} height={10} fill={c} />
+          </g>
+          {Array.from({ length: 6 }).map((_, i) => {
+            const t = ((f / 30 + i / 6) % 1);
+            return <ellipse key={i} cx={-200 + i * 80 - t * 60} cy={4} rx={40 + t * 50} ry={8 + t * 4} fill="#fff" opacity={0.6 * (1 - t)} />;
+          })}
+        </g>
+      );
+    }
+    case "avion": {
+      // aviones de hélice en formación que cruzan el cielo de izquierda a derecha, sin insignias
+      const x0 = (f - dur * 0.55) * 3.2;
+      const c = noche ? "#1e2226" : "#55605a";
+      const uno = (dx: number, dy: number, s: number, k: number) => (
+        <g key={k} transform={`translate(${x0 + dx} ${-780 + dy + Math.sin(f / 18 + k) * 6}) scale(${s})`} fill={c}>
+          <path d="M-56 0 Q-48 -9 -16 -10 L32 -10 Q50 -8 56 0 Q48 7 32 7 L-32 5 Q-48 4 -56 0Z" />
+          <path d="M-8 -10 Q4 -22 20 -10Z" fill={noche ? "#3a4048" : "#a9b8bf"} />
+          <path d="M-48 -3 L-60 -28 L-47 -27 L-32 -5Z" />
+          <ellipse cx={-46} cy={2} rx={15} ry={3.5} />
+          <path d="M-12 2 L24 2 L14 12 L-24 12Z" fill={oscurecer(c, 0.25)} />
+          <circle cx={58} cy={-1} r={4.5} fill="#222" />
+          <ellipse cx={60} cy={-1} rx={3} ry={18 * Math.abs(Math.cos(f * 1.3 + k))} fill="#222" opacity={0.55} />
+        </g>
+      );
+      return <g>{[[0, 0, 1], [-120, -36, 0.85], [-110, 44, 0.9]].map(([dx, dy, s], k) => uno(dx, dy, s, k))}</g>;
+    }
+    case "radar": {
+      // radar SCR-270 (Opana, 1941): remolque de los operadores y antena de rejilla de dipolos en su torre, que gira despacio, en lo alto de una loma
+      const giro = Math.cos(f / 55);
+      const ancho = Math.max(24, 300 * Math.abs(giro));
+      const loma = noche ? "#2c3a26" : "#5f7c46";
+      const oliva = noche ? "#33352a" : "#6b6e48";
+      const hierro = noche ? "#1e2022" : "#3a3d40";
+      return (
+        <g>
+          <path d="M-560 6 Q-320 -150 0 -172 Q320 -150 560 6Z" fill={loma} />
+          <path d="M-560 6 Q-320 -150 0 -172 Q-260 -130 -460 6Z" fill="#fff" opacity={0.06} />
+          {/* cable del remolque a la torre */}
+          <path d="M150 -220 Q40 -150 -110 -190" stroke="#111" strokeWidth={5} fill="none" />
+          {/* remolque con ruedas */}
+          <rect x={110} y={-350} width={240} height={140} rx={8} fill={oliva} />
+          <rect x={110} y={-350} width={240} height={14} fill={oscurecer(oliva, 0.25)} />
+          <rect x={150} y={-320} width={50} height={110} fill={oscurecer(oliva, 0.3)} />
+          <rect x={250} y={-320} width={70} height={36} fill={noche ? "#ffd27a" : "#2a3038"} opacity={noche ? 0.8 : 1} />
+          {[160, 300].map((x) => <circle key={x} cx={x} cy={-196} r={26} fill="#1a1a1a" />)}
+          {/* torre de celosía */}
+          <g stroke={hierro} strokeWidth={8} fill="none">
+            <path d="M-190 -160 L-145 -400 M-50 -160 L-95 -400" />
+            {Array.from({ length: 3 }).map((_, i) => {
+              const y1 = -160 - i * 80;
+              const y2 = y1 - 80;
+              const a = (y: number) => -190 + ((-160 - y) / 240) * 45;
+              const b = (y: number) => -50 - ((-160 - y) / 240) * 45;
+              return <path key={i} d={`M${a(y1)} ${y1} L${b(y2)} ${y2} M${b(y1)} ${y1} L${a(y2)} ${y2}`} strokeWidth={4} />;
+            })}
+          </g>
+          <rect x={-160} y={-422} width={80} height={24} fill={hierro} />
+          {/* antena de rejilla */}
+          <g transform={`translate(-120 -548)`}>
+            <rect x={-ancho / 2} y={-110} width={ancho} height={220} fill="none" stroke={hierro} strokeWidth={8} />
+            {Array.from({ length: 4 }).map((_, r) =>
+              Array.from({ length: 8 }).map((__, c) => (
+                <line key={`${r}${c}`} x1={-ancho / 2 + ((c + 0.2) / 8) * ancho} y1={-80 + r * 54} x2={-ancho / 2 + ((c + 0.8) / 8) * ancho} y2={-80 + r * 54} stroke={hierro} strokeWidth={5} />
+              )),
+            )}
+            {[1, 2, 3].map((k) => <line key={k} x1={-ancho / 2 + (k / 4) * ancho} y1={-110} x2={-ancho / 2 + (k / 4) * ancho} y2={110} stroke={hierro} strokeWidth={3} />)}
+            <rect x={-6} y={110} width={12} height={20} fill={hierro} />
+          </g>
+        </g>
+      );
+    }
+    // ---------- Galileo en Padua, 1610 ----------
+    case "anteojo": {
+      // el anteojo de Galileo sobre un pie de madera sencillo, apuntando al cielo
+      const madera = noche ? "#3e2a1a" : "#6b4a2e";
+      return (
+        <g>
+          <path d="M0 -170 L-120 0 M0 -170 L110 0 M0 -170 L-12 0" stroke={madera} strokeWidth={14} strokeLinecap="round" />
+          <rect x={-9} y={-575} width={18} height={410} fill={madera} />
+          <path d="M-20 -575 L-20 -605 M20 -575 L20 -605" stroke={madera} strokeWidth={9} strokeLinecap="round" />
+          <g transform={`translate(0 -592) rotate(${-32 + Math.sin(f / 40) * 0.4}) translate(${-LARGO_TUBO * 0.45} 0)`}>
+            <TuboAnteojo noche={noche} />
+          </g>
+          <circle cx={0} cy={-592} r={7} fill="#2a1a10" />
+        </g>
+      );
+    }
+    case "torno-lentes": {
+      // banco de pulir lentes: tablero propio, molde de hierro que gira con su manivela y la lente encima,
+      // cuenco de abrasivo y lentes en fila en su listón (una rota)
+      const g = f / 10;
+      const madera = "#6b4a32";
+      const pata = "#5a3d28";
+      const vidrio = "#d3e8ef";
+      const cx = -170;
+      const mx = cx + Math.cos(g) * 92;
+      const my = -252 + Math.sin(g) * 16;
+      const manivela = (
+        <g>
+          <path d={`M${cx} -252 L${mx} ${my}`} stroke="#2e2e32" strokeWidth={10} strokeLinecap="round" />
+          <rect x={mx - 8} y={my - 66} width={16} height={66} rx={6} fill={pata} />
+          <circle cx={mx} cy={my - 66} r={12} fill={oscurecer(pata, -0.3)} />
+        </g>
+      );
+      return (
+        <g>
+          <rect x={-300} y={-230} width={600} height={34} fill={madera} />
+          <rect x={-280} y={-196} width={26} height={196} fill={pata} />
+          <rect x={254} y={-196} width={26} height={196} fill={pata} />
+          <rect x={-270} y={-70} width={540} height={16} fill={pata} />
+          {/* eje del molde */}
+          <rect x={cx - 14} y={-272} width={28} height={44} fill="#3a3a3e" />
+          {Math.sin(g) < 0 && manivela}
+          {/* molde de hierro y la lente que se pule encima */}
+          <path d={`M${cx - 74} -272 L${cx + 74} -272 L${cx + 60} -304 L${cx - 60} -304Z`} fill="#4a4a50" />
+          <ellipse cx={cx} cy={-304} rx={60} ry={10} fill="#5c5c62" />
+          <ellipse cx={cx} cy={-310} rx={44} ry={9} fill={vidrio} opacity={0.9} />
+          <ellipse cx={cx + Math.cos(g * 1.7) * 30} cy={-311} rx={8} ry={2.5} fill="#fff" opacity={0.85} />
+          {Math.sin(g) >= 0 && manivela}
+          {/* cuenco de abrasivo */}
+          <path d="M-40 -230 Q-40 -282 0 -282 Q40 -282 40 -230Z" fill="#8a6a48" transform="scale(1.2 1) translate(0 0)" />
+          <ellipse cx={0} cy={-280} rx={46} ry={9} fill="#b8ab92" />
+          <ellipse cx={0} cy={-284} rx={30} ry={6} fill="#cfc4ae" />
+          {/* listón con las lentes en fila; la tercera, rota */}
+          <rect x={80} y={-246} width={190} height={16} fill={pata} />
+          {[110, 155, 200, 245].map((x, i) => (
+            i === 2 ? (
+              <g key={x}>
+                <path d={`M${x - 18} -262 A18 18 0 0 1 ${x + 4} -279 L${x - 2} -266 L${x + 10} -258 L${x + 16} -246 L${x - 18} -246Z`} fill={vidrio} opacity={0.85} stroke="#7f98a4" strokeWidth={2} />
+                <path d={`M${x + 4} -279 L${x - 2} -266 L${x + 10} -258`} stroke="#4a5a62" strokeWidth={2} fill="none" />
+                <path d={`M${x + 22} -230 l12 -6 l6 6Z`} fill={vidrio} stroke="#7f98a4" strokeWidth={2} />
+              </g>
+            ) : (
+              <g key={x}>
+                <circle cx={x} cy={-264} r={18} fill={vidrio} opacity={0.85} stroke="#7f98a4" strokeWidth={2} />
+                <path d={`M${x - 9} -272 q5 -6 12 -6`} stroke="#fff" strokeWidth={3} fill="none" />
+              </g>
+            )
+          ))}
+        </g>
+      );
+    }
+    case "santo": {
+      // basílica de San Antonio de Padua (decorado LEJANO): cuerpo alto de ladrillo, cúpulas de plomo con linterna,
+      // cúpula cónica en el centro y dos campanarios finos como alminares (sobresale por encima de las casas)
+      const ladrillo = noche ? "#4a3030" : "#a45a3e";
+      const sombra = noche ? "#3a2626" : "#874832";
+      const plomo = noche ? "#454c5a" : "#8f9aa2";
+      const B = -520; // arranque de las cúpulas
+      const cupula = (x: number, r: number, dy = 0) => (
+        <g key={x}>
+          <rect x={x - r * 0.85} y={B + dy - r * 0.35} width={r * 1.7} height={r * 0.4} fill={sombra} />
+          <path d={`M${x - r} ${B + dy - r * 0.3} A${r} ${r * 0.95} 0 0 1 ${x + r} ${B + dy - r * 0.3}Z`} fill={plomo} />
+          <rect x={x - 8} y={B + dy - r * 1.25 - 24} width={16} height={28} fill={plomo} />
+          <path d={`M${x - 10} ${B + dy - r * 1.25 - 24} L${x} ${B + dy - r * 1.25 - 50} L${x + 10} ${B + dy - r * 1.25 - 24}Z`} fill={plomo} />
+        </g>
+      );
+      return (
+        <g>
+          <rect x={-430} y={B} width={860} height={-B} fill={ladrillo} />
+          <path d={`M-430 ${B} L-310 ${B - 80} L-190 ${B}Z`} fill={ladrillo} />
+          {[-370, -310, -250].map((x) => <rect key={x} x={x - 14} y={B + 60} width={28} height={80} rx={14} fill={noche ? "#ffd27a" : sombra} opacity={noche ? 0.55 : 1} />)}
+          {cupula(-120, 90)}
+          {cupula(120, 90)}
+          {cupula(280, 76, 10)}
+          {cupula(390, 50, 16)}
+          {/* tambor y cúpula cónica del centro */}
+          <rect x={-62} y={B - 170} width={124} height={170} fill={sombra} />
+          {[-30, 0, 30].map((x) => <rect key={x} x={x - 7} y={B - 140} width={14} height={40} rx={7} fill={noche ? "#1a1416" : "#5a3022"} />)}
+          <path d={`M-74 ${B - 170} L0 ${B - 360} L74 ${B - 170}Z`} fill={plomo} />
+          {/* dos campanarios finos como alminares */}
+          {[-215, 215].map((x) => (
+            <g key={x}>
+              <rect x={x - 16} y={B - 260} width={32} height={260} fill={ladrillo} />
+              <rect x={x - 22} y={B - 270} width={44} height={14} fill={sombra} />
+              <rect x={x - 12} y={B - 330} width={24} height={60} fill={ladrillo} />
+              <rect x={x - 6} y={B - 320} width={12} height={26} rx={6} fill={noche ? "#1a1416" : "#5a3022"} />
+              <path d={`M${x - 16} ${B - 330} L${x} ${B - 410} L${x + 16} ${B - 330}Z`} fill={plomo} />
+            </g>
+          ))}
+        </g>
+      );
+    }
+    case "campanario": {
+      // campanario de San Marcos (decorado LEJANO): fuste de ladrillo con pilastras, campanas en logia blanca, ático y punta piramidal verde
+      const ladrillo = noche ? "#4a3030" : "#a85a3c";
+      const pilastra = noche ? "#563838" : "#bc6c4c";
+      const piedra = noche ? "#7a7c82" : "#ece4d2";
+      const verde = noche ? "#2e4a40" : "#5f9a7e";
+      return (
+        <g>
+          <rect x={-60} y={-560} width={120} height={560} fill={ladrillo} />
+          {[-46, -14, 18].map((x) => <rect key={x} x={x} y={-540} width={28} height={540} fill={pilastra} opacity={0.6} />)}
+          <rect x={-68} y={-580} width={136} height={22} fill={piedra} />
+          <rect x={-62} y={-670} width={124} height={90} fill={piedra} />
+          {[-40, 0, 40].map((x) => <path key={x} d={`M${x - 13} -584 L${x - 13} -640 A13 13 0 0 1 ${x + 13} -640 L${x + 13} -584Z`} fill={noche ? "#141418" : "#3a3028"} />)}
+          <rect x={-68} y={-684} width={136} height={16} fill={piedra} />
+          <rect x={-58} y={-750} width={116} height={66} fill={ladrillo} />
+          <rect x={-66} y={-760} width={132} height={12} fill={piedra} />
+          <path d="M-60 -760 L0 -920 L60 -760Z" fill={verde} />
+          <path d="M0 -760 L0 -920 L60 -760Z" fill="#000" opacity={0.15} />
+          <path d="M-6 -920 L0 -950 L6 -920Z" fill="#d9b04a" />
         </g>
       );
     }

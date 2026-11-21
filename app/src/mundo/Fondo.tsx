@@ -4,10 +4,10 @@ import { MW, MH, SUELO, HORIZONTE, oscurecer, xMundo } from "./constantes";
 import { Prop, espiral, rombos } from "./Props";
 
 export type Hora = "amanecer" | "dia" | "atardecer" | "noche";
-export type Clima = "despejado" | "lluvia" | "nieve" | "niebla" | "tormenta" | "polvo" | "ceniza";
+export type Clima = "despejado" | "lluvia" | "nieve" | "niebla" | "tormenta" | "polvo" | "ceniza" | "nublado";
 export type Lugar =
   | "mar" | "playa" | "montanas" | "hielo" | "ciudad" | "futurista" | "desierto" | "campo"
-  | "bosque" | "espacio" | "luna" | "calle" | "selva" | "valle" | "marte" | "rio" | "trinchera" | "isla" | "interior";
+  | "bosque" | "espacio" | "luna" | "calle" | "selva" | "valle" | "marte" | "rio" | "trinchera" | "isla" | "interior" | "ocular";
 export type PropEnEscena = string | { tipo: string; x?: number; escala?: number; detras?: boolean };
 
 export type Fondo = {
@@ -18,6 +18,12 @@ export type Fondo = {
   colorPared?: string;
   props?: PropEnEscena[];
   ventana?: boolean;
+  luna?: boolean; // false: sin la luna que se pinta de noche
+  // lugar "ocular" (la vista por el anteojo): qué se ve en el círculo
+  vista?: "jupiter" | "luna" | "estrellas" | "via-lactea";
+  lunas?: number[]; // jupiter: posiciones de las lunas en diámetros de Júpiter (negativo = este = izquierda)
+  tamanos?: number[]; // jupiter: tamaño relativo de cada luna (1 por defecto)
+  fase?: "creciente" | "menguante" | "gibosa"; // luna
 };
 
 export const CIELOS: Record<Hora, string[]> = {
@@ -68,9 +74,10 @@ const CIELOS_MARTE: Record<Hora, string[]> = {
   noche: ["#020203", "#06060a", "#0c0a10", "#141018"],
 };
 
-const Cielo: React.FC<{ hora: Hora; f: number; dur: number; espacio?: boolean; marte?: boolean; id: string }> = ({ hora, f, dur, espacio, marte, id }) => {
+const Cielo: React.FC<{ hora: Hora; f: number; dur: number; espacio?: boolean; marte?: boolean; id: string; nublado?: boolean; sinLuna?: boolean }> = ({ hora, f, dur, espacio, marte, id, nublado, sinLuna }) => {
   const cielo = espacio ? ["#000", "#03040a", "#070b1a", "#0d1630"] : marte ? CIELOS_MARTE[hora] : CIELOS[hora];
-  const estrellas = espacio || hora === "noche" || hora === "amanecer";
+  const estrellas = !nublado && (espacio || hora === "noche" || hora === "amanecer");
+  const astro = !espacio && !nublado && !(sinLuna && hora === "noche");
   const prog = f / Math.max(1, dur);
   const ax = 520 + prog * 880;
   const ay = hora === "amanecer" ? 900 - prog * 120 : hora === "atardecer" ? 760 + prog * 120 : 600 - Math.sin(prog * Math.PI) * 40;
@@ -91,7 +98,7 @@ const Cielo: React.FC<{ hora: Hora; f: number; dur: number; espacio?: boolean; m
           <circle key={i} cx={random(`sx${i}`) * MW} cy={random(`sy${i}`) * HORIZONTE} r={1.2 + random(`sr${i}`) * 2.8} fill="#fff"
             opacity={(hora === "amanecer" && !espacio ? 0.25 : 0.85) * (0.55 + 0.45 * Math.sin(f / (5 + random(`st${i}`) * 9) + i))} />
         ))}
-      {!espacio && (
+      {astro && (
         <g>
           <circle cx={ax} cy={ay} r={300} fill={`url(#halo${id})`} />
           <circle cx={ax} cy={ay} r={marte ? (hora === "noche" ? 22 : 58) : hora === "noche" ? 64 : 88} fill={marte ? (hora === "noche" ? "#d8c8b0" : hora === "atardecer" ? "#e6f0ff" : "#fff2dc") : hora === "noche" ? "#f1ecd8" : hora === "dia" ? "#fff8e0" : "#ffcf87"} />
@@ -110,11 +117,163 @@ const Cielo: React.FC<{ hora: Hora; f: number; dur: number; espacio?: boolean; m
             })}
         </g>
       )}
+      {nublado && <Encapotado hora={hora} f={f} id={id} />}
     </g>
   );
 };
 
-const Exterior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string; cam?: Cam; medios?: React.ReactNode }> = ({ fondo, hora, f, id, cam, medios }) => {
+// Cielo encapotado sin lluvia (clima "nublado"): ni estrellas, ni luna, ni sol; nubes bajas que pasan despacio
+const Encapotado: React.FC<{ hora: Hora; f: number; id: string }> = ({ hora, f, id }) => {
+  const noche = hora === "noche";
+  const base = noche ? "#0d1015" : hora === "dia" ? "#8d949b" : "#4a4450";
+  const nube = noche ? ["#161a21", "#1c2129", "#12151b"] : hora === "dia" ? ["#a3a9ae", "#7e868d", "#969ca2"] : ["#5a5260", "#433d4a", "#504858"];
+  return (
+    <g>
+      <rect width={MW} height={HORIZONTE + 60} fill={base} opacity={0.94} />
+      {Array.from({ length: 16 }).map((_, i) => {
+        const y = 380 + (i % 4) * 190 + random(`nb${i}${id}`) * 80;
+        const x = ((random(`nx${i}${id}`) * (MW + 900) + f * (0.25 + (i % 3) * 0.12)) % (MW + 900)) - 450;
+        return <ellipse key={i} cx={x} cy={y} rx={380 + random(`nr${i}`) * 260} ry={70 + random(`ns${i}`) * 50} fill={nube[i % 3]} opacity={0.9} />;
+      })}
+    </g>
+  );
+};
+
+// ---------- La vista por el anteojo (lugar "ocular") ----------
+type FaseLuna = "creciente" | "menguante" | "gibosa";
+const PALETA_LUNA = {
+  real: { oscuro: "#14161b", luz: "#ebe7db", mar: "#b9b4a8", crater: "#8d897f", punto: "#f4f1e6", borde: "none" },
+  acuarela: { oscuro: "#6e5638", luz: "#f1e4c6", mar: "#cdb48c", crater: "#a68a62", punto: "#f6ead0", borde: "#5a4128" },
+};
+// Disco de la Luna con su fase: terminador irregular, cráteres junto a él y puntos de luz (cimas) en la parte oscura
+export const DiscoLuna: React.FC<{ fase?: FaseLuna; r: number; id: string; estilo?: "real" | "acuarela" }> = ({ fase = "menguante", r: R, id, estilo = "real" }) => {
+  const c = PALETA_LUNA[estilo];
+  const lado = fase === "menguante" ? -1 : 1; // lado iluminado (+1 = derecha)
+  const k = fase === "gibosa" ? -0.45 : fase === "creciente" ? 0.32 : 0.1; // abombado del terminador hacia la luz (+) o la sombra (-)
+  const n = 26;
+  const term = Array.from({ length: n + 1 }).map((_, i) => {
+    const t = 1 - (2 * i) / n; // de abajo (1) a arriba (-1)
+    const w = Math.sqrt(Math.max(0, 1 - t * t));
+    const ruido = (random(`lt${i}${fase}`) - 0.5) * R * 0.09 * w + (i % 5 === 2 ? -lado * R * 0.05 * w : 0);
+    return [lado * k * R * w + ruido, t * R] as [number, number];
+  });
+  const iluminada = `M0 ${-R} A${R} ${R} 0 0 ${lado > 0 ? 1 : 0} 0 ${R} ${term.map(([x, y]) => `L${x.toFixed(1)} ${y.toFixed(1)}`).join(" ")}Z`;
+  return (
+    <g>
+      <defs>
+        <clipPath id={`lz${id}`}><path d={iluminada} /></clipPath>
+      </defs>
+      <circle r={R} fill={c.oscuro} opacity={estilo === "acuarela" ? 0.55 : 1} />
+      <path d={iluminada} fill={c.luz} />
+      <g clipPath={`url(#lz${id})`}>
+        {/* mares */}
+        {[[0.35, -0.3, 0.28], [0.15, 0.2, 0.22], [0.55, 0.35, 0.18], [-0.1, -0.45, 0.16], [-0.3, 0.1, 0.2]].map(([x, y, rr], i) => (
+          <ellipse key={i} cx={lado * x * R} cy={y * R} rx={rr * R} ry={rr * R * 0.8} fill={c.mar} opacity={0.75} />
+        ))}
+        {/* cráteres: más marcados junto al terminador */}
+        {Array.from({ length: 22 }).map((_, i) => {
+          const y = (random(`cy${i}`) * 1.7 - 0.85) * R;
+          const w = Math.sqrt(Math.max(0, 1 - (y / R) ** 2));
+          const x = lado * (k * w + 0.05 + random(`cx${i}`) * 0.5) * R;
+          const rr = R * (0.025 + random(`cr${i}`) * 0.05);
+          return (
+            <g key={i}>
+              <circle cx={x} cy={y} r={rr} fill={c.crater} opacity={0.7} />
+              <circle cx={x + lado * rr * 0.3} cy={y} r={rr * 0.75} fill={c.luz} opacity={0.55} />
+            </g>
+          );
+        })}
+      </g>
+      {/* cimas iluminadas en la parte oscura, más allá del terminador */}
+      {Array.from({ length: 9 }).map((_, i) => {
+        const j = 3 + Math.floor(random(`lp${i}`) * (n - 6));
+        const [tx, ty] = term[j];
+        const d = R * (0.03 + random(`ld${i}`) * 0.07);
+        return <ellipse key={i} cx={tx - lado * d} cy={ty} rx={R * 0.012 + 1.5} ry={R * 0.02 + 2} fill={c.punto} opacity={0.9} />;
+      })}
+      {c.borde !== "none" && <circle r={R} fill="none" stroke={c.borde} strokeWidth={3} opacity={0.7} />}
+    </g>
+  );
+};
+
+const Ocular: React.FC<{ fondo: Fondo; f: number; dur: number; id: string }> = ({ fondo, f, dur, id }) => {
+  const R = 470;
+  // temblor del anteojo sujeto a mano
+  const tx = Math.sin(f / 7) * 3 + Math.sin(f / 2.3) * 1.6;
+  const ty = Math.cos(f / 6) * 2.5 + Math.sin(f / 3.1) * 1.4;
+  const vista = fondo.vista ?? "estrellas";
+  const p = Math.min(1, f / Math.max(1, dur * 0.6));
+  const estrellas = (n: number, semilla: string, op: number) =>
+    Array.from({ length: n }).map((_, i) => {
+      const r = 1.3 + Math.pow(random(`${semilla}r${i}`), 3) * 4.2;
+      return <circle key={i} cx={(random(`${semilla}x${i}`) * 2 - 1) * R} cy={(random(`${semilla}y${i}`) * 2 - 1) * R} r={r} fill="#fff"
+        opacity={op * (0.35 + 0.65 * random(`${semilla}o${i}`)) * (0.8 + 0.2 * Math.sin(f / (4 + random(`${semilla}t${i}`) * 6) + i))} />;
+    });
+  let campo: React.ReactNode = null;
+  if (vista === "jupiter") {
+    const D = 48; // diámetro de Júpiter en pantalla: la unidad de las posiciones de las lunas
+    campo = (
+      <g>
+        {estrellas(14, "oj", 0.5)}
+        <circle r={D * 1.4} fill="#fff6dc" opacity={0.08} />
+        <circle r={D / 2} fill="#f6f1e2" />
+        {(fondo.lunas ?? []).map((x, i) => {
+          const t = (fondo.tamanos ?? [])[i] ?? 1;
+          return (
+            <g key={i}>
+              <circle cx={x * D} cy={0} r={11 * t} fill="#fff" opacity={0.18} />
+              <circle cx={x * D} cy={0} r={5 * t} fill="#fff" />
+            </g>
+          );
+        })}
+      </g>
+    );
+  } else if (vista === "luna") {
+    campo = <g transform="rotate(-12)"><DiscoLuna fase={fondo.fase} r={400} id={`oc${id}`} /></g>;
+  } else if (vista === "via-lactea") {
+    // la franja lechosa se va resolviendo en estrellas mientras se mira
+    campo = (
+      <g>
+        <defs>
+          <filter id={`vl${id}`} x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation={45} /></filter>
+        </defs>
+        {estrellas(60, "ov", 0.6)}
+        <g transform="rotate(-28)">
+          <g filter={`url(#vl${id})`} opacity={0.6 - 0.35 * p}>
+            <ellipse rx={R * 1.4} ry={150} fill="#d8dcf0" />
+            <ellipse cx={-120} cy={30} rx={R} ry={80} fill="#eef0ff" />
+          </g>
+          {Array.from({ length: 520 }).map((_, i) => {
+            const y = (random(`vy${i}`) + random(`vz${i}`) + random(`vw${i}`) - 1.5) * 190;
+            return <circle key={i} cx={(random(`vx${i}`) * 2 - 1) * R * 1.3} cy={y} r={0.8 + random(`vr${i}`) * 1.8} fill="#fff" opacity={(0.25 + 0.7 * p) * (0.4 + 0.6 * random(`vo${i}`))} />;
+          })}
+        </g>
+      </g>
+    );
+  } else {
+    campo = <g>{estrellas(320, "oe", 1)}</g>;
+  }
+  return (
+    <g>
+      <rect width={MW} height={MH} fill="#000" />
+      <defs>
+        <clipPath id={`ocv${id}`}><circle cx={960 + tx * 0.3} cy={960 + ty * 0.3} r={R} /></clipPath>
+        <radialGradient id={`ocb${id}`}>
+          <stop offset="0.74" stopColor="#000" stopOpacity={0} />
+          <stop offset="0.92" stopColor="#000" stopOpacity={0.65} />
+          <stop offset="1" stopColor="#000" stopOpacity={1} />
+        </radialGradient>
+      </defs>
+      <g clipPath={`url(#ocv${id})`}>
+        <rect width={MW} height={MH} fill="#070a12" />
+        <g transform={`translate(${960 + tx} ${960 + ty})`}>{campo}</g>
+        <circle cx={960 + tx * 0.3} cy={960 + ty * 0.3} r={R + 2} fill={`url(#ocb${id})`} />
+      </g>
+    </g>
+  );
+};
+
+const Exterior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string; cam?: Cam; medios?: React.ReactNode; bahia?: boolean }> = ({ fondo, hora, f, id, cam, medios, bahia }) => {
   const c = LEJOS[hora];
   const lugar = fondo.lugar;
   const suelo = SUELOS[lugar] ?? "#555";
@@ -138,7 +297,7 @@ const Exterior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string; cam?
       lejos = (
         <g>
           <path d={cresta(`m1${id}`, HORIZONTE - 60, 420, 8)} fill={lugar === "hielo" ? "#c9d8e6" : c[0]} transform={`translate(${-deriva * 0.2} 0)`} />
-          <path d={cresta(`m2${id}`, HORIZONTE + 80, 300, 11)} fill={lugar === "hielo" ? "#9fb6cc" : c[1]} transform={`translate(${-deriva * 0.4} 0)`} />
+          {!bahia && <path d={cresta(`m2${id}`, HORIZONTE + 80, 300, 11)} fill={lugar === "hielo" ? "#9fb6cc" : c[1]} transform={`translate(${-deriva * 0.4} 0)`} />}
         </g>
       );
       break;
@@ -288,7 +447,7 @@ const Exterior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string; cam?
       lejos = (
         <g>
           <path d={colinas(HORIZONTE, 120, 240, 1 - deriva / 900)} fill={hora === "dia" ? "#8fb36a" : c[0]} />
-          <path d={colinas(HORIZONTE + 110, 130, 320, 3 - deriva / 600)} fill={hora === "dia" ? "#79a056" : c[1]} />
+          {!bahia && <path d={colinas(HORIZONTE + 110, 130, 320, 3 - deriva / 600)} fill={hora === "dia" ? "#79a056" : c[1]} />}
         </g>
       );
       break;
@@ -341,9 +500,16 @@ const Exterior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string; cam?
       break;
   }
   const tinte = TINTE[hora];
+  // bahía: con barcos en el campo o en el monte, el agua llega hasta la orilla de delante (vista desde una colina)
+  const agua = hora === "dia" ? ["#4f86a8", "#457a9a"] : [c[1], c[2]];
   return (
     <g>
-      <g transform={paralaje(cam, 0.35)}>{lejos}</g>
+      <g transform={paralaje(cam, 0.35)}>{lejos}{bahia && (
+        <g>
+          <rect x={0} y={HORIZONTE - 4} width={MW} height={SUELO - HORIZONTE} fill={agua[0]} />
+          <path d={ola(HORIZONTE + 70, 4, 90, f / 14)} fill={agua[1]} opacity={0.8} />
+        </g>
+      )}</g>
       <g transform={paralaje(cam, 0.15)}>{medios}</g>
       {/* suelo en primer plano */}
       <path d={`M0 ${SUELO - 30} Q${MW / 2} ${SUELO - 60} ${MW} ${SUELO - 30} L${MW} ${MH} L0 ${MH}Z`} fill={suelo} />
@@ -554,7 +720,7 @@ const Megalito: React.FC<{ id: string }> = ({ id }) => {
 };
 
 const Particulas: React.FC<{ clima: Clima; f: number }> = ({ clima, f }) => {
-  if (clima === "despejado") return null;
+  if (clima === "despejado" || clima === "nublado") return null;
   if (clima === "niebla")
     return (
       <g>
@@ -712,10 +878,14 @@ const PrimerPlano: React.FC<{ fondo: Fondo; f: number; id: string; cam?: Cam }> 
 };
 
 // Decorados que siempre están lejos, detrás de todo el paisaje
-const LEJANOS = ["parapeto-aleman", "volcan", "volcan-erupcion", "explosion", "piramide", "pilar", "templo-mayor"];
-const ESCALA_LEJANA: Record<string, number> = { "templo-mayor": 0.8, pilar: 0.75 };
+const LEJANOS = ["parapeto-aleman", "volcan", "volcan-erupcion", "explosion", "piramide", "pilar", "templo-mayor", "santo", "campanario"];
+const ESCALA_LEJANA: Record<string, number> = { "templo-mayor": 0.8, pilar: 0.75, santo: 0.78, campanario: 0.62 };
 // Decorados de plano medio: sobre el agua o la llanura, entre el horizonte y el suelo
-const MEDIOS: Record<string, { y: number; k: number }> = { bergantin: { y: HORIZONTE + 95, k: 0.5 }, "ciudad-lago": { y: HORIZONTE + 40, k: 0.55 }, puente: { y: HORIZONTE + 95, k: 0.5 }, calzada: { y: HORIZONTE + 80, k: 0.6 }, canoa: { y: SUELO - 75, k: 0.8 }, piragua: { y: SUELO - 75, k: 0.8 }, "piragua-piedras": { y: SUELO - 75, k: 0.8 }, tumulo: { y: SUELO - 55, k: 0.6 }, "tumulo-obra": { y: SUELO - 55, k: 0.6 }, "tumulo-hierba": { y: SUELO - 55, k: 0.6 }, "isla-faro": { y: HORIZONTE + 45, k: 0.55 }, "isla-faro-apagada": { y: HORIZONTE + 45, k: 0.55 } };
+const MEDIOS: Record<string, { y: number; k: number }> = { bergantin: { y: HORIZONTE + 95, k: 0.5 }, "ciudad-lago": { y: HORIZONTE + 40, k: 0.55 }, puente: { y: HORIZONTE + 95, k: 0.5 }, calzada: { y: HORIZONTE + 80, k: 0.6 }, canoa: { y: SUELO - 75, k: 0.8 }, piragua: { y: SUELO - 75, k: 0.8 }, "piragua-piedras": { y: SUELO - 75, k: 0.8 }, tumulo: { y: SUELO - 55, k: 0.6 }, "tumulo-obra": { y: SUELO - 55, k: 0.6 }, "tumulo-hierba": { y: SUELO - 55, k: 0.6 }, "isla-faro": { y: HORIZONTE + 45, k: 0.55 }, "isla-faro-apagada": { y: HORIZONTE + 45, k: 0.55 }, acorazado: { y: HORIZONTE + 25, k: 0.6 }, destructor: { y: HORIZONTE + 25, k: 0.6 }, portaaviones: { y: HORIZONTE + 25, k: 0.6 }, submarino: { y: HORIZONTE + 28, k: 0.6 } };
+const BARCOS = ["acorazado", "destructor", "portaaviones", "submarino"];
+// el humo sobre el agua sin un barco (u otro objeto) cerca en el suelo arde a lo lejos, en la línea de flotación
+const BASES_HUMO = ["barco", "velero", "bote", "bergantin-hundido", "casa", "cabana", "granja", "granero", "tren", "ruinas", "coche-abandonado", "coche-antiguo", "bloque", "casa-adobe", "escombros"];
+const HUMO_MEDIO = { y: HORIZONTE + 25, k: 0.6 };
 
 // Un objeto pequeño (emoji) que cae sobre una mesa se apoya en el tablero, no en el suelo
 const EMOJI = /\p{Extended_Pictographic}/u;
@@ -732,7 +902,14 @@ const RANURAS = [-1.45, 1.45, -0.75, 0.8, -1.9, 1.9, 0];
 export const DibujarFondo: React.FC<{ fondo: Fondo; f: number; dur: number; id: string; capa: "fondo" | "frente"; k?: number; cam?: Cam }> = ({ fondo, f, dur, id, capa, k = 420, cam }) => {
   const hora = fondo.hora ?? "dia";
   const noche = hora === "noche" || hora === "atardecer";
+  if (fondo.lugar === "ocular") return capa === "fondo" ? <Ocular fondo={fondo} f={f} dur={dur} id={id} /> : null;
   const props = (fondo.props ?? []).map((p, i) => (typeof p === "string" ? { tipo: p, x: RANURAS[i % RANURAS.length], escala: 1, detras: true } : { detras: true, escala: 1, x: RANURAS[i % RANURAS.length], ...p }));
+  const agua = ["mar", "rio", "playa", "isla"].includes(fondo.lugar);
+  const humoLejos = (p: { tipo: string; x: number }) => p.tipo === "humo" && (
+    props.some((q) => MEDIOS[q.tipo] && Math.abs(q.x - p.x) < 0.3) ||
+    (agua && !props.some((q) => BASES_HUMO.includes(q.tipo) && Math.abs(q.x - p.x) < 0.35)));
+  const medio = (p: { tipo: string; x: number }) => MEDIOS[p.tipo] ?? (humoLejos(p) ? HUMO_MEDIO : undefined);
+  const bahia = ["campo", "montanas"].includes(fondo.lugar) && props.some((p) => BARCOS.includes(p.tipo));
   if (capa === "frente") {
     return (
       <g>
@@ -757,7 +934,7 @@ export const DibujarFondo: React.FC<{ fondo: Fondo; f: number; dur: number; id: 
       ) : (
         <g>
           <g transform={paralaje(cam, 0.85)}>
-            <Cielo hora={hora} f={f} dur={dur} espacio={fondo.lugar === "espacio" || fondo.lugar === "luna"} marte={fondo.lugar === "marte"} id={id} />
+            <Cielo hora={hora} f={f} dur={dur} espacio={fondo.lugar === "espacio" || fondo.lugar === "luna"} marte={fondo.lugar === "marte"} id={id} nublado={fondo.clima === "nublado"} sinLuna={fondo.luna === false} />
             <Vida fondo={fondo} f={f} id={id} />
           </g>
           {/* decorados LEJANOS (volcanes, pirámides): detrás del paisaje, apoyados en el horizonte y con bruma */}
@@ -768,13 +945,13 @@ export const DibujarFondo: React.FC<{ fondo: Fondo; f: number; dur: number; id: 
               </g>
             </g>
           ))}
-          <Exterior fondo={fondo} hora={hora} f={f} id={id} cam={cam} medios={props.filter((p) => MEDIOS[p.tipo] && p.detras !== false).map((p, i) => (
-            <g key={`m${i}`} transform={`translate(${xMundo(p.x, k)} ${MEDIOS[p.tipo].y}) scale(${(p.escala ?? 1) * MEDIOS[p.tipo].k})`}><Prop tipo={p.tipo} f={f} noche={noche} dur={dur} /></g>
+          <Exterior fondo={fondo} hora={hora} f={f} id={id} cam={cam} bahia={bahia} medios={props.filter((p) => medio(p) && p.detras !== false).map((p, i) => (
+            <g key={`m${i}`} transform={`translate(${xMundo(p.x, k)} ${medio(p)!.y}) scale(${(p.escala ?? 1) * medio(p)!.k})`}><Prop tipo={p.tipo} f={f} noche={noche} dur={dur} /></g>
           ))} />
         </g>
       )}
       {fondo.lugar === "interior" && <Vida fondo={fondo} f={f} id={id} />}
-      {props.filter((p) => p.detras !== false && (fondo.lugar === "interior" || (!LEJANOS.includes(p.tipo) && !MEDIOS[p.tipo]))).map((p, i) => (
+      {props.filter((p) => p.detras !== false && (fondo.lugar === "interior" || (!LEJANOS.includes(p.tipo) && !medio(p)))).map((p, i) => (
         <g key={i} transform={`translate(${xMundo(p.x, k)} ${SUELO - 20 - sobreMesa(p, props, k)}) scale(${p.escala})`}><Prop tipo={p.tipo} f={f} noche={noche} dur={dur} /></g>
       ))}
       {(fondo.clima === "lluvia" || fondo.clima === "tormenta" || fondo.clima === "nieve") && fondo.lugar !== "interior" && (

@@ -6,7 +6,12 @@ export type Insercion =
   | { tipo: "dato"; valor: string; etiqueta: string; icono?: string; prop?: string } // prop: un decorado del motor en lugar del emoji
   | { tipo: "cita"; frase: string; firma?: string }
   | { tipo: "objetos"; titulo: string; items: { icono: string; nombre: string }[] }
-  | { tipo: "mapa"; lugar: string; detalle?: string; icono?: string };
+  | { tipo: "mapa"; lugar: string; detalle?: string; icono?: string }
+  // cuaderno de notas sepia: filas de observaciones de Júpiter (una por noche) o una acuarela de la Luna
+  | { tipo: "cuaderno"; titulo?: string; firma?: string; filas?: FilaCuaderno[]; dibujo?: "luna"; fase?: FaseLuna };
+export type FaseLuna = "creciente" | "menguante" | "gibosa";
+// lunas: posiciones en diámetros de Júpiter (negativo = este = izquierda); tamanos: tamaño relativo de cada luna
+export type FilaCuaderno = { fecha: string; lunas?: number[]; tamanos?: number[]; nublado?: boolean };
 
 export type Escena = {
   dia?: number;

@@ -2,6 +2,7 @@ import React from "react";
 import { random } from "remotion";
 import type { Accion, Emocion, Look } from "./tipos";
 import { oscurecer, FPS } from "../mundo/constantes";
+import { TuboAnteojo, LARGO_TUBO } from "../mundo/Props";
 
 // Personaje vectorial articulado. Origen = punto entre los pies. Mira a la derecha (+x).
 // Medidas base (altura 1): cadera y=-260, hombros y=-450, cabeza centro y=-560.
@@ -25,6 +26,40 @@ type Pose = {
   incl: number; // inclinación del cuerpo
   cabeza: number; // inclinación de cabeza
   cabezaY: number;
+};
+
+// "observar": el ojo pegado al ocular de un anteojo de mano inclinado ~35° hacia arriba, sujeto con las dos manos
+const ANG_TUBO = -35;
+const CABEZA_OBS = -10;
+const temblorTubo = (t: number) => Math.sin(t * 9) * 0.6 + Math.sin(t * 2.3) * 0.5;
+// posición del ojo de delante (en el marco del cuerpo) según la inclinación de la cabeza
+const ojo = (cabeza: number, cabezaY: number) => {
+  const r = (cabeza * Math.PI) / 180;
+  const [x, y] = [34, -84];
+  return [x * Math.cos(r) - y * Math.sin(r), CUELLO_Y + 4 + cabezaY + x * Math.sin(r) + y * Math.cos(r)];
+};
+const puntoTubo = (cabeza: number, cabezaY: number, ang: number, d: number) => {
+  const [ex, ey] = ojo(cabeza, cabezaY);
+  const a = (ang * Math.PI) / 180;
+  return [ex - 4 + Math.cos(a) * d, ey + 2 + Math.sin(a) * d];
+};
+// cinemática inversa de un brazo: ángulos de hombro y codo para que la mano llegue a (tx, ty); el codo queda por debajo
+const alcanzar = (sx: number, sy: number, tx: number, ty: number): [number, number] => {
+  let dx = tx - sx;
+  let dy = ty - sy;
+  let d = Math.hypot(dx, dy);
+  const dmax = BRAZO + ANTEBRAZO - 2;
+  if (d > dmax) { dx *= dmax / d; dy *= dmax / d; d = dmax; }
+  const g = 180 / Math.PI;
+  const base = Math.atan2(-dx, dy) * g;
+  const alfa = Math.acos(Math.min(1, Math.max(-1, (BRAZO * BRAZO + d * d - ANTEBRAZO * ANTEBRAZO) / (2 * BRAZO * d)))) * g;
+  const a1 = base + alfa;
+  const ex = sx - BRAZO * Math.sin(a1 / g);
+  const ey = sy + BRAZO * Math.cos(a1 / g);
+  let a2 = Math.atan2(-(sx + dx - ex), sy + dy - ey) * g - a1;
+  while (a2 > 180) a2 -= 360;
+  while (a2 < -180) a2 += 360;
+  return [a1, a2];
 };
 
 const BASE: Pose = { hD: -8, cD: -6, hI: 8, cI: 6, pD: 0, rD: 0, pI: 0, rI: 0, y: 0, x: 0, incl: 0, cabeza: 0, cabezaY: 0 };
@@ -102,6 +137,15 @@ export const calcularPose = (accion: Accion, f: number, semilla: number, fase?: 
       // comensal romano tumbado en el lecho del triclinio: el cuerpo cae hacia delante sobre el codo,
       // las piernas quedan estiradas hacia atrás sobre el colchón y la cabeza se endereza
       return { ...p, pD: 80, rD: -12, pI: 74, rI: -22, y: 112, incl: 38, hD: -95, cD: -55, hI: 30, cI: -60, cabeza: -30 };
+    case "observar": {
+      const ang = ANG_TUBO + temblorTubo(t);
+      const cabeza = CABEZA_OBS + temblorTubo(t) * 0.5;
+      const [dx, dy] = puntoTubo(cabeza, 0, ang, LARGO_TUBO * 0.36);
+      const [tx, ty] = puntoTubo(cabeza, 0, ang, LARGO_TUBO * 0.1);
+      const [hD, cD] = alcanzar(64, HOMBRO_Y, dx, dy);
+      const [hI, cI] = alcanzar(-62, HOMBRO_Y, tx, ty);
+      return { ...p, hD, cD, hI, cI, cabeza, cabezaY: 0, incl: 0, x: 0, pD: -7, pI: 6 };
+    }
     case "dormir":
       return { ...p, y: 0, cabeza: 0 };
     case "beber": {
@@ -249,6 +293,32 @@ const Sombrero: React.FC<{ look: Look }> = ({ look }) => {
           <path d="M40 -34 Q90 -36 104 -20 L40 -22Z" fill="#111" />
         </g>
       );
+    case "gorro-marinero": {
+      // gorro blanco de marinero estadounidense (1941): copa redonda y el ala vuelta hacia arriba alrededor
+      const cg = look.colorSombrero ?? "#f2f0ea";
+      return (
+        <g transform="rotate(-6)">
+          <path d="M-62 -66 Q-64 -130 0 -132 Q64 -130 62 -66Z" fill={cg} />
+          <path d="M-30 -128 Q-10 -100 -14 -70" stroke={oscurecer(cg, 0.12)} strokeWidth={4} fill="none" />
+          <path d="M-92 -98 Q-90 -64 -72 -52 L72 -52 Q90 -64 92 -98 Q70 -78 0 -76 Q-70 -78 -92 -98Z" fill={cg} />
+          <path d="M-86 -88 Q-70 -70 0 -68 Q70 -70 86 -88" stroke={oscurecer(cg, 0.18)} strokeWidth={3} fill="none" />
+          <path d="M-72 -52 L72 -52" stroke={oscurecer(cg, 0.2)} strokeWidth={4} />
+        </g>
+      );
+    }
+    case "corno": {
+      // corno ducal veneciano: gorro rígido con la punta alzada hacia atrás y la cofia de lino blanco debajo
+      const cg = look.colorSombrero ?? "#d9b04a";
+      return (
+        <g>
+          <path d="M-84 -22 Q-86 -4 -70 4 L-60 -30 L70 -30 L74 -14 Q84 -22 84 -34Z" fill="#f4f0e6" />
+          <path d="M-82 -30 Q-96 -100 -126 -150 Q-136 -170 -112 -170 Q-40 -150 10 -110 Q60 -76 80 -30Z" fill={cg} />
+          <path d="M-82 -30 L80 -30 L78 -46 L-84 -46Z" fill={oscurecer(cg, 0.22)} />
+          {[-40, 0, 40].map((x) => <circle key={x} cx={x} cy={-38} r={6} fill="#b8322d" />)}
+          <path d="M-60 -64 Q-80 -110 -108 -150" stroke={oscurecer(cg, -0.4)} strokeWidth={5} fill="none" opacity={0.6} />
+        </g>
+      );
+    }
     case "copa":
       return (
         <g fill={c}>
@@ -579,6 +649,10 @@ export const Personaje: React.FC<{
         {look.sombrero !== "espacial" && look.sombrero !== "yelmo" && <Pelo look={look} capa="delante" />}
         <Sombrero look={look} />
       </g>
+      {accion === "observar" && (() => {
+        const [ex, ey] = ojo(p.cabeza, p.cabezaY);
+        return <g transform={`translate(${ex - 4} ${ey + 2}) rotate(${ANG_TUBO + temblorTubo(tt)})`}><TuboAnteojo /></g>;
+      })()}
       {/* brazo delantero */}
       <Extremidad x={64} y={HOMBRO_Y} a1={p.hD} a2={p.cD} l1={BRAZO} l2={ANTEBRAZO} w={38} c1={color} c2={cAntebrazo} fin={mano} />
       {objeto && accion !== "cargar" && (

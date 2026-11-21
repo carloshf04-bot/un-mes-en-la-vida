@@ -9,7 +9,7 @@ export type Look = {
     color2: string; // pantalón / falda
     detalle?: string; // cinturón, botones, cuello
   };
-  sombrero?: "ninguno" | "gorra" | "gorro-lana" | "gorra-plato" | "copa" | "ala" | "casco" | "corona" | "capucha" | "panuelo" | "espacial" | "boina" | "tricornio" | "yelmo" | "turbante" | "fez" | "salacot" | "orejeras" | "penacho" | "morrion" | "pileo" | "pickelhaube" | "piel";
+  sombrero?: "ninguno" | "gorra" | "gorro-lana" | "gorra-plato" | "copa" | "ala" | "casco" | "corona" | "capucha" | "panuelo" | "espacial" | "boina" | "tricornio" | "yelmo" | "turbante" | "fez" | "salacot" | "orejeras" | "penacho" | "morrion" | "pileo" | "pickelhaube" | "piel" | "gorro-marinero" | "corno";
   colorSombrero?: string;
   gafas?: boolean;
   altura?: number; // 1 = adulto, 0.65 = niño
@@ -20,7 +20,7 @@ export type Look = {
 
 export type Accion =
   | "quieto" | "hablar" | "caminar" | "correr" | "trabajar" | "saludar" | "sentado"
-  | "pensar" | "celebrar" | "triste" | "senalar" | "cargar" | "dormir" | "escribir" | "asustado" | "tambalear" | "beber" | "agachado" | "reclinado" | "dar-mano" | "arrastrar";
+  | "pensar" | "celebrar" | "triste" | "senalar" | "cargar" | "dormir" | "escribir" | "asustado" | "tambalear" | "beber" | "agachado" | "reclinado" | "dar-mano" | "arrastrar" | "observar";
 export type Emocion = "neutral" | "feliz" | "triste" | "miedo" | "enfado" | "sorpresa" | "cansado";
 
 export type EnEscena = {

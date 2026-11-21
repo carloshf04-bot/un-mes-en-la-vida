@@ -89,7 +89,7 @@ const pantallaX = (e, xw) => {
   return { x: 960 + s * (xw - fx), s };
 };
 const encuadre = esc.map((e, i) => {
-  if (e.insercion || e.capitulo) return { modo: "entero" };
+  if (e.insercion || e.capitulo || e.fondo?.lugar === "ocular") return { modo: "entero" }; // la vista por el anteojo no se recorta
   const pjs = (e.personajes ?? []).filter((p) => !p.sale);
   if (!pjs.length) return { modo: "recorte", x: 960 };
   const xs = pjs.map((p) => pantallaX(e, xMundo(p.x ?? 0)));

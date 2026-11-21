@@ -1169,7 +1169,7 @@
           "props": [
             {
               "tipo": "radar",
-              "x": -1.05
+              "x": -0.85
             },
             {
               "tipo": "tienda",
@@ -1462,14 +1462,14 @@
           "clima": "despejado",
           "props": [
             {
-              "tipo": "barco",
+              "tipo": "destructor",
               "x": 1.15,
               "escala": 0.45,
               "detras": true
             },
             {
               "tipo": "submarino",
-              "x": 0.45,
+              "x": 0.95,
               "escala": 0.35,
               "detras": true
             }
@@ -1510,7 +1510,7 @@
               "detras": true
             },
             {
-              "tipo": "barco",
+              "tipo": "destructor",
               "x": 1.4,
               "escala": 0.35,
               "detras": true
@@ -1536,14 +1536,14 @@
           "clima": "despejado",
           "props": [
             {
-              "tipo": "barco",
+              "tipo": "destructor",
               "x": 1.15,
               "escala": 0.45,
               "detras": true
             },
             {
               "tipo": "submarino",
-              "x": 0.45,
+              "x": 0.95,
               "escala": 0.35,
               "detras": true
             }
@@ -1580,7 +1580,7 @@
           "props": [
             {
               "tipo": "radar",
-              "x": -1.05
+              "x": -0.85
             },
             {
               "tipo": "tienda",
@@ -1784,7 +1784,7 @@
           "props": [
             {
               "tipo": "humo",
-              "x": -1.0,
+              "x": -0.6,
               "escala": 0.7,
               "detras": true
             },
