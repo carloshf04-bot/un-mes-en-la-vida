@@ -6,7 +6,7 @@ import { oscurecer } from "./constantes";
 // Para añadir uno nuevo: añade un `case` y documéntalo en oficina/GUIA_GUION.md
 export const PROPS_DISPONIBLES = [
   "arbol", "pino", "palmera", "casa", "cabana", "faro", "barco", "velero", "cohete", "farola", "carro", "puesto",
-  "roca", "valla", "pozo", "tumba", "hoguera", "tienda", "bandera", "mesa", "estanteria", "chimenea", "cama",
+  "roca", "valla", "pozo", "tumba", "hoguera", "tienda", "bandera", "bandera-eeuu", "mesa", "estanteria", "chimenea", "cama",
   "antorcha", "cuadro", "consola", "maquina", "barril", "cajas", "planta", "telescopio", "yunque", "piramide", "columna", "reloj",
   "bergantin-hielo", "bergantin-hundido", "bote",
   "volcan", "volcan-erupcion", "bergantin", "cruz", "parapeto-aleman", "lecho", "estatua-saturno", "electrometro", "cristalizadores", "espectro", "humo", "explosion", "horno", "molino", "anfora", "termopolio",
@@ -649,6 +649,28 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: num
           <path d={`M8 -550 Q90 ${-570 + Math.sin(f / 6) * 20} 200 -550 L200 -430 Q90 ${-450 + Math.sin(f / 6 + 1) * 20} 8 -430Z`} fill="#c8402f" />
         </g>
       );
+    case "bandera-eeuu": {
+      // bandera de EE. UU. de 1941 (48 estrellas): 13 barras y cantón azul, ondeando
+      const w1 = Math.sin(f / 6) * 20, w2 = Math.sin(f / 6 + 1) * 20;
+      const tela = `M8 -550 Q120 ${-570 + w1} 240 -550 L240 -420 Q120 ${-440 + w2} 8 -420Z`;
+      const alto = 132 / 13;
+      return (
+        <g>
+          <defs><clipPath id="clip-bandera-eeuu"><path d={tela} /></clipPath></defs>
+          <rect x={-8} y={-560} width={16} height={560} fill="#9a9a9a" />
+          <circle cx={0} cy={-564} r={12} fill="#c9a24a" />
+          <g clipPath="url(#clip-bandera-eeuu)">
+            {Array.from({ length: 13 }, (_, i) => (
+              <path key={i} d={`M8 ${-550 + i * alto} Q120 ${-570 + w1 + i * alto} 240 ${-550 + i * alto} L240 ${-550 + (i + 1) * alto} Q120 ${-570 + w1 + (i + 1) * alto} 8 ${-550 + (i + 1) * alto}Z`} fill={i % 2 ? "#f4f1ea" : "#b3282d"} />
+            ))}
+            <rect x={8} y={-590} width={104} height={110} fill="#2b3a6b" />
+            {Array.from({ length: 30 }, (_, k) => (
+              <circle key={k} cx={20 + (k % 6) * 16 + (Math.floor(k / 6) % 2) * 8} cy={-544 + Math.floor(k / 6) * 12 + (w1 * (k % 6)) / 60} r={3} fill="#f4f1ea" />
+            ))}
+          </g>
+        </g>
+      );
+    }
     case "mesa":
       return (
         <g>

@@ -241,7 +241,7 @@
         "detalle": "#8a7a52"
       },
       "sombrero": "gorra-plato",
-      "colorSombrero": "#f2f0ea",
+      "colorSombrero": "#2b3448",
       "zapatos": "#151515"
     },
     "hermana2": {
@@ -273,7 +273,7 @@
           "clima": "despejado",
           "props": [
             {
-              "tipo": "bandera",
+              "tipo": "bandera-eeuu",
               "x": -0.35
             },
             {
@@ -823,7 +823,7 @@
           "ventana": true,
           "props": [
             {
-              "tipo": "bandera",
+              "tipo": "bandera-eeuu",
               "x": -1.25
             },
             {
@@ -972,10 +972,9 @@
           {
             "quien": "doris",
             "x": -0.35,
-            "accion": "cargar",
+            "accion": "quieto",
             "emocion": "neutral",
             "mirar": 1,
-            "objeto": "☕",
             "habla": false
           },
           {
@@ -1324,7 +1323,7 @@
           "clima": "despejado",
           "props": [
             {
-              "tipo": "bandera",
+              "tipo": "bandera-eeuu",
               "x": -1.2
             },
             {
@@ -1523,7 +1522,7 @@
           "tipo": "dato",
           "valor": "6:45",
           "etiqueta": "el USS Ward dispara contra un submarino enano: primer disparo estadounidense de la guerra del Pacífico",
-          "icono": "🎯"
+          "icono": "⚓"
         }
       },
       {
@@ -1733,7 +1732,7 @@
           "clima": "despejado",
           "props": [
             {
-              "tipo": "bandera",
+              "tipo": "bandera-eeuu",
               "x": -0.4
             },
             {
@@ -1756,10 +1755,9 @@
           {
             "quien": "musico",
             "x": 0.1,
-            "accion": "cargar",
+            "accion": "asustado",
             "emocion": "miedo",
             "mirar": 1,
-            "objeto": "🎺",
             "habla": false
           },
           {
@@ -1785,13 +1783,13 @@
             {
               "tipo": "humo",
               "x": -0.6,
-              "escala": 0.7,
+              "escala": 0.8,
               "detras": true
             },
             {
-              "tipo": "acorazado",
-              "x": 1.2,
-              "escala": 0.45,
+              "tipo": "humo",
+              "x": 0.95,
+              "escala": 1.2,
               "detras": true
             }
           ]
@@ -2385,7 +2383,7 @@
           "ventana": true,
           "props": [
             {
-              "tipo": "bandera",
+              "tipo": "bandera-eeuu",
               "x": -1.25
             },
             {
@@ -2493,7 +2491,7 @@
           "clima": "despejado",
           "props": [
             {
-              "tipo": "bandera",
+              "tipo": "bandera-eeuu",
               "x": -1.2
             },
             {
@@ -2556,14 +2554,14 @@
           {
             "quien": "tommy-blanco",
             "x": 0.4,
-            "accion": "saludar",
+            "accion": "quieto",
             "emocion": "neutral",
             "mirar": -1
           },
           {
             "quien": "gus",
             "x": -0.4,
-            "accion": "saludar",
+            "accion": "quieto",
             "emocion": "neutral",
             "mirar": 1,
             "habla": false
@@ -2596,11 +2594,10 @@
       "animación"
     ],
     "miniatura": {
-      "texto": "8:00 EN PUNTO",
+      "texto": "7 DE DICIEMBRE, 8:00",
       "escena": 0,
       "quien": "tommy",
-      "emocion": "sorpresa",
-      "icono": "⚓"
+      "emocion": "sorpresa"
     },
     "shorts": [
       {
