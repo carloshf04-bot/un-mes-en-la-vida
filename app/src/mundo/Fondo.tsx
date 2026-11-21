@@ -19,6 +19,7 @@ export type Fondo = {
   props?: PropEnEscena[];
   ventana?: boolean;
   luna?: boolean; // false: sin la luna que se pinta de noche
+  sol?: boolean; // false: sin el disco del sol (p. ej. cuando el sol sale a espaldas de la cámara)
   // lugar "ocular" (la vista por el anteojo): qué se ve en el círculo
   vista?: "jupiter" | "luna" | "estrellas" | "via-lactea";
   lunas?: number[]; // jupiter: posiciones de las lunas en diámetros de Júpiter (negativo = este = izquierda)
@@ -74,10 +75,10 @@ const CIELOS_MARTE: Record<Hora, string[]> = {
   noche: ["#020203", "#06060a", "#0c0a10", "#141018"],
 };
 
-const Cielo: React.FC<{ hora: Hora; f: number; dur: number; espacio?: boolean; marte?: boolean; id: string; nublado?: boolean; sinLuna?: boolean }> = ({ hora, f, dur, espacio, marte, id, nublado, sinLuna }) => {
+const Cielo: React.FC<{ hora: Hora; f: number; dur: number; espacio?: boolean; marte?: boolean; id: string; nublado?: boolean; sinLuna?: boolean; sinSol?: boolean }> = ({ hora, f, dur, espacio, marte, id, nublado, sinLuna, sinSol }) => {
   const cielo = espacio ? ["#000", "#03040a", "#070b1a", "#0d1630"] : marte ? CIELOS_MARTE[hora] : CIELOS[hora];
   const estrellas = !nublado && (espacio || hora === "noche" || hora === "amanecer");
-  const astro = !espacio && !nublado && !(sinLuna && hora === "noche");
+  const astro = !espacio && !nublado && !(sinLuna && hora === "noche") && !(sinSol && hora !== "noche");
   const prog = f / Math.max(1, dur);
   const ax = 520 + prog * 880;
   const ay = hora === "amanecer" ? 900 - prog * 120 : hora === "atardecer" ? 760 + prog * 120 : 600 - Math.sin(prog * Math.PI) * 40;
@@ -934,7 +935,7 @@ export const DibujarFondo: React.FC<{ fondo: Fondo; f: number; dur: number; id: 
       ) : (
         <g>
           <g transform={paralaje(cam, 0.85)}>
-            <Cielo hora={hora} f={f} dur={dur} espacio={fondo.lugar === "espacio" || fondo.lugar === "luna"} marte={fondo.lugar === "marte"} id={id} nublado={fondo.clima === "nublado"} sinLuna={fondo.luna === false} />
+            <Cielo hora={hora} f={f} dur={dur} espacio={fondo.lugar === "espacio" || fondo.lugar === "luna"} marte={fondo.lugar === "marte"} id={id} nublado={fondo.clima === "nublado"} sinLuna={fondo.luna === false} sinSol={fondo.sol === false} />
             <Vida fondo={fondo} f={f} id={id} />
           </g>
           {/* decorados LEJANOS (volcanes, pirámides): detrás del paisaje, apoyados en el horizonte y con bruma */}

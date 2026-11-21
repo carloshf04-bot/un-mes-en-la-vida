@@ -241,7 +241,8 @@
               "x": 1.4,
               "escala": 0.8
             }
-          ]
+          ],
+          "sol": false
         },
         "personajes": [
           {
@@ -1566,7 +1567,7 @@
           "ventana": false,
           "props": [
             {
-              "tipo": "rayo-solsticio-corto",
+              "tipo": "rayo-solsticio-hilo",
               "x": 0
             }
           ]
@@ -1715,44 +1716,30 @@
         "texto": "El día veintidós es el más corto del año. Entramos en la cámara de noche cerrada; fuera, en la ladera, la gente espera en silencio.",
         "drama": 0.75,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "interior",
           "hora": "noche",
+          "pared": "megalito",
+          "ventana": false,
           "props": [
             {
-              "tipo": "casa-neolitica",
-              "x": -1.25,
-              "escala": 0.9
-            },
-            {
-              "tipo": "hoguera",
-              "x": -0.55,
-              "escala": 0.8
-            },
-            {
-              "tipo": "roca",
-              "x": 1.2,
-              "escala": 1.1
-            },
-            {
-              "tipo": "arbol",
-              "x": 1.5,
-              "detras": true
+              "tipo": "antorcha",
+              "x": -1.2
             }
           ]
         },
         "personajes": [
           {
-            "quien": "peona",
-            "x": -0.6,
-            "accion": "quieto",
+            "quien": "oru",
+            "x": -0.55,
+            "accion": "agachado",
             "emocion": "neutral",
             "mirar": 1,
             "habla": false
           },
           {
-            "quien": "forastero",
-            "x": -0.1,
-            "accion": "quieto",
+            "quien": "teko",
+            "x": -0.05,
+            "accion": "agachado",
             "emocion": "neutral",
             "mirar": 1,
             "habla": false
@@ -1760,9 +1747,9 @@
           {
             "quien": "tarun",
             "x": 0.45,
-            "accion": "caminar",
+            "accion": "agachado",
             "emocion": "miedo",
-            "mirar": 1,
+            "mirar": -1,
             "habla": false
           }
         ],
@@ -1860,7 +1847,7 @@
         "personajes": [
           {
             "quien": "oru",
-            "x": -0.8,
+            "x": -0.55,
             "accion": "agachado",
             "emocion": "neutral",
             "mirar": 1,
@@ -1868,22 +1855,22 @@
           },
           {
             "quien": "teko",
-            "x": -0.3,
+            "x": -0.1,
             "accion": "triste",
-            "emocion": "feliz",
+            "emocion": "triste",
             "mirar": 1,
             "habla": false
           },
           {
             "quien": "tarun",
-            "x": 0.35,
+            "x": 0.4,
             "accion": "quieto",
-            "emocion": "feliz",
+            "emocion": "sorpresa",
             "mirar": -1,
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "general"
       },
       {
         "dia": 22,
@@ -1942,7 +1929,8 @@
               "x": 1.4,
               "escala": 0.8
             }
-          ]
+          ],
+          "sol": false
         },
         "personajes": [
           {
@@ -2457,7 +2445,8 @@
               "x": 1.4,
               "escala": 0.8
             }
-          ]
+          ],
+          "sol": false
         },
         "personajes": [],
         "camara": "paneo",
@@ -2546,7 +2535,8 @@
               "x": 1.4,
               "escala": 0.8
             }
-          ]
+          ],
+          "sol": false
         },
         "personajes": [
           {
