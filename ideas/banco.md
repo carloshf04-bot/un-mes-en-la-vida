@@ -100,8 +100,8 @@ Por qué funciona cada idea: tiene **un mes concreto con un acontecimiento dram�
 
 | Estado | Slug | Día | Un mes en la vida de… | Mes | Gancho |
 |---|---|---|---|---|---|
-| [~] | `flannan-1900` | Lunes · misterios | el farero de relevo de las islas Flannan | Escocia, diciembre de 1900 | 26 de diciembre: el relevo encuentra el faro vacío; los tres fareros han desaparecido. **Efeméride.** |
-| [~] | `pearl-harbor-1941` | Martes · guerra | un marinero en Pearl Harbor | Hawái, noviembre–diciembre de 1941 | 7 de diciembre: el ataque que mete a EE. UU. en la guerra. **Efeméride.** |
+| [~] | `pearl-harbor-1941` | Lunes 7 de diciembre · guerra (aniversario) | un marinero en Pearl Harbor | Hawái, noviembre–diciembre de 1941 | 7 de diciembre: el ataque que mete a EE. UU. en la guerra. **Efeméride.** |
+| [~] | `flannan-1900` | Martes · misterios (cambiado por Pearl Harbor) | el farero de relevo de las islas Flannan | Escocia, diciembre de 1900 | 26 de diciembre: el relevo encuentra el faro vacío; los tres fareros han desaparecido. **Efeméride.** |
 | [~] | `newgrange-3200ac` | Miércoles · mitos | un constructor de Newgrange | Irlanda, solsticio de invierno, c. 3200 a.C. | Cada 21 de diciembre un rayo de sol entra 19 metros hasta el fondo de la tumba. **Efeméride.** |
 | [~] | `galileo-1610` | Jueves · personajes | Galileo Galilei | Padua, diciembre de 1609 – enero de 1610 | 7 de enero: apunta su telescopio a Júpiter y ve tres «estrellitas» que se mueven. |
 | [~] | `mesina-1908` | Viernes · catástrofes | un niño de Mesina | Sicilia, diciembre de 1908 | 28 de diciembre: el terremoto y el maremoto más mortíferos de la Europa moderna. **Efeméride.** |
