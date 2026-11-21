@@ -239,7 +239,8 @@
        "tipo": "valla",
        "x": -0.5
       }
-     ]
+     ],
+     "luna": false
     },
     "personajes": [
      {
@@ -1285,7 +1286,8 @@
        "tipo": "carro",
        "x": 0.75
       }
-     ]
+     ],
+     "luna": false
     },
     "personajes": [
      {
@@ -1473,7 +1475,8 @@
        "tipo": "valla",
        "x": -0.5
       }
-     ]
+     ],
+     "luna": false
     },
     "personajes": [
      {

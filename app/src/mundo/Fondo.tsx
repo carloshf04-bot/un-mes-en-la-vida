@@ -212,21 +212,26 @@ const Ocular: React.FC<{ fondo: Fondo; f: number; dur: number; id: string }> = (
     });
   let campo: React.ReactNode = null;
   if (vista === "jupiter") {
-    const D = 48; // diámetro de Júpiter en pantalla: la unidad de las posiciones de las lunas
+    const D = 92; // diámetro de Júpiter en pantalla: la unidad de las posiciones de las lunas
+    const rot = { fontFamily: "Georgia, serif", fontSize: 46, letterSpacing: 6, fill: "#d9c9a3", opacity: 0.75 } as const;
     campo = (
       <g>
         {estrellas(14, "oj", 0.5)}
-        <circle r={D * 1.4} fill="#fff6dc" opacity={0.08} />
-        <circle r={D / 2} fill="#f6f1e2" />
+        <circle r={D * 1.5} fill="#fff6dc" opacity={0.08} />
+        <circle r={D / 2} fill="#efe2c6" />
+        <rect x={-D / 2} y={-D * 0.16} width={D} height={D * 0.09} fill="#c9a77a" opacity={0.55} />
+        <rect x={-D / 2} y={D * 0.1} width={D} height={D * 0.07} fill="#c9a77a" opacity={0.45} />
         {(fondo.lunas ?? []).map((x, i) => {
           const t = (fondo.tamanos ?? [])[i] ?? 1;
           return (
             <g key={i}>
-              <circle cx={x * D} cy={0} r={11 * t} fill="#fff" opacity={0.18} />
-              <circle cx={x * D} cy={0} r={5 * t} fill="#fff" />
+              <circle cx={x * D} cy={0} r={26 * t} fill="#fff" opacity={0.16} />
+              <circle cx={x * D} cy={0} r={12 * t} fill="#fff" />
             </g>
           );
         })}
+        <text x={-250} y={200} textAnchor="middle" {...rot}>ESTE</text>
+        <text x={250} y={200} textAnchor="middle" {...rot}>OESTE</text>
       </g>
     );
   } else if (vista === "luna") {
