@@ -20,7 +20,7 @@ export type Look = {
 
 export type Accion =
   | "quieto" | "hablar" | "caminar" | "correr" | "trabajar" | "saludar" | "sentado"
-  | "pensar" | "celebrar" | "triste" | "senalar" | "cargar" | "dormir" | "escribir" | "asustado" | "tambalear" | "beber" | "agachado" | "reclinado" | "dar-mano" | "arrastrar" | "observar";
+  | "pensar" | "celebrar" | "triste" | "senalar" | "cargar" | "dormir" | "escribir" | "asustado" | "tambalear" | "beber" | "agachado" | "reclinado" | "dar-mano" | "abrazar" | "arrastrar" | "observar";
 export type Emocion = "neutral" | "feliz" | "triste" | "miedo" | "enfado" | "sorpresa" | "cansado";
 
 export type EnEscena = {

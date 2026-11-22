@@ -126,6 +126,11 @@ export const calcularPose = (accion: Accion, f: number, semilla: number, fase?: 
       const v = Math.sin(t * 9) * 7;
       return { ...p, hD: -48 + v, cD: -22, hI: 4, cI: 6, cabeza: 2 };
     }
+    case "abrazar": {
+      // abrazo: los dos brazos por delante, a la altura del pecho, con un leve balanceo
+      const v = Math.sin(t * 2.5) * 3;
+      return { ...p, hD: -78 + v, cD: -75, hI: -62 + v, cI: -80, incl: 6, cabeza: 6 };
+    }
     case "arrastrar": {
       // tirando de una cuerda con las dos manos: inclinado hacia delante, un pie adelantado y tirones rítmicos.
       // La cuerda pasa por las manos a unos 330 px del suelo (la del prop losa-rodillos)
