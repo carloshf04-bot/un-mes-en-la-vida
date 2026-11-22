@@ -2206,46 +2206,45 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: num
       );
     }
     case "ola": {
-      // ola enorme que revienta hacia arriba por la grieta: columna de agua blanca, espuma y rociones.
+      // ola enorme que sube por la grieta: lengua de agua verde con cresta de espuma blanca y rociones.
       // Con "embarcadero", ponla en x ≈ 0.3 (sobre la grieta). Rompe cada ~5 s.
       const T = 150;
       const t = (f % T) / T;
       const sube = t < 0.4 ? Math.sin((t / 0.4) * (Math.PI / 2)) : 1 - 0.75 * ((t - 0.4) / 0.6);
       const h = 140 + sube * 440;
-      const agua = noche ? "#3f5a68" : "#7f9eac";
+      const agua = noche ? "#1f4a4c" : "#2f7570";
+      const agua2 = noche ? "#2d6266" : "#4f9d92";
       const espuma = "#ffffff";
-      const espuma2 = noche ? "#b7cad3" : "#cfdde3";
+      const espuma2 = noche ? "#b7cad3" : "#d8ece8";
+      const cur = Math.sin(f / 14) * 12;
       return (
         <g>
-          {/* agua que entra por la grieta */}
-          <path d={`M-230 0 Q-170 ${-h * 0.4} -70 ${-h * 0.95} L70 ${-h * 0.95} Q170 ${-h * 0.4} 240 0Z`} fill={agua} opacity={0.9} />
-          {Array.from({ length: 9 }).map((_, i) => {
-            const x = -180 + i * 45;
-            return <path key={`v${i}`} d={`M${x} -10 Q${x * 0.6} ${-h * 0.5} ${x * 0.3} ${-h * 0.9}`} stroke={espuma} strokeWidth={5 + (i % 3) * 3} fill="none" opacity={0.55} strokeLinecap="round" />;
+          {/* lengua de agua verde que sube por la grieta y se curva en la cresta */}
+          <path d={`M-240 0 Q-200 ${-h * 0.45} -120 ${-h * 0.85} Q-40 ${-h * 1.08 + cur} 60 ${-h * 1.02} Q150 ${-h * 0.95} 175 ${-h * 0.8} Q120 ${-h * 0.82} 95 ${-h * 0.7} Q170 ${-h * 0.4} 250 0Z`} fill={agua} />
+          <path d={`M-170 0 Q-140 ${-h * 0.4} -80 ${-h * 0.78} Q-20 ${-h * 0.95 + cur} 50 ${-h * 0.9} Q10 ${-h * 0.6} 40 0Z`} fill={agua2} opacity={0.75} />
+          {Array.from({ length: 7 }).map((_, i) => {
+            const x = -170 + i * 55;
+            return <path key={`v${i}`} d={`M${x} -10 Q${x * 0.7} ${-h * 0.45} ${x * 0.4} ${-h * 0.82}`} stroke={espuma2} strokeWidth={4 + (i % 3) * 2} fill="none" opacity={0.35} strokeLinecap="round" />;
           })}
-          {/* columna de espuma */}
-          {Array.from({ length: 34 }).map((_, i) => {
-            const v = i / 33;
-            const lado = (random(`ola-l${i}`) - 0.5) * 2;
-            const ancho = 70 + v * 170 * (0.6 + sube * 0.6);
-            const cx = lado * ancho + Math.sin(f / 9 + i) * 6;
-            const cy = -h * (0.55 + v * 0.45) - random(`ola-y2${i}`) * 30;
-            const r = (22 + random(`ola-r${i}`) * 30) * (0.7 + v * 0.7);
+          {/* cresta de espuma blanca */}
+          {Array.from({ length: 16 }).map((_, i) => {
+            const v = i / 15;
+            const cx = -130 + v * 300 + Math.sin(f / 7 + i) * 5;
+            const cy = -h * (0.86 + Math.sin(v * Math.PI) * 0.2) + cur * Math.sin(v * Math.PI) - random(`ola-y2${i}`) * 18;
+            const r = 16 + random(`ola-r${i}`) * 20;
             return (
               <g key={i}>
                 <circle cx={cx} cy={cy} r={r} fill={espuma2} />
-                <circle cx={cx - r * 0.18} cy={cy - r * 0.2} r={r * 0.78} fill={espuma} />
+                <circle cx={cx - r * 0.18} cy={cy - r * 0.2} r={r * 0.75} fill={espuma} />
               </g>
             );
           })}
-          {/* cortinas de agua que caen hacia los lados */}
-          {[-1, 1].map((l) => [0, 1, 2].map((k) => (
-            <path key={`c${l}${k}`} d={`M${l * 40} ${-h} Q${l * (180 + k * 60) * (0.5 + sube)} ${-h - 90 * sube} ${l * (220 + k * 70) * (0.5 + sube)} ${-h * 0.35}`} stroke={espuma} strokeWidth={10 - k * 2} fill="none" strokeLinecap="round" opacity={0.7 * sube} />
-          )))}
+          {/* espuma al pie de la grieta */}
+          <path d={`M-260 0 Q-180 -30 -100 -8 Q0 -34 100 -8 Q180 -30 270 0Z`} fill={espuma} opacity={0.85} />
           {/* rociones que salen disparados */}
           {Array.from({ length: 18 }).map((_, i) => {
             const a = -Math.PI / 2 + (random(`ola-a${i}`) - 0.5) * 2.2;
-            const d = (120 + random(`ola-d${i}`) * 200) * sube;
+            const d = (40 + random(`ola-d${i}`) * 90) * sube;
             const x0 = Math.cos(a) * 60;
             const y0 = -h + Math.sin(a) * 40;
             return <line key={`s${i}`} x1={x0} y1={y0} x2={x0 + Math.cos(a) * d} y2={y0 + Math.sin(a) * d} stroke={espuma} strokeWidth={6 + random(`ola-w${i}`) * 6} strokeLinecap="round" opacity={0.75 * sube} />;

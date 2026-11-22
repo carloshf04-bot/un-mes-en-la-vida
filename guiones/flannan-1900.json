@@ -298,6 +298,24 @@
       "gafas": true,
       "altura": 1,
       "zapatos": "#1a1410"
+    },
+    "viudamac": {
+      "piel": "#f0cfb4",
+      "pelo": "#b58a52",
+      "peinado": "mono",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#3c4652",
+        "color2": "#2c333c",
+        "detalle": "#6b7a5a"
+      },
+      "sombrero": "panuelo",
+      "colorSombrero": "#6b7a5a",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#1a1614",
+      "voz": "narradora-es"
     }
   },
   "largo": {
@@ -1022,10 +1040,18 @@
         "personajes": [
           {
             "quien": "mujer",
-            "x": 0.35,
+            "x": 0.05,
             "accion": "quieto",
             "emocion": "neutral",
             "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "viudamac",
+            "x": 0.55,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
             "habla": false
           }
         ],
@@ -1624,7 +1650,7 @@
         "personajes": [
           {
             "quien": "muirhead",
-            "x": -0.4,
+            "x": -0.55,
             "accion": "triste",
             "emocion": "triste",
             "mirar": 1,
@@ -1632,14 +1658,22 @@
           },
           {
             "quien": "mujer",
-            "x": 0.4,
+            "x": 0.05,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "viudamac",
+            "x": 0.5,
             "accion": "triste",
             "emocion": "triste",
             "mirar": -1,
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "general"
       },
       {
         "dia": 22,
@@ -2017,12 +2051,21 @@
               "tipo": "roca",
               "x": 1.35
             }
-          ]
+          ],
+          "sol": false
         },
         "personajes": [
           {
             "quien": "mujer",
-            "x": 0.35,
+            "x": -0.1,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "viudamac",
+            "x": 0.45,
             "accion": "triste",
             "emocion": "triste",
             "mirar": -1,
