@@ -71,7 +71,7 @@ Por qué funciona cada idea: tiene **un mes concreto con un acontecimiento dram�
 | [ ] | `colon-1492` | Cristóbal Colón | Octubre de 1492 | La tripulación al borde del motín. |
 | [ ] | `juana-arco-1429` | Juana de Arco | Mayo de 1429 | Orleans, con 17 años. |
 | [x] | `shackleton-1915` | Ernest Shackleton | Noviembre de 1915 | El hielo hunde el Endurance (21 de noviembre). **Efeméride de noviembre.** |
-| [~] | `galileo-1610` | Galileo Galilei | Enero de 1610 | Descubre las lunas de Júpiter. |
+| [x] | `galileo-1610` | Galileo Galilei | Enero de 1610 | Descubre las lunas de Júpiter. |
 | [ ] | `da-vinci-1497` | Leonardo da Vinci | 1497 | Pintando La Última Cena. |
 | [ ] | `lovelace-1843` | Ada Lovelace | 1843 | El primer programa de ordenador. |
 | [ ] | `armstrong-1969` | Neil Armstrong | Julio de 1969 | Aterriza con 25 segundos de combustible de margen. |
@@ -103,5 +103,5 @@ Por qué funciona cada idea: tiene **un mes concreto con un acontecimiento dram�
 | [x] | `pearl-harbor-1941` | Lunes 7 de diciembre · guerra (aniversario) | un marinero en Pearl Harbor | Hawái, noviembre–diciembre de 1941 | 7 de diciembre: el ataque que mete a EE. UU. en la guerra. **Efeméride.** |
 | [~] | `flannan-1900` | Martes · misterios (cambiado por Pearl Harbor) | el farero de relevo de las islas Flannan | Escocia, diciembre de 1900 | 26 de diciembre: el relevo encuentra el faro vacío; los tres fareros han desaparecido. **Efeméride.** |
 | [x] | `newgrange-3200ac` | Miércoles · mitos | un constructor de Newgrange | Irlanda, solsticio de invierno, c. 3200 a.C. | Cada 21 de diciembre un rayo de sol entra 19 metros hasta el fondo de la tumba. **Efeméride.** |
-| [~] | `galileo-1610` | Jueves · personajes | Galileo Galilei | Padua, diciembre de 1609 – enero de 1610 | 7 de enero: apunta su telescopio a Júpiter y ve tres «estrellitas» que se mueven. |
+| [x] | `galileo-1610` | Jueves · personajes | Galileo Galilei | Padua, diciembre de 1609 – enero de 1610 | 7 de enero: apunta su telescopio a Júpiter y ve tres «estrellitas» que se mueven. |
 | [~] | `mesina-1908` | Viernes · catástrofes | un niño de Mesina | Sicilia, diciembre de 1908 | 28 de diciembre: el terremoto y el maremoto más mortíferos de la Europa moderna. **Efeméride.** |
