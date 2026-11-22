@@ -80,7 +80,7 @@ La voz (Chatterbox, narrador de España, con `"velocidad": 1.15`) lee unas **120
   "ventana": true,                                          // sólo interior
   "props": ["chimenea", { "tipo": "faro", "x": -1.35, "escala": 1.2, "detras": true }],
   "luna": false }                                           // sin la luna que el motor pinta de noche (noches sin luna)
-- `"sol": false` en el fondo: quita el disco del sol (amanecer/atardecer a espaldas de la cámara; el resplandor del cielo se queda).
+- `"sol": false` en el fondo: quita el disco del sol (amanecer/atardecer a espaldas de la cámara; el resplandor del cielo se queda). Con lluvia o tormenta el sol (y la luna) se quitan solos.
 ```
 
 - **Vista por el anteojo** (lugar `ocular`): fondo negro y un círculo de visión con el borde difuminado y un leve temblor. Sin `props` ni `personajes` (`"personajes": []`). En los shorts sale el cuadro entero, sin recortar. Campo `vista`:

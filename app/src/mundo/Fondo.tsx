@@ -940,7 +940,7 @@ export const DibujarFondo: React.FC<{ fondo: Fondo; f: number; dur: number; id: 
       ) : (
         <g>
           <g transform={paralaje(cam, 0.85)}>
-            <Cielo hora={hora} f={f} dur={dur} espacio={fondo.lugar === "espacio" || fondo.lugar === "luna"} marte={fondo.lugar === "marte"} id={id} nublado={fondo.clima === "nublado"} sinLuna={fondo.luna === false || fondo.clima === "lluvia" || fondo.clima === "tormenta"} sinSol={fondo.sol === false} />
+            <Cielo hora={hora} f={f} dur={dur} espacio={fondo.lugar === "espacio" || fondo.lugar === "luna"} marte={fondo.lugar === "marte"} id={id} nublado={fondo.clima === "nublado"} sinLuna={fondo.luna === false || fondo.clima === "lluvia" || fondo.clima === "tormenta"} sinSol={fondo.sol === false || fondo.clima === "lluvia" || fondo.clima === "tormenta"} />
             <Vida fondo={fondo} f={f} id={id} />
           </g>
           {/* decorados LEJANOS (volcanes, pirámides): detrás del paisaje, apoyados en el horizonte y con bruma */}
