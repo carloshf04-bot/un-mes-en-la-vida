@@ -44,8 +44,8 @@ const lineasShorts = shorts.map((s) => {
     if (!usados.has(j) && solape > mejor) { mejor = solape; k = j; }
   });
   usados.add(k);
-  const info = p.shorts?.[k] ?? { titulo: `${guion.titulo} (parte ${s.n})`, descripcion: "#shorts" };
-  return `### Parte ${s.n}/${shorts.length} · ${mmss(s.desde)}–${mmss(s.hasta)} · ${s.duracion.toFixed(0)} s\n\n**${info.titulo}**\n\n${info.descripcion}\n`;
+  const info = s.titulo ? s : p.shorts?.[k] ?? { titulo: `${guion.titulo} (${s.n})`, descripcion: "#shorts" };
+  return `### Short ${s.n}/${shorts.length} · ${s.rotulo ? `«${s.rotulo}» · ` : ""}escenas ${s.escenas[0]}–${s.escenas[1]} · ${mmss(s.desde)}–${mmss(s.hasta)} · ${s.duracion.toFixed(0)} s\n\n**${info.titulo}**\n\n${info.descripcion}\n`;
 });
 
 const md = `# ${p.tituloLargo}
@@ -60,7 +60,7 @@ ${caps.join("\n")}
 
 ${p.etiquetas.join(", ")}
 
-## Shorts (el largo troceado en orden, vertical)
+## Shorts (los mejores ganchos del largo, vertical)
 
 ${lineasShorts.join("\n")}`;
 writeFileSync(join(salida, "publicacion.md"), md);

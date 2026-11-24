@@ -105,3 +105,13 @@ Por qué funciona cada idea: tiene **un mes concreto con un acontecimiento dram�
 | [x] | `newgrange-3200ac` | Miércoles · mitos | un constructor de Newgrange | Irlanda, solsticio de invierno, c. 3200 a.C. | Cada 21 de diciembre un rayo de sol entra 19 metros hasta el fondo de la tumba. **Efeméride.** |
 | [x] | `galileo-1610` | Jueves · personajes | Galileo Galilei | Padua, diciembre de 1609 – enero de 1610 | 7 de enero: apunta su telescopio a Júpiter y ve tres «estrellitas» que se mueven. |
 | [x] | `mesina-1908` | Viernes · catástrofes | un niño de Mesina | Sicilia, diciembre de 1908 | 28 de diciembre: el terremoto y el maremoto más mortíferos de la Europa moderna. **Efeméride.** |
+
+## Semana del 14 de diciembre de 2026 (calendario semanal)
+
+| Estado | Slug | Día | Un mes en la vida de… | Mes | Gancho |
+|---|---|---|---|---|---|
+| [~] | `glenn-miller-1944` | Lunes 14 · misterios | un mecánico de la RAF en Twinwood Farm | Inglaterra, diciembre de 1944 | 15 de diciembre: la avioneta de Glenn Miller despega en la niebla hacia París y nunca llega. **Efeméride.** |
+| [~] | `bastogne-1944` | Martes 15 · guerra | un soldado de la 101.ª en Bastogne | Bélgica, diciembre de 1944 | 16 de diciembre empieza la batalla de las Ardenas; el 22 el general responde «Nuts!». **Efeméride.** |
+| [~] | `jol-950` | Miércoles 16 · mitos | una niña en el Jól nórdico | Noruega, solsticio de invierno, c. 950 | La noche más larga: la Cacería Salvaje, los sacrificios y el origen de muchas costumbres de Navidad. **Efeméride.** |
+| [~] | `wright-1903` | Jueves 17 · personajes | los hermanos Wright | Kitty Hawk, noviembre–diciembre de 1903 | 17 de diciembre: el primer vuelo dura 12 segundos. **Efeméride.** |
+| [~] | `niebla-londres-1952` | Viernes 18 · catástrofes | un conductor de autobús de Londres | Londres, diciembre de 1952 | 5–9 de diciembre: la Gran Niebla mata a miles de personas sin que nadie lo vea. **Efeméride.** |

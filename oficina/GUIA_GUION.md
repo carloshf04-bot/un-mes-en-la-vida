@@ -5,9 +5,9 @@ Cada episodio es **un archivo JSON** en `guiones/<slug>.json`. De ese archivo sa
 | Pieza | Formato | Duración | Escenas | Palabras |
 |---|---|---|---|---|
 | `largo` | Horizontal 1920×1080 (YouTube) | **10–13 min** | 50–65 | 1.350–1.550 |
-| shorts | Vertical 1080×1920, **troceados del largo** (no tienen guion propio) | 45–60 s cada uno | — | — |
+| shorts | Vertical 1080×1920, **3 o 4 ganchos sacados del largo** (`"ganchos"`) | 45–60 s cada uno | — | — |
 
-**Shorts (desde noviembre de 2026):** ya no se escribe `short`. El largo se organiza en **bloques consecutivos de 95–115 palabras** (≈45–60 s) que funcionen solos: cada bloque empieza con un gancho y termina con una intriga o un pequeño cierre. La primera escena de cada bloque lleva `"corte": true` (también la escena 0). `scripts/shorts.mjs` corta el largo terminado por esos puntos (si alguno queda fuera de 45–60 s, reparte los cortes en otros finales de escena). En `publicacion.shorts` va un `{ "titulo", "descripcion" }` por bloque, en orden.
+**Shorts (desde el 24 de noviembre de 2026): 3 o 4 por episodio, solo los mejores ganchos.** No se escribe `short` ni se trocea el largo entero. En el guion va `"ganchos"`: una lista de 3 o 4 tramos del largo, cada uno `{ "desde": 0, "hasta": 4, "rotulo": "NADIE EN EL FARO", "titulo": "…", "descripcion": "… #shorts" }` (números de escena, ambas incluidas) de **45–60 s (95–120 palabras)** que se entiendan solos: el primero suele ser la apertura del largo; los otros, el clímax, la revelación o el dato más brutal. Cada tramo empieza con una frase que engancha sin contexto previo y acaba en un cierre o una intriga. El `rotulo` (máximo 4 o 5 palabras, en mayúsculas) sale arriba todo el short; al final aparece «Historia completa en el canal». `scripts/shorts.mjs` estira o encoge el tramo por el final si no cabe en 45–60 s. Las escenas de inicio de bloque pueden seguir llevando `"corte": true` (si no hay `ganchos`, el script elige solo las 3 ventanas con más `drama`).
 
 La voz (Chatterbox, narrador de España, con `"velocidad": 1.15`) lee unas **120 palabras por minuto**: el largo ideal tiene **1.350–1.550 palabras** (unos 12 min) y el Short **100–125**. Para comprobarlo, ejecuta `node scripts/producir.mjs <slug> --sin-render` y mira la línea "duración total".
 
@@ -26,7 +26,7 @@ La voz (Chatterbox, narrador de España, con `"velocidad": 1.15`) lee unas **120
 6. **Rigor:** los hechos históricos tienen que estar en la ficha de investigación (`investigacion/<slug>.md`). El protagonista puede ser inventado, pero hay que decirlo en el cierre y en la descripción. Si un dato no está verificado, se suaviza ("dicen que…") o se quita.
 7. **Futuro:** se inventa con coherencia interna. Conviene al menos un dato "real" de anclaje (por ejemplo, la tecnología actual de la que parte).
 8. **Personas reales:** solo hechos documentados y nada denigrante. Si se dramatiza un diálogo, se dice "imagino" o se deja como pensamiento.
-9. **Que nunca afloje.** Cada escena empuja a la siguiente (pregunta abierta, cuenta atrás, revelación a medias). Los shorts salen del propio largo, así que cada bloque de 45–60 s necesita su gancho inicial.
+9. **Que nunca afloje.** Cada escena empuja a la siguiente (pregunta abierta, cuenta atrás, revelación a medias). Los shorts salen del propio largo: los tramos elegidos en `ganchos` necesitan una primera frase que funcione sin contexto.
 10. **Grafías:** cada palabra escrita «como suena» va en `"grafias": { "Guín": "Gein", "Uiscónsin": "Wisconsin" }` (palabra a palabra) para que los subtítulos del largo y de los shorts la muestren bien escrita.
 11. **La voz sesea.** Si hay sinónimo, evita palabras con z, ce, ci. Los nombres extranjeros o difíciles se escriben en `texto` como suenan («Guín», «Uiscónsin», «Meshica»); en tarjetas y `publicacion`, con su grafía real.
 
@@ -47,8 +47,8 @@ La voz (Chatterbox, narrador de España, con `"velocidad": 1.15`) lee unas **120
   "musica": "calma | nostalgia | tension | epico | futuro | misterio",
   "paleta": { "acento": "#f2b544", "texto": "#f5efe0", "fondo": "#0c1424", "papel": "#f3e9d2" },
   "reparto": { "<id>": Look, ... },
-  "short": { "escenas": [Escena, ...] },
   "largo": { "escenas": [Escena, ...] },
+  "ganchos": [ { "desde": 0, "hasta": 4, "rotulo": "", "titulo": "", "descripcion": "" }, ... ],  // 3 o 4 shorts
   "publicacion": { "tituloLargo": "", "tituloShort": "", "descripcion": "", "etiquetas": [] }
 }
 ```

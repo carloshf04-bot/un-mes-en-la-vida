@@ -1,18 +1,20 @@
-// Shorts troceados del largo (reanudable).
+// Shorts de gancho sacados del largo (reanudable). Desde el 24/11/2026: 3 o 4 por episodio, no el largo entero.
 // Uso: node scripts/shorts.mjs <slug> [--rehacer]
 //   Lee   ../salida/<slug>/largo.mp4 (ya terminado y revisado), su manifiesto y el guion.
 //   Crea  ../salida/<slug>/shorts/short-01.mp4, short-02.mp4… (1080×1920) y cortes.json
 //
 // Reglas:
-//   - Trozos consecutivos que cubren el largo entero, de 45 a 60 s (nunca más de 60).
+//   - 3 o 4 trozos con los mejores ganchos, de 45 a 60 s (nunca más de 60). Si el guion trae
+//     "ganchos": [{ "desde", "hasta", "rotulo", "titulo", "descripcion" }] (escenas, ambas incluidas),
+//     se usan esos; si no, se eligen solos: ventanas con más "drama" que empiecen en "corte": true.
 //   - Solo se corta en el final de una escena (después del silencio entre frases): nunca a
 //     mitad de palabra. Se prefieren las escenas marcadas en el guion con "corte": true.
 //   - Encuadre vertical por escena: recorte 9:16 centrado en el personaje que habla. Si el
 //     plano no cabe (texto en pantalla, capítulo, título, dos personajes separados), se pone
 //     el cuadro horizontal entero a lo ancho sobre el mismo fondo desenfocado.
 //   - Subtítulos nuevos para vertical (grandes, tercio inferior, dentro de los márgenes
-//     seguros: ~250 px abajo y ~200 px arriba), rótulo «Parte N/Total» y, al final de cada
-//     short menos el último, «Sigue en la parte N+1».
+//     seguros: ~250 px abajo y ~200 px arriba), el rótulo del gancho arriba y, al final,
+//     «Historia completa en el canal».
 //   - El audio es el del largo (-14 LUFS) con entrada y salida suaves de 0,2 s.
 //   - Los shorts ya hechos (con el mismo plan de cortes) no se repiten.
 import { execFileSync } from "node:child_process";
@@ -48,31 +50,41 @@ const ini = aud.map((a) => { const i = acc; acc += Math.ceil((a.duracion + 0.5) 
 const bordes = [0, ...ini.slice(1).map((t, k) => (ini[k] + aud[k].duracion + t) / 2), DUR];
 const escIni = [...ini, DUR]; // dónde empieza de verdad cada plano (para el encuadre)
 
-// ---------- plan de cortes: programación dinámica sobre los finales de escena ----------
-const marcados = new Set(guion.largo.escenas.map((e, i) => (e.corte ? i : -1)).filter((i) => i > 0));
-const planificar = (min, max) => {
-  const n = esc.length;
-  const mejor = new Array(n + 1).fill(Infinity);
-  const prev = new Array(n + 1).fill(-1);
-  mejor[0] = 0;
-  for (let j = 1; j <= n; j++)
-    for (let i = 0; i < j; i++) {
-      if (mejor[i] === Infinity) continue;
-      const d = bordes[j] - bordes[i];
-      if (d < min || d > max) continue;
-      const c = mejor[i] + (d - IDEAL) ** 2 + (j < n && !marcados.has(j) ? 30 : 0);
-      if (c < mejor[j]) { mejor[j] = c; prev[j] = i; }
-    }
-  if (mejor[n] === Infinity) return null;
-  const cortes = [];
-  for (let j = n; j > 0; j = prev[j]) cortes.unshift([prev[j], j]);
-  return cortes;
+// ---------- plan: los mejores ganchos ----------
+const marcados = new Set(guion.largo.escenas.map((e, i) => (e.corte ? i : -1)).filter((i) => i >= 0));
+const n = esc.length;
+const durDe = (a, b) => bordes[b] - bordes[a]; // escenas a..b-1
+const ajustar = (a, b) => { // estira o encoge por el final hasta caber en 45–60 s
+  while (b < n && durDe(a, b) < MIN) b++;
+  while (b - a > 1 && durDe(a, b) > MAX) b--;
+  return b;
 };
-const plan = planificar(MIN, MAX) ?? planificar(38, MAX) ?? planificar(30, MAX);
-if (!plan) throw new Error("No hay forma de trocear en piezas de ≤60 s: alguna escena es demasiado larga");
+const drama = (i) => guion.largo.escenas[i].drama ?? 0.5;
+let plan, metas;
+if (Array.isArray(guion.ganchos) && guion.ganchos.length) {
+  plan = guion.ganchos.slice(0, 4).map((g) => { const a = g.desde, b = ajustar(a, g.hasta + 1); return [a, b]; });
+  metas = guion.ganchos.slice(0, 4);
+} else {
+  const ventanas = [];
+  for (let a = 0; a < n - 2; a++) for (let b = a + 1; b <= n - 2; b++) {
+    const d = durDe(a, b);
+    if (d > MAX) break;
+    if (d < MIN) continue;
+    let m = 0; for (let i = a; i < b; i++) m += drama(i);
+    ventanas.push({ a, b, nota: m / (b - a) + (marcados.has(a) ? 0.15 : 0) + (a === 0 ? 0.2 : 0) + 0.25 * drama(a) });
+  }
+  ventanas.sort((x, y) => y.nota - x.nota);
+  plan = [];
+  for (const v of ventanas) { if (plan.length >= 3) break; if (plan.every(([a, b]) => v.b <= a || v.a >= b)) plan.push([v.a, v.b]); }
+  plan.sort((x, y) => x[0] - y[0]);
+  metas = plan.map(() => ({}));
+}
+for (const [a, b] of plan) if (durDe(a, b) < MIN - 0.5 || durDe(a, b) > MAX + 0.01) console.warn(`⚠️  gancho ${a}–${b - 1} dura ${durDe(a, b).toFixed(1)} s`);
 const total = plan.length;
-console.log(`✂️  ${total} shorts: ${plan.map(([a, b]) => (bordes[b] - bordes[a]).toFixed(1) + "s").join(" · ")}`);
+if (process.argv.includes("--plan")) { console.log(JSON.stringify(plan)); }
+console.log(`✂️  ${total} shorts: ${plan.map(([a, b]) => `esc. ${a}–${b - 1} (${durDe(a, b).toFixed(1)} s)`).join(" · ")}`);
 
+if (process.argv.includes("--plan")) process.exit(0);
 // ---------- encuadre por escena ----------
 const CX = 960;
 const xMundo = (x = 0) => CX + x * 600;
@@ -128,9 +140,9 @@ const assDe = (n, [a, b]) => {
     `Style: Sigue,Inter,62,&H00FFFFFF,&H00FFFFFF,${acento},&HC0000000,1,0,0,0,100,100,1,0,3,18,0,5,60,60,0,1`,
     "", "[Events]", "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text",
     `Dialogue: 1,${tiempoASS(0)},${tiempoASS(d)},Cab,,0,0,0,,${escapar(tituloCorto)}`,
-    `Dialogue: 1,${tiempoASS(0)},${tiempoASS(d)},Parte,,0,0,0,,PARTE ${n}/${total}`,
+    `Dialogue: 1,${tiempoASS(0)},${tiempoASS(d)},Parte,,0,0,0,,${escapar((metas[n - 1].rotulo ?? "").toUpperCase())}`,
   ];
-  if (n < total) L.push(`Dialogue: 2,${tiempoASS(Math.max(0, d - 2.6))},${tiempoASS(d)},Sigue,,0,0,0,,{\\fad(200,0)\\pos(540,1180)}SIGUE EN LA PARTE ${n + 1} »`);
+  L.push(`Dialogue: 2,${tiempoASS(Math.max(0, d - 2.6))},${tiempoASS(d)},Sigue,,0,0,0,,{\\fad(200,0)\\pos(540,1180)}HISTORIA COMPLETA EN EL CANAL »`);
   for (let i = a; i < b; i++) {
     const palabras = esc[i].texto.split(/\s+/).filter(Boolean);
     const leidas = palabras.map(real);
@@ -161,7 +173,7 @@ const assDe = (n, [a, b]) => {
 };
 
 // ---------- render de cada short ----------
-const firma = JSON.stringify({ plan, encuadre, v: 5 });
+const firma = JSON.stringify({ plan, metas, encuadre, v: 6 });
 const cortesF = join(dir, "cortes.json");
 const previo = existsSync(cortesF) ? readFileSync(cortesF, "utf8") : "";
 const mismoPlan = !rehacer && previo && JSON.parse(previo).firma === firma;
@@ -193,7 +205,7 @@ plan.forEach(([a, b], k) => {
   const n = k + 1;
   const dest = join(dir, `short-${String(n).padStart(2, "0")}.mp4`);
   const t0 = bordes[a], d = bordes[b] - t0;
-  hechos.push({ n, desde: +t0.toFixed(3), hasta: +bordes[b].toFixed(3), duracion: +d.toFixed(3), escenas: [a, b - 1] });
+  hechos.push({ n, desde: +t0.toFixed(3), hasta: +bordes[b].toFixed(3), duracion: +d.toFixed(3), escenas: [a, b - 1], ...metas[k] });
   if (existsSync(dest)) { console.log(`   ya existe short ${n}`); return; }
   const ass = join(dir, `short-${String(n).padStart(2, "0")}.ass`);
   writeFileSync(ass, assDe(n, [a, b]));
