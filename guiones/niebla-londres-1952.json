@@ -27,7 +27,8 @@
     "Sádlers": "Sadler's",
     "Uéls": "Wells",
     "Ian": "Iain",
-    "Maclaud": "Macleod"
+    "Maclaud": "Macleod",
+    "beicon": "bacon"
   },
   "reparto": {
     "jarri": {
@@ -172,7 +173,7 @@
     "escenas": [
       {
         "corte": true,
-        "texto": "Durante cinco días de diciembre de mil novecientos cincuenta y dos, en Londres no se veía ni la propia mano. Yo conducía un autobús rojo por dentro de aquella niebla. Y nadie sabía aún que estaba matando.",
+        "texto": "Durante cinco días de diciembre de mil novecientos cincuenta y dos, en Londres apenas se veía a unos pasos; dicen que había quien no se veía los pies. Yo conducía un autobús rojo dentro de aquella niebla. Y nadie sabía aún que estaba matando.",
         "drama": 0.85,
         "fondo": {
           "lugar": "calle",
@@ -252,7 +253,7 @@
       {
         "dia": 1,
         "capitulo": "La ciudad del humo",
-        "texto": "Viernes, veintiuno de noviembre, día de paga. Unas ocho libras por una semana larga, en un sobre que llevo a casa sin abrir.",
+        "texto": "Viernes, veintiuno de noviembre, día de paga. Unas ocho libras por una semana larga, en un sobre cerrado.",
         "drama": 0.55,
         "fondo": {
           "lugar": "interior",
@@ -345,15 +346,15 @@
         "personajes": [
           {
             "quien": "jarri",
-            "x": 0.4,
-            "accion": "sentado",
+            "x": 0.3,
+            "accion": "quieto",
             "emocion": "neutral",
             "mirar": -1,
             "habla": false
           },
           {
             "quien": "leni",
-            "x": -0.15,
+            "x": -1.05,
             "accion": "quieto",
             "emocion": "neutral",
             "mirar": 1,
@@ -373,21 +374,16 @@
           "props": [
             {
               "tipo": "escombros",
-              "x": -1.0,
+              "x": -1.05,
               "escala": 0.85
             },
             {
               "tipo": "farola",
-              "x": -0.35
-            },
-            {
-              "tipo": "escombros",
-              "x": 1.1,
-              "escala": 0.75
+              "x": -0.4
             },
             {
               "tipo": "autobus",
-              "x": 0.45,
+              "x": 1.15,
               "escala": 0.55
             }
           ]
@@ -406,7 +402,7 @@
       },
       {
         "dia": 2,
-        "texto": "Sábado. Mei, mi mujer, hace la compra con las cartillas. Casi todo sigue racionado: mantequilla, azúcar, carne, bacon, queso. Y el carbón.",
+        "texto": "Sábado. Mei, mi mujer, hace la compra con las cartillas. Muchas cosas siguen racionadas: mantequilla, azúcar, carne, beicon, queso. Y el carbón.",
         "drama": 0.55,
         "fondo": {
           "lugar": "interior",
@@ -463,7 +459,7 @@
           "items": [
             {
               "icono": "🧈",
-              "nombre": "Mantequilla: 2 onzas a la semana"
+              "nombre": "Mantequilla: unas 2 onzas a la semana"
             },
             {
               "icono": "🍬",
@@ -471,11 +467,11 @@
             },
             {
               "icono": "🥓",
-              "nombre": "Carne y bacon"
+              "nombre": "Carne y beicon"
             },
             {
               "icono": "🪨",
-              "nombre": "Carbón, racionado hasta 1958"
+              "nombre": "Carbón: también con cupo"
             }
           ]
         }
@@ -638,9 +634,9 @@
               "escala": 0.8
             },
             {
-              "tipo": "maquina",
-              "x": 1.2,
-              "escala": 1.0
+              "tipo": "central",
+              "x": 1.15,
+              "escala": 0.55
             }
           ]
         },
@@ -687,7 +683,7 @@
           "tipo": "dato",
           "valor": "25 nov. 1952",
           "etiqueta": "estreno de «The Mousetrap» de Agatha Christie en el Ambassadors Theatre",
-          "icono": "🎭"
+          "icono": "🎟️"
         }
       },
       {
@@ -697,7 +693,7 @@
         "fondo": {
           "lugar": "calle",
           "hora": "amanecer",
-          "clima": "nublado",
+          "clima": "niebla",
           "sol": false,
           "props": [
             {
@@ -779,7 +775,7 @@
         "insercion": {
           "tipo": "dato",
           "valor": "2 oz",
-          "etiqueta": "de mantequilla por persona y semana (unos 57 g) en 1952",
+          "etiqueta": "de mantequilla por persona y semana (unos 57 g) en el otoño de 1952",
           "icono": "🧈"
         }
       },
@@ -909,9 +905,9 @@
               "escala": 0.8
             },
             {
-              "tipo": "maquina",
-              "x": 1.2,
-              "escala": 1.0
+              "tipo": "central",
+              "x": 1.15,
+              "escala": 0.55
             }
           ]
         },
@@ -929,7 +925,7 @@
       },
       {
         "dia": 9,
-        "texto": "Londres quema carbón en las casas, en las fábricas y en las centrales eléctricas, dentro de la misma ciudad. El humo es parte del paisaje, como el río.",
+        "texto": "Londres quema carbón en las casas y en las centrales eléctricas, dentro de la misma ciudad. El humo es parte del paisaje, como el río.",
         "drama": 0.55,
         "personajes": [],
         "camara": "subir",
@@ -940,10 +936,6 @@
             {
               "icono": "🏠",
               "nombre": "Chimeneas de carbón en cada casa"
-            },
-            {
-              "icono": "🏭",
-              "nombre": "Fábricas junto al río"
             },
             {
               "icono": "⚡",
@@ -1166,7 +1158,7 @@
         "drama": 0.65,
         "fondo": {
           "lugar": "calle",
-          "hora": "dia",
+          "hora": "amanecer",
           "clima": "smog",
           "sol": false,
           "luna": false,
@@ -1243,7 +1235,7 @@
       {
         "dia": 15,
         "corte": true,
-        "texto": "Es el cinco de diciembre de mil novecientos cincuenta y dos, en Londres. Al caer la noche, desde mi autobús, ya no veo ni el bordillo. Unos pocos metros, y luego nada.",
+        "texto": "El cinco de diciembre de mil novecientos cincuenta y dos, al caer la noche, Londres desapareció. Desde mi autobús ya no veo ni el bordillo. Unos pocos metros, y luego nada.",
         "drama": 0.8,
         "fondo": {
           "lugar": "calle",
@@ -1277,7 +1269,13 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "pocos metros",
+          "etiqueta": "de visibilidad al caer la noche del 5 de diciembre (Met Office)",
+          "icono": "🌫️"
+        }
       },
       {
         "dia": 15,
@@ -1316,7 +1314,7 @@
       },
       {
         "dia": 15,
-        "texto": "Así atravesamos medio Londres: un hombre a pie guiando un autobús de dos pisos. Dentro, nadie habla. Solo se oye el motor y los pasos de Leni.",
+        "texto": "Así atravesamos medio Londres: un hombre a pie guiando un autobús de dos pisos. Dentro, nadie habla. Solo se oyen el motor y los pasos de Leni.",
         "drama": 0.85,
         "personajes": [
           {
@@ -1460,7 +1458,7 @@
               "escala": 0.9
             },
             {
-              "tipo": "🎭",
+              "tipo": "🎻",
               "x": -0.92,
               "escala": 0.45
             },
@@ -1484,17 +1482,18 @@
       },
       {
         "dia": 16,
-        "texto": "El teatro de Sádlers Uéls estaba lleno de niebla, y el público ya no veía el escenario. Esos días tampoco hubo películas ni conciertos en todo Londres.",
+        "texto": "El teatro de Sádlers Uéls estaba lleno de niebla, y desde las butacas ya no se veía el escenario. Esos días se suspendieron también muchas sesiones de cine y conciertos.",
         "drama": 0.75,
         "insercion": {
-          "tipo": "cita",
-          "frase": "La función de «La Traviata» se suspende tras el primer acto: el público ya no ve el escenario.",
-          "firma": "Sadler's Wells, Londres, 6 de diciembre de 1952"
+          "tipo": "dato",
+          "valor": "6 dic. 1952",
+          "etiqueta": "«La Traviata» se suspende en Sadler's Wells: la niebla llena el teatro y el público no ve el escenario",
+          "icono": "🎻"
         }
       },
       {
         "dia": 16,
-        "texto": "Leni lo cuenta en la cantina, medio riendo: una ópera parada por el tiempo. Nos reímos todos. Todavía nos reímos.",
+        "texto": "Leni lo cuenta en la cantina, medio riendo: una ópera parada por el tiempo, como un partido de fútbol por la lluvia. Fuera, la gente no encuentra ni la acera. Nos reímos todos. Todavía nos reímos.",
         "drama": 0.6,
         "fondo": {
           "lugar": "interior",
@@ -1548,7 +1547,7 @@
       },
       {
         "dia": 17,
-        "texto": "Domingo. Casi no salen autobuses; solo el metro funciona bien. Voy andando a ver a mi madre, a tres calles, siguiendo el bordillo con la punta del pie.",
+        "texto": "Domingo. Casi no salen autobuses; solo el metro funciona bien. Voy andando a ver a mi madre, al otro lado del barrio, siguiendo el bordillo con la punta del pie.",
         "drama": 0.75,
         "fondo": {
           "lugar": "calle",
@@ -1612,7 +1611,7 @@
           "ventana": true,
           "props": [
             {
-              "tipo": "chimenea-apagada",
+              "tipo": "chimenea",
               "x": -1.1
             },
             {
@@ -1830,7 +1829,7 @@
       {
         "dia": 21,
         "corte": true,
-        "texto": "Cuando la niebla se fue, en las floristerías de Londres no quedaban flores. Mei volvió con las manos vacías: se habían vendido todas para los entierros.",
+        "texto": "Cuando la gran niebla de Londres se fue, en diciembre de mil novecientos cincuenta y dos, en las floristerías no quedaban flores. Mei volvió con las manos vacías: todas se habían vendido para entierros.",
         "drama": 0.8,
         "fondo": {
           "lugar": "calle",
@@ -1867,7 +1866,7 @@
       },
       {
         "dia": 21,
-        "texto": "Las funerarias también se quedaron sin ataúdes. Fue así, por las cosas que faltaban, como muchos empezamos a entender.",
+        "texto": "Las funerarias también se quedaron sin ataúdes. Así, por lo que faltaba, muchos empezamos a entender.",
         "drama": 0.85,
         "fondo": {
           "lugar": "ciudad",
@@ -1903,7 +1902,7 @@
       {
         "dia": 22,
         "capitulo": "Las cuentas",
-        "texto": "Viernes, doce. Los periódicos hablan de la niebla, pero sobre todo de las vacas de la feria. De las personas, casi nada.",
+        "texto": "Viernes, doce. Los periódicos hablan sobre todo de las vacas de la feria. De las personas, casi nada.",
         "drama": 0.7,
         "fondo": {
           "lugar": "interior",
@@ -1958,7 +1957,7 @@
       },
       {
         "dia": 26,
-        "texto": "Martes, dieciséis. En el Parlamento, el ministro de Sanidad, Ian Maclaud, da por fin una cifra. Yo la leo en voz alta en la cantina.",
+        "texto": "Martes, dieciséis. En el Parlamento, el ministro de Sanidad, Ian Maclaud, da por fin una cifra. Al día siguiente la leo en voz alta en la cantina.",
         "drama": 0.75,
         "personajes": [
           {
@@ -1994,7 +1993,7 @@
       },
       {
         "dia": 26,
-        "texto": "Dos veces y media más. En la cantina nadie habla. Leni se quita la gorra y la deja sobre la mesa.",
+        "texto": "Dos veces y media las de un año antes. En la cantina nadie habla. Leni se quita la gorra y la deja sobre la mesa.",
         "drama": 0.8,
         "personajes": [
           {
@@ -2018,7 +2017,7 @@
       },
       {
         "dia": 28,
-        "texto": "Jueves. En el Parlamento vuelven a preguntar por los muertos y por los hospitales llenos. Y en la parada del señor Grin sigue sin haber nadie.",
+        "texto": "Jueves. En el Parlamento vuelven a preguntar por los muertos y por los ingresos en los hospitales. Y en la parada del señor Grin sigue sin haber nadie.",
         "drama": 0.75,
         "fondo": {
           "lugar": "calle",
@@ -2067,18 +2066,13 @@
               "escala": 0.6
             },
             {
-              "tipo": "casa",
-              "x": -0.7,
-              "escala": 0.8
-            },
-            {
               "tipo": "autobus",
-              "x": 0.0,
+              "x": -0.35,
               "escala": 0.55
             },
             {
               "tipo": "casa",
-              "x": 0.95,
+              "x": 1.0,
               "escala": 0.8
             }
           ]
@@ -2087,7 +2081,7 @@
           {
             "quien": "jarri",
             "x": 0.4,
-            "accion": "sentado",
+            "accion": "quieto",
             "emocion": "cansado",
             "mirar": -1,
             "habla": false
@@ -2257,7 +2251,7 @@
           "tipo": "dato",
           "valor": "1956",
           "etiqueta": "Clean Air Act: zonas de control de humo y ayudas para cambiar las chimeneas",
-          "icono": "🌬️"
+          "icono": "🌳"
         }
       },
       {
@@ -2369,10 +2363,10 @@
     },
     {
       "desde": 31,
-      "hasta": 34,
+      "hasta": 33,
       "rotulo": "LA ÓPERA QUE PARÓ LA NIEBLA",
       "titulo": "La niebla que suspendió La Traviata",
-      "descripcion": "6 de diciembre de 1952: la niebla entró en el teatro de Sadler's Wells y el público dejó de ver el escenario. Así era la Gran Niebla de Londres. #shorts #historia #londres"
+      "descripcion": "6 de diciembre de 1952: la niebla entró en el teatro de Sadler's Wells y el público dejó de ver el escenario. Así era la Gran Niebla de Londres. Personaje inventado; los hechos, reales. #shorts #historia #londres"
     },
     {
       "desde": 43,
@@ -2421,7 +2415,7 @@
       },
       {
         "titulo": "La niebla que suspendió La Traviata",
-        "descripcion": "6 de diciembre de 1952: la niebla entró en el teatro de Sadler's Wells y el público dejó de ver el escenario. Así era la Gran Niebla de Londres. #shorts #historia #londres"
+        "descripcion": "6 de diciembre de 1952: la niebla entró en el teatro de Sadler's Wells y el público dejó de ver el escenario. Así era la Gran Niebla de Londres. Personaje inventado; los hechos, reales. #shorts #historia #londres"
       },
       {
         "titulo": "Cuando se fue la niebla, no quedaban flores",

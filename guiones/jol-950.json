@@ -1,0 +1,2748 @@
+{
+  "slug": "jol-950",
+  "titulo": "una niña en el Jól",
+  "lugar": "Innherred, Trøndelag (Noruega)",
+  "epoca": "Diciembre del 950",
+  "categoria": "epoca",
+  "voz": "narradora-es",
+  "drama": 0.65,
+  "velocidad": 1.15,
+  "musica": "misterio",
+  "paleta": {
+    "acento": "#f2a03a",
+    "texto": "#f3ede2",
+    "fondo": "#0d1420",
+    "papel": "#e8dcc2"
+  },
+  "grafias": {
+    "Yol": "Jól",
+    "yul": "jul",
+    "Ínherred": "Innherred",
+    "Gúdrun": "Gudrun",
+    "Tórgueir": "Thorgeir",
+    "Kólbein": "Kolbein",
+    "Sígurd": "Sigurd",
+    "Ládir": "Hlaðir",
+    "Mére": "Mære",
+    "Ásbiorn": "Ásbjǫrn",
+    "Blótolf": "Blótólfr",
+    "Tor": "Thor",
+    "Éyvind": "Eyvindr",
+    "Valhala": "Valhalla",
+    "Láugardag": "Laugardagr",
+    "Fítiar": "Fitjar"
+  },
+  "reparto": {
+    "asa": {
+      "piel": "#f0cfb4",
+      "pelo": "#b08a4e",
+      "peinado": "trenzas",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#4d6a8c",
+        "color2": "#4d6a8c",
+        "detalle": "#e4dac4"
+      },
+      "sombrero": "ninguno",
+      "altura": 0.65,
+      "zapatos": "#5a4030",
+      "voz": "narradora-es"
+    },
+    "asa_capa": {
+      "piel": "#f0cfb4",
+      "pelo": "#b08a4e",
+      "peinado": "trenzas",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#4d6a8c",
+        "color2": "#4d6a8c",
+        "detalle": "#e4dac4"
+      },
+      "sombrero": "capucha",
+      "colorSombrero": "#6b5236",
+      "altura": 0.65,
+      "zapatos": "#5a4030",
+      "voz": "narradora-es"
+    },
+    "gudrun": {
+      "piel": "#ecc8aa",
+      "pelo": "#8a5a2a",
+      "peinado": "mono",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#8e3b2e",
+        "color2": "#8e3b2e",
+        "detalle": "#b08d3a"
+      },
+      "sombrero": "panuelo",
+      "colorSombrero": "#ece4d2",
+      "zapatos": "#5a4030",
+      "voz": "narradora-es"
+    },
+    "gudrun_fiesta": {
+      "piel": "#ecc8aa",
+      "pelo": "#8a5a2a",
+      "peinado": "mono",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#a33a2c",
+        "color2": "#2f4f7f",
+        "detalle": "#d4a94a"
+      },
+      "sombrero": "panuelo",
+      "colorSombrero": "#f5efe0",
+      "zapatos": "#5a4030",
+      "voz": "narradora-es"
+    },
+    "thorgeir": {
+      "piel": "#e6b896",
+      "pelo": "#6b4a2b",
+      "peinado": "largo",
+      "barba": "larga",
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#4a5a3a",
+        "color2": "#6e6a63",
+        "detalle": "#b08d3a"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#4a3828"
+    },
+    "thorgeir_fuera": {
+      "piel": "#e6b896",
+      "pelo": "#6b4a2b",
+      "peinado": "largo",
+      "barba": "larga",
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#4a5a3a",
+        "color2": "#6e6a63",
+        "detalle": "#b08d3a"
+      },
+      "sombrero": "piel",
+      "colorSombrero": "#5a4030",
+      "zapatos": "#4a3828"
+    },
+    "kolbein": {
+      "piel": "#efc6a6",
+      "pelo": "#d0b070",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#7a6a55",
+        "color2": "#5a4a3a",
+        "detalle": "#3a2a1e"
+      },
+      "sombrero": "ninguno",
+      "altura": 0.85,
+      "zapatos": "#4a3828"
+    },
+    "alfhild": {
+      "piel": "#e0b89a",
+      "pelo": "#d8d4cc",
+      "peinado": "mono",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#2b2622",
+        "color2": "#2b2622",
+        "detalle": "#8a7a5a"
+      },
+      "sombrero": "panuelo",
+      "colorSombrero": "#8a8580",
+      "altura": 0.92,
+      "zapatos": "#3a2e24",
+      "voz": "narradora-es"
+    },
+    "brigida": {
+      "piel": "#f2d2bc",
+      "pelo": "#a0482a",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#cbbd9a",
+        "color2": "#b0a282",
+        "detalle": "#7a6a50"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#6b5a44",
+      "voz": "narradora-es"
+    },
+    "hild": {
+      "piel": "#f2d4bc",
+      "pelo": "#d8b878",
+      "peinado": "coleta",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#c9a43a",
+        "color2": "#c9a43a",
+        "detalle": "#e4dac4"
+      },
+      "sombrero": "ninguno",
+      "altura": 0.48,
+      "zapatos": "#5a4030",
+      "voz": "narradora-es"
+    },
+    "hakon": {
+      "piel": "#efc8a8",
+      "pelo": "#c8a46a",
+      "peinado": "largo",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#2f4f7f",
+        "color2": "#3a3a44",
+        "detalle": "#9b2d30"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#3a2a1e"
+    },
+    "sigurd": {
+      "piel": "#dcae8c",
+      "pelo": "#9a958c",
+      "peinado": "largo",
+      "barba": "larga",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#6b5236",
+        "color2": "#3e3a34",
+        "detalle": "#c0c0c0"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#2e241c"
+    },
+    "viajero": {
+      "piel": "#d8a882",
+      "pelo": "#2a2018",
+      "peinado": "largo",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#5e4a36",
+        "color2": "#4a3a2c",
+        "detalle": "#d8cdb0"
+      },
+      "sombrero": "capucha",
+      "colorSombrero": "#6e6a63",
+      "zapatos": "#3e2e22"
+    },
+    "mensajero": {
+      "piel": "#e3b08e",
+      "pelo": "#a0522d",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#7a2e2a",
+        "color2": "#4a3a2c",
+        "detalle": "#b08d3a"
+      },
+      "sombrero": "piel",
+      "colorSombrero": "#4e3826",
+      "zapatos": "#3e2e22"
+    },
+    "campesino": {
+      "piel": "#d6a47c",
+      "pelo": "#3b2a1c",
+      "peinado": "largo",
+      "barba": "larga",
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#6e6a63",
+        "color2": "#4a4440",
+        "detalle": "#8a6b4a"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#3e2e22"
+    },
+    "campesino2": {
+      "piel": "#e6b896",
+      "pelo": "#c89a5a",
+      "peinado": "corto",
+      "barba": "larga",
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#6a7f9a",
+        "color2": "#4a4440",
+        "detalle": "#5a4030"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#3e2e22"
+    }
+  },
+  "largo": {
+    "escenas": [
+      {
+        "corte": true,
+        "texto": "Este invierno, el rey ha hecho una ley: en cada casa tiene que haber cerveza para el Yol, o multa. Y el rey ni siquiera cree en nuestros dioses.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "atardecer",
+          "clima": "nieve",
+          "nevado": true,
+          "props": [
+            {
+              "tipo": "casa-larga",
+              "x": -0.55,
+              "escala": 0.85
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "pino",
+              "x": 1.05,
+              "detras": true
+            },
+            {
+              "tipo": "cabana",
+              "x": 1.5,
+              "escala": 0.7,
+              "detras": true
+            }
+          ],
+          "sol": false
+        },
+        "personajes": [
+          {
+            "quien": "asa_capa",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Me llamo Ása, tengo diez años y vivo en una granja al fondo de un fiordo de Noruega, hacia el año novecientos cincuenta. Mi familia es inventada. El rey, no.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "asa_capa",
+            "x": 0.35,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Innherred, Trøndelag (Noruega)",
+          "detalle": "Fiordo de Trondheim · hacia el 950 · el mes del Jól",
+          "icono": "📍"
+        }
+      },
+      {
+        "texto": "Aquí nadie se llama vikingo: vikingo es el que sale a saquear. Nosotros somos campesinos. Y en pleno invierno, bebemos el Yol.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "madera",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "hoguera",
+              "x": -0.05,
+              "escala": 0.6
+            },
+            {
+              "tipo": "cama",
+              "x": 1.2
+            },
+            {
+              "tipo": "estanteria",
+              "x": -1.2
+            },
+            {
+              "tipo": "🪔",
+              "x": 0.85,
+              "escala": 0.22
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "asa",
+            "x": -0.5,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "gudrun",
+            "x": 0.45,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 1,
+        "capitulo": "Cerveza o multa",
+        "texto": "Mi padre, Tórgueir, hace cuentas. El rey Hákon ha mandado que cada hombre tenga cerveza de una medida de malta, o pague multa. Y que la fiesta dure lo que dure la cerveza.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "madera",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "hoguera",
+              "x": -0.05,
+              "escala": 0.6
+            },
+            {
+              "tipo": "barril",
+              "x": -1.15
+            },
+            {
+              "tipo": "barril",
+              "x": -0.85
+            },
+            {
+              "tipo": "barril",
+              "x": 1.15
+            },
+            {
+              "tipo": "🌾",
+              "x": 1.4,
+              "escala": 0.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "thorgeir",
+            "x": -0.45,
+            "accion": "pensar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "asa",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 1,
+        "texto": "Eso cuenta una saga escrita en Islandia casi tres siglos después. Pero en mi casa nadie quiere averiguar cuánto cuesta esa multa.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "thorgeir",
+            "x": -0.45,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "asa",
+            "x": 0.4,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Cada hombre tendrá cerveza de una medida de malta, o pagará multa, y guardará la fiesta mientras dure la cerveza.",
+          "firma": "Ley del Jól del rey Hákon, según la Saga de Hákon el Bueno, cap. 15 (Snorri Sturluson, hacia 1230; paráfrasis)"
+        }
+      },
+      {
+        "dia": 1,
+        "texto": "Ese mismo día, mi madre, Gúdrun, abre el arcón con las llaves que lleva al cinto. La cebada en remojo ya echa brotes: es la malta. La tostamos junto al fuego.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "gudrun",
+            "x": -0.45,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "🗝️",
+            "habla": false
+          },
+          {
+            "quien": "asa",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 2,
+        "texto": "El día dos llega un viajero cubierto de nieve. Cuenta que, en la asamblea del Frostating, el rey pidió que todos nos hiciéramos cristianos.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "atardecer",
+          "clima": "nieve",
+          "nevado": true,
+          "props": [
+            {
+              "tipo": "casa-larga",
+              "x": -0.55,
+              "escala": 0.85
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "pino",
+              "x": 1.05,
+              "detras": true
+            },
+            {
+              "tipo": "cabana",
+              "x": 1.5,
+              "escala": 0.7,
+              "detras": true
+            }
+          ],
+          "sol": false
+        },
+        "personajes": [
+          {
+            "quien": "viajero",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "entra": "izq",
+            "habla": false
+          },
+          {
+            "quien": "thorgeir",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 2,
+        "texto": "Según la saga, un campesino llamado Ásbiorn se levantó delante de todos: si nos quitas a nuestros dioses, buscaremos otro rey. Y el rey tuvo que ceder.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "viajero",
+            "x": -0.4,
+            "accion": "senalar",
+            "emocion": "enfado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "thorgeir",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 2,
+        "texto": "Hákon se crió en Inglaterra, con un rey cristiano. Le llaman el Bueno. Mi abuela Álfhild dice que un rey que no come con nuestros dioses no es nuestro.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "madera",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "hoguera",
+              "x": -0.05,
+              "escala": 0.6
+            },
+            {
+              "tipo": "cama",
+              "x": 1.2
+            },
+            {
+              "tipo": "estanteria",
+              "x": -1.2
+            },
+            {
+              "tipo": "🪔",
+              "x": 0.85,
+              "escala": 0.22
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "alfhild",
+            "x": -0.45,
+            "accion": "hablar",
+            "emocion": "enfado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "asa",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 3,
+        "texto": "El día tres hacemos la cerveza: piedras al rojo en las cubas, ramas de enebro y la levadura de la familia. Yo remuevo hasta que me arden los brazos.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "madera",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "hoguera",
+              "x": -0.05,
+              "escala": 0.6
+            },
+            {
+              "tipo": "barril",
+              "x": -1.15
+            },
+            {
+              "tipo": "barril",
+              "x": -0.85
+            },
+            {
+              "tipo": "barril",
+              "x": 1.15
+            },
+            {
+              "tipo": "🌾",
+              "x": 1.4,
+              "escala": 0.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "asa",
+            "x": -0.35,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "gudrun",
+            "x": 0.45,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "objeto": "🪨",
+            "habla": false
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "La cerveza del Jól",
+          "items": [
+            {
+              "icono": "🌾",
+              "nombre": "Cebada germinada y tostada"
+            },
+            {
+              "icono": "🪨",
+              "nombre": "Piedras al rojo en la cuba"
+            },
+            {
+              "icono": "🌲",
+              "nombre": "Ramas de enebro"
+            },
+            {
+              "icono": "🪣",
+              "nombre": "La levadura de la familia"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 4,
+        "texto": "El día cuatro hilo con el huso junto al fuego. Mi madre teje de pie, en el telar, con pesas de piedra colgando de los hilos.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "madera",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "hoguera",
+              "x": -0.05,
+              "escala": 0.6
+            },
+            {
+              "tipo": "estanteria",
+              "x": -1.2
+            },
+            {
+              "tipo": "🧶",
+              "x": 1.15,
+              "escala": 0.4
+            },
+            {
+              "tipo": "🪔",
+              "x": -0.8,
+              "escala": 0.22
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "asa",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": 1,
+            "objeto": "🧶",
+            "habla": false
+          },
+          {
+            "quien": "gudrun",
+            "x": 0.5,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 4,
+        "texto": "A mi lado hila Brígida, nuestra esclava. La trajeron de Irlanda en una incursión. Reza en voz baja a un dios que nació en invierno.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "asa",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "brigida",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 4,
+        "texto": "Brígida cuenta los días como los cristianos. Faltan veintiuno para la fiesta de su dios. Y el rey ha puesto nuestro Yol justo ese día.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "asa",
+            "x": -0.4,
+            "accion": "pensar",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "brigida",
+            "x": 0.4,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 5,
+        "texto": "El día cinco, el lago ya está helado. Atamos a los zapatos huesos de caballo aplanados y patinamos empujándonos con un palo.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "hielo",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "sol": false,
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.35
+            },
+            {
+              "tipo": "pino",
+              "x": -1.05,
+              "detras": true
+            },
+            {
+              "tipo": "roca",
+              "x": 1.35,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "asa_capa",
+            "x": -0.2,
+            "accion": "correr",
+            "emocion": "feliz",
+            "mirar": 1,
+            "entra": "izq",
+            "habla": false
+          },
+          {
+            "quien": "kolbein",
+            "x": 0.5,
+            "accion": "caminar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 5,
+        "texto": "Mi hermano Kólbein, de catorce años, juega a la pelota con palos sobre el hielo. Se cae más que nadie. Y presume más que nadie.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "kolbein",
+            "x": -0.35,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "asa_capa",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 7,
+        "texto": "El día siete es Láugardag, el día del baño: así llamamos al sábado. Echamos agua sobre piedras calientes y toda la casa se lava y se peina.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "madera",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "hoguera",
+              "x": -0.05,
+              "escala": 0.6
+            },
+            {
+              "tipo": "cama",
+              "x": 1.2
+            },
+            {
+              "tipo": "estanteria",
+              "x": -1.2
+            },
+            {
+              "tipo": "🪔",
+              "x": 0.85,
+              "escala": 0.22
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "gudrun",
+            "x": -0.45,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "🪨",
+            "habla": false
+          },
+          {
+            "quien": "hild",
+            "x": 0.15,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "asa",
+            "x": 0.55,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 7,
+        "texto": "Siglos después, un cronista inglés se quejaba de que los hombres del norte se bañaban y se peinaban los sábados... para gustar a las inglesas.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "asa",
+            "x": 0.35,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "hild",
+            "x": -0.3,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "Sábado",
+          "etiqueta": "laugardagr, «día del baño» en nórdico antiguo; en noruego, hoy, lørdag",
+          "icono": "💧"
+        }
+      },
+      {
+        "dia": 8,
+        "capitulo": "La noche sin luna",
+        "texto": "El día ocho, la abuela cuenta historias junto al fuego. Frey, el dios de las cosechas, tiene un jabalí de oro cuyas cerdas brillan en la oscuridad.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "madera",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "hoguera",
+              "x": -0.05,
+              "escala": 0.6
+            },
+            {
+              "tipo": "cama",
+              "x": 1.2
+            },
+            {
+              "tipo": "estanteria",
+              "x": -1.2
+            },
+            {
+              "tipo": "🪔",
+              "x": 0.85,
+              "escala": 0.22
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "alfhild",
+            "x": -0.45,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "asa",
+            "x": 0.3,
+            "accion": "sentado",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "hild",
+            "x": 0.7,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 8,
+        "texto": "Y hay un lobo que persigue al sol por el cielo. Un día lo alcanzará. Miro el agujero del humo y pienso que este invierno casi lo consigue.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "asa",
+            "x": 0.3,
+            "accion": "pensar",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "alfhild",
+            "x": -0.45,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 8,
+        "texto": "La abuela recuerda el sacrificio a los elfos del otoño: de noche, en casa, dirigido por la señora. Esa noche no se abre la puerta a nadie.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "alfhild",
+            "x": -0.45,
+            "accion": "senalar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "asa",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "No entres, desgraciado: estamos celebrando el álfablót y tememos la ira de Odín.",
+          "firma": "Una mujer al poeta Sigvatr, que llamaba a su puerta (Austrfararvísur, hacia 1019; paráfrasis)"
+        }
+      },
+      {
+        "dia": 10,
+        "texto": "El día diez, la ventisca no deja salir de casa. Fuera solo se oye el viento, y la nieve tapa la puerta hasta la cintura.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "noche",
+          "clima": "tormenta",
+          "nevado": true,
+          "props": [
+            {
+              "tipo": "casa-larga",
+              "x": 0.0,
+              "escala": 0.95
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "pino",
+              "x": -1.35
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "general"
+      },
+      {
+        "dia": 10,
+        "texto": "Dentro, las vacas viven con nosotros, al otro extremo de la casa. Nos dan calor, y les damos heno y hojas secas cortadas en verano.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "madera",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "hoguera",
+              "x": 1.0,
+              "escala": 0.5
+            },
+            {
+              "tipo": "🐄",
+              "x": -1.25,
+              "escala": 0.5
+            },
+            {
+              "tipo": "🐄",
+              "x": -0.85,
+              "escala": 0.45
+            },
+            {
+              "tipo": "🐎",
+              "x": 1.4,
+              "escala": 0.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "asa",
+            "x": -0.45,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "objeto": "🌾",
+            "habla": false
+          },
+          {
+            "quien": "kolbein",
+            "x": 0.35,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "0",
+          "etiqueta": "ventanas en la casa larga: solo un agujero para el humo en el techo y el fuego largo del suelo",
+          "icono": "🔥"
+        }
+      },
+      {
+        "corte": true,
+        "dia": 12,
+        "texto": "Esta noche no hay luna. Es la noche más negra del año. Y esta mañana, uno de nuestros caballos ha amanecido en el establo empapado en sudor, temblando.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "noche",
+          "clima": "despejado",
+          "nevado": true,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "casa-larga",
+              "x": -0.6,
+              "escala": 0.85
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "🐎",
+              "x": -0.2,
+              "escala": 0.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "asa_capa",
+            "x": 0.35,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 12,
+        "texto": "Brígida dice que lo han montado los muertos, que en estas noches cabalgan por el aire. La abuela no dice nada. Echa leña al fuego y no lo deja apagarse en toda la noche.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "brigida",
+            "x": -0.35,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "asa_capa",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 12,
+        "texto": "Mucho después, en Noruega se contaría que en las noches del Yol pasa por el aire un cortejo de muertos. Esa leyenda se recogió en el siglo diecinueve. Nadie sabe si yo la habría oído.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "asa_capa",
+            "x": 0.4,
+            "accion": "pensar",
+            "emocion": "miedo",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "Siglo XIX",
+          "etiqueta": "cuando se recogen los cuentos noruegos de la oskoreia, el cortejo de muertos del Jól: no hay prueba de que se creyera en el año 950",
+          "icono": "🌑"
+        }
+      },
+      {
+        "dia": 14,
+        "texto": "El día catorce, mi padre elige el cerdo del Yol, el más gordo. Desde hoy come mejor que yo.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "nevado": true,
+          "props": [
+            {
+              "tipo": "casa-larga",
+              "x": -0.55,
+              "escala": 0.85
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "pino",
+              "x": 1.05,
+              "detras": true
+            },
+            {
+              "tipo": "cabana",
+              "x": 1.5,
+              "escala": 0.7,
+              "detras": true
+            },
+            {
+              "tipo": "🐖",
+              "x": -0.05,
+              "escala": 0.4
+            }
+          ],
+          "sol": false
+        },
+        "personajes": [
+          {
+            "quien": "thorgeir_fuera",
+            "x": -0.5,
+            "accion": "senalar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "asa_capa",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "enfado",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 14,
+        "texto": "Las sagas cuentan que, en la víspera del Yol, los hombres ponían la mano en las cerdas de un gran jabalí para jurar. Y lo jurado se cumplía.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "thorgeir_fuera",
+            "x": -0.5,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "asa_capa",
+            "x": 0.45,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "corte": true,
+        "dia": 15,
+        "capitulo": "La noche más larga",
+        "texto": "En pleno invierno, aquí el sol no sube más de dos dedos sobre la sierra. Y hoy, el día quince, llega la noche más larga del año.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "noche",
+          "clima": "despejado",
+          "nevado": true,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.35
+            },
+            {
+              "tipo": "roca",
+              "x": 1.3,
+              "escala": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "thorgeir_fuera",
+            "x": -0.4,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "entra": "izq",
+            "habla": false
+          },
+          {
+            "quien": "asa_capa",
+            "x": 0.3,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "entra": "izq",
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 15,
+        "texto": "Antes del alba subo con mi padre a la loma para esperarlo. Hace tanto frío que el aliento se nos queda pegado a las pestañas.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "thorgeir_fuera",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "asa_capa",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "3°",
+          "etiqueta": "lo más alto que sube el sol en el solsticio en Trøndelag: unas 4 horas de luz, y en los valles a veces ni eso",
+          "icono": "☀️"
+        }
+      },
+      {
+        "dia": 15,
+        "texto": "Y entonces asoma: un filo naranja por encima de la sierra. Dura apenas unas horas. Pero ha vuelto. El lobo no lo ha alcanzado.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "nevado": true,
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.35
+            },
+            {
+              "tipo": "roca",
+              "x": 1.3,
+              "escala": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "thorgeir_fuera",
+            "x": -0.45,
+            "accion": "senalar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "asa_capa",
+            "x": 0.35,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "subir"
+      },
+      {
+        "dia": 15,
+        "texto": "La abuela dice que antes el Yol empezaba en la noche de pleno invierno; el rey lo ha movido a la fecha de su dios. Nadie sabe ya qué noche era.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "madera",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "hoguera",
+              "x": -0.05,
+              "escala": 0.6
+            },
+            {
+              "tipo": "cama",
+              "x": 1.2
+            },
+            {
+              "tipo": "estanteria",
+              "x": -1.2
+            },
+            {
+              "tipo": "🪔",
+              "x": 0.85,
+              "escala": 0.22
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "alfhild",
+            "x": -0.45,
+            "accion": "hablar",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "asa",
+            "x": 0.35,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 15,
+        "texto": "Hace cuatro siglos, un griego, Procopio, escribió que más al norte el sol desaparece cuarenta días, y que cuando vuelve celebran su mayor fiesta.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "nevado": true,
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.35
+            },
+            {
+              "tipo": "roca",
+              "x": 1.3,
+              "escala": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "asa_capa",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "40 días",
+          "etiqueta": "sin sol en el norte de Escandinavia, según Procopio (hacia el 550): cuando vuelve, celebran su mayor fiesta",
+          "icono": "☀️"
+        }
+      },
+      {
+        "dia": 16,
+        "texto": "El día dieciséis llega un hombre del jarl Sígurd de Ládir. Todos los campesinos del distrito están llamados al banquete del Yol en Mére.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "atardecer",
+          "clima": "nieve",
+          "nevado": true,
+          "props": [
+            {
+              "tipo": "casa-larga",
+              "x": -0.55,
+              "escala": 0.85
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "pino",
+              "x": 1.05,
+              "detras": true
+            },
+            {
+              "tipo": "cabana",
+              "x": 1.5,
+              "escala": 0.7,
+              "detras": true
+            }
+          ],
+          "sol": false
+        },
+        "personajes": [
+          {
+            "quien": "mensajero",
+            "x": -0.45,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "entra": "izq",
+            "habla": false
+          },
+          {
+            "quien": "thorgeir_fuera",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 16,
+        "texto": "Cada uno lleva su comida y su cerveza. Kólbein irá por primera vez con los hombres. Esa noche no pega ojo.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "madera",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "hoguera",
+              "x": -0.05,
+              "escala": 0.6
+            },
+            {
+              "tipo": "cama",
+              "x": 1.2
+            },
+            {
+              "tipo": "estanteria",
+              "x": -1.2
+            },
+            {
+              "tipo": "🪔",
+              "x": 0.85,
+              "escala": 0.22
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kolbein",
+            "x": -0.4,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "asa",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 18,
+        "texto": "El día dieciocho corre un rumor: unos jefes de aquí han jurado obligar al rey a sacrificar, como su padre. Uno se llama Blótolf: Lobo del Sacrificio.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "atardecer",
+          "clima": "nublado",
+          "nevado": true,
+          "props": [
+            {
+              "tipo": "casa-larga",
+              "x": -0.55,
+              "escala": 0.85
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "pino",
+              "x": 1.05,
+              "detras": true
+            },
+            {
+              "tipo": "cabana",
+              "x": 1.5,
+              "escala": 0.7,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "viajero",
+            "x": -0.45,
+            "accion": "hablar",
+            "emocion": "enfado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "thorgeir_fuera",
+            "x": 0.4,
+            "accion": "pensar",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 20,
+        "texto": "El día veinte preparamos la comida para Mére: carne ahumada, morcillas, pescado seco, pan plano y queso. Patatas, ninguna: aquí aún no existen.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "madera",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "hoguera",
+              "x": -0.05,
+              "escala": 0.6
+            },
+            {
+              "tipo": "barril",
+              "x": -1.15
+            },
+            {
+              "tipo": "barril",
+              "x": -0.85
+            },
+            {
+              "tipo": "barril",
+              "x": 1.15
+            },
+            {
+              "tipo": "🌾",
+              "x": 1.4,
+              "escala": 0.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "gudrun",
+            "x": -0.45,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "asa",
+            "x": 0.4,
+            "accion": "cargar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "objeto": "🫓",
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Comida de invierno",
+          "items": [
+            {
+              "icono": "🐟",
+              "nombre": "Pescado seco"
+            },
+            {
+              "icono": "🫓",
+              "nombre": "Pan plano"
+            },
+            {
+              "icono": "🧀",
+              "nombre": "Queso y mantequilla"
+            },
+            {
+              "icono": "🌾",
+              "nombre": "Gachas de cebada"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 23,
+        "capitulo": "El hígado de caballo",
+        "texto": "El día veintitrés echamos paja nueva en el suelo. Mi madre saca sus dos broches de bronce y sus cuentas de vidrio. Está guapísima.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "madera",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "hoguera",
+              "x": -0.05,
+              "escala": 0.6
+            },
+            {
+              "tipo": "cama",
+              "x": 1.2
+            },
+            {
+              "tipo": "estanteria",
+              "x": -1.2
+            },
+            {
+              "tipo": "🪔",
+              "x": 0.85,
+              "escala": 0.22
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "gudrun_fiesta",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "asa",
+            "x": 0.4,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "corte": true,
+        "dia": 24,
+        "texto": "En la víspera del Yol, Kólbein pone la mano en las cerdas del cerdo y jura que el verano que viene irá al mar con los hombres.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "noche",
+          "clima": "despejado",
+          "nevado": true,
+          "props": [
+            {
+              "tipo": "casa-larga",
+              "x": -0.55,
+              "escala": 0.85
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "pino",
+              "x": 1.05,
+              "detras": true
+            },
+            {
+              "tipo": "cabana",
+              "x": 1.5,
+              "escala": 0.7,
+              "detras": true
+            },
+            {
+              "tipo": "hoguera",
+              "x": 0.1,
+              "escala": 0.6
+            },
+            {
+              "tipo": "🐖",
+              "x": -0.35,
+              "escala": 0.38
+            }
+          ],
+          "luna": true
+        },
+        "personajes": [
+          {
+            "quien": "kolbein",
+            "x": -0.75,
+            "accion": "senalar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "asa_capa",
+            "x": 0.55,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 24,
+        "texto": "Mi madre se pone blanca. Un juramento del Yol no se deshace, aunque lo hagas con la cabeza caliente de cerveza.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "gudrun_fiesta",
+            "x": -0.45,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "asa_capa",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 24,
+        "texto": "Mi padre levanta el cuerno y brinda como sus abuelos: por un buen año y paz. Y bebemos por nuestros muertos, que duermen en el túmulo.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "madera",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "hoguera",
+              "x": -0.05,
+              "escala": 0.6
+            },
+            {
+              "tipo": "cama",
+              "x": 1.2
+            },
+            {
+              "tipo": "estanteria",
+              "x": -1.2
+            },
+            {
+              "tipo": "🪔",
+              "x": 0.85,
+              "escala": 0.22
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "thorgeir",
+            "x": -0.45,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "objeto": "🥣",
+            "habla": false
+          },
+          {
+            "quien": "asa",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Por un buen año y paz.",
+          "firma": "Brindis a Njord y a Frey en los banquetes de sacrificio, según la Saga de Hákon el Bueno, cap. 16"
+        }
+      },
+      {
+        "dia": 25,
+        "texto": "Al alba, mi padre y Kólbein salen hacia Mére, a medio día de camino, con un barril a cuestas. Yo me quedo mirando sus huellas en la nieve.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "nevado": true,
+          "props": [
+            {
+              "tipo": "casa-larga",
+              "x": -0.55,
+              "escala": 0.85
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "pino",
+              "x": 1.05,
+              "detras": true
+            },
+            {
+              "tipo": "cabana",
+              "x": 1.5,
+              "escala": 0.7,
+              "detras": true
+            }
+          ],
+          "sol": false
+        },
+        "personajes": [
+          {
+            "quien": "thorgeir_fuera",
+            "x": 0.0,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "sale": "izq",
+            "habla": false
+          },
+          {
+            "quien": "kolbein",
+            "x": 0.35,
+            "accion": "caminar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "sale": "izq",
+            "habla": false
+          },
+          {
+            "quien": "asa_capa",
+            "x": 0.75,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "corte": true,
+        "dia": 25,
+        "texto": "En el banquete del Yol, nuestro rey cristiano tuvo que elegir entre su dios y su corona. Lo cuenta una saga escrita casi tres siglos después.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "madera",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "antorcha",
+              "x": -1.35
+            },
+            {
+              "tipo": "barril",
+              "x": -1.05
+            },
+            {
+              "tipo": "hoguera",
+              "x": 0.0,
+              "escala": 0.8
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "antorcha",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "campesino",
+            "x": -0.7,
+            "accion": "quieto",
+            "emocion": "enfado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "hakon",
+            "x": 0.05,
+            "accion": "sentado",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "sigurd",
+            "x": 0.65,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 25,
+        "texto": "Hierven los calderos con la carne de los sacrificios, también de caballo. En el sitio de honor, el rey Hákon. A su lado, el jarl Sígurd.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "hakon",
+            "x": -0.35,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "sigurd",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 25,
+        "texto": "En otro banquete, el rey había hecho la señal de la cruz sobre la copa de Odín, y Sígurd tuvo que decir que era el martillo de Tor.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "hakon",
+            "x": -0.35,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": 1,
+            "objeto": "🥣",
+            "habla": false
+          },
+          {
+            "quien": "sigurd",
+            "x": 0.4,
+            "accion": "hablar",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 25,
+        "texto": "Esta vez, los campesinos le rodean: o come de los sacrificios, o buscarán otro rey.",
+        "drama": 0.9,
+        "personajes": [
+          {
+            "quien": "campesino",
+            "x": -0.7,
+            "accion": "senalar",
+            "emocion": "enfado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "hakon",
+            "x": 0.0,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "campesino2",
+            "x": 0.7,
+            "accion": "senalar",
+            "emocion": "enfado",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 25,
+        "texto": "Sígurd media. Y el rey cristiano, delante de todos, come unos trozos de hígado de caballo y bebe sin hacer la cruz.",
+        "drama": 0.9,
+        "personajes": [
+          {
+            "quien": "sigurd",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "hakon",
+            "x": 0.4,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "objeto": "🥣",
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 25,
+        "texto": "Mi padre dice que comer caballo es comer con nuestros dioses; los cristianos acabarán prohibiéndolo. Aquella noche, el rey perdió algo más que el apetito.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "hakon",
+            "x": 0.35,
+            "accion": "triste",
+            "emocion": "enfado",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "280 años",
+          "etiqueta": "separan el banquete de Mære (hacia el 950) de la saga que lo cuenta (Snorri Sturluson, Islandia, hacia 1230)",
+          "icono": "📜"
+        }
+      },
+      {
+        "dia": 26,
+        "texto": "Mientras, en casa recibimos a los vecinos. Tres noches de Yol, con luna llena sobre la nieve, y cerveza mientras dure.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "noche",
+          "clima": "despejado",
+          "nevado": true,
+          "props": [
+            {
+              "tipo": "casa-larga",
+              "x": -0.55,
+              "escala": 0.85
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "pino",
+              "x": 1.05,
+              "detras": true
+            },
+            {
+              "tipo": "cabana",
+              "x": 1.5,
+              "escala": 0.7,
+              "detras": true
+            },
+            {
+              "tipo": "hoguera",
+              "x": 0.05,
+              "escala": 0.6
+            }
+          ],
+          "luna": true
+        },
+        "personajes": [
+          {
+            "quien": "gudrun_fiesta",
+            "x": -0.55,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "hild",
+            "x": -0.15,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "asa_capa",
+            "x": 0.5,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 29,
+        "texto": "El día veintinueve vuelve mi padre. El rey se ha marchado a Ládir con cara de tormenta. Dicen que ha jurado volver con un ejército.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "atardecer",
+          "clima": "nieve",
+          "nevado": true,
+          "props": [
+            {
+              "tipo": "casa-larga",
+              "x": -0.55,
+              "escala": 0.85
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "pino",
+              "x": 1.05,
+              "detras": true
+            },
+            {
+              "tipo": "cabana",
+              "x": 1.5,
+              "escala": 0.7,
+              "detras": true
+            }
+          ],
+          "sol": false
+        },
+        "personajes": [
+          {
+            "quien": "thorgeir_fuera",
+            "x": -0.4,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "entra": "izq",
+            "habla": false
+          },
+          {
+            "quien": "asa_capa",
+            "x": 0.4,
+            "accion": "abrazar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 30,
+        "texto": "El día treinta clavo un palo en la nieve de la loma. Su sombra ya es un poco más corta. El sol vuelve. ¿Qué dioses lo traen?",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "nevado": true,
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.35
+            },
+            {
+              "tipo": "roca",
+              "x": 1.3,
+              "escala": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "asa_capa",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "subir"
+      },
+      {
+        "texto": "La cerveza se acabó unos días después, y con ella el Yol. El rey nunca volvió con su ejército: le llegó la guerra con los hijos de su hermanastro Erik.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "mar",
+          "hora": "atardecer",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "velero",
+              "x": 0.9,
+              "escala": 0.7
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "texto": "Hákon murió hacia el novecientos sesenta, tras la batalla de Fítiar. Su poeta, Éyvind, cantó que las valquirias llevaron al rey cristiano al Valhala.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "sol": false,
+          "props": [
+            {
+              "tipo": "tumulo-hierba",
+              "x": 0.0,
+              "escala": 1.1
+            },
+            {
+              "tipo": "pino",
+              "x": -1.4
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Las valquirias llevan al rey Hákon al Valhalla, y los dioses salen a recibirlo.",
+          "firma": "Hákonarmál, poema de Eyvindr skáldaspillir (hacia 961; resumen)"
+        }
+      },
+      {
+        "texto": "Sígurd murió quemado en una casa por sus enemigos. Según las sagas, otro rey, Olav, quemó después el templo de Mére. Bajo la iglesia que hay hoy aparecieron laminillas de oro de los viejos dioses.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "madera",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "antorcha",
+              "x": -1.35
+            },
+            {
+              "tipo": "barril",
+              "x": -1.05
+            },
+            {
+              "tipo": "hoguera",
+              "x": 0.0,
+              "escala": 0.8
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "antorcha",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "sigurd",
+            "x": 0.3,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1968",
+          "etiqueta": "laminillas de oro (gullgubber) halladas bajo la iglesia de Mære, donde estuvo el viejo lugar de culto",
+          "icono": "✨"
+        }
+      },
+      {
+        "corte": true,
+        "texto": "Muchas webs cuentan cosas falsas de la Navidad nórdica. Lo que sí viene del Yol es la palabra: en noruego, sueco y danés, la Navidad se sigue llamando yul.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "noche",
+          "clima": "nieve",
+          "nevado": true,
+          "props": [
+            {
+              "tipo": "casa-larga",
+              "x": -0.55,
+              "escala": 0.85
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "pino",
+              "x": 1.05,
+              "detras": true
+            },
+            {
+              "tipo": "cabana",
+              "x": 1.5,
+              "escala": 0.7,
+              "detras": true
+            }
+          ],
+          "luna": false
+        },
+        "personajes": [
+          {
+            "quien": "asa_capa",
+            "x": 0.35,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Y la cerveza de Navidad. Siglos después, una ley noruega mandaba bendecirla en Nochebuena por un buen año y paz. Las mismas palabras de mi padre.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "madera",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "hoguera",
+              "x": -0.05,
+              "escala": 0.6
+            },
+            {
+              "tipo": "barril",
+              "x": -1.15
+            },
+            {
+              "tipo": "barril",
+              "x": -0.85
+            },
+            {
+              "tipo": "barril",
+              "x": 1.15
+            },
+            {
+              "tipo": "🌾",
+              "x": 1.4,
+              "escala": 0.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "asa",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Lo que sí viene del Jól",
+          "items": [
+            {
+              "icono": "🗣️",
+              "nombre": "La palabra jul (God jul)"
+            },
+            {
+              "icono": "🌾",
+              "nombre": "La cerveza de Navidad"
+            },
+            {
+              "icono": "📅",
+              "nombre": "La fecha, por ley de Hákon"
+            },
+            {
+              "icono": "🐖",
+              "nombre": "¿El cerdo? Quizá, sin pruebas"
+            }
+          ]
+        }
+      },
+      {
+        "texto": "Pero no vienen del Yol ni el árbol, ni el tronco, ni el muérdago. Y Odín no es Papá Noel: eso se inventó a finales del siglo veinte. Ningún texto antiguo lo dice.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "noche",
+          "clima": "nieve",
+          "nevado": true,
+          "props": [
+            {
+              "tipo": "casa-larga",
+              "x": -0.55,
+              "escala": 0.85
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "pino",
+              "x": 1.05,
+              "detras": true
+            },
+            {
+              "tipo": "cabana",
+              "x": 1.5,
+              "escala": 0.7,
+              "detras": true
+            }
+          ],
+          "luna": false
+        },
+        "personajes": [
+          {
+            "quien": "asa_capa",
+            "x": 0.35,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Lo que NO viene del Jól",
+          "items": [
+            {
+              "icono": "🌲",
+              "nombre": "El árbol (siglos XV–XVII)"
+            },
+            {
+              "icono": "🔥",
+              "nombre": "El tronco (teoría de 1725)"
+            },
+            {
+              "icono": "🌿",
+              "nombre": "El beso bajo el muérdago (s. XVIII)"
+            },
+            {
+              "icono": "❌",
+              "nombre": "Odín = Papá Noel (años 90)"
+            }
+          ]
+        }
+      },
+      {
+        "texto": "Casi todo lo que sabemos del Yol lo escribieron cristianos, siglos después. Así que cuidado con lo que te cuentan. Hasta con lo que te cuento yo.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "asa_capa",
+            "x": 0.35,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Yo, Ása, y mi familia somos inventados; el rey Hákon, Sígurd y el banquete de Mére están en las sagas. ¿De quién quieres vivir el próximo mes? Déjalo en los comentarios, suscríbete, y buen Yol.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "nevado": true,
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.35
+            },
+            {
+              "tipo": "roca",
+              "x": 1.3,
+              "escala": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "asa_capa",
+            "x": 0.3,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": -1
+          }
+        ],
+        "camara": "general"
+      }
+    ]
+  },
+  "ganchos": [
+    {
+      "desde": 0,
+      "hasta": 3,
+      "rotulo": "CERVEZA O MULTA",
+      "titulo": "El rey que obligaba a hacer cerveza por ley",
+      "descripcion": "Noruega, hacia el 950: según la saga, el rey Hákon el Bueno mandó que en cada casa hubiera cerveza para el Jól, o multa. Ása es una niña inventada. #shorts #historia #navidad #vikingos"
+    },
+    {
+      "desde": 22,
+      "hasta": 24,
+      "rotulo": "LA NOCHE SIN LUNA",
+      "titulo": "La noche más negra del año y un caballo empapado en sudor",
+      "descripcion": "El miedo a las noches de invierno en una granja noruega del año 950, y de cuándo son de verdad las leyendas del cortejo de muertos. #shorts #historia #mitologianordica"
+    },
+    {
+      "desde": 41,
+      "hasta": 45,
+      "rotulo": "EL REY Y EL CABALLO",
+      "titulo": "Un rey cristiano obligado a comer hígado de caballo",
+      "descripcion": "El banquete del Jól en Mære, hacia el 950, según la Saga de Hákon el Bueno (escrita unos 280 años después). #shorts #historia #vikingos #mitologianordica"
+    },
+    {
+      "desde": 53,
+      "hasta": 56,
+      "rotulo": "LO QUE NO VIENE DEL JÓL",
+      "titulo": "Lo que tu Navidad NO le debe al Jól",
+      "descripcion": "La palabra jul y la cerveza sí; el árbol, el tronco, el muérdago y Odín-Papá Noel, no. #shorts #navidad #historia #mitologianordica"
+    }
+  ],
+  "publicacion": {
+    "tituloLargo": "Un mes en la vida de UNA NIÑA EN EL JÓL (Noruega, hacia el 950) | El rey cristiano obligado a comer hígado de caballo",
+    "tituloCorto": "Una niña en el Jól",
+    "tituloShort": "Un rey cristiano obligado a comer hígado de caballo",
+    "capituloInicial": "Cerveza por ley",
+    "descripcion": "Noruega, diciembre del 950. Ása, una niña de diez años de una granja de Innherred, al fondo del fiordo de Trondheim, vive el mes del Jól, la gran fiesta de pleno invierno de los nórdicos: la malta tostada junto al fuego, la cerveza hecha con piedras al rojo, el lago helado, el día del baño, la noche sin luna, el sol que en el solsticio apenas asoma tres grados sobre la sierra y el jabalí de los juramentos. Mientras, el rey Hákon el Bueno, criado cristiano en Inglaterra, ha mandado por ley que el Jól se celebre el día de Navidad y que cada casa tenga cerveza o pague multa. Y en el banquete del Jól en Mære, los campesinos le obligan a comer de los sacrificios.\n\n— Semana 1: Cerveza o multa\n— Semana 2: La noche sin luna\n— Semana 3: La noche más larga\n— Semana 4: El hígado de caballo\n— Epílogo: Fitjar, el Valhalla de un rey cristiano, el templo de Mære y lo que tu Navidad le debe (y no le debe) al Jól\n\nQué es real y qué es inventado: Ása y toda su familia (Thorgeir, Gudrun, la abuela Álfhild, Kolbein, la pequeña Hild y la esclava irlandesa Brígida) son personajes INVENTADOS, igual que el viajero, el mensajero y lo que pasa en su granja cada día; la cronología del mes es una reconstrucción verosímil con fechas del calendario juliano. Son reales: Hákon el Bueno, el jarl Sigurd de Hlaðir, Ásbjǫrn de Meðalhús y Blótólfr de Ǫlvishaugr, pero lo que sabemos de ellos (la ley del Jól, la asamblea del Frostating, la cruz sobre la copa de Odín en Hlaðir y el hígado de caballo en Mære) lo cuenta la Saga de Hákon el Bueno de Snorri Sturluson, escrita en Islandia hacia 1230, unos 280 años después, y por eso decimos «según la saga». Del Jól pagano se sabe poco: era una fiesta de pleno invierno con mucha cerveza, sacrificios, brindis «por un buen año y paz» y juramentos; su fecha exacta antes de Hákon se discute. El cortejo de muertos de las noches del Jól (oskoreia) es folclore noruego recogido en el siglo XIX: en el vídeo es solo el miedo de un personaje. El árbol de Navidad, el tronco, el muérdago y la idea de que Odín es Papá Noel NO vienen del Jól.\n\nFuentes: Snorri Sturluson, Heimskringla (Saga de Hákon el Bueno, cap. 13–18; Ynglinga saga, 8; Hákonarmál); Sigvatr Þórðarson, Austrfararvísur; Procopio, Guerra gótica VI, 15; Beda, De temporum ratione 15; ley del Gulating; Store norske leksikon; Science Norway y Universidad de Agder; Universidad de Aberdeen; Medievalists.net; Museo Nacional de Dinamarca.\n\nLectura recomendada: Snorri Sturluson, Heimskringla (trad. de Santiago Ibáñez Lluch, Miraguano); Edda mayor (trad. de Luis Lerate, Alianza).",
+    "etiquetas": [
+      "un mes en la vida de",
+      "Jól",
+      "Yule",
+      "Navidad",
+      "Navidad nórdica",
+      "Hákon el Bueno",
+      "mitología nórdica",
+      "Odín",
+      "vikingos",
+      "Noruega",
+      "solsticio de invierno",
+      "Heimskringla",
+      "mitos y religiones",
+      "historia"
+    ],
+    "miniatura": {
+      "texto": "¿SU DIOS O SU CORONA?",
+      "escena": 45,
+      "quien": "hakon",
+      "emocion": "miedo",
+      "icono": "🐎"
+    }
+  }
+}

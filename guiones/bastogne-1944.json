@@ -1,0 +1,2721 @@
+{
+  "slug": "bastogne-1944",
+  "titulo": "un paracaidista en Bastogne",
+  "lugar": "Mourmelon-le-Grand (Francia) y Bastogne (Bélgica)",
+  "epoca": "Noviembre y diciembre de 1944",
+  "categoria": "epoca",
+  "drama": 0.65,
+  "velocidad": 1.15,
+  "musica": "tension",
+  "paleta": {
+    "acento": "#c8a24a",
+    "texto": "#eef1f3",
+    "fondo": "#1b2024",
+    "papel": "#e8e0cc"
+  },
+  "reparto": {
+    "ray": {
+      "piel": "#b9835a",
+      "pelo": "#1d1714",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#6b6a4a",
+        "color2": "#5b5a3e",
+        "detalle": "#8a7a52"
+      },
+      "sombrero": "casco",
+      "colorSombrero": "#4b5320",
+      "zapatos": "#6b4226"
+    },
+    "ray-barracon": {
+      "piel": "#b9835a",
+      "pelo": "#1d1714",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#6b6a4a",
+        "color2": "#5b5a3e",
+        "detalle": "#8a7a52"
+      },
+      "sombrero": "ninguno",
+      "colorSombrero": "#4b5320",
+      "zapatos": "#6b4226"
+    },
+    "ray-cerco": {
+      "piel": "#b9835a",
+      "pelo": "#1d1714",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#6b6a4a",
+        "color2": "#5b5a3e",
+        "detalle": "#8a7a52"
+      },
+      "sombrero": "casco",
+      "colorSombrero": "#4b5320",
+      "zapatos": "#6b4226"
+    },
+    "ray-sabana": {
+      "piel": "#b9835a",
+      "pelo": "#1d1714",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#ecebe4",
+        "color2": "#5b5a3e",
+        "detalle": "#d8d6cc"
+      },
+      "sombrero": "casco",
+      "colorSombrero": "#d9d8d0",
+      "zapatos": "#6b4226"
+    },
+    "billy": {
+      "piel": "#ecc3a0",
+      "pelo": "#a4502a",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#6b6a4a",
+        "color2": "#5b5a3e",
+        "detalle": "#8a7a52"
+      },
+      "sombrero": "casco",
+      "colorSombrero": "#4b5320",
+      "zapatos": "#6b4226",
+      "altura": 1.06
+    },
+    "billy-barracon": {
+      "piel": "#ecc3a0",
+      "pelo": "#a4502a",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#6b6a4a",
+        "color2": "#5b5a3e",
+        "detalle": "#8a7a52"
+      },
+      "sombrero": "ninguno",
+      "colorSombrero": "#4b5320",
+      "zapatos": "#6b4226",
+      "altura": 1.06
+    },
+    "reemplazo": {
+      "piel": "#f0cfb2",
+      "pelo": "#e2c27a",
+      "peinado": "rapado",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#6b6a4a",
+        "color2": "#5b5a3e",
+        "detalle": "#8a7a52"
+      },
+      "sombrero": "casco",
+      "colorSombrero": "#4b5320",
+      "zapatos": "#6b4226",
+      "altura": 0.95
+    },
+    "sargento": {
+      "piel": "#d4a27e",
+      "pelo": "#7a7068",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#6b6a4a",
+        "color2": "#5b5a3e",
+        "detalle": "#8a7a52"
+      },
+      "sombrero": "casco",
+      "colorSombrero": "#4b5320",
+      "zapatos": "#6b4226",
+      "altura": 1.03
+    },
+    "retirada": {
+      "piel": "#dcae8a",
+      "pelo": "#3a2a1e",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#5e5a3c",
+        "color2": "#4e4c34",
+        "detalle": "#3e3a28"
+      },
+      "sombrero": "casco",
+      "colorSombrero": "#4b5320",
+      "zapatos": "#6b4226"
+    },
+    "mcauliffe": {
+      "piel": "#e6bc9a",
+      "pelo": "#9a958e",
+      "peinado": "coronilla",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#6b6a4a",
+        "color2": "#5b5a3e",
+        "detalle": "#8a7a52"
+      },
+      "sombrero": "ninguno",
+      "colorSombrero": "#4b5320",
+      "zapatos": "#6b4226"
+    },
+    "harper": {
+      "piel": "#e0b48e",
+      "pelo": "#4a3a2c",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#6b6a4a",
+        "color2": "#5b5a3e",
+        "detalle": "#8a7a52"
+      },
+      "sombrero": "casco",
+      "colorSombrero": "#4b5320",
+      "zapatos": "#6b4226"
+    },
+    "aleman": {
+      "piel": "#e4b898",
+      "pelo": "#6a5a4a",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#5e6358",
+        "color2": "#4f544a",
+        "detalle": "#2f2a24"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#5e6358",
+      "zapatos": "#1f1c1a"
+    },
+    "aleman2": {
+      "piel": "#dfb08c",
+      "pelo": "#3a2e24",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#5e6358",
+        "color2": "#4f544a",
+        "detalle": "#2f2a24"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#5e6358",
+      "zapatos": "#1f1c1a"
+    },
+    "socorro": {
+      "piel": "#b07a52",
+      "pelo": "#2a2220",
+      "peinado": "largo",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#a44a3f",
+        "color2": "#a44a3f",
+        "detalle": "#e8d8b8"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#2a1e16",
+      "voz": "narradora-es"
+    },
+    "lupe": {
+      "piel": "#b9835a",
+      "pelo": "#1d1714",
+      "peinado": "trenzas",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#d9a066",
+        "color2": "#d9a066",
+        "detalle": "#f3e6c8"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#3a2618",
+      "altura": 0.68,
+      "voz": "narradora-es"
+    },
+    "renee": {
+      "piel": "#e8c2a0",
+      "pelo": "#5a3a26",
+      "peinado": "coleta",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#f0ece4",
+        "color2": "#f0ece4",
+        "detalle": "#c9c2b4"
+      },
+      "sombrero": "panuelo",
+      "colorSombrero": "#f7f5f0",
+      "zapatos": "#2a1e16",
+      "voz": "narradora-es"
+    },
+    "augusta": {
+      "piel": "#6b4630",
+      "pelo": "#1a1412",
+      "peinado": "coleta",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#6b6a4a",
+        "color2": "#f0ece4",
+        "detalle": "#8a7a52"
+      },
+      "sombrero": "ninguno",
+      "zapatos": "#2a1e16",
+      "voz": "narradora-es"
+    },
+    "vecina": {
+      "piel": "#e3b896",
+      "pelo": "#9a948c",
+      "peinado": "largo",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#3a3a44",
+        "color2": "#3a3a44",
+        "detalle": "#6a5a4a"
+      },
+      "sombrero": "panuelo",
+      "colorSombrero": "#5a4434",
+      "zapatos": "#2a1e16",
+      "voz": "narradora-es"
+    },
+    "vecino": {
+      "piel": "#dcab88",
+      "pelo": "#b8b2aa",
+      "peinado": "coronilla",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#5a4434",
+        "color2": "#4a3c30",
+        "detalle": "#3a2e24"
+      },
+      "sombrero": "boina",
+      "colorSombrero": "#2e2a28",
+      "zapatos": "#2a1e16"
+    }
+  },
+  "largo": {
+    "escenas": [
+      {
+        "corte": true,
+        "texto": "Esta Navidad, los alemanes me van a dar dos horas para rendirme. Mi general les va a contestar con una sola palabra que no van a entender.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "nieve",
+          "sol": false,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.25
+            },
+            {
+              "tipo": "pino",
+              "x": -0.95,
+              "escala": 0.8,
+              "detras": true
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "hoyo",
+              "x": 0.0
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ray-cerco",
+            "x": 0.4,
+            "accion": "agachado",
+            "emocion": "miedo",
+            "mirar": -1
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Me llamo Rei Molina, tengo veinte años y soy de San Antonio, Tejas, donde nunca nieva de verdad. Soy paracaidista del quinientos dos, en la ciento uno.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "ray-cerco",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Esta es la historia de treinta días que arrancan con una cama limpia y acaban en un pueblo belga llamado Bastoñ.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "ray-cerco",
+            "x": 0.4,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Bastogne, Bélgica",
+          "detalle": "Ardenas · diciembre de 1944",
+          "icono": "📍"
+        }
+      },
+      {
+        "dia": 1,
+        "capitulo": "Un techo y una cama",
+        "texto": "Martes, veintiocho de noviembre. Tras setenta y dos días de combate en Holanda, los camiones nos dejan en Murmelón, un viejo campamento junto a Rens.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.3
+            },
+            {
+              "tipo": "bandera-eeuu",
+              "x": -0.8
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.0
+            },
+            {
+              "tipo": "casa",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ray",
+            "x": 0.35,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "entra": "der"
+          },
+          {
+            "quien": "billy",
+            "x": -0.4,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 1,
+        "texto": "Conmigo baja Bili Dan, un pelirrojo de Oaio que en Holanda me sacó de un agujero. Desde aquel día, donde va él, voy yo.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "ray",
+            "x": 0.35,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "billy",
+            "x": -0.4,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 1,
+        "texto": "Esa noche duermo bajo techo por primera vez en dos meses. En el barracón hay camas que nadie va a ocupar: sus dueños se quedaron en Holanda.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "madera",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.15
+            },
+            {
+              "tipo": "cama",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ray-barracon",
+            "x": 0.35,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 3,
+        "texto": "Llegan novatos para llenarlas: chicos de dieciocho años con las botas sin estrenar. Me miran como a un veterano. Lo soy desde septiembre.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "dia",
+          "pared": "madera",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.15
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.1
+            },
+            {
+              "tipo": "✉️",
+              "x": 1.05,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ray-barracon",
+            "x": 0.4,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "reemplazo",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 4,
+        "texto": "Viernes, día de paga. Cincuenta dólares de sueldo y otros cincuenta por saltar de un avión. Casi todo se lo mando a mi madre.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "ray-barracon",
+            "x": 0.35,
+            "accion": "escribir",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "100 $",
+          "etiqueta": "al mes: 50 de sueldo de soldado raso y 50 más por ser paracaidista, el doble que un soldado de infantería",
+          "icono": "💵"
+        }
+      },
+      {
+        "dia": 5,
+        "texto": "Llega carta de mi hermana Lupe, que tiene doce años. En San Antonio hace veinte grados, y ya han montado el nacimiento en la sala.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "casa-adobe",
+              "x": -1.3
+            },
+            {
+              "tipo": "palmera",
+              "x": -0.85,
+              "escala": 0.8
+            },
+            {
+              "tipo": "casa-adobe",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "lupe",
+            "x": 0.35,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "socorro",
+            "x": -0.35,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 6,
+        "texto": "El domingo hay partido de entrenamiento. Para el día de Navidad preparan un gran partido de fútbol americano entre dos regimientos: lo llaman la Shampein Boul.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "bandera-eeuu",
+              "x": -1.15
+            },
+            {
+              "tipo": "tienda",
+              "x": 1.2
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.45,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ray",
+            "x": 0.4,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "billy",
+            "x": -0.4,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 7,
+        "texto": "En el comedor dicen que el frente de las Ardenas es un sector tranquilo, para descansar. Ninguno de nosotros ha oído hablar de Bastoñ.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "ray",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "billy",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 8,
+        "capitulo": "Champaña y barro",
+        "texto": "Martes, cinco de diciembre. Llueve sin parar, y el campamento se convierte en un mar de barro. Bili dice que el barro de Francia es peor que los alemanes.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "lluvia",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.3
+            },
+            {
+              "tipo": "charco",
+              "x": 0.0
+            },
+            {
+              "tipo": "casa",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ray",
+            "x": 0.35,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "entra": "der"
+          },
+          {
+            "quien": "billy",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "enfado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 12,
+        "texto": "Sábado, nueve. En la estafeta me espera un paquete de mi madre. Yo soñaba con tamales; dentro hay galletas de canela y unos calcetines de lana.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "dia",
+          "pared": "madera",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.15
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.1
+            },
+            {
+              "tipo": "✉️",
+              "x": 1.05,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ray-barracon",
+            "x": 0.35,
+            "accion": "cargar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "objeto": "📦"
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "El paquete de mi madre",
+          "items": [
+            {
+              "icono": "📦",
+              "nombre": "Caja de cinco libras"
+            },
+            {
+              "icono": "🍪",
+              "nombre": "Galletas de canela"
+            },
+            {
+              "icono": "🧦",
+              "nombre": "Calcetines de lana"
+            },
+            {
+              "icono": "✉️",
+              "nombre": "Una carta de Lupe"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 12,
+        "texto": "Abro una esquina, huelo la canela y lo vuelvo a tapar. Será mi Navidad. Todavía no sé que no voy a estar aquí para abrirlo.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "ray-barracon",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "feliz",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 14,
+        "texto": "Lunes, once. Entreno con el equipo. Soy suplente, pero el día de Navidad pienso pisar el campo, aunque sea un minuto.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "bandera-eeuu",
+              "x": -1.15
+            },
+            {
+              "tipo": "tienda",
+              "x": 1.2
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.45,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ray",
+            "x": 0.4,
+            "accion": "correr",
+            "emocion": "feliz",
+            "mirar": -1,
+            "entra": "der"
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 15,
+        "capitulo": "Los camiones",
+        "texto": "Martes, doce de diciembre. Ya hiela por las noches. Ponen una película en el comedor, y durante dos horas me olvido de la guerra.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "madera",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.15
+            },
+            {
+              "tipo": "cama",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ray-barracon",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "billy-barracon",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 16,
+        "texto": "Revista de equipo. Faltan botas de goma, faltan guantes y faltan abrigos. El sargento dice que llegarán antes de que hagan falta.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "bandera-eeuu",
+              "x": -1.15
+            },
+            {
+              "tipo": "tienda",
+              "x": 1.2
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.45,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ray",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "sargento",
+            "x": -0.4,
+            "accion": "senalar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Lo que nos faltaba",
+          "items": [
+            {
+              "icono": "🧥",
+              "nombre": "Abrigo de invierno"
+            },
+            {
+              "icono": "🧤",
+              "nombre": "Guantes"
+            },
+            {
+              "icono": "👢",
+              "nombre": "Botas de goma"
+            },
+            {
+              "icono": "📦",
+              "nombre": "Munición de repuesto"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 19,
+        "texto": "Sábado, dieciséis, al amanecer. Lejos de aquí, los alemanes atacan por sorpresa en las Ardenas, el sector tranquilo. En Murmelón nadie se entera.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "bosque",
+          "hora": "amanecer",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.25
+            },
+            {
+              "tipo": "explosion",
+              "x": 1.2,
+              "escala": 0.8
+            },
+            {
+              "tipo": "pino",
+              "x": 0.9
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "dia": 20,
+        "corte": true,
+        "texto": "Íbamos a jugar un partido el día de Navidad. El domingo diecisiete lo suspenden, y por la noche llega la alerta: salimos mañana. Nadie sabe adónde.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "madera",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.15
+            },
+            {
+              "tipo": "cama",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ray-barracon",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1
+          },
+          {
+            "quien": "billy-barracon",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 20,
+        "texto": "Con las prisas, el paquete de mi madre se queda en la taquilla, con las galletas y los calcetines dentro. Ya volveré a por él, pienso.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "ray-barracon",
+            "x": 0.4,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 21,
+        "texto": "Lunes, dieciocho, al caer la tarde. Nos suben a camiones descubiertos, de pie y apretados como sardinas, bajo la lluvia y la nieve. Muchos vamos sin abrigo.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "noche",
+          "clima": "lluvia",
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.35
+            },
+            {
+              "tipo": "camion",
+              "x": 0.95,
+              "escala": 0.85,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ray",
+            "x": -0.05,
+            "accion": "asustado",
+            "emocion": "cansado",
+            "mirar": 1
+          },
+          {
+            "quien": "billy",
+            "x": -0.65,
+            "accion": "asustado",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "reemplazo",
+            "x": 0.45,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 21,
+        "texto": "Ciento setenta kilómetros en línea recta, toda la noche de pie. Nadie nos dice adónde vamos, y yo ya no siento los dedos.",
+        "drama": 0.7,
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "170 km",
+          "etiqueta": "en línea recta de Mourmelon a Bastogne, de pie en camiones descubiertos, la noche del 18 al 19 de diciembre",
+          "icono": "🌧️"
+        }
+      },
+      {
+        "dia": 22,
+        "texto": "Martes, diecinueve. Llegamos de madrugada a Bastoñ, un pueblo de cuatro mil vecinos donde se cruzan siete carreteras. Quien tiene Bastoñ, mueve los tanques.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "amanecer",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.3
+            },
+            {
+              "tipo": "farola",
+              "x": -0.85
+            },
+            {
+              "tipo": "casa",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ray",
+            "x": 0.35,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "entra": "der"
+          },
+          {
+            "quien": "billy",
+            "x": -0.4,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "entra": "der",
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 22,
+        "texto": "Por la carretera bajan, en sentido contrario, soldados que se retiran, con sus abrigos largos. Muchos contaron que les pedimos munición. Yo les pido guantes.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "ray",
+            "x": 0.35,
+            "accion": "hablar",
+            "emocion": "enfado",
+            "mirar": 1
+          },
+          {
+            "quien": "retirada",
+            "x": 0.85,
+            "accion": "caminar",
+            "emocion": "miedo",
+            "mirar": -1,
+            "entra": "der",
+            "habla": false
+          }
+        ],
+        "camara": "general",
+        "fondo": {
+          "lugar": "calle",
+          "hora": "amanecer",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.3
+            },
+            {
+              "tipo": "camion",
+              "x": -0.7,
+              "escala": 0.75,
+              "detras": true
+            },
+            {
+              "tipo": "casa",
+              "x": 1.35
+            }
+          ]
+        }
+      },
+      {
+        "dia": 22,
+        "texto": "Esa noche, los alemanes capturan el hospital de la división, con unos ciento treinta médicos y sanitarios. No tenemos adónde llevar a los heridos.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "bosque",
+          "hora": "noche",
+          "clima": "nieve",
+          "sol": false,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.25
+            },
+            {
+              "tipo": "pino",
+              "x": -0.95,
+              "escala": 0.8,
+              "detras": true
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ray",
+            "x": 0.4,
+            "accion": "agachado",
+            "emocion": "miedo",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "130",
+          "etiqueta": "médicos y sanitarios del hospital de la 101.ª capturados la primera noche (11 oficiales y 119 soldados; cifra discutida)",
+          "icono": "🩺"
+        }
+      },
+      {
+        "dia": 23,
+        "texto": "Miércoles, veinte. Nos toca el noroeste, junto a dos aldeas, Emrul y Shan. Cavo mi primer agujero con la pala pequeña. La tierra está dura como el hierro.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "nieve",
+          "sol": false,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.25
+            },
+            {
+              "tipo": "pino",
+              "x": -0.95,
+              "escala": 0.8,
+              "detras": true
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "hoyo",
+              "x": -0.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ray",
+            "x": 0.35,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "mirar": -1
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 23,
+        "texto": "Al norte, por Novil, se oye combatir todo el día. Bili y yo compartimos el hoyo para darnos calor, espalda con espalda.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "ray",
+            "x": 0.35,
+            "accion": "agachado",
+            "emocion": "miedo",
+            "mirar": -1
+          },
+          {
+            "quien": "billy",
+            "x": -0.25,
+            "accion": "agachado",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 24,
+        "capitulo": "Nuts!",
+        "texto": "Jueves, veintiuno. Ya no hay salida: nos han rodeado. Alguien suelta una frase que corre de hoyo en hoyo: nos tienen rodeados, los pobres diablos.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "bosque",
+          "hora": "dia",
+          "clima": "nieve",
+          "sol": false,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.25
+            },
+            {
+              "tipo": "pino",
+              "x": -0.95,
+              "escala": 0.8,
+              "detras": true
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "hoyo",
+              "x": -0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ray-cerco",
+            "x": 0.35,
+            "accion": "agachado",
+            "emocion": "sorpresa",
+            "mirar": -1
+          },
+          {
+            "quien": "billy",
+            "x": -0.25,
+            "accion": "agachado",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 24,
+        "texto": "Dentro quedamos más de diez mil soldados y unos tres mil vecinos, que viven en los sótanos a la luz de una vela, casi sin agua ni comida.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "piedra",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.15
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.1
+            },
+            {
+              "tipo": "🕯️",
+              "x": 1.05,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vecina",
+            "x": 0.35,
+            "accion": "sentado",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "vecino",
+            "x": -0.35,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 24,
+        "texto": "En el hoyo, la ración ka se parte en dos. La barrita de chocolate es tan dura que hay que chuparla como un caramelo.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "bosque",
+          "hora": "dia",
+          "clima": "nieve",
+          "sol": false,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.25
+            },
+            {
+              "tipo": "pino",
+              "x": -0.95,
+              "escala": 0.8,
+              "detras": true
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "hoyo",
+              "x": -0.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ray-cerco",
+            "x": 0.35,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "La ración K",
+          "items": [
+            {
+              "icono": "📦",
+              "nombre": "Tres cajitas de cartón encerado"
+            },
+            {
+              "icono": "🥫",
+              "nombre": "Carne en lata"
+            },
+            {
+              "icono": "🍫",
+              "nombre": "Barrita D de chocolate"
+            },
+            {
+              "icono": "☕",
+              "nombre": "Café soluble"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 25,
+        "corte": true,
+        "texto": "Viernes, veintidós de diciembre. Cuatro alemanes con una bandera blanca llegan hasta nuestras líneas. No vienen a rendirse: nos dan dos horas para rendirnos nosotros.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "nieve",
+          "sol": false,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.25
+            },
+            {
+              "tipo": "pino",
+              "x": -0.95,
+              "escala": 0.8,
+              "detras": true
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "aleman",
+            "x": -0.2,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "🏳️",
+            "entra": "izq",
+            "habla": false
+          },
+          {
+            "quien": "aleman2",
+            "x": -0.7,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "entra": "izq",
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 25,
+        "texto": "Manda la división el general Macólif, porque nuestro jefe está en Uáshinton. Lee el papel del ultimátum y suelta una sola palabra: Nats.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "dia",
+          "pared": "piedra",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "📜",
+              "x": -0.05,
+              "escala": 0.3
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "mcauliffe",
+            "x": 0.4,
+            "accion": "pensar",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 25,
+        "texto": "Dicen que un oficial le sugirió que esa palabra valía como respuesta. Y así fue, a máquina: al comandante alemán, Nats. El comandante americano.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "mcauliffe",
+            "x": 0.4,
+            "accion": "escribir",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Al comandante alemán: ¡NUTS! El comandante estadounidense.",
+          "firma": "Respuesta del general McAuliffe, 22 de diciembre de 1944"
+        }
+      },
+      {
+        "dia": 25,
+        "texto": "El coronel Járper se la lleva a los alemanes, que no la entienden. Él se la explica a su manera: más o menos, que se vayan al infierno.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "nieve",
+          "sol": false,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.25
+            },
+            {
+              "tipo": "pino",
+              "x": -0.95,
+              "escala": 0.8,
+              "detras": true
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "harper",
+            "x": 0.4,
+            "accion": "senalar",
+            "emocion": "enfado",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "aleman",
+            "x": -0.25,
+            "accion": "cargar",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "objeto": "🏳️",
+            "habla": false
+          },
+          {
+            "quien": "aleman2",
+            "x": -0.75,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 25,
+        "texto": "Me entero por la tarde, de hoyo en hoyo. Bili se ríe tanto que se le cae el casco. Durante un rato, ninguno de los dos siente el frío.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "bosque",
+          "hora": "dia",
+          "clima": "nieve",
+          "sol": false,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.25
+            },
+            {
+              "tipo": "pino",
+              "x": -0.95,
+              "escala": 0.8,
+              "detras": true
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "hoyo",
+              "x": 0.0
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ray-cerco",
+            "x": 0.35,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "billy",
+            "x": -0.35,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 26,
+        "corte": true,
+        "texto": "Durante días no ha podido volar ni un avión. El sábado veintitrés me despierta una calma rara: la niebla se ha ido, y el cielo está limpio y helado.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.25
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "pino",
+              "x": 1.0,
+              "escala": 0.75,
+              "detras": true
+            }
+          ],
+          "nevado": true
+        },
+        "personajes": [
+          {
+            "quien": "ray-cerco",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1
+          }
+        ],
+        "camara": "subir"
+      },
+      {
+        "dia": 26,
+        "texto": "A mediodía oigo motores. Pasan aviones y más aviones, y del cielo caen paracaídas de colores. Esta vez no traen hombres: traen munición, comida y mantas.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.25
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "pino",
+              "x": 1.0,
+              "escala": 0.75,
+              "detras": true
+            },
+            {
+              "tipo": "avion",
+              "x": 0.2
+            },
+            {
+              "tipo": "paracaidas-carga",
+              "x": 0.0
+            }
+          ],
+          "nevado": true
+        },
+        "personajes": [
+          {
+            "quien": "ray-cerco",
+            "x": 0.4,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": -1
+          },
+          {
+            "quien": "billy",
+            "x": -0.4,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 26,
+        "texto": "Bili y yo salimos del hoyo gritando como en un partido. Un fardo cae en la nieve, a cien metros, con su paracaídas rojo extendido como una flor.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.25
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "pino",
+              "x": 1.0,
+              "escala": 0.75,
+              "detras": true
+            },
+            {
+              "tipo": "paracaidas-carga",
+              "x": 0.0
+            },
+            {
+              "tipo": "📦",
+              "x": -0.75,
+              "escala": 0.3
+            },
+            {
+              "tipo": "hoyo",
+              "x": 0.8
+            }
+          ],
+          "nevado": true
+        },
+        "personajes": [
+          {
+            "quien": "ray-cerco",
+            "x": 0.4,
+            "accion": "correr",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "billy",
+            "x": 0.0,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "+200",
+          "etiqueta": "aviones de transporte lanzan suministros sobre Bastogne el 23 de diciembre (entre 241 y 253, según la fuente)",
+          "prop": "paracaidas-carga"
+        }
+      },
+      {
+        "dia": 27,
+        "texto": "Domingo, veinticuatro. Nochebuena. Por la mañana nos reparten un mensaje del general. Arranca así: ¿qué tiene de feliz todo esto?, preguntaréis.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.25
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "pino",
+              "x": 1.0,
+              "escala": 0.75,
+              "detras": true
+            }
+          ],
+          "sol": false,
+          "nevado": true
+        },
+        "personajes": [
+          {
+            "quien": "ray-cerco",
+            "x": 0.4,
+            "accion": "escribir",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "sargento",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 27,
+        "texto": "Esa mañana, los vecinos de Emrul le dan al mayor Jánlon sus sábanas blancas, para que no se nos vea contra la nieve. La mía huele a jabón.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "nieve",
+          "sol": false,
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.3
+            },
+            {
+              "tipo": "casa",
+              "x": 1.35
+            },
+            {
+              "tipo": "pino",
+              "x": 1.0,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ray-sabana",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "vecina",
+            "x": -0.4,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "🧺",
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 27,
+        "corte": true,
+        "texto": "En Bastoñ, dos enfermeras belgas cuidan a soldados que no hablan su idioma: René Lemér, de allí mismo, y Augusta Chiuí, nacida en el Congo belga.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "piedra",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.15
+            },
+            {
+              "tipo": "cama",
+              "x": 1.15
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.0,
+              "escala": 0.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "augusta",
+            "x": 0.4,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "renee",
+            "x": -0.4,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 27,
+        "texto": "Esa noche, sobre las ocho y media, los aviones alemanes bombardean Bastoñ. Desde mi hoyo solo veo un resplandor rojo sobre los tejados.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.25
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "pino",
+              "x": 1.0,
+              "escala": 0.75,
+              "detras": true
+            },
+            {
+              "tipo": "casa",
+              "x": 0.6,
+              "escala": 0.6,
+              "detras": true
+            },
+            {
+              "tipo": "humo",
+              "x": 0.6,
+              "escala": 0.5
+            }
+          ],
+          "luna": false,
+          "nevado": true
+        },
+        "personajes": [
+          {
+            "quien": "ray-sabana",
+            "x": -0.3,
+            "accion": "agachado",
+            "emocion": "miedo",
+            "mirar": 1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 27,
+        "texto": "Una bomba cae sobre el puesto de socorro donde trabajan ellas. Mueren unos treinta heridos americanos, y René Lemér, que tenía treinta años. Augusta sobrevive.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "noche",
+          "clima": "despejado",
+          "luna": false,
+          "props": [
+            {
+              "tipo": "escombros",
+              "x": -1.2,
+              "escala": 0.8
+            },
+            {
+              "tipo": "casa",
+              "x": 1.3
+            },
+            {
+              "tipo": "humo",
+              "x": 1.3,
+              "escala": 0.5
+            },
+            {
+              "tipo": "farola",
+              "x": 0.85
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "dia": 27,
+        "texto": "Dicen que el médico la envolvió en un paracaídas blanco, la seda con la que ella quería coserse el vestido de novia.",
+        "drama": 0.55,
+        "personajes": [],
+        "camara": "subir",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "24 dic 1944",
+          "etiqueta": "Renée Lemaire, enfermera voluntaria de Bastogne, muere en el bombardeo del puesto de socorro. La llamaron «el ángel de Bastogne»",
+          "icono": "🕯️"
+        }
+      },
+      {
+        "dia": 27,
+        "texto": "A medianoche, en una capilla, alguien tararea Blanca Navidad, y nadie le manda callar. Yo solo miro las velas y pienso en mi hermana.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "piedra",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "🕯️",
+              "x": -0.15,
+              "escala": 0.3
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.15,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ray-cerco",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "billy",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 28,
+        "texto": "Lunes, veinticinco. Navidad. Antes del alba arranca el cañoneo, y luego llegan tanques e infantería alemana, vestida de blanco, por Shan y por Emrul.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.25
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "tanque",
+              "x": -1.05,
+              "escala": 0.5,
+              "detras": true
+            },
+            {
+              "tipo": "explosion",
+              "x": 1.2,
+              "escala": 0.8
+            },
+            {
+              "tipo": "hoyo",
+              "x": 0.0
+            }
+          ],
+          "sol": false,
+          "nevado": true
+        },
+        "personajes": [
+          {
+            "quien": "ray-sabana",
+            "x": 0.35,
+            "accion": "agachado",
+            "emocion": "miedo",
+            "mirar": -1
+          },
+          {
+            "quien": "billy",
+            "x": -0.3,
+            "accion": "agachado",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 28,
+        "texto": "En Shan se pelea casa por casa. Me tiemblan tanto las manos que no consigo meter el peine en el fusil. Bili lo mete por mí.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "ray-sabana",
+            "x": 0.35,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1
+          },
+          {
+            "quien": "billy",
+            "x": -0.3,
+            "accion": "agachado",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 28,
+        "texto": "Al caer la tarde, los tanques que entraron en nuestras líneas están destruidos. Aguantamos. Mi Navidad es una ración ka fría, partida con Bili.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.25
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "pino",
+              "x": 1.0,
+              "escala": 0.75,
+              "detras": true
+            }
+          ],
+          "sol": false,
+          "nevado": true
+        },
+        "personajes": [
+          {
+            "quien": "ray-sabana",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1
+          },
+          {
+            "quien": "billy",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 29,
+        "texto": "Martes, veintiséis. Por la mañana baja un planeador con médicos. Y al atardecer, por la radio, oigo un nombre: Asenuá. Los tanques de Páton han llegado.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.25
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "pino",
+              "x": 1.0,
+              "escala": 0.75,
+              "detras": true
+            }
+          ],
+          "sol": false,
+          "nevado": true
+        },
+        "personajes": [
+          {
+            "quien": "ray-cerco",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1
+          },
+          {
+            "quien": "sargento",
+            "x": -0.4,
+            "accion": "senalar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 29,
+        "texto": "El primero es un tanque llamado Cobra King. Su teniente, Bógues, le da la mano al primer paracaidista que encuentra, un teniente de ingenieros. La puerta está abierta.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "ray-cerco",
+            "x": 0.5,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "sargento",
+            "x": 0.05,
+            "accion": "senalar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "26 dic",
+          "etiqueta": "al atardecer, el tanque «Cobra King» del teniente Charles Boggess (4.ª División Acorazada) llega al perímetro por Assenois",
+          "icono": "🗺️"
+        },
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "sol": false,
+          "nevado": true,
+          "props": [
+            {
+              "tipo": "pino",
+              "x": 1.35
+            },
+            {
+              "tipo": "tanque",
+              "x": -0.95,
+              "escala": 0.75,
+              "detras": true
+            }
+          ]
+        }
+      },
+      {
+        "dia": 30,
+        "texto": "Miércoles, veintisiete. Por el pasillo salen los heridos y entran camiones con comida. Me quito las botas por primera vez en una semana: tengo los pies blancos.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.25
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "camion",
+              "x": -0.95,
+              "escala": 0.7,
+              "detras": true
+            }
+          ],
+          "sol": false,
+          "nevado": true
+        },
+        "personajes": [
+          {
+            "quien": "ray-cerco",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 30,
+        "texto": "Me froto los pies, como nos enseñaron, y me pongo unos calcetines secos. Pero nadie se va a casa. La batalla de Bastoñ no ha terminado.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "ray-cerco",
+            "x": 0.4,
+            "accion": "pensar",
+            "emocion": "cansado",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Seguimos allí hasta enero, con más frío y más bajas. En Bastoñ, la ciento uno tuvo trescientos cuarenta y un muertos y más de dos mil heridos y desaparecidos.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "cruz",
+              "x": -0.9
+            },
+            {
+              "tipo": "cruz",
+              "x": -0.55
+            },
+            {
+              "tipo": "bandera-eeuu",
+              "x": 1.1
+            },
+            {
+              "tipo": "pino",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ray-cerco",
+            "x": 0.35,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "341",
+          "etiqueta": "muertos de la 101.ª en Bastogne (19 dic – 6 ene), con 1.691 heridos y 516 desaparecidos",
+          "icono": "🕯️"
+        }
+      },
+      {
+        "texto": "¿Rescatados? A ninguno de la ciento uno le gustó nunca esa palabra. Nosotros aguantamos; la cuarta acorazada nos abrió la puerta.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "ray-cerco",
+            "x": 0.35,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "El mayor Jánlon cumplió su promesa: volvió con sábanas de su pueblo, un par para cada vecino de Emrul y más de seiscientas para el asilo de Bastoñ.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.3
+            },
+            {
+              "tipo": "casa",
+              "x": 1.35
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.0,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vecina",
+            "x": 0.35,
+            "accion": "cargar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "objeto": "🧺",
+            "habla": false
+          },
+          {
+            "quien": "vecino",
+            "x": -0.35,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Augusta Chiuí pasó décadas olvidada. En dos mil once, Bélgica la nombró caballero y el ejército americano la premió. Murió en dos mil quince.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "augusta",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "A René Lemér la llamaron el ángel de Bastoñ. Está enterrada allí, y su tumba se sigue visitando.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "sol": false,
+          "props": [
+            {
+              "tipo": "tumba",
+              "x": -0.2
+            },
+            {
+              "tipo": "🌼",
+              "x": 0.15,
+              "escala": 0.25
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.2
+            },
+            {
+              "tipo": "pino",
+              "x": -1.3
+            }
+          ],
+          "nevado": true
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Y la Shampein Boul se jugó por fin en dos mil dieciocho: setenta y cuatro años tarde.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "bandera-eeuu",
+              "x": -1.15
+            },
+            {
+              "tipo": "tienda",
+              "x": 1.2
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.45,
+              "detras": true
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ray",
+            "x": 0.4,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Cuando por fin volví a Murmelón, el paquete de mi madre seguía en la taquilla. Las galletas se habían convertido en polvo de canela. Los calcetines, no.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "dia",
+          "pared": "madera",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.15
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.1
+            },
+            {
+              "tipo": "✉️",
+              "x": 1.05,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ray-barracon",
+            "x": 0.35,
+            "accion": "cargar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "objeto": "🧦"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Rei Molina, su familia y Bili Dan son inventados. El quinientos dos, Emrul y sus sábanas, Nats, los paracaídas, René Lemér, Augusta Chiuí y Bógues son reales.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "pino",
+              "x": -1.25
+            },
+            {
+              "tipo": "pino",
+              "x": 1.3
+            },
+            {
+              "tipo": "pino",
+              "x": 1.0,
+              "escala": 0.75,
+              "detras": true
+            }
+          ],
+          "nevado": true
+        },
+        "personajes": [
+          {
+            "quien": "ray-cerco",
+            "x": 0.4,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "billy",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Y tú, ¿qué le habrías contestado a aquel ultimátum? Cuéntamelo en los comentarios, y suscríbete para vivir el próximo mes en la piel de otra persona.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "ray-cerco",
+            "x": 0.4,
+            "accion": "saludar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "billy",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      }
+    ]
+  },
+  "ganchos": [
+    {
+      "desde": 18,
+      "hasta": 21,
+      "rotulo": "A LA GUERRA SIN ABRIGO",
+      "titulo": "Íbamos a jugar un partido en Navidad. Acabamos en Bastogne",
+      "descripcion": "17 de diciembre de 1944: la 101.ª Aerotransportada descansa en Francia cuando llega la alerta. Al día siguiente, de pie en camiones descubiertos, sin abrigos de invierno, rumbo a Bastogne. #shorts #historia #bastogne #segundaguerramundial"
+    },
+    {
+      "desde": 30,
+      "hasta": 33,
+      "rotulo": "DOS HORAS PARA RENDIRSE",
+      "titulo": "Le dieron dos horas para rendirse y contestó con una palabra: NUTS!",
+      "descripcion": "Bastogne, 22 de diciembre de 1944: el ultimátum alemán y la respuesta del general McAuliffe que hubo que explicar a los parlamentarios. #shorts #historia #bastogne #nuts #segundaguerramundial"
+    },
+    {
+      "desde": 35,
+      "hasta": 38,
+      "rotulo": "EL CIELO SE ABRE",
+      "titulo": "Esta vez los paracaídas no traían hombres",
+      "descripcion": "23 de diciembre de 1944: se abre el cielo sobre Bastogne y más de 200 aviones lanzan munición, comida y mantas a los rodeados. #shorts #historia #bastogne #segundaguerramundial"
+    },
+    {
+      "desde": 40,
+      "hasta": 44,
+      "rotulo": "NOCHEBUENA EN BASTOGNE",
+      "titulo": "La enfermera que murió en Nochebuena cuidando a soldados extranjeros",
+      "descripcion": "Renée Lemaire y Augusta Chiwy, dos enfermeras belgas en el asedio de Bastogne. En Nochebuena de 1944, un bombardeo alcanzó su puesto de socorro. En su memoria. #shorts #historia #bastogne #segundaguerramundial"
+    }
+  ],
+  "publicacion": {
+    "tituloLargo": "Un mes en la vida de UN PARACAIDISTA EN BASTOGNE | Ardenas, 1944",
+    "tituloCorto": "Bastogne, 1944",
+    "tituloShort": "Le dieron dos horas para rendirse. Contestó: NUTS!",
+    "capituloInicial": "Dos horas para rendirse",
+    "descripcion": "Treinta días en la vida de Ray Molina, 20 años, de San Antonio (Texas), soldado paracaidista de la compañía A del 1.er Batallón del 502.º Regimiento de Infantería Paracaidista (101.ª División Aerotransportada), del 28 de noviembre al 27 de diciembre de 1944: el descanso en Mourmelon-le-Grand tras 72 días de combate en Holanda, los 100 dólares de paga, el paquete de Navidad de su madre, la «Champagne Bowl» que nunca se jugó, el viaje de pie en camiones descubiertos y sin abrigos, y el asedio de Bastogne (Bélgica): el hospital de la división capturado la primera noche, el ultimátum alemán del 22 de diciembre y la respuesta del general McAuliffe («NUTS!»), los lanzamientos del 23, las sábanas blancas de los vecinos de Hemroulle, el bombardeo de Nochebuena, el ataque del día de Navidad por Champs y la llegada de la 4.ª División Acorazada por Assenois el 26. Sin escenas gráficas, con respeto por todas las víctimas, también las civiles.\n\n— Semana 1: Un techo y una cama\n— Semana 2: Champaña y barro\n— Semana 3: Los camiones\n— Semana 4: Nuts!\n— Epílogo: las bajas de la 101.ª, la polémica del «rescate», las sábanas devueltas por Hanlon, Augusta Chiwy, Renée Lemaire y la Champagne Bowl de 2018\n\nQué es inventado y qué es real: Ray Molina, su madre Socorro, su hermana Lupe, su amigo Billy Dunn y el sargento son INVENTADOS, igual que lo que piensan y viven. Son reales el 502.º Regimiento y su sector de Hemroulle y Champs, el mayor John Hanlon y las sábanas de los vecinos de Hemroulle, el general Anthony McAuliffe y su respuesta, el coronel Joseph Harper, el mensaje de Navidad a la tropa, los lanzamientos del 23 de diciembre, la captura del hospital de la 326.ª Compañía Médica, las enfermeras Renée Lemaire y Augusta Chiwy, el tanque «Cobra King» del teniente Charles Boggess y todas las cifras del vídeo. Las personas reales aparecen solo con hechos documentados; Ray no habla con ninguna.\n\nDetalles discutidos se cuentan como tales: quién sugirió usar «Nuts!» como respuesta, las palabras exactas de Harper, el autor de la frase «nos tienen rodeados, los pobres diablos», la cifra de muertos del bombardeo de Nochebuena (25–30) y el paracaídas con el que Renée quería hacerse el vestido de novia (lo contó el médico Jack Prior). Los veteranos de la 101.ª siempre negaron que los «rescataran»: la 4.ª Acorazada abrió un pasillo.\n\nFuentes: U.S. Army («The story of the NUTS! reply», «Air Borne to the Airborne», «Cobra King»); Col. Ralph M. Mitchell, «The 101st Airborne Division's Defense of Bastogne» (Combat Studies Institute); S. L. A. Marshall, «Bastogne: The First Eight Days»; Archivos Nacionales de EE. UU. (Prologue y el mensaje de Navidad de McAuliffe); National WWII Glider Pilots Association; informes de la 326.ª Compañía Médica; DVIDS; Military.com; Peter Schrijvers, «Those Who Hold Bastogne» (Yale University Press); Departamento de Defensa de EE. UU. y Europe Remembers (Augusta Chiwy); Liberation Route (Renée Lemaire y Assenois); RealClearHistory (las sábanas de Hanlon).",
+    "etiquetas": [
+      "un mes en la vida de",
+      "Bastogne",
+      "1944",
+      "batalla de las Ardenas",
+      "Nuts",
+      "McAuliffe",
+      "101 Aerotransportada",
+      "paracaidistas",
+      "Segunda Guerra Mundial",
+      "Augusta Chiwy",
+      "Renée Lemaire",
+      "Hemroulle",
+      "Navidad de 1944",
+      "historia",
+      "animación"
+    ],
+    "miniatura": {
+      "texto": "UNA PALABRA: NUTS!",
+      "escena": 0,
+      "quien": "ray-cerco",
+      "emocion": "miedo",
+      "icono": "📜"
+    }
+  },
+  "grafias": {
+    "Bastoñ": "Bastogne",
+    "Murmelón": "Mourmelon",
+    "Rens": "Reims",
+    "Rei": "Ray",
+    "Tejas": "Texas",
+    "Bili": "Billy",
+    "Dan": "Dunn",
+    "Oaio": "Ohio",
+    "Shampein": "Champagne",
+    "Boul": "Bowl",
+    "Emrul": "Hemroulle",
+    "Shan": "Champs",
+    "Novil": "Noville",
+    "ka": "K",
+    "Táilor": "Taylor",
+    "Uáshinton": "Washington",
+    "Macólif": "McAuliffe",
+    "Nats": "Nuts",
+    "Járper": "Harper",
+    "Jánlon": "Hanlon",
+    "René": "Renée",
+    "Lemér": "Lemaire",
+    "Chiuí": "Chiwy",
+    "Asenuá": "Assenois",
+    "Páton": "Patton",
+    "Bógues": "Boggess",
+    "Uínchester": "Winchester"
+  }
+}

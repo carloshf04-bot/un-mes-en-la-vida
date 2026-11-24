@@ -1,0 +1,3116 @@
+{
+  "slug": "wright-1903",
+  "titulo": "los hermanos Wright",
+  "lugar": "Kill Devil Hills (Kitty Hawk), Carolina del Norte",
+  "epoca": "Noviembre y diciembre de 1903",
+  "categoria": "persona",
+  "drama": 0.65,
+  "velocidad": 1.15,
+  "musica": "epico",
+  "paleta": {
+    "acento": "#d9a441",
+    "texto": "#f4efe4",
+    "fondo": "#101722",
+    "papel": "#efe6d0"
+  },
+  "reparto": {
+    "orville": {
+      "piel": "#ecc8a8",
+      "pelo": "#6b4a2e",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#55585e",
+        "color2": "#4a4d53",
+        "detalle": "#6e2a2a"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#3e3b36",
+      "gafas": false,
+      "zapatos": "#1a1714"
+    },
+    "orvillecasa": {
+      "piel": "#ecc8a8",
+      "pelo": "#6b4a2e",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#55585e",
+        "color2": "#4a4d53",
+        "detalle": "#6e2a2a"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "zapatos": "#1a1714"
+    },
+    "orvilleabrigo": {
+      "piel": "#ecc8a8",
+      "pelo": "#6b4a2e",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#2d2c2a",
+        "color2": "#4a4d53",
+        "detalle": "#6e2a2a"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#3e3b36",
+      "gafas": false,
+      "zapatos": "#1a1714"
+    },
+    "orvilleviejo": {
+      "piel": "#e6c2a4",
+      "pelo": "#cfcac2",
+      "peinado": "coronilla",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#4a4d53",
+        "color2": "#3e4146",
+        "detalle": "#6e2a2a"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "zapatos": "#1a1714"
+    },
+    "wilbur": {
+      "piel": "#e9c4a2",
+      "pelo": "#5a4430",
+      "peinado": "calvo",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#26282c",
+        "color2": "#2f3136",
+        "detalle": "#141416"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#8a7c64",
+      "gafas": false,
+      "altura": 1.07,
+      "zapatos": "#1a1714"
+    },
+    "wilburcasa": {
+      "piel": "#e9c4a2",
+      "pelo": "#5a4430",
+      "peinado": "calvo",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#26282c",
+        "color2": "#2f3136",
+        "detalle": "#141416"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 1.07,
+      "zapatos": "#1a1714"
+    },
+    "wilburabrigo": {
+      "piel": "#e9c4a2",
+      "pelo": "#5a4430",
+      "peinado": "calvo",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#5b4a3a",
+        "color2": "#2f3136",
+        "detalle": "#141416"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#8a7c64",
+      "gafas": false,
+      "altura": 1.07,
+      "zapatos": "#1a1714"
+    },
+    "daniels": {
+      "piel": "#d9ab84",
+      "pelo": "#2e2218",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#26324a",
+        "color2": "#3a3428",
+        "detalle": "#1c2436"
+      },
+      "sombrero": "ala",
+      "colorSombrero": "#4a3f30",
+      "gafas": false,
+      "altura": 1.03,
+      "zapatos": "#2a1f16"
+    },
+    "etheridge": {
+      "piel": "#dfb38e",
+      "pelo": "#4a3424",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#b8913a",
+        "color2": "#2e2a24",
+        "detalle": "#8a6a2a"
+      },
+      "sombrero": "gorro-lana",
+      "colorSombrero": "#2a3040",
+      "gafas": false,
+      "zapatos": "#2a1f16"
+    },
+    "dough": {
+      "piel": "#d4a47c",
+      "pelo": "#1e1a16",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "cuadros",
+        "color": "#7a3a2a",
+        "color2": "#3a2a22",
+        "detalle": "#2e2a26"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#3a3a3a",
+      "gafas": false,
+      "zapatos": "#2a1f16"
+    },
+    "brinkley": {
+      "piel": "#e2b994",
+      "pelo": "#6a6258",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#6a5238",
+        "color2": "#4e3e2c",
+        "detalle": "#3a2a1e"
+      },
+      "sombrero": "ala",
+      "colorSombrero": "#2e241a",
+      "gafas": false,
+      "zapatos": "#2a1f16"
+    },
+    "johnny": {
+      "piel": "#ecc4a0",
+      "pelo": "#a8743e",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#8a7a5a",
+        "color2": "#4a4436",
+        "detalle": "#6a5a40"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#5a4a3a",
+      "gafas": false,
+      "altura": 0.8,
+      "zapatos": "#3a2e22"
+    },
+    "taylor": {
+      "piel": "#e2b690",
+      "pelo": "#3a2a1e",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "mono",
+        "color": "#3a4a5e",
+        "color2": "#3a4a5e",
+        "detalle": "#2a3444"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "zapatos": "#2a1f16"
+    },
+    "milton": {
+      "piel": "#e8c6aa",
+      "pelo": "#e6e3dc",
+      "peinado": "coronilla",
+      "barba": "larga",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#1a1a1e",
+        "color2": "#26262a",
+        "detalle": "#1a1a1e"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "zapatos": "#1a1714"
+    },
+    "katharine": {
+      "piel": "#f0d2bc",
+      "pelo": "#5a3e2a",
+      "peinado": "mono",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#2a2a36",
+        "color2": "#2a2a36",
+        "detalle": "#f2efe6"
+      },
+      "sombrero": "ninguno",
+      "gafas": true,
+      "voz": "narradora-es",
+      "zapatos": "#1a1714"
+    },
+    "langley": {
+      "piel": "#e8c8ae",
+      "pelo": "#e2ddd4",
+      "peinado": "coronilla",
+      "barba": "patillas",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#151517",
+        "color2": "#26262a",
+        "detalle": "#151517"
+      },
+      "sombrero": "copa",
+      "colorSombrero": "#121214",
+      "gafas": false,
+      "zapatos": "#1a1714"
+    }
+  },
+  "largo": {
+    "escenas": [
+      {
+        "corte": true,
+        "texto": "El Niu Iork Taims escribió que el ser humano tardaría entre uno y diez millones de años en volar. Mi hermano y yo tardamos sesenta y nueve días.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "cobertizo",
+              "x": -1.05,
+              "escala": 0.75,
+              "detras": true
+            },
+            {
+              "tipo": "cobertizo",
+              "x": 1.05,
+              "escala": 0.65,
+              "detras": true
+            },
+            {
+              "tipo": "charco",
+              "x": 0.7,
+              "escala": 0.7
+            },
+            {
+              "tipo": "flyer",
+              "x": -0.35,
+              "escala": 0.8
+            }
+          ],
+          "sol": false
+        },
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.45,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Me llamo Órvil Rait, tengo treinta y dos años y arreglo bicicletas en Déiton, Ojáio, con mi hermano Uílbur. Queremos algo que nadie ha conseguido: volar con motor y gobernar el aparato. Y lo vamos a conseguir en una playa helada.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.4
+            },
+            {
+              "tipo": "maquina",
+              "x": -0.85,
+              "escala": 0.8
+            },
+            {
+              "tipo": "yunque",
+              "x": 0.75,
+              "escala": 0.9
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.2
+            },
+            {
+              "tipo": "🚲",
+              "x": 1.15,
+              "escala": 0.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orvillecasa",
+            "x": 0.35,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1
+          },
+          {
+            "quien": "wilburcasa",
+            "x": -0.45,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Dayton, Ohio",
+          "detalle": "Estados Unidos · 1903",
+          "icono": "📍"
+        }
+      },
+      {
+        "texto": "Las fechas, los vuelos, los telegramas y mi diario son reales. Lo que pienso y las escenas de cada día, lo imaginamos. Y todo empieza con un tubo de acero roto.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estufa",
+              "x": -1.05
+            },
+            {
+              "tipo": "cajas",
+              "x": -1.45,
+              "escala": 0.8
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "barril",
+              "x": 1.5,
+              "escala": 0.8
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.85,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orvillecasa",
+            "x": 0.35,
+            "accion": "escribir",
+            "emocion": "neutral",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 1,
+        "capitulo": "Un tubo que se rompe",
+        "corte": true,
+        "texto": "Es viernes, veinte de noviembre de mil novecientos tres. Hoy llegan por fin de Déiton los ejes de las hélices, reparados. Llevamos dos semanas esperándolos.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "cobertizo",
+              "x": -1.0,
+              "escala": 1.0
+            },
+            {
+              "tipo": "cobertizo",
+              "x": 1.05,
+              "escala": 0.8
+            },
+            {
+              "tipo": "cajas",
+              "x": -0.45,
+              "escala": 0.6
+            },
+            {
+              "tipo": "bandera",
+              "x": 1.45,
+              "escala": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.4,
+            "accion": "cargar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "objeto": "📦",
+            "entra": "der"
+          },
+          {
+            "quien": "wilbur",
+            "x": -0.1,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Kill Devil Hills",
+          "detalle": "Carolina del Norte · noviembre de 1903",
+          "icono": "📍"
+        }
+      },
+      {
+        "dia": 1,
+        "texto": "Vivimos junto a la gran duna de Kil Dével Jils, a seis kilómetros del pueblo de Kiti Jok. Arena, viento del norte, el mar gris… y nada más.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.35,
+              "escala": 0.8
+            },
+            {
+              "tipo": "bandera",
+              "x": 1.35,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.45,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 1,
+        "texto": "Tenemos dos barracones de tablas: en el viejo cocino y dormimos; en el nuevo guardamos nuestro tesoro.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "cobertizo",
+              "x": -1.0,
+              "escala": 1.0
+            },
+            {
+              "tipo": "cobertizo",
+              "x": 1.05,
+              "escala": 0.8
+            },
+            {
+              "tipo": "cajas",
+              "x": -0.45,
+              "escala": 0.6
+            },
+            {
+              "tipo": "bandera",
+              "x": 1.45,
+              "escala": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.45,
+            "accion": "senalar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "wilbur",
+            "x": 0.05,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 1,
+        "texto": "Dos alas de tela clara, una encima de otra, de doce metros de punta a punta, sobre un armazón de madera de abeto. Lo llamamos el Fláier.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "cajas",
+              "x": -1.4,
+              "escala": 0.8
+            },
+            {
+              "tipo": "maquina",
+              "x": -0.75,
+              "escala": 0.75
+            },
+            {
+              "tipo": "flyer",
+              "x": 0.85,
+              "escala": 0.7
+            },
+            {
+              "tipo": "barril",
+              "x": 1.5,
+              "escala": 0.7
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.3,
+            "accion": "senalar",
+            "emocion": "feliz",
+            "mirar": 1
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "12,3 m",
+          "etiqueta": "de envergadura; 274 kg en vacío (Wright Flyer de 1903)",
+          "icono": "📏"
+        }
+      },
+      {
+        "dia": 1,
+        "texto": "El piloto va tumbado boca abajo en el ala de abajo y, moviendo las caderas, tuerce las alas y gira el timón de cola.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.3,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1
+          },
+          {
+            "quien": "wilbur",
+            "x": -0.45,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "entra": "izq"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 1,
+        "texto": "Nuestro mecánico, Charli Téilor, hizo el motor en seis semanas, con unos dibujos a mano: unos doce caballos, pagados con el taller de bicicletas.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.4
+            },
+            {
+              "tipo": "maquina",
+              "x": -0.85,
+              "escala": 0.8
+            },
+            {
+              "tipo": "yunque",
+              "x": 0.75,
+              "escala": 0.9
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.2
+            },
+            {
+              "tipo": "🚲",
+              "x": 1.15,
+              "escala": 0.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "taylor",
+            "x": 0.35,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "orvillecasa",
+            "x": -0.4,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "12 CV",
+          "etiqueta": "motor de cuatro cilindros de Charlie Taylor, hecho en unas seis semanas",
+          "icono": "⚙️"
+        }
+      },
+      {
+        "dia": 1,
+        "texto": "Pero el cinco de noviembre, en la primera prueba, las sacudidas del motor desgarraron los ejes de las hélices, y nuestro amigo Sprat se los llevó para mandarlos a Déiton.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "cajas",
+              "x": -1.4,
+              "escala": 0.8
+            },
+            {
+              "tipo": "maquina",
+              "x": -0.75,
+              "escala": 0.75
+            },
+            {
+              "tipo": "flyer",
+              "x": 0.85,
+              "escala": 0.7
+            },
+            {
+              "tipo": "barril",
+              "x": 1.5,
+              "escala": 0.7
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.3,
+            "accion": "triste",
+            "emocion": "cansado",
+            "mirar": 1
+          },
+          {
+            "quien": "wilbur",
+            "x": -0.45,
+            "accion": "pensar",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 1,
+        "texto": "Hoy los montamos otra vez, y el magneto, la pieza que da la chispa, vuelve a fallar.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.3,
+            "accion": "trabajar",
+            "emocion": "enfado",
+            "mirar": -1
+          },
+          {
+            "quien": "wilbur",
+            "x": -0.45,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 3,
+        "texto": "Pasan los días entre el frío y las pruebas. La arena se mete en todo: en la comida, en las camas, en el motor.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estufa",
+              "x": -1.05
+            },
+            {
+              "tipo": "cajas",
+              "x": -1.45,
+              "escala": 0.8
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "barril",
+              "x": 1.5,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orvillecasa",
+            "x": 0.4,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "mirar": -1
+          },
+          {
+            "quien": "wilburcasa",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 4,
+        "texto": "Yo soy el cocinero. Hago galletas sin leche, porque aquí no hay pan fresco, abrimos latas de conserva, y el café sale de una cafetera que me fabriqué al llegar.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "orvillecasa",
+            "x": 0.4,
+            "accion": "cargar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "objeto": "☕"
+          },
+          {
+            "quien": "wilburcasa",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 5,
+        "texto": "El martes sacamos el aparato y lo ponemos sobre su raíl de lanzamiento: un carril de madera de dieciocho metros tendido en la arena.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.35,
+              "escala": 0.8
+            },
+            {
+              "tipo": "flyer",
+              "x": -0.4,
+              "escala": 0.8
+            },
+            {
+              "tipo": "bandera",
+              "x": 1.35,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.45,
+            "accion": "senalar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "wilbur",
+            "x": 0.05,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "18 m",
+          "etiqueta": "raíl de lanzamiento de madera (60 pies)",
+          "icono": "🛤️"
+        }
+      },
+      {
+        "dia": 6,
+        "texto": "Para las noches de frío nos fabricamos una estufa con un bidón que había tenido carburo de las lámparas.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estufa",
+              "x": -1.05
+            },
+            {
+              "tipo": "cajas",
+              "x": -1.45,
+              "escala": 0.8
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "barril",
+              "x": 1.5,
+              "escala": 0.8
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.85,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orvillecasa",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1
+          },
+          {
+            "quien": "wilburcasa",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 9,
+        "texto": "Sábado, veintiocho de noviembre. Probando el motor bajo techo vemos algo raro: uno de los ejes de tubo de acero está agrietado. Un tubo hueco no aguanta los golpes de un motor de gasolina.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "cajas",
+              "x": -1.4,
+              "escala": 0.8
+            },
+            {
+              "tipo": "maquina",
+              "x": -0.75,
+              "escala": 0.75
+            },
+            {
+              "tipo": "flyer",
+              "x": 0.85,
+              "escala": 0.7
+            },
+            {
+              "tipo": "barril",
+              "x": 1.5,
+              "escala": 0.7
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.3,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1
+          },
+          {
+            "quien": "wilbur",
+            "x": -0.45,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 9,
+        "texto": "Decidimos hacerlos macizos, de acero de muelle. Y eso solo se puede hacer en un sitio: nuestro taller de Déiton.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "cobertizo",
+              "x": -1.0,
+              "escala": 1.0
+            },
+            {
+              "tipo": "cobertizo",
+              "x": 1.05,
+              "escala": 0.8
+            },
+            {
+              "tipo": "cajas",
+              "x": -0.45,
+              "escala": 0.6
+            },
+            {
+              "tipo": "bandera",
+              "x": 1.45,
+              "escala": 0.9
+            }
+          ],
+          "sol": false
+        },
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.4,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "wilbur",
+            "x": -0.3,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 11,
+        "capitulo": "El viaje de los ejes",
+        "corte": true,
+        "texto": "Lunes, treinta de noviembre. Me voy a Déiton con los ejes rotos: barca, tren y más de mil kilómetros. Uílbur se queda solo en el campamento.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "cobertizo",
+              "x": -1.0,
+              "escala": 1.0
+            },
+            {
+              "tipo": "cobertizo",
+              "x": 1.05,
+              "escala": 0.8
+            },
+            {
+              "tipo": "cajas",
+              "x": -0.45,
+              "escala": 0.6
+            },
+            {
+              "tipo": "bandera",
+              "x": 1.45,
+              "escala": 0.9
+            }
+          ],
+          "sol": false
+        },
+        "personajes": [
+          {
+            "quien": "orvilleabrigo",
+            "x": 0.45,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "🧳",
+            "sale": "der"
+          },
+          {
+            "quien": "wilbur",
+            "x": -0.2,
+            "accion": "saludar",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 13,
+        "texto": "En el taller, Charli Téilor y yo nos ponemos con los ejes nuevos. Esta vez, de acero macizo.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estanteria",
+              "x": -1.4
+            },
+            {
+              "tipo": "maquina",
+              "x": -0.85,
+              "escala": 0.8
+            },
+            {
+              "tipo": "yunque",
+              "x": 0.75,
+              "escala": 0.9
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.2
+            },
+            {
+              "tipo": "🚲",
+              "x": 1.15,
+              "escala": 0.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orvillecasa",
+            "x": 0.35,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "taylor",
+            "x": -0.4,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Los ejes de las hélices",
+          "items": [
+            {
+              "icono": "🔩",
+              "nombre": "Tubo de acero: falla el 5 y el 28 de noviembre"
+            },
+            {
+              "icono": "⚙️",
+              "nombre": "Acero de muelle macizo: hechos en Dayton"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 14,
+        "texto": "En casa, mi padre, el obispo Mílton Rait, y mi hermana Cáterin, que es maestra, quieren saberlo todo.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "papel",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "chimenea",
+              "x": -1.1
+            },
+            {
+              "tipo": "cuadro",
+              "x": -0.4,
+              "escala": 0.7
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.9,
+              "escala": 0.3
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orvillecasa",
+            "x": 0.45,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "milton",
+            "x": -0.1,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "katharine",
+            "x": -0.65,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 15,
+        "texto": "Imagino a Uílbur allí, solo, con el aparato tapado y la luna llena sobre la arena. De esos días no queda casi nada escrito.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "cobertizo",
+              "x": -1.0,
+              "escala": 1.0
+            },
+            {
+              "tipo": "cobertizo",
+              "x": 1.05,
+              "escala": 0.8
+            },
+            {
+              "tipo": "cajas",
+              "x": -0.45,
+              "escala": 0.6
+            }
+          ],
+          "luna": true
+        },
+        "personajes": [
+          {
+            "quien": "wilburabrigo",
+            "x": 0.4,
+            "accion": "pensar",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 19,
+        "corte": true,
+        "texto": "El científico más famoso de América tenía cincuenta mil dólares del Ejército. Nosotros, un taller de bicicletas.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.3
+            },
+            {
+              "tipo": "farola",
+              "x": -0.75
+            },
+            {
+              "tipo": "casa",
+              "x": 1.25
+            },
+            {
+              "tipo": "carro",
+              "x": 1.55,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orvilleabrigo",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "objeto": "📰",
+            "habla": false
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "50.000 $",
+          "etiqueta": "del Departamento de Guerra para el Aerodrome de Langley; los Wright gastaron unos 1.000 $ en cuatro años",
+          "icono": "💰"
+        }
+      },
+      {
+        "dia": 19,
+        "texto": "Se llama Samuel Lángli y dirige el Smitsónian, en Washington. Su máquina, el aeródromo, lleva un motor cuatro veces más potente que el nuestro.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "barco",
+              "x": 0.3,
+              "escala": 0.8
+            },
+            {
+              "tipo": "bote",
+              "x": -0.8,
+              "escala": 0.6
+            },
+            {
+              "tipo": "arbol",
+              "x": -1.4
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "langley",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 19,
+        "texto": "Se lanza con una catapulta desde el techo de una casa flotante, en el río Potómac. El siete de octubre se cayó al agua nada más salir.",
+        "drama": 0.65,
+        "personajes": [],
+        "camara": "general"
+      },
+      {
+        "dia": 19,
+        "texto": "Dos días después, el Niu Iork Taims se burló: una máquina que vuele de verdad podría tardar entre uno y diez millones de años.",
+        "drama": 0.7,
+        "personajes": [],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Máquinas voladoras que no vuelan… podrían tardar de uno a diez millones de años.",
+          "firma": "The New York Times, 9 de octubre de 1903 (editorial, paráfrasis)"
+        }
+      },
+      {
+        "dia": 19,
+        "texto": "Y hoy, martes ocho de diciembre, Lángli lo intenta otra vez. El aparato se rompe al salir de la catapulta y cae de nuevo al Potómac helado.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "rio",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "barco",
+              "x": 0.3,
+              "escala": 0.8
+            },
+            {
+              "tipo": "bote",
+              "x": -0.8,
+              "escala": 0.6
+            },
+            {
+              "tipo": "arbol",
+              "x": -1.4
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "dia": 19,
+        "texto": "Su piloto, Charls Mánli, sale ileso. Lángli era un científico serio, pero no volverá a intentarlo. La carrera queda en manos de dos mecánicos de bicicletas.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.3
+            },
+            {
+              "tipo": "farola",
+              "x": -0.75
+            },
+            {
+              "tipo": "casa",
+              "x": 1.25
+            },
+            {
+              "tipo": "carro",
+              "x": 1.55,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orvilleabrigo",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "objeto": "📰"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 22,
+        "capitulo": "Cara o cruz",
+        "corte": true,
+        "texto": "Viernes, once de diciembre. Vuelvo al campamento con los ejes nuevos, macizos. Uílbur ha aguantado solo casi dos semanas.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "cobertizo",
+              "x": -1.0,
+              "escala": 1.0
+            },
+            {
+              "tipo": "cobertizo",
+              "x": 1.05,
+              "escala": 0.8
+            },
+            {
+              "tipo": "cajas",
+              "x": -0.45,
+              "escala": 0.6
+            },
+            {
+              "tipo": "bandera",
+              "x": 1.45,
+              "escala": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orvilleabrigo",
+            "x": 0.27,
+            "accion": "dar-mano",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "wilbur",
+            "x": -0.27,
+            "accion": "dar-mano",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 23,
+        "texto": "El sábado montamos los ejes y probamos el aparato en el raíl, pero el viento es demasiado flojo para despegar desde el llano.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.35,
+              "escala": 0.8
+            },
+            {
+              "tipo": "flyer",
+              "x": -0.4,
+              "escala": 0.8
+            },
+            {
+              "tipo": "bandera",
+              "x": 1.35,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.45,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "wilbur",
+            "x": 0.05,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 25,
+        "corte": true,
+        "texto": "Nos jugamos a cara o cruz quién iba a ser el primer hombre en volar. Lunes, catorce de diciembre: llevamos el raíl a la ladera de la gran duna.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.35,
+              "escala": 0.8
+            },
+            {
+              "tipo": "flyer",
+              "x": -0.4,
+              "escala": 0.8
+            },
+            {
+              "tipo": "bandera",
+              "x": 1.35,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.45,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "wilbur",
+            "x": 0.0,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 25,
+        "texto": "Ponemos la señal para la estación de salvamento. Llegan varios socorristas y dos niños, que salen corriendo en cuanto arranca el motor.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.55,
+            "accion": "senalar",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "daniels",
+            "x": 0.15,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false,
+            "entra": "der"
+          },
+          {
+            "quien": "etheridge",
+            "x": 0.85,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false,
+            "entra": "der"
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 25,
+        "texto": "Echamos una moneda al aire. La moneda gira, cae en la arena… y gana Uílbur.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "objeto": "🪙"
+          },
+          {
+            "quien": "wilbur",
+            "x": -0.4,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 25,
+        "texto": "Se tumba en el ala, suelta el cable y el aparato baja por el raíl. Se levanta… pero Uílbur sube demasiado el morro.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.35,
+              "escala": 0.8
+            },
+            {
+              "tipo": "flyer-vuelo",
+              "x": -0.4,
+              "escala": 0.8
+            },
+            {
+              "tipo": "bandera",
+              "x": 1.35,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.55,
+            "accion": "correr",
+            "emocion": "miedo",
+            "mirar": -1
+          },
+          {
+            "quien": "daniels",
+            "x": 1.0,
+            "accion": "asustado",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 25,
+        "texto": "Tres segundos y medio en el aire. El aparato se frena, cae y se posa treinta y dos metros más abajo, con la parte delantera rota.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.35,
+              "escala": 0.8
+            },
+            {
+              "tipo": "flyer",
+              "x": -0.4,
+              "escala": 0.8
+            },
+            {
+              "tipo": "bandera",
+              "x": 1.35,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.45,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1
+          },
+          {
+            "quien": "wilbur",
+            "x": -0.05,
+            "accion": "triste",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "3,5 s",
+          "etiqueta": "en el aire el 14 de diciembre; se posa a 105 pies (32 m)",
+          "icono": "⏱️"
+        }
+      },
+      {
+        "dia": 25,
+        "texto": "No cuenta como vuelo: salió cuesta abajo y no lo pudo gobernar. Y sin embargo, esa noche, Uílbur escribe a casa que ya no hay duda del éxito final.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estufa",
+              "x": -1.05
+            },
+            {
+              "tipo": "cajas",
+              "x": -1.45,
+              "escala": 0.8
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "barril",
+              "x": 1.5,
+              "escala": 0.8
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.85,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "wilburcasa",
+            "x": 0.4,
+            "accion": "escribir",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "orvillecasa",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Un error en la salida redujo el vuelo a ciento doce [pies]. Potencia y control de sobra. Solo se ha dañado el timón. Éxito asegurado; no digáis nada.",
+          "firma": "Telegrama a Dayton, 14–15 de diciembre de 1903"
+        }
+      },
+      {
+        "dia": 27,
+        "texto": "Martes y miércoles reparamos el timón. El miércoles el aparato está listo, pero el viento no acompaña. El siguiente turno es mío.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "cajas",
+              "x": -1.4,
+              "escala": 0.8
+            },
+            {
+              "tipo": "maquina",
+              "x": -0.75,
+              "escala": 0.75
+            },
+            {
+              "tipo": "flyer",
+              "x": 0.85,
+              "escala": 0.7
+            },
+            {
+              "tipo": "barril",
+              "x": 1.5,
+              "escala": 0.7
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.3,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1
+          },
+          {
+            "quien": "wilbur",
+            "x": -0.45,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 28,
+        "capitulo": "Doce segundos",
+        "corte": true,
+        "texto": "Jueves, diecisiete de diciembre. Amanece con un viento del norte helado, de más de treinta kilómetros por hora. Los charcos junto al campamento tienen hielo.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "cobertizo",
+              "x": -1.05,
+              "escala": 0.75,
+              "detras": true
+            },
+            {
+              "tipo": "cobertizo",
+              "x": 1.05,
+              "escala": 0.65,
+              "detras": true
+            },
+            {
+              "tipo": "charco",
+              "x": 0.7,
+              "escala": 0.7
+            }
+          ],
+          "sol": false
+        },
+        "personajes": [
+          {
+            "quien": "orvilleabrigo",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "43 km/h",
+          "etiqueta": "viento del norte en el anemómetro de Kitty Hawk (27 millas por hora); el de los Wright marca algo más de 32",
+          "icono": "🌬️"
+        }
+      },
+      {
+        "dia": 28,
+        "texto": "Esperamos a que amaine un poco. Luego ponemos la señal y tendemos el raíl en terreno llano, junto al campamento, de cara al viento.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "cobertizo",
+              "x": -1.05,
+              "escala": 0.75,
+              "detras": true
+            },
+            {
+              "tipo": "cobertizo",
+              "x": 1.05,
+              "escala": 0.65,
+              "detras": true
+            },
+            {
+              "tipo": "charco",
+              "x": 0.7,
+              "escala": 0.7
+            },
+            {
+              "tipo": "flyer",
+              "x": -0.35,
+              "escala": 0.8
+            }
+          ],
+          "sol": false
+        },
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.45,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "wilbur",
+            "x": 0.05,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 28,
+        "texto": "Llegan cinco testigos. De la estación, Yon Dániels, Uil Dou y Adam Ézerich. Brínkli, un comprador de madera de Mantío, y Yoni Mur, un muchacho de Nags Jed.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.75,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "daniels",
+            "x": 0.3,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "entra": "izq"
+          },
+          {
+            "quien": "dough",
+            "x": -0.15,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "entra": "izq"
+          },
+          {
+            "quien": "etheridge",
+            "x": -0.55,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "entra": "izq"
+          },
+          {
+            "quien": "brinkley",
+            "x": -0.9,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "johnny",
+            "x": 1.05,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 28,
+        "texto": "Pongo mi cámara en el trípode, apuntando al final del raíl, y le pido a Yon Dániels que apriete la pera de goma si el aparato se levanta. Nunca ha hecho una foto.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.27,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1
+          },
+          {
+            "quien": "daniels",
+            "x": 0.75,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "📷"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 28,
+        "texto": "Estoy tumbado boca abajo sobre un ala de tela, en una playa helada. Son las diez y treinta y cinco del diecisiete de diciembre de mil novecientos tres.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "wilbur",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 28,
+        "texto": "Suelto el cable. El aparato avanza contra el viento, Uílbur corre a mi lado sujetando el ala… y al final del raíl, se levanta.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "cobertizo",
+              "x": -1.05,
+              "escala": 0.75,
+              "detras": true
+            },
+            {
+              "tipo": "cobertizo",
+              "x": 1.05,
+              "escala": 0.65,
+              "detras": true
+            },
+            {
+              "tipo": "charco",
+              "x": 0.7,
+              "escala": 0.7
+            },
+            {
+              "tipo": "flyer-vuelo",
+              "x": -0.1,
+              "escala": 0.75
+            }
+          ],
+          "sol": false
+        },
+        "personajes": [
+          {
+            "quien": "wilbur",
+            "x": 0.35,
+            "accion": "correr",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "daniels",
+            "x": 0.9,
+            "accion": "asustado",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "📷"
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 28,
+        "texto": "Estoy volando. Subo y bajo a tirones, porque el timón delantero es muy sensible. Treinta y siete metros después, los patines tocan la arena.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "cobertizo",
+              "x": -1.05,
+              "escala": 0.75,
+              "detras": true
+            },
+            {
+              "tipo": "cobertizo",
+              "x": 1.05,
+              "escala": 0.65,
+              "detras": true
+            },
+            {
+              "tipo": "charco",
+              "x": 0.7,
+              "escala": 0.7
+            },
+            {
+              "tipo": "flyer-vuelo",
+              "x": 0.4,
+              "escala": 0.75
+            }
+          ],
+          "sol": false
+        },
+        "personajes": [
+          {
+            "quien": "wilbur",
+            "x": -0.4,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "dough",
+            "x": -0.85,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 28,
+        "texto": "¿Cuánto ha durado? Unos doce segundos. No lo sabemos exactamente, porque nadie paró el reloj a tiempo.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "cobertizo",
+              "x": -1.05,
+              "escala": 0.75,
+              "detras": true
+            },
+            {
+              "tipo": "cobertizo",
+              "x": 1.05,
+              "escala": 0.65,
+              "detras": true
+            },
+            {
+              "tipo": "charco",
+              "x": 0.7,
+              "escala": 0.7
+            },
+            {
+              "tipo": "flyer",
+              "x": -0.1,
+              "escala": 0.75
+            }
+          ],
+          "sol": false
+        },
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.4,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "wilbur",
+            "x": -0.4,
+            "accion": "abrazar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "12 s · 37 m",
+          "etiqueta": "primer vuelo controlado y con motor, 10:35 h (diario de Orville: «unos 12 segundos»)",
+          "icono": "⏱️"
+        }
+      },
+      {
+        "dia": 28,
+        "texto": "Más corto que las alas de un avión de pasajeros de hoy. Y Dániels apretó la pera: en su foto, Uílbur corre junto al ala.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "daniels",
+            "x": 0.45,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "📷"
+          },
+          {
+            "quien": "orville",
+            "x": -0.2,
+            "accion": "senalar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": true
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 28,
+        "texto": "Entramos a calentarnos al barracón. Después vuela Uílbur: cincuenta y tres metros. Luego yo otra vez: sesenta y un metros en quince segundos.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estufa",
+              "x": -1.05
+            },
+            {
+              "tipo": "cajas",
+              "x": -1.45,
+              "escala": 0.8
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "barril",
+              "x": 1.5,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orvilleabrigo",
+            "x": 0.4,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "wilburabrigo",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 28,
+        "texto": "A mediodía, Uílbur empieza el cuarto vuelo. Y esta vez, el aparato no baja.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "cobertizo",
+              "x": -1.05,
+              "escala": 0.75,
+              "detras": true
+            },
+            {
+              "tipo": "cobertizo",
+              "x": 1.05,
+              "escala": 0.65,
+              "detras": true
+            },
+            {
+              "tipo": "charco",
+              "x": 0.7,
+              "escala": 0.7
+            },
+            {
+              "tipo": "flyer-vuelo",
+              "x": 0.25,
+              "escala": 0.7
+            }
+          ],
+          "sol": false
+        },
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": -0.45,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": 1
+          },
+          {
+            "quien": "johnny",
+            "x": -0.9,
+            "accion": "celebrar",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 28,
+        "texto": "Cincuenta y nueve segundos. Doscientos sesenta metros. Al tocar tierra se rompe el soporte del timón delantero, pero lo arreglaremos en un día o dos.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "cobertizo",
+              "x": -1.05,
+              "escala": 0.75,
+              "detras": true
+            },
+            {
+              "tipo": "cobertizo",
+              "x": 1.05,
+              "escala": 0.65,
+              "detras": true
+            },
+            {
+              "tipo": "charco",
+              "x": 0.7,
+              "escala": 0.7
+            },
+            {
+              "tipo": "flyer",
+              "x": -0.1,
+              "escala": 0.8
+            }
+          ],
+          "sol": false
+        },
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.4,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "wilbur",
+            "x": 0.85,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "59 s · 260 m",
+          "etiqueta": "cuarto vuelo, de Wilbur, a mediodía (852 pies)",
+          "icono": "🏁"
+        }
+      },
+      {
+        "dia": 28,
+        "texto": "Entonces llega una ráfaga. El viento levanta el aparato y lo hace dar vueltas por la arena. Dániels, que lo sujetaba, queda atrapado dentro, entre cables y montantes.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "cobertizo",
+              "x": -1.05,
+              "escala": 0.75,
+              "detras": true
+            },
+            {
+              "tipo": "cobertizo",
+              "x": 1.05,
+              "escala": 0.65,
+              "detras": true
+            },
+            {
+              "tipo": "charco",
+              "x": 0.7,
+              "escala": 0.7
+            },
+            {
+              "tipo": "flyer",
+              "x": 0.0,
+              "escala": 0.8
+            }
+          ],
+          "sol": false
+        },
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.55,
+            "accion": "correr",
+            "emocion": "miedo",
+            "mirar": -1
+          },
+          {
+            "quien": "daniels",
+            "x": -0.6,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 28,
+        "texto": "Sale magullado, sin heridas graves. Contará toda su vida que sobrevivió al primer accidente de avión. Nuestro aparato no vuelve a volar nunca.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "daniels",
+            "x": -0.4,
+            "accion": "triste",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "orville",
+            "x": 0.4,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": true
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 28,
+        "texto": "Después de comer, caminamos seis kilómetros por la arena hasta Kiti Jok, a la estación del tiempo, y mandamos un telegrama a casa.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "sol": false,
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.2,
+              "escala": 0.9
+            },
+            {
+              "tipo": "poste",
+              "x": -0.6
+            },
+            {
+              "tipo": "poste",
+              "x": 0.9
+            },
+            {
+              "tipo": "velero",
+              "x": 1.35,
+              "escala": 0.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orvilleabrigo",
+            "x": 0.45,
+            "accion": "caminar",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "wilburabrigo",
+            "x": 0.0,
+            "accion": "caminar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 28,
+        "texto": "Llega a Déiton a las cinco y veinticinco de la tarde, con dos erratas: cincuenta y siete segundos en vez de cincuenta y nueve, y mi nombre mal escrito: Orevél.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "papel",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "chimenea",
+              "x": -1.1
+            },
+            {
+              "tipo": "cuadro",
+              "x": -0.4,
+              "escala": 0.7
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.9,
+              "escala": 0.3
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "katharine",
+            "x": 0.4,
+            "accion": "cargar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "📄"
+          },
+          {
+            "quien": "milton",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Éxito cuatro vuelos jueves por la mañana… salida desde terreno llano solo con la fuerza del motor… el más largo 57 segundos avisad prensa en casa por Navidad.",
+          "firma": "Telegrama del 17 de diciembre de 1903, firmado «Orevelle Wright»"
+        }
+      },
+      {
+        "dia": 29,
+        "texto": "Al día siguiente, un periódico de Nórfok dice que hemos volado casi cinco kilómetros. Casi todo, inventado.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "cobertizo",
+              "x": -1.0,
+              "escala": 1.0
+            },
+            {
+              "tipo": "cobertizo",
+              "x": 1.05,
+              "escala": 0.8
+            },
+            {
+              "tipo": "cajas",
+              "x": -0.45,
+              "escala": 0.6
+            },
+            {
+              "tipo": "bandera",
+              "x": 1.45,
+              "escala": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.4,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "objeto": "📰"
+          },
+          {
+            "quien": "wilbur",
+            "x": -0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 30,
+        "texto": "Desmontamos el aparato roto, pieza a pieza, y lo metemos en cajas para mandarlo a Déiton. Estaremos en casa por Navidad.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estufa",
+              "x": -1.05
+            },
+            {
+              "tipo": "cajas",
+              "x": -1.45,
+              "escala": 0.8
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "barril",
+              "x": 1.5,
+              "escala": 0.8
+            },
+            {
+              "tipo": "cajas",
+              "x": 0.3,
+              "escala": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orvilleabrigo",
+            "x": 0.6,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "objeto": "📦"
+          },
+          {
+            "quien": "wilburabrigo",
+            "x": -0.4,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "En Déiton, casi nadie le da importancia. Seguimos volando dos años en un prado cercano, y la prensa nos ignora.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "valla",
+              "x": -1.2
+            },
+            {
+              "tipo": "arbol",
+              "x": -0.8
+            },
+            {
+              "tipo": "flyer-vuelo",
+              "x": 0.25,
+              "escala": 0.7
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.6,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "texto": "En mil novecientos ocho volamos en público, Uílbur en Francia y yo cerca de Washington. Por fin, el mundo entero lo sabe.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.6,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "wilbur",
+            "x": -0.1,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1908",
+          "etiqueta": "demostraciones en Francia (Wilbur) y Fort Myer (Orville); se publica la foto de Daniels",
+          "icono": "🌍"
+        }
+      },
+      {
+        "texto": "Uílbur muere de fiebre tifoidea en mil novecientos doce. Tenía cuarenta y cinco años.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "papel",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "chimenea",
+              "x": -1.1
+            },
+            {
+              "tipo": "cuadro",
+              "x": -0.4,
+              "escala": 0.7
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.9,
+              "escala": 0.3
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orvillecasa",
+            "x": 0.4,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Durante años, el Smitsónian presentó el aparato de Lángli como el primero capaz de volar, y yo mandé el nuestro a Londres. Volvió a Washington en mil novecientos cuarenta y ocho, el año de mi muerte.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "piedra",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "columna",
+              "x": -1.3
+            },
+            {
+              "tipo": "flyer",
+              "x": -0.3,
+              "escala": 0.75
+            },
+            {
+              "tipo": "cuadro",
+              "x": 0.9,
+              "escala": 0.7
+            },
+            {
+              "tipo": "columna",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orvilleviejo",
+            "x": 0.45,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "En mil novecientos sesenta y nueve, Nil Ármstrong lleva a la Luna un trozo de su tela y de su madera. En toda su vida, nuestro aparato voló noventa y ocho segundos.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "luna",
+          "hora": "noche",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.2
+            },
+            {
+              "tipo": "roca",
+              "x": 1.3,
+              "escala": 0.7
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "98 s",
+          "etiqueta": "voló el Flyer en toda su vida (12 + 12 + 15 + 59)",
+          "icono": "⏱️"
+        }
+      },
+      {
+        "texto": "Y para que no te engañen: antes hubo globos y planeadores. Lo nuestro fue el primer vuelo con motor, sostenido y gobernado.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.35,
+              "escala": 0.8
+            },
+            {
+              "tipo": "bandera",
+              "x": 1.35,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.4,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Uílbur, yo y todas las personas de este vídeo fuimos reales. Las fechas, los vuelos y los telegramas están documentados; mis pensamientos y las escenas de cada día, imaginados.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "estufa",
+              "x": -1.05
+            },
+            {
+              "tipo": "cajas",
+              "x": -1.45,
+              "escala": 0.8
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.0
+            },
+            {
+              "tipo": "barril",
+              "x": 1.5,
+              "escala": 0.8
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.85,
+              "escala": 0.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "orvillecasa",
+            "x": 0.4,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "¿Tú te habrías tumbado en esas alas de tela, o habrías preferido sujetar la cámara? Cuéntamelo en los comentarios y suscríbete para la próxima vida.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "cobertizo",
+              "x": -1.05,
+              "escala": 0.75,
+              "detras": true
+            },
+            {
+              "tipo": "cobertizo",
+              "x": 1.05,
+              "escala": 0.65,
+              "detras": true
+            },
+            {
+              "tipo": "charco",
+              "x": 0.7,
+              "escala": 0.7
+            },
+            {
+              "tipo": "flyer",
+              "x": -0.35,
+              "escala": 0.8
+            }
+          ],
+          "sol": false
+        },
+        "personajes": [
+          {
+            "quien": "orville",
+            "x": 0.4,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "wilbur",
+            "x": -0.4,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      }
+    ]
+  },
+  "ganchos": [
+    {
+      "desde": 0,
+      "hasta": 2,
+      "rotulo": "SESENTA Y NUEVE DÍAS",
+      "titulo": "El New York Times dijo que tardaríamos un millón de años en volar",
+      "descripcion": "9 de octubre de 1903: un editorial calcula que una máquina voladora podría tardar de uno a diez millones de años. Orville y Wilbur Wright, dos mecánicos de bicicletas de Dayton, tardaron 69 días. #shorts #historia #hermanoswright"
+    },
+    {
+      "desde": 21,
+      "hasta": 25,
+      "rotulo": "50.000 DÓLARES AL RÍO",
+      "titulo": "El gran científico tenía 50.000 dólares. Ellos, un taller de bicicletas",
+      "descripcion": "Samuel Langley, director del Smithsonian, y su Aerodrome: dos caídas al río Potomac, el 7 de octubre y el 8 de diciembre de 1903, nueve días antes del vuelo de los Wright. #shorts #historia #aviacion"
+    },
+    {
+      "desde": 29,
+      "hasta": 33,
+      "rotulo": "CARA O CRUZ",
+      "titulo": "Se jugaron a cara o cruz quién sería el primero en volar",
+      "descripcion": "14 de diciembre de 1903, Kill Devil Hills: Wilbur Wright gana la moneda… y el aparato pasa 3,5 segundos en el aire. #shorts #historia #hermanoswright"
+    },
+    {
+      "desde": 40,
+      "hasta": 44,
+      "rotulo": "DOCE SEGUNDOS EN EL AIRE",
+      "titulo": "Doce segundos que cambiaron el mundo",
+      "descripcion": "17 de diciembre de 1903, 10:35 de la mañana: Orville Wright vuela unos 12 segundos y 37 metros. John T. Daniels, que nunca había hecho una foto, aprieta la pera de goma. #shorts #historia #aviacion"
+    }
+  ],
+  "publicacion": {
+    "tituloLargo": "Un mes en la vida de los HERMANOS WRIGHT (1903) | Doce segundos que cambiaron el mundo",
+    "tituloCorto": "Un mes con los Wright",
+    "tituloShort": "Doce segundos que cambiaron el mundo",
+    "capituloInicial": "Un millón de años",
+    "descripcion": "Treinta días en la vida de Orville Wright, del 20 de noviembre al 19 de diciembre de 1903, en el campamento de Kill Devil Hills, cerca de Kitty Hawk (Carolina del Norte). Dos mecánicos de bicicletas de Dayton (Ohio), un motor de unos 12 caballos hecho en seis semanas por Charlie Taylor, unos ejes de hélice que se rompen dos veces, un viaje a Dayton, el Aerodrome de Samuel Langley cayendo al Potomac el 8 de diciembre, la moneda al aire del 14 y, el jueves 17 de diciembre de 1903, cuatro vuelos: unos 12 segundos y 37 metros el primero (Orville, 10:35), 59 segundos y 260 metros el último (Wilbur, a mediodía). El primer vuelo controlado, sostenido y propulsado con piloto de un aparato más pesado que el aire.\n\n— Semana 1: Un tubo que se rompe\n— Semana 2: El viaje de los ejes\n— Semana 3: Cara o cruz\n— Semana 4: Doce segundos\n— Epílogo: el telegrama con «Orevelle», la prensa de Norfolk, 1908, el Smithsonian y la Luna\n\nQué es documentado y qué es imaginado: Orville y Wilbur Wright y todas las personas de este vídeo fueron reales. Las fechas, los vuelos, los telegramas y las palabras del diario de Orville están documentados; sus pensamientos y las escenas de cada día son imaginados, igual que lo que hizo Wilbur solo en el campamento (30 de noviembre – 11 de diciembre), el viaje de Orville y cómo se enteró de la caída de Langley. Las frases de las tarjetas son paráfrasis en español de los originales en inglés. El primer vuelo no fue «desde una duna»: el 17 salieron desde terreno llano; la ladera fue el 14.\n\nFuentes: Library of Congress (diario de Orville Wright de 1903, Wilbur and Orville Wright Papers, telegrama del 17 de diciembre); ECU Digital Collections (diarios de Orville y de Milton Wright); Orville Wright, «How We Made the First Flight» (1913); National Park Service, Wright Brothers National Memorial; Smithsonian National Air and Space Museum; NASA SP-4532; National Weather Service; U.S. Coast Guard, «Indispensable Men»; The New York Times, 9 de octubre de 1903; Britannica; Dayton Daily News; Poynter.",
+    "etiquetas": [
+      "un mes en la vida de",
+      "hermanos Wright",
+      "Orville Wright",
+      "Wilbur Wright",
+      "Kitty Hawk",
+      "primer vuelo",
+      "1903",
+      "historia de la aviación",
+      "Wright Flyer",
+      "Samuel Langley",
+      "17 de diciembre",
+      "historia de la ciencia",
+      "biografía",
+      "historia"
+    ],
+    "miniatura": {
+      "texto": "DOCE SEGUNDOS",
+      "escena": 42,
+      "quien": "orville",
+      "emocion": "sorpresa"
+    }
+  },
+  "grafias": {
+    "Niu": "New",
+    "Iork": "York",
+    "Taims": "Times",
+    "Órvil": "Orville",
+    "Rait": "Wright",
+    "Déiton": "Dayton",
+    "Ojáio": "Ohio",
+    "Uílbur": "Wilbur",
+    "Kil": "Kill",
+    "Dével": "Devil",
+    "Jils": "Hills",
+    "Kiti": "Kitty",
+    "Jok": "Hawk",
+    "Fláier": "Flyer",
+    "Charli": "Charlie",
+    "Téilor": "Taylor",
+    "Sprat": "Spratt",
+    "Mílton": "Milton",
+    "Cáterin": "Katharine",
+    "Lángli": "Langley",
+    "Smitsónian": "Smithsonian",
+    "Potómac": "Potomac",
+    "Charls": "Charles",
+    "Mánli": "Manly",
+    "Yon": "John",
+    "Dániels": "Daniels",
+    "Uil": "Will",
+    "Dou": "Dough",
+    "Ézerich": "Etheridge",
+    "Brínkli": "Brinkley",
+    "Mantío": "Manteo",
+    "Yoni": "Johnny",
+    "Mur": "Moore",
+    "Jed": "Head",
+    "Orevél": "Orevelle",
+    "Nórfok": "Norfolk",
+    "Nil": "Neil",
+    "Ármstrong": "Armstrong"
+  }
+}

@@ -1,0 +1,2176 @@
+{
+  "slug": "glenn-miller-1944",
+  "titulo": "un mecánico de Twinwood",
+  "lugar": "Twinwood Farm, Bedford (Inglaterra)",
+  "epoca": "Noviembre y diciembre de 1944",
+  "categoria": "misterios",
+  "voz": "narrador-es",
+  "drama": 0.7,
+  "velocidad": 1.15,
+  "musica": "misterio",
+  "paleta": {
+    "acento": "#c8a24a",
+    "texto": "#eeeae0",
+    "fondo": "#121820",
+    "papel": "#ece3cf"
+  },
+  "grafias": {
+    "Glen": "Glenn",
+    "Míler": "Miller",
+    "Tuínwud": "Twinwood",
+    "Bédford": "Bedford",
+    "Bénet": "Bennett",
+    "Flécher": "Fletcher",
+    "Nísen": "Nissen",
+    "Mílton": "Milton",
+    "Érnest": "Ernest",
+    "Úlworts": "Woolworths",
+    "Niu": "New",
+    "Cros": "Cross",
+    "Jank": "Hank",
+    "Pegui": "Peggy",
+    "Bésel": "Baessell",
+    "Jeins": "Haynes",
+    "Yon": "John",
+    "Mórgan": "Morgan",
+    "Nórsman": "Norseman",
+    "Lancáster": "Lancaster",
+    "Bíchi": "Beachy",
+    "Jed": "Head",
+    "Dénis": "Dennis",
+    "Sprag": "Spragg",
+    "Yéri": "Jerry",
+    "Grei": "Gray",
+    "Sho": "Shaw",
+    "Mánchester": "Manchester",
+    "V2": "V-2",
+    "V1": "V-1"
+  },
+  "reparto": {
+    "tom": {
+      "piel": "#ebc3a2",
+      "pelo": "#a2481f",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "mono",
+        "color": "#4d5b70",
+        "color2": "#4d5b70",
+        "detalle": "#2b3340"
+      },
+      "sombrero": "gorro-lana",
+      "colorSombrero": "#3a4456",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#1b1612"
+    },
+    "tomcapote": {
+      "piel": "#ebc3a2",
+      "pelo": "#a2481f",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#5a6880",
+        "color2": "#4d5b70",
+        "detalle": "#b9a35a"
+      },
+      "sombrero": "gorro-lana",
+      "colorSombrero": "#3a4456",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#1b1612"
+    },
+    "fletcher": {
+      "piel": "#ddb08e",
+      "pelo": "#8d877c",
+      "peinado": "coronilla",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#56657c",
+        "color2": "#4a576b",
+        "detalle": "#c8b070"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 1.04,
+      "zapatos": "#15120f"
+    },
+    "peggy": {
+      "piel": "#f0cdb4",
+      "pelo": "#d9b25e",
+      "peinado": "rizado",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#5a6880",
+        "color2": "#56657c",
+        "detalle": "#c8b070"
+      },
+      "sombrero": "gorra-plato",
+      "colorSombrero": "#4a576b",
+      "gafas": false,
+      "altura": 0.95,
+      "zapatos": "#15120f",
+      "voz": "narradora-es"
+    },
+    "hank": {
+      "piel": "#c99872",
+      "pelo": "#1c1916",
+      "peinado": "rapado",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#57502f",
+        "color2": "#a89a80",
+        "detalle": "#c9a227"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 1.02,
+      "zapatos": "#4a2e1a"
+    },
+    "miller": {
+      "piel": "#ecc8a8",
+      "pelo": "#6a4e34",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#4e4a32",
+        "color2": "#a8987e",
+        "detalle": "#c9a227"
+      },
+      "sombrero": "gorra-plato",
+      "colorSombrero": "#4e4a32",
+      "gafas": true,
+      "altura": 1.02,
+      "zapatos": "#3a2416"
+    },
+    "baessell": {
+      "piel": "#e2ae8c",
+      "pelo": "#bdb7ab",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#8a7250",
+        "color2": "#57502f",
+        "detalle": "#c9a227"
+      },
+      "sombrero": "gorra-plato",
+      "colorSombrero": "#57502f",
+      "gafas": false,
+      "altura": 1.06,
+      "zapatos": "#3a2416"
+    },
+    "morgan": {
+      "piel": "#f1d0b4",
+      "pelo": "#d6b26e",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#6b3d20",
+        "color2": "#57502f",
+        "detalle": "#d9c9a0"
+      },
+      "sombrero": "gorra-plato",
+      "colorSombrero": "#4e4a32",
+      "gafas": false,
+      "altura": 0.95,
+      "zapatos": "#2a1a10"
+    },
+    "haynes": {
+      "piel": "#e0b490",
+      "pelo": "#211b16",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#4e4a32",
+        "color2": "#a8987e",
+        "detalle": "#c9a227"
+      },
+      "sombrero": "gorra-plato",
+      "colorSombrero": "#4e4a32",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#3a2416"
+    }
+  },
+  "largo": {
+    "escenas": [
+      {
+        "corte": true,
+        "texto": "Aquel avión estuvo en mi pista cuatro minutos. No apagó el motor. Subieron dos hombres, despegó rumbo al sur entre las nubes, y nunca llegó a ninguna parte.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "🛩️",
+              "x": -0.75,
+              "escala": 0.9
+            },
+            {
+              "tipo": "cobertizo",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomcapote",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Uno de esos hombres era Glen Míler, el director de orquesta más famoso del mundo. Ochenta años después, nadie ha encontrado ni el avión ni a los tres hombres.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "tomcapote",
+            "x": 0.4,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Me llamo Tom Bénet, tengo veintiún años y soy mecánico de tierra británico en Tuínwud, un aeródromo militar junto a Bédford, en Inglaterra.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "maquina",
+              "x": -1.0,
+              "escala": 0.9
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.2
+            },
+            {
+              "tipo": "cajas",
+              "x": 0.95
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "objeto": "🔧"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Lo que pienso y lo que hago es imaginado. El avión, los tres hombres y las fechas son reales.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.2,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 1,
+        "capitulo": "Ochenta y cuatro horas de música",
+        "corte": true,
+        "texto": "Domingo, veintiséis de noviembre de mil novecientos cuarenta y cuatro. Hiela en los charcos de la pista. Y en Londres, un cohete ha caído sobre una tienda llena de gente.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "amanecer",
+          "clima": "niebla",
+          "sol": false,
+          "props": [
+            {
+              "tipo": "poste",
+              "x": -1.2
+            },
+            {
+              "tipo": "barril",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomcapote",
+            "x": 0.3,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "objeto": "📰"
+          }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Twinwood Farm",
+          "detalle": "Bedfordshire, Inglaterra · noviembre de 1944",
+          "icono": "📍"
+        }
+      },
+      {
+        "dia": 1,
+        "texto": "Fue en el Úlworts de Niu Cros, un sábado a mediodía. Un cohete V2 llega más rápido que su propio ruido. Ciento sesenta y ocho muertos.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "escombros",
+              "x": -1.15,
+              "escala": 0.85
+            },
+            {
+              "tipo": "farola",
+              "x": 1.0
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "168",
+          "etiqueta": "muertos por un cohete V-2 en el Woolworths de New Cross (Londres), 25 de noviembre de 1944",
+          "icono": "🚀"
+        }
+      },
+      {
+        "dia": 2,
+        "texto": "Lunes. En Tuínwud entrenamos a pilotos para el combate de noche. Sus aviones despegan de noche y con niebla, y yo vivo con las manos dentro de sus motores.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "maquina",
+              "x": -1.0,
+              "escala": 0.9
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.2
+            },
+            {
+              "tipo": "cajas",
+              "x": 0.95
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.3,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "objeto": "🔧"
+          },
+          {
+            "quien": "fletcher",
+            "x": -0.45,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 2,
+        "texto": "Mi jefe, el sargento Flécher, me repite cada mañana: con frío húmedo, el carburador se llena de hielo y el motor se para en el aire. Para eso está la palanca del aire caliente.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "fletcher",
+            "x": -0.4,
+            "accion": "senalar",
+            "emocion": "enfado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 3,
+        "texto": "Duermo en un barracón Nísen: media lata de chapa, suelo de hormigón y goteras. Lo calienta una estufa de coque que nunca llega al final de la semana.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.1
+            },
+            {
+              "tipo": "estufa",
+              "x": 0.0,
+              "escala": 0.9
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.5,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1,
+            "objeto": "☕"
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 3,
+        "texto": "Cuando se acaba el coque, o pasas frío o lo tomas prestado de otro barracón. Y si llegas tarde al agua caliente, te afeitas con agua calentada en el casco.",
+        "drama": 0.5,
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.5,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": -1,
+            "objeto": "🪖"
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Contra el frío del barracón",
+          "items": [
+            {
+              "icono": "🔥",
+              "nombre": "Estufa de coque"
+            },
+            {
+              "icono": "🪖",
+              "nombre": "Casco para calentar agua"
+            },
+            {
+              "icono": "🧥",
+              "nombre": "Capote de lana"
+            },
+            {
+              "icono": "🚲",
+              "nombre": "Bicicleta para ir al pueblo"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 4,
+        "texto": "Martes. A pocos kilómetros, en Mílton Érnest, se aloja la banda militar americana de Glen Míler. La más famosa de la guerra.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "atardecer",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.2
+            },
+            {
+              "tipo": "farola",
+              "x": 0.9
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomcapote",
+            "x": 0.35,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "objeto": "🚲"
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 4,
+        "texto": "Llegaron de Londres el dos de julio, huyendo de las bombas volantes. Al día siguiente, una V1 cayó sobre su antiguo alojamiento y mató a más de sesenta soldados.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "tomcapote",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1 día",
+          "etiqueta": "después de irse la banda, una V-1 destrozó Sloane Court (Londres): más de 60 soldados muertos",
+          "icono": "💣"
+        }
+      },
+      {
+        "dia": 5,
+        "texto": "Miércoles. Desde el veinte de noviembre van a Londres a grabar sin parar: programas de radio para dejar guardados antes de irse a Francia.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "escombros",
+              "x": -1.15,
+              "escala": 0.85
+            },
+            {
+              "tipo": "farola",
+              "x": 1.0
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "miller",
+            "x": 0.35,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "haynes",
+            "x": -0.4,
+            "accion": "escribir",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 5,
+        "texto": "Ochenta y cuatro horas de música en tres semanas. Míler graba hasta programas en alemán, para los soldados enemigos.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "miller",
+            "x": 0.3,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "haynes",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "84 horas",
+          "etiqueta": "de programas grabados por la banda entre el 20 de noviembre y el 12 de diciembre",
+          "icono": "📻"
+        }
+      },
+      {
+        "dia": 6,
+        "texto": "Jueves. En el pub me hago amigo de Jank, un sargento americano de Mílton Érnest. Me invita a chocolate, chicles y Spam. A ellos les sobra de todo.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "ventana": true,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "chimenea",
+              "x": -1.15
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "🍺",
+              "x": -0.1,
+              "escala": 0.3
+            },
+            {
+              "tipo": "barril",
+              "x": 1.2
+            },
+            {
+              "tipo": "cuadro",
+              "x": 0.7
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomcapote",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": -1,
+            "objeto": "🍫"
+          },
+          {
+            "quien": "hank",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 6,
+        "texto": "Él cobra setenta y ocho dólares al mes, más un veinte por ciento por servir fuera. Yo, cinco chelines al día. Gana el triple que yo.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "tomcapote",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "hank",
+            "x": -0.4,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 7,
+        "texto": "Sábado, dos de diciembre. Mi madre me escribe: con la cartilla tiene, a la semana, cuatro onzas de bacon, dos de mantequilla y un huevo, si hay suerte.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.1
+            },
+            {
+              "tipo": "estufa",
+              "x": 0.0,
+              "escala": 0.9
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.45,
+            "accion": "escribir",
+            "emocion": "triste",
+            "mirar": -1,
+            "objeto": "✉️"
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "La cartilla de mi madre, por semana",
+          "items": [
+            {
+              "icono": "🥓",
+              "nombre": "4 onzas de bacon (113 g)"
+            },
+            {
+              "icono": "🧈",
+              "nombre": "2 onzas de mantequilla"
+            },
+            {
+              "icono": "🍵",
+              "nombre": "2 onzas de té"
+            },
+            {
+              "icono": "🥚",
+              "nombre": "1 huevo fresco, si hay suerte"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 7,
+        "texto": "Me duermo pensando en agosto. El veintisiete, la banda tocó aquí, en nuestra pista: la única actuación al aire libre que dio en una base británica.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "bandera-eeuu",
+              "x": -1.2
+            },
+            {
+              "tipo": "bandera",
+              "x": 1.25
+            },
+            {
+              "tipo": "🎷",
+              "x": -0.6,
+              "escala": 0.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "miller",
+            "x": -0.1,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tom",
+            "x": 0.6,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 7,
+        "texto": "Y delante, con sus gafas redondas, el mayor Glen Míler. Cuarenta años. Había deshecho la orquesta más famosa del mundo para alistarse. Esa tarde bailó media base.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "miller",
+            "x": 0.0,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "peggy",
+            "x": 0.55,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 8,
+        "capitulo": "Niebla en la pista",
+        "corte": true,
+        "texto": "Domingo, tres de diciembre. En Londres se despide para siempre la guardia de voluntarios. Ya nadie teme una invasión. Todos hablan de volver a casa por Navidad.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "atardecer",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.2
+            },
+            {
+              "tipo": "farola",
+              "x": 0.9
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomcapote",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "hank",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 9,
+        "texto": "Lunes. Llega la niebla y ya no se va. Por la mañana no veo el final de la pista. Por la tarde, una lluvia fina que se hiela en las alas.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "amanecer",
+          "clima": "niebla",
+          "sol": false,
+          "props": [
+            {
+              "tipo": "poste",
+              "x": -1.2
+            },
+            {
+              "tipo": "barril",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomcapote",
+            "x": 0.3,
+            "accion": "trabajar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "objeto": "🧹"
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 11,
+        "texto": "En la torre de control trabaja Pegui, del cuerpo auxiliar femenino. Apunta cada avión que sale y que llega: la hora, la matrícula, el destino.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "radio",
+              "x": 0.0,
+              "escala": 0.5
+            },
+            {
+              "tipo": "reloj",
+              "x": -1.1
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "peggy",
+            "x": -0.35,
+            "accion": "escribir",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 11,
+        "texto": "Ella me lo cuenta: la banda se va a París. El cuartel general aliado quiere que toque para las tropas en Navidad.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "peggy",
+            "x": -0.35,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "De Bedford a París",
+          "detalle": "La banda de la AEF, a Francia en diciembre de 1944",
+          "icono": "📍"
+        }
+      },
+      {
+        "dia": 14,
+        "texto": "Sábado. Vuelvo del baile en bicicleta, entre la niebla, y pienso que la guerra ya casi ha terminado. Me equivoco. Lo peor de este mes aún no ha llegado.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "noche",
+          "clima": "niebla",
+          "luna": false,
+          "props": [
+            {
+              "tipo": "poste",
+              "x": -1.1
+            },
+            {
+              "tipo": "farola",
+              "x": 1.1
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomcapote",
+            "x": 0.3,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "objeto": "🚲"
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 15,
+        "capitulo": "Cuatro minutos",
+        "corte": true,
+        "texto": "Domingo, diez de diciembre. Quedan cinco días. El frío ya no se va ni con la estufa al rojo.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.1
+            },
+            {
+              "tipo": "estufa",
+              "x": 0.0,
+              "escala": 0.9
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1,
+            "objeto": "☕"
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 17,
+        "texto": "Martes, doce. Míler toca en Londres, en un club para soldados. Nadie lo sabe todavía, pero es la última noche que dirige a su banda.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "escombros",
+              "x": -1.15,
+              "escala": 0.85
+            },
+            {
+              "tipo": "farola",
+              "x": 1.0
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "miller",
+            "x": 0.3,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 18,
+        "texto": "Miércoles. Su vuelo a Francia no sale por el tiempo. Jueves, lo mismo: el avión correo a París no sale. No habrá más vuelos hasta el domingo.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "radio",
+              "x": 0.0,
+              "escala": 0.5
+            },
+            {
+              "tipo": "reloj",
+              "x": -1.1
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "peggy",
+            "x": -0.35,
+            "accion": "escribir",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 19,
+        "texto": "Ese jueves, el teniente coronel americano Norman Bésel le da un asiento en un avión pequeño que sale mañana. Míler dice que sí. Era el sitio de su mánager, Don Jeins.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "ventana": true,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "chimenea",
+              "x": -1.15
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "🍺",
+              "x": -0.1,
+              "escala": 0.3
+            },
+            {
+              "tipo": "barril",
+              "x": 1.2
+            },
+            {
+              "tipo": "cuadro",
+              "x": 0.7
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "baessell",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "miller",
+            "x": 0.4,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 20,
+        "texto": "Viernes, quince de diciembre. Niebla y lluvia helada desde primera hora. Las nubes, a setenta y seis metros del suelo.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "amanecer",
+          "clima": "niebla",
+          "sol": false,
+          "props": [
+            {
+              "tipo": "poste",
+              "x": -1.2
+            },
+            {
+              "tipo": "barril",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomcapote",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "76 m",
+          "etiqueta": "de techo de nubes en Twinwood la mañana del 15 de diciembre de 1944",
+          "icono": "☁️"
+        }
+      },
+      {
+        "dia": 20,
+        "texto": "En otra base, más al norte, un piloto joven, Yon Mórgan, prepara un Nórsman: un monomotor canadiense de ala alta, hecho para los lagos helados.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "cobertizo",
+              "x": -1.1
+            },
+            {
+              "tipo": "camion",
+              "x": 1.1,
+              "escala": 0.7
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "morgan",
+            "x": 0.35,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "objeto": "🗺️"
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 20,
+        "texto": "Mórgan vuela bien, pero no tiene el título para volar solo con instrumentos, sin ver el suelo. Hoy va a París, con escala en mi pista.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "morgan",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 20,
+        "texto": "A mediodía la niebla levanta un poco. Pegui me avisa: viene un Nórsman de paso y no apagará el motor. Salgo a la pista, por si acaso.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "cobertizo",
+              "x": -1.1
+            },
+            {
+              "tipo": "camion",
+              "x": 1.1,
+              "escala": 0.7
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomcapote",
+            "x": 0.35,
+            "accion": "correr",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "objeto": "🧰"
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 20,
+        "texto": "Un avión toma tierra en mi pista y no para el motor. Viene a por Glen Míler, el de la banda más famosa de la guerra, y a por Bésel.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "🛩️",
+              "x": -0.75,
+              "escala": 0.9
+            },
+            {
+              "tipo": "cobertizo",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "miller",
+            "x": -0.1,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "baessell",
+            "x": 0.35,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "tomcapote",
+            "x": 0.8,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 20,
+        "texto": "Cuentan que Míler preguntó por los paracaídas, y que Bésel le contestó: ¿qué pasa, quieres vivir para siempre? Yo no lo oí. El motor no dejaba oír nada.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "miller",
+            "x": -0.1,
+            "accion": "pensar",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "baessell",
+            "x": 0.35,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "tomcapote",
+            "x": 0.8,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 20,
+        "texto": "Jeins no lo apuntó en su diario. Les dice adiós con la mano. Cuatro minutos en tierra. A las dos menos cinco, el Nórsman despega rumbo al sur.",
+        "drama": 0.9,
+        "personajes": [
+          {
+            "quien": "haynes",
+            "x": 0.2,
+            "accion": "saludar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "tomcapote",
+            "x": 0.75,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "4 min",
+          "etiqueta": "en tierra con el motor en marcha. Despegó a las 13:55 hacia París",
+          "icono": "🛩️"
+        }
+      },
+      {
+        "dia": 20,
+        "texto": "Lo veo meterse en las nubes bajas, gris dentro de gris. Dicen que desde la torre lo vieron perderse en la bruma. Le quedan dos horas de día.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "cobertizo",
+              "x": -1.1
+            },
+            {
+              "tipo": "camion",
+              "x": 1.1,
+              "escala": 0.7
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomcapote",
+            "x": 0.3,
+            "accion": "senalar",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "haynes",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "subir"
+      },
+      {
+        "dia": 20,
+        "texto": "El quince de diciembre de mil novecientos cuarenta y cuatro, ciento treinta y ocho bombarderos Lancáster salieron rumbo a Alemania. El mal tiempo los obligó a volver.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "avion",
+              "x": 0.2
+            },
+            {
+              "tipo": "roca",
+              "x": -1.2
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "138",
+          "etiqueta": "bombarderos Lancaster llamados de vuelta el 15 de diciembre de 1944",
+          "icono": "💣"
+        }
+      },
+      {
+        "dia": 20,
+        "texto": "Al regresar, soltaron sus bombas en el Canal de la Mancha, al sur de Bíchi Jed, donde se dejaban las bombas que volvían. El mismo mar que tenía que pasar el Nórsman.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "isla",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": []
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "dia": 20,
+        "texto": "Según el historiador Dénis Sprag, esa tarde un vigía de diecisiete años apuntó un Nórsman rumbo al sureste. En la costa anotaron un avión que salía al mar.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "tomcapote",
+            "x": 0.3,
+            "accion": "pensar",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 20,
+        "texto": "Nadie sabe seguro si era el suyo. Y después, nada. Ni una llamada de socorro, ni una mancha en el agua. El mar gris lo borró todo.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "atardecer",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "dia": 21,
+        "texto": "Sábado, dieciséis. Los alemanes atacan por sorpresa en las Ardenas, aprovechando la niebla que deja en tierra a nuestros aviones.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "bosque",
+          "hora": "amanecer",
+          "clima": "nieve",
+          "props": [
+            {
+              "tipo": "camion",
+              "x": -0.9,
+              "escala": 0.7
+            },
+            {
+              "tipo": "tanque",
+              "x": 0.6,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Las Ardenas",
+          "detalle": "Bélgica y Luxemburgo · 16 de diciembre de 1944",
+          "icono": "📍"
+        }
+      },
+      {
+        "dia": 21,
+        "texto": "Nadie echa de menos un avión pequeño. Los pasajeros no figuraban en ninguna lista. En París no lo esperaban, y aquí todos lo creen allí.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.1
+            },
+            {
+              "tipo": "estufa",
+              "x": 0.0,
+              "escala": 0.9
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 23,
+        "texto": "Lunes, dieciocho de diciembre. La banda de Glen Míler llega a París tres días tarde, y su director no está esperándolos.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "🛩️",
+              "x": -1.1,
+              "escala": 0.8
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "haynes",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "capitulo": "Desaparecido",
+        "corte": true
+      },
+      {
+        "dia": 23,
+        "texto": "Llaman al cuartel general aliado. Allí ni siquiera sabían que había volado. Por fin, alguien lo dice: falta un avión.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "haynes",
+            "x": 0.35,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "3 días",
+          "etiqueta": "sin que nadie echara en falta el Norseman",
+          "icono": "🛩️"
+        }
+      },
+      {
+        "dia": 24,
+        "texto": "Del diecinueve al veinticuatro, una niebla espesa como sopa de guisantes tapa media Inglaterra. No despega nada. Se busca por teléfono y por radio.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "radio",
+              "x": 0.0,
+              "escala": 0.5
+            },
+            {
+              "tipo": "reloj",
+              "x": -1.1
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "peggy",
+            "x": -0.35,
+            "accion": "escribir",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 26,
+        "texto": "En el barracón no se habla de otra cosa. Yo repaso cada segundo: el motor en marcha, la lluvia fina, el frío húmedo. Y la palanca de Flécher.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.1
+            },
+            {
+              "tipo": "estufa",
+              "x": 0.0,
+              "escala": 0.9
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "pensar",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "fletcher",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 28,
+        "texto": "Sábado, veintitrés. Se redacta el informe de avión desaparecido diez mil setecientos setenta. Último paradero: Tuínwud. Mi pista.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "radio",
+              "x": 0.0,
+              "escala": 0.5
+            },
+            {
+              "tipo": "reloj",
+              "x": -1.1
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Último paradero conocido: Twinwood Farm, 15 de diciembre de 1944.",
+          "firma": "Missing Air Crew Report n.º 10770 (resumen), 23 de diciembre"
+        }
+      },
+      {
+        "dia": 29,
+        "texto": "Nochebuena. En el pub, la radio lo dice: Glen Míler se ha perdido en un vuelo de Inglaterra a París. Nadie dice nada.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "ventana": true,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "chimenea",
+              "x": -1.15
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "🍺",
+              "x": -0.1,
+              "escala": 0.3
+            },
+            {
+              "tipo": "barril",
+              "x": 1.2
+            },
+            {
+              "tipo": "cuadro",
+              "x": 0.7
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomcapote",
+            "x": 0.35,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "peggy",
+            "x": -0.4,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 29,
+        "texto": "Esa madrugada, aviones alemanes habían soltado bombas volantes sobre los alrededores de Mánchester. Unos cuarenta muertos. La guerra no se para por nadie.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "noche",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "escombros",
+              "x": 1.15,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "dia": 30,
+        "texto": "Navidad. En París, la banda toca para las tropas sin él. La dirige el sargento Yéri Grei, su arreglista. Aquí nadie quiere poner la radio.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "noche",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.1
+            },
+            {
+              "tipo": "estufa",
+              "x": 0.0,
+              "escala": 0.9
+            },
+            {
+              "tipo": "cajas",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "fletcher",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "En enero, la junta militar que estudió el caso concluyó que el avión cayó al Canal por error humano, fallo mecánico y mal tiempo, todo junto.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "atardecer",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Lo que más creen los historiadores es el hielo en el carburador y un piloto perdido entre nubes y mar gris. Pero sin restos, nadie puede probarla.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "metal",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "maquina",
+              "x": -1.0,
+              "escala": 0.9
+            },
+            {
+              "tipo": "estanteria",
+              "x": 1.2
+            },
+            {
+              "tipo": "cajas",
+              "x": 0.95
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tom",
+            "x": 0.3,
+            "accion": "pensar",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Lo que se sabe del vuelo",
+          "items": [
+            {
+              "icono": "❄️",
+              "nombre": "Frío húmedo: riesgo de hielo en el carburador"
+            },
+            {
+              "icono": "☁️",
+              "nombre": "Nubes bajas sobre el mar"
+            },
+            {
+              "icono": "🧭",
+              "nombre": "Piloto sin habilitación de instrumentos"
+            },
+            {
+              "icono": "🔍",
+              "nombre": "Ningún resto encontrado"
+            }
+          ]
+        }
+      },
+      {
+        "texto": "En mil novecientos ochenta y cuatro, un antiguo navegante de Lancáster, Fred Sho, dijo que aquel día vio caer un avión pequeño bajo las bombas.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "avion",
+              "x": 0.2
+            },
+            {
+              "tipo": "roca",
+              "x": -1.2
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "texto": "Pero ninguno de sus compañeros del bombardero lo recordaba, y según Sprag las bombas cayeron noventa minutos antes. Las demás leyendas no tienen un solo papel que las sostenga.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "isla",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": []
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "texto": "El dieciséis de diciembre de mil novecientos cuarenta y cinco, un año y un día después, los tres fueron declarados muertos. Nunca se han encontrado.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "atardecer",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "0",
+          "etiqueta": "restos encontrados del Norseman en 80 años",
+          "icono": "🔍"
+        }
+      },
+      {
+        "texto": "Hoy, la torre de control de Tuínwud es un museo. Recordamos a Glen Míler, a Norman Bésel y a Yon Mórgan.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "sol": false,
+          "props": [
+            {
+              "tipo": "bandera-eeuu",
+              "x": -1.15
+            },
+            {
+              "tipo": "bandera",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomcapote",
+            "x": 0.3,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Yo, Tom, nunca existí. Pero aquel avión sí estuvo cuatro minutos en esa pista, con el motor en marcha. ¿Qué crees tú que les pasó? Déjalo en los comentarios.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "tomcapote",
+            "x": 0.0,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Y si quieres vivir otro mes dentro de la historia, suscríbete. El próximo despegue ya está calentando motores.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "tomcapote",
+            "x": 0.0,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": 1
+          }
+        ],
+        "camara": "general"
+      }
+    ]
+  },
+  "ganchos": [
+    {
+      "desde": 0,
+      "hasta": 3,
+      "rotulo": "CUATRO MINUTOS EN MI PISTA",
+      "titulo": "El avión que se llevó a Glenn Miller",
+      "descripcion": "15 de diciembre de 1944: un Norseman aterriza en Twinwood Farm, no apaga el motor y despega con Glenn Miller a bordo. Nunca llegó. Narrador inventado, hechos reales. #shorts #misterio #historia"
+    },
+    {
+      "desde": 32,
+      "hasta": 35,
+      "rotulo": "LA HÉLICE NO PARÓ",
+      "titulo": "¿Dónde están los paracaídas?",
+      "descripcion": "Los cuatro minutos del Norseman en Twinwood y la frase que, según cuentan, dijo Glenn Miller al subir. Narrador inventado, hechos reales. #shorts #glennmiller #misterio"
+    },
+    {
+      "desde": 36,
+      "hasta": 39,
+      "rotulo": "138 BOMBARDEROS, UN MISMO MAR",
+      "titulo": "138 bombarderos y un avión pequeño",
+      "descripcion": "El mismo día que desapareció Glenn Miller, 138 Lancaster soltaron sus bombas en el Canal de la Mancha. ¿Coincidencia? Narrador inventado, hechos reales. #shorts #segundaguerramundial #misterio"
+    },
+    {
+      "desde": 42,
+      "hasta": 46,
+      "rotulo": "NADIE LO ECHÓ DE MENOS",
+      "titulo": "Tres días sin que nadie notara que faltaba Glenn Miller",
+      "descripcion": "18 de diciembre de 1944: la banda aterriza en París y su director no está. En el cuartel general ni sabían que había volado. Narrador inventado, hechos reales. #shorts #historia #glennmiller"
+    }
+  ],
+  "publicacion": {
+    "tituloLargo": "Un mes en la vida de UN MECÁNICO DE TWINWOOD | La desaparición de Glenn Miller (1944)",
+    "tituloCorto": "El avión que se llevó a Glenn Miller",
+    "capituloInicial": "Cuatro minutos en mi pista",
+    "descripcion": "Treinta días en el aeródromo de Twinwood Farm, junto a Bedford (Inglaterra), del 26 de noviembre al 25 de diciembre de 1944, contados por un mecánico de tierra: el frío de los barracones Nissen, el racionamiento, las V-1 y las V-2, la banda de Glenn Miller grabando sin parar antes de irse a París y el viernes 15 de diciembre, cuando un Noorduyn UC-64 Norseman aterrizó cuatro minutos sin apagar el motor, recogió al mayor Glenn Miller y al teniente coronel Norman Baessell y despegó hacia Francia con el piloto John Morgan. Nunca llegó.\n\n— Semana 1: Ochenta y cuatro horas de música\n— Semana 2: Niebla en la pista\n— Semana 3: Cuatro minutos\n— Semana 4: Desaparecido\n— Epílogo: la investigación de 1945, la teoría de las bombas de los Lancaster, las leyendas y el museo de Twinwood\n\nQué es inventado y qué es real: el narrador, Tom Bennett, es un personaje INVENTADO, igual que el sargento Fletcher, Peggy y el sargento americano Hank; sus pensamientos y sus escenas son imaginados. Glenn Miller, Norman Baessell, John R. S. Morgan, Don Haynes y Jerry Gray son reales, igual que las fechas, el tiempo de aquel día, los cuatro minutos en tierra, los 138 Lancaster que soltaron sus bombas en el Canal, los tres días sin que nadie echara en falta el avión y el anuncio de Nochebuena. La frase de los paracaídas es un recuerdo de segunda mano: el diario de Don Haynes no la recoge. Nadie sabe qué pasó: la explicación más aceptada (hielo en el carburador y desorientación sobre el mar) no está demostrada, y la teoría de las bombas tiene la cronología en contra. Nunca se han encontrado restos.\n\nEn memoria del mayor Alton Glenn Miller, del teniente coronel Norman F. Baessell y del flight officer John R. S. Morgan, desaparecidos el 15 de diciembre de 1944.\n\nFuentes principales: Dennis M. Spragg, Glenn Miller Declassified (Glenn Miller Archive, Universidad de Colorado); Missing Air Crew Report n.º 10770 (National Archives de EE. UU.); National WWII Museum; Imperial War Museum; Bedfordshire Archives.\n\n¿Qué crees que les pasó? Cuéntanoslo en los comentarios y suscríbete para vivir otro mes dentro de la historia.",
+    "etiquetas": [
+      "un mes en la vida de",
+      "Glenn Miller",
+      "desaparición de Glenn Miller",
+      "Twinwood Farm",
+      "15 de diciembre de 1944",
+      "Segunda Guerra Mundial",
+      "misterios sin resolver",
+      "Canal de la Mancha",
+      "Norseman",
+      "RAF",
+      "historia de la aviación",
+      "misterio",
+      "historia"
+    ],
+    "miniatura": {
+      "texto": "NUNCA LLEGÓ A PARÍS",
+      "escena": 35,
+      "quien": "tomcapote",
+      "emocion": "miedo",
+      "icono": "🛩️"
+    }
+  }
+}
