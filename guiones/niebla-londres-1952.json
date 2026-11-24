@@ -782,7 +782,7 @@
       {
         "dia": 8,
         "capitulo": "Navidad a la vista",
-        "texto": "Viernes, veintiocho. Los escaparates ya tienen guirnaldas de Navidad. Tómi pega la nariz al cristal de la confitería; los caramelos siguen racionados.",
+        "texto": "Es viernes, día veintiocho. Los escaparates ya tienen guirnaldas de Navidad. Tómi pega la nariz al cristal de la confitería; los caramelos siguen racionados.",
         "drama": 0.5,
         "fondo": {
           "lugar": "calle",
@@ -1702,26 +1702,35 @@
         "fondo": {
           "lugar": "interior",
           "hora": "dia",
-          "pared": "metal",
-          "ventana": true,
+          "pared": "ladrillo",
+          "ventana": false,
           "props": [
             {
               "tipo": "valla",
-              "x": -0.9
+              "x": -0.75
             },
             {
               "tipo": "🐄",
-              "x": -0.9,
-              "escala": 0.55
+              "x": -0.75,
+              "escala": 1.1
             },
             {
               "tipo": "valla",
-              "x": 0.9
+              "x": 0.1
             },
             {
               "tipo": "🐄",
-              "x": 0.9,
-              "escala": 0.5
+              "x": 0.1,
+              "escala": 1.0
+            },
+            {
+              "tipo": "valla",
+              "x": 0.85
+            },
+            {
+              "tipo": "🐄",
+              "x": 0.85,
+              "escala": 1.05
             }
           ]
         },
