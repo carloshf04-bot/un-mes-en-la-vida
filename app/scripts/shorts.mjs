@@ -90,6 +90,7 @@ const CX = 960;
 const xMundo = (x = 0) => CX + x * 600;
 const CW = 608, CH = 900, CY = 20; // recorte del horizontal (deja fuera los subtítulos del largo)
 const MW = 1000; // encuadre medio (casi cuadrado) para dos personajes
+const EW = 1680; // tarjetas y planos «enteros»: se recorta un poco de los lados para que el texto se lea en el móvil
 const pantallaX = (e, xw) => {
   const cam = e.camara ?? "lenta";
   const prota = e.personajes?.[0];
@@ -173,7 +174,7 @@ const assDe = (n, [a, b]) => {
 };
 
 // ---------- render de cada short ----------
-const firma = JSON.stringify({ plan, metas, encuadre, v: 6 });
+const firma = JSON.stringify({ plan, metas, encuadre, v: 8 });
 const cortesF = join(dir, "cortes.json");
 const previo = existsSync(cortesF) ? readFileSync(cortesF, "utf8") : "";
 const mismoPlan = !rehacer && previo && JSON.parse(previo).firma === firma;
@@ -216,7 +217,7 @@ plan.forEach(([a, b], k) => {
     `[0:v]split=4[v1][v2][v3][v4]`,
     `[v1]scale=-2:1920,crop=1080:1920,boxblur=28:2,eq=brightness=-0.18:saturation=0.85[fondo]`,
     `[v2]crop=${CW}:${CH}:x='${exprX(a, b)}':y=${CY},scale=1080:${Math.round((CH * 1080) / CW)}[rec]`,
-    `[v3]crop=1920:${CH}:0:${CY},scale=1080:${Math.round((CH * 1080) / 1920)}[ent]`,
+    `[v3]crop=${EW}:${CH}:${(1920 - EW) / 2}:${CY},scale=1080:${Math.round((CH * 1080) / EW)}[ent]`,
     `[v4]crop=${MW}:${CH}:x='${exprX(a, b, "medio", MW)}':y=${CY},scale=1080:${MH}[med]`,
     `[fondo][rec]overlay=0:160:enable='not(${ent}+${med})'[f0]`,
     `[f0][med]overlay=0:(1920-h)/2-60:enable='${med}'[f1]`,
