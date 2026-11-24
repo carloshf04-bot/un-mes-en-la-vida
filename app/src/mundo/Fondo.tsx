@@ -20,6 +20,7 @@ export type Fondo = {
   ventana?: boolean;
   luna?: boolean; // false: sin la luna que se pinta de noche
   sol?: boolean; // false: sin el disco del sol (p. ej. cuando el sol sale a espaldas de la cámara)
+  nevado?: boolean; // suelo cubierto de nieve (automático con "clima": "nieve" en tierra)
   // lugar "ocular" (la vista por el anteojo): qué se ve en el círculo
   vista?: "jupiter" | "luna" | "estrellas" | "via-lactea";
   lunas?: number[]; // jupiter: posiciones de las lunas en diámetros de Júpiter (negativo = este = izquierda)
@@ -282,7 +283,8 @@ const Ocular: React.FC<{ fondo: Fondo; f: number; dur: number; id: string }> = (
 const Exterior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string; cam?: Cam; medios?: React.ReactNode; bahia?: boolean }> = ({ fondo, hora, f, id, cam, medios, bahia }) => {
   const c = LEJOS[hora];
   const lugar = fondo.lugar;
-  const suelo = SUELOS[lugar] ?? "#555";
+  const nevado = fondo.nevado ?? (fondo.clima === "nieve" && !["mar", "playa", "isla", "rio", "desierto"].includes(lugar));
+  const suelo = nevado ? (hora === "noche" ? "#aeb8c8" : hora === "dia" ? "#eef2f6" : "#d9dde8") : SUELOS[lugar] ?? "#555";
   const deriva = f * 0.35;
   let lejos: React.ReactNode = null;
   switch (lugar) {
@@ -545,7 +547,10 @@ const Exterior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string; cam?
         Array.from({ length: 60 }).map((_, i) => (
           <rect key={i} x={(i % 15) * 130 + (Math.floor(i / 15) % 2) * 65} y={SUELO - 10 + Math.floor(i / 15) * 60} width={118} height={50} rx={14} fill={oscurecer(suelo, 0.12)} />
         ))}
-      {(lugar === "campo" || lugar === "bosque" || lugar === "selva" || lugar === "montanas" || lugar === "isla") &&
+      {nevado && Array.from({ length: 14 }).map((_, i) => (
+        <ellipse key={`nv${i}`} cx={random(`nvx${i}`) * MW} cy={SUELO + 40 + random(`nvy${i}`) * 440} rx={90 + random(`nvr${i}`) * 140} ry={14} fill={oscurecer(suelo, 0.08)} />
+      ))}
+      {!nevado && (lugar === "campo" || lugar === "bosque" || lugar === "selva" || lugar === "montanas" || lugar === "isla") &&
         Array.from({ length: 40 }).map((_, i) => (
           <path key={i} d={`M${random(`gx${i}`) * MW} ${SUELO + random(`gy${i}`) * 500} l8 -30 l8 30`} fill={oscurecer(suelo, 0.2)} />
         ))}
@@ -940,7 +945,7 @@ export const DibujarFondo: React.FC<{ fondo: Fondo; f: number; dur: number; id: 
       ) : (
         <g>
           <g transform={paralaje(cam, 0.85)}>
-            <Cielo hora={hora} f={f} dur={dur} espacio={fondo.lugar === "espacio" || fondo.lugar === "luna"} marte={fondo.lugar === "marte"} id={id} nublado={fondo.clima === "nublado"} sinLuna={fondo.luna === false || fondo.clima === "lluvia" || fondo.clima === "tormenta"} sinSol={fondo.sol === false || fondo.clima === "lluvia" || fondo.clima === "tormenta"} />
+            <Cielo hora={hora} f={f} dur={dur} espacio={fondo.lugar === "espacio" || fondo.lugar === "luna"} marte={fondo.lugar === "marte"} id={id} nublado={fondo.clima === "nublado"} sinLuna={fondo.luna === false || fondo.clima === "lluvia" || fondo.clima === "tormenta" || fondo.clima === "nieve"} sinSol={fondo.sol === false || fondo.clima === "lluvia" || fondo.clima === "tormenta" || fondo.clima === "nieve"} />
             <Vida fondo={fondo} f={f} id={id} />
           </g>
           {/* decorados LEJANOS (volcanes, pirámides): detrás del paisaje, apoyados en el horizonte y con bruma */}

@@ -35,7 +35,7 @@ export const PROPS_DISPONIBLES = [
   // terremoto de Mesina (1908)
   "escombros",
   // Pearl Harbor (1941)
-  "acorazado", "destructor", "portaaviones", "submarino", "avion", "radar",
+  "acorazado", "destructor", "portaaviones", "submarino", "avion", "flyer", "flyer-vuelo", "cobertizo", "autobus", "central", "casa-larga", "camion", "tanque", "paracaidas-carga", "hoyo", "radar",
   // Galileo en Padua (1610)
   "anteojo", "torno-lentes", "santo", "campanario",
 ] as const;
@@ -2496,6 +2496,220 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: num
             const t = ((f / 30 + i / 6) % 1);
             return <ellipse key={i} cx={-200 + i * 80 - t * 60} cy={4} rx={40 + t * 50} ry={8 + t * 4} fill="#fff" opacity={0.6 * (1 - t)} />;
           })}
+        </g>
+      );
+    }
+    case "flyer":
+    case "flyer-vuelo": {
+      // biplano de los Wright (1903), visto de frente y algo desde arriba: alas de tela clara con costillas,
+      // montantes, elevador doble delante, dos hélices detrás y el piloto tumbado en el ala de abajo.
+      // "flyer": sobre el riel de madera; "flyer-vuelo": a poca altura, avanzando despacio y cabeceando.
+      const vuela = tipo === "flyer-vuelo";
+      const alto = vuela ? -260 - Math.sin(f / 22) * 18 : -70;
+      const dx = vuela ? Math.sin(f / 60) * 40 : 0;
+      const inc = vuela ? Math.sin(f / 17) * 2.2 : 0;
+      const tela = noche ? "#9a9686" : "#ece4cc";
+      const costilla = noche ? "#6b6658" : "#b9ad8c";
+      const madera = noche ? "#4a3a28" : "#7a5a36";
+      const ala = (y: number, k: string) => (
+        <g key={k}>
+          <path d={`M-800 ${y} Q0 ${y - 26} 800 ${y} L800 ${y + 22} Q0 ${y - 4} -800 ${y + 22}Z`} fill={tela} />
+          {Array.from({ length: 33 }).map((_, i) => {
+            const x = -790 + i * 49.4;
+            const c = y - 26 * (1 - (x / 800) ** 2);
+            return <line key={i} x1={x} y1={c + 2} x2={x} y2={c + 24} stroke={costilla} strokeWidth={3} />;
+          })}
+        </g>
+      );
+      const helice = (x: number, k: number) => {
+        const a = Math.abs(Math.cos(f * (vuela ? 1.7 : 0.9) + k));
+        return <ellipse key={x} cx={x} cy={-150} rx={18} ry={90 * a + 6} fill={madera} opacity={0.85} />;
+      };
+      return (
+        <g>
+          {!vuela && (
+            <g>
+              <rect x={-60} y={-18} width={120} height={18} fill={madera} />
+              <rect x={-900} y={-8} width={1800} height={10} fill={oscurecer(madera, 0.2)} opacity={0.7} />
+              <ellipse cx={0} cy={4} rx={900} ry={12} fill="#000" opacity={0.12} />
+            </g>
+          )}
+          {vuela && <ellipse cx={dx} cy={4} rx={700} ry={22} fill="#000" opacity={0.1} />}
+          <g transform={`translate(${dx} ${alto}) rotate(${inc})`}>
+            {/* hélices detrás */}
+            {helice(-330, 0)}
+            {helice(330, 1)}
+            {ala(-270, "a")}
+            {/* montantes */}
+            {Array.from({ length: 13 }).map((_, i) => {
+              const x = -780 + i * 130;
+              return <line key={i} x1={x} y1={-262 + 26 * (x / 800) ** 2 - 26} x2={x} y2={-4 + 26 * (x / 800) ** 2 - 26} stroke={madera} strokeWidth={6} />;
+            })}
+            <path d="M-780 -280 L-650 -26 M-650 -280 L-780 -26 M780 -280 L650 -26 M650 -280 L780 -26" stroke="#555" strokeWidth={2} />
+            {ala(-4, "b")}
+            {/* elevador doble delante (más bajo y pequeño) y patines */}
+            <g transform="translate(0 70)">
+              <path d="M-230 -40 Q0 -54 230 -40 L230 -30 Q0 -44 -230 -30Z" fill={tela} />
+              <path d="M-230 20 Q0 6 230 20 L230 30 Q0 16 -230 30Z" fill={tela} />
+              <line x1={-200} y1={-36} x2={-200} y2={24} stroke={madera} strokeWidth={5} />
+              <line x1={200} y1={-36} x2={200} y2={24} stroke={madera} strokeWidth={5} />
+            </g>
+            <path d="M-120 0 L-150 90 M120 0 L150 90" stroke={madera} strokeWidth={8} />
+            {/* motor y piloto tumbado */}
+            <rect x={60} y={-60} width={90} height={50} rx={6} fill="#3a3a3a" />
+            <g>
+              <ellipse cx={-40} cy={-36} rx={70} ry={22} fill="#2a2a30" />
+              <circle cx={-100} cy={-44} r={20} fill="#e0b494" />
+              <path d="M-122 -56 Q-100 -74 -78 -56Z" fill="#2a2a30" />
+            </g>
+          </g>
+        </g>
+      );
+    }
+    case "cobertizo": {
+      // cobertizo de tablas con tejado a dos aguas y puertas abatibles (campamento de Kill Devil Hills)
+      const tabla = noche ? "#4a3e30" : "#9a8566";
+      return (
+        <g>
+          <path d="M-420 0 L-420 -330 L0 -470 L420 -330 L420 0Z" fill={tabla} />
+          {Array.from({ length: 15 }).map((_, i) => <rect key={i} x={-420 + i * 56} y={-470} width={4} height={470} fill="#00000026" />)}
+          <path d="M-450 -322 L0 -486 L450 -322" stroke={oscurecer(tabla, 0.4)} strokeWidth={26} fill="none" />
+          <rect x={-250} y={-280} width={500} height={280} fill={oscurecer(tabla, 0.45)} />
+          <path d="M-250 -280 L-330 -330 L-330 -20 L-250 0Z M250 -280 L330 -330 L330 -20 L250 0Z" fill={oscurecer(tabla, 0.15)} />
+          <rect x={300} y={-260} width={70} height={60} fill={noche ? "#ffd27a" : "#2a2a2a"} opacity={0.8} />
+        </g>
+      );
+    }
+    case "autobus": {
+      // autobús rojo de dos pisos de los años cincuenta, genérico (sin logotipos), de perfil hacia la derecha
+      const rojo = noche ? "#6a1a1a" : "#b3241e";
+      const cristal = noche ? "#3a4048" : "#9fb4c4";
+      const luz = noche ? "#ffe9a8" : "#f4efe0";
+      return (
+        <g>
+          <path d="M-560 -60 L-560 -880 Q-560 -930 -510 -930 L470 -930 Q560 -930 560 -840 L560 -60Z" fill={rojo} />
+          <rect x={-560} y={-520} width={1120} height={34} fill="#efe6cf" />
+          {/* ventanas de los dos pisos */}
+          {[-850, -450].map((y) => Array.from({ length: 6 }).map((_, i) => (
+            <rect key={`${y}${i}`} x={-520 + i * 168} y={y} width={146} height={120} rx={10} fill={cristal} opacity={0.9} />
+          )))}
+          {/* cabina del conductor y plataforma trasera abierta */}
+          <rect x={410} y={-460} width={130} height={150} rx={10} fill={cristal} />
+          <rect x={-560} y={-470} width={120} height={410} fill="#1c1c1c" opacity={0.75} />
+          <line x1={-500} y1={-470} x2={-500} y2={-60} stroke="#c9ccd0" strokeWidth={8} />
+          <rect x={-420} y={-910} width={260} height={50} rx={6} fill="#1a1a1a" />
+          {/* ruedas */}
+          {[-330, 360].map((x) => (
+            <g key={x}><circle cx={x} cy={-60} r={78} fill="#141414" /><circle cx={x} cy={-60} r={38} fill="#8a8a8a" /></g>
+          ))}
+          <rect x={-560} y={-110} width={1120} height={20} fill={oscurecer(rojo, 0.35)} />
+          {/* faros: con niebla o de noche, dos conos de luz */}
+          <circle cx={545} cy={-150} r={22} fill={luz} />
+          {noche && <path d="M560 -150 L1150 -260 L1150 -40Z" fill={luz} opacity={0.18} />}
+        </g>
+      );
+    }
+    case "central": {
+      // central eléctrica de carbón LEJANA: nave de ladrillo con chimeneas altas que echan humo (genérica)
+      const ladrillo = noche ? "#3a2c26" : "#7a5a4a";
+      return (
+        <g opacity={0.9}>
+          <rect x={-420} y={-520} width={840} height={520} fill={ladrillo} />
+          {Array.from({ length: 9 }).map((_, i) => <rect key={i} x={-380 + i * 90} y={-470} width={30} height={380} fill={oscurecer(ladrillo, 0.3)} />)}
+          {[-380, 380].map((x) => (
+            <g key={x}>
+              <path d={`M${x - 46} -520 L${x - 34} -1180 L${x + 34} -1180 L${x + 46} -520Z`} fill={oscurecer(ladrillo, -0.15)} />
+              {Array.from({ length: 6 }).map((_, k) => {
+                const t = ((f / 90 + k / 6) % 1);
+                return <circle key={k} cx={x + t * 260} cy={-1200 - t * 380} r={50 + t * 150} fill={noche ? "#4a4a4a" : "#7a7468"} opacity={0.55 * (1 - t)} />;
+              })}
+            </g>
+          ))}
+        </g>
+      );
+    }
+    case "casa-larga": {
+      // casa larga nórdica de madera con tejado curvo de turba nevado, humo por el agujero del techo y puerta con luz
+      const madera = noche ? "#3a2a1c" : "#6b4a2a";
+      return (
+        <g>
+          <path d="M-640 0 L-610 -300 Q0 -360 610 -300 L640 0Z" fill={madera} />
+          {Array.from({ length: 20 }).map((_, i) => <rect key={i} x={-620 + i * 64} y={-320} width={6} height={320} fill="#00000030" />)}
+          <path d="M-700 -280 Q-640 -560 0 -600 Q640 -560 700 -280 Q0 -330 -700 -280Z" fill={noche ? "#2a3226" : "#4f5f36"} />
+          <path d="M-700 -284 Q-640 -560 0 -600 Q640 -560 700 -284 Q620 -470 0 -520 Q-620 -470 -700 -284Z" fill="#f2f4f6" opacity={0.92} />
+          <rect x={-90} y={-230} width={180} height={230} rx={10} fill="#1a120c" />
+          <rect x={-70} y={-210} width={140} height={210} fill="#ff9a3c" opacity={0.35 + 0.12 * Math.sin(f / 5)} />
+          <Brillo r={260} o={noche ? 0.35 : 0.12} cy={-100} />
+          {Array.from({ length: 6 }).map((_, k) => {
+            const t = ((f / 120 + k / 6) % 1);
+            return <circle key={k} cx={120 + t * 160} cy={-620 - t * 420} r={30 + t * 90} fill="#cfd2d6" opacity={0.45 * (1 - t)} />;
+          })}
+        </g>
+      );
+    }
+    case "camion": {
+      // camión militar de carga de los años cuarenta, verde oliva con lona, sin insignias, de perfil hacia la derecha
+      const oliva = noche ? "#2f3324" : "#5a6038";
+      const lona = noche ? "#3a3e2c" : "#7a7c54";
+      return (
+        <g>
+          <path d="M-560 -170 L-560 -560 Q-560 -600 -520 -600 L120 -600 Q150 -600 150 -560 L150 -170Z" fill={lona} />
+          {[-420, -220, -20].map((x) => <path key={x} d={`M${x} -600 Q${x + 10} -380 ${x} -170`} stroke={oscurecer(lona, 0.25)} strokeWidth={8} fill="none" />)}
+          <rect x={-580} y={-190} width={760} height={40} fill={oliva} />
+          <path d="M170 -170 L170 -430 L360 -430 L420 -300 L520 -280 L520 -170Z" fill={oliva} />
+          <path d="M200 -410 L340 -410 L390 -310 L200 -310Z" fill={noche ? "#2a3038" : "#9fb4c4"} opacity={0.85} />
+          {[-430, -260, 380].map((x) => (
+            <g key={x}><circle cx={x} cy={-90} r={80} fill="#151515" /><circle cx={x} cy={-90} r={34} fill={oscurecer(oliva, 0.2)} /></g>
+          ))}
+          <rect x={500} y={-260} width={30} height={60} fill="#222" />
+        </g>
+      );
+    }
+    case "tanque": {
+      // carro de combate de la Segunda Guerra Mundial, verde oliva, sin insignias, de perfil hacia la derecha
+      const oliva = noche ? "#2c3022" : "#56603a";
+      return (
+        <g>
+          <path d="M-560 -40 Q-600 -110 -540 -170 L540 -170 Q600 -110 560 -40 Q520 0 460 0 L-460 0 Q-520 0 -560 -40Z" fill="#2a2a26" />
+          {Array.from({ length: 8 }).map((_, i) => <circle key={i} cx={-430 + i * 123} cy={-80} r={52} fill="#3a3a34" stroke="#1c1c1a" strokeWidth={6} />)}
+          <path d="M-520 -170 L-470 -330 L470 -330 L540 -170Z" fill={oliva} />
+          <path d="M-280 -330 Q-260 -520 -40 -530 Q160 -520 200 -330Z" fill={oscurecer(oliva, -0.08)} />
+          <rect x={180} y={-460} width={560} height={40} rx={14} fill={oscurecer(oliva, 0.15)} />
+          <rect x={-140} y={-580} width={110} height={56} rx={10} fill={oscurecer(oliva, 0.2)} />
+        </g>
+      );
+    }
+    case "paracaidas-carga": {
+      // paracaídas de colores que bajan del cielo con fardos de suministros colgando
+      const cols = ["#d8473a", "#f0c040", "#3f7fd0", "#e8e4d8", "#4caf72", "#e07b2a"];
+      return (
+        <g>
+          {Array.from({ length: 9 }).map((_, i) => {
+            const t = ((f / 260 + random(`pc${i}`)) % 1);
+            const x = -900 + random(`pcx${i}`) * 1800 + Math.sin(f / 30 + i) * 30;
+            const y = -1500 + t * 1300;
+            const c = cols[i % cols.length];
+            const s = 0.6 + random(`pcs${i}`) * 0.5;
+            return (
+              <g key={i} transform={`translate(${x} ${y}) scale(${s})`} opacity={t > 0.92 ? (1 - t) / 0.08 : 1}>
+                <path d="M-120 0 Q-110 -110 0 -120 Q110 -110 120 0 Q90 -18 60 0 Q30 -18 0 0 Q-30 -18 -60 0 Q-90 -18 -120 0Z" fill={c} />
+                <path d="M-120 0 L-20 150 M120 0 L20 150 M-60 0 L-10 150 M60 0 L10 150" stroke="#444" strokeWidth={3} />
+                <rect x={-34} y={150} width={68} height={80} rx={6} fill="#6a6040" />
+              </g>
+            );
+          })}
+        </g>
+      );
+    }
+    case "hoyo": {
+      // hoyo de tirador: boca oscura en el suelo con un reborde de tierra removida y troncos delante
+      const tierra = noche ? "#3a3028" : "#6b5440";
+      return (
+        <g>
+          <path d="M-380 10 Q-360 -70 -220 -86 Q0 -100 220 -86 Q360 -70 380 10Z" fill={tierra} />
+          <ellipse cx={0} cy={4} rx={250} ry={40} fill="#14110e" />
+          {[-120, 30, 160].map((x, i) => <rect key={x} x={x - 130} y={-108 - i * 4} width={260} height={30} rx={15} fill={noche ? "#3a2a1a" : "#5a3e22"} stroke="#2a1c10" strokeWidth={4} transform={`rotate(${(i - 1) * 5} ${x} -94)`} />)}
+          <path d="M-380 10 Q-360 -70 -220 -86 Q-300 -50 -330 10Z M380 10 Q360 -70 220 -86 Q300 -50 330 10Z" fill="#f4f6f8" opacity={0.6} />
         </g>
       );
     }
