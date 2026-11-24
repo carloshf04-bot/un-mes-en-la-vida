@@ -311,7 +311,7 @@
     "escenas": [
       {
         "corte": true,
-        "texto": "Esta Navidad, los alemanes me van a dar dos horas para rendirme. Mi general les va a contestar con una sola palabra que no van a entender.",
+        "texto": "Estas Navidades, los alemanes nos van a dar dos horas para rendirnos. Mi general les va a contestar con una sola palabra que no van a entender.",
         "drama": 0.85,
         "fondo": {
           "lugar": "campo",
@@ -911,8 +911,8 @@
               "nombre": "Guantes"
             },
             {
-              "icono": "👢",
-              "nombre": "Botas de goma"
+              "icono": "🧦",
+              "nombre": "Calcetines de repuesto"
             },
             {
               "icono": "📦",
@@ -1154,12 +1154,12 @@
       },
       {
         "dia": 22,
-        "texto": "Esa noche, los alemanes capturan el hospital de la división, con unos ciento treinta médicos y sanitarios. No tenemos adónde llevar a los heridos.",
+        "texto": "Esa noche, los alemanes capturan el hospital de la división, con unos ciento treinta hombres de la compañía médica. No tenemos adónde llevar a los heridos.",
         "drama": 0.8,
         "fondo": {
           "lugar": "bosque",
           "hora": "noche",
-          "clima": "nieve",
+          "clima": "niebla",
           "sol": false,
           "luna": false,
           "props": [
@@ -1314,7 +1314,7 @@
       },
       {
         "dia": 24,
-        "texto": "Dentro quedamos más de diez mil soldados y unos tres mil vecinos, que viven en los sótanos a la luz de una vela, casi sin agua ni comida.",
+        "texto": "Dicen que dentro quedamos más de diez mil soldados y unos tres mil vecinos, que viven en los sótanos a la luz de una vela, casi sin agua ni comida.",
         "drama": 0.6,
         "fondo": {
           "lugar": "interior",
@@ -1424,7 +1424,7 @@
       {
         "dia": 25,
         "corte": true,
-        "texto": "Viernes, veintidós de diciembre. Cuatro alemanes con una bandera blanca llegan hasta nuestras líneas. No vienen a rendirse: nos dan dos horas para rendirnos nosotros.",
+        "texto": "Cuatro alemanes con una bandera blanca cruzan la nieve hacia las líneas americanas, al sur, por la carretera de Arlon. Es el veintidós de diciembre. No vienen a rendirse.",
         "drama": 0.85,
         "fondo": {
           "lugar": "campo",
@@ -1474,7 +1474,7 @@
       },
       {
         "dia": 25,
-        "texto": "Manda la división el general Macólif, porque nuestro jefe está en Uáshinton. Lee el papel del ultimátum y suelta una sola palabra: Nats.",
+        "texto": "Manda la división el general Macólif, porque nuestro jefe está en Uáshinton. El papel nos da dos horas para rendirnos. Él lo lee y suelta una sola palabra: Nats.",
         "drama": 0.8,
         "fondo": {
           "lugar": "interior",
@@ -1729,7 +1729,7 @@
       },
       {
         "dia": 26,
-        "texto": "Bili y yo salimos del hoyo gritando como en un partido. Un fardo cae en la nieve, a cien metros, con su paracaídas rojo extendido como una flor.",
+        "texto": "Bili y yo salimos del hoyo gritando como en un partido. Un fardo cae en la nieve con su paracaídas rojo. Esa noche, por primera vez en días, nadie cuenta los cartuchos.",
         "drama": 0.75,
         "fondo": {
           "lugar": "campo",
@@ -1793,7 +1793,7 @@
       },
       {
         "dia": 27,
-        "texto": "Domingo, veinticuatro. Nochebuena. Por la mañana nos reparten un mensaje del general. Arranca así: ¿qué tiene de feliz todo esto?, preguntaréis.",
+        "texto": "Domingo, veinticuatro. Nochebuena. Nos reparten un mensaje del general. Empieza con un «¡Feliz Navidad!» y sigue: ¿qué tiene de feliz todo esto?, preguntaréis.",
         "drama": 0.6,
         "fondo": {
           "lugar": "campo",
@@ -1822,9 +1822,10 @@
           {
             "quien": "ray-cerco",
             "x": 0.4,
-            "accion": "escribir",
+            "accion": "cargar",
             "emocion": "neutral",
-            "mirar": -1
+            "mirar": -1,
+            "objeto": "📜"
           },
           {
             "quien": "sargento",
@@ -1839,13 +1840,13 @@
       },
       {
         "dia": 27,
-        "texto": "Esa mañana, los vecinos de Emrul le dan al mayor Jánlon sus sábanas blancas, para que no se nos vea contra la nieve. La mía huele a jabón.",
+        "texto": "Ese día, los vecinos de Emrul le dan al mayor Jánlon sus sábanas blancas, para que no se nos vea contra la nieve. La mía huele a jabón.",
         "drama": 0.6,
         "fondo": {
           "lugar": "calle",
           "hora": "dia",
-          "clima": "nieve",
-          "sol": false,
+          "clima": "despejado",
+          "nevado": true,
           "props": [
             {
               "tipo": "casa",
@@ -1898,12 +1899,12 @@
               "x": -1.15
             },
             {
-              "tipo": "cama",
+              "tipo": "mesa",
               "x": 1.15
             },
             {
               "tipo": "🕯️",
-              "x": 0.0,
+              "x": 1.1,
               "escala": 0.25
             }
           ]
@@ -1979,7 +1980,7 @@
       },
       {
         "dia": 27,
-        "texto": "Una bomba cae sobre el puesto de socorro donde trabajan ellas. Mueren unos treinta heridos americanos, y René Lemér, que tenía treinta años. Augusta sobrevive.",
+        "texto": "Una bomba cae sobre el puesto de socorro donde trabajan ellas. Mueren entre veinticinco y treinta heridos americanos, y René Lemér, de treinta años. Augusta, en la casa de al lado, sobrevive.",
         "drama": 0.7,
         "fondo": {
           "lugar": "calle",
@@ -2241,22 +2242,22 @@
       },
       {
         "dia": 29,
-        "texto": "El primero es un tanque llamado Cobra King. Su teniente, Bógues, le da la mano al primer paracaidista que encuentra, un teniente de ingenieros. La puerta está abierta.",
+        "texto": "El primero es un tanque llamado Cobra King. Su teniente, Bógues, le da la mano al primer hombre de la ciento uno que encuentra, un teniente de ingenieros. La puerta está abierta.",
         "drama": 0.75,
         "personajes": [
           {
             "quien": "ray-cerco",
-            "x": 0.5,
+            "x": 0.4,
             "accion": "celebrar",
             "emocion": "feliz",
             "mirar": -1
           },
           {
             "quien": "sargento",
-            "x": 0.05,
-            "accion": "senalar",
+            "x": -0.4,
+            "accion": "celebrar",
             "emocion": "feliz",
-            "mirar": -1,
+            "mirar": 1,
             "habla": false
           }
         ],
@@ -2266,25 +2267,6 @@
           "valor": "26 dic",
           "etiqueta": "al atardecer, el tanque «Cobra King» del teniente Charles Boggess (4.ª División Acorazada) llega al perímetro por Assenois",
           "icono": "🗺️"
-        },
-        "fondo": {
-          "lugar": "campo",
-          "hora": "atardecer",
-          "clima": "despejado",
-          "sol": false,
-          "nevado": true,
-          "props": [
-            {
-              "tipo": "pino",
-              "x": 1.35
-            },
-            {
-              "tipo": "tanque",
-              "x": -0.95,
-              "escala": 0.75,
-              "detras": true
-            }
-          ]
         }
       },
       {
@@ -2561,7 +2543,7 @@
         "camara": "cerca"
       },
       {
-        "texto": "Rei Molina, su familia y Bili Dan son inventados. El quinientos dos, Emrul y sus sábanas, Nats, los paracaídas, René Lemér, Augusta Chiuí y Bógues son reales.",
+        "texto": "Rei Molina, su familia, Bili Dan y el sargento son inventados. El quinientos dos, Emrul y sus sábanas, Nats, los paracaídas, René Lemér, Augusta Chiuí y Bógues son reales.",
         "drama": 0.55,
         "fondo": {
           "lugar": "campo",
@@ -2645,7 +2627,7 @@
     },
     {
       "desde": 35,
-      "hasta": 38,
+      "hasta": 37,
       "rotulo": "EL CIELO SE ABRE",
       "titulo": "Esta vez los paracaídas no traían hombres",
       "descripcion": "23 de diciembre de 1944: se abre el cielo sobre Bastogne y más de 200 aviones lanzan munición, comida y mantas a los rodeados. #shorts #historia #bastogne #segundaguerramundial"
@@ -2663,7 +2645,7 @@
     "tituloCorto": "Bastogne, 1944",
     "tituloShort": "Le dieron dos horas para rendirse. Contestó: NUTS!",
     "capituloInicial": "Dos horas para rendirse",
-    "descripcion": "Treinta días en la vida de Ray Molina, 20 años, de San Antonio (Texas), soldado paracaidista de la compañía A del 1.er Batallón del 502.º Regimiento de Infantería Paracaidista (101.ª División Aerotransportada), del 28 de noviembre al 27 de diciembre de 1944: el descanso en Mourmelon-le-Grand tras 72 días de combate en Holanda, los 100 dólares de paga, el paquete de Navidad de su madre, la «Champagne Bowl» que nunca se jugó, el viaje de pie en camiones descubiertos y sin abrigos, y el asedio de Bastogne (Bélgica): el hospital de la división capturado la primera noche, el ultimátum alemán del 22 de diciembre y la respuesta del general McAuliffe («NUTS!»), los lanzamientos del 23, las sábanas blancas de los vecinos de Hemroulle, el bombardeo de Nochebuena, el ataque del día de Navidad por Champs y la llegada de la 4.ª División Acorazada por Assenois el 26. Sin escenas gráficas, con respeto por todas las víctimas, también las civiles.\n\n— Semana 1: Un techo y una cama\n— Semana 2: Champaña y barro\n— Semana 3: Los camiones\n— Semana 4: Nuts!\n— Epílogo: las bajas de la 101.ª, la polémica del «rescate», las sábanas devueltas por Hanlon, Augusta Chiwy, Renée Lemaire y la Champagne Bowl de 2018\n\nQué es inventado y qué es real: Ray Molina, su madre Socorro, su hermana Lupe, su amigo Billy Dunn y el sargento son INVENTADOS, igual que lo que piensan y viven. Son reales el 502.º Regimiento y su sector de Hemroulle y Champs, el mayor John Hanlon y las sábanas de los vecinos de Hemroulle, el general Anthony McAuliffe y su respuesta, el coronel Joseph Harper, el mensaje de Navidad a la tropa, los lanzamientos del 23 de diciembre, la captura del hospital de la 326.ª Compañía Médica, las enfermeras Renée Lemaire y Augusta Chiwy, el tanque «Cobra King» del teniente Charles Boggess y todas las cifras del vídeo. Las personas reales aparecen solo con hechos documentados; Ray no habla con ninguna.\n\nDetalles discutidos se cuentan como tales: quién sugirió usar «Nuts!» como respuesta, las palabras exactas de Harper, el autor de la frase «nos tienen rodeados, los pobres diablos», la cifra de muertos del bombardeo de Nochebuena (25–30) y el paracaídas con el que Renée quería hacerse el vestido de novia (lo contó el médico Jack Prior). Los veteranos de la 101.ª siempre negaron que los «rescataran»: la 4.ª Acorazada abrió un pasillo.\n\nFuentes: U.S. Army («The story of the NUTS! reply», «Air Borne to the Airborne», «Cobra King»); Col. Ralph M. Mitchell, «The 101st Airborne Division's Defense of Bastogne» (Combat Studies Institute); S. L. A. Marshall, «Bastogne: The First Eight Days»; Archivos Nacionales de EE. UU. (Prologue y el mensaje de Navidad de McAuliffe); National WWII Glider Pilots Association; informes de la 326.ª Compañía Médica; DVIDS; Military.com; Peter Schrijvers, «Those Who Hold Bastogne» (Yale University Press); Departamento de Defensa de EE. UU. y Europe Remembers (Augusta Chiwy); Liberation Route (Renée Lemaire y Assenois); RealClearHistory (las sábanas de Hanlon).",
+    "descripcion": "Treinta días en la vida de Ray Molina, 20 años, de San Antonio (Texas), soldado paracaidista de la compañía A del 1.er Batallón del 502.º Regimiento de Infantería Paracaidista (101.ª División Aerotransportada), del 28 de noviembre al 27 de diciembre de 1944: el descanso en Mourmelon-le-Grand tras 72 días de combate en Holanda, los 100 dólares de paga, el paquete de Navidad de su madre, la «Champagne Bowl» que nunca se jugó, el viaje de pie en camiones descubiertos y sin abrigos, y el asedio de Bastogne (Bélgica): el hospital de la división capturado la primera noche, el ultimátum alemán del 22 de diciembre y la respuesta del general McAuliffe («NUTS!»), los lanzamientos del 23, las sábanas blancas de los vecinos de Hemroulle, el bombardeo de Nochebuena, el ataque del día de Navidad por Champs y la llegada de la 4.ª División Acorazada por Assenois el 26. Sin escenas gráficas, con respeto por todas las víctimas, también las civiles.\n\n— Semana 1: Un techo y una cama\n— Semana 2: Champaña y barro\n— Semana 3: Los camiones\n— Semana 4: Nuts!\n— Epílogo: las bajas de la 101.ª, la polémica del «rescate», las sábanas devueltas por Hanlon, Augusta Chiwy, Renée Lemaire y la Champagne Bowl de 2018\n\nQué es inventado y qué es real: Ray Molina, su madre Socorro, su hermana Lupe, su amigo Billy Dunn y el sargento son INVENTADOS, igual que lo que piensan y viven. Son reales el 502.º Regimiento y su sector de Hemroulle y Champs, el mayor John Hanlon y las sábanas de los vecinos de Hemroulle, el general Anthony McAuliffe y su respuesta, el coronel Joseph Harper, el mensaje de Navidad a la tropa, los lanzamientos del 23 de diciembre, la captura del hospital de la 326.ª Compañía Médica, las enfermeras Renée Lemaire y Augusta Chiwy, el tanque «Cobra King» del teniente Charles Boggess y las cifras del vídeo (las discutidas se dan con horquilla o como aproximadas). Las personas reales aparecen solo con hechos documentados; Ray no habla con ninguna.\n\nDetalles discutidos se cuentan como tales: quién sugirió usar «Nuts!» como respuesta, las palabras exactas de Harper, el autor de la frase «nos tienen rodeados, los pobres diablos», la cifra de muertos del bombardeo de Nochebuena (25–30), la de hombres capturados en el hospital de la división (unos 130), la de soldados y civiles dentro del cerco (más de 10.000 y unos 3.000), la de aviones del 23 de diciembre (241–253) y el paracaídas con el que Renée quería hacerse el vestido de novia (lo contó el médico Jack Prior). Los veteranos de la 101.ª siempre negaron que los «rescataran»: la 4.ª Acorazada abrió un pasillo.\n\nFuentes: U.S. Army («The story of the NUTS! reply», «Air Borne to the Airborne», «Cobra King»); Col. Ralph M. Mitchell, «The 101st Airborne Division's Defense of Bastogne» (Combat Studies Institute); S. L. A. Marshall, «Bastogne: The First Eight Days»; Archivos Nacionales de EE. UU. (Prologue y el mensaje de Navidad de McAuliffe); National WWII Glider Pilots Association; informes de la 326.ª Compañía Médica; DVIDS; Military.com; Peter Schrijvers, «Those Who Hold Bastogne» (Yale University Press); Departamento de Defensa de EE. UU. y Europe Remembers (Augusta Chiwy); Liberation Route (Renée Lemaire y Assenois); RealClearHistory (las sábanas de Hanlon).",
     "etiquetas": [
       "un mes en la vida de",
       "Bastogne",
