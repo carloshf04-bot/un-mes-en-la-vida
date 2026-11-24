@@ -35,7 +35,7 @@ export const PROPS_DISPONIBLES = [
   // terremoto de Mesina (1908)
   "escombros",
   // Pearl Harbor (1941)
-  "acorazado", "destructor", "portaaviones", "submarino", "avion", "flyer", "flyer-vuelo", "cobertizo", "autobus", "central", "casa-larga", "camion", "tanque", "paracaidas-carga", "hoyo", "radar",
+  "acorazado", "destructor", "portaaviones", "submarino", "avion", "flyer", "flyer-vuelo", "cobertizo", "autobus", "central", "casa-larga", "camion", "tanque", "paracaidas-carga", "hoyo", "norseman", "norseman-vuelo", "nissen", "torre-control", "telar", "aurora", "radar",
   // Galileo en Padua (1610)
   "anteojo", "torno-lentes", "santo", "campanario",
 ] as const;
@@ -2710,6 +2710,120 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: num
           <ellipse cx={0} cy={4} rx={250} ry={40} fill="#14110e" />
           {[-120, 30, 160].map((x, i) => <rect key={x} x={x - 130} y={-108 - i * 4} width={260} height={30} rx={15} fill={noche ? "#3a2a1a" : "#5a3e22"} stroke="#2a1c10" strokeWidth={4} transform={`rotate(${(i - 1) * 5} ${x} -94)`} />)}
           <path d="M-380 10 Q-360 -70 -220 -86 Q-300 -50 -330 10Z M380 10 Q360 -70 220 -86 Q300 -50 330 10Z" fill="#f4f6f8" opacity={0.6} />
+        </g>
+      );
+    }
+    case "norseman":
+    case "norseman-vuelo": {
+      // monomotor de ala alta de los años cuarenta (tipo Norseman), gris oliva y sin insignias, de perfil hacia la derecha.
+      // "norseman": en tierra con la hélice girando; "norseman-vuelo": uno solo que cruza el cielo y se pierde (pasa por su x a mitad de escena).
+      const vuela = tipo === "norseman-vuelo";
+      const c = noche ? "#2a2e2c" : "#6a7060";
+      const cristal = noche ? "#2a3038" : "#9fb4c4";
+      const giro = Math.abs(Math.cos(f * 1.6));
+      const x0 = vuela ? (f - dur * 0.5) * 2.6 : 0;
+      const y0 = vuela ? -600 + Math.sin(f / 25) * 10 : 0;
+      const s = vuela ? 0.32 : 1;
+      return (
+        <g transform={`translate(${x0} ${y0}) scale(${s})`} opacity={vuela ? 0.85 : 1}>
+          {!vuela && <ellipse cx={0} cy={4} rx={520} ry={16} fill="#000" opacity={0.15} />}
+          {/* fuselaje */}
+          <path d="M-520 -300 Q-500 -330 -440 -330 L120 -380 Q300 -400 400 -360 L430 -260 Q300 -200 120 -190 L-440 -270 Q-520 -280 -520 -300Z" fill={c} />
+          {/* cola */}
+          <path d="M-470 -320 L-540 -520 L-440 -520 L-380 -330Z" fill={oscurecer(c, 0.1)} />
+          <path d="M-520 -296 L-600 -280 L-440 -276Z" fill={oscurecer(c, 0.15)} />
+          {/* ala alta */}
+          <rect x={-120} y={-420} width={420} height={36} rx={14} fill={oscurecer(c, 0.12)} />
+          <path d="M40 -386 L-30 -250 M200 -386 L120 -230" stroke={oscurecer(c, 0.3)} strokeWidth={10} />
+          {/* ventanillas */}
+          {[160, 260, 330].map((x, i) => <rect key={x} x={x - 40 - i * 5} y={-360} width={i === 2 ? 60 : 70} height={60} rx={8} fill={cristal} />)}
+          {/* motor redondo y hélice */}
+          <ellipse cx={420} cy={-300} rx={40} ry={84} fill={oscurecer(c, 0.3)} />
+          <ellipse cx={462} cy={-300} rx={8} ry={150 * giro + 10} fill="#222" opacity={0.7} />
+          {!vuela && <ellipse cx={462} cy={-300} rx={10} ry={150} fill="#bbb" opacity={0.08} />}
+          {/* tren de aterrizaje */}
+          {!vuela && (
+            <g>
+              <path d="M160 -200 L110 -60 M200 -200 L230 -60" stroke="#222" strokeWidth={14} />
+              {[110, 230].map((x) => <circle key={x} cx={x} cy={-46} r={46} fill="#151515" />)}
+              <circle cx={-470} cy={-240} r={18} fill="#151515" />
+            </g>
+          )}
+        </g>
+      );
+    }
+    case "nissen": {
+      // barracón semicilíndrico de chapa ondulada (Nissen) con puerta y ventanas en el frente y una chimenea de estufa
+      const chapa = noche ? "#3a3e40" : "#7a8084";
+      return (
+        <g>
+          <path d="M-520 0 Q-520 -560 0 -560 Q520 -560 520 0Z" fill={chapa} />
+          {Array.from({ length: 12 }).map((_, i) => <path key={i} d={`M${-470 + i * 85} 0 Q${-470 + i * 85} -520 ${(-470 + i * 85) * 0.15} -555`} stroke={oscurecer(chapa, 0.2)} strokeWidth={5} fill="none" opacity={0.6} />)}
+          <path d="M-300 0 L-300 -330 Q0 -400 300 -330 L300 0Z" fill={noche ? "#2a2420" : "#5a4632"} />
+          <rect x={-70} y={-240} width={140} height={240} fill="#1a1612" />
+          {[-200, 200].map((x) => <rect key={x} x={x - 50} y={-260} width={100} height={80} fill={noche ? "#ffd27a" : "#2a3038"} opacity={0.85} />)}
+          <rect x={330} y={-680} width={30} height={200} fill="#2a2a2a" />
+          {Array.from({ length: 4 }).map((_, k) => {
+            const t = ((f / 100 + k / 4) % 1);
+            return <circle key={k} cx={345 + t * 60} cy={-700 - t * 220} r={18 + t * 50} fill="#9a9a9a" opacity={0.4 * (1 - t)} />;
+          })}
+        </g>
+      );
+    }
+    case "torre-control": {
+      // torre de control de un aeródromo de guerra: edificio cuadrado de dos plantas con galería, barandilla y cristaleras
+      const muro = noche ? "#5a5a56" : "#c8c4b8";
+      const cristal = noche ? "#ffd27a" : "#5a6a78";
+      return (
+        <g>
+          <rect x={-360} y={-560} width={720} height={560} fill={muro} />
+          <rect x={-400} y={-300} width={800} height={24} fill={oscurecer(muro, 0.25)} />
+          <rect x={-380} y={-590} width={760} height={30} fill={oscurecer(muro, 0.2)} />
+          {Array.from({ length: 13 }).map((_, i) => <rect key={i} x={-380 + i * 63} y={-372} width={6} height={72} fill="#2a2a2a" />)}
+          <rect x={-380} y={-376} width={760} height={6} fill="#2a2a2a" />
+          {[-250, -80, 90, 260].map((x) => <rect key={x} x={x - 60} y={-520} width={120} height={120} fill={cristal} opacity={0.85} />)}
+          {[-230, 230].map((x) => <rect key={x} x={x - 60} y={-240} width={120} height={110} fill={cristal} opacity={0.7} />)}
+          <rect x={-60} y={-200} width={120} height={200} fill="#2a2420" />
+          <line x1={300} y1={-590} x2={300} y2={-820} stroke="#2a2a2a" strokeWidth={8} />
+          <path d={`M300 -820 L${300 + 90 + Math.sin(f / 12) * 12} -800 L300 -770Z`} fill="#e0742a" />
+        </g>
+      );
+    }
+    case "telar": {
+      // telar vertical de pesas nórdico: dos postes apoyados en la pared, la tela a medio tejer y las pesas de piedra colgando abajo
+      const madera = noche ? "#3a2a1a" : "#6b4a2a";
+      return (
+        <g>
+          <path d="M-260 0 L-200 -760 M260 0 L200 -760" stroke={madera} strokeWidth={30} strokeLinecap="round" />
+          <rect x={-230} y={-770} width={460} height={30} rx={12} fill={madera} />
+          <rect x={-205} y={-740} width={410} height={330} fill="#a8352a" />
+          {Array.from({ length: 6 }).map((_, i) => <rect key={i} x={-205} y={-720 + i * 52} width={410} height={14} fill="#e0c070" opacity={0.75} />)}
+          {Array.from({ length: 24 }).map((_, i) => {
+            const x = -195 + i * 17;
+            return <g key={i}><line x1={x} y1={-410} x2={x + (i % 2 ? 4 : -4)} y2={-160} stroke="#d8cdb0" strokeWidth={2} /><circle cx={x + (i % 2 ? 4 : -4)} cy={-145} r={14} fill="#7a746a" /></g>;
+          })}
+          <rect x={-215} y={-420} width={430} height={14} rx={6} fill={madera} />
+        </g>
+      );
+    }
+    case "aurora": {
+      // aurora boreal: cortinas verdes que ondulan en el cielo de la noche (decorado de cielo; x indiferente)
+      return (
+        <g transform="translate(0 -860)" opacity={0.9}>
+          {[0, 1, 2].map((k) => {
+            const ondas = Array.from({ length: 9 }).map((_, i) => {
+              const x = -1000 + i * 250;
+              const y = Math.sin(f / (40 + k * 10) + i * 0.8 + k) * 70 + k * 90;
+              return `${x} ${y}`;
+            });
+            const d = `M${ondas[0]} ` + ondas.slice(1).map((p) => `L${p}`).join(" ");
+            return (
+              <g key={k}>
+                <path d={`${d} L1000 ${360 + k * 60} L-1000 ${360 + k * 60}Z`} fill={k === 1 ? "#6ad0a8" : "#3fbf7f"} opacity={0.16 + 0.06 * Math.sin(f / 20 + k)} />
+                <path d={d} stroke="#9af0c8" strokeWidth={10} fill="none" opacity={0.45} />
+              </g>
+            );
+          })}
         </g>
       );
     }
