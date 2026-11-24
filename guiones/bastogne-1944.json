@@ -2006,7 +2006,8 @@
               "tipo": "farola",
               "x": 0.85
             }
-          ]
+          ],
+          "nevado": true
         },
         "personajes": [],
         "camara": "lenta"
@@ -2346,7 +2347,8 @@
               "tipo": "pino",
               "x": 1.4
             }
-          ]
+          ],
+          "nevado": true
         },
         "personajes": [
           {
