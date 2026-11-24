@@ -1005,7 +1005,7 @@
       },
       {
         "dia": 21,
-        "texto": "Lunes, dieciocho, al caer la tarde. Nos suben a camiones descubiertos, de pie y apretados como sardinas, bajo la lluvia y la nieve. Muchos vamos sin abrigo.",
+        "texto": "Es lunes, dieciocho, y cae la tarde. Nos suben a camiones descubiertos, de pie y apretados como sardinas, bajo la lluvia y la nieve. Muchos no llevamos abrigo.",
         "drama": 0.75,
         "fondo": {
           "lugar": "campo",
@@ -1676,7 +1676,7 @@
       },
       {
         "dia": 26,
-        "texto": "A mediodía oigo motores, muchos motores. Pasan aviones y más aviones, y del cielo caen paracaídas de colores. Esta vez no traen hombres: traen munición, comida, medicinas y mantas.",
+        "texto": "Al mediodía se oye un ruido de motores. Pasan aviones y más aviones, y del cielo caen paracaídas de colores. Esta vez no traen hombres: traen munición, comida, medicinas y mantas.",
         "drama": 0.9,
         "fondo": {
           "lugar": "campo",
@@ -1793,7 +1793,7 @@
       },
       {
         "dia": 27,
-        "texto": "Domingo, veinticuatro. Nochebuena. Nos reparten un mensaje del general. Empieza con un «¡Feliz Navidad!» y sigue: ¿qué tiene de feliz todo esto?, preguntaréis.",
+        "texto": "Es domingo, veinticuatro: Nochebuena. Nos reparten un mensaje del general. Empieza deseándonos feliz Navidad, y luego pregunta: ¿qué tiene de feliz todo esto?",
         "drama": 0.6,
         "fondo": {
           "lugar": "campo",
@@ -2073,7 +2073,7 @@
       },
       {
         "dia": 28,
-        "texto": "Lunes, veinticinco. Navidad. Antes del alba arranca el cañoneo, y luego llegan tanques e infantería alemana, vestida de blanco, por Shan y por Emrul.",
+        "texto": "Es lunes, veinticinco, día de Navidad. Antes del alba arranca el cañoneo, y luego llegan tanques e infantería alemana, vestida de blanco, por Shan y por Emrul.",
         "drama": 0.9,
         "fondo": {
           "lugar": "campo",
@@ -2151,7 +2151,7 @@
       },
       {
         "dia": 28,
-        "texto": "Al caer la tarde, los tanques que entraron en nuestras líneas están destruidos. Aguantamos. Mi Navidad es una ración ka fría, partida con Bili.",
+        "texto": "Al caer la tarde, los tanques que entraron en nuestras líneas están destruidos. Hemos aguantado. Mi cena de Navidad es una ración ka fría, partida con Bili.",
         "drama": 0.7,
         "fondo": {
           "lugar": "campo",
