@@ -1314,7 +1314,7 @@
       },
       {
         "dia": 24,
-        "texto": "Dicen que dentro quedamos más de diez mil soldados y unos tres mil vecinos, que viven en los sótanos a la luz de una vela, casi sin agua ni comida.",
+        "texto": "Dicen que dentro quedamos más de diez mil soldados y unos tres mil vecinos, que viven en sótanos, casi sin agua ni comida.",
         "drama": 0.6,
         "fondo": {
           "lugar": "interior",
@@ -1474,7 +1474,7 @@
       },
       {
         "dia": 25,
-        "texto": "Manda la división el general Macólif, porque nuestro jefe está en Uáshinton. El papel nos da dos horas para rendirnos. Él lo lee y suelta una sola palabra: Nats.",
+        "texto": "Manda la división el general Macólif: nuestro jefe está en Uáshinton. El papel nos da dos horas para rendirnos. Macólif suelta una sola palabra: Nats.",
         "drama": 0.8,
         "fondo": {
           "lugar": "interior",
@@ -1639,7 +1639,7 @@
       {
         "dia": 26,
         "corte": true,
-        "texto": "Durante días no ha podido volar ni un avión. El sábado veintitrés me despierta una calma rara: la niebla se ha ido, y el cielo está limpio y helado.",
+        "texto": "Durante días no ha podido volar ni un solo avión. El sábado veintitrés me despierta una calma rara: la niebla se ha ido, y el cielo está limpio y helado.",
         "drama": 0.8,
         "fondo": {
           "lugar": "campo",
@@ -1676,7 +1676,7 @@
       },
       {
         "dia": 26,
-        "texto": "A mediodía oigo motores. Pasan aviones y más aviones, y del cielo caen paracaídas de colores. Esta vez no traen hombres: traen munición, comida y mantas.",
+        "texto": "A mediodía oigo motores, muchos motores. Pasan aviones y más aviones, y del cielo caen paracaídas de colores. Esta vez no traen hombres: traen munición, comida, medicinas y mantas.",
         "drama": 0.9,
         "fondo": {
           "lugar": "campo",
@@ -1729,7 +1729,7 @@
       },
       {
         "dia": 26,
-        "texto": "Bili y yo salimos del hoyo gritando como en un partido. Un fardo cae en la nieve con su paracaídas rojo. Esa noche, por primera vez en días, nadie cuenta los cartuchos.",
+        "texto": "Bili y yo salimos del hoyo gritando como en un partido. Un fardo cae en la nieve con su paracaídas rojo, a unos cien metros. Esa noche, por primera vez en días, nadie cuenta los cartuchos uno a uno.",
         "drama": 0.75,
         "fondo": {
           "lugar": "campo",
@@ -1886,7 +1886,7 @@
       {
         "dia": 27,
         "corte": true,
-        "texto": "En Bastoñ, dos enfermeras belgas cuidan a soldados que no hablan su idioma: René Lemér, de allí mismo, y Augusta Chiuí, nacida en el Congo belga.",
+        "texto": "En Bastoñ, dos enfermeras belgas cuidan a soldados que no hablan su idioma: René Lemér, de allí, y Augusta Chiuí, nacida en el Congo belga.",
         "drama": 0.6,
         "fondo": {
           "lugar": "interior",
@@ -1980,7 +1980,7 @@
       },
       {
         "dia": 27,
-        "texto": "Una bomba cae sobre el puesto de socorro donde trabajan ellas. Mueren entre veinticinco y treinta heridos americanos, y René Lemér, de treinta años. Augusta, en la casa de al lado, sobrevive.",
+        "texto": "Una bomba cae sobre su puesto de socorro. Mueren entre veinticinco y treinta heridos americanos, y René Lemér, de treinta años. Augusta, en la casa de al lado, sobrevive.",
         "drama": 0.7,
         "fondo": {
           "lugar": "calle",
@@ -2013,7 +2013,7 @@
       },
       {
         "dia": 27,
-        "texto": "Dicen que el médico la envolvió en un paracaídas blanco, la seda con la que ella quería coserse el vestido de novia.",
+        "texto": "Dicen que el médico la envolvió en un paracaídas blanco: con esa seda quería coserse el vestido de novia.",
         "drama": 0.55,
         "personajes": [],
         "camara": "subir",
@@ -2026,7 +2026,7 @@
       },
       {
         "dia": 27,
-        "texto": "A medianoche, en una capilla, alguien tararea Blanca Navidad, y nadie le manda callar. Yo solo miro las velas y pienso en mi hermana.",
+        "texto": "A medianoche, en una capilla, alguien tararea Blanca Navidad y nadie le manda callar. Yo miro las velas y pienso en mi hermana.",
         "drama": 0.5,
         "fondo": {
           "lugar": "interior",
@@ -2381,7 +2381,7 @@
         "camara": "cerca"
       },
       {
-        "texto": "El mayor Jánlon cumplió su promesa: volvió con sábanas de su pueblo, un par para cada vecino de Emrul y más de seiscientas para el asilo de Bastoñ.",
+        "texto": "El mayor Jánlon cumplió su promesa: volvió con sábanas de su pueblo, un par para cada vecino de Emrul y más de seiscientas para el asilo.",
         "drama": 0.55,
         "fondo": {
           "lugar": "calle",
