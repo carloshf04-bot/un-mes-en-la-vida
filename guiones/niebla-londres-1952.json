@@ -200,7 +200,7 @@
         "personajes": [
           {
             "quien": "jarri",
-            "x": 0.4,
+            "x": 0.6,
             "accion": "quieto",
             "emocion": "miedo",
             "mirar": -1,
@@ -613,7 +613,7 @@
         "texto": "Quemamos polvo y trocitos de carbón barato. Calienta poco y humea mucho. Y en cada casa de Londres arde una chimenea así, a veces dos o tres.",
         "drama": 0.55,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "calle",
           "hora": "atardecer",
           "clima": "nublado",
           "sol": false,
@@ -621,7 +621,7 @@
             {
               "tipo": "central",
               "x": -1.1,
-              "escala": 0.65
+              "escala": 0.5
             },
             {
               "tipo": "casa",
@@ -632,11 +632,6 @@
               "tipo": "casa",
               "x": 0.7,
               "escala": 0.8
-            },
-            {
-              "tipo": "central",
-              "x": 1.15,
-              "escala": 0.55
             }
           ]
         },
@@ -884,7 +879,7 @@
         "texto": "Sábado, turno largo hasta la noche. Desde la cabina veo miles de chimeneas echando humo al mismo tiempo, y a lo lejos, las chimeneas altas de las centrales eléctricas.",
         "drama": 0.55,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "calle",
           "hora": "atardecer",
           "clima": "nublado",
           "sol": false,
@@ -892,7 +887,7 @@
             {
               "tipo": "central",
               "x": -1.1,
-              "escala": 0.65
+              "escala": 0.5
             },
             {
               "tipo": "casa",
@@ -903,11 +898,6 @@
               "tipo": "casa",
               "x": 0.7,
               "escala": 0.8
-            },
-            {
-              "tipo": "central",
-              "x": 1.15,
-              "escala": 0.55
             }
           ]
         },
@@ -1053,7 +1043,7 @@
         "texto": "Jueves, cuatro de diciembre. No se mueve ni una hoja. Sobre Londres se ha parado un anticiclón: aire frío y quieto, pegado al suelo.",
         "drama": 0.65,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "calle",
           "hora": "noche",
           "clima": "nublado",
           "luna": false,
@@ -1148,7 +1138,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "general"
       },
       {
         "dia": 15,
@@ -1269,13 +1259,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca",
-        "insercion": {
-          "tipo": "dato",
-          "valor": "pocos metros",
-          "etiqueta": "de visibilidad al caer la noche del 5 de diciembre (Met Office)",
-          "icono": "🌫️"
-        }
+        "camara": "cerca"
       },
       {
         "dia": 15,
@@ -1334,7 +1318,7 @@
         "texto": "Cada día de niebla, las chimeneas de la ciudad echaron al aire cientos de toneladas de azufre. Sin viento, aquel aire se volvió ácido.",
         "drama": 0.8,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "calle",
           "hora": "noche",
           "clima": "smog",
           "sol": false,
@@ -1425,7 +1409,7 @@
         "personajes": [
           {
             "quien": "policia",
-            "x": 0.4,
+            "x": 0.55,
             "accion": "senalar",
             "emocion": "neutral",
             "mirar": -1,
@@ -1608,7 +1592,7 @@
           "lugar": "interior",
           "hora": "dia",
           "pared": "papel",
-          "ventana": true,
+          "ventana": false,
           "props": [
             {
               "tipo": "chimenea",
@@ -1702,7 +1686,7 @@
         "fondo": {
           "lugar": "interior",
           "hora": "dia",
-          "pared": "ladrillo",
+          "pared": "madera",
           "ventana": false,
           "props": [
             {
@@ -1742,7 +1726,7 @@
         "texto": "Lo que entonces nadie ve es que en las casas pasa lo mismo, en silencio. Sobre todo ancianos, bebés y gente enferma del pecho o del corazón.",
         "drama": 0.85,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "calle",
           "hora": "noche",
           "clima": "smog",
           "sol": false,
@@ -1878,7 +1862,7 @@
         "texto": "Las funerarias también se quedaron sin ataúdes. Así, por lo que faltaba, muchos empezamos a entender.",
         "drama": 0.85,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "calle",
           "hora": "atardecer",
           "clima": "nublado",
           "sol": false,
@@ -2007,7 +1991,7 @@
         "personajes": [
           {
             "quien": "leni",
-            "x": -0.35,
+            "x": -0.25,
             "accion": "triste",
             "emocion": "triste",
             "mirar": 1,
@@ -2022,7 +2006,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "general"
       },
       {
         "dia": 28,
@@ -2064,7 +2048,7 @@
         "texto": "Sábado, veinte. Último turno antes de Navidad. Desde la cabina miro las chimeneas humeando de nuevo, tranquilas, como si nada hubiera pasado.",
         "drama": 0.6,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "calle",
           "hora": "atardecer",
           "clima": "nublado",
           "sol": false,
@@ -2155,7 +2139,7 @@
         "texto": "El Gobierno habló primero de unos cuatro mil muertos de más. Las muertes de enero y febrero se achacaron a la gripe, y no hubo investigación pública.",
         "drama": 0.7,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "calle",
           "hora": "noche",
           "clima": "smog",
           "sol": false,
@@ -2185,7 +2169,7 @@
         "texto": "Casi cincuenta años después, dos investigadoras revisaron los registros: unas doce mil muertes de más entre diciembre y febrero. Unas cuatro mil, en los días de la niebla.",
         "drama": 0.8,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "calle",
           "hora": "atardecer",
           "clima": "nublado",
           "sol": false,
@@ -2409,8 +2393,8 @@
     ],
     "miniatura": {
       "texto": "5 DÍAS SIN VER",
-      "escena": 26,
-      "quien": "leni",
+      "escena": 25,
+      "quien": "jarri",
       "emocion": "miedo"
     },
     "shorts": [

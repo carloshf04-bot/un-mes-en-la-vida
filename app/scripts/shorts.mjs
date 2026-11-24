@@ -18,7 +18,7 @@
 //   - El audio es el del largo (-14 LUFS) con entrada y salida suaves de 0,2 s.
 //   - Los shorts ya hechos (con el mismo plan de cortes) no se repiten.
 import { execFileSync } from "node:child_process";
-import { readFileSync, writeFileSync, existsSync, mkdirSync, rmSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, mkdirSync, rmSync, statSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -174,7 +174,7 @@ const assDe = (n, [a, b]) => {
 };
 
 // ---------- render de cada short ----------
-const firma = JSON.stringify({ plan, metas, encuadre, v: 8 });
+const firma = JSON.stringify({ plan, metas, encuadre, largo: statSync(largo).mtimeMs, v: 9 });
 const cortesF = join(dir, "cortes.json");
 const previo = existsSync(cortesF) ? readFileSync(cortesF, "utf8") : "";
 const mismoPlan = !rehacer && previo && JSON.parse(previo).firma === firma;
@@ -206,7 +206,7 @@ plan.forEach(([a, b], k) => {
   const n = k + 1;
   const dest = join(dir, `short-${String(n).padStart(2, "0")}.mp4`);
   const t0 = bordes[a], d = bordes[b] - t0;
-  hechos.push({ n, desde: +t0.toFixed(3), hasta: +bordes[b].toFixed(3), duracion: +d.toFixed(3), escenas: [a, b - 1], ...metas[k] });
+  hechos.push({ ...metas[k], n, desde: +t0.toFixed(3), hasta: +bordes[b].toFixed(3), duracion: +d.toFixed(3), escenas: [a, b - 1] });
   if (existsSync(dest)) { console.log(`   ya existe short ${n}`); return; }
   const ass = join(dir, `short-${String(n).padStart(2, "0")}.ass`);
   writeFileSync(ass, assDe(n, [a, b]));
