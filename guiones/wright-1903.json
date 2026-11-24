@@ -373,7 +373,7 @@
         }
       },
       {
-        "texto": "Las fechas, los vuelos, los telegramas y mi diario son reales. Lo que pienso y las escenas de cada día, lo imaginamos. Y todo empieza con un tubo de acero roto.",
+        "texto": "Las fechas, los vuelos, los telegramas y mi diario son reales. Lo que pienso y las escenas de cada día, lo imaginamos. Y todo empieza en una playa helada, con un tubo de acero roto.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -1116,7 +1116,7 @@
       },
       {
         "dia": 13,
-        "texto": "En el taller de Déiton hacemos los ejes nuevos. Esta vez, de acero macizo.",
+        "texto": "En el taller de Déiton hacemos los ejes nuevos. Esta vez no serán de tubo: serán de acero macizo.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -1285,7 +1285,7 @@
       {
         "dia": 19,
         "corte": true,
-        "texto": "El científico más famoso de los Estados Unidos en este campo tenía cincuenta mil dólares del Ejército. Nosotros, un taller de bicicletas.",
+        "texto": "El científico más famoso del país en este campo tenía cincuenta mil dólares del Ejército. Nosotros, un taller de bicicletas.",
         "drama": 0.8,
         "fondo": {
           "lugar": "interior",
@@ -1379,14 +1379,14 @@
       },
       {
         "dia": 19,
-        "texto": "Se lanza con una catapulta desde el techo de una casa flotante, en el río Potómac. El siete de octubre se cayó al agua nada más salir.",
+        "texto": "Se lanza con una catapulta desde una casa flotante, en el río Potómac. El siete de octubre cayó al agua nada más salir.",
         "drama": 0.65,
         "personajes": [],
         "camara": "general"
       },
       {
         "dia": 19,
-        "texto": "Dos días después, el Niu Iork Taims se burló: una máquina que vuele de verdad podría tardar entre uno y diez millones de años.",
+        "texto": "Dos días después, el Niu Iork Taims se burló: una máquina que vuele podría tardar entre uno y diez millones de años.",
         "drama": 0.7,
         "personajes": [],
         "camara": "cerca",
@@ -1850,7 +1850,7 @@
       },
       {
         "dia": 27,
-        "texto": "Martes y miércoles reparamos el timón. El siguiente turno es mío.",
+        "texto": "Martes y miércoles reparamos el timón y los soportes rotos. Y el siguiente turno de volar es mío.",
         "drama": 0.7,
         "fondo": {
           "lugar": "interior",
