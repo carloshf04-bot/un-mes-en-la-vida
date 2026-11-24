@@ -4,7 +4,7 @@ import { MW, MH, SUELO, HORIZONTE, oscurecer, xMundo } from "./constantes";
 import { Prop, espiral, rombos } from "./Props";
 
 export type Hora = "amanecer" | "dia" | "atardecer" | "noche";
-export type Clima = "despejado" | "lluvia" | "nieve" | "niebla" | "tormenta" | "polvo" | "ceniza" | "nublado";
+export type Clima = "despejado" | "lluvia" | "nieve" | "niebla" | "smog" | "tormenta" | "polvo" | "ceniza" | "nublado";
 export type Lugar =
   | "mar" | "playa" | "montanas" | "hielo" | "ciudad" | "futurista" | "desierto" | "campo"
   | "bosque" | "espacio" | "luna" | "calle" | "selva" | "valle" | "marte" | "rio" | "trinchera" | "isla" | "interior" | "ocular";
@@ -76,9 +76,9 @@ const CIELOS_MARTE: Record<Hora, string[]> = {
   noche: ["#020203", "#06060a", "#0c0a10", "#141018"],
 };
 
-const Cielo: React.FC<{ hora: Hora; f: number; dur: number; espacio?: boolean; marte?: boolean; id: string; nublado?: boolean; sinLuna?: boolean; sinSol?: boolean }> = ({ hora, f, dur, espacio, marte, id, nublado, sinLuna, sinSol }) => {
+const Cielo: React.FC<{ hora: Hora; f: number; dur: number; espacio?: boolean; marte?: boolean; id: string; nublado?: boolean; sinLuna?: boolean; sinSol?: boolean; sinEstrellas?: boolean }> = ({ hora, f, dur, espacio, marte, id, nublado, sinLuna, sinSol, sinEstrellas }) => {
   const cielo = espacio ? ["#000", "#03040a", "#070b1a", "#0d1630"] : marte ? CIELOS_MARTE[hora] : CIELOS[hora];
-  const estrellas = !nublado && (espacio || hora === "noche" || hora === "amanecer");
+  const estrellas = !nublado && !sinEstrellas && (espacio || hora === "noche" || hora === "amanecer");
   const astro = !espacio && !nublado && !(sinLuna && hora === "noche") && !(sinSol && hora !== "noche");
   const prog = f / Math.max(1, dur);
   const ax = 520 + prog * 880;
@@ -732,11 +732,11 @@ const Megalito: React.FC<{ id: string }> = ({ id }) => {
 
 const Particulas: React.FC<{ clima: Clima; f: number }> = ({ clima, f }) => {
   if (clima === "despejado" || clima === "nublado") return null;
-  if (clima === "niebla")
+  if (clima === "niebla" || clima === "smog")
     return (
       <g>
         {[0, 1, 2, 3, 4].map((i) => (
-          <ellipse key={i} cx={((f * (1.2 + i * 0.4) + i * 500) % (MW + 1400)) - 700} cy={HORIZONTE - 80 + i * 110} rx={800} ry={110} fill="#e8eef5" opacity={0.14} />
+          <ellipse key={i} cx={((f * (1.2 + i * 0.4) + i * 500) % (MW + 1400)) - 700} cy={HORIZONTE - 80 + i * 110} rx={800} ry={110} fill={clima === "smog" ? "#d8c690" : "#e8eef5"} opacity={clima === "smog" ? 0.22 : 0.14} />
         ))}
       </g>
     );
@@ -945,7 +945,7 @@ export const DibujarFondo: React.FC<{ fondo: Fondo; f: number; dur: number; id: 
       ) : (
         <g>
           <g transform={paralaje(cam, 0.85)}>
-            <Cielo hora={hora} f={f} dur={dur} espacio={fondo.lugar === "espacio" || fondo.lugar === "luna"} marte={fondo.lugar === "marte"} id={id} nublado={fondo.clima === "nublado"} sinLuna={fondo.luna === false || fondo.clima === "lluvia" || fondo.clima === "tormenta" || fondo.clima === "nieve"} sinSol={fondo.sol === false || fondo.clima === "lluvia" || fondo.clima === "tormenta" || fondo.clima === "nieve"} />
+            <Cielo hora={hora} f={f} dur={dur} espacio={fondo.lugar === "espacio" || fondo.lugar === "luna"} marte={fondo.lugar === "marte"} id={id} nublado={fondo.clima === "nublado"} sinLuna={fondo.luna === false || fondo.clima === "lluvia" || fondo.clima === "tormenta" || fondo.clima === "nieve" || fondo.clima === "smog"} sinSol={fondo.sol === false || fondo.clima === "lluvia" || fondo.clima === "tormenta" || fondo.clima === "nieve" || fondo.clima === "smog"} sinEstrellas={["lluvia", "tormenta", "nieve", "niebla", "smog"].includes(fondo.clima ?? "")} />
             <Vida fondo={fondo} f={f} id={id} />
           </g>
           {/* decorados LEJANOS (volcanes, pirámides): detrás del paisaje, apoyados en el horizonte y con bruma */}
@@ -979,13 +979,14 @@ export const DibujarFondo: React.FC<{ fondo: Fondo; f: number; dur: number; id: 
           <rect x={0} y={0} width={MW} height={MH} fill="#1a1614" opacity={0.25} />
         </g>
       )}
-      {fondo.clima === "niebla" && fondo.lugar !== "interior" && (
-        // velo de niebla DETRÁS de los personajes: apaga cielo, sol, lejanías y decorados
+      {(fondo.clima === "niebla" || fondo.clima === "smog") && fondo.lugar !== "interior" && (
+        // velo de niebla DETRÁS de los personajes: apaga cielo, sol, lejanías y decorados.
+        // "smog": niebla de hollín amarillenta y mucho más espesa (Londres, 1952)
         <g>
-          <rect x={0} y={0} width={MW} height={fondo.lugar === "trinchera" ? SUELO - 560 : MH} fill={hora === "noche" ? "#5a6470" : "#c4ccd3"} opacity={hora === "noche" ? 0.3 : 0.45} />
-          <rect x={0} y={HORIZONTE - 300} width={MW} height={480} fill="#dfe5ea" opacity={hora === "noche" ? 0.12 : 0.3} />
+          <rect x={0} y={0} width={MW} height={fondo.lugar === "trinchera" ? SUELO - 560 : MH} fill={fondo.clima === "smog" ? (hora === "noche" ? "#4a4230" : "#a8945c") : hora === "noche" ? "#5a6470" : "#c4ccd3"} opacity={fondo.clima === "smog" ? (hora === "noche" ? 0.62 : 0.7) : hora === "noche" ? 0.3 : 0.45} />
+          <rect x={0} y={HORIZONTE - 300} width={MW} height={480} fill={fondo.clima === "smog" ? "#c9b67c" : "#dfe5ea"} opacity={hora === "noche" ? 0.12 : 0.3} />
           {[0, 1, 2].map((i) => (
-            <ellipse key={i} cx={((f * (0.8 + i * 0.3) + i * 700) % (MW + 1400)) - 700} cy={(fondo.lugar === "trinchera" ? SUELO - 640 : SUELO - 120) + i * 60} rx={900} ry={90} fill="#eef2f5" opacity={0.3} />
+            <ellipse key={i} cx={((f * (0.8 + i * 0.3) + i * 700) % (MW + 1400)) - 700} cy={(fondo.lugar === "trinchera" ? SUELO - 640 : SUELO - 120) + i * 60} rx={900} ry={90} fill={fondo.clima === "smog" ? "#cdbb84" : "#eef2f5"} opacity={0.3} />
           ))}
         </g>
       )}

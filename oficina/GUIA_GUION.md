@@ -80,7 +80,8 @@ La voz (Chatterbox, narrador de España, con `"velocidad": 1.15`) lee unas **120
   "ventana": true,                                          // sólo interior
   "props": ["chimenea", { "tipo": "faro", "x": -1.35, "escala": 1.2, "detras": true }],
   "luna": false }                                           // sin la luna que el motor pinta de noche (noches sin luna)
-- `"sol": false` en el fondo: quita el disco del sol (amanecer/atardecer a espaldas de la cámara; el resplandor del cielo se queda). Con lluvia, tormenta o nieve el sol (y la luna) se quitan solos.
+- `"sol": false` en el fondo: quita el disco del sol (amanecer/atardecer a espaldas de la cámara; el resplandor del cielo se queda). Con lluvia, tormenta, nieve o smog el sol (y la luna) se quitan solos, y de noche no hay estrellas con mal tiempo.
+- `"clima": "smog"`: niebla de hollín amarillenta y mucho más espesa que `niebla` (Londres, diciembre de 1952). Tapa casi todo lo lejano; pon a los personajes y el decorado importante delante.
 - Con `"clima": "nieve"` en tierra el suelo sale nevado solo (blanco; azulado de noche). `"nevado": true` lo pone nevado aunque ya no nieve (día despejado tras la nevada); `"nevado": false` lo quita.
 ```
 

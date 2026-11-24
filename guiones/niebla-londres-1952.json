@@ -1,0 +1,2432 @@
+{
+  "slug": "niebla-londres-1952",
+  "titulo": "un conductor de autobús de Londres",
+  "lugar": "Londres, Inglaterra",
+  "epoca": "Noviembre y diciembre de 1952",
+  "categoria": "epoca",
+  "drama": 0.65,
+  "velocidad": 1.15,
+  "musica": "nostalgia",
+  "paleta": {
+    "acento": "#d9a62e",
+    "texto": "#f2eee2",
+    "fondo": "#16171b",
+    "papel": "#ece4cf"
+  },
+  "grafias": {
+    "Jarri": "Harry",
+    "Dóson": "Dawson",
+    "Leni": "Lenny",
+    "Prais": "Price",
+    "Mei": "May",
+    "Tómi": "Tommy",
+    "Grin": "Green",
+    "Ist": "East",
+    "Ágata": "Agatha",
+    "Cristi": "Christie",
+    "Sádlers": "Sadler's",
+    "Uéls": "Wells",
+    "Ian": "Iain",
+    "Maclaud": "Macleod"
+  },
+  "reparto": {
+    "jarri": {
+      "piel": "#e8bf9c",
+      "pelo": "#3a2a1e",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#1f2838",
+        "color2": "#1a2130",
+        "detalle": "#2c3850"
+      },
+      "sombrero": "gorra-plato",
+      "colorSombrero": "#1c2433",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#141414"
+    },
+    "leni": {
+      "piel": "#f2d0b4",
+      "pelo": "#b0602c",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#3a4a64",
+        "color2": "#26303f",
+        "detalle": "#8a95a5"
+      },
+      "sombrero": "gorra-plato",
+      "colorSombrero": "#2a3445",
+      "gafas": false,
+      "altura": 0.95,
+      "zapatos": "#1a1a1a"
+    },
+    "mei": {
+      "piel": "#efc7a6",
+      "pelo": "#6a3a24",
+      "peinado": "rizado",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#7a3a3e",
+        "color2": "#6a3236",
+        "detalle": "#e6dccb"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 0.93,
+      "zapatos": "#3a2a22",
+      "voz": "narradora-es"
+    },
+    "tomi": {
+      "piel": "#f2cfb2",
+      "pelo": "#8a5a30",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#4f6a4a",
+        "color2": "#3a3a3e",
+        "detalle": "#e6dccb"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#4a4540",
+      "gafas": false,
+      "altura": 0.62,
+      "zapatos": "#2a2018"
+    },
+    "madre": {
+      "piel": "#e6c0a2",
+      "pelo": "#c8c4be",
+      "peinado": "coleta",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#2e2a30",
+        "color2": "#26222a",
+        "detalle": "#8a7a8a"
+      },
+      "sombrero": "panuelo",
+      "colorSombrero": "#5a4a5a",
+      "gafas": true,
+      "altura": 0.88,
+      "zapatos": "#1e1a1e",
+      "voz": "narradora-es"
+    },
+    "grin": {
+      "piel": "#ecc8ac",
+      "pelo": "#d6d2cc",
+      "peinado": "coronilla",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "abrigo",
+        "color": "#5a5448",
+        "color2": "#3e3a34",
+        "detalle": "#7a7264"
+      },
+      "sombrero": "ala",
+      "colorSombrero": "#2e2c2a",
+      "gafas": true,
+      "altura": 0.92,
+      "zapatos": "#2a2018"
+    },
+    "policia": {
+      "piel": "#e4b894",
+      "pelo": "#2a2018",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#141a28",
+        "color2": "#121722",
+        "detalle": "#c0c4cc"
+      },
+      "sombrero": "casco",
+      "colorSombrero": "#141a28",
+      "gafas": false,
+      "altura": 1.05,
+      "zapatos": "#0e0e0e"
+    },
+    "carbonero": {
+      "piel": "#d9a888",
+      "pelo": "#2a2018",
+      "peinado": "corto",
+      "barba": "corta",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#3a3634",
+        "color2": "#2a2624",
+        "detalle": "#1e1c1a"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#232120",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#1a1614"
+    }
+  },
+  "largo": {
+    "escenas": [
+      {
+        "corte": true,
+        "texto": "Durante cinco días de diciembre de mil novecientos cincuenta y dos, en Londres no se veía ni la propia mano. Yo conducía un autobús rojo por dentro de aquella niebla. Y nadie sabía aún que estaba matando.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "noche",
+          "clima": "smog",
+          "sol": false,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "autobus",
+              "x": -0.8,
+              "escala": 0.7
+            },
+            {
+              "tipo": "farola",
+              "x": 0.95
+            },
+            {
+              "tipo": "farola",
+              "x": -1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "jarri",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Me llamo Jarri Dóson, tengo cuarenta y un años y conduzco un autobús de dos pisos. Esta es la historia del mes en que el aire se volvió veneno.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "autobus",
+              "x": -0.8,
+              "escala": 0.7
+            },
+            {
+              "tipo": "farola",
+              "x": 0.95
+            },
+            {
+              "tipo": "poste",
+              "x": -1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "jarri",
+            "x": 0.4,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Londres",
+          "detalle": "Inglaterra · noviembre y diciembre de 1952",
+          "icono": "📍"
+        }
+      },
+      {
+        "dia": 1,
+        "capitulo": "La ciudad del humo",
+        "texto": "Viernes, veintiuno de noviembre, día de paga. Unas ocho libras por una semana larga, en un sobre que llevo a casa sin abrir.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "amanecer",
+          "pared": "ladrillo",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "pizarra",
+              "x": -1.15
+            },
+            {
+              "tipo": "estufa",
+              "x": -0.75,
+              "escala": 0.8
+            },
+            {
+              "tipo": "perchero",
+              "x": 1.2
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "jarri",
+            "x": 0.4,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "✉️",
+            "entra": "der"
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 1,
+        "texto": "Mi compañero es Leni Prais, el cobrador. Va atrás, en la plataforma sin puerta, con su tablilla de billetes de colores. Pronto tendrá que ir delante.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "jarri",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "leni",
+            "x": -0.35,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "🎫"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 2,
+        "texto": "Yo voy solo, delante, en mi cabina, sin hablar con los viajeros. Leni y yo nos entendemos con el timbre: un toque, dos toques, y Londres va pasando.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "autobus",
+              "x": -0.8,
+              "escala": 0.7
+            },
+            {
+              "tipo": "farola",
+              "x": 0.95
+            },
+            {
+              "tipo": "poste",
+              "x": -1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "jarri",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "leni",
+            "x": -0.15,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 2,
+        "texto": "Mi ruta sale del Ist End, donde vivo, y llega al centro. Siete años después de la guerra, todavía hay solares de las bombas sin reconstruir. Yo estuve en esa guerra.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "escombros",
+              "x": -1.0,
+              "escala": 0.85
+            },
+            {
+              "tipo": "farola",
+              "x": -0.35
+            },
+            {
+              "tipo": "escombros",
+              "x": 1.1,
+              "escala": 0.75
+            },
+            {
+              "tipo": "autobus",
+              "x": 0.45,
+              "escala": 0.55
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "jarri",
+            "x": 0.1,
+            "accion": "pensar",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 2,
+        "texto": "Sábado. Mei, mi mujer, hace la compra con las cartillas. Casi todo sigue racionado: mantequilla, azúcar, carne, bacon, queso. Y el carbón.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "atardecer",
+          "pared": "papel",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "chimenea",
+              "x": -1.1
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.05
+            },
+            {
+              "tipo": "🫖",
+              "x": 0.0,
+              "escala": 0.25
+            },
+            {
+              "tipo": "cuadro",
+              "x": 0.85
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "mei",
+            "x": -0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "📒"
+          },
+          {
+            "quien": "jarri",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "La cartilla de Mei",
+          "items": [
+            {
+              "icono": "🧈",
+              "nombre": "Mantequilla: 2 onzas a la semana"
+            },
+            {
+              "icono": "🍬",
+              "nombre": "Azúcar y caramelos"
+            },
+            {
+              "icono": "🥓",
+              "nombre": "Carne y bacon"
+            },
+            {
+              "icono": "🪨",
+              "nombre": "Carbón, racionado hasta 1958"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 2,
+        "texto": "Lo único bueno: desde octubre, el té ya no va con cartilla. Mei lo celebra con una tetera bien cargada, como en los tiempos de antes de la guerra.",
+        "drama": 0.45,
+        "personajes": [
+          {
+            "quien": "mei",
+            "x": -0.3,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "☕"
+          },
+          {
+            "quien": "jarri",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "☕"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 3,
+        "texto": "Domingo. Tómi, mi hijo, tiene nueve años y solo piensa en la coronación de la reina, en junio. Dicen que para entonces habrá caramelos de sobra.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "papel",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "chimenea",
+              "x": -1.1
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.05
+            },
+            {
+              "tipo": "🫖",
+              "x": 0.0,
+              "escala": 0.25
+            },
+            {
+              "tipo": "cuadro",
+              "x": 0.85
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomi",
+            "x": 0.0,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "jarri",
+            "x": 0.55,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "mei",
+            "x": -0.6,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 4,
+        "texto": "El lunes viene el carbonero con el saco al hombro. El carbón bueno se vende fuera, para pagar las deudas de la guerra. A nosotros nos llega el peor.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "carro",
+              "x": -0.95,
+              "escala": 0.8
+            },
+            {
+              "tipo": "cajas",
+              "x": -1.4
+            },
+            {
+              "tipo": "farola",
+              "x": 1.0
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "carbonero",
+            "x": -0.35,
+            "accion": "cargar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "🪨"
+          },
+          {
+            "quien": "tomi",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 4,
+        "texto": "Quemamos polvo y trocitos de carbón barato. Calienta poco y humea mucho. Y en cada casa de Londres arde una chimenea así, a veces dos o tres.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "atardecer",
+          "clima": "nublado",
+          "sol": false,
+          "props": [
+            {
+              "tipo": "central",
+              "x": -1.1,
+              "escala": 0.65
+            },
+            {
+              "tipo": "casa",
+              "x": -0.45,
+              "escala": 0.8
+            },
+            {
+              "tipo": "casa",
+              "x": 0.7,
+              "escala": 0.8
+            },
+            {
+              "tipo": "maquina",
+              "x": 1.2,
+              "escala": 1.0
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "dia": 5,
+        "texto": "Martes, veinticinco. Por el centro suben viajeros vestidos de gala: esta noche se estrena una obra nueva de Ágata Cristi, La ratonera. Leni apuesta a que no dura ni un mes.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "atardecer",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "autobus",
+              "x": -0.8,
+              "escala": 0.7
+            },
+            {
+              "tipo": "farola",
+              "x": 0.95
+            },
+            {
+              "tipo": "poste",
+              "x": -1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "leni",
+            "x": 0.4,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "🎫"
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "25 nov. 1952",
+          "etiqueta": "estreno de «The Mousetrap» de Agatha Christie en el Ambassadors Theatre",
+          "icono": "🎭"
+        }
+      },
+      {
+        "dia": 6,
+        "texto": "Algunas mañanas hay niebla ligera, como cada invierno. Los londinenses la llamamos sopa de guisantes. Llevamos siglos respirándola, y nadie se asusta.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "amanecer",
+          "clima": "nublado",
+          "sol": false,
+          "props": [
+            {
+              "tipo": "autobus",
+              "x": -0.8,
+              "escala": 0.7
+            },
+            {
+              "tipo": "farola",
+              "x": 0.95
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "jarri",
+            "x": 0.4,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 6,
+        "texto": "Miércoles. En el Parlamento discuten de nuevo la ración de mantequilla. Mei pesa la nuestra en la palma de la mano y suspira: siete años después de ganar la guerra.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "atardecer",
+          "pared": "papel",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "chimenea",
+              "x": -1.1
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.05
+            },
+            {
+              "tipo": "🫖",
+              "x": 0.0,
+              "escala": 0.25
+            },
+            {
+              "tipo": "cuadro",
+              "x": 0.85
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "mei",
+            "x": -0.3,
+            "accion": "quieto",
+            "emocion": "enfado",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "🧈"
+          },
+          {
+            "quien": "jarri",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "2 oz",
+          "etiqueta": "de mantequilla por persona y semana (unos 57 g) en 1952",
+          "icono": "🧈"
+        }
+      },
+      {
+        "dia": 8,
+        "capitulo": "Navidad a la vista",
+        "texto": "Viernes, veintiocho. Los escaparates ya tienen guirnaldas de Navidad. Tómi pega la nariz al cristal de la confitería; los caramelos siguen racionados.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "atardecer",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "mostrador",
+              "x": -0.75,
+              "escala": 0.9
+            },
+            {
+              "tipo": "🍬",
+              "x": -0.75,
+              "escala": 0.3
+            },
+            {
+              "tipo": "🎄",
+              "x": -1.3,
+              "escala": 0.6
+            },
+            {
+              "tipo": "farola",
+              "x": 1.0
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomi",
+            "x": -0.15,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "jarri",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 9,
+        "texto": "Hago horas extra. Faltan conductores y cobradores: dicen que miles han dejado el oficio estos años. Los que quedamos, doblamos turno.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "amanecer",
+          "pared": "ladrillo",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "pizarra",
+              "x": -1.15
+            },
+            {
+              "tipo": "estufa",
+              "x": -0.75,
+              "escala": 0.8
+            },
+            {
+              "tipo": "perchero",
+              "x": 1.2
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "jarri",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "leni",
+            "x": -0.35,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 9,
+        "texto": "Sábado, turno largo hasta la noche. Desde la cabina veo miles de chimeneas echando humo al mismo tiempo, y a lo lejos, las chimeneas altas de las centrales eléctricas.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "atardecer",
+          "clima": "nublado",
+          "sol": false,
+          "props": [
+            {
+              "tipo": "central",
+              "x": -1.1,
+              "escala": 0.65
+            },
+            {
+              "tipo": "casa",
+              "x": -0.45,
+              "escala": 0.8
+            },
+            {
+              "tipo": "casa",
+              "x": 0.7,
+              "escala": 0.8
+            },
+            {
+              "tipo": "maquina",
+              "x": 1.2,
+              "escala": 1.0
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "jarri",
+            "x": 0.4,
+            "accion": "senalar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 9,
+        "texto": "Londres quema carbón en las casas, en las fábricas y en las centrales eléctricas, dentro de la misma ciudad. El humo es parte del paisaje, como el río.",
+        "drama": 0.55,
+        "personajes": [],
+        "camara": "subir",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Quién echa humo en Londres",
+          "items": [
+            {
+              "icono": "🏠",
+              "nombre": "Chimeneas de carbón en cada casa"
+            },
+            {
+              "icono": "🏭",
+              "nombre": "Fábricas junto al río"
+            },
+            {
+              "icono": "⚡",
+              "nombre": "Centrales eléctricas de carbón en la ciudad"
+            },
+            {
+              "icono": "🚌",
+              "nombre": "Autobuses diésel en lugar de los tranvías"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 11,
+        "texto": "Lunes, primero de diciembre. En la cantina hablamos de la coronación y del azúcar, que también discuten en el Parlamento. Del aire no habla nadie. ¿Por qué íbamos a hacerlo?",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "dia",
+          "pared": "ladrillo",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "pizarra",
+              "x": -1.2
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "🫖",
+              "x": -0.12,
+              "escala": 0.25
+            },
+            {
+              "tipo": "☕",
+              "x": 0.15,
+              "escala": 0.2
+            },
+            {
+              "tipo": "perchero",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "jarri",
+            "x": 0.45,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "leni",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 13,
+        "texto": "Cada mañana sube en la misma parada el señor Grin, un jubilado con bronquitis. Saluda a Leni con el sombrero y se sienta siempre en el mismo asiento.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "autobus",
+              "x": -0.8,
+              "escala": 0.7
+            },
+            {
+              "tipo": "farola",
+              "x": 0.95
+            },
+            {
+              "tipo": "🎄",
+              "x": 1.4,
+              "escala": 0.5
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "grin",
+            "x": -0.1,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "leni",
+            "x": 0.45,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "🎫"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 14,
+        "texto": "Jueves, cuatro de diciembre. No se mueve ni una hoja. Sobre Londres se ha parado un anticiclón: aire frío y quieto, pegado al suelo.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "noche",
+          "clima": "nublado",
+          "luna": false,
+          "props": [
+            {
+              "tipo": "central",
+              "x": -1.1,
+              "escala": 0.6
+            },
+            {
+              "tipo": "casa",
+              "x": 0.85,
+              "escala": 0.8
+            },
+            {
+              "tipo": "farola",
+              "x": -0.35
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "dia": 14,
+        "texto": "Arriba queda una capa de aire templado que hace de tapa. El humo de las chimeneas sube, choca con ella y vuelve a bajar. No tiene adónde ir.",
+        "drama": 0.7,
+        "camara": "subir",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "100–200 m",
+          "etiqueta": "de espesor: la capa de aire frío atrapada bajo la «tapa» de aire templado (Met Office)",
+          "icono": "🌫️"
+        }
+      },
+      {
+        "dia": 14,
+        "texto": "Esa noche hace un frío de verdad. Mei echa una palada más a la chimenea. Y como ella, todo Londres.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "papel",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "chimenea",
+              "x": -1.1
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.05
+            },
+            {
+              "tipo": "🫖",
+              "x": 0.0,
+              "escala": 0.25
+            },
+            {
+              "tipo": "cuadro",
+              "x": 0.85
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "mei",
+            "x": -0.6,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "tomi",
+            "x": 0.15,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "jarri",
+            "x": 0.6,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 15,
+        "capitulo": "La sopa amarilla",
+        "corte": true,
+        "texto": "Viernes, cinco de diciembre. Amanece con niebla. Parece una más. Salgo de la cochera con el autobús a las seis, como siempre.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "smog",
+          "sol": false,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "autobus",
+              "x": -0.8,
+              "escala": 0.7
+            },
+            {
+              "tipo": "farola",
+              "x": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "jarri",
+            "x": 0.4,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 15,
+        "texto": "A media tarde la niebla se vuelve amarilla y espesa. Huele a azufre y a hollín, y se pega a la garganta. Los viajeros se tapan la boca con la bufanda.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "atardecer",
+          "clima": "smog",
+          "sol": false,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "autobus",
+              "x": -0.8,
+              "escala": 0.7
+            },
+            {
+              "tipo": "farola",
+              "x": 0.85
+            },
+            {
+              "tipo": "farola",
+              "x": -1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "grin",
+            "x": -0.2,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "leni",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 15,
+        "corte": true,
+        "texto": "Es el cinco de diciembre de mil novecientos cincuenta y dos, en Londres. Al caer la noche, desde mi autobús, ya no veo ni el bordillo. Unos pocos metros, y luego nada.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "noche",
+          "clima": "smog",
+          "sol": false,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "autobus",
+              "x": -0.8,
+              "escala": 0.7
+            },
+            {
+              "tipo": "farola",
+              "x": 0.95
+            },
+            {
+              "tipo": "farola",
+              "x": -1.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "jarri",
+            "x": 0.4,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 15,
+        "texto": "Entonces Leni, mi cobrador, baja de la plataforma, enciende una bengala y echa a andar delante del morro. Yo lo sigo a paso de hombre, mirando solo aquella luz.",
+        "drama": 0.9,
+        "personajes": [
+          {
+            "quien": "leni",
+            "x": 0.5,
+            "accion": "caminar",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "🔥"
+          }
+        ],
+        "camara": "general",
+        "fondo": {
+          "lugar": "calle",
+          "hora": "noche",
+          "clima": "smog",
+          "sol": false,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "autobus",
+              "x": -0.7,
+              "escala": 0.75
+            },
+            {
+              "tipo": "farola",
+              "x": 1.45
+            }
+          ]
+        }
+      },
+      {
+        "dia": 15,
+        "texto": "Así atravesamos medio Londres: un hombre a pie guiando un autobús de dos pisos. Dentro, nadie habla. Solo se oye el motor y los pasos de Leni.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "leni",
+            "x": 0.6,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "🔥"
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 15,
+        "texto": "Cada día de niebla, las chimeneas de la ciudad echaron al aire cientos de toneladas de azufre. Sin viento, aquel aire se volvió ácido.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "noche",
+          "clima": "smog",
+          "sol": false,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.0,
+              "escala": 0.8
+            },
+            {
+              "tipo": "farola",
+              "x": -0.3
+            },
+            {
+              "tipo": "casa",
+              "x": 0.95,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "subir",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "370 t",
+          "etiqueta": "de dióxido de azufre al aire de Londres cada día de niebla (Met Office)",
+          "icono": "🏭"
+        }
+      },
+      {
+        "dia": 16,
+        "texto": "Sábado. Me mandan recoger. Volvemos a la cochera en fila, morro con cola, autobús tras autobús. Por las calles vacías ya solo circulamos nosotros.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "noche",
+          "clima": "smog",
+          "sol": false,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "autobus",
+              "x": -0.85,
+              "escala": 0.6
+            },
+            {
+              "tipo": "autobus",
+              "x": 0.55,
+              "escala": 0.6
+            },
+            {
+              "tipo": "farola",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "dia": 16,
+        "texto": "En un cruce, un policía agita una bengala y nos va metiendo uno a uno por la calle buena. Su voz llega antes que su cara.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "noche",
+          "clima": "smog",
+          "sol": false,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "autobus",
+              "x": -0.75,
+              "escala": 0.7
+            },
+            {
+              "tipo": "farola",
+              "x": 1.35
+            },
+            {
+              "tipo": "valla",
+              "x": 1.05,
+              "escala": 0.7
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "policia",
+            "x": 0.4,
+            "accion": "senalar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "🔥"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 16,
+        "corte": true,
+        "texto": "La noche del seis de diciembre de mil novecientos cincuenta y dos, en un teatro de Londres, suspendieron La Traviata a mitad de función. La niebla había entrado en la sala.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "noche",
+          "clima": "smog",
+          "sol": false,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "columna",
+              "x": -1.15,
+              "escala": 0.9
+            },
+            {
+              "tipo": "columna",
+              "x": -0.7,
+              "escala": 0.9
+            },
+            {
+              "tipo": "🎭",
+              "x": -0.92,
+              "escala": 0.45
+            },
+            {
+              "tipo": "farola",
+              "x": 0.95
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "leni",
+            "x": 0.4,
+            "accion": "senalar",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 16,
+        "texto": "El teatro de Sádlers Uéls estaba lleno de niebla, y el público ya no veía el escenario. Esos días tampoco hubo películas ni conciertos en todo Londres.",
+        "drama": 0.75,
+        "insercion": {
+          "tipo": "cita",
+          "frase": "La función de «La Traviata» se suspende tras el primer acto: el público ya no ve el escenario.",
+          "firma": "Sadler's Wells, Londres, 6 de diciembre de 1952"
+        }
+      },
+      {
+        "dia": 16,
+        "texto": "Leni lo cuenta en la cantina, medio riendo: una ópera parada por el tiempo. Nos reímos todos. Todavía nos reímos.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "ladrillo",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "pizarra",
+              "x": -1.2
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "🫖",
+              "x": -0.12,
+              "escala": 0.25
+            },
+            {
+              "tipo": "☕",
+              "x": 0.15,
+              "escala": 0.2
+            },
+            {
+              "tipo": "perchero",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "leni",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "jarri",
+            "x": 0.45,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 17,
+        "texto": "Domingo. Casi no salen autobuses; solo el metro funciona bien. Voy andando a ver a mi madre, a tres calles, siguiendo el bordillo con la punta del pie.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "smog",
+          "sol": false,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "valla",
+              "x": -0.9,
+              "escala": 0.8
+            },
+            {
+              "tipo": "farola",
+              "x": 0.0
+            },
+            {
+              "tipo": "valla",
+              "x": 1.05,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "jarri",
+            "x": 0.4,
+            "accion": "caminar",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 17,
+        "texto": "Tardo casi una hora. La farola de gas es solo un halo amarillo que no alumbra nada. Me cruzo con voces, no con personas.",
+        "drama": 0.8,
+        "camara": "cerca",
+        "personajes": [
+          {
+            "quien": "jarri",
+            "x": 0.3,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          }
+        ]
+      },
+      {
+        "dia": 17,
+        "texto": "Mi madre ha cerrado puertas y ventanas, y aun así la niebla está dentro, como un velo gris en la cocina. Le pido que no salga de casa por nada.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "dia",
+          "pared": "papel",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "chimenea-apagada",
+              "x": -1.1
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "🕯️",
+              "x": 0.05,
+              "escala": 0.25
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.3
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "madre",
+            "x": -0.35,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "jarri",
+            "x": 0.4,
+            "accion": "hablar",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 17,
+        "texto": "Un ayudante de funeraria del Ist End lo contó así, cincuenta años después: era como estar ciego.",
+        "drama": 0.7,
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Era como si estuvieras ciego.",
+          "firma": "Stan Cribb, ayudante de funeraria del East End (NPR, 2002)"
+        }
+      },
+      {
+        "dia": 18,
+        "texto": "Lunes. Hago un único viaje corto. En la parada del señor Grin no hay nadie. Al día siguiente, tampoco.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "amanecer",
+          "clima": "smog",
+          "sol": false,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "autobus",
+              "x": -0.75,
+              "escala": 0.7
+            },
+            {
+              "tipo": "poste",
+              "x": 0.95,
+              "escala": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "leni",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "🎫"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 18,
+        "texto": "Ese lunes abre en Londres la gran feria de ganado de Navidad. Las reses de concurso empiezan a enfermar en sus establos, y algunas no sobreviven.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "dia",
+          "pared": "metal",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "valla",
+              "x": -0.9
+            },
+            {
+              "tipo": "🐄",
+              "x": -0.9,
+              "escala": 0.55
+            },
+            {
+              "tipo": "valla",
+              "x": 0.9
+            },
+            {
+              "tipo": "🐄",
+              "x": 0.9,
+              "escala": 0.5
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "general"
+      },
+      {
+        "dia": 18,
+        "texto": "Lo que entonces nadie ve es que en las casas pasa lo mismo, en silencio. Sobre todo ancianos, bebés y gente enferma del pecho o del corazón.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "noche",
+          "clima": "smog",
+          "sol": false,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.0,
+              "escala": 0.8
+            },
+            {
+              "tipo": "farola",
+              "x": -0.3
+            },
+            {
+              "tipo": "casa",
+              "x": 0.95,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "dia": 19,
+        "texto": "Martes, nueve. Por la tarde, de pronto, sopla viento del oeste. En pocas horas la niebla se va hacia el mar, como si alguien abriera una ventana.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "atardecer",
+          "clima": "nublado",
+          "sol": false,
+          "props": [
+            {
+              "tipo": "autobus",
+              "x": -0.8,
+              "escala": 0.7
+            },
+            {
+              "tipo": "farola",
+              "x": 0.95
+            },
+            {
+              "tipo": "🧺",
+              "x": 1.35,
+              "escala": 0.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "jarri",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "9 dic.",
+          "etiqueta": "un viento del oeste barre la niebla hacia el mar del Norte en pocas horas",
+          "icono": "💨"
+        }
+      },
+      {
+        "dia": 19,
+        "texto": "Vuelvo a ver el final de la calle. Las fachadas, los visillos y la ropa tendida están negros de hollín. Tómi se ríe del cuello de mi camisa.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "jarri",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "tomi",
+            "x": -0.1,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 21,
+        "corte": true,
+        "texto": "Cuando la niebla se fue, en las floristerías de Londres no quedaban flores. Mei volvió con las manos vacías: se habían vendido todas para los entierros.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "nublado",
+          "props": [
+            {
+              "tipo": "mostrador",
+              "x": -0.8,
+              "escala": 0.9
+            },
+            {
+              "tipo": "estanteria",
+              "x": -1.35,
+              "escala": 0.7
+            },
+            {
+              "tipo": "farola",
+              "x": 1.0
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "mei",
+            "x": 0.4,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 21,
+        "texto": "Las funerarias también se quedaron sin ataúdes. Fue así, por las cosas que faltaban, como muchos empezamos a entender.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "atardecer",
+          "clima": "nublado",
+          "sol": false,
+          "props": [
+            {
+              "tipo": "central",
+              "x": -1.15,
+              "escala": 0.6
+            },
+            {
+              "tipo": "casa",
+              "x": -0.7,
+              "escala": 0.8
+            },
+            {
+              "tipo": "autobus",
+              "x": 0.0,
+              "escala": 0.55
+            },
+            {
+              "tipo": "casa",
+              "x": 0.95,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "dia": 22,
+        "capitulo": "Las cuentas",
+        "texto": "Viernes, doce. Los periódicos hablan de la niebla, pero sobre todo de las vacas de la feria. De las personas, casi nada.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "dia",
+          "pared": "ladrillo",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "pizarra",
+              "x": -1.2
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "🫖",
+              "x": -0.12,
+              "escala": 0.25
+            },
+            {
+              "tipo": "☕",
+              "x": 0.15,
+              "escala": 0.2
+            },
+            {
+              "tipo": "perchero",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "jarri",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "enfado",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "📰"
+          },
+          {
+            "quien": "leni",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 26,
+        "texto": "Martes, dieciséis. En el Parlamento, el ministro de Sanidad, Ian Maclaud, da por fin una cifra. Yo la leo en voz alta en la cantina.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "jarri",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "📰"
+          },
+          {
+            "quien": "leni",
+            "x": -0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 26,
+        "texto": "En la semana de la niebla murieron en Londres cuatro mil setecientas tres personas. Un año antes, la misma semana, mil ochocientas cincuenta y dos.",
+        "drama": 0.85,
+        "insercion": {
+          "tipo": "dato",
+          "valor": "4.703",
+          "etiqueta": "muertes en el Gran Londres la semana de la niebla, frente a 1.852 un año antes (Hansard, 16 dic. 1952)",
+          "icono": "🕯️"
+        }
+      },
+      {
+        "dia": 26,
+        "texto": "Dos veces y media más. En la cantina nadie habla. Leni se quita la gorra y la deja sobre la mesa.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "leni",
+            "x": -0.35,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "jarri",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 28,
+        "texto": "Jueves. En el Parlamento vuelven a preguntar por los muertos y por los hospitales llenos. Y en la parada del señor Grin sigue sin haber nadie.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "amanecer",
+          "clima": "nublado",
+          "sol": false,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "autobus",
+              "x": -0.75,
+              "escala": 0.7
+            },
+            {
+              "tipo": "poste",
+              "x": 0.95,
+              "escala": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "jarri",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 30,
+        "texto": "Sábado, veinte. Último turno antes de Navidad. Desde la cabina miro las chimeneas humeando de nuevo, tranquilas, como si nada hubiera pasado.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "atardecer",
+          "clima": "nublado",
+          "sol": false,
+          "props": [
+            {
+              "tipo": "central",
+              "x": -1.15,
+              "escala": 0.6
+            },
+            {
+              "tipo": "casa",
+              "x": -0.7,
+              "escala": 0.8
+            },
+            {
+              "tipo": "autobus",
+              "x": 0.0,
+              "escala": 0.55
+            },
+            {
+              "tipo": "casa",
+              "x": 0.95,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "jarri",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 30,
+        "texto": "Pienso en la bengala, en Leni andando delante, en el asiento vacío. Y por primera vez en mi vida, el humo me da miedo.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "pared": "papel",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "chimenea",
+              "x": -1.1
+            },
+            {
+              "tipo": "mesa",
+              "x": 0.05
+            },
+            {
+              "tipo": "🫖",
+              "x": 0.0,
+              "escala": 0.25
+            },
+            {
+              "tipo": "cuadro",
+              "x": 0.85
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "jarri",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "mei",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "El Gobierno habló primero de unos cuatro mil muertos de más. Las muertes de enero y febrero se achacaron a la gripe, y no hubo investigación pública.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "noche",
+          "clima": "smog",
+          "sol": false,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.0,
+              "escala": 0.8
+            },
+            {
+              "tipo": "farola",
+              "x": -0.3
+            },
+            {
+              "tipo": "casa",
+              "x": 0.95,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "subir"
+      },
+      {
+        "corte": true,
+        "texto": "Casi cincuenta años después, dos investigadoras revisaron los registros: unas doce mil muertes de más entre diciembre y febrero. Unas cuatro mil, en los días de la niebla.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "atardecer",
+          "clima": "nublado",
+          "sol": false,
+          "props": [
+            {
+              "tipo": "central",
+              "x": -1.15,
+              "escala": 0.6
+            },
+            {
+              "tipo": "casa",
+              "x": -0.7,
+              "escala": 0.8
+            },
+            {
+              "tipo": "autobus",
+              "x": 0.0,
+              "escala": 0.55
+            },
+            {
+              "tipo": "casa",
+              "x": 0.95,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "~12.000",
+          "etiqueta": "muertes de más entre diciembre de 1952 y febrero de 1953 (Bell y Davis, 2001); unas 4.000 en los días de la niebla",
+          "icono": "🕯️"
+        }
+      },
+      {
+        "texto": "En mil novecientos cincuenta y seis llegó la Ley del Aire Limpio: barrios donde solo se podía quemar combustible sin humo. Fue una de las primeras leyes así en el mundo.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "ciudad",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.0,
+              "escala": 0.8
+            },
+            {
+              "tipo": "arbol",
+              "x": -0.45,
+              "escala": 0.8
+            },
+            {
+              "tipo": "farola",
+              "x": 1.0
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "jarri",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "1956",
+          "etiqueta": "Clean Air Act: zonas de control de humo y ayudas para cambiar las chimeneas",
+          "icono": "🌬️"
+        }
+      },
+      {
+        "texto": "La reina se coronó en junio, y Tómi tuvo sus caramelos: dejaron de racionarse en febrero. Yo seguí conduciendo, ya con bengalas a bordo para la niebla.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "autobus",
+              "x": -0.8,
+              "escala": 0.7
+            },
+            {
+              "tipo": "farola",
+              "x": 0.95
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "tomi",
+            "x": -0.1,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "🍬"
+          },
+          {
+            "quien": "jarri",
+            "x": 0.45,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Jarri, Leni, mi familia y el señor Grin somos inventados. La niebla, las bengalas, la ópera, las cifras y la ley, no.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "jarri",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "leni",
+            "x": -0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Este vídeo es para los miles de londinenses que murieron aquel invierno. ¿Qué historia quieres vivir el próximo mes? Déjalo en los comentarios y suscríbete.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "jarri",
+            "x": 0.4,
+            "accion": "saludar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "leni",
+            "x": -0.35,
+            "accion": "saludar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      }
+    ]
+  },
+  "ganchos": [
+    {
+      "desde": 0,
+      "hasta": 3,
+      "rotulo": "LONDRES SE QUEDÓ CIEGO",
+      "titulo": "Conducía un autobús dentro de una niebla que mataba",
+      "descripcion": "Londres, diciembre de 1952: un conductor de autobús cuenta cómo empezó la Gran Niebla, la que nadie supo que estaba matando. Personaje inventado; los hechos, reales. #shorts #historia #londres"
+    },
+    {
+      "desde": 25,
+      "hasta": 28,
+      "rotulo": "UN HOMBRE DELANTE DEL AUTOBÚS",
+      "titulo": "Mi cobrador guió el autobús a pie con una bengala",
+      "descripcion": "Gran Niebla de Londres, 5 de diciembre de 1952: con unos metros de visibilidad, los cobradores caminaban delante del autobús con bengalas. Personaje inventado; los hechos, reales. #shorts #historia #londres"
+    },
+    {
+      "desde": 31,
+      "hasta": 34,
+      "rotulo": "LA ÓPERA QUE PARÓ LA NIEBLA",
+      "titulo": "La niebla que suspendió La Traviata",
+      "descripcion": "6 de diciembre de 1952: la niebla entró en el teatro de Sadler's Wells y el público dejó de ver el escenario. Así era la Gran Niebla de Londres. #shorts #historia #londres"
+    },
+    {
+      "desde": 43,
+      "hasta": 47,
+      "rotulo": "LONDRES SIN FLORES",
+      "titulo": "Cuando se fue la niebla, no quedaban flores",
+      "descripcion": "Londres, diciembre de 1952: floristerías vacías, funerarias sin ataúdes y una cifra leída en el Parlamento. Así se supo lo que había hecho la Gran Niebla. #shorts #historia #londres"
+    }
+  ],
+  "publicacion": {
+    "tituloLargo": "Un mes en la vida de UN CONDUCTOR DE AUTOBÚS DE LONDRES (1952) | La Gran Niebla",
+    "tituloShort": "Conduje un autobús dentro de la Gran Niebla",
+    "tituloCorto": "Londres, 1952",
+    "capituloInicial": "Cinco días sin ver",
+    "descripcion": "Treinta días en la vida de Harry Dawson, conductor de un autobús rojo de dos pisos en Londres, del 21 de noviembre al 20 de diciembre de 1952: la ciudad de posguerra con sus solares de las bombas, las cartillas de racionamiento (mantequilla, azúcar, carne, caramelos y carbón; el té, libre desde octubre), el carbón malo que humeaba en cada chimenea, el estreno de «The Mousetrap», el anticiclón del 4 de diciembre y la Gran Niebla del 5 al 9 de diciembre: los cobradores caminando delante de los autobuses con bengalas, los autobuses en fila de vuelta a las cocheras, «La Traviata» suspendida en Sadler's Wells, la feria de ganado de Navidad, las floristerías sin flores y las funerarias sin ataúdes, y la cifra que el ministro de Sanidad Iain Macleod dio en el Parlamento el 16 de diciembre. Contado sin nada gráfico y con respeto por las víctimas y sus familias.\n\nAVISO: Harry Dawson, su cobrador Lenny Price, su familia y el señor Green son personajes INVENTADOS. Los hechos son reales: el racionamiento de 1952, el anticiclón y la inversión térmica, unas 370 toneladas de dióxido de azufre al día (Met Office), la visibilidad de pocos metros, los cobradores con bengalas, el metro como único transporte que siguió funcionando, «La Traviata» del 6 de diciembre, el ganado enfermo, las floristerías y funerarias vacías, las 4.703 muertes de la semana hasta el 13 de diciembre frente a 1.852 un año antes (Hansard), la cifra oficial de unas 4.000 muertes de más, la estimación de unas 12.000 muertes de más entre diciembre de 1952 y febrero de 1953 (Bell y Davis, 2001) y la Clean Air Act de 1956.\n\n— Semana 1: La ciudad del humo\n— Semana 2: Navidad a la vista\n— Semana 3: La sopa amarilla\n— Semana 4: Las cuentas\n— Epílogo: la Ley del Aire Limpio\n\nFuentes: Met Office; London Museum; Historic England (Heritage Calling); The National Archives; Hansard (Parlamento británico, 1952–1953); Bell y Davis, Environmental Health Perspectives (2001); Britannica; National Geographic; Smithsonian; History.com; NPR (2002); King's College London (The Big Smoke); British Safety Council; Royal Geographical Society; London Transport Museum; Commercial Motor; royal.uk.",
+    "etiquetas": [
+      "un mes en la vida de",
+      "Gran Niebla de Londres",
+      "Great Smog",
+      "Great Smog of London",
+      "1952",
+      "Londres",
+      "smog",
+      "contaminación",
+      "Clean Air Act",
+      "autobús de Londres",
+      "racionamiento",
+      "catástrofes",
+      "historia",
+      "animación"
+    ],
+    "miniatura": {
+      "texto": "5 DÍAS SIN VER",
+      "escena": 26,
+      "quien": "leni",
+      "emocion": "miedo"
+    },
+    "shorts": [
+      {
+        "titulo": "Conducía un autobús dentro de una niebla que mataba",
+        "descripcion": "Londres, diciembre de 1952: un conductor de autobús cuenta cómo empezó la Gran Niebla, la que nadie supo que estaba matando. Personaje inventado; los hechos, reales. #shorts #historia #londres"
+      },
+      {
+        "titulo": "Mi cobrador guió el autobús a pie con una bengala",
+        "descripcion": "Gran Niebla de Londres, 5 de diciembre de 1952: con unos metros de visibilidad, los cobradores caminaban delante del autobús con bengalas. Personaje inventado; los hechos, reales. #shorts #historia #londres"
+      },
+      {
+        "titulo": "La niebla que suspendió La Traviata",
+        "descripcion": "6 de diciembre de 1952: la niebla entró en el teatro de Sadler's Wells y el público dejó de ver el escenario. Así era la Gran Niebla de Londres. #shorts #historia #londres"
+      },
+      {
+        "titulo": "Cuando se fue la niebla, no quedaban flores",
+        "descripcion": "Londres, diciembre de 1952: floristerías vacías, funerarias sin ataúdes y una cifra leída en el Parlamento. Así se supo lo que había hecho la Gran Niebla. #shorts #historia #londres"
+      }
+    ]
+  }
+}
