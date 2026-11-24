@@ -281,7 +281,7 @@
     "escenas": [
       {
         "corte": true,
-        "texto": "Este invierno, el rey ha hecho una ley: en cada casa tiene que haber cerveza para el Yol, o multa. Y el rey ni siquiera cree en nuestros dioses.",
+        "texto": "Nuestro rey ha hecho una ley: en cada casa tiene que haber cerveza para el Yol, o multa. Y el rey ni siquiera cree en nuestros dioses.",
         "drama": 0.8,
         "fondo": {
           "lugar": "montanas",
@@ -339,7 +339,7 @@
         "insercion": {
           "tipo": "mapa",
           "lugar": "Innherred, Trøndelag (Noruega)",
-          "detalle": "Fiordo de Trondheim · hacia el 950 · el mes del Jól",
+          "detalle": "Trøndelag (Noruega) · hacia el 950 · el mes del Jól",
           "icono": "📍"
         }
       },
@@ -477,7 +477,7 @@
       },
       {
         "dia": 1,
-        "texto": "Ese mismo día, mi madre, Gúdrun, abre el arcón con las llaves que lleva al cinto. La cebada en remojo ya echa brotes: es la malta. La tostamos junto al fuego.",
+        "texto": "Ese mismo día, mi madre, Gúdrun, abre el arcón con las llaves que lleva al cinto. La cebada en remojo ya echa brotes: es la malta.",
         "drama": 0.55,
         "personajes": [
           {
@@ -674,10 +674,9 @@
           {
             "quien": "gudrun",
             "x": 0.45,
-            "accion": "cargar",
+            "accion": "trabajar",
             "emocion": "neutral",
             "mirar": -1,
-            "objeto": "🪨",
             "habla": false
           }
         ],
@@ -699,7 +698,7 @@
               "nombre": "Ramas de enebro"
             },
             {
-              "icono": "🪣",
+              "icono": "🫧",
               "nombre": "La levadura de la familia"
             }
           ]
@@ -725,14 +724,13 @@
               "x": -1.2
             },
             {
-              "tipo": "🧶",
-              "x": 1.15,
-              "escala": 0.4
-            },
-            {
               "tipo": "🪔",
               "x": -0.8,
               "escala": 0.22
+            },
+            {
+              "tipo": "telar",
+              "x": 0.75
             }
           ]
         },
@@ -1025,7 +1023,7 @@
       },
       {
         "dia": 8,
-        "texto": "Y hay un lobo que persigue al sol por el cielo. Un día lo alcanzará. Miro el agujero del humo y pienso que este invierno casi lo consigue.",
+        "texto": "Y un lobo persigue al sol por el cielo. Un día lo alcanzará. Este invierno, pienso, casi lo consigue.",
         "drama": 0.65,
         "personajes": [
           {
@@ -1073,7 +1071,7 @@
         "insercion": {
           "tipo": "cita",
           "frase": "No entres, desgraciado: estamos celebrando el álfablót y tememos la ira de Odín.",
-          "firma": "Una mujer al poeta Sigvatr, que llamaba a su puerta (Austrfararvísur, hacia 1019; paráfrasis)"
+          "firma": "Una mujer al poeta Sigvatr en una granja de Suecia (Austrfararvísur, hacia 1019; paráfrasis)"
         }
       },
       {
@@ -1185,9 +1183,8 @@
               "x": 1.3
             },
             {
-              "tipo": "🐎",
-              "x": -0.2,
-              "escala": 0.4
+              "tipo": "aurora",
+              "x": 0
             }
           ]
         },
@@ -1350,6 +1347,10 @@
               "tipo": "roca",
               "x": 1.3,
               "escala": 0.9
+            },
+            {
+              "tipo": "aurora",
+              "x": 0
             }
           ]
         },
@@ -1448,7 +1449,7 @@
       },
       {
         "dia": 15,
-        "texto": "La abuela dice que antes el Yol empezaba en la noche de pleno invierno; el rey lo ha movido a la fecha de su dios. Nadie sabe ya qué noche era.",
+        "texto": "La abuela dice que antes el Yol empezaba en la noche de pleno invierno, y que el rey lo ha movido a la fecha de su dios. Hoy los estudiosos discuten cuál era.",
         "drama": 0.7,
         "fondo": {
           "lugar": "interior",
@@ -1498,7 +1499,7 @@
       },
       {
         "dia": 15,
-        "texto": "Hace cuatro siglos, un griego, Procopio, escribió que más al norte el sol desaparece cuarenta días, y que cuando vuelve celebran su mayor fiesta.",
+        "texto": "Hace cuatro siglos, un historiador bizantino, Procopio, escribió que más al norte el sol desaparece cuarenta días, y que cuando vuelve celebran su mayor fiesta.",
         "drama": 0.65,
         "fondo": {
           "lugar": "montanas",
@@ -1641,7 +1642,7 @@
       },
       {
         "dia": 18,
-        "texto": "El día dieciocho corre un rumor: unos jefes de aquí han jurado obligar al rey a sacrificar, como su padre. Uno se llama Blótolf: Lobo del Sacrificio.",
+        "texto": "El día dieciocho corre un rumor. Según la saga, unos jefes de aquí juraron obligar al rey a sacrificar. Uno se llamaba Blótolf: Lobo del Sacrificio.",
         "drama": 0.75,
         "fondo": {
           "lugar": "montanas",
@@ -1909,7 +1910,7 @@
       },
       {
         "dia": 24,
-        "texto": "Mi padre levanta el cuerno y brinda como sus abuelos: por un buen año y paz. Y bebemos por nuestros muertos, que duermen en el túmulo.",
+        "texto": "Mi padre levanta la copa y brinda como sus abuelos: por un buen año y paz. Y bebemos por nuestros muertos, que duermen en el túmulo.",
         "drama": 0.7,
         "fondo": {
           "lugar": "interior",
@@ -1965,7 +1966,7 @@
       },
       {
         "dia": 25,
-        "texto": "Al alba, mi padre y Kólbein salen hacia Mére, a medio día de camino, con un barril a cuestas. Yo me quedo mirando sus huellas en la nieve.",
+        "texto": "Al alba, mi padre y Kólbein salen hacia Mére, a medio día de camino, con comida y cerveza. Yo me quedo mirando sus huellas en la nieve.",
         "drama": 0.6,
         "fondo": {
           "lugar": "montanas",
@@ -2009,11 +2010,12 @@
           {
             "quien": "kolbein",
             "x": 0.35,
-            "accion": "caminar",
+            "accion": "cargar",
             "emocion": "feliz",
             "mirar": -1,
             "sale": "izq",
-            "habla": false
+            "habla": false,
+            "objeto": "🧺"
           },
           {
             "quien": "asa_capa",
@@ -2196,7 +2198,7 @@
       },
       {
         "dia": 25,
-        "texto": "Mi padre dice que comer caballo es comer con nuestros dioses; los cristianos acabarán prohibiéndolo. Aquella noche, el rey perdió algo más que el apetito.",
+        "texto": "Comer caballo era comer con los viejos dioses. Siglos después, los cristianos lo prohibirían. Aquella noche, el rey perdió algo más que el apetito.",
         "drama": 0.75,
         "personajes": [
           {
@@ -2218,7 +2220,7 @@
       },
       {
         "dia": 26,
-        "texto": "Mientras, en casa recibimos a los vecinos. Tres noches de Yol, con luna llena sobre la nieve, y cerveza mientras dure.",
+        "texto": "En casa recibimos a los vecinos. Tres noches de banquete, con luna llena sobre la nieve. Y el Yol durará lo que dure la cerveza.",
         "drama": 0.6,
         "fondo": {
           "lugar": "montanas",
@@ -2338,7 +2340,7 @@
       },
       {
         "dia": 30,
-        "texto": "El día treinta clavo un palo en la nieve de la loma. Su sombra ya es un poco más corta. El sol vuelve. ¿Qué dioses lo traen?",
+        "texto": "El día treinta clavo un palo en la nieve. Su sombra ya es un poco más corta. El sol vuelve. ¿Qué dioses lo traen?",
         "drama": 0.65,
         "fondo": {
           "lugar": "montanas",
@@ -2372,14 +2374,22 @@
         "texto": "La cerveza se acabó unos días después, y con ella el Yol. El rey nunca volvió con su ejército: le llegó la guerra con los hijos de su hermanastro Erik.",
         "drama": 0.65,
         "fondo": {
-          "lugar": "mar",
+          "lugar": "montanas",
           "hora": "atardecer",
-          "clima": "nublado",
+          "clima": "nieve",
           "props": [
             {
-              "tipo": "velero",
+              "tipo": "pino",
+              "x": -1.3
+            },
+            {
+              "tipo": "pino",
+              "x": 1.35
+            },
+            {
+              "tipo": "roca",
               "x": 0.9,
-              "escala": 0.7
+              "escala": 0.8
             }
           ]
         },
@@ -2414,7 +2424,7 @@
         }
       },
       {
-        "texto": "Sígurd murió quemado en una casa por sus enemigos. Según las sagas, otro rey, Olav, quemó después el templo de Mére. Bajo la iglesia que hay hoy aparecieron laminillas de oro de los viejos dioses.",
+        "texto": "Sígurd murió quemado en una casa por sus enemigos. Según las sagas, otro rey, Olav, quemó después el templo de Mére. Bajo su iglesia aparecieron laminillas de oro de los viejos dioses.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -2508,7 +2518,7 @@
         "camara": "cerca"
       },
       {
-        "texto": "Y la cerveza de Navidad. Siglos después, una ley noruega mandaba bendecirla en Nochebuena por un buen año y paz. Las mismas palabras de mi padre.",
+        "texto": "Y la cerveza de Navidad. Siglos después, una ley noruega mandaba bendecirla en Nochebuena por un buen año y paz. Las mismas palabras que se decían en el viejo Yol.",
         "drama": 0.7,
         "fondo": {
           "lugar": "interior",
@@ -2555,7 +2565,7 @@
           "titulo": "Lo que sí viene del Jól",
           "items": [
             {
-              "icono": "🗣️",
+              "icono": "📜",
               "nombre": "La palabra jul (God jul)"
             },
             {
@@ -2563,7 +2573,7 @@
               "nombre": "La cerveza de Navidad"
             },
             {
-              "icono": "📅",
+              "icono": "☀️",
               "nombre": "La fecha, por ley de Hákon"
             },
             {
@@ -2574,7 +2584,7 @@
         }
       },
       {
-        "texto": "Pero no vienen del Yol ni el árbol, ni el tronco, ni el muérdago. Y Odín no es Papá Noel: eso se inventó a finales del siglo veinte. Ningún texto antiguo lo dice.",
+        "texto": "Pero no vienen del Yol ni el árbol, ni el tronco, ni el muérdago. Y Odín no es Papá Noel: eso se popularizó a finales del siglo veinte. Ningún texto antiguo lo dice.",
         "drama": 0.75,
         "fondo": {
           "lugar": "montanas",
@@ -2633,7 +2643,7 @@
             },
             {
               "icono": "❌",
-              "nombre": "Odín = Papá Noel (años 90)"
+              "nombre": "Odín = Papá Noel (idea moderna)"
             }
           ]
         }
@@ -2704,7 +2714,7 @@
       "desde": 41,
       "hasta": 45,
       "rotulo": "EL REY Y EL CABALLO",
-      "titulo": "Un rey cristiano obligado a comer hígado de caballo",
+      "titulo": "Según la saga, un rey cristiano tuvo que comer hígado de caballo",
       "descripcion": "El banquete del Jól en Mære, hacia el 950, según la Saga de Hákon el Bueno (escrita unos 280 años después). #shorts #historia #vikingos #mitologianordica"
     },
     {
@@ -2716,11 +2726,11 @@
     }
   ],
   "publicacion": {
-    "tituloLargo": "Un mes en la vida de UNA NIÑA EN EL JÓL (Noruega, hacia el 950) | El rey cristiano obligado a comer hígado de caballo",
+    "tituloLargo": "Un mes en la vida de UNA NIÑA EN EL JÓL (Noruega, hacia el 950) | El rey cristiano obligado a comer hígado de caballo, según la saga",
     "tituloCorto": "Una niña en el Jól",
-    "tituloShort": "Un rey cristiano obligado a comer hígado de caballo",
+    "tituloShort": "Un rey cristiano obligado a comer hígado de caballo, según la saga",
     "capituloInicial": "Cerveza por ley",
-    "descripcion": "Noruega, diciembre del 950. Ása, una niña de diez años de una granja de Innherred, al fondo del fiordo de Trondheim, vive el mes del Jól, la gran fiesta de pleno invierno de los nórdicos: la malta tostada junto al fuego, la cerveza hecha con piedras al rojo, el lago helado, el día del baño, la noche sin luna, el sol que en el solsticio apenas asoma tres grados sobre la sierra y el jabalí de los juramentos. Mientras, el rey Hákon el Bueno, criado cristiano en Inglaterra, ha mandado por ley que el Jól se celebre el día de Navidad y que cada casa tenga cerveza o pague multa. Y en el banquete del Jól en Mære, los campesinos le obligan a comer de los sacrificios.\n\n— Semana 1: Cerveza o multa\n— Semana 2: La noche sin luna\n— Semana 3: La noche más larga\n— Semana 4: El hígado de caballo\n— Epílogo: Fitjar, el Valhalla de un rey cristiano, el templo de Mære y lo que tu Navidad le debe (y no le debe) al Jól\n\nQué es real y qué es inventado: Ása y toda su familia (Thorgeir, Gudrun, la abuela Álfhild, Kolbein, la pequeña Hild y la esclava irlandesa Brígida) son personajes INVENTADOS, igual que el viajero, el mensajero y lo que pasa en su granja cada día; la cronología del mes es una reconstrucción verosímil con fechas del calendario juliano. Son reales: Hákon el Bueno, el jarl Sigurd de Hlaðir, Ásbjǫrn de Meðalhús y Blótólfr de Ǫlvishaugr, pero lo que sabemos de ellos (la ley del Jól, la asamblea del Frostating, la cruz sobre la copa de Odín en Hlaðir y el hígado de caballo en Mære) lo cuenta la Saga de Hákon el Bueno de Snorri Sturluson, escrita en Islandia hacia 1230, unos 280 años después, y por eso decimos «según la saga». Del Jól pagano se sabe poco: era una fiesta de pleno invierno con mucha cerveza, sacrificios, brindis «por un buen año y paz» y juramentos; su fecha exacta antes de Hákon se discute. El cortejo de muertos de las noches del Jól (oskoreia) es folclore noruego recogido en el siglo XIX: en el vídeo es solo el miedo de un personaje. El árbol de Navidad, el tronco, el muérdago y la idea de que Odín es Papá Noel NO vienen del Jól.\n\nFuentes: Snorri Sturluson, Heimskringla (Saga de Hákon el Bueno, cap. 13–18; Ynglinga saga, 8; Hákonarmál); Sigvatr Þórðarson, Austrfararvísur; Procopio, Guerra gótica VI, 15; Beda, De temporum ratione 15; ley del Gulating; Store norske leksikon; Science Norway y Universidad de Agder; Universidad de Aberdeen; Medievalists.net; Museo Nacional de Dinamarca.\n\nLectura recomendada: Snorri Sturluson, Heimskringla (trad. de Santiago Ibáñez Lluch, Miraguano); Edda mayor (trad. de Luis Lerate, Alianza).",
+    "descripcion": "Noruega, diciembre del 950. Ása, una niña de diez años de una granja de Innherred, al fondo del fiordo que hoy se llama de Trondheim, vive el mes del Jól, la gran fiesta de pleno invierno de los nórdicos: la malta tostada junto al fuego, la cerveza hecha con piedras al rojo, el lago helado, el día del baño, la noche sin luna, el sol que en el solsticio apenas asoma tres grados sobre la sierra y el jabalí de los juramentos. Mientras, el rey Hákon el Bueno, criado cristiano en Inglaterra, ha mandado por ley que el Jól se celebre el día de Navidad y que cada casa tenga cerveza o pague multa. Y, según la saga, en el banquete del Jól en Mære los campesinos le obligaron a comer de los sacrificios.\n\n— Semana 1: Cerveza o multa\n— Semana 2: La noche sin luna\n— Semana 3: La noche más larga\n— Semana 4: El hígado de caballo\n— Epílogo: Fitjar, el Valhalla de un rey cristiano, el templo de Mære y lo que tu Navidad le debe (y no le debe) al Jól\n\nQué es real y qué es inventado: Ása y toda su familia (Thorgeir, Gudrun, la abuela Álfhild, Kolbein, la pequeña Hild y la esclava irlandesa Brígida) son personajes INVENTADOS, igual que el viajero, el mensajero y lo que pasa en su granja cada día; la cronología del mes es una reconstrucción verosímil con fechas del calendario juliano. Son reales: Hákon el Bueno, el jarl Sigurd de Hlaðir, Ásbjǫrn de Meðalhús y Blótólfr de Ǫlvishaugr, pero lo que sabemos de ellos (la ley del Jól, la asamblea del Frostating, la cruz sobre la copa de Odín en Hlaðir y el hígado de caballo en Mære) lo cuenta la Saga de Hákon el Bueno de Snorri Sturluson, escrita en Islandia hacia 1230, unos 280 años después, y por eso decimos «según la saga». Del Jól pagano se sabe poco: era una fiesta de pleno invierno con mucha cerveza, sacrificios, brindis «por un buen año y paz» y juramentos; su fecha exacta antes de Hákon se discute. El cortejo de muertos de las noches del Jól (oskoreia) es folclore noruego recogido en el siglo XIX: en el vídeo es solo el miedo de un personaje. El árbol de Navidad, el tronco, el muérdago y la idea de que Odín es Papá Noel NO vienen del Jól.\n\nFuentes: Snorri Sturluson, Heimskringla (Saga de Hákon el Bueno, cap. 13–18; Ynglinga saga, 8; Hákonarmál); Sigvatr Þórðarson, Austrfararvísur; Procopio, Guerra gótica VI, 15; Beda, De temporum ratione 15; ley del Gulating; Store norske leksikon; Science Norway y Universidad de Agder; Universidad de Aberdeen; Medievalists.net; Museo Nacional de Dinamarca.\n\nLectura recomendada: Snorri Sturluson, Heimskringla (trad. de Santiago Ibáñez Lluch, Miraguano); Edda mayor (trad. de Luis Lerate, Alianza).",
     "etiquetas": [
       "un mes en la vida de",
       "Jól",
