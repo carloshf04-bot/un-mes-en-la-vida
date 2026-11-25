@@ -362,8 +362,9 @@
               "x": 1.2
             },
             {
-              "tipo": "estanteria",
-              "x": -1.2
+              "tipo": "cajas",
+              "x": -1.2,
+              "escala": 0.9
             },
             {
               "tipo": "🪔",
@@ -598,8 +599,9 @@
               "x": 1.2
             },
             {
-              "tipo": "estanteria",
-              "x": -1.2
+              "tipo": "cajas",
+              "x": -1.2,
+              "escala": 0.9
             },
             {
               "tipo": "🪔",
@@ -720,8 +722,9 @@
               "escala": 0.6
             },
             {
-              "tipo": "estanteria",
-              "x": -1.2
+              "tipo": "cajas",
+              "x": -1.2,
+              "escala": 0.9
             },
             {
               "tipo": "🪔",
@@ -777,7 +780,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 4,
@@ -801,7 +804,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 5,
@@ -894,8 +897,9 @@
               "x": 1.2
             },
             {
-              "tipo": "estanteria",
-              "x": -1.2
+              "tipo": "cajas",
+              "x": -1.2,
+              "escala": 0.9
             },
             {
               "tipo": "🪔",
@@ -983,8 +987,9 @@
               "x": 1.2
             },
             {
-              "tipo": "estanteria",
-              "x": -1.2
+              "tipo": "cajas",
+              "x": -1.2,
+              "escala": 0.9
             },
             {
               "tipo": "🪔",
@@ -1081,7 +1086,7 @@
         "fondo": {
           "lugar": "montanas",
           "hora": "noche",
-          "clima": "tormenta",
+          "clima": "nieve",
           "nevado": true,
           "props": [
             {
@@ -1467,8 +1472,9 @@
               "x": 1.2
             },
             {
-              "tipo": "estanteria",
-              "x": -1.2
+              "tipo": "cajas",
+              "x": -1.2,
+              "escala": 0.9
             },
             {
               "tipo": "🪔",
@@ -1610,8 +1616,9 @@
               "x": 1.2
             },
             {
-              "tipo": "estanteria",
-              "x": -1.2
+              "tipo": "cajas",
+              "x": -1.2,
+              "escala": 0.9
             },
             {
               "tipo": "🪔",
@@ -1790,8 +1797,9 @@
               "x": 1.2
             },
             {
-              "tipo": "estanteria",
-              "x": -1.2
+              "tipo": "cajas",
+              "x": -1.2,
+              "escala": 0.9
             },
             {
               "tipo": "🪔",
@@ -1928,8 +1936,9 @@
               "x": 1.2
             },
             {
-              "tipo": "estanteria",
-              "x": -1.2
+              "tipo": "cajas",
+              "x": -1.2,
+              "escala": 0.9
             },
             {
               "tipo": "🪔",
@@ -2169,7 +2178,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "general"
       },
       {
         "dia": 25,
