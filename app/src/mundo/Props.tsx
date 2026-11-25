@@ -20,7 +20,7 @@ export const PROPS_DISPONIBLES = [
   "templo-mayor", "canoa", "ahuejote", "chinampa", "calzada", "brasero", "petate", "metate", "ciudad-lago",
   "granja-fuego", "charco", "puesto-mexica",
   // Egipto, Reino Nuevo (Abidos 1270 a. C.)
-  "barca", "yed", "oruwa", "dagoba", "torre-alerta", "tren-diesel", "barca-durham",
+  "barca", "yed", "oruwa", "dagoba", "torre-alerta", "tren-diesel", "barca-durham", "muralla",
   // Armero (1985)
   "lodo", "barrizal",
   // Roma (Saturnales) y Halifax (1917)
@@ -1083,6 +1083,27 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: num
           <path d="M8 -450 Q140 -320 8 -170Z" fill="#d9cfb8" />
         </g>
       );
+    case "muralla": {
+      // muralla aureliana (Roma, 271–275): lienzo de ladrillo con almenas y torres cuadradas cada pocos metros
+      const lad = noche ? "#6a4a3a" : "#b06a48";
+      const jun = noche ? "#4a3428" : "#8a5038";
+      const torre = (x: number) => (
+        <g key={x}>
+          <rect x={x - 110} y={-620} width={220} height={620} fill={lad} />
+          {[0, 1, 2, 3].map((k) => <rect key={k} x={x - 110 + k * 60} y={-660} width={40} height={40} fill={lad} />)}
+          <rect x={x - 30} y={-520} width={60} height={90} rx={30} fill="#2a201a" />
+          {Array.from({ length: 14 }, (_, k) => <rect key={k} x={x - 110} y={-600 + k * 42} width={220} height={4} fill={jun} />)}
+        </g>
+      );
+      return (
+        <g>
+          <rect x={-900} y={-420} width={1800} height={420} fill={lad} />
+          {Array.from({ length: 22 }, (_, k) => <rect key={k} x={-900 + k * 82} y={-460} width={50} height={40} fill={lad} />)}
+          {Array.from({ length: 10 }, (_, k) => <rect key={k} x={-900} y={-400 + k * 42} width={1800} height={4} fill={jun} />)}
+          {[-640, 0, 640].map(torre)}
+        </g>
+      );
+    }
     case "barca-durham": {
       // barca Durham (río Delaware, 1776): casco largo, negro y abierto, de bordas altas y proa y popa en punta,
       // sin vela; dos pértigas clavadas en el agua y el remo de espadilla a popa. Se mece un poco en la corriente.
