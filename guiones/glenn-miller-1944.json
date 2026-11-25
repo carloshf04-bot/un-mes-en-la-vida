@@ -586,7 +586,7 @@
       },
       {
         "dia": 5,
-        "texto": "Jueves. Desde el veinte de noviembre graban sin parar, con viajes a Londres cada semana: programas de radio para dejar guardados antes de irse a Francia.",
+        "texto": "Desde el veinte de noviembre graban sin parar, con viajes a Londres cada semana: programas de radio para dejar guardados antes de irse a Francia.",
         "drama": 0.6,
         "fondo": {
           "lugar": "ciudad",
@@ -1148,7 +1148,7 @@
       },
       {
         "dia": 19,
-        "texto": "Ese jueves, el teniente coronel americano Norman Bésel le da un asiento en un avión pequeño que sale mañana. Míler dice que sí. Era el sitio de su mánager, Don Jeins.",
+        "texto": "Ese jueves, el teniente coronel americano Norman Bésel le ofrece una plaza en un avión pequeño que sale mañana. Míler acepta. Esa plaza era la de su mánager, Don Jeins.",
         "drama": 0.7,
         "fondo": {
           "lugar": "interior",
@@ -1278,7 +1278,7 @@
       },
       {
         "dia": 20,
-        "texto": "A mediodía la niebla levanta un poco. Pegui me avisa: viene un Nórsman de paso y no apagará el motor. Salgo a la pista, por si acaso.",
+        "texto": "A mediodía, la niebla levanta un poco. Pegui me avisa de que viene un Nórsman de paso, sin apagar el motor. Salgo a la pista, por si acaso.",
         "drama": 0.75,
         "fondo": {
           "lugar": "campo",
@@ -1391,7 +1391,7 @@
       },
       {
         "dia": 20,
-        "texto": "Jeins no lo apuntó en su diario. Les dice adiós con la mano. Cuatro minutos en tierra. A las dos menos cinco, el Nórsman despega rumbo al sur.",
+        "texto": "Jeins no lo apuntó en su diario. Les dice adiós desde la pista; el avión pasa cuatro minutos en tierra. A las dos menos cinco, el Nórsman despega rumbo al sur.",
         "drama": 0.9,
         "personajes": [
           {
@@ -1740,7 +1740,7 @@
       },
       {
         "dia": 28,
-        "texto": "Sábado, veintitrés. Se redacta el informe de avión desaparecido diez mil setecientos setenta. Último paradero: Tuínwud. Mi pista.",
+        "texto": "Es sábado, veintitrés. Se redacta el informe de avión desaparecido número diez mil setecientos setenta. Su último paradero fue Tuínwud, mi propia pista.",
         "drama": 0.8,
         "fondo": {
           "lugar": "interior",
