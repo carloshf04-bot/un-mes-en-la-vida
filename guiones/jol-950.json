@@ -192,9 +192,9 @@
     },
     "hakon": {
       "piel": "#efc8a8",
-      "pelo": "#c8a46a",
+      "pelo": "#9a7040",
       "peinado": "largo",
-      "barba": "corta",
+      "barba": "larga",
       "ropa": {
         "tipo": "tunica",
         "color": "#2f4f7f",
@@ -302,12 +302,6 @@
               "tipo": "pino",
               "x": 1.05,
               "detras": true
-            },
-            {
-              "tipo": "cabana",
-              "x": 1.5,
-              "escala": 0.7,
-              "detras": true
             }
           ],
           "sol": false
@@ -358,18 +352,13 @@
               "escala": 0.6
             },
             {
-              "tipo": "cama",
+              "tipo": "banco-pieles",
               "x": 1.2
             },
             {
-              "tipo": "cajas",
+              "tipo": "arcon",
               "x": -1.2,
-              "escala": 0.9
-            },
-            {
-              "tipo": "🪔",
-              "x": 0.85,
-              "escala": 0.22
+              "escala": 0.8
             }
           ]
         },
@@ -446,7 +435,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 1,
@@ -524,12 +513,6 @@
               "tipo": "pino",
               "x": 1.05,
               "detras": true
-            },
-            {
-              "tipo": "cabana",
-              "x": 1.5,
-              "escala": 0.7,
-              "detras": true
             }
           ],
           "sol": false
@@ -577,7 +560,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 2,
@@ -595,18 +578,13 @@
               "escala": 0.6
             },
             {
-              "tipo": "cama",
+              "tipo": "banco-pieles",
               "x": 1.2
             },
             {
-              "tipo": "cajas",
+              "tipo": "arcon",
               "x": -1.2,
-              "escala": 0.9
-            },
-            {
-              "tipo": "🪔",
-              "x": 0.85,
-              "escala": 0.22
+              "escala": 0.8
             }
           ]
         },
@@ -722,14 +700,9 @@
               "escala": 0.6
             },
             {
-              "tipo": "cajas",
+              "tipo": "arcon",
               "x": -1.2,
-              "escala": 0.9
-            },
-            {
-              "tipo": "🪔",
-              "x": -0.8,
-              "escala": 0.22
+              "escala": 0.8
             },
             {
               "tipo": "telar",
@@ -875,7 +848,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 7,
@@ -893,18 +866,13 @@
               "escala": 0.6
             },
             {
-              "tipo": "cama",
+              "tipo": "banco-pieles",
               "x": 1.2
             },
             {
-              "tipo": "cajas",
+              "tipo": "arcon",
               "x": -1.2,
-              "escala": 0.9
-            },
-            {
-              "tipo": "🪔",
-              "x": 0.85,
-              "escala": 0.22
+              "escala": 0.8
             }
           ]
         },
@@ -958,7 +926,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca",
+        "camara": "lenta",
         "insercion": {
           "tipo": "dato",
           "valor": "Sábado",
@@ -983,18 +951,13 @@
               "escala": 0.6
             },
             {
-              "tipo": "cama",
+              "tipo": "banco-pieles",
               "x": 1.2
             },
             {
-              "tipo": "cajas",
+              "tipo": "arcon",
               "x": -1.2,
-              "escala": 0.9
-            },
-            {
-              "tipo": "🪔",
-              "x": 0.85,
-              "escala": 0.22
+              "escala": 0.8
             }
           ]
         },
@@ -1048,7 +1011,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 8,
@@ -1226,7 +1189,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 12,
@@ -1271,12 +1234,6 @@
             {
               "tipo": "pino",
               "x": 1.05,
-              "detras": true
-            },
-            {
-              "tipo": "cabana",
-              "x": 1.5,
-              "escala": 0.7,
               "detras": true
             },
             {
@@ -1329,7 +1286,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "corte": true,
@@ -1403,7 +1360,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca",
+        "camara": "lenta",
         "insercion": {
           "tipo": "dato",
           "valor": "3°",
@@ -1468,18 +1425,13 @@
               "escala": 0.6
             },
             {
-              "tipo": "cama",
+              "tipo": "banco-pieles",
               "x": 1.2
             },
             {
-              "tipo": "cajas",
+              "tipo": "arcon",
               "x": -1.2,
-              "escala": 0.9
-            },
-            {
-              "tipo": "🪔",
-              "x": 0.85,
-              "escala": 0.22
+              "escala": 0.8
             }
           ]
         },
@@ -1501,7 +1453,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 15,
@@ -1565,12 +1517,6 @@
               "tipo": "pino",
               "x": 1.05,
               "detras": true
-            },
-            {
-              "tipo": "cabana",
-              "x": 1.5,
-              "escala": 0.7,
-              "detras": true
             }
           ],
           "sol": false
@@ -1612,18 +1558,13 @@
               "escala": 0.6
             },
             {
-              "tipo": "cama",
+              "tipo": "banco-pieles",
               "x": 1.2
             },
             {
-              "tipo": "cajas",
+              "tipo": "arcon",
               "x": -1.2,
-              "escala": 0.9
-            },
-            {
-              "tipo": "🪔",
-              "x": 0.85,
-              "escala": 0.22
+              "escala": 0.8
             }
           ]
         },
@@ -1645,7 +1586,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 18,
@@ -1669,12 +1610,6 @@
             {
               "tipo": "pino",
               "x": 1.05,
-              "detras": true
-            },
-            {
-              "tipo": "cabana",
-              "x": 1.5,
-              "escala": 0.7,
               "detras": true
             }
           ]
@@ -1793,18 +1728,13 @@
               "escala": 0.6
             },
             {
-              "tipo": "cama",
+              "tipo": "banco-pieles",
               "x": 1.2
             },
             {
-              "tipo": "cajas",
+              "tipo": "arcon",
               "x": -1.2,
-              "escala": 0.9
-            },
-            {
-              "tipo": "🪔",
-              "x": 0.85,
-              "escala": 0.22
+              "escala": 0.8
             }
           ]
         },
@@ -1826,7 +1756,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "corte": true,
@@ -1851,12 +1781,6 @@
             {
               "tipo": "pino",
               "x": 1.05,
-              "detras": true
-            },
-            {
-              "tipo": "cabana",
-              "x": 1.5,
-              "escala": 0.7,
               "detras": true
             },
             {
@@ -1914,7 +1838,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 24,
@@ -1932,18 +1856,13 @@
               "escala": 0.6
             },
             {
-              "tipo": "cama",
+              "tipo": "banco-pieles",
               "x": 1.2
             },
             {
-              "tipo": "cajas",
+              "tipo": "arcon",
               "x": -1.2,
-              "escala": 0.9
-            },
-            {
-              "tipo": "🪔",
-              "x": 0.85,
-              "escala": 0.22
+              "escala": 0.8
             }
           ]
         },
@@ -1996,12 +1915,6 @@
               "tipo": "pino",
               "x": 1.05,
               "detras": true
-            },
-            {
-              "tipo": "cabana",
-              "x": 1.5,
-              "escala": 0.7,
-              "detras": true
             }
           ],
           "sol": false
@@ -2050,11 +1963,20 @@
           "props": [
             {
               "tipo": "antorcha",
-              "x": -1.35
+              "x": -1.4
             },
             {
               "tipo": "barril",
-              "x": -1.05
+              "x": -1.15
+            },
+            {
+              "tipo": "mesa",
+              "x": -0.75,
+              "detras": true
+            },
+            {
+              "tipo": "antorcha",
+              "x": -0.35
             },
             {
               "tipo": "hoguera",
@@ -2062,12 +1984,21 @@
               "escala": 0.8
             },
             {
+              "tipo": "antorcha",
+              "x": 0.4
+            },
+            {
               "tipo": "mesa",
-              "x": 1.0
+              "x": 0.85,
+              "detras": true
+            },
+            {
+              "tipo": "barril",
+              "x": 1.2
             },
             {
               "tipo": "antorcha",
-              "x": 1.4
+              "x": 1.45
             }
           ]
         },
@@ -2146,7 +2077,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 25,
@@ -2203,7 +2134,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 25,
@@ -2249,12 +2180,6 @@
             {
               "tipo": "pino",
               "x": 1.05,
-              "detras": true
-            },
-            {
-              "tipo": "cabana",
-              "x": 1.5,
-              "escala": 0.7,
               "detras": true
             },
             {
@@ -2315,12 +2240,6 @@
             {
               "tipo": "pino",
               "x": 1.05,
-              "detras": true
-            },
-            {
-              "tipo": "cabana",
-              "x": 1.5,
-              "escala": 0.7,
               "detras": true
             }
           ],
@@ -2402,7 +2321,16 @@
             }
           ]
         },
-        "personajes": [],
+        "personajes": [
+          {
+            "quien": "asa_capa",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
         "camara": "paneo"
       },
       {
@@ -2504,12 +2432,6 @@
             {
               "tipo": "pino",
               "x": 1.05,
-              "detras": true
-            },
-            {
-              "tipo": "cabana",
-              "x": 1.5,
-              "escala": 0.7,
               "detras": true
             }
           ],
@@ -2613,12 +2535,6 @@
             {
               "tipo": "pino",
               "x": 1.05,
-              "detras": true
-            },
-            {
-              "tipo": "cabana",
-              "x": 1.5,
-              "escala": 0.7,
               "detras": true
             }
           ],
@@ -2760,8 +2676,7 @@
       "texto": "¿SU DIOS O SU CORONA?",
       "escena": 45,
       "quien": "hakon",
-      "emocion": "miedo",
-      "icono": "🐎"
+      "emocion": "miedo"
     }
   }
 }

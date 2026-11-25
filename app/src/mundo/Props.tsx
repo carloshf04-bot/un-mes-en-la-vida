@@ -6,7 +6,7 @@ import { oscurecer } from "./constantes";
 // Para añadir uno nuevo: añade un `case` y documéntalo en oficina/GUIA_GUION.md
 export const PROPS_DISPONIBLES = [
   "arbol", "pino", "palmera", "casa", "cabana", "faro", "barco", "velero", "cohete", "farola", "carro", "puesto",
-  "roca", "valla", "pozo", "tumba", "hoguera", "tienda", "bandera", "bandera-eeuu", "mesa", "estanteria", "chimenea", "cama",
+  "roca", "valla", "pozo", "tumba", "hoguera", "tienda", "bandera", "bandera-eeuu", "mesa", "estanteria", "chimenea", "cama", "banco-pieles", "arcon",
   "antorcha", "cuadro", "consola", "maquina", "barril", "cajas", "planta", "telescopio", "yunque", "piramide", "columna", "reloj",
   "bergantin-hielo", "bergantin-hundido", "bote",
   "volcan", "volcan-erupcion", "bergantin", "cruz", "parapeto-aleman", "lecho", "estatua-saturno", "electrometro", "cristalizadores", "espectro", "humo", "explosion", "horno", "molino", "anfora", "termopolio",
@@ -712,6 +712,30 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: num
           <rect x={-320} y={-300} width={34} height={300} fill="#5a3d28" />
           <rect x={286} y={-220} width={34} height={220} fill="#5a3d28" />
           <ellipse cx={210} cy={-180} rx={70} ry={34} fill="#fff" />
+        </g>
+      );
+    case "banco-pieles":
+      // banco corrido de la casa larga nórdica: tarima de tablas junto a la pared, con pieles y mantas de lana encima
+      return (
+        <g>
+          <rect x={-340} y={-130} width={680} height={130} fill="#5a3d28" />
+          {[-300, -150, 0, 150, 300].map((x) => <rect key={x} x={x - 4} y={-130} width={8} height={130} fill="#3e2a1b" />)}
+          <rect x={-350} y={-150} width={700} height={26} rx={6} fill="#6e4b30" />
+          <path d="M-320 -150 Q-300 -205 -200 -200 Q-120 -215 -60 -190 Q-40 -170 -50 -150Z" fill="#8a7a66" />
+          <path d="M-60 -150 Q-40 -190 60 -186 Q140 -196 190 -170 L196 -150Z" fill="#6b5a48" />
+          <path d="M150 -150 Q170 -200 260 -196 Q320 -192 330 -150Z" fill="#9a6e48" />
+          <path d="M-260 -190 Q-230 -176 -180 -188 M40 -176 Q90 -166 140 -178" stroke="#00000030" strokeWidth={6} fill="none" />
+        </g>
+      );
+    case "arcon":
+      // arcón de madera con herrajes de hierro
+      return (
+        <g>
+          <rect x={-170} y={-180} width={340} height={180} rx={10} fill="#7a5232" />
+          <path d="M-170 -180 Q0 -250 170 -180Z" fill="#8a6040" />
+          {[-110, 110].map((x) => <rect key={x} x={x - 14} y={-232} width={28} height={232} fill="#3a3a3a" />)}
+          <rect x={-170} y={-60} width={340} height={14} fill="#3a3a3a" />
+          <rect x={-20} y={-150} width={40} height={40} rx={6} fill="#2a2a2a" />
         </g>
       );
     case "antorcha":
