@@ -344,7 +344,7 @@ const Sombrero: React.FC<{ look: Look }> = ({ look }) => {
         <g fill={look.colorSombrero ?? "#f2c230"}>
           <path d="M-86 -24 C-86 -128 86 -128 86 -24Z" />
           <rect x={-104} y={-34} width={208} height={18} rx={9} />
-          <rect x={-8} y={-118} width={16} height={90} fill="#00000022" />
+          <rect x={-8} y={-98} width={16} height={70} rx={8} fill="#00000018" />
         </g>
       );
     case "corona":

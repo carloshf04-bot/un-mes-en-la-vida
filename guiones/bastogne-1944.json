@@ -190,12 +190,12 @@
       "barba": "ninguna",
       "ropa": {
         "tipo": "uniforme",
-        "color": "#5e6358",
-        "color2": "#4f544a",
+        "color": "#7d8085",
+        "color2": "#6b6e73",
         "detalle": "#2f2a24"
       },
       "sombrero": "gorra",
-      "colorSombrero": "#5e6358",
+      "colorSombrero": "#7d8085",
       "zapatos": "#1f1c1a"
     },
     "aleman2": {
@@ -205,12 +205,12 @@
       "barba": "bigote",
       "ropa": {
         "tipo": "uniforme",
-        "color": "#5e6358",
-        "color2": "#4f544a",
+        "color": "#7d8085",
+        "color2": "#6b6e73",
         "detalle": "#2f2a24"
       },
       "sombrero": "gorra",
-      "colorSombrero": "#5e6358",
+      "colorSombrero": "#7d8085",
       "zapatos": "#1f1c1a"
     },
     "socorro": {
@@ -338,7 +338,8 @@
               "tipo": "hoyo",
               "x": 0.0
             }
-          ]
+          ],
+          "nevado": true
         },
         "personajes": [
           {
@@ -468,11 +469,11 @@
           "props": [
             {
               "tipo": "cama",
-              "x": -1.15
+              "x": -0.85
             },
             {
               "tipo": "cama",
-              "x": 1.15
+              "x": 0.85
             }
           ]
         },
@@ -499,7 +500,7 @@
           "props": [
             {
               "tipo": "cama",
-              "x": -1.15
+              "x": -0.85
             },
             {
               "tipo": "mesa",
@@ -614,7 +615,7 @@
               "x": 1.2
             },
             {
-              "tipo": "arbol",
+              "tipo": "pino",
               "x": 1.45,
               "detras": true
             }
@@ -718,7 +719,7 @@
           "props": [
             {
               "tipo": "cama",
-              "x": -1.15
+              "x": -0.85
             },
             {
               "tipo": "mesa",
@@ -798,7 +799,7 @@
               "x": 1.2
             },
             {
-              "tipo": "arbol",
+              "tipo": "pino",
               "x": 1.45,
               "detras": true
             }
@@ -829,11 +830,11 @@
           "props": [
             {
               "tipo": "cama",
-              "x": -1.15
+              "x": -0.85
             },
             {
               "tipo": "cama",
-              "x": 1.15
+              "x": 0.85
             }
           ]
         },
@@ -874,7 +875,7 @@
               "x": 1.2
             },
             {
-              "tipo": "arbol",
+              "tipo": "pino",
               "x": 1.45,
               "detras": true
             }
@@ -961,11 +962,11 @@
           "props": [
             {
               "tipo": "cama",
-              "x": -1.15
+              "x": -0.85
             },
             {
               "tipo": "cama",
-              "x": 1.15
+              "x": 0.85
             }
           ]
         },
@@ -1018,8 +1019,8 @@
             },
             {
               "tipo": "camion",
-              "x": 0.95,
-              "escala": 0.85,
+              "x": 1.15,
+              "escala": 0.7,
               "detras": true
             }
           ]
@@ -1027,14 +1028,14 @@
         "personajes": [
           {
             "quien": "ray",
-            "x": -0.05,
+            "x": 0,
             "accion": "asustado",
             "emocion": "cansado",
             "mirar": 1
           },
           {
             "quien": "billy",
-            "x": -0.65,
+            "x": -0.7,
             "accion": "asustado",
             "emocion": "cansado",
             "mirar": 1,
@@ -1042,7 +1043,7 @@
           },
           {
             "quien": "reemplazo",
-            "x": 0.45,
+            "x": 0.7,
             "accion": "asustado",
             "emocion": "miedo",
             "mirar": -1,
@@ -1078,7 +1079,7 @@
             },
             {
               "tipo": "farola",
-              "x": -0.85
+              "x": -1.15
             },
             {
               "tipo": "casa",
@@ -1324,7 +1325,7 @@
           "props": [
             {
               "tipo": "cama",
-              "x": -1.15
+              "x": -0.85
             },
             {
               "tipo": "mesa",
@@ -1896,7 +1897,7 @@
           "props": [
             {
               "tipo": "cama",
-              "x": -1.15
+              "x": -0.85
             },
             {
               "tipo": "mesa",
@@ -2117,7 +2118,7 @@
           },
           {
             "quien": "billy",
-            "x": -0.3,
+            "x": -0.2,
             "accion": "agachado",
             "emocion": "miedo",
             "mirar": 1,
@@ -2140,14 +2141,14 @@
           },
           {
             "quien": "billy",
-            "x": -0.3,
+            "x": -0.2,
             "accion": "agachado",
             "emocion": "miedo",
             "mirar": 1,
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 28,
@@ -2286,12 +2287,6 @@
             {
               "tipo": "pino",
               "x": 1.3
-            },
-            {
-              "tipo": "camion",
-              "x": -0.95,
-              "escala": 0.7,
-              "detras": true
             }
           ],
           "sol": false,
@@ -2333,19 +2328,19 @@
           "props": [
             {
               "tipo": "cruz",
-              "x": -0.9
+              "x": -0.75
             },
             {
               "tipo": "cruz",
-              "x": -0.55
+              "x": -0.4
             },
             {
               "tipo": "bandera-eeuu",
-              "x": 1.1
+              "x": 1.3
             },
             {
               "tipo": "pino",
-              "x": 1.4
+              "x": 1.0
             }
           ],
           "nevado": true
@@ -2388,7 +2383,7 @@
         "fondo": {
           "lugar": "calle",
           "hora": "dia",
-          "clima": "despejado",
+          "clima": "nublado",
           "props": [
             {
               "tipo": "casa",
@@ -2399,11 +2394,12 @@
               "x": 1.35
             },
             {
-              "tipo": "arbol",
+              "tipo": "pino",
               "x": 1.0,
               "detras": true
             }
-          ]
+          ],
+          "nevado": true
         },
         "personajes": [
           {
@@ -2447,8 +2443,7 @@
         "fondo": {
           "lugar": "campo",
           "hora": "atardecer",
-          "clima": "despejado",
-          "sol": false,
+          "clima": "nublado",
           "props": [
             {
               "tipo": "tumba",
@@ -2460,7 +2455,7 @@
               "escala": 0.25
             },
             {
-              "tipo": "arbol",
+              "tipo": "pino",
               "x": 1.2
             },
             {
@@ -2490,7 +2485,7 @@
               "x": 1.2
             },
             {
-              "tipo": "arbol",
+              "tipo": "pino",
               "x": 1.45,
               "detras": true
             }
@@ -2519,7 +2514,7 @@
           "props": [
             {
               "tipo": "cama",
-              "x": -1.15
+              "x": -0.85
             },
             {
               "tipo": "mesa",
@@ -2669,8 +2664,8 @@
       "texto": "UNA PALABRA: NUTS!",
       "escena": 0,
       "quien": "ray-cerco",
-      "emocion": "miedo",
-      "icono": "📜"
+      "emocion": "enfado",
+      "accion": "senalar"
     }
   },
   "grafias": {
