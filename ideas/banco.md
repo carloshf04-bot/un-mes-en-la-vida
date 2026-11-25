@@ -115,3 +115,13 @@ Por qué funciona cada idea: tiene **un mes concreto con un acontecimiento dram�
 | [x] | `jol-950` | Miércoles 16 · mitos | una niña en el Jól nórdico | Noruega, solsticio de invierno, c. 950 | La noche más larga: la Cacería Salvaje, los sacrificios y el origen de muchas costumbres de Navidad. **Efeméride.** |
 | [x] | `wright-1903` | Jueves 17 · personajes | los hermanos Wright | Kitty Hawk, noviembre–diciembre de 1903 | 17 de diciembre: el primer vuelo dura 12 segundos. **Efeméride.** |
 | [x] | `niebla-londres-1952` | Viernes 18 · catástrofes | un conductor de autobús de Londres | Londres, diciembre de 1952 | 5–9 de diciembre: la Gran Niebla mata a miles de personas sin que nadie lo vea. **Efeméride.** |
+
+## Semana del 21 de diciembre de 2026 (calendario semanal)
+
+| Estado | Slug | Día | Un mes en la vida de… | Mes | Gancho |
+|---|---|---|---|---|---|
+| [~] | `somerton-1948` | Lunes 21 · misterios | un policía de Adelaida | Australia, diciembre de 1948 | 1 de diciembre: un hombre muerto en la playa de Somerton, sin nombre, con un papel que dice «Tamám Shud». **Efeméride.** |
+| [~] | `delaware-1776` | Martes 22 · guerra | un soldado de Washington | Pensilvania y Nueva Jersey, diciembre de 1776 | 25–26 de diciembre: el cruce helado del Delaware y Trenton. **Efeméride.** |
+| [~] | `sol-invicto-274` | Miércoles 23 · mitos | un niño de Roma | Roma, diciembre del 274 | 25 de diciembre: Aureliano consagra el templo del Sol Invicto. ¿De dónde sale la fecha de la Navidad? |
+| [~] | `dickens-1843` | Jueves 24 · personajes | Charles Dickens | Londres, noviembre–diciembre de 1843 | 19 de diciembre: *Canción de Navidad*, escrita en seis semanas, se agota en cinco días. **Efeméride.** |
+| [~] | `tsunami-2004` | Viernes 25 · catástrofes | un niño de un pueblo pescador | Sri Lanka, diciembre de 2004 | 26 de diciembre: el tsunami del Índico y el tren «Reina del Mar». **Efeméride.** |
