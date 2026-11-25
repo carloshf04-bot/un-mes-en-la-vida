@@ -6,7 +6,7 @@ import { oscurecer } from "./constantes";
 // Para añadir uno nuevo: añade un `case` y documéntalo en oficina/GUIA_GUION.md
 export const PROPS_DISPONIBLES = [
   "arbol", "pino", "palmera", "casa", "cabana", "faro", "barco", "velero", "cohete", "farola", "carro", "puesto",
-  "roca", "valla", "pozo", "tumba", "hoguera", "tienda", "bandera", "bandera-eeuu", "mesa", "estanteria", "chimenea", "cama", "banco-pieles", "arcon",
+  "roca", "valla", "pozo", "tumba", "hoguera", "tienda", "bandera", "bandera-eeuu", "mesa", "estanteria", "chimenea", "cama", "banco-pieles", "arcon", "duna",
   "antorcha", "cuadro", "consola", "maquina", "barril", "cajas", "planta", "telescopio", "yunque", "piramide", "columna", "reloj",
   "bergantin-hielo", "bergantin-hundido", "bote",
   "volcan", "volcan-erupcion", "bergantin", "cruz", "parapeto-aleman", "lecho", "estatua-saturno", "electrometro", "cristalizadores", "espectro", "humo", "explosion", "horno", "molino", "anfora", "termopolio",
@@ -466,6 +466,16 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: num
           {[-180, 180].map((x) => <rect key={x} x={x - 10} y={-460} width={20} height={260} fill="#5a3a22" />)}
           {[0, 1, 2, 3, 4, 5].map((i) => <path key={i} d={`M${-240 + i * 80} -460 h80 v60 q-40 30 -80 0z`} fill={i % 2 ? "#f2efe6" : "#c8402f"} />)}
           {(tipo === "puesto-mexica" ? ["🌽", "🌶️", "🫘", "🐟"] : ["🍎", "🥖", "🧀", "🐟"]).map((e, i) => <text key={i} x={-160 + i * 105} y={-215} fontSize={70} textAnchor="middle" style={{ fontFamily: "'Noto Color Emoji'" }}>{e}</text>)}
+        </g>
+      );
+    case "duna":
+      // duna de arena ancha y baja (Kill Devil Hill): cara iluminada, ladera en sombra, ondas de viento y matas de hierba
+      return (
+        <g>
+          <path d="M-520 0 Q-380 -150 -120 -230 Q40 -270 200 -200 Q400 -110 520 0Z" fill={noche ? "#8a7d62" : "#e2cf9e"} />
+          <path d="M-120 -230 Q40 -270 200 -200 Q400 -110 520 0 L120 0 Q160 -120 -120 -230Z" fill={noche ? "#6e634d" : "#c9b27e"} />
+          {[-300, -160, 0].map((x, i) => <path key={i} d={`M${x - 70} ${-90 + i * 10} Q${x} ${-110 + i * 10} ${x + 70} ${-90 + i * 10}`} stroke="#b59c68" strokeWidth={5} fill="none" opacity={0.6} />)}
+          {[-420, 330].map((x) => <path key={x} d={`M${x} -20 l-14 -46 M${x} -20 l4 -54 M${x} -20 l18 -42`} stroke="#8a8a52" strokeWidth={5} />)}
         </g>
       );
     case "roca":
@@ -2529,7 +2539,7 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: num
       // montantes, elevador doble delante, dos hélices detrás y el piloto tumbado en el ala de abajo.
       // "flyer": sobre el riel de madera; "flyer-vuelo": a poca altura, avanzando despacio y cabeceando.
       const vuela = tipo === "flyer-vuelo";
-      const alto = vuela ? -260 - Math.sin(f / 22) * 18 : -70;
+      const alto = vuela ? -480 - Math.sin(f / 22) * 18 : -70;
       const dx = vuela ? Math.sin(f / 60) * 40 : 0;
       const inc = vuela ? Math.sin(f / 17) * 2.2 : 0;
       const tela = noche ? "#9a9686" : "#ece4cc";

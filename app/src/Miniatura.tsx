@@ -8,7 +8,7 @@ import { emoji, sans, serif } from "./fuentes";
 import "./fuentes";
 
 // encuadre de cada decorado cuando va en la miniatura
-const VISTA: Record<string, string> = { bergantin: "-520 -820 1180 880", "faro-apagado": "-470 -700 1040 780", "faro-blanco": "-470 -700 1040 780", escombros: "-400 -500 800 600", anteojo: "-240 -770 480 360" };
+const VISTA: Record<string, string> = { bergantin: "-520 -820 1180 880", "faro-apagado": "-470 -700 1040 780", "faro-blanco": "-470 -700 1040 780", escombros: "-400 -500 800 600", anteojo: "-240 -770 480 360", "flyer-vuelo": "-850 -720 1700 620" };
 
 // decorados que van en el hueco libre entre el gancho y el personaje (abajo, en el centro), sin taparle la cara
 const EN_HUECO = ["faro-apagado", "faro-blanco", "escombros", "anteojo"];
@@ -49,7 +49,12 @@ export const Miniatura: React.FC<{ slug: string; manifiesto?: Manifiesto }> = ({
         }}
       />
       <AbsoluteFill style={{ boxShadow: `inset 0 0 ${120 * u}px rgba(0,0,0,0.7)` }} />
-      {cfg.prop && !(vertical && cfg.prop === "bergantin") && (
+      {cfg.prop === "flyer-vuelo" && (
+        <svg style={{ position: "absolute", ...(vertical ? { left: 40 * u, top: 600 * u, width: 640 * u, height: 233 * u } : { right: 10 * u, top: 20 * u, width: 600 * u, height: 219 * u }), filter: "drop-shadow(0 12px 24px rgba(0,0,0,0.5))" }} viewBox={VISTA["flyer-vuelo"]}>
+          <Prop tipo="flyer-vuelo" f={30} noche={false} />
+        </svg>
+      )}
+      {cfg.prop && cfg.prop !== "flyer-vuelo" && !(vertical && cfg.prop === "bergantin") && (
         <svg style={{ position: "absolute", ...(EN_HUECO.includes(cfg.prop) ? (vertical ? { left: 10 * u, top: 1040 * u, width: 300 * u, height: 225 * u } : { left: 410 * u, top: 465 * u, width: 340 * u, height: 255 * u }) : vertical ? (cfg.prop === "bergantin" ? { left: 0, top: 860 * u, width: 400 * u, height: 300 * u } : { left: 140 * u, top: 1040 * u, width: 440 * u, height: 330 * u }) : cfg.prop === "bergantin" ? { left: 520 * u, top: 300 * u, width: 420 * u, height: 320 * u } : { right: 6 * u, top: 440 * u, width: 360 * u, height: 270 * u }), filter: "drop-shadow(0 12px 24px rgba(0,0,0,0.6))" }} viewBox={VISTA[cfg.prop] ?? "-280 -600 560 420"}>
           <Prop tipo={cfg.prop} f={30} noche={false} />
         </svg>
