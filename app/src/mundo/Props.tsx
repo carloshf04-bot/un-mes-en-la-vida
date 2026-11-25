@@ -20,7 +20,7 @@ export const PROPS_DISPONIBLES = [
   "templo-mayor", "canoa", "ahuejote", "chinampa", "calzada", "brasero", "petate", "metate", "ciudad-lago",
   "granja-fuego", "charco", "puesto-mexica",
   // Egipto, Reino Nuevo (Abidos 1270 a. C.)
-  "barca", "yed",
+  "barca", "yed", "oruwa", "dagoba", "torre-alerta", "tren-diesel",
   // Armero (1985)
   "lodo", "barrizal",
   // Roma (Saturnales) y Halifax (1917)
@@ -1083,6 +1083,49 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: num
           <path d="M8 -450 Q140 -320 8 -170Z" fill="#d9cfb8" />
         </g>
       );
+    case "oruwa": {
+      // canoa de pesca cingalesa: tronco vaciado estrecho, batanga (flotador) unida por dos palos curvos y vela de tela cuadrada
+      const bal = Math.sin(f / 14) * 6;
+      return (
+        <g transform={`translate(0 ${bal}) rotate(${bal / 6})`}>
+          <path d="M-360 -60 Q-380 -110 -330 -110 L330 -110 Q380 -110 360 -60 Q0 0 -360 -60Z" fill="#5e4026" />
+          <path d="M-330 -110 L330 -110" stroke="#c9a26a" strokeWidth={10} />
+          <path d="M-330 -100 Q0 -88 330 -100" stroke="#3a2614" strokeWidth={5} fill="none" />
+          {[-140, 120].map((x) => <path key={x} d={`M${x} -112 Q${x - 40} -200 ${x - 170} -150`} stroke="#4a3220" strokeWidth={12} fill="none" />)}
+          <ellipse cx={-110} cy={-146} rx={170} ry={18} fill="#6e5032" />
+          <rect x={-6} y={-520} width={12} height={410} fill="#3a2614" />
+          <path d="M6 -500 L170 -470 L150 -190 L6 -200Z" fill="#e4d6b4" />
+          <path d="M6 -350 L160 -330" stroke="#c4b48e" strokeWidth={4} />
+        </g>
+      );
+    }
+    case "dagoba":
+      // estupa budista de Sri Lanka: cúpula blanca de campana sobre basas redondas, caja cuadrada y aguja dorada
+      return (
+        <g>
+          <rect x={-330} y={-60} width={660} height={60} fill="#e8e4da" />
+          <rect x={-290} y={-110} width={580} height={50} fill="#f2efe8" />
+          <path d="M-260 -110 Q-270 -420 0 -440 Q270 -420 260 -110Z" fill="#f7f5f0" />
+          <path d="M-200 -130 Q-190 -380 0 -410" stroke="#d8d2c4" strokeWidth={10} fill="none" />
+          <rect x={-60} y={-500} width={120} height={64} fill="#efe9dc" />
+          <path d="M-36 -500 L0 -720 L36 -500Z" fill="#d6a83a" />
+          <circle cx={0} cy={-730} r={14} fill="#e8c25a" />
+          {[-200, 200].map((x) => <rect key={x} x={x - 20} y={-60} width={40} height={60} fill="#d8d2c4" />)}
+        </g>
+      );
+    case "torre-alerta":
+      // torre de alerta de tsunami (desde 2006): mástil metálico con altavoces en lo alto y placa solar
+      return (
+        <g>
+          <rect x={-90} y={-30} width={180} height={30} fill="#9a9a96" />
+          <path d="M-40 0 L-14 -760 M40 0 L14 -760" stroke="#8a8e92" strokeWidth={14} />
+          {[-600, -440, -280, -120].map((y) => <path key={y} d={`M${-36 + (y + 760) / 40} ${y} L${36 - (y + 760) / 40} ${y - 90}`} stroke="#8a8e92" strokeWidth={6} />)}
+          <rect x={-60} y={-800} width={120} height={50} rx={8} fill="#d8d8d2" />
+          {[-1, 1].map((s) => <path key={s} d={`M${s * 20} -830 L${s * 120} -880 L${s * 120} -780 L${s * 20} -800Z`} fill="#e8e6de" stroke="#9a9a96" strokeWidth={4} />)}
+          <path d="M-70 -860 L70 -860 L90 -930 L-50 -930Z" fill="#2a3a5a" />
+          <circle cx={0} cy={-740} r={10} fill="#d94a3a" opacity={0.5 + Math.sin(f / 8) * 0.4} />
+        </g>
+      );
     case "escalera":
       // escalones excavados que bajan hacia la tumba (se ven desde arriba en perspectiva)
       return (
@@ -1725,6 +1768,28 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: num
           <path d="M-60 -340 Q-40 -420 -70 -500 Q-20 -440 -30 -360Z" fill="#9aa0a6" opacity={0.35 + 0.1 * Math.sin(f / 15)} />
         </g>
       );
+    case "tren-diesel": {
+      // tren costero diésel de Sri Lanka (2004): locomotora y dos coches azules con franja roja; siempre lejos y sin gente
+      const x = Math.sin(f / 90) * 30;
+      return (
+        <g transform={`translate(${x} 0)`}>
+          <rect x={-760} y={-20} width={1560} height={20} fill="#3a3a3a" />
+          {[-720, -360].map((vx) => (
+            <g key={vx}>
+              <rect x={vx} y={-290} width={340} height={240} rx={14} fill="#2f5a9a" />
+              <rect x={vx} y={-140} width={340} height={22} fill="#b8322d" />
+              {[0, 1, 2, 3].map((k) => <rect key={k} x={vx + 22 + k * 80} y={-250} width={58} height={70} rx={6} fill="#cfe0ea" opacity={0.8} />)}
+              {[vx + 60, vx + 280].map((cx) => <circle key={cx} cx={cx} cy={-40} r={30} fill="#222" />)}
+            </g>
+          ))}
+          <path d="M0 -50 L0 -290 Q0 -320 30 -320 L420 -320 Q520 -300 560 -200 L560 -50Z" fill="#2f5a9a" />
+          <rect x={0} y={-150} width={560} height={24} fill="#b8322d" />
+          <path d="M440 -300 L520 -290 L548 -210 L440 -210Z" fill="#cfe0ea" opacity={0.85} />
+          <rect x={60} y={-270} width={70} height={60} rx={6} fill="#cfe0ea" opacity={0.8} />
+          {[90, 230, 380, 500].map((cx) => <circle key={cx} cx={cx} cy={-40} r={32} fill="#222" />)}
+        </g>
+      );
+    }
     case "tren": {
       // locomotora de vapor con dos vagones; avanza despacio
       const x = Math.sin(f / 90) * 30;

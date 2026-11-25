@@ -280,7 +280,7 @@
               "escala": 1.1
             },
             {
-              "tipo": "bote",
+              "tipo": "oruwa",
               "x": 1.15,
               "escala": 0.75
             },
@@ -333,7 +333,7 @@
               "escala": 1.1
             },
             {
-              "tipo": "bote",
+              "tipo": "oruwa",
               "x": -0.85,
               "escala": 0.75
             },
@@ -391,7 +391,7 @@
               "escala": 1.1
             },
             {
-              "tipo": "bote",
+              "tipo": "oruwa",
               "x": -0.85,
               "escala": 0.75
             },
@@ -452,7 +452,7 @@
               "escala": 1.0
             },
             {
-              "tipo": "bote",
+              "tipo": "oruwa",
               "x": 1.05,
               "escala": 0.8
             },
@@ -678,7 +678,7 @@
               "escala": 1.0
             },
             {
-              "tipo": "tren",
+              "tipo": "tren-diesel",
               "x": 0.0,
               "escala": 0.6
             },
@@ -1167,7 +1167,7 @@
               "escala": 1.1
             },
             {
-              "tipo": "bote",
+              "tipo": "oruwa",
               "x": -0.95,
               "escala": 0.75
             },
@@ -1522,7 +1522,7 @@
               "escala": 1.1
             },
             {
-              "tipo": "tren",
+              "tipo": "tren-diesel",
               "x": 0.0,
               "escala": 0.5
             },
@@ -1673,9 +1673,9 @@
               "escala": 1.35
             },
             {
-              "tipo": "casa",
+              "tipo": "dagoba",
               "x": 1.2,
-              "escala": 0.9
+              "escala": 0.6
             },
             {
               "tipo": "hoguera",
@@ -1719,9 +1719,9 @@
               "escala": 1.35
             },
             {
-              "tipo": "casa",
+              "tipo": "dagoba",
               "x": 1.15,
-              "escala": 0.9
+              "escala": 0.6
             },
             {
               "tipo": "🪷",
@@ -1786,7 +1786,7 @@
               "escala": 1.0
             },
             {
-              "tipo": "bote",
+              "tipo": "oruwa",
               "x": 1.2,
               "escala": 0.7
             },
@@ -2099,7 +2099,7 @@
               "escala": 0.9
             },
             {
-              "tipo": "bote",
+              "tipo": "oruwa",
               "x": 1.35,
               "escala": 0.7
             },
@@ -2225,12 +2225,12 @@
               "escala": 1.1
             },
             {
-              "tipo": "bote",
+              "tipo": "oruwa",
               "x": -0.85,
               "escala": 0.7
             },
             {
-              "tipo": "bote",
+              "tipo": "oruwa",
               "x": 1.1,
               "escala": 0.7
             },
@@ -2285,7 +2285,7 @@
               "escala": 1.1
             },
             {
-              "tipo": "poste",
+              "tipo": "torre-alerta",
               "x": 1.0,
               "escala": 1.2
             },
@@ -2341,7 +2341,7 @@
               "escala": 1.1
             },
             {
-              "tipo": "tren",
+              "tipo": "tren-diesel",
               "x": 0.0,
               "escala": 0.55
             },
@@ -2369,7 +2369,7 @@
               "escala": 1.1
             },
             {
-              "tipo": "bote",
+              "tipo": "oruwa",
               "x": 1.1,
               "escala": 0.75
             },

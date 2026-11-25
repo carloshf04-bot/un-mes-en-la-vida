@@ -1,0 +1,2812 @@
+{
+ "slug": "sol-invicto-274",
+ "titulo": "un niño de Roma",
+ "lugar": "Roma",
+ "epoca": "Diciembre del año 274",
+ "categoria": "epoca",
+ "voz": "narrador-es",
+ "drama": 0.65,
+ "velocidad": 1.15,
+ "musica": "nostalgia",
+ "paleta": {
+  "acento": "#e0a92e",
+  "texto": "#f7f0e0",
+  "fondo": "#1b1420",
+  "papel": "#efe2c4"
+ },
+ "grafias": {
+  "Sabíno": "Sabino",
+  "Restitúto": "Restituto",
+  "Tértia": "Tertia",
+  "Lusíla": "Lucila",
+  "Aureliáno": "Aureliano",
+  "Senóbia": "Zenobia",
+  "Palmíra": "Palmira",
+  "Agrípa": "Agripa",
+  "Láta": "Lata",
+  "Séstio": "Cestio",
+  "Calísto": "Calixto",
+  "Ápia": "Apia",
+  "Saturnália": "Saturnalia",
+  "Ío": "Io",
+  "Constantíno": "Constantino"
+ },
+ "reparto": {
+  "sabino": {
+   "piel": "#d9a679",
+   "pelo": "#3a2a1e",
+   "peinado": "corto",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#cbbd9a",
+    "color2": "#cbbd9a",
+    "detalle": "#6b4a2b"
+   },
+   "sombrero": "ninguno",
+   "altura": 0.6,
+   "zapatos": "#8a6b4a"
+  },
+  "sabino_capa": {
+   "piel": "#d9a679",
+   "pelo": "#3a2a1e",
+   "peinado": "corto",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#7a5a3a",
+    "color2": "#cbbd9a",
+    "detalle": "#6b4a2b"
+   },
+   "sombrero": "capucha",
+   "colorSombrero": "#7a5a3a",
+   "altura": 0.6,
+   "zapatos": "#8a6b4a"
+  },
+  "sabino_pileo": {
+   "piel": "#d9a679",
+   "pelo": "#3a2a1e",
+   "peinado": "corto",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#cbbd9a",
+    "color2": "#cbbd9a",
+    "detalle": "#6b4a2b"
+   },
+   "sombrero": "pileo",
+   "colorSombrero": "#e6dcc6",
+   "altura": 0.6,
+   "zapatos": "#8a6b4a"
+  },
+  "restituto": {
+   "piel": "#c88d63",
+   "pelo": "#2b1d14",
+   "peinado": "corto",
+   "barba": "corta",
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#8a6b4a",
+    "color2": "#8a6b4a",
+    "detalle": "#5a3e26"
+   },
+   "sombrero": "ninguno",
+   "zapatos": "#6b5a44"
+  },
+  "restituto_pileo": {
+   "piel": "#c88d63",
+   "pelo": "#2b1d14",
+   "peinado": "corto",
+   "barba": "corta",
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#8a6b4a",
+    "color2": "#8a6b4a",
+    "detalle": "#5a3e26"
+   },
+   "sombrero": "pileo",
+   "colorSombrero": "#e6dcc6",
+   "zapatos": "#6b5a44"
+  },
+  "prisca": {
+   "piel": "#d9a882",
+   "pelo": "#3a2a1e",
+   "peinado": "mono",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "vestido",
+    "color": "#4a6b8a",
+    "color2": "#4a6b8a",
+    "detalle": "#b9a27a"
+   },
+   "sombrero": "panuelo",
+   "colorSombrero": "#e6dcc6",
+   "zapatos": "#8a6b4a",
+   "voz": "narradora-es"
+  },
+  "tertia": {
+   "piel": "#dcae86",
+   "pelo": "#3a2a1e",
+   "peinado": "trenzas",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "vestido",
+    "color": "#9b4a3a",
+    "color2": "#9b4a3a",
+    "detalle": "#cbbd9a"
+   },
+   "sombrero": "ninguno",
+   "altura": 0.5,
+   "zapatos": "#8a6b4a",
+   "voz": "narradora-es"
+  },
+  "lucila": {
+   "piel": "#e0b08a",
+   "pelo": "#8a8580",
+   "peinado": "mono",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "vestido",
+    "color": "#5a5550",
+    "color2": "#5a5550",
+    "detalle": "#3a3530"
+   },
+   "sombrero": "panuelo",
+   "colorSombrero": "#3a3530",
+   "zapatos": "#4a3a2a",
+   "voz": "narradora-es"
+  },
+  "maestro": {
+   "piel": "#c99a74",
+   "pelo": "#d8d4cc",
+   "peinado": "coronilla",
+   "barba": "corta",
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#e2d4b4",
+    "color2": "#e2d4b4",
+    "detalle": "#8a6a4a"
+   },
+   "sombrero": "ninguno",
+   "zapatos": "#6b5a44"
+  },
+  "vecino": {
+   "piel": "#c48d65",
+   "pelo": "#9a948c",
+   "peinado": "corto",
+   "barba": "larga",
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#7a6a55",
+    "color2": "#7a6a55",
+    "detalle": "#4a3a2a"
+   },
+   "sombrero": "ninguno",
+   "zapatos": "#6b5a44"
+  },
+  "obrero": {
+   "piel": "#b98058",
+   "pelo": "#1f1a16",
+   "peinado": "rapado",
+   "barba": "corta",
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#9a7a58",
+    "color2": "#9a7a58",
+    "detalle": "#5a3e26"
+   },
+   "sombrero": "ninguno",
+   "zapatos": "#6b5a44"
+  },
+  "chico": {
+   "piel": "#c08a60",
+   "pelo": "#2a2018",
+   "peinado": "rizado",
+   "barba": "ninguna",
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#a8946a",
+    "color2": "#a8946a",
+    "detalle": "#6b4a2b"
+   },
+   "sombrero": "pileo",
+   "colorSombrero": "#e6dcc6",
+   "altura": 0.6,
+   "zapatos": "#8a6b4a"
+  },
+  "pontifice": {
+   "piel": "#e3ad84",
+   "pelo": "#9a948c",
+   "peinado": "corto",
+   "barba": "corta",
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#f1ece0",
+    "color2": "#f1ece0",
+    "detalle": "#6e1f3a"
+   },
+   "sombrero": "ninguno",
+   "zapatos": "#ddcdb0"
+  },
+  "pontifice2": {
+   "piel": "#d4a07a",
+   "pelo": "#d8d4cc",
+   "peinado": "coronilla",
+   "barba": "corta",
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#f1ece0",
+    "color2": "#f1ece0",
+    "detalle": "#6e1f3a"
+   },
+   "sombrero": "ninguno",
+   "zapatos": "#ddcdb0"
+  },
+  "aureliano": {
+   "piel": "#d4a07a",
+   "pelo": "#6a6560",
+   "peinado": "corto",
+   "barba": "corta",
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#5a1a3a",
+    "color2": "#5a1a3a",
+    "detalle": "#c79a2a"
+   },
+   "sombrero": "ninguno",
+   "zapatos": "#c79a2a"
+  },
+  "soldado": {
+   "piel": "#c48d65",
+   "pelo": "#2a2018",
+   "peinado": "corto",
+   "barba": "corta",
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#8a3a2e",
+    "color2": "#4a3a2a",
+    "detalle": "#c9a24a"
+   },
+   "sombrero": "casco",
+   "colorSombrero": "#8f8a80",
+   "zapatos": "#4a3a2a"
+  },
+  "soldado2": {
+   "piel": "#e0b08a",
+   "pelo": "#5a4030",
+   "peinado": "corto",
+   "barba": "corta",
+   "ropa": {
+    "tipo": "tunica",
+    "color": "#e2d8c0",
+    "color2": "#5a4a3a",
+    "detalle": "#8a3a2e"
+   },
+   "sombrero": "casco",
+   "colorSombrero": "#8f8a80",
+   "zapatos": "#4a3a2a"
+  }
+ },
+ "largo": {
+  "escenas": [
+   {
+    "texto": "Mi padre está levantando la casa de un dios que nunca ha perdido una batalla, y en mi barrio dicen que la estrenarán cuando el sol vuelva a nacer.",
+    "drama": 0.8,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "amanecer",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "templo-romano",
+       "x": -1.1,
+       "escala": 0.65
+      },
+      {
+       "tipo": "hoguera",
+       "x": 1.0,
+       "escala": 0.5
+      },
+      {
+       "tipo": "antorcha",
+       "x": 1.35
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "sabino",
+      "x": 0.35,
+      "accion": "quieto",
+      "emocion": "sorpresa",
+      "mirar": -1
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "texto": "Me llamo Sabíno, tengo diez años y vivo en Roma, en diciembre del año doscientos setenta y cuatro. Mi familia y yo somos inventados; el emperador y su templo, desde luego, no.",
+    "drama": 0.6,
+    "personajes": [
+     {
+      "quien": "sabino",
+      "x": 0.3,
+      "accion": "hablar",
+      "emocion": "feliz",
+      "mirar": -1
+     }
+    ],
+    "camara": "cerca",
+    "insercion": {
+     "tipo": "mapa",
+     "lugar": "Roma",
+     "detalle": "Campo de Agripa, junto a la Vía Lata · diciembre del 274 d. C.",
+     "icono": "📍"
+    }
+   },
+   {
+    "texto": "En cincuenta años, Roma ha tenido más de veinte emperadores, casi todos asesinados, y este, Aureliáno, ha vuelto a juntar un imperio que estaba partido en tres.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "termopolio",
+       "x": -1.05
+      },
+      {
+       "tipo": "puesto",
+       "x": 1.05
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.4
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "soldado",
+      "x": -0.35,
+      "accion": "caminar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.35,
+      "accion": "quieto",
+      "emocion": "sorpresa",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 1,
+    "capitulo": "Mi padre construye la casa del Sol",
+    "texto": "Es martes, uno de diciembre, y subo con mi padre a la obra del templo del Sol, en el Campo de Agrípa, junto a la Vía Láta.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "templo-romano",
+       "x": 1.15,
+       "escala": 0.6
+      },
+      {
+       "tipo": "columna",
+       "x": -1.3
+      },
+      {
+       "tipo": "carro",
+       "x": -0.95,
+       "escala": 0.8
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "restituto",
+      "x": -0.35,
+      "accion": "caminar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.1,
+      "accion": "caminar",
+      "emocion": "feliz",
+      "mirar": 1
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 1,
+    "texto": "Mi padre, Restitúto, es peón de albañil y dice que el templo lo paga el oro que el emperador se trajo de Palmíra.",
+    "drama": 0.6,
+    "personajes": [
+     {
+      "quien": "restituto",
+      "x": -0.3,
+      "accion": "cargar",
+      "emocion": "cansado",
+      "mirar": 1,
+      "objeto": "🧱",
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.35,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 1,
+    "texto": "Lo que más me gusta es la grúa: una rueda de madera con dos hombres dentro que caminan para subir el mármol.",
+    "drama": 0.6,
+    "personajes": [
+     {
+      "quien": "sabino",
+      "x": 0.3,
+      "accion": "senalar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca",
+    "insercion": {
+     "tipo": "objetos",
+     "titulo": "La obra del templo del Sol",
+     "items": [
+      {
+       "icono": "🧱",
+       "nombre": "Ladrillos con el sello del taller"
+      },
+      {
+       "icono": "🪨",
+       "nombre": "Bloques de mármol blanco"
+      },
+      {
+       "icono": "🏺",
+       "nombre": "Mortero de cal y ceniza volcánica"
+      },
+      {
+       "icono": "🎡",
+       "nombre": "Grúa de rueda movida a pie"
+      }
+     ]
+    }
+   },
+   {
+    "dia": 2,
+    "texto": "Es miércoles, dos, y bajo con mi ficha al cuello a unas escaleras públicas donde el Estado reparte pan a los pobres.",
+    "drama": 0.55,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "clima": "nublado",
+     "props": [
+      {
+       "tipo": "columna",
+       "x": -1.35
+      },
+      {
+       "tipo": "columna",
+       "x": -1.0
+      },
+      {
+       "tipo": "puesto",
+       "x": 1.05
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.4
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "sabino",
+      "x": -0.3,
+      "accion": "caminar",
+      "emocion": "neutral",
+      "mirar": 1
+     },
+     {
+      "quien": "vecino",
+      "x": 0.4,
+      "accion": "quieto",
+      "emocion": "cansado",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 2,
+    "texto": "Un viejo de la cola refunfuña que antes daban trigo y ahora pan ya cocido; cuentan que Aureliáno lo hizo más grande, aunque eso lo dice un libro muy fantasioso.",
+    "drama": 0.6,
+    "personajes": [
+     {
+      "quien": "vecino",
+      "x": 0.35,
+      "accion": "hablar",
+      "emocion": "enfado",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": -0.3,
+      "accion": "cargar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "objeto": "🫓",
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 3,
+    "texto": "Es jueves, tres, y mi padre cobra con la moneda nueva del emperador, que brilla como la plata aunque es casi toda de bronce.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "termopolio",
+       "x": -1.05
+      },
+      {
+       "tipo": "puesto",
+       "x": 1.05
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.4
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "restituto",
+      "x": -0.35,
+      "accion": "quieto",
+      "emocion": "feliz",
+      "mirar": 1,
+      "objeto": "🪙",
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.3,
+      "accion": "quieto",
+      "emocion": "sorpresa",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 3,
+    "texto": "En la moneda nueva, el emperador lleva una corona de rayos, como la del Sol, porque dice que el Sol es quien le protege.",
+    "drama": 0.7,
+    "personajes": [
+     {
+      "quien": "restituto",
+      "x": -0.35,
+      "accion": "hablar",
+      "emocion": "triste",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.3,
+      "accion": "pensar",
+      "emocion": "miedo",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 3,
+    "texto": "Las monedas son el pregonero del emperador, y hay una, hecha en una ciudad lejana, que lo dice sin ningún rodeo.",
+    "drama": 0.6,
+    "personajes": [
+     {
+      "quien": "sabino",
+      "x": 0.3,
+      "accion": "pensar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "objeto": "🪙",
+      "habla": false
+     }
+    ],
+    "camara": "cerca",
+    "insercion": {
+     "tipo": "cita",
+     "frase": "SOL DOMINVS IMPERI ROMANI: «el Sol, señor del Imperio romano»",
+     "firma": "Moneda de Aureliano, ceca de Sérdica (hoy Sofía), hacia el 274"
+    }
+   },
+   {
+    "dia": 4,
+    "texto": "Es viernes, cuatro, y por la noche mi padre nos cuenta otra vez el triunfo de este año. Desfilaron por Roma, vencidos, Tétrico, el emperador de las Galias, y Senóbia, la reina de Palmíra.",
+    "drama": 0.75,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "ladrillo",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "mesa",
+       "x": -1.0
+      },
+      {
+       "tipo": "🪔",
+       "x": -1.0,
+       "escala": 0.3
+      },
+      {
+       "tipo": "anfora",
+       "x": -1.4
+      },
+      {
+       "tipo": "brasero",
+       "x": 0.95,
+       "escala": 0.6
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "restituto",
+      "x": -0.35,
+      "accion": "hablar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.1,
+      "accion": "sentado",
+      "emocion": "sorpresa",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "tertia",
+      "x": 0.42,
+      "accion": "sentado",
+      "emocion": "feliz",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 4,
+    "texto": "Cuentan que la reina llevaba tantas cadenas de oro que otros le sujetaban el peso, y que detrás venían veinte elefantes; lo cuenta la Historia Augusta, un libro famoso por inventar.",
+    "drama": 0.75,
+    "camara": "lenta",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "20",
+     "etiqueta": "elefantes en el triunfo de Aureliano, según la Historia Augusta (dato dudoso)",
+     "icono": "🐘"
+    }
+   },
+   {
+    "dia": 4,
+    "texto": "Al final, dicen, el emperador perdonó a Tétrico, la reina acabó sus días en una finca cerca de Tíbur, y al emperador ya lo llaman en todas partes restaurador del mundo.",
+    "drama": 0.6,
+    "personajes": [
+     {
+      "quien": "restituto",
+      "x": -0.35,
+      "accion": "sentado",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.3,
+      "accion": "pensar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 5,
+    "texto": "El día cinco, mi padre me lleva a ver la muralla nueva, porque hace tres años los bárbaros entraron en Italia y Roma tuvo miedo.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "dia",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "piramide",
+       "x": 1.25,
+       "escala": 0.45
+      },
+      {
+       "tipo": "carro",
+       "x": -1.0,
+       "escala": 0.8
+      },
+      {
+       "tipo": "roca",
+       "x": -1.4,
+       "escala": 0.7
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "restituto",
+      "x": -0.4,
+      "accion": "senalar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.2,
+      "accion": "caminar",
+      "emocion": "sorpresa",
+      "mirar": 1
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 5,
+    "texto": "Son diecinueve kilómetros de ladrillo con una torre cada treinta metros, y no la levantan soldados, sino vecinos como mi padre, que meten dentro casas y acueductos.",
+    "drama": 0.65,
+    "personajes": [
+     {
+      "quien": "restituto",
+      "x": -0.4,
+      "accion": "hablar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.2,
+      "accion": "quieto",
+      "emocion": "sorpresa",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "19 km",
+     "etiqueta": "de muralla en unos cinco años (271–275), levantada por civiles, no por soldados",
+     "icono": "🧱"
+    }
+   },
+   {
+    "dia": 5,
+    "texto": "Hasta la tumba de un tal Séstio, que tiene forma de pirámide, se ha quedado metida en el muro, y mi padre jura que esta muralla durará mil años.",
+    "drama": 0.6,
+    "personajes": [
+     {
+      "quien": "sabino",
+      "x": 0.0,
+      "accion": "senalar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "paneo"
+   },
+   {
+    "dia": 6,
+    "texto": "El día seis es el día del Sol, que los cristianos llaman día del Señor, y la viuda Lusíla, nuestra vecina de abajo, nos sube pan de su iglesia.",
+    "drama": 0.55,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "madera",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "anfora",
+       "x": -1.15
+      },
+      {
+       "tipo": "mesa",
+       "x": 1.0
+      },
+      {
+       "tipo": "🪔",
+       "x": 1.0,
+       "escala": 0.3
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "lucila",
+      "x": -0.35,
+      "accion": "cargar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "objeto": "🫓",
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.3,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 6,
+    "texto": "Le pregunto por qué nunca va a los templos, y me dice que los cristianos no sacrifican a ningún dios; ahora nadie los persigue.",
+    "drama": 0.55,
+    "personajes": [
+     {
+      "quien": "lucila",
+      "x": -0.35,
+      "accion": "hablar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.3,
+      "accion": "pensar",
+      "emocion": "sorpresa",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 7,
+    "texto": "Es lunes, siete, y llegan a la obra unos carros con estatuas de Palmíra, un Sol y un dios extranjero llamado Bel.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "templo-romano",
+       "x": 1.15,
+       "escala": 0.6
+      },
+      {
+       "tipo": "columna",
+       "x": -1.3
+      },
+      {
+       "tipo": "carro",
+       "x": -0.95,
+       "escala": 0.8
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "obrero",
+      "x": -0.35,
+      "accion": "cargar",
+      "emocion": "cansado",
+      "mirar": 1,
+      "objeto": "☀️",
+      "habla": false
+     },
+     {
+      "quien": "restituto",
+      "x": 0.05,
+      "accion": "cargar",
+      "emocion": "cansado",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.42,
+      "accion": "quieto",
+      "emocion": "sorpresa",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 8,
+    "capitulo": "El dios que nunca pierde",
+    "texto": "Es martes, ocho, y a media mañana se suelta una polea, cae un bloque y le aplasta a mi padre la mano izquierda.",
+    "drama": 0.85,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "atardecer",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "templo-romano",
+       "x": 1.15,
+       "escala": 0.6
+      },
+      {
+       "tipo": "columna",
+       "x": -1.3
+      },
+      {
+       "tipo": "antorcha",
+       "x": -0.9
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "restituto",
+      "x": -0.3,
+      "accion": "asustado",
+      "emocion": "miedo",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.35,
+      "accion": "asustado",
+      "emocion": "miedo",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 8,
+    "texto": "Esa noche mi madre le venda los dedos y nadie dice lo que todos pensamos: un peón sin manos no cobra, y sin jornal solo nos queda el pan de las escaleras.",
+    "drama": 0.75,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "ladrillo",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "mesa",
+       "x": -1.0
+      },
+      {
+       "tipo": "🪔",
+       "x": -1.0,
+       "escala": 0.3
+      },
+      {
+       "tipo": "anfora",
+       "x": -1.4
+      },
+      {
+       "tipo": "brasero",
+       "x": 0.95,
+       "escala": 0.6
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "restituto",
+      "x": -0.4,
+      "accion": "sentado",
+      "emocion": "triste",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "prisca",
+      "x": 0.0,
+      "accion": "trabajar",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.42,
+      "accion": "triste",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 9,
+    "texto": "El día nueve empieza el reparto de cerdo del invierno; cuentan que también fue idea de Aureliáno, y mi madre lo sala enseguida.",
+    "drama": 0.55,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "dia",
+     "pared": "ladrillo",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "mesa",
+       "x": -1.0
+      },
+      {
+       "tipo": "anfora",
+       "x": -1.4
+      },
+      {
+       "tipo": "brasero",
+       "x": 0.95,
+       "escala": 0.6
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "prisca",
+      "x": -0.3,
+      "accion": "trabajar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "objeto": "🥓",
+      "habla": false
+     },
+     {
+      "quien": "tertia",
+      "x": 0.35,
+      "accion": "quieto",
+      "emocion": "feliz",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 10,
+    "texto": "Es jueves, diez, y en la escuela del pórtico el maestro nos dicta dos palabras, Sol Invicto: el que nunca ha sido vencido.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "clima": "nublado",
+     "props": [
+      {
+       "tipo": "columna",
+       "x": -1.35
+      },
+      {
+       "tipo": "columna",
+       "x": -0.95
+      },
+      {
+       "tipo": "columna",
+       "x": 0.95
+      },
+      {
+       "tipo": "columna",
+       "x": 1.35
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "maestro",
+      "x": -0.35,
+      "accion": "hablar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.3,
+      "accion": "escribir",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 10,
+    "texto": "El maestro jura que es el Sol romano de siempre, y no el dios de la piedra negra que trajo de Siria Elagábalo; los historiadores aún lo discuten.",
+    "drama": 0.6,
+    "personajes": [
+     {
+      "quien": "maestro",
+      "x": 0.0,
+      "accion": "senalar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 11,
+    "texto": "Es viernes, once, y vienen a la obra unos senadores con toga: son los pontífices del Sol, un colegio de sacerdotes nuevo, de tanto rango como los antiguos.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "templo-romano",
+       "x": 1.15,
+       "escala": 0.6
+      },
+      {
+       "tipo": "columna",
+       "x": -1.3
+      },
+      {
+       "tipo": "carro",
+       "x": -0.95,
+       "escala": 0.8
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "pontifice",
+      "x": -0.4,
+      "accion": "senalar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "pontifice2",
+      "x": 0.0,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.42,
+      "accion": "quieto",
+      "emocion": "sorpresa",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "general",
+    "insercion": {
+     "tipo": "objetos",
+     "titulo": "Lo que Aureliano dio al Sol",
+     "items": [
+      {
+       "icono": "🏛️",
+       "nombre": "Un gran templo, pagado con el botín de Palmira"
+      },
+      {
+       "icono": "📜",
+       "nombre": "Un colegio nuevo de pontífices del Sol"
+      },
+      {
+       "icono": "🐎",
+       "nombre": "Juegos del Sol cada cuatro años"
+      },
+      {
+       "icono": "🪙",
+       "nombre": "El Sol en sus monedas"
+      }
+     ]
+    }
+   },
+   {
+    "dia": 12,
+    "texto": "El día doce, Lusíla me cuenta que su obispo se llama Félix y que no tiene toga ni templo, solo muchos pobres a los que dar de comer.",
+    "drama": 0.5,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "madera",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "anfora",
+       "x": -1.15
+      },
+      {
+       "tipo": "mesa",
+       "x": 1.0
+      },
+      {
+       "tipo": "🪔",
+       "x": 1.0,
+       "escala": 0.3
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "lucila",
+      "x": -0.35,
+      "accion": "hablar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.3,
+      "accion": "sentado",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 13,
+    "texto": "El día trece vuelve el día del Sol; cada día de la semana lleva el nombre de un astro, y el del Sol es mi favorito.",
+    "drama": 0.55,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "clima": "nublado",
+     "props": [
+      {
+       "tipo": "puesto",
+       "x": -1.0
+      },
+      {
+       "tipo": "termopolio",
+       "x": 1.05
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.4
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "sabino",
+      "x": 0.3,
+      "accion": "caminar",
+      "emocion": "feliz",
+      "mirar": -1
+     }
+    ],
+    "camara": "paneo"
+   },
+   {
+    "dia": 14,
+    "texto": "El día catorce encendemos el brasero con cuidado, porque en los pisos altos un brasero volcado puede quemar la manzana entera.",
+    "drama": 0.55,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "ladrillo",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "mesa",
+       "x": -1.0
+      },
+      {
+       "tipo": "🪔",
+       "x": -1.0,
+       "escala": 0.3
+      },
+      {
+       "tipo": "anfora",
+       "x": -1.4
+      },
+      {
+       "tipo": "brasero",
+       "x": 0.95,
+       "escala": 0.6
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "prisca",
+      "x": -0.35,
+      "accion": "trabajar",
+      "emocion": "cansado",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sabino_capa",
+      "x": 0.3,
+      "accion": "sentado",
+      "emocion": "cansado",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 15,
+    "texto": "Es martes, quince, y mi padre vuelve a la obra con la mano vendada; trabajan de noche, con antorchas, y yo les subo agua.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "noche",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "templo-romano",
+       "x": 1.15,
+       "escala": 0.6
+      },
+      {
+       "tipo": "columna",
+       "x": -1.3
+      },
+      {
+       "tipo": "antorcha",
+       "x": -0.9
+      },
+      {
+       "tipo": "antorcha",
+       "x": 0.8
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "restituto",
+      "x": -0.3,
+      "accion": "trabajar",
+      "emocion": "cansado",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sabino_capa",
+      "x": 0.35,
+      "accion": "cargar",
+      "emocion": "cansado",
+      "mirar": -1,
+      "objeto": "🏺",
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 16,
+    "texto": "El día dieciséis, víspera de las Saturnales, mi madre compra velas y una figurita de barro para Tértia, y yo gano nueces jugando.",
+    "drama": 0.55,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "clima": "nublado",
+     "props": [
+      {
+       "tipo": "puesto",
+       "x": -1.0
+      },
+      {
+       "tipo": "termopolio",
+       "x": 1.05
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.4
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "prisca",
+      "x": -0.4,
+      "accion": "cargar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "objeto": "🕯️",
+      "habla": false
+     },
+     {
+      "quien": "tertia",
+      "x": 0.0,
+      "accion": "celebrar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.42,
+      "accion": "quieto",
+      "emocion": "feliz",
+      "mirar": -1,
+      "objeto": "🌰",
+      "habla": false
+     }
+    ],
+    "camara": "general",
+    "insercion": {
+     "tipo": "objetos",
+     "titulo": "Regalos de las Saturnales",
+     "items": [
+      {
+       "icono": "🕯️",
+       "nombre": "Velas de cera"
+      },
+      {
+       "icono": "🧸",
+       "nombre": "Figuritas de barro"
+      },
+      {
+       "icono": "🌰",
+       "nombre": "Nueces para jugar"
+      },
+      {
+       "icono": "🎲",
+       "nombre": "Dados, permitidos solo estos días"
+      }
+     ]
+    }
+   },
+   {
+    "dia": 17,
+    "capitulo": "La noche más larga",
+    "texto": "Es jueves, diecisiete, y empiezan las Saturnales: no hay escuela, todos llevan el gorro de fieltro y por las calles se grita Ío, Saturnália.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "clima": "nublado",
+     "props": [
+      {
+       "tipo": "puesto",
+       "x": -1.0
+      },
+      {
+       "tipo": "termopolio",
+       "x": 1.05
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.4
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "restituto_pileo",
+      "x": -0.4,
+      "accion": "celebrar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sabino_pileo",
+      "x": 0.0,
+      "accion": "celebrar",
+      "emocion": "feliz",
+      "mirar": 1
+     },
+     {
+      "quien": "chico",
+      "x": 0.42,
+      "accion": "celebrar",
+      "emocion": "feliz",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 18,
+    "texto": "Lusíla no se pone el gorro ni brinda por Saturno, porque su fiesta grande es la Pascua, en primavera; aun así me regala una nuez y me guiña un ojo.",
+    "drama": 0.5,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "madera",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "anfora",
+       "x": -1.15
+      },
+      {
+       "tipo": "mesa",
+       "x": 1.0
+      },
+      {
+       "tipo": "🪔",
+       "x": 1.0,
+       "escala": 0.3
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "lucila",
+      "x": -0.35,
+      "accion": "saludar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sabino_pileo",
+      "x": 0.3,
+      "accion": "quieto",
+      "emocion": "feliz",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 19,
+    "texto": "El día diecinueve juego a las nueces: se hacen castillos de cuatro y se derriban desde lejos, y pierdo casi todas.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "clima": "nublado",
+     "props": [
+      {
+       "tipo": "puesto",
+       "x": -1.0
+      },
+      {
+       "tipo": "termopolio",
+       "x": 1.05
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.4
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "sabino_pileo",
+      "x": -0.3,
+      "accion": "agachado",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "chico",
+      "x": 0.35,
+      "accion": "celebrar",
+      "emocion": "feliz",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 21,
+    "texto": "El día veintiuno me encuentro al maestro, y me explica que estos días el sol parece quedarse quieto, y que Roma celebra su regreso el veinticinco, el día de la bruma.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "clima": "nublado",
+     "props": [
+      {
+       "tipo": "columna",
+       "x": -1.35
+      },
+      {
+       "tipo": "columna",
+       "x": -0.95
+      },
+      {
+       "tipo": "columna",
+       "x": 0.95
+      },
+      {
+       "tipo": "columna",
+       "x": 1.35
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "maestro",
+      "x": -0.35,
+      "accion": "senalar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.3,
+      "accion": "pensar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 21,
+    "texto": "Lo que nadie sabe es que el solsticio de verdad es hoy: el calendario arrastra un error de unos días, y Roma esperará el regreso del sol cuando ya ha vuelto.",
+    "drama": 0.7,
+    "personajes": [
+     {
+      "quien": "sabino",
+      "x": 0.3,
+      "accion": "pensar",
+      "emocion": "sorpresa",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "cerca",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "21 dic.",
+     "etiqueta": "solsticio real en el 274; el calendario romano lo celebraba el 25 (la «bruma»)",
+     "icono": "☀️"
+    }
+   },
+   {
+    "dia": 22,
+    "texto": "El día veintidós las calles se llenan de soldados con casco de hierro y pantalones, y corre el rumor de que el emperador estrenará su templo en estos días.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "atardecer",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "templo-romano",
+       "x": 1.15,
+       "escala": 0.6
+      },
+      {
+       "tipo": "columna",
+       "x": -1.3
+      },
+      {
+       "tipo": "antorcha",
+       "x": -0.9
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "soldado",
+      "x": -0.4,
+      "accion": "caminar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "soldado2",
+      "x": 0.0,
+      "accion": "caminar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.42,
+      "accion": "quieto",
+      "emocion": "sorpresa",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 23,
+    "texto": "El día veintitrés se acaban las Saturnales y guardamos los gorros; mi padre vuelve de la obra con los ojos brillantes, porque el templo ya reluce como el sol.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "ladrillo",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "mesa",
+       "x": -1.0
+      },
+      {
+       "tipo": "🪔",
+       "x": -1.0,
+       "escala": 0.3
+      },
+      {
+       "tipo": "anfora",
+       "x": -1.4
+      },
+      {
+       "tipo": "brasero",
+       "x": 0.95,
+       "escala": 0.6
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "restituto",
+      "x": -0.35,
+      "accion": "celebrar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "prisca",
+      "x": 0.0,
+      "accion": "quieto",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.42,
+      "accion": "quieto",
+      "emocion": "feliz",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 24,
+    "texto": "El día veinticuatro es, para los romanos, la noche más larga del año, y Tértia pregunta qué pasará si mañana el sol no vuelve. Mi padre le contesta que el Sol nunca ha perdido una batalla.",
+    "drama": 0.45,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "ladrillo",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "mesa",
+       "x": -1.0
+      },
+      {
+       "tipo": "🪔",
+       "x": -1.0,
+       "escala": 0.3
+      },
+      {
+       "tipo": "anfora",
+       "x": -1.4
+      },
+      {
+       "tipo": "brasero",
+       "x": 0.95,
+       "escala": 0.6
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "tertia",
+      "x": -0.4,
+      "accion": "sentado",
+      "emocion": "miedo",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "restituto",
+      "x": 0.0,
+      "accion": "sentado",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.42,
+      "accion": "sentado",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 24,
+    "texto": "Abajo, Lusíla reza a la luz de una lámpara; los suyos llaman a Cristo sol de justicia, y esta noche toda la escalera espera lo mismo: que vuelva la luz.",
+    "drama": 0.45,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "madera",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "anfora",
+       "x": -1.15
+      },
+      {
+       "tipo": "mesa",
+       "x": 1.0
+      },
+      {
+       "tipo": "🪔",
+       "x": 1.0,
+       "escala": 0.3
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "lucila",
+      "x": 0.0,
+      "accion": "pensar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "objeto": "🪔",
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 25,
+    "capitulo": "El nacimiento del Sol",
+    "texto": "Es viernes, veinticinco, y antes del alba estoy con mi padre subido a un muro frente al templo, mientras el cielo se pone naranja.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "amanecer",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "templo-romano",
+       "x": -1.1,
+       "escala": 0.65
+      },
+      {
+       "tipo": "hoguera",
+       "x": 1.0,
+       "escala": 0.5
+      },
+      {
+       "tipo": "antorcha",
+       "x": 1.35
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "restituto",
+      "x": -0.3,
+      "accion": "quieto",
+      "emocion": "sorpresa",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.3,
+      "accion": "quieto",
+      "emocion": "sorpresa",
+      "mirar": -1
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 25,
+    "texto": "Te habrán dicho que Aureliáno estrenó su templo del Sol un veinticinco de diciembre, pero ningún texto antiguo lo dice: sabemos el año, y el día es una tradición moderna.",
+    "drama": 0.7,
+    "personajes": [
+     {
+      "quien": "sabino",
+      "x": 0.3,
+      "accion": "hablar",
+      "emocion": "neutral",
+      "mirar": -1
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 25,
+    "texto": "Desde el muro veo a un hombre de púrpura entre soldados y senadores con toga, que todos señalan como Aureliáno, y del altar sube una columna de humo.",
+    "drama": 0.8,
+    "personajes": [
+     {
+      "quien": "pontifice",
+      "x": -0.4,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false,
+      "escala": 0.85
+     },
+     {
+      "quien": "aureliano",
+      "x": 0.0,
+      "accion": "saludar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false,
+      "escala": 0.85
+     },
+     {
+      "quien": "soldado",
+      "x": 0.4,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false,
+      "escala": 0.85
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "dia": 25,
+    "texto": "Este año empiezan también los juegos del Sol, cada cuatro años, con carreras de carros en el Circo Máximo, aunque nadie sabe si los primeros fueron en diciembre o en octubre.",
+    "drama": 0.75,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "clima": "nublado",
+     "props": [
+      {
+       "tipo": "puesto",
+       "x": -1.0
+      },
+      {
+       "tipo": "termopolio",
+       "x": 1.05
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.4
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "restituto",
+      "x": -0.35,
+      "accion": "celebrar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.3,
+      "accion": "celebrar",
+      "emocion": "feliz",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "Cada 4 años",
+     "etiqueta": "juegos del Sol desde el 274, con carreras en el Circo Máximo (no se sabe si en octubre o en diciembre)",
+     "icono": "🐎"
+    }
+   },
+   {
+    "dia": 26,
+    "texto": "El día veintiséis mi padre cobra su último jornal; cuentan que el emperador quiso regalar vino, y que su prefecto le dijo que solo faltaba regalar pollos y gansos.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "clima": "nublado",
+     "props": [
+      {
+       "tipo": "columna",
+       "x": -1.35
+      },
+      {
+       "tipo": "columna",
+       "x": -1.0
+      },
+      {
+       "tipo": "puesto",
+       "x": 1.05
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.4
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "restituto",
+      "x": -0.35,
+      "accion": "hablar",
+      "emocion": "feliz",
+      "mirar": 1,
+      "objeto": "🪙",
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.3,
+      "accion": "celebrar",
+      "emocion": "feliz",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 28,
+    "texto": "El día veintiocho le pregunto a Lusíla cuándo nació su dios, y se encoge de hombros: unos maestros cristianos dicen que en primavera, otros que en enero, y no lo celebran.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "madera",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "anfora",
+       "x": -1.15
+      },
+      {
+       "tipo": "mesa",
+       "x": 1.0
+      },
+      {
+       "tipo": "🪔",
+       "x": 1.0,
+       "escala": 0.3
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "lucila",
+      "x": -0.35,
+      "accion": "pensar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.3,
+      "accion": "quieto",
+      "emocion": "sorpresa",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 30,
+    "texto": "Es miércoles, treinta, y Lusíla sube llorando: ha muerto Félix, su obispo, y lo enterrarán bajo tierra, en el cementerio de Calísto, junto a la Vía Ápia.",
+    "drama": 0.7,
+    "personajes": [
+     {
+      "quien": "lucila",
+      "x": -0.35,
+      "accion": "triste",
+      "emocion": "triste",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.3,
+      "accion": "triste",
+      "emocion": "triste",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "dia": 30,
+    "texto": "En esas galerías hay pintados peces, anclas y un pastor con su oveja; siglos después dirán que Félix murió mártir, pero murió en tiempo de paz.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "roca",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "antorcha",
+       "x": -1.0
+      },
+      {
+       "tipo": "antorcha",
+       "x": 1.0
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "lucila",
+      "x": 0.0,
+      "accion": "triste",
+      "emocion": "triste",
+      "mirar": 1,
+      "objeto": "🪔",
+      "habla": false
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "dia": 31,
+    "texto": "El último día del año miro el sol ponerse detrás del templo nuevo y pienso que el dios que nunca pierde tiene casa en Roma, y que mi padre la levantó con una mano rota.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "atardecer",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "templo-romano",
+       "x": 1.1,
+       "escala": 0.6
+      },
+      {
+       "tipo": "columna",
+       "x": -1.25
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "sabino_capa",
+      "x": -0.3,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": 1
+     }
+    ],
+    "camara": "paneo"
+   },
+   {
+    "texto": "Aureliáno murió al año siguiente, asesinado por sus propios oficiales cerca de Bizancio, y según dos autores cristianos estaba preparando una persecución contra los cristianos.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "atardecer",
+     "clima": "nublado",
+     "props": [
+      {
+       "tipo": "pino",
+       "x": -1.2
+      },
+      {
+       "tipo": "pino",
+       "x": 1.3
+      },
+      {
+       "tipo": "roca",
+       "x": 0.9,
+       "escala": 0.7
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "soldado",
+      "x": -0.35,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "soldado2",
+      "x": 0.3,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "texto": "Unos treinta años después llegó la peor persecución, hasta que Constantíno se hizo cristiano; aun así siguió poniendo el Sol en sus monedas.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "atardecer",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "piramide",
+       "x": 1.25,
+       "escala": 0.45
+      },
+      {
+       "tipo": "pino",
+       "x": -1.2
+      },
+      {
+       "tipo": "roca",
+       "x": -1.45,
+       "escala": 0.7
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "sabino_capa",
+      "x": 0.3,
+      "accion": "pensar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "paneo",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "321",
+     "etiqueta": "Constantino hace del «venerable día del Sol» un día de descanso: nuestro domingo",
+     "icono": "☀️"
+    }
+   },
+   {
+    "texto": "Y ahora, la pregunta que te estás haciendo: ¿se puso la Navidad el veinticinco de diciembre para tapar la fiesta del Sol de Aureliáno? Lo que dicen los textos de la época es mucho más interesante.",
+    "drama": 0.75,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "atardecer",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "templo-romano",
+       "x": 1.1,
+       "escala": 0.6
+      },
+      {
+       "tipo": "columna",
+       "x": -1.25
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "sabino",
+      "x": 0.3,
+      "accion": "hablar",
+      "emocion": "neutral",
+      "mirar": -1
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "texto": "La primera Navidad escrita aparece en Roma en el año trescientos treinta y seis, y la primera fiesta del Invicto en esa fecha, dieciocho años después, en el trescientos cincuenta y cuatro.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "roca",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "antorcha",
+       "x": -1.0
+      },
+      {
+       "tipo": "antorcha",
+       "x": 1.0
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "lucila",
+      "x": -0.3,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.3,
+      "accion": "pensar",
+      "emocion": "sorpresa",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta",
+    "insercion": {
+     "tipo": "cita",
+     "frase": "Natus Christus in Betleem Iudeae («Nació Cristo en Belén de Judea»)",
+     "firma": "Lista de mártires de Roma, año 336: la primera Navidad escrita"
+    }
+   },
+   {
+    "texto": "Hace más de cien años, un estudioso alemán propuso que la Iglesia eligió ese día para cristianizar la fiesta del Sol, pero no hay ninguna prueba de esa fiesta antes del trescientos cincuenta y cuatro.",
+    "drama": 0.7,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "clima": "nublado",
+     "props": [
+      {
+       "tipo": "columna",
+       "x": -1.35
+      },
+      {
+       "tipo": "columna",
+       "x": -0.95
+      },
+      {
+       "tipo": "columna",
+       "x": 0.95
+      },
+      {
+       "tipo": "columna",
+       "x": 1.35
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "maestro",
+      "x": -0.35,
+      "accion": "hablar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.3,
+      "accion": "pensar",
+      "emocion": "neutral",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "texto": "La otra teoría dice que muchos cristianos creían que Jesús murió un veinticinco de marzo y fue concebido el mismo día; nueve meses después, sale el veinticinco de diciembre.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "interior",
+     "hora": "noche",
+     "pared": "madera",
+     "ventana": false,
+     "props": [
+      {
+       "tipo": "anfora",
+       "x": -1.15
+      },
+      {
+       "tipo": "mesa",
+       "x": 1.0
+      },
+      {
+       "tipo": "🪔",
+       "x": 1.0,
+       "escala": 0.3
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "lucila",
+      "x": -0.35,
+      "accion": "hablar",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.3,
+      "accion": "pensar",
+      "emocion": "sorpresa",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta",
+    "insercion": {
+     "tipo": "dato",
+     "valor": "25 mar. + 9 meses",
+     "etiqueta": "= 25 de diciembre: la «teoría del cálculo» (Duchesne, 1889; Talley, 1986)",
+     "icono": "📜"
+    }
+   },
+   {
+    "texto": "Hoy no hay acuerdo, y quizá las dos ideas se mezclan: un experto en el Sol romano cree que Aureliáno no fijó ninguna fiesta, pero que el solsticio pesó en todos.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "atardecer",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "templo-romano",
+       "x": 1.1,
+       "escala": 0.6
+      },
+      {
+       "tipo": "columna",
+       "x": -1.25
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "sabino",
+      "x": 0.3,
+      "accion": "pensar",
+      "emocion": "neutral",
+      "mirar": -1
+     }
+    ],
+    "camara": "cerca"
+   },
+   {
+    "texto": "Lo que sí son mitos: que la Navidad copie las Saturnales, que acababan el veintitrés, o que Mitra naciera ese día de una virgen, cuando su leyenda lo hace nacer de una roca.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "dia",
+     "clima": "nublado",
+     "props": [
+      {
+       "tipo": "puesto",
+       "x": -1.0
+      },
+      {
+       "tipo": "termopolio",
+       "x": 1.05
+      },
+      {
+       "tipo": "anfora",
+       "x": 1.4
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "sabino",
+      "x": 0.0,
+      "accion": "senalar",
+      "emocion": "neutral",
+      "mirar": 1
+     }
+    ],
+    "camara": "paneo",
+    "insercion": {
+     "tipo": "objetos",
+     "titulo": "Mitos de internet",
+     "items": [
+      {
+       "icono": "📜",
+       "nombre": "«Aureliano fijó el 25»: ninguna fuente antigua"
+      },
+      {
+       "icono": "🎲",
+       "nombre": "«La Navidad son las Saturnales»: falso"
+      },
+      {
+       "icono": "🪨",
+       "nombre": "«Mitra nació de una virgen»: nació de una roca"
+      },
+      {
+       "icono": "☀️",
+       "nombre": "«Copiada del Sol Invicto»: no demostrado"
+      }
+     ]
+    }
+   },
+   {
+    "texto": "Siglo y medio después, un papa todavía regañaba a los cristianos que, al subir la escalinata de San Pedro, se volvían para saludar al sol naciente.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "amanecer",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "columna",
+       "x": -1.3
+      },
+      {
+       "tipo": "columna",
+       "x": -0.95
+      },
+      {
+       "tipo": "columna",
+       "x": 0.95
+      },
+      {
+       "tipo": "columna",
+       "x": 1.3
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "vecino",
+      "x": -0.3,
+      "accion": "saludar",
+      "emocion": "feliz",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "lucila",
+      "x": 0.35,
+      "accion": "quieto",
+      "emocion": "sorpresa",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "lenta"
+   },
+   {
+    "texto": "Hoy la muralla de Aureliáno sigue en pie alrededor de Roma, con la pirámide metida dentro, y del templo del Sol no queda nada a la vista.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "campo",
+     "hora": "atardecer",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "piramide",
+       "x": 1.25,
+       "escala": 0.45
+      },
+      {
+       "tipo": "pino",
+       "x": -1.2
+      },
+      {
+       "tipo": "roca",
+       "x": -1.45,
+       "escala": 0.7
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "sabino",
+      "x": 0.0,
+      "accion": "quieto",
+      "emocion": "neutral",
+      "mirar": 1,
+      "habla": false
+     }
+    ],
+    "camara": "paneo"
+   },
+   {
+    "texto": "Lo que sí compartían paganos y cristianos era la misma idea: que en la noche más larga del año, cuando todo parece perdido, la luz vuelve a nacer.",
+    "drama": 0.65,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "amanecer",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "templo-romano",
+       "x": -1.1,
+       "escala": 0.65
+      },
+      {
+       "tipo": "hoguera",
+       "x": 1.0,
+       "escala": 0.5
+      },
+      {
+       "tipo": "antorcha",
+       "x": 1.35
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "restituto",
+      "x": -0.4,
+      "accion": "quieto",
+      "emocion": "feliz",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "tertia",
+      "x": 0.0,
+      "accion": "quieto",
+      "emocion": "feliz",
+      "mirar": -1,
+      "habla": false
+     },
+     {
+      "quien": "sabino",
+      "x": 0.42,
+      "accion": "quieto",
+      "emocion": "feliz",
+      "mirar": -1,
+      "habla": false
+     }
+    ],
+    "camara": "general"
+   },
+   {
+    "texto": "Yo, Sabíno, y toda mi familia somos inventados; el emperador, el templo, la muralla y el obispo Félix existieron. Cuéntame en los comentarios de quién quieres vivir el próximo mes, y suscríbete.",
+    "drama": 0.6,
+    "fondo": {
+     "lugar": "calle",
+     "hora": "atardecer",
+     "clima": "despejado",
+     "props": [
+      {
+       "tipo": "templo-romano",
+       "x": 1.1,
+       "escala": 0.6
+      },
+      {
+       "tipo": "columna",
+       "x": -1.25
+      }
+     ]
+    },
+    "personajes": [
+     {
+      "quien": "sabino",
+      "x": 0.3,
+      "accion": "saludar",
+      "emocion": "feliz",
+      "mirar": -1
+     }
+    ],
+    "camara": "general"
+   }
+  ]
+ },
+ "ganchos": [
+  {
+   "desde": 0,
+   "hasta": 3,
+   "rotulo": "LA CASA DEL SOL",
+   "titulo": "Mi padre construye la casa de un dios que nunca ha perdido",
+   "descripcion": "Roma, diciembre del 274: el emperador Aureliano levanta un gran templo al Sol Invicto con el botín de Palmira. Sabino, de diez años, y su familia son inventados. #shorts #historia #roma #solinvicto"
+  },
+  {
+   "desde": 11,
+   "hasta": 13,
+   "rotulo": "UNA REINA CARGADA DE ORO",
+   "titulo": "La reina Zenobia en el triunfo de Aureliano: lo que es seguro y lo que no",
+   "descripcion": "El triunfo de Aureliano (274) con Tétrico y Zenobia es real; las cadenas de oro y los veinte elefantes los cuenta la Historia Augusta, un libro famoso por inventar. Narrador inventado. #shorts #historia #roma #zenobia"
+  },
+  {
+   "desde": 41,
+   "hasta": 44,
+   "rotulo": "¿FUE UN 25 DE DICIEMBRE?",
+   "titulo": "¿Estrenó Aureliano el templo del Sol un 25 de diciembre? Ningún texto antiguo lo dice",
+   "descripcion": "Sabemos que el templo del Sol de Roma se dedicó en el 274; el día 25 es una deducción moderna. Narrador inventado. #shorts #historia #roma #navidad #solinvicto"
+  },
+  {
+   "desde": 51,
+   "hasta": 53,
+   "rotulo": "¿NAVIDAD COPIADA DEL SOL?",
+   "titulo": "¿La Navidad copió la fiesta del Sol Invicto? Lo que dicen los textos",
+   "descripcion": "La primera Navidad escrita es del 336; la primera fiesta del «Invicto» el 25 de diciembre, del 354. El debate sigue abierto. Narrador inventado. #shorts #historia #navidad #solinvicto"
+  }
+ ],
+ "publicacion": {
+  "tituloLargo": "Un mes en la vida de UN NIÑO DE ROMA (año 274) | Aureliano, el Sol Invicto y el verdadero origen del 25 de diciembre",
+  "tituloCorto": "Un niño de Roma en el 274",
+  "tituloShort": "¿La Navidad copió la fiesta del Sol Invicto?",
+  "capituloInicial": "La casa del Sol",
+  "descripcion": "Roma, diciembre del año 274. Sabino, un niño de diez años de un piso alto junto a la Vía Lata, vive el mes en que el emperador Aureliano, el «restaurador del mundo», estrena el gran templo del Sol Invicto, pagado con el botín de Palmira. Su padre, peón de albañil, acarrea ladrillos en la obra después de haber trabajado en la muralla nueva; su vecina Lucila es cristiana y llora la muerte de su obispo, Félix. Y en medio, la pregunta de siempre: ¿la Navidad se puso el 25 de diciembre para tapar la fiesta del Sol?\n\n— Semana 1: Mi padre construye la casa del Sol\n— Semana 2: El dios que nunca pierde\n— Semana 3: La noche más larga\n— Semana 4: El nacimiento del Sol\n— Epílogo: Aureliano asesinado (275), Constantino y el día del Sol (321), la primera Navidad escrita (336), el calendario del 354 y el debate sobre la fecha\n\nQué es real y qué es inventado: Sabino y su familia (Restituto, Prisca y Tertia), la vecina Lucila, el maestro y los demás vecinos son personajes INVENTADOS, igual que lo que les pasa cada día. Son reales: Aureliano y su triunfo sobre Zenobia y Tétrico, el templo del Sol pagado con el botín de Palmira (Zósimo), los pontífices del Sol, los juegos del Sol cada cuatro años, la moneda reformada del 274, la muralla aureliana y el obispo Félix I, muerto el 30 de diciembre del 274 y enterrado en las catacumbas de Calixto. Los detalles del triunfo (las cadenas de oro, los elefantes), el pan «más grande» y la anécdota del vino vienen de la Historia Augusta, una obra famosa por inventar, y por eso decimos «cuentan». Ningún texto antiguo dice que el templo se dedicara el 25 de diciembre: es una deducción moderna a partir del calendario del 354, y tampoco sabemos si Aureliano estaba en Roma ese día. Sobre la Navidad: la primera fiesta escrita es del 336 y la primera fiesta del «Invicto» en esa fecha, del 354. Hay dos teorías (la de la fiesta pagana, de Hermann Usener, y la del cálculo, de Louis Duchesne y Thomas Talley) y ninguna está cerrada. Que la Navidad venga de las Saturnales o que Mitra naciera de una virgen el 25 son mitos.\n\nFuentes: Zósimo, Nueva historia I, 61; Historia Augusta, Vida de Aureliano (dudosa); Aurelio Víctor 35; Eutropio IX; Eusebio, Historia eclesiástica VI, 43 y VII, 30; Lactancio, Sobre la muerte de los perseguidores 6; Plinio, Historia natural XVIII, 221; Juliano, Himno al rey Helios; Cronógrafo del 354 (Depositio martyrum, Depositio episcoporum, Calendario de Filócalo); León Magno, Sermón 27; S. E. Hijmans, «Sol Invictus, the Winter Solstice, and the Origins of Christmas» (Mouseion, 2003); T. J. Talley, The Origins of the Liturgical Year; A. McGowan, «How December 25 Became Christmas» (Biblical Archaeology Society); History Today; Universidad de Liverpool; Britannica.\n\nLectura recomendada: Historia Augusta (Akal, trad. de Vicente Picón y Antonio Cascón); Zósimo, Nueva historia (Gredos).",
+  "etiquetas": [
+   "un mes en la vida de",
+   "Sol Invicto",
+   "Aureliano",
+   "Navidad",
+   "origen de la Navidad",
+   "25 de diciembre",
+   "Roma",
+   "antigua Roma",
+   "solsticio de invierno",
+   "Zenobia",
+   "muralla aureliana",
+   "Saturnales",
+   "mitos y religiones",
+   "historia"
+  ],
+  "miniatura": {
+   "texto": "¿NAVIDAD O SOL INVICTO?",
+   "escena": 0,
+   "quien": "sabino",
+   "emocion": "sorpresa",
+   "icono": "☀️"
+  }
+ }
+}

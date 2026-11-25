@@ -382,7 +382,7 @@
   "largo": {
     "escenas": [
       {
-        "texto": "El primero de diciembre de mil novecientos cuarenta y ocho encontramos en la playa a un hombre con corbata y zapatos lustrados, pero sin nombre. Tardaríamos setenta y tres años en poder decir, quizá, cómo se llamaba de verdad.",
+        "texto": "El primero de diciembre de mil novecientos cuarenta y ocho apareció en la playa un hombre con corbata y zapatos lustrados, pero sin nombre. Tardaríamos setenta y tres años en poder decir, quizá, cómo se llamaba.",
         "drama": 0.85,
         "fondo": {
           "lugar": "playa",
@@ -415,7 +415,7 @@
         "corte": true
       },
       {
-        "texto": "No llevaba cartera, ni dinero, ni papeles, y alguien había cortado las etiquetas de su ropa, como si quisiera borrarlo del mundo. Y todavía hoy nadie sabe de qué murió, ni por qué estaba allí.",
+        "texto": "No llevaba cartera, ni dinero, ni papeles, y alguien había cortado todas las etiquetas de su ropa. Todavía hoy nadie sabe de qué murió, ni por qué estaba allí.",
         "drama": 0.85,
         "personajes": [
           {
@@ -430,8 +430,8 @@
         "camara": "cerca"
       },
       {
-        "texto": "Me llamo Ned Cólins, tengo veinticuatro años y soy agente de policía en Bráiton, junto a las playas del sur de Adelaida, en Australia. Volví de la guerra hace tres años y elegí lo que creía un oficio tranquilo.",
-        "drama": 0.55,
+        "texto": "Me llamo Ned Cólins, tengo veinticuatro años y soy policía en Bráiton, junto a las playas de Adelaida, y este mes me va a perseguir toda la vida.",
+        "drama": 0.6,
         "fondo": {
           "lugar": "interior",
           "pared": "madera",
@@ -465,7 +465,7 @@
         "camara": "cerca"
       },
       {
-        "texto": "Yo soy inventado, igual que mi sargento y mis pensamientos, pero la playa, las fechas, los testigos y el hombre sin nombre son reales. Y este misterio, más de setenta años después, sigue abierto de par en par.",
+        "texto": "Yo soy inventado, igual que mi sargento, pero la playa, las fechas, los testigos y el hombre sin nombre son completamente reales.",
         "drama": 0.6,
         "personajes": [
           {
@@ -482,7 +482,7 @@
       {
         "dia": 1,
         "capitulo": "El hombre del malecón",
-        "texto": "Es miércoles, uno de diciembre, poco después de las seis y media, cuando unos paseantes avisan de que hay un hombre quieto junto al malecón de Sómerton. Bajo corriendo por la arena, que a esa hora ya empieza a calentar.",
+        "texto": "Es miércoles, uno de diciembre, y poco después de las seis y media unos paseantes avisan de que hay un hombre quieto junto al malecón de Sómerton.",
         "corte": true,
         "drama": 0.75,
         "fondo": {
@@ -522,7 +522,7 @@
       },
       {
         "dia": 1,
-        "texto": "El agente Yon Mos, de mi comisaría, ha llegado antes que yo aunque no estaba de servicio, y ya ha llamado a la ambulancia. Me dice en voz baja que no ve en él ninguna señal de violencia.",
+        "texto": "El agente Yon Mos, de mi comisaría, ha llegado antes que yo aunque no estaba de servicio, y no ve en él ninguna señal de violencia.",
         "drama": 0.7,
         "personajes": [
           {
@@ -546,7 +546,7 @@
       },
       {
         "dia": 1,
-        "texto": "Era un hombre de unos cuarenta años, alto y fuerte, de pelo rubio rojizo con canas, recostado contra el muro como quien se ha quedado dormido. Ninguno de los que miramos se atreve a tocarlo hasta que llega la ambulancia.",
+        "texto": "Tendría unos cuarenta años, alto, de pelo rubio rojizo con canas, recostado contra el muro como quien duerme.",
         "drama": 0.75,
         "personajes": [
           {
@@ -562,7 +562,7 @@
       },
       {
         "dia": 1,
-        "texto": "Iba mejor vestido que la mayoría: camisa blanca, corbata roja, blanca y azul, jersey de punto marrón, chaqueta cruzada y zapatos lustrados. Lo único raro es que no llevaba sombrero, cuando aquí todo hombre sale a la calle con uno.",
+        "texto": "Iba mejor vestido que la mayoría: camisa blanca, corbata roja, blanca y azul, jersey de punto, chaqueta cruzada y zapatos lustrados, pero sin sombrero.",
         "drama": 0.65,
         "fondo": {
           "lugar": "playa",
@@ -594,7 +594,7 @@
       },
       {
         "dia": 1,
-        "texto": "En la comisaría vaciamos sus bolsillos sobre la mesa: un billete de tren sin usar, otro de autobús, un peine de aluminio americano y medio paquete de chicle Yúsi Frut.",
+        "texto": "En la comisaría vaciamos sus bolsillos: un billete de tren sin usar, otro de autobús, un peine de aluminio americano y medio paquete de chicle Yúsi Frut.",
         "drama": 0.6,
         "fondo": {
           "lugar": "interior",
@@ -652,7 +652,7 @@
       },
       {
         "dia": 1,
-        "texto": "También un paquete de tabaco Armi Clab con siete cigarrillos de otra marca dentro, y una caja de cerillas. Pero ni cartera, ni dinero, ni una sola letra con su nombre.",
+        "texto": "También tabaco Armi Clab con siete cigarrillos de otra marca y una caja de cerillas, pero ni cartera, ni dinero, ni una sola letra con su nombre.",
         "drama": 0.65,
         "personajes": [
           {
@@ -676,7 +676,7 @@
       },
       {
         "dia": 1,
-        "texto": "Entonces el sargento Rid me enseña la chaqueta por dentro: alguien ha cortado con cuidado todas las etiquetas, también las de la camisa y el pantalón. ¿Quién se toma tanto trabajo antes de ir a morir a una playa?",
+        "texto": "Alguien había cortado con cuidado todas las etiquetas de su ropa, la chaqueta, la camisa y el pantalón, y el sargento Rid me las enseña una por una. ¿Quién se toma tanto trabajo antes de ir a morir a una playa?",
         "drama": 0.8,
         "personajes": [
           {
@@ -700,7 +700,7 @@
       },
       {
         "dia": 1,
-        "texto": "La tarde anterior, hacia las siete, el joyero Yon Láions paseaba con su mujer por esta playa y vio a un hombre tumbado junto al malecón. Lo vio levantar el brazo derecho y dejarlo caer, y pensó que estaba borracho o dormido.",
+        "texto": "La tarde anterior, hacia las siete, el joyero Yon Láions y su mujer vieron aquí a un hombre tumbado que levantó el brazo, lo dejó caer, y pensaron que estaba borracho.",
         "drama": 0.7,
         "fondo": {
           "lugar": "playa",
@@ -740,7 +740,7 @@
       },
       {
         "dia": 1,
-        "texto": "Más tarde, una pareja de novios sentada en un banco vio al hombre en la misma postura, y contaron que les extrañó que no espantara los mosquitos. Pero nadie, ni ellos ni los Láions, llegó a verle la cara aquella tarde.",
+        "texto": "Más tarde, una pareja de novios lo vio en la misma postura desde un banco, pero nadie, ni ellos ni los Láions, llegó a verle la cara.",
         "drama": 0.75,
         "personajes": [
           {
@@ -764,7 +764,7 @@
       },
       {
         "dia": 1,
-        "texto": "Dijeron también que había otro hombre mirando desde lo alto, pero nunca apareció, y nadie sabe si el de la tarde era el mismo de la mañana. El forense admitiría meses después que pudieron haberlo traído allí ya muerto.",
+        "texto": "Dijeron que otro hombre miraba desde lo alto, pero nunca apareció, y el forense admitió después que pudieron haberlo traído allí ya muerto.",
         "drama": 0.85,
         "fondo": {
           "lugar": "playa",
@@ -793,7 +793,7 @@
       },
       {
         "dia": 2,
-        "texto": "Es jueves, dos, y el patólogo, el doctor Duáier, termina su examen: el corazón estaba sano y no hay ninguna señal de violencia. Sospecha de un veneno, pero el químico del Gobierno no encuentra ninguno.",
+        "texto": "Es jueves, dos, y el patólogo, el doctor Duáier, no encuentra ninguna señal de violencia. Sospecha de un veneno, pero el químico del Gobierno no halla ninguno.",
         "drama": 0.75,
         "fondo": {
           "lugar": "interior",
@@ -825,7 +825,7 @@
       },
       {
         "dia": 2,
-        "texto": "Esa mañana, el Ádvertaiser cuenta lo del hombre de la playa en una noticia pequeña de la página tres. A casi nadie en Adelaida le importa todavía un desconocido muerto en la arena.",
+        "texto": "El Ádvertaiser lo cuenta en una noticia pequeña de la página tres, y a casi nadie en Adelaida le importa todavía un desconocido muerto en la arena.",
         "drama": 0.55,
         "fondo": {
           "lugar": "calle",
@@ -865,7 +865,7 @@
       },
       {
         "dia": 3,
-        "texto": "Es viernes, tres, y un periódico apunta que el muerto podría ser un tal Yónson, y entonces pasa algo que no olvidaré. El propio Yónson entra por la puerta de la comisaría para demostrar que está vivito y coleando.",
+        "texto": "Es viernes, tres, y un periódico apunta que el muerto podría ser un tal Yónson, hasta que el propio Yónson se presenta en comisaría, bien vivo.",
         "drama": 0.6,
         "fondo": {
           "lugar": "interior",
@@ -909,7 +909,7 @@
       },
       {
         "dia": 3,
-        "texto": "Esa tarde, el fotógrafo de la policía, Pátric Dúrjam, le toma las huellas dactilares y le hace fotografías en el depósito, con su cámara de placas.",
+        "texto": "El fotógrafo de la policía, Pátric Dúrjam, le toma las huellas y le hace fotografías, que salen hacia todos los estados, Nueva Zelanda y archivos del extranjero.",
         "drama": 0.6,
         "fondo": {
           "lugar": "interior",
@@ -946,12 +946,18 @@
             "habla": false
           }
         ],
-        "camara": "lenta"
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Australia y Nueva Zelanda",
+          "detalle": "Adonde se enviaron sus huellas · 3 de diciembre de 1948",
+          "icono": "🖐️"
+        }
       },
       {
-        "dia": 3,
-        "texto": "Las huellas salen hacia todos los estados de Australia, hacia Nueva Zelanda y hacia los grandes archivos del extranjero, y las respuestas tardarán semanas en volver.",
-        "drama": 0.6,
+        "dia": 4,
+        "texto": "Es sábado, cuatro, y llega la primera respuesta: sus huellas no constan en ningún archivo de Australia Meridional, como si ese hombre no hubiera existido nunca.",
+        "drama": 0.8,
         "fondo": {
           "lugar": "interior",
           "pared": "madera",
@@ -972,28 +978,6 @@
             }
           ]
         },
-        "personajes": [
-          {
-            "quien": "ned",
-            "x": 0.4,
-            "accion": "escribir",
-            "emocion": "neutral",
-            "mirar": -1,
-            "habla": false
-          }
-        ],
-        "camara": "cerca",
-        "insercion": {
-          "tipo": "mapa",
-          "lugar": "Australia y Nueva Zelanda",
-          "detalle": "Adonde se enviaron sus huellas · 3 de diciembre de 1948",
-          "icono": "🖐️"
-        }
-      },
-      {
-        "dia": 4,
-        "texto": "Es sábado, cuatro, y llega la primera respuesta: sus huellas no constan en ningún archivo de Australia Meridional. Para la policía de este estado, ese hombre no ha existido nunca.",
-        "drama": 0.8,
         "personajes": [
           {
             "quien": "sargento",
@@ -1017,7 +1001,7 @@
       {
         "dia": 5,
         "capitulo": "Las huellas de nadie",
-        "texto": "Es domingo, cinco, y en Glenélg las familias llenan la playa y el tranvía, como si en la arena de al lado no pasara nada. Yo patrullo Yeti Roud con la camisa pegada a la espalda por el calor.",
+        "texto": "Es domingo, cinco, y en Glenélg las familias llenan la playa y el tranvía, mientras yo patrullo Yeti Roud con la camisa pegada a la espalda.",
         "corte": true,
         "drama": 0.55,
         "fondo": {
@@ -1049,7 +1033,7 @@
       },
       {
         "dia": 6,
-        "texto": "Todos hablan del Jólden, el primer coche australiano, presentado hace una semana: cuesta setecientas treinta y tres libras, casi dos años de sueldo. Un agente joven como yo no puede ni soñar con tener uno.",
+        "texto": "Todos hablan del Jólden, el primer coche australiano, presentado hace una semana: setecientas treinta y tres libras, casi dos años de sueldo.",
         "drama": 0.5,
         "fondo": {
           "lugar": "calle",
@@ -1087,7 +1071,7 @@
       },
       {
         "dia": 7,
-        "texto": "Es martes, siete, y la radio de la comisaría solo habla del partido de homenaje a Don Brádman, en Melbúrn. Brádman, que vive aquí, en Adelaida, ha hecho ciento veintitrés carreras y el país entero lo celebra.",
+        "texto": "Es martes, siete, y la radio de la comisaría solo habla de Don Brádman, que vive aquí y ha hecho ciento veintitrés carreras en su partido de homenaje.",
         "drama": 0.5,
         "fondo": {
           "lugar": "interior",
@@ -1136,7 +1120,7 @@
       },
       {
         "dia": 7,
-        "texto": "Mientras tanto, en el depósito, un hombre sin nombre espera a que alguien venga a buscarlo, y nadie llama, nadie escribe, nadie pregunta por él. Ni una sola persona en toda Australia parece echarlo de menos todavía.",
+        "texto": "Mientras, en el depósito, un hombre sin nombre espera a que alguien venga a buscarlo, y nadie llama, nadie escribe y nadie pregunta por él.",
         "drama": 0.75,
         "fondo": {
           "lugar": "interior",
@@ -1168,7 +1152,7 @@
       },
       {
         "dia": 8,
-        "texto": "Estos días, los periódicos publican sus fotografías con la misma pregunta: ¿alguien conoce a este hombre? Yo recorto la página y la llevo doblada en el bolsillo del uniforme.",
+        "texto": "Estos días, los periódicos publican sus fotografías con una pregunta: ¿alguien conoce a este hombre? Yo llevo esa página doblada en el bolsillo del uniforme todo el día.",
         "drama": 0.6,
         "fondo": {
           "lugar": "calle",
@@ -1200,7 +1184,7 @@
       },
       {
         "dia": 9,
-        "texto": "Es jueves, nueve, y a las seis de la tarde cierran por ley todos los bares, así que la hora de antes es un atracón de cerveza. Lo llaman el atracón de las seis, y a mí me toca vigilar la salida.",
+        "texto": "Es jueves, nueve, y a las seis cierran por ley todos los bares, así que la hora de antes es un atracón de cerveza que vigilo.",
         "drama": 0.5,
         "fondo": {
           "lugar": "calle",
@@ -1231,7 +1215,7 @@
       },
       {
         "dia": 9,
-        "texto": "El té y la mantequilla siguen racionados con cupones, aunque la carne y la ropa se venden libres desde junio. En la comisaría, la tetera de la guardia es lo más sagrado que tenemos.",
+        "texto": "El té y la mantequilla siguen racionados con cupones, aunque la carne y la ropa se venden libres desde junio, y la tetera de la guardia es sagrada.",
         "drama": 0.45,
         "fondo": {
           "lugar": "interior",
@@ -1294,7 +1278,7 @@
       },
       {
         "dia": 10,
-        "texto": "Es viernes, diez, y como nadie viene a reclamarlo, se decide algo que en la policía nadie recuerda haber hecho jamás con un desconocido. Lo embalsaman, para que se conserve y cualquiera pueda venir a reconocerlo.",
+        "texto": "Es viernes, diez, y como nadie lo reclama, lo embalsaman para que cualquiera pueda venir a reconocerlo, algo que la policía no recordaba haber hecho nunca.",
         "drama": 0.8,
         "fondo": {
           "lugar": "interior",
@@ -1326,7 +1310,7 @@
       },
       {
         "dia": 10,
-        "texto": "Esa tarde vuelvo a la playa de Sómerton, al mismo trozo de malecón, y me pregunto cómo puede morir un hombre así sin que nadie lo eche en falta.",
+        "texto": "Esa tarde vuelvo a Sómerton, al mismo trozo de malecón, y me pregunto cómo puede morir un hombre así sin que nadie lo eche en falta.",
         "drama": 0.7,
         "fondo": {
           "lugar": "playa",
@@ -1364,7 +1348,7 @@
       },
       {
         "dia": 11,
-        "texto": "Es sábado, once, y en la cena mi madre me pregunta si ya sabemos quién es, y me da vergüenza decirle que no. Ella dice que tendrá una madre en alguna parte, esperando una carta que no llega.",
+        "texto": "Es sábado, once, y en la cena mi madre me pregunta si ya sabemos quién es. Dice que tendrá una madre en alguna parte, esperando una carta que no llega.",
         "drama": 0.55,
         "fondo": {
           "lugar": "interior",
@@ -1415,7 +1399,7 @@
       {
         "dia": 13,
         "capitulo": "El desfile",
-        "texto": "Es lunes, trece, y empieza el desfile: gente que cree reconocerlo por las fotos viene al depósito, y yo la acompaño hasta la puerta. Entran con miedo o con esperanza, y casi todos salen sin decir nada.",
+        "texto": "Es lunes, trece, y empieza el desfile: gente que cree reconocerlo por las fotos viene al depósito, y casi todos salen sin decir nada.",
         "corte": true,
         "drama": 0.65,
         "fondo": {
@@ -1456,7 +1440,7 @@
       },
       {
         "dia": 14,
-        "texto": "Vienen mujeres que buscan a maridos que se marcharon y padres que buscan a hijos que dejaron de escribir, y a todos les digo lo mismo. Mire despacio, sin prisa, y dígame solo lo que esté seguro de ver.",
+        "texto": "Vienen mujeres que buscan a maridos que se marcharon y padres que buscan a hijos que dejaron de escribir, y a todos les pido que miren despacio.",
         "drama": 0.5,
         "personajes": [
           {
@@ -1480,7 +1464,7 @@
       },
       {
         "dia": 15,
-        "texto": "Es miércoles, quince, y ya llevamos varias identificaciones que parecían seguras y que, al comprobarlas, se deshacen como la arena entre los dedos.",
+        "texto": "Es miércoles, quince, y varias identificaciones que parecían seguras se deshacen al comprobarlas, como la arena entre los dedos.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -1522,7 +1506,7 @@
       },
       {
         "dia": 16,
-        "texto": "La policía de Victoria descarta a varios desaparecidos y nos dice que, probablemente, nuestro hombre no era de su estado. Guarda esa frase en la memoria, porque muchos años después va a sonar muy distinta.",
+        "texto": "La policía de Victoria descarta a varios desaparecidos y nos dice que nuestro hombre, probablemente, no era de su estado. Recuerda bien esa frase, porque muchos años después va a volver a sonar.",
         "drama": 0.7,
         "personajes": [
           {
@@ -1547,38 +1531,7 @@
       },
       {
         "dia": 17,
-        "texto": "El calor aprieta y la ciudad huele a polvo y a eucalipto, y en los escaparates ya hay adornos de Navidad, aunque aquí la Navidad se pasa en la playa.",
-        "drama": 0.45,
-        "fondo": {
-          "lugar": "calle",
-          "hora": "dia",
-          "clima": "despejado",
-          "props": [
-            {
-              "tipo": "farola",
-              "x": -1.15
-            },
-            {
-              "tipo": "palmera",
-              "x": 1.25
-            }
-          ]
-        },
-        "personajes": [
-          {
-            "quien": "ned",
-            "x": 0.35,
-            "accion": "caminar",
-            "emocion": "cansado",
-            "mirar": -1,
-            "habla": false
-          }
-        ],
-        "camara": "paneo"
-      },
-      {
-        "dia": 17,
-        "texto": "Pienso en su billete de segunda clase a Jénli Bich, comprado en la estación de Adelaida y sin taladrar. ¿Por qué alguien compra un billete de tren y luego no sube nunca a ese tren?",
+        "texto": "Pienso en su billete de segunda clase a Jénli Bich, comprado en la estación y sin usar. ¿Por qué alguien compra un billete y luego no sube nunca a ese tren?",
         "drama": 0.7,
         "fondo": {
           "lugar": "calle",
@@ -1588,7 +1541,7 @@
             {
               "tipo": "tren",
               "x": -1.05,
-              "escala": 0.65
+              "escala": 0.7
             },
             {
               "tipo": "farola",
@@ -1596,37 +1549,12 @@
             }
           ]
         },
-        "personajes": [
-          {
-            "quien": "ned",
-            "x": 0.4,
-            "accion": "pensar",
-            "emocion": "neutral",
-            "mirar": -1,
-            "habla": false
-          }
-        ],
+        "personajes": [],
         "camara": "lenta"
       },
       {
         "dia": 18,
-        "texto": "Y el de autobús era de una línea hacia Glenélg, de aquel mismo martes por la mañana. Alguien cruzó media ciudad aquel día sin dejar detrás ni un nombre ni una sola cara que se recuerde.",
-        "drama": 0.7,
-        "personajes": [
-          {
-            "quien": "ned",
-            "x": 0.4,
-            "accion": "quieto",
-            "emocion": "neutral",
-            "mirar": -1,
-            "habla": false
-          }
-        ],
-        "camara": "cerca"
-      },
-      {
-        "dia": 18,
-        "texto": "Esa tarde paseo de paisano por Sómerton a la hora en que lo vieron los Láions, y la arena está llena de gente tomando el fresco. Cualquiera de ellos podría haberle visto la cara, y nadie se la vio.",
+        "texto": "Esa tarde paseo de paisano por Sómerton a la hora en que lo vieron los Láions, entre gente que podría haberle visto la cara.",
         "drama": 0.65,
         "fondo": {
           "lugar": "playa",
@@ -1659,7 +1587,7 @@
       {
         "dia": 20,
         "capitulo": "Navidad sin nombre",
-        "texto": "Es lunes, veinte, y el expediente sigue sobre la mesa del sargento Rid, cada día un poco más gordo y un poco menos útil. Llamadas, nombres, corazonadas, y ni una sola pista que aguante más de una semana.",
+        "texto": "Es lunes, veinte, y el expediente sigue sobre la mesa del sargento Rid, cada día más gordo y menos útil, sin una sola pista firme.",
         "corte": true,
         "drama": 0.6,
         "fondo": {
@@ -1704,7 +1632,7 @@
       },
       {
         "dia": 22,
-        "texto": "Es miércoles, veintidós, y vuelvo a Sómerton, donde, frente al malecón, hay un hogar para niños con discapacidad. Me pregunto si alguien, desde aquellas ventanas, vio algo aquella noche y nunca lo contó.",
+        "texto": "Es miércoles, veintidós, y frente al malecón de Sómerton miro el hogar para niños con discapacidad. ¿Vio alguien algo aquella noche desde esas ventanas y nunca llegó a contarlo?",
         "drama": 0.65,
         "fondo": {
           "lugar": "playa",
@@ -1767,7 +1695,7 @@
       },
       {
         "dia": 25,
-        "texto": "Es sábado, veinticinco, y para la comida de Navidad mi madre ha guardado durante semanas los cupones de mantequilla, para que el pudin salga como antes de la guerra.",
+        "texto": "Es sábado, veinticinco, y mi madre ha guardado durante semanas los cupones de mantequilla para que el pudin de Navidad salga como antes de la guerra.",
         "drama": 0.5,
         "fondo": {
           "lugar": "interior",
@@ -1816,23 +1744,7 @@
       },
       {
         "dia": 25,
-        "texto": "Pero yo no dejo de pensar en el depósito, donde un hombre sin nombre pasa la Navidad solo, a pocos kilómetros de las familias que comen en la playa.",
-        "drama": 0.75,
-        "personajes": [
-          {
-            "quien": "nedpaisano",
-            "x": 0.4,
-            "accion": "pensar",
-            "emocion": "triste",
-            "mirar": -1,
-            "habla": false
-          }
-        ],
-        "camara": "cerca"
-      },
-      {
-        "dia": 25,
-        "texto": "Por la tarde paso por el depósito con una excusa cualquiera y me quedo un rato en la puerta, en silencio, para que al menos alguien le haga compañía.",
+        "texto": "Por la tarde paso por el depósito y me quedo un rato en la puerta, en silencio, para que alguien le haga compañía en Navidad.",
         "drama": 0.75,
         "fondo": {
           "lugar": "interior",
@@ -1862,11 +1774,11 @@
             "habla": false
           }
         ],
-        "camara": "lenta"
+        "camara": "cerca"
       },
       {
         "dia": 27,
-        "texto": "Es lunes, veintisiete, y el sargento Rid resume el mes en tres frases que me sé de memoria: no sabemos quién es, ni de qué murió, ni por qué.",
+        "texto": "Es lunes, veintisiete, y el sargento Rid resume el mes en una frase: no sabemos quién es, ni de qué murió, ni por qué estaba allí.",
         "drama": 0.7,
         "fondo": {
           "lugar": "interior",
@@ -1924,7 +1836,7 @@
       },
       {
         "dia": 30,
-        "texto": "Es jueves, treinta, y el año se acaba con el hombre de Sómerton aún sin nombre, sin causa de muerte y sin nadie que pregunte por él. Yo no lo sé todavía, pero lo más extraño aún no ha llegado.",
+        "texto": "Es jueves, treinta, y el año se acaba con el hombre de Sómerton aún sin nombre. Yo no lo sé todavía, pero lo más extraño de esta historia aún no ha llegado.",
         "drama": 0.85,
         "fondo": {
           "lugar": "playa",
@@ -1955,7 +1867,7 @@
         "camara": "lenta"
       },
       {
-        "texto": "En enero, el sargento detective Laionel Lin toma el caso, y en la consigna de la estación aparece una maleta marrón dejada el treinta de noviembre. Dentro hay ropa con las etiquetas cortadas, salvo tres prendas con un mismo apellido escrito: Kin.",
+        "texto": "En enero, el sargento detective Laionel Lin toma el caso, y en la consigna de la estación de tren aparece una maleta marrón dejada el treinta de noviembre.",
         "drama": 0.75,
         "fondo": {
           "lugar": "calle",
@@ -1963,13 +1875,12 @@
           "clima": "despejado",
           "props": [
             {
-              "tipo": "tren",
-              "x": -1.05,
-              "escala": 0.65
+              "tipo": "farola",
+              "x": -1.15
             },
             {
-              "tipo": "farola",
-              "x": 1.2
+              "tipo": "palmera",
+              "x": 1.25
             }
           ]
         },
@@ -1995,7 +1906,7 @@
         "camara": "lenta"
       },
       {
-        "texto": "Nadie llamado Kin faltaba en ningún sitio, ni en Australia ni fuera, y aquella pista, que parecía la buena, se quedó en nada durante setenta y tres años.",
+        "texto": "Dentro hay ropa con las etiquetas cortadas, salvo tres prendas con un apellido, Kin, pero nadie llamado Kin faltaba en ningún sitio.",
         "drama": 0.7,
         "personajes": [
           {
@@ -2032,7 +1943,7 @@
         }
       },
       {
-        "texto": "Meses después, el patólogo Yon Clíland encontró, escondido en un bolsillo diminuto del pantalón, un papelito enrollado con solo dos palabras impresas: Tamám Shud. Significan se acabó, y cierran un libro de poemas persa, el Rubaiát de Omar Jayam.",
+        "texto": "Meses después, el patólogo Yon Clíland encontró, escondido en un bolsillo diminuto del pantalón, un papelito enrollado con dos palabras impresas: Tamám Shud. Significan se acabó, y cierran un libro de poemas persa, el Rubaiát de Omar Jayam.",
         "drama": 0.85,
         "fondo": {
           "lugar": "interior",
@@ -2065,7 +1976,7 @@
         "corte": true
       },
       {
-        "texto": "Un papel que decía se acabó fue, en realidad, el principio de uno de los misterios más famosos del mundo, y yo había tenido ese pantalón delante.",
+        "texto": "Un papel que decía se acabó fue, en realidad, el principio de uno de los misterios más famosos del mundo.",
         "drama": 0.8,
         "personajes": [
           {
@@ -2085,7 +1996,7 @@
         }
       },
       {
-        "texto": "En julio, un vecino de Glenélg trajo a la policía un Rubaiát que había encontrado en el asiento trasero de su coche, abierto y aparcado en Yeti Roud. Le faltaba un trozo de la última página, y bajo el microscopio el papelito encajaba.",
+        "texto": "En julio, un vecino de Glenélg trajo un Rubaiát que había encontrado en el asiento trasero de su coche abierto, y bajo el microscopio el papelito encajaba.",
         "drama": 0.8,
         "fondo": {
           "lugar": "calle",
@@ -2125,7 +2036,7 @@
         "camara": "lenta"
       },
       {
-        "texto": "En el libro había, escritas a lápiz, cinco líneas de letras mayúsculas que nadie ha conseguido descifrar, ni la policía ni años de estudiantes universitarios. Y en el mismo libro había apuntado también un número de teléfono.",
+        "texto": "En el libro había cinco líneas de letras mayúsculas escritas a lápiz que nadie ha conseguido descifrar, y también un número de teléfono.",
         "drama": 0.8,
         "fondo": {
           "lugar": "interior",
@@ -2165,7 +2076,7 @@
         }
       },
       {
-        "texto": "El teléfono llevó a una enfermera que vivía en Glenélg, cerca de la playa, y que dijo a la policía que no conocía al muerto. Durante décadas protegieron su nombre; hoy sabemos que se llamaba Jéssica Tómson.",
+        "texto": "El teléfono llevó a una enfermera de Glenélg, Jéssica Tómson, cuyo nombre se protegió durante décadas, y que dijo a la policía que no conocía al muerto.",
         "drama": 0.7,
         "fondo": {
           "lugar": "calle",
@@ -2187,7 +2098,7 @@
         "camara": "lenta"
       },
       {
-        "texto": "Contó que en la guerra había regalado un Rubaiát a un teniente, Alf Bócsol, pero Bócsol apareció vivo en Sídney, con su libro entero y la última página intacta.",
+        "texto": "Contó que en la guerra había regalado un Rubaiát a un teniente, Alf Bócsol, pero Bócsol apareció vivo en Sídney con su libro entero.",
         "drama": 0.75,
         "fondo": {
           "lugar": "calle",
@@ -2218,7 +2129,7 @@
         "camara": "cerca"
       },
       {
-        "texto": "Ella siempre dijo que no lo conocía, y lo que supiera, si es que sabía algo, se lo llevó consigo; nadie ha probado nunca lo contrario.",
+        "texto": "Ella siempre dijo que no lo conocía, y lo que supiera, si sabía algo, se lo llevó consigo; nadie ha probado nunca lo contrario.",
         "drama": 0.6,
         "fondo": {
           "lugar": "playa",
@@ -2249,7 +2160,7 @@
         "camara": "cerca"
       },
       {
-        "texto": "Hubo quien dijo que era un espía de la Guerra Fría, quien habló de un veneno raro y quien de un amor secreto, pero nunca apareció un solo papel que probara nada.",
+        "texto": "Hubo quien habló de un espía, de un veneno raro o de un amor secreto, pero nunca apareció un solo papel que probara nada.",
         "drama": 0.7,
         "personajes": [
           {
@@ -2286,7 +2197,7 @@
         }
       },
       {
-        "texto": "En junio del año siguiente, antes de enterrarlo, le hicieron un busto de escayola por si algún día alguien lo reconocía. Lo enterraron en Uest Térres, bajo una lápida dedicada al hombre desconocido de la playa de Sómerton.",
+        "texto": "En junio de mil novecientos cuarenta y nueve le hicieron un busto de escayola, y lo enterraron en Uest Térres como el hombre desconocido de Sómerton.",
         "drama": 0.75,
         "fondo": {
           "lugar": "campo",
@@ -2321,7 +2232,7 @@
         "camara": "lenta"
       },
       {
-        "texto": "En la investigación judicial, el forense no pudo decir quién era, ni cómo murió, ni si la muerte fue natural. El químico solo pudo añadir que, si fue veneno, era uno muy poco común.",
+        "texto": "En la investigación judicial, el forense no pudo decir quién era, ni cómo murió, ni si la muerte fue natural.",
         "drama": 0.7,
         "personajes": [],
         "camara": "lenta",
@@ -2332,34 +2243,7 @@
         }
       },
       {
-        "texto": "En mayo de dos mil veintiuno lo exhumaron de madrugada para analizar sus restos, y al año siguiente llegó una respuesta que casi nadie esperaba ya.",
-        "drama": 0.75,
-        "fondo": {
-          "lugar": "campo",
-          "hora": "amanecer",
-          "clima": "despejado",
-          "sol": false,
-          "props": [
-            {
-              "tipo": "tumba",
-              "x": -0.2
-            },
-            {
-              "tipo": "tumba",
-              "x": -1.0,
-              "escala": 0.8
-            },
-            {
-              "tipo": "pino",
-              "x": 1.2
-            }
-          ]
-        },
-        "personajes": [],
-        "camara": "paneo"
-      },
-      {
-        "texto": "En dos mil veintidós, el profesor Dérec Ábot y la genealogista Colin Fitspátric anunciaron que tenían su nombre, gracias a unos pelos atrapados en aquel busto de escayola de mil novecientos cuarenta y nueve.",
+        "texto": "Setenta y tres años sin nombre, hasta que en dos mil veintidós el profesor Dérec Ábot y la genealogista Colin Fitspátric anunciaron quién era. Lo descubrieron gracias a unos pelos atrapados en su busto de escayola.",
         "drama": 0.8,
         "fondo": {
           "lugar": "interior",
@@ -2403,7 +2287,7 @@
         "corte": true
       },
       {
-        "texto": "Según ellos, era Carl Uéb, de Melbúrn, ingeniero eléctrico de cuarenta y tres años, que había dejado a su mujer en mil novecientos cuarenta y siete. Y su cuñado se apellidaba Kin, igual que la ropa de aquella maleta.",
+        "texto": "Según ellos, era Carl Uéb, ingeniero eléctrico de Melbúrn, de cuarenta y tres años, y su cuñado se apellidaba Kin, como la ropa de la maleta.",
         "drama": 0.8,
         "personajes": [
           {
@@ -2432,7 +2316,7 @@
         }
       },
       {
-        "texto": "Era de Melbúrn, justo del estado del que la policía de Victoria nos dijo aquel diciembre que no era, aunque la policía de aquí todavía no lo ha confirmado oficialmente.",
+        "texto": "Era de Melbúrn, en el estado de Victoria, el mismo que aquel diciembre nos dijo que no era suyo, y la policía aún no lo ha confirmado oficialmente.",
         "drama": 0.75,
         "fondo": {
           "lugar": "playa",
@@ -2463,7 +2347,7 @@
         "camara": "cerca"
       },
       {
-        "texto": "Hoy quizá tiene nombre, pero sigue sin tener explicación: nadie sabe de qué murió, por qué vino a esta playa ni qué dicen esas cinco líneas de letras.",
+        "texto": "Hoy quizá tiene nombre, pero no explicación: nadie sabe de qué murió, por qué vino a esta playa ni qué dicen esas cinco líneas.",
         "drama": 0.8,
         "fondo": {
           "lugar": "campo",
@@ -2498,7 +2382,7 @@
         "camara": "lenta"
       },
       {
-        "texto": "Yo, Ned Cólins, nunca existí, ni mi sargento ni mi madre, pero aquel hombre sí estuvo sentado en esta playa, esperando a que alguien dijera su nombre.",
+        "texto": "Yo, Ned Cólins, nunca existí, ni mi sargento ni mi madre, pero aquel hombre sí estuvo sentado en esta playa, esperando que alguien dijera su nombre.",
         "drama": 0.65,
         "fondo": {
           "lugar": "playa",
@@ -2548,28 +2432,28 @@
   "ganchos": [
     {
       "desde": 0,
-      "hasta": 2,
+      "hasta": 3,
       "rotulo": "UN HOMBRE SIN NOMBRE",
       "titulo": "El hombre de la playa que nadie supo nombrar",
       "descripcion": "1 de diciembre de 1948, playa de Somerton (Adelaida): un hombre bien vestido, sin documentos y con las etiquetas de la ropa cortadas. Nadie sabe de qué murió. Policía inventado, hechos reales. #shorts #misterio #historia"
     },
     {
       "desde": 10,
-      "hasta": 12,
+      "hasta": 13,
       "rotulo": "LAS ETIQUETAS CORTADAS",
       "titulo": "Alguien cortó todas las etiquetas de su ropa",
       "descripcion": "El hombre de Somerton no llevaba ni cartera ni papeles, y las etiquetas de su ropa estaban cortadas. La tarde antes, varios testigos lo vieron en la playa, pero nadie le vio la cara. Policía inventado, hechos reales. #shorts #somertonman #misterio"
     },
     {
-      "desde": 48,
-      "hasta": 50,
+      "desde": 44,
+      "hasta": 47,
       "rotulo": "TAMÁM SHUD: SE ACABÓ",
       "titulo": "Dos palabras escondidas en un bolsillo: Tamám Shud",
       "descripcion": "Meses después de su muerte, un patólogo encontró en un bolsillo secreto del hombre de Somerton un papel con dos palabras: Tamám Shud, «se acabó». Venía de un libro olvidado en un coche. Policía inventado, hechos reales. #shorts #tamamshud #misterio"
     },
     {
-      "desde": 59,
-      "hasta": 61,
+      "desde": 54,
+      "hasta": 57,
       "rotulo": "73 AÑOS SIN NOMBRE",
       "titulo": "¿Tiene por fin nombre el hombre de Somerton?",
       "descripcion": "En 2022, unos investigadores dijeron que el hombre de Somerton era Carl «Charles» Webb, de Melbourne, gracias al ADN de unos pelos del busto de 1949. La policía aún no lo ha confirmado oficialmente. Policía inventado, hechos reales. #shorts #misterio #historia"
@@ -2599,7 +2483,7 @@
     ],
     "miniatura": {
       "texto": "NADIE SABÍA SU NOMBRE",
-      "escena": 28,
+      "escena": 27,
       "quien": "ned",
       "emocion": "miedo"
     }

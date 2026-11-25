@@ -486,7 +486,7 @@
         "camara": "cerca"
       },
       {
-        "texto": "Vivo con mi mujer, Cáterin, con cuatro hijos y otro que viene en camino, en una casa grande junto a Ríyents Park, en Londres, que me cuesta ciento sesenta libras al año.",
+        "texto": "Vivo con mi mujer, Cáterin, cuatro hijos y otro en camino, en una casa grande junto a Ríyents Park que me cuesta ciento sesenta libras al año.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -552,7 +552,7 @@
         }
       },
       {
-        "texto": "Las fechas, las cifras y las cartas de esta historia son reales; lo que pienso y muchas escenas de cada día, las imaginamos a partir de mis cartas. Y todo empieza con una novela mía que no se vende.",
+        "texto": "Las fechas, las cifras y las cartas son reales; lo que pienso y muchas escenas, lo imaginamos. Y todo empieza con una novela mía que se vende muy mal.",
         "drama": 0.65,
         "fondo": {
           "lugar": "calle",
@@ -642,7 +642,7 @@
         }
       },
       {
-        "texto": "Mis editores, Chápman an Jol, me adelantan dinero cada mes, y parece que en junio hablaron de rebajarme cincuenta libras si las ventas no lo cubrían. Me lo tomé como una ofensa que no pienso olvidar.",
+        "texto": "Mis editores, Chápman an Jol, me adelantan dinero cada mes, y parece que en junio hablaron de rebajarme cincuenta libras si las ventas no lo cubrían. Me lo tomé como una ofensa, y desde entonces pienso en dejarlos.",
         "drama": 0.7,
         "fondo": {
           "lugar": "interior",
@@ -689,57 +689,6 @@
           }
         ],
         "camara": "cerca"
-      },
-      {
-        "texto": "Y en casa no para de salir dinero: la cocinera, las doncellas, la niñera, el carbón, y mi padre, que firma deudas con mi nombre y me escribe pidiendo más.",
-        "drama": 0.65,
-        "fondo": {
-          "lugar": "interior",
-          "pared": "papel",
-          "hora": "noche",
-          "ventana": true,
-          "props": [
-            {
-              "tipo": "chimenea",
-              "x": -1.05
-            },
-            {
-              "tipo": "cuadro",
-              "x": -1.45
-            },
-            {
-              "tipo": "mesa",
-              "x": 1.1
-            },
-            {
-              "tipo": "🕯️",
-              "x": 1.0,
-              "escala": 0.3
-            },
-            {
-              "tipo": "cuadro",
-              "x": 1.45
-            }
-          ]
-        },
-        "personajes": [
-          {
-            "quien": "dickens",
-            "x": 0.4,
-            "accion": "triste",
-            "emocion": "cansado",
-            "mirar": -1
-          },
-          {
-            "quien": "catherine",
-            "x": -0.4,
-            "accion": "sentado",
-            "emocion": "neutral",
-            "mirar": 1,
-            "habla": false
-          }
-        ],
-        "camara": "general"
       },
       {
         "texto": "A mediados de octubre empecé a escribir, a la vez que la novela, un cuento corto de Navidad sobre un viejo avaro llamado Ebenícer Escrúch, que odia la Navidad.",
@@ -1258,7 +1207,7 @@
       },
       {
         "dia": 3,
-        "texto": "Fue en septiembre, en una escuela de harapientos, que es como llaman a las escuelas gratuitas para los niños de la calle; parece que fue la de Fild Léin.",
+        "texto": "Fue en septiembre, en una escuela de harapientos, gratuita, para los niños de la calle; parece que fue la de Fild Léin.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -1537,7 +1486,7 @@
       },
       {
         "dia": 3,
-        "texto": "Allí vive mi hermana Fáni, y su hijo Jári es un niño enfermo que apenas puede andar. Quizá pensaba en él cuando inventé al pequeño Tim.",
+        "texto": "Allí vive mi hermana Fáni, y su hijo Jári es un niño enfermo que apenas puede andar; quizá pensaba en él cuando inventé al pequeño Tim.",
         "drama": 0.6,
         "fondo": {
           "lugar": "interior",
@@ -2204,93 +2153,6 @@
         }
       },
       {
-        "dia": 13,
-        "texto": "Es sábado, nueve, y veo las tapas: tela de color canela, letras doradas en la cubierta y los cantos de las hojas también dorados.",
-        "drama": 0.65,
-        "fondo": {
-          "lugar": "interior",
-          "pared": "madera",
-          "hora": "dia",
-          "ventana": true,
-          "props": [
-            {
-              "tipo": "estanteria",
-              "x": -1.35
-            },
-            {
-              "tipo": "estanteria",
-              "x": -0.85
-            },
-            {
-              "tipo": "mesa",
-              "x": 1.05
-            },
-            {
-              "tipo": "📙",
-              "x": 0.92,
-              "escala": 0.3
-            },
-            {
-              "tipo": "📙",
-              "x": 1.12,
-              "escala": 0.3
-            },
-            {
-              "tipo": "📚",
-              "x": 1.32,
-              "escala": 0.3
-            }
-          ]
-        },
-        "personajes": [
-          {
-            "quien": "dickens",
-            "x": 0.4,
-            "accion": "cargar",
-            "emocion": "feliz",
-            "mirar": -1,
-            "objeto": "📙"
-          }
-        ],
-        "camara": "cerca"
-      },
-      {
-        "dia": 14,
-        "texto": "El domingo por la noche bajo hasta el Támesis entre la niebla, y mientras miro el agua negra, cuento chelines de cabeza, una y otra vez.",
-        "drama": 0.55,
-        "fondo": {
-          "lugar": "rio",
-          "hora": "noche",
-          "clima": "niebla",
-          "luna": false,
-          "props": [
-            {
-              "tipo": "puente",
-              "x": -0.2,
-              "escala": 1.0
-            },
-            {
-              "tipo": "farola",
-              "x": -1.0
-            },
-            {
-              "tipo": "farola",
-              "x": 1.1
-            }
-          ]
-        },
-        "personajes": [
-          {
-            "quien": "dickenscalle",
-            "x": 0.38,
-            "accion": "caminar",
-            "emocion": "neutral",
-            "mirar": -1
-          }
-        ],
-        "camara": "paneo"
-      },
-      {
         "dia": 16,
         "texto": "Es martes, doce, y hago cuentas con la ilusión de un niño: si se venden los seis mil ejemplares, en primavera habré pagado todas mis deudas.",
         "drama": 0.65,
@@ -2542,90 +2404,6 @@
           }
         ],
         "camara": "general"
-      },
-      {
-        "dia": 21,
-        "texto": "Ese mismo domingo, en otra casa de Londres, un señor llamado Jenri Col recibe el dibujo de la primera tarjeta de Navidad impresa, y encarga mil ejemplares.",
-        "drama": 0.65,
-        "fondo": {
-          "lugar": "calle",
-          "hora": "dia",
-          "clima": "niebla",
-          "sol": false,
-          "props": [
-            {
-              "tipo": "farola",
-              "x": -0.9
-            },
-            {
-              "tipo": "farola",
-              "x": 1.05
-            },
-            {
-              "tipo": "carro",
-              "x": 1.45,
-              "escala": 0.8
-            }
-          ]
-        },
-        "personajes": [],
-        "camara": "lenta",
-        "insercion": {
-          "tipo": "dato",
-          "valor": "1.000",
-          "etiqueta": "primeras tarjetas de Navidad impresas (Henry Cole y J. C. Horsley, diciembre de 1843)",
-          "icono": "✉️"
-        }
-      },
-      {
-        "dia": 22,
-        "texto": "La víspera de la salida, los paquetes de libros canela van camino de las librerías, y yo no consigo dormir, como un niño la noche antes de Navidad.",
-        "drama": 0.55,
-        "fondo": {
-          "lugar": "interior",
-          "pared": "papel",
-          "hora": "noche",
-          "ventana": true,
-          "props": [
-            {
-              "tipo": "estanteria",
-              "x": -1.35
-            },
-            {
-              "tipo": "chimenea",
-              "x": -0.85
-            },
-            {
-              "tipo": "mesa",
-              "x": 1.05
-            },
-            {
-              "tipo": "🕯️",
-              "x": 0.95,
-              "escala": 0.3
-            },
-            {
-              "tipo": "📜",
-              "x": 1.2,
-              "escala": 0.3
-            },
-            {
-              "tipo": "reloj",
-              "x": 1.5,
-              "escala": 0.8
-            }
-          ]
-        },
-        "personajes": [
-          {
-            "quien": "dickens",
-            "x": 0.4,
-            "accion": "sentado",
-            "emocion": "cansado",
-            "mirar": -1
-          }
-        ],
-        "camara": "cerca"
       },
       {
         "dia": 23,
@@ -3269,56 +3047,7 @@
         }
       },
       {
-        "texto": "Termina el año y ya se preparan más ediciones del libro; el éxito es enorme, pero las cuentas de verdad no llegarán hasta febrero.",
-        "drama": 0.6,
-        "fondo": {
-          "lugar": "interior",
-          "pared": "papel",
-          "hora": "noche",
-          "ventana": true,
-          "props": [
-            {
-              "tipo": "estanteria",
-              "x": -1.35
-            },
-            {
-              "tipo": "chimenea",
-              "x": -0.85
-            },
-            {
-              "tipo": "mesa",
-              "x": 1.05
-            },
-            {
-              "tipo": "🕯️",
-              "x": 0.95,
-              "escala": 0.3
-            },
-            {
-              "tipo": "📜",
-              "x": 1.2,
-              "escala": 0.3
-            },
-            {
-              "tipo": "reloj",
-              "x": 1.5,
-              "escala": 0.8
-            }
-          ]
-        },
-        "personajes": [
-          {
-            "quien": "dickens",
-            "x": 0.4,
-            "accion": "pensar",
-            "emocion": "neutral",
-            "mirar": -1
-          }
-        ],
-        "camara": "cerca"
-      },
-      {
-        "texto": "Vendí seis mil ejemplares antes de Nochebuena, y cuando llegaron las cuentas había ganado doscientas treinta libras, porque el lujo se había comido el beneficio. Yo esperaba mucho más, quizá mil libras.",
+        "texto": "Vendí seis mil ejemplares antes de Nochebuena, y cuando llegaron las cuentas había ganado doscientas treinta libras, porque el lujo se había comido el beneficio, y yo esperaba quizá mil.",
         "drama": 0.85,
         "fondo": {
           "lugar": "interior",
@@ -3639,7 +3368,7 @@
         "camara": "paneo"
       },
       {
-        "texto": "A partir de mil ochocientos cincuenta y tres leo Canción de Navidad en público cientos de veces, y el manuscrito, encuadernado en piel roja, se lo regalo a Tómas Míton.",
+        "texto": "Desde mil ochocientos cincuenta y tres leo Canción de Navidad en público cientos de veces; el manuscrito, encuadernado en piel roja, se lo regalé a Tómas Míton, y hoy está en Nueva York.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -3692,56 +3421,7 @@
         "camara": "general"
       },
       {
-        "texto": "Ese manuscrito está hoy en Nueva York, y mi cuento no ha dejado de imprimirse ni un solo año desde aquella Navidad de mil ochocientos cuarenta y tres.",
-        "drama": 0.6,
-        "fondo": {
-          "lugar": "interior",
-          "pared": "papel",
-          "hora": "noche",
-          "ventana": true,
-          "props": [
-            {
-              "tipo": "estanteria",
-              "x": -1.35
-            },
-            {
-              "tipo": "chimenea",
-              "x": -0.85
-            },
-            {
-              "tipo": "mesa",
-              "x": 1.05
-            },
-            {
-              "tipo": "🕯️",
-              "x": 0.95,
-              "escala": 0.3
-            },
-            {
-              "tipo": "📜",
-              "x": 1.2,
-              "escala": 0.3
-            },
-            {
-              "tipo": "reloj",
-              "x": 1.5,
-              "escala": 0.8
-            }
-          ]
-        },
-        "personajes": [
-          {
-            "quien": "dickens",
-            "x": 0.4,
-            "accion": "escribir",
-            "emocion": "neutral",
-            "mirar": 1
-          }
-        ],
-        "camara": "cerca"
-      },
-      {
-        "texto": "Dicen que inventé la Navidad, y no es verdad; pero ayudé a que volviera a ser una fiesta de familia, de mesa compartida y de caridad con los que no tienen nada.",
+        "texto": "Dicen que inventé la Navidad, y no es verdad; pero mi cuento, que no ha dejado de imprimirse desde entonces, ayudó a que volviera a ser una fiesta de familia y de caridad.",
         "drama": 0.6,
         "fondo": {
           "lugar": "interior",
@@ -3806,7 +3486,7 @@
         "camara": "general"
       },
       {
-        "texto": "Yo y todas las personas de este vídeo fuimos reales. Las fechas, las cifras y las cartas están documentadas; mis pensamientos, los diálogos y muchas escenas de cada día, imaginados.",
+        "texto": "Yo y todas las personas de este vídeo fuimos reales, y las fechas, las cifras y las cartas están documentadas; mis pensamientos, los diálogos y muchas escenas de cada día son imaginados.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -3855,7 +3535,7 @@
         "camara": "cerca"
       },
       {
-        "texto": "¿Tú habrías pagado cinco chelines por mi cuento, o habrías esperado a la copia pirata? Cuéntamelo en los comentarios y suscríbete para la próxima vida.",
+        "texto": "¿Tú habrías pagado cinco chelines por mi cuento, o habrías esperado a la copia pirata? Cuéntamelo en los comentarios y suscríbete para acompañarme en la próxima vida.",
         "drama": 0.65,
         "fondo": {
           "lugar": "calle",
@@ -3908,22 +3588,22 @@
       "descripcion": "Londres, noviembre de 1843: Charles Dickens tiene 31 años, cinco hijos (el quinto en camino), una novela que se vende peor que las anteriores y deudas. Así nació Canción de Navidad. #shorts #historia #dickens"
     },
     {
-      "desde": 15,
-      "hasta": 18,
+      "desde": 14,
+      "hasta": 17,
       "rotulo": "IGNORANCIA Y MISERIA",
       "titulo": "Los niños reales que Dickens metió en Canción de Navidad",
       "descripcion": "Septiembre de 1843: Dickens visita de noche una ragged school, una escuela gratuita para niños de la calle de Londres. Meses después escribe: «Este niño es la Ignorancia. Esta niña es la Miseria». #shorts #historia #dickens"
     },
     {
-      "desde": 49,
-      "hasta": 52,
+      "desde": 44,
+      "hasta": 47,
       "rotulo": "DICKENS, MAGO",
       "titulo": "Dickens hizo de mago y sacó una cobaya viva de una caja",
       "descripcion": "26 de diciembre de 1843, fiesta de cumpleaños de Nina Macready en Londres: Charles Dickens hace de mago una hora entera, con John Forster de ayudante. Lo contó Jane Carlyle en una carta. #shorts #historia #navidad"
     },
     {
-      "desde": 54,
-      "hasta": 57,
+      "desde": 48,
+      "hasta": 51,
       "rotulo": "GANÓ EL JUICIO Y PAGÓ",
       "titulo": "Vendió 6.000 libros, ganó 230 libras y pagó 700 por unos piratas",
       "descripcion": "Canción de Navidad (1843) se agotó antes de Nochebuena, pero el lujo de la edición se comió el beneficio. En enero de 1844, unos piratas lo copiaron: Dickens ganó el pleito y pagó unas 700 libras de costas. #shorts #historia #dickens"
@@ -3934,7 +3614,7 @@
     "tituloCorto": "Un mes con Charles Dickens",
     "tituloShort": "Dickens escribió Canción de Navidad con el banco en números rojos",
     "capituloInicial": "Marley estaba muerto",
-    "descripcion": "Un mes en la vida de Charles Dickens, de mediados de noviembre a finales de diciembre de 1843, en Londres, mientras termina y publica Canción de Navidad (A Christmas Carol). Tiene 31 años, cuatro hijos y un quinto en camino, una casa en Devonshire Terrace, junto a Regent's Park, y una novela por entregas, Martin Chuzzlewit, que se vende peor que las anteriores. Recuerda la ragged school que visitó en septiembre, el Ateneo de Mánchester y la fábrica de betún donde trabajó a los doce años. Termina el manuscrito (66 páginas) el sábado 2 de diciembre; el lunes 4 descubre «con horror» que su cuenta está en descubierto; paga él la edición de lujo (tela canela, cantos dorados y cuatro láminas de John Leech coloreadas a mano) y el martes 19 de diciembre salen 6.000 ejemplares a 5 chelines, agotados antes de Nochebuena. El 26 de diciembre hace de mago en la fiesta de Nina Macready. Epílogo: 230 libras de beneficio, los piratas de Parley's Illuminated Library, el pleito de enero de 1844 y unas 700 libras de costas.\n\n— Semana 1: Dios nos bendiga a todos\n— Semana 2: Rojo, oro y canela\n— Semana 3: Cinco chelines\n— Semana 4: Agotado\n— Epílogo: 230 libras, los piratas, Frank, Thackeray y un libro que nunca ha dejado de imprimirse\n\nQué es documentado y qué es imaginado: Charles Dickens y todas las personas de este vídeo fueron reales. Las fechas, las cifras y las cartas citadas están documentadas; sus pensamientos, sus diálogos y muchas escenas de cada día son imaginados a partir de sus cartas y de la biografía de John Forster. Son imaginados, en concreto, la conversación con Forster, el día del encargo a Leech, el paseo junto al Támesis, la visita al taller de coloreado, la noche antes de la salida, la cena de Navidad y el paseo con Georgina por el mercado. Algunos datos no tienen fecha segura y se dicen con prudencia: la rebaja de 50 libras de sus editores, que la escuela fuese la de Field Lane, que el pequeño Tim se inspirase en su sobrino Harry, el día exacto en que llegaron los primeros ejemplares y las mil libras que esperaba ganar. El calendario cuenta 30 días, del lunes 27 de noviembre al martes 26 de diciembre de 1843. Las frases de las tarjetas son traducciones o paráfrasis en español de los originales en inglés. Este vídeo no se basa en ninguna adaptación para cine o televisión.\n\nFuentes: The Morgan Library & Museum (manuscrito de A Christmas Carol y carta a Thomas Mitton del 4 de diciembre de 1843); John Forster, The Life of Charles Dickens (1872–1874); The Dickens Project (UC Santa Cruz); British Library; History Today; Britannica; Victorian Web; JSTOR Daily y M. Rose, «Dickens v. Lee» (Cardozo Arts & Entertainment Law Journal); Princeton, carta a Angela Burdett-Coutts del 16 de septiembre de 1843; Victoria and Albert Museum (primera tarjeta de Navidad); English Heritage; cartas de Jane Welsh Carlyle; W. M. Thackeray, Fraser's Magazine, febrero de 1844.",
+    "descripcion": "Un mes en la vida de Charles Dickens, de mediados de noviembre a finales de diciembre de 1843, en Londres, mientras termina y publica Canción de Navidad (A Christmas Carol). Tiene 31 años, cuatro hijos y un quinto en camino, una casa en Devonshire Terrace, junto a Regent's Park, y una novela por entregas, Martin Chuzzlewit, que se vende peor que las anteriores. Recuerda la ragged school que visitó en septiembre, el Ateneo de Mánchester y la fábrica de betún donde trabajó a los doce años. Termina el manuscrito (66 páginas) el sábado 2 de diciembre; el lunes 4 descubre «con horror» que su cuenta está en descubierto; paga él la edición de lujo (tela canela, cantos dorados y cuatro láminas de John Leech coloreadas a mano) y el martes 19 de diciembre salen 6.000 ejemplares a 5 chelines, agotados antes de Nochebuena. El 26 de diciembre hace de mago en la fiesta de Nina Macready. Epílogo: 230 libras de beneficio, los piratas de Parley's Illuminated Library, el pleito de enero de 1844 y unas 700 libras de costas.\n\n— Semana 1: Dios nos bendiga a todos\n— Semana 2: Rojo, oro y canela\n— Semana 3: Cinco chelines\n— Semana 4: Agotado\n— Epílogo: 230 libras, los piratas, Frank, Thackeray y un libro que nunca ha dejado de imprimirse\n\nQué es documentado y qué es imaginado: Charles Dickens y todas las personas de este vídeo fueron reales. Las fechas, las cifras y las cartas citadas están documentadas; sus pensamientos, sus diálogos y muchas escenas de cada día son imaginados a partir de sus cartas y de la biografía de John Forster. Son imaginados, en concreto, la conversación con Forster, el día del encargo a Leech, la visita al taller de coloreado, la cena de Navidad y el paseo con Georgina por el mercado. Algunos datos no tienen fecha segura y se dicen con prudencia: la rebaja de 50 libras de sus editores, que la escuela fuese la de Field Lane, que el pequeño Tim se inspirase en su sobrino Harry, el día exacto en que llegaron los primeros ejemplares y las mil libras que esperaba ganar. El calendario cuenta 30 días, del lunes 27 de noviembre al martes 26 de diciembre de 1843. Las frases de las tarjetas son traducciones o paráfrasis en español de los originales en inglés. Este vídeo no se basa en ninguna adaptación para cine o televisión.\n\nFuentes: The Morgan Library & Museum (manuscrito de A Christmas Carol y carta a Thomas Mitton del 4 de diciembre de 1843); John Forster, The Life of Charles Dickens (1872–1874); The Dickens Project (UC Santa Cruz); British Library; History Today; Britannica; Victorian Web; JSTOR Daily y M. Rose, «Dickens v. Lee» (Cardozo Arts & Entertainment Law Journal); Princeton, carta a Angela Burdett-Coutts del 16 de septiembre de 1843; Victoria and Albert Museum (primera tarjeta de Navidad); English Heritage; cartas de Jane Welsh Carlyle; W. M. Thackeray, Fraser's Magazine, febrero de 1844.",
     "etiquetas": [
       "un mes en la vida de",
       "Charles Dickens",
