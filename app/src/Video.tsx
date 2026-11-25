@@ -83,7 +83,7 @@ export const Video: React.FC<{ slug: string; manifiesto?: Manifiesto }> = ({ slu
         return (
           <Sequence key={`a${i}`} from={bl.inicio} durationInFrames={dur} name={`texto ${i}`}>
             {i === 0 && <Titulo titulo={m.titulo} lugar={m.lugar} epoca={m.epoca} paleta={m.paleta} desde={0} />}
-            {e.dia && !e.capitulo && <Calendario dia={e.dia} paleta={m.paleta} cambio={esc[i - 1]?.dia !== e.dia} />}
+            {e.dia && !e.capitulo && <Calendario dia={e.dia} paleta={m.paleta} cambio={esc[i - 1]?.dia !== e.dia} total={Math.max(30, ...esc.map((x) => x.dia ?? 0))} />}
             {e.capitulo && <Capitulo titulo={e.capitulo} numero={caps[i]} paleta={m.paleta} />}
             {ultimo && <LlamadaFinal texto={m.formato === "short" ? "▶ El mes completo, en el canal" : "Suscríbete para el próximo mes"} paleta={m.paleta} />}
             {!m.sinSubtitulos && <Subtitulos texto={e.texto} duracionAudio={audio.duracion} paleta={m.paleta} tiempos={audio.tiempos} grafias={m.grafias} />}

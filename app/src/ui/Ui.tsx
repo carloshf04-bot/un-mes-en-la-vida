@@ -26,7 +26,7 @@ export const Grano: React.FC = () => {
   );
 };
 
-export const Calendario: React.FC<{ dia: number; paleta: Paleta; cambio: boolean }> = ({ dia, paleta, cambio }) => {
+export const Calendario: React.FC<{ dia: number; paleta: Paleta; cambio: boolean; total?: number }> = ({ dia, paleta, cambio, total = 30 }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const { u, vertical } = useU();
@@ -38,9 +38,9 @@ export const Calendario: React.FC<{ dia: number; paleta: Paleta; cambio: boolean
         <div style={{ fontFamily: serif, fontWeight: 900, fontSize: 84 * u, textAlign: "center", color: "#1b1b1b", lineHeight: 1.15 }}>{dia}</div>
       </div>
       <div style={{ flex: 1 }}>
-        <div style={{ fontFamily: sans, fontWeight: 800, fontSize: 26 * u, color: paleta.texto, opacity: 0.9, letterSpacing: 3, marginBottom: 10 * u, textShadow: "0 2px 8px rgba(0,0,0,0.7)" }}>{dia} / 30</div>
+        <div style={{ fontFamily: sans, fontWeight: 800, fontSize: 26 * u, color: paleta.texto, opacity: 0.9, letterSpacing: 3, marginBottom: 10 * u, textShadow: "0 2px 8px rgba(0,0,0,0.7)" }}>{dia} / {total}</div>
         <div style={{ height: 12 * u, borderRadius: 6 * u, background: "rgba(255,255,255,0.25)", overflow: "hidden" }}>
-          <div style={{ height: "100%", width: `${(interpolate(s, [0, 1], [Math.max(0, dia - 2), dia]) / 30) * 100}%`, background: paleta.acento }} />
+          <div style={{ height: "100%", width: `${(interpolate(s, [0, 1], [Math.max(0, dia - 2), dia]) / total) * 100}%`, background: paleta.acento }} />
         </div>
       </div>
     </div>
