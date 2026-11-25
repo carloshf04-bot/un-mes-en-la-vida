@@ -454,8 +454,8 @@ const Exterior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string; cam?
     case "campo":
       lejos = (
         <g>
-          <path d={colinas(HORIZONTE, 120, 240, 1 - deriva / 900)} fill={hora === "dia" ? "#8fb36a" : c[0]} />
-          {!bahia && <path d={colinas(HORIZONTE + 110, 130, 320, 3 - deriva / 600)} fill={hora === "dia" ? "#79a056" : c[1]} />}
+          <path d={colinas(HORIZONTE, 120, 240, 1 - deriva / 900)} fill={hora === "dia" ? (nevado ? "#c9d2dc" : "#8fb36a") : c[0]} />
+          {!bahia && <path d={colinas(HORIZONTE + 110, 130, 320, 3 - deriva / 600)} fill={hora === "dia" ? (nevado ? "#dde3ea" : "#79a056") : c[1]} />}
         </g>
       );
       break;

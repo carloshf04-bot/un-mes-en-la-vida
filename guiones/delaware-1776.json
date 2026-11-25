@@ -19,7 +19,7 @@
     "eli": {
       "piel": "#e3b896",
       "pelo": "#7a5a3a",
-      "peinado": "coleta",
+      "peinado": "corto",
       "barba": "ninguna",
       "ropa": {
         "tipo": "uniforme",
@@ -34,7 +34,7 @@
     "eli-frio": {
       "piel": "#e3b896",
       "pelo": "#7a5a3a",
-      "peinado": "coleta",
+      "peinado": "corto",
       "barba": "ninguna",
       "ropa": {
         "tipo": "abrigo",
@@ -49,7 +49,7 @@
     "eli-nuevo": {
       "piel": "#e3b896",
       "pelo": "#7a5a3a",
-      "peinado": "coleta",
+      "peinado": "corto",
       "barba": "ninguna",
       "ropa": {
         "tipo": "abrigo",
