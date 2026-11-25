@@ -267,7 +267,7 @@
   "largo": {
     "escenas": [
       {
-        "texto": "El treinta y uno de diciembre se acaba mi contrato con el ejército, y ese día el general Uáshington nos pedirá seis semanas más por diez dólares.",
+        "texto": "El treinta y uno de diciembre se acaba mi contrato con el ejército, y el general Uáshington nos va a pedir seis semanas más por diez dólares.",
         "drama": 0.8,
         "fondo": {
           "lugar": "rio",
@@ -320,7 +320,7 @@
         "camara": "cerca"
       },
       {
-        "texto": "Esta es la historia de treinta y cuatro días junto a un río helado, el Délauer, y de una pregunta que no me deja dormir: ¿me quedo o vuelvo a casa?",
+        "texto": "Esta es la historia de treinta y cuatro días junto a un río helado y de una pregunta que no me deja dormir: ¿me quedo o vuelvo a casa?",
         "drama": 0.65,
         "personajes": [
           {
@@ -412,7 +412,7 @@
       },
       {
         "dia": 2,
-        "texto": "Es lunes, dos de diciembre, y marchamos de noche hacia Prínston por un barro que se traga los pies, con los británicos pisándonos los talones.",
+        "texto": "El lunes marchamos de noche hacia Prínston por un barro que se traga los pies, con los británicos pisándonos los talones.",
         "drama": 0.65,
         "fondo": {
           "lugar": "campo",
@@ -495,7 +495,7 @@
       },
       {
         "dia": 3,
-        "texto": "Es martes, tres, cuando por fin vemos el Délauer, ancho y gris, con Pensilvania al otro lado y el bagaje del ejército cruzando en barcas.",
+        "texto": "Por fin vemos el Délauer, ancho y gris, con Pensilvania al otro lado y el bagaje del ejército cruzando en barcas.",
         "drama": 0.6,
         "fondo": {
           "lugar": "rio",
@@ -508,12 +508,12 @@
               "x": -1.4
             },
             {
-              "tipo": "bote",
+              "tipo": "barca-durham",
               "x": -0.35,
               "escala": 0.6
             },
             {
-              "tipo": "bote",
+              "tipo": "barca-durham",
               "x": -0.95,
               "escala": 0.45
             },
@@ -587,7 +587,7 @@
       },
       {
         "dia": 5,
-        "texto": "Es jueves, cinco, cuando me toca cruzar a mí, en una barca que reman en silencio los marineros de Márbeljed del coronel Glóver, blancos y negros juntos.",
+        "texto": "El jueves me toca cruzar a mí, en una barca que reman en silencio unos barqueros del río que conocen cada remolino.",
         "drama": 0.65,
         "fondo": {
           "lugar": "rio",
@@ -601,7 +601,7 @@
               "x": -1.4
             },
             {
-              "tipo": "bote",
+              "tipo": "barca-durham",
               "x": 0.0,
               "escala": 0.7
             },
@@ -631,9 +631,19 @@
         "camara": "lenta"
       },
       {
-        "dia": 7,
-        "texto": "Por orden del general, no dejamos ni una barca en la orilla de Jersey: o cruzan con nosotros, o se esconden río arriba, o arden.",
-        "drama": 0.6,
+        "dia": 8,
+        "texto": "Cuando los británicos llegan a Trénton, se encuentran un río sin barcas: las hemos cruzado, escondido o quemado todas. Esa noche oímos sus tambores sobre el agua, tan cerca que parece que tocan para nosotros.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "eli",
+            "x": 0.4,
+            "accion": "agachado",
+            "emocion": "miedo",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca",
         "fondo": {
           "lugar": "rio",
           "hora": "noche",
@@ -656,45 +666,12 @@
               "detras": true
             }
           ]
-        },
-        "personajes": [
-          {
-            "quien": "eli",
-            "x": 0.4,
-            "accion": "quieto",
-            "emocion": "neutral",
-            "mirar": -1
-          },
-          {
-            "quien": "caleb",
-            "x": -0.4,
-            "accion": "senalar",
-            "emocion": "neutral",
-            "mirar": 1,
-            "habla": false
-          }
-        ],
-        "camara": "lenta"
-      },
-      {
-        "dia": 8,
-        "texto": "Es domingo, ocho, y los británicos llegan a Trénton y se encuentran un río sin barcas. Esa noche oímos sus tambores sobre el agua, tan cerca que dan miedo.",
-        "drama": 0.75,
-        "personajes": [
-          {
-            "quien": "eli",
-            "x": 0.4,
-            "accion": "agachado",
-            "emocion": "miedo",
-            "mirar": -1
-          }
-        ],
-        "camara": "cerca"
+        }
       },
       {
         "dia": 9,
         "capitulo": "El río",
-        "texto": "Es lunes, nueve, y nuestro campamento en el condado de Baks son hogueras y chozas de ramas, porque casi nadie tiene tienda, y yo me ato el zapato roto con trapos.",
+        "texto": "En el condado de Baks, nuestro campamento son hogueras y chozas de ramas, porque casi nadie tiene tienda, y yo me ato el zapato roto con trapos.",
         "drama": 0.55,
         "fondo": {
           "lugar": "bosque",
@@ -738,7 +715,7 @@
       },
       {
         "dia": 10,
-        "texto": "Es martes, diez, y el rancho es harina y carne salada; con harina y agua hacemos tortas de fuego entre las brasas, que saben a ceniza.",
+        "texto": "El rancho es harina y carne salada; con harina y agua hacemos tortas de fuego entre las brasas, que saben a ceniza.",
         "drama": 0.55,
         "fondo": {
           "lugar": "bosque",
@@ -788,7 +765,7 @@
       },
       {
         "dia": 11,
-        "texto": "Es miércoles, once, y hay fiebre en la choza de al lado; a los enfermos se los llevan a granjas como la casa de piedra de los Tómson Níli.",
+        "texto": "En la choza de al lado hay fiebre, y a los enfermos se los llevan a granjas como la casa de piedra de los Tómson Níli.",
         "drama": 0.6,
         "fondo": {
           "lugar": "interior",
@@ -824,7 +801,7 @@
       },
       {
         "dia": 12,
-        "texto": "Es jueves, doce, y corre el rumor de que el Congreso ha huido de Filadelfia; al día siguiente, otro peor: los británicos han capturado al general Charls Li.",
+        "texto": "El jueves corre el rumor de que el Congreso ha huido de Filadelfia; al día siguiente, otro peor: los británicos han capturado al general Charls Li.",
         "drama": 0.7,
         "fondo": {
           "lugar": "campo",
@@ -867,7 +844,7 @@
       },
       {
         "dia": 14,
-        "texto": "Es sábado, catorce, y en Trénton se instalan para el invierno entre mil cuatrocientos y mil seiscientos hesianos, soldados alemanes que el rey británico ha alquilado.",
+        "texto": "En Trénton se instalan para el invierno entre mil cuatrocientos y mil seiscientos hesianos, soldados alemanes que el rey británico ha alquilado.",
         "drama": 0.65,
         "fondo": {
           "lugar": "calle",
@@ -904,7 +881,7 @@
       },
       {
         "dia": 15,
-        "texto": "Es domingo, quince, y llega carta de casa: mi madre pregunta si vuelvo en enero, y mi hermana Mérsi ha escrito abajo que me guarda la silla.",
+        "texto": "El domingo llega carta de casa: mi madre pregunta si vuelvo en enero, y mi hermana Mérsi ha escrito abajo que me guarda la silla.",
         "drama": 0.5,
         "fondo": {
           "lugar": "campo",
@@ -948,7 +925,7 @@
       },
       {
         "dia": 16,
-        "texto": "Es lunes, dieciséis, y ya se forma hielo en las dos orillas del río. Echo cuentas con los dedos: quince días y se acaba mi contrato, y en primavera alguien tendrá que sembrar.",
+        "texto": "Ya se forma hielo en las dos orillas del río, y echo cuentas: quince días y se acaba mi contrato, y en primavera alguien tendrá que sembrar.",
         "drama": 0.55,
         "fondo": {
           "lugar": "rio",
@@ -1054,7 +1031,7 @@
       },
       {
         "dia": 20,
-        "texto": "Es viernes, veinte, y llegan los hombres del general Sálivan, flacos y harapientos, pero el general avisa al Congreso de que en diez días el ejército dejará de existir.",
+        "texto": "El viernes llegan los hombres del general Sálivan, flacos y harapientos, y con ellos los marineros de Márbeljed del coronel Glóver, blancos y negros juntos.",
         "drama": 0.7,
         "fondo": {
           "lugar": "campo",
@@ -1104,7 +1081,7 @@
       {
         "dia": 22,
         "capitulo": "Victoria o muerte",
-        "texto": "Es domingo, veintidós, y Cáleb, el único que sabe leer de corrido, nos lee junto a la hoguera un folleto de Tómas Péin impreso hace tres días en Filadelfia.",
+        "texto": "Junto a la hoguera, Cáleb, el único que sabe leer de corrido, nos lee un folleto de Tómas Péin impreso hace tres días en Filadelfia.",
         "drama": 0.65,
         "fondo": {
           "lugar": "bosque",
@@ -1236,7 +1213,7 @@
         "camara": "general",
         "insercion": {
           "tipo": "objetos",
-          "titulo": "La orden de Nochebuena",
+          "titulo": "Lo que llevo",
           "items": [
             {
               "icono": "🍞",
@@ -1244,15 +1221,15 @@
             },
             {
               "icono": "🧥",
-              "nombre": "La manta, enrollada"
+              "nombre": "La manta (o lo que tengo por manta)"
             },
             {
-              "icono": "🪶",
-              "nombre": "Piedras de chispa nuevas"
+              "icono": "👞",
+              "nombre": "Los zapatos atados con trapos"
             },
             {
-              "icono": "🥁",
-              "nombre": "Ni un tambor hasta nueva orden"
+              "icono": "✉️",
+              "nombre": "La carta de casa"
             }
           ]
         }
@@ -1354,7 +1331,7 @@
       },
       {
         "dia": 25,
-        "texto": "Cae la noche y entra una tormenta del nordeste, con aguanieve, nieve y un viento que, según escribió un testigo, soplaba como un huracán perfecto.",
+        "texto": "La noche de Navidad de mil setecientos setenta y seis entra una tormenta del nordeste, con aguanieve, nieve y un viento que, según un testigo, soplaba como un huracán perfecto.",
         "drama": 0.85,
         "fondo": {
           "lugar": "rio",
@@ -1368,12 +1345,12 @@
               "x": -1.25
             },
             {
-              "tipo": "bote",
+              "tipo": "barca-durham",
               "x": -1.0,
               "escala": 0.6
             },
             {
-              "tipo": "bote",
+              "tipo": "barca-durham",
               "x": 1.05,
               "escala": 0.55
             },
@@ -1396,7 +1373,7 @@
       },
       {
         "dia": 25,
-        "texto": "En la orilla, el coronel Nox, un antiguo librero de Boston con un vozarrón enorme, embarca a dos mil cuatrocientos hombres, caballos y dieciocho cañones.",
+        "texto": "En la orilla, el coronel Nox dirige el embarque de dos mil cuatrocientos hombres, los caballos y dieciocho cañones.",
         "drama": 0.8,
         "personajes": [
           {
@@ -1419,7 +1396,7 @@
       },
       {
         "dia": 25,
-        "texto": "Cruzamos en barcas Dérjam, barcazas negras de hasta dieciocho metros hechas para llevar hierro, y vamos de pie, apretados, porque no cabe nadie más.",
+        "texto": "Cruzamos en barcas Dérjam, barcazas negras de hasta dieciocho metros hechas para llevar hierro, y vamos apretados, sin sitio ni para sentarse.",
         "drama": 0.8,
         "fondo": {
           "lugar": "rio",
@@ -1433,7 +1410,7 @@
               "x": -1.25
             },
             {
-              "tipo": "bote",
+              "tipo": "barca-durham",
               "x": -0.0,
               "escala": 0.75
             },
@@ -1465,7 +1442,7 @@
           "tipo": "dato",
           "valor": "12–18 m",
           "etiqueta": "medían las barcas Durham, barcazas de carga de fondo plano para mineral y lingotes de hierro, movidas con remos y pértigas",
-          "prop": "bote"
+          "prop": "barca-durham"
         }
       },
       {
@@ -1507,12 +1484,12 @@
               "x": -1.25
             },
             {
-              "tipo": "bote",
+              "tipo": "barca-durham",
               "x": -1.0,
               "escala": 0.6
             },
             {
-              "tipo": "bote",
+              "tipo": "barca-durham",
               "x": 1.05,
               "escala": 0.55
             },
@@ -1535,7 +1512,7 @@
       },
       {
         "dia": 26,
-        "texto": "Hacia las cuatro echamos a andar diez millas por la nieve hasta Trénton, con el viento en la cara. Cuentan que, avisado de que la pólvora estaba mojada, el general contestó que usaran la bayoneta.",
+        "texto": "Hacia las cuatro echamos a andar diez millas por la nieve hasta Trénton. Cuentan que, avisado de que la pólvora estaba mojada, el general contestó que usaran la bayoneta.",
         "drama": 0.8,
         "fondo": {
           "lugar": "campo",
@@ -1627,7 +1604,7 @@
       },
       {
         "dia": 26,
-        "texto": "Los hesianos salen de las casas medio vestidos, agotados por semanas de alarmas, y aun así forman y pelean; no están borrachos, digan lo que digan después.",
+        "texto": "Los hesianos salen corriendo de las casas, agotados por semanas de alarmas, y aun así forman y pelean. Un pífano de dieciséis años escribió después que no vio ni a uno borracho.",
         "drama": 0.85,
         "personajes": [
           {
@@ -1647,42 +1624,6 @@
           }
         ],
         "camara": "general"
-      },
-      {
-        "dia": 26,
-        "texto": "Todo es humo, gritos en alemán y en inglés y retumbar de cañones; me agacho junto a una valla y avanzo cuando avanzan los demás.",
-        "drama": 0.9,
-        "fondo": {
-          "lugar": "calle",
-          "hora": "amanecer",
-          "clima": "nieve",
-          "nevado": true,
-          "sol": false,
-          "props": [
-            {
-              "tipo": "casa",
-              "x": -1.3
-            },
-            {
-              "tipo": "valla",
-              "x": -0.25
-            },
-            {
-              "tipo": "casa",
-              "x": 1.3
-            }
-          ]
-        },
-        "personajes": [
-          {
-            "quien": "eli-frio",
-            "x": 0.4,
-            "accion": "agachado",
-            "emocion": "miedo",
-            "mirar": -1
-          }
-        ],
-        "camara": "cerca"
       },
       {
         "dia": 26,
@@ -1778,12 +1719,12 @@
               "x": -1.4
             },
             {
-              "tipo": "bote",
+              "tipo": "barca-durham",
               "x": 0.0,
               "escala": 0.65
             },
             {
-              "tipo": "bote",
+              "tipo": "barca-durham",
               "x": 1.05,
               "escala": 0.5
             },
@@ -1815,7 +1756,7 @@
       {
         "dia": 27,
         "capitulo": "Seis semanas más",
-        "texto": "Es viernes, veintisiete, y al quitarme los trapos veo que tengo los dedos de los pies blancos y duros, y tardan horas en volver a dolerme.",
+        "texto": "Al quitarme los trapos de los pies veo que tengo los dedos blancos y duros, y tardan horas en volver a dolerme.",
         "drama": 0.55,
         "fondo": {
           "lugar": "bosque",
@@ -1850,7 +1791,7 @@
       },
       {
         "dia": 28,
-        "texto": "Al día siguiente, un sargento me consigue unos zapatos casi nuevos; no pregunto de dónde salen y me los pongo despacio, como quien estrena un tesoro.",
+        "texto": "Al día siguiente, un sargento me consigue unos zapatos casi nuevos de un almacén que hemos tomado, y me los pongo despacio, como quien estrena un tesoro.",
         "drama": 0.5,
         "personajes": [
           {
@@ -1909,13 +1850,13 @@
         "insercion": {
           "tipo": "dato",
           "valor": "10 $",
-          "etiqueta": "de prima por quedarse seis semanas más (Washington, 30 de diciembre de 1776): más que un mes y medio de paga de un soldado raso",
+          "etiqueta": "de prima por quedarse seis semanas más (Washington, 30 de diciembre de 1776): un mes y medio de paga de un soldado raso, además del sueldo",
           "icono": "🪙"
         }
       },
       {
         "dia": 31,
-        "texto": "Es martes, treinta y uno, el día en que se acaba mi contrato, y el general Uáshington nos forma en la nieve para pedirnos que nos quedemos.",
+        "texto": "Hoy se acaba mi contrato, y el general Uáshington nos forma en la nieve para pedirnos que nos quedemos.",
         "drama": 0.75,
         "fondo": {
           "lugar": "campo",
@@ -1975,7 +1916,7 @@
       },
       {
         "dia": 31,
-        "texto": "Entonces el general vuelve a hablar, nos llama valientes, dice que hemos hecho todo lo que nos pidió y más, y el tambor redobla otra vez.",
+        "texto": "Entonces el general vuelve a hablar y nos llama valientes, como contó aquel sargento, y el tambor redobla otra vez sobre el campo helado.",
         "drama": 0.85,
         "personajes": [
           {
@@ -2233,26 +2174,18 @@
       },
       {
         "dia": 34,
-        "texto": "Entonces llega el general Uáshington a caballo, nos reúne a todos, y la línea que se rompía hace un momento vuelve a avanzar por el campo helado.",
+        "texto": "Entonces llega el general Uáshington, nos reúne a todos, y la línea que se rompía hace un momento vuelve a avanzar por el campo helado.",
         "drama": 0.85,
         "personajes": [
           {
-            "quien": "washington",
-            "x": -0.4,
-            "accion": "senalar",
-            "emocion": "enfado",
-            "mirar": 1,
-            "habla": false
-          },
-          {
             "quien": "eli-nuevo",
             "x": 0.4,
-            "accion": "caminar",
+            "accion": "senalar",
             "emocion": "sorpresa",
             "mirar": -1
           }
         ],
-        "camara": "general"
+        "camara": "lenta"
       },
       {
         "dia": 34,
@@ -2272,7 +2205,7 @@
           "tipo": "dato",
           "valor": "194",
           "etiqueta": "británicos se rindieron en Nassau Hall, el edificio del colegio de Princeton, tras unos cañonazos",
-          "icono": "🏛️"
+          "prop": "casa"
         }
       },
       {
@@ -2370,7 +2303,7 @@
               "x": -1.35
             },
             {
-              "tipo": "bote",
+              "tipo": "barca-durham",
               "x": -0.95,
               "escala": 0.5
             },
@@ -2444,22 +2377,22 @@
       "descripcion": "Diciembre de 1776: el ejército de Washington se deshace en la retirada por Nueva Jersey y casi todos los alistamientos vencen el 31. La historia de un soldado (inventado) de Connecticut con los zapatos atados con trapos. #shorts #historia #washington #revolucionamericana"
     },
     {
-      "desde": 28,
-      "hasta": 32,
+      "desde": 27,
+      "hasta": 31,
       "rotulo": "CRUZAR EL RÍO HELADO",
       "titulo": "Cruzamos un río helado de noche, de pie, en barcas hechas para llevar hierro",
       "descripcion": "Noche del 25 al 26 de diciembre de 1776: 2.400 hombres y 18 cañones cruzan el Delaware en barcas Durham entre aguanieve y hielo, con los marineros de Glover a los remos. #shorts #historia #delaware #washington #revolucionamericana"
     },
     {
-      "desde": 34,
-      "hasta": 38,
+      "desde": 33,
+      "hasta": 36,
       "rotulo": "TRENTON AL AMANECER",
       "titulo": "Ganamos una batalla sin un solo muerto en combate",
       "descripcion": "Trenton, 26 de diciembre de 1776: un ataque por sorpresa bajo la nieve, cerca de 900 hessianos prisioneros y ningún americano muerto en combate. Y no, los hessianos no estaban borrachos. #shorts #historia #trenton #washington #revolucionamericana"
     },
     {
-      "desde": 43,
-      "hasta": 46,
+      "desde": 41,
+      "hasta": 44,
       "rotulo": "EL TAMBOR SONÓ DOS VECES",
       "titulo": "Washington nos pidió seis semanas más por diez dólares",
       "descripcion": "31 de diciembre de 1776: se acaban los alistamientos y Washington ofrece 10 dólares a quien se quede seis semanas más. Cuentan que el tambor redobló dos veces. #shorts #historia #washington #revolucionamericana"
@@ -2470,7 +2403,7 @@
     "tituloCorto": "Río Delaware, 1776",
     "tituloShort": "Cruzamos un río helado de noche, en barcas hechas para llevar hierro",
     "capituloInicial": "Seis semanas más por diez dólares",
-    "descripcion": "Treinta y cuatro días en la vida de Eli Barnes, 19 años, de Norwich (Connecticut), soldado raso del 20.º Regimiento Continental en la brigada del general Hugh Mercer, del 1 de diciembre de 1776 al 3 de enero de 1777: la retirada por Nueva Jersey, el paso del río Delaware a Pensilvania, el campamento sin tiendas del condado de Bucks, las tortas de harina en las brasas, la proclama de perdón de los hermanos Howe, el general Charles Lee capturado, «The American Crisis» de Thomas Paine, la muerte del capitán James Moore el día de Navidad, el cruce del Delaware en la noche del 25 al 26 con el santo y seña «Victory or Death», las barcas Durham y los marineros de Marblehead del coronel John Glover, la batalla de Trenton, los diez dólares por quedarse seis semanas más, el puente del Assunpink, las hogueras que se quedaron encendidas sin nadie y la batalla de Princeton. Sin escenas gráficas y con respeto por los soldados de los dos bandos, también por los hessianos.\n\n— Semana 1: La retirada\n— Semana 2: El río\n— Semana 3: Victoria o muerte\n— Semana 4: Seis semanas más\n— Epílogo: Morristown y la viruela, la muerte de Mercer, los «diez días cruciales» y los errores del cuadro famoso\n\nQué es inventado y qué es real: Eli Barnes, su madre, su hermana Mercy y sus compañeros Caleb y Amos son INVENTADOS, igual que lo que piensan y viven. Son reales el 20.º Continental del coronel John Durkee y la brigada de Mercer, la retirada por Nueva Jersey, la proclama de los Howe, la huida del Congreso a Baltimore, la captura de Charles Lee, la carta de Washington del 18 de diciembre («Creo que la partida está casi perdida»), la del 20 al Congreso, el folleto de Paine del 19 de diciembre, la muerte del capitán James Moore en la casa Thompson-Neely, el cruce por McConkey's Ferry, Henry Knox, John Glover y sus marineros (entre ellos hombres negros que servían como iguales), la batalla de Trenton y la herida de James Monroe, la prima de diez dólares del 30 de diciembre, el Assunpink, la marcha nocturna, Princeton, Nassau Hall y la caída de Mercer. Las personas reales aparecen solo con hechos documentados; Eli no habla con ninguna.\n\nDetalles discutidos se cuentan como tales: que el folleto de Paine se leyera a la tropa antes del cruce (no hay orden de Washington; en el vídeo lo lee un compañero), las palabras exactas de la respuesta sobre la bayoneta, la escena del tambor del 31 de diciembre (la contó un sargento anónimo en 1832), cuántos se quedaron (más o menos la mitad), el número de hessianos de Trenton (1.400–1.600), la duración de la batalla, cuántos hombres mantuvieron las hogueras y las cifras de Princeton. Los hessianos no estaban borrachos: estaban agotados por semanas de alarmas. El famoso cuadro de 1851 está lleno de errores: la bandera de barras y estrellas no se aprobó hasta junio de 1777 y nadie cruzó de pie en una barca pequeña.\n\nFuentes: Papeles de George Washington (Founders Online, Archivos Nacionales de EE. UU.); Thomas Paine, «The American Crisis»; Mount Vernon; American Battlefield Trust; Servicio de Parques Nacionales de EE. UU.; Centro de Historia Militar del Ejército de EE. UU. («The Continental Army»); Washington Crossing Historic Park; Journal of the American Revolution; Museum of the American Revolution; Metropolitan Museum of Art (sobre el cuadro de Leutze); Emerging Revolutionary War.",
+    "descripcion": "Treinta y cuatro días en la vida de Eli Barnes, 19 años, de Norwich (Connecticut), soldado raso del 20.º Regimiento Continental en la brigada del general Hugh Mercer, del 1 de diciembre de 1776 al 3 de enero de 1777: la retirada por Nueva Jersey, el paso del río Delaware a Pensilvania, el campamento sin tiendas del condado de Bucks, las tortas de harina en las brasas, la proclama de perdón de los hermanos Howe, el general Charles Lee capturado, «The American Crisis» de Thomas Paine, la muerte del capitán James Moore el día de Navidad, el cruce del Delaware en la noche del 25 al 26 con el santo y seña «Victory or Death», las barcas Durham y los marineros de Marblehead del coronel John Glover, la batalla de Trenton, los diez dólares por quedarse seis semanas más, el puente del Assunpink, las hogueras que se quedaron encendidas sin nadie y la batalla de Princeton. Sin escenas gráficas y con respeto por los soldados de los dos bandos, también por los hessianos.\n\n— Semana 1: La retirada\n— Semana 2: El río\n— Semana 3: Victoria o muerte\n— Semana 4: Seis semanas más\n— Epílogo: Morristown y la viruela, la muerte de Mercer, los «diez días cruciales» y los errores del cuadro famoso\n\nQué es inventado y qué es real: Eli Barnes, su madre, su hermana Mercy y sus compañeros Caleb y Amos son INVENTADOS, y los demás soldados y vecinos sin nombre también, igual que lo que piensan y viven. Son reales el 20.º Continental del coronel John Durkee y la brigada de Mercer, la retirada por Nueva Jersey, la proclama de los Howe, la huida del Congreso a Baltimore, la captura de Charles Lee, la carta de Washington del 18 de diciembre («Creo que la partida está casi perdida»), la del 20 al Congreso, el folleto de Paine del 19 de diciembre, la muerte del capitán James Moore en la casa Thompson-Neely, el cruce por McConkey's Ferry, Henry Knox, John Glover y sus marineros, llegados con Sullivan el 20 de diciembre (entre ellos hombres negros que servían como iguales), la batalla de Trenton y la herida de James Monroe, la prima de diez dólares del 30 de diciembre, el Assunpink, la marcha nocturna, Princeton, Nassau Hall y la caída de Mercer. Las personas reales aparecen solo con hechos documentados; Eli no habla con ninguna.\n\nDetalles discutidos se cuentan como tales: que el folleto de Paine se leyera a la tropa antes del cruce (no hay orden de Washington; en el vídeo lo lee un compañero), las palabras exactas de la respuesta sobre la bayoneta, la escena del tambor del 31 de diciembre (la contó un sargento anónimo en 1832), cuántos se quedaron (más o menos la mitad), el número de hessianos de Trenton (1.400–1.600), la duración de la batalla, cuántos hombres mantuvieron las hogueras, las cifras de Princeton, que se cruzara de pie en las barcas y el día exacto de la llegada al Delaware (2 o 3 de diciembre). Los hessianos no estaban borrachos: estaban agotados por semanas de alarmas. El famoso cuadro de 1851 está lleno de errores: la bandera de barras y estrellas no se aprobó hasta junio de 1777 y nadie cruzó de pie en una barca pequeña.\n\nFuentes: Papeles de George Washington (Founders Online, Archivos Nacionales de EE. UU.); Thomas Paine, «The American Crisis»; Mount Vernon; American Battlefield Trust; Servicio de Parques Nacionales de EE. UU.; Centro de Historia Militar del Ejército de EE. UU. («The Continental Army»); Washington Crossing Historic Park; Journal of the American Revolution; Museum of the American Revolution; Metropolitan Museum of Art (sobre el cuadro de Leutze); Emerging Revolutionary War.",
     "etiquetas": [
       "un mes en la vida de",
       "río Delaware",
