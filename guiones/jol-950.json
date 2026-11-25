@@ -334,7 +334,7 @@
           "tipo": "mapa",
           "lugar": "Innherred, Trøndelag (Noruega)",
           "detalle": "Trøndelag (Noruega) · hacia el 950 · el mes del Jól",
-          "icono": "📍"
+          "icono": "●"
         }
       },
       {
@@ -1165,7 +1165,7 @@
             "mirar": -1
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 12,
@@ -2440,13 +2440,13 @@
         "personajes": [
           {
             "quien": "asa_capa",
-            "x": 0.35,
+            "x": 0.3,
             "accion": "hablar",
             "emocion": "neutral",
             "mirar": -1
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "texto": "Y la cerveza de Navidad. Siglos después, una ley noruega mandaba bendecirla en Nochebuena por un buen año y paz. Las mismas palabras que se decían en el viejo Yol.",
@@ -2543,13 +2543,13 @@
         "personajes": [
           {
             "quien": "asa_capa",
-            "x": 0.35,
+            "x": 0.3,
             "accion": "senalar",
             "emocion": "sorpresa",
             "mirar": -1
           }
         ],
-        "camara": "cerca",
+        "camara": "lenta",
         "insercion": {
           "tipo": "objetos",
           "titulo": "Lo que NO viene del Jól",
@@ -2674,7 +2674,7 @@
     ],
     "miniatura": {
       "texto": "¿SU DIOS O SU CORONA?",
-      "escena": 45,
+      "escena": 48,
       "quien": "hakon",
       "emocion": "miedo"
     }

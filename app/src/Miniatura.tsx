@@ -70,7 +70,7 @@ export const Miniatura: React.FC<{ slug: string; manifiesto?: Manifiesto }> = ({
           ...(vertical ? { left: 50 * u, right: 50 * u, top: 120 * u, textAlign: "center" as const } : { left: 52 * u, top: 0, bottom: 0, width: 640 * u, display: "flex", flexDirection: "column" as const, justifyContent: "center" }),
         }}
       >
-        <div style={{ display: "inline-block", alignSelf: "flex-start", background: m.paleta.acento, color: "#111", fontFamily: sans, fontWeight: 900, fontSize: 26 * u, letterSpacing: 4 * u, padding: `${8 * u}px ${18 * u}px`, borderRadius: 8 * u, marginBottom: 18 * u, rotate: "-2deg" }}>
+        <div style={{ display: "inline-block", alignSelf: "flex-start", background: m.paleta.acento, color: "#111", fontFamily: sans, fontWeight: 900, fontSize: Math.min(26 * u, (anchoDisponible - 40 * u) / (("UN MES EN LA VIDA DE " + m.titulo).length * 0.78)), letterSpacing: 3 * u, whiteSpace: "nowrap", padding: `${8 * u}px ${18 * u}px`, borderRadius: 8 * u, marginBottom: 18 * u, rotate: "-2deg" }}>
           UN MES EN LA VIDA DE {m.titulo.toUpperCase()}
         </div>
         <div style={{ fontFamily: sans, fontWeight: 900, fontSize: tam, lineHeight: 0.98, textTransform: "uppercase", letterSpacing: -1 * u }}>
