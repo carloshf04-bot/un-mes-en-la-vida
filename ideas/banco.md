@@ -110,7 +110,7 @@ Por qué funciona cada idea: tiene **un mes concreto con un acontecimiento dram�
 
 | Estado | Slug | Día | Un mes en la vida de… | Mes | Gancho |
 |---|---|---|---|---|---|
-| [~] | `glenn-miller-1944` | Lunes 14 · misterios | un mecánico de la RAF en Twinwood Farm | Inglaterra, diciembre de 1944 | 15 de diciembre: la avioneta de Glenn Miller despega en la niebla hacia París y nunca llega. **Efeméride.** |
+| [x] | `glenn-miller-1944` | Lunes 14 · misterios | un mecánico de la RAF en Twinwood Farm | Inglaterra, diciembre de 1944 | 15 de diciembre: la avioneta de Glenn Miller despega en la niebla hacia París y nunca llega. **Efeméride.** |
 | [x] | `bastogne-1944` | Martes 15 · guerra | un soldado de la 101.ª en Bastogne | Bélgica, diciembre de 1944 | 16 de diciembre empieza la batalla de las Ardenas; el 22 el general responde «Nuts!». **Efeméride.** |
 | [x] | `jol-950` | Miércoles 16 · mitos | una niña en el Jól nórdico | Noruega, solsticio de invierno, c. 950 | La noche más larga: la Cacería Salvaje, los sacrificios y el origen de muchas costumbres de Navidad. **Efeméride.** |
 | [x] | `wright-1903` | Jueves 17 · personajes | los hermanos Wright | Kitty Hawk, noviembre–diciembre de 1903 | 17 de diciembre: el primer vuelo dura 12 segundos. **Efeméride.** |
