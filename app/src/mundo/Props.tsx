@@ -20,7 +20,7 @@ export const PROPS_DISPONIBLES = [
   "templo-mayor", "canoa", "ahuejote", "chinampa", "calzada", "brasero", "petate", "metate", "ciudad-lago",
   "granja-fuego", "charco", "puesto-mexica",
   // Egipto, Reino Nuevo (Abidos 1270 a. C.)
-  "barca", "yed", "oruwa", "dagoba", "torre-alerta", "tren-diesel",
+  "barca", "yed", "oruwa", "dagoba", "torre-alerta", "tren-diesel", "barca-durham",
   // Armero (1985)
   "lodo", "barrizal",
   // Roma (Saturnales) y Halifax (1917)
@@ -1083,6 +1083,22 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: num
           <path d="M8 -450 Q140 -320 8 -170Z" fill="#d9cfb8" />
         </g>
       );
+    case "barca-durham": {
+      // barca Durham (río Delaware, 1776): casco largo, negro y abierto, de bordas altas y proa y popa en punta,
+      // sin vela; dos pértigas clavadas en el agua y el remo de espadilla a popa. Se mece un poco en la corriente.
+      const bal = Math.sin(f / 18) * 3;
+      return (
+        <g transform={`translate(0 ${bal})`}>
+          <path d="M-620 -150 L-520 -40 Q0 10 520 -40 L620 -150 Z" fill="#2c2620" />
+          <path d="M-620 -150 L620 -150" stroke="#5a4a36" strokeWidth={14} />
+          {[-400, -200, 0, 200, 400].map((x) => <rect key={x} x={x - 6} y={-150} width={12} height={100} fill="#3e342a" />)}
+          <path d="M-480 -150 L-360 -560 M260 -150 L380 -560" stroke="#7a5a36" strokeWidth={10} />
+          <path d="M600 -150 L780 -60" stroke="#6b4a2e" strokeWidth={14} />
+          <rect x={760} y={-80} width={60} height={40} rx={6} fill="#6b4a2e" transform="rotate(26 780 -60)" />
+          <path d="M-640 -30 Q-320 -10 0 -30 Q320 -10 640 -30" stroke="#ffffff" strokeWidth={6} fill="none" opacity={0.25} />
+        </g>
+      );
+    }
     case "oruwa": {
       // canoa de pesca cingalesa: tronco vaciado estrecho, batanga (flotador) unida por dos palos curvos y vela de tela cuadrada
       const bal = Math.sin(f / 14) * 2; // apenas se mece (también sirve varada en la arena)
