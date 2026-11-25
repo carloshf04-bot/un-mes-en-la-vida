@@ -6,7 +6,7 @@ import { oscurecer } from "./constantes";
 // Para añadir uno nuevo: añade un `case` y documéntalo en oficina/GUIA_GUION.md
 export const PROPS_DISPONIBLES = [
   "arbol", "pino", "palmera", "casa", "cabana", "faro", "barco", "velero", "cohete", "farola", "carro", "puesto",
-  "roca", "valla", "pozo", "tumba", "hoguera", "tienda", "bandera", "bandera-eeuu", "mesa", "estanteria", "chimenea", "cama", "banco-pieles", "arcon", "duna",
+  "roca", "valla", "pozo", "tumba", "hoguera", "tienda", "bandera", "bandera-eeuu", "bandera-uk", "mesa", "estanteria", "chimenea", "cama", "banco-pieles", "arcon", "duna",
   "antorcha", "cuadro", "consola", "maquina", "barril", "cajas", "planta", "telescopio", "yunque", "piramide", "columna", "reloj",
   "bergantin-hielo", "bergantin-hundido", "bote",
   "volcan", "volcan-erupcion", "bergantin", "cruz", "parapeto-aleman", "lecho", "estatua-saturno", "electrometro", "cristalizadores", "espectro", "humo", "explosion", "horno", "molino", "anfora", "termopolio",
@@ -677,6 +677,25 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: num
             {Array.from({ length: 30 }, (_, k) => (
               <circle key={k} cx={20 + (k % 6) * 16 + (Math.floor(k / 6) % 2) * 8} cy={-544 + Math.floor(k / 6) * 12 + (w1 * (k % 6)) / 60} r={3} fill="#f4f1ea" />
             ))}
+          </g>
+        </g>
+      );
+    }
+    case "bandera-uk": {
+      // Union Jack ondeando (cruces de San Jorge, San Andrés y San Patricio sobre azul)
+      const w1 = Math.sin(f / 6) * 20;
+      const tela = `M8 -550 Q120 ${-570 + w1} 240 -550 L240 -420 Q120 ${-440 + w1} 8 -420Z`;
+      return (
+        <g>
+          <defs><clipPath id="clip-bandera-uk"><path d={tela} /></clipPath></defs>
+          <rect x={-8} y={-560} width={16} height={560} fill="#9a9a9a" />
+          <circle cx={0} cy={-564} r={12} fill="#c9a24a" />
+          <g clipPath="url(#clip-bandera-uk)" transform={`translate(0 ${w1 / 2})`}>
+            <rect x={0} y={-600} width={250} height={200} fill="#1f3a7a" />
+            <path d="M8 -560 L240 -420 M240 -560 L8 -420" stroke="#f4f1ea" strokeWidth={26} />
+            <path d="M8 -560 L240 -420 M240 -560 L8 -420" stroke="#c8202f" strokeWidth={9} />
+            <path d="M124 -600 V-400 M0 -485 H250" stroke="#f4f1ea" strokeWidth={40} />
+            <path d="M124 -600 V-400 M0 -485 H250" stroke="#c8202f" strokeWidth={24} />
           </g>
         </g>
       );

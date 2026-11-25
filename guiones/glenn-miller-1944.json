@@ -365,8 +365,7 @@
         "insercion": {
           "tipo": "dato",
           "valor": "168",
-          "etiqueta": "muertos por un cohete V-2 en el Woolworths de New Cross (Londres), 25 de noviembre de 1944",
-          "icono": "🚀"
+          "etiqueta": "muertos por un cohete V-2 en el Woolworths de New Cross (Londres), 25 de noviembre de 1944"
         }
       },
       {
@@ -580,8 +579,7 @@
         "insercion": {
           "tipo": "dato",
           "valor": "1 día",
-          "etiqueta": "después de irse la banda, una V-1 destrozó Sloane Court (Londres): más de 60 soldados muertos",
-          "icono": "💣"
+          "etiqueta": "después de irse la banda, una V-1 destrozó Sloane Court (Londres): más de 60 soldados muertos"
         }
       },
       {
@@ -680,10 +678,6 @@
             {
               "tipo": "barril",
               "x": 1.2
-            },
-            {
-              "tipo": "cuadro",
-              "x": 0.7
             }
           ]
         },
@@ -803,13 +797,8 @@
               "x": -1.2
             },
             {
-              "tipo": "bandera",
+              "tipo": "bandera-uk",
               "x": 1.25
-            },
-            {
-              "tipo": "🎷",
-              "x": -0.6,
-              "escala": 0.45
             }
           ]
         },
@@ -840,7 +829,7 @@
         "personajes": [
           {
             "quien": "miller",
-            "x": 0.0,
+            "x": -0.1,
             "accion": "hablar",
             "emocion": "feliz",
             "mirar": 1,
@@ -848,7 +837,7 @@
           },
           {
             "quien": "peggy",
-            "x": 0.55,
+            "x": 1.0,
             "accion": "celebrar",
             "emocion": "feliz",
             "mirar": -1,
@@ -1021,7 +1010,8 @@
               "tipo": "farola",
               "x": 1.1
             }
-          ]
+          ],
+          "sol": false
         },
         "personajes": [
           {
@@ -1072,7 +1062,7 @@
             "objeto": "☕"
           }
         ],
-        "camara": "lenta"
+        "camara": "general"
       },
       {
         "dia": 17,
@@ -1104,7 +1094,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 18,
@@ -1162,7 +1152,7 @@
             },
             {
               "tipo": "reloj",
-              "x": -1.1
+              "x": -0.9
             },
             {
               "tipo": "estanteria",
@@ -1243,7 +1233,7 @@
             },
             {
               "tipo": "camion",
-              "x": 1.1,
+              "x": 1.3,
               "escala": 0.7
             }
           ]
@@ -1274,7 +1264,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 20,
@@ -1483,8 +1473,7 @@
         "insercion": {
           "tipo": "dato",
           "valor": "138",
-          "etiqueta": "bombarderos Lancaster llamados de vuelta el 15 de diciembre de 1944",
-          "icono": "💣"
+          "etiqueta": "bombarderos Lancaster llamados de vuelta el 15 de diciembre de 1944"
         }
       },
       {
@@ -1499,6 +1488,11 @@
             {
               "tipo": "roca",
               "x": 1.2
+            },
+            {
+              "tipo": "norseman-vuelo",
+              "x": -0.3,
+              "escala": 0.35
             }
           ]
         },
@@ -1533,6 +1527,10 @@
             {
               "tipo": "roca",
               "x": 1.2
+            },
+            {
+              "tipo": "avion",
+              "x": 0.0
             }
           ]
         },
@@ -1672,7 +1670,8 @@
               "x": -1.0,
               "escala": 0.7
             }
-          ]
+          ],
+          "sol": false
         },
         "personajes": [
           {
@@ -1736,7 +1735,7 @@
             "habla": false
           }
         ],
-        "camara": "lenta"
+        "camara": "paneo"
       },
       {
         "dia": 28,
@@ -2005,13 +2004,19 @@
         "fondo": {
           "lugar": "playa",
           "hora": "dia",
-          "clima": "nublado",
+          "clima": "niebla",
           "props": [
             {
               "tipo": "roca",
               "x": 1.2
+            },
+            {
+              "tipo": "norseman-vuelo",
+              "x": 0.3,
+              "escala": 0.3
             }
-          ]
+          ],
+          "sol": false
         },
         "personajes": [],
         "camara": "lenta"
@@ -2054,7 +2059,7 @@
               "escala": 0.75
             },
             {
-              "tipo": "bandera",
+              "tipo": "bandera-uk",
               "x": 1.2
             }
           ]
@@ -2153,10 +2158,9 @@
     ],
     "miniatura": {
       "texto": "NUNCA LLEGÓ A PARÍS",
-      "escena": 35,
+      "escena": 44,
       "quien": "tomcapote",
-      "emocion": "miedo",
-      "prop": "norseman"
+      "emocion": "miedo"
     }
   }
 }
