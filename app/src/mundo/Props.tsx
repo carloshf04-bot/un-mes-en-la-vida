@@ -20,7 +20,7 @@ export const PROPS_DISPONIBLES = [
   "templo-mayor", "canoa", "ahuejote", "chinampa", "calzada", "brasero", "petate", "metate", "ciudad-lago",
   "granja-fuego", "charco", "puesto-mexica",
   // Egipto, Reino Nuevo (Abidos 1270 a. C.)
-  "barca", "yed", "oruwa", "dagoba", "torre-alerta", "tren-diesel", "barca-durham", "muralla",
+  "barca", "yed", "oruwa", "dagoba", "torre-alerta", "tren-diesel", "barca-durham", "muralla", "arbol-desnudo",
   // Armero (1985)
   "lodo", "barrizal",
   // Roma (Saturnales) y Halifax (1917)
@@ -315,6 +315,15 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: num
           <circle cx={0} cy={-380} r={150} fill="#3f6e3a" />
           <circle cx={-100} cy={-300} r={100} fill="#4a7d43" />
           <circle cx={100} cy={-310} r={105} fill="#36612f" />
+        </g>
+      );
+    case "arbol-desnudo":
+      // árbol de hoja caduca en invierno: tronco y ramas sin hojas (huertos, bosques de diciembre)
+      return (
+        <g stroke="#4a3626" strokeLinecap="round" fill="none">
+          <path d="M0 0 L0 -300" strokeWidth={40} />
+          <path d="M0 -240 Q-80 -320 -170 -380 M0 -260 Q90 -330 160 -420 M0 -300 Q-20 -400 -40 -500 M0 -300 Q40 -380 70 -480" strokeWidth={18} />
+          <path d="M-170 -380 L-230 -420 M-120 -350 L-140 -440 M160 -420 L220 -460 M110 -360 L150 -330 M-40 -500 L-90 -540 M70 -480 L110 -530 M-30 -440 L20 -520" strokeWidth={8} />
         </g>
       );
     case "pino":

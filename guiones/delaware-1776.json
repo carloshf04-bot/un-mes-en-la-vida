@@ -1641,7 +1641,7 @@
               "x": -1.05
             },
             {
-              "tipo": "pino",
+              "tipo": "arbol-desnudo",
               "x": -1.4
             },
             {
@@ -1649,7 +1649,7 @@
               "x": 1.05
             },
             {
-              "tipo": "pino",
+              "tipo": "arbol-desnudo",
               "x": 1.4,
               "escala": 0.9
             }
