@@ -295,7 +295,7 @@ const Sombrero: React.FC<{ look: Look }> = ({ look }) => {
           <rect x={-92} y={-108} width={184} height={30} rx={10} fill={c} />
           <path d="M-80 -80 L80 -80 L74 -34 L-74 -34Z" fill={c} />
           <rect x={-76} y={-50} width={152} height={14} fill={oscurecer(c, 0.35)} />
-          <path d="M40 -34 Q90 -36 104 -20 L40 -22Z" fill="#111" />
+          <path d="M-78 -36 L78 -36 Q70 -16 0 -14 Q-70 -16 -78 -36Z" fill={oscurecer(c, 0.55)} />
         </g>
       );
     case "gorro-marinero": {

@@ -8,7 +8,7 @@ import { emoji, sans, serif } from "./fuentes";
 import "./fuentes";
 
 // encuadre de cada decorado cuando va en la miniatura
-const VISTA: Record<string, string> = { bergantin: "-520 -820 1180 880", "faro-apagado": "-470 -700 1040 780", "faro-blanco": "-470 -700 1040 780", escombros: "-400 -500 800 600", anteojo: "-240 -770 480 360", "flyer-vuelo": "-850 -720 1700 620", norseman: "-600 -340 1200 400" };
+const VISTA: Record<string, string> = { bergantin: "-520 -820 1180 880", "faro-apagado": "-470 -700 1040 780", "faro-blanco": "-470 -700 1040 780", escombros: "-400 -500 800 600", anteojo: "-240 -770 480 360", "flyer-vuelo": "-850 -720 1700 620", norseman: "-620 -460 1240 520" };
 
 // decorados que van en el hueco libre entre el gancho y el personaje (abajo, en el centro), sin taparle la cara
 const EN_HUECO = ["faro-apagado", "faro-blanco", "escombros", "anteojo"];
@@ -56,7 +56,7 @@ export const Miniatura: React.FC<{ slug: string; manifiesto?: Manifiesto }> = ({
       )}
       {cfg.prop === "norseman" && (
         // avión pequeño en el cielo, entre la niebla, sin tocar al personaje
-        <svg style={{ position: "absolute", ...(vertical ? { left: 60 * u, top: 470 * u, width: 330 * u, height: 110 * u } : { left: 700 * u, top: 40 * u, width: 300 * u, height: 100 * u }), opacity: 0.85, filter: "blur(0.6px) drop-shadow(0 8px 16px rgba(0,0,0,0.4))" }} viewBox={VISTA.norseman}>
+        <svg style={{ position: "absolute", ...(vertical ? { left: 70 * u, top: 492 * u, width: 280 * u, height: 117 * u } : { left: 690 * u, top: 30 * u, width: 300 * u, height: 126 * u }), opacity: 0.85, filter: "blur(0.6px) drop-shadow(0 8px 16px rgba(0,0,0,0.4))" }} viewBox={VISTA.norseman}>
           <Prop tipo="norseman" f={30} noche={false} />
         </svg>
       )}
