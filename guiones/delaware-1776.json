@@ -267,7 +267,7 @@
   "largo": {
     "escenas": [
       {
-        "texto": "El treinta y uno de diciembre se acaba mi contrato con el ejército, y ese mismo día el general Uáshington nos va a pedir seis semanas más a cambio de diez dólares.",
+        "texto": "El treinta y uno de diciembre se acaba mi contrato con el ejército, y ese día el general Uáshington nos pedirá seis semanas más por diez dólares.",
         "drama": 0.8,
         "fondo": {
           "lugar": "rio",
@@ -306,7 +306,7 @@
         "corte": true
       },
       {
-        "texto": "Me llamo Eli Barns, tengo diecinueve años y llevo los zapatos atados con trapos para no dejarme los pies en la nieve. Soy soldado raso del vigésimo regimiento continental, el de Conéticut.",
+        "texto": "Me llamo Eli Barns, tengo diecinueve años y llevo los zapatos atados con trapos. Soy soldado raso de un regimiento continental de Conéticut, en la brigada del general Mérser.",
         "drama": 0.6,
         "personajes": [
           {
@@ -320,7 +320,7 @@
         "camara": "cerca"
       },
       {
-        "texto": "Esta es la historia de treinta y cuatro días de invierno junto a un río helado, el Délauer, y de una pregunta que no me deja dormir: ¿me quedo o vuelvo a casa?",
+        "texto": "Esta es la historia de treinta y cuatro días junto a un río helado, el Délauer, y de una pregunta que no me deja dormir: ¿me quedo o vuelvo a casa?",
         "drama": 0.65,
         "personajes": [
           {
@@ -388,7 +388,7 @@
       },
       {
         "dia": 1,
-        "texto": "Unos dos mil milicianos de Maryland y Nueva Jersey se van a casa porque su plazo ha vencido, y nadie intenta impedírselo. Los veo alejarse por el camino y me pregunto cuántos quedaremos dentro de un mes.",
+        "texto": "Unos dos mil milicianos de Maryland y Nueva Jersey se van a casa porque su plazo ha vencido, y yo me pregunto cuántos quedaremos dentro de un mes.",
         "drama": 0.6,
         "personajes": [
           {
@@ -412,7 +412,7 @@
       },
       {
         "dia": 2,
-        "texto": "Es lunes, dos de diciembre, y marchamos de noche hacia Prínston por un barro que se traga los pies, con los británicos del general Cornuális pisándonos los talones.",
+        "texto": "Es lunes, dos de diciembre, y marchamos de noche hacia Prínston por un barro que se traga los pies, con los británicos pisándonos los talones.",
         "drama": 0.65,
         "fondo": {
           "lugar": "campo",
@@ -458,7 +458,7 @@
       },
       {
         "dia": 2,
-        "texto": "Esa noche, la suela de mi zapato izquierdo empieza a abrirse como una boca, y a cada paso me entra un poco más de barro helado entre los dedos.",
+        "texto": "Esa noche, la suela de mi zapato izquierdo se abre como una boca, y a cada paso me entra más barro helado entre los dedos.",
         "drama": 0.5,
         "personajes": [
           {
@@ -495,7 +495,7 @@
       },
       {
         "dia": 3,
-        "texto": "Es martes, tres de diciembre, cuando por fin vemos el Délauer, ancho y gris, con Pensilvania al otro lado y el bagaje del ejército cruzando en barcas desde ayer.",
+        "texto": "Es martes, tres, cuando por fin vemos el Délauer, ancho y gris, con Pensilvania al otro lado y el bagaje del ejército cruzando en barcas.",
         "drama": 0.6,
         "fondo": {
           "lugar": "rio",
@@ -536,7 +536,7 @@
       },
       {
         "dia": 4,
-        "texto": "En un pueblo del camino, un vecino nos mira pasar sin decir nada, con un papel doblado en el bolsillo: el perdón que ofrecen los británicos a quien jure lealtad al rey.",
+        "texto": "En un pueblo del camino, un vecino nos mira pasar en silencio, con el perdón que ofrecen los británicos a quien jure lealtad al rey doblado en el bolsillo.",
         "drama": 0.6,
         "fondo": {
           "lugar": "calle",
@@ -587,7 +587,7 @@
       },
       {
         "dia": 5,
-        "texto": "Es jueves, cinco de diciembre, cuando me toca cruzar a mí, en una barca que reman en silencio unos marineros de Márbeljed, del regimiento del coronel Glóver, blancos y negros remando juntos.",
+        "texto": "Es jueves, cinco, cuando me toca cruzar a mí, en una barca que reman en silencio los marineros de Márbeljed del coronel Glóver, blancos y negros juntos.",
         "drama": 0.65,
         "fondo": {
           "lugar": "rio",
@@ -632,7 +632,7 @@
       },
       {
         "dia": 7,
-        "texto": "Por orden del general, en la orilla de Jersey no dejamos ni una sola barca: o cruzan con nosotros, o las esconden río arriba, o las quemamos antes de irnos.",
+        "texto": "Por orden del general, no dejamos ni una barca en la orilla de Jersey: o cruzan con nosotros, o se esconden río arriba, o arden.",
         "drama": 0.6,
         "fondo": {
           "lugar": "rio",
@@ -678,7 +678,7 @@
       },
       {
         "dia": 8,
-        "texto": "Es domingo, ocho de diciembre, y los británicos llegan a Trénton, en la otra orilla, y se encuentran un río sin barcas. Esa noche oímos sus tambores sobre el agua, tan cerca que parece que tocan para nosotros.",
+        "texto": "Es domingo, ocho, y los británicos llegan a Trénton y se encuentran un río sin barcas. Esa noche oímos sus tambores sobre el agua, tan cerca que dan miedo.",
         "drama": 0.75,
         "personajes": [
           {
@@ -694,7 +694,7 @@
       {
         "dia": 9,
         "capitulo": "El río",
-        "texto": "Es lunes, nueve de diciembre, y nuestro campamento en el condado de Baks son unas cuantas hogueras y chozas de ramas, porque casi nadie tiene tienda de campaña.",
+        "texto": "Es lunes, nueve, y nuestro campamento en el condado de Baks son hogueras y chozas de ramas, porque casi nadie tiene tienda, y yo me ato el zapato roto con trapos.",
         "drama": 0.55,
         "fondo": {
           "lugar": "bosque",
@@ -721,7 +721,7 @@
           {
             "quien": "eli-frio",
             "x": 0.4,
-            "accion": "trabajar",
+            "accion": "sentado",
             "emocion": "cansado",
             "mirar": -1
           },
@@ -737,43 +737,8 @@
         "camara": "general"
       },
       {
-        "dia": 9,
-        "texto": "Con un trapo de lino que antes fue camisa me ato el zapato roto al pie, y con otro sujeto el que todavía aguanta, rezando para que lleguen a enero.",
-        "drama": 0.5,
-        "fondo": {
-          "lugar": "bosque",
-          "hora": "dia",
-          "clima": "nublado",
-          "nevado": true,
-          "props": [
-            {
-              "tipo": "cabana",
-              "x": -1.2
-            },
-            {
-              "tipo": "hoguera",
-              "x": -0.2
-            },
-            {
-              "tipo": "pino",
-              "x": 1.35
-            }
-          ]
-        },
-        "personajes": [
-          {
-            "quien": "eli-frio",
-            "x": 0.4,
-            "accion": "sentado",
-            "emocion": "triste",
-            "mirar": -1
-          }
-        ],
-        "camara": "cerca"
-      },
-      {
         "dia": 10,
-        "texto": "Es martes, diez de diciembre, y el rancho es harina y carne salada; con harina y agua hacemos tortas de fuego entre las brasas, que saben a ceniza y a poco más.",
+        "texto": "Es martes, diez, y el rancho es harina y carne salada; con harina y agua hacemos tortas de fuego entre las brasas, que saben a ceniza.",
         "drama": 0.55,
         "fondo": {
           "lugar": "bosque",
@@ -823,7 +788,7 @@
       },
       {
         "dia": 11,
-        "texto": "Es miércoles, once de diciembre, y hay fiebre en la choza de al lado; a los enfermos se los llevan a casas de granja, como la casa de piedra de los Tómson Níli, río arriba.",
+        "texto": "Es miércoles, once, y hay fiebre en la choza de al lado; a los enfermos se los llevan a granjas como la casa de piedra de los Tómson Níli.",
         "drama": 0.6,
         "fondo": {
           "lugar": "interior",
@@ -859,7 +824,7 @@
       },
       {
         "dia": 12,
-        "texto": "Es jueves, doce de diciembre, y corre el rumor de que el Congreso ha huido de Filadelfia; al día siguiente llega otro peor: los británicos han capturado al general Charls Li en una taberna.",
+        "texto": "Es jueves, doce, y corre el rumor de que el Congreso ha huido de Filadelfia; al día siguiente, otro peor: los británicos han capturado al general Charls Li.",
         "drama": 0.7,
         "fondo": {
           "lugar": "campo",
@@ -902,7 +867,7 @@
       },
       {
         "dia": 14,
-        "texto": "Es sábado, catorce, y al otro lado del río se instalan en Trénton para pasar el invierno entre mil cuatrocientos y mil seiscientos hesianos, soldados alemanes que el rey británico ha alquilado.",
+        "texto": "Es sábado, catorce, y en Trénton se instalan para el invierno entre mil cuatrocientos y mil seiscientos hesianos, soldados alemanes que el rey británico ha alquilado.",
         "drama": 0.65,
         "fondo": {
           "lugar": "calle",
@@ -939,7 +904,7 @@
       },
       {
         "dia": 15,
-        "texto": "Es domingo, quince, y llega carta de casa: mi madre pregunta si vuelvo en enero, y mi hermana Mérsi ha escrito abajo, con letra torcida, que me guarda la silla junto al fuego.",
+        "texto": "Es domingo, quince, y llega carta de casa: mi madre pregunta si vuelvo en enero, y mi hermana Mérsi ha escrito abajo que me guarda la silla.",
         "drama": 0.5,
         "fondo": {
           "lugar": "campo",
@@ -1024,7 +989,7 @@
       },
       {
         "dia": 17,
-        "texto": "Al día siguiente, Amós, un vecino de mi pueblo, se marcha antes de tiempo, de noche y sin despedirse de nadie, y nadie sale a buscarlo porque a nadie le quedan fuerzas.",
+        "texto": "Al día siguiente, Amós, un vecino de mi pueblo, se marcha de noche sin despedirse, y nadie sale a buscarlo porque a nadie le quedan fuerzas.",
         "drama": 0.65,
         "fondo": {
           "lugar": "bosque",
@@ -1069,7 +1034,7 @@
       },
       {
         "dia": 18,
-        "texto": "Un día después, el general Uáshington escribe a su hermano una frase que ninguno de nosotros conoce todavía, y que yo no leeré hasta muchos años más tarde.",
+        "texto": "Un día después, el general Uáshington escribe a su hermano una frase que ninguno de nosotros conoce, y que yo leeré muchos años más tarde.",
         "drama": 0.7,
         "personajes": [
           {
@@ -1089,7 +1054,7 @@
       },
       {
         "dia": 20,
-        "texto": "Es viernes, veinte, y llegan los hombres del general Sálivan, flacos y harapientos, pero ese mismo día el general avisa al Congreso de que en diez días el ejército dejará de existir.",
+        "texto": "Es viernes, veinte, y llegan los hombres del general Sálivan, flacos y harapientos, pero el general avisa al Congreso de que en diez días el ejército dejará de existir.",
         "drama": 0.7,
         "fondo": {
           "lugar": "campo",
@@ -1137,47 +1102,9 @@
         }
       },
       {
-        "dia": 21,
-        "texto": "Es sábado, veintiuno, la noche más larga del año, y hago guardia en la orilla viendo brillar al otro lado las hogueras de los hesianos, que duermen bajo techo.",
-        "drama": 0.6,
-        "fondo": {
-          "lugar": "rio",
-          "hora": "noche",
-          "clima": "nublado",
-          "luna": false,
-          "nevado": false,
-          "props": [
-            {
-              "tipo": "pino",
-              "x": -1.35
-            },
-            {
-              "tipo": "pino",
-              "x": 1.4
-            },
-            {
-              "tipo": "pino",
-              "x": 1.1,
-              "escala": 0.8,
-              "detras": true
-            }
-          ]
-        },
-        "personajes": [
-          {
-            "quien": "eli-frio",
-            "x": 0.4,
-            "accion": "quieto",
-            "emocion": "neutral",
-            "mirar": -1
-          }
-        ],
-        "camara": "cerca"
-      },
-      {
         "dia": 22,
         "capitulo": "Victoria o muerte",
-        "texto": "Es domingo, veintidós, y Cáleb, el único de nosotros que sabe leer de corrido, lee junto a la hoguera un folleto de Tómas Péin impreso en Filadelfia hace tres días.",
+        "texto": "Es domingo, veintidós, y Cáleb, el único que sabe leer de corrido, nos lee junto a la hoguera un folleto de Tómas Péin impreso hace tres días en Filadelfia.",
         "drama": 0.65,
         "fondo": {
           "lugar": "bosque",
@@ -1251,7 +1178,7 @@
       },
       {
         "dia": 22,
-        "texto": "Me quedo callado mirando el fuego, porque el soldado de verano soy yo, el que cuenta los días que le faltan para volver a casa con los pies enteros.",
+        "texto": "Me quedo callado mirando el fuego, porque el soldado de verano soy yo, el que cuenta los días que le faltan para volver a casa.",
         "drama": 0.55,
         "personajes": [
           {
@@ -1266,7 +1193,7 @@
       },
       {
         "dia": 24,
-        "texto": "Es martes, veinticuatro, Nochebuena, aunque en Nueva Inglaterra apenas celebramos la Navidad, y la orden es tener comida cocinada para tres días y la manta lista para marchar.",
+        "texto": "Es martes, veinticuatro, Nochebuena, aunque en Nueva Inglaterra apenas se celebra, y la orden es tener comida cocinada para tres días y la manta lista.",
         "drama": 0.65,
         "fondo": {
           "lugar": "bosque",
@@ -1332,7 +1259,7 @@
       },
       {
         "dia": 25,
-        "texto": "Es miércoles, veinticinco, día de Navidad, y en la granja de los Tómson Níli muere el capitán Yeims Mur, de la artillería de Nueva York, con veinticuatro años.",
+        "texto": "Es miércoles, veinticinco, Navidad, y en la granja de los Tómson Níli muere el capitán Yeims Mur, de veinticuatro años, el único con nombre en el cementerio del campamento.",
         "drama": 0.6,
         "fondo": {
           "lugar": "campo",
@@ -1375,22 +1302,7 @@
       },
       {
         "dia": 25,
-        "texto": "Hoy es el único con nombre en el pequeño cementerio de soldados junto al río; los demás son desconocidos, muertos de frío y de enfermedad en este campamento.",
-        "drama": 0.5,
-        "personajes": [
-          {
-            "quien": "eli-frio",
-            "x": 0.4,
-            "accion": "quieto",
-            "emocion": "triste",
-            "mirar": -1
-          }
-        ],
-        "camara": "cerca"
-      },
-      {
-        "dia": 25,
-        "texto": "Al atardecer marchamos hacia el transbordador de Maconqui, a unas diez millas río arriba de Trénton, y los oficiales llevan apuntado el santo y seña: victoria o muerte.",
+        "texto": "Al atardecer marchamos hacia el transbordador de Maconqui, diez millas río arriba de Trénton, con un santo y seña que da escalofríos: victoria o muerte.",
         "drama": 0.75,
         "fondo": {
           "lugar": "rio",
@@ -1484,7 +1396,7 @@
       },
       {
         "dia": 25,
-        "texto": "En la orilla, el coronel Nox, un antiguo librero de Boston con un vozarrón enorme, dirige el embarque de dos mil cuatrocientos hombres, los caballos y dieciocho cañones.",
+        "texto": "En la orilla, el coronel Nox, un antiguo librero de Boston con un vozarrón enorme, embarca a dos mil cuatrocientos hombres, caballos y dieciocho cañones.",
         "drama": 0.8,
         "personajes": [
           {
@@ -1507,7 +1419,7 @@
       },
       {
         "dia": 25,
-        "texto": "Los soldados cruzamos en barcas Dérjam, barcazas negras de hasta dieciocho metros hechas para bajar hierro por el río, y vamos de pie, apretados, porque no cabe nadie más.",
+        "texto": "Cruzamos en barcas Dérjam, barcazas negras de hasta dieciocho metros hechas para llevar hierro, y vamos de pie, apretados, porque no cabe nadie más.",
         "drama": 0.8,
         "fondo": {
           "lugar": "rio",
@@ -1558,7 +1470,7 @@
       },
       {
         "dia": 25,
-        "texto": "Los marineros de Glóver reman a ciegas y, con pértigas largas, apartan los bloques de hielo que bajan flotando y golpean el casco como si fueran piedras.",
+        "texto": "Los marineros de Glóver reman a ciegas y apartan con pértigas los bloques de hielo que golpean el casco como piedras.",
         "drama": 0.85,
         "personajes": [
           {
@@ -1581,7 +1493,7 @@
       },
       {
         "dia": 26,
-        "texto": "Es jueves, veintiséis, de madrugada, y en la otra orilla esperamos a los cañones bajo la nieve, temblando. Llevamos más de tres horas de retraso, y el plan entero se tambalea.",
+        "texto": "Es jueves, veintiséis, de madrugada, y esperamos a los cañones en la otra orilla, temblando. Llevamos más de tres horas de retraso, y el plan entero se tambalea.",
         "drama": 0.8,
         "fondo": {
           "lugar": "rio",
@@ -1623,7 +1535,7 @@
       },
       {
         "dia": 26,
-        "texto": "Hacia las cuatro echamos a andar: diez millas de nieve y aguanieve hasta Trénton. Cuentan que, cuando avisaron de que la pólvora se había mojado, el general contestó que usaran la bayoneta.",
+        "texto": "Hacia las cuatro echamos a andar diez millas por la nieve hasta Trénton, con el viento en la cara. Cuentan que, avisado de que la pólvora estaba mojada, el general contestó que usaran la bayoneta.",
         "drama": 0.8,
         "fondo": {
           "lugar": "campo",
@@ -1669,7 +1581,7 @@
       },
       {
         "dia": 26,
-        "texto": "A las ocho de la mañana siguiente a Navidad entramos en Trénton, un pueblo de unas cien casas, y nuestros cañones, en lo alto de la calle del Rey, disparan calle abajo entre la nieve.",
+        "texto": "La mañana después de Navidad entramos en Trénton, un pueblo de unas cien casas lleno de hesianos, y nuestros cañones disparan calle abajo entre la nieve.",
         "drama": 0.9,
         "fondo": {
           "lugar": "calle",
@@ -1738,7 +1650,7 @@
       },
       {
         "dia": 26,
-        "texto": "Todo es humo, gritos en alemán y en inglés y el retumbar de los cañones, y yo me agacho junto a una valla, aprieto la bayoneta y avanzo cuando avanzan los demás.",
+        "texto": "Todo es humo, gritos en alemán y en inglés y retumbar de cañones; me agacho junto a una valla y avanzo cuando avanzan los demás.",
         "drama": 0.9,
         "fondo": {
           "lugar": "calle",
@@ -1774,7 +1686,7 @@
       },
       {
         "dia": 26,
-        "texto": "El coronel Ral cae herido de muerte cuando intenta reunir a sus hombres, y los que quedan se rinden en un huerto al este del pueblo, bajo la nevada.",
+        "texto": "El coronel Ral cae herido de muerte al intentar reunir a sus hombres, y los que quedan se rinden en un huerto, bajo la nevada.",
         "drama": 0.75,
         "fondo": {
           "lugar": "campo",
@@ -1823,7 +1735,7 @@
       },
       {
         "dia": 26,
-        "texto": "En menos de una hora se acaba todo: unos novecientos prisioneros y ni un solo americano muerto en combate, aunque un teniente de dieciocho años, Yeims Monró, cae herido en el hombro.",
+        "texto": "En menos de una hora se acaba todo: unos novecientos prisioneros y ni un americano muerto en combate, aunque un teniente de dieciocho años, Yeims Monró, cae herido.",
         "drama": 0.75,
         "personajes": [
           {
@@ -1852,7 +1764,7 @@
       },
       {
         "dia": 26,
-        "texto": "Esa misma tarde volvemos a cruzar el río hacia Pensilvania con los prisioneros, otra noche helada de pie en las barcas, y nadie habla de victoria: solo de frío.",
+        "texto": "Esa tarde volvemos a cruzar hacia Pensilvania con los prisioneros, otra noche de pie en las barcas, y nadie habla de victoria: solo de frío.",
         "drama": 0.6,
         "fondo": {
           "lugar": "rio",
@@ -1903,7 +1815,7 @@
       {
         "dia": 27,
         "capitulo": "Seis semanas más",
-        "texto": "Es viernes, veintisiete, y al quitarme los trapos de los pies veo que tengo los dedos blancos y duros, y tardan horas en volver a dolerme, que dicen que es buena señal.",
+        "texto": "Es viernes, veintisiete, y al quitarme los trapos veo que tengo los dedos de los pies blancos y duros, y tardan horas en volver a dolerme.",
         "drama": 0.55,
         "fondo": {
           "lugar": "bosque",
@@ -1938,7 +1850,7 @@
       },
       {
         "dia": 28,
-        "texto": "Al día siguiente, un sargento me consigue un par de zapatos casi nuevos; no pregunto de dónde salen, pero me los pongo despacio, como quien estrena un tesoro.",
+        "texto": "Al día siguiente, un sargento me consigue unos zapatos casi nuevos; no pregunto de dónde salen y me los pongo despacio, como quien estrena un tesoro.",
         "drama": 0.5,
         "personajes": [
           {
@@ -1954,7 +1866,7 @@
       },
       {
         "dia": 30,
-        "texto": "Dos días después volvemos a cruzar a Nueva Jersey, y en Trénton corre la oferta del general: diez dólares a quien se quede seis semanas más cuando venza su alistamiento.",
+        "texto": "Dos días después volvemos a Trénton, donde corre la oferta del general: diez dólares a quien se quede seis semanas más cuando venza su alistamiento.",
         "drama": 0.65,
         "fondo": {
           "lugar": "calle",
@@ -2003,7 +1915,7 @@
       },
       {
         "dia": 31,
-        "texto": "Es martes, treinta y uno, el último día de mi contrato, y nos forman sobre la nieve para escuchar al general Uáshington, que nos pide que nos quedemos un poco más.",
+        "texto": "Es martes, treinta y uno, el día en que se acaba mi contrato, y el general Uáshington nos forma en la nieve para pedirnos que nos quedemos.",
         "drama": 0.75,
         "fondo": {
           "lugar": "campo",
@@ -2048,7 +1960,7 @@
       },
       {
         "dia": 31,
-        "texto": "Un sargento contó años después que en su regimiento redobló el tambor para los voluntarios y nadie dio un paso; en el mío pasa lo mismo, y el silencio pesa más que el frío.",
+        "texto": "Un sargento contó años después que en su regimiento redobló el tambor y nadie dio un paso; en el mío pasa lo mismo, y el silencio pesa más que el frío.",
         "drama": 0.8,
         "personajes": [
           {
@@ -2063,7 +1975,7 @@
       },
       {
         "dia": 31,
-        "texto": "Entonces el general vuelve a hablar, nos llama sus valientes, nos dice que hemos hecho todo lo que nos pidió y más, y el tambor redobla por segunda vez.",
+        "texto": "Entonces el general vuelve a hablar, nos llama valientes, dice que hemos hecho todo lo que nos pidió y más, y el tambor redobla otra vez.",
         "drama": 0.85,
         "personajes": [
           {
@@ -2086,7 +1998,7 @@
       },
       {
         "dia": 31,
-        "texto": "Pienso en mi madre, en la siembra y en mis pies, y aun así doy un paso al frente; a mi lado Cáleb da otro, y después muchos más, más o menos la mitad.",
+        "texto": "Pienso en mi madre, en la siembra y en mis pies, y aun así doy un paso al frente; Cáleb da otro, y después muchos más, más o menos la mitad.",
         "drama": 0.75,
         "personajes": [
           {
@@ -2108,45 +2020,8 @@
         "camara": "lenta"
       },
       {
-        "dia": 32,
-        "texto": "Es miércoles, uno de enero de mil setecientos setenta y siete, y con el año nuevo llega el deshielo: los caminos helados se convierten en un barrizal que se traga las ruedas.",
-        "drama": 0.55,
-        "fondo": {
-          "lugar": "campo",
-          "hora": "dia",
-          "clima": "nublado",
-          "nevado": false,
-          "props": [
-            {
-              "tipo": "pino",
-              "x": -1.35
-            },
-            {
-              "tipo": "charco",
-              "x": -0.6
-            },
-            {
-              "tipo": "carro",
-              "x": 1.1,
-              "escala": 0.75,
-              "detras": true
-            }
-          ]
-        },
-        "personajes": [
-          {
-            "quien": "eli-nuevo",
-            "x": 0.4,
-            "accion": "caminar",
-            "emocion": "cansado",
-            "mirar": -1
-          }
-        ],
-        "camara": "paneo"
-      },
-      {
         "dia": 33,
-        "texto": "Es jueves, dos de enero, y el general Cornuális llega a Trénton con miles de soldados; al atardecer defendemos la orilla del arroyo Ásanpink, detrás de un puente de piedra.",
+        "texto": "Es jueves, dos de enero, con los caminos convertidos en barro por el deshielo, y defendemos el puente del arroyo Ásanpink mientras llega el general Cornuális con miles de soldados.",
         "drama": 0.8,
         "fondo": {
           "lugar": "rio",
@@ -2196,7 +2071,7 @@
       },
       {
         "dia": 33,
-        "texto": "Los británicos intentan cruzar el puente tres veces y tres veces se retiran entre el humo, y al anochecer su general decide dejarlo para mañana por la mañana.",
+        "texto": "Los británicos intentan cruzar el puente tres veces y tres veces se retiran entre el humo, y al anochecer su general lo deja para mañana.",
         "drama": 0.85,
         "personajes": [
           {
@@ -2211,7 +2086,7 @@
       },
       {
         "dia": 33,
-        "texto": "Esa noche dejamos a unos cuantos centenares de hombres echando leña a las hogueras y haciendo ruido de picos, mientras el resto del ejército se escabulle en silencio.",
+        "texto": "Esa noche, unos cuantos centenares de hombres se quedan echando leña a las hogueras y haciendo ruido, mientras el resto del ejército se escabulle en silencio.",
         "drama": 0.75,
         "fondo": {
           "lugar": "campo",
@@ -2261,7 +2136,7 @@
       },
       {
         "dia": 33,
-        "texto": "Envolvemos en trapos las ruedas de los cañones para que no suenen, y de pronto el frío cae de golpe y el barro se hiela: por fin los cañones pueden rodar.",
+        "texto": "Envolvemos en trapos las ruedas de los cañones para que no suenen, y de pronto el frío cae de golpe y el barro se hiela bajo nuestros pies.",
         "drama": 0.75,
         "fondo": {
           "lugar": "campo",
@@ -2381,7 +2256,7 @@
       },
       {
         "dia": 34,
-        "texto": "Los británicos que se refugian en Násau Jol, el gran edificio del colegio de Prínston, se rinden tras unos cañonazos, y todavía hoy se ven las marcas en la fachada.",
+        "texto": "Los británicos que se refugian en Násau Jol, el gran edificio del colegio, se rinden tras unos cañonazos, y aún hoy se ven las marcas en su fachada.",
         "drama": 0.7,
         "personajes": [
           {
@@ -2402,7 +2277,7 @@
       },
       {
         "dia": 34,
-        "texto": "Cuando el humo se va, el sol sale sobre el campo helado, y me doy cuenta de que llevo un mes andando hacia atrás, y hoy, por fin, hacia delante.",
+        "texto": "Cuando el humo se va, sale el sol sobre el campo helado, y me doy cuenta de que llevo un mes andando hacia atrás y hoy, por fin, hacia delante.",
         "drama": 0.6,
         "fondo": {
           "lugar": "campo",
@@ -2438,8 +2313,26 @@
         "camara": "cerca"
       },
       {
-        "texto": "Después el ejército pasa el invierno en Móristaun, y en febrero el general manda inocular contra la viruela a todos sus soldados, aunque el Congreso lo había prohibido.",
+        "texto": "El ejército pasa el invierno en Móristaun, donde el general manda inocular a todos contra la viruela, y el general Mérser muere de sus heridas días después de Prínston.",
         "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "eli-nuevo",
+            "x": 0.4,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "caleb",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general",
         "fondo": {
           "lugar": "bosque",
           "hora": "dia",
@@ -2460,42 +2353,10 @@
               "x": 0.0
             }
           ]
-        },
-        "personajes": [
-          {
-            "quien": "eli-nuevo",
-            "x": 0.4,
-            "accion": "trabajar",
-            "emocion": "neutral",
-            "mirar": -1
-          },
-          {
-            "quien": "caleb",
-            "x": -0.4,
-            "accion": "sentado",
-            "emocion": "cansado",
-            "mirar": 1,
-            "habla": false
-          }
-        ],
-        "camara": "general"
+        }
       },
       {
-        "texto": "El general Mérser muere de sus heridas unos días después de Prínston, y a estas jornadas, desde Navidad hasta aquel amanecer, los historiadores las llaman los diez días cruciales.",
-        "drama": 0.55,
-        "personajes": [
-          {
-            "quien": "eli-nuevo",
-            "x": 0.4,
-            "accion": "triste",
-            "emocion": "triste",
-            "mirar": -1
-          }
-        ],
-        "camara": "cerca"
-      },
-      {
-        "texto": "Hay un cuadro famoso de aquella noche, pintado setenta y cinco años después, que está lleno de errores: la bandera de barras y estrellas aún no existía, y nadie cruzó de pie al amanecer.",
+        "texto": "A esas jornadas las llaman los diez días cruciales, y hay un cuadro famoso de aquella noche lleno de errores: la bandera de barras y estrellas aún no existía.",
         "drama": 0.55,
         "fondo": {
           "lugar": "rio",
@@ -2537,7 +2398,7 @@
         }
       },
       {
-        "texto": "Yo, Eli Barns, mi madre y mi hermana somos inventados; son reales mi regimiento, la brigada de Mérser, el cruce, Trénton, los diez dólares, el capitán Mur y Prínston.",
+        "texto": "Yo, Eli Barns, mi madre, mi hermana, Cáleb y Amós somos inventados; son reales la brigada de Mérser, el cruce, Trénton, los diez dólares, el capitán Mur y Prínston.",
         "drama": 0.55,
         "personajes": [
           {
@@ -2551,7 +2412,7 @@
         "camara": "cerca"
       },
       {
-        "texto": "Y tú, ¿te habrías quedado seis semanas más por diez dólares y unos zapatos? Cuéntamelo en los comentarios, y suscríbete para vivir el próximo mes en la piel de otra persona.",
+        "texto": "Y tú, ¿te habrías quedado seis semanas más por diez dólares y unos zapatos? Cuéntamelo en los comentarios y suscríbete para vivir otro mes en la piel de otra persona.",
         "drama": 0.55,
         "personajes": [
           {
@@ -2583,22 +2444,22 @@
       "descripcion": "Diciembre de 1776: el ejército de Washington se deshace en la retirada por Nueva Jersey y casi todos los alistamientos vencen el 31. La historia de un soldado (inventado) de Connecticut con los zapatos atados con trapos. #shorts #historia #washington #revolucionamericana"
     },
     {
-      "desde": 30,
-      "hasta": 34,
+      "desde": 28,
+      "hasta": 32,
       "rotulo": "CRUZAR EL RÍO HELADO",
       "titulo": "Cruzamos un río helado de noche, de pie, en barcas hechas para llevar hierro",
       "descripcion": "Noche del 25 al 26 de diciembre de 1776: 2.400 hombres y 18 cañones cruzan el Delaware en barcas Durham entre aguanieve y hielo, con los marineros de Glover a los remos. #shorts #historia #delaware #washington #revolucionamericana"
     },
     {
-      "desde": 36,
-      "hasta": 40,
+      "desde": 34,
+      "hasta": 38,
       "rotulo": "TRENTON AL AMANECER",
       "titulo": "Ganamos una batalla sin un solo muerto en combate",
       "descripcion": "Trenton, 26 de diciembre de 1776: un ataque por sorpresa bajo la nieve, cerca de 900 hessianos prisioneros y ningún americano muerto en combate. Y no, los hessianos no estaban borrachos. #shorts #historia #trenton #washington #revolucionamericana"
     },
     {
-      "desde": 45,
-      "hasta": 48,
+      "desde": 43,
+      "hasta": 46,
       "rotulo": "EL TAMBOR SONÓ DOS VECES",
       "titulo": "Washington nos pidió seis semanas más por diez dólares",
       "descripcion": "31 de diciembre de 1776: se acaban los alistamientos y Washington ofrece 10 dólares a quien se quede seis semanas más. Cuentan que el tambor redobló dos veces. #shorts #historia #washington #revolucionamericana"
