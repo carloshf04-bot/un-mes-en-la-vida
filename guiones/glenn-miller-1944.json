@@ -345,7 +345,7 @@
         "texto": "Fue en el Úlworts de Niu Cros, un sábado a mediodía. Un cohete uvedós llega más rápido que su propio ruido. Ciento sesenta y ocho muertos.",
         "drama": 0.8,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "calle",
           "hora": "dia",
           "clima": "nublado",
           "props": [
@@ -436,7 +436,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 3,
@@ -589,7 +589,7 @@
         "texto": "Desde el veinte de noviembre graban sin parar, con viajes a Londres cada semana: programas de radio para dejar guardados antes de irse a Francia.",
         "drama": 0.6,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "calle",
           "hora": "dia",
           "clima": "nublado",
           "props": [
@@ -646,7 +646,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca",
+        "camara": "lenta",
         "insercion": {
           "tipo": "dato",
           "valor": "84 horas",
@@ -705,7 +705,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 6,
@@ -728,7 +728,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 7,
@@ -855,7 +855,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 8,
@@ -972,7 +972,7 @@
             "mirar": -1
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 11,
@@ -995,7 +995,7 @@
             "mirar": -1
           }
         ],
-        "camara": "cerca",
+        "camara": "lenta",
         "insercion": {
           "tipo": "mapa",
           "lugar": "De Bedford a París",
@@ -1079,7 +1079,7 @@
         "texto": "Martes, doce. Míler toca en Londres, en un club para soldados. Nadie lo sabe todavía, pero es la última vez que se le conoce dirigiendo a su banda.",
         "drama": 0.75,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "calle",
           "hora": "dia",
           "clima": "nublado",
           "props": [
@@ -1144,7 +1144,7 @@
             "mirar": -1
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 19,
@@ -1188,7 +1188,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 20,
@@ -1387,7 +1387,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 20,
@@ -1736,7 +1736,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 28,
@@ -1837,14 +1837,14 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 29,
         "texto": "Esa madrugada, aviones alemanes habían lanzado, desde el mar del Norte, bombas volantes contra Mánchester. Unos cuarenta muertos. La guerra no se para por nadie.",
         "drama": 0.75,
         "fondo": {
-          "lugar": "ciudad",
+          "lugar": "calle",
           "hora": "noche",
           "clima": "nublado",
           "props": [
