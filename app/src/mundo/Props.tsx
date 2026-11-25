@@ -1085,7 +1085,7 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: num
       );
     case "oruwa": {
       // canoa de pesca cingalesa: tronco vaciado estrecho, batanga (flotador) unida por dos palos curvos y vela de tela cuadrada
-      const bal = Math.sin(f / 14) * 6;
+      const bal = Math.sin(f / 14) * 2; // apenas se mece (también sirve varada en la arena)
       return (
         <g transform={`translate(0 ${bal}) rotate(${bal / 6})`}>
           <path d="M-360 -60 Q-380 -110 -330 -110 L330 -110 Q380 -110 360 -60 Q0 0 -360 -60Z" fill="#5e4026" />
@@ -1769,8 +1769,8 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: num
         </g>
       );
     case "tren-diesel": {
-      // tren costero diésel de Sri Lanka (2004): locomotora y dos coches azules con franja roja; siempre lejos y sin gente
-      const x = Math.sin(f / 90) * 30;
+      // tren costero diésel de Sri Lanka (2004): locomotora y dos coches azules con franja roja; siempre lejos y sin gente (parado)
+      const x = 0;
       return (
         <g transform={`translate(${x} 0)`}>
           <rect x={-760} y={-20} width={1560} height={20} fill="#3a3a3a" />
