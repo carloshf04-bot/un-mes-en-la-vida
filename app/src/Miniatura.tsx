@@ -50,7 +50,7 @@ export const Miniatura: React.FC<{ slug: string; manifiesto?: Manifiesto }> = ({
       />
       <AbsoluteFill style={{ boxShadow: `inset 0 0 ${120 * u}px rgba(0,0,0,0.7)` }} />
       {cfg.prop === "flyer-vuelo" && (
-        <svg style={{ position: "absolute", ...(vertical ? { left: 40 * u, top: 600 * u, width: 640 * u, height: 233 * u } : { right: 10 * u, top: 20 * u, width: 600 * u, height: 219 * u }), filter: "drop-shadow(0 12px 24px rgba(0,0,0,0.5))" }} viewBox={VISTA["flyer-vuelo"]}>
+        <svg style={{ position: "absolute", ...(vertical ? { left: 120 * u, top: 462 * u, width: 480 * u, height: 175 * u } : { right: 10 * u, top: 70 * u, width: 600 * u, height: 219 * u }), filter: "drop-shadow(0 12px 24px rgba(0,0,0,0.5))" }} viewBox={VISTA["flyer-vuelo"]}>
           <Prop tipo="flyer-vuelo" f={30} noche={false} />
         </svg>
       )}

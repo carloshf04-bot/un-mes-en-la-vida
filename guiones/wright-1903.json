@@ -296,9 +296,9 @@
             },
             {
               "tipo": "flyer",
-              "x": -0.5,
-              "escala": 1.0,
-              "detras": false
+              "x": -0.9,
+              "escala": 0.8,
+              "detras": true
             }
           ],
           "sol": false
@@ -1624,7 +1624,7 @@
             "habla": false
           }
         ],
-        "camara": "subir",
+        "camara": "general",
         "insercion": {
           "tipo": "mapa",
           "lugar": "Big Kill Devil Hill",
@@ -2108,7 +2108,7 @@
             {
               "tipo": "flyer-vuelo",
               "x": 0.0,
-              "escala": 1.0
+              "escala": 0.9
             }
           ],
           "sol": false
@@ -2132,7 +2132,7 @@
             "objeto": "📷"
           }
         ],
-        "camara": "subir"
+        "camara": "lenta"
       },
       {
         "dia": 28,
@@ -2718,7 +2718,7 @@
             {
               "tipo": "flyer-vuelo",
               "x": 0.0,
-              "escala": 1.0
+              "escala": 0.7
             },
             {
               "tipo": "arbol",
@@ -2841,7 +2841,7 @@
         "personajes": [
           {
             "quien": "orvilleviejo",
-            "x": 0.75,
+            "x": 0.9,
             "accion": "pensar",
             "emocion": "neutral",
             "mirar": -1
@@ -3061,7 +3061,7 @@
     ],
     "miniatura": {
       "texto": "DOCE SEGUNDOS",
-      "escena": 0,
+      "escena": 36,
       "quien": "orville",
       "emocion": "sorpresa",
       "prop": "flyer-vuelo"
