@@ -196,23 +196,6 @@
       "altura": 1.0,
       "zapatos": "#141414"
     },
-    "macready": {
-      "piel": "#e6c6aa",
-      "pelo": "#8a8078",
-      "peinado": "corto",
-      "barba": "patillas",
-      "ropa": {
-        "tipo": "abrigo",
-        "color": "#3a3530",
-        "color2": "#4a4540",
-        "detalle": "#1a1a1a"
-      },
-      "sombrero": "copa",
-      "colorSombrero": "#1a1a1a",
-      "gafas": false,
-      "altura": 1.02,
-      "zapatos": "#141414"
-    },
     "senoramacready": {
       "piel": "#f0d6c2",
       "pelo": "#4a3a2e",
@@ -552,7 +535,7 @@
         }
       },
       {
-        "texto": "Las fechas, las cifras y las cartas son reales; lo que pienso y muchas escenas, lo imaginamos. Y todo empieza con una novela mía que se vende muy mal.",
+        "texto": "Las fechas, las cifras y las cartas son reales; lo que pienso y muchas escenas, lo imaginamos. Y todo empieza con una novela mía que se vende peor de lo que necesito.",
         "drama": 0.65,
         "fondo": {
           "lugar": "calle",
@@ -642,7 +625,7 @@
         }
       },
       {
-        "texto": "Mis editores, Chápman an Jol, me adelantan dinero cada mes, y parece que en junio hablaron de rebajarme cincuenta libras si las ventas no lo cubrían. Me lo tomé como una ofensa, y desde entonces pienso en dejarlos.",
+        "texto": "Mis editores, Chápman an Jol, me adelantan dinero cada mes, y parece que en junio hablaron de rebajarme cincuenta libras si las ventas no lo cubrían.",
         "drama": 0.7,
         "fondo": {
           "lugar": "interior",
@@ -747,7 +730,7 @@
               "nombre": "Ebenezer Scrooge, el avaro"
             },
             {
-              "icono": "👻",
+              "icono": "⛓️",
               "nombre": "Jacob Marley, su socio muerto"
             },
             {
@@ -762,7 +745,7 @@
         }
       },
       {
-        "texto": "Ya han visitado a Escrúch el fantasma de Márli y el espíritu de las Navidades pasadas. Mientras escribo lloro, me río y vuelvo a llorar, y Cáterin me oye pasear de madrugada.",
+        "texto": "Ya han visitado a Escrúch el fantasma de Márli y el espíritu de las Navidades pasadas. Mientras escribo lloro, me río y vuelvo a llorar, y quizá Cáterin me oye salir de madrugada.",
         "drama": 0.6,
         "fondo": {
           "lugar": "interior",
@@ -880,7 +863,7 @@
       },
       {
         "dia": 1,
-        "texto": "Mis editores no quieren arriesgar con un librito de Navidad, así que lo pago yo, a cuenta de lo que se venda, y ellos se llevan una comisión por cada ejemplar.",
+        "texto": "Mis editores no quieren arriesgar con un librito de Navidad, así que lo pago yo, a cuenta de las ventas, y ellos cobran una comisión por ejemplar.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -998,36 +981,31 @@
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
-          "pared": "papel",
+          "pared": "madera",
           "hora": "dia",
           "ventana": true,
           "props": [
             {
               "tipo": "estanteria",
-              "x": -1.35
+              "x": -1.4
             },
             {
               "tipo": "cuadro",
-              "x": -0.85
+              "x": -0.9
             },
             {
               "tipo": "mesa",
               "x": 1.05
             },
             {
-              "tipo": "📜",
+              "tipo": "🖌️",
               "x": 0.95,
               "escala": 0.3
             },
             {
-              "tipo": "📙",
+              "tipo": "📜",
               "x": 1.2,
-              "escala": 0.3
-            },
-            {
-              "tipo": "estanteria",
-              "x": 1.5,
-              "escala": 0.9
+              "escala": 0.28
             }
           ]
         },
@@ -1052,40 +1030,35 @@
       },
       {
         "dia": 2,
-        "texto": "Serán cuatro láminas grabadas y coloreadas a mano, y otros cuatro dibujos en blanco y negro dentro del texto, entre ellos el fantasma de Márli.",
+        "texto": "Serán cuatro láminas grabadas y coloreadas a mano, entre ellas el fantasma de Márli, y otros cuatro dibujos en blanco y negro dentro del texto.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
-          "pared": "papel",
+          "pared": "madera",
           "hora": "dia",
           "ventana": true,
           "props": [
             {
               "tipo": "estanteria",
-              "x": -1.35
+              "x": -1.4
             },
             {
               "tipo": "cuadro",
-              "x": -0.85
+              "x": -0.9
             },
             {
               "tipo": "mesa",
               "x": 1.05
             },
             {
-              "tipo": "📜",
+              "tipo": "🖌️",
               "x": 0.95,
               "escala": 0.3
             },
             {
-              "tipo": "📙",
+              "tipo": "📜",
               "x": 1.2,
-              "escala": 0.3
-            },
-            {
-              "tipo": "estanteria",
-              "x": 1.5,
-              "escala": 0.9
+              "escala": 0.28
             }
           ]
         },
@@ -1109,15 +1082,15 @@
               "nombre": "4 láminas coloreadas a mano"
             },
             {
-              "icono": "✏️",
+              "icono": "🖼️",
               "nombre": "4 grabados en madera"
             },
             {
-              "icono": "💃",
+              "icono": "🎻",
               "nombre": "El baile de los Fezziwig"
             },
             {
-              "icono": "👻",
+              "icono": "⛓️",
               "nombre": "El fantasma de Marley"
             }
           ]
@@ -1161,12 +1134,12 @@
         "insercion": {
           "tipo": "cita",
           "frase": "Caminé por las calles negras de Londres quince y veinte millas, muchas noches, cuando toda la gente sobria se había ido a la cama.",
-          "firma": "Carta de Dickens a un amigo, enero de 1844"
+          "firma": "Carta de Dickens a un amigo, 1844 (probablemente a C. C. Felton)"
         }
       },
       {
         "dia": 3,
-        "texto": "Vi a niños descalzos aprender a leer de noche, a la luz de unas velas, en el barrio de los ladrones de pañuelos, y no he podido olvidarlos.",
+        "texto": "Vi a niños de la calle aprender a leer de noche, en un cuarto pobre, en el barrio de los ladrones de pañuelos, y no he podido olvidarlos.",
         "drama": 0.75,
         "fondo": {
           "lugar": "calle",
@@ -1276,7 +1249,7 @@
       },
       {
         "dia": 3,
-        "texto": "Ese año leí el informe del Parlamento sobre los niños que trabajan en fábricas e imprentas, y se me revolvió el estómago. Pensé en escribir un panfleto, pero un cuento llega a mucha más gente.",
+        "texto": "Ese año leí el informe del Parlamento sobre los niños que trabajan en fábricas e imprentas. Dicen que pensé en un panfleto, y que al final preferí un cuento, que llega a más gente.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -1446,7 +1419,7 @@
       },
       {
         "dia": 3,
-        "texto": "El cinco de octubre hablé en el Ateneo de Mánchester, una institución para trabajadores, y defendí que los hijos de los pobres también tienen derecho a aprender.",
+        "texto": "El cinco de octubre hablé en el Ateneo de Mánchester, ante trabajadores, y defendí que los hijos de los pobres también tienen derecho a aprender.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -1643,7 +1616,7 @@
       },
       {
         "dia": 6,
-        "texto": "Son sesenta y seis páginas llenas de tachones y añadidos entre líneas. Las doblo y las mando a la imprenta de mis amigos Brádberi an Évans.",
+        "texto": "Son sesenta y seis páginas llenas de tachones y añadidos entre líneas. Las doblo y las mando a la imprenta de Brádberi an Évans.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -1700,7 +1673,7 @@
       },
       {
         "dia": 8,
-        "texto": "Es lunes, cuatro, y descubro con horror que mi cuenta del banco está en descubierto, así que escribo a mi amigo de la infancia Tómas Míton, que es abogado.",
+        "texto": "Es lunes, cuatro, y descubro con horror que mi cuenta del banco está en descubierto, así que escribo a mi amigo Tómas Míton, que es abogado.",
         "drama": 0.85,
         "fondo": {
           "lugar": "interior",
@@ -1746,11 +1719,13 @@
             "mirar": 1
           }
         ],
-        "camara": "cerca"
+        "camara": "cerca",
+        "capitulo": "En descubierto",
+        "corte": true
       },
       {
         "dia": 8,
-        "texto": "Le pido que me ayude a ingresar doscientas libras, y le digo que no se preocupe, que en marzo o así, gracias a este libro, seré rico.",
+        "texto": "Le pido que me ayude a ingresar doscientas libras, y le prometo que en marzo o así, gracias a este libro, seré rico.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -1859,8 +1834,6 @@
       },
       {
         "dia": 10,
-        "capitulo": "Rojo, oro y canela",
-        "corte": true,
         "texto": "Es miércoles, seis de diciembre, y corrijo pruebas con la pluma en la mano, mientras el reloj de la chimenea corre contra mí.",
         "drama": 0.65,
         "fondo": {
@@ -1911,7 +1884,7 @@
       },
       {
         "dia": 11,
-        "texto": "La primera prueba de la portada llega en rojo y verde, y con la fecha del año que viene, como se hace con los libros que salen en diciembre.",
+        "texto": "La primera prueba de la portada llega en rojo y verde, y con la fecha del año que viene, como se hace con los libros de diciembre.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -1959,7 +1932,7 @@
       },
       {
         "dia": 11,
-        "texto": "Al final la portada irá en rojo y azul, y dirá mil ochocientos cuarenta y tres, porque es un libro de Navidad y tiene que ser de esta Navidad.",
+        "texto": "Al final irá en rojo y azul, y con la fecha de mil ochocientos cuarenta y tres, porque es un libro de esta Navidad.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -2039,7 +2012,7 @@
       },
       {
         "dia": 12,
-        "texto": "Las láminas de Lich se colorean a mano, una a una, a pincel, en cada ejemplar. Imagino mesas largas llenas de platitos de color y de hojas secándose.",
+        "texto": "Las láminas de Lich se colorean a mano, una a una, a pincel, en cada ejemplar; imagino mesas largas llenas de platitos de color.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -2154,7 +2127,7 @@
       },
       {
         "dia": 16,
-        "texto": "Es martes, doce, y hago cuentas con la ilusión de un niño: si se venden los seis mil ejemplares, en primavera habré pagado todas mis deudas.",
+        "texto": "Es martes, doce, y hago cuentas con la ilusión de un niño: si se venden los seis mil ejemplares, en marzo seré rico.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -2206,7 +2179,7 @@
         "dia": 17,
         "capitulo": "Cinco chelines",
         "corte": true,
-        "texto": "Es miércoles, trece de diciembre, y empiezan a llegar los primeros ejemplares encuadernados; parece que fue por estos días, aunque nadie apuntó la fecha.",
+        "texto": "Es miércoles, trece de diciembre, y por estos días llegan los primeros ejemplares encuadernados; nadie apuntó el día exacto.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -2265,7 +2238,7 @@
       },
       {
         "dia": 19,
-        "texto": "Es viernes, quince, y la niebla amarilla no deja ver la otra acera; en cada cruce, un niño barre el barro para que pasen los señores sin mancharse.",
+        "texto": "Es viernes, quince, y la niebla amarilla no deja ver la otra acera; en cada cruce, un niño barre el barro para que pasen los señores.",
         "drama": 0.65,
         "fondo": {
           "lugar": "calle",
@@ -2348,7 +2321,7 @@
       },
       {
         "dia": 20,
-        "texto": "Es sábado, dieciséis, y en el mercado cuelgan gansos y pavos, y hay naranjas y castañas asadas; muchas familias ahorran meses para su ganso de Navidad.",
+        "texto": "Es sábado, dieciséis, y en el mercado cuelgan gansos y pavos; dicen que muchas familias ahorran meses para su ganso de Navidad.",
         "drama": 0.65,
         "fondo": {
           "lugar": "calle",
@@ -2510,7 +2483,7 @@
         "dia": 24,
         "capitulo": "Agotado",
         "corte": true,
-        "texto": "Es miércoles, veinte de diciembre, y el libro vuela de las mesas de las librerías; la gente se lo lleva para regalarlo por Navidad.",
+        "texto": "Es miércoles, veinte de diciembre, y el libro vuela de las librerías, y mis editores no dan abasto con los pedidos.",
         "drama": 0.75,
         "fondo": {
           "lugar": "interior",
@@ -2693,13 +2666,12 @@
       },
       {
         "dia": 29,
-        "texto": "Es lunes, veinticinco, día de Navidad, y fuera no nieva como en mi libro: el día es templado y de niebla espesa, como tantos inviernos de Londres.",
+        "texto": "Es lunes, veinticinco, día de Navidad, y fuera no nieva como en mi libro: dicen que el día fue templado y de niebla espesa.",
         "drama": 0.65,
         "fondo": {
           "lugar": "calle",
-          "hora": "noche",
+          "hora": "dia",
           "clima": "niebla",
-          "luna": false,
           "props": [
             {
               "tipo": "farola",
@@ -2714,7 +2686,8 @@
               "x": -1.45,
               "escala": 0.8
             }
-          ]
+          ],
+          "sol": false
         },
         "personajes": [
           {
@@ -2891,32 +2864,74 @@
       },
       {
         "dia": 30,
-        "texto": "Es la fiesta de cumpleaños de Nina, la hija de mi amigo Makrídi, el gran actor, que este invierno está de gira por América, al otro lado del mar.",
+        "texto": "Es la fiesta de cumpleaños de Nina, la hija de mi amigo Makrídi, el gran actor, que este invierno está de gira por América.",
         "drama": 0.65,
         "fondo": {
-          "lugar": "mar",
-          "hora": "dia",
-          "clima": "nublado",
-          "sol": false,
+          "lugar": "interior",
+          "pared": "papel",
+          "hora": "noche",
+          "ventana": true,
           "props": [
             {
-              "tipo": "velero",
-              "x": -1.0,
-              "escala": 0.6
+              "tipo": "chimenea",
+              "x": -1.1
+            },
+            {
+              "tipo": "cuadro",
+              "x": -0.8
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.1
+            },
+            {
+              "tipo": "🎩",
+              "x": 1.0,
+              "escala": 0.32
+            },
+            {
+              "tipo": "🕯️",
+              "x": 1.25,
+              "escala": 0.28
+            },
+            {
+              "tipo": "cuadro",
+              "x": 1.45
             }
           ]
         },
         "personajes": [
           {
-            "quien": "macready",
-            "x": 0.35,
+            "quien": "dickens",
+            "x": 0.42,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "nina",
+            "x": 0.0,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "senoramacready",
+            "x": -0.42,
             "accion": "saludar",
             "emocion": "feliz",
-            "mirar": -1,
+            "mirar": 1,
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "general",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Estados Unidos",
+          "detalle": "Gira de William Macready · invierno de 1843–1844",
+          "icono": "📍"
+        }
       },
       {
         "dia": 30,
@@ -2978,7 +2993,7 @@
       },
       {
         "dia": 30,
-        "texto": "Luego bailo una contradanza con la señora Makrídi, y nuestra amiga Yein Carláil escribirá que es la fiesta más agradable a la que ha ido en Londres.",
+        "texto": "Luego bailo una contradanza con la señora Makrídi, y Yein Carláil escribirá que es la fiesta más agradable a la que ha ido en Londres.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -3132,7 +3147,7 @@
         "camara": "cerca"
       },
       {
-        "texto": "Los denuncio ante el tribunal de la Cancillería el ocho de enero, y el juez para la venta enseguida, porque su copia, dice, está claramente encubierta.",
+        "texto": "Los demando ante el tribunal de la Cancillería el ocho de enero; a los dos días, el juez para la venta, y luego dice que su copia está claramente encubierta.",
         "drama": 0.8,
         "fondo": {
           "lugar": "interior",
@@ -3181,7 +3196,7 @@
         }
       },
       {
-        "texto": "Gano el pleito, pero los piratas se declaran en bancarrota y me toca pagar unas setecientas libras de costas: el triple de lo que gané con el libro.",
+        "texto": "Gano el pleito, pero los piratas se declaran en bancarrota y me toca pagar unas setecientas libras de costas: el triple de lo que me dio la primera edición.",
         "drama": 0.85,
         "fondo": {
           "lugar": "interior",
@@ -3231,7 +3246,7 @@
         }
       },
       {
-        "texto": "Nace mi quinto hijo, Francis, el quince de enero, y le ponemos el nombre de su padrino, lord Yéfri, un viejo juez escocés que adora mi cuento.",
+        "texto": "Mientras tanto, el quince de enero, nace mi quinto hijo, Francis, y le ponemos el nombre de su padrino, lord Yéfri, un viejo juez escocés.",
         "drama": 0.55,
         "fondo": {
           "lugar": "interior",
@@ -3338,7 +3353,7 @@
         }
       },
       {
-        "texto": "En verano dejo a mis editores, me voy a vivir a Italia con toda la familia para ahorrar, y desde entonces escribo un libro de Navidad cada año.",
+        "texto": "En verano dejo a mis editores y me voy a Italia con la familia para ahorrar, y durante unos años escribo un libro de Navidad casi cada año.",
         "drama": 0.65,
         "fondo": {
           "lugar": "calle",
@@ -3404,14 +3419,14 @@
         "personajes": [
           {
             "quien": "dickens",
-            "x": 0.4,
+            "x": 0.27,
             "accion": "dar-mano",
             "emocion": "feliz",
             "mirar": -1
           },
           {
             "quien": "mitton",
-            "x": -0.4,
+            "x": -0.27,
             "accion": "dar-mano",
             "emocion": "feliz",
             "mirar": 1,
@@ -3421,7 +3436,7 @@
         "camara": "general"
       },
       {
-        "texto": "Dicen que inventé la Navidad, y no es verdad; pero mi cuento, que no ha dejado de imprimirse desde entonces, ayudó a que volviera a ser una fiesta de familia y de caridad.",
+        "texto": "Dicen que inventé la Navidad, y no es verdad; pero mi cuento, que nunca ha dejado de imprimirse, ayudó a que volviera a ser fiesta de familia y de caridad.",
         "drama": 0.6,
         "fondo": {
           "lugar": "interior",
@@ -3486,7 +3501,7 @@
         "camara": "general"
       },
       {
-        "texto": "Yo y todas las personas de este vídeo fuimos reales, y las fechas, las cifras y las cartas están documentadas; mis pensamientos, los diálogos y muchas escenas de cada día son imaginados.",
+        "texto": "Yo y todas las personas con nombre de este vídeo fuimos reales; las fechas, las cifras y las cartas están documentadas, y mis pensamientos, los diálogos y muchas escenas son imaginados.",
         "drama": 0.65,
         "fondo": {
           "lugar": "interior",
@@ -3591,7 +3606,7 @@
       "desde": 14,
       "hasta": 17,
       "rotulo": "IGNORANCIA Y MISERIA",
-      "titulo": "Los niños reales que Dickens metió en Canción de Navidad",
+      "titulo": "Los niños de la calle que inspiraron a Dickens",
       "descripcion": "Septiembre de 1843: Dickens visita de noche una ragged school, una escuela gratuita para niños de la calle de Londres. Meses después escribe: «Este niño es la Ignorancia. Esta niña es la Miseria». #shorts #historia #dickens"
     },
     {
@@ -3610,11 +3625,11 @@
     }
   ],
   "publicacion": {
-    "tituloLargo": "Un mes en la vida de CHARLES DICKENS (1843) | Escribió Canción de Navidad con el banco en números rojos",
+    "tituloLargo": "Un mes en la vida de CHARLES DICKENS (1843) | Publicó Canción de Navidad con el banco en números rojos",
     "tituloCorto": "Un mes con Charles Dickens",
-    "tituloShort": "Dickens escribió Canción de Navidad con el banco en números rojos",
+    "tituloShort": "Dickens publicó Canción de Navidad con el banco en números rojos",
     "capituloInicial": "Marley estaba muerto",
-    "descripcion": "Un mes en la vida de Charles Dickens, de mediados de noviembre a finales de diciembre de 1843, en Londres, mientras termina y publica Canción de Navidad (A Christmas Carol). Tiene 31 años, cuatro hijos y un quinto en camino, una casa en Devonshire Terrace, junto a Regent's Park, y una novela por entregas, Martin Chuzzlewit, que se vende peor que las anteriores. Recuerda la ragged school que visitó en septiembre, el Ateneo de Mánchester y la fábrica de betún donde trabajó a los doce años. Termina el manuscrito (66 páginas) el sábado 2 de diciembre; el lunes 4 descubre «con horror» que su cuenta está en descubierto; paga él la edición de lujo (tela canela, cantos dorados y cuatro láminas de John Leech coloreadas a mano) y el martes 19 de diciembre salen 6.000 ejemplares a 5 chelines, agotados antes de Nochebuena. El 26 de diciembre hace de mago en la fiesta de Nina Macready. Epílogo: 230 libras de beneficio, los piratas de Parley's Illuminated Library, el pleito de enero de 1844 y unas 700 libras de costas.\n\n— Semana 1: Dios nos bendiga a todos\n— Semana 2: Rojo, oro y canela\n— Semana 3: Cinco chelines\n— Semana 4: Agotado\n— Epílogo: 230 libras, los piratas, Frank, Thackeray y un libro que nunca ha dejado de imprimirse\n\nQué es documentado y qué es imaginado: Charles Dickens y todas las personas de este vídeo fueron reales. Las fechas, las cifras y las cartas citadas están documentadas; sus pensamientos, sus diálogos y muchas escenas de cada día son imaginados a partir de sus cartas y de la biografía de John Forster. Son imaginados, en concreto, la conversación con Forster, el día del encargo a Leech, la visita al taller de coloreado, la cena de Navidad y el paseo con Georgina por el mercado. Algunos datos no tienen fecha segura y se dicen con prudencia: la rebaja de 50 libras de sus editores, que la escuela fuese la de Field Lane, que el pequeño Tim se inspirase en su sobrino Harry, el día exacto en que llegaron los primeros ejemplares y las mil libras que esperaba ganar. El calendario cuenta 30 días, del lunes 27 de noviembre al martes 26 de diciembre de 1843. Las frases de las tarjetas son traducciones o paráfrasis en español de los originales en inglés. Este vídeo no se basa en ninguna adaptación para cine o televisión.\n\nFuentes: The Morgan Library & Museum (manuscrito de A Christmas Carol y carta a Thomas Mitton del 4 de diciembre de 1843); John Forster, The Life of Charles Dickens (1872–1874); The Dickens Project (UC Santa Cruz); British Library; History Today; Britannica; Victorian Web; JSTOR Daily y M. Rose, «Dickens v. Lee» (Cardozo Arts & Entertainment Law Journal); Princeton, carta a Angela Burdett-Coutts del 16 de septiembre de 1843; Victoria and Albert Museum (primera tarjeta de Navidad); English Heritage; cartas de Jane Welsh Carlyle; W. M. Thackeray, Fraser's Magazine, febrero de 1844.",
+    "descripcion": "Un mes en la vida de Charles Dickens, de mediados de noviembre a finales de diciembre de 1843, en Londres, mientras termina y publica Canción de Navidad (A Christmas Carol). Tiene 31 años, cuatro hijos y un quinto en camino, una casa en Devonshire Terrace, junto a Regent's Park, y una novela por entregas, Martin Chuzzlewit, que se vende peor que las anteriores. Recuerda la ragged school que visitó en septiembre, el Ateneo de Mánchester y la fábrica de betún donde trabajó a los doce años. Termina el manuscrito (66 páginas) el sábado 2 de diciembre; el lunes 4 descubre «con horror» que su cuenta está en descubierto; paga él la edición de lujo (tela canela, cantos dorados y cuatro láminas de John Leech coloreadas a mano) y el martes 19 de diciembre salen 6.000 ejemplares a 5 chelines, agotados antes de Nochebuena. El 26 de diciembre hace de mago en la fiesta de Nina Macready. Epílogo: 230 libras de beneficio, los piratas de Parley's Illuminated Library, el pleito de enero de 1844 y unas 700 libras de costas.\n\n— Semana 1: Dios nos bendiga a todos\n— Semana 2: En descubierto\n— Semana 3: Cinco chelines\n— Semana 4: Agotado\n— Epílogo: 230 libras, los piratas, Frank, Thackeray y un libro que nunca ha dejado de imprimirse\n\nQué es documentado y qué es imaginado: Charles Dickens y todas las personas con nombre de este vídeo fueron reales. Las fechas, las cifras y las cartas citadas están documentadas; sus pensamientos, sus diálogos y muchas escenas de cada día son imaginados a partir de sus cartas y de la biografía de John Forster. El cajista, la colorista, el barrendero y los niños de la escuela son figuras imaginadas. Son imaginados, en concreto, la conversación con Forster, el día del encargo a Leech, la visita al taller de coloreado, la cena de Navidad y el paseo con Georgina por el mercado. Algunos datos no tienen fecha segura y se dicen con prudencia: la rebaja de 50 libras de sus editores, que la escuela fuese la de Field Lane, que el pequeño Tim se inspirase en su sobrino Harry, el día exacto en que llegaron los primeros ejemplares, que pensara escribir un panfleto, el tiempo templado y con niebla del día de Navidad y las mil libras que esperaba ganar. El calendario cuenta 30 días, del lunes 27 de noviembre al martes 26 de diciembre de 1843. Las frases de las tarjetas son traducciones o paráfrasis en español de los originales en inglés. Este vídeo no se basa en ninguna adaptación para cine o televisión.\n\nFuentes: The Morgan Library & Museum (manuscrito de A Christmas Carol y carta a Thomas Mitton del 4 de diciembre de 1843); John Forster, The Life of Charles Dickens (1872–1874); The Dickens Project (UC Santa Cruz); British Library; History Today; Britannica; Victorian Web; JSTOR Daily y M. Rose, «Dickens v. Lee» (Cardozo Arts & Entertainment Law Journal); Princeton, carta a Angela Burdett-Coutts del 16 de septiembre de 1843; English Heritage; cartas de Jane Welsh Carlyle; W. M. Thackeray, Fraser's Magazine, febrero de 1844.",
     "etiquetas": [
       "un mes en la vida de",
       "Charles Dickens",

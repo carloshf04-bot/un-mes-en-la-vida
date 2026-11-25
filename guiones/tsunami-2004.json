@@ -267,7 +267,7 @@
     "escenas": [
       {
         "corte": true,
-        "texto": "Aquel domingo era luna llena, y yo iba vestido de blanco al templo, con flores de loto en la mano, junto a un mar tan tranquilo como un plato de agua.",
+        "texto": "Aquel domingo era luna llena, y yo iba de blanco al templo con flores de loto, junto a un mar tan tranquilo como un plato de agua.",
         "drama": 0.75,
         "fondo": {
           "lugar": "playa",
@@ -305,7 +305,7 @@
         "camara": "lenta"
       },
       {
-        "texto": "A mil seiscientos kilómetros de mi playa, la tierra se había roto bajo el mar, y dos horas y media después el agua llegó hasta nosotros sin que nadie nos avisara.",
+        "texto": "A casi dos mil kilómetros de mi playa, la tierra se había roto bajo el mar, y dos horas y media después el agua llegó hasta nosotros sin que nadie nos avisara.",
         "drama": 0.85,
         "personajes": [
           {
@@ -320,7 +320,7 @@
         "camara": "cerca"
       },
       {
-        "texto": "Me llamo Kásun, tengo once años y vivo en un pueblo de pescadores del suroeste de Sri Lanka, junto a Peralíya, entre la vía del tren y el mar.",
+        "texto": "Me llamo Kásun, tengo once años y vivo en un pueblo de pescadores de Sri Lanka, junto a Peralíya, entre la vía del tren y el mar.",
         "drama": 0.55,
         "fondo": {
           "lugar": "playa",
@@ -362,7 +362,7 @@
         }
       },
       {
-        "texto": "Mi familia y yo somos inventados, pero el mar, el tren y aquella mañana de diciembre de dos mil cuatro fueron reales.",
+        "texto": "Mi familia y yo somos inventados, pero el mar, el tren y aquella mañana de diciembre de dos mil cuatro fueron reales, y nadie nos avisó.",
         "drama": 0.6,
         "personajes": [
           {
@@ -378,7 +378,7 @@
       {
         "dia": 1,
         "capitulo": "El mar en calma",
-        "texto": "Es domingo, doce de diciembre, y al amanecer bajo a la playa a tirar de la madel, la gran red que sacamos del agua entre decenas de brazos.",
+        "texto": "Es domingo, doce de diciembre, y al amanecer bajo a la playa a tirar de la madel, la gran red que sacamos del agua entre muchas manos.",
         "drama": 0.55,
         "fondo": {
           "lugar": "playa",
@@ -497,7 +497,7 @@
             },
             {
               "icono": "🐟",
-              "nombre": "Atún, sardinas y caballas"
+              "nombre": "Atún y pescado para vender o secar"
             },
             {
               "icono": "🥥",
@@ -562,7 +562,7 @@
       },
       {
         "dia": 3,
-        "texto": "En casa comemos arroz con curry y pol sámbol, y mi abuela, a la que llamamos Achi, cocina en un fogón de leña con cáscaras de coco seco.",
+        "texto": "En casa comemos arroz con curry y pol sámbol, y mi abuela, a la que llamamos Achi, guisa en un fogón de leña con cáscaras de coco seco.",
         "drama": 0.5,
         "fondo": {
           "lugar": "interior",
@@ -665,7 +665,7 @@
       },
       {
         "dia": 5,
-        "texto": "El tren de la costa pasa varias veces al día con las ventanillas abiertas, y el más famoso es el expreso de Colombo, la Reina del Mar.",
+        "texto": "El tren de la costa pasa varias veces al día, y el más famoso es el expreso de Colombo, la Reina del Mar.",
         "drama": 0.55,
         "fondo": {
           "lugar": "campo",
@@ -789,7 +789,7 @@
             "quien": "kasun",
             "x": 0.35,
             "accion": "senalar",
-            "emocion": "feliz",
+            "emocion": "neutral",
             "mirar": -1
           }
         ],
@@ -797,7 +797,7 @@
       },
       {
         "dia": 7,
-        "texto": "Es sábado, dieciocho, y mi tía, que trabaja en la cocina de un hotel de Jikadúva, nos trae pastel de las cenas de los turistas.",
+        "texto": "El sábado, mi tía, que trabaja en la cocina de un hotel de Jikadúva, nos trae pastel de las cenas de los turistas.",
         "drama": 0.5,
         "fondo": {
           "lugar": "interior",
@@ -899,7 +899,7 @@
       },
       {
         "dia": 10,
-        "texto": "Es martes, veintiuno, y vamos en autobús a Gal a comprar tela y arroz, que está mucho más caro, y mi madre cuenta las monedas dos veces.",
+        "texto": "Es martes, veintiuno, y vamos en autobús a Gal a comprar tela y arroz, que está mucho más caro.",
         "drama": 0.5,
         "fondo": {
           "lugar": "calle",
@@ -907,19 +907,24 @@
           "clima": "despejado",
           "props": [
             {
-              "tipo": "puesto",
+              "tipo": "mesa",
               "x": -1.0,
-              "escala": 0.9
+              "escala": 1.0
+            },
+            {
+              "tipo": "🐟",
+              "x": -1.15,
+              "escala": 0.4
             },
             {
               "tipo": "🥥",
-              "x": 1.0,
-              "escala": 0.5
+              "x": -1.0,
+              "escala": 0.4
             },
             {
               "tipo": "🍚",
-              "x": 1.25,
-              "escala": 0.45
+              "x": -0.85,
+              "escala": 0.4
             }
           ]
         },
@@ -1048,7 +1053,7 @@
       },
       {
         "dia": 13,
-        "texto": "La madre de Dilan reparte pastel de Navidad y un bizcocho de anacardos y calabaza, el pastel del amor, que llegó hace siglos con los portugueses.",
+        "texto": "La madre de Dilan reparte pastel de Navidad y un bizcocho de anacardos y calabaza, el pastel del amor, que trajeron hace siglos portugueses y holandeses.",
         "drama": 0.5,
         "personajes": [
           {
@@ -1154,7 +1159,7 @@
       },
       {
         "dia": 14,
-        "texto": "La radio dice que mañana los trenes irán llenos por el Póya y la Navidad, y esa noche mi padre sale a pescar.",
+        "texto": "La radio dice que mañana los trenes irán llenos por el Póya y la Navidad, y esa noche mi padre sale a pescar más lejos que nunca.",
         "drama": 0.5,
         "fondo": {
           "lugar": "playa",
@@ -1239,7 +1244,7 @@
       },
       {
         "dia": 15,
-        "texto": "Frente a Sumatra, el fondo del océano se ha levantado varios metros de golpe, y la tierra se ha rasgado a lo largo de más de mil kilómetros.",
+        "texto": "Frente a Sumatra, el fondo del océano se ha levantado varios metros de golpe, y la tierra se ha rasgado más de mil kilómetros.",
         "drama": 0.75,
         "fondo": {
           "lugar": "playa",
@@ -1269,7 +1274,7 @@
       },
       {
         "dia": 15,
-        "texto": "Los sismógrafos de medio mundo registran el terremoto en minutos, pero en el océano Índico no hay ningún sistema de alerta, y la ola lo cruza tan deprisa como un avión.",
+        "texto": "Los sismógrafos de medio mundo registran el terremoto en minutos, pero en el océano Índico no hay ningún sistema de alerta, y la ola lo atraviesa tan deprisa como un avión.",
         "drama": 0.75,
         "fondo": {
           "lugar": "interior",
@@ -1308,7 +1313,7 @@
       },
       {
         "dia": 15,
-        "texto": "Hacia las nueve salimos mi madre, mi abuela y yo, cruzamos la vía del tren y tomamos el camino que sube al templo de la colina.",
+        "texto": "Hacia las nueve salimos mi madre, mi abuela y yo, pasamos la vía del tren y tomamos el camino que sube al templo de la colina.",
         "drama": 0.6,
         "fondo": {
           "lugar": "campo",
@@ -1338,8 +1343,7 @@
             "x": 0.0,
             "accion": "caminar",
             "emocion": "feliz",
-            "mirar": 1,
-            "objeto": "🪷"
+            "mirar": 1
           },
           {
             "quien": "kumariblanco",
@@ -1355,7 +1359,8 @@
             "accion": "caminar",
             "emocion": "neutral",
             "mirar": 1,
-            "habla": false
+            "habla": false,
+            "objeto": "🪷"
           }
         ],
         "camara": "general"
@@ -1392,11 +1397,17 @@
           ]
         },
         "personajes": [],
-        "camara": "lenta"
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "De Sumatra a Sri Lanka",
+          "detalle": "La ola rodea el sur de la isla · 26 de diciembre de 2004",
+          "icono": "🌏"
+        }
       },
       {
         "dia": 15,
-        "texto": "Entonces el mar se retira cientos de metros y deja al aire las rocas, el fondo y los peces saltando sobre la arena mojada.",
+        "texto": "Entonces el mar se retira muy lejos y deja al aire el arrecife, las rocas y los peces saltando sobre la arena mojada.",
         "drama": 0.8,
         "fondo": {
           "lugar": "playa",
@@ -1509,7 +1520,7 @@
       },
       {
         "dia": 15,
-        "texto": "Desde la curva del camino vemos el tren de la mañana parado junto a las casas, porque el agua le ha cortado el paso a unos doscientos metros del mar.",
+        "texto": "El tren se llamaba la Reina del Mar, y desde la curva del camino lo vemos parado junto a las casas, porque el agua le ha cortado el paso.",
         "drama": 0.8,
         "fondo": {
           "lugar": "campo",
@@ -1523,8 +1534,8 @@
             },
             {
               "tipo": "tren-diesel",
-              "x": 0.0,
-              "escala": 0.5
+              "x": -1.0,
+              "escala": 0.4
             },
             {
               "tipo": "poste",
@@ -1538,12 +1549,21 @@
             }
           ]
         },
-        "personajes": [],
+        "personajes": [
+          {
+            "quien": "kasunblanco",
+            "x": 0.42,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
         "camara": "lenta"
       },
       {
         "dia": 15,
-        "texto": "Es la Reina del Mar, llena de gente por el Póya, y muchos vecinos suben a sus vagones porque un tren de hierro parece el lugar más seguro.",
+        "texto": "Va lleno de gente por el Póya, y muchos vecinos suben a sus vagones porque un tren de hierro parece el lugar más seguro.",
         "drama": 0.8,
         "personajes": [],
         "camara": "lenta"
@@ -1553,24 +1573,29 @@
         "texto": "Entonces llega el ruido, un rugido grave que sube desde la costa, y cuando miro atrás, entre las palmeras solo hay agua donde antes estaban las casas.",
         "drama": 0.9,
         "fondo": {
-          "lugar": "montanas",
+          "lugar": "campo",
           "hora": "dia",
           "clima": "despejado",
           "props": [
             {
-              "tipo": "arbol",
-              "x": -1.05,
-              "escala": 1.35
+              "tipo": "palmera",
+              "x": -1.3,
+              "escala": 1.1
             },
             {
-              "tipo": "casa",
-              "x": 1.15,
-              "escala": 0.9
+              "tipo": "charco",
+              "x": -0.6,
+              "escala": 1.2
             },
             {
-              "tipo": "🪷",
-              "x": 0.85,
-              "escala": 0.35
+              "tipo": "charco",
+              "x": 0.95,
+              "escala": 1.0
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.4,
+              "escala": 1.0
             }
           ]
         },
@@ -1587,7 +1612,7 @@
       },
       {
         "dia": 15,
-        "texto": "Habían pasado unas dos horas y media desde el terremoto, tiempo de sobra para avisar a toda la costa, pero en el Índico no había nadie mirando.",
+        "texto": "Habían pasado unas dos horas y media desde el terremoto, tiempo suficiente para avisar a toda la costa, pero en el Índico no había ningún sistema para hacerlo.",
         "drama": 0.85,
         "personajes": [],
         "insercion": {
@@ -1599,7 +1624,7 @@
       },
       {
         "dia": 15,
-        "texto": "Llegan más olas durante la mañana, y los monjes abren el templo a todo el que sube, y nos sentamos bajo el árbol sagrado sin decir nada.",
+        "texto": "Llegan más olas durante la mañana, y los monjes abren el templo a todo el que sube, y nos sentamos bajo el árbol sagrado.",
         "drama": 0.7,
         "personajes": [
           {
@@ -1618,11 +1643,28 @@
             "habla": false
           }
         ],
-        "camara": "lenta"
+        "camara": "lenta",
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.05,
+              "escala": 1.35
+            },
+            {
+              "tipo": "dagoba",
+              "x": 1.15,
+              "escala": 0.6
+            }
+          ]
+        }
       },
       {
         "dia": 15,
-        "texto": "Mi padre está en el mar desde anoche, y mi madre mira hacia la costa durante horas, sin moverse, con las manos juntas delante del pecho.",
+        "texto": "Mi padre salió anoche y esta vez no ha vuelto con el alba, y mi madre mira hacia la costa durante horas, sin moverse, con las manos juntas.",
         "drama": 0.7,
         "fondo": {
           "lugar": "montanas",
@@ -1635,14 +1677,9 @@
               "escala": 1.35
             },
             {
-              "tipo": "casa",
+              "tipo": "dagoba",
               "x": 1.2,
-              "escala": 0.9
-            },
-            {
-              "tipo": "🏳️",
-              "x": 0.8,
-              "escala": 0.45
+              "escala": 0.6
             }
           ]
         },
@@ -1660,7 +1697,7 @@
       },
       {
         "dia": 15,
-        "texto": "Ya es de noche cuando mi padre aparece en el templo, empapado, y cuenta que en alta mar la ola apenas levantó su canoa, pero que la costa ya no estaba.",
+        "texto": "Ya es de noche cuando mi padre llega al templo, empapado, y cuenta que en alta mar la ola apenas levantó su canoa, pero que la costa ya no estaba.",
         "drama": 0.75,
         "fondo": {
           "lugar": "montanas",
@@ -1706,7 +1743,7 @@
       },
       {
         "dia": 16,
-        "texto": "Es lunes, veintisiete, y dormimos en el suelo del templo con cientos de vecinos, sin luz ni teléfono, mientras los monjes cocinan arroz para todos.",
+        "texto": "Al día siguiente dormimos en el suelo del templo con cientos de vecinos, sin luz ni teléfono, mientras los monjes guisan arroz para todos.",
         "drama": 0.6,
         "fondo": {
           "lugar": "montanas",
@@ -1752,7 +1789,7 @@
       },
       {
         "dia": 16,
-        "texto": "En la pared del templo pegan listas de nombres, y Dilan y su madre están a salvo, pero el nombre de Roshan aparece entre los que no volvieron.",
+        "texto": "En la pared del templo pegan listas de nombres, y Dilan y su madre están a salvo, pero el nombre de Roshan está entre los que no volvieron.",
         "drama": 0.7,
         "personajes": [
           {
@@ -1768,7 +1805,7 @@
       },
       {
         "dia": 18,
-        "texto": "Es miércoles, veintinueve, y mi padre baja a la costa y vuelve muy callado, y solo me cuenta que la Reina del Mar está volcada junto a la vía, vacía.",
+        "texto": "Es miércoles, veintinueve, y mi padre baja a la costa y vuelve muy callado, y solo me cuenta que la Reina del Mar está volcada, lejos de la vía.",
         "drama": 0.75,
         "fondo": {
           "lugar": "playa",
@@ -1802,7 +1839,7 @@
       },
       {
         "dia": 18,
-        "texto": "Aquel domingo iban en ella más de mil personas, y es el peor desastre de tren de toda la historia, a pocos minutos de mi casa.",
+        "texto": "Más de mil personas no volvieron de aquel tren, y es el peor desastre de tren de toda la historia, a pocos minutos de mi casa.",
         "drama": 0.8,
         "personajes": [],
         "insercion": {
@@ -1814,7 +1851,7 @@
       },
       {
         "dia": 20,
-        "texto": "Es viernes, treinta y uno, el último día del año, y nadie enciende petardos, porque la lata de Dilan se ha ido con su casa.",
+        "texto": "Es viernes, treinta y uno, el último día del año, y nadie tira petardos. La lata de Dilan se fue con su casa, y tampoco nadie tiene ganas.",
         "drama": 0.6,
         "fondo": {
           "lugar": "montanas",
@@ -1827,9 +1864,9 @@
               "escala": 1.35
             },
             {
-              "tipo": "casa",
+              "tipo": "dagoba",
               "x": 1.2,
-              "escala": 0.9
+              "escala": 0.6
             },
             {
               "tipo": "hoguera",
@@ -1852,7 +1889,7 @@
       {
         "dia": 23,
         "capitulo": "Volver a la orilla",
-        "texto": "Es lunes, tres de enero, y los soldados reparten arroz y agua en bidones, mientras la radio dice que en el país han muerto más de treinta mil personas.",
+        "texto": "Es lunes, tres de enero, y los soldados reparten arroz y agua, mientras la radio dice que en el país han muerto más de treinta mil personas.",
         "drama": 0.65,
         "fondo": {
           "lugar": "campo",
@@ -1910,7 +1947,7 @@
       },
       {
         "dia": 25,
-        "texto": "Es miércoles, cinco, y cada vez que alguien grita que viene otra ola, el campamento entero corre hacia la colina, aunque nunca sea verdad.",
+        "texto": "Una noche, alguien grita que viene otra ola, y el campamento entero corre hacia la colina, como cada vez, aunque nunca sea verdad.",
         "drama": 0.7,
         "fondo": {
           "lugar": "campo",
@@ -1947,7 +1984,7 @@
       },
       {
         "dia": 26,
-        "texto": "En Yakarta se reúnen los gobiernos de medio mundo para repartir la ayuda, porque solo en Sri Lanka hay unas quinientas mil personas fuera de sus casas.",
+        "texto": "En Yakarta se reúnen los gobiernos de medio mundo para repartir la ayuda del océano Índico. Solo en Sri Lanka hay unas quinientas mil personas fuera de sus casas.",
         "drama": 0.6,
         "fondo": {
           "lugar": "campo",
@@ -1998,7 +2035,7 @@
       },
       {
         "dia": 27,
-        "texto": "Es viernes, siete, y el secretario de Estado de los Estados Unidos, Colin Páuel, visita en Gal un centro de la Cruz Roja.",
+        "texto": "El viernes, el secretario de Estado de los Estados Unidos, Colin Páuel, visita en Gal un centro de la Cruz Roja.",
         "drama": 0.55,
         "fondo": {
           "lugar": "campo",
@@ -2081,7 +2118,7 @@
       },
       {
         "dia": 29,
-        "texto": "Es domingo, nueve de enero, y mi padre me lleva a ver el mar, y de nuestra casa solo quedan el suelo de cemento y tres escalones.",
+        "texto": "Es domingo, nueve de enero, y mi padre me lleva a ver el mar, y de nuestra casa solo quedan el suelo y tres escalones.",
         "drama": 0.6,
         "fondo": {
           "lugar": "playa",
@@ -2192,7 +2229,7 @@
       },
       {
         "dia": 30,
-        "texto": "Al pasar lista, la maestra se calla un momento en cada nombre que falta, y luego sigue leyendo, despacio, hasta el final.",
+        "texto": "Al pasar lista, la maestra se calla un momento en cada nombre que falta, y luego sigue leyendo, muy lento, hasta el final.",
         "drama": 0.6,
         "personajes": [
           {
@@ -2212,7 +2249,7 @@
         }
       },
       {
-        "texto": "Después del tsunami llegaron tantas barcas regaladas que en algunos pueblos hubo más barcas que pescadores, y mi padre volvió a salir al mar en primavera.",
+        "texto": "Después del tsunami llegaron tantas barcas regaladas que en algunos pueblos hubo más barcas que pescadores, y mi padre volvió a salir al mar pocos meses después.",
         "drama": 0.55,
         "fondo": {
           "lugar": "playa",
@@ -2263,13 +2300,16 @@
       {
         "texto": "Unos científicos de Sri Lanka midieron que en Jikadúva, con el arrecife protegido, la ola fue de dos o tres metros, y aquí, sin coral, de unos diez.",
         "drama": 0.65,
-        "personajes": [],
-        "insercion": {
-          "tipo": "dato",
-          "valor": "10 m",
-          "etiqueta": "la ola en Peraliya, donde se había arrancado el coral (2–3 m en Hikkaduwa)",
-          "icono": "🪸"
-        }
+        "personajes": [
+          {
+            "quien": "kasunescuela",
+            "x": 0.35,
+            "accion": "senalar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "lenta"
       },
       {
         "texto": "En junio de dos mil seis empezó a funcionar el sistema de alerta de tsunamis del océano Índico, con boyas, sismógrafos y estaciones que vigilan el mar.",
@@ -2328,7 +2368,7 @@
         }
       },
       {
-        "texto": "Cada veintiséis de diciembre, la Reina del Mar restaurada vuelve a Peralíya, se detiene en el mismo lugar, y el país entero guarda dos minutos de silencio.",
+        "texto": "Desde dos mil ocho, cada veintiséis de diciembre, la Reina del Mar restaurada vuelve a Peralíya y el país entero guarda dos minutos de silencio.",
         "drama": 0.65,
         "fondo": {
           "lugar": "campo",
@@ -2356,7 +2396,7 @@
         "camara": "lenta"
       },
       {
-        "texto": "Yo, Kásun, nunca existí, ni mi familia, ni Dilan, ni Roshan, pero aquel domingo de luna llena, el tren y las olas fueron reales, igual que las personas que no volvieron.",
+        "texto": "Yo, Kásun, nunca existí, ni mi familia, ni Dilan, ni Roshan, ni la señorita Nadísha, pero aquel domingo, el tren y las olas fueron reales, como las personas que no volvieron.",
         "drama": 0.6,
         "fondo": {
           "lugar": "playa",
@@ -2413,35 +2453,35 @@
       "hasta": 3,
       "rotulo": "NADIE NOS AVISÓ",
       "titulo": "El domingo que el mar llegó sin aviso (Sri Lanka, 2004)",
-      "descripcion": "26 de diciembre de 2004, luna llena en Sri Lanka: un terremoto a 1.600 km bajo el mar y dos horas y media sin ningún aviso. Narrador inventado, hechos reales. #shorts #tsunami #historia"
+      "descripcion": "26 de diciembre de 2004, luna llena en Sri Lanka: un terremoto a unos 1.800 km bajo el mar y dos horas y media sin ningún aviso. Narrador inventado, hechos reales. #shorts #tsunami #historia"
     },
     {
-      "desde": 25,
+      "desde": 26,
       "hasta": 29,
       "rotulo": "EL MAR SE RETIRÓ",
       "titulo": "Cuando el mar se retira, hay que correr",
-      "descripcion": "Así lo vio un pueblo pescador de Sri Lanka el 26 de diciembre de 2004: el agua sube, se va cientos de metros y deja el fondo al aire. Nadie sabía qué significaba. Narrador inventado, hechos reales. #shorts #tsunami #srilanka"
+      "descripcion": "Así lo vio un pueblo pescador de Sri Lanka el 26 de diciembre de 2004: el agua sube, se retira muy lejos y deja el fondo al aire. Nadie sabía qué significaba. Narrador inventado, hechos reales. #shorts #tsunami #srilanka"
     },
     {
-      "desde": 30,
+      "desde": 31,
       "hasta": 34,
       "rotulo": "LA REINA DEL MAR",
       "titulo": "El tren que se paró junto al mar",
       "descripcion": "El expreso Samudra Devi, la Reina del Mar, se detuvo en Peraliya (Sri Lanka) el 26 de diciembre de 2004. Más de mil personas: el peor desastre ferroviario de la historia. Narrador inventado, hechos reales. #shorts #tsunami #historia"
     },
     {
-      "desde": 53,
+      "desde": 54,
       "hasta": 57,
       "rotulo": "NUNCA MÁS SIN AVISO",
       "titulo": "Por qué hoy hay sirenas en las playas del Índico",
-      "descripcion": "Lo que cambió después del tsunami de 2004 en Sri Lanka: barcas donadas, el coral que marcó la diferencia (2–3 m de ola en Hikkaduwa, unos 10 en Peraliya), el sistema de alerta del Índico de 2006 y el tren que cada 26 de diciembre se detiene en Peraliya. Narrador inventado, hechos reales. #shorts #tsunami #ciencia"
+      "descripcion": "Lo que cambió después del tsunami de 2004 en Sri Lanka: el coral que marcó la diferencia (2–3 m de ola en Hikkaduwa, unos 10 en Peraliya), el sistema de alerta del Índico de 2006 y el tren que cada 26 de diciembre se detiene en Peraliya. Narrador inventado, hechos reales. #shorts #tsunami #ciencia"
     }
   ],
   "publicacion": {
     "tituloLargo": "Un mes en la vida de UN NIÑO DE UN PUEBLO PESCADOR | El tsunami de 2004 en Sri Lanka",
     "tituloCorto": "El domingo que el mar se fue (Sri Lanka, 2004)",
     "capituloInicial": "Nadie nos avisó",
-    "descripcion": "Treinta días en un pueblo de pescadores inventado junto a Peraliya, en la costa suroeste de Sri Lanka (distrito de Galle), del domingo 12 de diciembre de 2004 al lunes 10 de enero de 2005, contados por Kasun, un niño de once años: la red de playa al amanecer, el oruwa de su padre, el críquet junto a la vía del tren, la Navidad de sus vecinos católicos y el Unduvap Poya, la luna llena del 26 de diciembre, cuando un terremoto de magnitud 9,1 frente a Sumatra mandó un tsunami que llegó a la costa dos horas y media después sin que nadie avisara.\n\n— Semana 1: El mar en calma\n— Semana 2: Navidad y luna llena\n— Semana 3: El día que el mar se fue\n— Semana 4: Volver a la orilla\n— Epílogo: las barcas donadas, el coral de Hikkaduwa y Peraliya, el sistema de alerta del Índico (2006) y el tren que cada 26 de diciembre se detiene en Peraliya\n\nQué es inventado y qué es real: Kasun es un personaje INVENTADO, igual que su familia, su amigo Dilan, Roshan y la maestra Nadeesha (así lo decimos también al final del vídeo); sus escenas y pensamientos son imaginados. Son reales el terremoto (6:58, hora de Sri Lanka en 2004), la falta de un sistema de alerta en el océano Índico, la retirada del mar en muchas playas, el tren Samudra Devi detenido en Peraliya (más de mil víctimas; no hay cifra oficial), las unas 35.000 personas muertas en Sri Lanka y más de 220.000 en todo el Índico, la visita de Colin Powell a Galle (7 de enero) y el vuelo de Kofi Annan sobre la costa (8 de enero), la reapertura de las escuelas el 10 de enero y el sistema de alerta que empezó a funcionar en junio de 2006. Las cifras de víctimas varían según la fuente; damos las más citadas.\n\nEn memoria de todas las personas que perdieron la vida el 26 de diciembre de 2004 en Sri Lanka y en todo el océano Índico, y con respeto a los supervivientes y a sus familias.\n\nFuentes principales: USGS y NOAA (terremoto y propagación del tsunami); Goff et al. (2006), Earthquake Spectra (horas de llegada en Sri Lanka); Fernando et al. (2005), Eos/AGU (coral y Peraliya); UNESCO-COI y ONU (sistema de alerta del Índico); Banco Mundial y OCHA/ReliefWeb (daños y desplazados); AFP/VOA y Daily FT (el tren Samudra Devi); Education Week y UNICEF (reapertura de las escuelas).\n\nSi sabes qué hacer cuando el mar se retira, cuéntaselo a alguien. Déjanos en los comentarios dónde lo aprendiste tú y suscríbete para vivir otro mes dentro de la historia.",
+    "descripcion": "Treinta días en un pueblo de pescadores inventado junto a Peraliya, en la costa suroeste de Sri Lanka (distrito de Galle), del domingo 12 de diciembre de 2004 al lunes 10 de enero de 2005, contados por Kasun, un niño de once años: la red de playa al amanecer, el oruwa de su padre, el críquet junto a la vía del tren, la Navidad de sus vecinos católicos y el Unduvap Poya, la luna llena del 26 de diciembre, cuando un terremoto de magnitud 9,1 frente a Sumatra mandó un tsunami que llegó a la costa dos horas y media después sin que nadie avisara.\n\n— Semana 1: El mar en calma\n— Semana 2: Navidad y luna llena\n— Semana 3: El día que el mar se fue\n— Semana 4: Volver a la orilla\n— Epílogo: las barcas donadas, el coral de Hikkaduwa y Peraliya, el sistema de alerta del Índico (2006) y el tren que cada 26 de diciembre se detiene en Peraliya\n\nQué es inventado y qué es real: Kasun es un personaje INVENTADO, igual que su familia (también la tía del hotel), su amigo Dilan, Roshan y la maestra Nadeesha (así lo decimos también al final del vídeo); sus escenas y pensamientos son imaginados. Son reales el terremoto (6:58, hora de Sri Lanka en 2004), la falta de un sistema de alerta en el océano Índico, la retirada del mar en muchas playas, el tren Samudra Devi detenido en Peraliya (más de mil víctimas; no hay cifra oficial), las cerca de 35.000 personas muertas en Sri Lanka y más de 220.000 en todo el Índico, la visita de Colin Powell a Galle (7 de enero) y el vuelo de Kofi Annan sobre la costa (8 de enero), la reapertura de las escuelas el 10 de enero y el sistema de alerta que empezó a funcionar en junio de 2006. Las cifras de víctimas varían según la fuente; damos las más citadas.\n\nEn memoria de todas las personas que perdieron la vida el 26 de diciembre de 2004 en Sri Lanka y en todo el océano Índico, y con respeto a los supervivientes y a sus familias.\n\nFuentes principales: USGS y NOAA (terremoto y propagación del tsunami); Goff et al. (2006), Earthquake Spectra (horas de llegada en Sri Lanka); Fernando et al. (2005), Eos/AGU (coral y Peraliya); UNESCO-COI y ONU (sistema de alerta del Índico); Banco Mundial y OCHA/ReliefWeb (daños y desplazados); AFP/VOA y Daily FT (el tren Samudra Devi); Education Week y UNICEF (reapertura de las escuelas).\n\nSi sabes qué hacer cuando el mar se retira, cuéntaselo a alguien. Déjanos en los comentarios dónde lo aprendiste tú y suscríbete para vivir otro mes dentro de la historia.",
     "etiquetas": [
       "un mes en la vida de",
       "tsunami 2004",
