@@ -1662,7 +1662,7 @@
         "drama": 0.7,
         "fondo": {
           "lugar": "campo",
-          "hora": "dia",
+          "hora": "amanecer",
           "clima": "niebla",
           "props": [
             {
@@ -1791,7 +1791,7 @@
           "lugar": "interior",
           "pared": "madera",
           "hora": "noche",
-          "ventana": true,
+          "ventana": false,
           "luna": false,
           "props": [
             {
@@ -1810,10 +1810,6 @@
             {
               "tipo": "barril",
               "x": 1.2
-            },
-            {
-              "tipo": "cuadro",
-              "x": 0.7
             }
           ],
           "clima": "nublado"
@@ -1996,7 +1992,7 @@
           ]
         },
         "personajes": [],
-        "camara": "paneo"
+        "camara": "general"
       },
       {
         "texto": "Pero nadie de su tripulación lo contó entonces; él lo relacionó con Míler tras ver una película sobre su vida. Y según Sprag, las bombas cayeron noventa minutos antes.",
@@ -2108,7 +2104,7 @@
   },
   "ganchos": [
     {
-      "desde": 0,
+      "desde": 1,
       "hasta": 3,
       "rotulo": "CUATRO MINUTOS EN MI PISTA",
       "titulo": "El avión que se llevó a Glenn Miller",
@@ -2122,14 +2118,14 @@
       "descripcion": "15 de diciembre de 1944: el Norseman que se llevó a Glenn Miller estuvo cuatro minutos en Twinwood sin apagar el motor. Lo que se sabe y lo que solo se cuenta. Narrador inventado, hechos reales. #shorts #glennmiller #misterio"
     },
     {
-      "desde": 36,
+      "desde": 37,
       "hasta": 39,
       "rotulo": "138 BOMBARDEROS, UN MISMO MAR",
       "titulo": "138 bombarderos y un avión pequeño",
       "descripcion": "El mismo día que desapareció Glenn Miller, 138 Lancaster soltaron sus bombas en el Canal. Según el historiador Dennis Spragg, unos 90 minutos antes de que pasara el Norseman. Narrador inventado, hechos reales. #shorts #segundaguerramundial #misterio"
     },
     {
-      "desde": 42,
+      "desde": 44,
       "hasta": 46,
       "rotulo": "NADIE LO ECHÓ DE MENOS",
       "titulo": "Tres días sin que nadie notara que faltaba Glenn Miller",
@@ -2160,7 +2156,8 @@
       "texto": "NUNCA LLEGÓ A PARÍS",
       "escena": 44,
       "quien": "tomcapote",
-      "emocion": "miedo"
+      "emocion": "miedo",
+      "prop": "norseman"
     }
   }
 }
