@@ -174,7 +174,7 @@ const assDe = (n, [a, b]) => {
 };
 
 // ---------- render de cada short ----------
-const firma = JSON.stringify({ plan, metas, encuadre, largo: statSync(largo).mtimeMs, v: 9 });
+const firma = JSON.stringify({ plan, metas, encuadre, largo: statSync(largo).mtimeMs, v: 10 });
 const cortesF = join(dir, "cortes.json");
 const previo = existsSync(cortesF) ? readFileSync(cortesF, "utf8") : "";
 const mismoPlan = !rehacer && previo && JSON.parse(previo).firma === firma;
@@ -185,7 +185,7 @@ const xDe = (i, modo, w) => limitarX(encuadre[i].modo === modo ? encuadre[i].x :
 const exprX = (a, b, modo = "recorte", w = CW) => {
   const t0 = bordes[a];
   let e = String(xDe(b - 1, modo, w));
-  const a0 = Math.max(0, a - 1); // los primeros ~0,25 s aún se ve el plano anterior
+  const a0 = a; // el arranque se congela en el primer fotograma limpio del plano a (sin el fundido del anterior)
   for (let i = b - 1; i > a0; i--) {
     const xi = xDe(i, modo, w);
     const xa = xDe(i - 1, modo, w);
@@ -197,7 +197,7 @@ const exprX = (a, b, modo = "recorte", w = CW) => {
 const exprModo = (a, b, modo) => {
   const t0 = bordes[a];
   const tramos = [];
-  for (let i = Math.max(0, a - 1); i < b; i++) if (encuadre[i].modo === modo) tramos.push(`between(t,${Math.max(0, escIni[i] - t0).toFixed(3)},${(Math.min(escIni[i + 1], bordes[b]) - t0 - 0.001).toFixed(3)})`);
+  for (let i = a; i < b; i++) if (encuadre[i].modo === modo) tramos.push(`between(t,${(i === a ? 0 : Math.max(0, escIni[i] - t0)).toFixed(3)},${(Math.min(escIni[i + 1], bordes[b]) - t0 - 0.001).toFixed(3)})`);
   return tramos.length ? tramos.join("+") : "0";
 };
 
@@ -213,8 +213,10 @@ plan.forEach(([a, b], k) => {
   const ent = exprModo(a, b, "entero");
   const med = exprModo(a, b, "medio");
   const MH = Math.round((CH * 1080) / MW);
+  // gancho limpio: hasta que el plano a termina de entrar (fundido encadenado), se congela su primer fotograma limpio
+  const D0 = a > 0 ? Math.max(0, ini[a] + 2 / fps - t0) : 0;
   const filtro = [
-    `[0:v]split=4[v1][v2][v3][v4]`,
+    `[0:v]tpad=start_duration=${D0.toFixed(3)}:start_mode=clone,split=4[v1][v2][v3][v4]`,
     `[v1]scale=-2:1920,crop=1080:1920,boxblur=28:2,eq=brightness=-0.18:saturation=0.85[fondo]`,
     `[v2]crop=${CW}:${CH}:x='${exprX(a, b)}':y=${CY},scale=1080:${Math.round((CH * 1080) / CW)}[rec]`,
     `[v3]crop=${EW}:${CH}:${(1920 - EW) / 2}:${CY},scale=1080:${Math.round((CH * 1080) / EW)}[ent]`,
@@ -223,10 +225,10 @@ plan.forEach(([a, b], k) => {
     `[f0][med]overlay=0:(1920-h)/2-60:enable='${med}'[f1]`,
     `[f1][ent]overlay=0:(1920-h)/2-60:enable='${ent}'[f2]`,
     `[f2]subtitles=${ass}:fontsdir=${fuentes}[out]`,
-    `[0:a]afade=t=in:d=0.2,afade=t=out:st=${(d - 0.2).toFixed(3)}:d=0.2[a]`,
+    `[1:a]afade=t=in:d=0.2,afade=t=out:st=${(d - 0.2).toFixed(3)}:d=0.2[a]`,
   ].join(";");
   console.log(`🎬 short ${n}/${total} (${d.toFixed(1)} s)…`);
-  execFileSync("ffmpeg", ["-y", "-v", "error", "-ss", t0.toFixed(3), "-t", d.toFixed(3), "-i", largo, "-filter_complex", filtro, "-map", "[out]", "-map", "[a]",
+  execFileSync("ffmpeg", ["-y", "-v", "error", "-ss", (t0 + D0).toFixed(3), "-t", (d - D0).toFixed(3), "-i", largo, "-ss", t0.toFixed(3), "-t", d.toFixed(3), "-i", largo, "-filter_complex", filtro, "-map", "[out]", "-map", "[a]",
     "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-pix_fmt", "yuv420p", "-r", String(fps), "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart", `${dest}.tmp.mp4`]);
   execFileSync("mv", [`${dest}.tmp.mp4`, dest]);
   rmSync(ass);

@@ -114,4 +114,4 @@ Por qué funciona cada idea: tiene **un mes concreto con un acontecimiento dram�
 | [~] | `bastogne-1944` | Martes 15 · guerra | un soldado de la 101.ª en Bastogne | Bélgica, diciembre de 1944 | 16 de diciembre empieza la batalla de las Ardenas; el 22 el general responde «Nuts!». **Efeméride.** |
 | [~] | `jol-950` | Miércoles 16 · mitos | una niña en el Jól nórdico | Noruega, solsticio de invierno, c. 950 | La noche más larga: la Cacería Salvaje, los sacrificios y el origen de muchas costumbres de Navidad. **Efeméride.** |
 | [~] | `wright-1903` | Jueves 17 · personajes | los hermanos Wright | Kitty Hawk, noviembre–diciembre de 1903 | 17 de diciembre: el primer vuelo dura 12 segundos. **Efeméride.** |
-| [~] | `niebla-londres-1952` | Viernes 18 · catástrofes | un conductor de autobús de Londres | Londres, diciembre de 1952 | 5–9 de diciembre: la Gran Niebla mata a miles de personas sin que nadie lo vea. **Efeméride.** |
+| [x] | `niebla-londres-1952` | Viernes 18 · catástrofes | un conductor de autobús de Londres | Londres, diciembre de 1952 | 5–9 de diciembre: la Gran Niebla mata a miles de personas sin que nadie lo vea. **Efeméride.** |
