@@ -1472,7 +1472,7 @@
         "dia": 22,
         "capitulo": "Cara o cruz",
         "corte": true,
-        "texto": "Viernes, once de diciembre. Vuelvo al campamento con los ejes nuevos, macizos. Uílbur ha aguantado solo casi dos semanas.",
+        "texto": "Es viernes, once. Vuelvo al campamento con los ejes nuevos, macizos. Mi hermano ha aguantado solo casi dos semanas.",
         "drama": 0.65,
         "fondo": {
           "lugar": "playa",
@@ -1664,7 +1664,7 @@
       },
       {
         "dia": 25,
-        "texto": "Echamos una moneda al aire. La moneda gira, cae en la arena… y gana Uílbur.",
+        "texto": "Lo echamos a suertes con una moneda al aire, y gana Uílbur.",
         "drama": 0.85,
         "personajes": [
           {
