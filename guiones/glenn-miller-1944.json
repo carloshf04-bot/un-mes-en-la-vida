@@ -264,7 +264,7 @@
               "escala": 0.9
             },
             {
-              "tipo": "estanteria",
+              "tipo": "barril",
               "x": 1.2
             },
             {
@@ -385,7 +385,7 @@
               "escala": 0.9
             },
             {
-              "tipo": "estanteria",
+              "tipo": "barril",
               "x": 1.2
             },
             {
@@ -796,7 +796,7 @@
         "fondo": {
           "lugar": "campo",
           "hora": "dia",
-          "clima": "despejado",
+          "clima": "nublado",
           "props": [
             {
               "tipo": "bandera-eeuu",
@@ -1935,7 +1935,7 @@
               "escala": 0.9
             },
             {
-              "tipo": "estanteria",
+              "tipo": "barril",
               "x": 1.2
             },
             {
@@ -2045,7 +2045,7 @@
         "fondo": {
           "lugar": "campo",
           "hora": "atardecer",
-          "clima": "despejado",
+          "clima": "nublado",
           "sol": false,
           "props": [
             {
