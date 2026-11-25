@@ -1,0 +1,2468 @@
+{
+  "slug": "tsunami-2004",
+  "titulo": "un niño de un pueblo pescador",
+  "lugar": "Peraliya, costa suroeste de Sri Lanka",
+  "epoca": "Diciembre de 2004 y enero de 2005",
+  "categoria": "epoca",
+  "voz": "narrador-es",
+  "drama": 0.65,
+  "velocidad": 1.15,
+  "musica": "nostalgia",
+  "paleta": {
+    "acento": "#3fb8b0",
+    "texto": "#f5f2ea",
+    "fondo": "#10222b",
+    "papel": "#efe6d2"
+  },
+  "grafias": {
+    "Kásun": "Kasun",
+    "Peralíya": "Peraliya",
+    "Jikadúva": "Hikkaduwa",
+    "Gal": "Galle",
+    "Póya": "Poya",
+    "orúva": "oruwa",
+    "sámbol": "sambol",
+    "kiribat": "kiribath",
+    "Achi": "Achchi",
+    "ratinga": "rathinga",
+    "Nadísha": "Nadeesha",
+    "Ánan": "Annan",
+    "Páuel": "Powell"
+  },
+  "reparto": {
+    "kasun": {
+      "piel": "#8a5a3c",
+      "pelo": "#1a1512",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#e0a030",
+        "color2": "#2f4f7a",
+        "detalle": "#b97f1e"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 0.65,
+      "zapatos": "#7a4e32"
+    },
+    "kasunblanco": {
+      "piel": "#8a5a3c",
+      "pelo": "#1a1512",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#f5f5f0",
+        "color2": "#f0efe8",
+        "detalle": "#dcd9cc"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 0.65,
+      "zapatos": "#7a4e32"
+    },
+    "kasunescuela": {
+      "piel": "#8a5a3c",
+      "pelo": "#1a1512",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#f5f5f0",
+        "color2": "#eceae2",
+        "detalle": "#2f4f7a"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 0.67,
+      "zapatos": "#3a2a1e"
+    },
+    "sunil": {
+      "piel": "#6e452c",
+      "pelo": "#1a1512",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#e8e2d0",
+        "color2": "#3a5a8c",
+        "detalle": "#2a4268"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#6e452c"
+    },
+    "sunilplaya": {
+      "piel": "#6e452c",
+      "pelo": "#1a1512",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#7a8a6a",
+        "color2": "#3a5a8c",
+        "detalle": "#2a4268"
+      },
+      "sombrero": "panuelo",
+      "colorSombrero": "#d9d2bf",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#6e452c"
+    },
+    "kumari": {
+      "piel": "#8a5a3c",
+      "pelo": "#16110e",
+      "peinado": "coleta",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#c2457a",
+        "color2": "#2f8f7a",
+        "detalle": "#e8c25a"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 0.94,
+      "zapatos": "#5a3a22",
+      "voz": "narradora-es"
+    },
+    "kumariblanco": {
+      "piel": "#8a5a3c",
+      "pelo": "#16110e",
+      "peinado": "coleta",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#f5f2ea",
+        "color2": "#f0ece2",
+        "detalle": "#d8d2c2"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 0.94,
+      "zapatos": "#5a3a22",
+      "voz": "narradora-es"
+    },
+    "achchi": {
+      "piel": "#7e5236",
+      "pelo": "#9a9590",
+      "peinado": "coleta",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#f5f2ea",
+        "color2": "#f5f2ea",
+        "detalle": "#cfc8b6"
+      },
+      "sombrero": "ninguno",
+      "gafas": true,
+      "altura": 0.9,
+      "zapatos": "#5a3a22",
+      "voz": "narradora-es"
+    },
+    "dilan": {
+      "piel": "#7e5034",
+      "pelo": "#16110e",
+      "peinado": "rizado",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#4f8fb8",
+        "color2": "#3a3a3a",
+        "detalle": "#d9c27a"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 0.66,
+      "zapatos": "#7e5034"
+    },
+    "dilanfiesta": {
+      "piel": "#7e5034",
+      "pelo": "#16110e",
+      "peinado": "rizado",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#d33f3f",
+        "color2": "#2f4f7a",
+        "detalle": "#e8c25a"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 0.66,
+      "zapatos": "#3a2a1e"
+    },
+    "monje": {
+      "piel": "#7a4e33",
+      "pelo": "#2a221c",
+      "peinado": "rapado",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "tunica",
+        "color": "#e07a1f",
+        "color2": "#d06e18",
+        "detalle": "#b85c12"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#7a4e33"
+    },
+    "soldado": {
+      "piel": "#7a4e33",
+      "pelo": "#16110e",
+      "peinado": "rapado",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#4d5a34",
+        "color2": "#4d5a34",
+        "detalle": "#2f3a20"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#3f4a2a",
+      "gafas": false,
+      "altura": 1.02,
+      "zapatos": "#1e1a16"
+    },
+    "voluntaria": {
+      "piel": "#9a6a48",
+      "pelo": "#1a1512",
+      "peinado": "coleta",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#f5f5f0",
+        "color2": "#3a4a5a",
+        "detalle": "#d22a2a"
+      },
+      "sombrero": "gorra",
+      "colorSombrero": "#f2f2ee",
+      "gafas": false,
+      "altura": 0.95,
+      "zapatos": "#3a2a1e",
+      "voz": "narradora-es"
+    },
+    "nadeesha": {
+      "piel": "#8f5e3e",
+      "pelo": "#16110e",
+      "peinado": "coleta",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#3f8fb0",
+        "color2": "#2f7898",
+        "detalle": "#e8c25a"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 0.95,
+      "zapatos": "#3a2a1e",
+      "voz": "narradora-es"
+    }
+  },
+  "largo": {
+    "escenas": [
+      {
+        "corte": true,
+        "texto": "Aquel domingo era luna llena, y yo iba vestido de blanco al templo, con flores de loto en la mano, junto a un mar tan tranquilo como un plato de agua.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "palmera",
+              "x": -1.25,
+              "escala": 1.1
+            },
+            {
+              "tipo": "bote",
+              "x": 1.15,
+              "escala": 0.75
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.45,
+              "escala": 0.95
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kasunblanco",
+            "x": 0.4,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "objeto": "🪷",
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "A mil seiscientos kilómetros de mi playa, la tierra se había roto bajo el mar, y dos horas y media después el agua llegó hasta nosotros sin que nadie nos avisara.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "kasunblanco",
+            "x": 0.3,
+            "accion": "triste",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Me llamo Kásun, tengo once años y vivo en un pueblo de pescadores del suroeste de Sri Lanka, junto a Peralíya, entre la vía del tren y el mar.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "palmera",
+              "x": -1.3,
+              "escala": 1.1
+            },
+            {
+              "tipo": "bote",
+              "x": -0.85,
+              "escala": 0.75
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.3,
+              "escala": 1.0
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.35,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Peraliya",
+          "detalle": "Distrito de Galle, Sri Lanka · diciembre de 2004",
+          "icono": "📍"
+        }
+      },
+      {
+        "texto": "Mi familia y yo somos inventados, pero el mar, el tren y aquella mañana de diciembre de dos mil cuatro fueron reales.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.2,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 1,
+        "capitulo": "El mar en calma",
+        "texto": "Es domingo, doce de diciembre, y al amanecer bajo a la playa a tirar de la madel, la gran red que sacamos del agua entre decenas de brazos.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "palmera",
+              "x": -1.3,
+              "escala": 1.1
+            },
+            {
+              "tipo": "bote",
+              "x": -0.85,
+              "escala": 0.75
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.3,
+              "escala": 1.0
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.4,
+            "accion": "arrastrar",
+            "emocion": "feliz",
+            "mirar": 1
+          },
+          {
+            "quien": "sunilplaya",
+            "x": -0.35,
+            "accion": "arrastrar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 1,
+        "texto": "Cuando asoma la red, la arena se llena de peces plateados que saltan, y a los niños nos dejan llevarnos un puñado a casa.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.3,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "objeto": "🐟"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 2,
+        "texto": "Mi padre, Sunil, pesca de noche en su orúva, una canoa estrecha de tronco con un flotador al costado y una vela cuadrada.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "palmera",
+              "x": -1.35,
+              "escala": 1.0
+            },
+            {
+              "tipo": "bote",
+              "x": 1.05,
+              "escala": 0.8
+            },
+            {
+              "tipo": "🐟",
+              "x": -0.95,
+              "escala": 0.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.4,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "sunilplaya",
+            "x": -0.35,
+            "accion": "cargar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "objeto": "🐟",
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 2,
+        "texto": "Vuelve con el alba, y el pescado se subasta allí mismo, en la arena, entre gritos, bicicletas y cajas de madera.",
+        "drama": 0.55,
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "La pesca de mi padre",
+          "items": [
+            {
+              "icono": "🛶",
+              "nombre": "Un oruwa: canoa de tronco con batanga"
+            },
+            {
+              "icono": "🐟",
+              "nombre": "Atún, sardinas y caballas"
+            },
+            {
+              "icono": "🥥",
+              "nombre": "Cocos secos para el fogón"
+            },
+            {
+              "icono": "💰",
+              "nombre": "Unos cientos de rupias en un día bueno"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 3,
+        "texto": "Es martes, catorce, y mi madre, Kumari, extiende el pescado salado sobre esteras de palma para que se seque al sol de la playa.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "palmera",
+              "x": -1.3,
+              "escala": 1.1
+            },
+            {
+              "tipo": "🐟",
+              "x": 0.95,
+              "escala": 0.4
+            },
+            {
+              "tipo": "🐟",
+              "x": 1.2,
+              "escala": 0.35
+            },
+            {
+              "tipo": "casa",
+              "x": 1.5,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "kumari",
+            "x": -0.35,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 3,
+        "texto": "En casa comemos arroz con curry y pol sámbol, y mi abuela, a la que llamamos Achi, cocina en un fogón de leña con cáscaras de coco seco.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": -1.0,
+              "escala": 1.0
+            },
+            {
+              "tipo": "🍛",
+              "x": -1.05,
+              "escala": 0.45
+            },
+            {
+              "tipo": "radio",
+              "x": 1.05,
+              "escala": 1.0
+            },
+            {
+              "tipo": "planta",
+              "x": 1.35,
+              "escala": 1.0
+            }
+          ],
+          "pared": "ladrillo",
+          "ventana": true
+        },
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "achchi",
+            "x": -0.3,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 4,
+        "texto": "Es miércoles, quince, y juego al críquet junto a la vía con mi amigo Dilan, que es católico y vive tres casas más allá.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "poste",
+              "x": -1.05,
+              "escala": 1.0
+            },
+            {
+              "tipo": "palmera",
+              "x": -1.4,
+              "escala": 1.1
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.2,
+              "escala": 1.0
+            },
+            {
+              "tipo": "casa",
+              "x": 1.5,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.4,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "objeto": "🏏"
+          },
+          {
+            "quien": "dilan",
+            "x": -0.4,
+            "accion": "correr",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 5,
+        "texto": "El tren de la costa pasa varias veces al día con las ventanillas abiertas, y el más famoso es el expreso de Colombo, la Reina del Mar.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "palmera",
+              "x": -1.4,
+              "escala": 1.0
+            },
+            {
+              "tipo": "tren",
+              "x": 0.0,
+              "escala": 0.6
+            },
+            {
+              "tipo": "poste",
+              "x": 1.1,
+              "escala": 1.0
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.45,
+              "escala": 1.0
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "dia": 5,
+        "texto": "En algunos tramos la vía corre a unos doscientos metros del agua, y Dilan y yo saludamos al maquinista con los brazos.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "poste",
+              "x": -1.05,
+              "escala": 1.0
+            },
+            {
+              "tipo": "palmera",
+              "x": -1.4,
+              "escala": 1.1
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.2,
+              "escala": 1.0
+            },
+            {
+              "tipo": "casa",
+              "x": 1.5,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.35,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "dilan",
+            "x": -0.4,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "200 m",
+          "etiqueta": "entre la vía del tren y el mar en Peraliya (aprox.)",
+          "icono": "🚂"
+        }
+      },
+      {
+        "dia": 6,
+        "texto": "Al sur, en Jikadúva, el arrecife de coral está protegido, pero aquí, durante años, sacaron el coral del agua para hacer cal, y la orilla quedó desnuda.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "palmera",
+              "x": -1.3,
+              "escala": 1.0
+            },
+            {
+              "tipo": "roca",
+              "x": -0.8,
+              "escala": 0.8
+            },
+            {
+              "tipo": "roca",
+              "x": 1.0,
+              "escala": 0.7
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.4,
+              "escala": 1.0
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.35,
+            "accion": "senalar",
+            "emocion": "feliz",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 7,
+        "texto": "Es sábado, dieciocho, y mi tía, que trabaja en la cocina de un hotel de Jikadúva, nos trae pastel de las cenas de los turistas.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": -1.0,
+              "escala": 1.0
+            },
+            {
+              "tipo": "🍰",
+              "x": -1.0,
+              "escala": 0.4
+            },
+            {
+              "tipo": "radio",
+              "x": 1.05,
+              "escala": 1.0
+            },
+            {
+              "tipo": "planta",
+              "x": 1.35,
+              "escala": 1.0
+            }
+          ],
+          "pared": "ladrillo",
+          "ventana": true
+        },
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": -1,
+            "objeto": "🍰"
+          },
+          {
+            "quien": "achchi",
+            "x": -0.35,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 8,
+        "capitulo": "Navidad y luna llena",
+        "texto": "Es domingo, diecinueve, y en casa de Dilan montan el belén con figuritas de barro y cuelgan estrellas de papel en la ventana.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "🎄",
+              "x": -1.05,
+              "escala": 0.7
+            },
+            {
+              "tipo": "⭐",
+              "x": 1.0,
+              "escala": 0.45
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.3,
+              "escala": 1.0
+            }
+          ],
+          "pared": "madera",
+          "ventana": true
+        },
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "dilanfiesta",
+            "x": -0.35,
+            "accion": "trabajar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "objeto": "⭐",
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 10,
+        "texto": "Es martes, veintiuno, y vamos en autobús a Gal a comprar tela y arroz, que está mucho más caro, y mi madre cuenta las monedas dos veces.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "puesto",
+              "x": -1.0,
+              "escala": 0.9
+            },
+            {
+              "tipo": "🥥",
+              "x": 1.0,
+              "escala": 0.5
+            },
+            {
+              "tipo": "🍚",
+              "x": 1.25,
+              "escala": 0.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.4,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "kumari",
+            "x": -0.3,
+            "accion": "cargar",
+            "emocion": "cansado",
+            "mirar": 1,
+            "objeto": "🍚",
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "104,7",
+          "etiqueta": "rupias por un dólar en diciembre de 2004",
+          "icono": "💵"
+        }
+      },
+      {
+        "dia": 11,
+        "texto": "Dilan y yo juntamos monedas para comprar ratinga, los petardos de las fiestas, y los guardamos en una lata debajo de su cama.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "casa",
+              "x": -1.1,
+              "escala": 0.9
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.15,
+              "escala": 1.0
+            },
+            {
+              "tipo": "palmera",
+              "x": -1.5,
+              "escala": 1.0
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.4,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "dilanfiesta",
+            "x": -0.35,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 13,
+        "texto": "Es viernes, veinticuatro, y acompaño a la familia de Dilan a la misa del gallo, en la iglesia blanca que hay junto a la playa.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "🕯️",
+              "x": -1.0,
+              "escala": 0.5
+            },
+            {
+              "tipo": "🕯️",
+              "x": -1.25,
+              "escala": 0.4
+            },
+            {
+              "tipo": "⭐",
+              "x": 1.05,
+              "escala": 0.45
+            },
+            {
+              "tipo": "🕯️",
+              "x": 1.3,
+              "escala": 0.4
+            }
+          ],
+          "pared": "piedra",
+          "ventana": true
+        },
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "dilanfiesta",
+            "x": -0.35,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 13,
+        "texto": "La madre de Dilan reparte pastel de Navidad y un bizcocho de anacardos y calabaza, el pastel del amor, que llegó hace siglos con los portugueses.",
+        "drama": 0.5,
+        "personajes": [
+          {
+            "quien": "dilanfiesta",
+            "x": 0.25,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "objeto": "🍰",
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 14,
+        "texto": "Es sábado, veinticinco, Navidad y fiesta en todo el país, y mi abuela plancha la ropa blanca que llevaremos mañana al templo.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": -1.0,
+              "escala": 1.0
+            },
+            {
+              "tipo": "🍛",
+              "x": -1.05,
+              "escala": 0.45
+            },
+            {
+              "tipo": "radio",
+              "x": 1.05,
+              "escala": 1.0
+            },
+            {
+              "tipo": "planta",
+              "x": 1.35,
+              "escala": 1.0
+            }
+          ],
+          "pared": "ladrillo",
+          "ventana": true
+        },
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "feliz",
+            "mirar": -1
+          },
+          {
+            "quien": "achchi",
+            "x": -0.3,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 14,
+        "texto": "Mañana es Póya, la luna llena de diciembre, y los budistas iremos al templo de blanco, con flores, kiribat y lámparas de aceite.",
+        "drama": 0.5,
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.25,
+            "accion": "pensar",
+            "emocion": "feliz",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Lo que llevaré al templo",
+          "items": [
+            {
+              "icono": "🪷",
+              "nombre": "Flores de loto"
+            },
+            {
+              "icono": "🕯️",
+              "nombre": "Una lámpara de aceite"
+            },
+            {
+              "icono": "🍚",
+              "nombre": "Kiribath: arroz con leche de coco"
+            },
+            {
+              "icono": "🌕",
+              "nombre": "Unduvap Poya, luna llena"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 14,
+        "texto": "La radio dice que mañana los trenes irán llenos por el Póya y la Navidad, y esa noche mi padre sale a pescar.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "palmera",
+              "x": -1.35,
+              "escala": 1.1
+            },
+            {
+              "tipo": "bote",
+              "x": -0.95,
+              "escala": 0.75
+            },
+            {
+              "tipo": "casa",
+              "x": 1.3,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.4,
+            "accion": "saludar",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "sunilplaya",
+            "x": -0.35,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 15,
+        "capitulo": "El día que el mar se fue",
+        "texto": "Es domingo, veintiséis, y a las siete menos dos minutos de la mañana todavía estoy en la cama, sin saber que lejos de aquí se ha roto el fondo del mar.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.0,
+              "escala": 1.0
+            },
+            {
+              "tipo": "radio",
+              "x": 1.1,
+              "escala": 1.0
+            },
+            {
+              "tipo": "🪷",
+              "x": 1.35,
+              "escala": 0.4
+            }
+          ],
+          "pared": "ladrillo",
+          "ventana": true
+        },
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.35,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 15,
+        "texto": "Frente a Sumatra, el fondo del océano se ha levantado varios metros de golpe, y la tierra se ha rasgado a lo largo de más de mil kilómetros.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "palmera",
+              "x": -1.35,
+              "escala": 1.1
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.35,
+              "escala": 1.0
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "9,1",
+          "etiqueta": "magnitud del terremoto frente a Sumatra (6:58, hora de Sri Lanka)",
+          "icono": "🌏"
+        }
+      },
+      {
+        "dia": 15,
+        "texto": "Los sismógrafos de medio mundo registran el terremoto en minutos, pero en el océano Índico no hay ningún sistema de alerta, y la ola lo cruza tan deprisa como un avión.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "interior",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "cama",
+              "x": -1.0,
+              "escala": 1.0
+            },
+            {
+              "tipo": "radio",
+              "x": 1.1,
+              "escala": 1.0
+            },
+            {
+              "tipo": "🪷",
+              "x": 1.35,
+              "escala": 0.4
+            }
+          ],
+          "pared": "ladrillo",
+          "ventana": true
+        },
+        "personajes": [
+          {
+            "quien": "kasunblanco",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 15,
+        "texto": "Hacia las nueve salimos mi madre, mi abuela y yo, cruzamos la vía del tren y tomamos el camino que sube al templo de la colina.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "poste",
+              "x": -1.15,
+              "escala": 1.0
+            },
+            {
+              "tipo": "palmera",
+              "x": -1.45,
+              "escala": 1.1
+            },
+            {
+              "tipo": "casa",
+              "x": 1.25,
+              "escala": 0.85
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kasunblanco",
+            "x": 0.0,
+            "accion": "caminar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "objeto": "🪷"
+          },
+          {
+            "quien": "kumariblanco",
+            "x": -0.45,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "achchi",
+            "x": 0.45,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 15,
+        "texto": "Poco después, el agua sube de repente por la playa, pasa entre las palmeras y llega hasta la carretera, como una marea que se ha equivocado de hora.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "palmera",
+              "x": -1.2,
+              "escala": 1.1
+            },
+            {
+              "tipo": "charco",
+              "x": -0.2,
+              "escala": 1.1
+            },
+            {
+              "tipo": "charco",
+              "x": 0.6,
+              "escala": 0.9
+            },
+            {
+              "tipo": "casa",
+              "x": 1.3,
+              "escala": 0.85
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "dia": 15,
+        "texto": "Entonces el mar se retira cientos de metros y deja al aire las rocas, el fondo y los peces saltando sobre la arena mojada.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "palmera",
+              "x": -1.45,
+              "escala": 1.1
+            },
+            {
+              "tipo": "roca",
+              "x": -0.85,
+              "escala": 0.9
+            },
+            {
+              "tipo": "charco",
+              "x": -0.2,
+              "escala": 1.0
+            },
+            {
+              "tipo": "roca",
+              "x": 0.45,
+              "escala": 0.7
+            },
+            {
+              "tipo": "roca",
+              "x": 1.2,
+              "escala": 0.9
+            },
+            {
+              "tipo": "🐟",
+              "x": 0.9,
+              "escala": 0.35
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "dia": 15,
+        "texto": "Desde el camino veo a Roshan, el hermano mayor de Dilan, bajar hacia la orilla con otros vecinos, porque nadie nos había explicado lo que significa eso.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "palmera",
+              "x": -1.2,
+              "escala": 1.1
+            },
+            {
+              "tipo": "poste",
+              "x": 1.0,
+              "escala": 1.0
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.45,
+              "escala": 1.0
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kasunblanco",
+            "x": 0.3,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 15,
+        "texto": "Mi madre me agarra del brazo y grita que subamos, y corremos cuesta arriba con mi abuela, que no suelta sus flores de loto.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "kasunblanco",
+            "x": 0.0,
+            "accion": "correr",
+            "emocion": "miedo",
+            "mirar": 1
+          },
+          {
+            "quien": "kumariblanco",
+            "x": -0.45,
+            "accion": "correr",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "achchi",
+            "x": 0.45,
+            "accion": "correr",
+            "emocion": "miedo",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "🪷"
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 15,
+        "texto": "Desde la curva del camino vemos el tren de la mañana parado junto a las casas, porque el agua le ha cortado el paso a unos doscientos metros del mar.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "palmera",
+              "x": -1.4,
+              "escala": 1.1
+            },
+            {
+              "tipo": "tren",
+              "x": 0.0,
+              "escala": 0.5
+            },
+            {
+              "tipo": "poste",
+              "x": 1.15,
+              "escala": 1.0
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.45,
+              "escala": 1.0
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "dia": 15,
+        "texto": "Es la Reina del Mar, llena de gente por el Póya, y muchos vecinos suben a sus vagones porque un tren de hierro parece el lugar más seguro.",
+        "drama": 0.8,
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "dia": 15,
+        "texto": "Entonces llega el ruido, un rugido grave que sube desde la costa, y cuando miro atrás, entre las palmeras solo hay agua donde antes estaban las casas.",
+        "drama": 0.9,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.05,
+              "escala": 1.35
+            },
+            {
+              "tipo": "casa",
+              "x": 1.15,
+              "escala": 0.9
+            },
+            {
+              "tipo": "🪷",
+              "x": 0.85,
+              "escala": 0.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kasunblanco",
+            "x": 0.3,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 15,
+        "texto": "Habían pasado unas dos horas y media desde el terremoto, tiempo de sobra para avisar a toda la costa, pero en el Índico no había nadie mirando.",
+        "drama": 0.85,
+        "personajes": [],
+        "insercion": {
+          "tipo": "dato",
+          "valor": "2 h 30 min",
+          "etiqueta": "entre el terremoto y la ola en el suroeste de Sri Lanka, sin ningún aviso",
+          "icono": "⏱️"
+        }
+      },
+      {
+        "dia": 15,
+        "texto": "Llegan más olas durante la mañana, y los monjes abren el templo a todo el que sube, y nos sentamos bajo el árbol sagrado sin decir nada.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "kasunblanco",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": -1
+          },
+          {
+            "quien": "monje",
+            "x": -0.35,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 15,
+        "texto": "Mi padre está en el mar desde anoche, y mi madre mira hacia la costa durante horas, sin moverse, con las manos juntas delante del pecho.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.05,
+              "escala": 1.35
+            },
+            {
+              "tipo": "casa",
+              "x": 1.2,
+              "escala": 0.9
+            },
+            {
+              "tipo": "🏳️",
+              "x": 0.8,
+              "escala": 0.45
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kumariblanco",
+            "x": 0.3,
+            "accion": "triste",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 15,
+        "texto": "Ya es de noche cuando mi padre aparece en el templo, empapado, y cuenta que en alta mar la ola apenas levantó su canoa, pero que la costa ya no estaba.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.1,
+              "escala": 1.35
+            },
+            {
+              "tipo": "casa",
+              "x": 1.2,
+              "escala": 0.9
+            },
+            {
+              "tipo": "hoguera",
+              "x": -0.7,
+              "escala": 0.7
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kasunblanco",
+            "x": 0.14,
+            "accion": "abrazar",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          },
+          {
+            "quien": "sunil",
+            "x": -0.14,
+            "accion": "abrazar",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 16,
+        "texto": "Es lunes, veintisiete, y dormimos en el suelo del templo con cientos de vecinos, sin luz ni teléfono, mientras los monjes cocinan arroz para todos.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.05,
+              "escala": 1.35
+            },
+            {
+              "tipo": "casa",
+              "x": 1.15,
+              "escala": 0.9
+            },
+            {
+              "tipo": "🪷",
+              "x": 0.85,
+              "escala": 0.35
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kasunblanco",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1
+          },
+          {
+            "quien": "monje",
+            "x": -0.35,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "🍚",
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 16,
+        "texto": "En la pared del templo pegan listas de nombres, y Dilan y su madre están a salvo, pero el nombre de Roshan aparece entre los que no volvieron.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "dilan",
+            "x": 0.25,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 18,
+        "texto": "Es miércoles, veintinueve, y mi padre baja a la costa y vuelve muy callado, y solo me cuenta que la Reina del Mar está volcada junto a la vía, vacía.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "escombros",
+              "x": -1.15,
+              "escala": 0.7
+            },
+            {
+              "tipo": "palmera",
+              "x": -1.5,
+              "escala": 1.0
+            },
+            {
+              "tipo": "bote",
+              "x": 1.2,
+              "escala": 0.7
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.5,
+              "escala": 1.0
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "dia": 18,
+        "texto": "Aquel domingo iban en ella más de mil personas, y es el peor desastre de tren de toda la historia, a pocos minutos de mi casa.",
+        "drama": 0.8,
+        "personajes": [],
+        "insercion": {
+          "tipo": "dato",
+          "valor": "+1.000",
+          "etiqueta": "personas perdidas en un solo tren: el peor desastre ferroviario de la historia",
+          "icono": "🚂"
+        }
+      },
+      {
+        "dia": 20,
+        "texto": "Es viernes, treinta y uno, el último día del año, y nadie enciende petardos, porque la lata de Dilan se ha ido con su casa.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "montanas",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.1,
+              "escala": 1.35
+            },
+            {
+              "tipo": "casa",
+              "x": 1.2,
+              "escala": 0.9
+            },
+            {
+              "tipo": "hoguera",
+              "x": -0.7,
+              "escala": 0.7
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kasunblanco",
+            "x": 0.3,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 23,
+        "capitulo": "Volver a la orilla",
+        "texto": "Es lunes, tres de enero, y los soldados reparten arroz y agua en bidones, mientras la radio dice que en el país han muerto más de treinta mil personas.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tienda",
+              "x": -1.15,
+              "escala": 1.0
+            },
+            {
+              "tipo": "cajas",
+              "x": -0.8,
+              "escala": 0.8
+            },
+            {
+              "tipo": "camion",
+              "x": 1.15,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1
+          },
+          {
+            "quien": "soldado",
+            "x": -0.35,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "🍚",
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 23,
+        "texto": "Al final serán unas treinta y cinco mil solo en Sri Lanka, y más de doscientas veinte mil en todos los países del océano Índico.",
+        "drama": 0.75,
+        "personajes": [],
+        "insercion": {
+          "tipo": "dato",
+          "valor": "35.000",
+          "etiqueta": "personas muertas en Sri Lanka (aprox.); más de 220.000 en todo el Índico",
+          "icono": "🕯️"
+        }
+      },
+      {
+        "dia": 25,
+        "texto": "Es miércoles, cinco, y cada vez que alguien grita que viene otra ola, el campamento entero corre hacia la colina, aunque nunca sea verdad.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "noche",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tienda",
+              "x": -1.1,
+              "escala": 1.0
+            },
+            {
+              "tipo": "hoguera",
+              "x": -0.75,
+              "escala": 0.6
+            },
+            {
+              "tipo": "tienda",
+              "x": 1.2,
+              "escala": 1.0
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.3,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 26,
+        "texto": "En Yakarta se reúnen los gobiernos de medio mundo para repartir la ayuda, porque solo en Sri Lanka hay unas quinientas mil personas fuera de sus casas.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tienda",
+              "x": -1.15,
+              "escala": 1.0
+            },
+            {
+              "tipo": "🏳️",
+              "x": 1.0,
+              "escala": 0.45
+            },
+            {
+              "tipo": "tienda",
+              "x": 1.3,
+              "escala": 0.9
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1
+          },
+          {
+            "quien": "kumari",
+            "x": -0.35,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "500.000",
+          "etiqueta": "personas desplazadas en Sri Lanka (aprox.)",
+          "icono": "⛺"
+        }
+      },
+      {
+        "dia": 27,
+        "texto": "Es viernes, siete, y el secretario de Estado de los Estados Unidos, Colin Páuel, visita en Gal un centro de la Cruz Roja.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tienda",
+              "x": -1.15,
+              "escala": 1.0
+            },
+            {
+              "tipo": "cajas",
+              "x": -0.8,
+              "escala": 0.8
+            },
+            {
+              "tipo": "camion",
+              "x": 1.15,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "voluntaria",
+            "x": -0.35,
+            "accion": "cargar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "objeto": "📦",
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 28,
+        "texto": "Al día siguiente, Kofi Ánan, el secretario general de la ONU, sobrevuela en helicóptero la costa de Gal, y yo levanto la mano desde el patio.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tienda",
+              "x": -1.2,
+              "escala": 1.0
+            },
+            {
+              "tipo": "helicoptero",
+              "x": -0.3,
+              "escala": 1.0
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.25,
+              "escala": 1.0
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.35,
+            "accion": "saludar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 29,
+        "texto": "Es domingo, nueve de enero, y mi padre me lleva a ver el mar, y de nuestra casa solo quedan el suelo de cemento y tres escalones.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "escombros",
+              "x": -1.15,
+              "escala": 0.7
+            },
+            {
+              "tipo": "charco",
+              "x": 0.85,
+              "escala": 0.9
+            },
+            {
+              "tipo": "bote",
+              "x": 1.35,
+              "escala": 0.7
+            },
+            {
+              "tipo": "palmera",
+              "x": -1.5,
+              "escala": 1.0
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1
+          },
+          {
+            "quien": "sunil",
+            "x": -0.35,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 29,
+        "texto": "El cielo está igual de azul que siempre, y mi padre toca el agua con la mano y dice que el mar nos ha dado de comer toda la vida.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "sunil",
+            "x": 0.2,
+            "accion": "agachado",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 30,
+        "texto": "Es lunes, diez de enero, y reabren las escuelas, pero la mía es un campamento, así que la señorita Nadísha nos da clase debajo de un árbol.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "arbol",
+              "x": -1.05,
+              "escala": 1.4
+            },
+            {
+              "tipo": "mesa",
+              "x": 1.05,
+              "escala": 1.0
+            },
+            {
+              "tipo": "📚",
+              "x": 1.05,
+              "escala": 0.4
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kasunescuela",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "nadeesha",
+            "x": -0.35,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 30,
+        "texto": "Al pasar lista, la maestra se calla un momento en cada nombre que falta, y luego sigue leyendo, despacio, hasta el final.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "kasunescuela",
+            "x": 0.3,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "77.000",
+          "etiqueta": "niños de Sri Lanka sin escuela a la que volver en enero de 2005",
+          "icono": "📚"
+        }
+      },
+      {
+        "texto": "Después del tsunami llegaron tantas barcas regaladas que en algunos pueblos hubo más barcas que pescadores, y mi padre volvió a salir al mar en primavera.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "palmera",
+              "x": -1.3,
+              "escala": 1.1
+            },
+            {
+              "tipo": "bote",
+              "x": -0.85,
+              "escala": 0.7
+            },
+            {
+              "tipo": "bote",
+              "x": 1.1,
+              "escala": 0.7
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.45,
+              "escala": 1.0
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1
+          },
+          {
+            "quien": "sunilplaya",
+            "x": -0.35,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Unos científicos de Sri Lanka midieron que en Jikadúva, con el arrecife protegido, la ola fue de dos o tres metros, y aquí, sin coral, de unos diez.",
+        "drama": 0.65,
+        "personajes": [],
+        "insercion": {
+          "tipo": "dato",
+          "valor": "10 m",
+          "etiqueta": "la ola en Peraliya, donde se había arrancado el coral (2–3 m en Hikkaduwa)",
+          "icono": "🪸"
+        }
+      },
+      {
+        "texto": "En junio de dos mil seis empezó a funcionar el sistema de alerta de tsunamis del océano Índico, con boyas, sismógrafos y estaciones que vigilan el mar.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "palmera",
+              "x": -1.3,
+              "escala": 1.1
+            },
+            {
+              "tipo": "poste",
+              "x": 1.0,
+              "escala": 1.2
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.45,
+              "escala": 1.0
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kasunescuela",
+            "x": 0.3,
+            "accion": "senalar",
+            "emocion": "neutral",
+            "mirar": 1
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "texto": "Y en las playas pusieron torres con sirenas, para que ningún niño vuelva a bajar a mirar el mar cuando se retira.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "kasunescuela",
+            "x": 0.3,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": 1
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "2006",
+          "etiqueta": "primer sistema de alerta de tsunamis del océano Índico",
+          "icono": "📡"
+        }
+      },
+      {
+        "texto": "Cada veintiséis de diciembre, la Reina del Mar restaurada vuelve a Peralíya, se detiene en el mismo lugar, y el país entero guarda dos minutos de silencio.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "palmera",
+              "x": -1.45,
+              "escala": 1.1
+            },
+            {
+              "tipo": "tren",
+              "x": 0.0,
+              "escala": 0.55
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.45,
+              "escala": 1.0
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Yo, Kásun, nunca existí, ni mi familia, ni Dilan, ni Roshan, pero aquel domingo de luna llena, el tren y las olas fueron reales, igual que las personas que no volvieron.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "palmera",
+              "x": -1.3,
+              "escala": 1.1
+            },
+            {
+              "tipo": "bote",
+              "x": 1.1,
+              "escala": 0.75
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.5,
+              "escala": 1.0
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.0,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Si sabes qué hacer cuando el mar se retira, cuéntaselo a alguien, y si quieres vivir otro mes dentro de la historia, suscríbete, que mañana te espera otro.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "kasun",
+            "x": 0.0,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": -1
+          }
+        ],
+        "camara": "general"
+      }
+    ]
+  },
+  "ganchos": [
+    {
+      "desde": 0,
+      "hasta": 3,
+      "rotulo": "NADIE NOS AVISÓ",
+      "titulo": "El domingo que el mar llegó sin aviso (Sri Lanka, 2004)",
+      "descripcion": "26 de diciembre de 2004, luna llena en Sri Lanka: un terremoto a 1.600 km bajo el mar y dos horas y media sin ningún aviso. Narrador inventado, hechos reales. #shorts #tsunami #historia"
+    },
+    {
+      "desde": 25,
+      "hasta": 29,
+      "rotulo": "EL MAR SE RETIRÓ",
+      "titulo": "Cuando el mar se retira, hay que correr",
+      "descripcion": "Así lo vio un pueblo pescador de Sri Lanka el 26 de diciembre de 2004: el agua sube, se va cientos de metros y deja el fondo al aire. Nadie sabía qué significaba. Narrador inventado, hechos reales. #shorts #tsunami #srilanka"
+    },
+    {
+      "desde": 30,
+      "hasta": 34,
+      "rotulo": "LA REINA DEL MAR",
+      "titulo": "El tren que se paró junto al mar",
+      "descripcion": "El expreso Samudra Devi, la Reina del Mar, se detuvo en Peraliya (Sri Lanka) el 26 de diciembre de 2004. Más de mil personas: el peor desastre ferroviario de la historia. Narrador inventado, hechos reales. #shorts #tsunami #historia"
+    },
+    {
+      "desde": 53,
+      "hasta": 57,
+      "rotulo": "NUNCA MÁS SIN AVISO",
+      "titulo": "Por qué hoy hay sirenas en las playas del Índico",
+      "descripcion": "Lo que cambió después del tsunami de 2004 en Sri Lanka: barcas donadas, el coral que marcó la diferencia (2–3 m de ola en Hikkaduwa, unos 10 en Peraliya), el sistema de alerta del Índico de 2006 y el tren que cada 26 de diciembre se detiene en Peraliya. Narrador inventado, hechos reales. #shorts #tsunami #ciencia"
+    }
+  ],
+  "publicacion": {
+    "tituloLargo": "Un mes en la vida de UN NIÑO DE UN PUEBLO PESCADOR | El tsunami de 2004 en Sri Lanka",
+    "tituloCorto": "El domingo que el mar se fue (Sri Lanka, 2004)",
+    "capituloInicial": "Nadie nos avisó",
+    "descripcion": "Treinta días en un pueblo de pescadores inventado junto a Peraliya, en la costa suroeste de Sri Lanka (distrito de Galle), del domingo 12 de diciembre de 2004 al lunes 10 de enero de 2005, contados por Kasun, un niño de once años: la red de playa al amanecer, el oruwa de su padre, el críquet junto a la vía del tren, la Navidad de sus vecinos católicos y el Unduvap Poya, la luna llena del 26 de diciembre, cuando un terremoto de magnitud 9,1 frente a Sumatra mandó un tsunami que llegó a la costa dos horas y media después sin que nadie avisara.\n\n— Semana 1: El mar en calma\n— Semana 2: Navidad y luna llena\n— Semana 3: El día que el mar se fue\n— Semana 4: Volver a la orilla\n— Epílogo: las barcas donadas, el coral de Hikkaduwa y Peraliya, el sistema de alerta del Índico (2006) y el tren que cada 26 de diciembre se detiene en Peraliya\n\nQué es inventado y qué es real: Kasun es un personaje INVENTADO, igual que su familia, su amigo Dilan, Roshan y la maestra Nadeesha (así lo decimos también al final del vídeo); sus escenas y pensamientos son imaginados. Son reales el terremoto (6:58, hora de Sri Lanka en 2004), la falta de un sistema de alerta en el océano Índico, la retirada del mar en muchas playas, el tren Samudra Devi detenido en Peraliya (más de mil víctimas; no hay cifra oficial), las unas 35.000 personas muertas en Sri Lanka y más de 220.000 en todo el Índico, la visita de Colin Powell a Galle (7 de enero) y el vuelo de Kofi Annan sobre la costa (8 de enero), la reapertura de las escuelas el 10 de enero y el sistema de alerta que empezó a funcionar en junio de 2006. Las cifras de víctimas varían según la fuente; damos las más citadas.\n\nEn memoria de todas las personas que perdieron la vida el 26 de diciembre de 2004 en Sri Lanka y en todo el océano Índico, y con respeto a los supervivientes y a sus familias.\n\nFuentes principales: USGS y NOAA (terremoto y propagación del tsunami); Goff et al. (2006), Earthquake Spectra (horas de llegada en Sri Lanka); Fernando et al. (2005), Eos/AGU (coral y Peraliya); UNESCO-COI y ONU (sistema de alerta del Índico); Banco Mundial y OCHA/ReliefWeb (daños y desplazados); AFP/VOA y Daily FT (el tren Samudra Devi); Education Week y UNICEF (reapertura de las escuelas).\n\nSi sabes qué hacer cuando el mar se retira, cuéntaselo a alguien. Déjanos en los comentarios dónde lo aprendiste tú y suscríbete para vivir otro mes dentro de la historia.",
+    "etiquetas": [
+      "un mes en la vida de",
+      "tsunami 2004",
+      "tsunami de Sri Lanka",
+      "26 de diciembre de 2004",
+      "océano Índico",
+      "Peraliya",
+      "Samudra Devi",
+      "Reina del Mar",
+      "Hikkaduwa",
+      "Galle",
+      "terremoto de Sumatra",
+      "sistema de alerta de tsunamis",
+      "catástrofes",
+      "historia"
+    ],
+    "miniatura": {
+      "texto": "EL MAR SE FUE",
+      "escena": 0,
+      "quien": "kasunblanco",
+      "emocion": "miedo"
+    }
+  }
+}

@@ -1,0 +1,2607 @@
+{
+  "slug": "somerton-1948",
+  "titulo": "un policía de Adelaida",
+  "lugar": "Adelaida, Australia Meridional",
+  "epoca": "Diciembre de 1948",
+  "categoria": "misterios",
+  "voz": "narrador-es",
+  "drama": 0.7,
+  "velocidad": 1.15,
+  "musica": "misterio",
+  "paleta": {
+    "acento": "#e0a63a",
+    "texto": "#f4efe4",
+    "fondo": "#14202a",
+    "papel": "#efe6d2"
+  },
+  "grafias": {
+    "Sómerton": "Somerton",
+    "Glenélg": "Glenelg",
+    "Rubaiát": "Rubaiyat",
+    "Bráiton": "Brighton",
+    "Cólins": "Collins",
+    "Yon": "John",
+    "Mos": "Moss",
+    "Rid": "Reid",
+    "Láions": "Lyons",
+    "Duáier": "Dwyer",
+    "Ádvertaiser": "Advertiser",
+    "Yónson": "Johnson",
+    "Pátric": "Patrick",
+    "Dúrjam": "Durham",
+    "Yúsi": "Juicy",
+    "Frut": "Fruit",
+    "Armi": "Army",
+    "Clab": "Club",
+    "Yeti": "Jetty",
+    "Roud": "Road",
+    "Jólden": "Holden",
+    "Brádman": "Bradman",
+    "Melbúrn": "Melbourne",
+    "Jénli": "Henley",
+    "Bich": "Beach",
+    "Laionel": "Lionel",
+    "Lin": "Leane",
+    "Kin": "Keane",
+    "Clíland": "Cleland",
+    "Jéssica": "Jessica",
+    "Tómson": "Thomson",
+    "Bócsol": "Boxall",
+    "Uest": "West",
+    "Térres": "Terrace",
+    "Dérec": "Derek",
+    "Ábot": "Abbott",
+    "Colin": "Colleen",
+    "Fitspátric": "Fitzpatrick",
+    "Uéb": "Webb"
+  },
+  "reparto": {
+    "ned": {
+      "piel": "#e9bf9b",
+      "pelo": "#9a5b2e",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#1e2840",
+        "color2": "#1e2840",
+        "detalle": "#c9b46a"
+      },
+      "sombrero": "gorra-plato",
+      "colorSombrero": "#1a2236",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#111111"
+    },
+    "nedpaisano": {
+      "piel": "#e9bf9b",
+      "pelo": "#9a5b2e",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#eeeae0",
+        "color2": "#6b5a44",
+        "detalle": "#3a4a6a"
+      },
+      "sombrero": "ala",
+      "colorSombrero": "#cdb98a",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#3a2416"
+    },
+    "sargento": {
+      "piel": "#e0ae8a",
+      "pelo": "#9a948a",
+      "peinado": "coronilla",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "uniforme",
+        "color": "#1e2840",
+        "color2": "#1e2840",
+        "detalle": "#c9b46a"
+      },
+      "sombrero": "gorra-plato",
+      "colorSombrero": "#1a2236",
+      "gafas": false,
+      "altura": 1.04,
+      "zapatos": "#111111"
+    },
+    "moss": {
+      "piel": "#e4b591",
+      "pelo": "#3a2a1e",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#d8d2c0",
+        "color2": "#4a4036",
+        "detalle": "#7a5a3a"
+      },
+      "sombrero": "ala",
+      "colorSombrero": "#5a4a3a",
+      "gafas": false,
+      "altura": 1.02,
+      "zapatos": "#2a1a10"
+    },
+    "lyons": {
+      "piel": "#e6b997",
+      "pelo": "#9a9590",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#b8ab8f",
+        "color2": "#b8ab8f",
+        "detalle": "#5a3a2a"
+      },
+      "sombrero": "ala",
+      "colorSombrero": "#7a6a50",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#3a2416"
+    },
+    "senoralyons": {
+      "piel": "#efc7a8",
+      "pelo": "#6a4a30",
+      "peinado": "rizado",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#5d7aa0",
+        "color2": "#5d7aa0",
+        "detalle": "#efe6d2"
+      },
+      "sombrero": "ala",
+      "colorSombrero": "#e8dcc0",
+      "gafas": false,
+      "altura": 0.94,
+      "zapatos": "#5a3a2a",
+      "voz": "narradora-es"
+    },
+    "strapps": {
+      "piel": "#e8bc98",
+      "pelo": "#2a2018",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#f0ece0",
+        "color2": "#3e4a5a",
+        "detalle": "#3e4a5a"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#2a1a10"
+    },
+    "neill": {
+      "piel": "#f0cbae",
+      "pelo": "#7a4a28",
+      "peinado": "rizado",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#c8705a",
+        "color2": "#c8705a",
+        "detalle": "#f3e9d2"
+      },
+      "sombrero": "ninguno",
+      "gafas": false,
+      "altura": 0.93,
+      "zapatos": "#6a3a2a",
+      "voz": "narradora-es"
+    },
+    "johnson": {
+      "piel": "#dfae8a",
+      "pelo": "#5a4a3a",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#6a5038",
+        "color2": "#6a5038",
+        "detalle": "#d9cfb0"
+      },
+      "sombrero": "ala",
+      "colorSombrero": "#4a3a2a",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#2a1a10"
+    },
+    "durham": {
+      "piel": "#e6b997",
+      "pelo": "#3a3028",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#5a5e66",
+        "color2": "#5a5e66",
+        "detalle": "#e8e4da"
+      },
+      "sombrero": "ala",
+      "colorSombrero": "#3a3a3a",
+      "gafas": true,
+      "altura": 1,
+      "zapatos": "#15120f"
+    },
+    "chico": {
+      "piel": "#ecc2a0",
+      "pelo": "#b07a3e",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#d9cfb0",
+        "color2": "#5a4a3a",
+        "detalle": "#5a4a3a"
+      },
+      "sombrero": "boina",
+      "colorSombrero": "#5a5048",
+      "gafas": false,
+      "altura": 0.72,
+      "zapatos": "#2a1a10"
+    },
+    "madre": {
+      "piel": "#ebc0a0",
+      "pelo": "#a09a92",
+      "peinado": "rizado",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#7a8a6a",
+        "color2": "#7a8a6a",
+        "detalle": "#efe6d2"
+      },
+      "sombrero": "ninguno",
+      "gafas": true,
+      "altura": 0.92,
+      "zapatos": "#3a2416",
+      "voz": "narradora-es"
+    },
+    "visitante": {
+      "piel": "#e8bb98",
+      "pelo": "#4a3a2a",
+      "peinado": "coleta",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "vestido",
+        "color": "#2e2e36",
+        "color2": "#2e2e36",
+        "detalle": "#8a8a90"
+      },
+      "sombrero": "ala",
+      "colorSombrero": "#2a2a30",
+      "gafas": false,
+      "altura": 0.93,
+      "zapatos": "#15120f",
+      "voz": "narradora-es"
+    },
+    "visitante2": {
+      "piel": "#dcaa86",
+      "pelo": "#c8c4bc",
+      "peinado": "coronilla",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#4a4440",
+        "color2": "#4a4440",
+        "detalle": "#d9cfb0"
+      },
+      "sombrero": "ninguno",
+      "gafas": true,
+      "altura": 0.98,
+      "zapatos": "#15120f"
+    },
+    "leane": {
+      "piel": "#e0b08c",
+      "pelo": "#3a2e24",
+      "peinado": "corto",
+      "barba": "bigote",
+      "ropa": {
+        "tipo": "traje",
+        "color": "#3a3c44",
+        "color2": "#3a3c44",
+        "detalle": "#e8e4da"
+      },
+      "sombrero": "ala",
+      "colorSombrero": "#2e2e34",
+      "gafas": false,
+      "altura": 1.03,
+      "zapatos": "#15120f"
+    },
+    "vecino": {
+      "piel": "#e6b997",
+      "pelo": "#6a4a30",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#e6e0cc",
+        "color2": "#5a5040",
+        "detalle": "#5a5040"
+      },
+      "sombrero": "ala",
+      "colorSombrero": "#bfa978",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#3a2416"
+    },
+    "boxall": {
+      "piel": "#e4b694",
+      "pelo": "#2e2620",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#c8c0a8",
+        "color2": "#3e4450",
+        "detalle": "#3e4450"
+      },
+      "sombrero": "ala",
+      "colorSombrero": "#4a4a4a",
+      "gafas": false,
+      "altura": 1,
+      "zapatos": "#15120f"
+    },
+    "abbott": {
+      "piel": "#ecc4a4",
+      "pelo": "#c0bab0",
+      "peinado": "corto",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#7a96b8",
+        "color2": "#3a3a44",
+        "detalle": "#3a3a44"
+      },
+      "sombrero": "ninguno",
+      "gafas": true,
+      "altura": 1.02,
+      "zapatos": "#2a2a2a"
+    },
+    "fitzpatrick": {
+      "piel": "#f0cdb4",
+      "pelo": "#d0c8b8",
+      "peinado": "rizado",
+      "barba": "ninguna",
+      "ropa": {
+        "tipo": "camisa",
+        "color": "#9a3a4a",
+        "color2": "#2a2a33",
+        "detalle": "#2a2a33"
+      },
+      "sombrero": "ninguno",
+      "gafas": true,
+      "altura": 0.93,
+      "zapatos": "#2a2a2a",
+      "voz": "narradora-es"
+    }
+  },
+  "largo": {
+    "escenas": [
+      {
+        "texto": "El primero de diciembre de mil novecientos cuarenta y ocho encontramos en la playa a un hombre con corbata y zapatos lustrados, pero sin nombre. Tardaríamos setenta y tres años en poder decir, quizá, cómo se llamaba de verdad.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "sol": false,
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.2,
+              "escala": 1.1
+            },
+            {
+              "tipo": "valla",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "corte": true
+      },
+      {
+        "texto": "No llevaba cartera, ni dinero, ni papeles, y alguien había cortado las etiquetas de su ropa, como si quisiera borrarlo del mundo. Y todavía hoy nadie sabe de qué murió, ni por qué estaba allí.",
+        "drama": 0.85,
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.35,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Me llamo Ned Cólins, tengo veinticuatro años y soy agente de policía en Bráiton, junto a las playas del sur de Adelaida, en Australia. Volví de la guerra hace tres años y elegí lo que creía un oficio tranquilo.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "reloj",
+              "x": -1.1
+            },
+            {
+              "tipo": "perchero",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.4,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": true
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Yo soy inventado, igual que mi sargento y mis pensamientos, pero la playa, las fechas, los testigos y el hombre sin nombre son reales. Y este misterio, más de setenta años después, sigue abierto de par en par.",
+        "drama": 0.6,
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 1,
+        "capitulo": "El hombre del malecón",
+        "texto": "Es miércoles, uno de diciembre, poco después de las seis y media, cuando unos paseantes avisan de que hay un hombre quieto junto al malecón de Sómerton. Bajo corriendo por la arena, que a esa hora ya empieza a calentar.",
+        "corte": true,
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "sol": false,
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.2,
+              "escala": 1.1
+            },
+            {
+              "tipo": "valla",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.35,
+            "accion": "correr",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Playa de Somerton",
+          "detalle": "Adelaida, Australia Meridional · diciembre de 1948",
+          "icono": "📍"
+        }
+      },
+      {
+        "dia": 1,
+        "texto": "El agente Yon Mos, de mi comisaría, ha llegado antes que yo aunque no estaba de servicio, y ya ha llamado a la ambulancia. Me dice en voz baja que no ve en él ninguna señal de violencia.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "moss",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "ned",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 1,
+        "texto": "Era un hombre de unos cuarenta años, alto y fuerte, de pelo rubio rojizo con canas, recostado contra el muro como quien se ha quedado dormido. Ninguno de los que miramos se atreve a tocarlo hasta que llega la ambulancia.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 1,
+        "texto": "Iba mejor vestido que la mayoría: camisa blanca, corbata roja, blanca y azul, jersey de punto marrón, chaqueta cruzada y zapatos lustrados. Lo único raro es que no llevaba sombrero, cuando aquí todo hombre sale a la calle con uno.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.2,
+              "escala": 1.1
+            },
+            {
+              "tipo": "valla",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 1,
+        "texto": "En la comisaría vaciamos sus bolsillos sobre la mesa: un billete de tren sin usar, otro de autobús, un peine de aluminio americano y medio paquete de chicle Yúsi Frut.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "reloj",
+              "x": -1.1
+            },
+            {
+              "tipo": "perchero",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.4,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Lo que llevaba en los bolsillos",
+          "items": [
+            {
+              "icono": "🎫",
+              "nombre": "Billete de tren sin usar"
+            },
+            {
+              "icono": "🚌",
+              "nombre": "Billete de autobús"
+            },
+            {
+              "icono": "🪮",
+              "nombre": "Peine de aluminio hecho en EE. UU."
+            },
+            {
+              "icono": "🚬",
+              "nombre": "Tabaco Army Club con 7 Kensitas"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 1,
+        "texto": "También un paquete de tabaco Armi Clab con siete cigarrillos de otra marca dentro, y una caja de cerillas. Pero ni cartera, ni dinero, ni una sola letra con su nombre.",
+        "drama": 0.65,
+        "personajes": [
+          {
+            "quien": "sargento",
+            "x": -0.4,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "ned",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 1,
+        "texto": "Entonces el sargento Rid me enseña la chaqueta por dentro: alguien ha cortado con cuidado todas las etiquetas, también las de la camisa y el pantalón. ¿Quién se toma tanto trabajo antes de ir a morir a una playa?",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "sargento",
+            "x": -0.4,
+            "accion": "senalar",
+            "emocion": "enfado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "ned",
+            "x": 0.4,
+            "accion": "asustado",
+            "emocion": "miedo",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 1,
+        "texto": "La tarde anterior, hacia las siete, el joyero Yon Láions paseaba con su mujer por esta playa y vio a un hombre tumbado junto al malecón. Lo vio levantar el brazo derecho y dejarlo caer, y pensó que estaba borracho o dormido.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.2,
+              "escala": 1.1
+            },
+            {
+              "tipo": "valla",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "lyons",
+            "x": -0.35,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "senoralyons",
+            "x": 0.05,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 1,
+        "texto": "Más tarde, una pareja de novios sentada en un banco vio al hombre en la misma postura, y contaron que les extrañó que no espantara los mosquitos. Pero nadie, ni ellos ni los Láions, llegó a verle la cara aquella tarde.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "strapps",
+            "x": -0.3,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "neill",
+            "x": 0.2,
+            "accion": "sentado",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "general"
+      },
+      {
+        "dia": 1,
+        "texto": "Dijeron también que había otro hombre mirando desde lo alto, pero nunca apareció, y nadie sabe si el de la tarde era el mismo de la mañana. El forense admitiría meses después que pudieron haberlo traído allí ya muerto.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "duna",
+              "x": -1.1,
+              "escala": 0.8
+            },
+            {
+              "tipo": "roca",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "0",
+          "etiqueta": "testigos que le vieron la cara la tarde del 30 de noviembre",
+          "icono": "👁️"
+        }
+      },
+      {
+        "dia": 2,
+        "texto": "Es jueves, dos, y el patólogo, el doctor Duáier, termina su examen: el corazón estaba sano y no hay ninguna señal de violencia. Sospecha de un veneno, pero el químico del Gobierno no encuentra ninguno.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "reloj",
+              "x": -1.1
+            },
+            {
+              "tipo": "pizarra",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 2,
+        "texto": "Esa mañana, el Ádvertaiser cuenta lo del hombre de la playa en una noticia pequeña de la página tres. A casi nadie en Adelaida le importa todavía un desconocido muerto en la arena.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "farola",
+              "x": -1.15
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "chico",
+            "x": -0.35,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "📰"
+          },
+          {
+            "quien": "ned",
+            "x": 0.35,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 3,
+        "texto": "Es viernes, tres, y un periódico apunta que el muerto podría ser un tal Yónson, y entonces pasa algo que no olvidaré. El propio Yónson entra por la puerta de la comisaría para demostrar que está vivito y coleando.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "reloj",
+              "x": -1.1
+            },
+            {
+              "tipo": "perchero",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "johnson",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "ned",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 3,
+        "texto": "Esa tarde, el fotógrafo de la policía, Pátric Dúrjam, le toma las huellas dactilares y le hace fotografías en el depósito, con su cámara de placas.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "reloj",
+              "x": -1.1
+            },
+            {
+              "tipo": "pizarra",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "durham",
+            "x": -0.4,
+            "accion": "trabajar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "📷"
+          },
+          {
+            "quien": "ned",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 3,
+        "texto": "Las huellas salen hacia todos los estados de Australia, hacia Nueva Zelanda y hacia los grandes archivos del extranjero, y las respuestas tardarán semanas en volver.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "reloj",
+              "x": -1.1
+            },
+            {
+              "tipo": "perchero",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.4,
+            "accion": "escribir",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "mapa",
+          "lugar": "Australia y Nueva Zelanda",
+          "detalle": "Adonde se enviaron sus huellas · 3 de diciembre de 1948",
+          "icono": "🖐️"
+        }
+      },
+      {
+        "dia": 4,
+        "texto": "Es sábado, cuatro, y llega la primera respuesta: sus huellas no constan en ningún archivo de Australia Meridional. Para la policía de este estado, ese hombre no ha existido nunca.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "sargento",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "ned",
+            "x": 0.4,
+            "accion": "pensar",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 5,
+        "capitulo": "Las huellas de nadie",
+        "texto": "Es domingo, cinco, y en Glenélg las familias llenan la playa y el tranvía, como si en la arena de al lado no pasara nada. Yo patrullo Yeti Roud con la camisa pegada a la espalda por el calor.",
+        "corte": true,
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "farola",
+              "x": -1.15
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.35,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 6,
+        "texto": "Todos hablan del Jólden, el primer coche australiano, presentado hace una semana: cuesta setecientas treinta y tres libras, casi dos años de sueldo. Un agente joven como yo no puede ni soñar con tener uno.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "coche-antiguo",
+              "x": -1.0,
+              "escala": 0.8
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.3,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "733 £",
+          "etiqueta": "costaba el Holden 48-215, presentado el 29 de noviembre de 1948: casi dos años de sueldo",
+          "icono": "🚗"
+        }
+      },
+      {
+        "dia": 7,
+        "texto": "Es martes, siete, y la radio de la comisaría solo habla del partido de homenaje a Don Brádman, en Melbúrn. Brádman, que vive aquí, en Adelaida, ha hecho ciento veintitrés carreras y el país entero lo celebra.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "radio",
+              "x": 0.0,
+              "escala": 0.5
+            },
+            {
+              "tipo": "reloj",
+              "x": -1.1
+            },
+            {
+              "tipo": "perchero",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "sargento",
+            "x": -0.4,
+            "accion": "celebrar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "ned",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 7,
+        "texto": "Mientras tanto, en el depósito, un hombre sin nombre espera a que alguien venga a buscarlo, y nadie llama, nadie escribe, nadie pregunta por él. Ni una sola persona en toda Australia parece echarlo de menos todavía.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "reloj",
+              "x": -1.1
+            },
+            {
+              "tipo": "pizarra",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.35,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 8,
+        "texto": "Estos días, los periódicos publican sus fotografías con la misma pregunta: ¿alguien conoce a este hombre? Yo recorto la página y la llevo doblada en el bolsillo del uniforme.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "farola",
+              "x": -1.15
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "📰"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 9,
+        "texto": "Es jueves, nueve, y a las seis de la tarde cierran por ley todos los bares, así que la hora de antes es un atracón de cerveza. Lo llaman el atracón de las seis, y a mí me toca vigilar la salida.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "farola",
+              "x": -1.15
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.35,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 9,
+        "texto": "El té y la mantequilla siguen racionados con cupones, aunque la carne y la ropa se venden libres desde junio. En la comisaría, la tetera de la guardia es lo más sagrado que tenemos.",
+        "drama": 0.45,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": -0.05
+            },
+            {
+              "tipo": "☕",
+              "x": -0.05,
+              "escala": 0.3
+            },
+            {
+              "tipo": "reloj",
+              "x": -1.1
+            },
+            {
+              "tipo": "perchero",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Adelaida, diciembre de 1948",
+          "items": [
+            {
+              "icono": "☕",
+              "nombre": "Té: racionado"
+            },
+            {
+              "icono": "🧈",
+              "nombre": "Mantequilla: racionada"
+            },
+            {
+              "icono": "🥩",
+              "nombre": "Carne: libre desde junio"
+            },
+            {
+              "icono": "⛽",
+              "nombre": "Gasolina: racionada"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 10,
+        "texto": "Es viernes, diez, y como nadie viene a reclamarlo, se decide algo que en la policía nadie recuerda haber hecho jamás con un desconocido. Lo embalsaman, para que se conserve y cualquiera pueda venir a reconocerlo.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "reloj",
+              "x": -1.1
+            },
+            {
+              "tipo": "pizarra",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 10,
+        "texto": "Esa tarde vuelvo a la playa de Sómerton, al mismo trozo de malecón, y me pregunto cómo puede morir un hombre así sin que nadie lo eche en falta.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.2,
+              "escala": 1.1
+            },
+            {
+              "tipo": "valla",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.4,
+            "accion": "pensar",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "10 dic.",
+          "etiqueta": "lo embalsaman: la policía no recordaba haberlo hecho nunca con un desconocido",
+          "icono": "🕯️"
+        }
+      },
+      {
+        "dia": 11,
+        "texto": "Es sábado, once, y en la cena mi madre me pregunta si ya sabemos quién es, y me da vergüenza decirle que no. Ella dice que tendrá una madre en alguna parte, esperando una carta que no llega.",
+        "drama": 0.55,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "noche",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "🍞",
+              "x": 0.05,
+              "escala": 0.3
+            },
+            {
+              "tipo": "cuadro",
+              "x": -1.1
+            },
+            {
+              "tipo": "radio",
+              "x": 1.15,
+              "escala": 0.6
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "madre",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "nedpaisano",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 13,
+        "capitulo": "El desfile",
+        "texto": "Es lunes, trece, y empieza el desfile: gente que cree reconocerlo por las fotos viene al depósito, y yo la acompaño hasta la puerta. Entran con miedo o con esperanza, y casi todos salen sin decir nada.",
+        "corte": true,
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "reloj",
+              "x": -1.1
+            },
+            {
+              "tipo": "pizarra",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "visitante",
+            "x": -0.4,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "ned",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 14,
+        "texto": "Vienen mujeres que buscan a maridos que se marcharon y padres que buscan a hijos que dejaron de escribir, y a todos les digo lo mismo. Mire despacio, sin prisa, y dígame solo lo que esté seguro de ver.",
+        "drama": 0.5,
+        "personajes": [
+          {
+            "quien": "visitante2",
+            "x": -0.4,
+            "accion": "pensar",
+            "emocion": "triste",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "ned",
+            "x": 0.4,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 15,
+        "texto": "Es miércoles, quince, y ya llevamos varias identificaciones que parecían seguras y que, al comprobarlas, se deshacen como la arena entre los dedos.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "reloj",
+              "x": -1.1
+            },
+            {
+              "tipo": "perchero",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.4,
+            "accion": "pensar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "Decenas",
+          "etiqueta": "de personas pasaron por el depósito creyendo reconocerlo",
+          "icono": "🚶"
+        }
+      },
+      {
+        "dia": 16,
+        "texto": "La policía de Victoria descarta a varios desaparecidos y nos dice que, probablemente, nuestro hombre no era de su estado. Guarda esa frase en la memoria, porque muchos años después va a sonar muy distinta.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "sargento",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "✉️"
+          },
+          {
+            "quien": "ned",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 17,
+        "texto": "El calor aprieta y la ciudad huele a polvo y a eucalipto, y en los escaparates ya hay adornos de Navidad, aunque aquí la Navidad se pasa en la playa.",
+        "drama": 0.45,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "farola",
+              "x": -1.15
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.35,
+            "accion": "caminar",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 17,
+        "texto": "Pienso en su billete de segunda clase a Jénli Bich, comprado en la estación de Adelaida y sin taladrar. ¿Por qué alguien compra un billete de tren y luego no sube nunca a ese tren?",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tren",
+              "x": -1.05,
+              "escala": 0.65
+            },
+            {
+              "tipo": "farola",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.4,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 18,
+        "texto": "Y el de autobús era de una línea hacia Glenélg, de aquel mismo martes por la mañana. Alguien cruzó media ciudad aquel día sin dejar detrás ni un nombre ni una sola cara que se recuerde.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 18,
+        "texto": "Esa tarde paseo de paisano por Sómerton a la hora en que lo vieron los Láions, y la arena está llena de gente tomando el fresco. Cualquiera de ellos podría haberle visto la cara, y nadie se la vio.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.2,
+              "escala": 1.1
+            },
+            {
+              "tipo": "valla",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "nedpaisano",
+            "x": 0.35,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 20,
+        "capitulo": "Navidad sin nombre",
+        "texto": "Es lunes, veinte, y el expediente sigue sobre la mesa del sargento Rid, cada día un poco más gordo y un poco menos útil. Llamadas, nombres, corazonadas, y ni una sola pista que aguante más de una semana.",
+        "corte": true,
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "reloj",
+              "x": -1.1
+            },
+            {
+              "tipo": "perchero",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "sargento",
+            "x": -0.4,
+            "accion": "escribir",
+            "emocion": "cansado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "ned",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "cansado",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 22,
+        "texto": "Es miércoles, veintidós, y vuelvo a Sómerton, donde, frente al malecón, hay un hogar para niños con discapacidad. Me pregunto si alguien, desde aquellas ventanas, vio algo aquella noche y nunca lo contó.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.2,
+              "escala": 1.1
+            },
+            {
+              "tipo": "valla",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 24,
+        "texto": "Es viernes, veinticuatro, Nochebuena, y Adelaida cena con las ventanas abiertas por el calor, mientras suenan las campanas de las iglesias.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "farola",
+              "x": -1.15
+            },
+            {
+              "tipo": "arbol",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "nedpaisano",
+            "x": 0.35,
+            "accion": "caminar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "paneo"
+      },
+      {
+        "dia": 25,
+        "texto": "Es sábado, veinticinco, y para la comida de Navidad mi madre ha guardado durante semanas los cupones de mantequilla, para que el pudin salga como antes de la guerra.",
+        "drama": 0.5,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "🍮",
+              "x": 0.05,
+              "escala": 0.3
+            },
+            {
+              "tipo": "cuadro",
+              "x": -1.1
+            },
+            {
+              "tipo": "reloj",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "madre",
+            "x": -0.4,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "nedpaisano",
+            "x": 0.4,
+            "accion": "sentado",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 25,
+        "texto": "Pero yo no dejo de pensar en el depósito, donde un hombre sin nombre pasa la Navidad solo, a pocos kilómetros de las familias que comen en la playa.",
+        "drama": 0.75,
+        "personajes": [
+          {
+            "quien": "nedpaisano",
+            "x": 0.4,
+            "accion": "pensar",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "dia": 25,
+        "texto": "Por la tarde paso por el depósito con una excusa cualquiera y me quedo un rato en la puerta, en silencio, para que al menos alguien le haga compañía.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "noche",
+          "ventana": false,
+          "luna": false,
+          "props": [
+            {
+              "tipo": "reloj-parado",
+              "x": -1.1
+            },
+            {
+              "tipo": "farola",
+              "x": 1.15,
+              "escala": 0.8
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "nedpaisano",
+            "x": 0.35,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "dia": 27,
+        "texto": "Es lunes, veintisiete, y el sargento Rid resume el mes en tres frases que me sé de memoria: no sabemos quién es, ni de qué murió, ni por qué.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "reloj",
+              "x": -1.1
+            },
+            {
+              "tipo": "perchero",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Lo que sabemos al acabar 1948",
+          "items": [
+            {
+              "icono": "❓",
+              "nombre": "Quién era: nadie lo sabe"
+            },
+            {
+              "icono": "❓",
+              "nombre": "De qué murió: no se encontró"
+            },
+            {
+              "icono": "❓",
+              "nombre": "Por qué estaba allí: ni idea"
+            },
+            {
+              "icono": "🖐️",
+              "nombre": "Sus huellas: en ningún archivo"
+            }
+          ]
+        }
+      },
+      {
+        "dia": 30,
+        "texto": "Es jueves, treinta, y el año se acaba con el hombre de Sómerton aún sin nombre, sin causa de muerte y sin nadie que pregunte por él. Yo no lo sé todavía, pero lo más extraño aún no ha llegado.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.2,
+              "escala": 1.1
+            },
+            {
+              "tipo": "valla",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "nedpaisano",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "En enero, el sargento detective Laionel Lin toma el caso, y en la consigna de la estación aparece una maleta marrón dejada el treinta de noviembre. Dentro hay ropa con las etiquetas cortadas, salvo tres prendas con un mismo apellido escrito: Kin.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tren",
+              "x": -1.05,
+              "escala": 0.65
+            },
+            {
+              "tipo": "farola",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "leane",
+            "x": -0.3,
+            "accion": "cargar",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "🧳"
+          },
+          {
+            "quien": "ned",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Nadie llamado Kin faltaba en ningún sitio, ni en Australia ni fuera, y aquella pista, que parecía la buena, se quedó en nada durante setenta y tres años.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.4,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "La maleta de la consigna",
+          "items": [
+            {
+              "icono": "🧳",
+              "nombre": "Maleta marrón, etiqueta arrancada"
+            },
+            {
+              "icono": "✂️",
+              "nombre": "Ropa sin etiquetas"
+            },
+            {
+              "icono": "🏷️",
+              "nombre": "3 prendas: «Keane», «Kean», «T. Keane»"
+            },
+            {
+              "icono": "🧵",
+              "nombre": "Hilo encerado naranja Barbour"
+            }
+          ]
+        }
+      },
+      {
+        "texto": "Meses después, el patólogo Yon Clíland encontró, escondido en un bolsillo diminuto del pantalón, un papelito enrollado con solo dos palabras impresas: Tamám Shud. Significan se acabó, y cierran un libro de poemas persa, el Rubaiát de Omar Jayam.",
+        "drama": 0.85,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "ladrillo",
+          "hora": "dia",
+          "ventana": false,
+          "props": [
+            {
+              "tipo": "reloj",
+              "x": -1.1
+            },
+            {
+              "tipo": "pizarra",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "📜"
+          }
+        ],
+        "camara": "cerca",
+        "corte": true
+      },
+      {
+        "texto": "Un papel que decía se acabó fue, en realidad, el principio de uno de los misterios más famosos del mundo, y yo había tenido ese pantalón delante.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Tamám Shud",
+          "firma": "«Se acabó»: el papel escondido en su bolsillo, arrancado del Rubaiyat"
+        }
+      },
+      {
+        "texto": "En julio, un vecino de Glenélg trajo a la policía un Rubaiát que había encontrado en el asiento trasero de su coche, abierto y aparcado en Yeti Roud. Le faltaba un trozo de la última página, y bajo el microscopio el papelito encajaba.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "coche-antiguo",
+              "x": -1.0,
+              "escala": 0.8
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "vecino",
+            "x": -0.35,
+            "accion": "hablar",
+            "emocion": "sorpresa",
+            "mirar": 1,
+            "habla": false,
+            "objeto": "📕"
+          },
+          {
+            "quien": "leane",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "En el libro había, escritas a lápiz, cinco líneas de letras mayúsculas que nadie ha conseguido descifrar, ni la policía ni años de estudiantes universitarios. Y en el mismo libro había apuntado también un número de teléfono.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "madera",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "reloj",
+              "x": -1.1
+            },
+            {
+              "tipo": "perchero",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.4,
+            "accion": "pensar",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "WRGOABABD…",
+          "firma": "Primera de las cinco líneas escritas a lápiz en el libro. Sin descifrar."
+        }
+      },
+      {
+        "texto": "El teléfono llevó a una enfermera que vivía en Glenélg, cerca de la playa, y que dijo a la policía que no conocía al muerto. Durante décadas protegieron su nombre; hoy sabemos que se llamaba Jéssica Tómson.",
+        "drama": 0.7,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "noche",
+          "clima": "despejado",
+          "luna": false,
+          "props": [
+            {
+              "tipo": "farola",
+              "x": -1.0
+            },
+            {
+              "tipo": "farola",
+              "x": 1.1
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Contó que en la guerra había regalado un Rubaiát a un teniente, Alf Bócsol, pero Bócsol apareció vivo en Sídney, con su libro entero y la última página intacta.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "calle",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "farola",
+              "x": -1.15
+            },
+            {
+              "tipo": "palmera",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "boxall",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false,
+            "objeto": "📕"
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Ella siempre dijo que no lo conocía, y lo que supiera, si es que sabía algo, se lo llevó consigo; nadie ha probado nunca lo contrario.",
+        "drama": 0.6,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "duna",
+              "x": -1.1,
+              "escala": 0.8
+            },
+            {
+              "tipo": "roca",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "nedpaisano",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Hubo quien dijo que era un espía de la Guerra Fría, quien habló de un veneno raro y quien de un amor secreto, pero nunca apareció un solo papel que probara nada.",
+        "drama": 0.7,
+        "personajes": [
+          {
+            "quien": "nedpaisano",
+            "x": 0.35,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "objetos",
+          "titulo": "Teorías: ninguna probada",
+          "items": [
+            {
+              "icono": "💤",
+              "nombre": "Muerte natural"
+            },
+            {
+              "icono": "🧪",
+              "nombre": "Un veneno raro, nunca hallado"
+            },
+            {
+              "icono": "🕵️",
+              "nombre": "Un espía, sin un solo papel"
+            },
+            {
+              "icono": "🔐",
+              "nombre": "El código, sin descifrar"
+            }
+          ]
+        }
+      },
+      {
+        "texto": "En junio del año siguiente, antes de enterrarlo, le hicieron un busto de escayola por si algún día alguien lo reconocía. Lo enterraron en Uest Térres, bajo una lápida dedicada al hombre desconocido de la playa de Sómerton.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tumba",
+              "x": -1.15
+            },
+            {
+              "tipo": "tumba",
+              "x": -0.7,
+              "escala": 0.8
+            },
+            {
+              "tipo": "pino",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.4,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "En la investigación judicial, el forense no pudo decir quién era, ni cómo murió, ni si la muerte fue natural. El químico solo pudo añadir que, si fue veneno, era uno muy poco común.",
+        "drama": 0.7,
+        "personajes": [],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "cita",
+          "frase": "Si murió envenenado, sería un veneno muy raro.",
+          "firma": "El químico del Gobierno, investigación judicial de 1949 (resumen)"
+        }
+      },
+      {
+        "texto": "En mayo de dos mil veintiuno lo exhumaron de madrugada para analizar sus restos, y al año siguiente llegó una respuesta que casi nadie esperaba ya.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "amanecer",
+          "clima": "despejado",
+          "sol": false,
+          "props": [
+            {
+              "tipo": "tumba",
+              "x": -0.2
+            },
+            {
+              "tipo": "tumba",
+              "x": -1.0,
+              "escala": 0.8
+            },
+            {
+              "tipo": "pino",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [],
+        "camara": "paneo"
+      },
+      {
+        "texto": "En dos mil veintidós, el profesor Dérec Ábot y la genealogista Colin Fitspátric anunciaron que tenían su nombre, gracias a unos pelos atrapados en aquel busto de escayola de mil novecientos cuarenta y nueve.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "interior",
+          "pared": "papel",
+          "hora": "dia",
+          "ventana": true,
+          "props": [
+            {
+              "tipo": "mesa",
+              "x": 0.0
+            },
+            {
+              "tipo": "pizarra",
+              "x": -1.1
+            },
+            {
+              "tipo": "planta",
+              "x": 1.15
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "abbott",
+            "x": -0.4,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "fitzpatrick",
+            "x": 0.4,
+            "accion": "quieto",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "corte": true
+      },
+      {
+        "texto": "Según ellos, era Carl Uéb, de Melbúrn, ingeniero eléctrico de cuarenta y tres años, que había dejado a su mujer en mil novecientos cuarenta y siete. Y su cuñado se apellidaba Kin, igual que la ropa de aquella maleta.",
+        "drama": 0.8,
+        "personajes": [
+          {
+            "quien": "abbott",
+            "x": -0.4,
+            "accion": "pensar",
+            "emocion": "neutral",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "fitzpatrick",
+            "x": 0.4,
+            "accion": "hablar",
+            "emocion": "feliz",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta",
+        "insercion": {
+          "tipo": "dato",
+          "valor": "99,9 %",
+          "etiqueta": "la seguridad que dijo tener Derek Abbott en 2022. La policía no lo ha confirmado oficialmente",
+          "icono": "🧬"
+        }
+      },
+      {
+        "texto": "Era de Melbúrn, justo del estado del que la policía de Victoria nos dijo aquel diciembre que no era, aunque la policía de aquí todavía no lo ha confirmado oficialmente.",
+        "drama": 0.75,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "atardecer",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.2,
+              "escala": 1.1
+            },
+            {
+              "tipo": "valla",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "nedpaisano",
+            "x": 0.35,
+            "accion": "pensar",
+            "emocion": "sorpresa",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Hoy quizá tiene nombre, pero sigue sin tener explicación: nadie sabe de qué murió, por qué vino a esta playa ni qué dicen esas cinco líneas de letras.",
+        "drama": 0.8,
+        "fondo": {
+          "lugar": "campo",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "tumba",
+              "x": -1.15
+            },
+            {
+              "tipo": "tumba",
+              "x": -0.7,
+              "escala": 0.8
+            },
+            {
+              "tipo": "pino",
+              "x": 1.25
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.35,
+            "accion": "triste",
+            "emocion": "triste",
+            "mirar": -1,
+            "habla": false
+          }
+        ],
+        "camara": "lenta"
+      },
+      {
+        "texto": "Yo, Ned Cólins, nunca existí, ni mi sargento ni mi madre, pero aquel hombre sí estuvo sentado en esta playa, esperando a que alguien dijera su nombre.",
+        "drama": 0.65,
+        "fondo": {
+          "lugar": "playa",
+          "hora": "dia",
+          "clima": "despejado",
+          "props": [
+            {
+              "tipo": "roca",
+              "x": -1.2,
+              "escala": 1.1
+            },
+            {
+              "tipo": "valla",
+              "x": 1.2
+            }
+          ]
+        },
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.0,
+            "accion": "hablar",
+            "emocion": "neutral",
+            "mirar": -1,
+            "habla": true
+          }
+        ],
+        "camara": "cerca"
+      },
+      {
+        "texto": "Cuéntame en los comentarios quién crees que era, y si quieres vivir otro mes dentro de la historia, suscríbete, que mañana te espera otro.",
+        "drama": 0.55,
+        "personajes": [
+          {
+            "quien": "ned",
+            "x": 0.0,
+            "accion": "saludar",
+            "emocion": "feliz",
+            "mirar": 1,
+            "habla": true
+          }
+        ],
+        "camara": "general"
+      }
+    ]
+  },
+  "ganchos": [
+    {
+      "desde": 0,
+      "hasta": 2,
+      "rotulo": "UN HOMBRE SIN NOMBRE",
+      "titulo": "El hombre de la playa que nadie supo nombrar",
+      "descripcion": "1 de diciembre de 1948, playa de Somerton (Adelaida): un hombre bien vestido, sin documentos y con las etiquetas de la ropa cortadas. Nadie sabe de qué murió. Policía inventado, hechos reales. #shorts #misterio #historia"
+    },
+    {
+      "desde": 10,
+      "hasta": 12,
+      "rotulo": "LAS ETIQUETAS CORTADAS",
+      "titulo": "Alguien cortó todas las etiquetas de su ropa",
+      "descripcion": "El hombre de Somerton no llevaba ni cartera ni papeles, y las etiquetas de su ropa estaban cortadas. La tarde antes, varios testigos lo vieron en la playa, pero nadie le vio la cara. Policía inventado, hechos reales. #shorts #somertonman #misterio"
+    },
+    {
+      "desde": 48,
+      "hasta": 50,
+      "rotulo": "TAMÁM SHUD: SE ACABÓ",
+      "titulo": "Dos palabras escondidas en un bolsillo: Tamám Shud",
+      "descripcion": "Meses después de su muerte, un patólogo encontró en un bolsillo secreto del hombre de Somerton un papel con dos palabras: Tamám Shud, «se acabó». Venía de un libro olvidado en un coche. Policía inventado, hechos reales. #shorts #tamamshud #misterio"
+    },
+    {
+      "desde": 59,
+      "hasta": 61,
+      "rotulo": "73 AÑOS SIN NOMBRE",
+      "titulo": "¿Tiene por fin nombre el hombre de Somerton?",
+      "descripcion": "En 2022, unos investigadores dijeron que el hombre de Somerton era Carl «Charles» Webb, de Melbourne, gracias al ADN de unos pelos del busto de 1949. La policía aún no lo ha confirmado oficialmente. Policía inventado, hechos reales. #shorts #misterio #historia"
+    }
+  ],
+  "publicacion": {
+    "tituloLargo": "Un mes en la vida de UN POLICÍA DE ADELAIDA | El misterio del hombre de Somerton (1948)",
+    "tituloCorto": "El hombre de la playa que nadie supo nombrar",
+    "tituloShort": "El hombre de la playa que nadie supo nombrar",
+    "capituloInicial": "Un hombre sin nombre",
+    "descripcion": "Treinta días en la policía de Adelaida (Australia Meridional) en diciembre de 1948, contados por un agente joven de la comisaría de Brighton: el calor del verano austral, el té y la mantequilla todavía racionados, el cierre de los bares a las seis, el Holden recién presentado y el partido homenaje a Don Bradman. Y, sobre todo, el miércoles 1 de diciembre, cuando apareció en la playa de Somerton un hombre bien vestido, sin documentos, sin dinero y con las etiquetas de la ropa cortadas. Nadie supo quién era ni de qué murió.\n\n— Semana 1: El hombre del malecón\n— Semana 2: Las huellas de nadie\n— Semana 3: El desfile\n— Semana 4: Navidad sin nombre\n— Epílogo: la maleta de la consigna, el papel «Tamám Shud», el Rubaiyat del coche, el código sin descifrar, el busto, la tumba de West Terrace, la exhumación de 2021 y la identificación de 2022\n\nQué es inventado y qué es real: el narrador, el agente Ned Collins, es un personaje INVENTADO, igual que el sargento Reid y su madre (así lo decimos también al final del vídeo); sus pensamientos y sus escenas son imaginados. Son reales el hallazgo del 1 de diciembre de 1948, el agente John Moss, los testigos de la tarde anterior (John Lyons y su mujer, Gordon Strapps y Olive Neill), el patólogo John Dwyer, el fotógrafo Patrick Durham, el señor Johnson que se presentó para demostrar que estaba vivo, el embalsamamiento del 10 de diciembre, la maleta de enero de 1949, el papel «Tamám Shud» que encontró el profesor John Cleland, el libro, el código y el sargento detective Lionel Leane. Ninguna teoría está probada: ni la del espía, ni la del veneno, ni la de un amor secreto. Jessica Thomson, la enfermera cuyo teléfono apareció en el libro, siempre dijo que no conocía al hombre, y nadie ha demostrado lo contrario. En 2022, Derek Abbott y Colleen Fitzpatrick anunciaron que era Carl «Charles» Webb, de Melbourne; la policía de Australia Meridional no lo ha confirmado oficialmente.\n\nEn memoria del hombre de la playa de Somerton, que durante setenta y tres años no tuvo nombre.\n\nFuentes principales: Archivo Estatal de Australia Meridional («But what poison?», 2015); transcripción de la investigación judicial de 1949; Smithsonian Magazine; IEEE Spectrum; InDaily; G. M. Feltus, The Unknown Man (2010).\n\n¿Quién crees que era? Cuéntanoslo en los comentarios y suscríbete para vivir otro mes dentro de la historia.",
+    "etiquetas": [
+      "un mes en la vida de",
+      "hombre de Somerton",
+      "Somerton Man",
+      "Tamám Shud",
+      "Taman Shud",
+      "Adelaida",
+      "Australia",
+      "1948",
+      "misterios sin resolver",
+      "Rubaiyat",
+      "Carl Webb",
+      "casos sin resolver",
+      "misterio",
+      "historia"
+    ],
+    "miniatura": {
+      "texto": "NADIE SABÍA SU NOMBRE",
+      "escena": 28,
+      "quien": "ned",
+      "emocion": "miedo"
+    }
+  }
+}
