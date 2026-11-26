@@ -942,7 +942,7 @@ export const DibujarFondo: React.FC<{ fondo: Fondo; f: number; dur: number; id: 
           </g>
         )}
         <PrimerPlano fondo={fondo} f={f} id={id} cam={cam} />
-        <Particulas clima={fondo.clima ?? "despejado"} f={f} />
+        <Particulas clima={fondo.lugar === "interior" && ["niebla", "smog", "nublado"].includes(fondo.clima ?? "") ? "despejado" : fondo.clima ?? "despejado"} f={f} />
       </g>
     );
   }
