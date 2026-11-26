@@ -299,12 +299,12 @@
      "props": [
       {
        "tipo": "templo-romano",
-       "x": -1.1,
-       "escala": 0.65
+       "x": 0.9,
+       "escala": 0.6
       },
       {
        "tipo": "hoguera",
-       "x": 1.0,
+       "x": -0.3,
        "escala": 0.5
       },
       {
@@ -316,7 +316,7 @@
     "personajes": [
      {
       "quien": "sabino",
-      "x": 0.35,
+      "x": 0.2,
       "accion": "quieto",
       "emocion": "sorpresa",
       "mirar": -1
@@ -357,7 +357,7 @@
        "x": -1.05
       },
       {
-       "tipo": "puesto",
+       "tipo": "puesto-romano",
        "x": 1.05
       },
       {
@@ -409,6 +409,16 @@
        "tipo": "carro",
        "x": -0.95,
        "escala": 0.8
+      },
+      {
+       "tipo": "escalera",
+       "x": 0.72,
+       "escala": 0.8
+      },
+      {
+       "tipo": "cajas",
+       "x": 1.45,
+       "escala": 0.7
       }
      ]
     },
@@ -488,7 +498,7 @@
        "nombre": "Mortero de cal y ceniza volcánica"
       },
       {
-       "icono": "⚙️",
+       "icono": "🪵",
        "nombre": "Grúa de rueda movida a pie"
       }
      ]
@@ -512,7 +522,7 @@
        "x": -1.0
       },
       {
-       "tipo": "puesto",
+       "tipo": "puesto-romano",
        "x": 1.05
       },
       {
@@ -579,7 +589,7 @@
        "x": -1.05
       },
       {
-       "tipo": "puesto",
+       "tipo": "puesto-romano",
        "x": 1.05
       },
       {
@@ -761,7 +771,7 @@
       {
        "tipo": "muralla",
        "x": -1.0,
-       "escala": 0.85
+       "escala": 1.05
       },
       {
        "tipo": "roca",
@@ -879,7 +889,7 @@
       "habla": false
      }
     ],
-    "camara": "lenta"
+    "camara": "general"
    },
    {
     "dia": 6,
@@ -948,6 +958,16 @@
        "tipo": "carro",
        "x": -0.95,
        "escala": 0.8
+      },
+      {
+       "tipo": "escalera",
+       "x": 0.72,
+       "escala": 0.8
+      },
+      {
+       "tipo": "cajas",
+       "x": 1.45,
+       "escala": 0.7
       }
      ]
     },
@@ -1002,6 +1022,16 @@
        "tipo": "carro",
        "x": -0.95,
        "escala": 0.8
+      },
+      {
+       "tipo": "escalera",
+       "x": 0.72,
+       "escala": 0.8
+      },
+      {
+       "tipo": "cajas",
+       "x": 1.45,
+       "escala": 0.7
       }
      ]
     },
@@ -1091,7 +1121,7 @@
      "lugar": "interior",
      "hora": "dia",
      "pared": "ladrillo",
-     "ventana": false,
+     "ventana": true,
      "props": [
       {
        "tipo": "mesa",
@@ -1126,7 +1156,7 @@
       "habla": false
      }
     ],
-    "camara": "lenta",
+    "camara": "general",
     "insercion": {
      "tipo": "dato",
      "valor": "200.000",
@@ -1327,7 +1357,7 @@
      "clima": "nublado",
      "props": [
       {
-       "tipo": "puesto",
+       "tipo": "puesto-romano",
        "x": -1.0
       },
       {
@@ -1399,7 +1429,7 @@
       "habla": false
      }
     ],
-    "camara": "lenta"
+    "camara": "general"
    },
    {
     "dia": 15,
@@ -1460,7 +1490,7 @@
      "clima": "nublado",
      "props": [
       {
-       "tipo": "puesto",
+       "tipo": "puesto-romano",
        "x": -1.0
       },
       {
@@ -1536,7 +1566,7 @@
      "clima": "nublado",
      "props": [
       {
-       "tipo": "puesto",
+       "tipo": "puesto-romano",
        "x": -1.0
       },
       {
@@ -1631,7 +1661,7 @@
      "clima": "nublado",
      "props": [
       {
-       "tipo": "puesto",
+       "tipo": "puesto-romano",
        "x": -1.0
       },
       {
@@ -1793,7 +1823,7 @@
      "lugar": "interior",
      "hora": "noche",
      "pared": "ladrillo",
-     "ventana": false,
+     "ventana": true,
      "props": [
       {
        "tipo": "mesa",
@@ -1996,13 +2026,13 @@
     "personajes": [
      {
       "quien": "sabino",
-      "x": 0.3,
+      "x": 0.2,
       "accion": "hablar",
       "emocion": "neutral",
       "mirar": -1
      }
     ],
-    "camara": "cerca"
+    "camara": "lenta"
    },
    {
     "dia": 25,
@@ -2049,7 +2079,7 @@
      "clima": "nublado",
      "props": [
       {
-       "tipo": "puesto",
+       "tipo": "puesto-romano",
        "x": -1.0
       },
       {
@@ -2106,7 +2136,7 @@
        "x": -1.0
       },
       {
-       "tipo": "puesto",
+       "tipo": "puesto-romano",
        "x": 1.05
       },
       {
@@ -2217,11 +2247,19 @@
      "props": [
       {
        "tipo": "antorcha",
-       "x": -1.0
+       "x": -0.6
       },
       {
        "tipo": "antorcha",
-       "x": 1.0
+       "x": 0.6
+      },
+      {
+       "tipo": "sarcofago",
+       "x": -1.05
+      },
+      {
+       "tipo": "sarcofago",
+       "x": 1.05
       }
      ]
     },
@@ -2236,7 +2274,7 @@
       "habla": false
      }
     ],
-    "camara": "cerca"
+    "camara": "lenta"
    },
    {
     "dia": 31,
@@ -2376,13 +2414,13 @@
     "personajes": [
      {
       "quien": "sabino",
-      "x": 0.3,
+      "x": 0.2,
       "accion": "hablar",
       "emocion": "neutral",
       "mirar": -1
      }
     ],
-    "camara": "cerca"
+    "camara": "lenta"
    },
    {
     "texto": "La primera fiesta de Navidad que consta es de Roma, del año trescientos treinta y seis; la primera del Invicto en esa fecha, de dieciocho años después.",
@@ -2546,13 +2584,13 @@
     "personajes": [
      {
       "quien": "sabino",
-      "x": 0.3,
+      "x": 0.2,
       "accion": "pensar",
       "emocion": "neutral",
       "mirar": -1
      }
     ],
-    "camara": "cerca"
+    "camara": "lenta"
    },
    {
     "texto": "Lo que sí son mitos: que la Navidad copie las Saturnales, que acababan el veintitrés, o que Mitra naciera de una virgen; su leyenda lo hace nacer de una roca.",
@@ -2563,7 +2601,7 @@
      "clima": "nublado",
      "props": [
       {
-       "tipo": "puesto",
+       "tipo": "puesto-romano",
        "x": -1.0
       },
       {
@@ -2665,8 +2703,8 @@
      "props": [
       {
        "tipo": "muralla",
-       "x": 1.05,
-       "escala": 0.8
+       "x": 1.0,
+       "escala": 1.05
       },
       {
        "tipo": "pino",
@@ -2798,7 +2836,7 @@
    "descripcion": "Sabemos que el templo del Sol de Roma se dedicó en el 274; el día 25 es una deducción moderna. Narrador inventado. #shorts #historia #roma #navidad #solinvicto"
   },
   {
-   "desde": 52,
+   "desde": 53,
    "hasta": 55,
    "rotulo": "¿NAVIDAD COPIADA DEL SOL?",
    "titulo": "¿La Navidad copió la fiesta del Sol Invicto? Lo que dicen los textos",
@@ -2829,10 +2867,9 @@
   ],
   "miniatura": {
    "texto": "¿NAVIDAD O SOL INVICTO?",
-   "escena": 0,
+   "escena": 55,
    "quien": "sabino",
-   "emocion": "sorpresa",
-   "icono": "☀️"
+   "emocion": "sorpresa"
   }
  }
 }

@@ -109,6 +109,7 @@ La voz (Chatterbox, narrador de España, con `"velocidad": 1.15`) lee unas **120
   - **Miniatura:** `publicacion.miniatura.prop` pone un decorado del motor (p. ej. `espectro`, `bergantin`) en lugar del emoji `icono`.
   - **Tumbas de campaña:** `cruz` (cruz de madera clavada en el barro); `tumba` es una lápida de piedra de cementerio.
   - **Casa larga nórdica (siglo X):** `banco-pieles` (banco corrido de tablas junto a la pared con pieles y mantas; sustituye a `cama` en épocas antiguas) y `arcon` (arcón de madera con herrajes de hierro; mejor que `cajas`, que parecen modernas).
+  - **Roma (274):** `puesto-romano` (puesto de mercado con uvas, aceitunas, peras y pescado; sin pan de barra ni queso con agujeros).
   - **Kill Devil Hills (1903):** `duna` (duna de arena ancha y baja con matas; para playas y arenales en lugar de `roca`). `flyer-vuelo` vuela alto (≈ a la altura de las cabezas en `general`): pon a los personajes a x ±0.8 para no taparlo. En la miniatura, `"prop": "flyer-vuelo"` lo dibuja grande en el cielo.
   - **Inglaterra (1944):** `bandera-uk` (Union Jack ondeando en su mástil; como `bandera-eeuu`).
   - **Sri Lanka (2004):** `oruwa` (canoa de pesca con batanga y vela cuadrada; en la arena o en el agua), `dagoba` (estupa budista blanca con aguja dorada; escala 0.5–0.7, a un lado), `tren-diesel` (tren costero azul con franja roja, parado; siempre lejos y sin gente) y `torre-alerta` (torre de alerta de tsunami con altavoces; solo desde 2006).
