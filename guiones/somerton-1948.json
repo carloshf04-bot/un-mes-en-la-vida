@@ -397,8 +397,10 @@
               "escala": 1.1
             },
             {
-              "tipo": "valla",
-              "x": 1.2
+              "tipo": "malecon",
+              "x": -0.25,
+              "escala": 0.9,
+              "detras": true
             }
           ]
         },
@@ -498,8 +500,10 @@
               "escala": 1.1
             },
             {
-              "tipo": "valla",
-              "x": 1.2
+              "tipo": "malecon",
+              "x": -0.25,
+              "escala": 0.9,
+              "detras": true
             }
           ]
         },
@@ -576,8 +580,10 @@
               "escala": 1.1
             },
             {
-              "tipo": "valla",
-              "x": 1.2
+              "tipo": "malecon",
+              "x": -0.25,
+              "escala": 0.9,
+              "detras": true
             }
           ]
         },
@@ -714,8 +720,10 @@
               "escala": 1.1
             },
             {
-              "tipo": "valla",
-              "x": 1.2
+              "tipo": "malecon",
+              "x": -0.25,
+              "escala": 0.9,
+              "detras": true
             }
           ]
         },
@@ -838,7 +846,7 @@
               "x": -1.15
             },
             {
-              "tipo": "palmera",
+              "tipo": "pino",
               "x": 1.25
             }
           ]
@@ -1015,7 +1023,7 @@
               "x": -1.15
             },
             {
-              "tipo": "palmera",
+              "tipo": "pino",
               "x": 1.25
             }
           ]
@@ -1047,7 +1055,7 @@
               "escala": 0.8
             },
             {
-              "tipo": "palmera",
+              "tipo": "pino",
               "x": 1.25
             }
           ]
@@ -1067,7 +1075,7 @@
           "tipo": "dato",
           "valor": "733 £",
           "etiqueta": "costaba el Holden 48-215, presentado el 29 de noviembre de 1948: casi dos años de sueldo",
-          "icono": "🚗"
+          "icono": "🔑"
         }
       },
       {
@@ -1083,11 +1091,6 @@
             {
               "tipo": "mesa",
               "x": 0.0
-            },
-            {
-              "tipo": "📻",
-              "x": 0.0,
-              "escala": 0.4
             },
             {
               "tipo": "reloj",
@@ -1165,7 +1168,7 @@
               "x": -1.15
             },
             {
-              "tipo": "palmera",
+              "tipo": "pino",
               "x": 1.25
             }
           ]
@@ -1227,11 +1230,6 @@
             {
               "tipo": "mesa",
               "x": -0.05
-            },
-            {
-              "tipo": "☕",
-              "x": -0.05,
-              "escala": 0.3
             },
             {
               "tipo": "reloj",
@@ -1307,7 +1305,7 @@
             "habla": false
           }
         ],
-        "camara": "cerca"
+        "camara": "general"
       },
       {
         "dia": 10,
@@ -1324,8 +1322,10 @@
               "escala": 1.1
             },
             {
-              "tipo": "valla",
-              "x": 1.2
+              "tipo": "malecon",
+              "x": -0.25,
+              "escala": 0.9,
+              "detras": true
             }
           ]
         },
@@ -1362,17 +1362,12 @@
               "x": 0.0
             },
             {
-              "tipo": "🍞",
-              "x": 0.05,
-              "escala": 0.3
-            },
-            {
               "tipo": "cuadro",
-              "x": -1.1
+              "x": 1.15
             },
             {
               "tipo": "radio",
-              "x": 1.15,
+              "x": -1.1,
               "escala": 0.6
             }
           ]
@@ -1540,9 +1535,9 @@
           "clima": "despejado",
           "props": [
             {
-              "tipo": "tren",
-              "x": -1.05,
-              "escala": 0.7
+              "tipo": "tranvia",
+              "x": -0.3,
+              "escala": 0.8
             },
             {
               "tipo": "farola",
@@ -1568,8 +1563,10 @@
               "escala": 1.1
             },
             {
-              "tipo": "valla",
-              "x": 1.2
+              "tipo": "malecon",
+              "x": -0.25,
+              "escala": 0.9,
+              "detras": true
             }
           ]
         },
@@ -1715,17 +1712,12 @@
               "x": 0.0
             },
             {
-              "tipo": "🍰",
-              "x": 0.05,
-              "escala": 0.3
-            },
-            {
               "tipo": "cuadro",
-              "x": -1.1
+              "x": 1.15
             },
             {
               "tipo": "reloj",
-              "x": 1.15
+              "x": -1.1
             }
           ]
         },
@@ -1853,8 +1845,10 @@
               "escala": 1.1
             },
             {
-              "tipo": "valla",
-              "x": 1.2
+              "tipo": "malecon",
+              "x": -0.25,
+              "escala": 0.9,
+              "detras": true
             }
           ]
         },
@@ -1883,7 +1877,7 @@
               "x": -1.15
             },
             {
-              "tipo": "palmera",
+              "tipo": "pino",
               "x": 1.25
             }
           ]
@@ -1928,7 +1922,7 @@
           "titulo": "La maleta de la consigna",
           "items": [
             {
-              "icono": "🧳",
+              "icono": "💼",
               "nombre": "Maleta marrón, etiqueta arrancada"
             },
             {
@@ -1968,7 +1962,7 @@
         "personajes": [
           {
             "quien": "ned",
-            "x": 0.35,
+            "x": 0.2,
             "accion": "quieto",
             "emocion": "sorpresa",
             "mirar": -1,
@@ -2013,7 +2007,7 @@
               "escala": 0.8
             },
             {
-              "tipo": "palmera",
+              "tipo": "pino",
               "x": 1.25
             }
           ]
@@ -2114,7 +2108,7 @@
               "x": -1.15
             },
             {
-              "tipo": "palmera",
+              "tipo": "pino",
               "x": 1.25
             }
           ]
@@ -2333,8 +2327,10 @@
               "escala": 1.1
             },
             {
-              "tipo": "valla",
-              "x": 1.2
+              "tipo": "malecon",
+              "x": -0.25,
+              "escala": 0.9,
+              "detras": true
             }
           ]
         },
@@ -2399,10 +2395,13 @@
               "escala": 1.1
             },
             {
-              "tipo": "valla",
-              "x": 1.2
+              "tipo": "malecon",
+              "x": -0.25,
+              "escala": 0.9,
+              "detras": true
             }
-          ]
+          ],
+          "sol": false
         },
         "personajes": [
           {
@@ -2487,7 +2486,7 @@
     ],
     "miniatura": {
       "texto": "NADIE SABÍA SU NOMBRE",
-      "escena": 27,
+      "escena": 58,
       "quien": "ned",
       "emocion": "miedo"
     }

@@ -40,6 +40,11 @@ const LEJOS: Record<Hora, string[]> = {
   atardecer: ["#6a3a5c", "#472545", "#2a1429"],
   noche: ["#1c2640", "#131a30", "#0b1020"],
 };
+// el mar al amanecer y al atardecer: azul tintado, para que no se lea como colinas
+const MAR: Partial<Record<Hora, string[]>> = {
+  amanecer: ["#5d7099", "#4b5d87", "#3b4b73"],
+  atardecer: ["#5b5f8f", "#484b7a", "#363866"],
+};
 // tinte que se aplica a los colores "de día" según la hora
 const TINTE: Record<Hora, { c: string; o: number }> = {
   amanecer: { c: "#ff9a6b", o: 0.18 },
@@ -292,9 +297,9 @@ const Exterior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string; cam?
     case "playa":
       lejos = (
         <g>
-          <path d={ola(HORIZONTE, 6, 70, f / 14)} fill={hora === "dia" ? "#3f78a8" : c[0]} />
-          <path d={ola(HORIZONTE + 70, 10, 90, f / 11 + 1)} fill={hora === "dia" ? "#2f6592" : c[1]} />
-          <path d={ola(HORIZONTE + 140, 14, 110, f / 9 + 2)} fill={hora === "dia" ? "#24547c" : c[2]} />
+          <path d={ola(HORIZONTE, 6, 70, f / 14)} fill={hora === "dia" ? "#3f78a8" : (MAR[hora] ?? c)[0]} />
+          <path d={ola(HORIZONTE + 70, 10, 90, f / 11 + 1)} fill={hora === "dia" ? "#2f6592" : (MAR[hora] ?? c)[1]} />
+          <path d={ola(HORIZONTE + 140, 14, 110, f / 9 + 2)} fill={hora === "dia" ? "#24547c" : (MAR[hora] ?? c)[2]} />
           {lugar === "playa" &&
             [0, 1].map((i) => <path key={i} d={ola(SUELO - 40 + i * 14, 6, 60, f / 8 + i)} fill="#ffffff" opacity={0.35 - i * 0.15} />)}
         </g>

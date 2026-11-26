@@ -18,7 +18,7 @@ export const PROPS_DISPONIBLES = [
   "granja", "granero", "coche-antiguo", "coche-patrulla", "estufa", "mostrador", "poste",
   // Tenochtitlan (1519)
   "templo-mayor", "canoa", "ahuejote", "chinampa", "calzada", "brasero", "petate", "metate", "ciudad-lago",
-  "granja-fuego", "charco", "puesto-mexica", "puesto-romano",
+  "granja-fuego", "charco", "puesto-mexica", "puesto-romano", "malecon", "tranvia",
   // Egipto, Reino Nuevo (Abidos 1270 a. C.)
   "barca", "yed", "oruwa", "dagoba", "torre-alerta", "tren-diesel", "barca-durham", "muralla", "arbol-desnudo",
   // Armero (1985)
@@ -490,6 +490,32 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: num
       );
     case "roca":
       return <path d="M-180 0 Q-200 -120 -90 -170 Q20 -220 120 -150 Q200 -90 180 0Z" fill="#6b6560" />;
+    case "malecon":
+      // muro bajo de hormigón de paseo marítimo (Somerton, 1948) con escalones a la arena a la derecha
+      return (
+        <g>
+          <rect x={-430} y={-150} width={700} height={150} fill="#bdb6a6" />
+          <rect x={-440} y={-170} width={720} height={24} rx={4} fill="#d6d0c2" />
+          {[-300, -120, 60, 220].map((x) => <line key={x} x1={x} y1={-146} x2={x} y2={0} stroke="#a49d8d" strokeWidth={6} />)}
+          {[0, 1, 2, 3, 4].map((i) => <rect key={i} x={270 + i * 34} y={-150 + i * 30} width={190 - i * 34} height={30} fill={i % 2 ? "#c9c2b2" : "#b3ac9c"} />)}
+          <rect x={-430} y={-12} width={700} height={12} fill="#00000018" />
+        </g>
+      );
+    case "tranvia": {
+      // tranvía de una caja de los años 40 (Glenelg), crema y granate, con trole
+      return (
+        <g>
+          <rect x={-380} y={-20} width={760} height={10} fill="#5a5048" />
+          <rect x={-330} y={-250} width={660} height={220} rx={18} fill="#e6dcc0" />
+          <rect x={-330} y={-110} width={660} height={80} rx={10} fill="#7a2a2a" />
+          <rect x={-345} y={-270} width={690} height={30} rx={14} fill="#5a4a3a" />
+          {[-280, -170, -60, 50, 160].map((x) => <rect key={x} x={x} y={-225} width={90} height={90} rx={6} fill="#3e4f5e" />)}
+          <rect x={250} y={-225} width={55} height={190} rx={4} fill="#4a3a2e" />
+          <line x1={0} y1={-270} x2={-220} y2={-420} stroke="#2a2a2a" strokeWidth={8} />
+          {[-220, 220].map((x) => <circle key={x} cx={x} cy={-20} r={28} fill="#2a2a2a" />)}
+        </g>
+      );
+    }
     case "valla":
       return (
         <g fill="#8a6a44">

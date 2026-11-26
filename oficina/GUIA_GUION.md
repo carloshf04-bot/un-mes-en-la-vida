@@ -110,6 +110,7 @@ La voz (Chatterbox, narrador de España, con `"velocidad": 1.15`) lee unas **120
   - **Tumbas de campaña:** `cruz` (cruz de madera clavada en el barro); `tumba` es una lápida de piedra de cementerio.
   - **Casa larga nórdica (siglo X):** `banco-pieles` (banco corrido de tablas junto a la pared con pieles y mantas; sustituye a `cama` en épocas antiguas) y `arcon` (arcón de madera con herrajes de hierro; mejor que `cajas`, que parecen modernas).
   - **Ventanas de interior:** con `"clima": "nublado"`, `"niebla"`, `"smog"`, `"lluvia"` o `"nieve"` en un fondo `interior` de día, el cielo de la ventana sale gris (Londres en invierno).
+  - **Adelaida (1948):** `malecon` (muro bajo de hormigón del paseo marítimo con escalones a la arena; ponlo `detras` en la playa, x -0.3 a 0, escala 0.9) y `tranvia` (tranvía de una caja crema y granate con trole, años 40; x ±0.3, escala 0.8 en `calle`). El mar de `playa`/`mar` al amanecer y al atardecer es azul tintado, ya no morado.
   - **Roma (274):** `puesto-romano` (puesto de mercado con uvas, aceitunas, peras y pescado; sin pan de barra ni queso con agujeros).
   - **Kill Devil Hills (1903):** `duna` (duna de arena ancha y baja con matas; para playas y arenales en lugar de `roca`). `flyer-vuelo` vuela alto (≈ a la altura de las cabezas en `general`): pon a los personajes a x ±0.8 para no taparlo. En la miniatura, `"prop": "flyer-vuelo"` lo dibuja grande en el cielo.
   - **Inglaterra (1944):** `bandera-uk` (Union Jack ondeando en su mástil; como `bandera-eeuu`).
