@@ -18,8 +18,8 @@
     "dickens": {
       "piel": "#ecd2bd",
       "pelo": "#5b3a24",
-      "peinado": "largo",
-      "barba": "ninguna",
+      "peinado": "rizado",
+      "barba": "patillas",
       "ropa": {
         "tipo": "traje",
         "color": "#2f4a3a",
@@ -34,8 +34,8 @@
     "dickenscalle": {
       "piel": "#ecd2bd",
       "pelo": "#5b3a24",
-      "peinado": "largo",
-      "barba": "ninguna",
+      "peinado": "rizado",
+      "barba": "patillas",
       "ropa": {
         "tipo": "abrigo",
         "color": "#1f2a3d",
@@ -379,10 +379,6 @@
           "hora": "noche",
           "ventana": true,
           "props": [
-            {
-              "tipo": "estanteria",
-              "x": -1.35
-            },
             {
               "tipo": "chimenea",
               "x": -0.85
