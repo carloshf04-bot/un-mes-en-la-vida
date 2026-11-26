@@ -125,3 +125,13 @@ Por qué funciona cada idea: tiene **un mes concreto con un acontecimiento dram�
 | [x] | `sol-invicto-274` | Miércoles 23 · mitos | un niño de Roma | Roma, diciembre del 274 | 25 de diciembre: Aureliano consagra el templo del Sol Invicto. ¿De dónde sale la fecha de la Navidad? |
 | [x] | `dickens-1843` | Jueves 24 · personajes | Charles Dickens | Londres, noviembre–diciembre de 1843 | 19 de diciembre: *Canción de Navidad*, escrita en seis semanas, se agota en cinco días. **Efeméride.** |
 | [x] | `tsunami-2004` | Viernes 25 · catástrofes | un niño de un pueblo pescador | Sri Lanka, diciembre de 2004 | 26 de diciembre: el tsunami del Índico y el tren «Reina del Mar». **Efeméride.** |
+
+## Semana del 28 de diciembre de 2026 (calendario semanal)
+
+| Estado | Slug | Día | Un mes en la vida de… | Mes | Gancho |
+|---|---|---|---|---|---|
+| [~] | `dc3-1948` | Lunes 28 · misterios | un radiotelegrafista del aeropuerto de San Juan | Puerto Rico y Miami, diciembre de 1948 | 28 de diciembre: un DC-3 con 32 personas a bordo desaparece a 50 millas de Miami sin dejar rastro. **Efeméride.** |
+| [~] | `ladoga-1941` | Martes 29 · guerra | un conductor del Camino de la Vida | Leningrado y el lago Ládoga, diciembre de 1941 | Camiones sobre el hielo del lago para salvar a una ciudad sitiada. **Efeméride.** |
+| [~] | `uvas-1909` | Miércoles 30 · mitos y tradiciones | una niña de una familia de viñateros | Alicante y Madrid, diciembre de 1909 | 31 de diciembre: ¿de dónde salen las doce uvas? Mito del excedente y la burla de 1882. **Efeméride.** |
+| [~] | `edison-1879` | Jueves 31 · personajes | Thomas Edison | Menlo Park, diciembre de 1879 | 31 de diciembre: cientos de personas llegan en tren para ver la luz eléctrica. **Efeméride.** |
+| [~] | `melaza-1919` | Viernes 1 · catástrofes | un repartidor del North End | Boston, diciembre de 1918 – enero de 1919 | 15 de enero: un tanque revienta y una ola de melaza recorre las calles. |
