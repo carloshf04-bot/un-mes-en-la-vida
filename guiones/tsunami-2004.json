@@ -668,7 +668,7 @@
         "texto": "El tren de la costa pasa varias veces al día, y el más famoso es el expreso de Colombo, la Reina del Mar.",
         "drama": 0.55,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "playa",
           "hora": "dia",
           "clima": "despejado",
           "props": [
@@ -680,12 +680,8 @@
             {
               "tipo": "tren-diesel",
               "x": 0.0,
-              "escala": 0.6
-            },
-            {
-              "tipo": "poste",
-              "x": 1.1,
-              "escala": 1.0
+              "escala": 0.6,
+              "detras": true
             },
             {
               "tipo": "palmera",
@@ -1214,7 +1210,7 @@
           "props": [
             {
               "tipo": "cama",
-              "x": -1.0,
+              "x": -0.6,
               "escala": 1.0
             },
             {
@@ -1234,13 +1230,13 @@
         "personajes": [
           {
             "quien": "kasun",
-            "x": 0.35,
+            "x": 0.1,
             "accion": "sentado",
             "emocion": "cansado",
             "mirar": -1
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 15,
@@ -1283,7 +1279,7 @@
           "props": [
             {
               "tipo": "cama",
-              "x": -1.0,
+              "x": -0.6,
               "escala": 1.0
             },
             {
@@ -1303,13 +1299,13 @@
         "personajes": [
           {
             "quien": "kasunblanco",
-            "x": 0.35,
+            "x": 0.1,
             "accion": "quieto",
             "emocion": "neutral",
             "mirar": -1
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 15,
@@ -1523,7 +1519,7 @@
         "texto": "El tren se llamaba la Reina del Mar, y desde la curva del camino lo vemos parado junto a las casas, porque el agua le ha cortado el paso.",
         "drama": 0.8,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "playa",
           "hora": "dia",
           "clima": "despejado",
           "props": [
@@ -1534,13 +1530,9 @@
             },
             {
               "tipo": "tren-diesel",
-              "x": -1.0,
-              "escala": 0.4
-            },
-            {
-              "tipo": "poste",
-              "x": 1.15,
-              "escala": 1.0
+              "x": -0.3,
+              "escala": 0.55,
+              "detras": true
             },
             {
               "tipo": "palmera",
@@ -1724,7 +1716,7 @@
         "personajes": [
           {
             "quien": "kasunblanco",
-            "x": 0.14,
+            "x": 0.18,
             "accion": "abrazar",
             "emocion": "triste",
             "mirar": -1,
@@ -1732,7 +1724,7 @@
           },
           {
             "quien": "sunil",
-            "x": -0.14,
+            "x": -0.18,
             "accion": "abrazar",
             "emocion": "triste",
             "mirar": 1,
@@ -1923,7 +1915,7 @@
           },
           {
             "quien": "soldado",
-            "x": -0.35,
+            "x": -0.6,
             "accion": "cargar",
             "emocion": "neutral",
             "mirar": 1,
@@ -2095,8 +2087,8 @@
             },
             {
               "tipo": "helicoptero",
-              "x": -0.3,
-              "escala": 1.0
+              "x": 0.2,
+              "escala": 0.8
             },
             {
               "tipo": "palmera",
@@ -2303,7 +2295,7 @@
         "personajes": [
           {
             "quien": "kasunescuela",
-            "x": 0.35,
+            "x": 0.5,
             "accion": "senalar",
             "emocion": "neutral",
             "mirar": -1
@@ -2326,8 +2318,8 @@
             },
             {
               "tipo": "torre-alerta",
-              "x": 1.0,
-              "escala": 1.2
+              "x": 0.7,
+              "escala": 0.85
             },
             {
               "tipo": "palmera",
@@ -2371,7 +2363,7 @@
         "texto": "Desde dos mil ocho, cada veintiséis de diciembre, la Reina del Mar restaurada vuelve a Peralíya y el país entero guarda dos minutos de silencio.",
         "drama": 0.65,
         "fondo": {
-          "lugar": "campo",
+          "lugar": "playa",
           "hora": "atardecer",
           "clima": "despejado",
           "props": [
@@ -2383,12 +2375,18 @@
             {
               "tipo": "tren-diesel",
               "x": 0.0,
-              "escala": 0.55
+              "escala": 0.55,
+              "detras": true
             },
             {
               "tipo": "palmera",
               "x": 1.45,
               "escala": 1.0
+            },
+            {
+              "tipo": "oruwa",
+              "x": 0.9,
+              "escala": 0.6
             }
           ]
         },
@@ -2449,7 +2447,7 @@
   },
   "ganchos": [
     {
-      "desde": 0,
+      "desde": 1,
       "hasta": 3,
       "rotulo": "NADIE NOS AVISÓ",
       "titulo": "El domingo que el mar llegó sin aviso (Sri Lanka, 2004)",
@@ -2500,7 +2498,7 @@
     ],
     "miniatura": {
       "texto": "EL MAR SE FUE",
-      "escena": 0,
+      "escena": 28,
       "quien": "kasunblanco",
       "emocion": "miedo"
     }
