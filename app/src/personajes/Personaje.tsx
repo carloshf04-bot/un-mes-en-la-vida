@@ -512,7 +512,7 @@ const Cara: React.FC<{ look: Look; emocion: Emocion; boca: number; parpadeo: boo
         <path d={look.barba === "larga" ? "M-74 8 Q-70 90 0 190 Q70 90 74 8 Q60 70 0 74 Q-60 70 -74 8Z" : "M-76 6 Q-70 92 0 96 Q70 92 76 6 Q60 66 0 70 Q-60 66 -76 6Z"} fill={pelo} />
       )}
       {look.barba === "patillas" && [-1, 1].map((s) => (
-        <path key={`pt${s}`} d={`M${s * 80 + 6} -18 Q${s * 96 + 6} 40 ${s * 62 + 6} 92 Q${s * 44 + 6} 84 ${s * 54 + 6} 54 Q${s * 66 + 6} 20 ${s * 66 + 6} -18Z`} fill={pelo} />
+        <path key={`pt${s}`} d={`M${s * 80 + 6} -14 Q${s * 84 + 6} 26 ${s * 70 + 6} 56 Q${s * 60 + 6} 52 ${s * 64 + 6} 28 Q${s * 68 + 6} 8 ${s * 68 + 6} -14Z`} fill={pelo} />
       ))}
       {look.barba && look.barba !== "ninguna" && look.barba !== "patillas" && <path d="M-26 32 Q6 18 38 32 Q6 40 -26 32Z" fill={pelo} />}
       {/* boca */}

@@ -629,6 +629,9 @@ const Interior: React.FC<{ fondo: Fondo; hora: Hora; f: number; id: string }> = 
             </linearGradient>
           </defs>
           <rect x={720} y={500} width={480} height={460} rx={tipo === "metal" ? 220 : 8} fill={`url(#vent${id})`} />
+          {!noche && ["nublado", "niebla", "smog", "lluvia", "tormenta", "nieve"].includes(fondo.clima ?? "") && (
+            <rect x={720} y={500} width={480} height={460} rx={tipo === "metal" ? 220 : 8} fill={fondo.clima === "smog" ? "#b3a98c" : "#aab2bb"} opacity={0.8} />
+          )}
           {noche && Array.from({ length: 12 }).map((_, i) => <circle key={i} cx={740 + random(`ws${i}`) * 440} cy={520 + random(`wy${i}`) * 300} r={2.5} fill="#fff" />)}
           {tipo === "metal" ? (
             <rect x={720} y={500} width={480} height={460} rx={220} fill="none" stroke="#3a414b" strokeWidth={30} />

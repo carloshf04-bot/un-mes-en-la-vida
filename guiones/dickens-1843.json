@@ -18,34 +18,34 @@
     "dickens": {
       "piel": "#ecd2bd",
       "pelo": "#5b3a24",
-      "peinado": "rizado",
+      "peinado": "corto",
       "barba": "patillas",
       "ropa": {
         "tipo": "traje",
         "color": "#2f4a3a",
         "color2": "#6b6a70",
-        "detalle": "#a8323a"
+        "detalle": "#c9b48a"
       },
       "sombrero": "ninguno",
       "gafas": false,
-      "altura": 0.98,
+      "altura": 1.0,
       "zapatos": "#1a1a1a"
     },
     "dickenscalle": {
       "piel": "#ecd2bd",
       "pelo": "#5b3a24",
-      "peinado": "rizado",
+      "peinado": "corto",
       "barba": "patillas",
       "ropa": {
         "tipo": "abrigo",
         "color": "#1f2a3d",
         "color2": "#6b6a70",
-        "detalle": "#a8323a"
+        "detalle": "#c9b48a"
       },
       "sombrero": "copa",
       "colorSombrero": "#1a1a1a",
       "gafas": false,
-      "altura": 0.98,
+      "altura": 1.0,
       "zapatos": "#1a1a1a"
     },
     "dickensnino": {
@@ -495,7 +495,8 @@
               "x": 1.45,
               "escala": 0.8
             }
-          ]
+          ],
+          "clima": "niebla"
         },
         "personajes": [
           {
@@ -601,7 +602,8 @@
               "x": 1.5,
               "escala": 0.9
             }
-          ]
+          ],
+          "clima": "niebla"
         },
         "personajes": [
           {
@@ -656,7 +658,8 @@
               "x": 1.5,
               "escala": 0.9
             }
-          ]
+          ],
+          "clima": "niebla"
         },
         "personajes": [
           {
@@ -710,7 +713,7 @@
         "personajes": [
           {
             "quien": "dickens",
-            "x": 0.4,
+            "x": -0.4,
             "accion": "escribir",
             "emocion": "neutral",
             "mirar": 1
@@ -836,7 +839,8 @@
               "x": 1.5,
               "escala": 0.9
             }
-          ]
+          ],
+          "clima": "niebla"
         },
         "personajes": [
           {
@@ -894,7 +898,8 @@
               "x": 1.5,
               "escala": 0.9
             }
-          ]
+          ],
+          "clima": "niebla"
         },
         "personajes": [
           {
@@ -952,7 +957,8 @@
               "x": 1.5,
               "escala": 0.9
             }
-          ]
+          ],
+          "clima": "niebla"
         },
         "personajes": [
           {
@@ -1003,7 +1009,8 @@
               "x": 1.2,
               "escala": 0.28
             }
-          ]
+          ],
+          "clima": "niebla"
         },
         "personajes": [
           {
@@ -1056,7 +1063,8 @@
               "x": 1.2,
               "escala": 0.28
             }
-          ]
+          ],
+          "clima": "niebla"
         },
         "personajes": [
           {
@@ -1400,12 +1408,13 @@
               "x": 1.45,
               "escala": 0.8
             }
-          ]
+          ],
+          "clima": "niebla"
         },
         "personajes": [
           {
             "quien": "dickensnino",
-            "x": 0.35,
+            "x": 0.0,
             "accion": "trabajar",
             "emocion": "triste",
             "mirar": 1
@@ -1602,10 +1611,10 @@
         "personajes": [
           {
             "quien": "dickens",
-            "x": 0.4,
+            "x": -0.4,
             "accion": "celebrar",
             "emocion": "feliz",
-            "mirar": -1
+            "mirar": 1
           }
         ],
         "camara": "cerca"
@@ -1704,7 +1713,8 @@
               "x": 1.5,
               "escala": 0.9
             }
-          ]
+          ],
+          "clima": "niebla"
         },
         "personajes": [
           {
@@ -1752,7 +1762,8 @@
               "x": 1.2,
               "escala": 0.28
             }
-          ]
+          ],
+          "clima": "niebla"
         },
         "personajes": [
           {
@@ -1806,7 +1817,8 @@
               "x": 1.5,
               "escala": 0.85
             }
-          ]
+          ],
+          "clima": "niebla"
         },
         "personajes": [
           {
@@ -1912,7 +1924,8 @@
               "x": 1.5,
               "escala": 0.85
             }
-          ]
+          ],
+          "clima": "niebla"
         },
         "personajes": [
           {
@@ -1963,7 +1976,8 @@
               "x": 1.5,
               "escala": 0.9
             }
-          ]
+          ],
+          "clima": "niebla"
         },
         "personajes": [
           {
@@ -2043,7 +2057,8 @@
               "x": 1.2,
               "escala": 0.28
             }
-          ]
+          ],
+          "clima": "niebla"
         },
         "personajes": [
           {
@@ -2101,7 +2116,8 @@
               "x": 1.2,
               "escala": 0.28
             }
-          ]
+          ],
+          "clima": "niebla"
         },
         "personajes": [
           {
@@ -2163,7 +2179,7 @@
         "personajes": [
           {
             "quien": "dickens",
-            "x": 0.4,
+            "x": -0.4,
             "accion": "escribir",
             "emocion": "feliz",
             "mirar": 1
@@ -2210,7 +2226,8 @@
               "x": 1.32,
               "escala": 0.3
             }
-          ]
+          ],
+          "clima": "niebla"
         },
         "personajes": [
           {
@@ -2461,7 +2478,8 @@
               "x": 1.32,
               "escala": 0.3
             }
-          ]
+          ],
+          "clima": "niebla"
         },
         "personajes": [
           {
@@ -2514,7 +2532,8 @@
               "x": 1.32,
               "escala": 0.3
             }
-          ]
+          ],
+          "clima": "niebla"
         },
         "personajes": [
           {
@@ -2572,7 +2591,8 @@
               "x": 1.5,
               "escala": 0.9
             }
-          ]
+          ],
+          "clima": "niebla"
         },
         "personajes": [
           {
@@ -3093,7 +3113,8 @@
               "x": 1.5,
               "escala": 0.9
             }
-          ]
+          ],
+          "clima": "niebla"
         },
         "personajes": [
           {
@@ -3104,7 +3125,7 @@
             "mirar": -1
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "texto": "Y en enero, unos piratas publican mi cuento resumido y cambiado, en una revista barata que cuesta un penique o dos, la biblioteca ilustrada de Párlis.",
@@ -3173,7 +3194,8 @@
               "tipo": "columna",
               "x": 1.45
             }
-          ]
+          ],
+          "clima": "niebla"
         },
         "personajes": [
           {
@@ -3222,7 +3244,8 @@
               "tipo": "columna",
               "x": 1.45
             }
-          ]
+          ],
+          "clima": "niebla"
         },
         "personajes": [
           {
@@ -3272,7 +3295,8 @@
               "x": 1.45,
               "escala": 0.8
             }
-          ]
+          ],
+          "clima": "niebla"
         },
         "personajes": [
           {
@@ -3330,7 +3354,8 @@
               "x": 1.5,
               "escala": 0.9
             }
-          ]
+          ],
+          "clima": "niebla"
         },
         "personajes": [
           {
@@ -3410,7 +3435,8 @@
               "x": 1.2,
               "escala": 0.28
             }
-          ]
+          ],
+          "clima": "niebla"
         },
         "personajes": [
           {
@@ -3644,10 +3670,9 @@
     ],
     "miniatura": {
       "texto": "DEUDAS Y FANTASMAS",
-      "escena": 1,
-      "quien": "dickens",
-      "emocion": "sorpresa",
-      "icono": "🕯️"
+      "escena": 3,
+      "quien": "dickenscalle",
+      "emocion": "sorpresa"
     }
   },
   "grafias": {
