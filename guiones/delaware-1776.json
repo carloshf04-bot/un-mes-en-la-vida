@@ -18,7 +18,7 @@
   "reparto": {
     "eli": {
       "piel": "#e3b896",
-      "pelo": "#7a5a3a",
+      "pelo": "#5a3a24",
       "peinado": "corto",
       "barba": "ninguna",
       "ropa": {
@@ -33,11 +33,11 @@
     },
     "eli-frio": {
       "piel": "#e3b896",
-      "pelo": "#7a5a3a",
+      "pelo": "#5a3a24",
       "peinado": "corto",
       "barba": "ninguna",
       "ropa": {
-        "tipo": "abrigo",
+        "tipo": "uniforme",
         "color": "#6a6760",
         "color2": "#cbbf9f",
         "detalle": "#5a4430"
@@ -48,11 +48,11 @@
     },
     "eli-nuevo": {
       "piel": "#e3b896",
-      "pelo": "#7a5a3a",
+      "pelo": "#5a3a24",
       "peinado": "corto",
       "barba": "ninguna",
       "ropa": {
-        "tipo": "abrigo",
+        "tipo": "uniforme",
         "color": "#6a6760",
         "color2": "#cbbf9f",
         "detalle": "#5a4430"
@@ -348,7 +348,7 @@
           "lugar": "calle",
           "hora": "dia",
           "clima": "nublado",
-          "nevado": false,
+          "nevado": true,
           "props": [
             {
               "tipo": "casa",
@@ -542,7 +542,7 @@
           "lugar": "calle",
           "hora": "dia",
           "clima": "nublado",
-          "nevado": false,
+          "nevado": true,
           "props": [
             {
               "tipo": "casa",
@@ -1166,7 +1166,7 @@
             "mirar": -1
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 24,
@@ -1392,7 +1392,7 @@
             "mirar": -1
           }
         ],
-        "camara": "general"
+        "camara": "lenta"
       },
       {
         "dia": 25,
@@ -1410,20 +1410,21 @@
               "x": -1.25
             },
             {
-              "tipo": "barca-durham",
-              "x": -0.0,
-              "escala": 0.75
-            },
-            {
               "tipo": "pino",
               "x": 1.4
+            },
+            {
+              "tipo": "barca-durham",
+              "x": 0.0,
+              "escala": 1.3,
+              "detras": false
             }
           ]
         },
         "personajes": [
           {
             "quien": "remero",
-            "x": -0.4,
+            "x": -0.3,
             "accion": "trabajar",
             "emocion": "neutral",
             "mirar": 1,
@@ -1431,7 +1432,7 @@
           },
           {
             "quien": "eli-frio",
-            "x": 0.4,
+            "x": 0.3,
             "accion": "quieto",
             "emocion": "miedo",
             "mirar": -1
@@ -1452,7 +1453,7 @@
         "personajes": [
           {
             "quien": "remero",
-            "x": -0.4,
+            "x": -0.3,
             "accion": "trabajar",
             "emocion": "enfado",
             "mirar": 1,
@@ -1460,7 +1461,7 @@
           },
           {
             "quien": "eli-frio",
-            "x": 0.4,
+            "x": 0.3,
             "accion": "asustado",
             "emocion": "miedo",
             "mirar": -1
@@ -1484,31 +1485,27 @@
               "x": -1.25
             },
             {
-              "tipo": "barca-durham",
-              "x": -1.0,
-              "escala": 0.6
-            },
-            {
-              "tipo": "barca-durham",
-              "x": 1.05,
-              "escala": 0.55
-            },
-            {
               "tipo": "pino",
               "x": 1.4
+            },
+            {
+              "tipo": "barca-durham",
+              "x": 0.0,
+              "escala": 1.3,
+              "detras": false
             }
           ]
         },
         "personajes": [
           {
             "quien": "eli-frio",
-            "x": 0.4,
+            "x": 0.2,
             "accion": "asustado",
             "emocion": "miedo",
             "mirar": -1
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 26,
@@ -1781,7 +1778,7 @@
         "personajes": [
           {
             "quien": "eli-frio",
-            "x": 0.4,
+            "x": 0.6,
             "accion": "sentado",
             "emocion": "cansado",
             "mirar": -1
@@ -1803,7 +1800,7 @@
             "objeto": "👞"
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 30,
@@ -1935,7 +1932,7 @@
             "mirar": -1
           }
         ],
-        "camara": "general"
+        "camara": "paneo"
       },
       {
         "dia": 31,
@@ -2034,7 +2031,7 @@
           "hora": "noche",
           "clima": "nublado",
           "luna": false,
-          "nevado": false,
+          "nevado": true,
           "props": [
             {
               "tipo": "hoguera",
@@ -2059,7 +2056,7 @@
         "personajes": [
           {
             "quien": "caleb",
-            "x": -0.4,
+            "x": -0.6,
             "accion": "trabajar",
             "emocion": "neutral",
             "mirar": 1,
@@ -2156,6 +2153,14 @@
         "personajes": [
           {
             "quien": "britanico",
+            "x": -0.8,
+            "accion": "senalar",
+            "emocion": "enfado",
+            "mirar": 1,
+            "habla": false
+          },
+          {
+            "quien": "britanico",
             "x": -0.4,
             "accion": "senalar",
             "emocion": "enfado",
@@ -2214,7 +2219,7 @@
         "drama": 0.6,
         "fondo": {
           "lugar": "campo",
-          "hora": "amanecer",
+          "hora": "dia",
           "clima": "despejado",
           "nevado": true,
           "props": [
@@ -2370,14 +2375,14 @@
   },
   "ganchos": [
     {
-      "desde": 0,
+      "desde": 1,
       "hasta": 3,
       "rotulo": "MI CONTRATO ACABA EL 31",
       "titulo": "Mi contrato con Washington acababa el 31 de diciembre de 1776",
       "descripcion": "Diciembre de 1776: el ejército de Washington se deshace en la retirada por Nueva Jersey y casi todos los alistamientos vencen el 31. La historia de un soldado (inventado) de Connecticut con los zapatos atados con trapos. #shorts #historia #washington #revolucionamericana"
     },
     {
-      "desde": 27,
+      "desde": 29,
       "hasta": 31,
       "rotulo": "CRUZAR EL RÍO HELADO",
       "titulo": "Cruzamos un río helado de noche, de pie, en barcas hechas para llevar hierro",
@@ -2391,7 +2396,7 @@
       "descripcion": "Trenton, 26 de diciembre de 1776: un ataque por sorpresa bajo la nieve, cerca de 900 hessianos prisioneros y ningún americano muerto en combate. Y no, los hessianos no estaban borrachos. #shorts #historia #trenton #washington #revolucionamericana"
     },
     {
-      "desde": 41,
+      "desde": 42,
       "hasta": 44,
       "rotulo": "EL TAMBOR SONÓ DOS VECES",
       "titulo": "Washington nos pidió seis semanas más por diez dólares",
@@ -2423,7 +2428,7 @@
     ],
     "miniatura": {
       "texto": "VICTORIA O MUERTE",
-      "escena": 0,
+      "escena": 29,
       "quien": "eli-frio",
       "emocion": "miedo",
       "accion": "quieto"
