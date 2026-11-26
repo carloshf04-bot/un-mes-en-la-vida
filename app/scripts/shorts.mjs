@@ -174,7 +174,7 @@ const assDe = (n, [a, b]) => {
 };
 
 // ---------- render de cada short ----------
-const firma = JSON.stringify({ plan, metas, encuadre, largo: statSync(largo).mtimeMs, v: 10 });
+const firma = JSON.stringify({ plan, metas, encuadre, largo: statSync(largo).mtimeMs, v: 11 });
 const cortesF = join(dir, "cortes.json");
 const previo = existsSync(cortesF) ? readFileSync(cortesF, "utf8") : "";
 const mismoPlan = !rehacer && previo && JSON.parse(previo).firma === firma;
@@ -214,10 +214,10 @@ plan.forEach(([a, b], k) => {
   const med = exprModo(a, b, "medio");
   const MH = Math.round((CH * 1080) / MW);
   // gancho limpio: hasta que el plano a termina de entrar (fundido encadenado), se congela su primer fotograma limpio
-  const D0 = a > 0 ? Math.max(0, ini[a] + 2 / fps - t0) : 0;
+  const D0 = a > 0 ? Math.max(0, ini[a] + 2 / fps - t0) : 0.6; // el largo arranca con fundido desde negro: el short empieza ya con imagen
   const filtro = [
     `[0:v]tpad=start_duration=${D0.toFixed(3)}:start_mode=clone,split=4[v1][v2][v3][v4]`,
-    `[v1]scale=-2:1920,crop=1080:1920,boxblur=28:2,eq=brightness=-0.18:saturation=0.85[fondo]`,
+    `[v1]crop=1920:${CH}:0:${CY},scale=-2:1920,crop=1080:1920,boxblur=28:2,eq=brightness=-0.18:saturation=0.85[fondo]`,
     `[v2]crop=${CW}:${CH}:x='${exprX(a, b)}':y=${CY},scale=1080:${Math.round((CH * 1080) / CW)}[rec]`,
     `[v3]crop=${EW}:${CH}:${(1920 - EW) / 2}:${CY},scale=1080:${Math.round((CH * 1080) / EW)}[ent]`,
     `[v4]crop=${MW}:${CH}:x='${exprX(a, b, "medio", MW)}':y=${CY},scale=1080:${MH}[med]`,

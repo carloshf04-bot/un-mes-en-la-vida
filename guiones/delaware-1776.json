@@ -1880,7 +1880,7 @@
         "personajes": [
           {
             "quien": "washington",
-            "x": -0.4,
+            "x": -0.3,
             "accion": "hablar",
             "emocion": "neutral",
             "mirar": 1,
@@ -1918,7 +1918,7 @@
         "personajes": [
           {
             "quien": "washington",
-            "x": -0.4,
+            "x": -0.3,
             "accion": "hablar",
             "emocion": "triste",
             "mirar": 1,
@@ -2020,7 +2020,7 @@
             "mirar": -1
           }
         ],
-        "camara": "cerca"
+        "camara": "lenta"
       },
       {
         "dia": 33,
@@ -2153,7 +2153,7 @@
         "personajes": [
           {
             "quien": "britanico",
-            "x": -0.8,
+            "x": -1.0,
             "accion": "senalar",
             "emocion": "enfado",
             "mirar": 1,
@@ -2237,7 +2237,8 @@
               "escala": 0.8,
               "detras": true
             }
-          ]
+          ],
+          "sol": false
         },
         "personajes": [
           {
@@ -2382,7 +2383,7 @@
       "descripcion": "Diciembre de 1776: el ejército de Washington se deshace en la retirada por Nueva Jersey y casi todos los alistamientos vencen el 31. La historia de un soldado (inventado) de Connecticut con los zapatos atados con trapos. #shorts #historia #washington #revolucionamericana"
     },
     {
-      "desde": 29,
+      "desde": 30,
       "hasta": 31,
       "rotulo": "CRUZAR EL RÍO HELADO",
       "titulo": "Cruzamos un río helado de noche, de pie, en barcas hechas para llevar hierro",
@@ -2428,10 +2429,11 @@
     ],
     "miniatura": {
       "texto": "VICTORIA O MUERTE",
-      "escena": 29,
+      "escena": 27,
       "quien": "eli-frio",
       "emocion": "miedo",
-      "accion": "quieto"
+      "accion": "quieto",
+      "prop": "barca-durham"
     }
   },
   "grafias": {
