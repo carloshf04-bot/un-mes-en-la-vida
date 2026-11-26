@@ -124,4 +124,4 @@ Por qué funciona cada idea: tiene **un mes concreto con un acontecimiento dram�
 | [~] | `delaware-1776` | Martes 22 · guerra | un soldado de Washington | Pensilvania y Nueva Jersey, diciembre de 1776 | 25–26 de diciembre: el cruce helado del Delaware y Trenton. **Efeméride.** |
 | [~] | `sol-invicto-274` | Miércoles 23 · mitos | un niño de Roma | Roma, diciembre del 274 | 25 de diciembre: Aureliano consagra el templo del Sol Invicto. ¿De dónde sale la fecha de la Navidad? |
 | [~] | `dickens-1843` | Jueves 24 · personajes | Charles Dickens | Londres, noviembre–diciembre de 1843 | 19 de diciembre: *Canción de Navidad*, escrita en seis semanas, se agota en cinco días. **Efeméride.** |
-| [~] | `tsunami-2004` | Viernes 25 · catástrofes | un niño de un pueblo pescador | Sri Lanka, diciembre de 2004 | 26 de diciembre: el tsunami del Índico y el tren «Reina del Mar». **Efeméride.** |
+| [x] | `tsunami-2004` | Viernes 25 · catástrofes | un niño de un pueblo pescador | Sri Lanka, diciembre de 2004 | 26 de diciembre: el tsunami del Índico y el tren «Reina del Mar». **Efeméride.** |

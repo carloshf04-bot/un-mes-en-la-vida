@@ -40,7 +40,8 @@ export const Miniatura: React.FC<{ slug: string; manifiesto?: Manifiesto }> = ({
 
   return (
     <AbsoluteFill style={{ background: "#000" }}>
-      <EscenaMundo escena={escena} reparto={m.reparto} dur={60} id="mini" env={[]} />
+      {/* en la miniatura, niños y personajes bajos a tamaño adulto: el encuadre "retrato" está pensado para altura 1 */}
+      <EscenaMundo escena={escena} reparto={{ ...m.reparto, [quien]: { ...m.reparto[quien], altura: Math.max(1, m.reparto[quien]?.altura ?? 1) } }} dur={60} id="mini" env={[]} />
       <AbsoluteFill
         style={{
           background: vertical
