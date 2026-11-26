@@ -407,8 +407,8 @@
         "personajes": [
           {
             "quien": "ned",
-            "x": 0.4,
-            "accion": "quieto",
+            "x": 0.15,
+            "accion": "pensar",
             "emocion": "miedo",
             "mirar": -1,
             "habla": false
@@ -1890,7 +1890,7 @@
             "emocion": "sorpresa",
             "mirar": 1,
             "habla": false,
-            "objeto": "🧳"
+            "objeto": "💼"
           },
           {
             "quien": "ned",
@@ -1970,7 +1970,7 @@
             "objeto": "📜"
           }
         ],
-        "camara": "cerca",
+        "camara": "lenta",
         "corte": true
       },
       {
@@ -2281,7 +2281,7 @@
             "habla": false
           }
         ],
-        "camara": "lenta",
+        "camara": "cerca",
         "corte": true
       },
       {
