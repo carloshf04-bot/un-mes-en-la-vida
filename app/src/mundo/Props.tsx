@@ -18,7 +18,7 @@ export const PROPS_DISPONIBLES = [
   "granja", "granero", "coche-antiguo", "coche-patrulla", "estufa", "mostrador", "poste",
   // Tenochtitlan (1519)
   "templo-mayor", "canoa", "ahuejote", "chinampa", "calzada", "brasero", "petate", "metate", "ciudad-lago",
-  "granja-fuego", "charco", "puesto-mexica", "puesto-romano", "malecon", "tranvia",
+  "granja-fuego", "charco", "puesto-mexica", "puesto-romano", "malecon", "tranvia", "dc3", "dc3-vuelo", "camion-gaz", "trineo-caballo", "tanque-melaza", "elevado", "ola-melaza", "vina", "reloj-torre", "bombilla", "dinamo", "laboratorio-menlo",
   // Egipto, Reino Nuevo (Abidos 1270 a. C.)
   "barca", "yed", "oruwa", "dagoba", "torre-alerta", "tren-diesel", "barca-durham", "muralla", "arbol-desnudo",
   // Armero (1985)
@@ -2940,6 +2940,241 @@ export const Prop: React.FC<{ tipo: string; f: number; noche: boolean; dur?: num
               <circle cx={-470} cy={-240} r={18} fill="#151515" />
             </g>
           )}
+        </g>
+      );
+    }
+    case "dc3":
+    case "dc3-vuelo": {
+      // bimotor de pasajeros de los años treinta y cuarenta (tipo DC-3), aluminio sin pintar con una franja, ala baja,
+      // rueda de cola; de perfil hacia la derecha. "dc3-vuelo": pequeño, cruza el cielo y pasa por su x a mitad de escena.
+      const vuela = tipo === "dc3-vuelo";
+      const c = noche ? "#4a5058" : "#c3c8cc";
+      const franja = noche ? "#2a3a52" : "#2f5a8a";
+      const cristal = noche ? "#e8c070" : "#2c3a48";
+      const giro = Math.abs(Math.cos(f * 1.6));
+      const x0 = vuela ? (f - dur * 0.5) * 2.6 : 0;
+      const y0 = vuela ? -620 + Math.sin(f / 25) * 10 : 0;
+      const s = vuela ? 0.3 : 1;
+      return (
+        <g transform={`translate(${x0} ${y0}) scale(${s})`} opacity={vuela ? 0.85 : 1}>
+          {!vuela && <ellipse cx={0} cy={4} rx={620} ry={16} fill="#000" opacity={0.15} />}
+          <g transform={`translate(0 ${vuela ? 0 : 130})`}>
+          {/* cola */}
+          <path d="M-560 -330 L-640 -560 Q-640 -580 -610 -580 L-540 -580 L-440 -360Z" fill={oscurecer(c, 0.08)} />
+          <path d="M-600 -330 L-720 -310 L-500 -300Z" fill={oscurecer(c, 0.15)} />
+          {/* fuselaje (de cola baja a morro alto, como en tierra) */}
+          <path d="M-640 -330 Q-600 -350 -480 -370 L380 -400 Q520 -400 560 -340 Q560 -290 500 -270 L-480 -300 Q-620 -300 -640 -330Z" fill={c} />
+          <path d="M-600 -322 L520 -330 L516 -312 L-590 -306Z" fill={franja} />
+          {/* ventanillas o luz de cabina */}
+          {Array.from({ length: 9 }).map((_, i) => <rect key={i} x={-380 + i * 82} y={-372} width={46} height={34} rx={8} fill={cristal} opacity={noche ? 0.9 : 0.85} />)}
+          <path d="M440 -390 L520 -380 L540 -350 L450 -352Z" fill={cristal} />
+          {/* ala baja y motor con hélice */}
+          <path d="M-60 -290 L260 -296 L300 -270 L-80 -262Z" fill={oscurecer(c, 0.18)} />
+          <path d="M120 -300 Q140 -340 300 -334 L330 -280 Q300 -262 140 -268Z" fill={oscurecer(c, 0.12)} />
+          <ellipse cx={330} cy={-302} rx={22} ry={44} fill={oscurecer(c, 0.35)} />
+          <ellipse cx={356} cy={-302} rx={8} ry={160 * giro + 10} fill="#222" opacity={0.65} />
+          </g>
+          {!vuela && (
+            <g>
+              <path d="M220 -150 L200 -70" stroke="#2a2a2a" strokeWidth={22} />
+              <circle cx={200} cy={-50} r={52} fill="#151515" />
+              <path d="M-540 -180 L-560 -40" stroke="#2a2a2a" strokeWidth={12} />
+              <circle cx={-560} cy={-24} r={24} fill="#151515" />
+            </g>
+          )}
+          {noche && <circle cx={560} cy={vuela ? -330 : -200} r={10} fill="#ff4040" />}
+        </g>
+      );
+    }
+    case "camion-gaz": {
+      // camión ligero soviético de 1,5 t de los años treinta (tipo GAZ-AA): cabina pequeña de chapa con capó redondeado,
+      // caja de tablas cargada de sacos de harina, verde grisáceo y sin insignias; de perfil hacia la derecha
+      const verde = noche ? "#2c3430" : "#55654f";
+      const tabla = noche ? "#3a3428" : "#8a7452";
+      const saco = noche ? "#8a8676" : "#e4dcc6";
+      return (
+        <g>
+          <ellipse cx={0} cy={4} rx={520} ry={14} fill="#000" opacity={0.15} />
+          <rect x={-480} y={-300} width={560} height={120} fill={tabla} />
+          {[-420, -300, -180, -60].map((x) => <line key={x} x1={x} y1={-300} x2={x} y2={-180} stroke={oscurecer(tabla, 0.25)} strokeWidth={6} />)}
+          {[-430, -320, -210, -100, -370, -260, -150].map((x, i) => (
+            <ellipse key={i} cx={x + 20} cy={i < 4 ? -320 : -380} rx={62} ry={40} fill={saco} stroke={oscurecer(saco, 0.15)} strokeWidth={4} />
+          ))}
+          <rect x={-500} y={-190} width={940} height={30} fill={oscurecer(verde, 0.2)} />
+          <path d="M100 -170 L100 -440 Q100 -460 120 -460 L280 -460 L290 -170Z" fill={verde} />
+          <rect x={130} y={-430} width={130} height={110} rx={6} fill={noche ? "#20262c" : "#8fa4b2"} />
+          <path d="M290 -330 Q300 -360 360 -360 L470 -340 Q500 -320 500 -280 L500 -170 L290 -170Z" fill={verde} />
+          {[310, 340, 370, 400].map((x) => <line key={x} x1={x} y1={-340} x2={x} y2={-200} stroke={oscurecer(verde, 0.25)} strokeWidth={5} />)}
+          {[-340, 380].map((x) => (
+            <g key={x}><circle cx={x} cy={-90} r={78} fill="#151515" /><circle cx={x} cy={-90} r={30} fill={oscurecer(verde, 0.25)} /></g>
+          ))}
+          {noche && <path d="M500 -280 L900 -340 L900 -160 Z" fill="#ffe8a0" opacity={0.12} />}
+          <circle cx={496} cy={-280} r={16} fill={noche ? "#ffe8a0" : "#d8d2b8"} />
+        </g>
+      );
+    }
+    case "trineo-caballo": {
+      // caballo flaco tirando de un trineo bajo de madera con sacos, de perfil hacia la derecha; respira vaho con el frío
+      const pelo = noche ? "#2a2018" : "#5a4030";
+      const madera = noche ? "#3a3026" : "#7a5e3e";
+      const saco = noche ? "#8a8676" : "#e4dcc6";
+      const paso = Math.sin(f / 9) * 10;
+      return (
+        <g>
+          <ellipse cx={-40} cy={4} rx={520} ry={14} fill="#000" opacity={0.15} />
+          {/* trineo */}
+          <path d="M-560 -40 L-160 -40 Q-110 -40 -100 -90" stroke={madera} strokeWidth={14} fill="none" />
+          <rect x={-540} y={-130} width={380} height={70} fill={madera} />
+          {[-500, -400, -300, -450, -350].map((x, i) => <ellipse key={i} cx={x + 40} cy={i < 3 ? -150 : -200} rx={60} ry={38} fill={saco} stroke={oscurecer(saco, 0.15)} strokeWidth={4} />)}
+          <path d="M-160 -110 L60 -250" stroke="#2a2018" strokeWidth={8} />
+          {/* caballo */}
+          <ellipse cx={180} cy={-280} rx={170} ry={80} fill={pelo} />
+          {[[70, paso], [120, -paso], [250, -paso], [300, paso]].map(([x, d], i) => (
+            <path key={i} d={`M${x} -230 L${x + d} -20`} stroke={pelo} strokeWidth={30} strokeLinecap="round" />
+          ))}
+          <path d="M310 -320 Q360 -420 420 -440 L470 -390 Q430 -360 380 -280Z" fill={pelo} />
+          <path d="M420 -450 Q500 -450 520 -400 Q500 -380 460 -385Z" fill={pelo} />
+          <path d="M330 -350 Q360 -430 410 -450" stroke="#1a140e" strokeWidth={18} fill="none" />
+          <path d="M20 -290 Q-20 -250 -10 -170" stroke="#1a140e" strokeWidth={16} fill="none" />
+          <rect x={90} y={-350} width={160} height={22} fill="#3a2a1a" />
+          <circle cx={540} cy={-400} r={18 + (f % 40) / 4} fill="#ffffff" opacity={0.25 - (f % 40) / 200} />
+        </g>
+      );
+    }
+    case "tanque-melaza": {
+      // depósito cilíndrico de chapa remachada (Boston, 1915–1919), pintado de marrón; con chorretones oscuros de melaza
+      const c = noche ? "#3a2e24" : "#7a5a3e";
+      return (
+        <g>
+          <rect x={-420} y={-900} width={840} height={900} fill={c} />
+          <ellipse cx={0} cy={-900} rx={420} ry={50} fill={oscurecer(c, -0.08)} />
+          {[-760, -600, -440, -280, -120].map((y) => <line key={y} x1={-420} y1={y} x2={420} y2={y} stroke={oscurecer(c, 0.25)} strokeWidth={6} />)}
+          {Array.from({ length: 14 }).map((_, i) => <line key={i} x1={-390 + i * 60} y1={-900} x2={-390 + i * 60} y2={0} stroke={oscurecer(c, 0.12)} strokeWidth={3} />)}
+          {[-250, -60, 180, 320].map((x, i) => <path key={x} d={`M${x} ${-600 + i * 80} q-10 ${120 + i * 30} 4 ${200 + i * 40}`} stroke="#2a1a0e" strokeWidth={14} strokeLinecap="round" fill="none" opacity={0.8} />)}
+          <rect x={-420} y={-40} width={840} height={40} fill={oscurecer(c, 0.3)} />
+        </g>
+      );
+    }
+    case "elevado": {
+      // tramo de ferrocarril elevado de vigas de acero sobre pilares (Atlantic Avenue, Boston), con un vagón de madera encima
+      const acero = noche ? "#2a2c30" : "#4a4e54";
+      const vagon = noche ? "#3a2a22" : "#7a3a2a";
+      return (
+        <g>
+          {[-700, -230, 240, 700].map((x) => <rect key={x} x={x - 24} y={-640} width={48} height={640} fill={acero} />)}
+          <rect x={-900} y={-700} width={1800} height={70} fill={acero} />
+          {Array.from({ length: 18 }).map((_, i) => <path key={i} d={`M${-900 + i * 100} -700 L${-850 + i * 100} -630 L${-800 + i * 100} -700`} stroke={oscurecer(acero, -0.1)} strokeWidth={8} fill="none" />)}
+          <rect x={-520} y={-960} width={860} height={250} rx={18} fill={vagon} />
+          <rect x={-540} y={-980} width={900} height={36} rx={14} fill={oscurecer(vagon, 0.2)} />
+          {Array.from({ length: 7 }).map((_, i) => <rect key={i} x={-480 + i * 115} y={-920} width={80} height={90} rx={6} fill={noche ? "#d8b870" : "#2c3a48"} />)}
+          {[-400, 220].map((x) => <circle key={x} cx={x} cy={-712} r={26} fill="#1a1a1a" />)}
+        </g>
+      );
+    }
+    case "ola-melaza": {
+      // ola de melaza oscura y brillante que avanza por la calle a ras de suelo (sin víctimas a la vista); crece con la escena
+      const t = Math.min(1, f / Math.max(30, dur * 0.6));
+      const alto = 120 + t * 260;
+      const ond = (k: number) => Math.sin(f / 7 + k) * 18;
+      return (
+        <g>
+          <path d={`M-1100 0 L-1100 ${-alto * 0.6} Q-700 ${-alto * 0.7 + ond(1)} -300 ${-alto * 0.9} Q100 ${-alto + ond(2)} 500 ${-alto * 0.8} Q800 ${-alto * 0.6 + ond(3)} 1100 ${-alto * 0.3} L1100 0Z`} fill="#3a1e0c" />
+          <path d={`M-1100 ${-alto * 0.55} Q-700 ${-alto * 0.65 + ond(1)} -300 ${-alto * 0.85} Q100 ${-alto * 0.95 + ond(2)} 500 ${-alto * 0.75}`} stroke="#8a5428" strokeWidth={14} fill="none" opacity={0.7} />
+          <path d={`M-600 ${-alto * 0.4} Q-200 ${-alto * 0.5} 200 ${-alto * 0.45}`} stroke="#c88a4a" strokeWidth={6} fill="none" opacity={0.35} />
+        </g>
+      );
+    }
+    case "vina": {
+      // hilera de parras bajas en espaldera (Vinalopó), cepas retorcidas; en invierno quedan racimos tardíos colgando
+      const cepa = noche ? "#2a2018" : "#5a4030";
+      const hoja = noche ? "#3a3a24" : "#9a8a3a";
+      return (
+        <g>
+          <line x1={-700} y1={-300} x2={700} y2={-300} stroke="#6a5a4a" strokeWidth={6} />
+          <line x1={-700} y1={-200} x2={700} y2={-200} stroke="#6a5a4a" strokeWidth={6} />
+          {[-700, 0, 700].map((x) => <rect key={x} x={x - 10} y={-340} width={20} height={340} fill="#7a6a54" />)}
+          {[-560, -330, -100, 130, 360, 590].map((x, i) => (
+            <g key={x}>
+              <path d={`M${x} 0 Q${x - 20} -120 ${x + 10} -200 Q${x - 40} -260 ${x - 120} -300 M${x + 10} -200 Q${x + 60} -260 ${x + 130} -300`} stroke={cepa} strokeWidth={26} strokeLinecap="round" fill="none" />
+              {[-100, 0, 100].map((d) => <ellipse key={d} cx={x + d} cy={-330 + (d === 0 ? -10 : 0)} rx={60} ry={26} fill={hoja} opacity={0.85} />)}
+              {i % 2 === 0 && [-60, 60].map((d) => (
+                <g key={d}>{[0, 1, 2, 3, 4, 5].map((k) => <circle key={k} cx={x + d + ((k % 3) - 1) * 16} cy={-280 + Math.floor(k / 3) * 26 + (k === 5 ? 10 : 0)} r={14} fill={noche ? "#8a8a5a" : "#d8d28a"} />)}</g>
+              ))}
+            </g>
+          ))}
+        </g>
+      );
+    }
+    case "reloj-torre": {
+      // torre del reloj sobre un edificio de ladrillo y piedra de una plaza (Madrid, 1866), con esfera blanca y bola dorada en un mástil
+      const muro = noche ? "#4a3a34" : "#b06a4a";
+      const piedra = noche ? "#6a6460" : "#e6dcc8";
+      const brilla = noche ? "#f4e6b0" : "#ffffff";
+      return (
+        <g>
+          <rect x={-560} y={-560} width={1120} height={560} fill={muro} />
+          {[-420, -200, 200, 420].map((x) => <rect key={x} x={x - 50} y={-460} width={100} height={170} fill={noche ? "#e8c070" : "#3a3a48"} />)}
+          <rect x={-560} y={-580} width={1120} height={30} fill={piedra} />
+          <rect x={-180} y={-900} width={360} height={340} fill={piedra} />
+          <circle cx={0} cy={-760} r={120} fill={brilla} stroke="#2a2a2a" strokeWidth={10} />
+          <line x1={0} y1={-760} x2={0} y2={-840} stroke="#1a1a1a" strokeWidth={10} />
+          <line x1={0} y1={-760} x2={50} y2={-760} stroke="#1a1a1a" strokeWidth={10} />
+          <path d="M-200 -900 L0 -980 L200 -900Z" fill={oscurecer(piedra, 0.15)} />
+          <line x1={0} y1={-980} x2={0} y2={-1180} stroke="#2a2a2a" strokeWidth={10} />
+          <circle cx={0} cy={-1120} r={34} fill="#d8a83a" />
+        </g>
+      );
+    }
+    case "bombilla": {
+      // lámpara de Edison de 1879: ampolla de vidrio soplado en forma de pera con filamento de carbón en herradura que brilla, sobre un pie de madera
+      const brillo = 0.75 + Math.sin(f / 6) * 0.05;
+      return (
+        <g>
+          <circle cx={0} cy={-300} r={240} fill="#ffd27a" opacity={0.22 * brillo} />
+          <rect x={-60} y={-40} width={120} height={40} rx={6} fill="#6a4a2e" />
+          <rect x={-14} y={-160} width={28} height={130} fill="#4a3a2a" />
+          <rect x={-34} y={-200} width={68} height={50} rx={6} fill="#8a7a5a" />
+          <path d="M-30 -200 Q-120 -260 -110 -350 Q-100 -460 0 -470 Q100 -460 110 -350 Q120 -260 30 -200Z" fill="#e8f2f6" opacity={0.35} stroke="#c8d6dc" strokeWidth={4} />
+          <path d="M-14 -210 L-14 -300 Q-14 -390 0 -390 Q14 -390 14 -300 L14 -210" stroke="#ffcf5a" strokeWidth={8} fill="none" opacity={brillo} />
+          <circle cx={0} cy={-470} r={8} fill="#c8d6dc" />
+        </g>
+      );
+    }
+    case "dinamo": {
+      // dinamo de Edison de 1879 («Mary Ann»): dos electroimanes altos y verticales de hierro negro, el inducido abajo y una correa de cuero
+      const hierro = "#2a2a2c";
+      const giro = (f * 12) % 360;
+      return (
+        <g>
+          <rect x={-260} y={-60} width={520} height={60} fill="#5a4030" />
+          {[-90, 90].map((x) => (
+            <g key={x}>
+              <rect x={x - 55} y={-760} width={110} height={560} rx={20} fill={hierro} />
+              {Array.from({ length: 12 }).map((_, i) => <line key={i} x1={x - 55} y1={-740 + i * 44} x2={x + 55} y2={-740 + i * 44} stroke="#6a4a2a" strokeWidth={6} />)}
+            </g>
+          ))}
+          <rect x={-160} y={-800} width={320} height={50} rx={10} fill={hierro} />
+          <circle cx={0} cy={-150} r={90} fill="#8a6a3a" />
+          <g transform={`rotate(${giro} 0 -150)`}>{[0, 60, 120].map((a) => <line key={a} x1={0} y1={-150} x2={80 * Math.cos((a * Math.PI) / 180)} y2={-150 + 80 * Math.sin((a * Math.PI) / 180)} stroke="#3a2a1a" strokeWidth={10} />)}</g>
+          <path d="M80 -170 L420 -120 M80 -130 L420 -100" stroke="#3a2a1a" strokeWidth={10} />
+        </g>
+      );
+    }
+    case "laboratorio-menlo": {
+      // laboratorio de madera de dos plantas pintado de blanco (Menlo Park, 1879), con porche y ventanas; de noche, iluminado con lámparas eléctricas
+      const blanco = noche ? "#6a6c70" : "#f0eee6";
+      const luz = noche ? "#ffd27a" : "#3a4652";
+      return (
+        <g>
+          <rect x={-620} y={-620} width={1240} height={620} fill={blanco} />
+          {Array.from({ length: 14 }).map((_, i) => <line key={i} x1={-620} y1={-600 + i * 44} x2={620} y2={-600 + i * 44} stroke={oscurecer(blanco, 0.08)} strokeWidth={4} />)}
+          <path d="M-680 -620 L0 -800 L680 -620Z" fill={noche ? "#2a2a30" : "#5a5e66"} />
+          {[-480, -280, -80, 120, 320, 480].map((x) => <rect key={x} x={x - 50} y={-560} width={100} height={150} fill={luz} stroke="#3a3a3a" strokeWidth={6} />)}
+          {[-480, -280, 280, 480].map((x) => <rect key={x} x={x - 50} y={-330} width={100} height={150} fill={luz} stroke="#3a3a3a" strokeWidth={6} />)}
+          <rect x={-90} y={-300} width={180} height={300} fill="#5a4030" />
+          <rect x={-640} y={-150} width={1280} height={24} fill={oscurecer(blanco, 0.2)} />
+          {[-600, -300, 300, 600].map((x) => <rect key={x} x={x - 10} y={-150} width={20} height={150} fill={oscurecer(blanco, 0.2)} />)}
+          {noche && [-480, -280, 280, 480].map((x) => <circle key={x} cx={x} cy={-255} r={90} fill="#ffd27a" opacity={0.15} />)}
         </g>
       );
     }

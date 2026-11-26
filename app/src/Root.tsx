@@ -1,6 +1,7 @@
 import { Composition, staticFile } from "remotion";
 import { Video, duracionTotal } from "./Video";
 import { Miniatura } from "./Miniatura";
+import { Galeria } from "./Galeria";
 import type { Manifiesto } from "./tipos";
 
 type Props = { slug: string; manifiesto?: Manifiesto };
@@ -16,6 +17,7 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="Largo" component={Video} fps={30} width={1920} height={1080} durationInFrames={240} defaultProps={{ slug: "farero-1890" } as Props} calculateMetadata={meta("largo")} />
     <Composition id="MiniaturaLargo" component={Miniatura} fps={30} width={1280} height={720} durationInFrames={60} defaultProps={{ slug: "farero-1890" } as Props} calculateMetadata={async (a) => ({ ...(await meta("largo")(a)), durationInFrames: 60 })} />
     <Composition id="MiniaturaShort" component={Miniatura} fps={30} width={1080} height={1920} durationInFrames={60} defaultProps={{ slug: "farero-1890" } as Props} calculateMetadata={async (a) => ({ ...(await meta("largo")(a)), durationInFrames: 60 })} />
+    <Composition id="Galeria" component={Galeria} fps={30} width={1920} height={1080} durationInFrames={120} defaultProps={{ tipos: ["casa"], noche: false }} />
     <Composition id="Short" component={Video} fps={30} width={1080} height={1920} durationInFrames={240} defaultProps={{ slug: "farero-1890" } as Props} calculateMetadata={meta("short")} />
   </>
 );
