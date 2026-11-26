@@ -304,7 +304,7 @@
       },
       {
        "tipo": "hoguera",
-       "x": -0.3,
+       "x": -0.05,
        "escala": 0.5
       },
       {
@@ -316,7 +316,7 @@
     "personajes": [
      {
       "quien": "sabino",
-      "x": 0.2,
+      "x": 0.3,
       "accion": "quieto",
       "emocion": "sorpresa",
       "mirar": -1
@@ -1582,7 +1582,7 @@
     "personajes": [
      {
       "quien": "restituto_pileo",
-      "x": -0.4,
+      "x": 0.42,
       "accion": "celebrar",
       "emocion": "feliz",
       "mirar": 1,
@@ -1597,7 +1597,7 @@
      },
      {
       "quien": "chico",
-      "x": 0.42,
+      "x": -0.4,
       "accion": "celebrar",
       "emocion": "feliz",
       "mirar": -1,
@@ -2714,6 +2714,12 @@
        "tipo": "roca",
        "x": -1.45,
        "escala": 0.7
+      },
+      {
+       "tipo": "piramide",
+       "x": 0.8,
+       "escala": 0.4,
+       "detras": false
       }
      ]
     },
@@ -2836,7 +2842,7 @@
    "descripcion": "Sabemos que el templo del Sol de Roma se dedicó en el 274; el día 25 es una deducción moderna. Narrador inventado. #shorts #historia #roma #navidad #solinvicto"
   },
   {
-   "desde": 53,
+   "desde": 52,
    "hasta": 55,
    "rotulo": "¿NAVIDAD COPIADA DEL SOL?",
    "titulo": "¿La Navidad copió la fiesta del Sol Invicto? Lo que dicen los textos",
@@ -2867,7 +2873,7 @@
   ],
   "miniatura": {
    "texto": "¿NAVIDAD O SOL INVICTO?",
-   "escena": 55,
+   "escena": 0,
    "quien": "sabino",
    "emocion": "sorpresa"
   }
