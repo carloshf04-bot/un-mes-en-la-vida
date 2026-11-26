@@ -136,7 +136,10 @@ const producirPieza = (formato) => {
   const audios = escenas.map((e, i) => {
     const archivo = `voz-${String(i).padStart(3, "0")}.wav`;
     execFileSync("ffmpeg", ["-y", "-v", "error", "-i", trabajos[i].salida, "-af", `silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse${tempo},highpass=f=70,bass=g=3:f=150,acompressor=threshold=-18dB:ratio=3,loudnorm=I=-16:TP=-1.5,afade=t=in:d=0.015,areverse,afade=t=in:d=0.02,areverse`, "-ar", "44100", join(dir, archivo)]);
-    const tiempos = revision[trabajos[i].clave]?.tiempos;
+    // tiempos de whisper medidos a la velocidad de la revisión (1.15 si no consta); se reescalan a la actual
+    const rv = revision[trabajos[i].clave];
+    const escala = motor === "chatterbox" ? (rv?.velocidad ?? 1.15) / (guion.velocidad ?? 1) : 1;
+    const tiempos = rv?.tiempos?.map((x) => Math.round(x * escala * 100) / 100);
     return { archivo, clave: trabajos[i].clave, duracion: ffprobeDur(join(dir, archivo)), env: envolvente(join(dir, archivo)), ...(tiempos ? { tiempos } : {}) };
   });
   const total = audios.reduce((a, b) => a + b.duracion + COLCHON, 0) + 2;

@@ -11,6 +11,8 @@ Cada episodio es **un archivo JSON** en `guiones/<slug>.json`. De ese archivo sa
 
 La voz (Chatterbox, narrador de España, con `"velocidad": 1.15`) lee unas **120 palabras por minuto**: el largo ideal tiene **1.350–1.550 palabras** (unos 12 min) y el Short **100–125**. Para comprobarlo, ejecuta `node scripts/producir.mjs <slug> --sin-render` y mira la línea "duración total".
 
+**Frases cortas.** Chatterbox lee mucho más deprisa las frases largas: con una sola frase larga por escena (unas 65 en todo el largo, semana del 21 de diciembre) salió a ~190 palabras/min y el largo se quedó en 8–9 min. Escribe **2 o 3 frases por escena** (130–150 en el largo), cortadas con punto. Si un guion ya tiene la voz hecha con frases largas, pon `"velocidad": 1.0`: el `atempo` se aplica después de la caché, así que no hay que regenerar la voz, y `producir.mjs` reescala los tiempos de los subtítulos.
+
 ## Reglas de escritura
 
 1. **Primera persona.** Habla el protagonista: "Me llamo…", "Subo los escalones…".

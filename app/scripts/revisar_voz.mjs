@@ -172,6 +172,7 @@ for (let i = 0; i < audios.length; i++) {
   if (sil.length) motivos.push(`silencio de ${Math.max(...sil).toFixed(1)} s dentro de la frase`);
   r.oido = textoW;
   r.tiempos = tiempos.map((x) => Math.round(x * 100) / 100);
+  r.velocidad = guion.velocidad ?? 1; // los tiempos son del audio a esta velocidad
   if (!motivos.length) {
     r.estado = "ok";
     if (errores.length) r.nota = `diferencias menores: ${errores.slice(0, 3).join("; ")}`;
